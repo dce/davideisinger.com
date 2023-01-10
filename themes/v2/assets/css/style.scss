@@ -16,6 +16,11 @@ a {
   color: blue;
 }
 
+hr {
+  border: 0;
+  border-top: 2px solid #eee;
+}
+
 header, #content, footer {
   max-width: 800px;
 }
