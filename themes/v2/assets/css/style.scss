@@ -1,8 +1,29 @@
 body {
   font-family: monospace;
+  font-size: 13px;
   padding: 50px;
 }
 
-#content {
+h1, h2, h3 {
+  font-size: 1em;
+}
+
+h2, h3 {
+  color: #aaa;
+}
+
+a {
+  color: blue;
+}
+
+header, #content, footer {
   max-width: 800px;
+}
+
+footer {
+  text-align: center;
+
+  hr {
+    margin-bottom: 12px;
+  }
 }
