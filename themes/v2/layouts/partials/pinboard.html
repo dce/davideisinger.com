@@ -1,0 +1,16 @@
+<section>
+  <hr>
+
+  {{ with getJSON "https://feeds.pinboard.in/json/u:DCE/" }}
+    <h3>Links (from <a href="https://pinboard.in/u:DCE">Pinboard</a>)</h3>
+
+    <ul>
+      {{ range first 5 . }}
+        <li>
+          <a href="{{ .u }}">{{ .d }}</a> ({{ dateFormat "2006-01-02" .dt}})
+          <p>{{ .n }}</p>
+        </li>
+      {{ end }}
+    </ul>
+  {{ end }}
+</section>
