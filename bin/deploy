@@ -1,3 +1,4 @@
-cd public \
+hugo \
+  && cd public \
   && scp -r . root@107.170.116.37:/var/www/davideisinger.com \
   && cd ..
