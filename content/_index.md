@@ -1,6 +1,6 @@
 ## Software Developer, Durham NC
 
-New site coming soon.
+New site coming soon
 
 [Version 1 of this website available here][1]
 
