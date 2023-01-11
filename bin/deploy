@@ -1,5 +1,9 @@
 rm -rf public \
   && hugo --ignoreCache \
   && cd public \
-  && scp -r . root@107.170.116.37:/var/www/davideisinger.com \
+  && scp \
+    -o PubkeyAcceptedKeyTypes=+ssh-rsa \
+    -r \
+    . \
+    www-data@107.170.116.37:/var/www/davideisinger.com \
   && cd ..
