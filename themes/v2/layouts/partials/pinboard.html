@@ -7,7 +7,7 @@
     <ul>
       {{ range first 5 . }}
         <li>
-          <a href="{{ .u }}">{{ .d }}</a> ({{ dateFormat "2006-01-02" .dt }})
+          <a href="{{ .u }}">{{ .d }}</a> <span class="nowrap">({{ dateFormat "2006-01-02" .dt }})</span>
           <p>{{ .n }}</p>
         </li>
       {{ end }}
