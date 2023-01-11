@@ -13,9 +13,6 @@ jobs:
           hugo-version: "0.109.0"
           extended: true
 
-      - name: Build
-        run: hugo
-
       - name: Install SSH deploy key
         if: ${{ github.ref == 'refs/heads/main' }}
         env:
@@ -29,6 +26,4 @@ jobs:
 
       - name: Deploy
         if: ${{ github.ref == 'refs/heads/main' }}
-        run: |
-          cd public
-          scp -o PubkeyAcceptedKeyTypes=+ssh-rsa -r * www-data@107.170.116.37:/var/www/davideisinger.com
+        run: bin/deploy
