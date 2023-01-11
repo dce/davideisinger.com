@@ -21,6 +21,16 @@ hr {
   border-top: 2px solid #eee;
 }
 
+ul {
+  list-style-type: '*';
+  margin-left: 1ch;
+  padding: 0;
+
+  li {
+    padding-left: 1ch;
+  }
+}
+
 header, #content, footer {
   max-width: 800px;
 }
