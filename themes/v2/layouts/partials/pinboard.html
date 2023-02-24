@@ -5,7 +5,7 @@
 
   {{ with getJSON "https://feeds.pinboard.in/json/u:DCE/" }}
     <ul>
-      {{ range first 5 . }}
+      {{ range first 10 . }}
         <li>
           <a href="{{ .u }}">{{ .d }}</a> <span class="nowrap">({{ dateFormat "2006-01-02" .dt }})</span>
           <p>{{ .n }}</p>
