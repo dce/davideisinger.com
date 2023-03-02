@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <section>
+    <hr>
+
+    {{ range (where .Site.RegularPages "Type" "in" "posts") }}
+      <h3>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        {{ .Date | time.Format "(2006-01-02)" }}
+      </h3>
+    {{ end }}
+  </section>
+{{ end }}
