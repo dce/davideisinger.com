@@ -2,6 +2,8 @@
 title: "Dispatch #1 (March 2023)"
 date: 2023-03-02T12:18:17-05:00
 draft: false
+tags:
+- dispatch
 ---
 
 With the warm winter we've been having in NC, I've gotten to take Nev to and from daycare on the e-bike a whole bunch, which has been just fantastic. I'm wary of becoming too much of an evangelist, but it really does feel like they can replace cars for a lot of folks, and they're fun as hell.
