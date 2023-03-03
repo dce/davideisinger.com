@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <hr>
+
+  <h2>{{ .Title }}</h2>
+
+  <h3>
+    Posted {{ .Date | time.Format "January 1, 2006" }}
+
+    {{ if .Params.tags }}
+      under
+
+      {{ range .Params.tags }}
+        <a href="/tags/{{ . | urlize }}">#{{ . }}</a>
+      {{ end }}
+    {{ end }}
+  </h3>
+
+  {{ .Content }}
+{{ end }}

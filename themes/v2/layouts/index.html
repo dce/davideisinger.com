@@ -4,14 +4,22 @@
   <section>
     <hr>
 
-    {{ range (where .Site.RegularPages "Type" "in" "posts") }}
-      <h3>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-        {{ .Date | time.Format "(2006-01-02)" }}
-      </h3>
+    <h3>
+      <a href="/journal">Journal</a>
+    </h3>
 
-      {{ .Summary }}
-    {{ end }}
+    <ul>
+      {{ range (where .Site.RegularPages "Type" "in" "journal") }}
+        <li>
+          <p>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            {{ .Date | time.Format "(2006-01-02)" }}
+          </p>
+
+          {{ .Summary }}
+        </li>
+      {{ end }}
+    </ul>
   </section>
 
   {{- partial "pinboard.html" . -}}
