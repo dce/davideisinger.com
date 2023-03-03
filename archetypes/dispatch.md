@@ -2,23 +2,27 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: false
+tags:
+- dispatch
 ---
 
-Some thoughts here ...
+Some thoughts here...
 
-**Adventure:**
+<!--more-->
 
-**Project:**
+This month:
 
-**Skill:**
+* Adventure:
+* Project:
+* Skill:
 
-**Reading:**
+Reading:
 
-* **Fiction:**
-* **Non-fiction:**
+* Fiction:
+* Non-fiction:
 
-**Links:**
+Links:
 
-* Blah
-* Blah
-* Blah
+*
+*
+*
