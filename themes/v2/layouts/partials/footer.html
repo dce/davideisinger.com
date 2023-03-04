@@ -1,7 +1,7 @@
 <footer>
   <hr>
 
-  Rendered {{ now | dateFormat "2006-01-02 15:04:05 MST" }} from
+  Rendered {{ now | dateFormat "2006-01-02 15:04:05 MST" }} •
   {{ with .GitInfo }}
     <a href="https://github.com/dce/davideisinger.com/commit/{{ .Hash }}">
       {{ substr .Hash 0 7}}
