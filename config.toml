@@ -2,3 +2,4 @@ baseURL = 'https://davideisinger.com/'
 languageCode = 'en-us'
 title = 'David Eisinger'
 theme = 'v2'
+enableGitInfo = true
