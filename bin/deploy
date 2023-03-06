@@ -1,5 +1,7 @@
 rm -rf public
 
+source bin/get-last-commit.sh
+
 hugo --ignoreCache
 
 rsync \
