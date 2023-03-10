@@ -4,7 +4,7 @@
   <h2>{{ .Title }}</h2>
 
   <h3>
-    Posted {{ .Date | time.Format "January _2, 2006" }}
+    Posted {{ .Date | time.Format "2006-01-02" }}
 
     {{ if .Params.tags }}
       under
