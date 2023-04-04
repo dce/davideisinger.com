@@ -3,3 +3,8 @@ languageCode = 'en-us'
 title = 'David Eisinger'
 theme = 'v2'
 enableGitInfo = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
