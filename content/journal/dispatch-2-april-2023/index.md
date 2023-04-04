@@ -44,10 +44,13 @@ Links:
 
 * [verbose.club][8] -- I got to work on this as part of Pointless Week. Super fun to build, and the game's actually pretty good!
 * [Caddy - The Ultimate Server with Automatic HTTPS][9] -- used this to serve 👆 in a docker compose setup.
-* [How to tell if AI threatens YOUR job: No, really, this post may give you a way to answer that][10]
-* [This Page is Designed to Last: A Manifesto for Preserving Content on the Web][11]
+* [How to tell if AI threatens YOUR job: No, really, this post may give you a way to answer that][10][^10-backup]
+* [This Page is Designed to Last: A Manifesto for Preserving Content on the Web][11][^11-backup]
 
 [8]: https://verbose.club/
 [9]: https://caddyserver.com/
 [10]: https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/
 [11]: https://jeffhuang.com/designed_to_last/
+
+[^10-backup]: <a href="blog-testdouble-com-rtepba.txt">Backed up 2023-04-03 23:50:56 -0400</a>
+[^11-backup]: <a href="jeffhuang-com-arq78r.txt">Backed up 2023-04-03 23:51:02 -0400</a>
