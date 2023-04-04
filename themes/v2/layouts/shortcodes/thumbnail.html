@@ -1,0 +1,14 @@
+{{ $orig := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
+{{ $options := .Get 1 }}
+{{ $img := $orig.Fill $options }}
+
+<figure>
+  <a href="{{ $orig.RelPermalink }}">
+    <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}">
+    <figcaption>
+      {{ with .Inner }}
+        {{ . }}
+      {{ end }}
+    </figcaption>
+  </a>
+</figure>
