@@ -24,6 +24,14 @@ Reading:
 
 Links:
 
-* [Electric Bike, Stupid Love of My Life — by Craig Mod](https://craigmod.com/essays/electric_bikes/)
-* [Programming is a Pop Culture – Baldur Bjarnason](https://www.baldurbjarnason.com/2022/programming-is-a-pop-culture/)
-* [Julia Cameron Wants You to Do Your Morning Pages - The New York Times](https://www.nytimes.com/2019/02/02/style/julia-cameron-the-artists-way.html)
+* [Electric Bike, Stupid Love of My Life — by Craig Mod][1][^1-backup]
+* [Programming is a Pop Culture – Baldur Bjarnason][2][^2-backup]
+* [Julia Cameron Wants You to Do Your Morning Pages - The New York Times][3][^3-backup]
+
+[1]: https://craigmod.com/essays/electric_bikes/
+[2]: https://www.baldurbjarnason.com/2022/programming-is-a-pop-culture/
+[3]: https://www.nytimes.com/2019/02/02/style/julia-cameron-the-artists-way.html
+
+[^1-backup]: <a href="craigmod-com-ts8csh.txt">Backed up 2023-04-03 23:56:02 -0400</a>
+[^2-backup]: <a href="www-baldurbjarnason-com-7p5031.txt">Backed up 2023-04-03 23:57:18 -0400</a>
+[^3-backup]: <a href="www-nytimes-com-tq2xdi.txt">Backed up 2023-04-03 23:57:38 -0400</a>
