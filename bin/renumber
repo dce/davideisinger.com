@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+
+filename = ARGV.last
+
+unless filename
+  warn "Please supply a filename"
+  exit 1
+end
+
+content = File.read(filename)
+
+links = content.scan(/\[\d+\]/).uniq
+
+links.zip(1..).each do |old_id, new_id|
+  content.gsub! old_id, "[$$#{new_id}]"
+end
+
+content.gsub!("$$", "")
+
+File.write(filename, content)
