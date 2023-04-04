@@ -20,21 +20,25 @@ unless link_id
   exit 1
 end
 
-uri = URI.parse(url)
+page_content = `curl -s #{url}`
+text_content = `w3m #{url}`
 
-link_content = `w3m #{url}`
+title = page_content
+  .scan(/<title>(.*)<\/title>/)
+  .first
+  .first
 
-hash = Digest::MD5.base64digest(url + link_content)
+hash = Digest::MD5.base64digest(url + text_content)
   .scan(/[a-z0-9]/i)
   .first(6)
   .join
   .downcase
 
-link_filename = "#{uri.host.gsub(".", "-")}-#{hash}.txt"
+link_filename = "#{URI.parse(url).host.gsub(".", "-")}-#{hash}.txt"
 
-File.write("#{path}/#{link_filename}", link_content)
+File.write("#{path}/#{link_filename}", text_content)
 
 content.gsub!(/\[#{link_id}\]([^:])/, "[#{link_id}][^#{link_id}-backup]\\1")
 
 File.write(filename, content)
-File.write(filename, "\n[^#{link_id}-backup]: <a href=\"#{link_filename}\">Backed up #{Time.now}</a>", mode: "a+")
+File.write(filename, "\n[^#{link_id}-backup]: "<a href=\"#{url}\">#{title}</a>"; <a href=\"#{link_filename}\">backed up #{Time.now.utc}</a>", mode: "a+")
