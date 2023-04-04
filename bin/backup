@@ -3,9 +3,9 @@
 require "uri"
 require "digest"
 
-filename, url = ARGV
+filename, *urls = ARGV
 
-unless filename && url
+unless filename && urls.any?
   warn "Please supply a filename and url"
   exit 1
 end
@@ -13,32 +13,40 @@ end
 path = filename.sub(File.basename(filename), "")
 content = File.read(filename)
 
-link_id = content.scan(/\[(\d+)\]: #{url}/).first.first
+urls.each do |url|
+  link_id = content.scan(/\[(\d+)\]: #{url}/).first.first
 
-unless link_id
-  warn "Link not found"
-  exit 1
+  unless link_id
+    warn "Link not found"
+    exit 1
+  end
+
+  page_content = `curl -s #{url}`
+  text_content = `w3m #{url}`
+
+  begin
+    title = page_content
+      .scan(/<title>(.*?)<\/title>/mi)
+      .first
+      .first
+      .strip
+  rescue => ex
+    warn "Title error (#{ex}; #{url})"
+    exit 1
+  end
+
+  hash = Digest::MD5.base64digest(url + text_content)
+    .scan(/[a-z0-9]/i)
+    .first(6)
+    .join
+    .downcase
+
+  link_filename = "#{URI.parse(url).host.gsub(".", "-")}-#{hash}.txt"
+
+  File.write("#{path}/#{link_filename}", text_content)
+
+  content.gsub!(/\[#{link_id}\]([^:])/, "[#{link_id}][^#{link_id}-backup]\\1")
+  content << "\n[^#{link_id}-backup]: \"<a href=\"#{url}\">#{title}</a>\"; <a href=\"#{link_filename}\">backed up #{Time.now.utc}</a>"
 end
 
-page_content = `curl -s #{url}`
-text_content = `w3m #{url}`
-
-title = page_content
-  .scan(/<title>(.*)<\/title>/)
-  .first
-  .first
-
-hash = Digest::MD5.base64digest(url + text_content)
-  .scan(/[a-z0-9]/i)
-  .first(6)
-  .join
-  .downcase
-
-link_filename = "#{URI.parse(url).host.gsub(".", "-")}-#{hash}.txt"
-
-File.write("#{path}/#{link_filename}", text_content)
-
-content.gsub!(/\[#{link_id}\]([^:])/, "[#{link_id}][^#{link_id}-backup]\\1")
-
 File.write(filename, content)
-File.write(filename, "\n[^#{link_id}-backup]: "<a href=\"#{url}\">#{title}</a>"; <a href=\"#{link_filename}\">backed up #{Time.now.utc}</a>", mode: "a+")
