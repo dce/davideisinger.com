@@ -26,7 +26,7 @@ urls.each do |url|
 
   begin
     title = page_content
-      .scan(/<title>(.*?)<\/title>/mi)
+      .scan(/<title[^>]*>(.*?)<\/title>/mi)
       .first
       .first
       .strip
