@@ -6,13 +6,13 @@ tags:
 - dispatch
 ---
 
-March was great -- took a two night/one day work retreat, had my annual trip to Las Vegas, and participated in Viget's [Pointless Weekend][1]. Also got to spend some quality time with Nevie; she's a great kid and it's amazing to see her personality come out.
+March was great -- took a two night/one day work retreat, spent a weekend out in the woods with the family, had my annual trip to Las Vegas, and participated in Viget's [Pointless Week][1]. Also got to spend some quality time with Nevie; she's a great kid and it's amazing to see her personality come out.
 
 <!--more-->
 
 In April, I'm finishing training for (and then running) the [Tar Heel 10 Miler][2], and heading down to Lake Norman for the first time in 2023. Hoping to get Claire on an e-bike this month, as well (eyeing the [Aventon Pace 500.3][3]).
 
-[1]: https://www.viget.com/articles/whats-the-point-of-pointless-weekend/
+[1]: https://www.viget.com/articles/the-enduring-point-of-pointless-corp/
 [2]: https://capstoneraces.com/tar-heel-10-miler/
 [3]: https://www.aventon.com/products/pace500-3-step-through-ebike?variant=42381879279811
 
@@ -42,7 +42,7 @@ Reading:
 
 Links:
 
-* [verbose.club][8] -- I got to work on this as part of Pointless Weekend. Super fun to build, and the game's actually pretty good!
+* [verbose.club][8] -- I got to work on this as part of Pointless Week. Super fun to build, and the game's actually pretty good!
 * [Caddy - The Ultimate Server with Automatic HTTPS][9] -- used this to serve 👆 in a docker compose setup.
 * [How to tell if AI threatens YOUR job: No, really, this post may give you a way to answer that][10]
 * [This Page is Designed to Last: A Manifesto for Preserving Content on the Web][11]
