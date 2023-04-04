@@ -50,3 +50,17 @@ footer {
 .nowrap {
   white-space: nowrap;
 }
+
+.image-set {
+  display: flex;
+  gap: 2em;
+
+  figure {
+    margin: 0;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
