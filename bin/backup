@@ -1,0 +1,40 @@
+#!/usr/bin/env ruby
+
+require "uri"
+require "digest"
+
+filename, url = ARGV
+
+unless filename && url
+  warn "Please supply a filename and url"
+  exit 1
+end
+
+path = filename.sub(File.basename(filename), "")
+content = File.read(filename)
+
+link_id = content.scan(/\[(\d+)\]: #{url}/).first.first
+
+unless link_id
+  warn "Link not found"
+  exit 1
+end
+
+uri = URI.parse(url)
+
+link_content = `w3m #{url}`
+
+hash = Digest::MD5.base64digest(url + link_content)
+  .scan(/[a-z0-9]/i)
+  .first(6)
+  .join
+  .downcase
+
+link_filename = "#{uri.host.gsub(".", "-")}-#{hash}.txt"
+
+File.write("#{path}/#{link_filename}", link_content)
+
+content.gsub!(/\[#{link_id}\]([^:])/, "[#{link_id}][^#{link_id}-backup]\\1")
+
+File.write(filename, content)
+File.write(filename, "\n[^#{link_id}-backup]: <a href=\"#{link_filename}\">Backed up #{Time.now}</a>", mode: "a+")
