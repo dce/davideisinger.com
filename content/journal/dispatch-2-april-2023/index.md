@@ -29,7 +29,7 @@ This month:
 * Project: closet shelves (again)
 * Skill: [Go][5] -- every time I find a new tool I'm excited about, it's written in Go. Seems about time to learn it and make something.
 
-[4]: https://www.mapometer.com/canoeing/route_5442768.html
+[4]: catawba.pdf
 [5]: https://go.dev/
 
 Reading:
