@@ -16,7 +16,7 @@
             {{ .Date | time.Format "(2006-01-02)" }}
           </p>
 
-          {{ .Summary }}
+          {{ .Summary | plainify | safeHTML }}
         </li>
       {{ end }}
     </ul>

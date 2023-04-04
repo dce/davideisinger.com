@@ -6,7 +6,7 @@ tags:
 - dispatch
 ---
 
-March was great -- took a two night/one day work retreat, spent a weekend out in the woods with the family, had my annual trip to Las Vegas, and participated in Viget's [Pointless Week][1]. Also got to spend some quality time with Nevie; she's a great kid and it's amazing to see her personality come out.
+March was great -- took a two night/one day work retreat, spent a weekend out in the woods with the family, had my annual trip to Las Vegas, and participated in Viget's [Pointless Week][1][^1-backup]. Also got to spend some quality time with Nevie; she's a great kid and it's amazing to see her personality come out.
 
 <!--more-->
 
@@ -52,5 +52,6 @@ Links:
 [10]: https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/
 [11]: https://jeffhuang.com/designed_to_last/
 
-[^10-backup]: <a href="blog-testdouble-com-rtepba.txt">Backed up 2023-04-03 23:50:56 -0400</a>
-[^11-backup]: <a href="jeffhuang-com-arq78r.txt">Backed up 2023-04-03 23:51:02 -0400</a>
+[^10-backup]: "<a href="https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/">How to tell if AI threatens YOUR job: No, really, this post may give you a way to answer that</a>"; <a href="blog-testdouble-com-rtepba.txt">backed up 2023-04-04 15:39:36 UTC</a>
+[^11-backup]: "<a href="https://jeffhuang.com/designed_to_last/">This Page is Designed to Last: A Manifesto for Preserving Content on the Web</a>"; <a href="jeffhuang-com-arq78r.txt">backed up 2023-04-04 15:39:37 UTC</a>
+[^1-backup]: "<a href="https://www.viget.com/articles/the-enduring-point-of-pointless-corp/">The Enduring Point of Pointless Corp | Viget</a>"; <a href="www-viget-com-5w5oyj.txt">backed up 2023-04-04 15:52:27 UTC</a>

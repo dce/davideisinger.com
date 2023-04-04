@@ -32,6 +32,6 @@ Links:
 [2]: https://www.baldurbjarnason.com/2022/programming-is-a-pop-culture/
 [3]: https://www.nytimes.com/2019/02/02/style/julia-cameron-the-artists-way.html
 
-[^1-backup]: <a href="craigmod-com-ts8csh.txt">Backed up 2023-04-03 23:56:02 -0400</a>
-[^2-backup]: <a href="www-baldurbjarnason-com-7p5031.txt">Backed up 2023-04-03 23:57:18 -0400</a>
-[^3-backup]: <a href="www-nytimes-com-tq2xdi.txt">Backed up 2023-04-03 23:57:38 -0400</a>
+[^1-backup]: "<a href="https://craigmod.com/essays/electric_bikes/">Electric Bike, Stupid Love of My Life — by Craig Mod</a>"; <a href="craigmod-com-yw1bcq.txt">backed up 2023-04-04 15:54:35 UTC</a>
+[^2-backup]: "<a href="https://www.baldurbjarnason.com/2022/programming-is-a-pop-culture/">Programming is a Pop Culture – Baldur Bjarnason</a>"; <a href="www-baldurbjarnason-com-7p5031.txt">backed up 2023-04-04 15:54:36 UTC</a>
+[^3-backup]: "<a href="https://www.nytimes.com/2019/02/02/style/julia-cameron-the-artists-way.html">Julia Cameron Wants You to Do Your Morning Pages - The New York Times</a>"; <a href="www-nytimes-com-tq2xdi.txt">backed up 2023-04-04 15:54:36 UTC</a>
