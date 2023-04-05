@@ -7,16 +7,16 @@ tags:
 references:
 - title: "The Enduring Point of Pointless Corp | Viget"
   url: https://www.viget.com/articles/the-enduring-point-of-pointless-corp/
-  date: 2023-04-04T23:45:46Z
-  file: www-viget-com-5w5oyj.txt
+  date: 2023-04-05T14:58:49Z
+  file: www-viget-com-97ckk4.txt
 - title: "How to tell if AI threatens YOUR job: No, really, this post may give you a way to answer that"
   url: https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/
-  date: 2023-04-04T23:45:46Z
-  file: blog-testdouble-com-rtepba.txt
+  date: 2023-04-05T14:58:50Z
+  file: blog-testdouble-com-ft5qbw.txt
 - title: "This Page is Designed to Last: A Manifesto for Preserving Content on the Web"
   url: https://jeffhuang.com/designed_to_last/
-  date: 2023-04-04T23:45:47Z
-  file: jeffhuang-com-arq78r.txt
+  date: 2023-04-05T14:58:50Z
+  file: jeffhuang-com-njdbjn.txt
 ---
 
 March was great -- took a two night/one day work retreat, spent a weekend out in the woods with the family, had my annual trip to Las Vegas, and participated in Viget's [Pointless Week][1]. Also got to spend some quality time with Nevie; she's a great kid and it's amazing to see her personality come out.

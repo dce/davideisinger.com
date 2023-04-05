@@ -1,0 +1,1076 @@
+   #[1]All posts for Baldur Bjarnason
+
+     * [2]Essays
+     * [3]Newsletter
+     * [4]Ebook
+     * [5]Contact
+
+   [6]Baldur Bjarnason
+
+   Web dev at the end of the world, from Hveragerði, Iceland
+
+   I’m available [7]as a consultant. I also have [8]a book out.
+
+   21 November 2022
+
+Programming is a Pop Culture
+
+   (What follows is an extract from [9]Out of the Software Crisis, lightly
+   edited to work as a blog post.)
+     __________________________________________________________________
+
+     So I think what happened is computing has turned into pop culture
+     and the universities are not helping in general, at least not in the
+     US.
+
+     So, Cicero---anybody know a good Cicero quote having to do with the
+     present and past? Let's check your classical education here. So, you
+     know who Cicero was. He was one of those old Roman guys.
+
+     So, Cicero once wrote: 'He who knows only his own generation remains
+     forever a child.'
+
+   [10]Programming and Scaling (Alan Kay, 2011)
+
+   The programming pop culture defines change—any change—as progress. Most
+   developers, myself included, have a fascination with novelty. If it’s
+   new, then it must be an improvement. You even hear this stated outright
+   as an argument by developers: it’s newer and therefore better. Trends
+   in software development are rarely based on objective observation or
+   sensible practice. This endless chasing of trends leads to projects
+   being needlessly rewritten, code being abandoned, and new projects
+   being started when fixing the bugs in an old project would have done
+   the same. The stocks of the software development system are flushed out
+   at a moment’s notice simply because the developers found something
+   shinier.
+
+   Experienced developers are aware of this tendency in themselves and
+   work to mitigate it, but younger developers are often under the
+   mistaken impression that this is how software development works. Unless
+   they can pare back this tendency or are matched with teammates who hold
+   them back, this tendency can lead to immense destruction of value for
+   an organisation.
+
+   Pop cultures favour the visual aesthetic of the day. We all know what
+   sort of aesthetic designers commonly favour. Small, low-contrast text,
+   lots of whitespace, no pure whites or pure blacks (just greys). The
+   details vary with fashion, but each generation of designers has a
+   preferred visual aesthetic. That aesthetic tests poorly; the text is
+   illegible; the layout doesn’t have enough contrast. The information
+   density is so sparse it’s effectively non-existent.
+
+   Looks pretty, though.
+
+   Coders have a similar tendency, their preferred aesthetic is just a bit
+   different, but as with designers, it tests horribly when put in front
+   of genuine users. The exact details of the preferred aesthetic tend to
+   vary from generation to generation. One group prefers light-on-dark
+   text (despite not suffering from conditions that benefit from dark
+   mode) and unusable hyper-complex layouts where everything is
+   configurable. Another group goes for ultra-minimalism where nothing is
+   shown by default. You constantly scrub around and hunt for a button, a
+   widget—anything that even vaguely resembles an affordance. This is
+   usually not an issue if you have designers on the team. If you’re
+   letting the programmers design the user interface or are a programmer
+   designing a user interface, you need to be aware of it.
+
+   But this adherence to a specific aesthetic isn’t limited to designs.
+   It’s also an issue when it comes to the code itself.
+
+   The programming pop culture favours specific code aesthetics based on
+   the trends of the day. I’m not talking about code style or formatting.
+   The code in a project should adhere to a single style, simple as that.
+   The issue is that the programming pop culture demands that code exhibit
+   the latest popular aesthetics of rigour, formality, and cleverness.
+   Whether the code actually is rigorous, formal, or clever matters less.
+   A few years ago, as the popularity of the Ruby programming language
+   peaked, a certain dynamism and trickery were en vogue. It didn’t matter
+   if you were writing in Ruby, JavaScript, or Objective-C. Your code had
+   to have a level of “magic” to it. Metaprogramming, syntax-hacking
+   languages to create ad hoc Domain-Specific Languages, tricks with
+   extreme late binding, and more were frequent topics on developer
+   weblogs and forums. Even a phrase like “objective-c runtime
+   metaprogramming” will date you to a specific generation of native app
+   developers almost down to a single year.
+
+   As with all of these pop culture trends in programming, this led to
+   unreadable code that was impossible to work with or fix as soon as it
+   faded from popular consciousness.
+
+   The current trend is towards the aesthetics of correctness. Everything
+   has to look like it has strong or static typing. It doesn’t have to
+   really have static typing. That can all be made up after the fact in a
+   declaration file. It merely needs to have the aesthetics of types. Type
+   annotations everywhere, implementing logic through type system
+   trickery, and forcing any and all dynamism out of the system in the
+   name of correctness is the name of the game.
+
+   A part of this trend is the unpopularity of the approaches and
+   languages that are seen as less rigorous. CSS is dropped in favour of
+   statically typed CSS-in-JS approaches. HTML is dropped in favour of a
+   strict inline XML-like markup format called JSX. Just a few years ago,
+   everybody in web development hated and dropped XML and XHTML
+   specifically because it was too strict and felt less dynamic and
+   flexible than HTML. At some point, pop culture will bore of this and
+   swing its attention back the other way.
+
+   It’s a fashion industry. Trends come; trends go. The lack of historical
+   awareness is considered by most to be a feature.
+
+   This rigour is useful in moderation. Static typing does prevent bugs.
+   Usually, they are the same sort of bugs unit testing prevents. Both
+   have immense value as tools to manage your software development.
+   Currently, the fashion is to favour static typing over unit testing for
+   establishing a certain base level of correctness in your code. At some
+   point, they are likely to switch again. They have a couple of times in
+   the past. That you could use both at the same time and get the benefits
+   of both doesn’t enter the discourse. Static typing with compile-time
+   correctness checks has its uses. So do dynamism, extreme late binding,
+   and metaprogramming. Most of these approaches can be used together, but
+   that isn’t how pop culture works. Pop culture demands there be only one
+   winner at a time. Choose one, not whichever works the best at each
+   time.
+
+   Product development can’t indulge in being pop culture. Be wary of
+   these popularity contests.
+
+   These issues with programming culture aren’t new.
+
+   Jamie Zawinski calls it the [11]“Cascade of Attention-Deficit
+   Teenagers” model. We can’t do much to change the nature of the field by
+   now—Alan Kay has certainly tried—but we can mitigate the harm done by
+   the trend-seeking. We can work to ensure that everybody on the team,
+   programmers and designers, is aligned, and have the same understanding
+   of what matters and how to accomplish it.
+
+   For that, you need everybody to understand the context they are working
+   in—the works of their field and how they are received. You need to
+   develop taste and understanding.
+
+   You need research.
+     __________________________________________________________________
+
+   Bonus Alan Kay quote on programming as a pop culture that I didn’t
+   include in the book:
+
+     But pop culture holds a disdain for history. Pop culture is all
+     about identity and feeling like you’re participating. It has nothing
+     to do with cooperation, the past or the future—it’s living in the
+     present. I think the same is true of most people who write code for
+     money. They have no idea where [their culture came from]—and the
+     Internet was done so well that most people think of it as a natural
+     resource like the Pacific Ocean, rather than something that was
+     man-made.
+
+   Alan Kay, [12]Dr. Dobb’s Interview with Alan Kay
+     __________________________________________________________________
+
+[13]Out of the Software Crisis
+
+   [14]Out of the Software Crisis by Baldur Bjarnason
+
+   Software projects keep failing, not because we don’t have the right
+   team or tools but because our software development system is broken.
+   Out of the Software Crisis is a guide to fixing your software projects
+   with systems-thinking making them more resilient to change and less
+   likely to fail.
+
+   [15]Systems-Thinking For Software Projects
+
+   [16]WTF is a Framework?
+
+   [17]The response to Out of the Software Crisis has been amazing
+
+Join the Newsletter
+
+   Subscribe to the [18]Out of the Software Crisis newsletter to get my
+   weekly (at least) essays on how to avoid or get out of software
+   development crises.
+
+   Join now and get a free PDF of three bonus essays from Out of the
+   Software Crisis.
+
+   ____________________
+   (BUTTON)
+   Subscribe
+
+   We respect your privacy.
+
+   Unsubscribe at any time.
+
+   Archive
+
+Writing
+
+     * [19]GDPR and American AIs 3 April 2023
+     * [20]Regulating AI (plus links & notes) 27 March 2023
+     * [21]AI summaries and AI healthcare (links & notes) 20 March 2023
+     * [22]Keeping up with and assessing AI research (links & notes) 13
+       March 2023
+     * [23]Waiting for the AI Godot (Links & Notes) 6 March 2023
+     * [24]Copyright, Situating Search, and other links & notes 27
+       February 2023
+     * [25]Deno, Shakespeare's Emoticon, Return to Office, and other links
+       and notes 20 February 2023
+     * [26]Book production, AI, Single-Page-Apps, and other links and
+       notes 13 February 2023
+     * [27]Some thoughts on how to make a book, three months after I made
+       one 10 February 2023
+     * [28]AI is a Hail Mary pass and other links & notes 6 February 2023
+     * [29]EU and copyright protections for AI-generated works and other
+       notes 30 January 2023
+     * [30]On the Layoffs, Narcissists, and Other Links & Notes 23 January
+       2023
+     * [31]Madeline, Existential Terror and other links & notes 16 January
+       2023
+     * [32]Out of the Software Crisis Available on Kindle 28 December 2022
+     * [33]A lot can happen in a month: on AI art and the fediverse 16
+       December 2022
+     * [34]The response to Out of the Software Crisis has been amazing 5
+       December 2022
+     * [35]Programming is a Pop Culture 21 November 2022
+     * [36]WTF is a Framework? 18 November 2022
+     * [37]Theory-building and why employee churn is lethal to software
+       companies 16 November 2022
+     * [38]Great apps are rare 15 November 2022
+     * [39](Released!) Out of the Software Crisis: Systems-Thinking for
+       Software Projects 14 November 2022
+     * [40]Out of the Software Crisis: the ebook is imminent! 11 November
+       2022
+     * [41]I wrote a book – now you must suffer with me 26 October 2022
+     * [42]I’m offering research, writing, and notetaking coaching for
+       techies and programmers 17 October 2022
+     * [43]Playacting genius: the performative logic of reasoning from
+       first principles 18 September 2022
+     * [44]I don't care how you web dev; I just need more better web apps
+       4 July 2022
+     * [45]Essay Archive 2 June 2022
+     * [46]On online collaboration and our obligations as makers of
+       software 2 June 2022
+     * [47]The different kinds of notes 6 May 2022
+     * [48]What I learned about markdown from interviewing a bunch of
+       people 6 May 2022
+     * [49]The Colophon Cards User Survey 2 February 2022
+     * [50]How to keep up with web development without falling into
+       despair 31 January 2022
+     * [51]Let's just not talk about 2021 and look forward instead 5
+       January 2022
+     * [52]Making Colophon Cards 29 November 2021
+     * [53]What do I need to read to be a great at CSS? 19 October 2021
+     * [54]The event listening toolkit: five ways to get out of an event
+       handling mess 11 October 2021
+     * [55]FormData and fetch, why is serialising a form such a pain? 29
+       September 2021
+     * [56]The Single-Page-App Morality Play 6 September 2021
+     * [57]Software Crisis 2.0 25 August 2021
+     * [58]Lessons in Interactivity, 2021 redux 13 August 2021
+     * [59]Nobody gives a hoot about groupthink 29 July 2021
+     * [60]Spontant: in praise of grey 26 July 2021
+     * [61]Ways of reading without the influence of community 6 July 2021
+     * [62]The Open-Source Software bubble that is and the blogging bubble
+       that was 11 May 2021
+     * [63]You are what you do, not what you say or write 4 May 2021
+     * [64]The Curious Case Of The Crashing Conic Gradient And How I Used
+       A Technique I Learned In The 90s To Fix It 28 April 2021
+     * [65]136 facts every web dev should know before they burn out and
+       turn to landscape painting or nude modelling 21 April 2021
+     * [66]I’m available for projects and other work 20 April 2021
+     * [67]Which type of novelty-seeking web developer are you? 31 March
+       2021
+     * [68]Every Day; a Fair Warning (You Should Read These Articles) 3
+       March 2020
+     * [69]Weeknote 3 - Resistance and the dull blade 10 February 2020
+     * [70]Weeknote 2 (2020) - News, Bad News, and Star Wars 2 February
+       2020
+     * [71]Weeknote 1 (2020) - Ending the hiatus 26 January 2020
+     * [72]The Ed Tech Conundrum 2 January 2020
+     * [73]Thinking about the past, present, and future of web development
+       1 January 2020
+     * [74]The Web Falls Apart 3 November 2019
+     * [75]Weeknote 19 ─ blog redesign and changes at work 27 October 2019
+     * [76]When life hands you lemonades, sit down and contemplate the
+       meaning of life 10 September 2019
+     * [77]Weeknote 18 - Uncertainty and Discomfort 11 August 2019
+     * [78]Web Dev: The Red Queen Wire Mommy of Modern Tech 6 August 2019
+     * [79]Weeknote 16 – Vacation 29 July 2019
+     * [80]Weeknote 15 - Counting Down the Days 1 July 2019
+     * [81]Weeknote 14 - Shadows and DOMs 25 June 2019
+     * [82]Weeknote 13 - The weight of deadlines 16 June 2019
+     * [83]That Web Dev Thing Where Everybody Says Something Clever
+       Involving Toast 15 June 2019
+     * [84]SwiftUI, Privacy, macOS, and the Web 9 June 2019
+     * [85]Weeknote 12 - The genres of web media 5 June 2019
+     * [86]The Aesthetics of Concentration 3 June 2019
+     * [87]Weeknote 11 - do I have focus? 29 May 2019
+     * [88]Weeknote 10 - A clear view and more reading 20 May 2019
+     * [89]Weeknote 9 - Being contemplative, finishing a photo project 12
+       May 2019
+     * [90]Weeknote 8 – Moving, Endgame, and more musings on colour 5 May
+       2019
+     * [91]Weeknote 7 - Story length and that thing about colour 29 April
+       2019
+     * [92]Weeknote 6 – Star Trek, rest and spring finally arrives 22
+       April 2019
+     * [93]Weeknote 5 – Stuff, comics, superheroes, and other nonsense 14
+       April 2019
+     * [94]Weeknote 4 – TV week with The Expanse 7 April 2019
+     * [95]Weeknote 3 — MVPs, fatigue, and emotional crutches 31 March
+       2019
+     * [96]Web Development: with great power comes the ability to make
+       great mistakes 24 March 2019
+     * [97]Weeknote 2 - Web Development Mistakes, Mary Sues, and Icy
+       Spring 24 March 2019
+     * [98]Weeknote 1 18 March 2019
+     * [99]Hitchcock and the author construct 12 February 2019
+     * [100]Seams, Stitches, And The Decline Of The Mac 3 November 2018
+     * [101]Neither Paper Nor Digital Does Active Reading Well 3 September
+       2018
+     * [102]Focusing on market share blinds you to growth 7 January 2018
+     * [103]The future of Software Development: Just Business Logic 7
+       January 2018
+     * [104]Remote work is a completely different beast 7 January 2018
+     * [105]Hypertext is still the fundamental model of the web 7 January
+       2018
+     * [106]Leftover Thoughts From 2017 7 January 2018
+     * [107]Over-engineering is under-engineering 25 November 2017
+     * [108]The process is the thing 23 March 2017
+     * [109]Von Be Don: A few notes on a recent digital publishing project
+       in Iceland 19 February 2017
+     * [110]W3C and EME: it isn't about preventing DRM but saving the W3C
+       14 February 2017
+     * [111]Unpopular opinion: dismissing indirect pointers is a mistake 4
+       February 2017
+     * [112]Anger feels like poison 24 January 2017
+     * [113]Is JavaScript more fragile? 7 December 2016
+     * [114]Debating Progressive Enhancement 5 December 2016
+     * [115]The downside of believing in Apple 1 November 2016
+     * [116]A short primer on Icelandic politics on the day of the 2016
+       election 29 October 2016
+     * [117]The Tragedy/Farce of the Open Web according to journalists 18
+       October 2016
+     * [118]Notes on debating for the web development community 17 October
+       2016
+     * [119]Addendum on loose coupling and the iOS App Store 11 October
+       2016
+     * [120]Idle thoughts on modularity and loose coupling in digital
+       media 9 October 2016
+     * [121]When fear is rational 24 June 2016
+     * [122]Once upon a time, I couldn't imagine a better word processor
+       than Word 7 June 2016
+     * [123]A thought to consider 24 May 2016
+     * [124]A few thoughts on standardisation, W3C, and the IDPF 16 May
+       2016
+     * [125]Filling in the gaps – the dynamics of zero marginal cost 21
+       April 2016
+     * [126]Which CMS/blog system would you choose? 12 April 2016
+     * [127]A few simplified points on web and document security 30 March
+       2016
+     * [128]Judge the work 21 January 2016
+     * [129]Why did Paul Graham argue against equality? 13 January 2016
+     * [130]Purpose, Joy, Capability 4 January 2016
+     * [131]You can't fix the App Store, so here's how you fix it 20
+       November 2015
+     * [132]Why I am worried about Twitter and why you should be too 4
+       November 2015
+     * [133]The crossroads or the wilderness 23 October 2015
+     * [134]You can't solve people problems with software 28 September
+       2015
+     * [135]The discussion about ad blocking is very dumb (but not in the
+       way you think) 18 September 2015
+     * [136]This is not a book, but it is a podcast 10 September 2015
+     * [137]A week of 'This is not a book' 7 September 2015
+     * [138]Launching "This is not a book" – what it is and why you should
+       be interested 1 September 2015
+     * [139]My kingdom for a new bookstore 28 August 2015
+     * [140]Modern software sucks 26 August 2015
+     * [141]The cost versus benefits of disorganised programming power 25
+       August 2015
+     * [142]Who benefits the most from Open Source Software? 25 August
+       2015
+     * [143]Sex Apocalypse Later 24 August 2015
+     * [144]Random thoughts on work and that Amazon thing 23 August 2015
+     * [145]Bookmarks – UI flaws and other great capers 14 August 2015
+     * [146]Bookmarks – learnable programming 13 August 2015
+     * [147]Bookmarks – More money for open-source 12 August 2015
+     * [148]Bookmarks – Leaving bosses 11 August 2015
+     * [149]Bookmarks – Promoting other people's work 10 August 2015
+     * [150]Bookmarks – What Would Kamala Khan Do? 7 August 2015
+     * [151]Bookmarks – Trickle down golden geese 6 August 2015
+     * [152]Bookmarks – Hateviews are us 5 August 2015
+     * [153]Bookmarks – Milk it 4 August 2015
+     * [154]Iterating the web away:
+       losing the next generation 4 August 2015
+     * [155]Bookmarks – You haven't been paying attention 3 August 2015
+     * [156]Bookmarks – It's a note card world, we just live in it 31 July
+       2015
+     * [157]Bookmarks – Just call it Smylfeste 30 July 2015
+     * [158]Bookmarks – That one is shaped like an idiot 29 July 2015
+     * [159]Blogger nostalgia 28 July 2015
+     * [160]Bookmarks – Make it simpler 28 July 2015
+     * [161]Wet streets cause rain and criminal responsibility 27 July
+       2015
+     * [162]Tweet bookmarks galore 26 July 2015
+     * [163]Random links that catch my fancy, part four of ∞ 23 July 2015
+     * [164]Random links that catch my fancy, part three of ∞ 22 July 2015
+     * [165]Mythic visions of sexuality 21 July 2015
+     * [166]Random links that catch my fancy, part two of ∞ 21 July 2015
+     * [167]Random links that catch my fancy, part one of ∞ 20 July 2015
+     * [168]An exercise for the reader in integration and modularity 17
+       July 2015
+     * [169]How to read my nonsense 17 July 2015
+     * [170]Is it distributed or just a disorganised hierarchy? 10 July
+       2015
+     * [171]On the vaunted robustness of the web 10 July 2015
+     * [172]The rules of the game have changed for RSS 10 July 2015
+     * [173]The web app developer's lament 6 July 2015
+     * [174]Other people write about digital media 25 June 2015
+     * [175]The plural of 'Medium' is clearly 'clusterfuck' 25 June 2015
+     * [176]Burnout 24 June 2015
+     * [177]The files Steven Pressfield works with 24 June 2015
+     * [178]iOS 9 content blocking extensions are not a mobile advertising
+       armageddon 14 June 2015
+     * [179]Writing the Other:
+       a book that's useful to all writers 3 June 2015
+     * [180]Should I make a WWDC prediction?
+       Yes, let's 3 June 2015
+     * [181]Grim Meathook Present #2 2 June 2015
+     * [182]Other people discuss software quality (spoiler: it sucks) 2
+       June 2015
+     * [183]Other people talk about startups and entrepreneurship 2 June
+       2015
+     * [184]A few quick links and thoughts on big web problems 29 May 2015
+     * [185]I really want the Supergirl TV show to be fun 25 May 2015
+     * [186]Our Grim Meathook Present 25 May 2015
+     * [187]The new age of HTML:
+       the web is being torn apart 20 May 2015
+     * [188]Her movie, his name;
+       Mad Max: Fury Road 19 May 2015
+     * [189]We are a violent species 19 May 2015
+     * [190]Toxic environments:
+       inequality in tech is a symptom of something worse 18 May 2015
+     * [191]Where I write about Facebook's Instant Articles 16 May 2015
+     * [192]Facebook and the media:
+       united, they attack the web 15 May 2015
+     * [193]Speeding up decision cycles with rules and heuristics 14 May
+       2015
+     * [194]You are here #5:
+       UX, design, and CSS as a parasite 14 May 2015
+     * [195]You are here #4:
+       an epic journey through app dev and male bodies 13 May 2015
+     * [196]You are here #3:
+       the glorious wonders of online reading await you 12 May 2015
+     * [197]2015-05-11-18-39-16 11 May 2015
+     * [198]You are here #2:
+       an artisanal curation of reading material 11 May 2015
+     * [199]You are here #1:
+       a selection of fine links and tweets for your pleasure 10 May 2015
+     * [200]2015-05-07-00-59-18 7 May 2015
+     * [201]Five publishing-related thoughts on a Friday afternoon 4 May
+       2015
+     * [202]Why should people read more books? 4 May 2015
+     * [203]How is taxing ebooks as print books supposed to work? 4 May
+       2015
+     * [204]Kathy Sierra's Badass: Making Users Awesome – the book you all
+       should read 4 March 2015
+     * [205]Idle Sunday thoughts about web trends 1 March 2015
+     * [206]Repetition only works in fiction 1 March 2015
+     * [207]The web has covered the basics — that’s why it’ll get harder
+       from now 1 March 2015
+     * [208]A draft of a chapter of some thoughts on things. 9 January
+       2015
+     * [209]Taking stock of 2013 and 2014 31 December 2014
+     * [210]The weather, of course 17 December 2014
+     * [211]Publishing business ideas are a dime a dozen 3 December 2014
+     * [212]EU VAT changes shift the digital landscape 25 November 2014
+     * [213]Money is a poor measure of value 25 November 2014
+     * [214]On conferences 13 November 2014
+     * [215]Crushed by multinationals 12 November 2014
+     * [216]Software as a strategy: prefabricated publishers 7 November
+       2014
+     * [217]Software as strategy in the ebook world 6 November 2014
+     * [218]The five types of unpublished books 5 November 2014
+     * [219]Four hundred words from Anita Elberse's book "Blockbusters" 4
+       November 2014
+     * [220]The splintered author 4 November 2014
+     * [221]There is no war between Amazon and Traditional Publishing 3
+       November 2014
+     * [222]Ebooks suck for learning 10 October 2014
+     * [223]The Poisoning of Social Media: A Reading List 9 September 2014
+     * [224]Wobbly Amazon 10 August 2014
+     * [225]This week's must-read post 24 July 2014
+     * [226]Friends don’t let their friends become authors 10 July 2014
+     * [227]Both at the same time 4 July 2014
+     * [228]So I had to make an ebook cover... 15 April 2014
+     * [229]So long, Readmill, and thanks for all the fish 31 March 2014
+     * [230]What ebook production problems are self-publishers facing? 24
+       March 2014
+     * [231]Many stories, many truths 13 March 2014
+     * [232]Problem statements for digital publishing research 28 February
+       2014
+     * [233]To do, to do 21 February 2014
+     * [234]iBooks Author tempts you with bling 20 February 2014
+     * [235]Microsoft Word is a liability 19 February 2014
+     * [236]The print design mentality 18 February 2014
+     * [237]Book contracts 12 February 2014
+     * [238]Intermission: sorting through the banal 5 February 2014
+     * [239]How to create value with a new thing 30 January 2014
+     * [240]HTML is too complex 29 January 2014
+     * [241]The ebook as an API 28 January 2014
+     * [242]My last word on DRM 27 January 2014
+     * [243]Except, except, except 23 January 2014
+     * [244]A thought exercise 22 January 2014
+     * [245]Losing faith in yourself 21 January 2014
+     * [246]Changing your readership mix 20 January 2014
+     * [247]Sex, education, readers, and futures: what works, what doesn't
+       18 January 2014
+     * [248]The various types of readers 17 January 2014
+     * [249]The unevenly distributed ebook future 16 January 2014
+     * [250]Sex, violence, and stílbrot 15 January 2014
+     * [251]Recipe for pundit response to Hugh Howey’s suggestions 14
+       January 2014
+     * [252]Bling it up for education 13 January 2014
+     * [253]Blogging has trained me to assume you’re stupid 9 January 2014
+     * [254]Ergodic literature 8 January 2014
+     * [255]What I thought I wanted versus what I really wanted 7 January
+       2014
+     * [256]The mistake of 'enhancing' novels 6 January 2014
+     * [257]Pessimistic ramblings and other fun links (week overview +
+       further reading) 4 January 2014
+     * [258]Stumbling into publishing 3 January 2014
+     * [259]The publishing industry's new product categories 2 January
+       2014
+     * [260]The last two Knights and Necromancers stories 1 January 2014
+     * [261]Random, loosely connected, thoughts on the future 31 December
+       2013
+     * [262]Old photos posted without context: Reykjavík Cats 29 December
+       2013
+     * [263]Old photos posted without context: Sweep After Use 22 December
+       2013
+     * [264]The Checklist: fix iBooks image handling 20 December 2013
+     * [265]Great text transcends nothing 17 December 2013
+     * [266]Quarantine all ebooks 17 October 2013
+     * [267]The self-publisher's perspective of the ebook market 17
+       October 2013
+     * [268]Light evening trauma 10 October 2013
+     * [269]Just say no to ebook CSS and JS 2 October 2013
+     * [270]The Google Wave Heuristic 17 September 2013
+     * [271]Amazon's biggest ally is Apple 12 September 2013
+     * [272]Readmill versus Kindle – Readmill is worth the hassle 26
+       August 2013
+     * [273]Proprietary ebook formats versus DRM 19 August 2013
+     * [274]Publishing has catered to dumb for a long while 16 August 2013
+     * [275]Computers are too difficult and people are computer illiterate
+       14 August 2013
+     * [276]Why disruption goes unchecked 12 August 2013
+     * [277]Make ebooks worth it 9 August 2013
+     * [278]Ebooks and cognitive mapping 8 August 2013
+     * [279]Ebook silos, update 7 August 2013
+     * [280]Ebook silos and missed opportunities 6 August 2013
+     * [281]Technology is not inherently good 5 August 2013
+     * [282]Administrative note on baldurbjarnason.com and feeds 29 July
+       2013
+     * [283]Posted without comment 29 July 2013
+     * [284]The inefficiencies of joy 24 July 2013
+     * [285]Winner takes all versus the Matthew effect 23 July 2013
+     * [286]What you people read (on my websites) 22 July 2013
+     * [287]Tolerating the heat, noticing the water 19 July 2013
+     * [288]If the Kindle fails so will ebooks 18 July 2013
+     * [289]Followup to 'this ebook is a lemon' 16 July 2013
+     * [290]This ebook is a lemon 12 July 2013
+     * [291]Caught between madmen and mercenaries 10 July 2013
+     * [292]Major update to Studio Tendra's Oz project 3 July 2013
+     * [293]What are self-publishing's biggest pain points? 1 July 2013
+     * [294]Intellectual terrain 1 July 2013
+     * [295]Good books don't win 26 June 2013
+     * [296]Why does it matter? 10 May 2013
+     * [297]The OZ Reading Club: Books three and four 7 May 2013
+     * [298]Which kind of innovation? 3 May 2013
+     * [299]Books and Print Showcase 2 May 2013
+     * [300]Peasants 30 April 2013
+     * [301]For the love 14 April 2013
+     * [302]The idiocies of young men 5 April 2013
+     * [303]Studio Tendra's grand and marvellous Oz Reading Club 2 April
+       2013
+     * [304]Iceland’s ‘crowd-sourced’ constitution is dead 29 March 2013
+     * [305]The B&N fallacy 27 February 2013
+     * [306]Hire me! 19 February 2013
+     * [307]A question only you can answer 15 February 2013
+     * [308]Respect the reader 6 February 2013
+     * [309]33 observations on the year 2012 5 February 2013
+     * [310]Knights and Necromancers: new books and megapacks! 4 February
+       2013
+     * [311]The falcon's shriek 2 January 2013
+     * [312]What is actually going on in Iceland 29 December 2012
+     * [313]Merry Christmas! 25 December 2012
+     * [314]Tag soup is history 21 December 2012
+     * [315]Schlock 15 December 2012
+     * [316]Strange definitions of 'nice' 5 December 2012
+     * [317]Books of Christmas Past 4 December 2012
+     * [318]Using IDs in CSS 26 November 2012
+     * [319]Design highlights from the Icelandic book season 22 November
+       2012
+     * [320]News, updates, and the Icelandic book market 19 November 2012
+     * [321]A response, of sorts 15 November 2012
+     * [322]High tide and a room of your own 8 November 2012
+     * [323]Knights and Necromancers 2 has been released 6 November 2012
+     * [324]The comment-fiction challenge post-mortem 30 October 2012
+     * [325]Fantasy, Collapse, and a sense of history 29 October 2012
+     * [326]Two questions on putting books on the web 26 October 2012
+     * [327]iBooks 3.0 25 October 2012
+     * [328]Perceptions of society 22 October 2012
+     * [329]What I've been up to 19 October 2012
+     * [330]The Readmill comment fiction challenge 1 October 2012
+     * [331]Is it safe? 27 September 2012
+     * [332]The time work takes 24 September 2012
+     * [333]I need your help 21 September 2012
+     * [334]Designing the covers 19 September 2012
+     * [335]Free Kindle version 19 September 2012
+     * [336]What is this? 17 September 2012
+     * [337]The stillborn creature 1 August 2012
+     * [338]EPUB javascript security 27 July 2012
+     * [339]I be writing 21 July 2012
+     * [340]Farce 16 July 2012
+     * [341]Bad writing 19 June 2012
+     * [342]A few random points on DRM 7 June 2012
+     * [343]The web and ebooks have little in common 7 May 2012
+     * [344]The end of ebook development 26 April 2012
+     * [345]Aftermath – notes on the Amazon post 20 April 2012
+     * [346]Today is not tomorrow (or, how to beat Amazon) 15 April 2012
+     * [347]Bits, bobs, and anecdata 3 April 2012
+     * [348]Lessons in interactivity 29 March 2012
+     * [349]Hierarchies of ebook design 20 March 2012
+     * [350]It's time to treat ebook developers as developers 12 March
+       2012
+     * [351]Code doesn't change minds 7 March 2012
+     * [352]Game over, Amazon wins 3 March 2012
+     * [353]On CSS Page Templates 2 March 2012
+     * [354]Javascript in ebooks 29 February 2012
+     * [355]Explanatory windows 20 February 2012
+     * [356]Readium and other good intentions 13 February 2012
+     * [357]ePub windows and widgets – a proposal 10 February 2012
+     * [358]The semantics of ebook widgets 4 February 2012
+     * [359]iBooks widgets – to javascript or not to javascript 1 February
+       2012
+     * [360]What do we want from the Kindle platform? 1 February 2012
+     * [361]Disruptive crap 27 January 2012
+     * [362]Me, elsewhere 26 January 2012
+     * [363]The pros and cons of the iBooks 2.0 textbook format 21 January
+       2012
+     * [364]The iBooks 2.0 built-in widgets 20 January 2012
+     * [365]The iBooks 2.0 textbook format 19 January 2012
+     * [366]The publishing animal 17 January 2012
+     * [367]A day of innovation on the future of the book 8 December 2011
+     * [368]What a publisher does 30 November 2011
+     * [369]Design pseudoscience 8 November 2011
+     * [370]A tale of three blog posts 28 October 2011
+     * [371]CSS and ebook design 24 October 2011
+     * [372]The loss of ambient intimacy 15 September 2011
+     * [373]Friday links and reading 26 August 2011
+     * [374]Convert or engage 4 August 2011
+     * [375]CSS3 Hyphens 30 July 2011
+     * [376]Just you & Google 29 July 2011
+     * [377]Knowledge is not adoption 24 July 2011
+     * [378]HTML5 history API 23 July 2011
+     * [379]Your friends, in boxes 17 July 2011
+     * [380]Localstorage & messaging in ePub 27 January 2011
+     * [381]Javascript in epub 26 January 2011
+     * [382]An epub experiment 25 January 2011
+     * [383]What is an ebook? 21 December 2010
+     * [384]Hypotheses and testing 25 October 2010
+     * [385]Identifying publishing innovators 7 October 2010
+     * [386]On quality in publishing 7 October 2010
+     * [387]An interesting discussion 28 June 2010
+
+   You can also find me on [388]Mastodon and [389]Twitter
+
+References
+
+   1. https://www.baldurbjarnason.com/feed.xml
+   2. https://www.baldurbjarnason.com/archive
+   3. https://softwarecrisis.dev/
+   4. https://softwarecrisis.baldurbjarnason.com/
+   5. mailto:baldur.bjarnason@gmail.com
+   6. https://www.baldurbjarnason.com/
+   7. https://www.baldurbjarnason.com/work/2021
+   8. https://softwarecrisis.baldurbjarnason.com/
+   9. https://softwarecrisis.baldurbjarnason.com/
+  10. https://www.youtube.com/watch?v=YyIQKBzIuBY
+  11. https://www.jwz.org/doc/cadt.html
+  12. https://link.springer.com/content/pdf/bbm:978-3-319-90008-7/1.pdf
+  13. https://softwarecrisis.baldurbjarnason.com/
+  14. https://softwarecrisis.baldurbjarnason.com/
+  15. https://softwarecrisis.baldurbjarnason.com/
+  16. https://www.baldurbjarnason.com/2022/wtf-is-a-framework/
+  17. https://www.baldurbjarnason.com/2022/ootsc-update/
+  18. https://softwarecrisis.dev/
+  19. https://www.baldurbjarnason.com/2023/gdpr-and-american-ais/
+  20. https://www.baldurbjarnason.com/2023/regulating-ai/
+  21. https://www.baldurbjarnason.com/2023/ai-in-health-and-summaries/
+  22. https://www.baldurbjarnason.com/2023/keeping-up-with-ai-research/
+  23. https://www.baldurbjarnason.com/2023/waiting-for-ai-godot/
+  24. https://www.baldurbjarnason.com/2023/situating-search-links-notes/
+  25. https://www.baldurbjarnason.com/2023/open-offices-links-notes/
+  26. https://www.baldurbjarnason.com/2023/book-production-ai-spa/
+  27. https://www.baldurbjarnason.com/2023/how-i-made-my-book/
+  28. https://www.baldurbjarnason.com/2023/ai-is-a-hail-mary-pass/
+  29. https://www.baldurbjarnason.com/2023/copyright-for-ai/
+  30. https://www.baldurbjarnason.com/2023/on-the-layoffs-and-other/
+  31. https://www.baldurbjarnason.com/2023/madeline-existential-terror/
+  32. https://www.baldurbjarnason.com/2022/book-available-on-kindle/
+  33. https://www.baldurbjarnason.com/2022/a-month-of-book/
+  34. https://www.baldurbjarnason.com/2022/ootsc-update/
+  35. https://www.baldurbjarnason.com/2022/programming-is-a-pop-culture/
+  36. https://www.baldurbjarnason.com/2022/wtf-is-a-framework/
+  37. https://www.baldurbjarnason.com/2022/theory-building/
+  38. https://www.baldurbjarnason.com/2022/ootsc-introduction/
+  39. https://www.baldurbjarnason.com/2022/out-of-the-software-crisis/
+  40. https://www.baldurbjarnason.com/2022/out-of-the-software-crisis-closer/
+  41. https://www.baldurbjarnason.com/2022/i-wrote-a-book/
+  42. https://www.baldurbjarnason.com/coaching/
+  43. https://www.baldurbjarnason.com/2022/first-principles/
+  44. https://www.baldurbjarnason.com/2022/more-better-web-apps/
+  45. https://www.baldurbjarnason.com/archive/
+  46. https://www.baldurbjarnason.com/2022/on-online-collaboration/
+  47. https://www.baldurbjarnason.com/2022/the-different-kinds-of-notes/
+  48. https://www.baldurbjarnason.com/2022/why-people-use-markdown/
+  49. https://www.baldurbjarnason.com/2022/colophon-cards-user-survey/
+  50. https://www.baldurbjarnason.com/2022/i-cant-keep-up-with-web-dev/
+  51. https://www.baldurbjarnason.com/2022/forward-looking-statements/
+  52. https://www.baldurbjarnason.com/2021/making-colophon-cards/
+  53. https://www.baldurbjarnason.com/2021/what-do-i-need-to-read-to-be-a-css-dev/
+  54. https://www.baldurbjarnason.com/2021/five-ways-to-get-out-of-the-event-handling-mess/
+  55. https://www.baldurbjarnason.com/2021/fetch-and-formdata/
+  56. https://www.baldurbjarnason.com/2021/single-page-app-morality-play/
+  57. https://www.baldurbjarnason.com/2021/software-crisis-2/
+  58. https://www.baldurbjarnason.com/2021/lessons-in-interactivity/
+  59. https://www.baldurbjarnason.com/2021/the-group-think-hoot/
+  60. https://www.baldurbjarnason.com/2021/spontant-in-praise-of-grey/
+  61. https://www.baldurbjarnason.com/2021/ways-of-reading/
+  62. https://www.baldurbjarnason.com/2021/the-oss-bubble-and-the-blogging-bubble/
+  63. https://www.baldurbjarnason.com/2021/you-are-what-you-do/
+  64. https://www.baldurbjarnason.com/2021/the-curious-case-of-the-crashing-conic-gradient/
+  65. https://www.baldurbjarnason.com/2021/100-things-every-web-developer-should-know/
+  66. https://www.baldurbjarnason.com/work/2021/
+  67. https://www.baldurbjarnason.com/2021/which-kind-of-web-developer-are-you/
+  68. https://www.baldurbjarnason.com/every-day-a-fair-warning/
+  69. https://www.baldurbjarnason.com/2020/weeknote-3/
+  70. https://www.baldurbjarnason.com/2020/weeknote-2/
+  71. https://www.baldurbjarnason.com/2020/weeknote-1/
+  72. https://www.baldurbjarnason.com/the-ed-tech-conundrum/
+  73. https://www.baldurbjarnason.com/past-present-future-web/
+  74. https://www.baldurbjarnason.com/the-weakened-web/
+  75. https://www.baldurbjarnason.com/weeknote-19/
+  76. https://www.baldurbjarnason.com/life-and-lemonades/
+  77. https://www.baldurbjarnason.com/weeknote-18/
+  78. https://www.baldurbjarnason.com/weeknote-17/
+  79. https://www.baldurbjarnason.com/weeknote-16/
+  80. https://www.baldurbjarnason.com/weeknote-15/
+  81. https://www.baldurbjarnason.com/weeknote-14/
+  82. https://www.baldurbjarnason.com/weeknote-13/
+  83. https://www.baldurbjarnason.com/webby-things-1/
+  84. https://www.baldurbjarnason.com/swiftui-macos-privacy-web/
+  85. https://www.baldurbjarnason.com/weeknote-12/
+  86. https://www.baldurbjarnason.com/the-aesthetics-of-concentration/
+  87. https://www.baldurbjarnason.com/weeknote-11/
+  88. https://www.baldurbjarnason.com/weeknote-10/
+  89. https://www.baldurbjarnason.com/2019/05/12/weeknote-9-being-contemplative-finishing-a-photo-project/
+  90. https://www.baldurbjarnason.com/2019/05/05/weeknote-8-moving-endgame-and-more-musings-on-colour/
+  91. https://www.baldurbjarnason.com/2019/04/29/weeknote-7-story-length-and-that-thing-about-colour/
+  92. https://www.baldurbjarnason.com/2019/04/22/weeknote-6-star-trek-rest-and-spring-finally-arrives/
+  93. https://www.baldurbjarnason.com/2019/04/14/weeknote-5-stuff-comics-superheroes-and-other-nonsense/
+  94. https://www.baldurbjarnason.com/2019/04/07/weeknote-4-tv-week-with-the-expanse/
+  95. https://www.baldurbjarnason.com/2019/03/31/weeknote-3-mvps-fatigue-and-emotional-crutches/
+  96. https://www.baldurbjarnason.com/2019/03/24/web-development-with-great-power-comes-the-ability-to-make-great-mistakes/
+  97. https://www.baldurbjarnason.com/2019/03/24/weeknote-2-web-development-mistakes-mary-sues-and-icy-spring/
+  98. https://www.baldurbjarnason.com/2019/03/18/weeknote-1/
+  99. https://www.baldurbjarnason.com/2019/02/12/hitchcock-and-the-author-construct/
+ 100. https://www.baldurbjarnason.com/2018/11/03/seams-stitches-and-the-decline-of-the-mac/
+ 101. https://www.baldurbjarnason.com/2018/09/03/neither-paper-nor-digital-does-active-reading-well/
+ 102. https://www.baldurbjarnason.com/2018/01/07/focusing-on-market-share-blinds-you-to-growth/
+ 103. https://www.baldurbjarnason.com/2018/01/07/the-future-of-software-development-just-business-logic/
+ 104. https://www.baldurbjarnason.com/2018/01/07/remote-work-is-a-completely-different-beast/
+ 105. https://www.baldurbjarnason.com/2018/01/07/hypertext-is-still-the-fundamental-model-of-the-web/
+ 106. https://www.baldurbjarnason.com/2018/01/07/leftover-thoughts-from-2017/
+ 107. https://www.baldurbjarnason.com/notes/under-engineering-websites/
+ 108. https://www.baldurbjarnason.com/notes/the-process-is-the-thing/
+ 109. https://www.baldurbjarnason.com/notes/vonbedon-notes-on-a-project/
+ 110. https://www.baldurbjarnason.com/notes/why-drm-is-a-problem-for-the-w3c/
+ 111. https://www.baldurbjarnason.com/notes/for-the-want-of-an-indirect-pointer/
+ 112. https://www.baldurbjarnason.com/notes/feels-like-poison/
+ 113. https://www.baldurbjarnason.com/notes/is-js-more-fragile/
+ 114. https://www.baldurbjarnason.com/notes/progressive-enhancement-debate/
+ 115. https://www.baldurbjarnason.com/notes/the-less-pro-apple/
+ 116. https://www.baldurbjarnason.com/notes/icelandic-politics-primer/
+ 117. https://www.baldurbjarnason.com/notes/web-media-tragedy/
+ 118. https://www.baldurbjarnason.com/notes/debating-web-development/
+ 119. https://www.baldurbjarnason.com/notes/addendum-on-coupling-and-commodification/
+ 120. https://www.baldurbjarnason.com/notes/idle-sunday-thoughts-on-modularity/
+ 121. https://www.baldurbjarnason.com/notes/when-fear-is-rational/
+ 122. https://www.baldurbjarnason.com/notes/once-upon-a-time-there-was-word/
+ 123. https://www.baldurbjarnason.com/notes/a-thought-to-consider/
+ 124. https://www.baldurbjarnason.com/notes/thoughts-on-standardisation/
+ 125. https://www.baldurbjarnason.com/notes/zero-marginal-cost/
+ 126. https://www.baldurbjarnason.com/notes/choosing-a-host/
+ 127. https://www.baldurbjarnason.com/notes/some-notes-on-security/
+ 128. https://www.baldurbjarnason.com/notes/judge-the-work/
+ 129. https://www.baldurbjarnason.com/notes/why-did-paul-graham/
+ 130. https://www.baldurbjarnason.com/notes/purpose-joy-capability/
+ 131. https://www.baldurbjarnason.com/notes/fix-the-app-store/
+ 132. https://www.baldurbjarnason.com/notes/twitter-troubles/
+ 133. https://www.baldurbjarnason.com/notes/the-crossroads/
+ 134. https://www.baldurbjarnason.com/notes/people-problems/
+ 135. https://www.baldurbjarnason.com/notes/ad-blockers/
+ 136. https://www.baldurbjarnason.com/notes/this-is-a-podcast/
+ 137. https://www.baldurbjarnason.com/notes/a-week-of-this-is-not-a-book/
+ 138. https://www.baldurbjarnason.com/notes/launching-thisisnotabook/
+ 139. https://www.baldurbjarnason.com/notes/my-kingdom-for-a-new-bookstore/
+ 140. https://www.baldurbjarnason.com/notes/modern-software-sucks/
+ 141. https://www.baldurbjarnason.com/notes/the-cost-benefit/
+ 142. https://www.baldurbjarnason.com/notes/OSS-and-money/
+ 143. https://www.baldurbjarnason.com/notes/sex-apocalypse/
+ 144. https://www.baldurbjarnason.com/notes/that-amazon-thing/
+ 145. https://www.baldurbjarnason.com/notes/bookmarks-great-caper/
+ 146. https://www.baldurbjarnason.com/notes/bookmarks-ad-blockers-again/
+ 147. https://www.baldurbjarnason.com/notes/bookmarks-midweek-blues/
+ 148. https://www.baldurbjarnason.com/notes/bookmarks-leaving-bosses/
+ 149. https://www.baldurbjarnason.com/notes/bookmarks-getting-better/
+ 150. https://www.baldurbjarnason.com/notes/bookmarks-thingamabob/
+ 151. https://www.baldurbjarnason.com/notes/trickle-down-golden-goose/
+ 152. https://www.baldurbjarnason.com/notes/hateviews/
+ 153. https://www.baldurbjarnason.com/notes/bookmarks-milk-it/
+ 154. https://www.baldurbjarnason.com/notes/iterating-the-web-away/
+ 155. https://www.baldurbjarnason.com/notes/bookmarks-paying-attention/
+ 156. https://www.baldurbjarnason.com/notes/bookmarks-stop-the-web/
+ 157. https://www.baldurbjarnason.com/notes/bookmarks-sucky-websites/
+ 158. https://www.baldurbjarnason.com/notes/bookmarks-that-one-is-an-idiot/
+ 159. https://www.baldurbjarnason.com/notes/blogger-nostalgia/
+ 160. https://www.baldurbjarnason.com/notes/bookmarks-make-it-simpler/
+ 161. https://www.baldurbjarnason.com/notes/bookmarks-javascript-cry/
+ 162. https://www.baldurbjarnason.com/notes/bookmark-5/
+ 163. https://www.baldurbjarnason.com/notes/bookmarks-4/
+ 164. https://www.baldurbjarnason.com/notes/bookmarks-3/
+ 165. https://www.baldurbjarnason.com/notes/mythic-dimension-of-sexuality/
+ 166. https://www.baldurbjarnason.com/notes/bookmarks-2/
+ 167. https://www.baldurbjarnason.com/notes/bookmarks/
+ 168. https://www.baldurbjarnason.com/notes/modularisation-exercise/
+ 169. https://www.baldurbjarnason.com/notes/how-to-read-baldur/
+ 170. https://www.baldurbjarnason.com/notes/decentralised-or-disorganised/
+ 171. https://www.baldurbjarnason.com/notes/the-robust-web/
+ 172. https://www.baldurbjarnason.com/notes/the-rules-have-changed-for-rss/
+ 173. https://www.baldurbjarnason.com/notes/web-app-developer-lament/
+ 174. https://www.baldurbjarnason.com/notes/paradigm-shift/
+ 175. https://www.baldurbjarnason.com/notes/media-changes/
+ 176. https://www.baldurbjarnason.com/notes/burnout/
+ 177. https://www.baldurbjarnason.com/notes/our-working-files/
+ 178. https://www.baldurbjarnason.com/notes/ios9-content-blocking/
+ 179. https://www.baldurbjarnason.com/notes/writing-the-other/
+ 180. https://www.baldurbjarnason.com/notes/wwdc-predictions/
+ 181. https://www.baldurbjarnason.com/notes/grim-meathook-present-2/
+ 182. https://www.baldurbjarnason.com/notes/software-quality/
+ 183. https://www.baldurbjarnason.com/notes/startup-fallacy/
+ 184. https://www.baldurbjarnason.com/notes/quick-thoughts-big-problems/
+ 185. https://www.baldurbjarnason.com/notes/femininity-heroism/
+ 186. https://www.baldurbjarnason.com/notes/grim-meathook-present/
+ 187. https://www.baldurbjarnason.com/notes/new-age-of-html/
+ 188. https://www.baldurbjarnason.com/notes/her-movie-his-name/
+ 189. https://www.baldurbjarnason.com/notes/we-are-a-violent-species/
+ 190. https://www.baldurbjarnason.com/notes/toxic-environments/
+ 191. https://www.baldurbjarnason.com/2015/05/16/where-i-write-about-facebooks-instant-articles/
+ 192. https://www.baldurbjarnason.com/notes/media-websites-vs-facebook/
+ 193. https://www.baldurbjarnason.com/notes/decision-cycles/
+ 194. https://www.baldurbjarnason.com/notes/a-you-are-here-5/
+ 195. https://www.baldurbjarnason.com/notes/you-are-here-4/
+ 196. https://www.baldurbjarnason.com/notes/you-are-here-3/
+ 197. https://www.baldurbjarnason.com/notes/18-39-16/
+ 198. https://www.baldurbjarnason.com/notes/you-are-here-2/
+ 199. https://www.baldurbjarnason.com/notes/you-are-here-1/
+ 200. https://www.baldurbjarnason.com/notes/00-59-18/
+ 201. https://www.baldurbjarnason.com/2015/05/04/four-publishing-related-thoughts-on-a-friday-afternoon/
+ 202. https://www.baldurbjarnason.com/2015/05/04/why-should-people-read-more-books/
+ 203. https://www.baldurbjarnason.com/2015/05/04/how-is-taxing-ebooks-as-print-books-supposed-to-work/
+ 204. https://www.baldurbjarnason.com/2015/03/04/kathy-sierras-badass-making-users-awesome-the-book-you-all-should-read/
+ 205. https://www.baldurbjarnason.com/2015/03/01/idle-sunday-thoughts-about-web-trends/
+ 206. https://www.baldurbjarnason.com/2015/03/01/repetition-only-works-in-fiction/
+ 207. https://www.baldurbjarnason.com/2015/03/01/the-web-has-covered-the-basicse2808a-e2808athats-why-itll-get-harder-from-now/
+ 208. https://www.baldurbjarnason.com/2015/01/09/a-draft-of-a-chapter-of-some-thoughts-on-things/
+ 209. https://www.baldurbjarnason.com/2014/12/31/taking-stock-of-2013-and-2014/
+ 210. https://www.baldurbjarnason.com/2014/12/17/the-weather-of-course/
+ 211. https://www.baldurbjarnason.com/2014/12/03/publishing-business-ideas-are-a-dime-a-dozen/
+ 212. https://www.baldurbjarnason.com/2014/11/25/eu-vat-changes-shift-the-digital-landscape/
+ 213. https://www.baldurbjarnason.com/2014/11/25/money-is-a-poor-measure-of-value/
+ 214. https://www.baldurbjarnason.com/2014/11/13/on-conference/
+ 215. https://www.baldurbjarnason.com/2014/11/12/crushed-by-multinationals/
+ 216. https://www.baldurbjarnason.com/2014/11/07/software-as-a-strategy-prefabricated-publishers/
+ 217. https://www.baldurbjarnason.com/2014/11/06/software-as-strategy-in-the-ebook-world/
+ 218. https://www.baldurbjarnason.com/2014/11/05/the-five-types-of-unpublished-books/
+ 219. https://www.baldurbjarnason.com/2014/11/04/four-hundred-words-from-anita-elberses-book-blockbusters/
+ 220. https://www.baldurbjarnason.com/2014/11/04/the-splintered-author/
+ 221. https://www.baldurbjarnason.com/2014/11/03/there-is-no-war-between-amazon-and-traditional-publishing/
+ 222. https://www.baldurbjarnason.com/2014/10/10/ebooks-suck-for-learning/
+ 223. https://www.baldurbjarnason.com/2014/09/09/the-poisoning-of-social-media-a-reading-list/
+ 224. https://www.baldurbjarnason.com/2014/08/10/wobbly-amazon/
+ 225. https://www.baldurbjarnason.com/2014/07/24/this-weeks-must-read-post/
+ 226. https://www.baldurbjarnason.com/2014/07/10/friends-dont-let-their-friends-become-authors/
+ 227. https://www.baldurbjarnason.com/2014/07/04/both-at-the-same-time/
+ 228. https://www.baldurbjarnason.com/2014/04/15/so-i-had-to-make-an-ebook-cover/
+ 229. https://www.baldurbjarnason.com/2014/03/31/so-long-readmill-and-thanks-for-all-the-fish/
+ 230. https://www.baldurbjarnason.com/2014/03/24/what-ebook-production-problems-are-self-publishers-facing/
+ 231. https://www.baldurbjarnason.com/2014/03/13/many-stories-many-truths/
+ 232. https://www.baldurbjarnason.com/2014/02/28/problem-statements-for-digital-publishing-research/
+ 233. https://www.baldurbjarnason.com/2014/02/21/to-do-to-do/
+ 234. https://www.baldurbjarnason.com/2014/02/20/ibooks-author-tempts-you-with-bling/
+ 235. https://www.baldurbjarnason.com/2014/02/19/microsoft-word-is-a-liability/
+ 236. https://www.baldurbjarnason.com/2014/02/18/the-print-design-mentality/
+ 237. https://www.baldurbjarnason.com/2014/02/12/book-contracts/
+ 238. https://www.baldurbjarnason.com/2014/02/05/intermission-sorting-through-the-banal/
+ 239. https://www.baldurbjarnason.com/2014/01/30/how-to-create-value-with-a-new-thing/
+ 240. https://www.baldurbjarnason.com/2014/01/29/html-is-too-complex/
+ 241. https://www.baldurbjarnason.com/2014/01/28/the-ebook-as-an-api/
+ 242. https://www.baldurbjarnason.com/2014/01/27/my-last-word-on-drm/
+ 243. https://www.baldurbjarnason.com/2014/01/23/except-except-except/
+ 244. https://www.baldurbjarnason.com/2014/01/22/a-thought-exercise/
+ 245. https://www.baldurbjarnason.com/2014/01/21/losing-faith-in-yourself/
+ 246. https://www.baldurbjarnason.com/2014/01/20/changing-your-readership-mix/
+ 247. https://www.baldurbjarnason.com/2014/01/18/sex-education-readers-and-futures-what-works-what-doesnt/
+ 248. https://www.baldurbjarnason.com/2014/01/17/the-various-types-of-readers/
+ 249. https://www.baldurbjarnason.com/2014/01/16/the-unevenly-distributed-ebook-future/
+ 250. https://www.baldurbjarnason.com/2014/01/15/sex-violence-and-stilbrot/
+ 251. https://www.baldurbjarnason.com/2014/01/14/recipe-for-pundit-response-to-hugh-howeys-suggestions/
+ 252. https://www.baldurbjarnason.com/2014/01/13/bling-it-up-for-education/
+ 253. https://www.baldurbjarnason.com/2014/01/09/blogging-has-trained-me-to-assume-youre-stupid/
+ 254. https://www.baldurbjarnason.com/2014/01/08/ergodic-literature/
+ 255. https://www.baldurbjarnason.com/2014/01/07/what-i-thought-i-wanted-versus-what-i-really-wanted/
+ 256. https://www.baldurbjarnason.com/2014/01/06/the-mistake-of-enhancing-novels/
+ 257. https://www.baldurbjarnason.com/2014/01/04/pessimistic-ramblings-and-other-fun-links-week-overview-further-reading/
+ 258. https://www.baldurbjarnason.com/2014/01/03/stumbling-into-publishing/
+ 259. https://www.baldurbjarnason.com/2014/01/02/the-publishing-industrys-new-product-categories/
+ 260. https://www.baldurbjarnason.com/2014/01/01/the-last-two-knights-and-necromancers-stories/
+ 261. https://www.baldurbjarnason.com/2013/12/31/random-loosely-connected-thoughts-on-the-future/
+ 262. https://www.baldurbjarnason.com/2013/12/29/old-photos-posted-without-context-reykjavik-cats/
+ 263. https://www.baldurbjarnason.com/2013/12/22/old-photos-posted-without-context-sweep-after-use/
+ 264. https://www.baldurbjarnason.com/2013/12/20/the-checklist-ibooks-image-handling/
+ 265. https://www.baldurbjarnason.com/2013/12/17/great-text-transcends-nothing/
+ 266. https://www.baldurbjarnason.com/2013/10/17/quarantine-all-ebooks/
+ 267. https://www.baldurbjarnason.com/2013/10/17/the-self-publishers-perspective-of-the-ebook-market/
+ 268. https://www.baldurbjarnason.com/2013/10/10/light-evening-trauma/
+ 269. https://www.baldurbjarnason.com/2013/10/02/just-say-no-to-ebook-css-and-js/
+ 270. https://www.baldurbjarnason.com/2013/09/17/the-google-wave-heuristic/
+ 271. https://www.baldurbjarnason.com/2013/09/12/amazons-biggest-ally-is-apple/
+ 272. https://www.baldurbjarnason.com/2013/08/26/readmill-versus-kindle-readmill-is-worth-the-hassle/
+ 273. https://www.baldurbjarnason.com/2013/08/19/proprietary-ebook-formats-versus-drm/
+ 274. https://www.baldurbjarnason.com/2013/08/16/publishing-has-catered-to-dumb-for-a-long-while/
+ 275. https://www.baldurbjarnason.com/2013/08/14/computers-are-both-too-difficult-and-people-are-computer-illiterate/
+ 276. https://www.baldurbjarnason.com/2013/08/12/why-disruption-goes-unchecked/
+ 277. https://www.baldurbjarnason.com/2013/08/09/make-ebooks-worth-it/
+ 278. https://www.baldurbjarnason.com/2013/08/08/ebooks-and-cognitive-mapping/
+ 279. https://www.baldurbjarnason.com/2013/08/07/ebook-silos-update/
+ 280. https://www.baldurbjarnason.com/2013/08/06/ebook-silos-and-missed-opportunities/
+ 281. https://www.baldurbjarnason.com/2013/08/05/technology-is-not-inherently-good/
+ 282. https://www.baldurbjarnason.com/2013/07/29/administrative-note-on-baldurbjarnason-com-and-feeds/
+ 283. https://www.baldurbjarnason.com/2013/07/29/posted-without-comment/
+ 284. https://www.baldurbjarnason.com/2013/07/24/the-inefficiencies-of-joy/
+ 285. https://www.baldurbjarnason.com/2013/07/23/winner-takes-all-versus-the-matthew-effect/
+ 286. https://www.baldurbjarnason.com/2013/07/22/what-you-people-read-on-my-websites/
+ 287. https://www.baldurbjarnason.com/2013/07/19/tolerating-the-heat-noticing-the-water/
+ 288. https://www.baldurbjarnason.com/2013/07/18/if-the-kindle-fails-so-will-ebooks/
+ 289. https://www.baldurbjarnason.com/2013/07/16/followup-to-this-ebook-is-a-lemon/
+ 290. https://www.baldurbjarnason.com/2013/07/12/this-ebook-is-a-lemon/
+ 291. https://www.baldurbjarnason.com/2013/07/10/caught-between-madmen-and-mercenaries/
+ 292. https://www.baldurbjarnason.com/2013/07/03/major-update-to-studio-tendras-oz-project/
+ 293. https://www.baldurbjarnason.com/2013/07/01/what-are-self-publishings-biggest-pain-points/
+ 294. https://www.baldurbjarnason.com/2013/07/01/intellectual-terrain/
+ 295. https://www.baldurbjarnason.com/2013/06/26/good-books-dont-win/
+ 296. https://www.baldurbjarnason.com/notes/why-does-it-matter/
+ 297. https://www.baldurbjarnason.com/2013/05/07/the-oz-reading-club-books-two-and-three/
+ 298. https://www.baldurbjarnason.com/notes/the-ebook-innovation/
+ 299. https://www.baldurbjarnason.com/notes/books-and-print/
+ 300. https://www.baldurbjarnason.com/2013/04/30/peasants/
+ 301. https://www.baldurbjarnason.com/notes/for-the-love/
+ 302. https://www.baldurbjarnason.com/2013/04/05/the-idiocies-of-young-men/
+ 303. https://www.baldurbjarnason.com/2013/04/02/studio-tendras-grand-and-marvelous-oz-reading-club/
+ 304. https://www.baldurbjarnason.com/2013/03/29/icelands-crowd-sourced-constitution-is-dead/
+ 305. https://www.baldurbjarnason.com/notes/the-bn-fallacy/
+ 306. https://www.baldurbjarnason.com/notes/hire-me/
+ 307. https://www.baldurbjarnason.com/2013/02/15/a-question-only-you-can-answer/
+ 308. https://www.baldurbjarnason.com/notes/respect-the-reader/
+ 309. https://www.baldurbjarnason.com/2013/02/05/33-observations-on-the-year-2012/
+ 310. https://www.baldurbjarnason.com/2013/02/04/knights-and-necromancers-new-books-and-megapacks/
+ 311. https://www.baldurbjarnason.com/2013/01/02/the-falcons-shriek/
+ 312. https://www.baldurbjarnason.com/2012/12/29/what-is-actually-going-on-in-iceland/
+ 313. https://www.baldurbjarnason.com/2012/12/25/merry-christmas/
+ 314. https://www.baldurbjarnason.com/notes/tag-soup/
+ 315. https://www.baldurbjarnason.com/notes/schlock/
+ 316. https://www.baldurbjarnason.com/2012/12/05/strange-definitions-of-nice/
+ 317. https://www.baldurbjarnason.com/2012/12/04/books-of-christmas-past/
+ 318. https://www.baldurbjarnason.com/notes/ids-in-css/
+ 319. https://www.baldurbjarnason.com/2012/11/22/design-highlights-from-the-icelandic-book-season/
+ 320. https://www.baldurbjarnason.com/2012/11/19/news-updates-and-the-icelandic-book-market/
+ 321. https://www.baldurbjarnason.com/notes/standardisation/
+ 322. https://www.baldurbjarnason.com/2012/11/08/high-tide-and-a-room-of-your-own/
+ 323. https://www.baldurbjarnason.com/2012/11/06/knights-and-necromancers-2-has-been-released/
+ 324. https://www.baldurbjarnason.com/2012/10/30/the-comment-fiction-challenge-post-mortem/
+ 325. https://www.baldurbjarnason.com/2012/10/29/fantasy-collapse-and-a-sense-of-history/
+ 326. https://www.baldurbjarnason.com/2012/10/26/two-questions-on-putting-books-on-the-web/
+ 327. https://www.baldurbjarnason.com/notes/ibooks-30/
+ 328. https://www.baldurbjarnason.com/2012/10/22/perceptions-of-society/
+ 329. https://www.baldurbjarnason.com/2012/10/19/what-ive-been-up-to/
+ 330. https://www.baldurbjarnason.com/2012/10/01/the-readmill-comment-fiction-challenge/
+ 331. https://www.baldurbjarnason.com/notes/is-it-safe/
+ 332. https://www.baldurbjarnason.com/notes/the-time-work-takes/
+ 333. https://www.baldurbjarnason.com/2012/09/21/i-need-your-help/
+ 334. https://www.baldurbjarnason.com/2012/09/19/designing-the-covers/
+ 335. https://www.baldurbjarnason.com/2012/09/19/free-kindle-version/
+ 336. https://www.baldurbjarnason.com/2012/09/17/what-is-this/
+ 337. https://www.baldurbjarnason.com/notes/the-stillborn-creature/
+ 338. https://www.baldurbjarnason.com/notes/epub-javascript-security/
+ 339. https://www.baldurbjarnason.com/notes/i-be-writing/
+ 340. https://www.baldurbjarnason.com/notes/farce/
+ 341. https://www.baldurbjarnason.com/notes/bad-writing/
+ 342. https://www.baldurbjarnason.com/notes/points-on-drm/
+ 343. https://www.baldurbjarnason.com/notes/web-and-ebooks/
+ 344. https://www.baldurbjarnason.com/notes/end-of-ebook-dev/
+ 345. https://www.baldurbjarnason.com/notes/aftermath/
+ 346. https://www.baldurbjarnason.com/notes/today-is-not-tomorrow/
+ 347. https://www.baldurbjarnason.com/notes/bits-and-bobs/
+ 348. https://www.baldurbjarnason.com/notes/lessons-in-interactivity/
+ 349. https://www.baldurbjarnason.com/notes/hierarchies-of-ebook-design/
+ 350. https://www.baldurbjarnason.com/notes/treat-ebook-developers-as-developers/
+ 351. https://www.baldurbjarnason.com/notes/code-does-not-change-minds/
+ 352. https://www.baldurbjarnason.com/notes/amazon-wins/
+ 353. https://www.baldurbjarnason.com/notes/idpf-css-pgt/
+ 354. https://www.baldurbjarnason.com/notes/javascript-in-ebooks/
+ 355. https://www.baldurbjarnason.com/notes/explanatory-windows/
+ 356. https://www.baldurbjarnason.com/notes/readium-and-good-intentions/
+ 357. https://www.baldurbjarnason.com/notes/epub-widgets-and-windows/
+ 358. https://www.baldurbjarnason.com/notes/ebook-widget-semantics/
+ 359. https://www.baldurbjarnason.com/notes/widgets-javascript/
+ 360. https://www.baldurbjarnason.com/notes/what-do-we-want-from-the-kindle/
+ 361. https://www.baldurbjarnason.com/notes/disruptive-crap/
+ 362. https://www.baldurbjarnason.com/notes/elsewhere/
+ 363. https://www.baldurbjarnason.com/notes/the-pros-and-cons-of-iBooks-2/
+ 364. https://www.baldurbjarnason.com/notes/the-ibooks-builtin-widgets/
+ 365. https://www.baldurbjarnason.com/notes/the-ibooks-textbook-format/
+ 366. https://www.baldurbjarnason.com/notes/the-publishing-animal/
+ 367. https://www.baldurbjarnason.com/notes/A-day-of-innovation-on-the-future-of-the-book/
+ 368. https://www.baldurbjarnason.com/notes/what-a-publisher-does/
+ 369. https://www.baldurbjarnason.com/notes/Design-Pseudoscience/
+ 370. https://www.baldurbjarnason.com/notes/a-tale-of-three-blog-posts/
+ 371. https://www.baldurbjarnason.com/notes/css-and-ebook-design/
+ 372. https://www.baldurbjarnason.com/notes/the-loss-of-ambient-intimacy/
+ 373. https://www.baldurbjarnason.com/notes/friday-links-and-reading/
+ 374. https://www.baldurbjarnason.com/notes/convert-or-engage/
+ 375. https://www.baldurbjarnason.com/notes/CSS3-hyphens/
+ 376. https://www.baldurbjarnason.com/notes/just-you-and-the-megacorporation/
+ 377. https://www.baldurbjarnason.com/notes/knowledge-is-not-adoption/
+ 378. https://www.baldurbjarnason.com/notes/HTML5-history-api/
+ 379. https://www.baldurbjarnason.com/notes/social-in-the-mind/
+ 380. https://www.baldurbjarnason.com/notes/localstorage-and-messaging/
+ 381. https://www.baldurbjarnason.com/notes/javascript-in-epub/
+ 382. https://www.baldurbjarnason.com/notes/an-epub-experiment/
+ 383. https://www.baldurbjarnason.com/notes/what-is-an-ebook/
+ 384. https://www.baldurbjarnason.com/notes/hypotheses-and-testing/
+ 385. https://www.baldurbjarnason.com/notes/identifying-publishing-inn/
+ 386. https://www.baldurbjarnason.com/notes/on-quality-in-publishing/
+ 387. https://www.baldurbjarnason.com/notes/An-interesting-discussion/
+ 388. https://toot.cafe/@baldur
+ 389. https://twitter.com/fakebaldur
