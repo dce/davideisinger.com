@@ -16,8 +16,7 @@
             {{ .Date | time.Format "(2006-01-02)" }}
           </p>
 
-          {{ $sup := "<sup.*?>.*?</sup>" }}
-          {{ replaceRE $sup "" .Summary | safeHTML }}
+          {{ .Summary }}
         </li>
       {{ end }}
     </ul>
