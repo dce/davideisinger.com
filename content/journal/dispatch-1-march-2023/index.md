@@ -6,15 +6,15 @@ tags:
 - dispatch
 - ebikes
 references:
-- title: Electric Bike, Stupid Love of My Life — by Craig Mod
+- title: "Electric Bike, Stupid Love of My Life — by Craig Mod"
   url: https://craigmod.com/essays/electric_bikes/
   date: 2023-04-04T23:47:24Z
   file: craigmod-com-avmku7.txt
-- title: Programming is a Pop Culture – Baldur Bjarnason
+- title: "Programming is a Pop Culture – Baldur Bjarnason"
   url: https://www.baldurbjarnason.com/2022/programming-is-a-pop-culture/
   date: 2023-04-04T23:47:24Z
   file: www-baldurbjarnason-com-7p5031.txt
-- title: Julia Cameron Wants You to Do Your Morning Pages - The New York Times
+- title: "Julia Cameron Wants You to Do Your Morning Pages - The New York Times"
   url: https://www.nytimes.com/2019/02/02/style/julia-cameron-the-artists-way.html
   date: 2023-04-04T23:47:25Z
   file: www-nytimes-com-tq2xdi.txt

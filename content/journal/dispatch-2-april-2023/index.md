@@ -5,7 +5,7 @@ draft: false
 tags:
 - dispatch
 references:
-- title: The Enduring Point of Pointless Corp | Viget
+- title: "The Enduring Point of Pointless Corp | Viget"
   url: https://www.viget.com/articles/the-enduring-point-of-pointless-corp/
   date: 2023-04-04T23:45:46Z
   file: www-viget-com-5w5oyj.txt
