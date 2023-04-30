@@ -4,10 +4,10 @@ require "uri"
 require "digest"
 require "time"
 
-path, *urls = ARGV
+*urls = ARGV
 
-unless path && urls.any?
-  warn "Please supply a path and url"
+unless urls.any?
+  warn "Please supply one or more URLs"
   exit 1
 end
 
@@ -36,7 +36,7 @@ urls.each do |url|
 
   filename = "#{URI.parse(url).host.gsub(".", "-")}-#{hash}.txt"
 
-  File.write("#{path}/#{filename}", text_content)
+  File.write("static/archive/#{filename}", text_content)
 
   puts <<~STR
     - title: "#{title}"
