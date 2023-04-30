@@ -17,4 +17,13 @@ references:
   file: www-artofmanliness-com-6lxmwc.txt
 ---
 
-* _Slight Edge_ (p. 180)
+> Book smarts, street smarts. Learning by study, learning by doing.
+> Read about it, apply it, se ti ni action, take that practical experience
+> back to your reading, deepen your understanding, take that deeper
+> understanding back to your activity... it's a never-ending cycle, each
+> aspect of learning feeding the other.
+>
+> -- [_The Slight Edge_][1] ([p. 180][2])
+
+[1]: https://openlibrary.org/works/OL2777748W/The_Slight_Edge?edition=key%3A/books/OL9820911M
+[2]: slight_edge_180.pdf
