@@ -35,6 +35,21 @@ ul {
   }
 }
 
+blockquote {
+  margin: 0;
+  font-style: italic;
+
+  &::before {
+    content: "“";
+    position: absolute;
+  }
+
+  p {
+    width: 100%;
+    margin-left: 2ch;
+  }
+}
+
 header, #content, footer {
   max-width: 800px;
 }
