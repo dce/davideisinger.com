@@ -18,9 +18,9 @@ references:
 ---
 
 > Book smarts, street smarts. Learning by study, learning by doing.
-> Read about it, apply it, se ti ni action, take that practical experience
+> Read about it, apply it, see it in action, take that practical experience
 > back to your reading, deepen your understanding, take that deeper
-> understanding back to your activity... it's a never-ending cycle, each
+> understanding back to your activity ... it's a never-ending cycle, each
 > aspect of learning feeding the other.
 >
 > -- [_The Slight Edge_][1] ([p. 180][2])
