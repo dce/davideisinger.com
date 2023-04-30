@@ -1,0 +1,419 @@
+   #[1]Viget Articles
+
+   IFRAME: [2]https://www.googletagmanager.com/ns.html?id=GTM-5V7V
+
+   [3]Skip to Main Content
+
+   [4]Viget
+
+     * [5]Work
+     * [6]Services
+     * [7]Articles
+     * [8]Careers
+     * [9]Contact
+     * (BUTTON) Open Menu
+
+Navigation
+
+   [10]Viget (BUTTON) Close
+     * Practice
+     * [11]Work
+     * [12]Services
+     * [13]Articles
+
+   We’re a full-service digital agency that’s been helping clients make
+   lasting change since 1999.
+   [14]Contact Us
+
+People
+
+     * [15]Company
+     * [16]Careers
+     * [17]Code of Ethics
+     * [18]Diversity & Inclusion
+
+More
+
+     * [19]Pointless Corp.
+     * [20]Explorations
+     * [21]Code at Viget
+
+Featured
+
+   Read the Article: AI in Recruiting
+
+   Newsletter
+
+AI in Recruiting
+
+   Git logo variation
+
+   Article
+
+Simple Commit Linting for Issue Number in GitHub Actions
+
+Simple Commit Linting for Issue Number in GitHub Actions
+
+   Git logo variation
+   [22]David Eisinger
+
+   [23]David Eisinger, Development Director
+
+   Article Category: [24]#Code
+
+   Posted on April 28, 2023
+     * Share
+     * Share
+     * Tweet
+
+   Including relevant ticket numbers in your git commit messages is a gift
+   to your future self. Here's how to ensure you do it consistently.
+
+   I don't believe there is a right way to do software; I think teams can
+   be effective (or ineffective!) in a lot of different ways using all
+   sorts of methodologies and technologies. But one hill upon which I will
+   die is this: referencing tickets in commit messages pays enormous
+   dividends over the long haul and you should always do it. As someone
+   who regularly commits code to apps created in the Obama era, nothing
+   warms my heart like running [25]:Git blame on some confusing code and
+   seeing a reference to a GitHub Issue where I can get the necessary
+   context. And, conversely, nothing sparks nerd rage like fix bug or PR
+   feedback or, heaven forbid, oops.
+
+   In a recent [26]project retrospective, the team identified that we
+   weren't being as consistent with this as we'd like, and decided to take
+   action. I figured some sort of commit linting would be a good candidate
+   for [27]continuous integration — when a team member pushes a branch up
+   to GitHub, check the commits and make sure they include a reference to
+   a ticket.
+
+   I looked into [28]commitlint, but I found it a lot more opinionated
+   than I am — I really just want to make sure commits begin with either
+   [#XXX] (an issue number) or [n/a] — and rather difficult to
+   reconfigure. After struggling with it for a few hours, I decided to
+   just DIY it with a simple inline script. If you just want something you
+   can drop into a GitHub Actions YAML file to lint your commits, here it
+   is (but stick around and I'll break it down and then show how to do it
+   in a few other languages):
+ steps:
+   - name: Checkout code
+     uses: actions/checkout@v3
+     with:
+       fetch-depth: 0
+
+  - name: Set up ruby 3.2.1
+    uses: ruby/setup-ruby@v1
+    with:
+      ruby-version: 3.2.1
+
+  - name: Lint commits
+    run: |
+      git log --format=format:%s HEAD ^origin/main | ruby -e '
+        $stdin.each_line do |msg|
+          next if /^\[(#\d+|n\/a)\]/.match?(msg)
+          warn %(Commits must begin with [#XXX] or [n/a] (#{msg.strip}))
+          exit 1
+        end
+      '
+
+   A few notes:
+     * That fetch-depth: 0 is essential in order to be able to compare the
+       branch being built with main (or whatever you call your primary
+       development branch) — by default, your Action only knows about the
+       current branch.
+     * git log --format=format:%s HEAD ^origin/main is going to give you
+       the first line of every commit that's in the source branch but not
+       in main; those are the commits we want to lint.
+     * With that list of commits, we loop through each message and compare
+       it with the regular expression /^\[(#\d+|n\/a)\]/, i.e. does this
+       message begin with either [#XXX] (where X are digits) or [n/a]?
+     * If any message does not match, print an error out to standard error
+       (that's warn) and exit with a non-zero status (so that the GitHub
+       Action fails).
+
+   If you want to try this out locally (or perhaps modify the script to
+   validate messages in a different way), here's a docker run command you
+   can use:
+echo '[#123] Message 1
+[n/a] Message 2
+[#122] Message 3' | docker run --rm -i ruby:3.2.1 ruby -e '
+  $stdin.each_line do |msg|
+    next if /^\[(#\d+|n\/a)\]/.match?(msg)
+    warn %(Commits must begin with [#XXX] or [n/a] (#{msg.strip}))
+    exit 1
+  end
+'
+
+   Note that running this command should output nothing since these are
+   all valid commit messages; modify one of the messages if you want to
+   see the failure state.
+
+Other Languages [29]#
+
+   Since there's a very real possibility you might not otherwise install
+   Ruby in your GitHub Actions, and because I weirdly enjoy writing the
+   same code in a bunch of different languages, here are scripts for
+   several of Viget's other favorites:
+
+JavaScript [30]#
+
+git log --format=format:%s HEAD ^origin/main | node -e "
+  let msgs = require('fs').readFileSync(0).toString().trim().split('\n');
+  for (let msg of msgs) {
+    if (msg.match(/^\[(#\d+|n\/a)\]/)) { continue; }
+    process.stderr.write('Commits must begin with [#XXX] or [n/a] (' + msg + ')'
+);
+    process.exit(1);
+  }
+"
+
+   To test:
+echo '[#123] Message 1
+[n/a] Message 2
+[#122] Message 3' | docker run --rm -i node:18.15.0 node -e "
+  let msgs = require('fs').readFileSync(0).toString().trim().split('\n');
+  for (let msg of msgs) {
+    if (msg.match(/^\[(#\d+|n\/a)\]/)) { continue; }
+    process.stderr.write('Commits must begin with [#XXX] or [n/a] (' + msg + ')'
+);
+    process.exit(1);
+  }
+"
+
+PHP [31]#
+
+git log --format=format:%s HEAD ^origin/main | php -r '
+  while ($msg = fgets(STDIN)) {
+    if (preg_match("/^\[(#\d+|n\/a)\]/", $msg)) { continue; }
+    fwrite(STDERR, "Commits must begin with #[XXX] or [n/a] (" . trim($msg) . ")
+\n");
+    exit(1);
+  }
+'
+
+   To test:
+echo '[#123] Message 1
+[n/a] Message 2
+[#122] Message 3' | docker run --rm -i php:8.2.4 php -r '
+  while ($msg = fgets(STDIN)) {
+    if (preg_match("/^\[(#\d+|n\/a)\]/", $msg)) { continue; }
+    fwrite(STDERR, "Commits must begin with #[XXX] or [n/a] (" . trim($msg) . ")
+\n");
+    exit(1);
+  }
+'
+
+Python [32]#
+
+git log --format=format:%s HEAD ^origin/main | python -c '
+import sys
+import re
+for msg in sys.stdin:
+    if re.match(r"^\[(#\d+|n\/a)\]", msg):
+        continue
+    print("Commits must begin with #[xxx] or [n/a] (%s)" % msg.strip(), file=sys
+.stderr)
+    sys.exit(1)
+'
+
+   To test:
+echo '[#123] Message 1
+[n/a] Message 2
+[#122] Message 3' | docker run --rm -i python:3.11.3 python -c '
+import sys
+import re
+for msg in sys.stdin:
+    if re.match(r"^\[(#\d+|n\/a)\]", msg):
+        continue
+    print("Commits must begin with #[xxx] or [n/a] (%s)" % msg.strip(), file=sys
+.stderr)
+    sys.exit(1)
+'
+     __________________________________________________________________
+
+   So there you have it: simple GitHub Actions commit linting in most of
+   Viget's favorite languages (try as I might, I could not figure out how
+   to do this in [33]Elixir, at least not in a concise way). As I said up
+   front, writing good tickets and then referencing them in commit
+   messages so that they can easily be surfaced with git blame pays huge
+   dividends over the life of a codebase. If you're not already in the
+   habit of doing this, well, the best time to start was Initial commit,
+   but the second best time is today.
+
+   [34]David Eisinger
+
+   [35]David is Viget's managing development director. From our Durham,
+   NC, office, he builds high-quality, forward-thinking software for PUMA,
+   the World Wildlife Fund, NFLPA, and many others.
+   [36]More articles by David
+
+Related Articles
+
+     * Maintenance Matters: Timely Upgrades
+       Article
+
+Maintenance Matters: Timely Upgrades
+       Chris Manning
+     * Styling the Native File Upload Input Field
+       Article
+
+Styling the Native File Upload Input Field
+       Eric Fuhrmann
+     * 10 SQL Tricks That I Like
+       Article
+
+10 SQL Tricks That I Like
+       Noah Over
+
+The Viget Newsletter
+
+   Nobody likes popups, so we waited until now to recommend our
+   newsletter, featuring thoughts, opinions, and tools for building a
+   better digital world. [37]Read the current issue.
+
+   [38]Subscribe Here (opens in new window)
+
+Site Footer
+
+   Have an unsolvable problem or audacious idea?
+
+   Let’s get to work
+   [39]Contact Us [40]hello@viget.com [41]703.891.0670
+
+     * Practice
+     * [42]Work
+     * [43]Services
+     * [44]Articles
+
+     * People
+     * [45]Company
+     * [46]Careers
+     * [47]Code of Ethics
+     * [48]Diversity & Inclusion
+
+     * More
+     * [49]Pointless Corp.
+     * [50]Explorations
+     * [51]Code at Viget
+
+Sign Up For Our Newsletter
+
+   A curated periodical featuring thoughts, opinions, and tools for
+   building a better digital world.
+   [52]Check it out
+
+Social Links
+
+   [53]Viget
+     *
+     *
+     *
+     *
+     *
+     *
+
+Office Locations
+
+     * [54]Washington DC Metro
+     * [55]Durham, NC
+     * [56]Boulder, CO
+     * [57]Chattanooga, TN
+
+   © 1999 – 2023 Viget Labs, LLC. [58]Terms [59]Privacy [60]MRF
+
+     * [61]Home
+     * [62]Articles
+     * [63]Simple Commit Linting for Issue Number in GitHub Actions
+
+   [64]Subscribe (opens in a new window)
+   (BUTTON) Share
+     * [65]Share this page
+     * [66]Share this page
+     * [67]Tweet this page
+
+References
+
+   Visible links:
+   1. https://feeds.feedburner.com/Viget
+   2. https://www.googletagmanager.com/ns.html?id=GTM-5V7V
+   3. https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/#content
+   4. https://www.viget.com/
+   5. https://www.viget.com/work/
+   6. https://www.viget.com/services/
+   7. https://www.viget.com/articles/
+   8. https://www.viget.com/careers/
+   9. https://www.viget.com/contact/
+  10. https://www.viget.com/
+  11. https://www.viget.com/work/
+  12. https://www.viget.com/services/
+  13. https://www.viget.com/articles/
+  14. https://www.viget.com/contact/
+  15. https://www.viget.com/about/
+  16. https://www.viget.com/careers/
+  17. https://www.viget.com/code-of-ethics/
+  18. https://www.viget.com/diversity-equity-and-inclusion/
+  19. https://pointlesscorp.com/
+  20. https://explorations.viget.com/
+  21. https://code.viget.com/
+  22. https://www.viget.com/about/team/deisinger/
+  23. https://www.viget.com/about/team/deisinger/
+  24. https://www.viget.com/articles/category/code/
+  25. https://github.com/tpope/vim-fugitive#fugitivevim
+  26. https://www.viget.com/articles/get-the-most-out-of-your-internal-retrospectives/
+  27. https://www.viget.com/articles/maintenance-matters-continuous-integration/
+  28. https://commitlint.js.org/
+  29. https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/#other-languages
+  30. https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/#javaScript
+  31. https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/#php
+  32. https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/#python
+  33. https://elixir-lang.org/
+  34. https://www.viget.com/about/team/deisinger/
+  35. https://www.viget.com/about/team/deisinger/
+  36. https://www.viget.com/about/team/deisinger/
+  37. https://www.viget.com/newsletter
+  38. http://eepurl.com/gtHqsj
+  39. https://www.viget.com/contact/
+  40. mailto:hello@viget.com?subject=Hello, Viget!
+  41. tel:7038910670
+  42. https://www.viget.com/work/
+  43. https://www.viget.com/services/
+  44. https://www.viget.com/articles/
+  45. https://www.viget.com/about/
+  46. https://www.viget.com/careers/
+  47. https://www.viget.com/code-of-ethics/
+  48. https://www.viget.com/diversity-equity-and-inclusion/
+  49. https://pointlesscorp.com/
+  50. https://explorations.viget.com/
+  51. https://code.viget.com/
+  52. https://www.viget.com/newsletter/
+  53. https://www.viget.com/
+  54. https://www.viget.com/dc-metro-hq/
+  55. https://www.viget.com/durham/
+  56. https://www.viget.com/boulder/
+  57. https://www.viget.com/chattanooga/
+  58. https://www.viget.com/terms-conditions/
+  59. https://www.viget.com/privacy-policy/
+  60. https://individual.carefirst.com/individuals-families/mandates-policies/machine-readable-file.page
+  61. https://www.viget.com/
+  62. https://www.viget.com/articles
+  63. https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/#hero
+  64. http://eepurl.com/gtHqsj
+  65. https://www.facebook.com/sharer/sharer.php?u=https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/
+  66. http://www.linkedin.com/shareArticle?mini=true&url=https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/
+  67. https://twitter.com/intent/tweet?text=Including relevant ticket numbers in your git commit messages is a gift to your future self. Here's how to ensure you do it consistently. https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/
+
+   Hidden links:
+  69. https://www.viget.com/newsletter/ai-in-recruiting/
+  70. https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/
+  71. https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.viget.com%2Farticles%2Fsimple-commit-linting-for-issue-number-in-github-actions%2F
+  72. http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.viget.com%2Farticles%2Fsimple-commit-linting-for-issue-number-in-github-actions%2F
+  73. https://twitter.com/intent/tweet?text=Including%20relevant%20ticket%20numbers%20in%20your%20git%20commit%20messages%20is%20a%20gift%20to%20your%20future%20self.%20Here%27s%20how%20to%20ensure%20you%20do%20it%20consistently.%20https%3A%2F%2Fwww.viget.com%2Farticles%2Fsimple-commit-linting-for-issue-number-in-github-actions%2F
+  74. https://www.viget.com/articles/maintenance-matters-timely-upgrades/
+  75. https://www.viget.com/articles/styling-native-file-upload-input-field/
+  76. https://www.viget.com/articles/10-sql-tricks-that-i-like/
+  77. https://twitter.com/viget
+  78. https://github.com/vigetlabs
+  79. https://dribbble.com/viget
+  80. https://www.instagram.com/viget/
+  81. https://www.linkedin.com/company/viget-labs
+  82. https://vimeo.com/viget/collections
