@@ -1,0 +1,38 @@
+{{ define "main" }}
+  <hr>
+
+  <h2>{{ .Title }}</h2>
+
+  <h3>
+    Posted {{ .Date | time.Format "2006-01-02" }}
+
+    {{ if .Params.tags }}
+      under
+
+      {{ range .Params.tags }}
+        <a href="/tags/{{ . | urlize }}">#{{ . }}</a>
+      {{ end }}
+    {{ end }}
+  </h3>
+
+  {{ .Content }}
+
+  {{ with .Params.References }}
+    <hr>
+
+    <div class="references">
+      <h3>References</h3>
+
+      <ul>
+        {{ range . }}
+          <li>
+            “<a href="{{ .url }}">{{ .title }}</a>”;
+            <a href="/archive/{{ .file }}">
+              backed up {{ .date | time.Format "2006-01-02 15:04:05 MST" }}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  {{ end }}
+{{ end }}

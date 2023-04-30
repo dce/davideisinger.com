@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <section>
+    <hr>
+
+    <h3>Notes</h3>
+
+    <ul>
+      {{ range (where .Site.RegularPages "Type" "in" "notes") }}
+        <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          {{ .Date | time.Format "(2006-01-02)" }}
+        </li>
+      {{ end }}
+    </ul>
+  </section>
+{{ end }}
