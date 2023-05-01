@@ -3,18 +3,6 @@
 
   <h2>{{ .Title }}</h2>
 
-  <h3>
-    Posted {{ .Date | time.Format "2006-01-02" }}
-
-    {{ if .Params.tags }}
-      under
-
-      {{ range .Params.tags }}
-        <a href="/tags/{{ . | urlize }}">#{{ . }}</a>
-      {{ end }}
-    {{ end }}
-  </h3>
-
   {{ .Content }}
 
   {{ with .Params.References }}

@@ -8,7 +8,6 @@
       {{ range (where .Site.RegularPages "Type" "in" "notes") }}
         <li>
           <a href="{{ .Permalink }}">{{ .Title }}</a>
-          {{ .Date | time.Format "(2006-01-02)" }}
         </li>
       {{ end }}
     </ul>
