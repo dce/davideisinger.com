@@ -66,6 +66,10 @@ sup {
   line-height: 0;
 }
 
+figure {
+  margin: 0;
+}
+
 .nowrap {
   white-space: nowrap;
 }
@@ -74,13 +78,9 @@ sup {
   display: flex;
   gap: 1em;
 
-  figure {
-    margin: 0;
-
-    img {
-      width: 100%;
-      height: auto;
-    }
+  img {
+    width: 100%;
+    height: auto;
   }
 }
 

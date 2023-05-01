@@ -17,6 +17,8 @@ references:
   file: www-artofmanliness-com-6lxmwc.txt
 ---
 
+{{<thumbnail graph1 "500x" />}}
+
 > Book smarts, street smarts. Learning by study, learning by doing.
 > Read about it, apply it, see it in action, take that practical experience
 > back to your reading, deepen your understanding, take that deeper

@@ -1,6 +1,11 @@
 {{ $orig := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
 {{ $options := .Get 1 }}
-{{ $img := $orig.Fill $options }}
+
+{{ $img := $orig.Resize $options }}
+
+{{ if findRE `\d+x\d+` $options }}
+  {{ $img = $orig.Fill $options }}
+{{ end }}
 
 <figure>
   <a href="{{ $orig.RelPermalink }}">
