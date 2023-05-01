@@ -24,25 +24,28 @@ references:
   file: maggieappleton-com-n6xsqa.txt
 ---
 
-Last month:
+Another month in the books. Man, year's flying by. We filled it up though: went down to the lake for Easter weekend, took the kayaks out on the Catawba. Claire went out to California to visit a friend, so I got to spend a lot of one-on-one time with Nev and made a big dent in the closet project. The first unit is done and installed. Claire seems really happy with it. The second unit should go a lot quicker since most of the thought work is done.
 
-* Kayak
-* Closet project
-* E-bike
-  * [Aventon Pace 500][1]
-* Tar Heel 10 Miler ([results][2], [certificate][3])
+<!--more-->
+
+<div class="image-set">
+  {{<thumbnail IMG_3656 "200x300" />}}
+  {{<thumbnail IMG_3763 "200x300" />}}
+  {{<thumbnail IMG_3796 "200x300" />}}
+  {{<thumbnail IMG_3797 "200x300" />}}
+</div>
+
+I ordered Claire an [e-bike][1] thinking it might arrive before her birthday mid-May, but it showed up just a few days later. It's been a blast taking Nevie to the museum and around town. We also ran the Tar Heel 10 Miler last weekend. Super fun, and I did better than I expected to based on my training ([result][2], [certificate][3]) -- there's something about an organized race that just gives that extra push I guess.
 
 [1]: https://www.aventon.com/products/pace500-3-step-through-ebike
 [2]: 10_miler_results.pdf
 [3]: 10_miler_certificate.png
 
-<!--more-->
-
 This month:
 
-* Adventure:
-* Project:
-* Skill:
+* Adventure: do some non-electric biking ("acoustic biking" as it were), ideally after getting a rack installed on the car
+* Project: finish this closet off
+* Skill: gonna say learning Golang again, though the fact that I'm struggling to pick a project makes me think my interest is more theoretical than practical
 
 Reading:
 
@@ -56,9 +59,8 @@ Reading:
 
 Links:
 
-* [_This Is How You Lose The Time War_][7]
-  * [recommended here][8]
-* [Simple Commit Linting for Issue Number in GitHub Actions | Viget][9] -- short post on my company blog about two topics dear to me: continuous integration and information retrieval
+* [_This Is How You Lose The Time War_][7] -- just _fantastic_ little book I read this month. Hard to describe, but highly recommended. [Originally recommended here.][8]
+* [Simple Commit Linting for Issue Number in GitHub Actions | Viget][9] -- short post on my company blog about two topics dear to me: continuous integration and information retrieval.
 * [What Do You Want to Make Real in the World?][10]
 * [A Brief History & Ethos of the Digital Garden][11]
 
