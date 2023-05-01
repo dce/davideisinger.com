@@ -54,10 +54,18 @@ Leisure:
 * I spend a lot of time mindlessly scrolling my phone
 * [Spend Exactly None Of Your Time Killing Time][5]
 
+[5]: https://deadspin.com/spend-exactly-none-of-your-time-killing-time-1831777904
+
 Sleep:
 
 * Getting 7+ hours is important. It can feel like a waste of time when it's 11:30 and you're on a roll, but an extra hour of sleep can mean the difference between a good day and a bad one.
 * If you're tired mid-day, just take a nap.
-  * Passage from _Make Time_
 
-[5]: https://deadspin.com/spend-exactly-none-of-your-time-killing-time-1831777904
+> Napping makes you smarter. Seriously. Lots of studies show napping improves alertness and cognitive performance in the af noon. As usual, we've tested the science ourselves.
+>
+> You don’t even have to fall asleep. Just lying down and resting for ten to twenty minutes can be a great way to recharge.
+>
+> -- [_Make Time_][6] ([p. 232-233][7])
+
+[6]: https://bookshop.org/p/books/make-time-how-to-focus-on-what-matters-every-day-jake-knapp/12094196?ean=9780525572428
+[7]: make_time_232.pdf
