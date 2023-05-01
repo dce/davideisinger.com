@@ -60,7 +60,7 @@ Reading:
 Links:
 
 * [_This Is How You Lose The Time War_][7] -- just _fantastic_ little book I read this month. Hard to describe, but highly recommended. [Originally recommended here.][8]
-* [Simple Commit Linting for Issue Number in GitHub Actions | Viget][9] -- short post on my company blog about two topics dear to me: continuous integration and information retrieval.
+* [Simple Commit Linting for Issue Number in GitHub Actions][9] -- short post on my company blog about two topics dear to me: continuous integration and information retrieval.
 * [What Do You Want to Make Real in the World?][10]
 * [A Brief History & Ethos of the Digital Garden][11]
 
