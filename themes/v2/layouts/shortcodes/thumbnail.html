@@ -7,13 +7,13 @@
   {{ $img = $orig.Fill $options }}
 {{ end }}
 
-<figure>
-  <a href="{{ $orig.RelPermalink }}">
+<a href="{{ $orig.RelPermalink }}">
+  <figure>
     <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}">
-    <figcaption>
-      {{ with .Inner }}
+    {{ with .Inner }}
+      <figcaption>
         {{ . }}
-      {{ end }}
-    </figcaption>
-  </a>
-</figure>
+      </figcaption>
+    {{ end }}
+  </figure>
+</a>
