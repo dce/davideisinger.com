@@ -61,6 +61,7 @@ Leisure:
 * Most of my hobbies are hard (satisfying but somewhat stressful)
 * I don't really have leisure activities besides reading fiction
 * I spend a lot of time mindlessly scrolling my phone
+* What do I love to do that is relaxing & that I don't feel a constant need to improve at?
 * [Spend Exactly None Of Your Time Killing Time][7]
 
 [7]: https://deadspin.com/spend-exactly-none-of-your-time-killing-time-1831777904
