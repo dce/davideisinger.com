@@ -4,6 +4,9 @@ title = 'David Eisinger'
 theme = 'v2'
 enableGitInfo = true
 
+[permalinks]
+  pages = '/:title'
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
