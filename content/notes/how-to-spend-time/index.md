@@ -48,6 +48,7 @@ Broadly, three categories of productive activities:
 {{<thumbnail graph1 "500x" />}}
 
 _(This would imply that "improving yourself" is the most valuable use of time, but I actually think it's something like the opposite.)_
+
 ---
 
 Experiences:
