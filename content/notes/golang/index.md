@@ -7,7 +7,7 @@ draft: false
 I find [Go][1] really compelling, even though it's not super applicable to my job. When evaluating a new tool, I find I'm weirdly biased to things written in Go.
 
 * I like that it compiles, and have no desire to install someone else's Python
-* It just seems to hit the right balance of productivity, performance, safety
+* It just seems to hit the right balance of productivity, performance, simplicity, safety
 * The language (and the tech built with the language) just seems built to last
 
 [1]: https://go.dev/
