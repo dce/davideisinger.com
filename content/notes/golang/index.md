@@ -17,12 +17,15 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 * How to organize large(r) codebases
 * Goroutines / concurrency
 * Dev tooling
+* How to read/write JSON
 
 ### Projects I like
 
 * [Caddy][2]
+* [PocketBase][3]
 
 [2]: https://caddyserver.com/
+[3]: https://pocketbase.io/
 
 ### Project Ideas
 
