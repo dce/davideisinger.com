@@ -14,6 +14,10 @@ draft: false
 * Create stub objects to stand in for network calls
   * Use [JSON Schema][1] to ensure stub stays in sync
 * Avoid over-stubbing/mocking
+* Coverage
+  * We shoot for 100% in SimpleCov (So all the Ruby is tested)
+  * Some consider this too high or too burdensome -- I don't
+  * Occasionally you have to ignore some code -- e.g. something that only runs in production
 
 [1]: https://json-schema.org/
 
