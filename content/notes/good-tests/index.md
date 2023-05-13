@@ -12,6 +12,9 @@ draft: false
   * Make assertions about the results
 * Put complex logic into easily testable objects/functions
 * Create stub objects to stand in for network calls
-  * Use JSON Schema to ensure stub stays in sync
+  * Use [JSON Schema][1] to ensure stub stays in sync
+* Avoid over-stubbing/mocking
+
+[1]: https://json-schema.org/
 
 {{<thumbnail notes "400x" />}}
