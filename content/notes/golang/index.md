@@ -26,16 +26,24 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 * [Caddy][2]
 * [PocketBase][3]
 * [SyncThing][4]
+* [Restic][5]
 
 [2]: https://caddyserver.com/
 [3]: https://pocketbase.io/
 [4]: https://syncthing.net/
+[5]: https://restic.net/
 
 ### Project Ideas
 
 * Bookmarking app (Pinboard replacement)
 * Note-taking / journaling app
 
-### Links
+{{<thumbnail project1 "400x" />}}
+
+### Resources
+
+* [Standard Go Project Layout][6]
+
+[6]: https://github.com/golang-standards/project-layout
 
 ### General Notes
