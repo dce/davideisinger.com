@@ -5,7 +5,7 @@
     <h3>Notes</h3>
 
     <ul>
-      {{ range (where .Site.RegularPages "Type" "in" "notes") }}
+      {{ range (where .Site.RegularPages.ByLastmod.Reverse "Type" "in" "notes") }}
         <li>
           <a href="{{ .Permalink }}">{{ .Title }}</a>
         </li>

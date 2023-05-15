@@ -20,6 +20,7 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 * How to read/write JSON
 * How to validate with JSON Schema
   * <https://github.com/qri-io/jsonschema>
+* Testing
 
 ### Projects I like
 
