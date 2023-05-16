@@ -21,8 +21,12 @@ _(Notes for a Viget article I'm putting together)_
   * Visit a page
   * Interact with it
   * Make assertions about the results
-* Create stub objects to stand in for network calls
+* Third-party/network calls
+  * VCR is … OK but can become a maintenance problem
+  * Block access to the web
+  * Create stub objects to stand in for network calls
   * Use [JSON Schema][1] to ensure stub stays in sync
+  * This will lead to more reliable tests and also more robust code
 * Coverage
   * We shoot for 100% in SimpleCov (So all the Ruby is tested)
   * Some consider this too high or too burdensome -- I don't
