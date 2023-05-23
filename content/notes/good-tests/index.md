@@ -30,6 +30,9 @@ _(Notes for a Viget article I'm putting together)_
 * Coverage
   * We shoot for 100% in SimpleCov (So all the Ruby is tested)
   * Some consider this too high or too burdensome -- I don't
+  * If it's 100%, you instantly know if you have any untested code
+    * If it's, say, 94%, and you add 100 lines, six of those can be untested -- hope they're perfect!
+    * In other words, at less than 100% coverage, you don't know if your new feature is fully covered or not
   * Occasionally you have to ignore some code -- e.g. something that only runs in production
 * Flaky tests are bad
   * They eat up a lot of development time (esp. as build times increase)
