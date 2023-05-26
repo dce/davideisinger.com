@@ -4,6 +4,11 @@ date: 2023-05-21T23:20:01-04:00
 draft: false
 tags:
 - dispatch
+references:
+- title: "What’s in a Word? Building a Verbose Party Game | Viget"
+  url: https://www.viget.com/articles/whats-in-a-word-building-a-verbose-party-game/
+  date: 2023-05-26T16:33:41Z
+  file: www-viget-com-yrczde.txt
 ---
 
 Having a kid is the end of "what if" thinking.
