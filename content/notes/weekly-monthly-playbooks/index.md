@@ -15,9 +15,10 @@ references:
   url: https://stationery.pizza/2023/05/25/task-management-system-analog-calendar
   date: 2023-05-28T19:53:18Z
   file: stationery-pizza-93ey2p.txt
-- title: "Why Have a Values Plan? &mdash; Anna Havron"
+- title: "Why Have a Values Plan? – Anna Havron"
   url: https://www.annahavron.com/blog/why-have-a-values-plan
   date: 2023-05-28T19:58:40Z
   file: www-annahavron-com-8hj07z.txt
 ---
 
+{{<thumbnail notes "400x" />}}
