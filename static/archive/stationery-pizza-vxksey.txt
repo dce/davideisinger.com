@@ -1,0 +1,103 @@
+   #[1]Stationery 🍕
+
+   [2]
+
+                                  Stationery 🍕
+
+   [3]Home [4]About [5]Colophon [6]Contact [7]Favourites [8]Philosophy
+   [9]Subscribe [10]Pen & Inks
+
+[11]Bullet Journal
+
+   2023-05-27 00:00
+
+The nerdy pen bits
+
+   I use Leuchtturm1917 A5 dot grid notebooks for it at the moment.
+   Sometimes the Bullet Journal versions sometimes the regular. It all
+   depends on what is in stock and if I find a color that is cooler than
+   the dull crap they have for the Bullet Journal versions.
+
+   Most of the time I use fountain pens. Usually a finer nibbed one for
+   writing and broad stub to underline headings.
+
+How I use it
+
+   I usually re-collect things when the number of pages from first to last
+   go beyond 20-30 pages, mostly because I find it easier to deal with.
+   Plus that I often need to replace at least some of the goals every 3-5
+   days anyways.
+
+   On the first two pages I write down my current “yearly” theme, and then
+   I write down some goals I have on some areas of my life. Usually weight
+   and fitness goals are there. Plus some things I focus on improving.
+
+   Then I put a marker there. Then I turn the page and make a daily page.
+   I make one every day. And move over whatever was left on the day
+   before.
+
+   I just write down the day of the week and the date. And start adding
+   stuff. I usually start by adding auto generated check lists from things
+   that kind of keep my life together.
+
+   Usually first work stuff, then my personal daily stuff. I often start
+   with the most important stuff. And then things I have to carry over
+   from the day before. And then I put a marker on the start of the daily
+   page and one marker at the first page with free space to write things.
+
+   The first marker is always on the “status / goal page” the second is
+   always at the first page with tasks I haven’t checked off and the last
+   one is always at the first page with available space.
+
+   As I complete things and run out of tasks I start refilling it. Usually
+   start with Daily tasks, move over to weekly and monthly if there are
+   anything there I need to do. And after that over to projects that are
+   in focus. First the ones outlined in the Hobonichi and then later
+   anything not hidden in my task manager.
+
+Formatting
+
+   I don’t use the official Bullet Journal formatting, I’ve tried a few
+   times but after many years of using [12]Dash/Plus as my task management
+   on paper formatting system I’ve never been able to change it.
+
+   The way I do things is that I use one pen and color for writing and
+   another pen and color for underlining things.
+
+   I usually only have two levels of headings. One is the day, and then
+   one for the “collection”, when things go deeper than that I typically
+   will do it as sub-tasks and sub-sub-tasks etc. Anything that has tasks
+   under it will be underlined. To make it easy to spot.
+
+   In addition to this I also often will write a + between different
+   areas. Like when I move from “Work” related tasks to “Daily” tasks etc.
+
+Page layout
+
+   My page layout is usually that I align the top level heading (the day
+   and date) to the left written larger than the rest.
+
+   The collection I typically center.
+
+   I also try to use as much of the page as possible. So, if a collection
+   only takes up half the width or a third of the width of the page, I
+   often will add another section next to it. Other times I write the
+   tasks two or three per line. It all depends on what works and how
+   mindful I am of not wasting page while doing it.
+
+   Made with ❤️ in Bergen, Norway by Eivind Hjertnes
+
+References
+
+   1. https://stationery.pizza/feed.rss
+   2. file:///
+   3. file:///
+   4. file:///about
+   5. file:///colophon
+   6. file:///contact
+   7. file:///favourites
+   8. file:///philosophy
+   9. file:///feed.rss
+  10. file:///pen-inks
+  11. file:///2023/05/27/bullet-journal
+  12. https://patrickrhone.com/dashplus/
