@@ -27,17 +27,17 @@ This month:
 Reading:
 
 * Fiction: [_Rapt_][1], Winifred Gallagher
-* Non-fiction: [_Title_][2], Author
+* Non-fiction: [_The Last Graduate_][2], Naomi Novik
 
 [1]: https://bookshop.org/p/books/rapt-attention-and-the-focused-life-winifred-gallagher/7485226?ean=9780143116905
-[2]: https://bookshop.org/
+[2]: https://bookshop.org/p/books/the-last-graduate-naomi-novik/15537202?ean=9780593128886
 
 Links:
 
 * [Title][3]
 * [Title][4]
-* [Title][5]
+* [What’s in a Word? Building a Verbose Party Game | Viget][5]
 
 [3]: https://example.com/
 [4]: https://example.com/
-[5]: https://example.com/
+[5]: https://www.viget.com/articles/whats-in-a-word-building-a-verbose-party-game/
