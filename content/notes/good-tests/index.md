@@ -28,6 +28,7 @@ _(Notes for a Viget article I'm putting together)_
   * Visit a page
   * Interact with it
   * Make assertions about the results
+  * Generally folder per controller, file per action (e.g. `spec/features/posts/create_spec.rb`)
 * Coverage
   * We shoot for 100% in SimpleCov (So all the Ruby is tested)
   * Some consider this too high or too burdensome -- I don't
