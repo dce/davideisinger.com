@@ -22,3 +22,5 @@ references:
 ---
 
 {{<thumbnail notes "400x" />}}
+
+_Building a Second Brain_ (p. 215)
