@@ -11,30 +11,40 @@ references:
   file: www-viget-com-yrczde.txt
 ---
 
-* Closet progress: done!
+* Closet progress
+  * done!
   * Get a photo (finish it first)
-* Biking: installed trailer hitch; now need to select + purchase rack
-* Read [_Building a Second Brain_][6]
-  * Tried a couple PKM apps
-  * Settled on [Obsidian][7] (for now -- may just end up back in Vim at some point)
-  * I like the idea of [Logseq][8], but the editing experience had some warts and I didn't love being forced into an outline format
+* Biking
+  * Installed trailer hitch
+  * Now need to select + purchase rack
+* Read [_Building a Second Brain_][1]
+  * Tried a couple <abbr title="personal knowledge management">PKM</abbr> apps
+  * Settled on [Obsidian][2] (for now -- may just end up back in Vim at some point)
+  * I like the idea of [Logseq][3], but the editing experience had some warts and I didn't love being forced into an outline format
   * Obsidian seems nice if a little non-native
-  * Set up the [web clipper][9] which is cool
+  * Set up the [web clipper][4] which is cool
   * Need to figure out sync
-  * Also started keeping [public notes][10]
-* Didn't write any go, but started a [notes page][11]
-* JCC
+  * Also started keeping [public notes][5]
+* Didn't write any go, but started a [notes page][6]
+  * This is the risk of getting to into PKM, I suppose
+* [JCC][7]
+  * Pool
+  * Gym
 * TTT
-  * Tides Inn
-  * Scooter
+  * 15 years!
+  * [Tides Inn][8]
+  * [Scooter][9]
 * Having a kid is the end of "what if" thinking.
 
-[6]: https://bookshop.org/p/books/building-a-second-brain-a-proven-method-to-organize-your-digital-life-and-unlock-your-creative-potential-tiago-forte/18265370?ean=9781982167387
-[7]: https://obsidian.md/
-[8]: https://logseq.com/
-[9]: https://chrome.google.com/webstore/detail/obsidian-web/edoacekkjanmingkbkgjndndibhkegad
-[10]: /notes/
-[11]: /notes/golang/
+[1]: https://bookshop.org/p/books/building-a-second-brain-a-proven-method-to-organize-your-digital-life-and-unlock-your-creative-potential-tiago-forte/18265370?ean=9781982167387
+[2]: https://obsidian.md/
+[3]: https://logseq.com/
+[4]: https://chrome.google.com/webstore/detail/obsidian-web/edoacekkjanmingkbkgjndndibhkegad
+[5]: /notes/
+[6]: /notes/golang/
+[7]: https://www.jewishforgood.org/
+[8]: https://www.tidesinn.com/
+[9]: https://www.segway.com/ninebot-kickscooter-max/
 
 <!--more-->
 
@@ -49,18 +59,18 @@ This month:
 
 Reading:
 
-* Fiction: [_Rapt_][1], Winifred Gallagher
-* Non-fiction: [_The Last Graduate_][2], Naomi Novik
+* Fiction: [_Rapt_][10], Winifred Gallagher
+* Non-fiction: [_The Last Graduate_][11], Naomi Novik
 
-[1]: https://bookshop.org/p/books/rapt-attention-and-the-focused-life-winifred-gallagher/7485226?ean=9780143116905
-[2]: https://bookshop.org/p/books/the-last-graduate-naomi-novik/15537202?ean=9780593128886
+[10]: https://bookshop.org/p/books/rapt-attention-and-the-focused-life-winifred-gallagher/7485226?ean=9780143116905
+[11]: https://bookshop.org/p/books/the-last-graduate-naomi-novik/15537202?ean=9780593128886
 
 Links:
 
-* [Title][3]
-* [Title][4]
-* [What’s in a Word? Building a Verbose Party Game | Viget][5]
+* [Title][12]
+* [Title][13]
+* [What’s in a Word? Building a Verbose Party Game | Viget][14]
 
-[3]: https://example.com/
-[4]: https://example.com/
-[5]: https://www.viget.com/articles/whats-in-a-word-building-a-verbose-party-game/
+[12]: https://example.com/
+[13]: https://example.com/
+[14]: https://www.viget.com/articles/whats-in-a-word-building-a-verbose-party-game/
