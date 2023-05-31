@@ -11,7 +11,30 @@ references:
   file: www-viget-com-yrczde.txt
 ---
 
-Having a kid is the end of "what if" thinking.
+* Closet progress: done!
+  * Get a photo (finish it first)
+* Biking: installed trailer hitch; now need to select + purchase rack
+* Read [_Building a Second Brain_][6]
+  * Tried a couple PKM apps
+  * Settled on [Obsidian][7] (for now -- may just end up back in Vim at some point)
+  * I like the idea of [Logseq][8], but the editing experience had some warts and I didn't love being forced into an outline format
+  * Obsidian seems nice if a little non-native
+  * Set up the [web clipper][9] which is cool
+  * Need to figure out sync
+  * Also started keeping [public notes][10]
+* Didn't write any go, but started a [notes page][11]
+* JCC
+* TTT
+  * Tides Inn
+  * Scooter
+* Having a kid is the end of "what if" thinking.
+
+[6]: https://bookshop.org/p/books/building-a-second-brain-a-proven-method-to-organize-your-digital-life-and-unlock-your-creative-potential-tiago-forte/18265370?ean=9781982167387
+[7]: https://obsidian.md/
+[8]: https://logseq.com/
+[9]: https://chrome.google.com/webstore/detail/obsidian-web/edoacekkjanmingkbkgjndndibhkegad
+[10]: /notes/
+[11]: /notes/golang/
 
 <!--more-->
 
