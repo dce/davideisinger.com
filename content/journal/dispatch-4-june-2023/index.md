@@ -36,6 +36,11 @@ references:
   * [Scooter][9]
 * Having a kid is the end of "what if" thinking.
 
+<div class="image-set">
+  {{<thumbnail IMG_4011 "400x" />}}
+  {{<thumbnail IMG_4012 "400x" />}}
+</div>
+
 [1]: https://bookshop.org/p/books/building-a-second-brain-a-proven-method-to-organize-your-digital-life-and-unlock-your-creative-potential-tiago-forte/18265370?ean=9781982167387
 [2]: https://obsidian.md/
 [3]: https://logseq.com/
