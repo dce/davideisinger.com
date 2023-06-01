@@ -6,7 +6,8 @@
 
     <ul>
       {{ range . }}
-        <li>“<a href="{{ .url }}">{{ .title }}</a>”;
+        <li>
+          “<a href="{{ .url }}">{{ .title }}</a>”;
           <a href="/archive/{{ .file }}">
             backed up {{ .date | time.Format "2006-01-02 15:04:05 MST" }}
           </a>
