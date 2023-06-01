@@ -44,7 +44,9 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 ### Resources
 
 * [Standard Go Project Layout][6]
+* [The files & folders of Go projects][7]
 
 [6]: https://github.com/golang-standards/project-layout
+[7]: https://changelog.com/gotime/278
 
 ### General Notes
