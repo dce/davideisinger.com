@@ -17,7 +17,7 @@ references:
   url: https://www.annahavron.com/blog/why-have-a-values-plan
   date: 2023-05-28T19:58:40Z
   file: www-annahavron-com-8hj07z.txt
-- title: "Turning Obsidian into My Perfect Writing App &ndash; The Sweet Setup"
+- title: "Turning Obsidian into My Perfect Writing App – The Sweet Setup"
   url: https://thesweetsetup.com/turning-obsidian-into-my-perfect-writing-app/
   date: 2023-06-02T03:52:56Z
   file: thesweetsetup-com-x9nbdv.txt
