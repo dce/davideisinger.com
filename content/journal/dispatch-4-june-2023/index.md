@@ -1,6 +1,6 @@
 ---
 title: "Dispatch #4 (June 2023)"
-date: 2023-05-21T23:20:01-04:00
+date: 2023-06-01T23:20:01-04:00
 draft: false
 tags:
 - dispatch
