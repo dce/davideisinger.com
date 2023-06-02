@@ -41,23 +41,19 @@ ul {
 
     p {
       text-indent: 0;
-    }
 
-    p:first-child {
-      text-indent: -2ch;
+      &:first-child {
+        text-indent: -2ch;
+      }
     }
   }
 }
 
 blockquote {
-  margin: 0 2ch 0 0;
-  font-style: italic;
   border-left: 1ch solid #ddd;
-
-  p {
-    width: 100%;
-    margin-left: 1ch;
-  }
+  font-style: italic;
+  margin: 0;
+  padding-left: 1ch;
 }
 
 header, #content, footer {
