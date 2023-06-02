@@ -24,15 +24,17 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 
 ### Projects I like
 
-* [Caddy][2]
-* [PocketBase][3]
-* [SyncThing][4]
-* [Restic][5]
+* [Hugo][2]
+* [Caddy][3]
+* [PocketBase][4]
+* [SyncThing][5]
+* [Restic][6]
 
-[2]: https://caddyserver.com/
-[3]: https://pocketbase.io/
-[4]: https://syncthing.net/
-[5]: https://restic.net/
+[2]: https://gohugo.io/
+[3]: https://caddyserver.com/
+[4]: https://pocketbase.io/
+[5]: https://syncthing.net/
+[6]: https://restic.net/
 
 ### Project Ideas
 
@@ -43,10 +45,8 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 
 ### Resources
 
-* [Standard Go Project Layout][6]
-* [The files & folders of Go projects][7]
+* [Standard Go Project Layout][7]
+* [The files & folders of Go projects][8]
 
-[6]: https://github.com/golang-standards/project-layout
-[7]: https://changelog.com/gotime/278
-
-### General Notes
+[7]: https://github.com/golang-standards/project-layout
+[8]: https://changelog.com/gotime/278
