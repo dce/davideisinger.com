@@ -1,0 +1,395 @@
+   #[1]The Sweet Setup [2]alternate [3]alternate [4]alternate
+
+   [tr?id=1547247442291447&ev=PageView &noscript=1]
+
+   IFRAME: [5]https://www.googletagmanager.com/ns.html?id=GTM-PS7L89F
+
+   NEW! All the Things: Productivity Course  →  [6]Check it Out
+
+   [7]The Sweet Setup The Sweet Setup
+   [8]ABOUT   [9]COURSES   [10]BLOG
+   [11]Sign In
+
+     * [12]Categories
+          + [13]Mindfulness
+          + [14]Workflows
+          + [15]Setups
+          + [16]Quick Tips
+
+   ____________________ Go
+
+Turning Obsidian into My Perfect Writing App
+
+   October 24, 2022
+   by [17]Mike Schmitz
+
+   NaNoWriMo (National Novel Writing Month) is right around the corner,
+   and if you’re looking for a great tool to help you hit your writing
+   goals, there are lots of great options available.
+
+   In this article, I want to make the case for using [18]Obsidian by
+   showing you how to turn it into a powerful writing environment using a
+   few essential plugins.
+
+But Isn’t Obsidian a Notes App?
+
+   That’s what I thought when I first started using it a couple of years
+   ago. I was hoping it would help me make connections between my notes
+   and help inspire some new ideas. But over time, I fell in love with it
+   as a writing tool. In fact, every article I’ve written in the last 2
+   years has been written in Obsidian.
+
+   What makes Obsidian great as a writing tool is how much you can
+   customize it using third-party plugins. The number of plugins continues
+   to grow (676 as of this writing), and with Obsidian recently launching
+   version 1.0, the app shows no signs of slowing down any time soon.
+
+My Journey Away from Ulysses
+
+   Let me get this out right now: Ulysses is an incredible writing app.
+
+   It’s just not for me for a couple of specific reasons.
+
+   First, publishing to the web isn’t quite as easy as it should be with
+   Ulysses. It does give you the ability to publish straight to WordPress,
+   and you can even update blog posts from Ulysses now — if you can get it
+   to connect to your custom WordPress blog.
+
+   When this broke for me, I started digging in to how to fix it and
+   quickly came across weird plugins and settings for modifying XMLRPC.
+   And unfortunately, I could never get it functioning again. I fully
+   understand it’s something on my domains, but the “simple instructions”
+   didn’t work for me, and even as a web developer I didn’t feel
+   comfortable digging too far into this.
+
+   Which meant I was stuck copying and pasting into WordPress.
+
+   And because Ulysses doesn’t use standard Markdown, that meant I had to
+   “export” my text first. This works, but adds a few extra clicks (or
+   taps in iOS) in order to get my text out of my writing app. Combine
+   that with the fact that Ulysses has some weird Markdown formatting that
+   never quite clicked for me in the first place, and I was left looking
+   for a straight Markdown-based text editor.
+
+   Obsidian fits that description perfectly. It’s simple, uses plain text
+   files, provides inline formatting, and supports standard Markdown. It’s
+   everything I’ve ever wanted in a plain text editor.
+
+   But there are a few additional settings and plugins you can use to make
+   it even better as a writing app.
+
+Obsidian Settings
+
+   First, let’s look at some of the settings.
+
+   To access these settings, click the gear icon in the lower-left corner
+   and then select Editor from the Settings sidebar.
+
+   The defaults are actually pretty good, but here’s the key settings you
+   want if you’re going to use Obsidian for writing:
+     * Make sure that Auto pair Markdown syntax is toggled ON. This
+       creates both symbols and places the cursor in the middle, making it
+       easier to create italicized or emphasized text.
+     * Make sure Smart indent lists is toggled ON. This makes it easier to
+       create bulleted and numbered lists quickly, automatically adding
+       the next bullet when you hit the Return key.
+     * Make sure that Fold heading and Fold indent are toggled ON. This
+       creates carats for Markdown headers as well as indented text,
+       adding some cool outliner-inspired features that make it easy to
+       fold up text in large files and focus on the text you want.
+
+   There are a bunch of other settings you can customize, but many of them
+   are simply personal preference. These are the important ones.
+
+   Once you have your settings, it’s time to move on to the plugins.
+
+Obsidian Core Plugin Settings
+
+   There are two types of plugins in Obsidian: Core plugins that ship with
+   the app, and Community plugins that you can install to extend the
+   functionality of Obsidian. We’re going to look at the Core plugins
+   first.
+
+   Here are my recommendations for modifying the Core plugins:
+     * Make sure that Backlinks and Outgoing Links are both toggled ON.
+       These are sections available in the right sidebar that show all of
+       the notes that link to the active note and all of the notes linked
+       to from the active note respectively. (If you’re new to the concept
+       of connected notes, check out [19]this article on using the local
+       graph.)
+     * Make sure that Outline is toggled ON. This adds a tab in the right
+       sidebar that creates a table of contents for your note based on the
+       Markdown headers. This is helpful when you need to jump to a
+       specific section of a longer text as you can do so simply by
+       clicking on the appropriate header title.
+     * Turn the Word Count setting OFF. Word counts are important, but
+       there’s a Community plugin that does this much better than the
+       built-in word count tool here.
+
+   Again, there are a bunch of options here that are personal preference,
+   but these are the important ones. Once you have these Core plugins set,
+   it’s time to really make Obsidian dance by adding some Community
+   plugins.
+
+Obsidian Community Plugins for an Upgraded Writing Experience
+
+   You can access the Community plugins public directory by going to
+   Settings → Community plugins → Browse once you’ve toggled off Safe
+   Mode. From there, you can find plugins for just about anything, from
+   [20]embedding tasks from Todoist to [21]creating timeblocked daily
+   plans to [22]creating kanban boards — all based on your locally-stored
+   plain text files using standard Markdown.
+
+   All of the plugin links I share below are Obsidian links
+   (obsidian://link-adress) that will open straight to the plug-in page if
+   you have Obsidian installed and running on your device.
+
+   Note that many of the plugins I will share here are 1:1 replacements
+   for standard features in Ulysses, so if you don’t mind non-standard
+   Markdown formatting and don’t run into the publishing issues that I
+   did, maybe try that instead. But if you’re all in with Obsidian, here
+   are the plugins I use to make Obsidian my perfect writing app.
+
+Better Word Count
+
+   The first plugin is called [23]Better Word Count. This replaces the
+   built-in word count core plugin, and it functions largely the same with
+   one key addition: when you highlight text, it shows the
+   words/characters of the highlighted text instead of the whole document.
+
+   It’s not as good as the writing stats in Ulysses, but it’s good enough
+   for me.
+
+cMenu
+
+   If you’re uncomfortable relying on your memory for Markdown formatting,
+   [24]cMenu is a third-party plugin that gives you a minimal text editor
+   modal that allows you to do things like bold, italicize, strikethrough,
+   underline, and toggle blockquotes.
+
+   If you don’t like the default options, you can customize what shows up
+   in the modal by adding any of the Commands in your Obsidian library.
+
+Reading Time
+
+   Another handy Ulysses feature is being able to see how long it will
+   take to read the text in the selected file. But you can add this
+   feature to the status bar using the [25]Reading Time plugin.
+
+   This one is pretty straightforward — just install it and turn it on and
+   you’ll see the reading time at the bottom of your Obsidian window. You
+   can customize your reading speed in the settings for the plugin.
+
+Footnote Shortcut
+
+   If you use footnotes a lot, they can be a bit of a pain to create with
+   standard Markdown. It’s a lot easier with the [26]Obsidian Footnotes
+   plugin.^[27]1
+
+   Once installed, you can find it in the Command Palette and with the
+   hotkey: Footnote Shortcut: Insert and Navigate Footnote. You can
+   customize the hotkey by going to Settings → Hotkey and searching for
+   Footnote, which will then insert the appropriate Markdown and navigate
+   to the bottom of the note where you can insert the text for your
+   footnote.
+
+Focus Mode
+
+   The Obsidian interface can be a little distracting when you’re trying
+   to focus on your words. Fortunately, the [28]Focus Mode plugin allows
+   you to remove all the distractions and focus on what you’re writing.
+
+   Once the plugin is installed and active, just click the Toggle Focus
+   Mode button to hide the sidebars and status bar, and you can
+   shift-click the button to hide everything but the active writing pane.
+
+Typewriter Scroll
+
+   [29]This plugin keeps the currently selected line in the middle of the
+   screen as you type. As you type, the focus moves from the current
+   section to the next section by moving the rest of the page in the
+   background, much like an old-fashioned typewriter.
+
+   There’s even a Zen Mode option that grays out the background text to
+   help you focus on the line that you are currently writing.
+
+Novel Word Count
+
+   If you are aiming to write a book (fiction or non-fiction), you
+   probably have a total word count in mind. [30]Novel Word Count shows
+   you the number of words that a document or folder contains in the
+   sidebar so you can keep track of your long-form writing progress.
+
+   You can also use pages, characters, date created, and date updated (as
+   well as a few different combinations) that can be configured in the
+   plugin settings once you turn it on.
+
+Conclusion
+
+   Obsidian is much more than just a notes app, and might be the perfect
+   writing tool for you if you want to:
+    1. Store your plain text files locally
+    2. Use something that supports standard Markdown
+    3. Gives you the flexibility to craft your writing environment
+
+   Obsidian may not be for everyone, but since it’s completely free to
+   start, there’s no reason not to give it a spin.
+     __________________________________________________________________
+
+    1. Since it’s an Obsidian Command, you could also add this as a button
+       to the cMenu plugin mentioned above. [31]↩
+
+Follow us
+
+[32]Get App Picks, Guides, & More
+
+   Get workflow tips, app recommendations, how-to guides, stories, and
+   more delivered to your inbox. Plus we'll send you our productivity
+   guide for free!
+
+   ____________________
+
+                                   Sweet!
+
+[33]Best-Selling Courses
+
+[34]🎟 All Access Pass 🎟
+
+   Join the Focus Accelerator to get instant access to the entire course
+   library, resource vault, and more. [35]»
+
+[36]NEW: All the Things
+
+   Best-selling productivity course. Stop being managed by your task list.
+   [37]»
+
+[38]Full Course List
+
+   Serving 15,000 customers since 2013, we have a library full of in-depth
+   courses to help you be more productive, creative, and focused. [39]View
+   all courses »
+
+[40]The Latest Posts
+
+[41]Mike Schmitz’s Must-Have Productivity Apps
+
+   Like Josh, Matt, and Jeff did previously, today I'm going to share a
+   handful of my favorite productivity apps that are essential for how I
+   work. [42]»
+
+[43]Jeff Abbott’s Must-Have Productivity Apps
+
+   We've heard from Matt and Josh on which apps they consider
+   irreplaceable for their workflows and productivity, and now it's my
+   turn to pull back the curtain. These days, a lot of my work happens on
+   a work MacBook Pro that is fairly locked down. The IT-managed operating
+   system presents some challenges when it comes to finding a good
+   productivity balance, and these apps meet my needs on my work device
+   and personal devices too. [44]»
+
+[45]How We Created our Master Resource Database
+
+   A couple of months ago, we were in a Blanc Media staff meeting and we
+   were talking about one of our resources, an e-book called
+   Procrastinator’s Guide to Progress. And I asked, “Do we have a central
+   place to easily find all of our resources with source files and links?”
+   Well, the answer was.... “um, I don’t think so”. So then I had the idea
+   to track down all of our resources, PDFs, slide decks etc. and drop
+   them into one place. So our Master Resource Database in Notion was
+   born. [46]»
+
+[47]Lock Screen Widgets, Productivity Must-Haves, and More
+
+   Catch up on what we published this week, including a look at some great
+   lock screen widgets for iPhone 14 Pro (Max), must-have productivity
+   apps from our team, and more. [48]»
+
+[49]Great Lock Screen Widgets for the iPhone 14 Pro and Pro Max
+
+   Here are some of our favorite Lock Screen widgets thus far. [50]»
+
+     * [51]Home
+     * [52]About
+     * [53]Products
+     * [54]Contact
+     * [55]Blog
+     * [56]Newsletter
+     * [57]Sign In
+
+   A website by [58]Shawn Blanc and friends. See also: [59]The Focus
+   Course  |  [60]Tools & Toys
+   © 2023 Blanc Media, LLC
+   [61]Design by Ink Blot Media Group • [62]Dev by Jonathan Christopher
+
+   fbpx
+
+References
+
+   Visible links:
+   1. https://thesweetsetup.com/feed/
+   2. https://thesweetsetup.com/wp-json/wp/v2/posts/132252
+   3. https://thesweetsetup.com/wp-json/oembed/1.0/embed?url=https://thesweetsetup.com/turning-obsidian-into-my-perfect-writing-app/
+   4. https://thesweetsetup.com/wp-json/oembed/1.0/embed?url=https://thesweetsetup.com/turning-obsidian-into-my-perfect-writing-app/&format=xml
+   5. https://www.googletagmanager.com/ns.html?id=GTM-PS7L89F
+   6. https://thesweetsetup.com/things/?ref=46
+   7. https://thesweetsetup.com/
+   8. file:///colophon/
+   9. file:///training/
+  10. file:///blog/
+  11. https://thesweetsetup.com/my-account
+  12. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60569-2817TMP.html
+  13. https://thesweetsetup.com/category/mindfulness/
+  14. https://thesweetsetup.com/category/workflows/
+  15. https://thesweetsetup.com/category/sweet-setup-interview/
+  16. https://thesweetsetup.com/category/quick-tip/
+  17. https://thesweetsetup.com/author/mikeschmitz/
+  18. https://obsidian.md/
+  19. https://thesweetsetup.com/the-power-of-obsidians-local-graph/
+  20. https://thesweetsetup.com/syncing-embedding-tasks-from-todoist-in-obsidian/
+  21. https://thesweetsetup.com/timeblocking-in-obsidian/
+  22. https://thesweetsetup.com/my-obsidian-based-kanban-writing-workflow/
+  23. obsidian://show-plugin/?id=better-word-count
+  24. obsidian://show-plugin/?id=cmenu-plugin
+  25. obsidian://show-plugin/?id=obsidian-reading-time
+  26. obsidian://show-plugin/?id=obsidian-footnotes
+  27. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60569-2817TMP.html#fn-132252:1
+  28. obsidian://show-plugin/?id=obsidian-focus-mode
+  29. obsidian://show-plugin/?id=cm-typewriter-scroll-obsidian
+  30. obsidian://show-plugin/?id=novel-word-count
+  31. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60569-2817TMP.html#fnref-132252:1
+  32. https://thesweetsetup.com/newsletter/
+  33. https://thesweetsetup.com/training/
+  34. https://thesweetsetup.com/accelerator/
+  35. https://thesweetsetup.com/accelerator/
+  36. https://thesweetsetup.com/things/
+  37. https://thesweetsetup.com/things/
+  38. https://thesweetsetup.com/training/?utm_source=training_sidebar_link&utm_medium=sidebar&utm_campaign=sidebar_att
+  39. https://thesweetsetup.com/training/
+  40. https://thesweetsetup.com/blog/
+  41. https://thesweetsetup.com/mike-schmitzs-must-have-productivity-apps/
+  42. https://thesweetsetup.com/mike-schmitzs-must-have-productivity-apps/
+  43. https://thesweetsetup.com/jeff-abbotts-must-have-productivity-apps/
+  44. https://thesweetsetup.com/jeff-abbotts-must-have-productivity-apps/
+  45. https://thesweetsetup.com/how-we-created-our-master-resource-database/
+  46. https://thesweetsetup.com/how-we-created-our-master-resource-database/
+  47. https://thesweetsetup.com/lock-screen-widgets-productivity-must-haves-and-more/
+  48. https://thesweetsetup.com/lock-screen-widgets-productivity-must-haves-and-more/
+  49. https://thesweetsetup.com/great-lock-screen-widgets-for-the-iphone-14-pro-and-pro-max/
+  50. https://thesweetsetup.com/great-lock-screen-widgets-for-the-iphone-14-pro-and-pro-max/
+  51. file:///
+  52. https://thesweetsetup.com/colophon/
+  53. https://thesweetsetup.com/training/
+  54. https://thesweetsetup.com/contact/
+  55. https://thesweetsetup.com/blog/
+  56. https://thesweetsetup.com/newsletter/
+  57. https://thesweetsetup.com/my-account
+  58. https://shawnblanc.net/
+  59. https://thefocuscourse.com/
+  60. http://toolsandtoys.net/
+  61. http://inkblotmediagroup.com/
+  62. http://mondaybynoon.com/
+
+   Hidden links:
+  64. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60569-2817TMP.html
+  65. https://twitter.com/thesweetsetup
+  66. https://thesweetsetup.com/feed
