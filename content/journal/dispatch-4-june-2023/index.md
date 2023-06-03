@@ -23,7 +23,7 @@ references:
   file: thesweetsetup-com-x9nbdv.txt
 ---
 
-We spent Memorial Day weekend at Lake Norman, but it was like 55° and rainy the whole time. I've been loving the mild weather for the most part, but I was definitely looking forward to some kayaking and dock jumping. I'm sure it'll be hot and humid soon enough.
+We spent Memorial Day weekend at Lake Norman, but it was like 55° and rainy the whole time. I've been loving the mild weather for the most part, but I was definitely looking forward to some kayaking and dock jumping.
 
 <!--more-->
 
