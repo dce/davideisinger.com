@@ -1,0 +1,27 @@
+{{ $currlink := .RelPermalink }}
+{{ $noslash := substr .RelPermalink 0 -1 }}
+{{ $backlinks := slice }}
+
+{{ range .Site.Pages }}
+  {{ $found := findRE $noslash .Content 1 }}
+
+  {{ if and ($found) (ne $currlink .RelPermalink) }}
+    {{ $backlinks = $backlinks | append . }}
+  {{ end }}
+{{ end }}
+
+{{ with $backlinks }}
+  <hr>
+
+  <div class="references">
+    <h3>Backlinks</h3>
+
+    <ul>
+      {{ range . }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}
