@@ -40,13 +40,16 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 
 * Bookmarking app (Pinboard replacement)
 * Note-taking / journaling app
+* [StevieBlocks][7]
 
 {{<thumbnail project1 "400x" />}}
 
+[7]: https://gist.github.com/dce/f975cb21b50a2cf998bf7230cbf89d85
+
 ### Resources
 
-* [Standard Go Project Layout][7]
-* [The files & folders of Go projects][8]
+* [Standard Go Project Layout][8]
+* [The files & folders of Go projects][9]
 
-[7]: https://github.com/golang-standards/project-layout
-[8]: https://changelog.com/gotime/278
+[8]: https://github.com/golang-standards/project-layout
+[9]: https://changelog.com/gotime/278
