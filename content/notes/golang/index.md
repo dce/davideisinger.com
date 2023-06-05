@@ -50,6 +50,8 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 
 * [Standard Go Project Layout][8]
 * [The files & folders of Go projects][9]
+* [Why David Yach Loves Go][10]
 
 [8]: https://github.com/golang-standards/project-layout
 [9]: https://changelog.com/gotime/278
+[10]: https://cloud.google.com/blog/products/application-modernization/why-david-yach-loves-go
