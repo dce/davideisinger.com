@@ -37,27 +37,29 @@ _(Notes for a Viget article I'm putting together)_
     * In other words, at less than 100% coverage, you don't know if your new feature is fully covered or not
   * Occasionally you have to ignore some code -- e.g. something that only runs in production
   * It's OK if you're not at 100% right now -- set the threshold to your current level, and increase it as you add tests and new well-tested features
+  * [Already covered here][2]
 * Third-party/network calls
-  * Major libraries often have mock services (e.g. [stripe-mock][2])
+  * Major libraries often have mock services (e.g. [stripe-mock][3])
   * VCR is … OK but can become a maintenance problem
-    * Blocking access to the web is good though -- [webmock][3]
+    * Blocking access to the web is good though -- [webmock][4]
   * A better approach
     * Move your integration code into a module
     * Create a second stub module with the same API
-    * Use [JSON Schema][4] to ensure stub stays in sync (i.e. both the real client and the stub client validate against the schema)
+    * Use [JSON Schema][5] to ensure stub stays in sync (i.e. both the real client and the stub client validate against the schema)
     * This will lead to more reliable tests and also more robust code
 * Flaky tests are bad
   * They eat up a lot of development time (esp. as build times increase)
   * Try to stay on top of them and squash them as they arise
   * Some frameworks have `retry` options/libraries that can help (bandage not cure)
-    * [rspec-retry][5]
+    * [rspec-retry][6]
   * In general, though, flaky tests suck and generally indicate lack of quality with either your code or your tools
     * So write better code or pick better tools
 
 [1]: https://en.wikipedia.org/wiki/Test-driven_development
-[2]: https://github.com/stripe/stripe-mock
-[3]: https://github.com/bblimke/webmock#real-requests-to-network-can-be-allowed-or-disabled
-[4]: https://json-schema.org/
-[5]: https://github.com/NoRedInk/rspec-retry
+[2]: https://www.viget.com/articles/maintenance-matters-code-coverage/
+[3]: https://github.com/stripe/stripe-mock
+[4]: https://github.com/bblimke/webmock#real-requests-to-network-can-be-allowed-or-disabled
+[5]: https://json-schema.org/
+[6]: https://github.com/NoRedInk/rspec-retry
 
 {{<thumbnail notes "400x" />}}
