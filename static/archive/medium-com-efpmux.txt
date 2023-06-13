@@ -1,0 +1,285 @@
+   #[1]Medium [2]alternate
+
+   ____________________
+
+Go Project Layout
+
+   Kyle C. Quest (Q)
+   golang-learn
+
+   [3]Kyle C. Quest (Q)
+   ·
+
+   [4]Follow
+   Published in
+   [5]
+
+   golang-learn
+   ·
+   5 min read
+   ·
+   Sep 11, 2017
+
+   --
+   (BUTTON)
+
+   12
+   (BUTTON)
+
+   Listen
+   (BUTTON)
+
+   Share
+
+   You went through the ‘[6]Tour of Go’, played with
+   [7]https://play.golang.org/ and you feel you are ready to write some
+   code. Great! However, you are not sure how to structure your projects.
+   Can you put your code anywhere you want? Is there a standard way to
+   organize your code? What if you need to have multiple application
+   binaries? What does it mean to be ‘go gettable’? These are some of the
+   questions you’ll be asking yourself.
+
+   First, you have to understand Go workspaces. ‘[8]How to Write Go Code’
+   is a good place to start. By default, Go keeps and expects all code in
+   a single workspace. This place is identified by the GOPATH environment
+   variable. What does it mean for you? It means you have to put your code
+   in the default workspace or you have to change the GOPATH variable to
+   point to your own location. Either way the actual source code for your
+   project needs to be placed in the src subdirectory (e.g.,
+   $GOPATH/src/your_project or
+   $GOPATH/src/github.com/your_github_username/your_project). Technically
+   your project doesn’t have to be in a workspace if you don’t import
+   external packages and you use relative imports for your own code, but
+   it’s not recommended. It’s fine for a toy project or a PoC though. Go
+   v1.11 does introduce the concept of [9]modules that allows you to have
+   your project code outside of your GOPATHwithout the import restrictions
+   mentioned above, but it’s still an experimental feature at this point
+   in time.
+
+   You have your project directory in the right place. What’s next?
+
+   For a PoC or a very small project where you are the only one writing
+   the code using a single main.go file in the root directory for your
+   project is enough. If you know your project will be large enough or
+   it’ll go into production and others will be contributing to it you
+   should consider adopting, at least, some of the project layout patterns
+   outlined here.
+
+   There are a number of project layout patterns emerging in the Go
+   ecosystem. The two most common patterns are the cmd and pkg
+   directories. You should adopt these patterns unless you have a tiny
+   project.
+
+   The cmd layout pattern is very useful when you need to have more than
+   one application binary. Each binary gets a subdirectory (e.g.,
+   your_project/cmd/your_app). This patterns also helps you keep your
+   project/package ‘go gettable’. What does it mean? It means you can use
+   the go get command to fetch (and install) your project, its
+   applications and its libraries (e.g., go get
+   github.com/your_github_username/your_project/cmd/appxg). You don’t have
+   to separate the application files. You’ll be able to build each
+   application with the right set of go build flags, but go get will no
+   longer work because it will not know which application code to build.
+   The official [10]Go tools is one example of the cmd layout patter. A
+   number of other well known projects use the same pattern:
+   [11]Kubernetes, [12]Docker, [13]Prometheus, [14]Influxdb.
+
+   The pkg layout pattern is also pretty popular. For new Go developers
+   it’s one of the most confusing package structure concepts because Go
+   workspaces have a directory with the same name and that directory has a
+   different purpose (it’s used to store object files for the packages the
+   Go compiler builds). The pkg directory is where you put your public
+   libraries. They can be used internally by your application. They can
+   also be used by external projects. This is an informal contract between
+   you and other external users of your code. Other projects will import
+   these libraries expecting them to work, so think twice before you put
+   something here. Many well known projects use this pattern:
+   [15]Kubernetes, [16]Docker, [17]Grafana, [18]Influxdb, [19]Etcd.
+
+   Some of the libraries in the pkg directory are not always for public
+   use. Why is that? It happens because many existing Go projects predate
+   the ability to hide internal packages. Some projects put those internal
+   libraries in the pkg directory to be consistent with the rest of their
+   code structure. Other projects put their internal libraries into
+   separate directories outside of the pkg directory. [20]Go 1.4 introduce
+   an ability to hide code using internal directories. What does it mean?
+   If you put your code in an ‘internal’ directory no external project
+   will be able to import that code. Even other code in your project won’t
+   be able to access this internal code if it lives outside of its parent
+   directory. This feature is not widely used yet because it’s relatively
+   new; however, it’s extremely valuable as an additional layer of control
+   (in addition to the lowercase and uppercase function visibility rules
+   in Go). A number of new and well known projects use this pattern:
+   [21]Dep, [22]Docker, [23]Nsq, [24]Go Ethereal, [25]Contour.
+
+   The internal directory is the place to put your private packages. You
+   can optionally add additional structure by separating your internally
+   shared libraries (e.g., your_project/internal/pkg/your_private_lib) and
+   the application code you don’t want others to import (e.g.,
+   your_project/internal/app/your_app). When you put all of you private
+   code in the ‘internal’ directory the application code in the cmd
+   directory will be limited to small files that define the ‘main’
+   function for the corresponding application binaries. Everything else
+   will be imported from the internal or pkg directories ([26]ark, from
+   Heptio, and [27]loki, from Grafana, are good examples of this tiny main
+   package pattern).
+
+   What if you forked and modified a piece of an external project? Some
+   projects put that code in the pkg directory, but it’s better to put it
+   in the third_party top level directory to keep your code separate from
+   the code you borrowed from others.
+
+   What about the external packages you import in your projects? Where do
+   they go? You have several options. You can keep them outside of your
+   project. The packages you install with go get will be saved in your Go
+   workspace. It works most of the times, but depending on the package it
+   might be brittle and unpredictable because when somebody else tries to
+   build your project they might get a backward incompatible version of
+   that package. The solution is ‘vendoring’. With ‘vendoring’ you freeze
+   your dependencies by committing them with your project. [28]Go 1.6
+   introduced a standard way to ‘vendor’ external packages (it was an
+   experimental feature in Go 1.5). Put your external package in the
+   vendor directory. How is this different from the third_party directory?
+   If you import and use external code as-is then it should go into the
+   vendor directory. If you are using a modified version of an external
+   project then put it in the third_party directory.
+
+   If you want to learn more about the project structure used by other Go
+   projects read the ‘[29]Analysis of the Top 1000 Go Repositories’. It’s
+   a little dated, but it’s still useful.
+
+   A real project will have additional directories too. You can use this
+   layout template as a starting point for your Go projects:
+   [30]https://github.com/golang-standards/project-layout. It covers the
+   Go project layout patterns described in this blog post and it includes
+   a number of supporting directories you’ll need to have.
+
+   Now it’s time to write some code! If you don’t have Go installed take a
+   look at this [31]quick setup guide for Mac OS X (setup on other
+   platforms is similar). Go through the ‘[32]Tour of Go’ if you haven’t
+   done it yet and then read ’[33]50 Shades of Go’ to learn about the most
+   common gotchas in Go, which will save you quite a bit of time when you
+   start writing and debugging code.
+   Golang
+   Go
+   Standards
+   Project Structure
+
+   --
+
+   --
+   (BUTTON)
+
+   12
+   (BUTTON)
+   Kyle C. Quest (Q)
+   golang-learn
+   (BUTTON) Follow
+   [34](BUTTON)
+   [35]
+
+Written by Kyle C. Quest (Q)
+
+   [36]354 Followers
+   ·Editor for
+   [37]
+
+   golang-learn
+
+   CTO / Redefining DevOps * Hacker @DockerSlim * @Golang50Shades * Cloud
+   Native * Data * Security
+   (BUTTON) Follow
+   [38](BUTTON)
+   [39]
+
+   Help
+   [40]
+
+   Status
+   [41]
+
+   Writers
+   [42]
+
+   Blog
+   [43]
+
+   Careers
+   [44]
+
+   Privacy
+   [45]
+
+   Terms
+   [46]
+
+   About
+   [47]
+
+   Text to speech
+   [48]
+
+   Teams
+
+References
+
+   Visible links:
+   1. file:///osd.xml
+   2. android-app://com.medium.reader/https/medium.com/p/e5213cdcfaa2
+   3. file:///@kcq?source=post_page-----e5213cdcfaa2--------------------------------
+   4. file:///m/signin?actionUrl=https://medium.com/_/subscribe/user/6aac7a58837&operation=register&redirect=https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2&user=Kyle+C.+Quest+(Q)&userId=6aac7a58837&source=post_page-6aac7a58837----e5213cdcfaa2---------------------post_header-----------
+   5. https://medium.com/golang-learn?source=post_page-----e5213cdcfaa2--------------------------------
+   6. https://tour.golang.org/
+   7. https://play.golang.org/
+   8. https://golang.org/doc/code.html
+   9. https://github.com/golang/go/wiki/Modules
+  10. https://github.com/golang/tools/tree/master/cmd
+  11. https://github.com/kubernetes/kubernetes/tree/master/cmd
+  12. https://github.com/moby/moby/tree/master/cmd
+  13. https://github.com/prometheus/prometheus/tree/master/cmd
+  14. https://github.com/influxdata/influxdb/tree/master/cmd
+  15. https://github.com/kubernetes/kubernetes/tree/master/pkg
+  16. https://github.com/moby/moby/tree/master/pkg
+  17. https://github.com/grafana/grafana/tree/master/pkg
+  18. https://github.com/influxdata/influxdb/tree/master/pkg
+  19. https://github.com/coreos/etcd/tree/master/pkg
+  20. https://golang.org/doc/go1.4#internalpackages
+  21. https://github.com/golang/dep/tree/master/internal
+  22. https://github.com/moby/moby/tree/master/internal
+  23. https://github.com/nsqio/nsq/tree/master/internal
+  24. https://github.com/ethereum/go-ethereum/tree/master/internal
+  25. https://github.com/heptio/contour/tree/master/internal
+  26. https://github.com/heptio/ark/blob/master/cmd/ark/main.go
+  27. https://github.com/grafana/loki/blob/master/cmd/loki/main.go
+  28. https://golang.org/doc/go1.6#go_command
+  29. http://blog.sgmansfield.com/2016/01/an-analysis-of-the-top-1000-go-repositories/
+  30. https://github.com/golang-standards/project-layout
+  31. file:///golang-learn/quick-go-setup-guide-on-mac-os-x-956b327222b8
+  32. https://tour.golang.org/
+  33. http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/
+  34. file:///m/signin?actionUrl=/_/api/subscriptions/newsletters/997b4efe98f9&operation=register&redirect=https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2&newsletterV3=6aac7a58837&newsletterV3Id=997b4efe98f9&user=Kyle+C.+Quest+(Q)&userId=6aac7a58837&source=-----e5213cdcfaa2---------------------subscribe_user-----------
+  35. file:///@kcq?source=post_page-----e5213cdcfaa2--------------------------------
+  36. file:///@kcq/followers?source=post_page-----e5213cdcfaa2--------------------------------
+  37. https://medium.com/golang-learn?source=post_page-----e5213cdcfaa2--------------------------------
+  38. file:///m/signin?actionUrl=/_/api/subscriptions/newsletters/997b4efe98f9&operation=register&redirect=https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2&newsletterV3=6aac7a58837&newsletterV3Id=997b4efe98f9&user=Kyle+C.+Quest+(Q)&userId=6aac7a58837&source=-----e5213cdcfaa2---------------------subscribe_user-----------
+  39. https://help.medium.com/hc/en-us?source=post_page-----e5213cdcfaa2--------------------------------
+  40. https://medium.statuspage.io/?source=post_page-----e5213cdcfaa2--------------------------------
+  41. https://about.medium.com/creators/?source=post_page-----e5213cdcfaa2--------------------------------
+  42. https://blog.medium.com/?source=post_page-----e5213cdcfaa2--------------------------------
+  43. file:///jobs-at-medium/work-at-medium-959d1a85284e?source=post_page-----e5213cdcfaa2--------------------------------
+  44. https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=post_page-----e5213cdcfaa2--------------------------------
+  45. https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=post_page-----e5213cdcfaa2--------------------------------
+  46. https://medium.com/about?autoplay=1&source=post_page-----e5213cdcfaa2--------------------------------
+  47. https://speechify.com/medium?source=post_page-----e5213cdcfaa2--------------------------------
+  48. file:///business?source=post_page-----e5213cdcfaa2--------------------------------
+
+   Hidden links:
+  50. file://localhost/?source=---two_column_layout_nav----------------------------------
+  51. file://localhost/@kcq?source=post_page-----e5213cdcfaa2--------------------------------
+  52. https://medium.com/golang-learn?source=post_page-----e5213cdcfaa2--------------------------------
+  53. file://localhost/tag/golang?source=post_page-----e5213cdcfaa2---------------golang-----------------
+  54. file://localhost/tag/go?source=post_page-----e5213cdcfaa2---------------go-----------------
+  55. file://localhost/tag/standards?source=post_page-----e5213cdcfaa2---------------standards-----------------
+  56. file://localhost/tag/project-structure?source=post_page-----e5213cdcfaa2---------------project_structure-----------------
+  57. file://localhost/@kcq?source=post_page-----e5213cdcfaa2--------------------------------
+  58. https://medium.com/golang-learn?source=post_page-----e5213cdcfaa2--------------------------------
