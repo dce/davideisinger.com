@@ -11,6 +11,10 @@ references:
   url: https://crawshaw.io/blog/one-process-programming-notes
   date: 2023-06-13T14:49:51Z
   file: crawshaw-io-k5slfj.txt
+- title: "Go Project Layout"
+  url: https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2
+  date: 2023-06-13T15:00:02Z
+  file: medium-com-efpmux.txt
 ---
 
 I find [Go][1] really compelling, even though it's not super applicable to my job. When evaluating a new tool, I find I'm weirdly biased to things written in Go.
@@ -61,8 +65,10 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 * [The files & folders of Go projects][9]
 * [Why David Yach Loves Go][10]
 * [One process programming notes (with Go and SQLite)][11]
+* [Go Project Layout][12]
 
 [8]: https://github.com/golang-standards/project-layout
 [9]: https://changelog.com/gotime/278
 [10]: https://cloud.google.com/blog/products/application-modernization/why-david-yach-loves-go
 [11]: https://crawshaw.io/blog/one-process-programming-notes
+[12]: https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2
