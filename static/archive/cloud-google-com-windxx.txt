@@ -1,0 +1,365 @@
+   #[1]home
+
+   [2]Jump to Content
+
+   Cloud
+   (BUTTON)
+   [3]Blog
+   [4]Contact sales [5]Get started for free
+   ____________________
+
+   Cloud
+   [6]Blog
+
+     * Solutions & technology
+          + [7]AI & Machine Learning
+          + [8]API Management
+          + [9]Application Development
+          + [10]Application Modernization
+          + [11]Chrome Enterprise
+          + [12]Compute
+          + [13]Containers & Kubernetes
+          + [14]Data Analytics
+          + [15]Databases
+          + [16]DevOps & SRE
+          + [17]Maps & Geospatial
+          + [18]Security & Identity
+          + [19]Infrastructure
+          + [20]Infrastructure Modernization
+          + [21]Networking
+          + [22]Productivity & Collaboration
+          + [23]SAP on Google Cloud
+          + [24]Storage & Data Transfer
+          + [25]Sustainability
+     * Ecosystem
+          + [26]IT Leaders
+          + Industries
+               o [27]Financial Services
+               o [28]Healthcare & Life Sciences
+               o [29]Manufacturing
+               o [30]Media & Entertainment
+               o [31]Public Sector
+               o [32]Retail
+               o [33]Supply Chain
+               o [34]Telecommunications
+          + [35]Partners
+          + [36]Startups & SMB
+          + [37]Training & Certifications
+          + [38]Inside Google Cloud
+          + [39]Google Cloud Next & Events
+          + [40]Google Maps Platform
+          + [41]Google Workspace
+     * [42]Developers & Practitioners
+     * [43]Transform with Google Cloud
+
+   [44]Contact sales [45]Get started for free
+   ____________________
+
+   Application Modernization
+
+   Why I love Go
+   September 12, 2022
+     *
+     *
+     *
+     *
+
+David Yach
+
+   Director of Engineering at Google Cloud
+
+   Iâve been building software over the last four decades, as a developer,
+   manager and executive in both small and large software companies. I
+   started my career working on commercial compilers, first BASIC and then
+   C. I have written a lot of code in many different languages, and
+   managed teams with even broader language usage.
+
+   I learned Go about 5 years ago when I was CTO at a startup/scaleup. At
+   the time, we were looking to move to a microservice architecture, and
+   that shift gave us the opportunity to consider moving away from the
+   incumbent language (Scala). As I read through the Go tutorials, my
+   compiler-writing background came back to me and I found myself
+   repeatedly thinking âThatâs cool â I know why the Go team did that!â So
+   I got hooked on the language design.
+
+Learning
+
+   I have worked with many different computer languages over the years, so
+   I was not surprised I could quickly get started writing Go programs
+   after reading through the online documents and tutorials. But then when
+   I saw a new co-op student (a.k.a. intern) learn Go and write a
+   substantial prototype in their first two weeks on the job, it became
+   clear that Go was much easier to learn than many other languages.
+
+Writing code
+
+   As I started writing my first Go programs, the first thing that struck
+   me was the blazing compiler speed. It was as fast or faster starting my
+   application than many interpreted languages, yet it was a compiled
+   program with a strongly typed language. (I have an affinity for
+   strongly typed languages â I have spent way too much time tracking down
+   obscure issues in my own code in dynamic typed languages, where the
+   same issue would have been a compile error in a strongly typed
+   language.) Even better, in Go I often donât need to declare the type â
+   the compiler figures it out.
+
+   I was impressed with the standard Go library â it included many of the
+   capabilities required by modern applications â things like HTTP
+   support, JSON handling and encryption. Many other languages required
+   you to use a third-party library for these features, and often there
+   were multiple competing libraries to choose from, adding another
+   decision point for the developer. With Go, I could go to the standard
+   library GoDoc and get started right away.
+
+   There were a few other language decisions that I found helpful. One is
+   that the compiler figures out if you are returning a pointer to a
+   local, and behind the scenes allocates the memory rather than using the
+   stack. This prevents bugs, and I find the code more readable.Â
+
+   I also like that you donât declare that you support an interface. I
+   wasnât sure I would like this at first because it isnât obvious if a
+   type implements a particular interface, but I found greater value in
+   the fact that I wasnât dependent on the code author (even if it was
+   me!) to declare that the interface is implemented. This first hit home
+   when I used fmt.Println() and it automatically used the String() method
+   I had implemented even though it hadnât occurred to me that I was
+   implementing the Stringer interface.
+
+   The last feature Iâll note is the ability to do concurrent programming
+   through channels and goroutines. The model is simple to understand yet
+   powerful.
+
+Reading code
+
+   After writing more Go code and starting to incorporate third party
+   libraries, I had a realization that had never occurred to me before â
+   as a developer, I spend a lot of time reading code. In fact, I probably
+   spend more time reading code than writing it, once you start counting
+   code reviews, debugging, and evaluating third-party libraries.
+
+   What was different about reading Go code? I would summarize it by âit
+   all looks the same.â What do I mean by that? Go format ensures all the
+   braces are in the same spot; capitalized identifiers are exported;
+   there are no implicit conversions, even of internal types; and there is
+   no overloading of operators, functions or methods. That means that with
+   Go code, âwhat you see is what you getâ with no hidden meaning. Of
+   course, it doesnât help me to understand a complicated algorithm, but
+   it does mean that I can concentrate more on that algorithm because I
+   donât have to understand whether â+â is overloaded, for example.
+
+   I was also pleasantly surprised when I used GoDoc on one of my
+   projects, and discovered that I had semi-reasonable documentation
+   without doing anything while writing the code other than adding
+   comments on my functions and methods based on nagging from the IDE I
+   was using. I did spend some time cleaning up the comments after that,
+   but Iâm not sure I would have even started that work if Go hadnât given
+   me a great starting point.
+
+Testing code
+
+   Go test is part of the standard Go tools and supported by IDEs, making
+   it easy to get started creating unit tests for my code. And like the
+   standard Go library, having a standard way to do tests means I donât
+   have to evaluate external testing frameworks and select one. I can also
+   understand the tests when Iâm evaluating a third party library.
+
+   Even better, the default behavior running package tests in VSCode is to
+   enable Goâs built-in code coverage. I had never taken code coverage
+   seriously working in other languages, partly because it was often
+   difficult to set up. But the immediate feedback (helped by the blazing
+   compile speed) gamified this for me, and I found myself adding tests to
+   increase code coverage (and finding new bugs along the way).
+
+   Go doesnât allow circular dependencies between packages. While this has
+   caused me some rethinking while writing code, I find it makes my
+   testing regimen easier to think about â if I depend on a package, I can
+   rely on that package to have its own tests covering its capabilities.
+
+Deploying code
+
+   I learned Go at the same time we were migrating towards container-based
+   microservices. In that environment, the fact that Go produces a single,
+   self-contained executable makes it much easier and more efficient to
+   build and manage containers. I can build a container layer with one
+   single file, which is often a single-digit number of MB in size,
+   compared to our prior JVM-based containers which started with hundreds
+   of MB for the Java runtime then another layer for our application. (It
+   is easy to forget how much this overhead ends up costing in production,
+   particularly if you have hundreds or thousands of containers running).
+
+   Second, Go has built-in cross compiling capabilities so our development
+   machines, containers and cloud hardware donât all have to all be on the
+   same processor or operating system. For example, I can use a Linux
+   build machine to produce client executables for Linux, Mac and Windows.
+   Again, this takes away a complicated decision process due to artificial
+   constraints.
+
+   Finally, Go has established a well defined set of principles for
+   versioning and compatibility. While not all pieces of this are
+   enforced, having the principles from an authoritative source helps
+   manage the real life challenges of keeping your software supply chain
+   up to date. For example, it is strongly recommended that breaking
+   changes require a new major version number. While not enforced, it
+   leads the community to call out any open source package that violates
+   this principle.
+
+What do I miss?
+
+   I did miss generics; thankfully Go 1.18 added support. And I do wish
+   the standard library offered immutable collections (like Scala and
+   other functional languages). Embedding instead of inheritance works
+   pretty much the same in many cases, but requires some deep thinking
+   sometimes.
+
+   My most frequent coding mistake is when I should have used a pointer
+   receiver for a method and didnât, then modify the receiver expecting
+   the changes to be visible when the method returns. The code looks
+   correct, the right values get assigned if I use a debugger to step
+   through or issue prints, but the changes disappear after the method
+   returns. I think I would have preferred if receivers were immutable, it
+   would have caught these errors at compile time, and in the few
+   remaining cases where I wanted to modify the receiver I would have
+   copied it to a local variable.
+
+In conclusion
+
+   As you can tell, I am a huge fan of Go, from even before I joined
+   Google. I am impressed by the language and ecosystem design, and by the
+   implementation. For me, Go makes me a more productive developer and Iâm
+   more confident in the quality of the code I produce.
+
+   Go, give it a [46]try!
+
+   Posted in
+     * [47]Application Modernization
+     * [48]Application Development
+     * [49]Open Source
+
+Related articles
+
+   https://storage.googleapis.com/gweb-cloudblog-publish/images/TMI_Blog_h
+   eader_2436x1200_Rnd2.max-700x700.jpg
+   Application Development
+
+The Modernization Imperative: Shifting left is for suckers. Shift down
+instead
+
+   By Richard Seroter â¢ 5-minute read
+
+   https://storage.googleapis.com/gweb-cloudblog-publish/images/DO_NOT_USE
+   _ps1BuN1.max-700x700.jpg
+   DevOps & SRE
+
+Config Connector: An easy way to manage your infrastructure in Google Cloud
+
+   By Leonid Yankulin â¢ 4-minute read
+
+   https://storage.googleapis.com/gweb-cloudblog-publish/images/DO_NOT_USE
+   _Wfx45fA.max-700x700.jpg
+   Application Modernization
+
+Realizing cloud value for a render platform at Wayfair â Part 2
+
+   By Jack Brooks â¢ 4-minute read
+
+   https://storage.googleapis.com/gweb-cloudblog-publish/images/DO_NOT_USE
+   _Wfx45fA.max-700x700.jpg
+   Application Modernization
+
+Realizing cloud value for a render platform at Wayfair - Part 1
+
+   By Jack Brooks â¢ 4-minute read
+
+  Footer Links
+
+Follow us
+
+     *
+     *
+     *
+     *
+     *
+
+     * [50]Google Cloud
+     * [51]Google Cloud Products
+     * [52]Privacy
+     * [53]Terms
+
+     * [54]Help
+     * [âªEnglishâ¬_____....]
+
+References
+
+   Visible links:
+   1. https://cloud.google.com/?lfhs=2
+   2. https://cloud.google.com/blog/#content
+   3. https://cloud.google.com/blog
+   4. https://cloud.google.com/contact/
+   5. https://console.cloud.google.com/freetrial/
+   6. https://cloud.google.com/blog
+   7. https://cloud.google.com/blog/products/ai-machine-learning
+   8. https://cloud.google.com/blog/products/api-management
+   9. https://cloud.google.com/blog/products/application-development
+  10. https://cloud.google.com/blog/products/application-modernization
+  11. https://cloud.google.com/blog/products/chrome-enterprise
+  12. https://cloud.google.com/blog/products/compute
+  13. https://cloud.google.com/blog/products/containers-kubernetes
+  14. https://cloud.google.com/blog/products/data-analytics
+  15. https://cloud.google.com/blog/products/databases
+  16. https://cloud.google.com/blog/products/devops-sre
+  17. https://cloud.google.com/blog/topics/maps-geospatial
+  18. https://cloud.google.com/blog/products/identity-security
+  19. https://cloud.google.com/blog/products/infrastructure
+  20. https://cloud.google.com/blog/products/infrastructure-modernization
+  21. https://cloud.google.com/blog/products/networking
+  22. https://cloud.google.com/blog/products/productivity-collaboration
+  23. https://cloud.google.com/blog/products/sap-google-cloud
+  24. https://cloud.google.com/blog/products/storage-data-transfer
+  25. https://cloud.google.com/blog/topics/sustainability
+  26. https://cloud.google.com/transform
+  27. https://cloud.google.com/blog/topics/financial-services
+  28. https://cloud.google.com/blog/topics/healthcare-life-sciences
+  29. https://cloud.google.com/blog/topics/manufacturing
+  30. https://cloud.google.com/blog/products/media-entertainment
+  31. https://cloud.google.com/blog/topics/public-sector
+  32. https://cloud.google.com/blog/topics/retail
+  33. https://cloud.google.com/blog/topics/supply-chain-logistics
+  34. https://cloud.google.com/blog/topics/telecommunications
+  35. https://cloud.google.com/blog/topics/partners
+  36. https://cloud.google.com/blog/topics/startups
+  37. https://cloud.google.com/blog/topics/training-certifications
+  38. https://cloud.google.com/blog/topics/inside-google-cloud
+  39. https://cloud.google.com/blog/topics/google-cloud-next
+  40. https://cloud.google.com/blog/products/maps-platform
+  41. https://workspace.google.com/blog
+  42. https://cloud.google.com/blog/topics/developers-practitioners
+  43. https://cloud.google.com/transform
+  44. https://cloud.google.com/contact/
+  45. https://console.cloud.google.com/freetrial/
+  46. https://go.dev/tour/list
+  47. https://cloud.google.com/blog/products/application-modernization
+  48. https://cloud.google.com/blog/products/application-development
+  49. https://cloud.google.com/blog/products/open-source
+  50. https://cloud.google.com/
+  51. https://cloud.google.com/products/
+  52. https://myaccount.google.com/privacypolicy?hl=en-US
+  53. https://myaccount.google.com/termsofservice?hl=en-US
+  54. https://support.google.com/
+
+   Hidden links:
+  56. https://cloud.google.com/
+  57. https://cloud.google.com/
+  58. https://twitter.com/intent/tweet?text=Why%20I%20love%20Go%20@googlecloud&url=https://cloud.google.com/blog/products/application-modernization/why-david-yach-loves-go
+  59. https://www.linkedin.com/shareArticle?mini=true&url=https://cloud.google.com/blog/products/application-modernization/why-david-yach-loves-go&title=Why%20I%20love%20Go
+  60. https://www.facebook.com/sharer/sharer.php?caption=Why%20I%20love%20Go&u=https://cloud.google.com/blog/products/application-modernization/why-david-yach-loves-go
+  61. mailto:?subject=Why%20I%20love%20Go&body=Check%20out%20this%20article%20on%20the%20Cloud%20Blog:%0A%0AWhy%20I%20love%20Go%0A%0ALearn%20all%20the%20reasons%20David%20Yach,%20industry%20veteran%20and%20Director%20of%20Engineering%20at%20Google%20Cloud,%20loves%20to%20use%20Go%20for%20software%20development.%0A%0Ahttps://cloud.google.com/blog/products/application-modernization/why-david-yach-loves-go
+  62. https://cloud.google.com/blog/products/application-development/richard-seroter-on-shifting-down-vs-shifting-left
+  63. https://cloud.google.com/blog/products/devops-sre/how-config-connector-compares-for-infrastructure-management
+  64. https://cloud.google.com/blog/products/application-modernization/wayfair-identified-strategies-to-optimize-cloud-workloads-part-2
+  65. https://cloud.google.com/blog/products/application-modernization/wayfair-identified-strategies-to-optimize-cloud-workloads-part-1
+  66. https://www.twitter.com/googlecloud
+  67. https://www.youtube.com/googlecloud
+  68. https://www.linkedin.com/showcase/google-cloud
+  69. https://www.instagram.com/googlecloud/
+  70. https://www.facebook.com/googlecloud/
+  71. https://cloud.google.com/
