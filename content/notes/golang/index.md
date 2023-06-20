@@ -15,6 +15,10 @@ references:
   url: https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2
   date: 2023-06-13T15:00:02Z
   file: medium-com-efpmux.txt
+- title: "Gopher Wrangling. Effective error handling in Go | Stephen's Tech Blog"
+  url: https://stephenn.com/2023/06/gopher-wrangling.-effective-error-handling-in-go/
+  date: 2023-06-20T16:25:12Z
+  file: stephenn-com-kbiijs.txt
 ---
 
 I find [Go][1] really compelling, even though it's not super applicable to my job. When evaluating a new tool, I find I'm weirdly biased to things written in Go.
@@ -66,9 +70,11 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 * [Why David Yach Loves Go][10]
 * [One process programming notes (with Go and SQLite)][11]
 * [Go Project Layout][12]
+* [Gopher Wrangling. Effective error handling in Go][13]
 
 [8]: https://github.com/golang-standards/project-layout
 [9]: https://changelog.com/gotime/278
 [10]: https://cloud.google.com/blog/products/application-modernization/why-david-yach-loves-go
 [11]: https://crawshaw.io/blog/one-process-programming-notes
 [12]: https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2
+[13]: https://stephenn.com/2023/06/gopher-wrangling.-effective-error-handling-in-go/

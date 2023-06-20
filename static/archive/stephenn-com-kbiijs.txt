@@ -1,0 +1,226 @@
+   [1]Stephen's Tech Blog
+
+     * [2]Webhook Wizard 🧙‍♂️
+
+                Gopher Wrangling. Effective error handling in Go
+
+   June 19, 2023 · 4 min · Stephen Nancekivell
+
+   Table of Contents
+
+     * [3]Guiding principle
+
+     [4]1. Always handle errors
+
+     [5]2. Log errors in one layer
+
+     [6]3. Returning async errors
+
+     [7]4. Wrapping errors
+
+     [8]5. Downgrade errors Warnings
+
+   When programming in Go, the amount of error handling is something that
+   slaps you in the face. Most API’s you deal with will expose errors. It
+   can become overwhelming, but with a few tips and a guiding principle we
+   can make handling errors easy, keep our code clean and give you the
+   confidence that nothing is breaking in production.
+
+   A cartoon of a crazy stressed programmer pulling their hair out in
+   front of lots of screens showing a error exclamation marks
+
+     A cartoon of a crazy stressed programmer pulling their hair out in
+     front of lots of screens showing a error exclamation marks
+
+Guiding principle[9]#
+
+   The goal for our error handling strategy is that it should require
+   minimal effort and provide an easy way to debug any errors that do
+   occur.
+
+   We wont cover strategies like retrying because they are less common and
+   also expose errors.
+
+1. Always handle errors[10]#
+
+   Always handle errors. Sometimes it’s tempting to skip one, you might
+   not expect that error to ever happen. But that’s why it’s an exception!
+   You need to handle it so that you can find out clearly if it ever does
+   happen.
+
+   If you don’t handle the error, the expected value will be something
+   else and just lead to another error that will be harder to debug, or
+   worse it could lead to data corruption.
+
+   In most cases to handle the error all you need to do is return it to
+   the caller of your method, where they can log it.
+
+   For example, when refreshing some data you might load it, then save it.
+   If you skip the error handling it could overwrite potentially useful
+   data with corrupt data.
+
+   👎 Bad error handling
+func refresh() {
+    bytes, _ := loadData()
+    saveData(bytes)
+}
+
+   👍 Good error handling
+func refresh() error {
+    bytes, err := loadData()
+    if err != nil {
+        return err
+    }
+    saveData(bytes)
+}
+
+2. Log errors in one layer[11]#
+
+   You always want to log your errors, ideally to something that will
+   notify you about the error, so you can fix it. There is no point
+   logging the error multiple times at every layer. Make it the top
+   layer’s responsibility and don’t log in any services or lower level
+   code.
+
+   Make sure your logging framework is including stack traces so you can
+   trace the error to its cause.
+
+   For example in a web app you would log the error in the http handler
+   when returning the Internal Server status code.
+
+   👍 Good error handling
+func refresh() error {
+    bytes, err := loadData()
+    if err != nil {
+        return err
+    }
+    saveData(bytes)
+}
+
+func (h *handlers) handleRefreshRequest(w http.ResponseWriter, r *http.Request)
+{
+    err := refresh()
+    if err != nil {
+        log.Error("unexpected error processing request %w", err)
+        w.WriteHeader(http.StatusInternalServerError)
+        return
+    }
+
+    w.WriteHeader(http.StatusOK)
+}
+
+3. Returning async errors[12]#
+
+   When processing data concurrently using a go-func’s, it can be annoying
+   to return the error. But if you don’t your app will be less
+   maintainable. To handle async errors, return them via a channel to the
+   calling thread.
+
+   👎 Bad error handling
+func refreshManyConcurrently() {
+    go func(){
+        refresh(1)
+    }()
+
+    go func(){
+        refresh(2)
+    }()
+}
+
+   👍 Good error handling
+func refreshManyConcurrently() error {
+    errors := make(chan error, 2)
+    go func(){
+        errors <- refresh(1)
+    }()
+
+    go func(){
+        errors <- refresh(2)
+    }()
+    return multierror.Combine(<-errors, <- errors)
+}
+
+   When calling functions that return a value and a possible error using a
+   type like Result[T], to wrap the response to pass on the channel.
+type Result[T any] struct {
+    Value T
+    Error error
+}
+
+4. Wrapping errors[13]#
+
+   Sometimes you want to add additional context to an error message. Eg to
+   include the id of the request that caused the error. You can use
+   fmt.error for this.
+err := saveToDb(user)
+if err != nil {
+    return fmt.errorf("unexpected error saving user. userId=%v error=%w", user.I
+d, err)
+}
+
+   Usually this isn’t necessary and its better to just return the error
+   unwrapped.
+
+5. Downgrade errors Warnings[14]#
+
+   There are types of errors that regularly occur during normal operation.
+   The system might not be able to prevent them all the time, but they
+   don’t need to investigate every time. It is better to treat them as
+   warnings rather than errors. These might be for things like timeouts or
+   intermittent connection errors.
+
+   👍 Good error handling
+func (h *handlers) handleRefreshRequest(w http.ResponseWriter, r *http.Request)
+{
+    err := refresh()
+    if err != nil {
+        if err == context.DeadlineExceeded {
+            log.Warn("Timeout error processing request %w", err)
+        } else {
+            log.Error("unexpected error processing request %w", err)
+        }
+
+        w.WriteHeader(http.StatusInternalServerError)
+        return
+    }
+
+    w.WriteHeader(http.StatusOK)
+}
+
+   [15]Next »
+   How to Serve Web Sockets with Http4s
+
+   © 2023 [16]Stephen's Tech Blog
+
+References
+
+   Visible links:
+   1. https://stephenn.com/
+   2. https://webhookwizard.com/
+   3. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L18069-7455TMP.html#guiding-principle
+   4. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L18069-7455TMP.html#1-always-handle-errors
+   5. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L18069-7455TMP.html#2-log-errors-in-one-layer
+   6. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L18069-7455TMP.html#3-returning-async-errors
+   7. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L18069-7455TMP.html#4-wrapping-errors
+   8. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L18069-7455TMP.html#5-downgrade-errors-warnings
+   9. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L18069-7455TMP.html#guiding-principle
+  10. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L18069-7455TMP.html#1-always-handle-errors
+  11. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L18069-7455TMP.html#2-log-errors-in-one-layer
+  12. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L18069-7455TMP.html#3-returning-async-errors
+  13. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L18069-7455TMP.html#4-wrapping-errors
+  14. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L18069-7455TMP.html#5-downgrade-errors-warnings
+  15. https://stephenn.com/2022/07/web-sockets-with-http4s/
+  16. https://stephenn.com/
+
+   Hidden links:
+  18. https://twitter.com/intent/tweet/?text=Gopher%20Wrangling.%20Effective%20error%20handling%20in%20Go&url=https%3a%2f%2fstephenn.com%2f2023%2f06%2fgopher-wrangling.-effective-error-handling-in-go%2f&hashtags=
+  19. https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fstephenn.com%2f2023%2f06%2fgopher-wrangling.-effective-error-handling-in-go%2f&title=Gopher%20Wrangling.%20Effective%20error%20handling%20in%20Go&summary=Gopher%20Wrangling.%20Effective%20error%20handling%20in%20Go&source=https%3a%2f%2fstephenn.com%2f2023%2f06%2fgopher-wrangling.-effective-error-handling-in-go%2f
+  20. https://reddit.com/submit?url=https%3a%2f%2fstephenn.com%2f2023%2f06%2fgopher-wrangling.-effective-error-handling-in-go%2f&title=Gopher%20Wrangling.%20Effective%20error%20handling%20in%20Go
+  21. https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fstephenn.com%2f2023%2f06%2fgopher-wrangling.-effective-error-handling-in-go%2f
+  22. https://api.whatsapp.com/send?text=Gopher%20Wrangling.%20Effective%20error%20handling%20in%20Go%20-%20https%3a%2f%2fstephenn.com%2f2023%2f06%2fgopher-wrangling.-effective-error-handling-in-go%2f
+  23. https://telegram.me/share/url?text=Gopher%20Wrangling.%20Effective%20error%20handling%20in%20Go&url=https%3a%2f%2fstephenn.com%2f2023%2f06%2fgopher-wrangling.-effective-error-handling-in-go%2f
+  24. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L18069-7455TMP.html#top
+  25. https://github.com/stephennancekivell
+  26. https://twitter.com/hi_stephen_n
+  27. https://www.linkedin.com/in/stephen-nancekivell-77003039
+  28. https://stackoverflow.com/users/893854/stephen
