@@ -46,35 +46,37 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 * [PocketBase][4]
 * [SyncThing][5]
 * [Restic][6]
+* [Gotenberg][7]
 
 [2]: https://gohugo.io/
 [3]: https://caddyserver.com/
 [4]: https://pocketbase.io/
 [5]: https://syncthing.net/
 [6]: https://restic.net/
+[7]: https://gotenberg.dev/
 
 ### Project Ideas
 
 * Bookmarking app (Pinboard replacement)
 * Note-taking / journaling app
-* [StevieBlocks][7]
+* [StevieBlocks][8]
 
 {{<thumbnail project1 "400x" />}}
 
-[7]: https://gist.github.com/dce/f975cb21b50a2cf998bf7230cbf89d85
+[8]: https://gist.github.com/dce/f975cb21b50a2cf998bf7230cbf89d85
 
 ### Resources
 
-* [Standard Go Project Layout][8]
-* [The files & folders of Go projects][9]
-* [Why David Yach Loves Go][10]
-* [One process programming notes (with Go and SQLite)][11]
-* [Go Project Layout][12]
-* [Gopher Wrangling. Effective error handling in Go][13]
+* [Standard Go Project Layout][9]
+* [The files & folders of Go projects][10]
+* [Why David Yach Loves Go][11]
+* [One process programming notes (with Go and SQLite)][12]
+* [Go Project Layout][13]
+* [Gopher Wrangling. Effective error handling in Go][14]
 
-[8]: https://github.com/golang-standards/project-layout
-[9]: https://changelog.com/gotime/278
-[10]: https://cloud.google.com/blog/products/application-modernization/why-david-yach-loves-go
-[11]: https://crawshaw.io/blog/one-process-programming-notes
-[12]: https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2
-[13]: https://stephenn.com/2023/06/gopher-wrangling.-effective-error-handling-in-go/
+[9]: https://github.com/golang-standards/project-layout
+[10]: https://changelog.com/gotime/278
+[11]: https://cloud.google.com/blog/products/application-modernization/why-david-yach-loves-go
+[12]: https://crawshaw.io/blog/one-process-programming-notes
+[13]: https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2
+[14]: https://stephenn.com/2023/06/gopher-wrangling.-effective-error-handling-in-go/
