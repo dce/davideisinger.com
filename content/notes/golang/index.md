@@ -47,6 +47,7 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 * [SyncThing][5]
 * [Restic][6]
 * [Gotenberg][7]
+* [Shiori][8]
 
 [2]: https://gohugo.io/
 [3]: https://caddyserver.com/
@@ -54,29 +55,30 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 [5]: https://syncthing.net/
 [6]: https://restic.net/
 [7]: https://gotenberg.dev/
+[8]: https://github.com/go-shiori/shiori
 
 ### Project Ideas
 
 * Bookmarking app (Pinboard replacement)
 * Note-taking / journaling app
-* [StevieBlocks][8]
+* [StevieBlocks][9]
 
 {{<thumbnail project1 "400x" />}}
 
-[8]: https://gist.github.com/dce/f975cb21b50a2cf998bf7230cbf89d85
+[9]: https://gist.github.com/dce/f975cb21b50a2cf998bf7230cbf89d85
 
 ### Resources
 
-* [Standard Go Project Layout][9]
-* [The files & folders of Go projects][10]
-* [Why David Yach Loves Go][11]
-* [One process programming notes (with Go and SQLite)][12]
-* [Go Project Layout][13]
-* [Gopher Wrangling. Effective error handling in Go][14]
+* [Standard Go Project Layout][10]
+* [The files & folders of Go projects][11]
+* [Why David Yach Loves Go][12]
+* [One process programming notes (with Go and SQLite)][13]
+* [Go Project Layout][14]
+* [Gopher Wrangling. Effective error handling in Go][15]
 
-[9]: https://github.com/golang-standards/project-layout
-[10]: https://changelog.com/gotime/278
-[11]: https://cloud.google.com/blog/products/application-modernization/why-david-yach-loves-go
-[12]: https://crawshaw.io/blog/one-process-programming-notes
-[13]: https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2
-[14]: https://stephenn.com/2023/06/gopher-wrangling.-effective-error-handling-in-go/
+[10]: https://github.com/golang-standards/project-layout
+[11]: https://changelog.com/gotime/278
+[12]: https://cloud.google.com/blog/products/application-modernization/why-david-yach-loves-go
+[13]: https://crawshaw.io/blog/one-process-programming-notes
+[14]: https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2
+[15]: https://stephenn.com/2023/06/gopher-wrangling.-effective-error-handling-in-go/

@@ -49,6 +49,12 @@ ul {
   }
 }
 
+ol {
+  margin-left: 3ch;
+  padding: 0;
+}
+
+
 blockquote {
   border-left: 1ch solid #ddd;
   font-style: italic;
@@ -70,6 +76,7 @@ footer {
 
 sup {
   line-height: 0;
+  font-size: 0.8em;
 }
 
 figure {
@@ -90,7 +97,7 @@ figure {
   }
 }
 
-.references {
+.references, .footnotes {
   font-size: 0.8em;
 
   h3 {

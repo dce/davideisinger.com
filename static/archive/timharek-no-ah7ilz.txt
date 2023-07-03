@@ -1,0 +1,142 @@
+   [1]Skip to content
+     * [2]Blog
+     * [3]Connect
+     * [4]About
+
+     * [5]Index
+     * [6]Blog
+     * My thoughts on Helix after 6 months
+
+My thoughts on Helix after 6 months
+
+   Published June 19, 2023 — 3 minute read
+   Photo of Tim Hårek Andreassen Tim Hårek Andreassen
+
+   Back in [7]January I decided to try out Helix as my primary editor and
+   today I have almost been using it for 6 months and these are my
+   thoughts.
+
+[8]# What I like
+
+[9]# Keystrokes
+
+   Helix lives in the opposite land when it comes to keystrokes in
+   comparison to Vim, and it was only difficult for the first couple of
+   days. I’ve become fond of the way to navigate around.
+
+[10]# Minor modes
+
+   I really like that there are more modes, called [11]“Minor modes”, and
+   the reason why I like them are that whenever I initate a mode there is
+   a subtle pop-up in the lower-right corner with the available actions
+   with the activated mode. This is super helpful when you are first
+   learning Helix and when you are doing something you don’t do on a
+   regular basis. It lowers the chance of having to switch context in
+   order to do something. For instance, I know that m activates “Match
+   mode”, but sometimes I may forget how to select around specific
+   selector like (), but with Helix I will have a little helper that tells
+   me that the next key is a and then the next helper will help me select
+   just ().
+
+[12]# Moving around
+
+   I’ve become really fond of the idea that every move-action is also a
+   selection/highlight, I find that I miss that feature whenever I edit
+   server-configs via SSH or somewhere else when I’m not in Helix. It
+   feels natural after a while because you get used to moving around
+   text/code with w and e.
+
+[13]# Configuration
+
+   No more Vimscript and Lua, just plaintext TOML! The documentation for
+   how to configure the editor is great and most of the defaults are also
+   great! My editor-config is just 23 lines in contrast to my
+   Neovim-config which is 209 lines long.
+
+[14]# Language server protocol (LSP) support
+
+   I had some experience with this from Neovim, but it felt cumbersome
+   having to configure everything. With Helix I can simply run hx --health
+   markdown and see what LSP is required for Markdown.
+$ hx --health markdown
+Configured language server: marksman
+Binary for language server: /opt/homebrew/bin/marksman
+Configured debug adapter: None
+Highlight queries: ✓
+Textobject queries: ✘
+Indent queries: ✘
+
+   I even managed to get it working with Deno thanks to its documentation
+   on how to use custom LSPs for specific languages.
+
+[15]# What I don’t like
+
+   There really isn’t anything in particualr that I don’t like about
+   Helix. I really miss having it installed on servers by default, but I
+   completely understand that that is a big ask 😅 It’s not too difficult
+   to swap between Vim-bindings and Helix-bindings for short sessions.
+
+[16]# Conclusion
+
+   Helix is fun and easy! I highly recommend Helix if you:
+     * want to try a new editor,
+     * tired of configuring {Neo}vim with Vimscript/Lua,
+     * or been thinking about trying out Vim, but been hesitant because of
+       the modes.
+
+   I will continue to use Helix for the forseeable future, I’m looking
+   forward to what future updates will bring!
+
+   Remember to check out Helix’s tutor, hx --tutor for quick introduction
+   to its keystrokes and interactions.
+
+   Tagged with [17]100 days to
+   offload[18]helix[19]software[20]thoughts[21]tools
+   540 words
+   [22]Reply via e-mail
+
+Also mentioned in
+
+     * [23]June 2023
+
+   Last deploy: 2023-07-02 11:14 UTC
+
+     * [24]Stats
+     * [25]Privacy
+     * [26]Sitemap
+     * [27]RSS
+
+References
+
+   Visible links:
+   1. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L71669-427TMP.html#main
+   2. https://timharek.no/blog/
+   3. https://timharek.no/connect/
+   4. https://timharek.no/about/
+   5. https://timharek.no/
+   6. https://timharek.no/blog/
+   7. https://timharek.no/blog/trying-helix/
+   8. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L71669-427TMP.html#what-i-like
+   9. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L71669-427TMP.html#keystrokes
+  10. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L71669-427TMP.html#minor-modes
+  11. https://docs.helix-editor.com/keymap.html#normal-mode
+  12. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L71669-427TMP.html#moving-around
+  13. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L71669-427TMP.html#configuration
+  14. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L71669-427TMP.html#language-server-protocol-lsp-support
+  15. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L71669-427TMP.html#what-i-don-t-like
+  16. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L71669-427TMP.html#conclusion
+  17. https://timharek.no/tags/100-days-to-offload/
+  18. https://timharek.no/tags/helix/
+  19. https://timharek.no/tags/software/
+  20. https://timharek.no/tags/thoughts/
+  21. https://timharek.no/tags/tools/
+  22. mailto:tim@harek.no?subject=RE: My thoughts on Helix after 6 months
+  23. https://timharek.no/blog/2023-june-recently/
+  24. https://timharek.no/stats/
+  25. https://timharek.no/privacy/
+  26. https://timharek.no/sitemap/
+  27. https://timharek.no/rss.xml
+
+   Hidden links:
+  29. https://timharek.no/
+  30. https://timharek.no/blog/my-thoughts-on-helix-after-6-months/

@@ -2,6 +2,11 @@
 title: "Good Tests"
 date: 2023-05-12T23:40:19-04:00
 draft: false
+references:
+- title: "A year of Rails - macwright.com"
+  url: https://macwright.com/2021/02/18/a-year-of-rails.html
+  date: 2023-07-03T02:52:03Z
+  file: macwright-com-o4dndf.txt
 ---
 
 _(Notes for a Viget article I'm putting together)_
