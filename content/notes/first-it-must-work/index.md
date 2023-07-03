@@ -19,6 +19,10 @@ references:
   url: https://taylor.town/millennium-sewer
   date: 2023-07-03T00:32:43Z
   file: taylor-town-5siv9a.txt
+- title: "We are wasting up to 20% of our time on computer problems, says study"
+  url: https://techxplore.com/news/2023-06-problems.html
+  date: 2023-07-03T21:19:28Z
+  file: techxplore-com-8o7hmu.txt
 ---
 
 ### Thoughts on priorities in software development
@@ -33,8 +37,10 @@ references:
 * [Even Amazon can't make sense of serverless or microservices][2]
 * [Imaginary Problems Are the Root of Bad Software][3]
 * [When to Build Millennia Sewers][4]
+* [We are wasting up to 20% of our time on computer problems, says study][5]
 
 [1]: https://grugbrain.dev/
 [2]: https://world.hey.com/dhh/even-amazon-can-t-make-sense-of-serverless-or-microservices-59625580
 [3]: https://cerebralab.com/Imaginary_Problems_Are_the_Root_of_Bad_Software
 [4]: https://taylor.town/millennium-sewer
+[5]: https://techxplore.com/news/2023-06-problems.html
