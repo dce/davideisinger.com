@@ -1,0 +1,632 @@
+   #[1]top [2]search [3]All news stories [4]Spotlight news only
+
+   [5]logotype
+   (BUTTON) Topics
+     * [6]Week's top
+     * [7]Latest news
+     * [8]Unread news
+     * [9]Subscribe
+
+   ____________________ (BUTTON)
+
+   (BUTTON)
+
+Science X Account
+
+   ____________________
+   ____________________
+   [X] Remember me
+   (BUTTON) Sign In
+
+   [10]Click here to sign in with or
+
+   [11]Forget Password?
+   [12]Not a member? Sign up
+
+   [13]Learn more
+
+     * [14]Automotive
+     * [15]Business
+     * [16]Computer Sciences
+     * [17]Consumer & Gadgets
+     * [18]Electronics & Semiconductors
+     * [19]Energy & Green Tech
+     * [20]Engineering
+     * [21]Hardware
+     * [22]Hi Tech & Innovation
+     * [23]Internet
+     * [24]Machine learning & AI
+     * [25]Other
+     * [26]Robotics
+     * [27]Security
+     * [28]Software
+     * [29]Telecom
+
+   [INS: :INS]
+     * (BUTTON)
+     * share this!
+     * [30]90
+     * [31]15
+     * [32]Share
+     * [33]Email
+
+    1. [34]Home
+    2. [35]Consumer & Gadgets
+
+    1. [36]Home
+    2. [37]Computer Sciences
+
+     *
+     *
+     *
+     __________________________________________________________________
+
+   June 29, 2023
+   [38]Editors' notes
+
+   This article has been reviewed according to Science X's [39]editorial
+   process and [40]policies. [41]Editors have highlighted the following
+   attributes while ensuring the content's credibility:
+
+   fact-checked
+
+   trusted source
+
+   proofread
+
+We are wasting up to 20% of our time on computer problems, says study
+
+   by [42]University of Copenhagen
+   computer Credit: Unsplash/CC0 Public Domain
+
+   Even though our computers are now better than 15 years ago, they still
+   malfunction 11%–20% of the time, a new study from the University of
+   Copenhagen and Roskilde University concludes. The researchers behind
+   the study therefore find that there are major gains to be achieved for
+   society by rethinking the systems and involving users more in their
+   development.
+
+   An endlessly rotating beach ball, a program that [43]crashes without
+   saving data or systems that require illogical procedures or simply do
+   not work: Unfortunately, struggling with computers is still a familiar
+   situation for most of us. Tearing your hair out over computers that do
+   not work remains very common among users, according to new Danish
+   research.
+
+   In fact, so much that on average, we waste 11%–20% of our time in front
+   of our computers on systems that do not work or that are so difficult
+   to understand that we cannot perform the task we want to. And this is
+   far from being good enough, says Professor Kasper Hornbæk, one of the
+   researchers behind the study.
+
+   "It's incredible that the figure is so high. However, most people
+   experience frustration when using computers and can tell a horror story
+   about an important PowerPoint presentation that was not saved or a
+   system that crashed at a critical moment. Everyone knows that it is
+   difficult to create IT systems that match people's needs, but the
+   figure should be much lower, and one thing that it shows is that
+   [44]ordinary people aren't involved enough when the systems are
+   developed," he says.
+
+   Professor Morten Hertzum, the other researcher behind the study,
+   emphasizes that most frustrations are experienced in connection with
+   the performance of completely ordinary tasks.
+
+   "The frustrations are not due to people using their computers for
+   something highly advanced, but because they experience problems in
+   their performance of everyday tasks. This makes it easier to involve
+   users in identifying problems. But it also means that problems that are
+   not identified and solved will probably frustrate a large number of
+   users," says Morten Hertzum.
+
+The problems are only too recognizable
+
+   To examine this issue, the researchers have been assisted by 234
+   participants who spend between six and eight hours in front of a
+   computer in their day-to-day work.
+
+   During one hour, the researchers told them to report the situations in
+   which the computer would not work properly, or where the participants
+   were frustrated about not being able to perform the task they wanted.
+
+   The problems most often experienced by the participants included: "the
+   system was slow," "the system froze temporarily," "the system crashed,"
+   "it is difficult to find things." The participants had backgrounds such
+   as student, accountant, consultant, but several of them actually worked
+   in the IT industry.
+
+   "A number of the participants in the survey were IT professionals,
+   while most of the other participants were highly competent IT and
+   computer users. Nevertheless, they encountered these problems, and it
+   turns out that this involves some fundamental functions," says Kasper
+   Hornbæk.
+
+   The participants in the survey also responded that 84% of the episodes
+   had occurred before and that 87% of the episodes could happen again.
+   And, according to Kasper Hornbæk, we are having the same fundamental
+   problems today that we had 15–20 years ago.
+
+   "The two biggest categories of problems are still about insufficient
+   performance and lack of user-friendliness," he says.
+
+   Morten Hertzum adds, "Our technology can do more today, and it has also
+   become better, but at the same time, we expect more from it. Even
+   though downloads are faster now, they are often still experienced as
+   frustratingly slow. "
+   [INS: :INS]
+
+88% use a computer at work
+
+   According to Statistics Denmark, 88% of Danes used computers, laptops,
+   smartphones, tablets or other mobile devices at work in 2018. In this
+   context, the new study indicates that a half to a whole day of a normal
+   working week may be wasted on computer problems.
+
+   "There is a lot of productivity lost in workplaces throughout Denmark
+   because people are unable to perform their ordinary work because the
+   computer is not running as it should. It also causes a lot of
+   frustrations for the individual user," says Kasper Hornbæk.
+
+   This means that there are major benefits to be gained for society if we
+   experienced fewer problems in front of our computers. According to
+   Kasper Hornbæk, the gains can, for example, be achieved if more
+   resources are invested in rethinking how faults are presented to us on
+   the computer.
+
+   "Part of the solution may be to shield us from knowing that the
+   computer is working to solve a problem. In reality, there is no reason
+   why we need to look at an incomprehensible box with commands or a
+   frozen computer. The [45]computer could easily solve the problems
+   without displaying this, while it provided a back-up version of the
+   system for us, so that we could continue to work with our tasks
+   undisturbed," says Kasper Hornbæk.
+
+   At the same time, IT developers should involve the users even more when
+   designing the systems to make them as easy to use—and understand—as
+   possible, because according to the researcher, there are no poor IT
+   users, only poor systems.
+
+   "When we're all surrounded by IT systems that we're cursing, it's very
+   healthy to ascertain that it's probably not the [46]users that are the
+   problem, but those who make the systems. The study clearly shows that
+   there is still much room for improvement, and we therefore hope that it
+   can create more focus on making more user-friendly systems in the
+   future," concludes Kasper Hornbæk.
+
+   More information: Morten Hertzum et al, Frustration: Still a Common
+   User Experience, ACM Transactions on Computer-Human Interaction (2023).
+   [47]DOI: 10.1145/3582432
+   Provided by [48]University of Copenhagen
+   Citation: We are wasting up to 20% of our time on computer problems,
+   says study (2023, June 29) retrieved 3 July 2023 from
+   https://techxplore.com/news/2023-06-problems.html
+   This document is subject to copyright. Apart from any fair dealing for
+   the purpose of private study or research, no part may be reproduced
+   without the written permission. The content is provided for information
+   purposes only.
+     __________________________________________________________________
+
+   Explore further
+   [49]Computer 'brains' solving mysteries of human behaviour
+     __________________________________________________________________
+
+   [50]107 shares
+     * [51]Facebook
+     * [52]Twitter
+     * [53]Email
+
+   [54]
+
+   Feedback to editors
+
+     * [55]Featured
+     * [56]Last Comments
+     * [57]Popular
+
+[58]GitHub's Copilot may lead to global $1.5 trillion GDP boost
+
+   Jun 30, 2023
+
+   4
+
+[59]Corporate collaboration bolsters quantum encryption
+
+   Jun 27, 2023
+
+   1
+
+[60]Rendering three-dimensional images from eye reflections with NeRF
+
+   Jun 27, 2023
+
+   0
+
+[61]Engineering liquid crystal elastomers inspired by elephant trunks to make
+artificial plants
+
+   Jun 27, 2023
+
+   0
+
+[62]Wafer-scale transistor arrays created using slot-die printing
+
+   Jun 27, 2023
+
+   0
+     __________________________________________________________________
+
+Researchers develop a redox-based transistor as a reservoir system for
+neuromorphic computing
+
+   1 hour ago
+
+Sweden orders four companies to stop using Google tool
+
+   3 hours ago
+
+New glass could cut carbon footprint by nearly half and is 10x more damage
+resistant
+
+   4 hours ago
+
+Team develops a faster, cheaper way to train large language models
+
+   5 hours ago
+
+Researchers develop recycling method to address carbon and glass fiber
+composites waste
+
+   5 hours ago
+
+Cutting edge transistors for semiconductors of the future
+
+   7 hours ago
+
+In AI tussle, Twitter restricts number of posts users can read
+
+   Jul 1, 2023
+
+After several turbulent days, flight disruptions ease despite worries about
+5G signals
+
+   Jul 1, 2023
+
+Displays controlled by flexible fins and liquid droplets more versatile,
+efficient than LED screens
+
+   Jun 30, 2023
+
+GitHub's Copilot may lead to global $1.5 trillion GDP boost
+
+   Jun 30, 2023
+   [INS: :INS]
+
+     *
+
+Related Stories
+
+Computer 'brains' solving mysteries of human behaviour
+       Oct 14, 2016
+
+The quantum computer already exists, but is not all that powerful
+       May 16, 2023
+
+Q&A: Expert discusses how to realistically achieve quantum speedups beyond
+the hype
+       May 26, 2023
+
+Tiny quantum computer solves real optimization problem
+       Dec 17, 2020
+
+New software allows nonspecialists to intuitively train machines using
+gestures
+       Oct 31, 2022
+
+Scalable photonic computer solves the subset sum problem
+       Feb 3, 2020
+     *
+
+Recommended for you
+
+Robot swarms neutralize harmful Byzantine robots using a blockchain-based
+token economy
+       Jun 30, 2023
+
+Researchers teach an AI to write better chart captions
+       Jun 29, 2023
+
+BBCube 3D: Implementing CPU/GPU and memory in a hybrid 3D approach
+       Jun 29, 2023
+
+Why do some chatbots talk funny? Teaching them to 'think' rationally might
+help them do better
+       Jun 28, 2023
+
+Researchers design tools to automatically detect natural disasters using
+images on social media
+       Jun 28, 2023
+
+Researchers devise new way to evaluate cybersecurity methods
+       Jun 28, 2023
+
+   IFRAME:
+   [63]//js.trendmd.com/trendmd.amp.html?title=We%20are%20wasting%20up%20t
+   o%2020%25%20of%20our%20time%20on%20computer%20problems%2C%20says%20stud
+   y&url=https%3A%2F%2Ftechxplore.com%2Fnews%2F2023-06-problems.html&journ
+   alId=73746
+
+   [64]Load comments (0)
+
+Let us know if there is a problem with our content
+
+   (BUTTON)
+
+   Use this form if you have come across a typo, inaccuracy or would like
+   to send an edit request for the content on this page. For general
+   inquiries, please use our [65]contact form. For general feedback, use
+   the public comments section below (please [66]adhere to guidelines).
+
+   Please select the most appropriate category to facilitate processing of
+   your request
+   [-- please select one --______]
+   Your message to the editors
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   Your email (only if you want to be contacted back) ____________________
+   (BUTTON) Send Feedback
+
+   Thank you for taking time to provide your feedback to the editors.
+
+   Your feedback is important to us. However, we do not guarantee
+   individual replies due to the high volume of messages.
+
+E-mail the story
+
+We are wasting up to 20% of our time on computer problems, says study
+
+   (BUTTON)
+   Your friend's email ____________________
+   Your email ____________________
+   [ ] I would like to subscribe to Science X Newsletter. [67]Learn more
+   Your name ____________________
+
+Note
+
+   Your email address is used only to let the recipient know who sent the
+   email. Neither your address nor the recipient's address will be used
+   for any other purpose. The information you enter will appear in your
+   e-mail message and is not retained by Tech Xplore in any form.
+   Your message
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   (BUTTON) Send
+
+   (BUTTON)
+
+   Phys.org logotype
+
+Phys.org
+
+   Daily science news on research developments and the latest scientific
+   innovations
+   MedicalXpress logotype
+
+Medical Xpress
+
+   Medical research advances and health news
+   ScienceX logotype
+
+Science X
+
+   The most comprehensive sci-tech news coverage on the web
+
+Newsletters
+
+   ____________________
+   (BUTTON) Subscribe
+   Science X Daily and the Weekly Email Newsletter are free features that
+   allow you to receive your favorite sci-tech news updates in your email
+   inbox
+
+Follow us
+
+     *
+     *
+     *
+     *
+
+     * [68]Top
+     * [69]Home
+     * [70]Search
+     * [71]Mobile version
+
+     * [72]Help
+     * [73]FAQ
+     * [74]About
+     * [75]Contact
+
+     * [76]Science X Account
+     * [77]Premium Account
+     * [78]Newsletter
+     * [79]Archive
+
+     * [80]Android app
+     * [81]iOS app
+     * [82]RSS feeds
+     * [83]Push notification
+
+   © Tech Xplore 2014 - 2023 powered by [84]Science X Network
+   [85]Privacy policy [86]Terms of use
+
+Your Privacy
+
+   This site uses cookies to assist with navigation, analyse your use of
+   our services, collect data for ads personalisation and provide content
+   from third parties. By using our site, you acknowledge that you have
+   read and understand our [87]Privacy Policy and [88]Terms of Use.
+   [89]I'm OK with that [90]Cookie options
+
+   (BUTTON)
+
+E-mail newsletter
+
+   ____________________
+   (BUTTON) Subscribe
+
+Follow us
+
+     *
+     *
+     *
+     *
+
+   [91]It appears that you are currently using Ad Blocking software. What
+   are the consequences? (BUTTON) ×
+
+   Quantcast
+
+References
+
+   Visible links:
+   1. file:///
+   2. https://techxplore.com/search/
+   3. https://techxplore.com/rss-feed/
+   4. https://techxplore.com/rss-feed/breaking/
+   5. https://techxplore.com/
+   6. https://techxplore.com/weekly-news/
+   7. https://techxplore.com/latest-news/
+   8. https://techxplore.com/unread-news/
+   9. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L4446-7560TMP.html
+  10. https://sciencex.com/profile/login/
+  11. https://sciencex.com/profile/pwdreset/
+  12. https://sciencex.com/profile/register/
+  13. https://sciencex.com/help/account/
+  14. https://techxplore.com/automotive-news/
+  15. https://techxplore.com/business-tech-news/
+  16. https://techxplore.com/computer-sciences-news/
+  17. https://techxplore.com/consumer-gadgets-news/
+  18. https://techxplore.com/semiconductors-news/
+  19. https://techxplore.com/energy-green-tech-news/
+  20. https://techxplore.com/engineering-news/
+  21. https://techxplore.com/hardware-news/
+  22. https://techxplore.com/hi-tech-news/
+  23. https://techxplore.com/internet-news/
+  24. https://techxplore.com/machine-learning-ai-news/
+  25. https://techxplore.com/other-news/
+  26. https://techxplore.com/robotics-news/
+  27. https://techxplore.com/security-news/
+  28. https://techxplore.com/software-news/
+  29. https://techxplore.com/telecom-news/
+  30. javascript:void(0)
+  31. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L4446-7560TMP.html
+  32. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L4446-7560TMP.html
+  33. mailto:/
+  34. file:///
+  35. https://techxplore.com/consumer-gadgets-news/
+  36. file:///
+  37. https://techxplore.com/computer-sciences-news/
+  38. javascript:void(0)
+  39. https://sciencex.com/help/editorial-process/
+  40. https://sciencex.com/help/editorial-standards/
+  41. https://sciencex.com/help/editorial-team/
+  42. http://www.ku.dk/english/
+  43. https://techxplore.com/tags/crashes/
+  44. https://techxplore.com/tags/ordinary+people/
+  45. https://techxplore.com/tags/computer/
+  46. https://techxplore.com/tags/users/
+  47. https://dx.doi.org/10.1145/3582432
+  48. https://techxplore.com/partners/university-of-copenhagen/
+  49. https://techxplore.com/news/2016-10-brains-mysteries-human-behaviour.html
+  50. javascript:void(0)
+  51. javascript:void(0)
+  52. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L4446-7560TMP.html
+  53. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L4446-7560TMP.html
+  54. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L4446-7560TMP.html
+  55. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L4446-7560TMP.html#nav-featured
+  56. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L4446-7560TMP.html#nav-commented
+  57. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L4446-7560TMP.html#nav-popular
+  58. https://techxplore.com/news/2023-06-github-copilot-global-trillion-gdp.html
+  59. https://techxplore.com/news/2023-06-corporate-collaboration-bolsters-quantum-encryption.html
+  60. https://techxplore.com/news/2023-06-three-dimensional-images-eye-nerf.html
+  61. https://techxplore.com/news/2023-06-liquid-crystal-elastomers-elephant-trunks.html
+  62. https://techxplore.com/news/2023-06-wafer-scale-transistor-arrays-slot-die.html
+  63. file://js.trendmd.com/trendmd.amp.html?title=We are wasting up to 20% of our time on computer problems, says study&url=https://techxplore.com/news/2023-06-problems.html&journalId=73746
+  64. Javascript:void(0);
+  65. https://sciencex.com/help/feedback/
+  66. https://sciencex.com/help/comments/
+  67. https://sciencex.com/help/newsletter/
+  68. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L4446-7560TMP.html
+  69. https://techxplore.com/
+  70. https://techxplore.com/search/
+  71. https://techxplore.com/news/2023-06-problems.html?deviceType=mobile
+  72. https://sciencex.com/help/
+  73. https://sciencex.com/help/contactus/
+  74. https://sciencex.com/help/about-us/
+  75. https://sciencex.com/help/feedback/
+  76. https://sciencex.com/profile/
+  77. https://sciencex.com/help/donate/
+  78. https://sciencex.com/help/newsletter/
+  79. https://techxplore.com/archive/
+  80. https://play.google.com/store/apps/details?id=com.PhysOrg.TechXplore
+  81. https://itunes.apple.com/us/app/tech-xplore/id1154953172?mt=8
+  82. https://techxplore.com/feeds/
+  83. javascript:void(0)
+  84. https://sciencex.com/
+  85. https://sciencex.com/help/privacy/
+  86. https://sciencex.com/help/terms/
+  87. https://sciencex.com/help/privacy/
+  88. https://sciencex.com/help/terms/
+  89. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L4446-7560TMP.html
+  90. https://sciencex.com/help/cookies/
+  91. https://sciencex.com/help/adblock/
+
+   Hidden links:
+  93. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L4446-7560TMP.html
+  94. javascript:void(0)
+  95. https://techxplore.com/news/2023-06-problems.pdf
+  96. javascript:window.print()
+  97. https://techxplore.com/archive/29-06-2023/
+  98. http://www.ku.dk/english/
+  99. https://techxplore.com/news/2023-07-redox-based-transistor-reservoir-neuromorphic.html
+ 100. https://techxplore.com/news/2023-07-sweden-companies-google-tool.html
+ 101. https://techxplore.com/news/2023-07-glass-carbon-footprint-10x-resistant.html
+ 102. https://techxplore.com/news/2023-07-team-faster-cheaper-large-language.html
+ 103. https://techxplore.com/news/2023-07-recycling-method-carbon-glass-fiber.html
+ 104. https://techxplore.com/news/2023-07-edge-transistors-semiconductors-future.html
+ 105. https://techxplore.com/news/2023-07-ai-tussle-twitter-restricts-users.html
+ 106. https://techxplore.com/news/2023-07-air-isnt-hard-5g-wireless.html
+ 107. https://techxplore.com/news/2023-06-displays-flexible-fins-liquid-droplets.html
+ 108. https://techxplore.com/news/2023-06-github-copilot-global-trillion-gdp.html
+ 109. https://techxplore.com/news/2016-10-brains-mysteries-human-behaviour.html
+ 110. https://techxplore.com/news/2023-05-quantum-powerful.html
+ 111. https://techxplore.com/news/2023-05-qa-expert-discusses-realistically-quantum.html
+ 112. https://phys.org/news/2020-12-tiny-quantum-real-optimization-problem.html
+ 113. https://techxplore.com/news/2022-10-software-nonspecialists-intuitively-machines-gestures.html
+ 114. https://phys.org/news/2020-02-scalable-photonic-subset-sum-problem.html
+ 115. https://techxplore.com/news/2023-06-robot-swarms-neutralize-byzantine-robots.html
+ 116. https://techxplore.com/news/2023-06-ai-captions.html
+ 117. https://techxplore.com/news/2023-06-bbcube-3d-cpugpu-memory-hybrid.html
+ 118. https://techxplore.com/news/2023-06-chatbots-funny-rationally.html
+ 119. https://techxplore.com/news/2023-06-tools-automatically-natural-disasters-images.html
+ 120. https://techxplore.com/news/2023-06-cybersecurity-methods.html
+ 121. https://phys.org/
+ 122. https://medicalxpress.com/
+ 123. https://sciencex.com/
+ 124. https://www.facebook.com/TechxploreCom
+ 125. https://twitter.com/techxplore_com
+ 126. https://www.linkedin.com/company/tech-xplore/
+ 127. https://techxplore.com/feeds/
+ 128. https://www.facebook.com/TechxploreCom
+ 129. https://twitter.com/techxplore_com
+ 130. https://www.linkedin.com/company/tech-xplore/
+ 131. https://techxplore.com/feeds/
