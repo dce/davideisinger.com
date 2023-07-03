@@ -15,6 +15,10 @@ references:
   url: https://cerebralab.com/Imaginary_Problems_Are_the_Root_of_Bad_Software
   date: 2023-06-20T16:28:39Z
   file: cerebralab-com-qy5zqs.txt
+- title: "When to Build Millennia Sewers"
+  url: https://taylor.town/millennium-sewer
+  date: 2023-07-03T00:32:43Z
+  file: taylor-town-5siv9a.txt
 ---
 
 ### Thoughts on priorities in software development
@@ -28,7 +32,9 @@ references:
 * [The Grug Brained Developer][1]
 * [Even Amazon can't make sense of serverless or microservices][2]
 * [Imaginary Problems Are the Root of Bad Software][3]
+* [When to Build Millennia Sewers][4]
 
 [1]: https://grugbrain.dev/
 [2]: https://world.hey.com/dhh/even-amazon-can-t-make-sense-of-serverless-or-microservices-59625580
 [3]: https://cerebralab.com/Imaginary_Problems_Are_the_Root_of_Bad_Software
+[4]: https://taylor.town/millennium-sewer

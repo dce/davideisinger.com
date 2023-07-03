@@ -1,0 +1,191 @@
+   [1]taylor.town
+
+   [2]about [3]now [4]hire [5]rss [6]spam
+
+   cloaca maxima
+
+                         When to Build Millennia Sewers
+
+   In the mid-1800s, [7]every building in central Chicago was raised 10ft
+   (30m). Yes, they literally used [8]jackscrews to lift entire city
+   blocks up one-by-one.
+
+   Chicago had to [9]hotfix production because they built the city on the
+   shoreline of Lake Michigan, where filth accumulated without natural
+   drainage. They lifted the entire city after it was built so they could
+   add sewers and prevent flooding.
+
+   For comparison, Rome’s [10]Cloaca Maxima (“Greatest Sewer”) is still
+   in-use after 2,400 years.
+
+   So why didn’t Chicago just build it right the first time?
+     * [11]Irreversible Decisions
+     * [12]Unintended vs. Unforeseen
+     * [13]Always Scale Down
+     * [14]Labor & Materials
+     * [15]Awful Architecture
+
+Irreversible Decisions
+
+     Some decisions are consequential and irreversible or nearly
+     irreversible – one-way doors – and these decisions must be made
+     methodically, carefully, slowly, with great deliberation and
+     consultation. If you walk through and don’t like what you see on the
+     other side, you can’t get back to where you were before. We can call
+     these Type 1 decisions. But most decisions aren’t like that – they
+     are changeable, reversible – they’re two-way doors. If you’ve made a
+     suboptimal Type 2 decision, you don’t have to live with the
+     consequences for that long. You can reopen the door and go back
+     through. Type 2 decisions can and should be made quickly by high
+     judgment individuals or small groups.
+
+     As organizations get larger, there seems to be a tendency to use the
+     heavy-weight Type 1 decision-making process on most decisions,
+     including many Type 2 decisions. The end result of this is slowness,
+     unthoughtful risk aversion, failure to experiment sufficiently, and
+     consequently diminished invention. We’ll have to figure out how to
+     fight that tendency.
+
+     – [16]Jeff Bezos
+
+   The Cloaca Maxima didn’t magically start out as the Greatest Sewer. It
+   began as an open-air canal, then was modified and renovated and
+   connected to the aqueducts.
+
+   The Romans probably made mistakes, but they didn’t make any wrong
+   irreversible decisions. To build something that lasts, make sure the
+   architecture is correct where it counts.
+
+   The Chicago sewage disaster was technically reversible, but extremely
+   expensive and painful.
+
+   Put “wiggle-room” in your architecture. Plan for repairs. Add
+   backdoors, engine-hoods, seams, and spaces. Emergency plans are
+   generally cheap to include in early phases of design.
+
+Unintented vs. Unforeseen
+
+   [17]Exxon executives knew that CO₂ emissions would harm Earth.
+
+   Exxon willfully ignored its own research. Climate change was unintended
+   but not unforeseen.
+
+   Prophets are silenced when apocalypses seem bad for business.
+
+   But remember – all apocalypses are opportunities for entrepeneurship.
+   Exxon could’ve made billions by diversifying themselves with renewable
+   energy. They acted against their own self-interest by ignoring their
+   facts.
+
+   To prevent long-term disaster, solve the hard problem of aligning
+   incentives. Build systems so that all constituents predict and prevent
+   impending doom.
+
+   Transparency thwarts [18]own goals. It’s difficult to do stupid things
+   when you do stupid things publicly.
+
+Always Scale Down
+
+     There’s really two ways to design things. You can either sort of
+     start with small things and scale them up or you could start with
+     big things and scale them down…
+
+     So suppose you want to build a system for like 10,000 people to use
+     simultaneously. One way of doing it would be to start with the
+     system, design it for 10 people and test it like that and scale it
+     up 10,000. The other way would be to design it for like 100,000,000
+     people – I mean do the design for that – and then scale it down to
+     tens of thousands. You might not get the same architecture. You
+     might get a completely different architecture. In fact, you would
+     get a different architecture.
+
+     And I think it’s a really bad idea to start at a design for 10 or
+     100 things and scale it up. It’s better to start with an
+     architecture that you know will work for a few trillion things and
+     scale it down. It will actually be less efficient when you’ve got
+     your 10,000 things than when you scaled up, but you’ll know that
+     you’ll be able to scale it up later. So it’s good.
+
+     So rather than ask, “how do we get to five nines?”, let’s make it
+     more interesting! Let’s start at 9,999 nines reliability and scale
+     it down.
+
+     – Joe Armstrong from [19]Systems that run forever and self-heal and
+     scale
+
+   If you can afford it, throw a few extra zeroes on your designs.
+
+Labor & Materials
+
+   Carefully compare lifetime, labor, and materials.
+
+             lifetime   repair   labor materials
+   asphalt  20 years   moderate  $     $
+   concrete 30 years   difficult $     $$
+   stone    100+ years easy      $$$$  $$$
+
+   Pay particular attention to labor – 9 women can’t make a baby in 1
+   month.
+
+   Exercise for the reader: Which is cheaper, a Nespresso machine or a
+   [20]percolator?
+
+Awful Architecture
+
+   Sometimes there are no tradeoffs.
+
+   Some decisions are awful in every dimension.
+
+   [21]Dvorak keyboards reduce finger fatigue using the same materials as
+   QWERTY keyboards.
+
+   [22]Juicero famously launched a high-tech product that was inferior to
+   traditional juicers [23]in every comparable way:
+
+     After taking apart the device, venture capitalist Ben Einstein
+     considered the press to be “an incredibly complicated piece of
+     engineering”, but that the complexity was unnecessary and likely
+     arose from a lack of cost constraints during the design process. A
+     simpler and cheaper implementation, suggested Einstein, would likely
+     have produced much the same quality of juice at a price several
+     hundred dollars cheaper.
+
+   If you want to create lasting sewers, study sewer architecture and its
+   impacts. What do good sewers have in common? What do bad sewers look
+   like? What tradeoffs exist with sewage systems? Are there any
+   promising-yet-untested sewer designs? Why do sewers go into disrepair?
+   What societal factors prevent sewers from being made in the first
+   place? Who truly controls the sewers?
+
+   Great architects think ahead, but don’t let ambitions run amok. They
+   anticipate irreversible changes and second-order effects. They consider
+   all the costs – labor and materials and maintenance and environmental
+   impact. They always stay ahead-of-schedule and within their budget. And
+   despite the overwhelming constraints, great architects build millennia
+   sewers whenever and wherever they can.
+
+References
+
+   1. file:///
+   2. file:///about
+   3. file:///now
+   4. file:///hire-me
+   5. file:///feed.xml
+   6. https://newsletter.taylor.town/
+   7. https://en.wikipedia.org/wiki/Raising_of_Chicago
+   8. https://en.wikipedia.org/wiki/Jack_(device)#House_jack
+   9. https://www.reddit.com/r/ProgrammerHumor/comments/blhec6/fixing_bugs_in_production/
+  10. https://en.wikipedia.org/wiki/Cloaca_Maxima
+  11. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L81887-9224TMP.html#irreversible
+  12. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L81887-9224TMP.html#unintended
+  13. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L81887-9224TMP.html#scale-down
+  14. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L81887-9224TMP.html#labor-materials
+  15. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L81887-9224TMP.html#awful
+  16. https://www.sec.gov/Archives/edgar/data/1018724/000119312516530910/d168744dex991.htm
+  17. https://en.wikipedia.org/wiki/ExxonMobil_climate_change_denial
+  18. https://en.wikipedia.org/wiki/Own_goal
+  19. https://www.youtube-nocookie.com/embed/cNICGEwmXLU?start=433
+  20. https://en.wikipedia.org/wiki/Coffee_percolator
+  21. https://en.wikipedia.org/wiki/Dvorak_keyboard_layout
+  22. https://en.wikipedia.org/wiki/Juicero
+  23. https://en.wikipedia.org/wiki/Juicero#Criticism
