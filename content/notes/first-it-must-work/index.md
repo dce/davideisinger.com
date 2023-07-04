@@ -31,6 +31,10 @@ references:
   url: https://techxplore.com/news/2023-06-problems.html
   date: 2023-07-03T21:19:28Z
   file: techxplore-com-8o7hmu.txt
+- title: "Dan McKinley :: Choose Boring Technology"
+  url: https://mcfunley.com/choose-boring-technology
+  date: 2023-07-04T03:40:17Z
+  file: mcfunley-com-5myzcq.txt
 ---
 
 ### Thoughts on priorities in software development
@@ -51,9 +55,11 @@ references:
 * [Imaginary Problems Are the Root of Bad Software][5]
 * [When to Build Millennia Sewers][6]
 * [We are wasting up to 20% of our time on computer problems, says study][7]
+* [Choose Boring Technology][8]
 
 [3]: https://grugbrain.dev/
 [4]: https://world.hey.com/dhh/even-amazon-can-t-make-sense-of-serverless-or-microservices-59625580
 [5]: https://cerebralab.com/Imaginary_Problems_Are_the_Root_of_Bad_Software
 [6]: https://taylor.town/millennium-sewer
 [7]: https://techxplore.com/news/2023-06-problems.html
+[8]: https://mcfunley.com/choose-boring-technology
