@@ -3,6 +3,14 @@ title: "First, It Must Work"
 date: 2023-05-11T23:00:26-04:00
 draft: false
 references:
+- title: "Second-guessing the modern web - macwright.com"
+  url: https://macwright.com/2020/05/10/spa-fatigue.html
+  date: 2023-07-04T01:51:17Z
+  file: macwright-com-vvkegs.txt
+- title: "In defense of the modern web - DEV Community"
+  url: https://dev.to/richharris/in-defense-of-the-modern-web-2nia
+  date: 2023-07-04T01:51:24Z
+  file: dev-to-ptnb0b.txt
 - title: "The Grug Brained Developer"
   url: https://grugbrain.dev/
   date: 2023-05-12T13:08:33Z
@@ -30,17 +38,22 @@ references:
 * So much stuff doesn't work -- bugs stop you from accomplishing your desired task
 * Over time, complexity creeps in, making changes gets harder
 * The focus on performance, serverless, microservices, etc. -- these increase complexity, reduce reliability
+* Everyone agrees that the current status quo sucks, but we disagree on the solution: go back to how things worked in the past, or continue down the path we're on with the hope that things will improve
+  * Reference ["Second-guessing the modern web"][1] and ["In defense of the modern web"][2]
+
+[1]: https://macwright.com/2020/05/10/spa-fatigue.html
+[2]: https://dev.to/richharris/in-defense-of-the-modern-web-2nia
 
 ### Links
 
-* [The Grug Brained Developer][1]
-* [Even Amazon can't make sense of serverless or microservices][2]
-* [Imaginary Problems Are the Root of Bad Software][3]
-* [When to Build Millennia Sewers][4]
-* [We are wasting up to 20% of our time on computer problems, says study][5]
+* [The Grug Brained Developer][3]
+* [Even Amazon can't make sense of serverless or microservices][4]
+* [Imaginary Problems Are the Root of Bad Software][5]
+* [When to Build Millennia Sewers][6]
+* [We are wasting up to 20% of our time on computer problems, says study][7]
 
-[1]: https://grugbrain.dev/
-[2]: https://world.hey.com/dhh/even-amazon-can-t-make-sense-of-serverless-or-microservices-59625580
-[3]: https://cerebralab.com/Imaginary_Problems_Are_the_Root_of_Bad_Software
-[4]: https://taylor.town/millennium-sewer
-[5]: https://techxplore.com/news/2023-06-problems.html
+[3]: https://grugbrain.dev/
+[4]: https://world.hey.com/dhh/even-amazon-can-t-make-sense-of-serverless-or-microservices-59625580
+[5]: https://cerebralab.com/Imaginary_Problems_Are_the_Root_of_Bad_Software
+[6]: https://taylor.town/millennium-sewer
+[7]: https://techxplore.com/news/2023-06-problems.html
