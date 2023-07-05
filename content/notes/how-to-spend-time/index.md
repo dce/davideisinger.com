@@ -7,14 +7,18 @@ references:
   url: https://www.annahavron.com/blog/what-do-you-want-to-make-real-in-the-world
   date: 2023-04-30T03:38:36Z
   file: www-annahavron-com-34fw9w.txt
-- title: "Spend Exactly None Of Your Time Killing Time"
-  url: https://deadspin.com/spend-exactly-none-of-your-time-killing-time-1831777904
-  date: 2023-04-30T03:40:23Z
-  file: deadspin-com-cjpmjw.txt
 - title: "Sunday Firesides: To-Dos, the Rent We Pay For Living | The Art of Manliness"
   url: https://www.artofmanliness.com/character/advice/sunday-firesides-to-dos-the-rent-we-pay-for-living/
   date: 2023-04-30T03:43:27Z
   file: www-artofmanliness-com-6lxmwc.txt
+- title: "How to Slow Down Time | Valet."
+  url: https://www.valetmag.com/the-handbook/living/how-to-slow-down-time.php
+  date: 2023-07-05T16:08:47Z
+  file: www-valetmag-com-b1tpcf.txt
+- title: "Spend Exactly None Of Your Time Killing Time"
+  url: https://deadspin.com/spend-exactly-none-of-your-time-killing-time-1831777904
+  date: 2023-04-30T03:40:23Z
+  file: deadspin-com-cjpmjw.txt
 ---
 
 Broadly, three categories of productive activities:
@@ -55,6 +59,9 @@ Experiences:
 
 * Routine
 * Novel
+  * ["How to Slow Down Time | Valet."][7]
+
+[7]: https://www.valetmag.com/the-handbook/living/how-to-slow-down-time.php
 
 Leisure:
 
@@ -62,9 +69,9 @@ Leisure:
 * I don't really have leisure activities besides reading fiction
 * I spend a lot of time mindlessly scrolling my phone
 * What do I love to do that is relaxing & that I don't feel a constant need to improve at?
-* [Spend Exactly None Of Your Time Killing Time][7]
+* [Spend Exactly None Of Your Time Killing Time][8]
 
-[7]: https://deadspin.com/spend-exactly-none-of-your-time-killing-time-1831777904
+[8]: https://deadspin.com/spend-exactly-none-of-your-time-killing-time-1831777904
 
 Sleep:
 
@@ -75,7 +82,7 @@ Sleep:
 >
 > You don’t even have to fall asleep. Just lying down and resting for ten to twenty minutes can be a great way to recharge.
 >
-> -- [_Make Time_][8] ([p. 232-233][9])
+> -- [_Make Time_][9] ([p. 232-233][10])
 
-[8]: https://bookshop.org/p/books/make-time-how-to-focus-on-what-matters-every-day-jake-knapp/12094196?ean=9780525572428
-[9]: make_time_232.pdf
+[9]: https://bookshop.org/p/books/make-time-how-to-focus-on-what-matters-every-day-jake-knapp/12094196?ean=9780525572428
+[10]: make_time_232.pdf
