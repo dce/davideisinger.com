@@ -9,6 +9,13 @@ end
 
 content = File.read(filename)
 
+refs = content.scan(/\[\d+\]:/)
+
+unless refs == refs.uniq
+  warn "Error: duplicate refs detected"
+  exit
+end
+
 links = content.scan(/\[\d+\]/).uniq
 
 links.zip(1..).each do |old_id, new_id|
