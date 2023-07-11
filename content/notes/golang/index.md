@@ -82,3 +82,10 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 [13]: https://crawshaw.io/blog/one-process-programming-notes
 [14]: https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2
 [15]: https://stephenn.com/2023/06/gopher-wrangling.-effective-error-handling-in-go/
+
+### Notes
+
+* Regular Expressions
+  * Compile with `regexp.MustCompile` (no need to check for error)
+  * Strings denoted by backticks don't escape; use these for regular expressions
+  * For case-insensitive matching, start the expression with `(?i)`
