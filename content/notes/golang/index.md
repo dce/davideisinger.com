@@ -19,6 +19,10 @@ references:
   url: https://stephenn.com/2023/06/gopher-wrangling.-effective-error-handling-in-go/
   date: 2023-06-20T16:25:12Z
   file: stephenn-com-kbiijs.txt
+- title: "Effective Go - The Go Programming Language"
+  url: https://go.dev/doc/effective_go
+  date: 2023-07-12T03:17:03Z
+  file: go-dev-vfin4x.txt
 ---
 
 I find [Go][1] really compelling, even though it's not super applicable to my job. When evaluating a new tool, I find I'm weirdly biased to things written in Go.
@@ -75,6 +79,7 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 * [One process programming notes (with Go and SQLite)][13]
 * [Go Project Layout][14]
 * [Gopher Wrangling. Effective error handling in Go][15]
+* [Effective Go][16]
 
 [10]: https://github.com/golang-standards/project-layout
 [11]: https://changelog.com/gotime/278
@@ -82,6 +87,7 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 [13]: https://crawshaw.io/blog/one-process-programming-notes
 [14]: https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2
 [15]: https://stephenn.com/2023/06/gopher-wrangling.-effective-error-handling-in-go/
+[16]: https://go.dev/doc/effective_go
 
 ### Notes
 
@@ -89,3 +95,19 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
   * Compile with `regexp.MustCompile` (no need to check for error)
   * Strings denoted by backticks don't escape; use these for regular expressions
   * For case-insensitive matching, start the expression with `(?i)`
+* [Unnamed parameters][17]
+
+> Unnamed parameters are perfectly valid. The [Parameter declaration](https://golang.org/ref/spec#ParameterDecl) from the spec:
+>
+> ```
+> ParameterDecl  = [ IdentifierList ] [ "..." ] Type .
+> ````
+>
+> As you can see, the `IdentifierList` (the identifier name or names) is in square brackets, which means it's _optional_. Only the `Type` is required.
+>
+> The reason for this is because the names are not really important for someone calling a method or a function. What matters is the types of the parameters and their order. This is detailed in this answer: [Getting method parameter names in Golang](https://stackoverflow.com/questions/31377433/getting-method-parameter-names-in-golang/31377793#31377793)
+
+* [Named result parameters][18]
+
+[17]: https://stackoverflow.com/a/40951013
+[18]: https://go.dev/doc/effective_go#named-results
