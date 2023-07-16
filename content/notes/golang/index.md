@@ -116,7 +116,17 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 
 > Usually, a struct is used to create a custom error type. By convention, custom error type names should end with `Error`. Also, it is best to set up the `Error() string` method with a pointer receiver, see this [Stackoverflow comment](https://stackoverflow.com/a/50333850) to learn about the reasoning. Note that this means you need to return a pointer to your custom error otherwise it will not count as `error` because the non-pointer value does not provide the `Error() string` method.
 
+* [Maps][20]
+
+> A Go map type looks like this: `map[KeyType]ValueType`
+
+> To initialize a map, use the built in `make` function: `m = make(map[string]int)`
+
+> This statement retrieves the value stored under the key `"route"` and assigns it to a new variable i: `i := m["route"]`. If the requested key doesn’t exist, we get the value type’s _zero value_. In this case the value type is `int`, so the zero value is `0`.
+
+> A two-value assignment tests for the existence of a key: `i, ok := m["route"]`
 
 [17]: https://stackoverflow.com/a/40951013
 [18]: https://go.dev/doc/effective_go#named-results
 [19]: https://exercism.org/tracks/go/concepts/errors
+[20]: https://go.dev/blog/maps
