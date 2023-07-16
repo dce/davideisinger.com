@@ -112,7 +112,11 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
   * Built-in functions for conversion (`float64`, `strconv.Atoi`)
   * `if v, ok := fnb.(FancyNumber); ok {` (`v` is a `FancyNumber` if `ok` is true)
   * `switch v := i.(type) {` (case per type, `v` is `i` cast to that type)
+* [Custom error types][19]
+
+> Usually, a struct is used to create a custom error type. By convention, custom error type names should end with `Error`. Also, it is best to set up the `Error() string` method with a pointer receiver, see this [Stackoverflow comment](https://stackoverflow.com/a/50333850) to learn about the reasoning. Note that this means you need to return a pointer to your custom error otherwise it will not count as `error` because the non-pointer value does not provide the `Error() string` method.
 
 
 [17]: https://stackoverflow.com/a/40951013
 [18]: https://go.dev/doc/effective_go#named-results
+[19]: https://exercism.org/tracks/go/concepts/errors
