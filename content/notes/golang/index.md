@@ -126,6 +126,13 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 
 > A two-value assignment tests for the existence of a key: `i, ok := m["route"]`
 
+* First-class functions
+  * Go supports first-class functions (functions as arguments and return values of other functions)
+  * Go has closures (so variables defined inside a function that returns a function get closed over)
+  * Go has anonymous functions (`func` w/o name)
+* Slices
+  * Use `append` to add to a slice; this creates a new slice, so you have to capture the return value (`s = append(s, 100)`)
+
 [17]: https://stackoverflow.com/a/40951013
 [18]: https://go.dev/doc/effective_go#named-results
 [19]: https://exercism.org/tracks/go/concepts/errors
