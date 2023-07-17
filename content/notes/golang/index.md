@@ -136,6 +136,9 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
   * `rand.Intn`: random integer between 0 and the specified int
   * `rand.Float64`: random float between 0.0. and 1.0
   * `rand.Shuffle`: randomize an array/slice; takes a length and a swap function
+* Stringers
+  * Define a `String() string` method for types so that `fmt` knows how to stringify them
+  * E.g. `fmt.Sprintf("%s", yourThing)` will call `yourThing`'s `String()` function
 
 [17]: https://stackoverflow.com/a/40951013
 [18]: https://go.dev/doc/effective_go#named-results
