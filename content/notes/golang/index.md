@@ -132,6 +132,10 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
   * Go has anonymous functions (`func` w/o name)
 * Slices
   * Use `append` to add to a slice; this creates a new slice, so you have to capture the return value (`s = append(s, 100)`)
+* `math/rand`
+  * `rand.Intn`: random integer between 0 and the specified int
+  * `rand.Float64`: random float between 0.0. and 1.0
+  * `rand.Shuffle`: randomize an array/slice; takes a length and a swap function
 
 [17]: https://stackoverflow.com/a/40951013
 [18]: https://go.dev/doc/effective_go#named-results
