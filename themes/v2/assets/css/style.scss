@@ -46,6 +46,16 @@ ul {
         text-indent: -2ch;
       }
     }
+
+    blockquote {
+      p:first-child {
+        text-indent: 0;
+      }
+
+      pre {
+        text-indent: 0;
+      }
+    }
   }
 }
 
@@ -53,7 +63,6 @@ ol {
   margin-left: 3ch;
   padding: 0;
 }
-
 
 blockquote {
   border-left: 1ch solid #ddd;
