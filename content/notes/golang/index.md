@@ -108,6 +108,9 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
   > The reason for this is because the names are not really important for someone calling a method or a function. What matters is the types of the parameters and their order. This is detailed in this answer: [Getting method parameter names in Golang](https://stackoverflow.com/questions/31377433/getting-method-parameter-names-in-golang/31377793#31377793)
 
 * [Named result parameters][18]
+
+  > The return or result "parameters" of a Go function can be given names and used as regular variables, just like the incoming parameters. When named, they are initialized to the zero values for their types when the function begins; if the function executes a return statement with no arguments, the current values of the result parameters are used as the returned values.
+
 * Type Conversion & Assertion
   * Built-in functions for conversion (`float64`, `strconv.Atoi`)
   * `if v, ok := fnb.(FancyNumber); ok {` (`v` is a `FancyNumber` if `ok` is true)
