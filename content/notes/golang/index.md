@@ -143,9 +143,18 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 * Stringers
   * Define a `String() string` method for types so that `fmt` knows how to stringify them
   * E.g. `fmt.Sprintf("%s", yourThing)` will call `yourThing`'s `String()` function
+* Structs
+  * [What Are Golang's Anonymous Structs?][22]
+
+  > An anonymous struct is just like a normal struct, but it is defined without a name and therefore cannot be referenced elsewhere in the code.
+  >
+  > Structs in Go are similar to structs in other languages like C. They have typed collections of fields and are used to group data to make it more manageable for us as programmers.
+  >
+  > To create an anonymous struct, just instantiate the instance immediately using a second pair of brackets after declaring the type.
 
 [17]: https://stackoverflow.com/a/40951013
 [18]: https://go.dev/doc/effective_go#named-results
 [19]: https://exercism.org/tracks/go/concepts/errors
 [20]: https://go.dev/blog/maps
 [21]: https://go.dev/ref/spec#RangeClause
+[22]: https://blog.boot.dev/golang/anonymous-structs-golang/
