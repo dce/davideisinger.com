@@ -155,9 +155,14 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
   >
   > To create an anonymous struct, just instantiate the instance immediately using a second pair of brackets after declaring the type.
 
+* [Time][23]
+  * `time.Duration` -- `time.Second * 1e9` is a duration of one billion seconds
+  * `1e9` is the same as `1.0*math.Pow(10, 9)`
+
 [17]: https://stackoverflow.com/a/40951013
 [18]: https://go.dev/doc/effective_go#named-results
 [19]: https://exercism.org/tracks/go/concepts/errors
 [20]: https://go.dev/blog/maps
 [21]: https://go.dev/ref/spec#RangeClause
 [22]: https://blog.boot.dev/golang/anonymous-structs-golang/
+[23]: https://pkg.go.dev/time
