@@ -97,15 +97,15 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
   * For case-insensitive matching, start the expression with `(?i)`
 * [Unnamed parameters][17]
 
-> Unnamed parameters are perfectly valid. The [Parameter declaration](https://golang.org/ref/spec#ParameterDecl) from the spec:
->
-> ```
-> ParameterDecl  = [ IdentifierList ] [ "..." ] Type .
-> ````
->
-> As you can see, the `IdentifierList` (the identifier name or names) is in square brackets, which means it's _optional_. Only the `Type` is required.
->
-> The reason for this is because the names are not really important for someone calling a method or a function. What matters is the types of the parameters and their order. This is detailed in this answer: [Getting method parameter names in Golang](https://stackoverflow.com/questions/31377433/getting-method-parameter-names-in-golang/31377793#31377793)
+  > Unnamed parameters are perfectly valid. The [Parameter declaration](https://golang.org/ref/spec#ParameterDecl) from the spec:
+  >
+  > ```
+  > ParameterDecl  = [ IdentifierList ] [ "..." ] Type .
+  > ````
+  >
+  > As you can see, the `IdentifierList` (the identifier name or names) is in square brackets, which means it's _optional_. Only the `Type` is required.
+  >
+  > The reason for this is because the names are not really important for someone calling a method or a function. What matters is the types of the parameters and their order. This is detailed in this answer: [Getting method parameter names in Golang](https://stackoverflow.com/questions/31377433/getting-method-parameter-names-in-golang/31377793#31377793)
 
 * [Named result parameters][18]
 * Type Conversion & Assertion
@@ -114,17 +114,21 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
   * `switch v := i.(type) {` (case per type, `v` is `i` cast to that type)
 * [Custom error types][19]
 
-> Usually, a struct is used to create a custom error type. By convention, custom error type names should end with `Error`. Also, it is best to set up the `Error() string` method with a pointer receiver, see this [Stackoverflow comment](https://stackoverflow.com/a/50333850) to learn about the reasoning. Note that this means you need to return a pointer to your custom error otherwise it will not count as `error` because the non-pointer value does not provide the `Error() string` method.
+  > Usually, a struct is used to create a custom error type. By convention, custom error type names should end with `Error`. Also, it is best to set up the `Error() string` method with a pointer receiver, see this [Stackoverflow comment](https://stackoverflow.com/a/50333850) to learn about the reasoning. Note that this means you need to return a pointer to your custom error otherwise it will not count as `error` because the non-pointer value does not provide the `Error() string` method.
 
 * [Maps][20]
 
-> A Go map type looks like this: `map[KeyType]ValueType`
+  > A Go map type looks like this: `map[KeyType]ValueType`
 
-> To initialize a map, use the built in `make` function: `m = make(map[string]int)`
+  > To initialize a map, use the built in `make` function: `m = make(map[string]int)`
 
-> This statement retrieves the value stored under the key `"route"` and assigns it to a new variable i: `i := m["route"]`. If the requested key doesn’t exist, we get the value type’s _zero value_. In this case the value type is `int`, so the zero value is `0`.
+  > This statement retrieves the value stored under the key `"route"` and assigns it to a new variable i: `i := m["route"]`. If the requested key doesn’t exist, we get the value type’s _zero value_. In this case the value type is `int`, so the zero value is `0`.
 
-> A two-value assignment tests for the existence of a key: `i, ok := m["route"]`
+  > A two-value assignment tests for the existence of a key: `i, ok := m["route"]`
+
+  * [Insertion order has no effect on the order keys/values are retrieved in a `range` query][21]
+
+    > The iteration order over maps is not specified and is not guaranteed to be the same from one iteration to the next.
 
 * First-class functions
   * Go supports first-class functions (functions as arguments and return values of other functions)
@@ -144,3 +148,4 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 [18]: https://go.dev/doc/effective_go#named-results
 [19]: https://exercism.org/tracks/go/concepts/errors
 [20]: https://go.dev/blog/maps
+[21]: https://go.dev/ref/spec#RangeClause
