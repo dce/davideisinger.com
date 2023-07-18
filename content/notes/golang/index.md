@@ -158,6 +158,10 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 * [Time][23]
   * `time.Duration` -- `time.Second * 1e9` is a duration of one billion seconds
   * `1e9` is the same as `1.0*math.Pow(10, 9)`
+* Runes
+  * `unicode.IsLetter` -- test if rune is a letter
+  * `strings.ContainsRune` -- test if string contains letter (`strings.ContainsRune(s[i+1:], c)`)
+* `log.Println` -- print out anything (like a data structure)
 
 [17]: https://stackoverflow.com/a/40951013
 [18]: https://go.dev/doc/effective_go#named-results
