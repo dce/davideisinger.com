@@ -171,6 +171,10 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 
   > In Go generics, the ~ tilde token is used in the form ~T to denote the set of types whose underlying type is T.
 
+* [Type Aliases][25]
+
+  > An alias declaration doesn’t create a new distinct type different from the type it’s created from. It just introduces an alias name T1, an alternate spelling, for the type denoted by T2.
+
 [17]: https://stackoverflow.com/a/40951013
 [18]: https://go.dev/doc/effective_go#named-results
 [19]: https://exercism.org/tracks/go/concepts/errors
@@ -179,3 +183,4 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 [22]: https://blog.boot.dev/golang/anonymous-structs-golang/
 [23]: https://pkg.go.dev/time
 [24]: https://stackoverflow.com/a/70890514
+[25]: https://yourbasic.org/golang/type-alias/
