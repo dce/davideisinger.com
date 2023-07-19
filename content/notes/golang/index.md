@@ -162,6 +162,14 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
   * `unicode.IsLetter` -- test if rune is a letter
   * `strings.ContainsRune` -- test if string contains letter (`strings.ContainsRune(s[i+1:], c)`)
 * `log.Println` -- print out anything (like a data structure)
+* `strings.Map` -- map over a string
+  * `return strings.Map(func(r rune) rune { return mapping[r] }, dna)`
+* Generics
+  * Use `[]` to define types
+  * `func keep[T int | []int | string](in []T, filter func(T) bool) (out []T) {`
+  * [Use `~` to allow "inheriting" (?) types][24]
+
+  > In Go generics, the ~ tilde token is used in the form ~T to denote the set of types whose underlying type is T.
 
 [17]: https://stackoverflow.com/a/40951013
 [18]: https://go.dev/doc/effective_go#named-results
@@ -170,3 +178,4 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 [21]: https://go.dev/ref/spec#RangeClause
 [22]: https://blog.boot.dev/golang/anonymous-structs-golang/
 [23]: https://pkg.go.dev/time
+[24]: https://stackoverflow.com/a/70890514
