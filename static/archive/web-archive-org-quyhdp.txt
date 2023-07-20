@@ -1,0 +1,415 @@
+   #[1]by @robfitz » Feed [2]by @robfitz » Comments Feed [3]by @robfitz »
+   The coffeeshop fallacy Comments Feed [4]Getting and giving good startup
+   advice [5]Let’s admit that customer development is awkward
+
+   IFRAME:
+   [6]https://archive.org/includes/donate.php?as_page=1&platform=wb&refere
+   r=https%3A//web.archive.org/web/20160304085903/http%3A//thestartuptoolk
+   it.com/blog/2011/10/the_coffeeshop_fallacy/
+
+   [7]Wayback Machine
+   http://thestartuptoo Go
+   [8]232 captures
+   17 Nov 2011 - 12 Nov 2020
+   [9]Feb               MAR  [10]May
+   [11]Previous capture 04   [12]Next capture
+   [13]2015             2016 [14]2017
+   success
+   fail
+   [15]About this capture
+   COLLECTED BY
+   Organization: [16]Internet Archive
+   The Internet Archive discovers and captures web pages through many
+   different web crawls. At any given time several distinct crawls are
+   running, some for months, and some every day or longer. View the web
+   archive through the [17]Wayback Machine.
+   Collection: [18]Hackernews crawl number 0
+   Hacker News Crawl of their links.
+   TIMESTAMPS
+   loading
+
+   The Wayback Machine -
+   https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com
+   /blog/2011/10/the_coffeeshop_fallacy/
+
+   [19]MENU
+
+     * [20]Latest posts
+     * [21]New? Start here!
+     * [22]About Robfitz
+     * [23]Book
+     * [24]Get new posts by RSS or email
+
+[25]by @robfitz
+
+   [26]Mop
+
+   by [27]robfitz • October 20, 2011 • [28]Best of, [29]Founders •
+   [30]Comments (5) • 468
+
+[31]The coffeeshop fallacy
+
+   Lots of people think they want to start a coffeeshop. They likely
+   don’t. That’s like buying a minimum wage job for two hundred grand.
+   What they want is to be a customer and sit in a cafe, drink coffee, be
+   nice to people, and possibly curate an art gallery.
+
+   We’re good at recognising when we receive pleasure from consuming a
+   certain good or service. But then we extrapolate incorrectly to the
+   conclusion that owning said business will deliver even more pleasure.
+
+   Max Levchin (paypal, slide) said something to the effect of:
+
+     You you can’t be in love with a particular idea or business. You
+     have to be in love with the idea of running a business.
+
+   It’s one of those quotes that has haunted me, in no small part because
+   Max has been so successful in such a wide range of pursuits and because
+   I both understand his reasoning and [somewhat] disagree with his
+   conclusion. I still think that matching your business model to your
+   values is a competitive advantage and that [32]doing otherwise is, for
+   most people, a shortcut to disasterville.
+
+   Here’s a working definition of the coffeeshop fallacy:
+
+     The coffeeshop fallacy is a mismatch between the work one imagines
+     to be involved in a pursuit and the actual day-to-day labour.
+
+     It is most common in industries with a strong survival bias which
+     create a fun or desirable product.
+
+It preys on actors, artists, founders, and more
+
+   For example, the founders of a game company are more likely to fall
+   victim to the coffeeshop fallacy than the founders of a new CRM. The
+   former are liable to believe that since what they are building is fun,
+   the construction process will share that virtue.
+
+   Beautiful young people covet the observed lifestyle of successful
+   actors or models without recognising that their own career path will
+   mostly involve schlepping coffee and talking to jerks. The founders of
+   a film studio will spend most of their time managing a pipeline. The
+   founder of a cafe becomes a mopper and accountant.
+
+A stoic solution
+
+   I think I can see where Max is coming from. I would unpack through his
+   train of thought like this:
+
+     Building a fun product still involves lots of painful and boring
+     work.
+
+     Enjoying the product is the luxury of the customer, not the
+     producer.
+
+     If I’m not going to enjoy building it either way, then choosing what
+     I build based on what I would enjoy consuming is a fool’s errand.
+
+     Therefore, I can chase the very best opportunity, whether it be
+     fraud detection or glitter widgets, since in either case I’m still
+     spending my time running a company.
+
+   His framing basically solves the coffeeshop fallacy. Instead of saying
+   “I want to start a cafe” you say “I want to spend my days mopping while
+   risking $200k on a low margin retail/service business with a 10%
+   success rate.” And then you go: “Hmmmmmm…”
+
+Constraints and wiggle room
+
+   However, not everyone is quite so mercenary as Max. I don’t know him,
+   but based on what I’ve read and watched, I get the impression that he
+   follows the market, full stop. If he saw a big opening he could
+   exploit, he’d be there regardless of whether it was drilling for oil or
+   starting a babysitting empire.
+
+   Most founders have some additional constraints on the type of business
+   they want to run and it’s important to recognise that. Not because
+   you’re required to [33]follow your passions, but rather because it’s
+   helpful to avoid your workday nightmares.
+
+   Some founders care about the market or the customer or the value
+   proposition or the impact or the scale.
+
+   Caring about the product seems to be the most dangerous. It’s how the
+   coffeeshop fallacy pops up and it’s how people end up spending years
+   building stuff nobody wants to buy.
+
+   Caring about a certain customer group still gives you a lot of wiggle
+   room. Caring only about the market (like Max) provides infinite wiggle
+   room, but I don’t think many people can honestly claim that value set.
+
+I’ve made this mistake
+
+   The first time, we ended up converting our creativity tools for kids
+   into a straight-up brand advertising play. Although building the former
+   was no more fun than building the latter (it’s code and metrics either
+   way), I valued enabling creativity for kids in a way that I did not
+   care about reinventing advertising. Advertising was the better market,
+   undoubtedly, but our team was less able and willing to deliver
+   something remarkable.
+
+   The situation arose again at Nvana when we were building tools to teach
+   entrepreneurship. We couldn’t scale the business by focusing only on
+   universities, and we had some decent leads in re-applying the product
+   to corporate use cases. Instead, we shut it down.
+
+   [Image] from [34]dielis
+
+Related Posts
+
+   Previous post:
+   [35]Getting and giving good startup advice Next Post:
+   [36]Let’s admit that customer development is awkward
+   about the author: [37]robfitz
+   I'm a tech entrepreneur, author, and partner at [38]FounderCentric,
+   where we help accelerators and universities design and deliver better
+   startup education programs. I've successfully bankrupted 3 companies,
+   am a YCombinator alum, and have built products used globally by brands
+   like MTV & Sony. I've raised funding in the US and UK and recently
+   crowd funded a [39]card game. I wrote [40]The Mom Test book about the
+   practicalities of early stage customer development and sales. It's full
+   of jokes. I live in Barcelona mostly.
+
+5 Responses to The coffeeshop fallacy
+
+    1. [41]Cafes: Why do most café startups fail? - Quora says:
+       [42]October 29, 2011 at 11:07 pm
+       [...] [...]
+    2. [43]Logical Fallacy of the Day: The Coffee Shop Fallacy | The
+       Thinker says:
+       [44]November 3, 2011 at 2:03 pm
+       [...] Rob Fitzpatrick at The Startup Toolkit blog: Lots of people
+       think they want to start a coffeeshop. They likely don’t. That’s
+       like [...]
+    3. [45]咖啡厅错觉（Coffeeshop Fallacy）：太爱它就一定要拥有它？ | 沉思小屋 says:
+       [46]November 28, 2011 at 5:35 am
+       [...] 最近读到一篇文章，说到一个有趣的人性现象，你是否曾经听过身边的朋友，或者自己，曾经有过一个念头—— [...]
+    4. [47]马克汀市场营销学一日一讲 » Blog Archive » 为什么很多人都想开咖啡店、书吧之类？好开么？赚钱么？ says:
+       [48]March 17, 2012 at 11:30 am
+       [...] coffeeshop fallacy》：
+       地址：http://thestartuptoolkit.com/blog/2011/10/the_coffeeshop_fallacy
+       /标签：市场营销准备：理解市场与消费者, 邪派NLP攻心营销, 零售 [...]
+    5. [49]How to date a supermodel (or get dealflow or find cofounders)
+       says:
+       [50]June 7, 2013 at 4:55 pm
+       [...] I’ve received a lot of value from transforming what appears
+       to be a herculean or even sisyphean[3] task (cold calling &
+       selling, going to bars to chat up strangers) into an easy pleasure
+       (playing poker with interesting people, working in a cafe). [...]
+
+     * [51]Mom Test Book Cover - A5
+
+[52]Everyone is lying to you (the book)
+     * [53]Habit YC Pitch
+
+[54]4 dumb and 1 good way I’ve structured my work/life balance
+     * [55]Screen Shot 2013-12-01 at 14.07.00
+
+[56]How to do (and what to expect from) early stage customer development &
+sales
+     *
+
+[57]How to make failure sustainable (and career entrepreneurship possible)
+     * [58]This guy wants his windows fixed
+
+[59]Abstraction makes us stupid at business
+     * [60]Remember when we used to learn stuff like that from the nature
+       channel? On the teevee?
+
+[61]Blogging for your business is worth it even if you get no traffic
+     * [62]The problem is the problem. Work it.
+
+[63]The problem isn’t you. The problem is the problem.
+     * [64]Aeir Talk Logo
+
+[65]A man, a mop, a year, and an app – Joseph Hill on Aeir Talk
+     * [66]Brainstorm wall
+
+[67]How I come up with new startup ideas (in 4 steps)
+     * [68]Cool kid
+
+[69]Negotiate like you don’t need it (and other worthless advice)
+     * [70]King of War
+
+[71]Choose wars based on strengths & battles based on weaknesses
+     * [72]Making decisions
+
+[73]Making decisions
+     * [74]Money shrub
+
+[75]You’re a startup. It’s okay to ask about money.
+     * [76]Dad
+
+[77]My dad taught me cashflow with a soda machine
+     * [78]Anthony_Trollope_portrait
+
+[79]Trollope on shipping
+     * [80]thank you generous
+
+[81]It’s the CEO’s job to email the first 1000 signups
+     * [82]Mop
+
+[83]The coffeeshop fallacy
+     *
+
+[84]Getting and giving good startup advice
+     * [85]They're acting all sweet but really just want your peanuts.
+
+[86]How to date a supermodel (or get dealflow or find cofounders)
+     * [87]mom pumpkins
+
+[88]The mom test for good customer feedback
+
+Latest posts
+
+     * [89]The 4 bits of social media that are mostly useful
+     * [90]The ferry driver, the founder, and the freelancer
+     * [91]Wealth narratives
+     * [92]A short guide (and resources) for introverted founders
+     * [93]Improv, skiing, writing, and starting before you’re ready
+     * [94]The gambler’s stack
+     * [95]Two years of remote working – hiring, scaling, culture, and the
+       lifestyle trade-off
+     * [96]How founders get paid: non-strategic acquisitions, dividends,
+       and private islands
+     * [97]I prefer Effectuation to Lean Startup (sorta)
+     * [98]Tool and resource list for new founders
+
+Sign up for my dang rss
+
+   [mom-pumpkins.jpg]
+   [99][twitter100.png]
+   [100]Follow @robfitz
+
+   Or subscribe by email:
+   ____________________ Subscribe
+
+Stop screwing up custdev; buy my book
+
+   [101][momtextbox-cropped.jpg] "Wow. This book created a paradigm shift
+   in my understanding of how to ask good questions."
+   "Could not put it down"
+   "Brilliant read, full of useful tips and insight. Go get yourself a
+   copy!"
+
+Archive
+
+   [Select Month________]
+
+References
+
+   Visible links:
+   1. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/feed/
+   2. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/comments/feed/
+   3. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/the_coffeeshop_fallacy/feed/
+   4. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/getting-and-giving-good-startup-advice/
+   5. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/lets-admit-that-customer-development-is-awkward/
+   6. https://archive.org/includes/donate.php?as_page=1&platform=wb&referer=https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/the_coffeeshop_fallacy/
+   7. file:///web/
+   8. file:///web/20160304085903*/http://thestartuptoolkit.com/blog/2011/10/the_coffeeshop_fallacy/
+   9. https://web.archive.org/web/20160201111147/http://thestartuptoolkit.com/blog/2011/10/the_coffeeshop_fallacy/
+  10. https://web.archive.org/web/20160501183633/http://thestartuptoolkit.com:80/blog/2011/10/the_coffeeshop_fallacy/
+  11. https://web.archive.org/web/20160302093232/http://thestartuptoolkit.com:80/blog/2011/10/the_coffeeshop_fallacy/
+  12. https://web.archive.org/web/20160306035942/http://thestartuptoolkit.com/blog/2011/10/the_coffeeshop_fallacy
+  13. https://web.archive.org/web/20150212071007/http://thestartuptoolkit.com:80/blog/2011/10/the_coffeeshop_fallacy/
+  14. https://web.archive.org/web/20170322033539/http://thestartuptoolkit.com:80/blog/2011/10/the_coffeeshop_fallacy/
+  15. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L5444-824TMP.html#expand
+  16. https://archive.org/details/webwidecrawl
+  17. http://archive.org/web/web.php
+  18. https://archive.org/details/hackernews00000
+  19. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L5444-824TMP.html
+  20. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/
+  21. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/series-and-topics/
+  22. https://web.archive.org/web/20160304085903/http://robfitz.com/
+  23. https://web.archive.org/web/20160304085903/http://momtestbook.com/?ref=stk
+  24. https://web.archive.org/web/20160304085903/http://feeds.feedburner.com/TheStartupToolkit
+  25. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/
+  26. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/the_coffeeshop_fallacy/
+  27. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/author/admin/
+  28. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/category/featured/
+  29. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/category/founders/
+  30. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/the_coffeeshop_fallacy/#comments
+  31. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/the_coffeeshop_fallacy/
+  32. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/Founder-model_misfit/
+  33. https://web.archive.org/web/20160304085903/http://calnewport.com/blog/2010/01/23/beyond-passion-the-science-of-loving-what-you-do/
+  34. https://web.archive.org/web/20160304085903/http://www.flickr.com/photos/dielis/
+  35. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/getting-and-giving-good-startup-advice/
+  36. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/lets-admit-that-customer-development-is-awkward/
+  37. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/author/admin/
+  38. https://web.archive.org/web/20160304085903/http://foundercentric.com/?ref=stkbio
+  39. https://web.archive.org/web/20160304085903/http://www.kickstarter.com/projects/laurob/a-duel-betwixt-us
+  40. https://web.archive.org/web/20160304085903/http://momtestbook.com/
+  41. https://web.archive.org/web/20160304085903/http://www.quora.com/Cafes/Why-do-most-café-startups-fail#ans787573
+  42. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/the_coffeeshop_fallacy/#comment-175
+  43. https://web.archive.org/web/20160304085903/http://thethinkerblog.com/?p=11735
+  44. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/the_coffeeshop_fallacy/#comment-362
+  45. https://web.archive.org/web/20160304085903/http://leedd.com/2011/11/coffeeshop-fallacy/
+  46. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/the_coffeeshop_fallacy/#comment-679
+  47. https://web.archive.org/web/20160304085903/http://www.maketin.com/shichangyingxiaozhunbei/weishenmehenduorendouxiangkaikafeidianshubazhileihaokaimezhuanqianme/
+  48. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/the_coffeeshop_fallacy/#comment-1357
+  49. https://web.archive.org/web/20160304085903/http://blog.escapethecity.org/categories/how-to-date-a-supermodel-or-get-dealflow-or-find-cofounders/
+  50. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/the_coffeeshop_fallacy/#comment-2133
+  51. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2013/08/everyone-is-lying-to-you-the-book/
+  52. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2013/08/everyone-is-lying-to-you-the-book/
+  53. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2013/07/4-dumb-and-1-good-way-ive-structured-my-worklife-balance/
+  54. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2013/07/4-dumb-and-1-good-way-ive-structured-my-worklife-balance/
+  55. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2012/05/how-to-do-and-what-to-expect-from-early-stage-customer-development-sales/
+  56. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2012/05/how-to-do-and-what-to-expect-from-early-stage-customer-development-sales/
+  57. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/12/how-to-make-failure-sustainable-and-career-entrepreneurship-possible/
+  58. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/12/abstraction-makes-us-stupid-at-business/
+  59. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/12/abstraction-makes-us-stupid-at-business/
+  60. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/12/blogging-for-your-business-is-worth-it-even-if-you-get-no-traffic/
+  61. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/12/blogging-for-your-business-is-worth-it-even-if-you-get-no-traffic/
+  62. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/12/the-problem-isnt-you-the-problem-is-the-problem/
+  63. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/12/the-problem-isnt-you-the-problem-is-the-problem/
+  64. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/12/a-man-a-mop-a-year-and-an-app-joseph-hill-on-aeir-talk/
+  65. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/12/a-man-a-mop-a-year-and-an-app-joseph-hill-on-aeir-talk/
+  66. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/12/how-i-come-up-with-new-startup-ideas-in-4-steps/
+  67. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/12/how-i-come-up-with-new-startup-ideas-in-4-steps/
+  68. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/11/negotiate-like-you-dont-need-it-and-other-worthless-advice/
+  69. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/11/negotiate-like-you-dont-need-it-and-other-worthless-advice/
+  70. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/11/choose-wars-based-on-strengths-battles-based-on-weaknesses/
+  71. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/11/choose-wars-based-on-strengths-battles-based-on-weaknesses/
+  72. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/11/making-decisions/
+  73. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/11/making-decisions/
+  74. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/11/youre-a-startup-its-okay-to-ask-about-money/
+  75. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/11/youre-a-startup-its-okay-to-ask-about-money/
+  76. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/my-dad-taught-me-cashflow-with-a-soda-machine/
+  77. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/my-dad-taught-me-cashflow-with-a-soda-machine/
+  78. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/trollope-on-shipping/
+  79. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/trollope-on-shipping/
+  80. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/its-the-ceos-job-to-email-the-first-1000-signups/
+  81. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/its-the-ceos-job-to-email-the-first-1000-signups/
+  82. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/the_coffeeshop_fallacy/
+  83. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/the_coffeeshop_fallacy/
+  84. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/getting-and-giving-good-startup-advice/
+  85. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/how-to-date-a-supermodel-or-get-dealflow-or-find-cofounders/
+  86. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/how-to-date-a-supermodel-or-get-dealflow-or-find-cofounders/
+  87. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/the-mom-test-for-good-customer-feedback/
+  88. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2011/10/the-mom-test-for-good-customer-feedback/
+  89. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2015/05/the-4-bits-of-social-media-that-are-mostly-useful/
+  90. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2015/02/the-ferry-driver/
+  91. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2015/02/wealth-narratives/
+  92. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2015/02/a-short-guide-and-resources-for-introverted-founders/
+  93. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2015/01/improv-skiing-writing-and-starting-before-youre-ready/
+  94. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2015/01/the-gamblers-stack/
+  95. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2014/12/two-years-of-remote-working-hiring-scaling-culture-and-the-lifestyle-trade-off/
+  96. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2014/09/how-founders-get-paid-non-strategic-acquisitions-dividends-and-private-islands/
+  97. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2014/09/i-prefer-effectuation-to-lean-startup-sorta/
+  98. https://web.archive.org/web/20160304085903/http://thestartuptoolkit.com/blog/2014/09/tool-and-resources-list-for-new-founders/
+  99. https://web.archive.org/web/20160304085903/http://twitter.com/robfitz/
+ 100. https://web.archive.org/web/20160304085903/https://twitter.com/robfitz
+ 101. https://web.archive.org/web/20160304085903/http://momtestbook.com/?ref=stk
+
+   Hidden links:
+ 103. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L5444-824TMP.html
+ 104. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L5444-824TMP.html
+ 105. https://archive.org/account/login.php
+ 106. http://faq.web.archive.org/
+ 107. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L5444-824TMP.html#close
+ 108. file://localhost/web/20160304085903/http://web.archive.org/screenshot/http://thestartuptoolkit.com/blog/2011/10/the_coffeeshop_fallacy/
+ 109. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L5444-824TMP.html
+ 110. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L5444-824TMP.html
+ 111. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L5444-824TMP.html
+ 112. https://web.archive.org/web/20160304085903/http://feeds.feedburner.com/TheStartupToolkit
+ 113. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L5444-824TMP.html
