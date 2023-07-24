@@ -59,6 +59,12 @@ _(Notes for a Viget article I'm putting together)_
     * [rspec-retry][6]
   * In general, though, flaky tests suck and generally indicate lack of quality with either your code or your tools
     * So write better code or pick better tools
+* Tests are code, but they're not application code
+  * And the way you approach them should be slightly different
+  * Some (or even a lot of) repetition is OK; don't be too quick to refactor
+  * Ideally someone can get a sense of what a test is doing by looking at a single screen of code
+  * As opposed to jumping around between early setup, shared examples, complex factories w/ side-effects, etc.
+  * Think of it as half programming, half writing
 
 [1]: https://en.wikipedia.org/wiki/Test-driven_development
 [2]: https://www.viget.com/articles/maintenance-matters-code-coverage/
