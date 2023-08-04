@@ -1,7 +1,7 @@
 ---
 title: "Dispatch #6 (August 2023)"
 date: 2023-08-03T16:19:00-04:00
-draft: false
+draft: true
 tags:
 - dispatch
 ---
