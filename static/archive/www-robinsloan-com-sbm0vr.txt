@@ -1,0 +1,347 @@
+   #[1]next [2]alternate
+
+   [3]Home [4]About [5]New: Concept album
+
+   From: Robin Sloan
+   To: the lab
+   Sent: March 2023
+
+                                  Phase change
+
+   An extremely close-up photograph of a snowflake, looking almost
+   architectural. [6]Snowflake, Wilson Bentley, ca. 1910
+
+   Please excuse the off-schedule transmission. The idea of a steady,
+   predictable publishing cadence is always so appealing … and then events
+   overtake me!
+
+   I think this lab newsletter will shift into a “whenever appropriate”
+   schedule for the rest of this year. In this news flash, you’ll find two
+   items: a time-sensitive link, and some thoughts on all that’s happening
+   with AI.
+
+   This is an archived edition of Robin’s lab newsletter. You can sign up
+   to receive future editions using the form at the bottom of the page.
+
+   A group of internet thinkers has proposed a [7]Summer of Protocols:
+
+     an 18-week program that will run from May 1 to Aug 31, 2023, and
+     aims to catalyze broad-based and wide-ranging exploration of the
+     rapidly evolving world of protocols.
+
+   [8]Applications are due in just a couple weeks, which is why I wanted
+   to circulate the link immediately. I don’t know a ton about the program
+   or its organizers, but I like the spirit captured on the website, and
+   I feel like it might be a generative opportunity for someone(s)
+   reading this.
+
+   Even for those of us who aren’t going to participate, the introductory
+   paper makes for a bracing, inspiring read: [9]The Unreasonable
+   Sufficiency of Protocols.
+
+   Now, on to the AI thoughts, which, as you’ll see, loop around to
+   connect to protocols again:
+
+[10]Finding a question
+
+   Earlier this week, in [11]my main newsletter, I praised a new project
+   from Matt Webb. Here, I want to come at it from a different angle.
+
+   Briefly: Matt has built the [12]Braggoscope, a fun and useful
+   application for exploring the archives of the beloved BBC radio show In
+   Our Time, hosted by the inimitable Melvyn Bragg.
+
+   In Our Time only provides HTML pages for each episode — there’s no
+   structured data, no sense of “episode X is connected to episode Y
+   because of shared feature Z”.
+
+   As Matt explains [13]in his write-up, he fed the plain-language content
+   of each episode page into the GPT-3 API, cleverly prompting it to
+   extract basic metadata, along with a few subtler properties — including
+   a Dewey Decimal number!?
+
+   (Explaining how and why a person might prompt a language model is
+   beyond the scope of this newsletter; you can [14]read up about it
+   here.)
+
+   Here’s [15]a bit of Matt’s prompt:
+Extract the description and a list of guests from the supplied episode notes fro
+m a podcast.
+
+Also provide a Dewey Decimal Classification code and label for the description
+
+Return valid JSON conforming to the following Typescript type definition:
+
+{
+  "description": string,
+  "guests": {"name": string, "affiliation": string | null}[]
+  "dewey_decimal": {"code": string, "label": string},
+}
+
+Episode synopsis (Markdown):
+
+{notes}
+
+Valid JSON:
+
+   Important to say: it doesn’t work perfectly. Matt reports that GPT-3
+   doesn’t always return valid JSON, and if you browse the Braggoscope,
+   you’ll find plenty of questionable filing choices.
+
+   And yet! What a technique. (Matt credits Noah Brier for [16]the
+   insight.)
+
+   It fits into a pattern I’ve noticed: while the buzzy application of the
+   GPT-alikes is chat, the real workhorse might be text transformation.
+
+   As Matt writes:
+
+     Sure Google is all-in on AI in products, announcing chatbots to
+     compete with ChatGPT, and synthesised text in the search engine.
+     BUT.
+
+     Using GPT-3 as a function call.
+
+     Using GPT-3 as a universal coupling.
+
+     It brings a lot within reach.
+
+     I think the magnitude of this shift … I would say it’s on the order
+     of the web from the mid 90s? There was a radical simplification and
+     democratisation of software (architecture, development, deployment,
+     use) that took decades to really unfold.
+
+   For me, 2022 and 2023 have presented two thick strands of inquiry: the
+   web and AI, AI and the web. This is evidenced by the structure of these
+   lab newsletters, which have tended towards birfucation.
+
+   Matt’s thinking is interesting to me because it brings the
+   strands together.
+
+   One of the pleasures of HTTP (the original version) is that it’s almost
+   plain language, though a very simple kind. You can execute an HTTP
+   request “by hand”: telnet www.google.com 80 followed by GET /.
+
+   Language models as universal couplers begin to suggest protocols that
+   really are plain language. What if the protocol of the GPT-alikes is
+   just a bare TCP socket carrying free-form requests and instructions?
+   What if the RSS feed of the future is simply my language model replying
+   to yours when it asks, “What’s up with Robin lately?”
+
+   I like this because I hate it; because it’s weird, and makes me
+   feel uncomfortable.
+     __________________________________________________________________
+
+   I think it’s really challenging to find the appropriate stance towards
+   this stuff.
+
+   On one hand, I find critical deflation, of the kind you’ll hear from
+   Ted Chiang, Simon Willison, and Claire Leibowicz in [17]this recent
+   episode of KQED Forum, appropriate and useful. The hype is so powerful
+   that any corrective is welcome.
+
+   However! On the critical side, the evaluation of what’s before us isn’t
+   sufficient; not even close. If we demand humility from AI engineers,
+   then we ought to match it with imagination.
+
+   An important fact about these language models — one that sets them
+   apart from, say, the personal computer, or the iPhone — is that their
+   capabilities have been surprising, often confounding, even to
+   their creators.
+
+   AI at this moment feels like a mash-up of programming and biology. The
+   programming part is obvious; the biology part becomes apparent when you
+   see [18]AI engineers probing their own creations the way you might
+   probe a mouse in a lab.
+
+   The simple fact is: even at the highest levels of theory and practice,
+   no one knows how these language models are doing what they’re doing.
+
+   Over the past few years, in the evolution from GPT-2-alikes to
+   GPT-3-alikes and beyond, it’s become clear that the “returns to
+   scale”—both in terms of (1) a model’s size and (2) the scope of its
+   training data — are exponential and nonlinear. Simply adding more works
+   better, and works weirder, than it should.
+
+   The nonlinearity is, to me, the most interesting part. As these models
+   have grown, they have undergone widely observed “phase changes” in
+   capability, just as sudden and surprising as water frozen or
+   cream whipped.
+
+   At the moment, my deepest engagement with a language model is in a
+   channel on a Discord server, where our gallant host has set up a
+   ChatGPT-powered bot and laced a simple personality into its prompt. The
+   sociability has been a revelation — multiplayer ChatGPT is much, MUCH
+   more fun than single player — and, of course, the conversation tends
+   towards goading the bot, testing its boundaries, luring it
+   into absurdities.
+
+   The bot writes poems, sure, and song lyrics, and movie scenes.
+
+   The bot also produces ASCII art, and SVG code, and [19]PICO-8 programs,
+   though they don’t always run.
+
+   I find myself deeply ambivalent, in the original sense of: thinking
+   many things at once. I’m very aware of the bot’s limitations, but/and
+   I find myself stunned by its fluency, its range.
+
+   Listen: you can be a skeptic. In some ways, I am! But these phase
+   changes have happened, and that probably means they will keep
+   happening, and no one knows (the AI engineers least of all) what might
+   suddenly become possible.
+
+   As ever, [20]Jack Clark is my guide. He’s a journalist turned AI
+   practioner, involved in policy and planning at the highest levels,
+   first at OpenAI, now at Anthropic. And if he’s no longer a
+   disinterested observer, he remains deeply grounded and moral, which
+   makes me trust him when he says, with confidence: this is the biggest
+   thing going, and we had all better brace for weird times ahead.
+     __________________________________________________________________
+
+   What does that mean, to brace for it?
+
+   I’ve found it helpful, these past few years, to frame my anxieties and
+   dissatisfactions as questions. For example, fed up with the state of
+   social media, [21]I asked: what do I want from the internet, anyway?
+
+   It turns out I had an answer to that question.
+
+   Where the GPT-alikes are concerned, a question that’s emerging for
+   me is:
+
+   What could I do with a universal function — a tool for turning just
+   about any X into just about any Y with plain language instructions?
+
+   I don’t pose that question with any sense of wide-eyed expectation; a
+   reasonable answer might be, eh, nothing much. Not everything in the
+   world depends on the transformation of symbols. But I think that IS the
+   question, and I think it takes some legitimate work, some strenuous
+   imagination, to push yourself to believe it really will be “just about
+   any X” into “just about any Y”.
+
+   I help operate [22]a small olive oil company, and I have actually spent
+   a fair amount of time lately considering this question in the context
+   of our business. What might a GPT-alike do for us? What might an even
+   more capable system do?
+
+   My answer, so far, is indeed: eh, nothing much! It’s a physical
+   business, after all, mainly concerned with moving and transforming
+   matter. The “obvious” application is customer support, which I handle
+   myself, and which I am unwilling to cede to a computer or, indeed,
+   anyone who isn’t me. The specific quality and character of our support
+   is important.
+
+   (As an aside: every customer support request I receive is a miniature
+   puzzle, usually requiring deduction across several different systems.
+   Many of these puzzles are challenging even to the general intelligence
+   that is me; if it comes to pass that a GPT-alike can handle them
+   without breaking a sweat, I will be very, very impressed.)
+
+   (Of course, it’s not going to happen like that, is it? Long before
+   GPT-alikes can solve the same problems Robin can, using the tools Robin
+   has, the problems themselves will change to meet the GPT-alikes
+   halfway. The systems will all learn to “speak GPT”, in some sense.)
+
+   The simple act of asking and answering the question was clarifying and
+   calming. It plucked AI out of the realm of abstract dread and plunked
+   it down on the workbench.
+     __________________________________________________________________
+
+   Jack Clark includes, in all of his AI newsletters, a piece of original
+   micro-fiction. One of them, [23]sent in December, has stayed with me.
+   I’ll reproduce it here in full:
+
+     Reality Authentication
+
+     [The internet, 2034]
+
+     “To login, spit into the bio-API”
+
+     I took a sip of water and swirled it around my mouth a bit, then
+     hawked some spit into the little cup on my desk, put its lid on,
+     then flipped over the receptacle and plugged it into the
+     bio-API system.
+
+     “Authenticating … authentication successful, human-user identified.
+     Enjoy your time on the application!”
+
+     I spent a couple of hours logged-on, doing a mixture of work and
+     pleasure. I was part of an all-human gaming league called the
+     No-Centaurs; we came second in a mini tournament. I also talked to
+     my therapist sans his augment, and I sent a few emails over the
+     BioNet protocol.
+
+     When I logged out, I went back to the regular internet. Since the AI
+     models had got minituarized and proliferated a decade ago, the
+     internet had radically changed. For one thing, it was so much faster
+     now. It was also dangerous in ways it hadn’t been before - Attention
+     Harvesters were everywhere and the only reason I was confident in my
+     browsing was I’d paid for a few protection programs.
+
+   I think “brace for it” might mean imagining human-only spaces, online
+   and off. We might be headed, paradoxically, for a golden age of “get
+   that robot out of my face”.
+
+   In the extreme case, if AI doesn’t wreck the world, language models
+   could certainly wreck the internet, like Jack’s Attention Harvesters
+   above. Maybe we’ll look back at the Web Parenthesis, 1990-2030. It was
+   weird and fun, though no one in the future will quite understand
+   the appeal.
+
+   We are living and thinking together in an interesting time. My
+   recommendation is to avoid chasing the ball of AI around the field,
+   always a step behind. Instead, set your stance a little wider and form
+   a question that actually matters to you.
+
+   It might be as simple as: is this kind of capability, extrapolated
+   forward, useful to me and my work? If so, how?
+
+   It might be as wacky as: what kind of protocol could I build around
+   plain language, the totally sci-fi vision of computers just TALKING to
+   each other?
+
+   It might even be my original question, or a version of it: what do
+   I want from the internet, anyway?
+
+   From Oakland,
+
+   Robin
+
+   March 2023, Oakland
+
+   I'm [24]Robin Sloan, a fiction writer. You can sign up for my
+   lab newsletter:
+   ____________________ Subscribe
+
+   This website doesn’t collect any information about you or your reading.
+   It aspires to the speed and privacy of the printed page.
+
+   Don’t miss [25]the colophon. Hony soyt qui mal pence
+
+References
+
+   1. file:///confirm/main/subscribe/
+   2. https://www.robinsloan.com/feed.xml
+   3. file:///
+   4. file:///about
+   5. https://ooo.ghostbows.ooo/?utm_source=Robin_Sloan_sent_me
+   6. https://publicdomainreview.org/essay/the-snowflake-man-of-vermont?utm_source=Robin_Sloan_sent_me
+   7. https://efdn.notion.site/Summer-of-Protocols-3d7983d922184c4eb72749e9cb60d076?utm_source=Robin_Sloan_sent_me
+   8. https://efdn.notion.site/Application-5b71c238d6bd44cf9137946ef7767e53?utm_source=Robin_Sloan_sent_me
+   9. https://efdn.notion.site/Pilot-Study-1bf3e3be6bf34a2eb8156ddf98d3fa67?utm_source=Robin_Sloan_sent_me
+  10. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12614-3163TMP.html#gpt
+  11. https://www.robinsloan.com/newsletters/ring-got-good/?utm_source=Robin_Sloan_sent_me
+  12. https://genmon.github.io/braggoscope/?utm_source=Robin_Sloan_sent_me
+  13. https://interconnected.org/home/2023/02/07/braggoscope?utm_source=Robin_Sloan_sent_me
+  14. https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api?utm_source=Robin_Sloan_sent_me
+  15. https://news.ycombinator.com/item?id=35073824&utm_source=Robin_Sloan_sent_me
+  16. https://brxnd.substack.com/p/the-prompt-to-rule-all-prompts-brxnd?utm_source=Robin_Sloan_sent_me
+  17. https://www.kqed.org/forum/2010101892368/how-to-wrap-our-heads-around-these-new-shockingly-fluent-chatbots?utm_source=Robin_Sloan_sent_me
+  18. https://www.anthropic.com/index/toy-models-of-superposition-2?utm_source=Robin_Sloan_sent_me
+  19. https://www.lexaloffle.com/pico-8.php?utm_source=Robin_Sloan_sent_me
+  20. https://importai.substack.com/?utm_source=Robin_Sloan_sent_me
+  21. file:///lab/specifying-spring-83/
+  22. https://fat.gold/?utm_source=Robin_Sloan_sent_me
+  23. https://us13.campaign-archive.com/?u=67bd06787e84d73db24fb0aa5&&id=a03ebcd500&utm_source=Robin_Sloan_sent_me
+  24. https://www.robinsloan.com/about?utm_source=Robin_Sloan_sent_me
+  25. file:///colophon/

@@ -1,0 +1,641 @@
+        [1]Test Double The Test Double logo
+
+        Menu
+
+   (BUTTON) Menu Menu An icon that displays an illustration of a website
+   menu
+     * [2]Home
+     * [3]Agency
+     * [4]Services
+     * [5]Careers
+     * [6]Blog
+     * [7]Contact
+
+   [8]Blog [9]Posts
+
+The looming demise of the 10x developer
+
+Why an era of enthusiast programmers is coming to an end
+
+   An icon of a clock Publish Date
+          July 12, 2023
+
+   An icon of a human figure Authors
+          [10]Justin Searls
+
+   I’ve recently been telling anyone who will listen that I am excited to
+   be on the precipice of using [11]Sorbet to write a type-checked edition
+   of [12]Mocktail that has the potential to unlock productivity workflows
+   never before possible in Ruby.
+
+   I’m not there yet.
+
+   I don’t want to say it’s been a “quagmire,” but I’m over [13]150
+   commits in, and there’s a lot left to button up before release. It’s
+   been a real challenge. Learning Sorbet at all takes a good chunk of
+   time, to be sure. I’ve also hit a number of thorny edge cases and
+   elusive bugs along the way (both in the type system itself and that the
+   type system exposed in my code). And, like usual, I’m trying to do
+   something that’s never quite been done before, so I’m constantly
+   oscillating between feelings of nervous excitement and fear that I’m
+   attempting the impossible. (Though it’s been made far more possible
+   thanks to the generous assistance of [14]Ufuk Kayserilioglu, [15]Kevin
+   Newton, and [16]Jake Zimmerman!)
+
+   Beyond this, any specifics I might share about my current quest are so
+   banal as to not be worth your time. (If you somehow find this
+   interesting, please [17]email me so I might feel less alone in this
+   world.) That said, there is something generally interesting here that
+   programmers don’t often talk about. And that’s the deeper question: why
+   do I keep doing this to myself?
+
+[18]What makes me “special”
+
+   I am an enthusiast programmer.
+
+   I stumble on a problem like this one and I stay up late every night
+   until I find the solution. I wake up early each morning with new ideas
+   of things to try. I don’t take enough breaks, but when I do, they’re
+   tactically-designed to exploit my brain’s asynchronous processor to
+   generate solutions for whatever I’m currently stuck on. I irresponsibly
+   defer responsibilities from other areas of my life. Eventually, I
+   realize I’m only at the 20% mark and that a pattern is repeating where
+   a month or more of my life is about to disappear from the calendar.
+   Towards the end, I find myself rushing to find the maze’s exit because
+   my desire to unlock the puzzle’s final secret starts to be overtaken by
+   the shame of all the other balls I’m dropping. It’s excruciating as I
+   approach that inflection point—as intense as an overbearing manager’s
+   “do or die” deadlines ever were, except in this case the pressure I
+   feel is entirely self-imposed.
+
+   And then, at some uneventful moment at 4 pm on a Sunday, it’s done.
+
+   Sometimes people care about what I made. Usually they don’t. Often,
+   even I don’t.
+
+   I give myself enough time to clear my inbox, tidy the house, and shave.
+   Then I move onto the next Sisyphean task I’ve laid before myself.
+
+   This describes how I’ve lived my life since I was 13 years old, with
+   few exceptions. And let me tell you, it’s very difficult to juggle a
+   healthy personal life and a sustainable work life when you’re
+   simultaneously engulfed in an endless series of side quests to will
+   every creative curiosity into existence.
+
+   When I was a consultant at [19]Crowe, there was one year I billed
+   clients for nearly 2100 hours, which averages out to more than 40 hours
+   per week every week of the year with zero days off. And that’s not
+   counting travel time. Or the half-dozen hours of weekly administrative
+   work that wasn’t considered billable. Nevertheless, I found time in my
+   nights and weekends that year to build an app with Apple’s buggy,
+   mostly-undocumented initial iPhone SDK. The app was a native client to
+   [20]vBulletin web forums, allowing users to browse threads and compose
+   replies. Despite knowing nothing about any of the underlying
+   technologies, I obsessively polished the app to perfection. Did I make
+   time to sleep? I don’t remember. The whole year’s a blur.
+
+   All so that Apple could reject my app because users might post swear
+   words or dirty pictures. Oh, well. Onto the next thing.
+
+   I don’t know what word best describes my behavior above without
+   inflecting significant value judgment. Perfectionist? Obsessive?
+   Passionate? Whatever we call this compulsion, it’s hardly an unalloyed
+   good and it comes with its share of downsides. Nevertheless, it’s one
+   of a number of idiosyncrasies and character flaws I’ve decided to lean
+   into and find productive outlets for rather than attempting to repress
+   or rewire.
+
+   Other examples:
+     * I ruminate endlessly under stress, so I wrest back some control by
+       manufacturing stress responses over things I’m building to trick my
+       brain into ruminating on work that’s useful to me. This both
+       overrides the unhelpful, irrational worries that surround me every
+       day and unlocks a “second shift” where I accomplish almost as much
+       away from the keyboard as in front of it
+     * I’m a terrible listener and struggle with auditory processing,
+       especially in groups and loud environments. (One reason I talk so
+       much is that it’s always felt safer to drive the conversation than
+       risk mishearing and offending someone.) Parsing others’ sentences
+       often feels like I’m filling in the blanks to make sense of them,
+       like playing a game of [21]Mad Libs. Over the years, I’ve
+       redirected this into a source of creativity and humor. Most of my
+       puns and wordplay are happy accidents as I fill in the gaps in my
+       own listening comprehension. Some of my most creative ideas are
+       things I swear I heard someone say when it turns out they were
+       actually talking about something else
+     * I’m a really bad learner—disinterested, distractible, and
+       disagreeable. I’ve never enjoyed learning and generally avoid it,
+       especially learning for its own sake. At the slightest discomfort
+       when struggling to understand something, I’ll grasp for any
+       distraction that might offer me a momentary escape. When I do
+       manage to get traction, I inevitably find myself disagreeing with
+       the premise or subversively trying to prove the authors wrong. The
+       upshot is that once I actually do learn something, I know it cold.
+       It means I will have scoured every nook and climbed out of every
+       pitfall. Professionally, this apparent weakness has turned out to
+       be a superpower. Learning everything the hard way has made me a
+       natural consultant and mentor. Because I’ve already explored all
+       the wrong paths, I often know someone is stuck before they do,
+       understand what threw them off course, and show them how to get
+       back on track
+
+   The reason I landed on this topic today is not that any of the above
+   makes me special, it’s actually that contradictions like these—whatever
+   their origin—are so typical among programmers born before 1990 that
+   they’re entirely mundane.
+
+[22]An aberrant generation of programmers
+
+   Squint and everything I just said about myself could have described a
+   character from [23]The Big Bang Theory or [24]Silicon Valley. I’m at
+   peace with the fact that on my best days, I’m an overplayed, abrasive
+   character trope come to life. For decades, we’ve associated a slew of
+   mostly-negative traits like these with programmers as if the linkage is
+   inherent and inevitable. I’ve always thought that stereotype was
+   arbitrary—anybody can learn programming and be great at it—but now I’m
+   starting to think it’s a product of our times as well.
+
+   That is to say, I’ve come to believe the era typified by the enthusiast
+   programmer—autodidactic, obsessive, and antisocial—is drawing to a
+   close.
+
+   Why do I think that? Because there was a specific, generational moment
+   that attracted a bunch of people like me into the software industry. It
+   occurred during the brief window between home computers becoming widely
+   available and their becoming sealed airtight by platform holders. For a
+   fleeting moment, computers were simultaneously accessible and scrutable
+   during a necessary but temporary stage in the maturation of information
+   technology. Before they were rendered irreducibly complex as consumer
+   devices, merely using a computer required figuring out a lot about how
+   it worked. And coming of age with an understanding how computers worked
+   made programming them far more approachable. And thanks to cosmic
+   coincidence and the marketing teams of companies like RadioShack,
+   society unwittingly handed a generation of social mobility to [25]the
+   boys of upper-middle-class families in the US who felt more comfortable
+   at home with their computer than outside engaging socially with their
+   peers. I was definitely one of those awkward, anxious kids and a whole
+   lot of the programmers I’ve met along the way were too.
+
+   But one reason to believe that programmers don’t have to be like this
+   is that programmers weren’t always like this. I remember asking a
+   computer science professor in 2003 about our school’s gender disparity
+   (we only had a single woman in my class, and she later switched
+   majors). He recounted that before 1990 and the advent of hacker and
+   gamer subcultures, my college touted robust majorities of women in
+   computer science. (Nationally, women’s enrollment in CS doubled in a
+   decade, [26]peaking at 37.1% nationally in 1984 before dropping
+   precipitously.)
+
+   And one reason to believe programmers won’t always be this way is that
+   there’s plenty of evidence that the next generation of professional
+   programmers is no longer dominated by enthusiasts. People becoming
+   software developers today look markedly different than those who came
+   before. (Sadly, I wish I could say I’m referring to the success of
+   movements to increase representation from traditionally marginalized
+   groups—tech is still dramatically over-indexed on white dudes who
+   enjoyed affluent upbringings.) I’m just pointing to all the money
+   sloshing around here: it catapulted programming from a firmly middle
+   class job that appealed to people who really loved computers into a
+   comfortably upper-middle class profession that attracts anyone who
+   wants to secure their financial future. Ask anyone who switched careers
+   in the last decade how many times someone suggested they “learn to
+   code.” Countless people are entering the industry simply because
+   programming is a relatively secure, well-paying profession. (And
+   there’s nothing wrong with that!)
+
+[27]Inter-generational conflict is brewing
+
+   I’m not sure if anyone has ever said “OK boomer” to my parents, but I
+   can imagine it wouldn’t feel awesome to hear.
+
+   Nor do I know whether anyone will coin a term to dismiss my generation,
+   but I have faith that there’s enough societal exasperation out there
+   for someone on TikTok to come up with something snappy. A lot of people
+   in my professional cohort still see themselves as social outcasts who
+   grew up in front of a CRT in their parents’ basements, but I suspect
+   the next generation sees a homogenous monolith of 40-somethings wearing
+   hoodies and sandals (with socks!) that lucked their way into capturing
+   control of the software industry just as it settled into a state of
+   economic maturity.
+
+   Sit with this distinction for a while, and you might start to see these
+   old-hat programmers as belonging to an Enthusiast Generation, one
+   that—due to its unique initial circumstances—is unlikely to be
+   replicated. Once I introduced the word “generation” to my thinking, it
+   became easier to make sense of many contentious, unresolved issues in
+   tech that flared up over the past decade by looking at them through the
+   lens of intergenerational conflict. And just like any discussion of
+   generations, it’s important to caveat that there are no firm boundary
+   lines, that exceptions are plentiful, and that many observations will
+   be isolated to a single locale and culture (the U.S. in this case,
+   maybe Canada?). The only thing that bucketing people into generations
+   can do for us is provide a new way to look at how a population may be
+   changing, thanks to a big enough time-step to perceive the accumulation
+   of decades of gradual change.
+
+   To illustrate, I’ll highlight three high-profile conflicts that make a
+   different kind of sense when viewed as a generational shift.
+
+[28]Passion
+
+   I remember about 8 years ago, people [29]got [30]passionate [31]about
+   [32]the [33]word [34]passion.
+
+   This rubbed me the wrong way at first. Then again, everything does.
+
+   I remember thinking, “banning the word ‘passion’ will just lead people
+   to pick others like ‘self-driven’, ‘highly-motivated’, and
+   ‘ambitious’.” I remember asking, “are we supposed to screen out
+   candidates for whom programming is a hobby outside work?” What I don’t
+   remember was pondering whether this was an indication that the times
+   were changing.
+
+   When I entered the industry, my salary was lower than it would’ve been
+   if I’d gone into accounting, or become an actuary, or majored in civil
+   engineering—myself and most of the people around me did get into
+   software because we were passionate about it. Reading tweets and
+   thinkpieces that suggested “passion” was a four-letter word felt like a
+   personal affront, so I responded defensively.
+
+   What I wasn’t thinking about was what it must have felt like for
+   everyone who entered the industry expecting their job to be a job but
+   who found themselves managed by people from my generation who didn’t
+   leave them room to have a life outside work. Maybe everyone else on the
+   team worked overtime without being asked. Maybe taking “too much”
+   supposedly “unlimited” time off would foreclose any chance for a
+   promotion. Maybe building rapport at lunch required holding evolved
+   opinions on Emacs vs. Vim, or mechanical key switches, or whatever was
+   on the front page of Hacker News. That sounds like a pretty miserable
+   existence, especially if programming isn’t what gets you out of bed in
+   the morning.
+
+   If you allow for the possibility we’re undergoing a generational
+   change, maybe this debate over “passion” is evidence that the
+   assumption that most programmers will always be passionate about
+   programming was mistaken and counter-productive.
+
+[35]Craftsmanship
+
+   This brings another contentious word to mind: “craftsmanship.” Its
+   origin, as I witnessed it, was a reaction to the watering down of the
+   technical aspects of the agile software movement in the late 2000s in
+   favor of more lucrative soft-skills training and consulting services.
+   In case you missed it, most of the craftsmanship meme could be summed
+   up as a Slow Code movement. There was a lot of talk about measuring
+   twice and cutting once, establishing apprenticeship programs to train
+   new programmers, and a million ways to leverage automated tests for
+   purposes other than testing things.
+
+   I was an active participant in this community, speaking at the
+   [36]conference several times, putting [37]my name on the manifesto, and
+   generally exhorting anyone who would listen to please make their
+   software less terrible.
+
+   But looking back, the craftsmanship movement wasn’t only about
+   rekindling the tremendous engineering insights of agile methods like
+   [38]Extreme Programming, it was also a response to a rapid influx of a
+   generation of programmers who didn’t care about code quality the same
+   way we did. There was a sense that serious programmers were under
+   threat and hopelessly outnumbered by unserious ones. That if your team
+   didn’t get more disciplined about what you allow in your codebase,
+   you’d find yourself mired in a maze of complexity, beholden to epochal
+   build times, and left holding the bag with yet another legacy system.
+
+   Thinking about this point of tension as another manifestation of the
+   generational shift we’re experiencing, it’s easy to spot the problem:
+   “what you allow in your codebase” is a wee bit too easy to conflate
+   with “who you allow in your codebase.”
+
+   Shibboleths like “test-driven design” were so numerous that, to
+   outsiders, even perfunctory conversations were riddled with rhetorical
+   land mines. The emphasis on apprenticeship also carried assumptions
+   nobody seriously grappled with: that it implied “one true path” to
+   programming, that somebody (us) had uniquely figured it out, and that
+   the only way to learn it was to imitate the people who came before you.
+   I watched more than one conference talk advocating for
+   professionalizing software like any other trade by licensing
+   programmers just like we do plumbers, electricians, and [39]Canadian
+   engineers. Everyone’s intention was to prevent people from writing bad
+   software, but some of the movement’s prescriptions would have prevented
+   many people from writing software at all.
+
+[40]10x Developers
+
+   Before you say anything, I know [41]you [42]probably [43]already
+   [44]have [45]an [46]opinion [47]on [48]the [49]idea of a “10x”
+   developer. If you aren’t familiar, the term refers to
+   debatably-mythical programmers whose output is worth that of ten other
+   programmers. What aspects of that output? Which ten other programmers?
+   Unclear.
+
+   The concept behind the “10x” term predates either of the generations of
+   programmers being discussed here. It seems to have originated in
+   [50]this (flimsy) 1968 study that among experienced programmers, the
+   best were ten times more productive than the worst (as opposed to the
+   average). We remember it because it was referenced in the late Fred
+   Brooks’ seminal [51]Mythical Man-Month.
+
+   That some people are better at their jobs than others is (usually)
+   uncontroversial. At least, it was, until it bubbled up in The Discourse
+   during the 2010s as a flashpoint over who the industry chooses to
+   valorize, often sparked by tweets from people affiliated with venture
+   capital and advocating that founders should strive to “only hire 10x
+   developers.”
+
+   In response, many people who reasonably identified this framing as
+   unproductive chose to pick a weird fight by claiming that 10x
+   developers don’t exist instead. This invited a lot of
+   counter-criticism, as I think most of us can dream up examples of
+   people whose work is 1/10th as valuable as their own. From there, the
+   conversation shifted to counter-counter-critiques enumerating the
+   adverse knock-on effects of adding a toxic actor to a team, no matter
+   how much of a ninja/rockstar they are at coding.
+
+   And it was here that the conversation settled into a stalemate, with
+   clear battle lines dividing the two camps. On one side were proponents
+   who believed a lot of well-compensated programmers aren’t very good,
+   but that a few programmers are so good that the value they generate far
+   exceeds the range of a typical payscale (which was why Google used to
+   brag that they “[52]pay unfairly”). On the other side were critics who
+   were more than happy to project every negative stereotype about
+   programmers onto these supposedly hyper-productive ones, suggesting a
+   10x developer’s easy-to-measure output often came with hard-to-measure
+   organizational and technical costs.
+
+   But now, looking back, this debate would have gone a lot differently if
+   we’d considered it through the valence of inter-generational conflict.
+
+   I’ll come clean: do I believe some programmers are at least an order of
+   magnitude better at programming than others? In my experience … yes.
+   I’ve worked with programmers who routinely solve problems in minutes
+   after I’ve wasted days or weeks on them. I’ve witnessed a programmer
+   singlehandedly build something in a day that an entire team struggled
+   to deliver in two weeks—without any of the catastrophic antisocial,
+   unsustainable downsides one might imagine. I’ve honestly seen more
+   socially corrosive behavior from the other end of the productivity
+   spectrum, because programmers who spin their wheels and make zero
+   forward progress for days, weeks, or months will inevitably scramble
+   for a way to save face.
+
+   It may be uncomfortable to admit, but it’s not altogether unreasonable
+   to speculate that enthusiast programmers may, in aggregate, outperform
+   professional programmers who hang up their keyboard at the end of each
+   shift. In my experience, these traits differentiate the former from the
+   latter:
+     * Tireless: spending more time practicing programming—not under
+       coercion to work long hours, but being intrinsically motivated to
+       do so—will generally make someone a better programmer
+     * Tenacious: chasing down answers with limitless curiosity and
+       relentless, no-holds-barred tenacity—whether or not it’s in their
+       job description to spelunk open source stack traces or debug other
+       teams’ code—will yield better information and faster progress
+     * Thorough: priding oneself on the quality of one’s work and pursuing
+       excellence in the (brace for it) craft—not falling victim to
+       perfectionism, but cutting the right corners when necessary—will
+       produce better-working software that’s easier to maintain
+
+   In the context of this generational rift, all three of the above are
+   exemplified by (but by no means exclusively limited to) us last-gen
+   models: the individual that programs in their spare time, obsessively
+   refuses to let a hard problem go, and is personally invested in the
+   quality of their work product.
+
+   I can’t imagine this dynamic feels awesome for members of the new
+   generation who don’t want to spend more than 40 hours a week at their
+   computer, or who have significant family commitments, or who aren’t
+   inclined to asynchronously ponder refactoring techniques as they run
+   errands. Will they be forever outpaced by more enthusiastic colleagues
+   for whom “programmer” is an all-encompassing identity as well a career?
+   I don’t know.
+
+   It’s an uncomfortable conversation because it’s an uncomfortable
+   reality.
+
+[53]What do we do with this?
+
+   The power of an analogy lies in what it empowers people to do.
+   Envisioning programmers as belonging to discrete generations who are
+   ushering in a dramatic transition in the industry can equip us to
+   identify the common threads between many of the challenges we’re
+   currently facing. It may even enable us to predict and plan for
+   inevitable difficulties in the future, as more members of the earlier
+   generation age out.
+
+   Suppose you’ve read this far and you can buy both these arguments:
+    1. The next generation of programmers are less likely to be motivated
+       by a love of programming than the previous generation and may
+       differ in profound ways as a result
+    2. Software, as an industry, has structurally organized itself around
+       the assumption programmers will continue to resemble members of the
+       outgoing generation
+
+   If so, then you can probably imagine there will be a lot of problems to
+   be solved here. The hot-button issues we revisited above are already
+   known, even if we failed to put our collective finger on a common cause
+   at the time. It’s likely that countless more challenges lie beneath the
+   surface, waiting for the spark that causes them to boil over. It’s up
+   to us whether we put in the work to uncover and address these problems
+   proactively.
+
+   Here are a few examples of questions I find myself asking after sitting
+   with this for a few days:
+     * The new generation is more likely to expect structure and support
+       from human resources and management, whereas the previous
+       generation is more likely to find active management (e.g. career
+       pathing, coaching, goal-setting) actually saps their autonomy and
+       intrinsic motivation. Can organizations effectively cater to the
+       needs of both groups?
+     * It’s an open secret that the industry has no idea how to teach
+       people to program. Computer Science degrees famously don’t prepare
+       programmers for the job of programming, which has always been left
+       as an exercise to the student to figure out on their own time. If
+       the industry is going to outlive us enthusiast programmers, will it
+       adopt a sustainable approach to educating the next generation that
+       doesn’t require people to teach themselves everything?
+     * Betting your business on a limitless supply of self-starting,
+       self-sufficient, self-disciplined candidates seems a lot like
+       investing in the long-term prospects of fossil fuel extraction. How
+       will companies that built their cultures around enthusiast
+       programmers adjust to a generation needing more direction, more
+       support, and more accountability?
+
+   All we know for sure is that time keeps marching forward and change is
+   a constant, so planning for a future that looks different than the past
+   is usually time well spent.
+
+   What challenges do you see in this generational transition? I’d love to
+   [54]hear from you! If you enjoyed this piece and want to keep up with
+   what myself and the other agents are up to, you should check out our
+   [55]monthly newsletter.
+
+[56]Justin Searls
+
+   An icon of a human figure Status
+          Double Agent
+
+   An icon of a hash sign Code Name
+          Agent 002
+
+   An icon of a map marker Location
+          Orlando, FL
+
+   [57]Twitter [58]Mastodon [59]Github [60]LinkedIn [61]Website
+
+Related posts:
+
+[62]How to tell if AI threatens YOUR job
+
+   Can ChatGPT help do your job? If so, how can you be sure AI won't
+   eventually replace you? Spot whether your job is at risk and what you
+   can do about it.
+
+   An icon of a clock Publish Date
+          March 14, 2023
+
+   An icon of a human figure Authors
+          [63]Justin Searls
+
+   An icon of a paper organzier Categories
+          [64]Industry
+          [65]Career
+
+[66]Never Staff to the Peak
+
+   For a decade, engineering leaders were taught to solve every problem
+   with more full-time hires. There was always a better solution. Are you
+   ready for it?
+
+   An icon of a clock Publish Date
+          April 3, 2023
+
+   An icon of a human figure Authors
+          [67]Justin Searls
+
+   An icon of a paper organzier Categories
+          [68]Industry
+          [69]Leadership
+
+[70]How my experience as an engineer made me a better recruiter
+
+   How similar are engineers and recruiters? Turns out a lot. A developer
+   turned recruiter adapted from writing code to recruit those who write
+   code.
+
+   An icon of a clock Publish Date
+          March 20, 2023
+
+   An icon of a human figure Authors
+          [71]Colleen Leonard
+
+   An icon of a paper organzier Categories
+          [72]Recruitment
+          [73]Community
+
+Looking for developers? Work with people who care about what you care about.
+
+We level up teams striving to ship great code.
+
+   [74]Let's talk
+
+   [75]Home [76]Agency [77]Services [78]Careers [79]Blog [80]Contact
+
+
+   [81]Mastodon [82]GitHub [83]LinkedIn [84]Twitter
+
+   [85]614.349.4279
+   [86]hello@testdouble.com
+   [87]Privacy Policy
+   Founded in Columbus, OH
+
+[88]Test Double
+
+References
+
+   1. https://testdouble.com/
+   2. https://testdouble.com/
+   3. https://testdouble.com/agency
+   4. https://testdouble.com/services
+   5. https://testdouble.com/careers
+   6. file:///
+   7. https://testdouble.com/contact
+   8. file:///
+   9. file:///posts/
+  10. file:///authors/justin-searls/
+  11. https://sorbet.org/
+  12. https://github.com/testdouble/mocktail
+  13. https://github.com/testdouble/mocktail/pull/22
+  14. https://github.com/paracycle
+  15. https://github.com/kddnewton
+  16. https://github.com/jez
+  17. mailto:justin@testdouble.com
+  18. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12618-6018TMP.html#what-makes-me-special
+  19. https://www.crowe.com/
+  20. https://www.vbulletin.com/
+  21. https://en.wikipedia.org/wiki/Mad_Libs
+  22. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12618-6018TMP.html#an-aberrant-generation-of-programmers
+  23. https://en.wikipedia.org/wiki/The_Big_Bang_Theory
+  24. https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)
+  25. https://www.npr.org/transcripts/356944145
+  26. https://nces.ed.gov/programs/digest/d12/tables/dt12_349.asp
+  27. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12618-6018TMP.html#inter-generational-conflict-is-brewing
+  28. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12618-6018TMP.html#passion
+  29. https://starbreaker.org/blog/programmer-passion-considered-harmful/index.html
+  30. https://www.hotjar.com/blog/the-passion-fallacy/
+  31. https://web.archive.org/web/20160304021738/http://www.gamasutra.com/view/feature/6523/the_designers_notebook_passion_.php?print=1
+  32. https://avdi.codes/the-moderately-enthusiastic-programmer/
+  33. https://philippe.bourgau.net/is-there-any-room-for-the-not-passionate-developer/
+  34. https://exceptionnotfound.net/passion-not-required-its-ok-to-only-program-for-a-paycheck/
+  35. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12618-6018TMP.html#craftsmanship
+  36. https://scna.softwarecraftsmanship.org/
+  37. http://manifesto.softwarecraftsmanship.org/
+  38. https://en.wikipedia.org/wiki/Extreme_programming
+  39. https://engineerscanada.ca/become-an-engineer/overview-of-licensing-process
+  40. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12618-6018TMP.html#10x-developers
+  41. https://jasoncrawford.org/10x-engineers
+  42. https://web.archive.org/web/20131205042721/https://medium.com/about-work/6aedba30ecfe
+  43. https://networkingnerd.net/2019/07/18/i-was-a-10x-engineer-and-im-sorry/
+  44. https://www.swarmia.com/blog/busting-the-10x-software-engineer-myth/
+  45. https://erikbern.com/2016/01/08/i-believe-in-the-10x-engineer-but
+  46. https://a16z.com/2014/07/30/the-happy-demise-of-the-10x-engineer/
+  47. https://blog.kenforthewin.com/state-of-the-10x-programmer-in-2018/
+  48. https://web.archive.org/web/20230326131816/https://payne.org/blog/the-myth-of-the-myth-of-the-10x-programmer/
+  49. https://avichal.com/2011/12/16/focus-on-building-10x-teams-not-on-hiring-10x-developers/
+  50. https://dl.acm.org/doi/10.1145/362851.362858
+  51. https://en.wikipedia.org/wiki/The_Mythical_Man-Month
+  52. https://www.inc.com/jeff-haden/why-google-quietly-uses-power-law-rule-to-pay-its-superstar-employees-unfairly.html
+  53. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12618-6018TMP.html#what-do-we-do-with-this
+  54. mailto:justin@testdouble.com
+  55. https://testdouble.com/newsletter
+  56. file:///authors/justin-searls/
+  57. https://twitter.com/searls
+  58. https://mastodon.social/@searls
+  59. https://github.com/searls
+  60. https://linkedin.com/in/searls
+  61. https://justin.searls.co/
+  62. file:///posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/
+  63. file:///authors/justin-searls/
+  64. file:///categories/industry
+  65. file:///categories/career
+  66. file:///posts/2023-04-03-never-staff-to-the-peak/
+  67. file:///authors/justin-searls/
+  68. file:///categories/industry
+  69. file:///categories/leadership
+  70. file:///posts/2023-03-20-how-my-experience-as-an-engineer-made-me-a-better-recruiter/
+  71. file:///authors/colleen-leonard/
+  72. file:///categories/recruitment
+  73. file:///categories/community
+  74. https://link.testdouble.com/blog-cta-sales
+  75. https://testdouble.com/
+  76. https://testdouble.com/agency
+  77. https://testdouble.com/services
+  78. https://testdouble.com/careers
+  79. file:///
+  80. https://testdouble.com/contact
+  81. https://mastodon.social/@testdouble
+  82. https://github.com/testdouble
+  83. https://www.linkedin.com/company/testdouble
+  84. https://twitter.com/testdouble
+  85. tel:+16143494279
+  86. mailto:hello@testdouble.com
+  87. file://testdouble.com/privacy-policy
+  88. file://testdouble.com/
