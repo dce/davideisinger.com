@@ -133,6 +133,8 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 
     > The iteration order over maps is not specified and is not guaranteed to be the same from one iteration to the next.
 
+  * [`new` allocates zeroed storage for a new item or type whatever and then returns a pointer to it.][22]
+
 * First-class functions
   * Go supports first-class functions (functions as arguments and return values of other functions)
   * Go has closures (so variables defined inside a function that returns a function get closed over)
@@ -147,7 +149,7 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
   * Define a `String() string` method for types so that `fmt` knows how to stringify them
   * E.g. `fmt.Sprintf("%s", yourThing)` will call `yourThing`'s `String()` function
 * Structs
-  * [What Are Golang's Anonymous Structs?][22]
+  * [What Are Golang's Anonymous Structs?][23]
 
   > An anonymous struct is just like a normal struct, but it is defined without a name and therefore cannot be referenced elsewhere in the code.
   >
@@ -155,7 +157,7 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
   >
   > To create an anonymous struct, just instantiate the instance immediately using a second pair of brackets after declaring the type.
 
-* [Time][23]
+* [Time][24]
   * `time.Duration` -- `time.Second * 1e9` is a duration of one billion seconds
   * `1e9` is the same as `1.0*math.Pow(10, 9)`
 * Runes
@@ -167,11 +169,11 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 * Generics
   * Use `[]` to define types
   * `func keep[T int | []int | string](in []T, filter func(T) bool) (out []T) {`
-  * [Use `~` to allow "inheriting" (?) types][24]
+  * [Use `~` to allow "inheriting" (?) types][25]
 
   > In Go generics, the ~ tilde token is used in the form ~T to denote the set of types whose underlying type is T.
 
-* [Type Aliases][25]
+* [Type Aliases][26]
 
   > An alias declaration doesn’t create a new distinct type different from the type it’s created from. It just introduces an alias name T1, an alternate spelling, for the type denoted by T2.
 
@@ -180,7 +182,8 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 [19]: https://exercism.org/tracks/go/concepts/errors
 [20]: https://go.dev/blog/maps
 [21]: https://go.dev/ref/spec#RangeClause
-[22]: https://blog.boot.dev/golang/anonymous-structs-golang/
-[23]: https://pkg.go.dev/time
-[24]: https://stackoverflow.com/a/70890514
-[25]: https://yourbasic.org/golang/type-alias/
+[22]: https://stackoverflow.com/a/34543716
+[23]: https://blog.boot.dev/golang/anonymous-structs-golang/
+[24]: https://pkg.go.dev/time
+[25]: https://stackoverflow.com/a/70890514
+[26]: https://yourbasic.org/golang/type-alias/
