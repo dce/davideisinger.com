@@ -3,12 +3,12 @@
 
   <h3>Links (from <a href="https://pinboard.in/u:DCE">Pinboard</a>)</h3>
 
-  {{ with getJSON "https://feeds.pinboard.in/json/u:DCE/" }}
+  {{ with resources.GetRemote "https://feeds.pinboard.in/rss/u:DCE/" | transform.Unmarshal }}
     <ul>
-      {{ range first 10 . }}
+      {{ range .item | first 10 }}
         <li>
-          <a href="{{ .u }}">{{ .d }}</a> <span class="nowrap">({{ dateFormat "2006-01-02" .dt }})</span>
-          <p>{{ .n }}</p>
+          <a href="{{ .link }}">{{ .title }}</a> <span class="nowrap">({{ dateFormat "2006-01-02" .date }})</span>
+          <p>{{ .description }}</p>
         </li>
       {{ end }}
     </ul>
