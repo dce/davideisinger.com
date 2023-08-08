@@ -37,11 +37,11 @@ What I don't like:
 * Can't presently run multiple language servers for the same language
   * I'd really like to run both `standardrb` and `solargraph` when I'm working in Ruby
   * You can run a separate language server and formatter, which works fine, but there's a visible delay on save before the formatter kicks in, and you don't get nice in-editor warnings about style violations
-  * It looks like this will be fixed in the next release
+  * [It looks like this will be fixed in the next release][5]
 * Missing a couple key features from Vim plugins I'm quite fond of
-  * [fugitive.vim][5]'s `:Git blame` view
-  * A file system explorer like [NERDTree][6] -- the built-in fuzzy finder is awesome as long as you know the name of the file you're looking for, which I occasionally don't ([some progress here][7])
-* I had to reconfigure how the option key works in iTerm and have lost my ability to type accented characters inside the terminal, which I've needed to do, I think, twice ([more info][8])
+  * [fugitive.vim][6]'s `:Git blame` view
+  * A file system explorer like [NERDTree][7] -- the built-in fuzzy finder is awesome as long as you know the name of the file you're looking for, which I occasionally don't ([some progress here][8])
+* I had to reconfigure how the option key works in iTerm and have lost my ability to type accented characters inside the terminal, which I've needed to do, I think, twice ([more info][9])
 
 Pull it down with Homebrew or similar, and give it a shot. Hint: you launch Helix with `hx` -- figuring that out might've been the hardest part of my Helix journey so far.
 
@@ -49,7 +49,8 @@ Pull it down with Homebrew or similar, and give it a shot. Hint: you launch Heli
 [2]: https://timharek.no/blog/my-thoughts-on-helix-after-6-months/
 [3]: https://helix-editor.com/
 [4]: https://github.com/helix-editor/helix/pull/7665
-[5]: https://github.com/tpope/vim-fugitive
-[6]: https://github.com/preservim/nerdtree
-[7]: https://github.com/helix-editor/helix/pull/5768
-[8]: https://github.com/helix-editor/helix/issues/2469
+[5]: https://docs.helix-editor.com/master/languages.html#configuring-language-servers-for-a-language
+[6]: https://github.com/tpope/vim-fugitive
+[7]: https://github.com/preservim/nerdtree
+[8]: https://github.com/helix-editor/helix/pull/5768
+[9]: https://github.com/helix-editor/helix/issues/2469
