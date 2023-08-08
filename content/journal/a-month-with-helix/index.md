@@ -15,14 +15,14 @@ As mentioned in [last month's dispatch][1], inspired by [a post from Tim Hårek]
 
 I've been a Vim user since ~2010 after moving away from TextMate. I'm rather proficient in it, though it's an incredibly deep tool and there's always more to learn. I've become frustrated with my setup over the last few years, specifically around some conflicting plugins. I've intended to start from scratch with NeoVim, learn how to configure it with Lua, get the native language server stuff working properly, etc., but it's a lot of setup.
 
-Helix, on the other hand, is a new editor, inspired by Vim and written in Rust. It doesn't support plugins and instead tries to be a fully-featured editor right out of the box. It has the same major modes as Vim (normal, insert, visual) but then also offers minor modes (e.g. hit `g` in normal mode for "goto" mode). It's cool, and it all works together well.
+Helix, on the other hand, is a new editor, inspired by Vim and written in Rust. It doesn't support plugins and instead tries to be a fully-featured editor right out of the box. It has the same major modes as Vim (normal, insert, visual) but then also offers "minor modes" (e.g. hit `g` in normal mode for "goto" mode). It's cool, and it all works together well.
 
 What I like:
 
 * It's easy to get started
   * If you know Vim, you're like 75% of the way to Helix fluency
   * It has a nice tutorial
-  * The "minor modes" feature little pop-up cheat sheets that make learning the various keyboard combos easy
+  * The minor modes feature little pop-up cheat sheets that make learning the various keyboard combos easy
 * Stuff just makes sense, whereas some Vim stuff always struck me as arcane
   * e.g. `y` to yank; `space + y` to yank to the system clipboard
   * or `:theme` followed by a space displays a list of all available themes (`gruvbox` natch)
