@@ -105,6 +105,12 @@ code {
 .image-set {
   display: flex;
   gap: 1em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+
+  figure {
+    line-height: 0;
+  }
 
   img {
     width: 100%;
