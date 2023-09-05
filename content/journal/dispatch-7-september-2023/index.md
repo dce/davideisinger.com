@@ -15,7 +15,7 @@ references:
   file: www-wunc-org-fstofo.txt
 ---
 
-We were down at Lake Norman for the long weekend, and as I was pulling up the kayaks this morning, I couldn't help but feel like I was also sort of putting away the summer. What a summer though. The last few weeks of August were pretty wall-to-wall. I went up to the Eastern Shore in Virginia to spend a long weekend with some old friends; our rental was right on an inlet off the Chesapeake, and they had a stand-up paddleboard I was able to take out, certainly the most fun I've ever had on one of those.
+We were down at Lake Norman for the long weekend, and as I was pulling up the kayaks this morning, I couldn't help but feel like I was also sort of putting away the summer -- what a summer though. The last few weeks of August were pretty wall-to-wall. I went up to the Eastern Shore in Virginia to spend a long weekend with some old friends. Our rental was right on an inlet off the Chesapeake, and they had a stand-up paddleboard I was able to take out.
 
 <!--more-->
 
@@ -24,10 +24,10 @@ We were down at Lake Norman for the long weekend, and as I was pulling up the ka
   {{<thumbnail IMG_1602.jpeg "400x200" />}}
 </div>
 
-The following weekend, we headed up to Rehoboth Beach in Delaware to spend the week with my family. We love it up there; it's different than the North Carolina beaches we're used to with an old-school board walk, [indoor amusement park][1], (...something...). We all brought our bikes up and were able to take them out to [Gordons Pond][2], which was rad.
+The following weekend, we headed up to Rehoboth Beach in Delaware to spend the week with my family. It's different than the North Carolina beaches we're used to as there's a lot to do around the town (boardwalk, parks & playgrounds, [indoor amusement park][1]). We brought our bikes and took a ride on the [Gordons Pond Trail][2], which was rad.
 
 [1]: https://funlandrehoboth.com/
-[2]: https://www.tripadvisor.com/Attraction_Review-g34048-d1735243-Reviews-Gordons_Pond-Rehoboth_Beach_Delaware.html
+[2]: https://delawaregreenways.org/trail/gordons-pond-trail/
 
 <div class="image-set">
   {{<thumbnail IMG_4514.jpeg "400x300" />}}
@@ -40,23 +40,24 @@ We also recorded this little jam featuring my 3.5-year-old niece on the melodica
 
 From there, we drove 400 miles to Greensboro, and then onto Lake Norman to spend Labor Day weekend with Claire's family, a relaxing way to cap off an eventful summer.
 
-As one might imagine, this involved a lot of driving, and to pass the hours and miles, I tried something new: listening to audio books. I listen to podcasts fairly regularly, but with my running schedule being as it is, I'm running short on fresh content. At the recommendation of a friend, I wanted to read _The Left Hand of Darkness_ by Ursula K. Le Guin, and [my local library][3] had a recording of it available on Overdrive/Libby.
+As one might imagine, this involved a lot of driving, and to pass the hours and miles, I tried something new: listening to audio books. [My local library][3] has a good selection which integrates with the Libby app. I listened to:
 
-* _The Left Hand of Darkness_
-* _With a Mind to Kill_
-  * The narrator, Rory Kinner, was great and has a [cool Bond connection][4]
-* _The Survivor_
+* [_The Left Hand of Darkness_][4] by Ursula K. Le Guin. I've enjoyed some of her other stuff and have meant to read this for years. Great story & narration, highly recommended.
+* [_With a Mind to Kill_][5] by Anthony Horwitz, a James Bond novel. This one got me through that long drive I mentioned a minute ago. I didn't love this -- the Craig movies did a good job bringing Bond into the modern era, and I felt like the author was trying to be faithful to the Fleming books, which meant treating the female characters poorly. The narrator, Rory Kinner, was great and has a [cool Bond connection][6].
 
-[I guess this guy records a lot of audio books.][5]
+I also started a [low-brow thriller][7] and was surprised that it was the same narrator as _Left Hand_; [I guess this guy records a lot of audio books][8].
 
 [3]: https://durhamcounty.overdrive.com/
-[4]: https://en.wikipedia.org/wiki/Rory_Kinnear
-[5]: https://en.wikipedia.org/wiki/George_Guidall
+[4]: https://durhamcounty.overdrive.com/media/3784285
+[5]: https://durhamcounty.overdrive.com/media/6525209
+[6]: https://en.wikipedia.org/wiki/Rory_Kinnear
+[7]: https://durhamcounty.overdrive.com/media/2152378
+[8]: https://en.wikipedia.org/wiki/George_Guidall
 
-* [Storm](https://www.wunc.org/news/2023-08-16/storm-damage-durham-power-outage-closures-north-carolina-816)
-	* No power (28 hours)
-	* Wifi, phones, traffic lights, credit cards not working
-	* Chainsaw
+We got hit with a [nasty storm][9] in the middle of August. It was wild -- hot, sunny day during my scoot home, then 5 minutes later, hard rain/thunder/80mph winds. We were without power from 4pm until 8pm the following day, and the damage through the city was intense. Phones weren't working very well, traffic lights were out, and even places that had power were cash-only as the credit card systems were down. Fortunately, we have a good set of camping equipment, most of which doubles as disaster preparedness gear, but it made plain the fragility of modern society.
+
+[9]: https://www.wunc.org/news/2023-08-16/storm-damage-durham-power-outage-closures-north-carolina-816
+
 * Go
 	* Golong - Fantasy Draft App
 		* TOML
@@ -90,18 +91,20 @@ This month:
 
 Reading:
 
-* Fiction: [_Title_][6], Author
-* Non-fiction: [_Title_][7], Author
+* Fiction: [_Forever and a Day_][10], Anthony Horowitz
+* Non-fiction: [_The Creative Programmer_][11], [Wouter Groeneveld][12]
 
-[6]: https://bookshop.org/
-[7]: https://bookshop.org/
+
+[10]: https://bookshop.org/p/books/forever-and-a-day-a-james-bond-novel-anthony-horowitz/7998118
+[11]: https://www.manning.com/books/the-creative-programmer
+[12]: https://brainbaking.com/
 
 Links:
 
-* [Title][8]
-* [Title][9]
-* [Title][10]
+* [Title][13]
+* [Title][14]
+* [Title][15]
 
-[8]: https://example.com/
-[9]: https://example.com/
-[10]: https://example.com/
+[13]: https://example.com/
+[14]: https://example.com/
+[15]: https://example.com/
