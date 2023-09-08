@@ -13,6 +13,10 @@ references:
   url: https://www.wunc.org/news/2023-08-16/storm-damage-durham-power-outage-closures-north-carolina-816
   date: 2023-08-21T18:18:11Z
   file: www-wunc-org-fstofo.txt
+- title: "Radda in Chianti to Siena – Two Nerds | A lifestyle blog"
+  url: https://twonerds.net/blog/radda-in-chianti-to-siena
+  date: 2023-09-08T20:11:47Z
+  file: twonerds-net-pv4a04.txt
 ---
 
 We were down at Lake Norman for the long weekend, and as I was pulling up the kayaks this morning, I couldn't help but feel like I was also sort of putting away the summer -- what a summer though. The last few weeks of August were pretty wall-to-wall. I went up to the Eastern Shore in Virginia to spend a long weekend with some old friends. Our rental was right on an inlet off the Chesapeake, and they had a stand-up paddleboard I was able to take out.
@@ -54,57 +58,61 @@ I also started a [low-brow thriller][7] and was surprised that it was the same n
 [7]: https://durhamcounty.overdrive.com/media/2152378
 [8]: https://en.wikipedia.org/wiki/George_Guidall
 
-We got hit with a [nasty storm][9] in the middle of August. It was wild -- hot, sunny day during my scoot home, then 5 minutes later, hard rain/thunder/80mph winds. We were without power from 4pm until 8pm the following day, and the damage through the city was intense. Phones weren't working very well, traffic lights were out, and even places that had power were cash-only as the credit card systems were down. Fortunately, we have a good set of camping equipment, most of which doubles as disaster preparedness gear, but it made plain the fragility of modern society.
+We got hit with a [nasty storm][9] in the middle of August. It was wild -- hot, sunny day during my scoot home, then 5 minutes later, hard rain/thunder/80mph winds. We were without power from 4pm until 8pm the following day, and the damage through the city was intense. Phones weren't working very well, traffic lights were out, and even places that had power were cash-only as the credit card systems were down. Fortunately, we have a good set of camping equipment which doubles as disaster preparedness gear, but it made plain the fragility of modern society.
 
 [9]: https://www.wunc.org/news/2023-08-16/storm-damage-durham-power-outage-closures-north-carolina-816
 
-* Go
-	* Golong - Fantasy Draft App
-		* TOML
-		* SQlite
-		* Bubble Tea
-		* ChatGPT
-			* Refactoring
-			* Naming
-		* Does this get a standalone post?
-	* Forecast Report
-		* CLI App
-		* API Gateway / Lambda
-			* HTTP vs. REST APIs
-			* Basic Auth
-			* Parsing multi-part response body
-		* Testing
-			* [Testify](https://github.com/stretchr/testify)
-* Music stuff
-	* https://carillon58.bandcamp.com/album/the-whole-earth
-	* Build a workstation
-* Adventure
-	* Italy
-	* https://www.rosselbalepalme.it/en/glamping-lodge.php
-* Ending: Nev experiences
-  
+I did a couple projects in Go this month:
+
+<div class="image-set">
+  {{<thumbnail golong.png "400x" />}}
+  {{<thumbnail forecast.png "400x" />}}
+</div>
+
+The first, the fantasy draft <abbr title="text-based user interface">TUI</abbr> app [I mentioned last month][10], came together well and quickly. It was straightforward to set up TOML for configuration, SQLite for data persistence, and [Bubble Tea][11] for the UI. Bubble Tea's super cool -- you pull in your widgets (two in my case, for a table view and a search box), and you can respond to keypresses or let the widgets handle them. As a result, my UI has Vim keybindings without me doing anything, which was super handy during the draft.
+
+I played around with ChatGPT while I was working on it, asking it to make my code more idiomatic. This worked super well, and some of the refactorings were really clever. This seems like a sweet spot of <abbr title="large language models">LLMs</abbr> -- I already had working code and wasn't asking it to solve complex problems, just to make my code look more like the other code it knows about. I also used it to come up with a name for the project, and it came back with `golong`, which is just 🍒.
+
+[10]: https://davideisinger.com/journal/dispatch-6-august-2023/
+[11]: https://github.com/charmbracelet/bubbletea
+
+The second was for work -- we needed to crunch some data coming out of [Forecast][12] and the nature of the data (forward-looking, ever-changing) makes it a poor fit for our usual tech. I decided to write a command-line program that reads two <abbr title="comma-separated values">CSVs</abbr> and outputs a third, which we can then import into a Google Sheet. Then I set up an AWS Lambda + API Gateway that serves a very simple web frontend so other folks can run it. This was fun and useful, though it was really low-level programming -- parsing multi-part form bodies, reading and writing basic auth headers, etc. If I were to do something like this again, I'd look for a library that adds additional functionality on top of the basic AWS Lambda request/response stuff. I was able to do some testing with [Testify][13] and learned a lot about structuring slightly larger Go codebases.
+
+[12]: https://www.getharvest.com/forecast
+[13]: https://github.com/stretchr/testify
+
+Working with a typed language, a good language server (`gopls`), and an editor that supports it well ([Helix][14]) is a joy -- I can see why people are excited about languages like TypeScript. I'll get `golong` cleaned up and up on GitHub, then write a more detailed post about it.
+
+[14]: /journal/a-month-with-helix/
+
+Final thought: someone (my father-in-law, I think) asked if we thought Nev would remember all these adventures we're having with her, and I said, no, but that's OK and not really the point. Even if she's not yet capable of forming lasting memories, these experiences are forming who she is. We want the first international flight she remembers into adulthood to feel like a familiar thing in the moment. Plus she's such a delight that experiencing new things with her and sharing her with the world is a source of deep joy for us.
+
 This month:
 
-* Adventure:
-* Project:
+* Adventure: Italy! Claire and I [did a bike tour through Tuscany][15] in 2017 that was supposed to end at Elba Island, though for various reasons, it did not. Claire has continued to follow the resort on social media, and we decided earlier this summer to finally check it out, Nev in tow. We've been so busy that it's just now coming into focus, but we are getting excited -- [just look at this place][16].
+* Project: hanging out with my buddy Ken (pictured up top), who records music as [Carillon][17], is always inspiring. I'd like to get a basic audio recording station set up in my basement and start playing with some acoustic and digital instruments. I'll probably repurpose the door I removed as part of the [closet project][18].
 * Skill:
+
+[15]: https://twonerds.net/blog/radda-in-chianti-to-siena
+[16]: https://www.rosselbalepalme.it/en/glamping-lodge.php
+[17]:	https://carillon58.bandcamp.com/album/the-whole-earth
+[18]: /journal/dispatch-4-june-2023/
 
 Reading:
 
-* Fiction: [_Forever and a Day_][10], Anthony Horowitz
-* Non-fiction: [_The Creative Programmer_][11], [Wouter Groeneveld][12]
+* Fiction: [_Forever and a Day_][19], Anthony Horowitz
+* Non-fiction: [_The Creative Programmer_][20], [Wouter Groeneveld][21]
 
-
-[10]: https://bookshop.org/p/books/forever-and-a-day-a-james-bond-novel-anthony-horowitz/7998118
-[11]: https://www.manning.com/books/the-creative-programmer
-[12]: https://brainbaking.com/
+[19]: https://bookshop.org/p/books/forever-and-a-day-a-james-bond-novel-anthony-horowitz/7998118
+[20]: https://www.manning.com/books/the-creative-programmer
+[21]: https://brainbaking.com/
 
 Links:
 
-* [Title][13]
-* [Title][14]
-* [Title][15]
+* [Title][22]
+* [Title][23]
+* [Title][24]
 
-[13]: https://example.com/
-[14]: https://example.com/
-[15]: https://example.com/
+[22]: https://example.com/
+[23]: https://example.com/
+[24]: https://example.com/
