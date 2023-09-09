@@ -1,0 +1,469 @@
+   #[1]The Verge
+
+   [2]Skip to main content
+   The Verge logo.[3]The Verge homepage
+
+     * [4]The Verge homepageThe Verge logo./
+     * [5]Tech/
+     * [6]Reviews/
+     * [7]Science/
+     * [8]Entertainment/
+     * (BUTTON) MoreMenuExpand
+
+   The Verge logo.
+   (BUTTON) MenuExpand
+
+     * [9]Platformer/
+     * [10]Apps/
+     * [11]Tech
+
+Why note-taking apps don’t make us smarter
+
+Why note-taking apps don’t make us smarter
+
+   /
+
+They’re designed for storage, not sparking insights. Can AI change that?
+
+   By [12]Casey Newton, a contributing editor who has been writing about
+   tech for over 10 years. He founded Platformer, a newsletter about Big
+   Tech and democracy.
+   Aug 25, 2023, 2:30 PM UTC| (BUTTON) Comments
+
+Share this story
+
+     * (BUTTON)
+     * (BUTTON)
+     * (BUTTON)
+
+   Screenshots of the note-taking app Obsidian.
+   Screenshots of the note-taking app Obsidian. Image: Obsidian
+
+   This is Platformer, a newsletter on the intersection of Silicon Valley
+   and democracy from Casey Newton and Zoë Schiffer. [13]Sign up here.
+     __________________________________________________________________
+
+   Today let’s step outside the news cycle and turn our attention toward a
+   topic I’m deeply invested in but only rarely write about: productivity
+   platforms. For decades now, software tools have promised to make
+   working life easier. But on one critical dimension — their ability to
+   improve our thinking — they don’t seem to be making much progress at
+   all.
+
+   Meanwhile, the arrival of generative artificial intelligence could make
+   the tools we use more powerful than ever — or they could turn out to be
+   just another mirage.
+
+   To understand where things went wrong, I want to focus on the humble
+   note-taking app: the place where, for so many of us, thinking begins.
+
+   I.
+
+   Earlier this week I read a story about farmers. “America’s Farmers Are
+   Bogged Down by Data,” read the headline on [14]Belle Lin’s story in the
+   Wall Street Journal. I thought to myself: You and me both, farmer! And
+   I read the piece.
+
+   Over the past decade, farmers have been offered all manner of software
+   tools to analyze and manage their crops. In general, though, the more
+   software that farmers use, the more they find themselves overwhelmed by
+   data that the tools collect. “We’re collecting so much data that you’re
+   almost paralyzed with having to analyze it all,” one farmer told the
+   Journal.
+
+   As a journalist, I’ve never collected as much data as I do now. The
+   collapse of Twitter has me browsing four or five text-based social
+   feeds a day, scanning for news and thoughtful conversation. The growing
+   popularity of arXiv and pre-prints in general has left me with a stack
+   of research that I will never get through. Book galleys pile up in my
+   house.
+   A screenshot of the app Notion. A screenshot of the app Notion.
+   A screenshot of the app Notion. A screenshot of the app Notion.
+   A screenshot of the app Notion. Image: Notion
+
+   Meanwhile, all day long I browse the web. Stories that might belong in
+   Platformer get saved into a database in the productivity platform
+   Notion. Every link that has ever been in this newsletter is stored
+   there, in many cases with the full article text.
+
+   Collectively, this material offers me an abundance of riches — far more
+   to work with than any beat reporter had such easy access to even 15
+   years ago.
+
+   And yet most days I find myself with the same problem as the farmer: I
+   have so much information at hand that I feel paralyzed.
+
+   II.
+
+   One solution to this data paralysis is to take notes. As a journalist,
+   of course, I have always taken notes. A few years ago, I thought we had
+   seen some true breakthroughs in note-taking, and increasingly put my
+   faith in those tools not just to capture my writing but to improve the
+   quality of my thinking.
+
+   The breakthrough tool was [15]Roam Research. In 2021, I wrote here
+   about [16]my first year using the subscription-based software, which
+   had two key insights into knowledge work. One was to make professional
+   note-taking feel more like journaling. It turns out that a fresh note
+   created each day, labeled with a date, is a good canvas for collecting
+   transient thoughts, which can serve as a springboard into deeper
+   thinking.
+
+   The second is known to note-taking nerds as “[17]bidirectional
+   linking.” Standard links, like the ones you find on the web, go in only
+   one direction — from one page to another. In a note-taking app,
+   bidirectional links join two pages together. This effectively lets you
+   add backlinks to any concept — a company that’s important to you, say,
+   or a concept that’s on your mind — and then let you browse everything
+   you’ve collected related to that concept at your leisure.
+   A graphic from Roam illustrating bidirectional linking. A graphic from
+   Roam illustrating bidirectional linking.
+   A graphic from Roam illustrating bidirectional linking. A graphic from
+   Roam illustrating bidirectional linking.
+   A graphic from Roam illustrating bidirectional linking. Image: Roam
+
+   On one level, that’s not so different from adding tags to notes. But
+   tags are more about search. Bidirectional links, which some apps show
+   you on pages that include snippets of all the other notes that contain
+   the same link, are more about browsing and rediscovery.
+
+   Initially, I threw myself into this kind of associative note-taking. I
+   gathered links around concepts I wanted to explore (“the internet
+   enables information to travel too quickly,” for example, or social
+   networks and polarization). When I had an interesting conversation with
+   a person, I would add notes to a personal page I had created for them.
+   A few times a week, I would revisit those notes.
+
+   I waited for the insights to come.
+
+   And waited. And waited.
+
+   Note-taking apps are up against a much stronger foe
+
+   My gusto for concept-based, link-heavy note-taking diminished. Roam’s
+   development slowed to a crawl, and I spent a season with the
+   lightweight, mostly free alternative known as [18]Obsidian. Obsidian’s
+   brutalist design wore on me, though, and eventually I decamped for the
+   more polished user interface of [19]Mem. (These apps all enable the
+   exporting of your notes in Markdown, making switching relatively
+   painless.)
+
+   I continue to journal most days, and occasionally find myself working
+   to refine one concept or another among those notes.
+
+   But the original promise of Roam — that it would improve my thinking by
+   helping me to build a knowledge base and discover new ideas — fizzled
+   completely.
+
+   III.
+
+   One interpretation of these events is that the software failed: that
+   journaling and souped-up links simply don’t have the power some of us
+   once hoped they did.
+
+   Another view, though, is that they are up against a much stronger foe —
+   the infinite daily distractions of the internet.
+
+   Note-taking, after all, does not take place in a vacuum. It takes place
+   on your computer, next to email, and Slack, and Discord, and iMessage,
+   and the text-based social network of your choosing. In the era of
+   alt-tabbing between these and other apps, our ability to build
+   knowledge and draw connections is permanently challenged by what might
+   be our ultimately futile efforts to multitask.
+
+   Ezra Klein wrote beautifully about this situation this week [20]in the
+   New York Times:
+
+     Gloria Mark, a professor of information science at the University of
+     California, Irvine, and the author of “[21]Attention Span,” started
+     researching the way people used computers in 2004. The average time
+     people spent on a single screen was 2.5 minutes. “I was astounded,”
+     she told me. “That was so much worse than I’d thought it would be.”
+     But that was just the beginning. By 2012, Mark and her colleagues
+     found the average time on a single task was 75 seconds. Now it’s
+     down to about 47.
+
+     This is an acid bath for human cognition. Multitasking is mostly a
+     myth. We can focus on one thing at a time. “It’s like we have an
+     internal whiteboard in our minds,” Mark said. “If I’m working on one
+     task, I have all the info I need on that mental whiteboard. Then I
+     switch to email. I have to mentally erase that whiteboard and write
+     all the information I need to do email. And just like on a real
+     whiteboard, there can be a residue in our minds. We may still be
+     thinking of something from three tasks ago.”
+
+   My first thought upon reading this was that it seems rare for me to
+   spend even 47 seconds looking at one screen on my computer without at
+   least glancing at another. (I bought a 38-inch widescreen monitor for
+   the express purpose of being able to glance at many windows
+   simultaneously. At the time I understood this as a tool for enhancing
+   my productivity.)
+
+   My second thought is that if you want to take good notes, you have to
+   first extract your mind from the acid bath.
+
+   IV.
+
+   Klein’s piece starts from the observation that productivity growth is
+   now about half of what it was in the 1950s and ‘60s. The internet’s
+   arrival briefly speeded it up, he writes, but the more we stared at our
+   screens the slower our productivity improved. He worries that AI will
+   have a similar effect on the economy — promising to make us more
+   productive, while simultaneously inventing so many new distractions and
+   entertainments that they overwhelm and paralyze us.
+
+   The piece stuck with me, because there is one specific way I am
+   counting on AI to make me more productive. It goes back to that
+   database of links I’ve been building in Notion, and the insights I was
+   hoping to get out of Roam.
+   Saving an article in Mem. Saving an article in Mem.
+   Saving an article in Mem. Saving an article in Mem.
+   Saving an article in Mem. Image: Mem
+
+   Earlier this year, like many productivity tools, Notion added a handful
+   of AI features. I use two of them in my links database. One extracts
+   the names of any companies mentioned in an article, creating a kind of
+   automatic tagging system. The other provides a two- or three-sentence
+   summary of the article I’m saving.
+
+   Neither of these, in practice, is particularly useful. Tags might
+   theoretically be useful for revisiting old material, but databases are
+   not designed to be browsed. And while we publish summaries of news
+   articles in each edition of Platformer, we wouldn’t use AI-written
+   summaries: among other reasons, they often miss important details and
+   context.
+
+   At the same time, the database contains nearly three years of links to
+   every subject I cover here, along with the complete text of thousands
+   of articles. It is here, and not in a note-taking app, that knowledge
+   of my beat has been accreting over the past few years. If only I could
+   access that knowledge in some way that went beyond my memory.
+
+   It’s here that AI should be able to help. Within some reasonable period
+   of time, I expect that I will be able to talk to my Notion database as
+   if it’s ChatGPT. If I could, I imagine I would talk to it all the time.
+
+   Much of journalism simply involves remembering relevant events from the
+   past. An AI-powered link database has a perfect memory; all it’s
+   missing is a usable chat interface. If it had one, it might be a
+   perfect research assistant.
+
+   Today’s chatbots can’t do any of this to a reporter’s standard
+
+   I imagine using it to generate little briefing documents to help me
+   when I return to a subject after some time away. Catch me up on
+   Canada’s fight with Meta over news, I might say. Make me a timeline of
+   events at Twitter since Elon Musk bought it. Show me coverage of
+   deepfakes over the past three months.
+
+   Today’s chatbots can’t do any of this to a reporter’s standard. The
+   training data often stops in 2021, for one thing. The bots continue to
+   make stuff up, and struggle to cite their sources.
+
+   But if I could chat in natural language with a massive archive, built
+   from hand-picked trustworthy sources? That seems powerful to me, at
+   least in the abstract.
+
+   Of course, the output from this kind of AI tool has to be trustworthy.
+   A significant problem with using AI tools to summarize things is that
+   you can’t trust the summary unless you read all the relevant documents
+   yourself — defeating the point of asking for a summary in the first
+   place.
+
+   Still, if you are the sort of productivity-tool optimist who will try
+   any to-do list or calendar app on the off chance it makes you even a
+   little happier at work, it seems to me that a database you can talk to
+   might be the next-generation note-taking tool we have been waiting for.
+
+   V.
+
+   I’ve learned something else about note-taking apps, though, since my
+   mania for them began in 2020.
+
+   In short: it is probably a mistake, in the end, to ask software to
+   improve our thinking. Even if you can rescue your attention from the
+   acid bath of the internet; even if you can gather the most interesting
+   data and observations into the app of your choosing; even if you
+   revisit that data from time to time — this will not be enough. It might
+   not even be worth trying.
+
+   I’ll admit to having forgotten those questions over the past couple
+   years
+
+   The reason, sadly, is that thinking takes place in your brain. And
+   thinking is an active pursuit — one that often happens when you are
+   spending long stretches of time staring into space, then writing a bit,
+   and then staring into space a bit more. It’s here here that the
+   connections are made and the insights are formed. And it is a process
+   that stubbornly resists automation.
+
+   Which is not to say that software can’t help. Andy Matuschak, a
+   researcher whose [22]spectacular website offers a feast of thinking
+   about notes and note-taking, observes [23]that note-taking apps
+   emphasize displaying and manipulating notes, but never making sense
+   between them. Before I totally resign myself to the idea that a
+   note-taking app can’t solve my problems, I will admit that on some
+   fundamental level no one has really tried.
+
+   “The goal is not to take notes — the goal is to think effectively,”
+   [24]Matuschak writes. “Better questions are ‘what practices can help me
+   reliably develop insights over time?’ [and] ‘how can I shepherd my
+   attention effectively?’”
+
+   I’ll admit to having forgotten those questions over the past couple
+   years as I kept filling up documents with transient strings of text
+   inside expensive software. And I accept that to be a better thinker,
+   I’ll have to devote more time and attention to wrestling with what I
+   find.
+
+   If there’s a friendly AI to help me do that, though, I’ll be first in
+   line to try it.
+
+   IFRAME: [25]https://www.platformer.news/embed
+
+   (BUTTON) Comments
+   Most Popular
+    1. [26]
+
+Chrome is about to look a bit different
+         ______________________________________________________________
+
+    2. [27]
+
+Tesla’s $25,000 ‘next-generation car’ will have a Cybertruck design
+         ______________________________________________________________
+
+    3. [28]
+
+iOS 16.6.1 fixes a big iPhone security vulnerability used to install Pegasus
+spyware
+         ______________________________________________________________
+
+    4. [29]
+
+You’ll soon be able to buy a brand-new Xbox 360
+         ______________________________________________________________
+
+    5. [30]
+
+BMW drops plan to charge a monthly fee for heated seats
+         ______________________________________________________________
+
+Verge Deals
+
+   / Sign up for Verge Deals to get deals on products we've tested sent to
+   your inbox daily.
+
+   Email (required) ____________________ (BUTTON) Sign up
+
+   By submitting your email, you agree to our [31]Terms and [32]Privacy
+   Notice. This site is protected by reCAPTCHA and the Google [33]Privacy
+   Policy and [34]Terms of Service apply.
+   From our sponsor
+
+   Advertiser Content From Sponsor logo
+   Sponsor thumbnail
+
+More from [35]Apps
+
+     * [36]Dropbox blames crypto miners and resellers for ending its
+       unlimited cloud storage plan
+     * Image of Meta’s logo with a red and blue background. Image of
+       Meta’s logo with a red and blue background.
+    [37]Meta is pulling the plug on Messenger Lite on Android
+     * An image showing the Threads logo An image showing the Threads logo
+    [38]Threads on the web is here
+     * [39]Max will launch a 24/7 CNN stream for all subscribers next
+       month
+     * Advertiser Content From Sponsor logo
+
+
+   The Verge logo.
+     * [40]Terms of Use
+     * [41]Privacy Notice
+     * [42]Cookie Policy
+     * [43]Do Not Sell Or Share My Personal Info
+     * [44]Licensing FAQ
+     * [45]Accessibility
+     * [46]Platform Status
+     * [47]How We Rate and Review Products
+
+     * [48]Contact
+     * [49]Tip Us
+     * [50]Community Guidelines
+     * [51]About
+     * [52]Ethics Statement
+
+   The Verge is a vox media network
+     * [53]Advertise with us
+     * [54]Jobs @ Vox Media
+
+   © 2023 [55]Vox Media, LLC. All Rights Reserved
+
+References
+
+   Visible links:
+   1. file:///rss/index.xml
+   2. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L26893-4475TMP.html#content
+   3. file:///
+   4. file:///
+   5. file:///tech
+   6. file:///reviews
+   7. file:///science
+   8. file:///entertainment
+   9. file:///platformer
+  10. file:///apps
+  11. file:///tech
+  12. file:///authors/casey-newton
+  13. https://www.platformer.news/
+  14. https://www.wsj.com/articles/americas-farmers-are-bogged-down-by-data-524f0a4d
+  15. https://roamresearch.com/
+  16. https://www.platformer.news/p/notes-on-a-year-using-roam-research
+  17. https://maggieappleton.com/bidirectionals
+  18. https://obsidian.md/
+  19. https://get.mem.ai/
+  20. https://www.nytimes.com/2023/05/28/opinion/artificial-intelligence-thinking-minds-concentration.html
+  21. https://www.harpercollins.com/products/attention-span-gloria-mark?variant=40346590117922
+  22. https://notes.andymatuschak.org/§Note-writing_systems
+  23. https://notes.andymatuschak.org/§Note-writing_systems?stackedNotes=zsRuFxYgckGS81tr2eiBAP
+  24. https://notes.andymatuschak.org/§Note-writing_systems?stackedNotes=z8V2q398qu89vdJ73N2BEYCgevMqux3yxQUAC&stackedNotes=z7kEFe6NfUSgtaDuUjST1oczKKzQQeQWk4Dbc
+  25. https://www.platformer.news/embed
+  26. file:///2023/9/7/23862311/google-chrome-redesign-material-you-web-store
+  27. file:///2023/9/8/23864172/tesla-next-generation-car-cybertruck-design-price
+  28. file:///2023/9/8/23864150/ios-16-6-1-iphone-security-vulnerability-0-day-exploit-patch-update
+  29. file:///2023/9/8/23864463/xbox-360-replica-mega-target-halo-3
+  30. file:///2023/9/7/23863258/bmw-cancel-heated-seat-subscription-microtransaction
+  31. https://www.voxmedia.com/legal/terms-of-use
+  32. https://www.voxmedia.com/legal/privacy-notice
+  33. https://policies.google.com/privacy
+  34. https://policies.google.com/terms
+  35. file:///apps
+  36. file:///2023/8/25/23845554/dropbox-ending-unlimited-storage-advanced-plan
+  37. file:///2023/8/24/23845179/meta-messenger-lite-android-google-play-shutting-down
+  38. file:///2023/8/22/23840441/meta-threads-web-app
+  39. file:///2023/8/24/23844121/cnn-max-warnerbros-discovery-news
+  40. https://www.voxmedia.com/legal/terms-of-use
+  41. https://www.voxmedia.com/legal/privacy-notice
+  42. https://www.voxmedia.com/legal/cookie-policy
+  43. file:///contact
+  44. https://www.voxmedia.com/pages/licensing
+  45. https://www.voxmedia.com/legal/accessibility
+  46. https://status.voxmedia.com/
+  47. file:///pages/how-we-rate
+  48. file:///contact-the-verge
+  49. file:///a/tip-us-secure-contact-email
+  50. file:///community-guidelines
+  51. file:///about-the-verge
+  52. file:///ethics-statement
+  53. https://www.voxmedia.com/vox-advertising
+  54. https://jobs.voxmedia.com/
+  55. https://www.voxmedia.com/
+
+   Hidden links:
+  57. file://localhost/
+  58. file://localhost/
+  59. http://theverge.com/
+  60. http://theverge.com/
+  61. http://theverge.com/
+  62. http://theverge.com/
+  63. file://localhost/

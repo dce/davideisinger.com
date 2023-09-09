@@ -1,0 +1,324 @@
+   #[1]Cal Newport » Feed [2]Cal Newport » Comments Feed [3]Cal Newport »
+   On Tools and the Aesthetics of Work Comments Feed [4]alternate
+   [5]alternate [6]alternate
+
+   IFRAME: [7]https://www.googletagmanager.com/ns.html?id=GTM-W6XZ4TH
+
+   [8]Skip to content
+
+   [9]Cal Newport
+
+   (BUTTON) Menu
+
+   [10]Cal Newport
+   (BUTTON) Menu
+     * [11]Home
+     * [12]Scholarship
+     * [13]Writing
+     * [14]Essays
+     * [15]Press
+     * [16]Contact
+
+   [17]Home » [18]Blog » On Tools and the Aesthetics of Work
+
+On Tools and the Aesthetics of Work
+
+   September 4, 2023
+
+   In the summer of 2022, an engineer named Keegan McNamara, who was at
+   the time working for a fundraising technology startup, found his way to
+   the [19]Arms and Armor exhibit at the Met. He was struck by the
+   unapologetic mixture of extreme beauty and focused function captured in
+   the antique firearms on display. As reported in [20]a recent profile of
+   McNamara published in The Verge, this encounter with the past sparked a
+   realization about the present:
+
+     “That combination of craftsmanship and utility, objects that are
+     both thoroughly practical and needlessly outrageously beautiful,
+     doesn’t really exist anymore. ‘And it especially doesn’t exist for
+     computers.'”
+
+   Aesthetically, contemporary digitals devices have become industrial and
+   impersonal: grey and black rectangles carved into generically-modern
+   clean lines . Functionally, they offer the hapless user a cluttered
+   explosion of potential activity, windows piling on top of windows,
+   command bars thick with applications. Standing in the Arms and Armor
+   exhibit McNamara began to wonder if there was a way to rethink the PC;
+   to save it from a predictable maximalism.
+
+   The result was [21]The Mythic I, a custom computer that McNamara
+   handcrafted over the year or so that followed that momentous afternoon
+   at the Met. The machine is housed in a swooping hardwood frame carved
+   using manual tools. An eight-inch screen is mounted above a 1980’s
+   IBM-style keyboard with big clacking keys that McNamara carefully
+   lubricated to achieve exactly the right sound on each strike: “if you
+   have dry rubbing of plastic, it doesn’t sound thock-y. It just sounds
+   cheap.” Below the keyboard is an Italian leather hand rest. To turn it
+   on you insert and turn a key and then flip a toggle switch.
+
+   Equally notable is what happens once the machine is activated. McNamara
+   designed the Mythic for three specific purposes: writing a novel,
+   writing occasional computer code, and writing his daily journal.
+   Accordingly, it runs a highly-modular version of Linux called NixOS
+   that he’s customized to only offer emacs, a text-based editor popular
+   among hacker types, that’s launched from a basic green command line.
+   You can’t go online, or create a PowerPoint presentation, or edit a
+   video. It’s a writing a machine, and like the antique arms that
+   inspired it, the Mythic implements this functionality with a focused,
+   beautiful utilitarianism.
+
+   In his critical classic, [22]Amusing Ourselves to Death, Neil Postman
+   argued that the form taken by the technologies we use impacts the
+   fundamental nature of our cognition. When we switched media consumption
+   from long newspaper articles to television soundbites, for example, our
+   understanding of news lost its heft and became more superficial and
+   emotionally-charged.
+
+   When pondering Keegan McNamara and the Mythic, I can’t help but apply
+   Postman’s framework to the machines that organize our professional
+   activities. The modern computer, with its generic styling and
+   overloaded activity, creates a cognitive environment defined by urgent,
+   bland, Sisyphean widget cranking — work as endless Slack and email and
+   Zoom and “jumping on” calls, in which there is always too much to do,
+   but no real sense of much of importance actually being accomplished.
+
+   In Keegan’s construction we find an alternative understanding of work,
+   built now on beauty, craftsmanship, and focus. Replacing everyone’s
+   MacBook with custom-carved hardwood, of course, is not enough on its
+   own to transform how we think about out jobs, [23]as these issues have
+   deeper roots. But the Mythic is a useful reminder that the rhythms of
+   our professional lives are not pre-ordained. We craft the world in
+   which we work, even if we don’t realize it.
+
+   #####
+
+   In other news: My longtime friend Brad Stulberg has a great new book
+   out this week. It’s called, [24]Master of Change: How to Excel When
+   Everything is Changing — Including You. In my cover blurb, I noted that
+   this “immensely wise and timely book provides a roadmap for a
+   tumultuous world.” I really mean it! The idea of preparing yourself to
+   thrive, and not crumble, when faced with inevitable change is
+   self-evidently important, and Brad does a great job of delivering the
+   goods on this timely theme.
+
+   Pro-tip: if you do buy the book this week, [25]go to Brad’s website to
+   claim a bunch of cool pre-order bonuses that he’s offering through the
+   first full week of publication.
+
+   [26]We Don’t Need a New Twitter
+
+7 thoughts on “On Tools and the Aesthetics of Work”
+
+    1.
+   Galia
+       [27]September 4, 2023 at 9:27 am
+       Too much information when few things matter: that reminds me of the
+       book Essentialism. Acting like those everyday stimuli don’t exist
+       is the first recipe for success.
+       [28]Reply
+    2.
+   Alexander Lewis
+       [29]September 4, 2023 at 11:57 am
+       I love the idea here. People still use old typewriters as art
+       pieces and coffee table decor in their homes. It’s hard to imagine
+       something similar occuring with modern computers. Laptops are used
+       until they’re dead, and then they’re recycled or thrown into the
+       junk drawer.
+       I think this craftsman/engineer might be onto something.
+       [30]Reply
+    3.
+   Rafa Font
+       [31]September 4, 2023 at 3:22 pm
+       They have become Swiss knives, tools for all. Especially mobile
+       phones, they’re maps, navigators, radio, compass, torch, voice
+       recorder, word processor… all in one.
+       I gave my kids a voice recorder the other day. So that they can
+       have a one-action device to play with and understand what it is, on
+       its own.
+       [32]Reply
+    4.
+   Alex Francisco
+       [33]September 4, 2023 at 8:04 pm
+       What a find!
+       My copies of ‘Understanding Media: The Extensions of Man’ –
+       McLuhan,
+       the Medium is the Massage are always in my mind.
+       A good summary is that one line by Culkin in an article about
+       McLuhan:
+       “We become what we behold. We shape our tools, and thereafter our
+       tools shape us.”
+       Timeless, humbling AND empowering at once.
+       [34]Reply
+    5.
+   rb
+       [35]September 4, 2023 at 9:47 pm
+       WordStar was more fun than WordPerfect, which was quite a bit more
+       fun than Microsoft Word. There has not been a professional writing
+       application since WordStar and its pale descendants including
+       EMACS. Everybody writes – there is opportunity here.
+       [36]Reply
+    6.
+   Garrett
+       [37]September 6, 2023 at 1:46 pm
+       In my opinion, another huge value of this is that it has a distinct
+       physical location. There’s a lot of power (at least for me) in
+       having a physical place to do things. When I’m in my woodshop for
+       instance, I am not engaging with distractions. I’m there to create
+       things and I’m limited (or, empowered) by the tools around me.
+       [38]Reply
+    7.
+   Judy
+       [39]September 6, 2023 at 6:23 pm
+       As someone who formerly worked in IT but transitioned to become a
+       classical fine art painter, I love the concept of objects that are
+       both utilitarian and beautiful. Many craftspeople of the past took
+       great pride in creating all manner of objects that were more than
+       simply useful, as Keegan McNamara discovered. Owners of these
+       well-crafted objects also loved them for their beauty. Beauty is
+       important in life.
+       [40]Reply
+
+Leave a Comment [41]Cancel reply
+
+   Comment
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   Name ______________________________ Email
+   ______________________________ ______________________________
+
+   [ ] Save my name, email, and website in this browser for the next time
+   I comment.
+
+   Post Comment
+
+   author
+
+About
+
+   Cal launched the "Study Hacks" blog at calnewport.com in 2007, and has
+   been regularly publishing essays here ever since. Over 2,000,000 people
+   a year visit this site to read Cal's weekly posts about technology,
+   productivity, and the quest to live and work deeply in an increasingly
+   distracted world, while tens of thousands more subscribe to have these
+   essays delivered directly to their inbox (see the sign-up form below).
+   [42]To read more, you can browse more than 15 years of past essays in
+   the archive.
+   In the fall of 2022, Cal launched a new portal, [43]TheDeepLife.com, to
+   serve as the online home for all other content relevant to the deep
+   life movement he helped initiate. Here you can find all past episodes
+   of Cal's popular podcast, Deep Questions, and explore an extensive
+   library of original videos.
+     __________________________________________________________________
+
+   footer logo
+
+   This site is the online home for the computer science professor and
+   bestselling author Cal Newport. Here you can learn more about Cal and
+   both his general-audience and academic writing. You can also browse and
+   subscribe to his long-running weekly essay series. For more on Cal's
+   podcast, videos, and online courses, please visit his media portal,
+   [44]TheDeepLife.com.
+
+Contact Info
+
+   Academic Communication
+   [45][email protected]
+   Media Inquires
+   [46][email protected]
+   All Other Requests
+   [47]See Contact Page
+
+Quick Links
+
+     * [48]Scholarship
+     * [49]Writing
+     * [50]Essays
+     * [51]Press
+     * [52]Contact
+     * [53]Media Kit
+     * [54]Podcast/Videos
+
+     * [55]Privacy Policies
+     * [56]Cookie Policy
+     * [57]Terms of Service
+     * [58]Accessibility Statement
+
+   Copyright © 2023 Cal Newport, All rights reserved.
+
+   Cleantalk Pixel
+
+References
+
+   Visible links:
+   1. https://calnewport.com/feed/
+   2. https://calnewport.com/comments/feed/
+   3. https://calnewport.com/on-tools-and-the-aesthetics-of-work/feed/
+   4. https://calnewport.com/wp-json/wp/v2/posts/15503
+   5. https://calnewport.com/wp-json/oembed/1.0/embed?url=https://calnewport.com/on-tools-and-the-aesthetics-of-work/
+   6. https://calnewport.com/wp-json/oembed/1.0/embed?url=https://calnewport.com/on-tools-and-the-aesthetics-of-work/&format=xml
+   7. https://www.googletagmanager.com/ns.html?id=GTM-W6XZ4TH
+   8. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L25674-6023TMP.html#content
+   9. https://calnewport.com/
+  10. https://calnewport.com/
+  11. https://calnewport.com/
+  12. https://calnewport.com/scholarship/
+  13. https://calnewport.com/writing/
+  14. https://calnewport.com/blog/
+  15. https://calnewport.com/press/
+  16. https://calnewport.com/contact/
+  17. https://calnewport.com/
+  18. https://calnewport.com/blog/
+  19. https://www.metmuseum.org/about-the-met/collection-areas/arms-and-armor
+  20. https://www.theverge.com/23841276/mythic-computer-keegan-mcnamara-pc-builder
+  21. https://www.mythic.computer/
+  22. https://www.amazon.com/Amusing-Ourselves-Death-Discourse-Business/dp/014303653X/
+  23. https://www.amazon.com/World-Without-Email-Reimagining-Communication/dp/0525536558/
+  24. https://www.amazon.com/Master-Change-Everything-Changing-Including/dp/006325316X
+  25. https://www.bradstulberg.com/
+  26. https://calnewport.com/we-dont-need-a-new-twitter/
+  27. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75274
+  28. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L25674-6023TMP.html#comment-75274
+  29. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75292
+  30. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L25674-6023TMP.html#comment-75292
+  31. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75309
+  32. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L25674-6023TMP.html#comment-75309
+  33. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75349
+  34. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L25674-6023TMP.html#comment-75349
+  35. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75355
+  36. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L25674-6023TMP.html#comment-75355
+  37. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75579
+  38. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L25674-6023TMP.html#comment-75579
+  39. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75642
+  40. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L25674-6023TMP.html#comment-75642
+  41. file:///on-tools-and-the-aesthetics-of-work/?utm_source=dlvr.it&utm_medium=twitter#respond
+  42. https://calnewport.com/index.php/archive/
+  43. https://www.thedeeplife.com/
+  44. https://www.thedeeplife.com/
+  45. file:///cdn-cgi/l/email-protection#ec8f82ded8d4ac8b89839e8b8998839b82c2898899
+  46. file:///cdn-cgi/l/email-protection#7d1e1c1113180a0d120f093d0d18131a0814130f1c131912101512080e18531e1210
+  47. https://calnewport.com/index.php/contact/
+  48. https://calnewport.com/scholarship/
+  49. https://calnewport.com/writing/
+  50. https://calnewport.com/blog/
+  51. https://calnewport.com/press/
+  52. https://calnewport.com/contact/
+  53. https://calnewport.com/media-kit/
+  54. https://calnewport.com/podcasts/
+  55. https://calnewport.com/privacy-policies/
+  56. https://calnewport.com/cookie-policy/
+  57. https://calnewport.com/terms-of-service/
+  58. https://calnewport.com/accessibility-statement/
+
+   Hidden links:
+  60. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L25674-6023TMP.html

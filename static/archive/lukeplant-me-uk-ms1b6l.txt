@@ -1,0 +1,126 @@
+     * Site
+          + [1]Home
+          + [2]About me
+     * Blog
+          + [3]Posts
+          + [4]Categories
+     * Post
+          + [5]Comments
+          + [6]Related
+
+No one actually wants simplicity
+
+   by [7]Luke Plant
+   Posted in:
+     * [8]Rants
+     * [9]Software development
+     * [10]Web development
+
+   — August 22, 2023 18:49
+
+   The reason that modern web development is [11]swamped with complexity
+   is that no one really wants things to be simple. We just think we do,
+   while our choices prove otherwise.
+
+   A lot of developers want simplicity in the same way that a lot of
+   clients claim they want a fast website. You respond “OK, so we can
+   remove some of these 17 Javascript trackers and other bloat that’s
+   making your website horribly slow?” – no, apparently those are all
+   critical business functionality.
+
+   In other words, they prioritise everything over speed. And then they
+   wonder why using their website is like rowing a boat through a lake of
+   molasses on a cold day using nothing but a small plastic spoon.
+
+   The same is often true of complexity. The real test is the question
+   “what are you willing to sacrifice to achieve simplicity?” If the
+   answer is “nothing”, then you don’t actually love simplicity at all,
+   it’s your lowest priority.
+
+   When I say “sacrifice”, I don’t mean that choosing simplicity will mean
+   you are worse off overall – simplicity brings massive benefits. But it
+   does mean that there will be some things that tempt you to believe you
+   are missing out.
+
+   For every developer, it might be something different. For one, the
+   tedium of having to spend half an hour a month ensuring that two
+   different things are kept in sync easily justifies the adoption of a
+   bulky framework that solves that particular problem. For another, the
+   ability to control how a checkbox animates when you check it is of
+   course a valid reason to add another 50 packages and 3 layers of
+   frameworks to their product. For another, adding an abstraction with
+   thousands of lines of codes, dozens of classes and page after page of
+   documentation in order to avoid manually writing a [12]tiny factory
+   function for a test is a great trade-off.
+
+   Of course we all claim to hate complexity, but it’s actually just
+   complexity added by other people that we hate — our own bugbears are
+   always exempted, and for things we understand we quickly become unable
+   to even see there is a potential problem for other people. Certainly
+   there are frameworks and dependencies that justify their existence and
+   adoption, but working out which ones they are is hard.
+
+   I think a good test of whether you truly love simplicity is whether you
+   are able to remove things you have added, especially code you’ve
+   written, even when it is still providing value, because you realise it
+   is not providing enough value.
+
+   Another test is what you are tempted to do when a problem arises with
+   some of the complexity you’ve added. Is your first instinct to add even
+   more stuff to fix it, or is it to remove and live with the loss?
+
+   The only path I can see through all this is to cultivate an almost
+   obsessive suspicion of [13]FOMO. I think that’s probably key to
+   learning to [14]say no.
+
+Links
+
+     * [15]Discussion of this post on Lobsters
+
+You may also like: [16]§
+
+     * [17]Test smarter, not harder
+     * [18]Announcement: Django Views - The Right Way
+     * [19]Wedding hacks - seating planner using simulated annealing
+     * [20]Wedding hacks - John Lewis gift list hyperlink
+     * [21]A prayer to the programming gods
+     * [22]Why learning Haskell/Python makes you a worse programmer
+     * [23]A Django website that took (a lot) more than 20 minutes.
+
+Comments [24]§
+
+   Comments should load when you scroll to here...
+
+   Copyright Luke Plant
+
+   Built using [25]Nikola
+   Powered by [26]DigitalOcean
+
+References
+
+   1. file:///var/folders/
+   2. file:///var/folders/personal/
+   3. file:///var/folders/q9/
+   4. file:///var/folders/q9/categories/
+   5. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L26554-9864TMP.html#comments
+   6. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L26554-9864TMP.html#related
+   7. https://lukeplant.me.uk/
+   8. file:///var/folders/q9/categories/rants/
+   9. file:///var/folders/q9/categories/software-development/
+  10. file:///var/folders/q9/categories/web-development/
+  11. https://www.youtube.com/watch?v=BtJAsvJOlhM
+  12. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/test-factory-functions-in-django/
+  13. https://en.wikipedia.org/wiki/Fear_of_missing_out
+  14. https://grugbrain.dev/#grug-on-saying-no
+  15. https://lobste.rs/s/ao2x0v/no_one_actually_wants_simplicity
+  16. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L26554-9864TMP.html#related
+  17. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/test-smarter-not-harder/
+  18. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/announcement-django-views-the-right-way/
+  19. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/wedding-hacks---seating-planner-using-simulated-annealing/
+  20. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/wedding-hacks---john-lewis-gift-list-hyperlink/
+  21. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/a-prayer-to-the-programming-gods/
+  22. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/why-learning-haskell-python-makes-you-a-worse-programmer/
+  23. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/a-django-website-that-took-a-lot-more-than-20-minutes/
+  24. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L26554-9864TMP.html#comments
+  25. https://getnikola.com/
+  26. https://m.do.co/c/cef485980f20
