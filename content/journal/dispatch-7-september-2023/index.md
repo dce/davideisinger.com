@@ -1,6 +1,6 @@
 ---
 title: "Dispatch #7 (September 2023)"
-date: 2023-09-04T22:38:04-04:00
+date: 2023-09-08T00:00:00-04:00
 draft: false
 tags:
 - dispatch
@@ -17,6 +17,22 @@ references:
   url: https://twonerds.net/blog/radda-in-chianti-to-siena
   date: 2023-09-08T20:11:47Z
   file: twonerds-net-pv4a04.txt
+- title: "On Tools and the Aesthetics of Work - Cal Newport"
+  url: https://calnewport.com/on-tools-and-the-aesthetics-of-work/
+  date: 2023-09-09T02:14:13Z
+  file: calnewport-com-jtszvi.txt
+- title: "Exit, Voice, Loyalty, Neglect: Why People Leave, Stay, or Try to Burn It All Down | The Art of Manliness"
+  url: https://www.artofmanliness.com/character/behavior/exit-voice-loyalty-neglect-why-people-leave-stay-or-try-to-burn-it-all-down/
+  date: 2023-09-09T02:15:27Z
+  file: www-artofmanliness-com-rx8ary.txt
+- title: "Digital Notetaking Stack - Notes from your friend Chris"
+  url: https://chrisnotes.io/digital-notetaking-stack
+  date: 2023-09-09T02:17:52Z
+  file: chrisnotes-io-ijc95x.txt
+- title: "Why note-taking apps don’t make us smarter - The Verge"
+  url: https://www.theverge.com/2023/8/25/23845590/note-taking-apps-ai-chat-distractions-notion-roam-mem-obsidian
+  date: 2023-09-09T02:26:18Z
+  file: www-theverge-com-mjsr9z.txt
 ---
 
 We were down at Lake Norman for the long weekend, and as I was pulling up the kayaks this morning, I couldn't help but feel like I was also sort of putting away the summer -- what a summer though. The last few weeks of August were pretty wall-to-wall. I went up to the Eastern Shore in Virginia to spend a long weekend with some old friends. Our rental was right on an inlet off the Chesapeake, and they had a stand-up paddleboard I was able to take out.
@@ -91,7 +107,7 @@ This month:
 
 * Adventure: Italy! Claire and I [did a bike tour through Tuscany][15] in 2017 that was supposed to end at Elba Island, though for various reasons, it did not. Claire has continued to follow the resort on social media, and we decided earlier this summer to finally check it out, Nev in tow. We've been so busy that it's just now coming into focus, but we are getting excited -- [just look at this place][16].
 * Project: hanging out with my buddy Ken (pictured up top), who records music as [Carillon][17], is always inspiring. I'd like to get a basic audio recording station set up in my basement and start playing with some acoustic and digital instruments. I'll probably repurpose the door I removed as part of the [closet project][18].
-* Skill:
+* Skill: just get my non-fiction reading habit back -- the stack to my left here is growing.
 
 [15]: https://twonerds.net/blog/radda-in-chianti-to-siena
 [16]: https://www.rosselbalepalme.it/en/glamping-lodge.php
@@ -109,10 +125,27 @@ Reading:
 
 Links:
 
-* [Title][22]
-* [Title][23]
-* [Title][24]
+* [On Tools and the Aesthetics of Work][22]
 
-[22]: https://example.com/
-[23]: https://example.com/
-[24]: https://example.com/
+  > But the Mythic is a useful reminder that the rhythms of our professional lives are not pre-ordained. We craft the world in which we work, even if we don’t realize it.
+
+* [Exit, Voice, Loyalty, Neglect: Why People Leave, Stay, or Try to Burn It All Down][23]
+
+  > Hirschman observed that people who find themselves in diminishing, less-than-ideal circumstances have three options: 1) leave the declining group, company, or relationship (exit), 2) express discontent to improve the situation (voice), or 3) stay in the organization and passively hope things get better (loyalty). 
+  >
+  > Since the initial publication of Exit, Voice, Loyalty in 1970, other social scientists have added a fourth option to Hirschman’s framework: neglect.
+
+* [Digital Notetaking Stack][24]
+
+  > So, I’ve developed a system that works for taking paper notes. It’s custom tailored to my goals and how my brain works. And as a cherry on top, I picked a notebook binder and pen that I really enjoy touching and looking at, which makes the whole system just that much better.
+  >
+  > Similarly, I use a set of different apps for different purposes when I’m taking notes in my digital world.
+
+* [Why note-taking apps don’t make us smarter][25]
+
+  > Today let’s step outside the news cycle and turn our attention toward a topic I’m deeply invested in but only rarely write about: productivity platforms. For decades now, software tools have promised to make working life easier. But on one critical dimension — their ability to improve our thinking — they don’t seem to be making much progress at all.
+
+[22]: https://calnewport.com/on-tools-and-the-aesthetics-of-work/
+[23]: https://www.artofmanliness.com/character/behavior/exit-voice-loyalty-neglect-why-people-leave-stay-or-try-to-burn-it-all-down/
+[24]: https://chrisnotes.io/digital-notetaking-stack
+[25]: https://www.theverge.com/2023/8/25/23845590/note-taking-apps-ai-chat-distractions-notion-roam-mem-obsidian

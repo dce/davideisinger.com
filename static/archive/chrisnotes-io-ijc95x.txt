@@ -1,0 +1,442 @@
+   #[1]Notes from your friend Chris
+
+   [2]Notes from your friend Chris
+   [3]Home [4]Archives [5]Search [6]Feed
+
+Digital Notetaking Stack
+
+   So I use a paper notebook. To be more specific, I use a notebook binder
+   with three separate notebooks in it. Each notebook serves a specific
+   purpose. The first one is for tasks and to-dos. The second one is just
+   a scratch pad for absolutely anything under the sun: drawings,
+   thoughts, somebody’s phone number, anything. The last one is a very
+   regimented journal where I reflect on personal experiences.
+
+   Sure, I could just use a single notebook for all of these purposes.
+   Hell, I could use a stack of printer paper for all these purposes; but
+   it would be clunky, it would be difficult, and I wouldn’t really want
+   to use it because it wouldn’t be very satisfying.
+
+   So, I’ve developed a system that works for taking paper notes. It’s
+   custom tailored to my goals and how my brain works. And as a cherry on
+   top, I picked a notebook binder and pen that I really enjoy touching
+   and looking at, which makes the whole system just that much better.
+
+   Similarly, I use a set of different apps for different purposes when
+   I’m taking notes in my digital world.
+
+   Yes, I could probably stick to just using the default notes app on my
+   phone, but it would be clunky, there would be friction, it would not
+   adapt to the way my brain works, and I would end up using it less. Plus
+   it isn’t really that satisfying to look at… but that’s just my opinion.
+
+   So instead, after nearly a decade of trial and error, I’ve developed a
+   system and way of working with my notes in my digital world that brings
+   me immense satisfaction and works well with the way my brain works and
+   the way my lifestyle is currently set up.
+
+   DISCLAIMERS:
+     * This is not me trying to convince you to use the apps that I use.
+       This is what works for me, and is very tailored to my brain and
+       life. I’m not here to tell you what to use. But if hearing about my
+       setup gives you ideas, that’s great!
+     * This is something I will continue to change and improve. It’s been
+       a long evolution to land on this setup. Trial and error was
+       involved, and will continue to be. I think there’s an ebb and flow
+       to changing your setup. If you do it too often, you lose
+       productivity. If you don’t do it enough, your setup may stagnate
+       and fail to match your lifestyle.
+     * This is a values-based notetaking setup. I believe in owning my own
+       data, having an easily exportable format (markdown), and using
+       tools that are extensible & hackable. For someone who doesn’t share
+       these values, this may seem overbuilt or convoluted or not native
+       enough or something.
+     * This is not written for the PKM enthusiast community. It’s a basic,
+       balanced setup using tools that are widely known. If you’re a
+       longtime Personal Knowledge Management guru, there won’t be
+       anything new for you here. This is written for the layman who is
+       dissatisfied with their current setup and looking for inspiration.
+
+   Anyway, if digital notetaking is something that never really clicked
+   for you, or if you currently have a workflow that you’re not pleased
+   with, this might be a blog article for you. Let me know on [7]Mastodon!
+
+Overview
+
+    i. Intake / Short-term notes
+   ii. Long-term notes
+   iii. Shared / Published notes
+   iv. Collaborative notes
+    v. Closing thoughts
+
+Intake / Short-term notes
+
+   One of the most important parts of my setup is my intake app. I hope
+   you’ve never had to experience this feeling:
+
+     Your friend names a cool restaurant or book for you to look up
+     later. You hastily pull up your notes app to write it down. But
+     wait. Where should you make the note? Does restaurant fall under
+     your travel folder? Or your food folder? What should you title it?
+     Do you need to make a new folder? While you’re fiddling with your
+     app your friend has already started talking about that other boba
+     place you should explore. Should that go in a whole other note? Oh
+     god.
+
+   I feel like a lot of people give up after going through this a couple
+   times and their notes app just ends up being a hodge-podge of
+   unorganized, random shit that they dread looking back at later.
+
+   This is exactly why I use an intake app, and my app of choice for this
+   incredibly important role is, of course, Drafts.
+
+   [8]✨Drafts✨
+
+   Drafts is made for this exact purpose. By default, it opens to a blank
+   new note. Whatever you type as the first line is considered the title.
+   And it has this insane concept called Actions that lets you quickly
+   process your notes by moving them elsewhere through deep interactions
+   with your other existing apps.
+
+   Let’s look at some pictures:
+
+   [723b4f53-202a-41b6-981c-d1e2710d6e47.png]
+
+   [896a49c3-ec20-4dff-89ac-33f9cf1e6120.png]
+
+   [78912a4e-95cc-463f-af64-5e55f4ddb395.png]
+
+   In the leftmost image, you can see where I keep Drafts. Front and
+   center, only app in my bottom drawer.
+
+   Middle image, you have the first thing you see when the app opens: a
+   blank note to write that restaurant / song / boba place.
+
+   Rightmost image, you have the actions pane.
+
+   The actions in this pane are customized to my workflow. You are able to
+   configure multiple pages, but I’m content with just one for now.
+
+   Drafting a text to your mom? Send it as a text message after you’ve
+   perfected it. Shopping list? Export straight into wherever you keep
+   that (for me it’s Things). Deep thought that’s perhaps a little too
+   deep? File it away in Day One where it will never see the light of day.
+
+   Basic tagging, shortcuts integration, and an archive folder really tie
+   everything together. Process a ton of drafts at once by selecting them
+   in the app and then doing a batch operation.
+
+   Drafts comes with a pretty comprehensive set of actions right out of
+   the box, but the true power here comes from tapping into the [9]Drafts
+   Directory: a massive repository of actions sourced from the Drafts
+   community (as well as many written by the creator).
+
+   Every app you could imagine is in this directory.
+
+   And the best part: if your app isn’t in there you can write your own
+   action!
+
+   Drafts could honestly take up a whole series of blog posts so I’ll stop
+   there for now. I haven’t even scratched the surface of what it can do,
+   but you really don’t need to dive very deep to reap the benefits.
+
+   Let’s table Drafts for now. It’ll come up later with how it pipes into
+   my other systems.
+
+Long-term notes
+
+   So you may have picked up on the fact that notes don’t stay in Drafts
+   long. They either get exported or archived.
+
+   Not every note is worthy of a permanent place in your note-taking
+   kingdom. Embracing this concept was a huge step in cleaning up my
+   digital world and starting to build a meaningful notes database for my
+   life.
+
+   As I continued to acclimate to digital notes, I noticed that certain
+   note categories began to make themselves known.
+
+   [11b85744-48ac-4c2d-a817-6e813929b837.png]
+
+   The middle 3 folders are the important ones to note here.
+
+Core
+
+   My core folder is where deeply personal stuff goes. Longterm goals,
+   journal entries, guiding principles and personal mantras. I wouldn’t
+   expect you to understand mine, but I’d encourage anyone to explore this
+   category of notes for themselves.
+
+   The notes in this folder don’t change much. But I recently started
+   recording a daily voice note diary of my day that I then transcribe and
+   summarize with AI.
+
+   I also do yearly, quarterly, monthly, and weekly planning sessions, and
+   the artifacts from these sessions often end up in here.
+
+Projects
+
+   Projects is my favorite folder in my long-term notes.
+
+   For me, this is a place for all kinds of things. Packing lists +
+   itineraries + other details for an upcoming trip, startup ideas,
+   potential blog posts, plans and details for my numerous hobbies.
+
+   Notes in here often originate in Drafts and get quickly exported to my
+   projects folder via Drafts actions.
+
+   Projects are usually temporary, and get moved to my archive folder when
+   they’re completed (or when I get bored and move onto the next hobby).
+
+Reference
+
+   This is for lists and information that I will want to keep as
+   reference. Quotes, wishlists, movie bucket list, books to read, etc.
+
+   I used to maintain a personal wiki of information on different topics.
+   Zettelkasten-esque, my knowledge wiki is currently in need of cleanup
+   and will likely be featured in its own blog post if I continue to work
+   on it.
+
+Other folders
+
+   Archive is self-explanatory. Old notes go in here.
+
+   Templates is for fill-in-the-blank templates for notes that I take
+   often. Like those yearly/quarterly/etc check-ins and certain types of
+   projects. There’s an Obsidian plugin that has some functionality to
+   take advantage of these, but right now I just duplicate and move
+   markdown files manually as-needed. Nothing fancy.
+     __________________________________________________________________
+
+   I find this setup to be just enough. My main folders allow plenty of
+   flexibility within them for me to develop all kinds of systems to match
+   how my brain works.
+
+Apps and stuff
+
+   Yes, yes, we’ll talk about the app I use, but that’s much less
+   important than the underlying foundation.
+
+   My long-term note-taking system is really just two things:
+     * A collection of markdown files
+     * A syncing service that circulates these files between my devices
+
+   If you commit to using the first, you can choose whatever you want for
+   the second and migrate between syncing providers at-will with minimal
+   headache. I’m not going to say much more on that, since others have
+   covered it very well ([10]File over App from one of the people
+   responsible for Obsidian).
+
+   And as long as you have these two, you can access all of your notes on
+   all of your devices with whatever Markdown tools you’d like. Ultimate
+   freedom, extensibility, and hackability.
+
+   That said, I use Obsidian.
+
+   [11]✨Obsidian✨
+
+   My go-to sync tool was Dropbox for a long time, but after committing
+   fully to Obsidian as my default app across Mac / iPad / iPhone I’ve
+   switched over to Obsidian Sync for the E2E encryption, longer note
+   history, and seamless integration with Obsidian.
+
+   It basically works like Dropbox used to before the weird Apple OS
+   integration stuff. Obsidian Sync downloads all the files onto your
+   device, so you still can access them with any markdown editor that has
+   access to the filesystem.
+
+   Drafts can export to my longterm notes via both the OS filesystem and
+   Obsidian app urls. Same for Shortcuts, which I’ll get to later.
+
+   Obsidian also plays nicely with iCloud, and supports Dropbox / Google
+   Drive / S3 through its community plugins. I have it connected to my
+   Dropbox for publishing / sharing notes, which I’ll get into in a bit.
+
+   My main reasons for using Obsidian are:
+     * It has command palette
+     * It has quick open
+     * It’s hackable & has community plugins
+
+   Honestly, the specific app here doesn’t really matter as much as the
+   underlying system. I could switch to using Ulysses or 1Writer or Byword
+   or nvAlt or something else entirely if I wanted.
+
+   I will say, like Drafts, Obsidian is a product of thoughtful design.
+   You don’t need to dive to deep to reap the benefits. But if you want to
+   be a power user, there’s a LOT it can do. For me, the important thing
+   is that I can open files and do stuff with them easily, and I can hack
+   it to accommodate to pretty much any use case my weird brain comes up
+   with.
+
+   Obsidian really knocks it out of the park for me, so I use it almost
+   exclusively right now (for long-term notes).
+
+Published / shared notes
+
+   I’m not going to shit on Notion in this post (not much, at least), but
+   one thing I really missed from migrating from it was the
+   ease-of-sharing.
+
+   I would put together an itinerary, packing list, cost breakdown, and
+   car-pooling plan for group camping trips in minutes, hit the share
+   button, and fire it off to my group chat of friends with no hiccups.
+
+   I had been craving that functionality in my new note-taking system, so
+   I built it. Kind of.
+
+   Before we get to that, let’s talk about my workflow for posting blog
+   articles.
+
+Publishing blog posts
+
+   Remember how I said I use Dropbox still for sharing / publishing?
+
+   I do that with help from a service called Blot.
+
+   [12]✨Blot✨
+
+   Blot turns a folder in your Dropbox account into a fully functioning
+   blog.
+
+   Their website explains it all, but basically to publish this article I
+   literally just dropped it into a folder in my Dropbox, which I can do
+   without leaving Obsidian.
+
+   I wouldn’t say this is anything groundbreaking, but I find it immensely
+   satisfying.
+
+Sharing notes
+
+   Okay, back to Notion-esque sharing.
+
+   Let’s say I put together a travel itinerary for a camping trip in my
+   Projects folder. It has a list of everyone attending, cost breakdown,
+   directions, packing list, and pictures of the campsite to drum up hype.
+
+   It’s all ready to go, but I need to share it out to my friends.
+
+   Enter Blot. Same service, different folder. This time, instead of
+   having Blot publish to chrisnotes.io, I have a separate domain I use
+   only for this purpose. I move the note to the shared folder and shoot
+   my friends the link.
+
+   The end. No fuss, no need for them to have an account, it’s just
+   published to a non-indexed domain that I use as an external
+   file/note-share.
+
+   ”But it’s not collaborative!” Yeah, and it’s not meant to be.
+
+Collaborative notes
+
+   Okay, so once in a blue moon I have a valid reason to collaborate on a
+   note with someone. It’s incredibly rare, and usually a very niche
+   use-case.
+
+   If it’s like a Resume or something, I use Google Drive, because the
+   output artifact is a document.
+
+   If it’s for brainstorming or something, Figma.
+
+   If it’s project tracking, Notion.
+
+   These aren’t really notes anymore. This is a one-off collaboration with
+   a specific outcome in mind, so it doesn’t really fall into the purview
+   of this post.
+
+   To be honest, I don’t think my personal notes database is something
+   that would ever require collaboration. My notes are deeply personal,
+   and I like it that way. I can publish if I need to, and there are
+   plenty of collaborative tools that work for other tasks. But I have yet
+   to need real-time collaboration on my actual notes.
+
+My gripe with Notion
+
+   Okay fine, quick note on Notion. While it’s a powerful tool that sparks
+   creativity in a very attractive interface, it goes against my core
+   values. You don’t own your data, it’s on their servers the entire time.
+   Offline mode barely works. Exporting is a mess because while they
+   present themselves as Markdown-esque, their stuff is so custom it’s a
+   mess to port to other apps.
+
+   You get punished as soon as you try to leave.
+
+   Best of luck to anyone entangled in that system. It took some work to
+   get my notes out of Notion, and I will not be going back.
+
+Closing thoughts
+
+   You made it to the end!
+
+   Personally, after having tried a lot of tools with varying levels of
+   depth and complexity, I find this setup very balanced.
+
+   It does just enough. I haven’t gone too deep into any of the tools.
+   It’s still portable. I could still switch stuff around with very little
+   overhead if I wanted to.
+
+   Being candid, my sync system is the one thing I am considering
+   changing. I don’t like that Obsidian Sync has no way to run headless,
+   and has no API access for other apps to tap into. If I wanted to change
+   editor, I’d need to switch back to Dropbox. It wouldn’t take much to
+   make the switch: maybe 5 minutes to update the config across all my
+   devices.
+
+   But that’s the only thing I’m really not happy with right now. I find
+   this system pretty seamless to work with. It has structure and
+   organization, without being so confined that it limits creativity.
+
+Bonus goodies
+
+   If you made it this far, you’re either really into notetaking systems
+   or you’re friends with me. Either way, you might get a kick out of some
+   of the cool functionality that comes from a system like this.
+
+Custom share sheet actions
+
+   Any time I’m browsing the web and come across something I want to buy
+   later, I can instantly append it to my Wishlist note using a share
+   sheet action that uses Obsidian’s deep-linking.
+
+   I could easily replicate this functionality using the OS filesystem in
+   shortcuts.
+
+   Or, if I was using Dropbox, I could do it with Dropbox’s shortcut
+   integrations.
+
+   I have a similar shortcut action for prepending selected text to my
+   Quotes note.
+
+   If I wanted, I could have an automation that downloads the current
+   weather and top news stories to a daily note for me to review when I
+   start my morning.
+
+   With a little scripting, you can really bend any of these tools / files
+   to do whatever you want because of the format.
+
+   Anyway, thanks so much for reading this far. I hope you got something
+   from it. And if you have any input, please let me know. I’m not going
+   to pretend I’m any kind of guru, and I love learning new things. If you
+   have suggestions or ideas or feedback, please send them my way on
+   [13]Mastodon!
+     __________________________________________________________________
+
+Date
+
+   September 4, 2023
+
+References
+
+   1. https://chrisnotes.io/feed.rss
+   2. file:///
+   3. file:///
+   4. file:///archives
+   5. file:///search
+   6. file:///feed.rss
+   7. https://mastodon.social/@chrisnotes
+   8. https://getdrafts.com/
+   9. https://directory.getdrafts.com/
+  10. https://stephanango.com/file-over-app
+  11. http://obsidian.md/
+  12. https://blot.im/
+  13. https://mastodon.social/@chrisnotes
