@@ -1,0 +1,162 @@
+   #[1]Steph Ango [2]Steph Ango
+
+   [3]Steph Ango / [4]Writing [5]About [6]Now
+
+                         Style is consistent constraint
+
+   September 3, 2023 •2 minute read
+
+   Oscar Wilde once said:
+
+     “Consistency is the last refuge of the unimaginative.”
+
+   When it comes to ideas, I agree — allow your mind to be changed. When
+   it comes to process, I disagree. Style emerges from consistency, and
+   having a style opens your imagination. Your mind should be flexible,
+   but your process should be repeatable.
+
+   Style is a set of constraints that you stick to.
+
+   You can explore many types of constraints: colors, shapes, materials,
+   textures, fonts, language, clothing, decor, beliefs, flavors, sounds,
+   scents, rituals. Your style doesn’t have to please anyone else. Play by
+   your own rules. Everything you do is open to stylistic interpretation.
+
+   A style can be a system, a pattern, a set of personal guidelines. Here
+   are a few of mine:
+     * I wear monochromatic clothing without logos
+     * I use YYYY-MM-DD dates everywhere
+     * I pluralize tag and folder names (e.g. #people not #person)
+     * I use [7]plain text files for all my writing
+     * I ask myself [8]40 questions every year
+     * I meal prep lunches every week, shave my head twice a week
+     * I write [9]concise essays, less than 500 words
+
+   Collect constraints you enjoy. Unusual constraints make things more
+   fun. You can always change them later. This is your style, after all.
+   It’s not a life commitment, it’s just the way you do things. For now.
+
+   Having a style collapses hundreds of future decisions into one, and
+   gives you focus. I always pluralize tags so I never have to wonder what
+   to name new tags.
+
+   Style gives you leverage. Every time you reuse your style you save
+   time. A durable style is a great investment.
+
+   Style helps you know when you’re breaking your constraints. Sometimes
+   you have to. And if you want to edit your constraints, you can. It will
+   be easier to adopt the new constraints if you already had some clearly
+   defined.
+
+   You don’t need a style for everything. Make a deliberate choice about
+   what needs consistency and what doesn’t.
+
+   If you stick with your constraints long enough, your style becomes a
+   cohesive and recognizable [10]point of view.
+     __________________________________________________________________
+
+Appendix
+
+   I am starting a collection of interesting personal style choices.
+   Please [11]send me examples and I’ll add them to the list.
+     * [12]Scott Yu-Jan [13]paints all his tools white.
+     * [14]2ynthetic uses a [15]limited palette for outfits and [16]office
+       decor.
+     * [17]Johnny Decimal is a system to organize digital data.
+     * [18]Casey Neistat labels everything [19]in his studio with paint
+       markers.
+     * Ryan Hoover [20]never changes his profile picture.
+     * Wes Anderson uses [21]the typeface Futura in many of his films.
+     * [22]Steve Jobs wore the same Issey Miyake black turtleneck and New
+       Balance 991 shoes every day.
+     * George R.R. Martin writes his novels on the 40 year old DOS
+       operating system
+     * Beethoven always counted exactly 60 coffee beans to make coffee,
+       especially for visitors.
+     * Jesper Kouthoofd of [23]Teenage Engineering [24]only uses lowercase
+       because uppercase communicates too much authority
+     * Osvaldo Cavandoli created the cartoon [25]La Linea using an
+       animated white line, colored backgrounds, and unintelligible
+       vocalizations
+
+   Linked mentions
+   [26]Don't specialize, hybridize
+   Specialization is too heavily encouraged as a career path. Becoming a
+   generalist is one alternative, but there is...
+   [27]Buy wisely
+   Whenever I buy things I try to prioritize cost per use. Sometimes I
+   consider other priorities such as...
+   [28]Obsidian Vault Template
+   I use Obsidian to write and take notes. This is my bottom-up approach
+   to note-taking and organizing things...
+   [29]Flexoki
+   Flexoki is an inky color scheme for prose and code. Flexoki is designed
+   for reading and writing on...
+
+   You might also enjoy
+     * [30]Buy wisely
+     * [31]Concise explanations accelerate progress
+     * [32]Scars are beautiful
+     * [33]Don't delegate understanding
+     * [34]Nibble and your appetite will grow
+     * [35]How I do my to-dos
+     * [36]Calmness is a superpower
+     * [37]Design is compromise
+     * [38]A little bit every day
+
+   [39]Receive my updates
+
+   Follow me via email, [40]RSS, [41]Twitter and [42]other options
+   ____________________ Sign up
+
+   [43]Mastodon
+
+References
+
+   Visible links:
+   1. https://stephango.com/feed.xml
+   2. https://stephango.com/feed.json
+   3. file:///
+   4. file:///
+   5. file:///about
+   6. file:///now
+   7. file:///file-over-app
+   8. file:///40-questions
+   9. file:///concise
+  10. file:///in-good-hands
+  11. file:///about
+  12. https://www.youtube.com/@ScottYuJan
+  13. https://www.youtube.com/watch?v=3GBPYRG9jM0
+  14. https://www.youtube.com/@2ynthetic
+  15. https://www.youtube.com/watch?v=4xMo2PsLi3c
+  16. https://www.youtube.com/watch?v=1RqBrl0-qOA
+  17. https://johnnydecimal.com/
+  18. https://www.youtube.com/@casey
+  19. https://www.youtube.com/watch?v=vb60rrtTddQ
+  20. https://www.ryanhoover.me/post/why-i-never-change-my-profile-pic
+  21. https://www.marksimonson.com/notebook/view/RoyalTenenbaumsWorldofFutura
+  22. https://en.wikipedia.org/wiki/Steve_Jobs
+  23. https://teenage.engineering/
+  24. https://scandinavianmind.com/feature/human-touch-interview-jesper-kouthoofd-teenage-engineering
+  25. https://en.wikipedia.org/wiki/La_Linea_(TV_series)
+  26. file:///hybridize
+  27. file:///buy-wisely
+  28. file:///vault
+  29. file:///flexoki
+  30. file:///buy-wisely
+  31. file:///concise
+  32. file:///scars
+  33. file:///understand
+  34. file:///nibble
+  35. file:///todos
+  36. file:///calmness
+  37. file:///design-is-compromise
+  38. file:///a-little-bit-every-day
+  39. file:///subscribe
+  40. file:///feed.xml
+  41. https://twitter.com/kepano
+  42. file:///subscribe
+  43. https://mastodon.social/@kepano
+
+   Hidden links:
+  45. https://twitter.com/kepano
