@@ -89,7 +89,7 @@ Reading:
 * Fiction:
 	* [_Double or Nothing_][12], Kim Sherwood
 	* [_Enemy of the State_][13], Kyle Mills
-* Non-fiction: [_Step by Step Mixing][14], [Bjorgvin Benediktsson][15]
+* Non-fiction: [_Step by Step Mixing_][14], [Bjorgvin Benediktsson][15]
 
 [12]: https://bookshop.org/p/books/double-or-nothing-a-double-o-novel-kim-sherwood/18644028?ean=9780063236516
 [13]: https://bookshop.org/p/books/enemy-of-the-state-vince-flynn/6701730?ean=9781982147525
