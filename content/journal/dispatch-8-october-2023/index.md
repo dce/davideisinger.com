@@ -110,6 +110,6 @@ Links:
 
 > When it comes to ideas, I agree — allow your mind to be changed. When it comes to process, I disagree. Style emerges from consistency, and having a style opens your imagination. Your mind should be flexible, but your process should be repeatable.
 
-[16]: https://example.com/
-[17]: https://example.com/
-[18]: https://example.com/
+[16]: https://xeiaso.net/blog/gokrazy/
+[17]: https://www.wired.com/story/i-finally-reached-computing-nirvana-what-was-it-all-for/
+[18]: https://stephango.com/style
