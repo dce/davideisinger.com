@@ -5,6 +5,14 @@ draft: false
 tags:
 - dispatch
 references:
+- title: "Sansone beach in Portoferraio, on the Island of Elba"
+  url: https://www.infoelba.com/island-of-elba/beaches/sansone-beach/
+  date: 2023-10-10T13:36:18Z
+  file: www-infoelba-com-pmih4w.txt
+- title: "Cavo, Island of Elba"
+  url: https://www.infoelba.com/discovering-elba/communes-towns/rio-marina/cavo/
+  date: 2023-10-10T13:36:21Z
+  file: www-infoelba-com-beacbk.txt
 - title: "gokrazy is really cool - Xe Iaso"
   url: https://xeiaso.net/blog/gokrazy/
   date: 2023-10-10T02:50:31Z
@@ -81,12 +89,12 @@ Reading:
 * Fiction:
 	* [_Double or Nothing_][12], Kim Sherwood
 	* [_Enemy of the State_][13], Kyle Mills
-* Non-fiction: [_The Creative Programmer_][14], [Wouter Groeneveld][15]
+* Non-fiction: [_Step by Step Mixing][14], [Bjorgvin Benediktsson][15]
 
 [12]: https://bookshop.org/p/books/double-or-nothing-a-double-o-novel-kim-sherwood/18644028?ean=9780063236516
 [13]: https://bookshop.org/p/books/enemy-of-the-state-vince-flynn/6701730?ean=9781982147525
-[14]: https://www.manning.com/books/the-creative-programmer
-[15]: https://brainbaking.com/
+[14]: https://bookshop.org/p/books/step-by-step-mixing-how-to-create-great-mixes-using-only-5-plug-ins-bjorgvin-benediktsson/9946155?ean=9781733688802
+[15]: https://www.stepbystepmixing.com/
 
 Links:
 
