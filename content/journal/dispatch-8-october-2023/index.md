@@ -73,7 +73,7 @@ I was anticipating a longer learning curve with the Circuit, and was kind of sur
 
 This month:
 
-* Adventure: [Bull City Race Fest][9] half-marathon next weekend, then, if I'm feeling frisky, keep my training up and register for [City of Oaks][10]. The other night, I was running after dark and managed to tweaked my ankle in the last 20 feet -- the perils of trying to balance work, parenting, and training, I guess.
+* Adventure: [Bull City Race Fest][9] half-marathon next weekend, then, if I'm feeling frisky, keep my training up and register for [City of Oaks][10]. The other night, I was running after dark and managed to tweak my ankle in the last 20 feet -- the perils of trying to balance work, parenting, and training, I guess.
 * Project:
   * Build a music workstation -- I need some more desk space for gear, cables, and power
   * Prep my `Golong` app for the upcoming NBA draft, then open source it & write a post about it
