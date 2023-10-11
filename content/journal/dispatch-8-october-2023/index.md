@@ -29,14 +29,14 @@ references:
 
 Italy was grand, what an adventure. We spent a little over a week in Tuscany, mostly on Elba Island, with quick visits to Siena and Florence on our way out. [Our accomodations on Elba][1] were awesome, and other highlights included [Spiaggia di Sansone][2], [Cavo][3], and revisiting a few favorite spots in Siena and Florence (the pizza at [Il Pomodorino][4] was as good as we remembered). 
 
+<!--more-->
+
 It wasn't all perfectly smooth -- Nev had a tough time with jet lag, and driving through Italy was stressful, but a week later, that stuff's all faded away and what remains are the great memories.
 
 [1]: https://www.rosselbalepalme.it/en/glamping-lodge.php
 [2]: https://www.infoelba.com/island-of-elba/beaches/sansone-beach/
 [3]: https://www.infoelba.com/discovering-elba/communes-towns/rio-marina/cavo/
 [4]: https://ilpomodorino.it/
-
-<!--more-->
 
 <div class="image-set">
   {{<thumbnail IMG_4710.jpeg "267x" />}}
