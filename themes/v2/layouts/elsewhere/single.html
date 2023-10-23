@@ -1,0 +1,14 @@
+{{ define "main" }}
+  {{ $url := urls.Parse .Params.canonical_url }}
+
+  <hr>
+
+  <h2>{{ .Title }}</h2>
+
+  <h3>
+    Posted {{ .Date | time.Format "2006-01-02" }}
+    on <a href="{{ .Params.canonical_url }}">{{ $url.Hostname }}</a>
+  </h3>
+
+  {{ .Content }}
+{{ end }}
