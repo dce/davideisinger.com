@@ -108,6 +108,11 @@ code {
   white-space: nowrap;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 .image-set {
   display: flex;
   gap: 1em;
@@ -116,11 +121,6 @@ code {
 
   figure {
     line-height: 0;
-  }
-
-  img {
-    width: 100%;
-    height: auto;
   }
 }
 
@@ -134,4 +134,20 @@ code {
   ul {
     margin-top: 0.5em;
   }
+}
+
+.highlight, pre {
+  overflow: auto;
+
+  code {
+    background: none;
+    padding: 0;
+    border-radius: 0;
+  }
+}
+
+pre {
+  background-color: #ddd;
+  padding: 1ch 1ch;
+  border-radius: 3px;
 }
