@@ -1,0 +1,170 @@
+   #[1]home [2]RSS
+
+   [3]Aaron Bushnell
+   (BUTTON)
+
+   Hi, I'm Aaron!
+
+   Born and raised in the midwest and notorious [4]golden retriever
+   hoarder.
+     * Featherhour
+     * Mastodon
+     * GitHub
+     * Twitch
+     * Spotify
+     * Twitter
+
+   You are beautiful. ❤️
+
+   [5]Aaron Bushnell
+
+   Hi, I'm Aaron!
+
+   Born and raised in the midwest and notorious [6]golden retriever
+   hoarder.
+     * Featherhour
+     * Mastodon
+     * GitHub
+     * Twitch
+     * Spotify
+     * Twitter
+
+   You are beautiful. ❤️
+
+   [7]← View all posts
+   August 28, 2023
+
+Keep your stack short
+
+   Not long ago [8]I wrote about using Gatsby.js on a Craft CMS project.
+   If you want to learn more about that particular pairing you may want to
+   read that post. But, for the sake of this one, I'll briefly summarize
+   the tech stack:
+
+   [9]Craft CMS handles the backend (content). [10]Gatsby.js, [11]GraphQL,
+   and [12]React handles frontend. The on-paper benefits sound like a
+   great approach for building a website:
+     * Craft CMS: The best CMS out there (in my opinion)
+     * React: One templating language for static-generated content and
+       client-side interactivity
+     * GraphQL: A centralized dataset accessible from a single API
+     * Performance: Serving a compiled, static version of the site is
+       extremely fast
+
+   If this were a web framework's website you'd see a column of ✅s next to
+   another framework's pitiful column of ❌s.
+
+But, there's always a catch
+
+   There's no such thing as a free lunch and that goes double for
+   programming.
+
+   If you've ever set up a system like this it's tempting to think
+   that—once it's established—the hardest part is over. But, it's not.
+
+   The hardest part isn't setting it up. It's coming back to it a year
+   later.
+
+   A year later you're more likely to be mired in:
+     * Time-consuming training and documentation for team members
+     * Out-of-date dependencies
+     * Updates that cause breaking changes across your stack
+     * Workflows that make trivial updates time-consuming
+
+   You wind up with a great deal of complexity that prevents you from
+   adding the features your client needs ASAP. While your stack is
+   conceptually well-separated and tidy, the separation itself becomes
+   your greatest liability to be productive.
+
+Low abstraction trends
+
+   Maybe you've heard, but [13]there's a post or two about [14]Tailwind
+   and its controversial approach.
+
+   I'm not going to proselytize a framework or tool. But there's an
+   obvious influx in tools like Tailwind that aim to reduce overhead and
+   abstractions.
+
+   Tailwind does this by encouraging you to style your components directly
+   in your templates:
+<!-- High Abstraction -->
+<div class="card"></div>
+
+<!-- Low Abstraction (Tailwind) -->
+<div class="bg-white rounded-lg p-4"></div>
+
+   React (by way of JSX) allows you to put your structure and interactions
+   into a single file. (And, if you inline your styles, you can collocate
+   everything).
+<button onClick={() => alert('I think you are great!')}>
+  What do you think about me?
+</button>
+
+   Developers find value in these types of low-overhead tools because:
+    1. They can collocate a component's structure, functionality, and
+       styling into a single file
+    2. Detecting "leakage" can be easier because changes to structure,
+       functionality, and styling can occur in this single file
+
+Shortening the stack
+
+   Revisiting our Gatsby.js example, there's a similarly large distance
+   between the content being stored and the views being presented. It's
+   separated by tools, by protocol, and even by language. All of these
+   bridges require connectors—any of which can fail for any number of
+   reasons and require intervention.
+
+   But, if we were to reduce the stack from Craft CMS, Gatsby.js, GraphQL,
+   and React to just Craft CMS and [15]Twig (Craft's templating language)
+   it eliminates a massive set of complexity and overhead.
+
+   Not only does it reduce a large number of dependencies, but it
+   eliminates all of the connecting protocols and an entirely different
+   language to keep the stack working. It means fewer bridges to cross,
+   fewer competing dependencies, and a dramatically simpler stack to
+   revisit a year later.
+
+Wrapping up
+
+   I do want to be clear in stating that this isn't an indictment against
+   Gatsby.js, Craft, or a pairing between the two. Rather, I hope it
+   causes you to consider all technical challenges not as something that
+   needs to be solved once, but sustained indefinitely.
+
+   When you're building something it's not quite appropriate to ask "will
+   this be hard to set up?". You're smart and I believe you can set it up!
+
+   Instead, ask yourself: "Will this be harder a year later?"
+
+References
+
+   Visible links:
+   1. https://aaronmbushnell.com/
+   2. https://aaronmbushnell.com/feed.xml
+   3. file:///
+   4. file:///images/goldens.png
+   5. file:///
+   6. file:///images/goldens.png
+   7. file:///
+   8. file:///running-gatsby-js-sites-with-craft-cms
+   9. https://craftcms.com/
+  10. https://www.gatsbyjs.com/
+  11. https://graphql.org/
+  12. https://react.dev/
+  13. https://www.google.com/search?q=site:medium.com+tailwind
+  14. https://tailwindcss.com/
+  15. https://twig.symfony.com/
+
+   Hidden links:
+  17. https://featherhour.com/
+  18. https://mastodon.social/@aaronbushnell
+  19. https://github.com/aaronbushnell
+  20. https://www.twitch.tv/aaronbushnell
+  21. https://open.spotify.com/user/aaronmbushnell
+  22. https://twitter.com/aaronbushnell
+  23. https://featherhour.com/
+  24. https://mastodon.social/@aaronbushnell
+  25. https://github.com/aaronbushnell
+  26. https://www.twitch.tv/aaronbushnell
+  27. https://open.spotify.com/user/aaronmbushnell
+  28. https://twitter.com/aaronbushnell
