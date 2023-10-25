@@ -47,7 +47,7 @@ tried to standardize on:
 8.  [Coordinate services with
     `wait-for-it`](#8-coordinate-services-with-wait-for-it)
 9.  [Start entrypoint scripts with `set -e` and end with
-    `exec "$@"`](#9-start-entrypoint-scripts-with-set-e-and-end-with-exec)
+    `exec "$@"`](#9-start-entrypoint-scripts-with-set--e-and-end-with-exec-)
 10. [Target different CPU architectures with
     `BUILDARCH`](#10-target-different-cpu-architectures-with-buildarch)
 11. [Prefer `docker compose` to
