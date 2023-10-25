@@ -86,7 +86,7 @@ and [`mini_magick`](https://github.com/minimagick/minimagick) to do the
 cropping. If you don't need cropping, feel free to leave that one out
 and update the code accordingly. Without further ado:
 
-```
+```ruby
 require 'json'
 require 'aws-sdk-s3'
 require 'mail'
@@ -182,13 +182,12 @@ CLI](https://aws.amazon.com/cli/). [Here's a pretty good
 walkthrough](https://docs.aws.amazon.com/lambda/latest/dg/ruby-package.html)
 of how to do it but I'll summarize:
 
-1.  Install your gems locally with
-    `bundle install --path vendor/bundle`.
+1.  Install your gems locally with `bundle install --path vendor/bundle`.
 2.  Edit your code (in our case, it lives in `lambda_function.rb`).
 3.  Make a simple shell script that zips up your function and gems and
     sends it up to AWS:
 
-```
+```sh
 #!/bin/sh
 
 zip -r function.zip lambda_function.rb vendor 
