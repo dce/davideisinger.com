@@ -1,7 +1,10 @@
 {{ define "main" }}
   <hr>
 
-  <h2>{{ .Title }}</h2>
+  <h2>
+    <a href="/journal">Journal</a> <span>&gt;</span>
+    {{ .Title }}
+  </h2>
 
   <h3>
     Posted {{ .Date | time.Format "2006-01-02" }}

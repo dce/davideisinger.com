@@ -2,7 +2,10 @@
   <section>
     <hr>
 
-    <h3>#{{ .Title }}</h3>
+    <h2>
+      <a href="/tags">Tags</a> <span>&gt;</span>
+      #{{ .Title }}
+    </h2>
 
     <ul>
       {{ range .RegularPages }}

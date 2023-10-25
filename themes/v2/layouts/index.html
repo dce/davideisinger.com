@@ -9,11 +9,37 @@
     </h3>
 
     <ul>
-      {{ range (where .Site.RegularPages "Type" "in" "journal") }}
+      {{ range first 5 (where .Site.RegularPages "Type" "in" "journal") }}
         <li>
           <p>
             <a href="{{ .Permalink }}">{{ .Title }}</a>
             {{ .Date | time.Format "(2006-01-02)" }}
+          </p>
+
+          {{ .Summary }}
+        </li>
+      {{ end }}
+    </ul>
+  </section>
+
+  <section>
+    <hr>
+
+    <h3>
+      <a href="/elsewhere">Elsewhere</a>
+    </h3>
+
+    <ul>
+      {{ range where (where .Site.RegularPages "Type" "in" "elsewhere") "Params.featured" "=" true }}
+        {{ $url := urls.Parse .Params.canonical_url }}
+        {{ $host := strings.Replace $url.Hostname "www." "" }}
+
+        <li>
+          <p>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            <span class="nowrap">
+              (<a href="{{ $url }}">{{ $host }}</a>, {{ .Date | time.Format "2006-01-02" }})
+            </span>
           </p>
 
           {{ .Summary }}

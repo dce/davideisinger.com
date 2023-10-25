@@ -1,13 +1,11 @@
-<head>
-  <meta charset="utf-8">
-  <title>
-    {{- if .Page.IsHome -}}
-      {{ .Site.Title }}
-    {{- else -}}
-      {{ .Title }} – {{ .Site.Title }}
-    {{- end -}}
-  </title>
-  {{ $css := resources.Get "css/style.scss" | toCSS | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-</head>
+<meta charset="utf-8">
+<title>
+  {{- if .Page.IsHome -}}
+    {{ .Site.Title }}
+  {{- else -}}
+    {{ .Title }} – {{ .Site.Title }}
+  {{- end -}}
+</title>
+{{ $css := resources.Get "css/style.scss" | toCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">

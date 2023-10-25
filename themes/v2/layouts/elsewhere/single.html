@@ -1,13 +1,21 @@
+{{ define "head" }}
+  <link rel="canonical" href="{{ .Params.canonical_url }}">
+{{ end }}
+
 {{ define "main" }}
   {{ $url := urls.Parse .Params.canonical_url }}
+  {{ $host := strings.Replace $url.Hostname "www." "" }}
 
   <hr>
 
-  <h2>{{ .Title }}</h2>
+  <h2>
+    <a href="/elsewhere">Elsewhere</a> <span>&gt;</span>
+    {{ .Title }}
+  </h2>
 
   <h3>
     Posted {{ .Date | time.Format "2006-01-02" }}
-    on <a href="{{ .Params.canonical_url }}">{{ $url.Hostname }}</a>
+    on <a href="{{ .Params.canonical_url }}">{{ $host }}</a>
   </h3>
 
   {{ .Content }}
