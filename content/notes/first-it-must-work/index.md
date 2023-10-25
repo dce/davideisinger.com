@@ -43,6 +43,10 @@ references:
   url: https://lukeplant.me.uk/blog/posts/no-one-actually-wants-simplicity/
   date: 2023-09-09T02:23:06Z
   file: lukeplant-me-uk-ms1b6l.txt
+- title: "Keep your stack short | Aaron Bushnell"
+  url: https://aaronmbushnell.com/keep-your-stack-short/
+  date: 2023-10-25T14:21:17Z
+  file: aaronmbushnell-com-x5e6nn.txt
 ---
 
 ### Thoughts on priorities in software development
@@ -66,6 +70,7 @@ references:
 * [Choose Boring Technology][8]
 * [There's still no silver bullet][9]
 * [No one actually wants simplicity][10]
+* [Keep your stack short][11]
 
 [3]: https://grugbrain.dev/
 [4]: https://world.hey.com/dhh/even-amazon-can-t-make-sense-of-serverless-or-microservices-59625580
@@ -75,3 +80,4 @@ references:
 [8]: https://mcfunley.com/choose-boring-technology
 [9]: https://changelog.com/posts/still-no-silver-bullet
 [10]: https://lukeplant.me.uk/blog/posts/no-one-actually-wants-simplicity/
+[11]: https://aaronmbushnell.com/keep-your-stack-short/
