@@ -1,7 +1,10 @@
 {{ define "main" }}
   <hr>
 
-  <h2>{{ .Title }}</h2>
+  <h2>
+    <a href="/elsewhere">Notes</a> <span>&gt;</span>
+    {{ .Title }}
+  </h2>
 
   {{ .Content }}
 

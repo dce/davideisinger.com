@@ -16,6 +16,10 @@ body {
 h1, h2, h3 {
   font-size: 1em;
   margin: 1em 0;
+
+  span {
+    color: #aaa;
+  }
 }
 
 h3 {
@@ -111,6 +115,11 @@ code {
 img {
   width: 100%;
   height: auto;
+
+  &.inline {
+    width: auto;
+    vertical-align: middle;
+  }
 }
 
 .image-set {

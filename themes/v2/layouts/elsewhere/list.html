@@ -2,14 +2,20 @@
   <section>
     <hr>
 
-    <h3>Elsewhere</h3>
+    <h2>Elsewhere</h2>
+
+    {{ .Content }}
 
     <ul>
       {{ range (where .Site.RegularPages "Type" "in" "elsewhere") }}
+        {{ $url := urls.Parse .Params.canonical_url }}
+        {{ $host := strings.Replace $url.Hostname "www." "" }}
+
         <li>
           <a href="{{ .Permalink }}">{{ .Title }}</a>
-          {{ .Date | time.Format "(2006-01-02)" }}
-          {{ if .Params.needs_review }}<b>NEEDS REVIEW</b>{{ end }}
+          <span class="nowrap">
+            (<a href="{{ $url }}">{{ $host }}</a>, {{ .Date | time.Format "2006-01-02" }})
+          </span>
         </li>
       {{ end }}
     </ul>
