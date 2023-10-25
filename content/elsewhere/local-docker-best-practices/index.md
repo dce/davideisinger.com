@@ -169,8 +169,8 @@ baked into your image, drastically increasing its size. Best practice is
 to do the update, install, and cleanup in a single `RUN` command:
 
 ```dockerfile
-RUN apt-get update &&
-  apt-get install -y libgirepository1.0-dev libpoppler-glib-dev &&
+RUN apt-get update && \
+  apt-get install -y libgirepository1.0-dev libpoppler-glib-dev && \
   rm -rf /var/lib/apt/lists/*
 ```
 
@@ -269,8 +269,8 @@ something like this:
 ```dockerfile
 FROM ruby:2.7.6
 
-RUN curl -sS https://nodejs.org/download/release/v16.17.0/node-v16.17.0-linux-x64.tar.gz
-    | tar xzf - --strip-components=1 -C "/usr/local"
+RUN curl -sS https://nodejs.org/download/release/v16.17.0/node-v16.17.0-linux-x64.tar.gz \
+  | tar xzf - --strip-components=1 -C "/usr/local"
 ```
 
 This works fine on Intel Macs, but blows up on Apple Silicon -- notice
@@ -294,11 +294,11 @@ FROM ruby:2.7.6
 
 ARG BUILDARCH
 
-RUN if [ "$BUILDARCH" = "arm64" ];
-  then curl -sS https://nodejs.org/download/release/v16.17.0/node-v16.17.0-linux-arm64.tar.gz
-    | tar xzf - --strip-components=1 -C "/usr/local";
-  else curl -sS https://nodejs.org/download/release/v16.17.0/node-v16.17.0-linux-x64.tar.gz
-    | tar xzf - --strip-components=1 -C "/usr/local";
+RUN if [ "$BUILDARCH" = "arm64" ]; \
+  then curl -sS https://nodejs.org/download/release/v16.17.0/node-v16.17.0-linux-arm64.tar.gz \
+    | tar xzf - --strip-components=1 -C "/usr/local"; \
+  else curl -sS https://nodejs.org/download/release/v16.17.0/node-v16.17.0-linux-x64.tar.gz \
+    | tar xzf - --strip-components=1 -C "/usr/local"; \
   fi
 ```
 
