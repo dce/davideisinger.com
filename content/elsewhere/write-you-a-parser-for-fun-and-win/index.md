@@ -2,7 +2,6 @@
 title: "Write You a Parser for Fun and Win"
 date: 2013-11-26T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/write-you-a-parser-for-fun-and-win/
 ---
 
@@ -76,46 +75,49 @@ constructing parsers in the PEG (Parsing Expression Grammar) fashion."
 Parslet turned out to be the perfect tool for the job. Here, for
 example, is a basic parser for the above degree input:
 
-    class DegreeParser < Parslet::Parser
-     root :degree_groups
+```ruby
+class DegreeParser < Parslet::Parser
+  root :degree_groups
 
-     rule(:degree_groups) { degree_group.repeat(0, 1) >>
-     additional_degrees.repeat(0) }
+  rule(:degree_groups) { degree_group.repeat(0, 1) >>
+    additional_degrees.repeat(0) }
 
-     rule(:degree_group) { institution_name >>
-     (newline >> degree).repeat(1).as(:degrees_attributes) }
+  rule(:degree_group) { institution_name >>
+    (newline >> degree).repeat(1).as(:degrees_attributes) }
 
-     rule(:additional_degrees) { blank_line.repeat(2) >> degree_group }
+  rule(:additional_degrees) { blank_line.repeat(2) >> degree_group }
 
-     rule(:institution_name) { line.as(:institution_name) }
+  rule(:institution_name) { line.as(:institution_name) }
 
-     rule(:degree) { year.as(:year).maybe >>
-     semicolon >>
-     name >>
-     semicolon >>
-     field_of_study }
+  rule(:degree) { year.as(:year).maybe >>
+    semicolon >>
+    name >>
+    semicolon >>
+    field_of_study }
 
-     rule(:name) { segment.as(:name) }
-     rule(:field_of_study) { segment.as(:field_of_study) }
+  rule(:name) { segment.as(:name) }
 
-     rule(:year) { spaces >>
-     match("[0-9]").repeat(4, 4) >>
-     spaces }
+  rule(:field_of_study) { segment.as(:field_of_study) }
 
-     rule(:line) { spaces >>
-     match('[^ \r\n]').repeat(1) >>
-     match('[^\r\n]').repeat(0) }
+  rule(:year) { spaces >>
+    match("[0-9]").repeat(4, 4) >>
+    spaces }
 
-     rule(:segment) { spaces >>
-     match('[^ ;\r\n]').repeat(1) >>
-     match('[^;\r\n]').repeat(0) }
+  rule(:line) { spaces >>
+    match('[^ \r\n]').repeat(1) >>
+    match('[^\r\n]').repeat(0) }
 
-     rule(:blank_line) { spaces >> newline >> spaces }
-     rule(:newline) { str("\r").maybe >> str("\n") }
-     rule(:semicolon) { str(";") }
-     rule(:space) { str(" ") }
-     rule(:spaces) { space.repeat(0) }
-    end
+  rule(:segment) { spaces >>
+    match('[^ ;\r\n]').repeat(1) >>
+    match('[^;\r\n]').repeat(0) }
+
+  rule(:blank_line) { spaces >> newline >> spaces }
+  rule(:newline) { str("\r").maybe >> str("\n") }
+  rule(:semicolon) { str(";") }
+  rule(:space) { str(" ") }
+  rule(:spaces) { space.repeat(0) }
+end
+```
 
 Let's take this line-by-line:
 
@@ -167,13 +169,15 @@ newline, etc.) are part of a parent class so that only the
 resource-specific instructions would be included in this parser. Here's
 what we get when we pass our degree info to this new parser:
 
-    [{:institution_name=>"Duke University"@0,
-     :degrees_attributes=>
-     [{:name=>" Ph.D."@17, :field_of_study=>" Biomedical Engineering"@24}]},
-     {:institution_name=>"University of North Carolina"@49,
-     :degrees_attributes=>
-     [{:year=>"2010"@78, :name=>" M.S."@83, :field_of_study=>" Biology"@89},
-     {:year=>"2007"@98, :name=>" B.S."@103, :field_of_study=>" Biology"@109}]}]
+```ruby
+[{:institution_name=>"Duke University"@0,
+ :degrees_attributes=>
+ [{:name=>" Ph.D."@17, :field_of_study=>" Biomedical Engineering"@24}]},
+ {:institution_name=>"University of North Carolina"@49,
+ :degrees_attributes=>
+ [{:year=>"2010"@78, :name=>" M.S."@83, :field_of_study=>" Biology"@89},
+ {:year=>"2007"@98, :name=>" B.S."@103, :field_of_study=>" Biology"@109}]}]
+```
 
 The values are Parslet nodes, and the `@XX` indicates where in the input
 the rule was matched. With a little bit of string coercion, this output

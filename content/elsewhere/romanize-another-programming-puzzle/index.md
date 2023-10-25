@@ -2,7 +2,6 @@
 title: "Romanize: Another Programming Puzzle"
 date: 2015-03-06T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/romanize-another-programming-puzzle/
 ---
 
@@ -30,7 +29,7 @@ of programs that work like this:
     > ./romanize 1904
     MCMIV
 
-It\'s a deceptively difficult problem, especially if, like me, you only
+It's a deceptively difficult problem, especially if, like me, you only
 understand how Roman numerals work in the vaguest sense. And it's one
 thing to create a solution that passes the test suite, and another
 entirely to write something concise and elegant -- going from Arabic to

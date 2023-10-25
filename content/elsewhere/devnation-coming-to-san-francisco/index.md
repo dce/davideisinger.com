@@ -2,7 +2,6 @@
 title: "DevNation Coming to San Francisco"
 date: 2010-07-29T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/devnation-coming-to-san-francisco/
 ---
 

@@ -2,7 +2,6 @@
 title: "Required Fields Should Be Marked NOT NULL"
 date: 2014-09-25T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/required-fields-should-be-marked-not-null/
 ---
 
@@ -34,9 +33,9 @@ presence validations should not be mutually exclusive, and in fact, **if
 an attribute's presence is required at the model level, its
 corresponding database column should always require a non-null value.**
 
-## Why use non-null columns for required fields? {#whyusenon-nullcolumnsforrequiredfields}
+## Why use non-null columns for required fields?
 
-### Data Confidence {#dataconfidence}
+### Data Confidence
 
 The primary reason for using NOT NULL constraints is to have confidence
 that your data has no missing values. Simply using a `presence`
@@ -47,7 +46,7 @@ ignores validations, as does `save` if you call it with the
 option. Additionally, database migrations that manipulate the schema
 with raw SQL using `execute` bypass validations.
 
-### Undefined method 'foo' for nil:NilClass {#undefinedmethodfoofornil:nilclass}
+### Undefined method 'foo' for nil:NilClass
 
 One of my biggest developer pet peeves is seeing a
 `undefined method 'foo' for nil:NilClass` come through in our error
@@ -62,7 +61,7 @@ to the ID of an actual team. We'll get to that second bit in our
 discussion of foreign key constraints in a later post, but the first
 part, ensuring that `team_id` has a value, demands a `NOT NULL` column.
 
-### Migration Issues {#migrationissues}
+### Migration Issues
 
 Another benefit of using `NOT NULL` constraints is that they force you
 to deal with data migration issues. Suppose a change request comes in to
@@ -80,7 +79,7 @@ what to fill in for all of the existing users' ages, but better to have
 that discussion at development time than to spend weeks or months
 dealing with the fallout of invalid users in the system.
 
-\* \* \*
+***
 
 I hope I've laid out a case for using non-null constraints for all
 required database fields for great justice. In the next post, I'll show

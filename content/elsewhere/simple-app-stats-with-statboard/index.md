@@ -2,7 +2,6 @@
 title: "Simple App Stats with StatBoard"
 date: 2012-11-28T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/simple-app-stats-with-statboard/
 ---
 
@@ -17,7 +16,7 @@ Engine](http://edgeapi.rubyonrails.org/classes/Rails/Engine.html) to
 display some basic stats. Announcing, then,
 [StatBoard](https://github.com/vigetlabs/stat_board):
 
-![](https://raw.github.com/vigetlabs/stat_board/master/screenshot.png){style="box-shadow: none"}
+![](screenshot.png)
 
 Installation is a cinch: add the gem to your Gemfile, mount the app in
 `routes.rb`, and set the models to query (full instructions available on

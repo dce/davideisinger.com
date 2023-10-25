@@ -2,12 +2,8 @@
 title: "Why I Still Like Ruby (and a Few Things I Don’t Like)"
 date: 2020-08-06T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/why-i-still-like-ruby-and-a-few-things-i-dont-like/
 ---
-
-*(Illustration by
-[roseannepage](https://www.deviantart.com/roseannepage/art/Groudon-Seat-500169718)*)
 
 The Stack Overflow [2020 Developer
 Survey](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved)
@@ -22,7 +18,7 @@ languages and paradigms. First off, some things I really like.
 ### It's a great scripting language
 
 Matz's original goal in creating Ruby was to build a truly
-object-oriented scripting language[^1^](#fn1){#fnref1}, and that's my
+object-oriented scripting language[^1], and that's my
 favorite use of the language: simple, reusable programs that automate
 repetitive tasks. It has fantastic regex and unix support (check out
 [`Open3`](https://docs.ruby-lang.org/en/2.0.0/Open3.html) as an
@@ -50,7 +46,7 @@ that illustrates what sort of power this unlocks.
 
 Ruby has a rich ecosystem of third-party code that Viget both benefits
 from and contributes to, and with a few notable
-exceptions[^2^](#fn2){#fnref2}, it's all made available without the
+exceptions[^2], it's all made available without the
 expectation of direct profit. This means that you can pull a library
 into your codebase and not have to worry about the funding status of the
 company that built it (thinking specifically of things like
@@ -93,12 +89,16 @@ different](https://yehudakatz.com/2012/01/10/javascript-needs-blocks/)
 don't @ me) are distinct things, and the block/yield syntax, while nice,
 isn't as nice as just passing functions around. I wish I could just do:
 
-    square = -> (x) { x * x }
-    [1, 2, 3].map(square)
+```ruby
+square = -> (x) { x * x }
+[1, 2, 3].map(square)
+```
 
 Or even!
 
-    [1, 2, 3].map(@object.square)
+```ruby
+[1, 2, 3].map(@object.square)
+```
 
 (Where `@object.square` gives me the handle to a function that then gets
 passed each item in the array. I recognize this is incompatible with
@@ -130,7 +130,9 @@ of things like [RSpec](https://rspec.info/) that rely on the
 dynamic/message-passing nature of Ruby. Hard to imagine writing
 something as nice as this in, like, Haskell:
 
-    it { is_expected.not_to allow_values("Landlord", "Tenant").for(:client_type) }
+```ruby
+it { is_expected.not_to allow_values("Landlord", "Tenant").for(:client_type) }
+```
 
 (As I was putting this post together, I became aware of a lot of
 movement in the "typed Ruby" space, so we'll see where that goes. Check
@@ -153,9 +155,5 @@ post](http://codefol.io/posts/when-should-you-not-use-rails/), but what
 really matters is whether or not Ruby is suitable for your needs and
 tastes, not what bloggers/commenters/survey-takers think.
 
-------------------------------------------------------------------------
-
-1.  [[*The History of
-    Ruby*](https://www.sitepoint.com/history-ruby/)[↩](#fnref1)]{#fn1}
-2.  [I.e. [Phusion
-    Passenger](https://www.phusionpassenger.com/)[↩](#fnref2)]{#fn2}
+[^1]: [*The History of Ruby*](https://www.sitepoint.com/history-ruby/)
+[^2]: I.e. [Phusion Passenger](https://www.phusionpassenger.com/)

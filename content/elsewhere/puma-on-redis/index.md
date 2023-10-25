@@ -2,7 +2,6 @@
 title: "PUMA on Redis"
 date: 2011-07-27T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/puma-on-redis/
 ---
 
@@ -29,7 +28,7 @@ production.
 
 We used Redis as our cache store for two reasons. First, we were already
 using it for other purposes, so reusing it kept the technology stack
-simpler. But more importantly, Redis\' wildcard key matching makes cache
+simpler. But more importantly, Redis' wildcard key matching makes cache
 expiration a snap. It's well known that cache expiration is one of [two
 hard things in computer
 science](http://martinfowler.com/bliki/TwoHardThings.html), but using
@@ -62,11 +61,11 @@ page](https://github.com/vigetlabs/cachebar).
 
 ## Data Structures
 
-The PUMA app uses Redis\' hashes, lists, and sets (sorted and unsorted)
+The PUMA app uses Redis' hashes, lists, and sets (sorted and unsorted)
 as well as normal string values. Having all these data structures at our
 disposal has proven incredibly useful, not to mention damn fun to use.
 
-\* \* \*
+***
 
 Redis has far exceeded my expectations in both usefulness and
 performance. Add it to your stack, and you'll be amazed at the ways it

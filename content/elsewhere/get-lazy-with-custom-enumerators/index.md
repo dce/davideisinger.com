@@ -2,7 +2,6 @@
 title: "Get Lazy with Custom Enumerators"
 date: 2015-09-28T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/get-lazy-with-custom-enumerators/
 ---
 
@@ -32,14 +31,16 @@ related places always display, using the following logic:
 
 Straightforward enough. An early, naïve approach:
 
-     def associated_places
-     [
-     (associated_place_1 if associated_place_1.try(:published?)),
-     (associated_place_2 if associated_place_2.try(:published?)),
-     *nearby_places,
-     *recently_updated_places
-     ].compact.first(2)
-    end
+```ruby
+def associated_places
+  [
+    (associated_place_1 if associated_place_1.try(:published?)),
+    (associated_place_2 if associated_place_2.try(:published?)),
+    *nearby_places,
+    *recently_updated_places
+  ].compact.first(2)
+end
+```
 
 But if a place *does* have two associated places, we don't want to
 perform the expensive call to `nearby_places`, and similarly, if it has
@@ -47,17 +48,19 @@ nearby places, we'd like to avoid calling `recently_updated_places`. We
 also don't want to litter the method with conditional logic. This is a
 perfect opportunity to build a custom enumerator:
 
-     def associated_places
-     Enumerator.new do |y|
-     y << associated_place_1 if associated_place_1.try(:published?)
-     y << associated_place_2 if associated_place_2.try(:published?)
-     nearby_places.each { |place| y << place }
-     recently_updated_places.each { |place| y << place }
-     end
-    end
+```ruby
+def associated_places
+  Enumerator.new do |y|
+    y << associated_place_1 if associated_place_1.try(:published?)
+    y << associated_place_2 if associated_place_2.try(:published?)
+    nearby_places.each { |place| y << place }
+    recently_updated_places.each { |place| y << place }
+  end
+end
+```
 
 `Enumerator.new` takes a block with "yielder" argument. We call the
-yielder's `yield` method[^1^](#fn:1 "see footnote"){#fnref:1 .footnote},
+yielder's `yield` method[^1],
 aliased as `<<`, to return the next enumerable value. Now, we can just
 say `@place.associated_places.take(2)` and we'll always get back two
 places with minimum effort.
@@ -70,9 +73,4 @@ by Pat Shaughnessy and [*Lazy
 Refactoring*](https://robots.thoughtbot.com/lazy-refactoring) on the
 Thoughtbot blog.
 
-\* \* \*
-
-1.  ::: {#fn:1}
-    Confusing name -- not the same as the `yield` keyword.
-    [ ↩](#fnref:1 "return to article"){.reversefootnote}
-    :::
+[^1]: Confusing name -- not the same as the `yield` keyword.

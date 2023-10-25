@@ -2,7 +2,6 @@
 title: "The Balanced Developer"
 date: 2011-10-31T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/the-balanced-developer/
 ---
 

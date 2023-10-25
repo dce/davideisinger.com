@@ -2,7 +2,6 @@
 title: "Single-Use jQuery Plugins"
 date: 2009-07-16T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/single-use-jquery-plugins/
 ---
 
@@ -18,9 +17,38 @@ specific to the app under development. Consider the following example, a
 simple plugin to create form fields for an arbitrary number of nested
 resources, adapted from a recent project:
 
-    (function($) { $.fn.cloneableFields = function() { return this.each(function() { var container = $(this); var fields = container.find("fieldset:last"); var label = container.metadata().label || "Add"; container.count = function() { return this.find("fieldset").size(); }; // If there are existing entries, hide the form fields by default if (container.count() > 1) { fields.hide(); } // When link is clicked, add a new set of fields and set their keys to // the total number of fieldsets, e.g. instruction_attributes[5][name] var addLink = $("<a/>").text(label).click(function() { html = fields.html().replace(/\[\d+\]/g, "[" + container.count() + "]"); $(this).before("<fieldset>" + html + "</fieldset>"); return false; }); container.append(addLink); }); }; })(jQuery); 
+```javascript
+(function($) {
+  $.fn.cloneableFields = function() {
+    return this.each(function() {
+      var container = $(this);
+      var fields = container.find("fieldset:last");
+      var label = container.metadata().label || "Add";
 
-## Cleaner Code {#cleaner_code}
+      container.count = function() {
+        return this.find("fieldset").size();
+      };
+
+      // If there are existing entries, hide the form fields by default
+      if (container.count() > 1) {
+          fields.hide();
+      }
+
+      // When link is clicked, add a new set of fields and set their keys to
+      // the total number of fieldsets, e.g. instruction_attributes[5][name]
+      var addLink = $("<a/>").text(label).click(function() {
+        var html = fields.html().replace(/\[\d+\]/g, "[" + container.count() + "]");
+        $(this).before("<fieldset>" + html + "</fieldset>");
+        return false;
+      });
+
+      container.append(addLink);
+    });
+  };
+})(jQuery);
+```
+
+## Cleaner Code
 
 When I was first starting out with jQuery and unobtrusive JavaScript, I
 couldn't believe how easy it was to hook into the DOM and add behavior.
@@ -33,12 +61,14 @@ By pulling this feature into a plugin, rather than some version of the
 above code in our `$(document).ready()` function, we can stash it in a
 separate file and replace it with a single line:
 
-    $("div.cloneable").cloneableFields(); 
+```javascript
+$("div.cloneable").cloneableFields();
+```
 
 Putting feature details into separate files turns our `application.js`
 into a high-level view of the behavior of the site.
 
-## State Maintenance {#state_maintenance}
+## State Maintenance
 
 In JavaScript, functions created inside of other functions maintain a
 link to variables declared in the outer function. In the above example,
@@ -57,7 +87,7 @@ plugin pattern, we ensure that there will be a copy of our variables for
 each selector match, so that we can have multiple sets of
 CloneableFields on a single page.
 
-## Faster Scripts {#faster_scripts}
+## Faster Scripts
 
 Aside from being able to store the results of selectors in variables,
 there are other performance gains to be had by containing your features

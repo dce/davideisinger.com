@@ -2,7 +2,6 @@
 title: "Large Images in Rails"
 date: 2012-09-18T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/large-images-in-rails/
 ---
 
@@ -28,9 +27,11 @@ out metadata. In some cases, we were seeing thumbnailed images go from
 60k to 15k by removing unused color profile data. We save the resulting
 images out at 75% quality with the following Paperclip directive:
 
-    has_attached_file :image,
-     :convert_options => { :all => "-quality 75" },
-     :styles => { # ...
+```ruby
+has_attached_file :image,
+  :convert_options => { :all => "-quality 75" },
+  :styles => { # ...
+```
 
 Enabling this option has a huge impact on filesize (about a 90%
 reduction) with no visible loss of quality. Be aware that we're working
@@ -65,10 +66,12 @@ these photos so that browsers know not to redownload them. If you
 control the servers from which they'll be served, you can configure
 Apache to send these headers with the following bit of configuration:
 
-    ExpiresActive On
-    ExpiresByType image/png "access plus 1 year"
-    ExpiresByType image/gif "access plus 1 year"
-    ExpiresByType image/jpeg "access plus 1 year"
+```
+ExpiresActive On
+ExpiresByType image/png "access plus 1 year"
+ExpiresByType image/gif "access plus 1 year"
+ExpiresByType image/jpeg "access plus 1 year"
+```
 
 ([Similarly, for
 nginx](http://www.agileweboperations.com/far-future-expires-headers-for-ruby-on-rails-with-nginx).)

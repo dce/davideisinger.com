@@ -2,7 +2,6 @@
 title: "Sessions on PCs and Macs"
 date: 2009-02-09T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/sessions-on-pcs-and-macs/
 ---
 
@@ -20,9 +19,8 @@ ramifications when dealing with browsers and sessions; to quote the
 wiki](http://wiki.rubyonrails.org/rails/pages/HowtoChangeSessionOptions):
 
 > You can control when the current session will expire by setting the
-> :session_expires value with a Time object. **[If not set, the session
-> will terminate when the user's browser is
-> closed.]{style="font-weight: normal;"}**
+> :session_expires value with a Time object. **If not set, the session
+> will terminate when the user's browser is closed.**
 
 In other words, if you use the session to persist information like login
 state, the user experience for an out-of-the-box Rails app is

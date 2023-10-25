@@ -2,11 +2,10 @@
 title: "Viget Devs Storm Chicago"
 date: 2009-09-15T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/viget-devs-storm-chicago/
 ---
 
-[![](http://farm1.static.flickr.com/28/53100874_f605bd5f42_m.jpg){align="right"}](http://www.flickr.com/photos/laffy4k/53100874/)
+<img src="53100874_f605bd5f42_m.jpg" class="inline">
 
 This past weekend, Ben and I travelled to Chicago to speak at [Windy
 City Rails](http://windycityrails.org/). It was a great conference;

@@ -2,7 +2,6 @@
 title: "AWS OpsWorks: Lessons Learned"
 date: 2013-10-04T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/aws-opsworks-lessons-learned/
 ---
 
@@ -22,7 +21,7 @@ a post I wish had existed when I was first diving into this stuff. With
 that out of the way, here are a few lessons I had to learn the hard way
 so hopefully you won't have to.
 
-### You'll need to learn Chef {#youllneedtolearnchef}
+### You'll need to learn Chef
 
 The basis of OpsWorks is [Chef](http://www.opscode.com/chef/), and if
 you want to do anything interesting with your instances, you're going to
@@ -42,13 +41,13 @@ servers to merge some documents:
     Fix.
 5.  It fails again. The recipe is referencing an old version of PDFtk.
     Fix.
-6.  [Great sexy success.](http://cdn.meme.li/i/d1v84.jpg)
+6.  Great success.
 
 A little bit tedious compared with `wget/tar/make`, for sure, but once
 you get it configured properly, you can spin up new servers at will and
 be confident that they include all the necessary software.
 
-### Deploy hooks: learn them, love them {#deployhooks:learnthemlovethem}
+### Deploy hooks: learn them, love them
 
 Chef offers a number of [deploy
 callbacks](http://docs.opscode.com/resource_deploy.html#callbacks) you
@@ -57,17 +56,19 @@ them, create a directory in your app called `deploy` and add files named
 for the appropriate callbacks (e.g. `deploy/before_migrate.rb`). For
 example, here's how we precompile assets before migration:
 
-    rails_env = new_resource.environment["RAILS_ENV"]
+```ruby
+rails_env = new_resource.environment["RAILS_ENV"]
 
-    Chef::Log.info("Precompiling assets for RAILS_ENV=#{rails_env}...")
+Chef::Log.info("Precompiling assets for RAILS_ENV=#{rails_env}...")
 
-    execute "rake assets:precompile" do
-     cwd release_path
-     command "bundle exec rake assets:precompile"
-     environment "RAILS_ENV" => rails_env
-    end
+execute "rake assets:precompile" do
+  cwd release_path
+  command "bundle exec rake assets:precompile"
+  environment "RAILS_ENV" => rails_env
+end
+```
 
-### Layers: roles, but not *dedicated* roles {#layers:rolesbutnotdedicatedroles}
+### Layers: roles, but not *dedicated* roles
 
 AWS documentation describes
 [layers](http://docs.aws.amazon.com/opsworks/latest/userguide/workinglayers.html)
@@ -84,20 +85,22 @@ EC2 instances fill. For example, you might have two instances in your
 role, and one of the two app servers in the "Cron" role, responsible for
 sending nightly emails.
 
-### Altering the Rails environment {#alteringtherailsenvironment}
+### Altering the Rails environment
 
 If you need to manually execute a custom recipe against your existing
 instances, the Rails environment is going to be set to "production" no
 matter what you've defined in the application configuration. In order to
 change this value, add the following to the "Custom Chef JSON" field:
 
-    {
-     "deploy": {
-     "app_name": {
-     "rails_env": "staging"
-     }
-     }
+```json
+{
+  "deploy": {
+    "app_name": {
+      "rails_env": "staging"
     }
+  }
+}
+````
 
 (Substituting in your own application and environment names.)
 

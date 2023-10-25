@@ -2,7 +2,6 @@
 title: "Social Media API Gotchas"
 date: 2010-09-13T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/social-media-api-gotchas/
 ---
 
@@ -15,7 +14,7 @@ and their various --- shall we say --- *quirks*. I've collected the most
 egregious here with the hope that I can save the next developer a bit of
 anguish.
 
-## Facebook Graph API for "Likes" is busted {#facebook_graph_api_for_8220likes8221_is_busted}
+## Facebook Graph API for "Likes" is busted
 
 Facebook's [Graph API](https://developers.facebook.com/docs/api) is
 awesome. It's fantastic to see them embracing
@@ -40,7 +39,7 @@ ready for prime time. Specifically, the "Like" functionalty:
     includes pages, not normal wall activity or pages elsewhere on the
     web.
 
-## Facebook Tabs retrieve content with POST {#facebook_tabs_retrieve_content_with_post}
+## Facebook Tabs retrieve content with POST
 
 Facebook lets you put tabs on your page with content served from
 third-party websites. They're understandably strict about what tags
@@ -57,7 +56,7 @@ with a `Content-Type` header of "application/x-www-form-urlencoded,"
 which triggers an InvalidAuthenticityToken exception if you save
 anything to the database during the request/response cycle.
 
-## Twitter Search API `from_user_id` is utter crap {#twitter_search_api_from_user_id_is_utter_crap}
+## Twitter Search API `from_user_id` is utter crap
 
 Twitter has a fantastic API, with one glaring exception. Results from
 the [search

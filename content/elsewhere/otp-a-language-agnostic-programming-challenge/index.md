@@ -2,7 +2,6 @@
 title: "OTP: a Language-Agnostic Programming Challenge"
 date: 2015-01-26T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/otp-a-language-agnostic-programming-challenge/
 ---
 
@@ -23,7 +22,7 @@ GitHub](https://github.com/vigetlabs/otp) and issued a challenge to the
 whole Viget dev team: write a pair of programs in your language of
 choice to encrypt and decrypt a message from the command line.
 
-## The Challenge {#thechallenge}
+## The Challenge
 
 When you [exclusive or](https://en.wikipedia.org/wiki/Exclusive_or)
 (XOR) a value by a second value, and then XOR the resulting value by the
@@ -80,21 +79,21 @@ solution that passes the test suite, you'll need to figure out:
 -   Bitwise operators
 -   Converting to and from hexadecimal
 
-\* \* \*
+***
 
 As of today, we've created solutions in [~~eleven~~ ~~twelve~~ thirteen
 languages](https://github.com/vigetlabs/otp/tree/master/languages):
 
 -   [C](https://viget.com/extend/otp-the-fun-and-frustration-of-c)
 -   D
--   [Elixir](https://viget.com/extend/otp-ocaml-haskell-elixir)
+-   [Elixir](/elsewhere/otp-ocaml-haskell-elixir)
 -   Go
--   [Haskell](https://viget.com/extend/otp-ocaml-haskell-elixir)
+-   [Haskell](/elsewhere/otp-ocaml-haskell-elixir)
 -   JavaScript 5
 -   JavaScript 6
 -   Julia
 -   [Matlab](https://viget.com/extend/otp-matlab-solution-in-one-or-two-lines)
--   [OCaml](https://viget.com/extend/otp-ocaml-haskell-elixir)
+-   [OCaml](/elsewhere/otp-ocaml-haskell-elixir)
 -   Ruby
 -   Rust
 -   Swift (thanks [wasnotrice](https://github.com/wasnotrice)!)

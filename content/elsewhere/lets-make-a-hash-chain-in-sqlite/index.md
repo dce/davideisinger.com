@@ -2,32 +2,31 @@
 title: "Let’s Make a Hash Chain in SQLite"
 date: 2021-06-30T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/lets-make-a-hash-chain-in-sqlite/
 ---
 
-I\'m not much of a cryptocurrency enthusiast, but there are some neat
+I'm not much of a cryptocurrency enthusiast, but there are some neat
 ideas in these protocols that I wanted to explore further. Based on my
-absolute layperson\'s understanding, the \"crypto\" in
-\"cryptocurrency\" describes three things:
+absolute layperson's understanding, the "crypto" in
+"cryptocurrency" describes three things:
 
 1.  Some public key/private key stuff to grant access to funds at an
     address;
 2.  For certain protocols (e.g. Bitcoin), the cryptographic
-    puzzles[^1^](#fn:1 "see footnote"){#fnref:1 .footnote} that miners
+    puzzles[^1] that miners
     have to solve in order to add new blocks to the ledger; and
 3.  The use of hashed signatures to ensure data integrity.
 
 Of those three uses, the first two (asymmetric cryptography and
-proof-of-work) aren\'t that interesting to me, at least from a technical
+proof-of-work) aren't that interesting to me, at least from a technical
 perspective. The third concept, though --- using cryptography to make
-data verifiable and tamper-resistant --- that\'s pretty cool, and
+data verifiable and tamper-resistant --- that's pretty cool, and
 something I wanted to dig into. I decided to build a little
 proof-of-concept using [SQLite](https://www.sqlite.org/index.html), a
-\"small, fast, self-contained, high-reliability, full-featured, SQL
-database engine.\"
+"small, fast, self-contained, high-reliability, full-featured, SQL
+database engine."
 
-A couple notes before we dive in: these concepts aren\'t unique to the
+A couple notes before we dive in: these concepts aren't unique to the
 blockchain; Wikipedia has good explanations of [cryptographic hash
 functions](https://en.wikipedia.org/wiki/Cryptographic_hash_function),
 [Merkle trees](https://en.wikipedia.org/wiki/Merkle_tree), and [hash
@@ -36,14 +35,12 @@ your curiosity. This stuff is also [at the core of
 git](https://initialcommit.com/blog/git-bitcoin-merkle-tree), which is
 really pretty neat.
 
-[]{#onto-the-code}
+## Onto the code
 
-## Onto the code [\#](#onto-the-code "Direct link to Onto the code"){.anchor aria-label="Direct link to Onto the code"}
+Implementing a rudimentary hash chain in SQL is pretty simple. Here's
+my approach, which uses "bookmarks" as an arbitrary record type.
 
-Implementing a rudimentary hash chain in SQL is pretty simple. Here\'s
-my approach, which uses \"bookmarks\" as an arbitrary record type.
-
-``` {.code-block .line-numbers}
+```sql
 PRAGMA foreign_keys = ON;
 SELECT load_extension("./sha1");
 
@@ -63,33 +60,33 @@ CREATE UNIQUE INDEX parent_unique ON bookmarks (
 
 This code is available on
 [GitHub](https://github.com/dce/sqlite-hash-chain) in case you want to
-try this out on your own. Let\'s break it down a little bit.
+try this out on your own. Let's break it down a little bit.
 
--   First, we enable foreign key constraints, which aren\'t on by
+-   First, we enable foreign key constraints, which aren't on by
     default
--   Then we pull in SQLite\'s [`sha1`
+-   Then we pull in SQLite's [`sha1`
     function](https://www.i-programmer.info/news/84-database/10527-sqlite-317-adds-sha1-extension.html),
     which implements a common hashing algorithm
 -   Then we define our table
-    -   `id` isn\'t mandatory but makes it easier to grab the last entry
+    -   `id` isn't mandatory but makes it easier to grab the last entry
     -   `signature` is the SHA1 hash of the bookmark URL and parent
-        entry\'s signature; it uses a `CHECK` constraint to ensure this
+        entry's signature; it uses a `CHECK` constraint to ensure this
         is guaranteed to be true
     -   `parent` is the `signature` of the previous entry in the chain
-        (notice that it\'s allowed to be null)
+        (notice that it's allowed to be null)
     -   `url` is the data we want to ensure is immutable (though as
-        we\'ll see later, it\'s not truly immutable since we can still
+        we'll see later, it's not truly immutable since we can still
         do cascading updates)
 -   We set a foreign key constraint that `parent` refers to another
-    row\'s `signature` unless it\'s null
+    row's `signature` unless it's null
 -   Then we create a unique index on `parent` that covers the `NULL`
-    case, since our very first bookmark won\'t have a parent, but no
+    case, since our very first bookmark won't have a parent, but no
     other row should be allowed to have a null parent, and no two rows
     should be able to have the same parent
 
-Next, let\'s insert some data:
+Next, let's insert some data:
 
-``` {.code-block .line-numbers}
+```sql
 INSERT INTO bookmarks (url, signature) VALUES ("google", sha1("google"));
 
 WITH parent AS (SELECT signature FROM bookmarks ORDER BY id DESC LIMIT 1)
@@ -108,10 +105,10 @@ INSERT INTO bookmarks (url, parent, signature) VALUES (
 );
 ```
 
-OK! Let\'s fire up `sqlite3` and then `.read` this file. Here\'s the
+OK! Let's fire up `sqlite3` and then `.read` this file. Here's the
 result:
 
-``` {.code-block .line-numbers}
+```
 sqlite> SELECT * FROM bookmarks;
 +----+------------------------------------------+------------------------------------------+------------+
 | id |                signature                 |                  parent                  |    url     |
@@ -123,24 +120,30 @@ sqlite> SELECT * FROM bookmarks;
 +----+------------------------------------------+------------------------------------------+------------+
 ```
 
-This has some cool properties. I can\'t delete an entry in the chain:
+This has some cool properties. I can't delete an entry in the chain:
 
-`sqlite> DELETE FROM bookmarks WHERE id = 3;`
-`Error: FOREIGN KEY constraint failed`
+```
+sqlite> DELETE FROM bookmarks WHERE id = 3;
+Error: FOREIGN KEY constraint failed
+```
 
-I can\'t change a URL:
+I can't change a URL:
 
-`sqlite> UPDATE bookmarks SET url = "altavista" WHERE id = 3;`
-`Error: CHECK constraint failed: signature = sha1(url || parent)`
+```
+sqlite> UPDATE bookmarks SET url = "altavista" WHERE id = 3;
+Error: CHECK constraint failed: signature = sha1(url || parent)
+```
 
-I can\'t re-sign an entry:
+I can't re-sign an entry:
 
-`sqlite> UPDATE bookmarks SET url = "altavista", signature = sha1("altavista" || parent) WHERE id = 3;`
-`Error: FOREIGN KEY constraint failed`
+```
+sqlite> UPDATE bookmarks SET url = "altavista", signature = sha1("altavista" || parent) WHERE id = 3;
+Error: FOREIGN KEY constraint failed
+```
 
 I **can**, however, update the last entry in the chain:
 
-``` {.code-block .line-numbers}
+```
 sqlite> UPDATE bookmarks SET url = "altavista", signature = sha1("altavista" || parent) WHERE id = 4;
 sqlite> SELECT * FROM bookmarks;
 +----+------------------------------------------+------------------------------------------+-----------+
@@ -153,25 +156,23 @@ sqlite> SELECT * FROM bookmarks;
 +----+------------------------------------------+------------------------------------------+-----------+
 ```
 
-This is because a row isn\'t really \"locked in\" until it\'s pointed to
-by another row. It\'s worth pointing out that an actual blockchain would
+This is because a row isn't really "locked in" until it's pointed to
+by another row. It's worth pointing out that an actual blockchain would
 use a [consensus
 mechanism](https://www.investopedia.com/terms/c/consensus-mechanism-cryptocurrency.asp)
-to prevent any updates like this, but that\'s way beyond the scope of
-what we\'re doing here.
+to prevent any updates like this, but that's way beyond the scope of
+what we're doing here.
 
-[]{#cascading-updates}
+## Cascading updates
 
-## Cascading updates [\#](#cascading-updates "Direct link to Cascading updates"){.anchor aria-label="Direct link to Cascading updates"}
-
-Given that we can change the last row, it\'s possible to update any row
+Given that we can change the last row, it's possible to update any row
 in the ledger provided you 1) also re-sign all of its children and 2) do
-it all in a single pass. Here\'s how you\'d update row 2 to
-\"askjeeves\" with a [`RECURSIVE`
+it all in a single pass. Here's how you'd update row 2 to
+"askjeeves" with a [`RECURSIVE`
 query](https://www.sqlite.org/lang_with.html#recursive_common_table_expressions)
 (and sorry I know this is a little hairy):
 
-``` {.code-block .line-numbers}
+```sql
 WITH RECURSIVE
   t1(url, parent, old_signature, signature) AS (
     SELECT "askjeeves", parent, signature, sha1("askjeeves" || COALESCE(parent, ""))
@@ -187,9 +188,9 @@ SET url = (SELECT url FROM t1 WHERE t1.old_signature = bookmarks.signature),
 WHERE signature IN (SELECT old_signature FROM t1);
 ```
 
-Here\'s the result of running this update:
+Here's the result of running this update:
 
-``` {.code-block .line-numbers}
+```
 +----+------------------------------------------+------------------------------------------+-----------+
 | id |                signature                 |                  parent                  |    url    |
 +----+------------------------------------------+------------------------------------------+-----------+
@@ -200,34 +201,17 @@ Here\'s the result of running this update:
 +----+------------------------------------------+------------------------------------------+-----------+
 ```
 
-As you can see, row 2\'s `url` is updated, and rows 3 and 4 have updated
+As you can see, row 2's `url` is updated, and rows 3 and 4 have updated
 signatures and parents. Pretty cool, and pretty much the same thing as
 what happens when you change a git commit via `rebase` --- all the
 successive commits get new SHAs.
 
+---
 
-[[Learn More]{.util-breadcrumb-md .mb-8 .group-hover:translate-y-20
-.group-hover:opacity-0 .transition-all .ease-in-out
-.duration-500}](https://www.viget.com/careers/application-developer/){.relative
-.flex .group .flex-col .p-32 .md:p-40 .lg:p-64 .z-10}
-
-### We're hiring Application Developers. Learn more and introduce yourself. {#were-hiring-application-developers.-learn-more-and-introduce-yourself. .text-20 .md:text-24 .lg:text-32 .font-bold .leading-[170%] .group-hover:-translate-y-20 .transition-transform .ease-in-out .duration-500}
-
-![](data:image/svg+xml;base64,PHN2ZyBjbGFzcz0icmVjdC1pY29uLW1kIHNlbGYtZW5kIG10LTE2IGdyb3VwLWhvdmVyOi10cmFuc2xhdGUteS0yMCB0cmFuc2l0aW9uLWFsbCBlYXNlLWluLW91dCBkdXJhdGlvbi01MDAiIHZpZXdib3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBhcmlhLWhpZGRlbj0idHJ1ZSI+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTMuNzg0OCAxOS4zMDkxQzEzLjQ3NTggMTkuNTg1IDEzLjAwMTcgMTkuNTU4MyAxMi43MjU4IDE5LjI0OTRDMTIuNDQ5OCAxOC45NDA1IDEyLjQ3NjYgMTguNDY2MyAxMi43ODU1IDE4LjE5MDRMMTguNzg2NiAxMi44MzAxTDQuNzUxOTUgMTIuODMwMUM0LjMzNzc0IDEyLjgzMDEgNC4wMDE5NSAxMi40OTQzIDQuMDAxOTUgMTIuMDgwMUM0LjAwMTk1IDExLjY2NTkgNC4zMzc3NCAxMS4zMzAxIDQuNzUxOTUgMTEuMzMwMUwxOC43ODU1IDExLjMzMDFMMTIuNzg1NSA1Ljk3MDgyQzEyLjQ3NjYgNS42OTQ4OCAxMi40NDk4IDUuMjIwNzYgMTIuNzI1OCA0LjkxMTg0QzEzLjAwMTcgNC42MDI5MiAxMy40NzU4IDQuNTc2MTggMTMuNzg0OCA0Ljg1MjEyTDIxLjIzNTggMTEuNTA3NkMyMS4zNzM4IDExLjYyNDQgMjEuNDY5IDExLjc5MDMgMjEuNDk0NSAxMS45NzgyQzIxLjQ5OTIgMTIuMDExOSAyMS41MDE1IDEyLjA0NjEgMjEuNTAxNSAxMi4wODA2QzIxLjUwMTUgMTIuMjk0MiAyMS40MTA1IDEyLjQ5NzcgMjEuMjUxMSAxMi42NEwxMy43ODQ4IDE5LjMwOTFaIj48L3BhdGg+Cjwvc3ZnPg==){.rect-icon-md
-.self-end .mt-16 .group-hover:-translate-y-20 .transition-all
-.ease-in-out .duration-500}
-
-I\'ll be honest that I don\'t have any immediately practical uses for a
+I'll be honest that I don't have any immediately practical uses for a
 cryptographically-signed database table, but I thought it was cool and
 helped me understand these concepts a little bit better. Hopefully it
 gets your mental wheels spinning a little bit, too. Thanks for reading!
 
-------------------------------------------------------------------------
-
-1.  ::: {#fn:1}
-    [Here\'s a pretty good explanation of what mining really
-    is](https://asthasr.github.io/posts/how-blockchains-work/), but, in
-    a nutshell, it\'s running a hashing algorithm over and over again
-    with a random salt until a hash is found that begins with a required
-    number of zeroes. [ ↩︎](#fnref:1 "return to body"){.reversefootnote}
-    :::
+[^1]: [Here's a pretty good explanation of what mining really is](https://asthasr.github.io/posts/how-blockchains-work/), but, in a nutshell, it's running a hashing algorithm over and over again
+  with a random salt until a hash is found that begins with a required number of zeroes.

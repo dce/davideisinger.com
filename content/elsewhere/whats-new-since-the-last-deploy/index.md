@@ -2,7 +2,6 @@
 title: "“What’s new since the last deploy?”"
 date: 2014-03-11T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/whats-new-since-the-last-deploy/
 ---
 
@@ -18,21 +17,22 @@ Campfire, but if you're using GitHub and Capistrano, here's a nifty way
 to see this information on the website without bothering the team. As
 the saying goes, teach a man to `fetch` and whatever shut up.
 
-## Tag deploys with Capistrano {#tagdeployswithcapistrano}
+## Tag deploys with Capistrano
 
 The first step is to tag each deploy. Drop this recipe in your
 `config/deploy.rb` ([original
 source](http://wendbaar.nl/blog/2010/04/automagically-tagging-releases-in-github/)):
 
-    namespace :git do
-     task :push_deploy_tag do
-     user = `git config --get user.name`.chomp
-     email = `git config --get user.email`.chomp
-
-     puts `git tag #{stage}-deploy-#{release_name} #{current_revision} -m "Deployed by #{user} <#{email}>"`
-     puts `git push --tags origin`
-     end
-    end
+```ruby
+namespace :git do
+  task :push_deploy_tag do
+    user = `git config --get user.name`.chomp
+    email = `git config --get user.email`.chomp
+    puts `git tag #{stage}-deploy-#{release_name} #{current_revision} -m "Deployed by #{user} <#{email}>"`
+    puts `git push --tags origin`
+  end
+end
+```
 
 Then throw a `after 'deploy:restart', 'git:push_deploy_tag'` into the
 appropriate deploy environment files. Note that this task works with
@@ -42,7 +42,7 @@ Cap 3, check out [this
 gist](https://gist.github.com/zporter/3e70b74ce4fe9b8a17bd) from
 [Zachary](https://viget.com/about/team/zporter).
 
-## GitHub Tag Interface {#githubtaginterface}
+## GitHub Tag Interface
 
 Now that you're tagging the head commit of each deploy, you can take
 advantage of an (as far as I can tell) unadvertised GitHub feature: the
@@ -55,7 +55,7 @@ commits to master since this tag" to see everything that would go out in
 a new deploy. Or if you're more of a visual learner, here's a gif for
 great justice:
 
-![](http://i.imgur.com/GeKYwA5.gif)
+![](demo.gif)
 
 ------------------------------------------------------------------------
 

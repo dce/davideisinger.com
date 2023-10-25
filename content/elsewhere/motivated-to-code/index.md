@@ -2,7 +2,6 @@
 title: "Getting (And Staying) Motivated to Code"
 date: 2009-01-21T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/motivated-to-code/
 ---
 
@@ -53,7 +52,9 @@ readability, decreases the likelihood of bugs, and adds to your
 understanding of the remaining code. But those reasons aside, it feels
 *great*. If I suspect a method isn't being used anywhere, I'll do
 
-    grep -lir "method_name" app/
+```sh
+grep -lir "method_name" app
+```
 
 to find all the places where the method name occurs.
 

@@ -2,7 +2,6 @@
 title: "Manual Cropping with Paperclip"
 date: 2012-05-31T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/manual-cropping-with-paperclip/
 ---
 
@@ -24,7 +23,7 @@ decently complex code in Paperclip.
 
 Our goal is to allow a user to select a portion of an image and then
 create a thumbnail of *just that selected portion*, ideally taking
-advantage of Paperclip\'s existing cropping/scaling logic.
+advantage of Paperclip's existing cropping/scaling logic.
 
 Any time you're dealing with custom Paperclip image processing, you're
 talking about creating a custom
@@ -36,32 +35,34 @@ with the fields `crop_x`, `crop_y`, `crop_width`, and `crop_height`. How
 those get set is left as an exercise for the reader (though I recommend
 [JCrop](http://deepliquid.com/content/Jcrop.html)). Some code, then:
 
-    module Paperclip
-     class ManualCropper < Thumbnail
-     def initialize(file, options = {}, attachment = nil)
-     super
-     @current_geometry.width = target.crop_width
-     @current_geometry.height = target.crop_height
-     end
-
-     def target
-     @attachment.instance
-     end
-
-     def transformation_command
-     crop_command = [
-     "-crop",
-     "#{target.crop_width}x" 
-     "#{target.crop_height}+" 
-     "#{target.crop_x}+" 
-     "#{target.crop_y}",
-     "+repage"
-     ]
-
-     crop_command + super
-     end
-     end
+```ruby
+module Paperclip
+  class ManualCropper < Thumbnail
+    def initialize(file, options = {}, attachment = nil)
+      super
+      @current_geometry.width = target.crop_width
+      @current_geometry.height = target.crop_height
     end
+
+    def target
+      @attachment.instance
+    end
+
+    def transformation_command
+      crop_command = [
+        "-crop",
+        "#{target.crop_width}x"
+        "#{target.crop_height}+"
+        "#{target.crop_x}+"
+        "#{target.crop_y}",
+        "+repage"
+      ]
+
+      crop_command + super
+    end
+  end
+end
+```
 
 In our `initialize` method, we call super, which sets a whole host of
 instance variables, include `@current_geometry`, which is responsible

@@ -2,7 +2,6 @@
 title: "Diving into Go: A Five-Week Intro"
 date: 2014-04-25T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/diving-into-go-a-five-week-intro/
 ---
 
@@ -14,16 +13,16 @@ We've read [some](http://www.confidentruby.com/)
 recent go-round, we decided to try something different. A few of us have
 been interested in the [Go programming language](https://golang.org/)
 for some time, so we decided to combine two free online texts, [*An
-Introduction to Programming in Go*](http://www.golang-book.com/) and
+Introduction to Programming in Go*](http://www.golang-book.com/books/intro/) and
 [*Go By Example*](https://gobyexample.com/), plus a few other resources,
 into a short introduction to the language.
 [Chris](https://viget.com/about/team/cjones) and
 [Ryan](https://viget.com/about/team/rfoster) put together a curriculum
 that I thought was too good not to share with the internet at large.
 
-## Week 1 {#week1}
+## Week 1
 
-Chapter 1: [Getting Started](http://www.golang-book.com/1)
+Chapter 1: [Getting Started](http://www.golang-book.com/books/intro/1)
 
 -   Files and Folders
 -   The Terminal
@@ -32,11 +31,11 @@ Chapter 1: [Getting Started](http://www.golang-book.com/1)
 -   **Go By Example**
     -   [Hello World](https://gobyexample.com/hello-world)
 
-Chapter 2: [Your First Program](http://www.golang-book.com/2)
+Chapter 2: [Your First Program](http://www.golang-book.com/books/intro/2)
 
 -   How to Read a Go Program
 
-Chapter 3: [Types](http://www.golang-book.com/3)
+Chapter 3: [Types](http://www.golang-book.com/books/intro/3)
 
 -   Numbers
 -   Strings
@@ -49,7 +48,7 @@ Chapter 3: [Types](http://www.golang-book.com/3)
     -   [Regular
         Expressions](https://gobyexample.com/regular-expressions)
 
-Chapter 4: [Variables](http://www.golang-book.com/4)
+Chapter 4: [Variables](http://www.golang-book.com/books/intro/4)
 
 -   How to Name a Variable
 -   Scope
@@ -65,7 +64,7 @@ Chapter 4: [Variables](http://www.golang-book.com/4)
     -   [Time Formatting /
         Parsing](https://gobyexample.com/time-formatting-parsing)
 
-Chapter 5: [Control Structures](http://www.golang-book.com/5)
+Chapter 5: [Control Structures](http://www.golang-book.com/books/intro/5)
 
 -   For
 -   If
@@ -76,7 +75,7 @@ Chapter 5: [Control Structures](http://www.golang-book.com/5)
     -   [Switch](https://gobyexample.com/switch)
     -   [Line Filters](https://gobyexample.com/line-filters)
 
-Chapter 6: [Arrays, Slices and Maps](http://www.golang-book.com/6)
+Chapter 6: [Arrays, Slices and Maps](http://www.golang-book.com/books/intro/6)
 
 -   Arrays
 -   Slices
@@ -92,9 +91,9 @@ Chapter 6: [Arrays, Slices and Maps](http://www.golang-book.com/6)
     -   [Arrays, Slices (and strings): The mechanics of
         'append'](https://blog.golang.org/slices)
 
-## Week 2 {#week2}
+## Week 2
 
-Chapter 7: [Functions](http://www.golang-book.com/7)
+Chapter 7: [Functions](http://www.golang-book.com/books/intro/7)
 
 -   Your Second Function
 -   Returning Multiple Values
@@ -114,7 +113,7 @@ Chapter 7: [Functions](http://www.golang-book.com/7)
     -   [Collection
         Functions](https://gobyexample.com/collection-functions)
 
-Chapter 8: [Pointers](http://www.golang-book.com/8)
+Chapter 8: [Pointers](http://www.golang-book.com/books/intro/8)
 
 -   The \* and & operators
     -   new
@@ -123,9 +122,9 @@ Chapter 8: [Pointers](http://www.golang-book.com/8)
     -   [Reading Files](https://gobyexample.com/reading-files)
     -   [Writing Files](https://gobyexample.com/writing-files)
 
-## Week 3 {#week3}
+## Week 3
 
-Chapter 9: [Structs and Interfaces](http://www.golang-book.com/9)
+Chapter 9: [Structs and Interfaces](http://www.golang-book.com/books/intro/9)
 
 -   Structs
 -   Methods
@@ -137,7 +136,7 @@ Chapter 9: [Structs and Interfaces](http://www.golang-book.com/9)
     -   [Errors](https://gobyexample.com/errors)
     -   [JSON](https://gobyexample.com/json)
 
-Chapter 10: [Concurrency](http://www.golang-book.com/10)
+Chapter 10: [Concurrency](http://www.golang-book.com/books/intro/10)
 
 -   Goroutines
 -   Channels
@@ -160,7 +159,7 @@ Chapter 10: [Concurrency](http://www.golang-book.com/10)
     -   [Worker Pools](https://gobyexample.com/worker-pools)
     -   [Rate Limiting](https://gobyexample.com/rate-limiting)
 
-## Week 4 {#week4}
+## Week 4
 
 -   **Videos**
     -   [Lexical Scanning in
@@ -177,16 +176,16 @@ Chapter 10: [Concurrency](http://www.golang-book.com/10)
     -   [Defer, Panic, and
         Recover](https://blog.golang.org/defer-panic-and-recover)
 
-## Week 5 {#week5}
+## Week 5
 
-Chapter 11: [Packages](http://www.golang-book.com/11)
+Chapter 11: [Packages](http://www.golang-book.com/books/intro/11)
 
 -   Creating Packages
 -   Documentation
 
-Chapter 12: [Testing](http://www.golang-book.com/12)
+Chapter 12: [Testing](http://www.golang-book.com/books/intro/12)
 
-Chapter 13: [The Core Packages](http://www.golang-book.com/13)
+Chapter 13: [The Core Packages](http://www.golang-book.com/books/intro/13)
 
 -   Strings
 -   Input / Output
@@ -218,13 +217,13 @@ Chapter 13: [The Core Packages](http://www.golang-book.com/13)
     -   [Signals](https://gobyexample.com/signals)
     -   [Exit](https://gobyexample.com/exit)
 
-Chapter 14: [Next Steps](http://www.golang-book.com/14)
+Chapter 14: [Next Steps](http://www.golang-book.com/books/intro/14)
 
 -   Study the Masters
 -   Make Something
 -   Team Up
 
-\* \* \*
+***
 
 Go is an exciting language, and a great complement to the Ruby work we
 do. Working through this program was a fantastic intro to the language

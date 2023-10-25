@@ -2,7 +2,6 @@
 title: "How (& Why) to Run Autotest on your Mac"
 date: 2009-06-19T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/how-why-to-run-autotest-on-your-mac/
 ---
 
@@ -32,38 +31,40 @@ this morning:
 
 1.  Install autotest:
 
-    ``` {#code}
+    ```
     gem install ZenTest 
     ```
 
 2.  Or, if you've already got an older version installed:
 
-    ``` {#code}
-    gem update ZenTest gem cleanup ZenTest 
+    ```
+    gem update ZenTest
+    gem cleanup ZenTest 
     ```
 
 3.  Install autotest-rails:
 
-    ``` {#code}
+    ```
     gem install autotest-rails 
     ```
 
 4.  Install autotest-fsevent:
 
-    ``` {#code}
+    ```
     gem install autotest-fsevent 
     ```
 
 5.  Install autotest-growl:
 
-    ``` {#code}
+    ```
     gem install autotest-growl 
     ```
 
 6.  Make a `~/.autotest` file, with the following:
 
-    ``` {#code}
-    require "autotest/growl" require "autotest/fsevent" 
+    ```ruby
+    require "autotest/growl"
+    require "autotest/fsevent" 
     ```
 
 7.  Run `autotest` in your app root.

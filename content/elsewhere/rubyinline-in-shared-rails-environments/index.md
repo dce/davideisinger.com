@@ -2,7 +2,6 @@
 title: "RubyInline in Shared Rails Environments"
 date: 2008-05-23T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/rubyinline-in-shared-rails-environments/
 ---
 
@@ -25,7 +24,9 @@ my image processing library of choice). Try to start up an app that uses
 RubyInline code in a shared environment, and you might encounter the
 following error:
 
-     /Library/Ruby/Gems/1.8/gems/RubyInline-3.6.7/lib/inline.rb:325:in `mkdir': Permission denied - /home/users/www-data/.ruby_inline (Errno::EACCES)
+```
+/Library/Ruby/Gems/1.8/gems/RubyInline-3.6.7/lib/inline.rb:325:in `mkdir': Permission denied - /home/users/www-data/.ruby_inline (Errno::EACCES)
+```
 
 RubyInline uses the home directory of the user who started the server to
 compile the inline code; problems occur when the current process is
@@ -33,13 +34,19 @@ owned by a different user. "Simple," you think. "I'll just open that
 directory up to everybody." Not so fast, hotshot. Try to start the app
 again, and you get the following:
 
-     /home/users/www-data/.ruby_inline is insecure (40777). It may not be group or world writable. Exiting.
+```
+/home/users/www-data/.ruby_inline is insecure (40777). It may not be group or world writable. Exiting.
+```
 
 Curses! Fortunately, VigetExtend is here to help. Drop this into your
 environment-specific config file:
 
-``` {#code .ruby}
- temp = Tempfile.new('ruby_inline', '/tmp') dir = temp.path temp.delete Dir.mkdir(dir, 0755) ENV['INLINEDIR'] = dir 
+```ruby
+temp = Tempfile.new('ruby_inline', '/tmp')
+dir = temp.path
+temp.delete
+Dir.mkdir(dir, 0755)
+ENV['INLINEDIR'] = dir
 ```
 
 We use the [Tempfile](http://ruby-doc.org/core/classes/Tempfile.html)
