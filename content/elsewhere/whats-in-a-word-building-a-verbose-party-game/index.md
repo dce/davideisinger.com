@@ -34,7 +34,7 @@ for 48 hours (and counting), read on.
 
 ![image](662shots_so-1.png)
 
-## [**Haley**](https://www.viget.com/about/team/hjohnson/) **\| Pointless Role: Design \| Day Job: PM** {#haley-pointless-role-design-day-job-pm dir="ltr"}
+## [**Haley**](https://www.viget.com/about/team/hjohnson/) **\| Pointless Role: Design \| Day Job: PM**
 
 **My favorite part of building verbose.club** was being granted
 permission to focus on one project with my teammates. We hopped on Meets
@@ -52,7 +52,7 @@ you can use instead of starting from scratch!
 
 ------------------------------------------------------------------------
 
-## [**Haroon**](https://www.viget.com/about/team/hmatties/) **\| Pointless Role: Dev \| Day Job: Product Design** {#haroon-pointless-role-dev-day-job-product-design dir="ltr"}
+## [**Haroon**](https://www.viget.com/about/team/hmatties/) **\| Pointless Role: Dev \| Day Job: Product Design**
 
 **My favorite part of building verbose.club** was stepping into a new
 role, or at least trying to. I got a chance to build out styled
@@ -61,7 +61,7 @@ Though my constant questions for Andrew and David were likely annoying,
 it was an extremely rewarding experience to see a project come to life
 from another perspective.
 
-**Something I learned** is that it\'s best to keep commits atomic,
+**Something I learned** is that it's best to keep commits atomic,
 meaning contributions to the codebase are small, isolated, and clear.
 Though a best practice for many, this approach made it easier for me as
 a novice to contribute quickly, and likely made it easier for Andrew to
@@ -69,7 +69,7 @@ fix things later.
 
 ------------------------------------------------------------------------
 
-## [**Nicole**](https://www.viget.com/about/team/nrymarz/) **\| Pointless Role: Design \| Day Job: PM** {#nicole-pointless-role-design-day-job-pm dir="ltr"}
+## [**Nicole**](https://www.viget.com/about/team/nrymarz/) **\| Pointless Role: Design \| Day Job: PM**
 
 **My favorite part of building verbose.club** was seeing our team
 immediately dive in with a "we're in this together" approach. I am still
@@ -120,7 +120,7 @@ that makes it all work.
 
 ------------------------------------------------------------------------
 
-## [**David**](https://www.viget.com/about/team/deisinger/) **\| Pointless Role: Dev \| Day Job: Dev** {#david-pointless-role-dev-day-job-dev dir="ltr"}
+## [**David**](https://www.viget.com/about/team/deisinger/) **\| Pointless Role: Dev \| Day Job: Dev**
 
 **My favorite part of working on verbose.club** was helping from afar. I
 was 1,500 miles and several time zones away from most of the team, so I

@@ -2,7 +2,6 @@
 title: "Static Asset Packaging for Rails 3 on Heroku"
 date: 2011-03-29T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/static-asset-packaging-rails-3-heroku/
 ---
 
@@ -15,7 +14,7 @@ works.
 
 **Long version:** in his modern day classic, [High Performance Web
 Sites](https://www.amazon.com/High-Performance-Web-Sites-Essential/dp/0596529309),
-Steve Souders\' very first rule is to "make fewer HTTP requests." In
+Steve Souders' very first rule is to "make fewer HTTP requests." In
 practical terms, among other things, this means to combine separate CSS
 and Javascript files whenever possible. The creators of the Rails
 framework took this advice to heart, adding the `:cache => true` option

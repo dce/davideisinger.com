@@ -2,7 +2,6 @@
 title: "On Confidence and Real-Time Strategy Games"
 date: 2011-06-30T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/on-confidence-and-real-time-strategy-games/
 ---
 
@@ -11,7 +10,7 @@ developer. But before I do that, I want to talk about
 *[Z](https://en.wikipedia.org/wiki/Z_(video_game))*, a real-time
 strategy game from the mid-'90s.
 
-[![](https://upload.wikimedia.org/wikipedia/en/thumb/6/68/Z_The_Bitmap_Brothers.PNG/256px-Z_The_Bitmap_Brothers.PNG)](https://en.wikipedia.org/wiki/File:Z_The_Bitmap_Brothers.PNG)
+<img src="256px-Z_The_Bitmap_Brothers.PNG" class="inline">
 
 In other popular RTSes of the time, like *Warcraft* and *Command and
 Conquer*, you collected `/(gold|Tiberium|Vespene gas)/` and used it to

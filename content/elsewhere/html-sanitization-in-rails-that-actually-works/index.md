@@ -2,7 +2,6 @@
 title: "HTML Sanitization In Rails That Actually Works"
 date: 2009-11-23T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/html-sanitization-in-rails-that-actually-works/
 ---
 
@@ -41,16 +40,51 @@ page, not to mention what a `<div>` can do. Self-closing tags are okay.
 With these requirements in mind, we subclassed HTML::WhiteListSanitizer
 and fixed it up. Introducing, then:
 
-![Jason
-Statham](http://goremasternews.files.wordpress.com/2009/10/jason_statham.jpg "Jason Statham")
+<img src="jason_statham.jpg" class="inline">
 
 [**HTML::StathamSanitizer**](https://gist.github.com/241114).
 User-generated markup, you're on notice: this sanitizer will take its
 shirt off and use it to kick your ass. At this point, I've written more
 about the code than code itself, so without further ado:
 
-``` {#code .ruby}
-module HTML class StathamSanitizer < WhiteListSanitizer protected def tokenize(text, options) super.map do |token| if token.is_a?(HTML::Tag) && options[:parent].include?(token.name) token.to_s.gsub(/</, "&lt;") else token end end end def process_node(node, result, options) result << case node when HTML::Tag if node.closing == :close && options[:parent].first == node.name options[:parent].shift elsif node.closing != :self options[:parent].unshift node.name end process_attributes_for node, options if options[:tags].include?(node.name) node else bad_tags.include?(node.name) ? nil : node.to_s.gsub(/</, "&lt;") end else bad_tags.include?(options[:parent].first) ? nil : node.to_s.gsub(/</, "&lt;") end end end end 
+```ruby
+module HTML
+  class StathamSanitizer < WhiteListSanitizer
+
+    protected
+
+    def tokenize(text, options)
+      super.map do |token|
+        if token.is_a?(HTML::Tag) && options[:parent].include?(token.name)
+          token.to_s.gsub(/</, "&lt;")
+        else
+          token
+        end
+      end
+    end
+
+    def process_node(node, result, options)
+      result << case node
+        when HTML::Tag
+          if node.closing == :close && options[:parent].first == node.name
+            options[:parent].shift
+          elsif node.closing != :self
+            options[:parent].unshift node.name
+          end
+
+          process_attributes_for node, options
+
+          if options[:tags].include?(node.name)
+            node
+          else
+            bad_tags.include?(node.name) ? nil : node.to_s.gsub(/</, "&lt;")
+          end
+        else
+          bad_tags.include?(options[:parent].first) ? nil : node.to_s.gsub(/</, "&lt;")
+      end
+    end
+  end
+end
 ```
 
 As always, download and fork [at the

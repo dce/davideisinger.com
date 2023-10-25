@@ -2,23 +2,22 @@
 title: "Maintenance Matters: Continuous Integration"
 date: 2022-08-26T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/maintenance-matters-continuous-integration/
 ---
 
 *This article is part of a series focusing on how developers can center
-and streamline software maintenance. *The other articles in the
-Maintenance Matters series are: **[Code
-Coverage](https://www.viget.com/articles/maintenance-matters-code-coverage/){target="_blank"},
-**[Documentation](https://www.viget.com/articles/maintenance-matters-documentation/){target="_blank"},****
+and streamline software maintenance. The other articles in the
+Maintenance Matters series are: [Code
+Coverage](https://www.viget.com/articles/maintenance-matters-code-coverage/),
+[Documentation](https://www.viget.com/articles/maintenance-matters-documentation/),
 [Default
-Formatting](https://www.viget.com/articles/maintenance-matters-default-formatting/){target="_blank"}, [Building
+Formatting](https://www.viget.com/articles/maintenance-matters-default-formatting/), [Building
 Helpful
-Logs](https://www.viget.com/articles/maintenance-matters-helpful-logs/){target="_blank"},
+Logs](https://www.viget.com/articles/maintenance-matters-helpful-logs/),
 [Timely
-Upgrades](https://www.viget.com/articles/maintenance-matters-timely-upgrades/){target="_blank"},
+Upgrades](https://www.viget.com/articles/maintenance-matters-timely-upgrades/),
 and [Code
-Reviews](https://www.viget.com/articles/maintenance-matters-code-reviews/){target="_blank"}.**
+Reviews](https://www.viget.com/articles/maintenance-matters-code-reviews/).*
 
 As Annie said in her [intro
 post](https://www.viget.com/articles/maintenance-matters/):

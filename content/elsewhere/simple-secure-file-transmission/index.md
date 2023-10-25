@@ -2,7 +2,6 @@
 title: "Simple, Secure File Transmission"
 date: 2013-08-29T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/simple-secure-file-transmission/
 ---
 
@@ -29,18 +28,22 @@ now. Here's what I'd do:
 I have a short shell script, `encrypt.sh`, that lives in my `~/.bin`
 directory:
 
-    #!/bin/sh
+```sh
+#!/bin/sh
 
-    openssl aes-256-cbc -a -salt -pass "pass:$2" -in $1 -out $1.enc
+openssl aes-256-cbc -a -salt -pass "pass:$2" -in $1 -out $1.enc
 
-    echo "openssl aes-256-cbc -d -a -pass \"pass:XXX\" -in $1.enc -out $1"
+echo "openssl aes-256-cbc -d -a -pass "pass:XXX" -in $1.enc -out $1"
+```
 
 This script takes two arguments: the file you want to encrypt and a
 password (or, preferably, a [passphrase](https://xkcd.com/936/)). To
 encrypt the certificate, I'd run:
 
-    encrypt.sh production.pem 
-    "I can get you a toe by 3 o'clock this afternoon."
+```
+> encrypt.sh production.pem \
+  "I can get you a toe by 3 o'clock this afternoon."
+````
 
 The script creates an encrypted file, `production.pem.enc`, and outputs
 instructions for decrypting it, but with the password blanked out.
@@ -51,7 +54,7 @@ From here, I'd move the encrypted file to my Dropbox public folder and
 send Chris the generated link, as well as the output of `encrypt.sh`,
 over IM:
 
-![](http://i.imgur.com/lSEsz5z.jpg)
+![](lSEsz5z.jpg)
 
 Once he acknowledges that he's received the file, I immediately delete
 it.
@@ -62,7 +65,7 @@ Now I need to send Chris the password. Here's what I **don't** do: send
 it to him over the same channel that I used to send the file itself.
 Instead, I pull out my phone and send it to him as a text message:
 
-![](http://i.imgur.com/pQHZlkO.jpg)
+![](pQHZlkO.jpg)
 
 Now Chris has the file, instructions to decrypt it, and the passphrase,
 so he's good to go. An attacker, meanwhile, would need access to both

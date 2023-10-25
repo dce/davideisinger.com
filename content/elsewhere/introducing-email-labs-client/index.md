@@ -2,7 +2,6 @@
 title: "Introducing: EmailLabsClient"
 date: 2008-07-31T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/introducing-email-labs-client/
 ---
 
@@ -13,14 +12,35 @@ simplify interaction with their system, we've created
 a small Ruby client for the EmailLabs API. The core of the program is
 the `send_request` method:
 
-``` {#code .ruby}
-def self.send_request(request_type, activity) xml = Builder::XmlMarkup.new :target => (input = '') xml.instruct! xml.DATASET do xml.SITE_ID SITE_ID yield xml end Net::HTTP.post_form(URI.parse(ENDPOINT), :type => request_type, :activity => activity, :input => input) end 
+```ruby
+def self.send_request(request_type, activity)
+  xml = Builder::XmlMarkup.new :target => (input = '')
+  
+  xml.instruct!
+  
+  xml.DATASET do
+    xml.SITE_ID SITE_ID
+    yield xml
+  end
+  
+  Net::HTTP.post_form(
+    URI.parse(ENDPOINT),
+    :type => request_type,
+    :activity => activity,
+    :input => input
+  )
+end 
 ```
 
 Then you can make API requests like this:
 
-``` {#code .ruby}
-def self.subscribe_user(mailing_list, email_address) send_request('record', 'add') do |body| body.MLID mailing_list body.DATA email_address, :type => 'email' end end 
+```ruby
+def self.subscribe_user(mailing_list, email_address)
+  send_request('record', 'add') do |body|
+    body.MLID mailing_list
+    body.DATA email_address, :type => 'email'
+  end
+end 
 ```
 
 If you find yourself needing to work with an EmailLabs mailing list,

@@ -2,7 +2,6 @@
 title: "New Pointless Project: I Dig Durham"
 date: 2011-02-25T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/new-pointless-project-i-dig-durham/
 ---
 
@@ -14,7 +13,7 @@ NC. A few of us decided to use the first [Pointless
 Weekend](https://viget.com/flourish/pointless-weekend-3-new-pointless-projects) to
 build a tiny application to highlight some of Durham's finer points and,
 48 hours later, launched [I Dig Durham](http://idigdurham.com/). Simply
-tweet to [\@idigdurham](https://twitter.com/idigdurham) (or include the
+tweet to [@idigdurham](https://twitter.com/idigdurham) (or include the
 hashtag [#idigdurham](https://twitter.com/search?q=%23idigdurham)) or
 post a photo to Flickr
 tagged [idigdurham](http://www.flickr.com/photos/tags/idigdurham) and
@@ -33,6 +32,6 @@ really polish the site.
 
 Though basically feature complete, we've got a few tweaks we plan to
 make to the site, and we'd like to expand the underlying app to support
-I Dig sites for more of our favorite cities, but it\'s a good start from
-[North Carolina\'s top digital
+I Dig sites for more of our favorite cities, but it's a good start from
+[North Carolina's top digital
 agency](https://www.viget.com/durham)\...though we may be biased.

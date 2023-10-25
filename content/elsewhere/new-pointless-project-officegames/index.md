@@ -2,7 +2,6 @@
 title: "New Pointless Project: OfficeGames"
 date: 2012-02-28T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/new-pointless-project-officegames/
 ---
 

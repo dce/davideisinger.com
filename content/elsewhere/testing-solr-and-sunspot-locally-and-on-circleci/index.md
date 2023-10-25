@@ -2,25 +2,24 @@
 title: "Testing Solr and Sunspot (locally and on CircleCI)"
 date: 2018-11-27T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/testing-solr-and-sunspot-locally-and-on-circleci/
 ---
 
-I don\'t usually write complex search systems, but when I do, I reach
+I don't usually write complex search systems, but when I do, I reach
 for [Solr](http://lucene.apache.org/solr/) and the awesome
 [Sunspot](http://sunspot.github.io/) gem. I pulled them into a recent
 client project, and while Sunspot makes it a breeze to define your
 search indicies and queries, its testing philosophy can best be
-described as \"figure it out yourself, smartypants.\"
+described as "figure it out yourself, smartypants."
 
 I found a [seven-year old code
 snippet](https://dzone.com/articles/install-and-test-solrsunspot) that
 got me most of the way, but needed to make some updates to make it
 compatible with modern RSpec and account for a delay on Circle between
-Solr starting and being available to index documents. Here\'s the
+Solr starting and being available to index documents. Here's the
 resulting config, which should live in `spec/support/sunspot.rb`:
 
-``` {.code-block .line-numbers}
+```ruby
 require 'sunspot/rails/spec_helper'
 require 'net/http'
 
@@ -81,56 +80,49 @@ end
 *(Fork me at
 <https://gist.github.com/dce/3a9b5d8623326214f2e510839e2cac26>.)*
 
-With this code in place, pass `solr: true` as RSpec metadata^[1](#f1)^
+With this code in place, pass `solr: true` as RSpec metadata[^1]
 to your `describe`, `context`, and `it` blocks to test against a live
 Solr instance, and against a stub instance otherwise.
 
-[]{#a-couple-other-sunspot-related-things}
+## A couple other Sunspot-related things
 
-## A couple other Sunspot-related things [\#](#a-couple-other-sunspot-related-things "Direct link to A couple other Sunspot-related things"){.anchor aria-label="Direct link to A couple other Sunspot-related things"}
-
-While I\'ve got you here, thinking about search, here are a few other
+While I've got you here, thinking about search, here are a few other
 neat tricks to make working with Sunspot and Solr easier.
 
-[]{#use-foreman-to-start-all-the-things}
-
-### Use Foreman to start all the things [\#](#use-foreman-to-start-all-the-things "Direct link to Use Foreman to start all the things"){.anchor aria-label="Direct link to Use Foreman to start all the things"}
+### Use Foreman to start all the things
 
 Install the [Foreman](http://ddollar.github.io/foreman/) gem and create
 a `Procfile` like so:
 
-    rails: bundle exec rails server -p 3000
-    webpack: bin/webpack-dev-server
-    solr: bundle exec rake sunspot:solr:run
+```
+rails: bundle exec rails server -p 3000
+webpack: bin/webpack-dev-server
+solr: bundle exec rake sunspot:solr:run
+```
 
 Then you can boot up all your processes with a simple `foreman start`.
 
-[]{#configure-sunspot-to-use-the-same-solr-instance-in-dev-and-test}
-
-### Configure Sunspot to use the same Solr instance in dev and test [\#](#configure-sunspot-to-use-the-same-solr-instance-in-dev-and-test "Direct link to Configure Sunspot to use the same Solr instance in dev and test"){.anchor aria-label="Direct link to Configure Sunspot to use the same Solr instance in dev and test"}
+### Configure Sunspot to use the same Solr instance in dev and test
 
 [By
 default](https://github.com/sunspot/sunspot/blob/3328212da79178319e98699d408f14513855d3c0/sunspot_rails/lib/generators/sunspot_rails/install/templates/config/sunspot.yml),
 Sunspot wants to run two different Solr processes, listening on two
 different ports, for the development and test environments. You only
-need one instance of Solr running --- it\'ll handle setting up a
-\"core\" for each environment. Just set the port to the same number in
+need one instance of Solr running --- it'll handle setting up a
+"core" for each environment. Just set the port to the same number in
 `config/sunspot.yml` to avoid starting up and shutting down Solr every
 time you run your test suite.
 
-[]{#sunspot-doesnt-reindex-automatically-in-test-mode}
-
-### Sunspot doesn\'t reindex automatically in test mode [\#](#sunspot-doesnt-reindex-automatically-in-test-mode "Direct link to Sunspot doesn't reindex automatically in test mode"){.anchor aria-label="Direct link to Sunspot doesn't reindex automatically in test mode"}
+### Sunspot doesn't reindex automatically in test mode
 
 Just a little gotcha: typically, Sunspot updates the index after every
-update to an indexed model, but not so in test mode. You\'ll need to run
+update to an indexed model, but not so in test mode. You'll need to run
 some combo of `Sunspot.commit` and `[ModelName].reindex` after making
 changes that you want to test against.
 
 ------------------------------------------------------------------------
 
-That\'s all I\'ve got. Have a #blessed Tuesday and a happy holiday
+That's all I've got. Have a #blessed Tuesday and a happy holiday
 season.
 
-[1.]{#f1} e.g. `describe "viewing the list of speakers", solr: true do`
-[↩](#a1)
+[^1]: e.g. `describe "viewing the list of speakers", solr: true do`

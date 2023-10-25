@@ -2,7 +2,6 @@
 title: "Three Magical Git Aliases"
 date: 2012-04-25T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/three-magical-git-aliases/
 ---
 
@@ -13,7 +12,7 @@ in a jumble of merge commits or worse. Here are three aliases I use as
 part of my daily workflow that help me avoid many of the common
 pitfalls.
 
-### GPP (`git pull --rebase && git push`)
+## GPP (`git pull --rebase && git push`)
 
 **I can't push without pulling, and I can't pull without rebasing.** I'm
 not sure this is still a point of debate, but if so, let me make my side
@@ -28,7 +27,7 @@ these merge commits [at the configuration
 level](https://viget.com/extend/only-you-can-prevent-git-merge-commits),
 but they aren't foolproof. This alias is.
 
-### GMF (`git merge --ff-only`)
+## GMF (`git merge --ff-only`)
 
 **I can't create merge commits.** Similar to the last, this alias
 prevents me from ever creating merge commits. I do my work in a topic
@@ -43,7 +42,7 @@ merge](https://365git.tumblr.com/post/504140728/fast-forward-merge). I
 then check out my topic branch, rebase master, and then run the merge
 successfully.
 
-### GAP (`git add --patch`)
+## GAP (`git add --patch`)
 
 **I can't commit a code change without looking at it first.** Running
 this command rather than `git add .` or using a commit flag lets me view

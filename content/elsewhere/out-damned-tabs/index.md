@@ -2,7 +2,6 @@
 title: "Out, Damned Tabs"
 date: 2009-04-09T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/out-damned-tabs/
 ---
 
@@ -58,7 +57,7 @@ Alternatively, we've packaged the bundle up and put it up on
 Instructions for setting it up are on the page, and patches are
 encouraged.
 
-### How About You? {#how_about_you}
+### How About You?
 
 This approach is working well for me; I'm curious if other people are
 doing anything like this. If you've got an alternative way to deal with

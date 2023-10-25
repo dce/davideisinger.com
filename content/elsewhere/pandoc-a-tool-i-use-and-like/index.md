@@ -2,7 +2,6 @@
 title: "Pandoc: A Tool I Use and Like"
 date: 2022-05-25T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/pandoc-a-tool-i-use-and-like/
 ---
 
@@ -25,7 +24,7 @@ from recent memory:
 This website you're reading presently uses [Craft
 CMS](https://craftcms.com/), a flexible and powerful content management
 system that doesn't perfectly match my writing
-process[^1^](#fn1){#fnref1 .footnote-ref role="doc-noteref"}. Rather
+process[^1]. Rather
 than composing directly in Craft, I prefer to write locally, pipe the
 output through Pandoc, and put the resulting HTML into a text block in
 the CMS. This gets me a few things I really like:
@@ -52,14 +51,16 @@ Basecamp doesn't work (just shows the code verbatim), but I've found
 that if I convert my Markdown notes to HTML and open the HTML in a
 browser, I can copy and paste that directly into Basecamp with good
 results. Leveraging MacOS' `open` command, this one-liner does the
-trick[^2^](#fn2){#fnref2 .footnote-ref role="doc-noteref"}:
+trick[^2]:
 
-    cat [filename.md] 
-      | pandoc -t html 
-      > /tmp/output.html 
-      && open /tmp/output.html 
-      && read -n 1 
-      && rm /tmp/output.html
+```sh
+cat [filename.md]
+  | pandoc -t html
+  > /tmp/output.html
+  && open /tmp/output.html
+  && read -n 1
+  && rm /tmp/output.html
+```
 
 This will convert the contents to HTML, save that to a file, open the
 file in a browser, wait for the user to hit enter, and the remove the
@@ -78,11 +79,15 @@ helper](https://apidock.com/rails/ActionView/Helpers/SanitizeHelper/strip_tags))
 the resulting content was all on one line, which wasn't very readable.
 So imagine an article like this:
 
-    <h1>Headline</h1> <p>A paragraph.</p> <ul><li>List item #1</li> <li>List item #2</li></ul>
+```html
+<h1>Headline</h1> <p>A paragraph.</p> <ul><li>List item #1</li> <li>List item #2</li></ul>
+````
 
 Our initial approach (with `strip_tags`) gives us this:
 
-    Headline A paragraph. List item #1 List item #2
+```
+Headline A paragraph. List item #1 List item #2
+```
 
 Not great! But fortunately, some bright fellow had the idea to pull in
 Pandoc, and some even brighter person packaged up some [Ruby
@@ -90,12 +95,14 @@ bindings](https://github.com/xwmx/pandoc-ruby) for it. Taking that same
 content and running it through `PandocRuby.html(content).to_plain` gives
 us:
 
-    Headline
+```
+Headline
 
-    A paragraph.
+A paragraph.
 
-    -   List item #1
-    -   List item #2
+-   List item #1
+-   List item #2
+```
 
 Much better, and though you can't tell from this basic example, Pandoc
 does a great job with spacing and wrapping to generate really
@@ -120,15 +127,17 @@ did (unless you guessed "use Pandoc"). In Firefox:
 
 The result is something like this:
 
-    .ac - $76.00
-    .academy - $12.00
-    .accountants - $94.00
-    .agency - $19.00
-    .apartments - $47.00
-    .associates - $29.00
-    .au - $15.00
-    .auction - $29.00
-    ...
+```
+.ac - $76.00
+.academy - $12.00
+.accountants - $94.00
+.agency - $19.00
+.apartments - $47.00
+.associates - $29.00
+.au - $15.00
+.auction - $29.00
+...
+```
 
 ### Preview Mermaid/Markdown (`--standalone`)
 
@@ -157,9 +166,12 @@ also includes several ways to create PDF documents. The simplest (IMO)
 is to install `wkhtmltopdf`, then instruct Pandoc to convert its input
 to HTML but use `.pdf` in the output filename, so something like:
 
-    echo "# Hello\n\nIs it me you're looking for?" | pandoc -t html -o hello.pdf
+```sh
+echo "# Hello\n\nIs it me you're looking for?" \
+  | pandoc -t html -o hello.pdf
+```
 
-[The result is quite nice.](https://static.viget.com/hello.pdf)
+[The result is quite nice.](hello.pdf)
 
 ------------------------------------------------------------------------
 
@@ -179,10 +191,8 @@ shot. I think you'll find it unexpectedly useful.
 *[Swiss army knife icons created by smalllikeart -
 Flaticon](https://www.flaticon.com/free-icons/swiss-army-knife "swiss army knife icons")*
 
+[^1]:  My writing process is (generally):
 
-------------------------------------------------------------------------
-
-1.  [My writing process is (generally):]{#fn1}
     1.  Write down an idea in my notebook
     2.  Gradually add a series of bullet points (this can sometimes take
         awhile)
@@ -199,16 +209,15 @@ Flaticon](https://www.flaticon.com/free-icons/swiss-army-knife "swiss army knife
     11. Create a new post in Craft, add a text section, flip to code
         view, paste clipboard contents
     12. Fill in the rest of the post metadata
-    13. 🚢 [↩︎](#fnref1){.footnote-back role="doc-backlink"}
+    13. 🚢
 
-2.  [I've actually got this wired up as a Vim command in
-    `.vimrc`:]{#fn2}
+[^2]: I've actually got this wired up as a Vim command in `.vimrc`:
 
-        command Mdpreview ! cat %
-              \ | pandoc -t html
-              \ > /tmp/output.html
-              \ && open /tmp/output.html
-              \ && read -n 1
-              \ && rm /tmp/output.html
-
-    [↩︎](#fnref2){.footnote-back role="doc-backlink"}
+    ```vim
+    command Mdpreview ! cat %
+      \ | pandoc -t html
+      \ > /tmp/output.html
+      \ && open /tmp/output.html
+      \ && read -n 1
+      \ && rm /tmp/output.html
+    ```

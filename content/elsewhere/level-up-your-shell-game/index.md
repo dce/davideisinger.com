@@ -2,7 +2,6 @@
 title: "Level Up Your Shell Game"
 date: 2013-10-24T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/level-up-your-shell-game/
 ---
 
@@ -17,40 +16,36 @@ the rest of the team had never encountered. Here are a few of our
 favorites:
 
 -   [Keyboard
-    Shortcuts](https://viget.com/extend/level-up-your-shell-game#keyboard-shortcuts)
--   [Aliases](https://viget.com/extend/level-up-your-shell-game#aliases)
+    Shortcuts](#keyboard-shortcuts)
+-   [Aliases](#aliases)
 -   [History
-    Expansions](https://viget.com/extend/level-up-your-shell-game#history-expansions)
+    Expansions](#history-expansions)
 -   [Argument
-    Expansion](https://viget.com/extend/level-up-your-shell-game#argument-expansion)
+    Expansion](#argument-expansion)
 -   [Customizing
-    `.inputrc`](https://viget.com/extend/level-up-your-shell-game#customizing-inputrc)
+    `.inputrc`](#customizing-inputrc)
 -   [Viewing Processes on a Given Port with
-    `lsof`](https://viget.com/extend/level-up-your-shell-game#viewing-processes-on-a-given-port-with-lsof)
+    `lsof`](#viewing-processes-on-a-given-port-with-lsof)
 -   [SSH
-    Configuration](https://viget.com/extend/level-up-your-shell-game#ssh-configuration)
+    Configuration](#ssh-configuration)
 -   [Invoking Remote Commands with
-    SSH](https://viget.com/extend/level-up-your-shell-game#invoking-remote-commands-with-ssh)
+    SSH](#invoking-remote-commands-with-ssh)
 
-Ready to get your
-![](https://github.global.ssl.fastly.net/images/icons/emoji/neckbeard.png){.no-border
-align="top" height="24"
-style="display: inline; vertical-align: top; width: 24px !important; height: 24px !important;"}
-on? Good. Let's go.
+Ready to get your <img src="neckbeard.png" class="inline"> on? Good. Let's go.
 
 ## Keyboard Shortcuts
 
 [**Mike:**](https://viget.com/about/team/mackerman) I recently
 discovered a few simple Unix keyboard shortcuts that save me some time:
 
-  Shortcut               Result
-  ---------------------- ----------------------------------------------------------------------------
-  `ctrl + u`             Deletes the portion of your command **before** the current cursor position
-  `ctrl + w`             Deletes the **word** preceding the current cursor position
-  `ctrl + left arrow`    Moves the cursor to the **left by one word**
-  `ctrl + right arrow`   Moves the cursor to the **right by one word**
-  `ctrl + a`             Moves the cursor to the **beginning** of your command
-  `ctrl + e`             Moves the cursor to the **end** of your command
+  Shortcut             | Result
+  ---------------------|-----------------------------------------------------------------------------
+  `ctrl + u`           | Deletes the portion of your command **before** the current cursor position
+  `ctrl + w`           | Deletes the **word** preceding the current cursor position
+  `ctrl + left arrow`  | Moves the cursor to the **left by one word**
+  `ctrl + right arrow` | Moves the cursor to the **right by one word**
+  `ctrl + a`           | Moves the cursor to the **beginning** of your command
+  `ctrl + e`           | Moves the cursor to the **end** of your command
 
 Thanks to [Lawson Kurtz](https://viget.com/about/team/lkurtz) for
 pointing out the beginning and end shortcuts
@@ -169,7 +164,7 @@ or even
 
     mv app/models/foo{,bar}.rb
 
-## Customizing .inputrc {#customizing-inputrc}
+## Customizing .inputrc
 
 [**Brian:**](https://viget.com/about/team/blandau) One of the things I
 have found to be a big time saver when using my terminal is configuring

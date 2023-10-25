@@ -2,7 +2,6 @@
 title: "Refresh Recap: The Future of Data"
 date: 2009-09-25T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/refresh-recap-the-future-of-data/
 ---
 

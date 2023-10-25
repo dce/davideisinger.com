@@ -2,12 +2,10 @@
 title: "Convert a Ruby Method to a Lambda"
 date: 2011-04-26T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/convert-ruby-method-to-lambda/
 ---
 
-Last week I
-[tweeted](https://twitter.com/#!/deisinger/status/60706017037660160):
+Last week I tweeted:
 
 > Convert a method to a lambda in Ruby: lambda(&method(:events_path)).
 > OR JUST USE JAVASCRIPT.
@@ -16,14 +14,22 @@ It might not be clear what I was talking about or why it would be
 useful, so allow me to elaborate. Say you've got the following bit of
 Javascript:
 
-    var ytmnd = function() { alert("you're the man now " + (arguments[0] || "dog")); }; 
+```javascript
+var ytmnd = function() {
+  alert("you're the man now " + (arguments[0] || "dog"));
+};
+```
 
 Calling `ytmnd()` gets us `you're the man now dog`, while
 `ytmnd("david")` yields `you're the man now david`. Calling simply
 `ytmnd` gives us a reference to the function that we're free to pass
 around and call at a later time. Consider now the following Ruby code:
 
-    def ytmnd(name = "dog") puts "you're the man now #{name}" end 
+```ruby
+def ytmnd(name = "dog")
+  puts "you're the man now #{name}"
+end
+```
 
 First, aren't default argument values and string interpolation awesome?
 Love you, Ruby. Just as with our Javascript function, calling `ytmnd()`

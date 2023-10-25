@@ -2,7 +2,6 @@
 title: "Use .pluck If You Only Need a Subset of Model Attributes"
 date: 2014-08-20T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/pluck-subset-rails-activerecord-model-attributes/
 ---
 
@@ -43,7 +42,9 @@ which there are 314,420 in my local database). Let's say we need a list
 of the dates of every single time entry in the system. A naïve approach
 would look something like this:
 
-    dates = TimeEntry.all.map { |entry| entry.logged_on }
+```ruby
+dates = TimeEntry.all.map { |entry| entry.logged_on }
+```
 
 It works, but seems a little slow:
 
@@ -59,7 +60,9 @@ Almost 14.5 seconds. Not exactly webscale. And how about RAM usage?
 
 About 1.25 gigabytes of RAM. Now, what if we use `.pluck` instead?
 
-    dates = TimeEntry.pluck(:logged_on)
+```ruby
+dates = TimeEntry.pluck(:logged_on)
+```
 
 In terms of time, we see major improvements:
 
@@ -77,13 +80,15 @@ From 1.25GB to less than 400MB. When we subtract the overhead we
 calculated earlier, we're going from 15 seconds of execution time to
 two, and 1.15GB of RAM to 300MB.
 
-## Using SQL Fragments {#usingsqlfragments}
+## Using SQL Fragments
 
 As you might imagine, there's a lot of duplication among the dates on
 which time entries are logged. What if we only want unique values? We'd
 update our naïve approach to look like this:
 
-    dates = TimeEntry.all.map { |entry| entry.logged_on }.uniq
+```ruby
+dates = TimeEntry.all.map { |entry| entry.logged_on }.uniq
+````
 
 When we profile this code, we see that it performs slightly worse than
 the non-unique version:
@@ -99,7 +104,9 @@ the non-unique version:
 Instead, let's take advantage of `.pluck`'s ability to take a SQL
 fragment rather than a symbolized column name:
 
-    dates = TimeEntry.pluck("DISTINCT logged_on")
+```ruby
+dates = TimeEntry.pluck("DISTINCT logged_on")
+```
 
 Profiling this code yields surprising results:
 
@@ -115,14 +122,16 @@ Both running time and memory usage are virtually identical to executing
 the runner with a blank command, or, in other words, the result is
 calculated at an incredibly low cost.
 
-## Using `.pluck` Across Tables {#using.pluckacrosstables}
+## Using `.pluck` Across Tables
 
 Requirements have changed, and now, instead of an array of timestamps,
 we need an array of two-element arrays consisting of the timestamp and
 the employee's last name, stored in the "employees" table. Our naïve
 approach then becomes:
 
-    dates = TimeEntry.all.map { |entry| [entry.logged_on, entry.employee.last_name] }
+```ruby
+dates = TimeEntry.all.map { |entry| [entry.logged_on, entry.employee.last_name] }
+```
 
 Go grab a cup of coffee, because this is going to take awhile.
 
@@ -140,7 +149,9 @@ can improve performance somewhat by taking advantage of ActiveRecord's
 loading](http://guides.rubyonrails.org/active_record_querying.html#eager-loading-associations)
 capabilities.
 
-    dates = TimeEntry.includes(:employee).map { |entry| [entry.logged_on, entry.employee.last_name] }
+```ruby
+dates = TimeEntry.includes(:employee).map { |entry| [entry.logged_on, entry.employee.last_name] }
+```
 
 Benchmarking this code, we see significant performance gains, since
 we're going from over 300,000 SQL queries to two.
@@ -156,7 +167,9 @@ we're going from over 300,000 SQL queries to two.
 Faster (from 7.5 minutes to 21 seconds), but certainly not fast enough.
 Finally, with `.pluck`:
 
-    dates = TimeEntry.includes(:employee).pluck(:logged_on, :last_name)
+```ruby
+dates = TimeEntry.includes(:employee).pluck(:logged_on, :last_name)
+```
 
 Benchmarks:
 

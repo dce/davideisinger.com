@@ -2,7 +2,6 @@
 title: "Backup your Database in Git"
 date: 2009-05-08T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/backup-your-database-in-git/
 ---
 
@@ -22,7 +21,14 @@ manage it the same way you manage the rest of your code --- in a source
 code manager? Setting such a scheme up is dead simple. On your
 production server, with git installed:
 
-    mkdir -p /path/to/backup cd /path/to/backup mysqldump -u [user] -p[pass] --skip-extended-insert [database] > [database].sql git init git add [database].sql git commit -m "Initial commit" 
+```sh
+mkdir -p /path/to/backup
+cd /path/to/backup
+mysqldump -u [user] -p[pass] --skip-extended-insert [database] > [database].sql
+git init
+git add [database].sql
+git commit -m "Initial commit"
+````
 
 The `--skip-extended-insert` option tells mysqldump to give each table
 row its own `insert` statement. This creates a larger initial commit
@@ -32,7 +38,11 @@ each patch only includes the individual records added/updated/deleted.
 
 From here, all we have to do is set up a cronjob to update the backup:
 
-    0 * * * * cd /path/to/backup && \ mysqldump -u [user] -p[pass] --skip-extended-insert [database] > [database].sql && \ git commit -am "Updating DB backup" 
+```
+0 * * * * cd /path/to/backup && \
+  mysqldump -u [user] -p[pass] --skip-extended-insert [database] > [database].sql && \
+  git commit -am "Updating DB backup"
+```
 
 You may want to add another entry to run
 [`git gc`](http://www.kernel.org/pub/software/scm/git/docs/git-gc.html)

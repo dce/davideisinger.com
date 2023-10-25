@@ -2,7 +2,6 @@
 title: "JSON Feed Is Cool (+ a Simple Tool to Create Your Own)"
 date: 2017-08-02T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/json-feed-validator/
 ---
 
@@ -16,10 +15,9 @@ reasonably contend that Google killed feed-based content aggregation in
 [underground
 popularity](http://www.makeuseof.com/tag/rss-dead-look-numbers/) and
 JSON Feed has the potential to make feed creation and consumption even
-more widespread. So why are we^[1](#fn:1 "see footnote"){#fnref:1
-.footnote}^ so excited about it?
+more widespread. So why are we[^1] so excited about it?
 
-## JSON \> XML {#jsonxml}
+## JSON > XML
 
 RSS and Atom are both XML-based formats, and as someone who's written
 code to both produce and ingest these feeds, it's not how I'd choose to
@@ -41,7 +39,7 @@ title-less posts and custom extensions, meaning its potential uses are
 myriad. Imagine a new generation of microblogs, Slack bots, and IoT
 devices consuming and/or producing JSON feeds.
 
-## Feeds Are (Still) Cool {#feedsarestillcool}
+## Feeds Are (Still) Cool
 
 Not to get too high up on my horse or whatever, but as a longtime web
 nerd, I'm dismayed by how much content creation has migrated to walled
@@ -72,9 +70,4 @@ downloaded from [JSON Schema Store](http://schemastore.org/json/), but
 [suggestions and pull requests are
 welcome](https://github.com/vigetlabs/json-feed-validator).
 
-
-------------------------------------------------------------------------
-
-1.  [The royal we, you
-    know?](https://www.youtube.com/watch?v=VLR_TDO0FTg#t=45s)
-    [ ↩](#fnref:1 "return to article"){.reversefootnote}
+[^1]:  [The royal we, you know?](https://www.youtube.com/watch?v=VLR_TDO0FTg#t=45s)

@@ -2,7 +2,6 @@
 title: "Stop Pissing Off Your Designers"
 date: 2009-04-01T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/stop-pissing-off-your-designers/
 ---
 

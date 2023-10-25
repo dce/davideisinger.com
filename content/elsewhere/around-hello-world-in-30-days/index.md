@@ -2,7 +2,6 @@
 title: "Around \"Hello World\" in 30 Days"
 date: 2010-06-02T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/around-hello-world-in-30-days/
 ---
 
@@ -73,9 +72,8 @@ ups and downs, though. High points included Redis, Scheme, Erlang, and
 CoffeeScript. Lows included Cassandra and CouchDB, which I couldn't even
 get running in the allotted hour.
 
-I created a simple [Tumblr blog](https://techmonth.tumblr.com)
-
-and posted to it after every new tech, which kept me accountable and
+I created a simple [Tumblr blog](https://techmonth.tumblr.com) and posted
+to it after every new tech, which kept me accountable and
 spurred discussion on Twitter and at the office. My talk went over
 surprisingly well at DevNation ([here are my
 slides](http://www.slideshare.net/deisinger/techmonth)), and I hope to

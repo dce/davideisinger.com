@@ -2,7 +2,6 @@
 title: "Regular Expressions in MySQL"
 date: 2011-09-28T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/regular-expressions-in-mysql/
 ---
 
@@ -22,7 +21,9 @@ Regular expressions in MySQL are invoked with the
 aliased to `RLIKE`. The most basic usage is a hardcoded regular
 expression in the right hand side of a conditional clause, e.g.:
 
-    SELECT * FROM users WHERE email RLIKE '^[a-c].*[0-9]@'; 
+```sql
+SELECT * FROM users WHERE email RLIKE '^[a-c].*[0-9]@'; 
+```
 
 This SQL would grab every user whose email address begins with 'a', 'b',
 or 'c' and has a number as the final character of its local portion.
@@ -37,7 +38,9 @@ redirect rules à la
 We were able to do the entire match in the database, using SQL like this
 (albeit with a few more joins, groups and orders):
 
-    SELECT * FROM redirect_rules WHERE '/news' RLIKE pattern; 
+```sql
+SELECT * FROM redirect_rules WHERE '/news' RLIKE pattern; 
+```
 
 In this case, '/news' is the incoming request path and `pattern` is the
 column that stores the regular expression. In our benchmarks, we found
@@ -70,6 +73,6 @@ for more information.
 ## Conclusion
 
 In certain circumstances, regular expressions in SQL are a handy
-technique that can lead to faster, cleaner code. Don\'t use `RLIKE` when
+technique that can lead to faster, cleaner code. Don't use `RLIKE` when
 `LIKE` will suffice and be sure to benchmark your queries with datasets
 similar to the ones you'll be facing in production.

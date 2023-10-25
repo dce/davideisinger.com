@@ -2,7 +2,6 @@
 title: "CoffeeScript for Ruby Bros"
 date: 2010-08-06T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/coffeescript-for-ruby-bros/
 ---
 
@@ -42,11 +41,30 @@ in callback-oriented code, you wind up writing `function` one hell of a
 lot. CoffeeScript gives us the `->` operator, combining the brevity of
 Ruby with the simplicity of Javascript:
 
-    thrice: (f) -> f() f() f() thrice -> puts "OHAI" 
+```coffeescript
+thrice: (f) ->
+  f()
+  f()
+  f()
+
+thrice -> puts "OHAI"
+```
 
 Which translates to:
 
-    (function(){ var thrice; thrice = function(f) { f(); f(); return f(); }; thrice(function() { return puts("OHAI"); }); })(); 
+```javascript
+(function(){
+  var thrice;
+
+  thrice = function(f) {
+    f();
+    f();
+    return f();
+  };
+
+  thrice(function() { return puts("OHAI"); });
+})();
+```
 
 I'll tell you what that is: MONEY. Money in the BANK.
 

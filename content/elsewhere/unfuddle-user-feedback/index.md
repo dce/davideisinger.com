@@ -2,7 +2,6 @@
 title: "Unfuddle User Feedback"
 date: 2009-06-02T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/unfuddle-user-feedback/
 ---
 
@@ -21,15 +20,49 @@ is simply a matter of adding
 [HTTParty](http://railstips.org/2008/7/29/it-s-an-httparty-and-everyone-is-invited)
 to our `Feedback` model:
 
-``` {#code .ruby}
-class Feedback < ActiveRecord::Base include HTTParty base_uri "viget.unfuddle.com/projects/#{UNFUDDLE[:project]} validates_presence_of :description after_create :post_to_unfuddle, :if => proc { Rails.env == "production" } def post_to_unfuddle self.class.post("/tickets.xml", :basic_auth => UNFUDDLE[:auth], :query => { :ticket => ticket }) end private def ticket returning(Hash.new) do |ticket| ticket[:summary] = "#{self.topic}" ticket[:description] = "#{self.name} (#{self.email}) - #{self.created_at}:\n\n#{self.description}" ticket[:milestone_id] = UNFUDDLE[:milestone] ticket[:priority] = 3 end end end 
+```ruby
+class Feedback < ActiveRecord::Base
+  include HTTParty
+
+  base_uri "viget.unfuddle.com/projects/#{UNFUDDLE[:project]}"
+
+  validates_presence_of :description
+
+  after_create :post_to_unfuddle,
+    :if => proc { Rails.env == "production" }
+
+  def post_to_unfuddle
+    self.class.post(
+      "/tickets.xml",
+      :basic_auth => UNFUDDLE[:auth],
+      :query => { :ticket => ticket }
+    )
+  end
+
+  private
+
+  def ticket
+    returning(Hash.new) do |ticket|
+      ticket[:summary] = topic
+      ticket[:description] = "#{name} (#{email}) - #{created_at}:\n\n#{description}"
+      ticket[:milestone_id] = UNFUDDLE[:milestone]
+      ticket[:priority] = 3
+    end
+  end
+end
 ```
 
-We store our Unfuddle configuration in
-`config/initializers/unfuddle.rb`:
+We store our Unfuddle configuration in `config/initializers/unfuddle.rb`:
 
-``` {#code .ruby}
-UNFUDDLE = { :project => 12345, :milestone => 12345, # the 'feedback' milestone :auth => { :username => "username", :password => "password" } } 
+```ruby
+UNFUDDLE = {
+  :project => 12345,
+  :milestone => 12345, # the 'feedback' milestone
+  :auth => {
+    :username => "username",
+    :password => "password"
+  }
+}
 ```
 
 Put your user feedback into Unfuddle, and you get all of its features:

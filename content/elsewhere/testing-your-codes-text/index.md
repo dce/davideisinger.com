@@ -2,7 +2,6 @@
 title: "Testing Your Code’s Text"
 date: 2011-08-31T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/testing-your-codes-text/
 ---
 
@@ -35,7 +34,19 @@ Your gut instinct is to zip off a quick fix, write a self-deprecating
 commit message, and act like the whole thing never happened. But
 consider writing a rake task like this:
 
-    namespace :preflight do task :git_conflict do paths = `grep -lir '<<<\\|>>>' app lib config`.split(/\n/) if paths.any? puts "\ERROR: Found git conflict artifacts in the following files\n\n" paths.each {|path| puts " - #{path}" } exit 1 end end end 
+```ruby
+namespace :preflight do
+  task :git_conflict do
+    paths = `grep -lir '<<<\|>>>' app lib config`.split(/\n/)
+
+    if paths.any?
+      puts "ERROR: Found git conflict artifacts in the following files\n\n"
+      paths.each {|path| puts " - #{path}" }
+      exit 1
+    end
+  end
+end 
+```
 
 This task greps through your `app`, `lib`, and `config` directories
 looking for occurrences of `<<<` or `>>>` and, if it finds any, prints a
@@ -43,7 +54,32 @@ list of the offending files and exits with an error. Hook this into the
 rake task run by your continuous integration server and never worry
 about accidentally deploying errant git artifacts again:
 
-    namespace :preflight do task :default do Rake::Task['cover:ensure'].invoke Rake::Task['preflight:all'].invoke end task :all do Rake::Task['preflight:git_conflict'].invoke end task :git_conflict do paths = `grep -lir '<<<\\|>>>' app lib config`.split(/\n/) if paths.any? puts "\ERROR: Found git conflict artifacts in the following files\n\n" paths.each {|path| puts " - #{path}" } exit 1 end end end Rake::Task['cruise'].clear task :cruise => 'preflight:default' 
+```ruby
+namespace :preflight do
+  task :default do
+    Rake::Task['cover:ensure'].invoke
+    Rake::Task['preflight:all'].invoke
+  end
+
+  task :all do
+    Rake::Task['preflight:git_conflict'].invoke
+  end
+
+  task :git_conflict do
+    paths = `grep -lir '<<<\|>>>' app lib config`.split(/\n/)
+    
+    if paths.any?
+      puts "ERROR: Found git conflict artifacts in the following files\n\n"
+      paths.each {|path| puts " - #{path}" }
+      exit 1
+    end
+  end
+end
+
+Rake::Task['cruise'].clear
+
+task :cruise => 'preflight:default' 
+```
 
 We've used this technique to keep our deployment configuration in order,
 to ensure that we're maintaining best practices, and to keep our

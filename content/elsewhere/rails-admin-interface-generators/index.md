@@ -2,7 +2,6 @@
 title: "Rails Admin Interface Generators"
 date: 2011-05-31T00:00:00+00:00
 draft: false
-needs_review: true
 canonical_url: https://www.viget.com/articles/rails-admin-interface-generators/
 ---
 
