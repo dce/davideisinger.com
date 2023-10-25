@@ -1,8 +1,8 @@
 ---
-title: "CoffeeScript for Ruby Bros"
+title: "CoffeeScript for Ruby Friends"
 date: 2010-08-06T00:00:00+00:00
 draft: false
-canonical_url: https://www.viget.com/articles/coffeescript-for-ruby-bros/
+canonical_url: https://www.viget.com/articles/coffeescript-for-ruby-friends/
 ---
 
 Hello there, Ruby friend. You've perhaps heard of
