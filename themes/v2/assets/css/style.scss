@@ -9,6 +9,7 @@ body {
 
 @media only screen and (max-width: 600px) {
   body {
+    -webkit-text-size-adjust: 100%;
     padding: 10px;
   }
 }
