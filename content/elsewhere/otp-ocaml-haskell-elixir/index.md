@@ -202,7 +202,7 @@ key = System.argv |> List.first |> to_char_list |> Stream.cycle
 
 I like it. Reminds me of Unix pipes or any Western written language.
 [Here's how I use the pipe operator in my encrypt
-solution](https://github.com/vigetlabs/otp/blob/master/languages/Elixir/encrypt#L25-L31).
+solution](https://github.com/vigetlabs/otp/blob/master/languages/Elixir/apps/encrypt/lib/encrypt.ex#L11-L17).
 
 ***
 
