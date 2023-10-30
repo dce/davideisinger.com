@@ -1,0 +1,47 @@
+#!/usr/bin/env ruby
+
+require "optparse"
+
+ARTIST = "David Eisinger"
+
+Config = Struct.new(:file, :title, :directory, :artist)
+
+config = Config.new
+
+parser = OptionParser.new do |opts|
+  opts.banner = "Usage: bin/audio [options]"
+
+  opts.on("-f", "--file FILE", "input file") do |file|
+    config.file = file
+  end
+
+  opts.on("-t", "--title TITLE", "title of the track") do |title|
+    config.title = title
+  end
+
+  opts.on("-d", "--directory DIRECTORY", "directory to put the output file") do |directory|
+    config.directory = directory
+  end
+
+  opts.on("-a", "--artist ARTIST", "artist (default: #{ARTIST})") do |artist|
+    config.artist = artist
+  end
+end
+
+begin
+  parser.parse!(ARGV)
+  config.artist ||= ARTIST
+  missing = config.to_h.filter_map { |k, v| k if v.nil? }
+  raise OptionParser::MissingArgument.new(missing * ", ") unless missing.empty?
+rescue
+  puts $!.to_s
+  puts parser
+  exit
+end
+
+dest = [config.directory, "#{config.title}.mp3"].join("/").squeeze("/")
+
+`ffmpeg -i "#{config.file}" -af "pan=mono|FC=FL" -y "#{dest}"`
+`id3tag --artist="#{config.artist}" --song="#{config.title}" "#{dest}"`
+
+puts `id3info "#{dest}"`
