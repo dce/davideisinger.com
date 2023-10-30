@@ -56,10 +56,10 @@ I downloaded the [Airalo][5] app before I left, which offers cheap international
 
 I had a birthday right before we left, and I decided to gift myself a [Novation Circuit Tracks][6], a portable synthesizer and drum machine. This thing is neat! Four drum tracks, two synths, and the ability to control other gear with MIDI. I've only had it about a week and I'm already feeling relatively proficient. Here are a couple demos:
 
-[6]: https://us.novationmusic.com/products/circuit-tracks?setCurrencyId=2
+[6]: https://us.novationmusic.com/products/circuit-tracks
 
-<audio controls src="demo1.mp3"></audio>
-<audio controls src="demo2.mp3"></audio>
+<audio controls src="Demo 1.mp3"></audio>
+<audio controls src="Demo 2.mp3"></audio>
 
 On that second one, the Circuit is using MIDI signals to play my [digital piano][7], which is then sending audio back into the Circuit. I'm just using the voice memos app (of all things) to record the output; I'll probably need to get a proper <abbr title="digital audio workstation">DAW</abbr> set up if I'm going to get more ambitious, but for now, it's pretty fun to create tracks with just a hardware device.
 
