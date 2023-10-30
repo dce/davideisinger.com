@@ -10,6 +10,8 @@
       {{ $page := . }}
 
       {{ range sort (.Resources.Match "*.mp3") "Title" "desc" }}
+        <hr>
+
         <p>
           <audio controls src="{{ .RelPermalink }}"></audio><br>
           “{{ substr .Title 0 -4 }}” – <a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
