@@ -4,6 +4,7 @@ date: 2021-06-09T00:00:00+00:00
 draft: false
 canonical_url: https://www.viget.com/articles/friends-undirected-graph-connections-in-rails/
 featured: true
+exclude_music: true
 ---
 
 No, sorry, not THOSE friends. But if you're interested in how to do
