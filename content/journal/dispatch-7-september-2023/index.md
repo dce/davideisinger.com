@@ -89,7 +89,7 @@ The first, the fantasy draft <abbr title="text-based user interface">TUI</abbr> 
 
 I played around with ChatGPT while I was working on it, asking it to make my code more idiomatic. This worked super well, and some of the refactorings were really clever. This seems like a sweet spot of <abbr title="large language models">LLMs</abbr> -- I already had working code and wasn't asking it to solve complex problems, just to make my code look more like the other code it knows about. I also used it to come up with a name for the project, and it came back with `golong`, which is just 🍒.
 
-[10]: https://davideisinger.com/journal/dispatch-6-august-2023/
+[10]: /journal/dispatch-6-august-2023/
 [11]: https://github.com/charmbracelet/bubbletea
 
 The second was for work -- we needed to crunch some data coming out of [Forecast][12] and the nature of the data (forward-looking, ever-changing) makes it a poor fit for our usual tech. I decided to write a command-line program that reads two <abbr title="comma-separated values">CSVs</abbr> and outputs a third, which we can then import into a Google Sheet. Then I set up an AWS Lambda + API Gateway that serves a very simple web frontend so other folks can run it. This was fun and useful, though it was really low-level programming -- parsing multi-part form bodies, reading and writing basic auth headers, etc. If I were to do something like this again, I'd look for a library that adds additional functionality on top of the basic AWS Lambda request/response stuff. I was able to do some testing with [Testify][13] and learned a lot about structuring slightly larger Go codebases.
