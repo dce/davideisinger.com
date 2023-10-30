@@ -163,3 +163,7 @@ pre {
   padding: 1ch 1ch;
   border-radius: 3px;
 }
+
+audio::-webkit-media-controls-panel {
+  background-color: rgba(0, 0, 0, 0.05);
+}
