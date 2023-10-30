@@ -4,4 +4,7 @@
   <h2>{{ .Title }}</h2>
 
   {{ .Content }}
+
+  {{- partial "references.html" . -}}
+  {{- partial "backlinks.html" . -}}
 {{ end }}

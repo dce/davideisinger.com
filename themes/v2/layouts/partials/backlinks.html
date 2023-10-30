@@ -1,9 +1,9 @@
 {{ $currlink := .RelPermalink }}
-{{ $noslash := substr .RelPermalink 0 -1 }}
+{{ $link := printf `href="%s` (substr .RelPermalink 0 -1) }}
 {{ $backlinks := slice }}
 
 {{ range .Site.Pages }}
-  {{ $found := findRE $noslash .Content 1 }}
+  {{ $found := findRE $link .Content 1 }}
 
   {{ if and ($found) (ne $currlink .RelPermalink) }}
     {{ $backlinks = $backlinks | append . }}
