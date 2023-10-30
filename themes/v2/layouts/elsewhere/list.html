@@ -12,7 +12,12 @@
         {{ $host := strings.Replace $url.Hostname "www." "" }}
 
         <li>
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          {{ if .Params.featured }}
+            <b><a href="{{ .Permalink }}">{{ .Title }}</a></b>
+          {{ else }}
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+          {{ end }}
+
           <span class="nowrap">
             (<a href="{{ $url }}">{{ $host }}</a>, {{ .Date | time.Format "2006-01-02" }})
           </span>
