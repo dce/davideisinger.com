@@ -7,8 +7,12 @@
     <ul>
       {{ range .item | first 10 }}
         <li>
-          <a href="{{ .link }}">{{ .title }}</a> <span class="nowrap">({{ dateFormat "2006-01-02" .date }})</span>
-          <p>{{ .description }}</p>
+          <p>
+            <a href="{{ .link }}">{{ .title }}</a>
+            <span class="nowrap">({{ dateFormat "2006-01-02" .date }})</span>
+          </p>
+
+          <blockquote><p>{{ .description }}</p></blockquote>
         </li>
       {{ end }}
     </ul>

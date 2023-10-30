@@ -100,15 +100,15 @@ Links:
 
 * [gokrazy is really cool][16]
 
-> gokrazy is a Linux implementation that I've used off and on for a few years now. It's a very interesting project because everything on the system is written in Go save the kernel. The init process is in Go (and even listens over HTTP to handle updates!), every userland process is written in Go, and even the core system services are written in Go.
+  > gokrazy is a Linux implementation that I've used off and on for a few years now. It's a very interesting project because everything on the system is written in Go save the kernel. The init process is in Go (and even listens over HTTP to handle updates!), every userland process is written in Go, and even the core system services are written in Go.
 
 * [I Finally Reached Computing Nirvana. What Was It All For?][17]
 
-> Then, one cold day—January 31, 2022—something bizarre happened. I was at home, writing a little glue function to make my emails searchable from anywhere inside my text editor. I evaluated that tiny program and ran it. It worked. Somewhere in my brain, I felt a distinct _click_. I was done. No longer configuring, but configured. The world had conspired to give me what I wanted.
+  > Then, one cold day—January 31, 2022—something bizarre happened. I was at home, writing a little glue function to make my emails searchable from anywhere inside my text editor. I evaluated that tiny program and ran it. It worked. Somewhere in my brain, I felt a distinct _click_. I was done. No longer configuring, but configured. The world had conspired to give me what I wanted.
 
 * [Style is consistent constraint][18]
 
-> When it comes to ideas, I agree — allow your mind to be changed. When it comes to process, I disagree. Style emerges from consistency, and having a style opens your imagination. Your mind should be flexible, but your process should be repeatable.
+  > When it comes to ideas, I agree — allow your mind to be changed. When it comes to process, I disagree. Style emerges from consistency, and having a style opens your imagination. Your mind should be flexible, but your process should be repeatable.
 
 [16]: https://xeiaso.net/blog/gokrazy/
 [17]: https://www.wired.com/story/i-finally-reached-computing-nirvana-what-was-it-all-for/
