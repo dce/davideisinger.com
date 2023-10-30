@@ -1,0 +1,623 @@
+    [tr?id=1356908847688416&ev=PageView&noscript=1]
+   [tr?id=279433711742018&ev=PageView&noscript=1] #[1]EDM Tips » EDM Song
+   Structure: Arrange Your Loop into a Full Song Comments Feed
+   [2]alternate [3]alternate [4]alternate
+
+   IFRAME: [5]https://www.googletagmanager.com/ns.html?id=GTM-N5SBWB6
+
+   [6]EDM Tips
+   
+
+     * [7]FREE
+     * [8]COURSES
+     * [9]ABOUT
+     * [10]BLOG
+     * [11]LOGIN
+     * Search
+       ____________________ ____________________ Submit
+       More results...
+
+       [ ]
+       [X]
+       [X]
+       [X]
+       [ ]
+
+       Filter by Custom Post Type
+
+       [X]
+
+EDM Song Structure: Arrange Your Loop into a Full Song
+
+   [12]6 Comments
+
+   [13]Share33
+   [14]Tweet
+   33 Shares
+
+   So you’ve created a killer 8-bar loop and want to take your great idea
+   to a full song, but don’t know where to go from here? We’ve all been
+   there before!
+
+   The good news is that you don’t need to feel disheartened: this is a
+   super common problem that happens to all music producers, and
+   thankfully there are some very straightforward steps you can take to
+   get out of the loop and to a finished arrangement….
+
+   We get stuck because it can be very difficult to imagine each
+   individual section of a track before it exists. So, how do we fix
+   this?
+   Start 2022 the right way! Download your FREE “New Producer Starter
+   Pack” here.
+
+   Let’s look into EDM song structure, and use that knowledge as a
+   template for our own tracks almost like one of those Paint-by-Numbers
+   books. If you use the techniques outlined below, you’ll be writing full
+   tracks and streamlining your workflow in no time!
+
+   IFRAME:
+   [15]https://www.youtube.com/embed/EXx9At3iUOw?feature=oembed&iv_load_po
+   licy=3&modestbranding=1&rel=0&autohide=1&playsinline=0&autoplay=0
+
+EDM Song Structure
+
+   So what exactly are the benefits of learning EDM song structure? Well,
+   for one, by learning the common ways in which other artists create and
+   sculpt their songs, we can use that as a template for when we get stuck
+   in creating our own music.
+
+   Additionally, using known song structures helps increase relatability
+   and appeal to a wider audience. The practice of purposely arranging
+   your music in a carefully crafted way is called arrangement, and is
+   used in all types of music – not just Electronic Dance Music.
+
+   In most Electronic Dance Music genres, your track will be in 4/4 time.
+   This means that in every bar (also known as a measure), there will be 4
+   beats, and that the quarter note (the kick on every beat), will carry
+   the song.
+
+   In this format, a bar is 4 beats, and a musical phrase is usually a
+   multiple of 2 or 4 bars. In music theory, a phrase is generally just a
+   grouping of bars whose energy flows nicely. For example, your build
+   might contain two separate phrases; one that first hints at the melody
+   followed by a second that introduces a snare or clap build up.
+
+   Phrases build up, take down, or play around with the energy of a
+   section of your track to build interest, and create and release
+   tension.
+
+   However, let’s take a step back and see what the main overall sections
+   of an EDM song structure are.
+
+   They are as follows:
+     * Intro
+     * Verse
+     * Build up
+     * Drop
+
+   Each of these distinct sections contains elements of your loop
+   simplified, modified, or generally expanded upon. Knowing what makes up
+   these sections and how they’re crafted is at the heart of how you
+   transform your loop into a full-fledged song.
+
+   Now, let’s see a rundown of which elements each section usually
+   contains.
+
+Intro
+
+   The intro is usually the simplest part of your entire track. It will
+   usually contain a stripped down beat to allow DJ’s to more easily
+   transition into your track, or – if you’re making a radio or Spotify
+   edit – will have a very short 2 to 4 bar phrase introducing the main
+   theme of your track. The intro also sets the pace and expectations for
+   what the track will deliver. (Will it be a break-neck speed drum-n-bass
+   track? Will it be a more chilled-out deep house track?)
+
+Verse
+
+   The verse is more complex than the intro, but often less complex than
+   the drop (or at least, conveying less energy). In vocal driven music,
+   this is where the majority of the storytelling of songwriting occurs,
+   but in a lot of EDM, this is where you establish your melodic motifs.
+   These motifs – or small musical ideas – should hint at your main drop
+   melody without giving away your big, exciting, energetic drop.
+
+Build up
+
+   The build up typically contains risers, repetitive melodic motifs, and
+   is generally rather short (a notable exception to this rule might be an
+   8-minute trance track). When creating build ups, you can also consider
+   stripping down your percussion and drums to the bare essentials, in
+   order to juxtapose to the heavy drop.
+
+Drop
+
+   The drop is the hardest hitting part of your track. This is where the
+   main hook of your song lies, and where the energy in your track should
+   be the highest. You want people to get up and dance when they hear your
+   drop! The drop can be very simple, or very complex; this heavily relies
+   on genre, so make sure to listen to your favorite songs and use them as
+   reference.
+
+Structures
+
+   Many songs you hear on the radio or in the club utilize similar song
+   structures, with some key variation to keep it interesting. When
+   deciding how to structure your own track, listening and referencing
+   your favorite track in the same genre can be immensely valuable, as
+   that track is likely commercially successful and has a structure that
+   is proven and works.
+
+   As a high level overview, structuring your song is a bit like designing
+   a roller-coaster. We want to bring the listener on a journey with the
+   emotion and energy from the track. This will help keep your listeners
+   engaged, prevent them from becoming bored, and hopefully keep playing
+   your track for days, months, and years to come.
+
+   You can even analyse the structure of existing songs and draw in an
+   “energy map” using an automation line, as shown here.
+
+   There are a few ways of representing song structure, but by far the
+   most common is to use letters to represent each part of a track. For
+   example, a common song structure in pop music goes as follows:
+
+   A B D B D E D A
+
+   In this instance, the letter A stands for an intro or outtro, B stands
+   for a verse, D stands for a chorus or drop, and E stands for the bridge
+   of the song, adding variety. Using this notation, we can quickly and
+   easily create and plan our song’s structure without getting too deep
+   into the details and slowing us down.
+
+   If we wanted to use a similar structure for EDM, we could use A B D B D
+   A or A B D E D A, both of which are fairly basic but common structures.
+   In this instance, however, the E section is an extended breakdown,
+   bridge, or a new section or extended verse.
+
+   Now we understand how song structure notation works, let’s look at a
+   common example of a more complex EDM song structure.
+
+   A B C D B C D A
+
+   This structure breaks down like so:
+     * A: These are the intro and outtro of the track. They are typically
+       8 or 16 bars in length. In some genres, you may have 4 bar intro
+       and outtros; it’s important to reference the genre you’re producing
+       to ensure your song fits in well with the genre.
+     * B: This is the verse in your track. The first verse is typically 16
+       bars, and the second verse is 16 or 32 bars.
+     * C: This is the build of the track. Both builds are typically 8 bars
+       in length, although in some genres can be 4 or even 10 or 12 bars
+       long.
+     * D: This is the drop of your track. A drop can vary in length but
+       are usually 8 to 16 bars. The second drop is typically either the
+       same length as the first, or slightly longer to develop a little
+       bit of additional energy.
+
+   EDM Song Structure - Track Breakdown
+
+   This is only one example of how you can structure your song, feel free
+   to deviate as much or as little as you want. During the music
+   production process, there’s tons of room for experimentation,
+   innovation, and self-expression; however, the vast majority of the
+   time, you do not want to experiment with EDM song structure. By doing
+   so you make your track more difficult to understand. No need to
+   reinvent the wheel!
+
+Song Structure and Genre
+
+   Now for a quick note on genre. Genre itself dictates a lot of how your
+   track should be structured. A tech house track is going to have a
+   different song structure than a future bass track, which will be
+   different than an EDM trap track. Additionally, the length of the track
+   also fairly tightly correlates to the genre, with pop-y tracks being
+   shorter and club and house tracks being on the longer side.
+
+   For example, future bass typically follow a more pop-like structure,
+   with longer fleshed out melodic verses and short 4 bar intros and
+   outtros. Most house music, however, has a significantly longer intro
+   and outtro; 8 to 16 bars, sometimes even 32. House music also typically
+   has fewer purely melodic elements focused in the verses and breakdowns,
+   and instead focuses on the vibe, atmosphere, and groove, building up to
+   an epic drop.
+
+   Let’s take a look at [16]“Chained For Love – B2A & Anklebreaker Remix”.
+   This is a hardstyle track and has a song structure of:
+
+   A B C D B C D A
+
+   Where A stands for your intro and outtro, B is your verse, C is the
+   build, and D is the drop. This is an extremely common structure in
+   hardstyle tracks; the verse is also typically split into a more vocal
+   or lower energy first half, and the second half is where your
+   saw-driven leads come in to introduce components of the drop melody.
+
+   Now let’s examine a future bass track, [17]“Lifeline – LODIS, Josh
+   Rubin”. This particular track has a structure like so:
+
+   A B E C D B E C D A
+
+   Note that this genre has a significantly longer intro than the previous
+   hardstyle track, yet the overarching structure itself is remarkably
+   similar. The key difference is the addition of E; which is a breakdown
+   or pre-build. This component lowers the energy right before the build,
+   allowing the producer to create a bigger feeling build.
+
+   Finally, let’s take a look at a big room / EDM track. We’ll use
+   [18]“Cold – Timmy Trumpet” as an example here. He utilizes the
+   following structure for his track:
+
+   B C D B C D A
+
+   “Cold” also shares a similar structure to the other tracks. In fact,
+   it’s virtually identical to “Chained For Love”, save for the lack of
+   any sort of intro, even though the sounds and overall general vibe of
+   the genre are strikingly different.
+
+EDM Song Structure and Arrangement
+
+   Now we understand how songs are structured and how to structure our own
+   track, we need to decide on the genre we want our loop to fit, or what
+   genre the loop already fits. Then, identify which section of a track
+   your loop fits into. Is it a heavy and energetic drop, or is it more a
+   verse or breakdown?
+
+   Once you’ve figured out these overarching details, we can start to
+   think about how we want to structure our track. You can use your DAW or
+   even just a piece of paper to map out each section of our song, and
+   what should go where. Now it’s as simple as filling in the gaps with
+   elements from your loop, and you’re well on your way to finishing your
+   track!
+
+   Let’s go over some of the common scenarios you’ll find yourself in.
+
+Starting with the Drop
+
+   Your loop is energetic and pumping; this is your drop. Let’s use an A B
+   C D B C D A structure for our track, just like the “Chained For Love –
+   B2A & Anklebreaker Remix” prior example.
+
+   EDM Song Structure - Straring with a Drop
+
+   Now you’ve identified that you have a drop, let’s expand it to two
+   sections with a little bit of melodic or rhythmic variation on the
+   second iteration.
+
+   Now we’ve gotten a full drop, let’s take a look at the build up. We can
+   use more filtered leads and pads, and switch up the snare or clap to a
+   contrasting rhythm to build tension. We’ll open up the filters and
+   speed up the percussion as the drop builds to further build up that
+   tension before the drop.
+
+   Let’s take a look at the intro and outtro. Take the melody, simplify it
+   and the instrumentation, and use a stripped down drum pattern. You can
+   also experiment with some low and simple bass or some rhythmically
+   simple chord patterns. The outtro can be as simple as the intro, but
+   instead of bringing in elements, we take them out.
+
+   The verses should be a contrasting force to the drop, while still
+   maintaining a similar vibe. To quickly get down a verse idea, you can
+   take the drop melody, take it down to a lower register with some more
+   interesting rhythmic chord structures that build nicely into the build
+   up. We can also add our second verse, build, and drops.
+
+   EDM Song Structure - Starging with a Drop 5
+
+Starting with a Breakdown, Verse or Intro
+
+   So your loop isn’t super energetic, maybe it fits well as a verse or
+   intro. To generate your placeholder verses, take the idea and evolve it
+   with moving drum patterns and chord patterns. The build up will then
+   come more naturally, and you can introduce a switch-up in drum patterns
+   to help contrast this section from the verses and drop. Work up the
+   energy in the build up, adding faster drums and risers and other
+   effects. After this build is complete, usually you’ll have a solid idea
+   for the drop itself; if not, don’t worry! Take your verse idea, take
+   apart a one or two bar section, and build upon it to make it as high
+   energy as possible.
+
+Referencing Existing Material
+
+   If you’re still struggling to build out your loop into a full track
+   scaffold, try using your favorite song as reference. In this example,
+   we’ll use HOLIDAY by Lil Nas X, a pop and rap song.
+
+   Import the track into your DAW, and set the tempo equal to that of the
+   track. Sometimes your DAW will do this for you, but if not, you can
+   usually find it easily on Beatport or other sites.
+
+   EDM Song Structure - Referencing Existing Material
+
+   Take a listen to the song in full. As you listen, mark down where each
+   change occurs in the song, and what the upcoming section is.Take a
+   listen to the song in full. As you listen, mark down where each change
+   occurs in the song, and what the upcoming section is.
+
+   EDM Song Structure- Referencing Existing Material 2
+
+   After going through the entire track, you’ll have an accurate map of
+   the full track, and can use the markers as guidelines on how you can
+   structure your own track.
+   Start 2022 the right way! Download your FREE “New Producer Starter
+   Pack” here.
+
+Conclusion
+
+   One of the hardest parts of music production is actually finishing your
+   own tracks, and not ending up with a hard drive full of unfinished
+   loops. However, using song structuring techniques, we can use them as
+   scaffolding for us to write better music, faster. When you create each
+   section, make sure that each section captures and holds the user’s
+   interest in its own right; the best songs are interesting throughout,
+   (even in the intros and outtros!), not just during the drops.
+
+   What do you struggle with most when it comes to EDM song structure?
+   Let us know in the comments!
+   [19]Share33
+   [20]Tweet
+   33 Shares
+
+     * [21]Music Theory & Arrangement
+
+Related Posts
+
+   How to Write Catchy Melodies from Scratch (The Ultimate Guide)
+
+   Everything an Electronic Music Producer Needs to Know About Drum
+   Programming
+
+About the Author
+
+   My name's Will Darling. I've been making and playing dance music for
+   over 25 years, and share what I've learnt on EDM Tips. Get in touch on
+   [22]Facebook.
+
+Leave a Reply 6 comments
+
+Leave a Reply:
+
+   Name * ____________________
+   E-Mail * ____________________
+   Website ____________________
+
+   [ ] Save my name, email, and website in this browser for the next time
+   I comment.
+
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   SUBMIT COMMENT
+
+   Δ
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   [23]←Previous post [24]Next post→
+
+   What do you want to learn?
+     * [25]Messages
+     * [26]Mixing & Mastering
+     * [27]Music Industry
+     * [28]Music Theory & Arrangement
+     * [29]Sound Design
+     * [30]Workflow & Creativity
+
+   About EDM Tips
+
+   My name is Will Darling and I'm the founder of EDM Tips. I've been
+   producing Electronic Dance Music for over 25 years, and each week help
+   my readers achieve their music goals. [31]Read More...
+
+     * 
+     * [32]Follow @edmtipsofficial
+       
+     * 
+
+   Popular Posts
+   [33]The Ultimate Guide to Success in Music Production in 2022
+   [34]How To Make Chords
+   [35]The Circle of Fifths (and how to use it…)
+   [36]Make Better EDM Using Keys And Scales
+   [37]The Ultimate EDM Production Glossary
+
+   Archives
+     * [38]April 2023
+     * [39]March 2023
+     * [40]February 2023
+     * [41]January 2023
+     * [42]November 2022
+     * [43]October 2022
+     * [44]September 2022
+     * [45]July 2022
+     * [46]May 2022
+     * [47]March 2022
+     * [48]February 2022
+     * [49]January 2022
+     * [50]October 2021
+     * [51]September 2021
+     * [52]August 2021
+     * [53]June 2021
+     * [54]May 2021
+     * [55]April 2021
+     * [56]March 2021
+     * [57]February 2021
+     * [58]January 2021
+     * [59]December 2020
+     * [60]November 2020
+     * [61]October 2020
+     * [62]September 2020
+     * [63]August 2020
+     * [64]July 2020
+     * [65]June 2020
+     * [66]May 2020
+     * [67]April 2020
+     * [68]March 2020
+     * [69]February 2020
+     * [70]January 2020
+     * [71]December 2019
+     * [72]November 2019
+     * [73]October 2019
+     * [74]September 2019
+     * [75]August 2019
+     * [76]July 2019
+     * [77]June 2019
+     * [78]May 2019
+     * [79]April 2019
+     * [80]February 2019
+     * [81]January 2019
+     * [82]December 2018
+     * [83]November 2018
+     * [84]September 2018
+     * [85]August 2018
+     * [86]July 2018
+     * [87]June 2018
+     * [88]May 2018
+     * [89]April 2018
+     * [90]March 2018
+     * [91]January 2018
+     * [92]December 2017
+     * [93]November 2017
+     * [94]October 2017
+     * [95]September 2017
+     * [96]August 2017
+     * [97]July 2017
+     * [98]June 2017
+     * [99]May 2017
+     * [100]April 2017
+     * [101]February 2017
+     * [102]January 2017
+     * [103]December 2016
+     * [104]November 2016
+     * [105]October 2016
+     * [106]September 2016
+     * [107]August 2016
+
+   Copyright 2023 EDM Tips Ltd.
+     * [108]
+     * [109]
+     * [110]
+
+References
+
+   Visible links:
+   1. https://edmtips.com/edm-song-structure/feed/
+   2. https://edmtips.com/wp-json/wp/v2/posts/3828
+   3. https://edmtips.com/wp-json/oembed/1.0/embed?url=https://edmtips.com/edm-song-structure/
+   4. https://edmtips.com/wp-json/oembed/1.0/embed?url=https://edmtips.com/edm-song-structure/&format=xml
+   5. https://www.googletagmanager.com/ns.html?id=GTM-N5SBWB6
+   6. https://edmtips.com/
+   7. https://edmtips.com/free-guides/
+   8. https://edmtips.com/products/
+   9. https://edmtips.com/about/
+  10. https://edmtips.com/blog/
+  11. https://academy.edmtips.com/login
+  12. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L74532-8332TMP.html#comments
+  13. https://www.facebook.com/share.php?u=https://edmtips.com/edm-song-structure/
+  14. https://twitter.com/intent/tweet?text=EDM+Song+Structure:+Arrange+Your+Loop+into+a+Full+Song&url=https://edmtips.com/edm-song-structure/&via=EDMtipsOfficial
+  15. https://www.youtube.com/embed/EXx9At3iUOw?feature=oembed&iv_load_policy=3&modestbranding=1&rel=0&autohide=1&playsinline=0&autoplay=0
+  16. https://www.youtube.com/watch?v=F-tDyFu-YzQ
+  17. https://www.youtube.com/watch?v=QVtRH0znmqU
+  18. https://www.youtube.com/watch?v=Nld4XNwpZN8
+  19. https://www.facebook.com/share.php?u=https://edmtips.com/edm-song-structure/
+  20. https://twitter.com/intent/tweet?text=EDM+Song+Structure:+Arrange+Your+Loop+into+a+Full+Song&url=https://edmtips.com/edm-song-structure/&via=EDMtipsOfficial
+  21. https://edmtips.com/category/composition-arrangement/
+  22. https://www.facebook.com/EDMtipsOfficial/
+  23. https://edmtips.com/how-to-make-edm-like-martin-garrix/
+  24. https://edmtips.com/guide-into-music-production-software-for-beginners/
+  25. https://edmtips.com/category/messages/
+  26. https://edmtips.com/category/mixing-mastering/
+  27. https://edmtips.com/category/music-industry/
+  28. https://edmtips.com/category/composition-arrangement/
+  29. https://edmtips.com/category/sound-design/
+  30. https://edmtips.com/category/workflow-creativity/
+  31. http://edmtips.com/about/
+  32. http://twitter.com/http://edmtipsofficial
+  33. https://edmtips.com/success-music-production/
+  34. https://edmtips.com/how-to-make-chords/
+  35. https://edmtips.com/the-circle-of-fifths-and-how-to-use-it/
+  36. https://edmtips.com/how-to-use-keys-make-edm/
+  37. https://edmtips.com/ultimate-edm-production-glossary/
+  38. https://edmtips.com/2023/04/
+  39. https://edmtips.com/2023/03/
+  40. https://edmtips.com/2023/02/
+  41. https://edmtips.com/2023/01/
+  42. https://edmtips.com/2022/11/
+  43. https://edmtips.com/2022/10/
+  44. https://edmtips.com/2022/09/
+  45. https://edmtips.com/2022/07/
+  46. https://edmtips.com/2022/05/
+  47. https://edmtips.com/2022/03/
+  48. https://edmtips.com/2022/02/
+  49. https://edmtips.com/2022/01/
+  50. https://edmtips.com/2021/10/
+  51. https://edmtips.com/2021/09/
+  52. https://edmtips.com/2021/08/
+  53. https://edmtips.com/2021/06/
+  54. https://edmtips.com/2021/05/
+  55. https://edmtips.com/2021/04/
+  56. https://edmtips.com/2021/03/
+  57. https://edmtips.com/2021/02/
+  58. https://edmtips.com/2021/01/
+  59. https://edmtips.com/2020/12/
+  60. https://edmtips.com/2020/11/
+  61. https://edmtips.com/2020/10/
+  62. https://edmtips.com/2020/09/
+  63. https://edmtips.com/2020/08/
+  64. https://edmtips.com/2020/07/
+  65. https://edmtips.com/2020/06/
+  66. https://edmtips.com/2020/05/
+  67. https://edmtips.com/2020/04/
+  68. https://edmtips.com/2020/03/
+  69. https://edmtips.com/2020/02/
+  70. https://edmtips.com/2020/01/
+  71. https://edmtips.com/2019/12/
+  72. https://edmtips.com/2019/11/
+  73. https://edmtips.com/2019/10/
+  74. https://edmtips.com/2019/09/
+  75. https://edmtips.com/2019/08/
+  76. https://edmtips.com/2019/07/
+  77. https://edmtips.com/2019/06/
+  78. https://edmtips.com/2019/05/
+  79. https://edmtips.com/2019/04/
+  80. https://edmtips.com/2019/02/
+  81. https://edmtips.com/2019/01/
+  82. https://edmtips.com/2018/12/
+  83. https://edmtips.com/2018/11/
+  84. https://edmtips.com/2018/09/
+  85. https://edmtips.com/2018/08/
+  86. https://edmtips.com/2018/07/
+  87. https://edmtips.com/2018/06/
+  88. https://edmtips.com/2018/05/
+  89. https://edmtips.com/2018/04/
+  90. https://edmtips.com/2018/03/
+  91. https://edmtips.com/2018/01/
+  92. https://edmtips.com/2017/12/
+  93. https://edmtips.com/2017/11/
+  94. https://edmtips.com/2017/10/
+  95. https://edmtips.com/2017/09/
+  96. https://edmtips.com/2017/08/
+  97. https://edmtips.com/2017/07/
+  98. https://edmtips.com/2017/06/
+  99. https://edmtips.com/2017/05/
+ 100. https://edmtips.com/2017/04/
+ 101. https://edmtips.com/2017/02/
+ 102. https://edmtips.com/2017/01/
+ 103. https://edmtips.com/2016/12/
+ 104. https://edmtips.com/2016/11/
+ 105. https://edmtips.com/2016/10/
+ 106. https://edmtips.com/2016/09/
+ 107. https://edmtips.com/2016/08/
+ 108. https://www.facebook.com/EDMtipsOfficial/
+ 109. https://twitter.com/edmtipsofficial
+ 110. http://youtube.com/c/edmtips?sub_confirmation=1
+
+   Hidden links:
+ 112. https://edmtips.com/how-to-write-catchy-melodies-from-scratch-the-ultimate-guide/
+ 113. https://edmtips.com/drum-programming/
+ 114. https://edmtips.com/author/edmtips/
