@@ -1,27 +1,42 @@
 #!/usr/bin/env ruby
 
-filename = ARGV.last
+fix = ARGV.shift if ARGV.first == "--fix"
+files = Array(ARGV.shift || Dir.glob("./**/*.md"))
 
-unless filename
-  warn "Please supply a filename"
-  exit 1
+files.each do |file|
+  content = File.read(file)
+
+  refs = content.scan(/^\[\d+\]:/)
+
+  unless refs == refs.uniq
+    warn "Error in #{file}: duplicate refs detected"
+    exit 1
+  end
+
+  idx = 0
+  code_block = false
+  refs = {}
+
+  updated = content.gsub(/\[\d+\]|```|`/) do |token|
+    case token
+    when "```", "`"
+      code_block = !code_block
+      token
+    else
+      if code_block
+        token
+      else
+        refs[token] ||= "[$$#{idx += 1}]"
+      end
+    end
+  end
+
+  updated.gsub!("$$", "")
+
+  if fix
+    File.write(file, updated)
+  elsif content != updated
+    warn "Links in #{file} are not in order"
+    exit 1
+  end
 end
-
-content = File.read(filename)
-
-refs = content.scan(/\[\d+\]:/)
-
-unless refs == refs.uniq
-  warn "Error: duplicate refs detected"
-  exit
-end
-
-links = content.scan(/\[\d+\]/).uniq
-
-links.zip(1..).each do |old_id, new_id|
-  content.gsub! old_id, "[$$#{new_id}]"
-end
-
-content.gsub!("$$", "")
-
-File.write(filename, content)
