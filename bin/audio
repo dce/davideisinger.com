@@ -6,7 +6,7 @@ ARTIST = "David Eisinger"
 
 Config = Struct.new(:file, :title, :directory, :artist)
 
-config = Config.new
+config = Config.new(artist: ARTIST)
 
 parser = OptionParser.new do |opts|
   opts.banner = "Usage: bin/audio [options]"
@@ -30,7 +30,6 @@ end
 
 begin
   parser.parse!(ARGV)
-  config.artist ||= ARTIST
   missing = config.to_h.filter_map { |k, v| k if v.nil? }
   raise OptionParser::MissingArgument.new(missing * ", ") unless missing.empty?
 rescue
