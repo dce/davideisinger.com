@@ -54,11 +54,11 @@ results. Leveraging MacOS' `open` command, this one-liner does the
 trick[^2]:
 
 ```sh
-cat [filename.md]
-  | pandoc -t html
-  > /tmp/output.html
-  && open /tmp/output.html
-  && read -n 1
+cat [filename.md] \
+  | pandoc -t html \
+  > /tmp/output.html \
+  && open /tmp/output.html \
+  && read -n 1 \
   && rm /tmp/output.html
 ```
 
