@@ -40,10 +40,13 @@ files.each do |file|
     end
   end
 
-  if fix
-    File.write(file, updated)
-  elsif content != updated
+  if content != updated
     warn "Links in #{file} are not in order"
-    exit 1
+
+    if fix
+      File.write(file, updated)
+    else
+      exit 1
+    end
   end
 end
