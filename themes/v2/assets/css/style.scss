@@ -1,5 +1,5 @@
 body {
-  font-family: monospace;
+  font-family: "courier", monospace;
   font-size: 18px;
   padding: 50px;
   line-height: 1.5em;
@@ -14,7 +14,9 @@ body {
   }
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-size: 1em;
   margin: 1em 0;
 
@@ -82,7 +84,9 @@ blockquote {
   padding-left: 1ch;
 }
 
-header, #content, footer {
+header,
+#content,
+footer {
   max-width: 800px;
 }
 
@@ -104,7 +108,8 @@ sup {
   white-space: nowrap;
 }
 
-.references, .footnotes {
+.references,
+.footnotes {
   font-size: 0.8em;
 
   h3 {
@@ -143,16 +148,17 @@ img {
   }
 }
 
-
 // CODE
 
 code {
   background-color: #ddd;
-  padding: 1px 1ch;
   border-radius: 3px;
+  font-family: "courier", monospace;
+  padding: 1px 1ch;
 }
 
-.highlight, pre {
+.highlight,
+pre {
   overflow: auto;
 
   code {
