@@ -3,6 +3,12 @@ title: "Why I Still Like Ruby (and a Few Things I Don’t Like)"
 date: 2020-08-06T00:00:00+00:00
 draft: false
 canonical_url: https://www.viget.com/articles/why-i-still-like-ruby-and-a-few-things-i-dont-like/
+featured: true
+references:
+- title: "When Should You NOT Use Rails?"
+  url: https://codefol.io/posts/when-should-you-not-use-rails/
+  date: 2023-11-04T17:36:55Z
+  file: codefol-io-bskabg.txt
 ---
 
 The Stack Overflow [2020 Developer
@@ -49,7 +55,7 @@ from and contributes to, and with a few notable
 exceptions[^2], it's all made available without the
 expectation of direct profit. This means that you can pull a library
 into your codebase and not have to worry about the funding status of the
-company that built it (thinking specifically of things like
+company that built it (contrast with ventured-funded open-source like
 [Gatsby](https://www.gatsbyjs.org/) and [Strapi](https://strapi.io/)).
 Granted, with time, money, and a dedicated staff, the potential is there
 to build better open source products than what small teams can do in
@@ -151,7 +157,7 @@ thread](https://www.reddit.com/r/ruby/comments/hpta1o/i_am_tired_of_hearing_that
 (and [this
 comment](https://www.reddit.com/r/ruby/comments/hpta1o/i_am_tired_of_hearing_that_ruby_is_fine/fxvfzgo/)
 in particular) or [this blog
-post](http://codefol.io/posts/when-should-you-not-use-rails/), but what
+post](https://codefol.io/posts/when-should-you-not-use-rails/), but what
 really matters is whether or not Ruby is suitable for your needs and
 tastes, not what bloggers/commenters/survey-takers think.
 
