@@ -49,7 +49,9 @@ It was nice to have a quieter month after so much travel this summer. We got a f
 
 At my job, I did a cool project working with data from a [Freematics][5] car telematics device. I built a data exploration API using [Gin][6] and learned [`jq`][7] to truncate enormous JSON objects[^1]. I also got to, just like, drive my car around to test things out.
 
-I also made some updates to my [`golong`][8] tool to prep for a fantasy NBA draft. Now it can munge multiple CSVs of data and supports multiple position eligibility (an NBA player is often eligible as both a forward and a center, for example) and average stat projections (NFL projections are typically season-based, NBA are per-game). It worked great, and my team's looking solid so far. I'll open source it one of these days.
+{{<thumbnail golong.png "800x" />}}
+
+I also made some updates to my [`golong`][8] tool to prep for a fantasy NBA draft. Now it can munge multiple CSVs of data and supports multiple position eligibility[^2] and average stat projections[^3]. It worked great, and my team's looking solid so far. I'll open source it one of these days.
 
 [5]: https://freematics.com/products/freematics-one/
 [6]: https://gin-gonic.com/
@@ -143,3 +145,5 @@ Links:
 [25]: https://josem.co/the-beauty-of-finished-software/
 
 [^1]: I was getting back complex nested JSON structures containing arrays with thousands of elements. To truncate all arrays in a JSON response to two elements, you can do `curl [url] | jq 'walk(if type == "array" then .[0:2] else . end)'`.
+[^2]: An NBA player is often eligible as both a forward and a center, for example.
+[^3]: NFL projections are typically season-based, NBA are per-game -- the tool can now take per-game projections multiplied by projected games played to get total points.
