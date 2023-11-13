@@ -47,6 +47,10 @@ references:
   url: https://aaronmbushnell.com/keep-your-stack-short/
   date: 2023-10-25T14:21:17Z
   file: aaronmbushnell-com-x5e6nn.txt
+- title: "Dan Stroot · Blog · Making Software Last Forever"
+  url: https://www.danstroot.com/posts/2023-05-25-making_software_last_forever
+  date: 2023-11-13T04:44:27Z
+  file: www-danstroot-com-wwjfi6.txt
 ---
 
 ### Thoughts on priorities in software development
@@ -71,6 +75,7 @@ references:
 * [There's still no silver bullet][9]
 * [No one actually wants simplicity][10]
 * [Keep your stack short][11]
+* [Making Software Last Forever][12]
 
 [3]: https://grugbrain.dev/
 [4]: https://world.hey.com/dhh/even-amazon-can-t-make-sense-of-serverless-or-microservices-59625580
@@ -81,3 +86,4 @@ references:
 [9]: https://changelog.com/posts/still-no-silver-bullet
 [10]: https://lukeplant.me.uk/blog/posts/no-one-actually-wants-simplicity/
 [11]: https://aaronmbushnell.com/keep-your-stack-short/
+[12]: https://www.danstroot.com/posts/2023-05-25-making_software_last_forever
