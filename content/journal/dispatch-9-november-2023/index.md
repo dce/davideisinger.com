@@ -81,7 +81,7 @@ My phone (and yours probably) sends me these photo slideshows periodically, and 
 I made a few updates to the website this month:
 
 * Created a [music][11] page that aggregates all the MP3s I've uploaded.
-* Imported all the posts I've written on my [company blog][12] into an "[elsewhere][13]" section -- I'm pretty proud of some of this stuff and wanted to make sure I have a copy of it I control. I was able to automate a lot of the process with [Nokogiri][14] and [Pandoc][15], but I still had to manually review every post, which was a fun trip down memory lane, though some of my old ideas are BAD.
+* Imported all the posts I've written on my [company blog][12] into an "[Elsewhere][13]" section -- I'm pretty proud of some of this stuff and wanted to make sure I have a copy of it I control. I was able to automate a lot of the process with [Nokogiri][14] and [Pandoc][15], but I still had to manually review every post, which was a fun trip down memory lane, though some of my old ideas are BAD.
 * Polished my [Markdown link renumbering script][16] (keeps my links in numerical order). This might be useful to other folks & might be worth rewriting in Go and releasing.
 
 [11]: /music
