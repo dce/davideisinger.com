@@ -1,0 +1,381 @@
+    [tr?id=721455246308784&ev=PageView&noscript=1] #[1]SitePoint
+
+   IFRAME: [2]https://www.googletagmanager.com/ns.html?id=GTM-KL8PMMW
+
+   🤯 Save 33% 700+ courses, assessments, and books
+   [3]Browse Titles
+   (BUTTON)
+
+   (BUTTON)
+     * ____________________
+     * [4]Blog
+     *
+          + [5]Free Tech Books →
+          + [6]AI →
+          + [7]JavaScript
+          + [8]Computing
+          + [9]Design & UX
+          + [10]HTML & CSS
+          + [11]Entrepreneur
+          + [12]Web
+          + [13]PHP
+          + [14]WordPress
+          + [15]Mobile
+          + [16]Programming
+          + [17]Python →
+     * [18]Forum
+     * [19]Library
+     * [20]Login
+     * [21]Join Premium
+
+   [22]Join Premium
+
+   ____________________
+
+   (BUTTON)
+   (BUTTON)
+     * [23]Free Tech Books
+     * [24]AI
+     * [25]JavaScript
+     * [26]Computing
+     * [27]Design & UX
+     * [28]HTML & CSS
+     * [29]Entrepreneur
+     * [30]Web
+     * [31]PHP
+     * [32]WordPress
+     * [33]Mobile
+     * [34]Programming
+     * [35]Python
+
+   (BUTTON)
+   (BUTTON)
+
+   [36]Ruby
+
+The History of Ruby
+
+   [37][1433174717Profile-2015-May-96x96.jpg]
+
+
+    [38]Jesse Herrick
+
+   July 26, 2014
+   Share (BUTTON) (BUTTON) (BUTTON) (BUTTON) (BUTTON)
+
+   rubygrows
+
+   The Ruby language is 21 years old. Its strong community and adoption by
+   the open source community has kept this language steady and improving.
+   Ruby has changed drastically over the years. It has grown from a young
+   child to the strong adult that it is today. But it didn’t get that way
+   overnight. Let’s take a look at the life of the Ruby programming
+   language.
+
+   Note: This article is packed with metaphors (language to human), so be
+   prepared.
+
+Birth (1993)
+
+   Ruby was born in 1993, conceieved in a discussion between Yukihiro
+   Matsumoto (“Matz”) and a colleague. They were discussing the
+   possibility of an object-oriented scripting-language. Matz stated in
+   [39]ruby-talk:00382 that he knew Perl, but did not like it very much;
+   that it had the smell of a “toy” language. He also discussed that he
+   knew Python, but didn’t like it because it wasn’t a true
+   object-oriented programming language.
+
+   Matz wanted a language perfect for his needs:
+     * Syntactically Simple
+     * Truly Object-Oriented
+     * Having Iterators and Closures
+     * Exception Handling
+     * Garbage Collection
+     * Portable
+
+   Having looked around and not found a language suited for him, Yukihiro
+   Matsumoto decided to create his own. After spending several months
+   writing an interpreter, Matz finally published the first public version
+   of Ruby (0.95) to various Japanese domestic newsgroups in December,
+   1995. You can still download the infant version of Ruby [40]here at
+   your own risk.
+
+Toddler Years
+
+   Ruby became a toddler (n.: a young child who is just beginning to walk)
+   when Ruby 1.0 was released in December, 1996. Ruby 1.1 shortly followed
+   in August of 1997, and the first stable version of Ruby (1.2) was
+   released in December of 1998.
+
+   At this point in time, Ruby was localized to Japan only, but it would
+   soon spread to other parts of the world…
+
+Primary School Years
+
+   In 1998, Matz created a simple English homepage for Ruby. However, Ruby
+   was still very localized to Japan. In trying to further this expansion,
+   the first English language Ruby mailing list, [41]Ruby-Talk, was
+   created. Ruby was beginning to spread beyond Japan.
+
+   Ruby-Talk is still very active today, and you can subscribe to it
+   [42]here.
+
+   In October of 1999, Yukihiro Matsumoto and Keiju Ishitsuka wrote the
+   first book on the Ruby programming language: The Object-oriented
+   Scripting Language Ruby. Ruby was beginning to get very popular in
+   Japan, and spreading rapidly to English-speaking countries.
+
+   In 2001, the first English book on Ruby, Programming Ruby (“The
+   Pickaxe”), was published in 2001. With this new information on Ruby,
+   many more people were able to learn the language.
+
+   Ruby 1.8 was released in 2003. This release made large amounts of
+   changes to the agile 10-year-old language. Including:
+     * Duck Typing (looks like a duck, swims like a duck, quacks like a
+       duck: it’s a duck)
+     * Fully Qualified Names (Foo::Bar)
+     * Native YAML Support
+     * WEBrick
+     * StringIO
+     * open-uri
+     * PP (Pretty Printer for Hash#inspect)
+     * ruby -run (UNIX commands for all! ruby -run -e mkdir foo)
+     * And many other minor features
+
+   In 2004, RubyGems was released to the public. Good things started
+   happening next…
+
+The Rebellious Teenager
+
+   In 2005, Ruby use took off. The reason: Ruby on Rails. This new
+   framework changed the history of rapid web development. Ruby had been
+   used in the past to write CGI scripts, but Ruby on Rails took this a
+   step further. Rails has a Model-View-Controller structure that focuses
+   on “convention over configuration”, which is great for developing web
+   applications.
+
+   People loved it. So much so that, the Ruby community was almost taken
+   over by the Rails framework. Ruby in turn became very popular.
+
+   In March of 2007, Ruby 1.8.6 was released, with 1.8.7 following in May
+   of 2008. At this point, Ruby was at its peak. Mac OS X even began
+   shipping with it in 2007. At this point, Ruby was 15 years old.
+
+   Ruby 1.9 (development version) was released in December, 2007, then
+   stabilized 4 years later (2011) as Ruby 1.9.3. Ruby 1.9.3 was the
+   production version of 1.9.2. These versions brought new changes to the
+   language, such as:
+     * Significant speed improvements
+     * New methods
+     * New hash syntax ({ foo: 'bar' })
+     * RubyGems included
+     * New Socket API (IPv6 support)
+     * Several random number generators
+     * Regular Expression improvements
+     * File loading performance improvements
+     * Test::Unit Improvements
+     * New encoding support
+     * More string formatting tweaks
+     * And so much more
+
+   Ruby was making the transition from a rebellious teenager to a strong
+   adult as it turned 18 with Ruby 1.9.3.
+
+Strong Adult
+
+   Ruby 2.0.0 was released in February 2013 and brought many stabilizing
+   changes to the language. Among them are:
+     * More speed improvements
+     * Refinements (safe monkey patching)
+     * Keyword arguments
+     * UTF-8 by default
+     * New regular expressions engine
+     * Optimized garbage collection
+     * The addition of built-in syntax documentation (ri ruby:syntax)
+
+   Unlike 1.9.x, which broke numerous gems with its changes, 2.0.0 was
+   almost completely backwards compatible with 1.9.3. In addition, Heroku,
+   one of the leading Ruby/Rails hosts upgraded to 2.0.0 quickly, causing
+   earlier than usual adoption by new and existing projects. The Ruby
+   language was (and is) in its golden age.
+
+   Ruby 2.1.0 was released on Christmas day of 2013. It brought several
+   minor changes to the language. But the biggest news of 2.1.0 was
+   [43]semantic versioning, a way to properly version a project without
+   breaking dependencies by accident.
+
+   Ruby 2.1.1 was released on Ruby’s 21st birthday (February 24, 2014).
+   Ruby is now legally allowed to drink in the US (not that we’d want it
+   to). This version was mainly speed improvements and bugfixes. Shortly
+   after 2.1.1, Ruby 2.1.2 was released in May of 2014. 2.1.2 consists of
+   more bugfixes and is the current stable version of Ruby.
+
+The Future
+
+   Ruby is a great language. Matz wanted a programming language that
+   suited his needs, so he built one. This is an inspiring story of
+   software development: if you can’t find something that you like,
+   program it yourself. From 0.95 to 2.1.2, Ruby has struck the awe of
+   those who wished to program the way they wanted, not the way the
+   machine wanted.
+
+   We can’t know the future of the Ruby language, but we can predict it
+   based on the past. I believe that the Ruby language, and its fantastic
+   community will continue furthering the language above and beyond what
+   others think is possible, and projects built using it will do the same.
+
+Share This Article
+
+   (BUTTON) (BUTTON) (BUTTON) (BUTTON) (BUTTON)
+
+
+    [44]Jesse Herrick
+
+   [45]Jesse Herrick
+
+   Jesse Herrick is an avid Ruby developer who specializes in web
+   development. He is a back-end developer at [46]Littlelines and loves
+   programming. You can read his personal blog at:
+   [47]https://jesse.codes.
+
+   GlennGhistoryruby
+
+Up Next
+
+   [48]How to Build an Interactive History Map with WRLD
+   [49]How to Build an Interactive History Map with WRLD[50]Adrian Try
+
+   [51]Digital Fonts: A Condensed History
+   [52]Digital Fonts: A Condensed History[53]Alex Bigman
+
+   [54]A History of CSS Image Replacement
+   [55]A History of CSS Image Replacement[56]Baljeet Rathi
+
+   [57]Making Alternative ’80s Film History Come to Life with Photoshop
+   [58]Making Alternative ’80s Film History Come to Life with
+   Photoshop[59]Gabrielle Gosha
+
+   [60]10 Years of Mobile Industry History in 10 Minutes
+   [61]10 Years of Mobile Industry History in 10 Minutes[62]Dirk Reagle
+
+   [63]How to Modify the Browser History in Complex HTML5 and JavaScript
+   Applications
+   [64]How to Modify the Browser History in Complex HTML5 and JavaScript
+   Applications[65]Craig Buckler
+
+     * Stuff we do
+     * [66]Premium
+     * [67]Newsletters
+     * [68]Forums
+
+     * About
+     * [69]Our story
+     * [70]Terms of use
+     * [71]Privacy policy
+     * [72]Corporate memberships
+
+     * Contact
+     * [73]Contact us
+     * [74]FAQ
+     * [75]Publish your book with us
+     * [76]Write an article for us
+     * [77]Advertise
+
+     * Connect
+     *
+
+   © 2000 – 2023 SitePoint Pty. Ltd.
+
+   This site is protected by reCAPTCHA and the Google[78] Privacy Policy
+   and[79] Terms of Service apply.
+
+References
+
+   Visible links:
+   1. file:///sitepoint.rss
+   2. https://www.googletagmanager.com/ns.html?id=GTM-KL8PMMW
+   3. https://www.sitepoint.com/premium/library/?ref_source=blog&ref_medium=smartbar
+   4. file:///blog/
+   5. file:///premium/library/free/?ref_source=blog_nav
+   6. file:///ai/
+   7. file:///javascript/
+   8. file:///computing/
+   9. file:///design-ux/
+  10. file:///html-css/
+  11. file:///entrepreneur/
+  12. file:///web/
+  13. file:///php/
+  14. file:///wordpress/
+  15. file:///mobile/
+  16. file:///programming/
+  17. file:///python/
+  18. file:///community/
+  19. file:///premium/library/
+  20. file:///premium/sign-in/
+  21. file:///premium/pricing/?ref_source=sitepoint&ref_medium=topnav
+  22. file:///premium/pricing/?ref_source=sitepoint&ref_medium=topnav
+  23. file:///premium/library/free/?ref_source=blog_nav
+  24. file:///ai/
+  25. file:///javascript/
+  26. file:///computing/
+  27. file:///design-ux/
+  28. file:///html-css/
+  29. file:///entrepreneur/
+  30. file:///web/
+  31. file:///php/
+  32. file:///wordpress/
+  33. file:///mobile/
+  34. file:///programming/
+  35. file:///python/
+  36. file:///ruby/
+  37. file:///author/jherrick/
+  38. file:///author/jherrick/
+  39. http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/382
+  40. https://ftp.ruby-lang.org/pub/ruby/1.0/
+  41. http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
+  42. https://www.ruby-lang.org/en/community/mailing-lists/
+  43. http://semver.org/
+  44. file:///author/jherrick/
+  45. file:///author/jherrick/
+  46. http://www.littlelines.com/
+  47. https://jesse.codes/
+  48. file:///how-to-build-an-interactive-history-map-with-wrld/
+  49. file:///how-to-build-an-interactive-history-map-with-wrld/
+  50. file:///author/atry/
+  51. file:///digital-fonts-condensed-history/
+  52. file:///digital-fonts-condensed-history/
+  53. file:///author/alex-bigman/
+  54. file:///css-image-replacement-text-indent-negative-margins-and-more/
+  55. file:///css-image-replacement-text-indent-negative-margins-and-more/
+  56. file:///author/brathi/
+  57. file:///making-alternative-80s-film-history-come-life-photoshop/
+  58. file:///making-alternative-80s-film-history-come-life-photoshop/
+  59. file:///author/ggosha/
+  60. file:///the-advancements-in-mobile-design-and-how-it-has-developed-into-a-strong-industry/
+  61. file:///the-advancements-in-mobile-design-and-how-it-has-developed-into-a-strong-industry/
+  62. file:///author/dreagle/
+  63. file:///javascript-history-pushstate/
+  64. file:///javascript-history-pushstate/
+  65. file:///author/craig-buckler/
+  66. file:///premium/library/
+  67. file:///newsletters/
+  68. file:///community/
+  69. file:///about-us/
+  70. file:///legals/
+  71. file:///privacy-policy/
+  72. file:///premium-for-teams/
+  73. file:///contact-us/
+  74. https://support.sitepoint.com/hc/en-us
+  75. https://sitepoint.typeform.com/to/HtAXVN
+  76. file:///write-for-us/
+  77. file:///partnerships/
+  78. https://policies.google.com/privacy
+  79. https://policies.google.com/terms
+
+   Hidden links:
+  81. file://localhost/
+  82. https://github.com/JesseHerrick
+  83. https://twitter.com/JesseHerrick
+  84. https://www.facebook.com/sitepoint
+  85. https://twitter.com/sitepointdotcom
+  86. file://localhost/sitepoint.rss

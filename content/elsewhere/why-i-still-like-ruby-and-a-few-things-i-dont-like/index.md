@@ -5,6 +5,10 @@ draft: false
 canonical_url: https://www.viget.com/articles/why-i-still-like-ruby-and-a-few-things-i-dont-like/
 featured: true
 references:
+- title: "The History of Ruby — SitePoint"
+  url: https://www.sitepoint.com/history-ruby/
+  date: 2023-11-16T14:54:03Z
+  file: www-sitepoint-com-6vwmef.txt
 - title: "When Should You NOT Use Rails?"
   url: https://codefol.io/posts/when-should-you-not-use-rails/
   date: 2023-11-04T17:36:55Z
