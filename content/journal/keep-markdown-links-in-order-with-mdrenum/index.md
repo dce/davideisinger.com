@@ -1,6 +1,6 @@
 ---
 title: "Keep Markdown Links in Order With mdrenum"
-date: 2023-11-14T22:06:48-05:00
+date: 2023-11-15T12:00:00-05:00
 draft: false
 references:
 - title: "Tidying Markdown reference links - All this"
@@ -61,18 +61,18 @@ Once I had a working proof-of-concept and a toolchain I was happy with, the rest
 [18]: https://prettier.io/
 [19]: https://github.com/dce/mdrenum
 
-Bun (compiler) + TypeScript (type checking) + Prettier (code formatting) is a pretty acceptable Go substitute. The resulting executable is big (~45MB, as compared with ~2MB for my Go solution), but, hey, disk space is cheap and this actually works.
+Bun (compiler) + TypeScript (type checking) + Prettier (code formatting) gets me most of what I like about working with Go, and I'm excited to use this tech in the future. The resulting executable is big (~45MB, as compared with ~2MB for my Go solution), but, hey, disk space is cheap and this actually works.
 
 ## Integrating with Helix
 
-I've been a [happy Helix user][20] for the last several months, and I thought it'd be cool to configure it to automatically renumber links every time I save a Markdown file. [The docs][21] do a pretty good job explaining how to add a language-specific formatter:
+I've been a [happy Helix user][20] for the last several months, and I thought it'd be cool to configure it to automatically renumber links every time I save a Markdown file. [The docs][21] do a good job explaining how to add a language-specific formatter:
 
 [20]: /journal/a-month-with-helix/
 [21]: https://docs.helix-editor.com/languages.html#language-configuration
 
 > The formatter for the language, it will take precedence over the lsp when defined. The formatter must be able to take the original file as input from stdin and write the formatted file to stdout
 
-[This was pretty simple to add to the program][22], and then I added the following to `~/.config/helix/languages.toml`:
+[This was simple to add to the program][22], and then I added the following to `~/.config/helix/languages.toml`:
 
 ```toml
 [[language]]
@@ -83,9 +83,8 @@ formatter = { command = "mdrenum" , args = ["--stdin"] }
 
 [22]: https://github.com/dce/mdrenum/blob/main/src/cli.ts#L7-L18
 
-This totally works, and I'll say that it's uniquely satisfying to save a document and see the link numbers get instantly reordered properly.
+This totally works, and I'll say that it's uniquely satisfying to save a document and see the link numbers get instantly reordered properly. I've done it probably 100 times in the course of writing this post.
 
 ---
 
 Thanks for coming on this journey with me, and if this seems like a tool that might be useful to you, grab it from [GitHub][19] and open an issue if you have any questions.
-
