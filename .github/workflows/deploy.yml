@@ -19,13 +19,16 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
         env:
           DEPLOY_KEY: ${{ secrets.CI_DEPLOY_KEY }}
+          SERVER_IP: ${{ secrets.SERVER_IP }}
         run: |
           mkdir -p ~/.ssh
           chmod 700 ~/.ssh
           echo "$DEPLOY_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan 107.170.116.37 > ~/.ssh/known_hosts
+          ssh-keyscan $SERVER_IP > ~/.ssh/known_hosts
 
       - name: Deploy
         if: ${{ github.ref == 'refs/heads/main' }}
+        env:
+          SERVER_IP: ${{ secrets.SERVER_IP }}
         run: bin/deploy
