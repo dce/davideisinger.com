@@ -1,0 +1,15 @@
+set -e
+
+rm -rf public
+
+source bin/get-last-commit.sh
+
+hugo --ignoreCache
+
+rsync \
+  -v \
+  -r \
+  --delete \
+  -e "ssh -o PubkeyAcceptedKeyTypes=+ssh-rsa" \
+  public/* \
+  www-data@$SERVER_IP:/var/www/davideisinger.com
