@@ -81,7 +81,7 @@ auto-format = true
 formatter = { command = "mdrenum" , args = ["--stdin"] }
 ```
 
-[22]: https://github.com/dce/mdrenum/blob/main/src/cli.ts#L7-L18
+[22]: https://github.com/dce/mdrenum/blob/42c28c1e4b964ebc348a2fef54daa3be51824a90/src/cli.ts#L6-L15
 
 This totally works, and I'll say that it's uniquely satisfying to save a document and see the link numbers get instantly reordered properly. I've done it probably 100 times in the course of writing this post.
 
