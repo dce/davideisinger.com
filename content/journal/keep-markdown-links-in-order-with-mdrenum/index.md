@@ -13,7 +13,7 @@ I write all these posts in Markdown, and I tend to include a lot of links. I use
 
 [1]: https://www.markdownguide.org/basic-syntax/#reference-style-links
 [2]: https://github.com/dce/davideisinger.com/blob/main/content/journal/keep-markdown-links-in-order-with-mdrenum/index.md?plain=1
-[3]: https://github.com/dce/davideisinger.com/blob/a2da87fee76fed027b389fcdeb449ad7aa4b6c6d/bin/renumber
+[3]: https://github.com/dce/davideisinger.com/blob/e1d0590025fd8636c378748491fe11a0ba00b1ff/bin/renumber
 [4]: /journal/dispatch-9-november-2023/
 [5]: /elsewhere
 
