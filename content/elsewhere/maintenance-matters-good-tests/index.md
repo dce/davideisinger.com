@@ -76,7 +76,7 @@ the way, here's what we'll cover:
 3.  [Network Calls](#network-calls)
 4.  [Flaky Tests](#flaky-tests)
 5.  [Slow Tests](#slow-tests)
-6.  [App Code vs. Test Code](#app-code-vstest-code)
+6.  [App Code vs. Test Code](#app-code-vs-test-code)
 
 ------------------------------------------------------------------------
 
