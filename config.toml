@@ -13,3 +13,6 @@ enableGitInfo = true
       unsafe = true
   [markup.highlight]
     style = 'nord'
+  [markup.goldmark.parser]
+    autoHeadingID = true
+    autoHeadingIDType = 'blackfriday'
