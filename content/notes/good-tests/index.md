@@ -9,7 +9,9 @@ references:
   file: macwright-com-o4dndf.txt
 ---
 
-_(Notes for a Viget article I'm putting together)_
+_(Notes for a [Viget article][1])_
+
+[1]: /elsewhere/maintenance-matters-good-tests
 
 * Most importantly: **give you confidence to make changes**
   * This gets more and more important over time
@@ -24,7 +26,7 @@ _(Notes for a Viget article I'm putting together)_
     * But ideally you're testing the full integration of UI + API
 * Unit tests
   * Put complex logic into easily testable objects/functions
-  * This is where [TDD][1] can come into play
+  * This is where [TDD][2] can come into play
   * Avoid over-stubbing/mocking -- what are you even testing
     * It is OK to go down the stack in your unit tests
 * Integration tests
@@ -42,21 +44,21 @@ _(Notes for a Viget article I'm putting together)_
     * In other words, at less than 100% coverage, you don't know if your new feature is fully covered or not
   * Occasionally you have to ignore some code -- e.g. something that only runs in production
   * It's OK if you're not at 100% right now -- set the threshold to your current level, and increase it as you add tests and new well-tested features
-  * [Already covered here][2]
+  * [Already covered here][3]
 * Third-party/network calls
-  * Major libraries often have mock services (e.g. [stripe-mock][3])
+  * Major libraries often have mock services (e.g. [stripe-mock][4])
   * VCR is … OK but can become a maintenance problem
-    * Blocking access to the web is good though -- [webmock][4]
+    * Blocking access to the web is good though -- [webmock][5]
   * A better approach
     * Move your integration code into a module
     * Create a second stub module with the same API
-    * Use [JSON Schema][5] to ensure stub stays in sync (i.e. both the real client and the stub client validate against the schema)
+    * Use [JSON Schema][6] to ensure stub stays in sync (i.e. both the real client and the stub client validate against the schema)
     * This will lead to more reliable tests and also more robust code
 * Flaky tests are bad
   * They eat up a lot of development time (esp. as build times increase)
   * Try to stay on top of them and squash them as they arise
   * Some frameworks have `retry` options/libraries that can help (bandage not cure)
-    * [rspec-retry][6]
+    * [rspec-retry][7]
   * In general, though, flaky tests suck and generally indicate lack of quality with either your code or your tools
     * So write better code or pick better tools
 * Tests are code, but they're not application code
@@ -66,11 +68,11 @@ _(Notes for a Viget article I'm putting together)_
   * As opposed to jumping around between early setup, shared examples, complex factories w/ side-effects, etc.
   * Think of it as half programming, half writing
 
-[1]: https://en.wikipedia.org/wiki/Test-driven_development
-[2]: https://www.viget.com/articles/maintenance-matters-code-coverage/
-[3]: https://github.com/stripe/stripe-mock
-[4]: https://github.com/bblimke/webmock#real-requests-to-network-can-be-allowed-or-disabled
-[5]: https://json-schema.org/
-[6]: https://github.com/NoRedInk/rspec-retry
+[2]: https://en.wikipedia.org/wiki/Test-driven_development
+[3]: https://www.viget.com/articles/maintenance-matters-code-coverage/
+[4]: https://github.com/stripe/stripe-mock
+[5]: https://github.com/bblimke/webmock#real-requests-to-network-can-be-allowed-or-disabled
+[6]: https://json-schema.org/
+[7]: https://github.com/NoRedInk/rspec-retry
 
 {{<thumbnail notes "400x" />}}
