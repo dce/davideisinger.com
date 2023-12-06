@@ -7,9 +7,17 @@ tags:
 ---
 
 * Spent Thanksgiving in Troy/Albany
-	* Troy Turkey Trot
-		* [Result][1]
-		* [Certificate][2]
+
+<!--more-->
+
+<div class="image-set">
+  {{<thumbnail IMG_5088.jpg "400x" />}}
+  {{<thumbnail IMG_9217.jpg "400x" />}}
+</div>
+
+* Troy Turkey Trot
+	* [Result][1]
+	* [Certificate][2]
 * [`mdrenum`][3]
 	* [available on GitHub][4]
 * New song
@@ -27,8 +35,6 @@ tags:
 [5]: https://www.critterandguitari.com/201-pocket-piano
 [6]: /elsewhere/maintenance-matters-good-tests
 [7]: /notes/2023-holiday-gift-guide
-
-<!--more-->
 
 This month:
 
