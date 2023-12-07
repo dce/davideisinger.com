@@ -1,0 +1,506 @@
+   #[1]Programmable Mutter
+
+   [2][https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimage
+   s%2F6676303a-e6a9-4e7d-b10e-8662cfcfb435_1024x1024.png]
+
+[3]Programmable Mutter
+
+   (BUTTON) (BUTTON)
+   Subscribe
+   (BUTTON) Sign in
+
+   (BUTTON)
+   Share this post
+
+What OpenAI shares with Scientology
+
+   www.programmablemutter.com
+   (BUTTON)
+   Copy link
+   (BUTTON)
+   Facebook
+   (BUTTON)
+   Email
+   (BUTTON)
+   Note
+   (BUTTON)
+   Other
+
+Discover more from Programmable Mutter
+
+   Technology and politics in an interdependent world
+   Over 1,000 subscribers
+   ____________________
+   (BUTTON) Subscribe
+   Continue reading
+   Sign in
+
+What OpenAI shares with Scientology
+
+Strange beliefs, fights over money and bad science fiction
+
+   [4]Henry Farrell
+   Nov 20, 2023
+   72
+   (BUTTON)
+   Share this post
+
+What OpenAI shares with Scientology
+
+   www.programmablemutter.com
+   (BUTTON)
+   Copy link
+   (BUTTON)
+   Facebook
+   (BUTTON)
+   Email
+   (BUTTON)
+   Note
+   (BUTTON)
+   Other
+   17
+   Share
+
+   When Sam Altman was ousted as CEO of OpenAI, some hinted that lurid
+   depravities lay behind his downfall. Surely, OpenAI’s board wouldn’t
+   have toppled him if there weren’t some sordid story about to hit the
+   headlines? But the [5]reporting all seems to be saying that it was God,
+   not Sex, that lay behind Altman’s downfall. And Money, that third great
+   driver of human behavior, seems to have driven his attempted return and
+   his [6]new job at Microsoft, which is OpenAI’s biggest investor by far.
+
+   As the NYT describes the people who pushed Altman out:
+
+   Thanks for reading Programmable Mutter! Subscribe for free to receive
+   new posts. And if you want to support my work, [7]buy my and Abe
+   Newman’s new book, [8]Underground Empire, and sing its praises (so long
+   as you actually liked it), on Amazon, Goodreads, social media and
+   everywhere else that people find out about good books.
+   ____________________
+   (BUTTON) Subscribe
+
+     Ms. McCauley and Ms. Toner [HF - two board members] have ties to the
+     Rationalist and Effective Altruist movements, a community that is
+     deeply concerned that A.I. could one day destroy humanity. Today’s
+     A.I. technology cannot destroy humanity. But this community believes
+     that as the technology grows increasingly powerful, these dangers
+     will arise.
+
+   McCauley and Toner reportedly worried that Altman was pushing too hard,
+   too quickly for new and potentially dangerous forms of AI (similar
+   fears led some OpenAI people to bail out and found a competitor,
+   Anthropic, a couple of years ago). The FT’s reporting [9]confirms that
+   the fight was over how quickly to commercialize AI
+
+   The back-story to all of this is actually much weirder than the average
+   sex scandal. The field of AI (in particular, its debates around Large
+   Language Models (LLMs) like OpenAI’s GPT-4) is profoundly shaped by
+   cultish debates among people with some very strange beliefs.
+
+   As LLMs have become increasingly powerful, theological arguments have
+   begun to mix it up with the profit motive. That explains why OpenAI has
+   such an unusual corporate form - it is a non-profit, with a for-profit
+   structure retrofitted on top, sweatily entangled with a
+   profit-maximizing corporation (Microsoft). It also plausibly explains
+   why these tensions have exploded into the open.
+
+   ********
+
+   I joked on Bluesky that the OpenAI saga was as if “the 1990s browser
+   wars were being waged by rival factions of Dianetics striving to
+   control the future.” Dianetics - for those who don’t obsess on the
+   underbelly of American intellectual history - was the 1.0 version of L.
+   Ron Hubbard’s Scientology. Hubbard [10]hatched it in collaboration with
+   the science fiction editor John W. Campbell (who had a major science
+   fiction award named after him until 2019, when his racism finally
+   caught up with his reputation).
+
+   The AI safety debate too is an unintended consequence of genre fiction.
+   In 1987, multiple-Hugo award winning science-fiction critic Dave
+   Langford [11]began a discussion of the “newish” genre of cyberpunk with
+   a complaint about an older genre of story on information technology, in
+   which “the ultimate computer is turned on and asked the ultimate
+   question, and replies `Yes, now there is a God!'
+
+   However, the cliche didn’t go away. Instead, it cross-bred with
+   cyberpunk to produce some quite surprising progeny. The midwife was the
+   writer Vernor Vinge, who proposed a revised meaning for “singularity.”
+   This was a term already familiar to science fiction readers as the
+   place inside a black hole where the ordinary predictions of physics
+   broke down. Vinge suggested that we would soon likely create true AI,
+   which would be far better at thinking than baseline humans, and would
+   change the world in an accelerating process, creating a historical
+   [12]singularity, after which the future of the human species would be
+   radically unpredictable.
+
+   These ideas were turned into novels by Vinge himself, including A Fire
+   Upon the Deep (fun!) and Rainbow’s End (weak!). Other SF writers like
+   Charles Stross wrote novels about humans doing their best to co-exist
+   with “weakly godlike” machine intelligence (also fun!). Others who had
+   no notable talent for writing, like the futurist Ray Kurzweil, tried to
+   turn the Singularity into the foundation stone of a new account of
+   human progress. I still possess a mostly-unread copy of Kurzweil’s
+   mostly-unreadable magnum opus, The Singularity is Near, which was
+   distributed en masse to bloggers like meself in an early 2000s
+   marketing campaign. If I dug hard enough in my archives, I might even
+   be able to find the message from a publicity flack expressing
+   disappointment that I hadn’t written about the book after they sent it.
+   All this speculation had a strong flavor of end-of-days. As the Scots
+   science fiction writer, Ken MacLeod memorably put it, the Singularity
+   was the “Rapture of the Nerds.” Ken, being the [13]offspring of a Free
+   Presbyterian preacher, knows a millenarian religion when he sees it:
+   Kurzweil’s doorstopper should really have been titled The Singularity
+   is Nigh.
+
+   Science fiction was the gateway drug, but it can’t really be blamed for
+   everything that happened later. Faith in the Singularity has roughly
+   the same relationship to SF as UFO-cultism. A small minority of SF
+   writers are true believers; most are hearty skeptics, but recognize
+   that superhuman machine intelligences are (a) possible) and (b) an
+   extremely handy engine of plot. But the combination of cultish
+   Singularity beliefs and science fiction has influenced a lot of
+   external readers, who don’t distinguish sharply between the religious
+   and fictive elements, but mix and meld them to come up with strange new
+   hybrids.
+
+   Just such a syncretic religion provides the final part of the
+   back-story to the OpenAI crisis. In the 2010s, ideas about the
+   Singularity cross-fertilized with notions about Bayesian reasoning and
+   some really terrible fanfic to create the online “rationalist” movement
+   mentioned in the NYT.
+
+   I’ve never read a text on rationalism, whether by true believers, by
+   hangers-on, or by bitter enemies (often erstwhile true believers), that
+   really gets the totality of what you see if you dive into its core
+   texts and apocrypha. And I won’t even try to provide one here. It is
+   some Very Weird Shit and there is really great religious sociology to
+   be written about it. The fights around [14]Roko’s Basilisk are perhaps
+   the best known example of rationalism in action outside the community,
+   and give you some flavor of the style of debate. But the very short
+   version is that [15]Eliezer Yudkowsky, and his multitudes of online
+   fans embarked on a massive collective intellectual project, which can
+   reasonably be described as resurrecting David Langford’s hoary 1980s SF
+   cliche, and treating it as the most urgent dilemma facing human beings
+   today. We are about to create God. What comes next? Add Bayes’ Theorem
+   to Vinge’s core ideas, sez rationalism, and you’ll likely find the
+   answer.
+
+   The consequences are what you might expect when a crowd of bright but
+   rather naive (and occasionally creepy) computer science and adjacent
+   people try to re-invent theology from first principles, to model what
+   human-created gods might do, and how they ought be constrained. They
+   include the following, non-comprehensive list: all sorts of strange
+   mental exercises, postulated superhuman entities benign and malign and
+   how to think about them; the jumbling of parts from fan-fiction,
+   computer science, home-brewed philosophy and ARGs to create grotesque
+   and interesting intellectual chimeras; Nick Bostrom, and a crew of very
+   well funded philosophers; Effective Altruism, whose fancier adherents
+   often prefer not to acknowledge the approach’s somewhat disreputable
+   origins.
+
+   All this would be sociologically fascinating, but of little real world
+   consequence, if it hadn’t profoundly influenced the founders of the
+   organizations pushing AI forward. These luminaries think about the
+   technologies that they were creating in terms that they have borrowed
+   wholesale from the Yudkowsky extended universe. The risks and rewards
+   of AI are seen as largely commensurate with the risks and rewards of
+   creating superhuman intelligences, modeling how they might behave, and
+   ensuring that we end up in a Good Singularity, where AIs do not destroy
+   or enslave humanity as a species, rather than a bad one.
+
+   Even if rationalism’s answers are uncompelling, it asks interesting
+   questions that might have real human importance. However, it is at best
+   unclear that theoretical debates about immantenizing the eschaton tell
+   us very much about actually-existing “AI,” a family of important and
+   sometimes very powerful statistical techniques, which are being applied
+   today, with emphatically non-theoretical risks and benefits.
+
+   Ah, well, nevertheless. The rationalist agenda has demonstrably shaped
+   the questions around which the big AI ‘debates’ regularly revolve, as
+   [16]demonstrated by the Rishi Sunak/Sam Altman/Elon Musk love-fest “AI
+   Summit” in London a few weeks ago.
+
+   We are on a very strange timeline. My laboured Dianetics/Scientology
+   joke can be turned into an interesting hypothetical. It actually turns
+   out (I only stumbled across this recently) that Claude Shannon, the
+   creator of information theory (and, by extension, the computer
+   revolution) was an [17]L. Ron Hubbard fan in later life. In our
+   continuum, this didn’t affect his theories: he had already done his
+   major work. Imagine, however, a parallel universe, where Shannon’s
+   science and standom had become intertwined and wildly influential, so
+   that debates in information science obsessed over whether we could
+   eliminate the noise of our [18]engrams, and isolate the signal of our
+   True Selves, allowing us all to become [19]Operating Thetans. Then
+   reflect on how your imagination doesn’t have to work nearly as hard as
+   it ought to. A similarly noxious blend of garbage ideas and actual
+   science is the foundation stone of the Grand AI Risk Debates that are
+   happening today.
+
+   To be clear - not everyone working on existential AI risk (or ‘x risk’
+   as it is usually summarized) is a true believer in Strong Eliezer
+   Rationalism. Most, very probably, are not. But you don’t need all that
+   many true believers to keep the machine running. At least, that is how
+   I interpret this [20]Shazeda Ahmed essay, which describes how some core
+   precepts of a very strange set of beliefs have become normalized as the
+   background assumptions for thinking about the promise and problems of
+   AI. Even if you, as an AI risk person, don’t buy the full intellectual
+   package, you find yourself looking for work in a field where the
+   funding, the incentives, and the organizational structures mostly point
+   in a single direction (NB - this is my jaundiced interpretation, not
+   hers).
+
+   ********
+
+   There are two crucial differences between today’s AI cult and golden
+   age Scientology. The first was already mentioned in passing. Machine
+   learning works, and has some very important real life uses.
+   [21]E-meters don’t work and are useless for any purpose other than
+   fleecing punters.
+
+   The second (which is closely related) is that Scientology’s ideology
+   and money-hustle reinforce each other. The more that you buy into
+   stories about the evils of mainstream psychology, the baggage of
+   engrams that is preventing you from reaching your true potential and so
+   on and so on, the more you want to spend on Scientology counselling. In
+   AI, in contrast, God and Money have a rather more tentative
+   relationship. If you are profoundly worried about the risks of AI,
+   should you be unleashing it on the world for profit? That tension helps
+   explain the fight that has just broken out into the open.
+
+   It’s easy to forget that OpenAI was founded as an explicitly
+   non-commercial entity, the better to balance the rewards and the risks
+   of these new technologies. To quote from its [22]initial manifesto:
+
+     It’s hard to fathom how much human-level AI could benefit society,
+     and it’s equally hard to imagine how much it could damage society if
+     built or used incorrectly. Because of AI’s surprising history, it’s
+     hard to predict when human-level AI might come within reach. When it
+     does, it’ll be important to have a leading research institution
+     which can prioritize a good outcome for all over its
+     own self-interest.
+
+     We’re hoping to grow OpenAI into such an institution. As a
+     non-profit, our aim is to build value for everyone rather than
+     shareholders. Researchers will be strongly encouraged to publish
+     their work, whether as papers, blog posts, or code, and our patents
+     (if any) will be shared with the world. We’ll freely collaborate
+     with others across many institutions and expect to work with
+     companies to research and deploy new technologies.
+
+   That … isn’t quite how it worked out. The Sam Altman justification for
+   deviation from this vision, laid out in various interviews, is that it
+   turned out to just be too damned expensive to train the models as they
+   grew bigger, and bigger and bigger. This necessitated the creation of
+   an add-on structure, which would sidle into profitable activity. It
+   also required massive cash infusions from Microsoft (reportedly in
+   [23]the range of $13 billion), which also has an exclusive license to
+   OpenAI’s most recent LLM, GPT-4. Microsoft, it should be noted, is not
+   in the business of prioritizing “a good outcome for all over its own
+   self-interest.” It looks instead, to invest its resources along the
+   very best Friedmanite principles, so as to create whopping returns for
+   shareholders. And $13 billion is a lot of invested resources.
+
+   This, very plausibly explains the current crisis. OpenAI’s governance
+   arrangements are shaped by the fact that it was a non-profit until
+   relatively recently. The board is a non-profit board. The two members
+   already mentioned, McCauley and Toner, are not the kind of people you
+   would expect to see making the big decisions for a major commercial
+   entity. They plausibly represent the older rationalist vision of what
+   OpenAI was supposed to do, and the risks that it was supposed to avert.
+
+   But as OpenAI’s ambitions have grown, that vision has been watered down
+   in favor of making money. I’ve heard that there were a lot of people in
+   the AI community who were really unhappy with OpenAI’s initial decision
+   to let GPT rip. That spurred the race for commercial domination of AI
+   which has shaped pretty well everything that has happened since,
+   leading to model after model being launched, and to hell with the
+   consequences. People like Altman still talk about the dangers of AGI.
+   But their organizations and businesses keep releasing more, and more
+   powerful systems, which can be, and are being, used in all sorts of
+   unanticipated ways, for good and for ill.
+
+   It would perhaps be too cynical to say that AGI existential risk
+   rhetoric has become a cynical hustle, intended to redirect the
+   attentions of regulators toward possibly imaginary future risks in the
+   future, and away from problematic but profitable activities that are
+   happening right now. Human beings have an enormous capacity to
+   fervently believe in things that it is in their self-interest to
+   believe, and to update those beliefs as the interests change or become
+   clearer. I wouldn’t be surprised at all if Altman sincerely thinks that
+   he is still acting for the good of humankind (there are certainly
+   enough people assuring him that he is). But it isn’t surprising either
+   that the true believers are revolting, as Altman stretches their
+   ideology ever further and thinner to facilitate raking in the
+   benjamins.
+
+   The OpenAI saga is a fight between God and Money; between a quite
+   peculiar quasi-religious movement, and a quite ordinary desire to make
+   cold hard cash. You should probably be putting your bets on Money
+   prevailing in whatever strange arrangement of forces is happening as
+   Altman is beamed up into the Microsoft mothership. But we might not be
+   all that better off in this particular case if the forces of God were
+   to prevail, and the rationalists who toppled Altman were to win a
+   surprising victory. They want to slow down AI, which is good, but for
+   all sorts of weird reasons, which are unlikely to provide good
+   solutions for the actual problems that AI generates. The important
+   questions about AI are the ones that neither God or [24]Mammon has
+   particularly good answers for - but that’s a topic for future posts.
+
+   Thanks for reading Programmable Mutter! Subscribe for free to receive
+   new posts. And if you want to support my work, [25]buy my and Abe
+   Newman’s new book, [26]Underground Empire, and sing its praises (as
+   long as you actually liked it) on Amazon, Goodreads, social media and
+   everywhere else that people find out about good books.
+   ____________________
+   (BUTTON) Subscribe
+   72
+   (BUTTON)
+   Share this post
+
+What OpenAI shares with Scientology
+
+   www.programmablemutter.com
+   (BUTTON)
+   Copy link
+   (BUTTON)
+   Facebook
+   (BUTTON)
+   Email
+   (BUTTON)
+   Note
+   (BUTTON)
+   Other
+   17
+   Share
+   17 Comments
+
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   (BUTTON)
+   Share this discussion
+
+What OpenAI shares with Scientology
+
+   www.programmablemutter.com
+   (BUTTON)
+   Copy link
+   (BUTTON)
+   Facebook
+   (BUTTON)
+   Email
+   (BUTTON)
+   Note
+   (BUTTON)
+   Other
+   Tarik Najeddine
+   [27]Writes Factual Dispatch
+   [28]Nov 20
+
+   ChatGPT is just Zapp Brannigan or a McKinsey consultant. A veneer of
+   confidence and a person to blame when the executive "needs" to make a
+   hard decision. You previously blamed the Bain consultants when you
+   offshored a factory, now you blame AI.
+   Expand full comment
+   Reply
+   Share
+   (BUTTON)
+   Gerben Wierda
+   [29]Nov 21·edited Nov 21
+
+   Came here via Dave Karpf's link. Beautiful stuff, and "The Singularity
+   is Nigh" made me laugh out loud.
+
+   The psychological and sociological/cultural side of the current
+   GPT-fever is indeed far more important and telling than the technical
+   reality. Short summary: quantity has its own certain quality, but the
+   systems may be impressive, we humans are impressionable.
+
+   Recently, Sam Altman received a Hawking Fellowship for the OpenAI Team
+   and he spoke for a few minutes followed by a Q&A (available on
+   YouTube). In that session he was asked what are important qualities for
+   'founders' of these innovative tech firms. He answered that founders
+   should have ‘deeply held convictions’ that are stable without a lot of
+   ‘positive external reinforcement’, ‘obsession’ with a problem, and a
+   ‘super powerful internal drive’. They needed to be an 'evangelist'. The
+   link with religion shows here too.
+   ([30]https://erikjlarson.substack.com/p/gerben-wierda-on-chatgpt-altman
+   -and). TED just released Ilya Sutskever’s talk and you see it there
+   too. We have strong believers turned evangelists and we have a world of
+   disciples and followers. It is indeed a very good analogy.
+   Expand full comment
+   Reply
+   Share
+   (BUTTON)
+   [31]15 more comments...
+   Top
+   New
+   Community
+
+   No posts
+
+   Ready for more?
+   ____________________
+   (BUTTON) Subscribe
+   © 2023 Henry Farrell
+   [32]Privacy ∙ [33]Terms ∙ [34]Collection notice
+   Start Writing[35]Get the app
+   [36]Substack is the home for great writing
+
+   This site requires JavaScript to run correctly. Please [37]turn on
+   JavaScript or unblock scripts
+
+References
+
+   Visible links:
+   1. file:///feed
+   2. file:///
+   3. file:///
+   4. https://substack.com/@henryfarrell
+   5. https://www.nytimes.com/2023/11/18/technology/open-ai-sam-altman-what-happened.html
+   6. https://www.ft.com/content/54e36c93-08e5-4a9e-bda6-af673c3e9bb5
+   7. https://amzn.to/3PbIyqX
+   8. https://amzn.to/3PbIyqX
+   9. https://www.ft.com/content/54e36c93-08e5-4a9e-bda6-af673c3e9bb5
+  10. https://longreads.com/2017/02/01/xenus-paradox-the-fiction-of-l-ron-hubbard/
+  11. https://ansible.uk/ai/pcwplus/pcwp1987.html
+  12. https://edoras.sdsu.edu/~vinge/misc/singularity.html
+  13. https://www.heraldscotland.com/life_style/arts_ents/14479010.science-fiction-writer-ken-macleod-free-presbyterian-childhood-time-communist-party-member-future-humanity/
+  14. https://www.lesswrong.com/tag/rokos-basilisk
+  15. https://en.wikipedia.org/wiki/Eliezer_Yudkowsky
+  16. https://www.politico.eu/article/rishi-sunak-artificial-intelligence-pivot-safety-summit-united-kingdom-silicon-valley-effective-altruism/
+  17. https://longreads.com/2018/10/23/the-dawn-of-dianetics-l-ron-hubbard-john-w-campbell-and-the-origins-of-scientology/
+  18. https://en.wikipedia.org/wiki/Engram_(Dianetics)
+  19. https://en.wikipedia.org/wiki/Operating_Thetan
+  20. https://crookedtimber.org/2023/11/16/from-algorithmic-monoculture-to-epistemic-monoculture-understanding-the-rise-of-ai-safety/
+  21. https://en.wikipedia.org/wiki/E-meter
+  22. https://openai.com/blog/introducing-openai
+  23. https://www.bloomberg.com/news/newsletters/2023-06-15/how-chatgpt-openai-made-microsoft-an-ai-tech-giant-big-take
+  24. https://www.newadvent.org/cathen/09580b.htm
+  25. https://amzn.to/3PbIyqX
+  26. https://amzn.to/3PbIyqX
+  27. https://factualdispatch.substack.com/?utm_source=substack&utm_medium=web&utm_content=comment_metadata
+  28. https://www.programmablemutter.com/p/look-at-scientology-to-understand/comment/43988738
+  29. https://www.programmablemutter.com/p/look-at-scientology-to-understand/comment/44033603
+  30. https://erikjlarson.substack.com/p/gerben-wierda-on-chatgpt-altman-and
+  31. https://www.programmablemutter.com/p/look-at-scientology-to-understand/comments
+  32. https://www.programmablemutter.com/privacy?utm_source=
+  33. https://substack.com/tos
+  34. https://substack.com/ccpa#personal-data-collected
+  35. https://substack.com/app/app-store-redirect?utm_campaign=app-marketing&utm_content=web-footer-button
+  36. https://substack.com/
+  37. https://enable-javascript.com/
+
+   Hidden links:
+  39. https://substack.com/profile/557668-henry-farrell
+  40. https://www.programmablemutter.com/p/look-at-scientology-to-understand/comments
+  41. javascript:void(0)
+  42. https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F555fe47f-ac07-4614-b78b-5d269fde7539_1024x1024.webp
+  43. https://www.programmablemutter.com/p/look-at-scientology-to-understand/comments
+  44. javascript:void(0)
+  45. https://substack.com/profile/1263175-tarik-najeddine
+  46. https://substack.com/profile/1263175-tarik-najeddine
+  47. https://substack.com/profile/23165546-gerben-wierda
+  48. https://substack.com/profile/23165546-gerben-wierda
+  49. https://substack.com/signup?utm_source=substack&utm_medium=web&utm_content=footer
