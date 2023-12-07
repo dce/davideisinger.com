@@ -4,9 +4,26 @@ date: 2023-11-27T22:43:47-05:00
 draft: false
 tags:
 - dispatch
+references:
+- title: "36 Hours in Durham, North Carolina: Things to Do and See - The New York Times"
+  url: https://www.nytimes.com/interactive/2023/11/02/travel/things-to-do-durham-nc.html
+  date: 2023-12-07T01:32:04Z
+  file: www-nytimes-com-s2rtib.txt
+- title: "A Coder Considers the Waning Days of the Craft | The New Yorker"
+  url: https://www.newyorker.com/magazine/2023/11/20/a-coder-considers-the-waning-days-of-the-craft?currentPage=all
+  date: 2023-12-07T01:36:38Z
+  file: www-newyorker-com-41taro.txt
+- title: "What OpenAI shares with Scientology - by Henry Farrell"
+  url: https://www.programmablemutter.com/p/look-at-scientology-to-understand
+  date: 2023-12-07T01:40:06Z
+  file: www-programmablemutter-com-8wp6z1.txt
+- title: "Feedbin: Ruby Open Source RSS Reader"
+  url: https://allaboutcoding.ghinda.com/ruby-open-source-feedbin
+  date: 2023-12-07T01:41:18Z
+  file: allaboutcoding-ghinda-com-jnjy0d.txt
 ---
 
-We spent the week of Thanksgiving with my sister near Albany, New York. Tough drive, but it was great to get the whole family together and for Nev to get some extended time with her cousins. Highlights included the [Catskill Mountain Road Polar Express][1] and some unexpected snowfall.
+We spent the week of Thanksgiving with my sister near Albany, New York. Tough drive, but it was great to get the whole family together and for Nev to get some extended time with her cousins. Highlights included the [Catskill Mountain Railroad Polar Express][1] and some unexpected snowfall.
 
 [1]: https://catskillmountainrailroad.com/event/the-polar-express/
 
@@ -64,10 +81,20 @@ Reading:
 
 Links:
 
-* [Title][17]
-* [Title][18]
-* [Title][19]
+* [36 Hours in Durham, North Carolina: Things to Do and See][17] -- this is a pretty good guide to my city (though don't sleep on [Viceroy][18]) but I'm mostly including this because you can see a couple tables I made in the upper left corner of the main image.
 
-[17]: https://example.com/
-[18]: https://example.com/
-[19]: https://example.com/
+* [A Coder Considers the Waning Days of the Craft][19]
+
+  > Coding has always felt to me like an endlessly deep and rich domain. Now I find myself wanting to write a eulogy for it.
+
+* [What OpenAI shares with Scientology][20]
+
+  > Even if you, as an AI risk person, don’t buy the full intellectual package, you find yourself looking for work in a field where the funding, the incentives, and the organizational structures mostly point in a single direction.
+
+* [Feedbin: Ruby Open Source RSS Reader][21] -- I've been a user and fan since Google shut down Reader; neat that it's written in my preferred language/framework.
+
+[17]: https://www.nytimes.com/interactive/2023/11/02/travel/things-to-do-durham-nc.html
+[18]: https://www.viceroydurham.com/
+[19]: https://www.newyorker.com/magazine/2023/11/20/a-coder-considers-the-waning-days-of-the-craft?currentPage=all
+[20]: https://www.programmablemutter.com/p/look-at-scientology-to-understand
+[21]: https://allaboutcoding.ghinda.com/ruby-open-source-feedbin
