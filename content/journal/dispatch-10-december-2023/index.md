@@ -1,6 +1,6 @@
 ---
 title: "Dispatch #10 (December 2023)"
-date: 2023-11-27T22:43:47-05:00
+date: 2023-12-06T12:00:00-05:00
 draft: false
 tags:
 - dispatch
