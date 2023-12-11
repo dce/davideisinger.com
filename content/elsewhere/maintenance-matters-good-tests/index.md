@@ -42,8 +42,7 @@ This is a topic better suited to a book than a blog post (and indeed
 [there are
 many](https://bookshop.org/search?keywords=software+testing)), but I do
 think there are a few high-level concepts that are important to
-internalize in order to build robust, long-lasting software --- I hope
-to cover them here.
+internalize in order to build robust, long-lasting software.
 
 My first exposure to automated testing was with Ruby on Rails. Since
 then, I've written production software in many different languages, but
