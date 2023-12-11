@@ -66,10 +66,6 @@ I'm still having a blast with the Novation Circuit Tracks I got last month. I ca
 
 [9]: https://cloudatlas.wmo.int/en/clouds-varieties-radiatus.html
 
-Here's an extended mix:
-
-<audio controls src="Radiatus (Extended).mp3"></audio>
-
 It's really fun once you've got all the parts set up just to _play_ the Novation, bringing drums and leads in and out -- that's how I recorded these tracks. I imagine it'll only get more fun as I learn how to better twiddle the knobs to change the sounds. We'll see -- maybe I'll come up with 2-3 more cloud-themed tracks and release an album!
 
 My phone (and yours probably) sends me these photo slideshows periodically, and I'm an absolute sucker for them. One recently featured a track by [Lack of Afro][10], and I've been listening to his stuff ever since. Check out "For You" (or really any of it -- it's all good).
