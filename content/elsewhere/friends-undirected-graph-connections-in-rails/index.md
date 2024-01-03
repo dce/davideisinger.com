@@ -5,6 +5,11 @@ draft: false
 canonical_url: https://www.viget.com/articles/friends-undirected-graph-connections-in-rails/
 featured: true
 exclude_music: true
+references:
+- title: "Storing graphs in the database: SQL meets social network - Inviqa"
+  url: https://inviqa.com/blog/storing-graphs-database-sql-meets-social-network
+  date: 2024-01-03T21:44:24Z
+  file: inviqa-com-kztbkj.txt
 ---
 
 No, sorry, not THOSE friends. But if you're interested in how to do
