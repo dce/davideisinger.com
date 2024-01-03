@@ -13,7 +13,9 @@
         <li>
           <p>
             <a href="{{ .Permalink }}">{{ .Title }}</a>
-            {{ .Date | time.Format "(2006-01-02)" }}
+            <span class="nowrap">
+              {{ .Date | time.Format "(2006-01-02)" }}
+            </span>
           </p>
 
           {{ .Summary }}
