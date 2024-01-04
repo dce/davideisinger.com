@@ -4,7 +4,7 @@
 {{ $img := $orig.Resize $options }}
 
 {{ if findRE `\d+x\d+` $options }}
-  {{ $img = $orig.Fill $options }}
+  {{ $img = $orig.Fill (printf "%s center" $options) }}
 {{ end }}
 
 <a href="{{ $orig.RelPermalink }}">
