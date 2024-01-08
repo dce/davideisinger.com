@@ -40,34 +40,15 @@ hr {
 
 ul {
   list-style: none;
-  margin-left: 2ch;
-  padding: 0;
-  text-indent: -2ch;
+  padding: 0 0 0 2ch;
+  position: relative;
 
   li {
     &::before {
       color: #aaa;
       content: '∗';
-      float: left;
-      margin-right: 2ch;
-    }
-
-    p {
-      text-indent: 0;
-
-      &:first-child {
-        text-indent: -2ch;
-      }
-    }
-
-    blockquote {
-      p:first-child {
-        text-indent: 0;
-      }
-
-      pre {
-        text-indent: 0;
-      }
+      left: 0ch;
+      position: absolute;
     }
   }
 }
