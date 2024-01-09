@@ -6,7 +6,18 @@ tags:
 - dispatch
 ---
 
-Some thoughts here...
+* Nev 2 years old
+* Work — writing Java
+* Spent a week in Greensboro
+	* Greensboro Children's Museum — https://mbcmuseum.com/
+	* Greensboro Science Center — https://www.visitgreensboronc.com/things-to-do/attractions/the-rotary-club-of-greensboro-carousel.aspx
+* Arturia KeyStep 37
+* Cleaning up basement
+	* Getting shit out of house
+	* New shelves
+	* Making space for an office + music/hobby station
+* Dead Cells
+	* [https://www.nintendo.com/us/store/products/dead-cells-switch/](https://www.nintendo.com/us/store/products/dead-cells-switch/)
 
 <!--more-->
 
@@ -15,10 +26,14 @@ Some thoughts here...
   {{<thumbnail IMG_5278.jpeg "400x300" />}}
 </div>
 
+Here's a new track, called "Orographic":
+
+<audio controls src="/journal/dispatch-11-january-2024/Orographic.mp3"></audio>
+
 This month:
 
-* Adventure:
-* Project:
+* Adventure: New Market, VA
+* Project: music table
 * Skill:
 
 Reading:
