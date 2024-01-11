@@ -27,8 +27,6 @@ _Building a Second Brain_ (p. 215)
 
 ## Notebook Templates
 
-<div class="image-set">
-  {{<thumbnail template_1 "237x329" />}}
-  {{<thumbnail template_2 "237x329" />}}
-  {{<thumbnail template_3 "237x329" />}}
-</div>
+{{<thumbnail template_1 "237x329" />}}
+{{<thumbnail template_2 "237x329" />}}
+{{<thumbnail template_3 "237x329" />}}
