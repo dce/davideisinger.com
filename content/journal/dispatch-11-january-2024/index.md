@@ -19,57 +19,56 @@ That's a wrap on 2023. Our little Nevie turned two in December. It's hard to ima
 
 <!--more-->
 
-<div class="image-set">
-  {{<thumbnail IMG_5187.jpeg "400x300" />}}
-  {{<thumbnail IMG_5278.jpeg "400x300" />}}
-</div>
+{{<thumbnail IMG_5187.jpeg "400x300" />}}
+{{<thumbnail IMG_5278.jpeg "400x300" />}}
 
 [1]: https://mbcmuseum.com/
 [2]: https://www.visitgreensboronc.com/things-to-do/attractions/the-rotary-club-of-greensboro-carousel.aspx
 
-* Work — writing Java
-* Arturia KeyStep 37
-	* It's a MIDI controller, so it's really only as cool as what you plug it into and your skill as a pianist
-* Cleaning up basement
-	* Getting shit out of house
-	* New shelves
-	* Making space for an office + music/hobby station
-	* Big changes are coming (more on that soon), and we need to make some more space
-	* <https://www.chrbutler.com/organization-office>
-	* <https://analogoffice.net/2023/05/31/the-lifechanging-magic.html>
+We're on a bit of a purge, trying to free up some space in the house. It's an overwhelming project (how did we acquire so much stuff?) but we're taking it one step at a time. I've been building new shelves and put up [guitar hangers][3] to clear up some floor space. I've taken inspiration from [this post about office organization][4] and [this one about maintaining a list of where to find things][5].
 
-I also dusted off the Switch to play [Dead Cells][3]. It's similar to [Hades][4] but in a more retro side-scrolling format. Highly recommended if you don't mind dying a lot.
+[3]: https://www.amazon.com/dp/B08V55KDRG
+[4]: https://www.chrbutler.com/organization-office
+[5]: https://analogoffice.net/2023/05/31/the-lifechanging-magic.html
 
-[3]: https://www.nintendo.com/us/store/products/dead-cells-switch/
-[4]: https://www.nintendo.com/us/store/products/hades-switch/
+{{<thumbnail IMG_5344.jpeg "400x300" />}}
+{{<thumbnail IMG_5346.jpeg "400x300" />}}
 
-Here's a new track, called "Orographic":
+Music-wise, I received an [Arturia KeyStep 37][6] as a Christmas gift from my in-laws. This thing is super nice; I'm already having a blast using it to play my existing gear, and I'm hoping it'll play a big role as I shift to a more computer-based workflow. Here's a new track called "Orographic":
 
 <audio controls src="/journal/dispatch-11-january-2024/Orographic.mp3"></audio>
 
+[6]: https://www.arturia.com/products/hybrid-synths/keystep-37/overview
+
+I also dusted off the Switch to play [Dead Cells][7]. It's similar to [Hades][8] but in a more retro side-scrolling format. Highly recommended if you don't mind dying a lot.
+
+[7]: https://www.nintendo.com/us/store/products/dead-cells-switch/
+[8]: https://www.nintendo.com/us/store/products/hades-switch/
+
 This month:
 
-* Adventure: New Market, VA
-* Project: music/hobby table -- **no new gear** until I have a place I can actually use the stuff I have (then probably a [Roland Juno][5] as a reward)
+* Adventure: spending MLK weekend with my folks in a cabin the Shenandoah Valley, probably take Nev to [Luray Caverns][9]
+* Project: music/hobby table -- **no new gear** until I have a place I can actually use the stuff I have (then probably a [Roland Juno][10] as a reward)
 * Skill:
 
-[5]: https://www.roland.com/us/products/ju-06a/
+[9]: https://luraycaverns.com/
+[10]: https://www.roland.com/us/products/ju-06a/
 
 Reading:
 
-* Fiction: [_Revenge: Eleven Dark Tales_][6], Yogo Ogawa -- I'm trying to read better books this year, and this caught my attention when I saw it mentioned on [Hacker Stations][7]
-* Non-fiction: [_Title_][8], Author
+* Fiction: [_Revenge: Eleven Dark Tales_][11], Yogo Ogawa -- I'm trying to read better books this year, and this caught my attention when I saw it mentioned on [Hacker Stations][12]
+* Non-fiction: [_Title_][13], Author
 
-[6]: https://bookshop.org/p/books/revenge-eleven-dark-tales-yoko-ogawa/8623565
-[7]: https://hackerstations.com/setups/kasia/
-[8]: https://bookshop.org/
+[11]: https://bookshop.org/p/books/revenge-eleven-dark-tales-yoko-ogawa/8623565
+[12]: https://hackerstations.com/setups/kasia/
+[13]: https://bookshop.org/
 
 Links:
 
-* [Title][9]
-* [Title][10]
-* [Title][11]
+* [Title][14]
+* [Title][15]
+* [Title][16]
 
-[9]: https://example.com/
-[10]: https://example.com/
-[11]: https://example.com/
+[14]: https://example.com/
+[15]: https://example.com/
+[16]: https://example.com/
