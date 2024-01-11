@@ -27,8 +27,8 @@ Nice to have a quieter month, though we still managed to spend a weekend at Lake
 
 <!--more-->
 
-{{<thumbnail 05569D5B "400x" />}}
-{{<thumbnail DBCE9DD4 "400x" />}}
+{{<thumbnail 05569D5B "800x" />}}
+{{<thumbnail DBCE9DD4 "800x" />}}
 
 Tech-wise, I switched from Vim to [Helix][2], which I've detailed [over here][3]. I was also able to work through a whole bunch of the [Go track on Exercism][4] -- it's a good way to get a handle on the basics of a language, but doesn't cover using third-party packages, organizing large codebases, etc. To get that kind of experience, I'm going to try my hand at an app for fantasy sports drafts -- take a set of player projections and a scoring formula, and output a UI I can use during a live online draft. I've been doing this with spreadsheets for years, and it's pretty cumbersome. I'm going to use TOML for configuration, SQLite for data persistence, and [Bubble Tea][5] for the UI itself. We'll see how it goes!
 
