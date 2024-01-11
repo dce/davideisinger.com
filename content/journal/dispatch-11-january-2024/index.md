@@ -68,7 +68,7 @@ I dusted off the Switch to play [Dead Cells][7]. It's similar to [Hades][8] but 
 
 Finally, I'll leave you with this passage from [_4000 Weeks_][10] that I reflect upon often:
 
-> In his play _The Coast of Utopia_, Tom Stoppard puts an intensified version of this sentiment into the mouth of the nineteenth-century Russian philosopher Alexander Herzen, as he struggles to come to terms with the death of his son, who has drowned in a shipwreck -- and whose life, Herzen insists, was no less valuable for never coming to fruition in adult accomplishments. "Because children grow up, we think a child's purpose is to grow up," Herzen says. "**But a child's purpose is to be a child.** Nature doesn't disdain what only lives for a day. It pours the whole of itself into each moment ... Life's bounty is in its flow. Later is too late."
+> In his play _The Coast of Utopia_, Tom Stoppard puts an intensified version of this sentiment into the mouth of the nineteenth-century Russian philosopher Alexander Herzen, as he struggles to come to terms with the death of his son, who has drowned in a shipwreck -- and whose life, Herzen insists, was no less valuable for never coming to fruition in adult accomplishments. "Because children grow up, we think a child's purpose is to grow up," Herzen says. "**But a child's purpose is to be a child.** Nature doesn't disdain what only lives for a day. It pours the whole of itself into each moment ... Life's bounty is in its flow. Later is too late.
 
 [10]: https://bookshop.org/p/books/four-thousand-weeks-time-management-for-mortals-oliver-burkeman/18140090
 
