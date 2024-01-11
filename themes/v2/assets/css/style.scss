@@ -118,13 +118,14 @@ img {
   }
 }
 
-.image-set {
+p:has(img) {
   display: flex;
   gap: 1em;
   margin-block-start: 1em;
   margin-block-end: 1em;
+  align-items: center;
 
-  figure {
+  a {
     line-height: 0;
   }
 }

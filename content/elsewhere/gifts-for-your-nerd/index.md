@@ -38,7 +38,7 @@ rubber or plastic. Class it up with this handmade leather-and-wool case.
 Doubles as a slim wallet if your nerd is of the minimalist mindset, and
 here's a hint: we all are.
 
-<img src="dce_ignore.jpg" class="inline"> [*Ignore Everybody**](https://www.amazon.com/Ignore-Everybody-Other-Keys-Creativity/dp/159184259X) **by Hugh MacLeod ($16)**
+<img src="dce_ignore.jpg" class="inline"> [**Ignore Everybody**](https://www.amazon.com/Ignore-Everybody-Other-Keys-Creativity/dp/159184259X) **by Hugh MacLeod ($16)**
 
 Give your nerd the motivation to finish that web application he's been
 talking about for the last two years so you can retire.

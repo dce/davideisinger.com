@@ -40,10 +40,8 @@ It was nice to have a quieter month after so much travel this summer. We got a f
 
 <!--more-->
 
-<div class="image-set">
-  {{<thumbnail ECE91676-CF38-4F4D-9F8F-B6C87048AB16_1_105_c.jpeg "400x" />}}
-  {{<thumbnail 59EA3598-4D50-4783-8EBF-CA35996F19E9_1_105_c.jpeg "400x" />}}
-</div>
+{{<thumbnail ECE91676-CF38-4F4D-9F8F-B6C87048AB16_1_105_c.jpeg "400x" />}}
+{{<thumbnail 59EA3598-4D50-4783-8EBF-CA35996F19E9_1_105_c.jpeg "400x" />}}
 
 ## Tech
 

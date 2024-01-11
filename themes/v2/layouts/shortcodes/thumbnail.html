@@ -8,12 +8,10 @@
 {{ end }}
 
 <a href="{{ $orig.RelPermalink }}">
-  <figure>
-    <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}">
-    {{ with .Inner }}
-      <figcaption>
-        {{ . }}
-      </figcaption>
-    {{ end }}
-  </figure>
+  <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}">
+  {{ with .Inner }}
+    <figcaption>
+      {{ . }}
+    </figcaption>
+  {{ end }}
 </a>

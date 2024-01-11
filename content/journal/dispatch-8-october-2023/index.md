@@ -38,17 +38,13 @@ It wasn't all perfectly smooth -- Nev had a tough time with jet lag, and driving
 [3]: https://www.infoelba.com/discovering-elba/communes-towns/rio-marina/cavo/
 [4]: https://ilpomodorino.it/
 
-<div class="image-set">
-  {{<thumbnail IMG_4710.jpeg "267x" />}}
-  {{<thumbnail IMG_4771.jpeg "267x" />}}
-  {{<thumbnail IMG_4781.jpeg "267x" />}}
-</div>
+{{<thumbnail IMG_4710.jpeg "267x" />}}
+{{<thumbnail IMG_4771.jpeg "267x" />}}
+{{<thumbnail IMG_4781.jpeg "267x" />}}
 
-<div class="image-set">
-  {{<thumbnail IMG_4809.jpeg "267x" />}}
-  {{<thumbnail IMG_4842.jpeg "267x" />}}
-  {{<thumbnail IMG_4886.jpeg "267x" />}}
-</div>
+{{<thumbnail IMG_4809.jpeg "267x" />}}
+{{<thumbnail IMG_4842.jpeg "267x" />}}
+{{<thumbnail IMG_4886.jpeg "267x" />}}
 
 I downloaded the [Airalo][5] app before I left, which offers cheap international data plans using e-SIM cards. The app works great, no complaints there, but mixed feelings about having a working phone while on vacation -- it was cool to be able to send photos + make video calls, but my company's going through some tough times and I couldn't pull myself away from Slack and email.
 
