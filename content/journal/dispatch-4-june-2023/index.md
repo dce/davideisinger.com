@@ -30,10 +30,10 @@ We spent Memorial Day weekend at Lake Norman, but it was like 55° and rainy the
 We finished off the closet project -- building the second unit was a lot quicker than the first, since I really just had to scale up the existing plans. Then it was a matter of adding the connecting rod and shelf. I think it turned out great, though I'd like to improve at building drawers. Here are some before and after shots (courtesy of Claire):
 
 
-{{<thumbnail IMG_6173 "200x" />}}
-{{<thumbnail IMG_6174 "200x" />}}
-{{<thumbnail IMG_6593 "200x" />}}
-{{<thumbnail IMG_6594 "200x" />}}
+{{<thumbnail IMG_6173 "400x" />}}
+{{<thumbnail IMG_6174 "400x" />}}
+{{<thumbnail IMG_6593 "400x" />}}
+{{<thumbnail IMG_6594 "400x" />}}
 
 Other life updates: we had a big work retreat at the beginning of the month at the [Tides Inn][1], which was incredible. I celebrated 15 years (15!) with the company, and received a [scooter][2] as a gift. This thing is rad -- I've been really happy with the e-bike, but it's nice to have a smaller option for quick trips to the office or corner store.
 
