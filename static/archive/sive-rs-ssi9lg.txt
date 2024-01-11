@@ -1,0 +1,703 @@
+   #[1]alternate
+
+   [2]Derek Sivers
+
+                               Tech Independence
+
+Contents:
+
+    0. [3]What?
+    1. [4]Register a domain
+    2. [5]Change DNS nameservers
+    3. [6]Create storage
+    4. [7]Create an SSH key
+    5. [8]Create your server
+    6. [9]SSH into root
+    7. [10]Customize these instructions
+    8. [11]Use your storage
+    9. [12]Contacts and Calendar
+   10. [13]Email sending
+   11. [14]Email settings
+   12. [15]Simple website
+   13. [16]File sharing in /pub/
+   14. [17]More indie tips
+   15. [18]More storage?
+   16. [19]Mutt = email in terminal
+   17. [20]Upkeep
+   18. [21]Certificate expired?
+   19. [22]Trouble? Start over
+   20. [23]Questions? Additions?
+     __________________________________________________________________
+
+What?
+
+   Tech independence is not depending on any particular company or
+   software.
+
+   The only tools you need are the common open source basics built into
+   any Linux or BSD operating system — free public-domain tools that are
+   not owned by anyone, and can run on any computer.
+
+   Learn a few of these basic tools, and you can run your own private
+   server on any computer forever, for the rest of your life. Host your
+   own website and email. Keep your own contacts and calendars synced with
+   your phone. Back up and sync your photos, movies, and music to your own
+   private storage. No more subscriptions needed.
+
+   You can ignore all the companies offering “solutions”, even if they are
+   free, because they take away self-reliance. The point is to know how to
+   do it yourself, not to have somebody do it for you. It’s worth a little
+   up-front work, like learning how to drive.
+
+   Below are simple step-by-step instructions that work. Instead of
+   drowning you in options, it uses an operating system called [24]OpenBSD
+   and a hosting company called [25]Vultr because I’ve used them for years
+   and I know they are good and trustworthy. But you could do this same
+   setup with any free Linux or BSD operating system, with any hosting
+   company that gives you “root” access to your own private server. You
+   could even do it on an old laptop in your closet.
+
+   So if a company turns evil or goes out of business, no problem! You can
+   set up a new server anywhere else in an hour, point your domain name to
+   the new IP address, and it’s done. That’s tech independence — never
+   dependent on any particular provider or software. It’s very empowering.
+   The instructions below will show you how.
+
+                               Register a domain
+
+    1. Go to [26]Porkbun.com.
+    2. Search for a domain name you like until you find one that’s
+       available.
+    3. Create a new account, and pay.
+    4. Congratulations. You’ll use this domain name in many of the steps
+       below.
+
+                        Change DNS nameservers to vultr
+
+    1. Wherever you registered your domain name, log in there to change
+       your domain’s DNS nameservers.
+    2. It’s usually set by default to the company where you registered. So
+       for example a domain registered at GoDaddy will have default
+       nameservers of something.godaddy.com.
+    3. Replace those defaults with these two:
+          + ns1.vultr.com
+          + ns2.vultr.com
+
+                                 Create storage
+
+    1. Go to [27]Vultr.com.
+    2. Create an account and give it your credit card.
+    3. [28]Click here for the “[29]Add Block Storage” page.
+    4. Click “Block Storage (HDD)”, which says “Globally Available”
+    5. Below that, a list of cities. Click the one closest to you.
+    6. Below that, a slider lets you choose how much storage you need. If
+       not sure, just leave it as $1 for 40 GB.
+    7. Below that, in a subtle box that says “label” type the word
+       encrypted.
+    8. Below that, click the “Add Block Storage” button.
+
+                               Create an SSH key
+
+    1. Open a terminal.
+          + Windows? Start → Windows PowerShell → Windows PowerShell
+          + Mac? Applications → Utilities → Terminal
+    2. Type ssh-keygen -t ed25519 and hit [enter] or [return].
+    3. When it says, “Enter file in which to save the key
+       (/Users/yourname/.ssh/id_ed25519):”, hit [enter] or [return].
+    4. When it says, “Enter passphrase (empty for no passphrase):”, hit
+       [enter] or [return].
+    5. When it says, “Enter same passphrase again:”, hit [enter] or
+       [return].
+    6. See the line that starts, “Your public key has been saved in” and
+       ends in “id_ed25519.pub”? That’s the file you need for the next
+       step.
+    7. In a text editor, open “id_ed25519.pub”.
+          + Windows? Type notepad .ssh/id_ed25519.pub
+          + Mac? Type open -e .ssh/id_ed25519.pub
+    8. It should be a single line like this:
+       ssh-ed25519 AAAAC3Nz5AAAAIPIXO5icj4LUpqa2baqYQRmCZ1+NV4sBDr you@com
+       puter
+    9. You’ll use this in the next step: “[30]Create your server”.
+
+                               Create your server
+
+    1. In your [31]Vultr.com account:
+    2. [32]Click here for the “[33]Deploy New Instance” page.
+    3. Click “Cloud Compute” (NOT “Optimized Cloud Compute”)
+    4. Below that, click “Intel Regular Performance”
+    5. Below that, IMPORTANT: click the same city you chose for your
+       encrypted storage in the previous step.
+    6. Below that, click “OpenBSD” (the yellow blowfish) then inside its
+       box, click “7.4 x64”
+    7. Below that, under Server Size, click “25 GB SSD $5/month”
+    8. A blue pop-up appears underneath, up-selling “For only $1.00 more
+       you can...”. Click “No thanks”.
+    9. Scroll down to “SSH Keys”, click “Add New”, then under “Name” type
+       mykey.
+   10. From [34]the previous section, step 3, copy (⌘-C or Ctrl-C) the
+       contents of “id_ed25519.pub” and paste it into this box called “SSH
+       Key”. It should be a single line like this:
+       ssh-ed25519 AAAAC3NzaC1XO5iclCcrHbGRPoj4LUpqa2baqYQRmCZ1+NV4sBDr
+       you@computer
+   11. After pasting it into the box, click [Add SSH Key].
+   12. Under SSH Keys, click the box with the picture of the key called
+       “mykey” to give it a tick mark in the top-right corner.
+   13. Scroll up to “Enable Auto Backups”, click the “on” toggle button to
+       turn it OFF.
+   14. A scary pop-up says “Are you sure....”. Tick the box next to “I
+       understand the risks”, then click the red button “Disable Auto
+       Backups”.
+   15. Under “Additional Features”, untick the box next to “Enable IPv6”,
+       to disable it.
+   16. Under “Server Hostname & Label”, type your domain name in both
+       “server hostname” and “server label”.
+   17. At the bottom, click the big blue button [“Deploy Now”].
+   18. Stretch your legs for a minute while waiting for your server status
+       to change from “Installing” to “Running”.
+   19. Copy and save its IP Address on your computer.
+
+                        SSH into root, and get my script
+
+    1. Copy (⌘-C or Ctrl-C) the IP Address from the last step of
+       [35]Create Your Server.
+    2. Open your terminal from the [36]Create an SSH key section.
+    3. Whenever I say to type something into the terminal, hit your
+       [return] or [enter] key afterwards.
+    4. Type into the terminal: ssh root@YOUR-IP-ADDRESS. So for example:
+       ssh root@123.45.67.89
+    5. It should say something like:
+The authenticity of host '123.45.67.78 (123.45.67.89)' can’t be established.
+ED25519 key fingerprint is SHA256:OyiqVsjRX8U2f0UTUY4D0erdl6855YNRXyQk2D.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+    6. Type yes
+    7. It should say something like:
+Warning: Permanently added '123.45.67.89' (ED25519) to the list of known hosts.
+OpenBSD 7.4 (GENERIC.MP) #1396: Sun Oct  8 09:20:40 MDT 2023
+Welcome to OpenBSD: The proactively secure Unix-like operating system.
+    8. Congratulations! You’re inside a remote computer!
+    9. Type ftp https://sive.rs/ti.sh
+   10. Type sh ti.sh
+   11. Watch it install, answer its questions, and do what it says.
+   12. Be ready to open a new terminal window, so you can leave this one
+       logged-in.
+   13. See below for help with its prompts.
+
+                          Customize these instructions
+
+   Enter your domain name and the username that you create, below, and
+   this will customize all following instructions for you.
+   Your domain name? ____________________ Your username?
+   ____________________ customize
+
+   Now when you see this button: (BUTTON) 📋 click it to copy that line so
+   you can paste it into your terminal, without error.
+
+                           Use your encrypted storage
+
+   The [37]ti.sh script will eventually prompt you, “Now upload anything
+   while I wait...”. Here’s how.
+
+  Mac
+
+   Type rsync -avz Documents yourusername@yourdomain.name:/mnt/ and you
+   will see it uploading your Documents folder to your private encrypted
+   storage. Use this same format to upload any other folders, replacing
+   “Documents” in the command. If you are happy synchronizing on the
+   command line like this, you can skip over the next FreeFileSync
+   section.
+
+  [38]FreeFileSync
+
+   Everyone using Windows should use [39]FreeFileSync. Here’s how:
+    1. [40]Download FreeFileSync and please give an optional donation
+       there if you can afford to. Donating also unlocks more features.
+       Thanks to Jon Lis for the recommendation.
+    2. Install and open FreeFileSync.
+    3. Top-center: click the grey [Browse] button and find the folder with
+       the stuff you want to upload.
+    4. Top-far-right: click the white cloud icon then SFTP at the top.
+    5. Server name or IP address: yourdomain.name
+    6. Left side: click (*) Key File
+    7. Username: yourusername
+    8. Browse to find your private key, called id_ed25519 from the
+       “[41]Create an SSH key” section. (Not the file that ends in “.pub”,
+       but the one next to it.) NOTE: Because the /Users/yourusername/.ssh
+       directory is “hidden” by Windows and Mac by default, I find it
+       easier to just type the path directly, like this:
+          + The username, for this next line, should be your username on
+            your home computer, not your remote server.
+          + Windows? Type (BUTTON) 📋C:\Users\yourusername\.ssh\id_ed25519
+          + Mac? Type (BUTTON) 📋/Users/yourusername/.ssh/id_ed25519
+    9. Directory on server: /mnt
+   10. Click OK to go back to the main screen.
+   11. Top-right: click the green gear wheel.
+   12. Left button: click “MIRROR →”
+   13. Click OK to go back to the main screen.
+   14. Top-center: click “COMPARE”, and make sure your files are there.
+   15. Top-right: click “SYNCHRONIZE Mirror →” then [Start]
+
+  Verify and unmount
+
+    1. When it’s done uploading, log in to your server again, from your
+       terminal.
+    2. Type find /mnt
+    3. You should see a long list of the files you uploaded.
+    4. Type m-x to detach your encrypted storage.
+    5. Type find /mnt again, and now you should see nothing there!
+       Congratulations! You now see how this will work in the future:
+         1. Log in and type “m” to attach your encrypted storage.
+         2. Upload your files with rsync or FreeFileSync.
+         3. Log in and type “m-x” to detach the storage, for security.
+
+                             Contacts and Calendar
+
+   Your phone currently keeps its contacts and calendars with Google or
+   Apple. Now you can get them off the cloud and keep them privately on
+   your own server.
+
+   My [42]ti.sh setup script installs a [43]CardDAV server for contacts,
+   and [44]CalDAV server for calendars.
+
+   Here’s how to connect your phone.
+
+  Android phone
+
+   You need an app called “[45]DAVx⁵”, so [46]install it first. Then…
+    1. Open the DAVx⁵ app
+    2. Click the orange (+) in the bottom-right
+    3. Click (·) “Login with URL and user name”
+    4. Base URL: https://dav.yourdomain.name/
+    5. User name: yourusername
+    6. Password: the “easy to type on your phone” password you made
+    7. Click “LOGIN” in the bottom-right corner.
+    8. It should work and bring you to the “Create account” page, where
+       “Account name” will be yourusername. Leave everything as-is and
+       click “CREATE ACCOUNT” in the bottom-right corner.
+    9. It brings you to the “CARDDAV” header. Tick the toggle to turn on
+       next to your domain name.
+   10. Click the ♻ arrows in the bottom-right corner to synchronize your
+       contacts.
+   11. Click the “CALDAV” header up top. Tick the toggle to turn on next
+       to your domain name.
+   12. Click the ♻ arrows in the bottom-right corner to synchronize your
+       calendar.
+   13. Go to your Calendar app, and in the top-right corner, click the
+       round icon there. (Might be your face or a letter.) Then change it
+       to the one with yourusername. After changing it, click the X in the
+       top-left corner.
+   14. To add a new Event, Click [+] in the bottom-right corner, and
+       choose “Event” from the popup menu.
+   15. There might be a warning, “Switch to a Google Account to take
+       advantage blah blah…”. Click “dismiss”.
+   16. Title this event something like “Test Delete”, and notice it should
+       be saving to the calendar with your domain name and username. Click
+       (Save) in the top-right corner.
+   17. Check the terminal window where it should say “Calendar entry
+       added!”
+   18. Go to your Contacts app, and in the bottom-right corner, click “Fix
+       & manage”.
+   19. Click “Settings”
+   20. Near the bottom, click “Default account for new contacts”, and
+       change it to the DAVx⁵ Address book with your domain name.
+   21. Click “< Settings” in the top-left corner.
+   22. In the top-right corner, click the round icon there. (Might be your
+       face or a letter.) Then change it to the DAVx⁵ Address book with
+       your domain name. Then click X in the top-left corner.
+   23. Click “Contacts” in the bottom-left corner. It should say “No
+       contacts in this account”.
+   24. Click + in the bottom-right corner to Create contact. Top of the
+       next page should say “Save to” then your domain name.
+   25. Add a New Contact with a name like “Test Delete”. Then click “Save”
+       in the top-right corner.
+   26. Check the terminal window where it should say “Contact added! Both
+       work. Congratulations.”
+
+  Apple iPhone
+
+    1. Settings → Contacts → Accounts → Add Account → Other → (under
+       “CONTACTS”:) Add CardDAV Account
+    2. Server: dav.yourdomain.name
+    3. User Name: yourusername
+    4. Password: the “easy to type on your phone” password you made
+    5. Click “next” in the top right corner, and it should bring you to
+       your “Accounts” page, where you see it listed, saying “Contacts”
+       underneath.
+    6. Click Add Account → Other → (under “CALENDARS”:) Add CalDAV Account
+    7. Server: dav.yourdomain.name
+    8. User Name: yourusername
+    9. Password: the “easy to type on your phone” password you made
+   10. Click “next” in the top right corner, and it should bring you to a
+       “CalDAV” page, showing Calendars and Reminders. Un-tick Reminders.
+   11. Click “save” in the top right corner, and it should bring you to
+       your “Accounts” page, where you see it listed, saying “Calendars”
+       underneath.
+   12. Click “< Contacts” in the top-left corner, to go back to settings
+       for your Contacts app.
+   13. At the bottom change Default Account to the one with
+       yourdomain.name.
+   14. Click “< Contacts” then “< Settings”, both in the top-left corner,
+       then scroll down to Calendar settings and click it.
+   15. In Calendar settings, 2nd from the bottom should say “Default
+       Calendar”. Tap to change it to the one with yourdomain.name.
+   16. Go to your Calendar app and click the + in the top-right corner.
+   17. Add a New Event with a Title like “Test Delete”. Then click “Add”
+       in the top-right corner.
+   18. Check the terminal window where it should say “Calendar entry
+       added!”
+   19. Go to your Contacts app and click the + in the top-right corner.
+   20. Add a New Contact with a name like “Test Delete”. Then click “Done”
+       in the top-right corner.
+   21. Check the terminal window where it should say “Contact added! Both
+       work. Congratulations.”
+
+                                 Email sending
+
+    1. Go to [47]Mailjet.com and sign up for their free account.
+    2. Go to [48]this page for API keys and [Generate secret key]
+    3. Give the [49]ti.sh script your API key and Secret key, and it will
+       do the rest.
+
+                                 Email settings
+
+   To do email from your phone, computer, or anywhere else, you now have
+   an [50]IMAP server, called [51]Dovecot. So on any device, you can add a
+   new IMAP Mail account, with these settings:
+     * Account type: IMAP
+     * Email address: yourusername@yourdomain.name
+     * Username: yourusername
+     * Password: the password you made for your username on your server
+     * Incoming mail server: yourdomain.name
+     * Outgoing mail server: yourdomain.name
+     * Connection security: SSL
+     * Authentication type: Basic authentication
+
+                                 Simple website
+
+    1. On your home computer, in your main home directory, make a
+       directory/folder called “htdocs”
+    2. [52]Download this file called “template.html” and save it in your
+       “htdocs” directory.
+    3. [53]Download this file called “style.css” and also save it in your
+       “htdocs” directory.
+    4. Make a copy of the “template.html” file, and name the copy
+       “index.html”. This will be your home page.
+    5. Edit the index.html file in a text editor (NotePad or TextEdit) and
+       change my default text to whatever you want.
+    6. When you need to add a new page, just copy the template again, call
+       it “about.html” or whatever, and make a link to it from the home
+       page. The header of each page will link back to index.html : your
+       home page.
+    7. If you want to change the look of your site, just edit the
+       style.css file. [54]Search the web for “CSS tutorial” if needed.
+    8. To upload it to your public server, do one of the next two steps:
+    9. Apple Mac? Open a new terminal window on your computer, type
+       rsync -avz htdocs yourusername@yourdomain.name:/var/www/
+   10. Windows? [55]FreeFileSync again, but now change the “Directory on
+       server” to /var/www/ (you can find it by clicking [browse] or
+       typing it directly) then upload this htdocs directory there.
+   11. Go to https://yourdomain.name in your web browser, refresh the
+       page, and you should see your updated website.
+   12. Any trouble, just know that the goal is to get that index.html file
+       into this location on your server: /var/www/htdocs/index.html
+       because that’s where the web server is expecting it to be. That’s
+       where we put the original test file, so your new index.html file
+       should replace that one.
+   13. If you want [56]short URLs, without the .html, you can (for
+       everything except index.html) because I set the default type to be
+       HTML. Just remove the “.html” from your HTML filenames, update your
+       links, and voilà!
+
+   It’s important to know how to make a simple website by hand, and not
+   let people sell you on complex solutions that are the equivalent of
+   saying you need a jumbo jet when you really need a bicycle. For real
+   tech independence, start by typing your HTML files yourself. Only
+   later, after you have many many pages, consider a more complicated
+   solution.
+
+                             File sharing in /pub/
+
+   Your website is configured to list all files in the /pub/ directory of
+   your website. So basically anything in /var/www/htdocs/pub/ is public.
+   Upload any files you want to share.
+
+   It replaces Dropbox and similar services for sending big files. Just
+   upload the file to /var/www/htdocs/pub/ then find it in your web
+   browser, copy its URL, and send someone the URL.
+
+   If the files you want to share are already on your computer, then just
+   make a pub/ directory inside htdocs/ (so, htdocs/pub/), put your files
+   in there, then use FreeFileSync or rsync to upload them as you did in
+   the previous section called “[57]Simple website”. Consider them part of
+   your website.
+
+   Or if you have a URL from somewhere else online that you want to
+   download to your server, just do it as we did in the numbered steps
+   above. Then use FreeFileSync or rsync to download from your server to
+   your computer first, before your next upload sync.
+
+                                More indie tips
+
+    1. Use [58]Firefox.
+    2. Install [59]uBlock Origin in Firefox and Chrome.
+    3. In Firefox settings, under “Privacy and Security”, choose “[X]
+       Delete cookies and site data when Firefox is closed”, then close
+       Firefox often to erase all your cookies and logins. Browse the web
+       anonymously, not logged-in.
+    4. Replace Google Authenticator with [60]Aegis on Android or [61]Raivo
+       on iPhone.
+    5. If you use Windows, replace it with [62]Ubuntu Linux. (Use both at
+       first, then slowly transition.)
+    6. Keep your new email address as a [63]private email account that you
+       only give to those few people who you really want to hear from.
+       Then your old gmail/yahoo/outlook/etc address can be just
+       low-priority junk, and your new private email account won’t need
+       spam protection.
+    7. Or if you don’t want to run your own email server, use
+       [64]Mailbox.org or [65]Fastmail but only by using your own domain
+       name. Be yourusername@yourdomain.name from now on. Don’t depend on
+       anyone else’s domain for your email or you’ll be stuck with them.
+
+                                 More storage?
+
+   If you need hundreds of gigabytes, or even terabytes of storage, I
+   recommend Hetzner’s “[66]Storage Box”. It’s the best storage value I’ve
+   found. Also consider [67]Backblaze Personal Backup.
+
+   I personally use Vultr’s storage (as described above) for sensitive
+   information I definitely want completely encrypted. Then I use
+   Hetzner’s Storage Box for all my photos, videos, music, and other big
+   files that don’t absolutely need to be encrypted.
+
+                          Mutt = email in the terminal
+
+   Unless you want to read email directly on your server, skip this step.
+    1. ssh in to your server, then type mutt
+    2. You should see the subject headers, with the first email
+       highlighted. Type j and k a few times to go down and up the list of
+       emails.
+    3. To read an email, hit [enter] or [return] when it is highlighted.
+    4. To go back to the list, type i (for “index”)
+    5. To reply, hit r then:
+          + It shows “To:” so you can edit or add recipients. Hit [enter]
+            or [return] to leave it.
+          + It shows “Subject:” so you can edit the subject. Hit [enter]
+            or [return] to leave it.
+          + It asks “Include message in reply? ([yes]/no/?):”. Hit [enter]
+            or [return] for the usual norm of echoing someone’s email back
+            at them below your reply. Or n for not.
+          + Now you are inside the [68]vi text editor which is not
+            self-explanatory, so I’ll walk you through a simple reply:
+          + Hit i (no [return] or [enter]) to go into “insert mode” and
+            type your message. You’ll notice it’s on the same line as some
+            other text, so you might want to start by hitting [return] or
+            [enter] a few times, then up-arrow to go back to the first
+            line again.
+          + When done typing your message, hit your [esc] key in the very
+            top-left corner of your keyboard. Nothing will change on the
+            screen, yet.
+          + Type :wq (the “:” at the beginning is important) then [enter]
+            or [return].
+          + Then you’ll see the “Compose Menu” which I think of as the
+            “last chance before sending” screen. Hit y to send it.
+    6. To send a new email, hit m then repeat those steps like you did for
+       a reply, except now the “To:” and “Subject:” are blank and waiting
+       for you to create. (For “To:”, type the email address of the person
+       you’re emailing.)
+    7. To quit, hit q
+
+   [69]Mutt is a great program for reading and sending email on the
+   command line. It’s been my email client for 20 years. [70]Read its
+   manual here if you want to go deeper. It does everything.
+
+   The [71]vi text editor is a useful tool to edit text on a server. It
+   takes a few minutes to learn, but it’s worth learning because it’s
+   installed by default on every Linux/BSD server.
+
+                                     Upkeep
+
+   You honestly don’t have to do anything to maintain your server. It will
+   just work as-is for decades! But if you like to keep it up-to-date, it
+   only takes a minute, so run these next steps any time.
+    1. Log in to your server, if you are not already.
+    2. Type (BUTTON) 📋doas su
+    3. Type (BUTTON) 📋syspatch
+    4. Type (BUTTON) 📋fw_update
+    5. Type (BUTTON) 📋pkg_add -u
+    6. Type (BUTTON) 📋sysupgrade
+    7. Type exit; exit to log out.
+
+   If that last “sysupgrade” step did not give an “Error retrieving … 404
+   Not Found” error, that means your OpenBSD operating system is upgrading
+   itself. They release an upgrade every 6 months. In that case, [72]go to
+   this OpenBSD page and follow the link at the top that says “Upgrading
+   to (7.4, etc)” to see if there’s anything else you should know.
+
+   If the “sysupgrade” step updated your operating system and your server
+   rebooted, then there is just one more step:
+    1. Log in to your server, if you are not already.
+    2. Type (BUTTON) 📋doas su
+    3. Type (BUTTON) 📋sysmerge
+    4. Follow any instructions. Don’t worry about messing up because you
+       can always start over, as described below.
+    5. Re-do the syspatch ; fw_update ; pkg_add -u steps, above.
+    6. Type exit; exit to log out.
+
+                          Secure certificate expired?
+
+    1. Log in to your server, if you are not already.
+    2. Type (BUTTON) 📋doas su
+    3. Type (BUTTON) 📋domain=yourdomain.name
+    4. Type (BUTTON) 📋acme-client -v $domain
+    5. Type (BUTTON) 📋rcctl restart relayd
+    6. That should fix it. Confirm it in your web browser. [73]Let me know
+       if not.
+    7. IMPORTANT: Copy-paste this next line to make it renew automatically
+       from now on:
+    8. (BUTTON) 📋(crontab -l 2>/dev/null; echo
+       "11\t3\t*\t*\t5\tacme-client $domain \&\& rcctl reload relayd") |
+       crontab -
+    9. Hit [enter]. Type exit; exit to log out.
+   10. [74]Let me know if it happens again. (It shouldn’t.)
+
+                              Trouble? Start over
+
+   I’ve tested the steps above very carefully and repeatedly. They work.
+   So if you hit a major problem, something not happening like it says it
+   should, please do this:
+    1. Type “cd ; m-x ; exit” in any terminals you still have open, until
+       they are all closed.
+    2. Go to [75]your Vultr account.
+    3. See your server instance? See to the far right, a subtle ···? Click
+       that.
+    4. From its pop-up menu, click the last option: “Server Destroy”.
+    5. Tick the box next to “[X] Yes, destroy this server.”
+    6. Click the big red [Destroy Server] button.
+    7. This will not destroy your encrypted storage. That’s another reason
+       we kept it separate from the start. So if you already uploaded a
+       bunch of your files and want to save them, they should still be
+       there.
+    8. On your own computer, in the terminal, type: rm .ssh/known_hosts
+    9. Go back to the section called “[76]Create your server” and try
+       again.
+
+                             Questions? Additions?
+
+   To learn more about your new server, just log in and type: [77]help
+   It will teach you the basics. Then for each command or file you want to
+   know more about, type [78]man followed by the command or filename. So
+   for example, log in and type…
+     * man [79]adduser
+     * man [80]ssh
+     * man [81]doas
+     * man [82]rcctl
+     * man [83]pkg_add
+     * man [84]ftp
+     * man [85]httpd.conf
+
+   Hit your [space] bar to scroll the page, then q to quit.
+
+   It’s one of the most wonderful things about OpenBSD: everything you
+   need to know is in those man pages! No need for YouTube, Google,
+   ChatGPT, or any other advertising-driven sources of information.
+
+   I will constantly improve this page, so [86]get on my private email
+   list for updates.
+
+   Until then, ask any questions. If something went wrong, please give me
+   a very specific description of exactly what went wrong at what step,
+   what it was supposed to do, and what exactly it actually did. [87]Click
+   here to email me.
+
+   Requests for what to add? Again, just [88]email me.
+
+References
+
+   1. file:///en.atom
+   2. file:///
+   3. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#why
+   4. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#register
+   5. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#dns0
+   6. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#storage1
+   7. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#ssh
+   8. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#server1
+   9. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#server2
+  10. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#custom
+  11. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#storage4
+  12. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#radicale
+  13. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#mailjet
+  14. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#mail3
+  15. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#web1
+  16. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#web2
+  17. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#indie
+  18. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#storage5
+  19. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#mutt
+  20. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#upkeep
+  21. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#cert
+  22. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#redo
+  23. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#questions
+  24. file:///openbsd
+  25. https://www.vultr.com/?ref=9541378-8H
+  26. https://porkbun.com/
+  27. https://www.vultr.com/?ref=6930328
+  28. https://my.vultr.com/blockstorage/add/
+  29. https://my.vultr.com/blockstorage/add/
+  30. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#server1
+  31. https://www.vultr.com/?ref=6930328
+  32. https://my.vultr.com/deploy/
+  33. https://my.vultr.com/deploy/
+  34. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#ssh
+  35. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#server1
+  36. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#ssh
+  37. file:///ti.sh
+  38. https://freefilesync.org/
+  39. https://freefilesync.org/
+  40. https://freefilesync.org/download.php
+  41. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#ssh
+  42. file:///ti.sh
+  43. https://en.wikipedia.org/wiki/CardDAV
+  44. https://en.wikipedia.org/wiki/CalDAV
+  45. https://www.davx5.com/
+  46. https://www.davx5.com/download
+  47. https://app.mailjet.com/signup?lang=en_US
+  48. https://app.mailjet.com/account/apikeys
+  49. file:///ti.sh
+  50. https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol
+  51. https://www.dovecot.org/
+  52. file:///file/template.html
+  53. file:///file/style.css
+  54. https://duckduckgo.com/?q=css+tutorial
+  55. https://freefilesync.org/
+  56. file:///su
+  57. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#web1
+  58. https://www.mozilla.org/firefox/
+  59. https://ublockorigin.com/
+  60. https://getaegis.app/
+  61. https://raivo-otp.com/
+  62. https://ubuntu.com/desktop
+  63. file:///pe
+  64. https://mailbox.org/
+  65. https://www.fastmail.com/
+  66. https://www.hetzner.com/storage/storage-box
+  67. https://www.backblaze.com/cloud-backup/personal
+  68. https://duckduckgo.com/?q=vi+editor
+  69. http://mutt.org/
+  70. http://mutt.org/doc/manual/
+  71. https://duckduckgo.com/?q=vi+editor
+  72. https://www.openbsd.org/faq/
+  73. file:///contact
+  74. file:///contact
+  75. https://my.vultr.com/
+  76. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#server1
+  77. https://man.openbsd.org/help
+  78. https://man.openbsd.org/man.1
+  79. https://man.openbsd.org/adduser.8
+  80. https://man.openbsd.org/ssh.1
+  81. https://man.openbsd.org/doas.1
+  82. https://man.openbsd.org/rcctl.8
+  83. https://man.openbsd.org/pkg_add.1
+  84. https://man.openbsd.org/ftp.1
+  85. https://man.openbsd.org/httpd.conf.5
+  86. file:///contact
+  87. file:///contact
+  88. file:///contact
