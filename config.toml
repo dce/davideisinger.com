@@ -4,6 +4,10 @@ title = 'David Eisinger'
 theme = 'v2'
 enableGitInfo = true
 
+[author]
+  name = 'David Eisinger'
+  email = 'hello@davideisinger.com'
+
 [permalinks]
   pages = '/:title'
 
