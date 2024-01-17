@@ -1,512 +1,495 @@
-   #[1]News Feed (The Proverbial Fire Hose) [2]Master Feed (All Shows)
-   [3]Posts Feed [4]JSON News Feed
+[1]Changelog
 
-   [5]Changelog
+  • [2]Podcasts
+  • [3]Beats
+  • [4]Posts
+  • [5]Community
+  • [6]Subscribe
+  • [7]Changelog++
 
-     * [6]Podcasts
-     * [7]Beats
-     * [8]Posts
-     * [9]Community
-     * [10]Subscribe
-     * [11]Changelog++
+  • [8]Live
+  • [9]Submit News
 
-     * [12]Live
-     * [13]Submit News
+  • [10]Sign In
 
-     * [14]Sign In
+[11][                    ]
+[13]Changelog
 
-   ____________________
-   (BUTTON)
+  • [14]Podcasts
+  • [15]Beats
+  • [16]Posts
+  • [17]Community
+  • [18]Subscribe
+  • [19]Changelog++
+  • [20]Submit News
 
-   [15]Changelog
-     * [16]Podcasts
-     * [17]Beats
-     * [18]Posts
-     * [19]Community
-     * [20]Subscribe
-     * [21]Changelog++
-     * [22]Submit News
-
-   ____________________
-
-   [23]Jerod Santo [24]changelog.com/posts
+[21][                    ]
+[22] Jerod Santo [23]changelog.com/posts
 
 There's still no silver bullet
 
 a friendly reminder that you haven't found the panacea
 
-   logged by [25]jerodsanto [26]2023-05-24T16:25:22Z [27]#practices +2
-     * [28]#history
-     * [29]#react
+logged by [24]jerodsanto [25]2023-05-24T16:25:22Z [26]#practices +2
 
-   The late, great [30]Fred Brooks wrote many words about software
-   engineering. You may have heard of [31]Brooks’s Law or read his seminal
-   book, [32]The Mythical Man-Month. Even if you haven’t, you’ve probably
-   heard at least one colleague proclaim:
+  • [27]#history
+  • [28]#react
 
-     Nine women can’t make a baby in one month!
+The late, great [29]Fred Brooks wrote many words about software engineering.
+You may have heard of [30]Brooks’s Law or read his seminal book, [31]The
+Mythical Man-Month. Even if you haven’t, you’ve probably heard at least one
+colleague proclaim:
 
-   This is a powerful metaphor for two reasons. First: it’s so vivid that
-   it’s hard to forget (and easy to recall in a time of need). Second: it
-   makes obvious a not-so-obvious conclusion. Which is:
+    Nine women can’t make a baby in one month!
 
-     Adding manpower to a late software project makes it later.
+This is a powerful metaphor for two reasons. First: it’s so vivid that it’s
+hard to forget (and easy to recall in a time of need). Second: it makes obvious
+a not-so-obvious conclusion. Which is:
 
-   That’s a hard pill to swallow, especially when your project is late.
-   But it’s a truth pill, which makes it worth choking down. Here’s
-   another truth pill that Brooks wrote in his paper [33]No Silver
-   Bullet–Essence and Accident in Software Engineering:
+    Adding manpower to a late software project makes it later.
 
-     There is no single development, in either technology or management
-     technique, which by itself promises even one order of magnitude
-     [tenfold] improvement within a decade in productivity, in
-     reliability, in simplicity.
-     __________________________________________________________________
+That’s a hard pill to swallow, especially when your project is late. But it’s a
+truth pill, which makes it worth choking down. Here’s another truth pill that
+Brooks wrote in his paper [32]No Silver Bullet–Essence and Accident in Software
+Engineering:
 
-   For those who don’t understand the silver bullet reference… it’s
-   [34]pulled from folklore where a bullet cast from silver is the only
-   weapon that can kill a werewolf. Over time a silver bullet has come to
-   represent “a simple, seemingly magical, solution to a difficult
-   problem.” Brooks could have easily reached for [35]panacea instead, but
-   I think the shiny characteristic of silver makes it the perfect analog
-   to software solutions.
-     __________________________________________________________________
+    There is no single development, in either technology or management
+    technique, which by itself promises even one order of magnitude [tenfold]
+    improvement within a decade in productivity, in reliability, in simplicity.
 
-   I’ve found myself referencing this a [36]couple [37]times recently.
-   Both of those conversations were in the context of [38]React, but the
-   principle applies to every over-adopted technology.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-   So, this post is a gentle reminder to my fellow software engineers:
-     * Does a new tool promise to solve all your problems? It won’t
-     * Do you think you’ve found the “one true tech”? You haven’t
-     * Have a shiny hammer that looks great for hitting screws? It isn’t
+For those who don’t understand the silver bullet reference… it’s [33]pulled
+from folklore where a bullet cast from silver is the only weapon that can kill
+a werewolf. Over time a silver bullet has come to represent “a simple,
+seemingly magical, solution to a difficult problem.” Brooks could have easily
+reached for [34]panacea instead, but I think the shiny characteristic of silver
+makes it the perfect analog to software solutions.
 
-   Please humor me while I [39]quote myself for a moment: (Hey, it’s
-   easier than writing)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-   IFRAME: [40]https://www.youtube.com/embed/btIc-_dGz9k
+I’ve found myself referencing this a [35]couple [36]times recently. Both of
+those conversations were in the context of [37]React, but the principle applies
+to every over-adopted technology.
 
-   Subscribe to [41]our YouTube channel for more clips like this, live
-   show recordings, and more ✌️
+So, this post is a gentle reminder to my fellow software engineers:
 
-     We tend to be kind of lazy and just take the big hammer and hit all
-     the nails with it. Like, “Oh, I’ve found the panacea. This is gonna
-     solve all my problems”, because it does solve some of your problems
-     big-time.
+  • Does a new tool promise to solve all your problems? It won’t
+  • Do you think you’ve found the “one true tech”? You haven’t
+  • Have a shiny hammer that looks great for hitting screws? It isn’t
 
-     But it’s also is gonna create other problems, and it’s also not
-     gonna fit in every place that you can shove it. I mean, I know
-     there’s React-based command line builders… And it’s like, okay, if
-     you like components, cool. That makes sense. But why is React
-     building your command-line app? I just don’t understand.
+Please humor me while I [38]quote myself for a moment: (Hey, it’s easier than
+writing)
 
-   When I extemporaneously said “I just don’t understand”, I meant that
-   the choice confounds me. But I do understand why people might make it.
+Subscribe to [39]our YouTube channel for more clips like this, live show
+recordings, and more ✌️
 
-   Saying “use the right tool for the job” is easy, but actually selecting
-   the right tool for the job is anything but. Good tools are hard to
-   find, hard to evaluate, hard to learn. We have constraints, we have
-   biases, we have shortcomings.
 
-   But that’s all part of the work.
+    We tend to be kind of lazy and just take the big hammer and hit all the
+    nails with it. Like, “Oh, I’ve found the panacea. This is gonna solve all
+    my problems”, because it does solve some of your problems big-time.
 
-   And if you “just use Go” or “just use React” or “just use Postgres” for
-   every problem that crosses your keyboard, you’re just not putting in
-   the work.
+    But it’s also is gonna create other problems, and it’s also not gonna fit
+    in every place that you can shove it. I mean, I know there’s React-based
+    command line builders… And it’s like, okay, if you like components, cool.
+    That makes sense. But why is React building your command-line app? I just
+    don’t understand.
 
-   (And I say this as a guy who uses Postgres for most things! 😆)
-     __________________________________________________________________
+When I extemporaneously said “I just don’t understand”, I meant that the choice
+confounds me. But I do understand why people might make it.
 
-   If you enjoyed reading this, you’ll probably enjoy [42]Changelog News,
-   my free weekly podcast + newsletter covering developer news worth your
-   attention. I keep it brief (~8 min), entertaining & always on-point.
-   Not so sure? Check out a [43]recent issue!
+Saying “use the right tool for the job” is easy, but actually selecting the
+right tool for the job is anything but. Good tools are hard to find, hard to
+evaluate, hard to learn. We have constraints, we have biases, we have
+shortcomings.
 
-   Software moves fast. We help you keep up. Our weekly newsletter is
-   brief, entertaining & always on-point.
-   ____________________
-   Get Changelog News
-   (BUTTON)
-     __________________________________________________________________
+But that’s all part of the work.
+
+And if you “just use Go” or “just use React” or “just use Postgres” for every
+problem that crosses your keyboard, you’re just not putting in the work.
+
+(And I say this as a guy who uses Postgres for most things! 😆)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+If you enjoyed reading this, you’ll probably enjoy [40]Changelog News, my free
+weekly podcast + newsletter covering developer news worth your attention. I
+keep it brief (~8 min), entertaining & always on-point. Not so sure? Check out
+a [41]recent issue!
+
+Software moves fast. We help you keep up. Our weekly newsletter is brief,
+entertaining & always on-point.
+
+[42][                    ]
+[43][Get Changelog News]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Discussion
 
-   [44]Sign in or [45]Join to comment or subscribe
+[45]Sign in or [46]Join to comment or subscribe
 
-   (BUTTON)
+Solomon Ucko
 
-   (BUTTON) Solomon Ucko
+sollyucko
 
-   sollyucko
-   [46]Solomon Ucko
+[49] Solomon Ucko
 
-   Solomon Ucko
+Solomon Ucko
 
-     * [47]Twitter
-     * [48]GitHub
-     * [49]LinkedIn
+  • [50]Twitter
+  • [51]GitHub
+  • [52]LinkedIn
 
-   [50]2023-05-25T03:42:39Z ago
+[53] 2023-05-25T03:42:39Z ago
 
-   just use Rust, except possibly when you’re working with a platform
-   designed for another language (e.g. web => HTML/CSS/JS, Android => Java
-   or Kotlin, macOS/iOS => Objective-C or Swift, Microsoft Office macros
-   => Visual Basic), though Rust does have FFI crates for all of these.
+just use Rust, except possibly when you’re working with a platform designed for
+another language (e.g. web => HTML/CSS/JS, Android => Java or Kotlin, macOS/iOS
+=> Objective-C or Swift, Microsoft Office macros => Visual Basic), though Rust
+does have FFI crates for all of these.
 
-   [51]reply
+[54]reply
 
-   (BUTTON)
+James Harr
 
-   (BUTTON) James Harr
+jamesharr
 
-   jamesharr
-   [52]James Harr
+[57] James Harr
 
-   James Harr
+James Harr
 
-     * [53]GitHub
+  • [58]GitHub
 
-   [54]2023-05-27T12:55:20Z ago
+[59] 2023-05-27T12:55:20Z ago
 
-     Nine women can’t make a baby in one month!
+    Nine women can’t make a baby in one month!
 
-   I quoted this to my wife once while trying to explain the concept from
-   the book. She knew what I meant, but said (paraphrasing) it’s a micro
-   aggression to pick out women and I might want to pick another example.
+I quoted this to my wife once while trying to explain the concept from the
+book. She knew what I meant, but said (paraphrasing) it’s a micro aggression to
+pick out women and I might want to pick another example.
 
-   After some reflection and an initial knee jerk internal reaction of
-   “no, it’s a fine example”, I agree with her. There’s no reason to
-   change the book – it is what it is, it was written at a point in time,
-   and it did it’s job of getting the readers to think. All that said, we
-   can come up with a better example for the present and future. I don’t
-   know what that example is, but I know we can do better.
+After some reflection and an initial knee jerk internal reaction of “no, it’s a
+fine example”, I agree with her. There’s no reason to change the book – it is
+what it is, it was written at a point in time, and it did it’s job of getting
+the readers to think. All that said, we can come up with a better example for
+the present and future. I don’t know what that example is, but I know we can do
+better.
 
-   [55]reply
+[60]reply
 
-   (BUTTON)
+Jerod Santo
 
-   (BUTTON) Jerod Santo
+jerodsanto
 
-   jerodsanto
-   [56]Jerod Santo
+[63] Jerod Santo
 
-   Jerod Santo
+Jerod Santo
 
-   Omaha, Nebraska
+Omaha, Nebraska
 
-   Jerod co-hosts [57]The Changelog, crashes [58]JS Party, and takes out
-   the trash (his old code) once in awhile.
-     * [59]Twitter
-     * [60]GitHub
-     * [61]LinkedIn
+Jerod co-hosts [64]The Changelog, crashes [65]JS Party, and takes out the trash
+(his old code) once in awhile.
 
-   [62]2023-05-27T13:36:23Z ago
+  • [66]Twitter
+  • [67]GitHub
+  • [68]LinkedIn
 
-   How is it a micro aggression? I do not understand.
+[69] 2023-05-27T13:36:23Z ago
 
-   [63]reply
+How is it a micro aggression? I do not understand.
 
-   (BUTTON)
+[70]reply
 
-   (BUTTON) James Harr
+James Harr
 
-   jamesharr
-   [64]James Harr
+jamesharr
 
-   James Harr
+[73] James Harr
 
-     * [65]GitHub
+James Harr
 
-   [66]2023-05-27T16:02:25Z ago
+  • [74]GitHub
 
-   Well, maybe micro aggression isn’t the right term, but it’s something
-   that left a bad taste in her mouth and I’m trying to remember exactly
-   how she described it. I think you almost have to put your self in the
-   shoes of someone who 1) has had to work upstream in an industry because
-   of their gender 2) has had to deal with people in a society that see a
-   women’s “job” is to bear children and careers come second at best 3)
-   has had to deal with a lot of people having opinions over your body and
-   what you do with it, most of which do not share your anatomy. After
-   putting yourself in that position, the comparison starts to feel more
-   icky.
+[75] 2023-05-27T16:02:25Z ago
 
-   I’ll be honest, I’m defending a view I don’t entirely “get” and may not
-   be capable of understanding. However, after seeing her reaction when I
-   said that quote, this is one of those times where I’m going to say “I
-   believe you”. I’ve been incredibly privileged in this world as a white
-   male, and that’s a pretty big blindspot, so I’m putting trust in
-   someone else to see what’s there.
+Well, maybe micro aggression isn’t the right term, but it’s something that left
+a bad taste in her mouth and I’m trying to remember exactly how she described
+it. I think you almost have to put your self in the shoes of someone who 1) has
+had to work upstream in an industry because of their gender 2) has had to deal
+with people in a society that see a women’s “job” is to bear children and
+careers come second at best 3) has had to deal with a lot of people having
+opinions over your body and what you do with it, most of which do not share
+your anatomy. After putting yourself in that position, the comparison starts to
+feel more icky.
 
-   I’m not going to fault anyone for quoting it and you have nothing to
-   apologize for; Part of the reason that quote works so effectively is
-   how ridiculous it is. I’m just going to challenge people to do better,
-   and it’s going to be hard.
+I’ll be honest, I’m defending a view I don’t entirely “get” and may not be
+capable of understanding. However, after seeing her reaction when I said that
+quote, this is one of those times where I’m going to say “I believe you”. I’ve
+been incredibly privileged in this world as a white male, and that’s a pretty
+big blindspot, so I’m putting trust in someone else to see what’s there.
 
-   [67]reply
+I’m not going to fault anyone for quoting it and you have nothing to apologize
+for; Part of the reason that quote works so effectively is how ridiculous it
+is. I’m just going to challenge people to do better, and it’s going to be hard.
 
-   (BUTTON)
+[76]reply
 
-   (BUTTON) Jerod Santo
+Jerod Santo
 
-   jerodsanto
-   [68]Jerod Santo
+jerodsanto
 
-   Jerod Santo
+[79] Jerod Santo
 
-   Omaha, Nebraska
+Jerod Santo
 
-   Jerod co-hosts [69]The Changelog, crashes [70]JS Party, and takes out
-   the trash (his old code) once in awhile.
-     * [71]Twitter
-     * [72]GitHub
-     * [73]LinkedIn
+Omaha, Nebraska
 
-   [74]2023-05-28T12:43:12Z ago
+Jerod co-hosts [80]The Changelog, crashes [81]JS Party, and takes out the trash
+(his old code) once in awhile.
 
-     I’ll be honest, I’m defending a view I don’t entirely “get” and may
-     not be capable of understanding. However, after seeing her reaction
-     when I said that quote, this is one of those times where I’m going
-     to say “I believe you”
+  • [82]Twitter
+  • [83]GitHub
+  • [84]LinkedIn
 
-   That’s a fair stance to take, but it doesn’t produce much of a
-   convincing argument that will drive people to change. If you want
-   people to starting using a better metaphor, I challenge you to come up
-   with one.
+[85] 2023-05-28T12:43:12Z ago
 
-   [75]reply
+    I’ll be honest, I’m defending a view I don’t entirely “get” and may not be
+    capable of understanding. However, after seeing her reaction when I said
+    that quote, this is one of those times where I’m going to say “I believe
+    you”
 
-   (BUTTON)
+That’s a fair stance to take, but it doesn’t produce much of a convincing
+argument that will drive people to change. If you want people to starting using
+a better metaphor, I challenge you to come up with one.
 
-   (BUTTON) Bryan Betts
+[86]reply
 
-   bryan-ffd
-   [76]Bryan Betts
+Bryan Betts
 
-   Bryan Betts
+bryan-ffd
 
-     * [77]GitHub
+[89] Bryan Betts
 
-   [78]2023-06-28T12:58:27Z ago
+Bryan Betts
 
-   “Over time a silver bullet has come to represent “a simple, seemingly
-   magical, solution to a difficult problem.”
-   Well, maybe - but what you’re actually referring to here is a magic
-   bullet, or Zauberkugel. Over time, some people - yes, including
-   award-winning engineers and scientists - have come to confuse the two.
+  • [90]GitHub
 
-   [79]reply
+[91] 2023-06-28T12:58:27Z ago
 
-   (BUTTON) Hide Overlay
+“Over time a silver bullet has come to represent “a simple, seemingly magical,
+solution to a difficult problem.”
+Well, maybe - but what you’re actually referring to here is a magic bullet, or
+Zauberkugel. Over time, some people - yes, including award-winning engineers
+and scientists - have come to confuse the two.
 
-     * [80]About
-     * [81]Contact
-     * [82]888-974-CHLG (2454)
+[92]reply
 
-     * [83]Twitter Icon
-     * [84]Mastodon Icon
-     * [85]LinkedIn Icon
-     * [86]GitHub Icon
-     * [87]YouTube Icon
-     * [88]Instagram Icon
-     * [89]TikTok Icon
+Hide Overlay
 
-[90]Podcasts
+  • [94]About
+  • [95]Contact
+  • [96]888-974-CHLG (2454)
 
-     * [91]The Changelog
-     * [92]Practical AI
-     * [93]JS Party
-     * [94]Ship It!
-     * [95]Founders Talk
-     * [96]Go Time
-     * [97]Changelog Master Feed
-     * ---
-     * [98]Request For Commits
-     * [99]Brain Science
-     * [100]Away from Keyboard
-     * [101]Backstage
-     * [102]Spotlight
+  • [97] Twitter Icon
+  • [98] Mastodon Icon
+  • [99] LinkedIn Icon
+  • [100] GitHub Icon
+  • [101] YouTube Icon
+  • [102] Instagram Icon
+  • [103] TikTok Icon
+
+[104]Podcasts
+
+  • [105]The Changelog
+  • [106]Practical AI
+  • [107]JS Party
+  • [108]Ship It!
+  • [109]Founders Talk
+  • [110]Go Time
+  • [111]Changelog Master Feed
+  • ---
+  • [112]Request For Commits
+  • [113]Brain Science
+  • [114]Away from Keyboard
+  • [115]Spotlight
+  • [116]Backstage
 
 Social
 
-     * [103]Twitter
-     * [104]Mastodon
-     * [105]LinkedIn
-     * [106]GitHub
-     * [107]YouTube
-     * [108]Instagram
-     * [109]TikTok
+  • [117]Twitter
+  • [118]Mastodon
+  • [119]LinkedIn
+  • [120]GitHub
+  • [121]YouTube
+  • [122]Instagram
+  • [123]TikTok
 
 Community
 
-     * [110]Merch Shop
-     * [111]Join the Community
-     * [112]Code of Conduct
-     * [113]Sign in to Slack
-     * ---
-     * [114]Request Episode
-     * [115]Submit News
+  • [124]Merch Shop
+  • [125]Join the Community
+  • [126]Code of Conduct
+  • [127]Sign in to Slack
+  • ---
+  • [128]Request Episode
+  • [129]Submit News
 
 Etc.
 
-     * [116]Beats
-     * [117]Posts
-     * [118]Changelog Nightly
-     * [119]Sponsor
-     * [120]Search
-     * [121]View Source
-     * ---
-     * [122]Report an Issue
-     * [123]Terms & Conditions
-     * [124]Privacy Policy
-     * ---
-     * [125]Status
+  • [130]Beats
+  • [131]Posts
+  • [132]Changelog Nightly
+  • [133]Sponsor
+  • [134]Search
+  • [135]View Source
+  • ---
+  • [136]Report an Issue
+  • [137]Terms & Conditions
+  • [138]Privacy Policy
+  • ---
+  • [139]Status
 
-   [126]
+[140]
 
-   Bandwidth
-   Fastly
-   [127]
+Bandwidth
 
-   Hosting
-   Fly
-   [128]
+Fastly
+[141]
 
-   Search
-   Typesense
+Hosting
 
-   (BUTTON) (BUTTON) (BUTTON)
-   Player art
-   (BUTTON) Previous Chapter (BUTTON) (BUTTON) (BUTTON) (BUTTON) Next
-   Chapter
-     (BUTTON) [1X] 0:00 ____________________ / 0:00
+Fly
+[142]
 
-References
+Search
 
-   1. https://changelog.com/feed
-   2. https://changelog.com/master/feed
-   3. https://changelog.com/posts/feed
-   4. https://changelog.com/feed.json
-   5. https://changelog.com/
-   6. https://changelog.com/
-   7. https://changelog.com/beats
-   8. https://changelog.com/posts
-   9. https://changelog.com/community
-  10. https://changelog.com/subscribe
-  11. https://changelog.com/++
-  12. https://changelog.com/live
-  13. https://changelog.com/news/submit
-  14. https://changelog.com/in
-  15. https://changelog.com/
-  16. https://changelog.com/podcasts
-  17. https://changelog.com/beats
-  18. https://changelog.com/posts
-  19. https://changelog.com/community
-  20. https://changelog.com/subscribe
-  21. https://changelog.com/++
-  22. https://changelog.com/news/submit
-  23. https://changelog.com/person/jerodsanto
-  24. https://changelog.com/posts
-  25. https://changelog.com/person/jerodsanto
-  26. https://changelog.com/posts/still-no-silver-bullet
-  27. https://changelog.com/topic/practices
-  28. https://changelog.com/topic/history
-  29. https://changelog.com/topic/react
-  30. https://en.wikipedia.org/wiki/Fred_Brooks
-  31. https://en.wikipedia.org/wiki/Brooks's_law
-  32. https://en.wikipedia.org/wiki/The_Mythical_Man-Month
-  33. http://worrydream.com/refs/Brooks-NoSilverBullet.pdf
-  34. https://en.wikipedia.org/wiki/Silver_bullet
-  35. https://en.wikipedia.org/wiki/Panacea_(medicine)
-  36. https://youtube.com/shorts/m5A8eQaaG8o
-  37. https://jsparty.fm/269#transcript-237
-  38. https://reactjs.org/
-  39. https://jsparty.fm/269#transcript-237
-  40. https://www.youtube.com/embed/btIc-_dGz9k
-  41. https://youtube.com/changelog
-  42. https://changelog.com/news
-  43. https://changelog.com/news/45/email
-  44. https://changelog.com/in
-  45. https://changelog.com/join
-  46. https://twitter.com/SolomonUcko
-  47. https://twitter.com/SolomonUcko
-  48. https://github.com/sollyucko
-  49. https://www.linkedin.com/in/solomon-ucko-143853155
-  50. https://changelog.com/posts/still-no-silver-bullet#comment-YX1k
-  51. javascript:void(0)
-  52. https://changelog.com/person/jamesharr
-  53. https://github.com/jamesharr
-  54. https://changelog.com/posts/still-no-silver-bullet#comment-yW7b
-  55. javascript:void(0)
-  56. https://changelog.com/person/jerodsanto
-  57. https://changelog.com/podcast
-  58. https://changelog.com/jsparty
-  59. https://twitter.com/jerodsanto
-  60. https://github.com/jerodsanto
-  61. https://www.linkedin.com/in/jerodsanto
-  62. https://changelog.com/posts/still-no-silver-bullet#comment-V31e
-  63. javascript:void(0)
-  64. https://changelog.com/person/jamesharr
-  65. https://github.com/jamesharr
-  66. https://changelog.com/posts/still-no-silver-bullet#comment-Zqom
-  67. javascript:void(0)
-  68. https://changelog.com/person/jerodsanto
-  69. https://changelog.com/podcast
-  70. https://changelog.com/jsparty
-  71. https://twitter.com/jerodsanto
-  72. https://github.com/jerodsanto
-  73. https://www.linkedin.com/in/jerodsanto
-  74. https://changelog.com/posts/still-no-silver-bullet#comment-qGM2
-  75. javascript:void(0)
-  76. https://github.com/bryan-ffd
-  77. https://github.com/bryan-ffd
-  78. https://changelog.com/posts/still-no-silver-bullet#comment-J3nq
-  79. javascript:void(0)
-  80. https://changelog.com/about
-  81. https://changelog.com/contact
-  82. tel:+1-888-974-2454
-  83. https://twitter.com/changelog
-  84. https://changelog.social/
-  85. https://linkedin.com/company/changelog
-  86. https://github.com/thechangelog
-  87. https://www.youtube.com/changelog
-  88. https://www.instagram.com/changelog_
-  89. https://www.tiktok.com/@changelog.com
-  90. https://changelog.com/podcasts
-  91. https://changelog.com/podcast
-  92. https://changelog.com/practicalai
-  93. https://changelog.com/jsparty
-  94. https://changelog.com/shipit
-  95. https://changelog.com/founderstalk
-  96. https://changelog.com/gotime
-  97. https://changelog.com/master
-  98. https://changelog.com/rfc
-  99. https://changelog.com/brainscience
- 100. https://changelog.com/afk
- 101. https://changelog.com/backstage
- 102. https://changelog.com/spotlight
- 103. https://twitter.com/changelog
- 104. https://changelog.social/
- 105. https://linkedin.com/company/changelog
- 106. https://github.com/thechangelog
- 107. https://www.youtube.com/changelog
- 108. https://www.instagram.com/changelog_
- 109. https://www.tiktok.com/@changelog.com
- 110. https://merch.changelog.com/
- 111. https://changelog.com/community
- 112. https://changelog.com/coc
- 113. https://changelog.slack.com/
- 114. https://changelog.com/request
- 115. https://changelog.com/news/submit
- 116. https://changelog.com/beats
- 117. https://changelog.com/posts
- 118. https://changelog.com/nightly
- 119. https://changelog.com/sponsor
- 120. https://changelog.com/search
- 121. https://github.com/thechangelog/changelog.com
- 122. https://github.com/thechangelog/changelog.com/issues/new
- 123. https://changelog.com/terms
- 124. https://changelog.com/privacy
- 125. https://status.changelog.com/
- 126. https://www.fastly.com/?utm_source=changelog
- 127. https://fly.io/
- 128. https://typesense.org/?utm_source=changelog&utm_campaign=changelog-search&utm_medium=referral
+Typesense
+Player art
+Previous Chapter Next Chapter
+[152][0                   ]
+ [153][] [1X] 0:00[155][                    ] / 0:00
+
+References:
+
+[1] https://changelog.com/
+[2] https://changelog.com/
+[3] https://changelog.com/beats
+[4] https://changelog.com/posts
+[5] https://changelog.com/community
+[6] https://changelog.com/subscribe
+[7] https://changelog.com/++
+[8] https://changelog.com/live
+[9] https://changelog.com/news/submit
+[10] https://changelog.com/in
+[13] https://changelog.com/
+[14] https://changelog.com/podcasts
+[15] https://changelog.com/beats
+[16] https://changelog.com/posts
+[17] https://changelog.com/community
+[18] https://changelog.com/subscribe
+[19] https://changelog.com/++
+[20] https://changelog.com/news/submit
+[22] https://changelog.com/person/jerodsanto
+[23] https://changelog.com/posts
+[24] https://changelog.com/person/jerodsanto
+[25] https://changelog.com/posts/still-no-silver-bullet
+[26] https://changelog.com/topic/practices
+[27] https://changelog.com/topic/history
+[28] https://changelog.com/topic/react
+[29] https://en.wikipedia.org/wiki/Fred_Brooks
+[30] https://en.wikipedia.org/wiki/Brooks%27s_law
+[31] https://en.wikipedia.org/wiki/The_Mythical_Man-Month
+[32] http://worrydream.com/refs/Brooks-NoSilverBullet.pdf
+[33] https://en.wikipedia.org/wiki/Silver_bullet
+[34] https://en.wikipedia.org/wiki/Panacea_(medicine)
+[35] https://youtube.com/shorts/m5A8eQaaG8o
+[36] https://jsparty.fm/269#transcript-237
+[37] https://reactjs.org/
+[38] https://jsparty.fm/269#transcript-237
+[39] https://youtube.com/changelog
+[40] https://changelog.com/news
+[41] https://changelog.com/news/45/email
+[45] https://changelog.com/in
+[46] https://changelog.com/join
+[49] https://twitter.com/SolomonUcko
+[50] https://twitter.com/SolomonUcko
+[51] https://github.com/sollyucko
+[52] https://www.linkedin.com/in/solomon-ucko-143853155
+[53] https://changelog.com/posts/still-no-silver-bullet#comment-YX1k
+[54] javascript:void(0)
+[57] https://changelog.com/person/jamesharr
+[58] https://github.com/jamesharr
+[59] https://changelog.com/posts/still-no-silver-bullet#comment-yW7b
+[60] javascript:void(0)
+[63] https://changelog.com/person/jerodsanto
+[64] https://changelog.com/podcast
+[65] https://changelog.com/jsparty
+[66] https://twitter.com/jerodsanto
+[67] https://github.com/jerodsanto
+[68] https://www.linkedin.com/in/jerodsanto
+[69] https://changelog.com/posts/still-no-silver-bullet#comment-V31e
+[70] javascript:void(0)
+[73] https://changelog.com/person/jamesharr
+[74] https://github.com/jamesharr
+[75] https://changelog.com/posts/still-no-silver-bullet#comment-Zqom
+[76] javascript:void(0)
+[79] https://changelog.com/person/jerodsanto
+[80] https://changelog.com/podcast
+[81] https://changelog.com/jsparty
+[82] https://twitter.com/jerodsanto
+[83] https://github.com/jerodsanto
+[84] https://www.linkedin.com/in/jerodsanto
+[85] https://changelog.com/posts/still-no-silver-bullet#comment-qGM2
+[86] javascript:void(0)
+[89] https://github.com/bryan-ffd
+[90] https://github.com/bryan-ffd
+[91] https://changelog.com/posts/still-no-silver-bullet#comment-J3nq
+[92] javascript:void(0)
+[94] https://changelog.com/about
+[95] https://changelog.com/contact
+[96] tel:+1-888-974-2454
+[97] https://twitter.com/changelog
+[98] https://changelog.social/
+[99] https://linkedin.com/company/changelog
+[100] https://github.com/thechangelog
+[101] https://www.youtube.com/changelog
+[102] https://www.instagram.com/changelog_
+[103] https://www.tiktok.com/@changelog.com
+[104] https://changelog.com/podcasts
+[105] https://changelog.com/podcast
+[106] https://changelog.com/practicalai
+[107] https://changelog.com/jsparty
+[108] https://changelog.com/shipit
+[109] https://changelog.com/founderstalk
+[110] https://changelog.com/gotime
+[111] https://changelog.com/master
+[112] https://changelog.com/rfc
+[113] https://changelog.com/brainscience
+[114] https://changelog.com/afk
+[115] https://changelog.com/spotlight
+[116] https://changelog.com/backstage
+[117] https://twitter.com/changelog
+[118] https://changelog.social/
+[119] https://linkedin.com/company/changelog
+[120] https://github.com/thechangelog
+[121] https://www.youtube.com/changelog
+[122] https://www.instagram.com/changelog_
+[123] https://www.tiktok.com/@changelog.com
+[124] https://merch.changelog.com/
+[125] https://changelog.com/community
+[126] https://changelog.com/coc
+[127] https://changelog.slack.com/
+[128] https://changelog.com/request
+[129] https://changelog.com/news/submit
+[130] https://changelog.com/beats
+[131] https://changelog.com/posts
+[132] https://changelog.com/nightly
+[133] https://changelog.com/sponsor
+[134] https://changelog.com/search
+[135] https://github.com/thechangelog/changelog.com
+[136] https://github.com/thechangelog/changelog.com/issues/new
+[137] https://changelog.com/terms
+[138] https://changelog.com/privacy
+[139] https://status.changelog.com/
+[140] https://www.fastly.com/?utm_source=changelog
+[141] https://fly.io/
+[142] https://typesense.org/?utm_source=changelog&utm_campaign=changelog-search&utm_medium=referral

@@ -1,365 +1,379 @@
-   #[1]Viget Articles
+[1] Skip to Main Content
+[2] Viget
 
-   IFRAME: [2]https://www.googletagmanager.com/ns.html?id=GTM-5V7V
-
-   [3]Skip to Main Content
-
-   [4]Viget
-
-     * [5]Work
-     * [6]Services
-     * [7]Articles
-     * [8]Careers
-     * [9]Contact
-     * (BUTTON) Open Menu
+  • [3] Work
+  • [4] Services
+  • [5] Articles
+  • [6] Careers
+  • [7] Contact
+  • Open Menu
 
 Navigation
 
-   [10]Viget (BUTTON) Close
-     * Practice
-     * [11]Work
-     * [12]Services
-     * [13]Articles
+[9] Viget Close
 
-   We’re a full-service digital agency that’s been helping clients make
-   lasting change since 1999.
-   [14]Contact Us
+  • Practice
+  • [11] Work
+  • [12] Services
+  • [13] Articles
+
+We’re a full-service digital agency that’s been helping clients make lasting
+change since 1999.
+
+[14] Contact Us
 
 People
 
-     * [15]Company
-     * [16]Careers
-     * [17]Code of Ethics
-     * [18]Diversity & Inclusion
+  • [15]Company
+  • [16]Careers
+  • [17]Code of Ethics
+  • [18]Diversity & Inclusion
 
 More
 
-     * [19]Pointless Corp.
-     * [20]Explorations
-     * [21]Code at Viget
+  • [19]Pointless Corp.
+  • [20]Explorations
+  • [21]Code at Viget
 
 Featured
 
-   Read the Article: Revolutionizing the Web
+[22]
+Read the Article: Revolutionizing the Web
 
-   Newsletter
+Newsletter
 
 Revolutionizing the Web
 
-   Read the Article: The Reflection Before Christmas
+[23]
+Read the Article: The Reflection Before Christmas
 
-   Article
+Article
 
 The Reflection Before Christmas
 
 The Enduring Point of Pointless Corp.
 
-   [22]Brian Williams
+[pointless-sticker-bear-article]
+[24] Brian Williams
 
-   [23]Brian Williams, Co-Founder & CEO
+[25]Brian Williams, Co-Founder & CEO
 
-   Article Categories: [24]#News & Culture, [25]#Employee Engagement
+Article Categories: [26] #News & Culture, [27] #Employee Engagement
 
-   Posted on March 24, 2023
-     * Share
-     * Share
-     * Post
+Posted on March 24, 2023
 
-   Pointless Corp. is the innovation lab at Viget, where we step away from
-   client work to make fun and useful things for everyone
+  • [28]
+    Share
+  • [29]
+    Share
+  • [30]
+    Post
 
-   P o i n t l e s s C o r p . i s t h e i n n o v a t i o n l a b a t V i
-   g e t , w h e r e w e s t e p a w a y f r o m c l i e n t w o r k t o m
-   a k e f u n a n d u s e f u l t h i n g s f o r e v e r y o n e
+Pointless Corp. is the innovation lab at Viget, where we step away from client
+work to make fun and useful things for everyone
 
-   “Neither pointless, nor a corporation” is how we describe Pointless
-   Corp. here at Viget. We founded Viget – an actual company – in 1999
-   during the original dot com bubble to build web products for clients.
-   Serving clients has always been our purpose or … point, if you will.
-   Over the decades, we’ve done just that, completing thousands of
-   projects for hundreds of clients. Never forgetting that we exist to
-   serve our clients has been key in our longevity.
+P o i n t l e s s C o r p . i s t h e i n n o v a t i o n l a b a t V i g e t ,
+w h e r e w e s t e p a w a y f r o m c l i e n t w o r k t o m a k e f u n a n
+d u s e f u l t h i n g s f o r e v e r y o n e
 
-   About a decade in, we felt the urge to build and launch our own
-   projects. [26]Pointless Corp. became the internal [27]brand we adopted
-   to remind ourselves that these projects can be fun and useful but don’t
-   replace the primary point of Viget. A line from Harry Nilsson’s The
-   Point! referencing the Pointless Man serves as inspiration: “a point in
-   every direction is the same as no point at all.” We wanted the freedom
-   to experiment in every direction.
+“Neither pointless, nor a corporation” is how we describe Pointless Corp. here
+at Viget. We founded Viget – an actual company – in 1999 during the original
+dot com bubble to build web products for clients. Serving clients has always
+been our purpose or … point, if you will. Over the decades, we’ve done just
+that, completing thousands of projects for hundreds of clients. Never
+forgetting that we exist to serve our clients has been key in our longevity.
 
-   So we did. Ideas and teams formed fairly randomly, and Pointless
-   Projects began to fill the gaps between our client work. Projects like
-   [28]HeyCraig (2009), which sent you an email alert based on your
-   Craigslist search (before Craigslist shut us down and added the
-   feature). Or [29]Tincan’d (2011), a simple video call platform before
-   Zoom or Google Meet. Or [30]BabyBookie, the baby due date office pool
-   app over 500,000 people have used since launch in 2012.
+About a decade in, we felt the urge to build and launch our own projects. [31]
+Pointless Corp. became the internal [32]brand we adopted to remind ourselves
+that these projects can be fun and useful but don’t replace the primary point
+of Viget. A line from Harry Nilsson’s The Point! referencing the Pointless Man
+serves as inspiration: “a point in every direction is the same as no point at
+all.” We wanted the freedom to experiment in every direction.
 
-   These projects allow our teams to work without the input (including,
-   ahem, revenue) of clients, so we’re more free to experiment, wear
-   different hats, and learn … a lot. We apply what we learn back into our
-   client work. Along the way, we get to know each other better, scratch
-   our entrepreneurial itches, and hopefully put some fun and/or useful
-   things out in the world for others to enjoy.
+So we did. Ideas and teams formed fairly randomly, and Pointless Projects began
+to fill the gaps between our client work. Projects like [33]HeyCraig (2009),
+which sent you an email alert based on your Craigslist search (before
+Craigslist shut us down and added the feature). Or [34]Tincan’d (2011), a
+simple video call platform before Zoom or Google Meet. Or [35]BabyBookie, the
+baby due date office pool app over 500,000 people have used since launch in
+2012.
 
-   For many years, we organized an annual optional Pointless Weekend. We’d
-   kick off hackathon-style on a Thursday evening and wrap on a Saturday
-   evening with a functional product out in the wild, as I described
-   [31]back in 2012. It’s [32]always been an intense, enjoyable, but
-   rather exhausting 48 hours. Photos from [33]2011, [34]2014, and
-   [35]2016 bring back some great memories.
-   Pointless Weekend 2014 spanned three Viget offices
+These projects allow our teams to work without the input (including, ahem,
+revenue) of clients, so we’re more free to experiment, wear different hats, and
+learn … a lot. We apply what we learn back into our client work. Along the way,
+we get to know each other better, scratch our entrepreneurial itches, and
+hopefully put some fun and/or useful things out in the world for others to
+enjoy.
 
-   A couple of years ago, we shifted the schedule to start on Wednesday
-   and wrap on Friday. This made participation easier, allowing parents
-   and others with weekend commitments to join. It also allowed projects
-   to wrap up just in time for our Friday staff meeting. We awkwardly
-   called it “Pointless Week” even though it was still only two days.
+For many years, we organized an annual optional Pointless Weekend. We’d kick
+off hackathon-style on a Thursday evening and wrap on a Saturday evening with a
+functional product out in the wild, as I described [36]back in 2012. It’s [37]
+always been an intense, enjoyable, but rather exhausting 48 hours. Photos from 
+[38]2011, [39]2014, and [40]2016 bring back some great memories.
 
-   New for 2023: Pointless Palooza
+[pointless-old]
+Pointless Weekend 2014 spanned three Viget offices
 
-   Two things I like: alliteration and lollapalooza (specifically circa
-   1992, but that’s a story for another day). So Pointless Palooza was an
-   obvious choice for what to call our little two day adventure. In
-   addition to a new name, we’re trying a few other changes this year:
+A couple of years ago, we shifted the schedule to start on Wednesday and wrap
+on Friday. This made participation easier, allowing parents and others with
+weekend commitments to join. It also allowed projects to wrap up just in time
+for our Friday staff meeting. We awkwardly called it “Pointless Week” even
+though it was still only two days.
 
-   Pointless Executives. Nothing injects new energy like new leadership.
-   We handed over the Pointless reins to two trusty execs: [36]Andrew (day
-   job: developer) is our Pointless CEO and [37]Aimee (day job: project
-   manager) is our Pointless COO. They’ve done a phenomenal job setting a
-   vision, planning, and leading the activities. Their enthusiasm helped
-   inspire more than half the company to participate with a record number
-   of projects and great results.
+New for 2023: Pointless Palooza
 
-   Pitching & Team Formation. Previously, project ideas were “pitched”
-   with a single slide and a tight 1-2 minute segment at a staff meeting.
-   These were fun and lighthearted, but didn’t always capture the full
-   vision, and teams often formed and morphed during the kickoff night.
-   This year, project ideas were shared more gradually via collaboration
-   in Slack and Notion. Project teams formed with more structure in
-   advance, and team members had some time before the kickoff to marinate
-   on the idea and get excited to build.
+Two things I like: alliteration and lollapalooza (specifically circa 1992, but
+that’s a story for another day). So Pointless Palooza was an obvious choice for
+what to call our little two day adventure. In addition to a new name, we’re
+trying a few other changes this year:
 
-   Even More Remote Friendly. There’s something magical about
-   kickoff-pizza, launch day donuts, and [38]in-person collaboration. But
-   there’s something even more magical about collaborating with dozens of
-   teammates around the country (especially when it’s supplemented by
-   [39]sweet swag boxes and Divvy credits for remote treats). Hybrid teams
-   work. We still had fun in-office connections, but most of our Pointless
-   Projects this year are being worked on with distributed teams, much
-   like our client work.
-   Pointless Branded Stuff 2023 including a t-shirt and sticker pack --
-   very corporate
+Pointless Executives. Nothing injects new energy like new leadership. We handed
+over the Pointless reins to two trusty execs: [41]Andrew (day job: developer)
+is our Pointless CEO and [42]Aimee (day job: project manager) is our Pointless
+COO. They’ve done a phenomenal job setting a vision, planning, and leading the
+activities. Their enthusiasm helped inspire more than half the company to
+participate with a record number of projects and great results.
 
-   Some things haven’t changed from prior years. Team members are still
-   swapping roles – PMs writing code, designers running projects, the list
-   goes on – which means steep and rapid [40]learning curves. We’re still
-   trying out new technologies and approaches to our work, which means
-   unexpected blockers and great insights to share. New connections are
-   being formed, especially since more than half of this year’s
-   participants are in their first year at Viget and experiencing their
-   first Pointless event. Forming authentic co-worker connections isn’t
-   easy, and our culture is stronger today than it was at the start of the
-   week.
+Pitching & Team Formation. Previously, project ideas were “pitched” with a
+single slide and a tight 1-2 minute segment at a staff meeting. These were fun
+and lighthearted, but didn’t always capture the full vision, and teams often
+formed and morphed during the kickoff night. This year, project ideas were
+shared more gradually via collaboration in Slack and Notion. Project teams
+formed with more structure in advance, and team members had some time before
+the kickoff to marinate on the idea and get excited to build.
 
-   So what projects will launch? I won’t steal their thunder, but we just
-   wrapped the presentation portion of six Pointless Project teams at our
-   weekly staff meeting and it was the most we’ve laughed, cheered, and
-   been inspired in a long time. I expect articles will be written and
-   shared in the days and weeks ahead outlining the thrills (and mishaps)
-   of the teams this year.
-   Pointless Palooza 2023 was a blast!
+Even More Remote Friendly. There’s something magical about kickoff-pizza,
+launch day donuts, and [43]in-person collaboration. But there’s something even
+more magical about collaborating with dozens of teammates around the country
+(especially when it’s supplemented by [44]sweet swag boxes and Divvy credits
+for remote treats). Hybrid teams work. We still had fun in-office connections,
+but most of our Pointless Projects this year are being worked on with
+distributed teams, much like our client work.
 
-   Pointless Corp. is more than an annual palooza. We work on projects
-   throughout the year in the gaps between client work, weaving the
-   teamwork, learning, and teaching values of Viget into all that we do.
+[23-pointless]
+Pointless Branded Stuff 2023 including a t-shirt and sticker pack -- very
+corporate
 
-   If this is the kind of work and culture you might enjoy, learn more
-   about [41]our culture and job openings – perhaps you’ll be able to join
-   next year’s Pointless Palooza. After all, inspiring people to join us
-   is unapologetically part of the point.
+Some things haven’t changed from prior years. Team members are still swapping
+roles – PMs writing code, designers running projects, the list goes on – which
+means steep and rapid [45]learning curves. We’re still trying out new
+technologies and approaches to our work, which means unexpected blockers and
+great insights to share. New connections are being formed, especially since
+more than half of this year’s participants are in their first year at Viget and
+experiencing their first Pointless event. Forming authentic co-worker
+connections isn’t easy, and our culture is stronger today than it was at the
+start of the week.
 
-   [42]Brian Williams
+So what projects will launch? I won’t steal their thunder, but we just wrapped
+the presentation portion of six Pointless Project teams at our weekly staff
+meeting and it was the most we’ve laughed, cheered, and been inspired in a long
+time. I expect articles will be written and shared in the days and weeks ahead
+outlining the thrills (and mishaps) of the teams this year.
 
-   [43]Brian is Viget's co-founder and CEO. He does everything from
-   advising our clients to building our conference tables with his bare
-   hands in our Falls Church, VA, HQ.
-   [44]More articles by Brian
+[PointlessPalooza2023]
+Pointless Palooza 2023 was a blast!
+
+Pointless Corp. is more than an annual palooza. We work on projects throughout
+the year in the gaps between client work, weaving the teamwork, learning, and
+teaching values of Viget into all that we do.
+
+If this is the kind of work and culture you might enjoy, learn more about [46]
+our culture and job openings – perhaps you’ll be able to join next year’s
+Pointless Palooza. After all, inspiring people to join us is unapologetically
+part of the point.
+
+[47] Brian Williams
+
+[48]Brian is Viget's co-founder and CEO. He does everything from advising our
+clients to building our conference tables with his bare hands in our Falls
+Church, VA, HQ.
+
+[49]More articles by Brian
 
 Related Articles
 
-     * Article
+  • [50]
 
-Our Pointless Logo
-       Brian Williams
-     * Article
+    Article
 
-Introducing Pointless Corp.
-       Brian Williams
-     * What’s the Point of Pointless Weekend?
-       Article
+    Our Pointless Logo
 
-What’s the Point of Pointless Weekend?
-       Brian Williams
+    Brian Williams
+
+  • [51]
+
+    Article
+
+    Introducing Pointless Corp.
+
+    Brian Williams
+
+  • [52]
+    What’s the Point of Pointless Weekend?
+
+    Article
+
+    What’s the Point of Pointless Weekend?
+
+    Brian Williams
 
 The Viget Newsletter
 
-   Nobody likes popups, so we waited until now to recommend our
-   newsletter, featuring thoughts, opinions, and tools for building a
-   better digital world. [45]Read the current issue.
+Nobody likes popups, so we waited until now to recommend our newsletter,
+featuring thoughts, opinions, and tools for building a better digital world. 
+[53]Read the current issue.
 
-   [46]Subscribe Here (opens in new window)
+[54]Subscribe Here (opens in new window)
 
 Site Footer
 
-   Have an unsolvable problem or audacious idea?
+Have an unsolvable problem or audacious idea?
 
-   Let’s get to work
-   [47]Contact Us [48]hello@viget.com [49]703.891.0670
+Let’s get to work
 
-     * Practice
-     * [50]Work
-     * [51]Services
-     * [52]Articles
+[55] Contact Us [56] hello@viget.com [57] 703.891.0670
 
-     * People
-     * [53]Company
-     * [54]Careers
-     * [55]Code of Ethics
-     * [56]Diversity & Inclusion
+  • Practice
+  • [58]Work
+  • [59]Services
+  • [60]Articles
 
-     * More
-     * [57]Pointless Corp.
-     * [58]Explorations
-     * [59]Code at Viget
+  • People
+  • [61]Company
+  • [62]Careers
+  • [63]Code of Ethics
+  • [64]Diversity & Inclusion
+
+  • More
+  • [65]Pointless Corp.
+  • [66]Explorations
+  • [67]Code at Viget
 
 Sign Up For Our Newsletter
 
-   A curated periodical featuring thoughts, opinions, and tools for
-   building a better digital world.
-   [60]Check it out
+A curated periodical featuring thoughts, opinions, and tools for building a
+better digital world.
+
+[68] Check it out
 
 Social Links
 
-   [61]Viget
-     *
-     *
-     *
-     *
-     *
-     *
+[69] Viget
+
+  • [70]
+  • [71]
+  • [72]
+  • [73]
+  • [74]
+  • [75]
 
 Office Locations
 
-     * [62]Washington DC Metro
-     * [63]Durham, NC
-     * [64]Boulder, CO
-     * [65]Chattanooga, TN
+  • [76]Washington DC Metro
+  • [77]Durham, NC
+  • [78]Boulder, CO
+  • [79]Chattanooga, TN
 
-   © 1999 – 2024 Viget Labs, LLC. [66]Terms [67]Privacy [68]MRF
+© 1999 – 2024 Viget Labs, LLC. [80]Terms [81]Privacy [82]MRF
 
-     * [69]Home
-     * [70]Articles
-     * [71]The Enduring Point of Pointless Corp.
+  • [83]Home
+  • [84]Articles
+  • [85]The Enduring Point of Pointless Corp.
 
-   [72]Subscribe (opens in a new window)
-   (BUTTON) Share
-     * [73]Share this page
-     * [74]Share this page
-     * [75]Post this page
+[86] Subscribe (opens in a new window)
+Share
 
-References
+  • [88] Share this page
+  • [89] Share this page
+  • [90] Post this page
 
-   Visible links:
-   1. https://feeds.feedburner.com/Viget
-   2. https://www.googletagmanager.com/ns.html?id=GTM-5V7V
-   3. https://www.viget.com/articles/the-enduring-point-of-pointless-corp/#content
-   4. https://www.viget.com/
-   5. https://www.viget.com/work/
-   6. https://www.viget.com/services/
-   7. https://www.viget.com/articles/
-   8. https://www.viget.com/careers/
-   9. https://www.viget.com/contact/
-  10. https://www.viget.com/
-  11. https://www.viget.com/work/
-  12. https://www.viget.com/services/
-  13. https://www.viget.com/articles/
-  14. https://www.viget.com/contact/
-  15. https://www.viget.com/about/
-  16. https://www.viget.com/careers/
-  17. https://www.viget.com/code-of-ethics/
-  18. https://www.viget.com/diversity-equity-and-inclusion/
-  19. https://pointlesscorp.com/
-  20. https://explorations.viget.com/
-  21. https://code.viget.com/
-  22. https://www.viget.com/about/team/bwilliams/
-  23. https://www.viget.com/about/team/bwilliams/
-  24. https://www.viget.com/articles/category/news-culture/
-  25. https://www.viget.com/articles/category/employee-engagement/
-  26. https://www.viget.com/articles/the-point-of-pointless-corp/
-  27. https://www.viget.com/articles/book-review-giveaway-the-geometry-of-design/
-  28. https://www.viget.com/articles/introducing-heycraig/
-  29. https://pointlesscorp.com/tincand
-  30. https://www.babybookie.com/
-  31. https://www.viget.com/articles/a-pointless-weekend-or-so/
-  32. https://www.viget.com/articles/whats-the-point-of-pointless-weekend/
-  33. https://www.flickr.com/photos/viget/albums/72157626084778456
-  34. https://www.flickr.com/photos/viget/albums/72157649003978349
-  35. https://twitter.com/viget/status/798273078132408320
-  36. https://www.viget.com/about/team/athomas/
-  37. https://www.viget.com/about/team/aiwamoto/
-  38. https://twitter.com/pointlesscorp/status/1639274400976445444
-  39. https://twitter.com/viget/status/1637891007868968980
-  40. https://twitter.com/pointlesscorp/status/1638940667060838401
-  41. https://www.viget.com/careers/
-  42. https://www.viget.com/about/team/bwilliams/
-  43. https://www.viget.com/about/team/bwilliams/
-  44. https://www.viget.com/about/team/bwilliams/
-  45. https://www.viget.com/newsletter
-  46. http://eepurl.com/gtHqsj
-  47. https://www.viget.com/contact/
-  48. mailto:hello@viget.com?subject=Hello, Viget!
-  49. tel:7038910670
-  50. https://www.viget.com/work/
-  51. https://www.viget.com/services/
-  52. https://www.viget.com/articles/
-  53. https://www.viget.com/about/
-  54. https://www.viget.com/careers/
-  55. https://www.viget.com/code-of-ethics/
-  56. https://www.viget.com/diversity-equity-and-inclusion/
-  57. https://pointlesscorp.com/
-  58. https://explorations.viget.com/
-  59. https://code.viget.com/
-  60. https://www.viget.com/newsletter/
-  61. https://www.viget.com/
-  62. https://www.viget.com/dc-metro-hq/
-  63. https://www.viget.com/durham/
-  64. https://www.viget.com/boulder/
-  65. https://www.viget.com/chattanooga/
-  66. https://www.viget.com/terms-conditions/
-  67. https://www.viget.com/privacy-policy/
-  68. https://individual.carefirst.com/individuals-families/mandates-policies/machine-readable-file.page
-  69. https://www.viget.com/
-  70. https://www.viget.com/articles
-  71. https://www.viget.com/articles/the-enduring-point-of-pointless-corp/#hero
-  72. http://eepurl.com/gtHqsj
-  73. https://www.facebook.com/sharer/sharer.php?u=https://www.viget.com/articles/the-enduring-point-of-pointless-corp/
-  74. http://www.linkedin.com/shareArticle?mini=true&url=https://www.viget.com/articles/the-enduring-point-of-pointless-corp/
-  75. https://x.com/intent/tweet?text=Pointless Corp. is the innovation lab at Viget, where we step away from client work to make fun and useful things for everyone https://www.viget.com/articles/the-enduring-point-of-pointless-corp/
 
-   Hidden links:
-  77. https://www.viget.com/newsletter/revolutionizing-the-web/
-  78. https://www.viget.com/articles/the-reflection-before-christmas/
-  79. https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.viget.com%2Farticles%2Fthe-enduring-point-of-pointless-corp%2F
-  80. http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.viget.com%2Farticles%2Fthe-enduring-point-of-pointless-corp%2F
-  81. https://x.com/intent/tweet?text=Pointless%20Corp.%20is%20the%20innovation%20lab%20at%20Viget%2C%20where%20we%20step%20away%20from%20client%20work%20to%20make%20fun%20and%20useful%20things%20for%20everyone%20https%3A%2F%2Fwww.viget.com%2Farticles%2Fthe-enduring-point-of-pointless-corp%2F
-  82. https://www.viget.com/articles/our-pointless-logo/
-  83. https://www.viget.com/articles/introducing-pointless-corp/
-  84. https://www.viget.com/articles/whats-the-point-of-pointless-weekend/
-  85. http://x.com/viget
-  86. https://github.com/vigetlabs
-  87. https://dribbble.com/viget
-  88. https://www.instagram.com/viget/
-  89. https://www.linkedin.com/company/viget-labs
-  90. https://vimeo.com/viget/collections
+References:
+
+[1] https://www.viget.com/articles/the-enduring-point-of-pointless-corp/#content
+[2] https://www.viget.com/
+[3] https://www.viget.com/work/
+[4] https://www.viget.com/services/
+[5] https://www.viget.com/articles/
+[6] https://www.viget.com/careers/
+[7] https://www.viget.com/contact/
+[9] https://www.viget.com/
+[11] https://www.viget.com/work/
+[12] https://www.viget.com/services/
+[13] https://www.viget.com/articles/
+[14] https://www.viget.com/contact/
+[15] https://www.viget.com/about/
+[16] https://www.viget.com/careers/
+[17] https://www.viget.com/code-of-ethics/
+[18] https://www.viget.com/diversity-equity-and-inclusion/
+[19] https://pointlesscorp.com/
+[20] https://explorations.viget.com/
+[21] https://code.viget.com/
+[22] https://www.viget.com/newsletter/revolutionizing-the-web/
+[23] https://www.viget.com/articles/the-reflection-before-christmas/
+[24] https://www.viget.com/about/team/bwilliams/
+[25] https://www.viget.com/about/team/bwilliams/
+[26] https://www.viget.com/articles/category/news-culture/
+[27] https://www.viget.com/articles/category/employee-engagement/
+[28] https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.viget.com%2Farticles%2Fthe-enduring-point-of-pointless-corp%2F
+[29] http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.viget.com%2Farticles%2Fthe-enduring-point-of-pointless-corp%2F
+[30] https://x.com/intent/tweet?text=Pointless%20Corp.%20is%20the%20innovation%20lab%20at%20Viget%2C%20where%20we%20step%20away%20from%20client%20work%20to%20make%20fun%20and%20useful%20things%20for%20everyone%20https%3A%2F%2Fwww.viget.com%2Farticles%2Fthe-enduring-point-of-pointless-corp%2F
+[31] https://www.viget.com/articles/the-point-of-pointless-corp/
+[32] https://www.viget.com/articles/book-review-giveaway-the-geometry-of-design/
+[33] https://www.viget.com/articles/introducing-heycraig/
+[34] https://pointlesscorp.com/tincand
+[35] https://www.babybookie.com/
+[36] https://www.viget.com/articles/a-pointless-weekend-or-so/
+[37] https://www.viget.com/articles/whats-the-point-of-pointless-weekend/
+[38] https://www.flickr.com/photos/viget/albums/72157626084778456
+[39] https://www.flickr.com/photos/viget/albums/72157649003978349
+[40] https://twitter.com/viget/status/798273078132408320
+[41] https://www.viget.com/about/team/athomas/
+[42] https://www.viget.com/about/team/aiwamoto/
+[43] https://twitter.com/pointlesscorp/status/1639274400976445444
+[44] https://twitter.com/viget/status/1637891007868968980
+[45] https://twitter.com/pointlesscorp/status/1638940667060838401
+[46] https://www.viget.com/careers/
+[47] https://www.viget.com/about/team/bwilliams/
+[48] https://www.viget.com/about/team/bwilliams/
+[49] https://www.viget.com/about/team/bwilliams/
+[50] https://www.viget.com/articles/our-pointless-logo/
+[51] https://www.viget.com/articles/introducing-pointless-corp/
+[52] https://www.viget.com/articles/whats-the-point-of-pointless-weekend/
+[53] https://www.viget.com/newsletter
+[54] http://eepurl.com/gtHqsj
+[55] https://www.viget.com/contact/
+[56] mailto:hello@viget.com?subject=Hello%2C%20Viget%21
+[57] tel:7038910670
+[58] https://www.viget.com/work/
+[59] https://www.viget.com/services/
+[60] https://www.viget.com/articles/
+[61] https://www.viget.com/about/
+[62] https://www.viget.com/careers/
+[63] https://www.viget.com/code-of-ethics/
+[64] https://www.viget.com/diversity-equity-and-inclusion/
+[65] https://pointlesscorp.com/
+[66] https://explorations.viget.com/
+[67] https://code.viget.com/
+[68] https://www.viget.com/newsletter/
+[69] https://www.viget.com/
+[70] http://x.com/viget
+[71] https://github.com/vigetlabs
+[72] https://dribbble.com/viget
+[73] https://www.instagram.com/viget/
+[74] https://www.linkedin.com/company/viget-labs
+[75] https://vimeo.com/viget/collections
+[76] https://www.viget.com/dc-metro-hq/
+[77] https://www.viget.com/durham/
+[78] https://www.viget.com/boulder/
+[79] https://www.viget.com/chattanooga/
+[80] https://www.viget.com/terms-conditions/
+[81] https://www.viget.com/privacy-policy/
+[82] https://individual.carefirst.com/individuals-families/mandates-policies/machine-readable-file.page
+[83] https://www.viget.com/
+[84] https://www.viget.com/articles
+[85] https://www.viget.com/articles/the-enduring-point-of-pointless-corp/#hero
+[86] http://eepurl.com/gtHqsj
+[88] https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.viget.com%2Farticles%2Fthe-enduring-point-of-pointless-corp%2F
+[89] http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.viget.com%2Farticles%2Fthe-enduring-point-of-pointless-corp%2F
+[90] https://x.com/intent/tweet?text=Pointless%20Corp.%20is%20the%20innovation%20lab%20at%20Viget%2C%20where%20we%20step%20away%20from%20client%20work%20to%20make%20fun%20and%20useful%20things%20for%20everyone%20https%3A%2F%2Fwww.viget.com%2Farticles%2Fthe-enduring-point-of-pointless-corp%2F

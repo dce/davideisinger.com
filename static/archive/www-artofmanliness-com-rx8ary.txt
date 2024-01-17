@@ -1,880 +1,784 @@
-    #[1]alternate [2]alternate [3]alternate
+Menu [1] logo [2]podcast
+[3][                    ]
+[4][Submit]
+  • [5] Get Style
+      □ [6]Clothing
+      □ [7]Accessories
+      □ [8]Facial Hair
+      □ [9]Ties
+  • [10] Get Strong
+      □ [11]Fitness
+      □ [12]Health
+      □ [13]Program Review
+  • [14] Get Social
+      □ [15]Family
+      □ [16]Fatherhood
+      □ [17]Relationships
+      □ [18]Social Skills
+  • [19] Get Skilled
+      □ [20]How To
+      □ [21]Manly Know-How
+      □ [22]Outdoor/Survival
+  • [23]Podcast
+  • [24]Books
+  • Find more of the Art of Manliness:
+
+    instagram icon [25]Instagram
+    feedly icon [26]Feedly
+    facebook icon [27]Facebook
+    twitter icon [28]Twitter
+    youtube icon [29]YouTube
+  • [30][                    ] cross [31][SUBMIT]
+    Search
+
+  • [32] Clothing
+  • [33] Accessories
+  • [34] Facial Hair
+  • [35] Ties
+
+[36] [lazy] [37]3 Ways to Wear a Henley Shirt [38] [lazy] [39]A Man’s Guide to
+the Oxford Shirt [40] [lazy] [41]Skill of the Week: Instantly Recognize a
+Quality Suit [42] [lazy] [43]How to Get the Stink Out of Synthetic Workout
+Shirts
+[44] [lazy] [45]Did Commandos Go Commando? [46] [lazy] [47]A Man’s Guide to
+Fragrance: How to Choose and Wear Cologne [48] [lazy] [49]My Go-To Sunglasses
+for Summer [50] [lazy] [51]How to Pick the Perfect Men’s Wedding Ring
+[52] [lazy] [53]Your No-Nonsense Guide to Choosing the Right Beard Style [54] 
+[lazy] [55]How to Grow a Beard: The One and True Guide [56] [lazy] [57]Beard
+Oil FAQs: Answering All Your Pressing Beardly Questions [58] [lazy] [59]Beard
+Grooming 101: The Lowdown on Products and Routine
+[60] [lazy] [61]Skill of the Week: Tie a Scarf 5 Different Ways [62] * [63]How
+to Tie a Tie [64] [lazy] [65]Skill of the Week: Tie the Half-Windsor Necktie
+Knot [66] [lazy] [67]How to Match a Shirt and Tie
+
+[68]Browse all Get Style
+
+  • [69] Fitness
+  • [70] Health
+  • [71] Program Review
+
+[72] [lazy] [73]Podcast #955: The Power of NEAT — Move a Little to Lose a Lot 
+[74] [lazy] [75]Podcast #767: Fat Loss Made Simple [76] [lazy] [77]Legendary
+Bodybuilder Mike Mentzer’s Heavy Duty Method for Maximum Muscle Growth [78] 
+[lazy] [79]Podcast #939: What Lifting Ancient Stones Can Teach You About Being
+a Man
+[80] [lazy] [81]What You Can Learn About Shedding Pounds From the Vacation
+Weight Loss Paradox [82] [lazy] [83]You Need to Eat More Fiber [84] [lazy] [85]
+Silencing the Ring: Proven Strategies for Tinnitus Relief [86] [lazy] [87]
+Podcast #947: Turn Your Anxiety Into a Strength
+[88] [lazy] [89]The Insanely Difficult Standards of History’s Hardest P.E.
+Program [90] [lazy] [91]Which Fitness Program Is Right for You? [92] [lazy] 
+[93]A Review of the MovNat Workshop [94] [lazy] [95]Strengthen Your Tribe: A
+Report on the Atomic Athlete Vanguard
+
+[96]Browse all Get Strong
+
+  • [97] Family
+  • [98] Fatherhood
+  • [99] Relationships
+  • [100] Social Skills
+
+[101] [lazy] [102]Podcast #946: Counterintuitive Ideas About Marriage, Family,
+and Kids [103] [lazy] [104]The Best Riddles for Kids (With Answers!) [105] 
+[lazy] [106]Podcast #858: The Affectionate, Ambiguous, and Surprisingly
+Ambivalent Relationship Between Siblings [107] [lazy] [108]How to Fight
+Entitlement and Develop Gratitude in Your Kids
+[109] [lazy] [110]How to Parent-Teacher Conference [111] [lazy] [112]5 Ways
+Fathers Hugely Influence Their Daughters [113] [lazy] [114]Sunday Firesides: We
+Shouldn’t (and Should) Be Friends With Our Kids [115] [lazy] [116]What to Do
+When Your Kid Lies to You
+[117] [lazy] [118]Sunday Firesides: Can We Finally Stop Blaming the Puritans? 
+[119] [lazy] [120]Sunday Firesides: The Sit-in-Silence Relationship Test [121] 
+[lazy] [122]Sunday Firesides: Treat People as Ends, Not Means [123] [lazy] 
+[124]Podcast #919: Advice on Making Love Last . . . From a Divorce Lawyer
+[125] [lazy] [126]Podcast #957: How Curiosity Conversations Can Supercharge
+Your Success [127] [lazy] [128]Podcast #837: The Cues That Make You Charismatic
+[129] [lazy] [130]Podcast #938: Social Skills as the Road to Character [131] 
+[lazy] [132]Podcast #915: Finally Learn to Say No
+
+[133]Browse all Get Social
+
+  • [134] How To
+  • [135] Manly Know-How
+  • [136] Outdoor/Survival
 
-   IFRAME: [4]https://www.googletagmanager.com/ns.html?id=GTM-KXJGHMC
+[137] [lazy] [138]Skill of the Week: Wrap a Gift [139] [lazy] [140]How to
+De-Ice Your Windshield Easily and Effectively [141] [lazy] [142]Skill of the
+Week: Paint a Room [143] [lazy] [144]Skill of the Week: Store and Stack
+Firewood
+[145] [lazy] [146]Skill of the Week: Build a Cozy Fireplace Fire (That Won’t
+Make Your House Smoky) [147] [lazy] [148]How to Adjust Your Car Mirrors to
+Eliminate Blind Spots [149] [lazy] [150]Skill of the Week: Throw a Perfect
+Football Spiral [151] [lazy] [152]What’s the Difference Between Gas Octanes?
+[153] [lazy] [154]Skill of the Week: How to Build a Quinzee Snow Shelter [155] 
+[lazy] [156]Skill of the Week: Survive an Earthquake [157] [lazy] [158]Two
+Things You Should Be Doing to Take Better Care of Your Camping Gear [159] 
+[lazy] [160]Skill of the Week: How to Emergency Rappel
 
-   Menu [5]logo [6]podcast ____________________
-   Submit
+[161]Browse all Get Skilled
 
-     * [7]Get Style
-          + [8]Clothing
-          + [9]Accessories
-          + [10]Facial Hair
-          + [11]Ties
-     * [12]Get Strong
-          + [13]Fitness
-          + [14]Health
-          + [15]Program Review
-     * [16]Get Social
-          + [17]Family
-          + [18]Fatherhood
-          + [19]Relationships
-          + [20]Social Skills
-     * [21]Get Skilled
-          + [22]How To
-          + [23]Manly Know-How
-          + [24]Outdoor/Survival
-     * [25]Podcast
-     * [26]Books
-     * Find more of the Art of Manliness:
-       instagram icon [27]Instagram
-       feedly icon [28]Feedly
-       facebook icon [29]Facebook
-       twitter icon [30]Twitter
-       youtube icon [31]YouTube
-     * ____________________ cross Submit
-       Search
+in: [167]Behavior, [168]Character
 
-     * [32]Clothing
-     * [33]Accessories
-     * [34]Facial Hair
-     * [35]Ties
+Brett & Kate McKay • September 5, 2023 • Last updated: September 9, 2023
 
-   [36]3 Ways to Wear a Henley Shirt
+Exit, Voice, Loyalty, Neglect: Why People Leave, Stay, or Try to Burn It All
+Down
 
-   [37]A Man’s Guide to the Oxford Shirt
+[evln]
 
-   [38]Skill of the Week: Instantly Recognize a Quality Suit
+[169] [170] [171] [172] [173]
 
-   [39]How to Get the Stink Out of Synthetic Workout Shirts
+When someone is dissatisfied with a product, group, or relationship, how do
+they remedy that dissatisfaction? 
 
-   [40]Did Commandos Go Commando?
+A German economist and political scientist, Albert Hirschman, laid out a theory
+of how people respond to dissatisfaction in his influential treatise [174]Exit,
+Voice, Loyalty: Responses to Decline in Firms, Organizations, and States. 
 
-   [41]A Man’s Guide to Fragrance: How to Choose and Wear Cologne
+Hirschman observed that people who find themselves in diminishing,
+less-than-ideal circumstances have three options: 1) leave the declining group,
+company, or relationship (exit), 2) express discontent to improve the situation
+(voice), or 3) stay in the organization and passively hope things get better
+(loyalty). 
 
-   [42]My Go-To Sunglasses for Summer
+Since the initial publication of Exit, Voice, Loyalty in 1970, other social
+scientists have added a fourth option to Hirschman’s framework: neglect.
 
-   [43]How to Pick the Perfect Men’s Wedding Ring
+Which option a person exercises will depend on many factors, and the path they
+choose can help reverse, stem, or exacerbate a group’s deterioration. 
 
-   [44]Your No-Nonsense Guide to Choosing the Right Beard Style
+The exit, voice, loyalty, neglect (EVLN) framework will help you understand why
+people stay in or leave a relationship (including friendships), why people stay
+in or leave a job, why people stay in or leave a church, and many more of
+life’s interpersonal and institutional dynamics. 
 
-   [45]How to Grow a Beard: The One and True Guide
-
-   [46]Beard Oil FAQs: Answering All Your Pressing Beardly Questions
-
-   [47]Beard Grooming 101: The Lowdown on Products and Routine
-
-   [48]Skill of the Week: Tie a Scarf 5 Different Ways
-
-   [49]How to Tie a Tie
-
-   [50]Skill of the Week: Tie the Half-Windsor Necktie Knot
-
-   [51]How to Match a Shirt and Tie
-
-   [52]Browse all Get Style
-     * [53]Fitness
-     * [54]Health
-     * [55]Program Review
-
-   [56]Podcast #955: The Power of NEAT — Move a Little to Lose a Lot
-
-   [57]Podcast #767: Fat Loss Made Simple
-
-   [58]Legendary Bodybuilder Mike Mentzer’s Heavy Duty Method for Maximum
-   Muscle Growth
-
-   [59]Podcast #939: What Lifting Ancient Stones Can Teach You About Being
-   a Man
-
-   [60]What You Can Learn About Shedding Pounds From the Vacation Weight
-   Loss Paradox
-
-   [61]You Need to Eat More Fiber
-
-   [62]Silencing the Ring: Proven Strategies for Tinnitus Relief
-
-   [63]Podcast #947: Turn Your Anxiety Into a Strength
-
-   [64]The Insanely Difficult Standards of History’s Hardest P.E. Program
-
-   [65]Which Fitness Program Is Right for You?
-
-   [66]A Review of the MovNat Workshop
-
-   [67]Strengthen Your Tribe: A Report on the Atomic Athlete Vanguard
-
-   [68]Browse all Get Strong
-     * [69]Family
-     * [70]Fatherhood
-     * [71]Relationships
-     * [72]Social Skills
-
-   [73]Podcast #946: Counterintuitive Ideas About Marriage, Family, and
-   Kids
-
-   [74]The Best Riddles for Kids (With Answers!)
-
-   [75]Podcast #858: The Affectionate, Ambiguous, and Surprisingly
-   Ambivalent Relationship Between Siblings
-
-   [76]How to Fight Entitlement and Develop Gratitude in Your Kids
-
-   [77]How to Parent-Teacher Conference
-
-   [78]5 Ways Fathers Hugely Influence Their Daughters
-
-   [79]Sunday Firesides: We Shouldn’t (and Should) Be Friends With Our
-   Kids
-
-   [80]What to Do When Your Kid Lies to You
-
-   [81]Sunday Firesides: Can We Finally Stop Blaming the Puritans?
-
-   [82]Sunday Firesides: The Sit-in-Silence Relationship Test
-
-   [83]Sunday Firesides: Treat People as Ends, Not Means
-
-   [84]Podcast #919: Advice on Making Love Last . . . From a Divorce
-   Lawyer
-
-   [85]Podcast #957: How Curiosity Conversations Can Supercharge Your
-   Success
-
-   [86]Podcast #837: The Cues That Make You Charismatic
-
-   [87]Podcast #938: Social Skills as the Road to Character
-
-   [88]Podcast #915: Finally Learn to Say No
-
-   [89]Browse all Get Social
-     * [90]How To
-     * [91]Manly Know-How
-     * [92]Outdoor/Survival
-
-   [93]Skill of the Week: Wrap a Gift
-
-   [94]How to De-Ice Your Windshield Easily and Effectively
-
-   [95]Skill of the Week: Paint a Room
-
-   [96]Skill of the Week: Store and Stack Firewood
-
-   [97]Skill of the Week: Build a Cozy Fireplace Fire (That Won’t Make
-   Your House Smoky)
-
-   [98]How to Adjust Your Car Mirrors to Eliminate Blind Spots
-
-   [99]Skill of the Week: Throw a Perfect Football Spiral
-
-   [100]What’s the Difference Between Gas Octanes?
-
-   [101]Skill of the Week: How to Build a Quinzee Snow Shelter
-
-   [102]Skill of the Week: Survive an Earthquake
-
-   [103]Two Things You Should Be Doing to Take Better Care of Your Camping
-   Gear
-
-   [104]Skill of the Week: How to Emergency Rappel
-
-   [105]Browse all Get Skilled
-
-   in: [106]Behavior, [107]Character
-
-   Brett & Kate McKay • September 5, 2023 • Last updated: September 9,
-   2023
-
-  Exit, Voice, Loyalty, Neglect: Why People Leave, Stay, or Try to Burn It All
-                                      Down
-
-   When someone is dissatisfied with a product, group, or relationship,
-   how do they remedy that dissatisfaction?
-
-   A German economist and political scientist, Albert Hirschman, laid out
-   a theory of how people respond to dissatisfaction in his influential
-   treatise [108]Exit, Voice, Loyalty: Responses to Decline in Firms,
-   Organizations, and States.
-
-   Hirschman observed that people who find themselves in diminishing,
-   less-than-ideal circumstances have three options: 1) leave the
-   declining group, company, or relationship (exit), 2) express discontent
-   to improve the situation (voice), or 3) stay in the organization and
-   passively hope things get better (loyalty).
-
-   Since the initial publication of Exit, Voice, Loyalty in 1970, other
-   social scientists have added a fourth option to Hirschman’s framework:
-   neglect.
-
-   Which option a person exercises will depend on many factors, and the
-   path they choose can help reverse, stem, or exacerbate a group’s
-   deterioration.
-
-   The exit, voice, loyalty, neglect (EVLN) framework will help you
-   understand why people stay in or leave a relationship (including
-   friendships), why people stay in or leave a job, why people stay in or
-   leave a church, and many more of life’s interpersonal and institutional
-   dynamics.
-
-   Let’s unpack it.
+Let’s unpack it. 
 
 Exit, Voice, Loyalty, Neglect
 
-   I read Hirschman’s book a few months ago and went on a deep dive into
-   related research that’s been done since it was published. The EVLN
-   framework has become a fundamental mental model in my brain. It’s a
-   decidedly simple paradigm and is something people already intuitively
-   know, but once you see it spelled out explicitly, you start to see it
-   everywhere.
+I read Hirschman’s book a few months ago and went on a deep dive into related
+research that’s been done since it was published. The EVLN framework has become
+a fundamental mental model in my brain. It’s a decidedly simple paradigm and is
+something people already intuitively know, but once you see it spelled out
+explicitly, you start to see it everywhere. 
 
 Exit
 
-   The exit option is exercised when an individual is dissatisfied with
-   something and decides to quit it altogether.
+The exit option is exercised when an individual is dissatisfied with something
+and decides to quit it altogether. 
 
-   You use the exit option all the time as a consumer. If you’re
-   dissatisfied with shaving cream brand A, you stop using it and start
-   using shaving cream brand B.
+You use the exit option all the time as a consumer. If you’re dissatisfied with
+shaving cream brand A, you stop using it and start using shaving cream brand
+B. 
 
-   You can also use the exit option when dissatisfied with a job,
-   relationship, or group.
+You can also use the exit option when dissatisfied with a job, relationship, or
+group.
 
-   Not happy with your job? You can quit it.
+Not happy with your job? You can quit it.
 
-   Not happy with your relationship? You can break up.
+Not happy with your relationship? You can break up.
 
-   Not happy with the state of your congregation? You can stop going to
-   that church and start going to another.
+Not happy with the state of your congregation? You can stop going to that
+church and start going to another.
 
-   What’s interesting about the exit option is that it often accelerates
-   decline in groups. According to Hirschman, the people most sensitive to
-   a decrease in quality are typically those with the most resources,
-   skills, and talents that could be used to effectuate improvement. The
-   people who are the least sensitive to quality usually have fewer
-   resources, skills, and talents. When the people who have resources
-   leave, it results in a “brain drain.” With fewer well-resourced
-   members, the quality of the group further declines; it thus has even
-   more trouble attracting new members (especially well-resourced ones);
-   as a result, even more people leave. Things go from bad to worse, and
-   the group or organization enters a death spiral that can be difficult
-   or impossible to recover from.
+What’s interesting about the exit option is that it often accelerates decline
+in groups. According to Hirschman, the people most sensitive to a decrease in
+quality are typically those with the most resources, skills, and talents that
+could be used to effectuate improvement. The people who are the least sensitive
+to quality usually have fewer resources, skills, and talents. When the people
+who have resources leave, it results in a “brain drain.” With fewer
+well-resourced members, the quality of the group further declines; it thus has
+even more trouble attracting new members (especially well-resourced ones); as a
+result, even more people leave. Things go from bad to worse, and the group or
+organization enters a death spiral that can be difficult or impossible to
+recover from.
 
-   To illustrate this phenomenon, Hirschman uses the example of parents
-   pulling their kids out of public schools and putting them into private
-   schools. According to Hirschman, affluent parents are much more
-   sensitive to education quality than less affluent parents. It’s not
-   that less affluent parents don’t care about their children’s education;
-   they just don’t have the luxury of being hyper-sensitive to deficits in
-   quality. Because they know that private school isn’t an option for
-   them, they don’t spend as much time wondering if the grass is greener
-   at another school as affluent parents do.
+To illustrate this phenomenon, Hirschman uses the example of parents pulling
+their kids out of public schools and putting them into private schools.
+According to Hirschman, affluent parents are much more sensitive to education
+quality than less affluent parents. It’s not that less affluent parents don’t
+care about their children’s education; they just don’t have the luxury of being
+hyper-sensitive to deficits in quality. Because they know that private school
+isn’t an option for them, they don’t spend as much time wondering if the grass
+is greener at another school as affluent parents do. 
 
-   Because school is a matter of optionality for wealthy parents, they
-   notice perceived flaws in their children’s education more acutely. If
-   these parents become dissatisfied with the education being offered in a
-   public school, they’ll switch their child over to a private school.
-   When these affluent families leave a public school, they take their
-   resources, and their possibly greater propensity to push for
-   improvement, with them. As a result, the struggles of the public school
-   deepen.
+Because school is a matter of optionality for wealthy parents, they notice
+perceived flaws in their children’s education more acutely. If these parents
+become dissatisfied with the education being offered in a public school,
+they’ll switch their child over to a private school. When these affluent
+families leave a public school, they take their resources, and their possibly
+greater propensity to push for improvement, with them. As a result, the
+struggles of the public school deepen.
 
 Voice
 
-   Sometimes people find themselves in a situation where they’re
-   dissatisfied with a group or relationship, but they don’t want to leave
-   it. They still see good in it. It’s still working for them on some
-   level, or they see potential for how it could work if things were done
-   differently. They may feel they can do more good being an agent on the
-   inside than being a critic on the outside.
+Sometimes people find themselves in a situation where they’re dissatisfied with
+a group or relationship, but they don’t want to leave it. They still see good
+in it. It’s still working for them on some level, or they see potential for how
+it could work if things were done differently. They may feel they can do more
+good being an agent on the inside than being a critic on the outside.
 
-   In these cases, people may decide to stay around and exercise the voice
-   option — complaining, offering feedback, and agitating for change to
-   improve things.
+In these cases, people may decide to stay around and exercise the voice option
+— complaining, offering feedback, and agitating for change to improve things. 
 
-   An unhappy employee can talk to his boss about changing the company’s
-   culture.
+An unhappy employee can talk to his boss about changing the company’s culture. 
 
-   An unhappy husband can tell his wife about his concerns for the
-   relationship, or together they can talk to a therapist.
+An unhappy husband can tell his wife about his concerns for the relationship,
+or together they can talk to a therapist.
 
-   An unhappy customer can contact customer support to raise concerns and
-   seek redress.
+An unhappy customer can contact customer support to raise concerns and seek
+redress. 
 
-   Unhappy parents can talk to their child’s teacher about an issue with
-   their kid or join the PTA to advocate for broader changes.
+Unhappy parents can talk to their child’s teacher about an issue with their kid
+or join the PTA to advocate for broader changes. 
 
 Loyalty
 
-   While Hirschman clearly defined exit and voice, he was ambiguous about
-   loyalty. It’s one of the biggest criticisms he received for his work.
-   Many social scientists since Hirschman have described loyalty as a
-   “passively positive” response in the face of dissatisfaction. Instead
-   of taking action (exit or voice), the loyal customer, employee, spouse,
-   or church member will stay aboard and not raise a stink, hoping things
-   will get better on their own if they wait long enough.
+While Hirschman clearly defined exit and voice, he was ambiguous about loyalty.
+It’s one of the biggest criticisms he received for his work. Many social
+scientists since Hirschman have described loyalty as a “passively positive”
+response in the face of dissatisfaction. Instead of taking action (exit or
+voice), the loyal customer, employee, spouse, or church member will stay aboard
+and not raise a stink, hoping things will get better on their own if they wait
+long enough.
 
-   Take an employee dissatisfied with his job. Maybe he’s decided he can’t
-   quit, and perhaps he’s also decided that voicing his concerns to his
-   boss will only increase the animosity between them. So he chooses to
-   stay with the company, thinking, “Well, maybe things will improve.
-   Maybe we’ll get a new supervisor. Maybe I’ll get moved to a new
-   division. I’ll just keep working and wait and see.”
+Take an employee dissatisfied with his job. Maybe he’s decided he can’t quit,
+and perhaps he’s also decided that voicing his concerns to his boss will only
+increase the animosity between them. So he chooses to stay with the company,
+thinking, “Well, maybe things will improve. Maybe we’ll get a new supervisor.
+Maybe I’ll get moved to a new division. I’ll just keep working and wait and
+see.” 
 
 Neglect
 
-   Social scientist [109]Carly Rusbult added a fourth option to
-   Hirschman’s exit/voice/loyalty options for dealing with
-   dissatisfaction: neglect.
+Social scientist [175]Carly Rusbult added a fourth option to Hirschman’s exit/
+voice/loyalty options for dealing with dissatisfaction: neglect. 
 
-   Neglect is similar to loyalty in that the dissatisfied person decides
-   to stay on board with the declining job, relationship, or group, but
-   instead of thinking things might improve if they’re patient, the person
-   who adopts the neglect option has decided things won’t get better and
-   chooses to take a “negative passive” approach to the situation by
-   putting in less effort or not taking action to prevent the relationship
-   or group from further falling apart.
+Neglect is similar to loyalty in that the dissatisfied person decides to stay
+on board with the declining job, relationship, or group, but instead of
+thinking things might improve if they’re patient, the person who adopts the
+neglect option has decided things won’t get better and chooses to take a
+“negative passive” approach to the situation by putting in less effort or not
+taking action to prevent the relationship or group from further falling apart. 
 
-   Rather than helping an ineffectual organization continue to limp feebly
-   along, this individual stays but withdraws their support, with the idea
-   that by letting the group collapse, its leadership will finally be
-   forced to take action to change and improve it. The neglect approach
-   is: “I’m not going to actively put out fires. I’m just going to let
-   this thing burn to the ground so we can start fresh.”
+Rather than helping an ineffectual organization continue to limp feebly along,
+this individual stays but withdraws their support, with the idea that by
+letting the group collapse, its leadership will finally be forced to take
+action to change and improve it. The neglect approach is: “I’m not going to
+actively put out fires. I’m just going to let this thing burn to the ground so
+we can start fresh.”
 
-   Consider the overworked church member in a struggling congregation.
-   He’s juggling multiple roles and dealing with a cadre of difficult
-   people. Leaving isn’t an option because his wife grew up in that church
-   and would never consider it. He knows raising his concerns to
-   leadership would be ineffective because he tried that in the past. So
-   exit and voice are off the table.
+Consider the overworked church member in a struggling congregation. He’s
+juggling multiple roles and dealing with a cadre of difficult people. Leaving
+isn’t an option because his wife grew up in that church and would never
+consider it. He knows raising his concerns to leadership would be ineffective
+because he tried that in the past. So exit and voice are off the table. 
 
-   He also doesn’t think things will get better if he sticks around and
-   just keeps plugging away. Goodbye loyalty.
+He also doesn’t think things will get better if he sticks around and just keeps
+plugging away. Goodbye loyalty. 
 
-   Hello, neglect.
+Hello, neglect. 
 
-   This burned-out church member may start doing the bare minimum in his
-   responsibilities, if that. He’ll say no to requests for his time,
-   money, and talent. If he sees an issue or problem, he won’t do anything
-   to correct it. He thinks that those who remain loyal are only
-   perpetuating a state of dysfunction. By withholding his help, he hopes
-   to push the congregation to a critical level of failure, which will
-   require the leadership to fix the underlying issues.
+This burned-out church member may start doing the bare minimum in his
+responsibilities, if that. He’ll say no to requests for his time, money, and
+talent. If he sees an issue or problem, he won’t do anything to correct it. He
+thinks that those who remain loyal are only perpetuating a state of
+dysfunction. By withholding his help, he hopes to push the congregation to a
+critical level of failure, which will require the leadership to fix the
+underlying issues. 
 
 Predictors of Response to Dissatisfaction
 
-   So, in the face of dissatisfaction, people can respond with exit,
-   voice, loyalty, or neglect.
+So, in the face of dissatisfaction, people can respond with exit, voice,
+loyalty, or neglect. 
 
-   A person in declining circumstances conducts an explicit or implicit
-   cost/benefit analysis in figuring out which path to take.
+A person in declining circumstances conducts an explicit or implicit cost/
+benefit analysis in figuring out which path to take.
 
-   In [110]Predicting Exit, Voice, Loyalty, and Neglect, researchers
-   Michael Withey and William Cooper fleshed out the factors that go into
-   this analysis when people consider how to respond to dissatisfaction:
+In [176]Predicting Exit, Voice, Loyalty, and Neglect, researchers Michael
+Withey and William Cooper fleshed out the factors that go into this analysis
+when people consider how to respond to dissatisfaction:
 
 Cost of the Action
 
-   Exit, voice, loyalty, and neglect all come with costs, both direct and
-   indirect.
+Exit, voice, loyalty, and neglect all come with costs, both direct and
+indirect. 
 
-   Exiting a job can result in the loss of income and health benefits;
-   divorcing a spouse can result in emotional and financial distress;
-   leaving a church can result in spiritual and social isolation.
+Exiting a job can result in the loss of income and health benefits; divorcing a
+spouse can result in emotional and financial distress; leaving a church can
+result in spiritual and social isolation. 
 
-   Raising your voice at work could create rancor with your boss; speaking
-   up in a marriage could create resentment with your spouse.
+Raising your voice at work could create rancor with your boss; speaking up in a
+marriage could create resentment with your spouse.
 
-   Whether you’re exiting or using your voice, there can also be a loss in
-   the thing humans hold most dear: status. In leaving or dissenting, you
-   risk jeopardizing your identity.
+Whether you’re exiting or using your voice, there can also be a loss in the
+thing humans hold most dear: status. In leaving or dissenting, you risk
+jeopardizing your identity. 
 
-   Staying loyal to a relationship or organization comes with costs, too.
-   If you keep your job in a toxic office, you’ll have to continue to
-   weather the stress and debasement that comes with going to work each
-   day. Same thing with staying in a struggling, conflict-ridden marriage
-   or church.
+Staying loyal to a relationship or organization comes with costs, too. If you
+keep your job in a toxic office, you’ll have to continue to weather the stress
+and debasement that comes with going to work each day. Same thing with staying
+in a struggling, conflict-ridden marriage or church. 
 
-   If you decide to be neglectful in your job, it could result in
-   discipline or blocked opportunities. Neglect in a marriage will only
-   lead to increased resentment and tension.
+If you decide to be neglectful in your job, it could result in discipline or
+blocked opportunities. Neglect in a marriage will only lead to increased
+resentment and tension. 
 
-   The exit option tends to have the most dramatic consequences, and is
-   thus much more reluctantly exercised and typically used as a last
-   resort.
+The exit option tends to have the most dramatic consequences, and is thus much
+more reluctantly exercised and typically used as a last resort.
 
-   But there’s no option in the EVLN framework that doesn’t carry
-   downsides; each has its own pros and cons, and part of how people weigh
-   their choices comes down to which path they think has more of the
-   former and less of the latter.
+But there’s no option in the EVLN framework that doesn’t carry downsides; each
+has its own pros and cons, and part of how people weigh their choices comes
+down to which path they think has more of the former and less of the latter.
 
 Efficacy of the Response
 
-   In deciding between exit, voice, loyalty, and neglect, people will also
-   consider which response will be the most effective at resolving their
-   dissatisfaction.
+In deciding between exit, voice, loyalty, and neglect, people will also
+consider which response will be the most effective at resolving their
+dissatisfaction.
 
-   A big factor in whether someone thinks a particular response will be
-   effective is whether they believe there’s hope for improvement. If
-   someone has this hope, they’re more likely to choose voice or loyalty;
-   if they don’t, they’re more likely to choose exit or neglect. If an
-   unhappy employee thinks things would be a lot better at work if their
-   supervisor moved on, and there’s a rumor they’ll soon be replaced, the
-   employee is more likely to stick around. If a church member thinks
-   their concerns will be listened to and addressed, they’re more likely
-   to stay and raise their voice; if they think their concerns will be
-   dismissed, they’re more likely to leave.
+A big factor in whether someone thinks a particular response will be effective
+is whether they believe there’s hope for improvement. If someone has this hope,
+they’re more likely to choose voice or loyalty; if they don’t, they’re more
+likely to choose exit or neglect. If an unhappy employee thinks things would be
+a lot better at work if their supervisor moved on, and there’s a rumor they’ll
+soon be replaced, the employee is more likely to stick around. If a church
+member thinks their concerns will be listened to and addressed, they’re more
+likely to stay and raise their voice; if they think their concerns will be
+dismissed, they’re more likely to leave.
 
-   A significant element in whether someone has hope for a better future
-   is their prior satisfaction with the group or relationship. If
-   someone’s marriage is struggling now, but was great for the first
-   decade, they’re more apt to keep working on it and believe there’s a
-   chance of returning to those happier times. If someone’s marriage was
-   rocky from the start, they’re more likely to choose divorce.
+A significant element in whether someone has hope for a better future is their
+prior satisfaction with the group or relationship. If someone’s marriage is
+struggling now, but was great for the first decade, they’re more apt to keep
+working on it and believe there’s a chance of returning to those happier times.
+If someone’s marriage was rocky from the start, they’re more likely to choose
+divorce.
 
 Internal vs. External Locus of Control
 
-   If an individual has an internal locus of control, they’re more likely
-   to choose a response that’s proactive. That is, if they believe they
-   have control over their actions and outcomes, they’re more likely to
-   use voice or exit.
+If an individual has an internal locus of control, they’re more likely to
+choose a response that’s proactive. That is, if they believe they have control
+over their actions and outcomes, they’re more likely to use voice or exit.
 
-   Someone who has an external locus of control — a belief that their life
-   is controlled by external circumstances — is more likely to passively
-   endure a bad situation (loyalty or neglect).
+Someone who has an external locus of control — a belief that their life is
+controlled by external circumstances — is more likely to passively endure a bad
+situation (loyalty or neglect).
 
 Attractiveness of Alternatives
 
-   If someone feels like there are better options outside their current
-   job/relationship/church, they’re more likely to leave.
+If someone feels like there are better options outside their current job/
+relationship/church, they’re more likely to leave. 
 
-   If someone’s in a job they dislike and has been fielding hiring
-   interest from another employer, they’re more likely to quit.
+If someone’s in a job they dislike and has been fielding hiring interest from
+another employer, they’re more likely to quit.
 
-   If, on the other hand, someone feels they won’t be able to do much
-   better in an alternate situation, they’re more likely to exercise the
-   options of voice, loyalty, and neglect.
+If, on the other hand, someone feels they won’t be able to do much better in an
+alternate situation, they’re more likely to exercise the options of voice,
+loyalty, and neglect.
 
-   An individual who’s sixty and in a so-so marriage may not feel bullish
-   about their prospects of finding another partner and decide they’d
-   rather be with someone, anyone, than alone.
+An individual who’s sixty and in a so-so marriage may not feel bullish about
+their prospects of finding another partner and decide they’d rather be with
+someone, anyone, than alone.
 
 Commitment
 
-   The decision to go, stay, or otherwise is also rooted in one’s inner
-   values.
+The decision to go, stay, or otherwise is also rooted in one’s inner values. 
 
-   Someone in an unhappy marriage who’s deeply committed to the sanctity
-   of the marriage vow is more likely to choose therapy over divorce.
+Someone in an unhappy marriage who’s deeply committed to the sanctity of the
+marriage vow is more likely to choose therapy over divorce. 
 
-   Someone who is disturbed by recent trends in their church but deeply
-   believes in the tenets of their faith is more likely to stay than
-   exit.
+Someone who is disturbed by recent trends in their church but deeply believes
+in the tenets of their faith is more likely to stay than exit. 
 
-   Someone who prizes loyalty will stay longer in a job they dislike than
-   someone who doesn’t.
+Someone who prizes loyalty will stay longer in a job they dislike than someone
+who doesn’t. 
 
 Will Someone Choose Exit, Voice, Loyalty, or Neglect?
 
-   In a series of studies, Withey and Cooper used the above factors to
-   create a rubric that helps predict which response a dissatisfied
-   employee will use. It likely carries over to people dissatisfied with
-   other situations as well:
+In a series of studies, Withey and Cooper used the above factors to create a
+rubric that helps predict which response a dissatisfied employee will use. It
+likely carries over to people dissatisfied with other situations as well:
 
-   Exit More Likely When:
-     * costs of exit are low
-     * costs of voice are high
-     * prior satisfaction is low
-     * belief in improvement is low
-     * commitment is low
-     * attractive alternatives are available
-     * individual has an internal locus of control
+Exit More Likely When: 
 
-   Voice More Likely When:
-     * costs of exit are high
-     * costs of voice are low
-     * prior satisfaction is high
-     * belief in improvement is high
-     * commitment is high
-     * attractive alternatives are not available
-     * individual has an internal locus of control
+  • costs of exit are low
+  • costs of voice are high
+  • prior satisfaction is low
+  • belief in improvement is low
+  • commitment is low
+  • attractive alternatives are available
+  • individual has an internal locus of control
 
-   Loyalty More Likely When:
-     * costs of exit are high
-     * costs of voice are high
-     * prior satisfaction is high
-     * belief in the likelihood of improvement is high
-     * commitment is high
-     * attractive alternatives are not available
-     * individual has an external locus of control
+Voice More Likely When:
 
-   Neglect More Likely When:
-     * costs of exit are high
-     * costs of voice are high
-     * prior satisfaction is low
-     * belief in the likelihood of improvement is low
-     * commitment is low
-     * attractive alternatives are not available
-     * individual has an external locus of control
+  • costs of exit are high
+  • costs of voice are low
+  • prior satisfaction is high
+  • belief in improvement is high
+  • commitment is high
+  • attractive alternatives are not available
+  • individual has an internal locus of control
 
-   Something that Withey and Cooper didn’t explore, but Hirschman did, is
-   the phenomenon of people who exercise the option of exit and voice.
+Loyalty More Likely When:
 
-   Hirschman argued that you see people use both exit and voice in
-   situations where even if they leave a group due to dissatisfaction,
-   they’re still affected by the group’s actions.
+  • costs of exit are high
+  • costs of voice are high
+  • prior satisfaction is high
+  • belief in the likelihood of improvement is high
+  • commitment is high
+  • attractive alternatives are not available
+  • individual has an external locus of control
 
-   You see this phenomenon with people who become disaffected with a
-   church or religion. They may leave a faith, but they still have friends
-   and family members who belong to it. Because the disaffected individual
-   still interacts with these people, whose faith informs these
-   interactions, the disaffected person is still impacted by the faith,
-   even if they no longer practice it. At the same time, an individual who
-   leaves a religion may feel that the religion damaged them somehow, and,
-   though they have removed themselves from its direct influence, they
-   don’t want to see other people get hurt in the same way.
+Neglect More Likely When:
 
-   Consequently, people who leave a religion sometimes become its most
-   vocal critics.
+  • costs of exit are high
+  • costs of voice are high
+  • prior satisfaction is low
+  • belief in the likelihood of improvement is low
+  • commitment is low
+  • attractive alternatives are not available
+  • individual has an external locus of control
+
+Something that Withey and Cooper didn’t explore, but Hirschman did, is the
+phenomenon of people who exercise the option of exit and voice. 
+
+Hirschman argued that you see people use both exit and voice in situations
+where even if they leave a group due to dissatisfaction, they’re still affected
+by the group’s actions. 
+
+You see this phenomenon with people who become disaffected with a church or
+religion. They may leave a faith, but they still have friends and family
+members who belong to it. Because the disaffected individual still interacts
+with these people, whose faith informs these interactions, the disaffected
+person is still impacted by the faith, even if they no longer practice it. At
+the same time, an individual who leaves a religion may feel that the religion
+damaged them somehow, and, though they have removed themselves from its direct
+influence, they don’t want to see other people get hurt in the same way. 
+
+Consequently, people who leave a religion sometimes become its most vocal
+critics. 
 
 Conclusion
 
-   As I mentioned at the start, once I learned about the exit, voice,
-   loyalty, and neglect paradigm, I started to see it everywhere. If
-   you’re a business owner, it can help explain why customers react to a
-   dissatisfying experience the way they do. If you’re in a bad
-   relationship, it can help you think about what action you want to take.
-   If you’re a leader in a church, it can help you figure out why some
-   people leave your congregation while others stick around.
+As I mentioned at the start, once I learned about the exit, voice, loyalty, and
+neglect paradigm, I started to see it everywhere. If you’re a business owner,
+it can help explain why customers react to a dissatisfying experience the way
+they do. If you’re in a bad relationship, it can help you think about what
+action you want to take. If you’re a leader in a church, it can help you figure
+out why some people leave your congregation while others stick around.
 
-   It can also help you understand why struggling groups often continue to
-   struggle: If a group loses enough good people, it’s apt to enter a
-   death spiral.
+It can also help you understand why struggling groups often continue to
+struggle: If a group loses enough good people, it’s apt to enter a death
+spiral.
 
-   As you go about dealing with people in all kinds of situations, the
-   ELVN framework is one mental model you’ll want to keep in your back
-   pocket.
+As you go about dealing with people in all kinds of situations, the ELVN
+framework is one mental model you’ll want to keep in your back pocket.
 
 Related Posts
 
-     * [111]Manvotional: The Right Kind of People
-     * [112]How to Develop a Manly Voice [VIDEO]
-     * [113]Podcast #506: How to Improve Your Speaking Voice
-     * [114]Develop a Strong He-Man Voice by Using the Voice Nature Gave
-       You
-     * [115]Sunday Firesides: You Are Not Responsible for Other People's
-       Feelings
-     * [116]Sunday Firesides: Why Bad Things Happen to Good People
-       (According to a Stoic)
+  • [177][man]
+    [178]Manvotional: The Right Kind of People
+  • [179][manly-voice]
+    [180]How to Develop a Manly Voice [VIDEO]
+  • [181][voice]
+    [182]Podcast #506: How to Improve Your Speaking Voice
+  • [183][he7]
+    [184]Develop a Strong He-Man Voice by Using the Voice Nature Gave You
+  • [185][Other-Peoples-Feelings-Header-BLANK]
+    [186]Sunday Firesides: You Are Not Responsible for Other People's Feelings
+  • [187][Bad-to-Good-BLANK]
+    [188]Sunday Firesides: Why Bad Things Happen to Good People (According to a
+    Stoic)
 
-   [117]Previous [118]Next
+[189] Previous [190]Next
+document
 
-   document
+Never miss an update
 
-   Never miss an update
+Subscribe to the AoM Newsletter
 
-   Subscribe to the AoM Newsletter
-   ____________________
-   ____________________
-   Daily [ ] Weekly [ ]
-   I agree to the [119]privacy policy terms. [ ]
-   Subscribe
+[191][                    ]
+[192][                    ]
+Daily [193][ ] Weekly [194][ ]
+I agree to the [195]privacy policy terms. [196][ ]
+[198][Subscribe]
+Want to start taking action on the content you read on AoM?
 
-   teddy teddy icon
+[199]Join the Strenuous Life
+[200]Learn More
+document
 
-   Want to start taking action on the content you read on AoM?
-   [120]Join the Strenuous Life
-   [121]Learn More
+Never miss an update
 
-   document
+Subscribe to the AoM Newsletter
 
-   Never miss an update
+[201][                    ]
+[202][                    ]
+Daily [203][ ] Weekly [204][ ]
+I agree to the [205]privacy policy terms. [206][ ]
+[208][Subscribe]
+podcast [209] podcast icon [210] Podcast #959
 
-   Subscribe to the AoM Newsletter
-   ____________________
-   ____________________
-   Daily [ ] Weekly [ ]
-   I agree to the [122]privacy policy terms. [ ]
-   Subscribe
+Come Alive Again by Having More Fun
 
-   podcast
-
-   [123]podcast icon
-
-   [124]Podcast #958
+[211] podcast icon [212] Podcast #958
 
 An Insider’s Guide to the Rise of the American Mafia
 
-   [125]podcast icon
-
-   [126]Podcast #957
+[213] podcast icon [214] Podcast #957
 
 How Curiosity Conversations Can Supercharge Your Success
 
-   [127]podcast icon
-
-   [128]Podcast #956
+[215] podcast icon [216] Podcast #956
 
 Feeling Depressed and Discombobulated? Social Acceleration May Be to Blame
 
-   [129]podcast icon
+[217]View all
 
-   [130]Podcast #955
+Related
 
-The Power of NEAT — Move a Little to Lose a Lot
+Articles///
 
-   [131]View all
-
-   Related
-
-   Articles///
-   [132]
+[218]
 
 Podcast #958: An Insider’s Guide to the Rise of the American Mafia
 
-   [133]
+[219]
 
 Sunday Firesides: First Day, Worst Day
 
-   [134]
+[220]
 
 Rage, Rage Against the Dying Back of the Brain
 
-   [135]
+[221]
 
-Podcast #956: Feeling Depressed and Discombobulated? Social Acceleration May
-Be to Blame
+Podcast #956: Feeling Depressed and Discombobulated? Social Acceleration May Be
+to Blame
 
-   [136]View all
+[222]View all
 
-   Get Daily Updates
-   [137]Text MANLY to (918) 393-3049
+Get Daily Updates
+[223]Text MANLY to (918) 393-3049
+The Art of Manliness
+Copyright © 2024 All Rights Reserved
 
-   The Art of Manliness
-   Copyright © 2024 All Rights Reserved
+  • [224]Contact
+  • [225]Legal
+  • [226]About
+  • [227]All Topics
+  • [228]Archives
 
-     * [138]Contact
-     * [139]Legal
-     * [140]About
-     * [141]All Topics
-     * [142]Archives
+The Art of Manliness participates in affiliate marketing programs, which means
+we get paid commissions on editorially chosen products purchased through our
+links. We only recommend products we genuinely like, and purchases made through
+our links support our mission and the free content we publish here on AoM.
 
-   The Art of Manliness participates in affiliate marketing programs,
-   which means we get paid commissions on editorially chosen products
-   purchased through our links. We only recommend products we genuinely
-   like, and purchases made through our links support our mission and the
-   free content we publish here on AoM.
 
-References
+References:
 
-   Visible links:
-   1. https://www.artofmanliness.com/app-json/wp/v2/posts/178403
-   2. https://www.artofmanliness.com/app-json/oembed/1.0/embed?url=https://www.artofmanliness.com/character/behavior/exit-voice-loyalty-neglect-why-people-leave-stay-or-try-to-burn-it-all-down/
-   3. https://www.artofmanliness.com/app-json/oembed/1.0/embed?url=https://www.artofmanliness.com/character/behavior/exit-voice-loyalty-neglect-why-people-leave-stay-or-try-to-burn-it-all-down/&format=xml
-   4. https://www.googletagmanager.com/ns.html?id=GTM-KXJGHMC
-   5. https://www.artofmanliness.com/
-   6. https://www.artofmanliness.com/podcast
-   7. https://www.artofmanliness.com/style/
-   8. https://www.artofmanliness.com/style/clothing/
-   9. https://www.artofmanliness.com/style/accessories/
-  10. https://www.artofmanliness.com/style/facial-hair/
-  11. https://www.artofmanliness.com/style/ties/
-  12. https://www.artofmanliness.com/health-fitness/
-  13. https://www.artofmanliness.com/health-fitness/fitness/
-  14. https://www.artofmanliness.com/health-fitness/health/
-  15. https://www.artofmanliness.com/health-fitness/program-review/
-  16. https://www.artofmanliness.com/people/
-  17. https://www.artofmanliness.com/people/family/
-  18. https://www.artofmanliness.com/people/fatherhood/
-  19. https://www.artofmanliness.com/people/relationships/
-  20. https://www.artofmanliness.com/people/social-skills/
-  21. https://www.artofmanliness.com/skills/
-  22. https://www.artofmanliness.com/skills/how-to/
-  23. https://www.artofmanliness.com/skills/manly-know-how/
-  24. https://www.artofmanliness.com/skills/outdoor-survival/
-  25. https://www.artofmanliness.com/podcast/
-  26. https://store.artofmanliness.com/collections/books/
-  27. https://www.instagram.com/artofmanliness/
-  28. https://feedly.com/i/subscription/feed/http://feeds2.feedburner.com/TheArtOfManliness
-  29. https://www.facebook.com/artofmanliness/
-  30. https://twitter.com/artofmanliness
-  31. https://www.youtube.com/user/artofmanliness
-  32. https://www.artofmanliness.com/style/clothing/
-  33. https://www.artofmanliness.com/style/accessories/
-  34. https://www.artofmanliness.com/style/facial-hair/
-  35. https://www.artofmanliness.com/style/ties/
-  36. https://www.artofmanliness.com/style/clothing/3-ways-to-wear-a-henley-shirt/
-  37. https://www.artofmanliness.com/style/clothing/a-mans-guide-to-the-oxford-shirt/
-  38. https://www.artofmanliness.com/style/clothing/30-second-suit-quality-test/
-  39. https://www.artofmanliness.com/style/clothing/how-to-get-the-stink-out-of-workout-shirts/
-  40. https://www.artofmanliness.com/style/did-commandos-go-commando/
-  41. https://www.artofmanliness.com/style/accessories/guide-to-fragrance/
-  42. https://www.artofmanliness.com/style/accessories/huckberry-weekender-sunglasses/
-  43. https://www.artofmanliness.com/style/accessories/how-to-pick-mens-wedding-ring/
-  44. https://www.artofmanliness.com/style/facial-hair/your-no-nonsense-guide-to-choosing-the-right-beard-style/
-  45. https://www.artofmanliness.com/style/facial-hair/growing-a-manly-beard/
-  46. https://www.artofmanliness.com/style/facial-hair/beard-oil-faq/
-  47. https://www.artofmanliness.com/style/facial-hair/beard-grooming-products-routine/
-  48. https://www.artofmanliness.com/style/ties/5-ways-to-tie-a-scarf-your-60-second-visual-guide/
-  49. https://www.artofmanliness.com/style/ties/how-to-tie-a-tie/
-  50. https://www.artofmanliness.com/style/ties/how-to-tie-a-half-windsor-knot/
-  51. https://www.artofmanliness.com/style/ties/how-to-match-a-shirt-and-tie/
-  52. https://www.artofmanliness.com/style/
-  53. https://www.artofmanliness.com/health-fitness/fitness/
-  54. https://www.artofmanliness.com/health-fitness/health/
-  55. https://www.artofmanliness.com/health-fitness/program-review/
-  56. https://www.artofmanliness.com/health-fitness/fitness/podcast-955-the-power-of-neat-move-a-little-to-lose-a-lot/
-  57. https://www.artofmanliness.com/health-fitness/fitness/podcast-767-fat-loss-made-simple/
-  58. https://www.artofmanliness.com/health-fitness/fitness/mike-mentzer-heavy-duty/
-  59. https://www.artofmanliness.com/health-fitness/fitness/podcast-939-what-lifting-ancient-stones-can-teach-you-about-being-a-man/
-  60. https://www.artofmanliness.com/health-fitness/health/what-you-can-learn-about-shedding-pounds-from-the-vacation-weight-loss-paradox/
-  61. https://www.artofmanliness.com/health-fitness/health/you-need-to-eat-more-fiber/
-  62. https://www.artofmanliness.com/health-fitness/health/silencing-the-ring-proven-strategies-for-tinnitus-relief/
-  63. https://www.artofmanliness.com/health-fitness/health/podcast-947-turn-your-anxiety-into-a-strength/
-  64. https://www.artofmanliness.com/health-fitness/program-review/the-insanely-difficult-standards-of-historys-hardest-p-e-program/
-  65. https://www.artofmanliness.com/health-fitness/program-review/fitness-program-right/
-  66. https://www.artofmanliness.com/health-fitness/program-review/a-review-of-the-movnat-workshop/
-  67. https://www.artofmanliness.com/health-fitness/program-review/atomic-athlete-vanguard/
-  68. https://www.artofmanliness.com/health-fitness/
-  69. https://www.artofmanliness.com/people/family/
-  70. https://www.artofmanliness.com/people/fatherhood/
-  71. https://www.artofmanliness.com/people/relationships/
-  72. https://www.artofmanliness.com/people/social-skills/
-  73. https://www.artofmanliness.com/people/family/podcast-946-counterintuitive-ideas-about-marriage-family-and-kids/
-  74. https://www.artofmanliness.com/people/family/riddles-for-kids/
-  75. https://www.artofmanliness.com/people/family/podcast-sibling-ambivalent/
-  76. https://www.artofmanliness.com/people/family/how-to-develop-gratitude-in-your-kids/
-  77. https://www.artofmanliness.com/people/fatherhood/how-to-parent-teacher-conference/
-  78. https://www.artofmanliness.com/people/fatherhood/5-ways-fathers-hugely-influence-on-their-daughters/
-  79. https://www.artofmanliness.com/people/fatherhood/sunday-firesides-we-shouldnt-and-should-be-friends-with-our-kids/
-  80. https://www.artofmanliness.com/people/fatherhood/what-to-do-when-your-kid-lies-to-you/
-  81. https://www.artofmanliness.com/people/relationships/sunday-firesides-can-we-finally-stop-blaming-the-puritans/
-  82. https://www.artofmanliness.com/people/relationships/sunday-firesides-the-sit-in-silence-relationship-test/
-  83. https://www.artofmanliness.com/people/relationships/sunday-firesides-treat-people-as-ends-not-means/
-  84. https://www.artofmanliness.com/people/relationships/podcast-920-advice-on-making-love-last-from-a-divorce-lawyer/
-  85. https://www.artofmanliness.com/people/social-skills/podcast-957-how-curiosity-conversations-can-supercharge-your-success/
-  86. https://www.artofmanliness.com/people/social-skills/podcast-837-the-cues-that-make-you-charismatic/
-  87. https://www.artofmanliness.com/people/social-skills/podcast-938-social-skills-as-the-road-to-character/
-  88. https://www.artofmanliness.com/people/social-skills/podcast-915-finally-learn-to-say-no/
-  89. https://www.artofmanliness.com/people/
-  90. https://www.artofmanliness.com/skills/how-to/
-  91. https://www.artofmanliness.com/skills/manly-know-how/
-  92. https://www.artofmanliness.com/skills/outdoor-survival/
-  93. https://www.artofmanliness.com/skills/how-to/how-to-wrap-a-gift-an-illustrated-guide/
-  94. https://www.artofmanliness.com/skills/how-to/how-to-de-ice-your-windshield-easily-and-effectively/
-  95. https://www.artofmanliness.com/skills/how-to/how-to-paint-a-room/
-  96. https://www.artofmanliness.com/skills/how-to/store-stack-firewood/
-  97. https://www.artofmanliness.com/skills/manly-know-how/build-cozy-fireplace-fire-wont-get-smoky/
-  98. https://www.artofmanliness.com/skills/manly-know-how/how-to-adjust-your-car-mirrors-to-eliminate-blind-spots/
-  99. https://www.artofmanliness.com/skills/manly-know-how/how-throw-a-spiral-football/
- 100. https://www.artofmanliness.com/skills/manly-know-how/whats-the-difference-between-gas-octanes/
- 101. https://www.artofmanliness.com/skills/outdoor-survival/how-to-build-a-quinzee-snow-shelter-illustrated-guide/
- 102. https://www.artofmanliness.com/skills/outdoor-survival/how-to-survive-an-earthquake/
- 103. https://www.artofmanliness.com/skills/outdoor-survival/two-things-you-should-be-doing-to-take-better-care-of-your-camping-gear/
- 104. https://www.artofmanliness.com/skills/outdoor-survival/how-to-emergency-rappel/
- 105. https://www.artofmanliness.com/skills/
- 106. https://www.artofmanliness.com/character/behavior/
- 107. https://www.artofmanliness.com/character/
- 108. https://amzn.to/3Prv3ox
- 109. https://text2fa.ir/wp-content/uploads/Text2fa.ir-Exit-Voice-Loyalty-and-Neglect-1.pdf
- 110. https://www.jstor.org/stable/2393565
- 111. https://www.artofmanliness.com/character/manly-lessons/manvotional-the-right-kind-of-people/
- 112. https://www.artofmanliness.com/skills/how-to/how-to-develop-a-manly-voice-video/
- 113. https://www.artofmanliness.com/character/behavior/improve-your-speaking-voice/
- 114. https://www.artofmanliness.com/skills/how-to/masculine-voice/
- 115. https://www.artofmanliness.com/character/advice/sunday-firesides-you-are-not-responsible-for-other-peoples-feelings/
- 116. https://www.artofmanliness.com/character/sunday-firesides-why-bad-things-happen-to-good-people-according-to-a-stoic/
- 117. https://www.artofmanliness.com/character/advice/podcast-753-take-back-the-weekend/
- 118. https://www.artofmanliness.com/character/advice/podcast-924-how-to-develop-rugged-flexibility/
- 119. https://www.artofmanliness.com/character/behavior/exit-voice-loyalty-neglect-why-people-leave-stay-or-try-to-burn-it-all-down/
- 120. https://strenuouslife.co/
- 121. https://strenuouslife.co/
- 122. https://www.artofmanliness.com/character/behavior/exit-voice-loyalty-neglect-why-people-leave-stay-or-try-to-burn-it-all-down/
- 123. https://www.artofmanliness.com/character/knowledge-of-men/podcast-958-an-insiders-guide-to-the-rise-of-the-american-mafia/
- 124. https://www.artofmanliness.com/character/knowledge-of-men/podcast-958-an-insiders-guide-to-the-rise-of-the-american-mafia/
- 125. https://www.artofmanliness.com/people/social-skills/podcast-957-how-curiosity-conversations-can-supercharge-your-success/
- 126. https://www.artofmanliness.com/people/social-skills/podcast-957-how-curiosity-conversations-can-supercharge-your-success/
- 127. https://www.artofmanliness.com/character/behavior/podcast-956-feeling-depressed-and-discombobulated-social-acceleration-may-be-to-blame/
- 128. https://www.artofmanliness.com/character/behavior/podcast-956-feeling-depressed-and-discombobulated-social-acceleration-may-be-to-blame/
- 129. https://www.artofmanliness.com/health-fitness/fitness/podcast-955-the-power-of-neat-move-a-little-to-lose-a-lot/
- 130. https://www.artofmanliness.com/health-fitness/fitness/podcast-955-the-power-of-neat-move-a-little-to-lose-a-lot/
- 131. https://www.artofmanliness.com/podcast/
- 132. https://www.artofmanliness.com/character/knowledge-of-men/podcast-958-an-insiders-guide-to-the-rise-of-the-american-mafia/
- 133. https://www.artofmanliness.com/character/advice/sunday-firesides-first-day-worst-day/
- 134. https://www.artofmanliness.com/character/knowledge-of-men/rage-rage-against-the-dying-back-of-the-brain/
- 135. https://www.artofmanliness.com/character/behavior/podcast-956-feeling-depressed-and-discombobulated-social-acceleration-may-be-to-blame/
- 136. https://www.artofmanliness.com/character/behavior/
- 137. https://my.community.com/artofmanliness?t=manly
- 138. https://www.artofmanliness.com/contact/
- 139. https://www.artofmanliness.com/privacy-policy/
- 140. https://www.artofmanliness.com/about-2/
- 141. https://www.artofmanliness.com/all-topics/
- 142. https://www.artofmanliness.com/archives/
-
-   Hidden links:
- 144. https://www.artofmanliness.com/style/clothing/3-ways-to-wear-a-henley-shirt/
- 145. https://www.artofmanliness.com/style/clothing/a-mans-guide-to-the-oxford-shirt/
- 146. https://www.artofmanliness.com/style/clothing/30-second-suit-quality-test/
- 147. https://www.artofmanliness.com/style/clothing/how-to-get-the-stink-out-of-workout-shirts/
- 148. https://www.artofmanliness.com/style/did-commandos-go-commando/
- 149. https://www.artofmanliness.com/style/accessories/guide-to-fragrance/
- 150. https://www.artofmanliness.com/style/accessories/huckberry-weekender-sunglasses/
- 151. https://www.artofmanliness.com/style/accessories/how-to-pick-mens-wedding-ring/
- 152. https://www.artofmanliness.com/style/facial-hair/your-no-nonsense-guide-to-choosing-the-right-beard-style/
- 153. https://www.artofmanliness.com/style/facial-hair/growing-a-manly-beard/
- 154. https://www.artofmanliness.com/style/facial-hair/beard-oil-faq/
- 155. https://www.artofmanliness.com/style/facial-hair/beard-grooming-products-routine/
- 156. https://www.artofmanliness.com/style/ties/5-ways-to-tie-a-scarf-your-60-second-visual-guide/
- 157. https://www.artofmanliness.com/style/ties/how-to-tie-a-tie/
- 158. https://www.artofmanliness.com/style/ties/how-to-tie-a-half-windsor-knot/
- 159. https://www.artofmanliness.com/style/ties/how-to-match-a-shirt-and-tie/
- 160. https://www.artofmanliness.com/health-fitness/fitness/podcast-955-the-power-of-neat-move-a-little-to-lose-a-lot/
- 161. https://www.artofmanliness.com/health-fitness/fitness/podcast-767-fat-loss-made-simple/
- 162. https://www.artofmanliness.com/health-fitness/fitness/mike-mentzer-heavy-duty/
- 163. https://www.artofmanliness.com/health-fitness/fitness/podcast-939-what-lifting-ancient-stones-can-teach-you-about-being-a-man/
- 164. https://www.artofmanliness.com/health-fitness/health/what-you-can-learn-about-shedding-pounds-from-the-vacation-weight-loss-paradox/
- 165. https://www.artofmanliness.com/health-fitness/health/you-need-to-eat-more-fiber/
- 166. https://www.artofmanliness.com/health-fitness/health/silencing-the-ring-proven-strategies-for-tinnitus-relief/
- 167. https://www.artofmanliness.com/health-fitness/health/podcast-947-turn-your-anxiety-into-a-strength/
- 168. https://www.artofmanliness.com/health-fitness/program-review/the-insanely-difficult-standards-of-historys-hardest-p-e-program/
- 169. https://www.artofmanliness.com/health-fitness/program-review/fitness-program-right/
- 170. https://www.artofmanliness.com/health-fitness/program-review/a-review-of-the-movnat-workshop/
- 171. https://www.artofmanliness.com/health-fitness/program-review/atomic-athlete-vanguard/
- 172. https://www.artofmanliness.com/people/family/podcast-946-counterintuitive-ideas-about-marriage-family-and-kids/
- 173. https://www.artofmanliness.com/people/family/riddles-for-kids/
- 174. https://www.artofmanliness.com/people/family/podcast-sibling-ambivalent/
- 175. https://www.artofmanliness.com/people/family/how-to-develop-gratitude-in-your-kids/
- 176. https://www.artofmanliness.com/people/fatherhood/how-to-parent-teacher-conference/
- 177. https://www.artofmanliness.com/people/fatherhood/5-ways-fathers-hugely-influence-on-their-daughters/
- 178. https://www.artofmanliness.com/people/fatherhood/sunday-firesides-we-shouldnt-and-should-be-friends-with-our-kids/
- 179. https://www.artofmanliness.com/people/fatherhood/what-to-do-when-your-kid-lies-to-you/
- 180. https://www.artofmanliness.com/people/relationships/sunday-firesides-can-we-finally-stop-blaming-the-puritans/
- 181. https://www.artofmanliness.com/people/relationships/sunday-firesides-the-sit-in-silence-relationship-test/
- 182. https://www.artofmanliness.com/people/relationships/sunday-firesides-treat-people-as-ends-not-means/
- 183. https://www.artofmanliness.com/people/relationships/podcast-920-advice-on-making-love-last-from-a-divorce-lawyer/
- 184. https://www.artofmanliness.com/people/social-skills/podcast-957-how-curiosity-conversations-can-supercharge-your-success/
- 185. https://www.artofmanliness.com/people/social-skills/podcast-837-the-cues-that-make-you-charismatic/
- 186. https://www.artofmanliness.com/people/social-skills/podcast-938-social-skills-as-the-road-to-character/
- 187. https://www.artofmanliness.com/people/social-skills/podcast-915-finally-learn-to-say-no/
- 188. https://www.artofmanliness.com/skills/how-to/how-to-wrap-a-gift-an-illustrated-guide/
- 189. https://www.artofmanliness.com/skills/how-to/how-to-de-ice-your-windshield-easily-and-effectively/
- 190. https://www.artofmanliness.com/skills/how-to/how-to-paint-a-room/
- 191. https://www.artofmanliness.com/skills/how-to/store-stack-firewood/
- 192. https://www.artofmanliness.com/skills/manly-know-how/build-cozy-fireplace-fire-wont-get-smoky/
- 193. https://www.artofmanliness.com/skills/manly-know-how/how-to-adjust-your-car-mirrors-to-eliminate-blind-spots/
- 194. https://www.artofmanliness.com/skills/manly-know-how/how-throw-a-spiral-football/
- 195. https://www.artofmanliness.com/skills/manly-know-how/whats-the-difference-between-gas-octanes/
- 196. https://www.artofmanliness.com/skills/outdoor-survival/how-to-build-a-quinzee-snow-shelter-illustrated-guide/
- 197. https://www.artofmanliness.com/skills/outdoor-survival/how-to-survive-an-earthquake/
- 198. https://www.artofmanliness.com/skills/outdoor-survival/two-things-you-should-be-doing-to-take-better-care-of-your-camping-gear/
- 199. https://www.artofmanliness.com/skills/outdoor-survival/how-to-emergency-rappel/
- 200. https://getpocket.com/edit?url=https://www.artofmanliness.com/character/behavior/exit-voice-loyalty-neglect-why-people-leave-stay-or-try-to-burn-it-all-down/
- 201. https://www.facebook.com/sharer.php?u=https://www.artofmanliness.com/character/behavior/exit-voice-loyalty-neglect-why-people-leave-stay-or-try-to-burn-it-all-down/
- 202. https://pinterest.com/pin/create/link/?url=https://www.artofmanliness.com/character/behavior/exit-voice-loyalty-neglect-why-people-leave-stay-or-try-to-burn-it-all-down/
- 203. https://twitter.com/intent/tweet?url=https://www.artofmanliness.com/character/behavior/exit-voice-loyalty-neglect-why-people-leave-stay-or-try-to-burn-it-all-down/
- 204. https://www.artofmanliness.com/cdn-cgi/l/email-protection#142b767b706d297c606064672e3b3b6363633a7566607b7279757a787d7a7167673a777b793b777c756675776071663b76717c75627d7b663b716c7d6039627b7d777139787b6d7578606d397a71737871776039637c6d3964717b647871397871756271396760756d397b663960666d39607b397661667a397d603975787839707b637a3b
- 205. https://www.artofmanliness.com/character/manly-lessons/manvotional-the-right-kind-of-people/
- 206. https://www.artofmanliness.com/skills/how-to/how-to-develop-a-manly-voice-video/
- 207. https://www.artofmanliness.com/character/behavior/improve-your-speaking-voice/
- 208. https://www.artofmanliness.com/skills/how-to/masculine-voice/
- 209. https://www.artofmanliness.com/character/advice/sunday-firesides-you-are-not-responsible-for-other-peoples-feelings/
- 210. https://www.artofmanliness.com/character/sunday-firesides-why-bad-things-happen-to-good-people-according-to-a-stoic/
+[1] https://www.artofmanliness.com/
+[2] https://www.artofmanliness.com/podcast
+[5] https://www.artofmanliness.com/style/
+[6] https://www.artofmanliness.com/style/clothing/
+[7] https://www.artofmanliness.com/style/accessories/
+[8] https://www.artofmanliness.com/style/facial-hair/
+[9] https://www.artofmanliness.com/style/ties/
+[10] https://www.artofmanliness.com/health-fitness/
+[11] https://www.artofmanliness.com/health-fitness/fitness/
+[12] https://www.artofmanliness.com/health-fitness/health/
+[13] https://www.artofmanliness.com/health-fitness/program-review/
+[14] https://www.artofmanliness.com/people/
+[15] https://www.artofmanliness.com/people/family/
+[16] https://www.artofmanliness.com/people/fatherhood/
+[17] https://www.artofmanliness.com/people/relationships/
+[18] https://www.artofmanliness.com/people/social-skills/
+[19] https://www.artofmanliness.com/skills/
+[20] https://www.artofmanliness.com/skills/how-to/
+[21] https://www.artofmanliness.com/skills/manly-know-how/
+[22] https://www.artofmanliness.com/skills/outdoor-survival/
+[23] https://www.artofmanliness.com/podcast/
+[24] https://store.artofmanliness.com/collections/books/
+[25] https://www.instagram.com/artofmanliness/
+[26] https://feedly.com/i/subscription/feed/http%3A//feeds2.feedburner.com/TheArtOfManliness
+[27] https://www.facebook.com/artofmanliness/
+[28] https://twitter.com/artofmanliness
+[29] https://www.youtube.com/user/artofmanliness
+[32] https://www.artofmanliness.com/style/clothing/
+[33] https://www.artofmanliness.com/style/accessories/
+[34] https://www.artofmanliness.com/style/facial-hair/
+[35] https://www.artofmanliness.com/style/ties/
+[36] https://www.artofmanliness.com/style/clothing/3-ways-to-wear-a-henley-shirt/
+[37] https://www.artofmanliness.com/style/clothing/3-ways-to-wear-a-henley-shirt/
+[38] https://www.artofmanliness.com/style/clothing/a-mans-guide-to-the-oxford-shirt/
+[39] https://www.artofmanliness.com/style/clothing/a-mans-guide-to-the-oxford-shirt/
+[40] https://www.artofmanliness.com/style/clothing/30-second-suit-quality-test/
+[41] https://www.artofmanliness.com/style/clothing/30-second-suit-quality-test/
+[42] https://www.artofmanliness.com/style/clothing/how-to-get-the-stink-out-of-workout-shirts/
+[43] https://www.artofmanliness.com/style/clothing/how-to-get-the-stink-out-of-workout-shirts/
+[44] https://www.artofmanliness.com/style/did-commandos-go-commando/
+[45] https://www.artofmanliness.com/style/did-commandos-go-commando/
+[46] https://www.artofmanliness.com/style/accessories/guide-to-fragrance/
+[47] https://www.artofmanliness.com/style/accessories/guide-to-fragrance/
+[48] https://www.artofmanliness.com/style/accessories/huckberry-weekender-sunglasses/
+[49] https://www.artofmanliness.com/style/accessories/huckberry-weekender-sunglasses/
+[50] https://www.artofmanliness.com/style/accessories/how-to-pick-mens-wedding-ring/
+[51] https://www.artofmanliness.com/style/accessories/how-to-pick-mens-wedding-ring/
+[52] https://www.artofmanliness.com/style/facial-hair/your-no-nonsense-guide-to-choosing-the-right-beard-style/
+[53] https://www.artofmanliness.com/style/facial-hair/your-no-nonsense-guide-to-choosing-the-right-beard-style/
+[54] https://www.artofmanliness.com/style/facial-hair/growing-a-manly-beard/
+[55] https://www.artofmanliness.com/style/facial-hair/growing-a-manly-beard/
+[56] https://www.artofmanliness.com/style/facial-hair/beard-oil-faq/
+[57] https://www.artofmanliness.com/style/facial-hair/beard-oil-faq/
+[58] https://www.artofmanliness.com/style/facial-hair/beard-grooming-products-routine/
+[59] https://www.artofmanliness.com/style/facial-hair/beard-grooming-products-routine/
+[60] https://www.artofmanliness.com/style/ties/5-ways-to-tie-a-scarf-your-60-second-visual-guide/
+[61] https://www.artofmanliness.com/style/ties/5-ways-to-tie-a-scarf-your-60-second-visual-guide/
+[62] https://www.artofmanliness.com/style/ties/how-to-tie-a-tie/
+[63] https://www.artofmanliness.com/style/ties/how-to-tie-a-tie/
+[64] https://www.artofmanliness.com/style/ties/how-to-tie-a-half-windsor-knot/
+[65] https://www.artofmanliness.com/style/ties/how-to-tie-a-half-windsor-knot/
+[66] https://www.artofmanliness.com/style/ties/how-to-match-a-shirt-and-tie/
+[67] https://www.artofmanliness.com/style/ties/how-to-match-a-shirt-and-tie/
+[68] https://www.artofmanliness.com/style/
+[69] https://www.artofmanliness.com/health-fitness/fitness/
+[70] https://www.artofmanliness.com/health-fitness/health/
+[71] https://www.artofmanliness.com/health-fitness/program-review/
+[72] https://www.artofmanliness.com/health-fitness/fitness/podcast-955-the-power-of-neat-move-a-little-to-lose-a-lot/
+[73] https://www.artofmanliness.com/health-fitness/fitness/podcast-955-the-power-of-neat-move-a-little-to-lose-a-lot/
+[74] https://www.artofmanliness.com/health-fitness/fitness/podcast-767-fat-loss-made-simple/
+[75] https://www.artofmanliness.com/health-fitness/fitness/podcast-767-fat-loss-made-simple/
+[76] https://www.artofmanliness.com/health-fitness/fitness/mike-mentzer-heavy-duty/
+[77] https://www.artofmanliness.com/health-fitness/fitness/mike-mentzer-heavy-duty/
+[78] https://www.artofmanliness.com/health-fitness/fitness/podcast-939-what-lifting-ancient-stones-can-teach-you-about-being-a-man/
+[79] https://www.artofmanliness.com/health-fitness/fitness/podcast-939-what-lifting-ancient-stones-can-teach-you-about-being-a-man/
+[80] https://www.artofmanliness.com/health-fitness/health/what-you-can-learn-about-shedding-pounds-from-the-vacation-weight-loss-paradox/
+[81] https://www.artofmanliness.com/health-fitness/health/what-you-can-learn-about-shedding-pounds-from-the-vacation-weight-loss-paradox/
+[82] https://www.artofmanliness.com/health-fitness/health/you-need-to-eat-more-fiber/
+[83] https://www.artofmanliness.com/health-fitness/health/you-need-to-eat-more-fiber/
+[84] https://www.artofmanliness.com/health-fitness/health/silencing-the-ring-proven-strategies-for-tinnitus-relief/
+[85] https://www.artofmanliness.com/health-fitness/health/silencing-the-ring-proven-strategies-for-tinnitus-relief/
+[86] https://www.artofmanliness.com/health-fitness/health/podcast-947-turn-your-anxiety-into-a-strength/
+[87] https://www.artofmanliness.com/health-fitness/health/podcast-947-turn-your-anxiety-into-a-strength/
+[88] https://www.artofmanliness.com/health-fitness/program-review/the-insanely-difficult-standards-of-historys-hardest-p-e-program/
+[89] https://www.artofmanliness.com/health-fitness/program-review/the-insanely-difficult-standards-of-historys-hardest-p-e-program/
+[90] https://www.artofmanliness.com/health-fitness/program-review/fitness-program-right/
+[91] https://www.artofmanliness.com/health-fitness/program-review/fitness-program-right/
+[92] https://www.artofmanliness.com/health-fitness/program-review/a-review-of-the-movnat-workshop/
+[93] https://www.artofmanliness.com/health-fitness/program-review/a-review-of-the-movnat-workshop/
+[94] https://www.artofmanliness.com/health-fitness/program-review/atomic-athlete-vanguard/
+[95] https://www.artofmanliness.com/health-fitness/program-review/atomic-athlete-vanguard/
+[96] https://www.artofmanliness.com/health-fitness/
+[97] https://www.artofmanliness.com/people/family/
+[98] https://www.artofmanliness.com/people/fatherhood/
+[99] https://www.artofmanliness.com/people/relationships/
+[100] https://www.artofmanliness.com/people/social-skills/
+[101] https://www.artofmanliness.com/people/family/podcast-946-counterintuitive-ideas-about-marriage-family-and-kids/
+[102] https://www.artofmanliness.com/people/family/podcast-946-counterintuitive-ideas-about-marriage-family-and-kids/
+[103] https://www.artofmanliness.com/people/family/riddles-for-kids/
+[104] https://www.artofmanliness.com/people/family/riddles-for-kids/
+[105] https://www.artofmanliness.com/people/family/podcast-sibling-ambivalent/
+[106] https://www.artofmanliness.com/people/family/podcast-sibling-ambivalent/
+[107] https://www.artofmanliness.com/people/family/how-to-develop-gratitude-in-your-kids/
+[108] https://www.artofmanliness.com/people/family/how-to-develop-gratitude-in-your-kids/
+[109] https://www.artofmanliness.com/people/fatherhood/how-to-parent-teacher-conference/
+[110] https://www.artofmanliness.com/people/fatherhood/how-to-parent-teacher-conference/
+[111] https://www.artofmanliness.com/people/fatherhood/5-ways-fathers-hugely-influence-on-their-daughters/
+[112] https://www.artofmanliness.com/people/fatherhood/5-ways-fathers-hugely-influence-on-their-daughters/
+[113] https://www.artofmanliness.com/people/fatherhood/sunday-firesides-we-shouldnt-and-should-be-friends-with-our-kids/
+[114] https://www.artofmanliness.com/people/fatherhood/sunday-firesides-we-shouldnt-and-should-be-friends-with-our-kids/
+[115] https://www.artofmanliness.com/people/fatherhood/what-to-do-when-your-kid-lies-to-you/
+[116] https://www.artofmanliness.com/people/fatherhood/what-to-do-when-your-kid-lies-to-you/
+[117] https://www.artofmanliness.com/people/relationships/sunday-firesides-can-we-finally-stop-blaming-the-puritans/
+[118] https://www.artofmanliness.com/people/relationships/sunday-firesides-can-we-finally-stop-blaming-the-puritans/
+[119] https://www.artofmanliness.com/people/relationships/sunday-firesides-the-sit-in-silence-relationship-test/
+[120] https://www.artofmanliness.com/people/relationships/sunday-firesides-the-sit-in-silence-relationship-test/
+[121] https://www.artofmanliness.com/people/relationships/sunday-firesides-treat-people-as-ends-not-means/
+[122] https://www.artofmanliness.com/people/relationships/sunday-firesides-treat-people-as-ends-not-means/
+[123] https://www.artofmanliness.com/people/relationships/podcast-920-advice-on-making-love-last-from-a-divorce-lawyer/
+[124] https://www.artofmanliness.com/people/relationships/podcast-920-advice-on-making-love-last-from-a-divorce-lawyer/
+[125] https://www.artofmanliness.com/people/social-skills/podcast-957-how-curiosity-conversations-can-supercharge-your-success/
+[126] https://www.artofmanliness.com/people/social-skills/podcast-957-how-curiosity-conversations-can-supercharge-your-success/
+[127] https://www.artofmanliness.com/people/social-skills/podcast-837-the-cues-that-make-you-charismatic/
+[128] https://www.artofmanliness.com/people/social-skills/podcast-837-the-cues-that-make-you-charismatic/
+[129] https://www.artofmanliness.com/people/social-skills/podcast-938-social-skills-as-the-road-to-character/
+[130] https://www.artofmanliness.com/people/social-skills/podcast-938-social-skills-as-the-road-to-character/
+[131] https://www.artofmanliness.com/people/social-skills/podcast-915-finally-learn-to-say-no/
+[132] https://www.artofmanliness.com/people/social-skills/podcast-915-finally-learn-to-say-no/
+[133] https://www.artofmanliness.com/people/
+[134] https://www.artofmanliness.com/skills/how-to/
+[135] https://www.artofmanliness.com/skills/manly-know-how/
+[136] https://www.artofmanliness.com/skills/outdoor-survival/
+[137] https://www.artofmanliness.com/skills/how-to/how-to-wrap-a-gift-an-illustrated-guide/
+[138] https://www.artofmanliness.com/skills/how-to/how-to-wrap-a-gift-an-illustrated-guide/
+[139] https://www.artofmanliness.com/skills/how-to/how-to-de-ice-your-windshield-easily-and-effectively/
+[140] https://www.artofmanliness.com/skills/how-to/how-to-de-ice-your-windshield-easily-and-effectively/
+[141] https://www.artofmanliness.com/skills/how-to/how-to-paint-a-room/
+[142] https://www.artofmanliness.com/skills/how-to/how-to-paint-a-room/
+[143] https://www.artofmanliness.com/skills/how-to/store-stack-firewood/
+[144] https://www.artofmanliness.com/skills/how-to/store-stack-firewood/
+[145] https://www.artofmanliness.com/skills/manly-know-how/build-cozy-fireplace-fire-wont-get-smoky/
+[146] https://www.artofmanliness.com/skills/manly-know-how/build-cozy-fireplace-fire-wont-get-smoky/
+[147] https://www.artofmanliness.com/skills/manly-know-how/how-to-adjust-your-car-mirrors-to-eliminate-blind-spots/
+[148] https://www.artofmanliness.com/skills/manly-know-how/how-to-adjust-your-car-mirrors-to-eliminate-blind-spots/
+[149] https://www.artofmanliness.com/skills/manly-know-how/how-throw-a-spiral-football/
+[150] https://www.artofmanliness.com/skills/manly-know-how/how-throw-a-spiral-football/
+[151] https://www.artofmanliness.com/skills/manly-know-how/whats-the-difference-between-gas-octanes/
+[152] https://www.artofmanliness.com/skills/manly-know-how/whats-the-difference-between-gas-octanes/
+[153] https://www.artofmanliness.com/skills/outdoor-survival/how-to-build-a-quinzee-snow-shelter-illustrated-guide/
+[154] https://www.artofmanliness.com/skills/outdoor-survival/how-to-build-a-quinzee-snow-shelter-illustrated-guide/
+[155] https://www.artofmanliness.com/skills/outdoor-survival/how-to-survive-an-earthquake/
+[156] https://www.artofmanliness.com/skills/outdoor-survival/how-to-survive-an-earthquake/
+[157] https://www.artofmanliness.com/skills/outdoor-survival/two-things-you-should-be-doing-to-take-better-care-of-your-camping-gear/
+[158] https://www.artofmanliness.com/skills/outdoor-survival/two-things-you-should-be-doing-to-take-better-care-of-your-camping-gear/
+[159] https://www.artofmanliness.com/skills/outdoor-survival/how-to-emergency-rappel/
+[160] https://www.artofmanliness.com/skills/outdoor-survival/how-to-emergency-rappel/
+[161] https://www.artofmanliness.com/skills/
+[167] https://www.artofmanliness.com/character/behavior/
+[168] https://www.artofmanliness.com/character/
+[169] https://getpocket.com/edit?url=https://www.artofmanliness.com/character/behavior/exit-voice-loyalty-neglect-why-people-leave-stay-or-try-to-burn-it-all-down/
+[170] https://www.facebook.com/sharer.php?u=https://www.artofmanliness.com/character/behavior/exit-voice-loyalty-neglect-why-people-leave-stay-or-try-to-burn-it-all-down/
+[171] https://pinterest.com/pin/create/link/?url=https://www.artofmanliness.com/character/behavior/exit-voice-loyalty-neglect-why-people-leave-stay-or-try-to-burn-it-all-down/
+[172] https://twitter.com/intent/tweet?url=https://www.artofmanliness.com/character/behavior/exit-voice-loyalty-neglect-why-people-leave-stay-or-try-to-burn-it-all-down/
+[173] https://www.artofmanliness.com/cdn-cgi/l/email-protection#26194449425f1b4e525256551c09095151510847545249404b47484a4f484355550845494b09454e475447455243540944434e47504f495409435e4f520b50494f45430b4a495f474a525f0b4843414a4345520b514e5f0b564349564a430b4a434750430b5552475f0b49540b52545f0b52490b445354480b4f520b474a4a0b4249514809
+[174] https://amzn.to/3Prv3ox
+[175] https://text2fa.ir/wp-content/uploads/Text2fa.ir-Exit-Voice-Loyalty-and-Neglect-1.pdf
+[176] https://www.jstor.org/stable/2393565
+[177] https://www.artofmanliness.com/character/manly-lessons/manvotional-the-right-kind-of-people/
+[178] https://www.artofmanliness.com/character/manly-lessons/manvotional-the-right-kind-of-people/
+[179] https://www.artofmanliness.com/skills/how-to/how-to-develop-a-manly-voice-video/
+[180] https://www.artofmanliness.com/skills/how-to/how-to-develop-a-manly-voice-video/
+[181] https://www.artofmanliness.com/character/behavior/improve-your-speaking-voice/
+[182] https://www.artofmanliness.com/character/behavior/improve-your-speaking-voice/
+[183] https://www.artofmanliness.com/skills/how-to/masculine-voice/
+[184] https://www.artofmanliness.com/skills/how-to/masculine-voice/
+[185] https://www.artofmanliness.com/character/advice/sunday-firesides-you-are-not-responsible-for-other-peoples-feelings/
+[186] https://www.artofmanliness.com/character/advice/sunday-firesides-you-are-not-responsible-for-other-peoples-feelings/
+[187] https://www.artofmanliness.com/character/sunday-firesides-why-bad-things-happen-to-good-people-according-to-a-stoic/
+[188] https://www.artofmanliness.com/character/sunday-firesides-why-bad-things-happen-to-good-people-according-to-a-stoic/
+[189] https://www.artofmanliness.com/character/advice/podcast-753-take-back-the-weekend/
+[190] https://www.artofmanliness.com/character/advice/podcast-924-how-to-develop-rugged-flexibility/
+[195] https://www.artofmanliness.com/character/behavior/exit-voice-loyalty-neglect-why-people-leave-stay-or-try-to-burn-it-all-down/#
+[199] https://strenuouslife.co/
+[200] https://strenuouslife.co/
+[205] https://www.artofmanliness.com/character/behavior/exit-voice-loyalty-neglect-why-people-leave-stay-or-try-to-burn-it-all-down/#
+[209] https://www.artofmanliness.com/living/leisure/podcast-959-come-alive-again-by-having-more-fun/
+[210] https://www.artofmanliness.com/living/leisure/podcast-959-come-alive-again-by-having-more-fun/
+[211] https://www.artofmanliness.com/character/knowledge-of-men/podcast-958-an-insiders-guide-to-the-rise-of-the-american-mafia/
+[212] https://www.artofmanliness.com/character/knowledge-of-men/podcast-958-an-insiders-guide-to-the-rise-of-the-american-mafia/
+[213] https://www.artofmanliness.com/people/social-skills/podcast-957-how-curiosity-conversations-can-supercharge-your-success/
+[214] https://www.artofmanliness.com/people/social-skills/podcast-957-how-curiosity-conversations-can-supercharge-your-success/
+[215] https://www.artofmanliness.com/character/behavior/podcast-956-feeling-depressed-and-discombobulated-social-acceleration-may-be-to-blame/
+[216] https://www.artofmanliness.com/character/behavior/podcast-956-feeling-depressed-and-discombobulated-social-acceleration-may-be-to-blame/
+[217] https://www.artofmanliness.com/podcast/
+[218] https://www.artofmanliness.com/character/knowledge-of-men/podcast-958-an-insiders-guide-to-the-rise-of-the-american-mafia/
+[219] https://www.artofmanliness.com/character/advice/sunday-firesides-first-day-worst-day/
+[220] https://www.artofmanliness.com/character/knowledge-of-men/rage-rage-against-the-dying-back-of-the-brain/
+[221] https://www.artofmanliness.com/character/behavior/podcast-956-feeling-depressed-and-discombobulated-social-acceleration-may-be-to-blame/
+[222] https://www.artofmanliness.com/character/behavior/
+[223] https://my.community.com/artofmanliness?t=manly
+[224] https://www.artofmanliness.com/contact/
+[225] https://www.artofmanliness.com/privacy-policy/
+[226] https://www.artofmanliness.com/about-2/
+[227] https://www.artofmanliness.com/all-topics/
+[228] https://www.artofmanliness.com/archives/

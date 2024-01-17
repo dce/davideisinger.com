@@ -1,135 +1,128 @@
-   #[1]Main RSS Feed
+[1]Home
+The Garden
+[3]Now
+[4]About
+Essays
 
-   [2]Home
-   The Garden (BUTTON)
-   [3]Now
-   [4]About
-   (BUTTON)
-
-   Essays
-
-   budding
+budding
 
 Why You Own an iPad and Still Can't Draw
 
-   The failure of drawing materials without mediums and meat
-     * [5]How to Illustrate
+The failure of drawing materials without mediums and meat
 
-   Planted over 3 years agoLast tended over 3 years ago
+  • [6]How to Illustrate
 
-   (BUTTON) Back To Top
+Planted over 3 years agoLast tended over 3 years ago
+Back To Top
+Assumed Audience
 
-   Assumed Audience
+Anyone who thinks they can't draw, but would like to learn
 
-   Anyone who thinks they can't draw, but would like to learn
+They message me a lot.
 
-   They message me a lot.
+    Which iPad should I buy? What app do you use? What brush is that? What size
+    should my canvas be?
 
-     Which iPad should I buy? What app do you use? What brush is that?
-     What size should my canvas be?
+These questions aren't wrong. In fact they're perfectly reasonable.
 
-   These questions aren't wrong. In fact they're perfectly reasonable.
+I'm vocal about the fact many of my illustrations are made on in an app called
+. I have a full post about my drawing equipment and workflows over at
+[8]What App is That?
 
-   I'm vocal about the fact many of my illustrations are made on in an app
-   called . I have a full post about my drawing equipment and workflows
-   over at
-   [6]What App is That?
+How are you supposed to draw if you don't also have these fancy tools?
 
-   How are you supposed to draw if you don't also have these fancy tools?
+This is the tricky bit.
 
-   This is the tricky bit.
+If you go out and buy yourself these same things, you'll have all the right
+materials to draw. But that's only the dressing on the drawing dish.
 
-   If you go out and buy yourself these same things, you'll have all the
-   right materials to draw. But that's only the dressing on the drawing
-   dish.
-   [7]
+[9]
 
 What you have is Material without the Medium or the Meat
 
-   What on earth do I mean by material, medium, and meat?
-     __________________________________________________________________
+What on earth do I mean by material, medium, and meat?
 
-   [8]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[10]
 
 Moving past materials
 
-   Worrying about the materials should take up - at most - 10% of your
-   attention and concern. Focus 70% of your attention on learning the
-   medium while you're just starting out.
+Worrying about the materials should take up - at most - 10% of your attention
+and concern. Focus 70% of your attention on learning the medium while you're
+just starting out.
 
-   You can keep 20% of your focus on the Meat. But I wouldn't worry too
-   much about communicating original, profound ideas at first. Doing so in
-   addition to learning a whole new language is going to be overwhelming.
+You can keep 20% of your focus on the Meat. But I wouldn't worry too much about
+communicating original, profound ideas at first. Doing so in addition to
+learning a whole new language is going to be overwhelming.
 
-   In the same way it's a bad idea to learn Spanish while simultaneously
-   trying to write a philosophy dissertation in it.
+In the same way it's a bad idea to learn Spanish while simultaneously trying to
+write a philosophy dissertation in it.
 
-   Once you get more comfortable “speaking" in visual language, you'll be
-   able to shift a much higher percentage of your attention onto the Meat.
-   You'll get to focus on The Thing You Want to Say, and know enough
-   visual language to say it well.
+Once you get more comfortable “speaking" in visual language, you'll be able to
+shift a much higher percentage of your attention onto the Meat. You'll get to
+focus on The Thing You Want to Say, and know enough visual language to say it
+well.
 
-   That's the ideal I'm currently striving for. To reach a point where the
-   Material is irrelevant, the Medium is a baked into my subconscious, and
-   I'm all about the Meat.
+That's the ideal I'm currently striving for. To reach a point where the
+Material is irrelevant, the Medium is a baked into my subconscious, and I'm all
+about the Meat.
 
-   That's the goal. Don't let the shiny iPad reflection blind you.
+That's the goal. Don't let the shiny iPad reflection blind you.
 
-   Get past picking the Material. Focus on the Medium. Aim for the Meat.
+Get past picking the Material. Focus on the Medium. Aim for the Meat.
 
-   Want to share? (BUTTON) Tell Twitter About It
+Want to share?Tell Twitter About It
 
 1 Backlinks
 
 The Best Illustration Books and Courses
 
-   My favourite resources for learning to draw and developing your visual
-   thinking skills
+My favourite resources for learning to draw and developing your visual thinking
+skills
 
 Mentions around the web
 
-   Tomiwa 😃
-   Maggie Appleton - indieweb.social/@maggie
-   2 Likes and Retweets
+Tomiwa 😃
+Maggie Appleton - indieweb.social/@maggie
+2 Likes and Retweets
 
 Want to stay up to date?
 
-   (BUTTON) Subscribe via RSS Feed
-   © 2024 Maggie Appleton
-     * [9]The Garden
-     * [10]Essays
-     * [11]About
-     * [12]Notes
-     * [13]Now
-     * [14]Patterns
-     * [15]Library
-     * [16]Projects
-     * [17]Colophon
+Subscribe via RSS Feed
+[13][14][15][16][17]
+© 2024 Maggie Appleton
 
-References
+  • [18]The Garden
+  • [19]Essays
+  • [20]About
+  • [21]Notes
+  • [22]Now
+  • [23]Patterns
+  • [24]Library
+  • [25]Projects
+  • [26]Colophon
 
-   Visible links:
-   1. https://maggieappleton.com/rss.xml
-   2. https://maggieappleton.com/
-   3. https://maggieappleton.com/now
-   4. https://maggieappleton.com/about
-   5. https://maggieappleton.com/topics/how-to-illustrate
-   6. https://maggieappleton.com/apps
-   7. https://maggieappleton.com/still-cant-draw#what-you-have-is-material-without-the-medium-or-the-meat
-   8. https://maggieappleton.com/still-cant-draw#moving-past-materials
-   9. https://maggieappleton.com/garden
-  10. https://maggieappleton.com/essays
-  11. https://maggieappleton.com/about
-  12. https://maggieappleton.com/notes
-  13. https://maggieappleton.com/now
-  14. https://maggieappleton.com/patterns
-  15. https://maggieappleton.com/library
-  16. https://maggieappleton.com/projects
-  17. https://maggieappleton.com/colophon
 
-   Hidden links:
-  19. https://github.com/MaggieAppleton
-  20. https://uk.linkedin.com/in/maggieappleton
-  21. https://dribbble.com/mappleton
-  22. https://twitter.com/Mappletons
-  23. https://indieweb.social/@maggie
+References:
+
+[1] https://maggieappleton.com/
+[3] https://maggieappleton.com/now
+[4] https://maggieappleton.com/about
+[6] https://maggieappleton.com/topics/how-to-illustrate
+[8] https://maggieappleton.com/apps
+[9] https://maggieappleton.com/still-cant-draw#what-you-have-is-material-without-the-medium-or-the-meat
+[10] https://maggieappleton.com/still-cant-draw#moving-past-materials
+[13] https://github.com/MaggieAppleton
+[14] https://uk.linkedin.com/in/maggieappleton
+[15] https://dribbble.com/mappleton
+[16] https://twitter.com/Mappletons
+[17] https://indieweb.social/@maggie
+[18] https://maggieappleton.com/garden
+[19] https://maggieappleton.com/essays
+[20] https://maggieappleton.com/about
+[21] https://maggieappleton.com/notes
+[22] https://maggieappleton.com/now
+[23] https://maggieappleton.com/patterns
+[24] https://maggieappleton.com/library
+[25] https://maggieappleton.com/projects
+[26] https://maggieappleton.com/colophon

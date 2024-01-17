@@ -1,359 +1,349 @@
-   A logo showing a blue circle
-   Vlad-Stefan Harbuz
-   Menu
-     * [1]About
-     * [2]Music
-     * [3]Photos
-     * [4]Books
-     * [5]RSS
+[1]
+A logo showing a blue circle
+Vlad-Stefan Harbuz
+Menu
 
-   Philosophy
-     * [6]Resources: Philosophy of Work
-     * [7]Alternatives to Wage Labour
-     * [8]The Epistemic Implications of AI Assistants
-     * [9]Our Schools Should Teach Communication
-     * [10]Voting Regardless of Citizenship
-     * [11]Effective Apologies
+  • [2]About
+  • [3]Music
+  • [4]Photos
+  • [5]Books
+  • [6]RSS
 
-   Programming
-     * [12]The Caring Programmer's Manifesto
-     * [13]The Hare Programming Language
-     * [14]Hare Regex Implementation
-     * [15]Peony Game Engine
-     * [16]Skeletal Animation
-     * [17]clumsy computer
-     * [18]Submodule GB01
-     * [19]vegvisir
-     * [20]pstr
-     * [21]Dithering
+Philosophy
 
-   Languages
-     * [22]Japanese Recommendations
-     * [23]German Noun Genders
+  • [7]Resources: Philosophy of Work
+  • [8]Alternatives to Wage Labour
+  • [9]The Epistemic Implications of AI Assistants
+  • [10]Our Schools Should Teach Communication
+  • [11]Voting Regardless of Citizenship
+  • [12]Effective Apologies
 
-   Fun
-     * [24]Most Minimal UK Address
+Programming
 
-     * [25]About
-     * [26]Music
-     * [27]Photos
-     * [28]Books
-     * [29]RSS
+  • [13]The Caring Programmer's Manifesto
+  • [14]The Hare Programming Language
+  • [15]Hare Regex Implementation
+  • [16]Peony Game Engine
+  • [17]Skeletal Animation
+  • [18]clumsy computer
+  • [19]Submodule GB01
+  • [20]vegvisir
+  • [21]pstr
+  • [22]Dithering
 
-   Philosophy
-     * [30]Resources: Philosophy of Work
-     * [31]Alternatives to Wage Labour
-     * [32]The Epistemic Implications of AI Assistants
-     * [33]Our Schools Should Teach Communication
-     * [34]Voting Regardless of Citizenship
-     * [35]Effective Apologies
+Languages
 
-   Programming
-     * [36]The Caring Programmer's Manifesto
-     * [37]The Hare Programming Language
-     * [38]Hare Regex Implementation
-     * [39]Peony Game Engine
-     * [40]Skeletal Animation
-     * [41]clumsy computer
-     * [42]Submodule GB01
-     * [43]vegvisir
-     * [44]pstr
-     * [45]Dithering
+  • [23]Japanese Recommendations
+  • [24]German Noun Genders
 
-   Languages
-     * [46]Japanese Recommendations
-     * [47]German Noun Genders
+Fun
 
-   Fun
-     * [48]Most Minimal UK Address
+  • [25]Most Minimal UK Address
+
+  • [26]About
+  • [27]Music
+  • [28]Photos
+  • [29]Books
+  • [30]RSS
+
+Philosophy
+
+  • [31]Resources: Philosophy of Work
+  • [32]Alternatives to Wage Labour
+  • [33]The Epistemic Implications of AI Assistants
+  • [34]Our Schools Should Teach Communication
+  • [35]Voting Regardless of Citizenship
+  • [36]Effective Apologies
+
+Programming
+
+  • [37]The Caring Programmer's Manifesto
+  • [38]The Hare Programming Language
+  • [39]Hare Regex Implementation
+  • [40]Peony Game Engine
+  • [41]Skeletal Animation
+  • [42]clumsy computer
+  • [43]Submodule GB01
+  • [44]vegvisir
+  • [45]pstr
+  • [46]Dithering
+
+Languages
+
+  • [47]Japanese Recommendations
+  • [48]German Noun Genders
+
+Fun
+
+  • [49]Most Minimal UK Address
 
 Resources on the Philosophy of Work
 
-   04 August 2022
+04 August 2022
 
-   Wage labour is when you get paid a salary by a company to do work,
-   thereby renting out your time. It’s not a good system because it forces
-   employees to be exploited by manager-owners. This exploitation can be
-   financial, for example if you get paid less than you produce, but it
-   can also be something more than that. One often ends up in a situation
-   where one finds one’s work meaningless, because one cannot connect to,
-   own and direct one’s work in a hierarchical managerial workplace.
-   Additionally, because wage labour is by far the most widespread method
-   of organising work, one might feel powerless to attempt to connect to
-   their work without having someone else own and direct it.
+Wage labour is when you get paid a salary by a company to do work, thereby
+renting out your time. It’s not a good system because it forces employees to be
+exploited by manager-owners. This exploitation can be financial, for example if
+you get paid less than you produce, but it can also be something more than
+that. One often ends up in a situation where one finds one’s work meaningless,
+because one cannot connect to, own and direct one’s work in a hierarchical
+managerial workplace. Additionally, because wage labour is by far the most
+widespread method of organising work, one might feel powerless to attempt to
+connect to their work without having someone else own and direct it.
 
-   Worse, even when one works 8 hours per day, the remaining hours are
-   often dedicated to recovering from work and restoring one’s energy so
-   that one may be productive on the next workday. All of these things
-   come together to form something called “alienation” — our work is
-   important to us, and we should have a positive connection to it, but we
-   end up having a deficient and corrupted connection to it, which is an
-   injustice.
+Worse, even when one works 8 hours per day, the remaining hours are often
+dedicated to recovering from work and restoring one’s energy so that one may be
+productive on the next workday. All of these things come together to form
+something called “alienation” — our work is important to us, and we should have
+a positive connection to it, but we end up having a deficient and corrupted
+connection to it, which is an injustice.
 
-   Some might say that this is unavoidable, but this is not true. In fact,
-   the very idea of this system being unavoidable is a result of a bad way
-   of looking at things called “reification”, which means taking something
-   that us humans have made up, such as our economic system, and saying
-   that it is actually real and inevitably has power over us. This is not
-   the case because it is us who structured society in this way, and we
-   could have done it any other way.
+Some might say that this is unavoidable, but this is not true. In fact, the
+very idea of this system being unavoidable is a result of a bad way of looking
+at things called “reification”, which means taking something that us humans
+have made up, such as our economic system, and saying that it is actually real
+and inevitably has power over us. This is not the case because it is us who
+structured society in this way, and we could have done it any other way.
 
-   Indeed, we know that it is possible to be creative without being
-   oppressed. Most people can contrast alienated wage labour (what some
-   simply sweepingly call “work”) with playful creation, where someone is
-   compelled by passion and interest to put a lot of effort into creating
-   something. In fact, we know that, ironically, we are usually more
-   productive in this passionate state, than when we are managed and
-   disciplined into doing something we do not care about.
+Indeed, we know that it is possible to be creative without being oppressed.
+Most people can contrast alienated wage labour (what some simply sweepingly
+call “work”) with playful creation, where someone is compelled by passion and
+interest to put a lot of effort into creating something. In fact, we know that,
+ironically, we are usually more productive in this passionate state, than when
+we are managed and disciplined into doing something we do not care about.
 
-   One might object that this view is naïve because it is not possible to
-   simply do what we’re passionate about — there are many jobs that must
-   be done and that are simply not fun. But the fact of the matter is that
-   a very large amount of today’s jobs are entirely pointless and
-   unneccesary. Instead, they only exist to provide a reason to perpetuate
-   the status quo of wage labour.
+One might object that this view is naïve because it is not possible to simply
+do what we’re passionate about — there are many jobs that must be done and that
+are simply not fun. But the fact of the matter is that a very large amount of
+today’s jobs are entirely pointless and unneccesary. Instead, they only exist
+to provide a reason to perpetuate the status quo of wage labour.
 
-   Imagine someone doing a job we knew to be completely useless, and
-   receiving a salary for it every month. How would we respond to the
-   proposal of paying this person their salary, but allowing them to
-   simply stop doing their work? Many would react negatively and say that
-   this person would be getting paid for nothing. But is it not concerning
-   that we would want someone to waste their life away doing something
-   which is never useful to anyone, just so that we can feel that they
-   have thereby somehow earned their right to exist?
+Imagine someone doing a job we knew to be completely useless, and receiving a
+salary for it every month. How would we respond to the proposal of paying this
+person their salary, but allowing them to simply stop doing their work? Many
+would react negatively and say that this person would be getting paid for
+nothing. But is it not concerning that we would want someone to waste their
+life away doing something which is never useful to anyone, just so that we can
+feel that they have thereby somehow earned their right to exist?
 
-   Gradual change is possible, and a big part of this change is cultural.
-   This means first realising all the harmful things that gross inequality
-   of income and power does, then changing our values to say that everyone
-   deserves to direct their own life and earn a fair living. This does not
-   necessarily mean that everyone actually will be able to do these
-   things, but the first step is recognising the current state of affairs
-   as unjustifiable.
+Gradual change is possible, and a big part of this change is cultural. This
+means first realising all the harmful things that gross inequality of income
+and power does, then changing our values to say that everyone deserves to
+direct their own life and earn a fair living. This does not necessarily mean
+that everyone actually will be able to do these things, but the first step is
+recognising the current state of affairs as unjustifiable.
 
-   Here are some beginner-friendly books and articles on this topic that I
-   have loved, and are both eloquent and fun to read. I have also included
-   some quotes that I feel explain these concepts well.
+Here are some beginner-friendly books and articles on this topic that I have
+loved, and are both eloquent and fun to read. I have also included some quotes
+that I feel explain these concepts well.
 
 Introductory Essays and Books
 
-   [49]“In Praise of Idleness” Bertrand Russell [50]“Bullshit Jobs” David
-   Graeber [51]“The Tyranny of Merit” Michael J. Sandel [52]“The Abolition
-   of Work” Bob Black
+[50] “In Praise of Idleness” Bertrand Russell [51] “Bullshit Jobs” David
+Graeber [52] “The Tyranny of Merit” Michael J. Sandel [53] “The Abolition of
+Work” Bob Black
 
-   The absolute best place to start is “In Praise of Idleness”, a short
-   and very accessible essay by Russell that explains some of the most
-   basic problems with our conception of work. “Bullshit Jobs” is a
-   classic in which Graeber describes how many of the jobs we are
-   currently doing are simply not useful to anyone. In “The Tyranny of
-   Merit”, which I have found life-changing, Sandel describes how our
-   conceptions of “merit” do not align with reality, and that our
-   blindness to this affects our lives significantly. Lastly, “The
-   Abolition of Work” is a classic and emotionally powerful essay by Bob
-   Black in which he very clearly describes many of the problems with
-   “work”, but this essay can also be too polemical and antagonising.
+The absolute best place to start is “In Praise of Idleness”, a short and very
+accessible essay by Russell that explains some of the most basic problems with
+our conception of work. “Bullshit Jobs” is a classic in which Graeber describes
+how many of the jobs we are currently doing are simply not useful to anyone. In
+“The Tyranny of Merit”, which I have found life-changing, Sandel describes how
+our conceptions of “merit” do not align with reality, and that our blindness to
+this affects our lives significantly. Lastly, “The Abolition of Work” is a
+classic and emotionally powerful essay by Bob Black in which he very clearly
+describes many of the problems with “work”, but this essay can also be too
+polemical and antagonising.
 
 More In-Depth Books
 
-   [53]“Another Now” Yanis Varoufakis [54]“Talking to my Daughter About
-   the Economy” Yanis Varoufakis
+[54] “Another Now” Yanis Varoufakis [55] “Talking to my Daughter About the
+Economy” Yanis Varoufakis
 
-   People often ask me what a system that abolishes wage labour and
-   capitalism would look like. In “Another Now”, former Greek finance
-   minister Yanis Varoufakis tells a fictional story that describes what
-   such a parallel world would look like, and he goes into significant
-   economic detail. Similarly, “Talking to my Daughter About the Economy”
-   is an easy to read and light-hearted description of today’s economy.
+People often ask me what a system that abolishes wage labour and capitalism
+would look like. In “Another Now”, former Greek finance minister Yanis
+Varoufakis tells a fictional story that describes what such a parallel world
+would look like, and he goes into significant economic detail. Similarly,
+“Talking to my Daughter About the Economy” is an easy to read and light-hearted
+description of today’s economy.
 
 Philosophical Background
 
-   [55]“Alienation” Rahel Jaeggi [56]“Free Time” Theodor W. Adorno
+[56] “Alienation” Rahel Jaeggi [57] “Free Time” Theodor W. Adorno
 
-   Perhaps you have read the more accessible material above, but would
-   like to get more into the philosophical details. In “Alienation”, Rahel
-   Jaeggi describes the history of the concept of alienation, and
-   describes a modern and analytic way to look at it, which I find very
-   useful. Her description really makes one wonder about the aspects of
-   alienation that transcend the financial, such as its impact on our
-   epistemic agency. Adorno’s “Free Time” is an amazingly insightful look
-   at how work has profound effects on us not only during our time at the
-   workplace, but also during our so-called “free time”, which the
-   employer nonetheless deeply affects and controls.
+Perhaps you have read the more accessible material above, but would like to get
+more into the philosophical details. In “Alienation”, Rahel Jaeggi describes
+the history of the concept of alienation, and describes a modern and analytic
+way to look at it, which I find very useful. Her description really makes one
+wonder about the aspects of alienation that transcend the financial, such as
+its impact on our epistemic agency. Adorno’s “Free Time” is an amazingly
+insightful look at how work has profound effects on us not only during our time
+at the workplace, but also during our so-called “free time”, which the employer
+nonetheless deeply affects and controls.
 
-   You can also read my somewhat amateurish essay, [57]“Alternatives to
-   Wage Labour”.
+You can also read my somewhat amateurish essay, [58]“Alternatives to Wage
+Labour”.
 
 Explanatory quotes
 
-   Here are some quotes that I feel explain the ideas I have referenced
-   above quite well. I do not necessarily directly endorse all of these
-   perspectives, but rather find it useful to illustrate how philosophers
-   describe these issues.
+Here are some quotes that I feel explain the ideas I have referenced above
+quite well. I do not necessarily directly endorse all of these perspectives,
+but rather find it useful to illustrate how philosophers describe these issues.
 
-     We should do away with the absolutely specious notion that everybody
-     has to earn a living. It is a fact today that one in ten thousand of
-     us can make a technological breakthrough capable of supporting all
-     the rest. The youth of today are absolutely right in recognizing
-     this nonsense of earning a living. We keep inventing jobs because of
-     this false idea that everybody has to be employed at some kind of
-     drudgery because, according to Malthusian Darwinian theory he must
-     justify his right to exist. So we have inspectors of inspectors and
-     people making instruments for inspectors to inspect inspectors. The
-     true business of people should be to go back to school and think
-     about whatever it was they were thinking about before somebody came
-     along and told them they had to earn a living.
+    We should do away with the absolutely specious notion that everybody has to
+    earn a living. It is a fact today that one in ten thousand of us can make a
+    technological breakthrough capable of supporting all the rest. The youth of
+    today are absolutely right in recognizing this nonsense of earning a
+    living. We keep inventing jobs because of this false idea that everybody
+    has to be employed at some kind of drudgery because, according to
+    Malthusian Darwinian theory he must justify his right to exist. So we have
+    inspectors of inspectors and people making instruments for inspectors to
+    inspect inspectors. The true business of people should be to go back to
+    school and think about whatever it was they were thinking about before
+    somebody came along and told them they had to earn a living.
 
-     — Buckminster Fuller
+    — Buckminster Fuller
 
-     The ‘positive’ sense of the word ‘liberty’ derives from the wish on
-     the part of the individual to be his own master. I wish my life and
-     decisions to depend on myself, not on external forces of whatever
-     kind. I wish to be the instrument of my own, not of other men’s,
-     acts of will. I wish to be a subject, not an object; to be moved by
-     reasons, by conscious purposes, which are my own, not by causes
-     which affect me, as it were, from outside. I wish to be somebody,
-     not nobody; a doer—deciding, not being decided for, self-directed
-     and not acted upon by external nature or by other men as if I were a
-     thing, or an animal, or a slave incapable of playing a human role,
-     that is, of conceiving goals and policies of my own and realizing
-     them. (…) I wish, above all, to be conscious of myself as a
-     thinking, willing, active being, bearing responsibility for my
-     choices and able to explain them by references to my own ideas and
-     purposes. I feel free to the degree that I believe this to be true,
-     and enslaved to the degree that I am made to realize that it is not.
+    The ‘positive’ sense of the word ‘liberty’ derives from the wish on the
+    part of the individual to be his own master. I wish my life and decisions
+    to depend on myself, not on external forces of whatever kind. I wish to be
+    the instrument of my own, not of other men’s, acts of will. I wish to be a
+    subject, not an object; to be moved by reasons, by conscious purposes,
+    which are my own, not by causes which affect me, as it were, from outside.
+    I wish to be somebody, not nobody; a doer—deciding, not being decided for,
+    self-directed and not acted upon by external nature or by other men as if I
+    were a thing, or an animal, or a slave incapable of playing a human role,
+    that is, of conceiving goals and policies of my own and realizing them. (…)
+    I wish, above all, to be conscious of myself as a thinking, willing, active
+    being, bearing responsibility for my choices and able to explain them by
+    references to my own ideas and purposes. I feel free to the degree that I
+    believe this to be true, and enslaved to the degree that I am made to
+    realize that it is not.
 
-     — Isaiah Berlin
+    — Isaiah Berlin
 
-     The fact that the vast majority of the population accepts, and is
-     made to accept, this society does not render it less irrational and
-     less reprehensible.
+    The fact that the vast majority of the population accepts, and is made to
+    accept, this society does not render it less irrational and less
+    reprehensible.
 
-     — Herbert Marcuse, “One-Dimensional Man”, p. xliv
+    — Herbert Marcuse, “One-Dimensional Man”, p. xliv
 
-     The things of everyday life [must be] lifted out of the realm of the
-     self-evident. (…) That which is “natural” must assume the features
-     of the extraordinary. Only in this manner can the laws of cause and
-     effect reveal themselves.
+    The things of everyday life [must be] lifted out of the realm of the
+    self-evident. (…) That which is “natural” must assume the features of the
+    extraordinary. Only in this manner can the laws of cause and effect reveal
+    themselves.
 
-     — Bertolt Brecht, “Schriften zum Theater” (Berlin and Frankfurt,
-     Suhrkamp, 1957), p. 7, 9.
+    — Bertolt Brecht, “Schriften zum Theater” (Berlin and Frankfurt, Suhrkamp,
+    1957), p. 7, 9.
 
 The Story of the Mathematician
 
-   This is a very short story used as an example by Rahel Jaeggi in
-   “Alienation” which I find a stunningly good illustration of the
-   problems I refer to.
+This is a very short story used as an example by Rahel Jaeggi in “Alienation”
+which I find a stunningly good illustration of the problems I refer to.
 
-     A young academic takes up his first position. At the same time he
-     and his girlfriend decide to marry. That makes sense “because of the
-     taxes.” A short time later his wife becomes pregnant. Since large
-     apartments in the city are expensive and hard to find, they decide
-     to move to a suburb. After all, life outside the city will be
-     “better for the child.” The man, a gifted mathematician, who until
-     then has led a slightly chaotic life, oscillating between too much
-     night life and an obsessive immersion in work, is now confronted
-     with a completely new situation. All of a sudden, and without him
-     having really noticed it, his life is now, as it were, “on track.”
-     One thing seems to follow ineluctably from another. And in a
-     creeping, almost unnoticeable process his life acquires all the
-     attributes of a completely normal suburban existence. Would he, who
-     earlier ate fast food most of the time and relied on convenience
-     stores for picking up milk and toilet paper as the need arose, ever
-     have thought that he would one day drive every Saturday morning to
-     the shopping mall to buy supplies for the week and fill the freezer?
-     Could he ever have imagined that he would hurry home from work on
-     Friday because the lawn needed to be mowed before the barbecue? At
-     first he and his wife hardly notice that their conversations are
-     increasingly limited to their child and the organization of
-     household chores. Sometimes, however, he is overcome by a feeling of
-     unreality. Something is wrong here. While many envy him for the
-     beautiful suburban house he lives in, he is not really at home in
-     this situation. The life he leads, which, as it seems to him, has so
-     suddenly tightened around him—one could almost say “rearranged”
-     him—seems, in a strange way, not to be his own life. Everything is
-     as if it could not be any other way; everything happens with a
-     certain inevitability. And in spite of this—or perhaps precisely
-     because of it—it remains in a crucial respect alien to him. To what
-     extent is this life “not really” his own? To what extent is he, in
-     this life that he leads, alienated from himself?
+    A young academic takes up his first position. At the same time he and his
+    girlfriend decide to marry. That makes sense “because of the taxes.” A
+    short time later his wife becomes pregnant. Since large apartments in the
+    city are expensive and hard to find, they decide to move to a suburb. After
+    all, life outside the city will be “better for the child.” The man, a
+    gifted mathematician, who until then has led a slightly chaotic life,
+    oscillating between too much night life and an obsessive immersion in work,
+    is now confronted with a completely new situation. All of a sudden, and
+    without him having really noticed it, his life is now, as it were, “on
+    track.” One thing seems to follow ineluctably from another. And in a
+    creeping, almost unnoticeable process his life acquires all the attributes
+    of a completely normal suburban existence. Would he, who earlier ate fast
+    food most of the time and relied on convenience stores for picking up milk
+    and toilet paper as the need arose, ever have thought that he would one day
+    drive every Saturday morning to the shopping mall to buy supplies for the
+    week and fill the freezer? Could he ever have imagined that he would hurry
+    home from work on Friday because the lawn needed to be mowed before the
+    barbecue? At first he and his wife hardly notice that their conversations
+    are increasingly limited to their child and the organization of household
+    chores. Sometimes, however, he is overcome by a feeling of unreality.
+    Something is wrong here. While many envy him for the beautiful suburban
+    house he lives in, he is not really at home in this situation. The life he
+    leads, which, as it seems to him, has so suddenly tightened around him—one
+    could almost say “rearranged” him—seems, in a strange way, not to be his
+    own life. Everything is as if it could not be any other way; everything
+    happens with a certain inevitability. And in spite of this—or perhaps
+    precisely because of it—it remains in a crucial respect alien to him. To
+    what extent is this life “not really” his own? To what extent is he, in
+    this life that he leads, alienated from himself?
 
-     Each individual aspect of his life (…) has not really been decided
-     on. Thus, his situation is in fact “out of control” in a certain
-     sense, and (…) it is a situation for which no one can genuinely be
-     held responsible. This does not merely mean that he has not acted,
-     or has not availed himself of his possibilities for acting, but that
-     he has not even understood his situation as one in which action is
-     called for or possible; it does not merely mean that he has not
-     decided something for himself, or has not led his life himself, but
-     that he has been incapable of understanding or regarding it as
-     something he can or must lead.
+    Each individual aspect of his life (…) has not really been decided on.
+    Thus, his situation is in fact “out of control” in a certain sense, and (…)
+    it is a situation for which no one can genuinely be held responsible. This
+    does not merely mean that he has not acted, or has not availed himself of
+    his possibilities for acting, but that he has not even understood his
+    situation as one in which action is called for or possible; it does not
+    merely mean that he has not decided something for himself, or has not led
+    his life himself, but that he has been incapable of understanding or
+    regarding it as something he can or must lead.
 
-     — Rahel Jaeggi, “Alienation”
+    — Rahel Jaeggi, “Alienation”
 
-   [58]XXIIVV webring © 2010 Vlad-Stefan Harbuz. Article text and media is
-   [59]CC-BY-SA 4.0 unless otherwise specified. All other rights reserved.
+[59] XXIIVV webring © 2010 Vlad-Stefan Harbuz. Article text and media is [60]
+CC-BY-SA 4.0 unless otherwise specified. All other rights reserved.
 
-References
+References:
 
-   Visible links:
-   1. https://vladh.net/about
-   2. https://vladh.net/music
-   3. https://vladh.net/photos
-   4. https://vladh.net/books
-   5. https://vladh.net/index.xml
-   6. https://vladh.net/wage-labour-resources
-   7. https://vladh.net/alternatives-to-wage-labour
-   8. https://vladh.net/the-epistemic-implications-of-ai-assistants
-   9. https://vladh.net/our-schools-should-teach-communication
-  10. https://vladh.net/voting-regardless-of-citizenship
-  11. https://vladh.net/apologies
-  12. https://vladh.net/manifesto
-  13. https://vladh.net/hare
-  14. https://vladh.net/implementing-regular-expressions-in-hare
-  15. https://vladh.net/peony
-  16. https://vladh.net/game-engine-skeletal-animation
-  17. https://vladh.net/clumsycomputer
-  18. https://vladh.net/submodule
-  19. https://vladh.net/vegvisir
-  20. https://vladh.net/pstr
-  21. https://vladh.net/dithering
-  22. https://vladh.net/japanese-recommendations
-  23. https://vladh.net/german-nouns
-  24. https://vladh.net/most-minimal-uk-address
-  25. https://vladh.net/about
-  26. https://vladh.net/music
-  27. https://vladh.net/photos
-  28. https://vladh.net/books
-  29. https://vladh.net/index.xml
-  30. https://vladh.net/wage-labour-resources
-  31. https://vladh.net/alternatives-to-wage-labour
-  32. https://vladh.net/the-epistemic-implications-of-ai-assistants
-  33. https://vladh.net/our-schools-should-teach-communication
-  34. https://vladh.net/voting-regardless-of-citizenship
-  35. https://vladh.net/apologies
-  36. https://vladh.net/manifesto
-  37. https://vladh.net/hare
-  38. https://vladh.net/implementing-regular-expressions-in-hare
-  39. https://vladh.net/peony
-  40. https://vladh.net/game-engine-skeletal-animation
-  41. https://vladh.net/clumsycomputer
-  42. https://vladh.net/submodule
-  43. https://vladh.net/vegvisir
-  44. https://vladh.net/pstr
-  45. https://vladh.net/dithering
-  46. https://vladh.net/japanese-recommendations
-  47. https://vladh.net/german-nouns
-  48. https://vladh.net/most-minimal-uk-address
-  49. https://harpers.org/archive/1932/10/in-praise-of-idleness/
-  50. https://www.goodreads.com/book/show/36531574-bullshit-jobs
-  51. https://www.goodreads.com/book/show/50364458-the-tyranny-of-merit
-  52. https://theanarchistlibrary.org/library/bob-black-the-abolition-of-work
-  53. https://www.goodreads.com/book/show/49098225-another-now
-  54. https://www.goodreads.com/book/show/36490332-talking-to-my-daughter-about-the-economy
-  55. https://www.goodreads.com/en/book/show/19144936
-  56. http://xenopraxis.net/readings/adorno_freetime.pdf
-  57. https://vladh.net/alternatives-to-wage-labour
-  58. https://webring.xxiivv.com/#vladh
-  59. https://creativecommons.org/licenses/by-sa/4.0/
-
-   Hidden links:
-  61. https://vladh.net/
+[1] https://vladh.net/
+[2] https://vladh.net/about
+[3] https://vladh.net/music
+[4] https://vladh.net/photos
+[5] https://vladh.net/books
+[6] https://vladh.net/index.xml
+[7] https://vladh.net/wage-labour-resources
+[8] https://vladh.net/alternatives-to-wage-labour
+[9] https://vladh.net/the-epistemic-implications-of-ai-assistants
+[10] https://vladh.net/our-schools-should-teach-communication
+[11] https://vladh.net/voting-regardless-of-citizenship
+[12] https://vladh.net/apologies
+[13] https://vladh.net/manifesto
+[14] https://vladh.net/hare
+[15] https://vladh.net/implementing-regular-expressions-in-hare
+[16] https://vladh.net/peony
+[17] https://vladh.net/game-engine-skeletal-animation
+[18] https://vladh.net/clumsycomputer
+[19] https://vladh.net/submodule
+[20] https://vladh.net/vegvisir
+[21] https://vladh.net/pstr
+[22] https://vladh.net/dithering
+[23] https://vladh.net/japanese-recommendations
+[24] https://vladh.net/german-nouns
+[25] https://vladh.net/most-minimal-uk-address
+[26] https://vladh.net/about
+[27] https://vladh.net/music
+[28] https://vladh.net/photos
+[29] https://vladh.net/books
+[30] https://vladh.net/index.xml
+[31] https://vladh.net/wage-labour-resources
+[32] https://vladh.net/alternatives-to-wage-labour
+[33] https://vladh.net/the-epistemic-implications-of-ai-assistants
+[34] https://vladh.net/our-schools-should-teach-communication
+[35] https://vladh.net/voting-regardless-of-citizenship
+[36] https://vladh.net/apologies
+[37] https://vladh.net/manifesto
+[38] https://vladh.net/hare
+[39] https://vladh.net/implementing-regular-expressions-in-hare
+[40] https://vladh.net/peony
+[41] https://vladh.net/game-engine-skeletal-animation
+[42] https://vladh.net/clumsycomputer
+[43] https://vladh.net/submodule
+[44] https://vladh.net/vegvisir
+[45] https://vladh.net/pstr
+[46] https://vladh.net/dithering
+[47] https://vladh.net/japanese-recommendations
+[48] https://vladh.net/german-nouns
+[49] https://vladh.net/most-minimal-uk-address
+[50] https://harpers.org/archive/1932/10/in-praise-of-idleness/
+[51] https://www.goodreads.com/book/show/36531574-bullshit-jobs
+[52] https://www.goodreads.com/book/show/50364458-the-tyranny-of-merit
+[53] https://theanarchistlibrary.org/library/bob-black-the-abolition-of-work
+[54] https://www.goodreads.com/book/show/49098225-another-now
+[55] https://www.goodreads.com/book/show/36490332-talking-to-my-daughter-about-the-economy
+[56] https://www.goodreads.com/en/book/show/19144936
+[57] http://xenopraxis.net/readings/adorno_freetime.pdf
+[58] https://vladh.net/alternatives-to-wage-labour
+[59] https://webring.xxiivv.com/#vladh
+[60] https://creativecommons.org/licenses/by-sa/4.0/

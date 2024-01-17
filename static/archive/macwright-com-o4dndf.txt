@@ -1,349 +1,328 @@
-   #[1]macwright.com - Micro [2]macwright.com - Micro
+Tom MacWright
+
+tom@macwright.com
 
 Tom MacWright
 
-   tom@macwright.com
-
-Tom MacWright
-
-     * [3]Writing�
-     * [4]Reading
-     * [5]Photos
-     * [6]Projects
-     * [7]Drawings
-     * [8]Micro
-     * [9]About
+  • [1]Writing⇠
+  • [2]Reading
+  • [3]Photos
+  • [4]Projects
+  • [5]Drawings
+  • [6]Micro
+  • [7]About
 
 A year of Rails
 
-   Railroad
+Railroad
 
-   I spent most of 2020 working with [10]Ruby on Rails. I moved a project
-   from [11]Next.js + [12]Rust to… Rails, baby! Back to the future. My
-   earlier post on [13]Second-guessing the modern web was inspired by this
-   experience, that for the product we were building, a ‘modern’ stack was
-   not working as well as a traditional one.
+I spent most of 2020 working with [8]Ruby on Rails. I moved a project from [9]
+Next.js + [10]Rust to… Rails, baby! Back to the future. My earlier post on [11]
+Second-guessing the modern web was inspired by this experience, that for the
+product we were building, a ‘modern’ stack was not working as well as a
+traditional one.
 
-   We didn’t do competitive analysis against Laravel, Django, or Phoenix.
-   They’re similar, not radically better or worse. There are multiple
-   acceptable solutions to a problem, and this was more a matter of
-   choosing the right kind of solution than pursuing some kind of perfect
-   choice and burning hours and motivation doing the window-shopping.
+We didn’t do competitive analysis against Laravel, Django, or Phoenix. They’re
+similar, not radically better or worse. There are multiple acceptable solutions
+to a problem, and this was more a matter of choosing the right kind of solution
+than pursuing some kind of perfect choice and burning hours and motivation
+doing the window-shopping.
 
-   What helped Rails win was that the team had a little more experience in
-   Ruby (with the exception of myself), and we found plenty of resources
-   for developing and deploying the stack. Rails fit perfectly into the
-   ideology of [14]Choosing boring technology. Another part of the product
-   would be the hard, innovative part, so it made no sense to grapple with
-   bleeding-edge web frameworks.
+What helped Rails win was that the team had a little more experience in Ruby
+(with the exception of myself), and we found plenty of resources for developing
+and deploying the stack. Rails fit perfectly into the ideology of [12]Choosing
+boring technology. Another part of the product would be the hard, innovative
+part, so it made no sense to grapple with bleeding-edge web frameworks.
 
-   This was a really fun experience. There’s a lot to love about Rails.
-   Other communities could learn a bit from the Ruby & Rails culture and
-   wisdom. I won’t implement everything in Rails, but it’ll be part of the
-   toolbox.
+This was a really fun experience. There’s a lot to love about Rails. Other
+communities could learn a bit from the Ruby & Rails culture and wisdom. I won’t
+implement everything in Rails, but it’ll be part of the toolbox.
 
-   Before this, I hadn’t touched the stuff. And I bet a lot of people are
-   like that - they came of age in the world of React and Go, and haven’t
-   tried anything even remotely similar to Rails. For their benefit, and
-   to debrief from 2020, here are some notes on the experience. Plus,
-   [15]Rails-like projects in JavaScript are ramping up quickly, and it’s
-   fun to know the origins.
+Before this, I hadn’t touched the stuff. And I bet a lot of people are like
+that - they came of age in the world of React and Go, and haven’t tried
+anything even remotely similar to Rails. For their benefit, and to debrief from
+2020, here are some notes on the experience. Plus, [13]Rails-like projects in
+JavaScript are ramping up quickly, and it’s fun to know the origins.
 
 The good
 
 Debugging Rails apps is amazing
 
-   A while ago, I [16]wrote on Twitter
+A while ago, I [14]wrote on Twitter
 
-     the real reason why javascript developers don’t use breakpoints and
-     use console.log is that breakpoints don’t work
+    the real reason why javascript developers don’t use breakpoints and use
+    console.log is that breakpoints don’t work
 
-   After years of working in JavaScript, I’m used to bad debugging
-   experiences. The Chrome debugger’s [17]automatic pause on caught
-   exceptions is amazing, sometimes. But throwing a debugger statement in
-   some React code is dodgy as hell. Sometimes it works, mostly it
-   doesn’t. You have to deal with code that might not have the right
-   [18]sourcemap to translate from bundled & minified code to original
-   source. Subtle abstractions like React hooks and advanced transpiler
-   stuff like [19]Regenerator mean that your code’s stacktrace probably
-   looks nothing like what you expect, with lots of internal garbage.
-   Sure, you can learn better techniques for diagnosing and debugging
-   errors, but it’s not just you - the debugging story in JavaScript is
-   pretty bad. This applies even to Node.js, where one of the debugging
-   stories is to connect Chrome’s debugger to a Node.js instance: a
-   finicky solution that doesn’t consistently work.
+After years of working in JavaScript, I’m used to bad debugging experiences.
+The Chrome debugger’s [15]automatic pause on caught exceptions is amazing,
+sometimes. But throwing a debugger statement in some React code is dodgy as
+hell. Sometimes it works, mostly it doesn’t. You have to deal with code that
+might not have the right [16]sourcemap to translate from bundled & minified
+code to original source. Subtle abstractions like React hooks and advanced
+transpiler stuff like [17]Regenerator mean that your code’s stacktrace probably
+looks nothing like what you expect, with lots of internal garbage. Sure, you
+can learn better techniques for diagnosing and debugging errors, but it’s not
+just you - the debugging story in JavaScript is pretty bad. This applies even
+to Node.js, where one of the debugging stories is to connect Chrome’s debugger
+to a Node.js instance: a finicky solution that doesn’t consistently work.
 
-   In Rails, there is [20]byebug. You write byebug in your source code,
-   and you get an interactive REPL right there. It works in views,
-   controllers, database migrations, everywhere. It almost always works.
-   Variables are named what you expect. The whole system is paused at that
-   moment, and you can actually interact with it, using all of the Rails
-   utilities and your installed gems.
+In Rails, there is [18]byebug. You write byebug in your source code, and you
+get an interactive REPL right there. It works in views, controllers, database
+migrations, everywhere. It almost always works. Variables are named what you
+expect. The whole system is paused at that moment, and you can actually
+interact with it, using all of the Rails utilities and your installed gems.
 
-   If a page crashes unexpectedly, you get a similar REPL experience, in
-   your browser, automatically. With an automatically cleaned-up
-   stacktrace that excludes Rails’s own frames. Like the byebug interface,
-   this REPL actually works and is consistently helpful in finding root
-   causes. Rarely will you need to use puts to print something to the
-   console because this debugging system is so good.
+If a page crashes unexpectedly, you get a similar REPL experience, in your
+browser, automatically. With an automatically cleaned-up stacktrace that
+excludes Rails’s own frames. Like the byebug interface, this REPL actually
+works and is consistently helpful in finding root causes. Rarely will you need
+to use puts to print something to the console because this debugging system is
+so good.
 
 The magic mostly works
 
-   Our Rails app didn’t have any require statements. You mention a
-   module’s name, and it’s automatically included, using [21]Zeitwerk, a
-   tool that comes standard with Rails.
+Our Rails app didn’t have any require statements. You mention a module’s name,
+and it’s automatically included, using [19]Zeitwerk, a tool that comes standard
+with Rails.
 
-   This kind of system was terrifying to me before. What if you
-   accidentally import something just by mentioning it? What if two things
-   have the same name and you import the wrong one? How do you really know
-   what’s happening? Sure, you’re happy now, with all of that annoying
-   importing and exporting taken care of, but the sky might fall.
+This kind of system was terrifying to me before. What if you accidentally
+import something just by mentioning it? What if two things have the same name
+and you import the wrong one? How do you really know what’s happening? Sure,
+you’re happy now, with all of that annoying importing and exporting taken care
+of, but the sky might fall.
 
-   Or maybe it just… doesn’t. Maybe impure, vaguely risky techniques are
-   just a net positive over time, and making everything fully explicit
-   isn’t really necessary? Now when I’m using other systems, I wonder -
-   what if I could just mention one of my React components and it would
-   just… be there? Sure, the system would have to complain if there were
-   two components with the same name, and it would have to make
-   assumptions about directory structure, but overall, wouldn’t this be
-   nice?
+Or maybe it just… doesn’t. Maybe impure, vaguely risky techniques are just a
+net positive over time, and making everything fully explicit isn’t really
+necessary? Now when I’m using other systems, I wonder - what if I could just
+mention one of my React components and it would just… be there? Sure, the
+system would have to complain if there were two components with the same name,
+and it would have to make assumptions about directory structure, but overall,
+wouldn’t this be nice?
 
-   This applies to a lot of other parts of the system too. Rails is famous
-   for doing pluralization - you name a model Post and you automatically
-   get an interface called posts. But what, you ask, of words with uneven
-   pluralization rules? Rails actually [22]does the right thing, almost
-   always. And when it fails, you can override it. It actually just saves
-   time, reliably.
+This applies to a lot of other parts of the system too. Rails is famous for
+doing pluralization - you name a model Post and you automatically get an
+interface called posts. But what, you ask, of words with uneven pluralization
+rules? Rails actually [20]does the right thing, almost always. And when it
+fails, you can override it. It actually just saves time, reliably.
 
 Testing works
 
-   I’ve tried to test front-end applications. I’ve set up [23]nightwatch,
-   [24]jest, [25]enzyme, [26]cypress, and probably 5-10 other frameworks.
-   Front-end testing is universally terrible. Projects like Cypress are
-   throwing untold hours into making it less terrible, taking on massive
-   amounts of complexity to abstract away from fickle browser behavior and
-   complex interactions.
+I’ve tried to test front-end applications. I’ve set up [21]nightwatch, [22]jest
+, [23]enzyme, [24]cypress, and probably 5-10 other frameworks. Front-end
+testing is universally terrible. Projects like Cypress are throwing untold
+hours into making it less terrible, taking on massive amounts of complexity to
+abstract away from fickle browser behavior and complex interactions.
 
-   But it still sucks. Frontend testing has no good attributes: it’s
-   unreliable, hard to automate, hard to debug when it fails, and often
-   doesn’t even assert for important behaviors, so it doesn’t actually
-   identify regressions. Running frontend tests in CI is resource-heavy,
-   requiring you to set up headless X windows environments on servers or
-   use specialized CI services that produce screencasts of test runs.
+But it still sucks. Frontend testing has no good attributes: it’s unreliable,
+hard to automate, hard to debug when it fails, and often doesn’t even assert
+for important behaviors, so it doesn’t actually identify regressions. Running
+frontend tests in CI is resource-heavy, requiring you to set up headless X
+windows environments on servers or use specialized CI services that produce
+screencasts of test runs.
 
-   Testing fully-server-rendered applications, on the other hand, is
-   amazing. A vanilla testing setup with Rails & [27]RSpec can give you
-   fast, stable, concise, and actually-useful test coverage. You can
-   actually assert for behavior and navigate through an application like a
-   user would. These tests are solving a simpler problem - making requests
-   and parsing responses, without the need for a full browser or headless
-   browser, without multiple kinds of state to track.
+Testing fully-server-rendered applications, on the other hand, is amazing. A
+vanilla testing setup with Rails & [25]RSpec can give you fast, stable,
+concise, and actually-useful test coverage. You can actually assert for
+behavior and navigate through an application like a user would. These tests are
+solving a simpler problem - making requests and parsing responses, without the
+need for a full browser or headless browser, without multiple kinds of state to
+track.
 
-   Not only do the tests work better, the testing culture is a completely
-   different universe. There are entire books written about how to write
-   RSpec tests that catch bugs, allow software evolution, and aren’t
-   filled with boilerplate.
+Not only do the tests work better, the testing culture is a completely
+different universe. There are entire books written about how to write RSpec
+tests that catch bugs, allow software evolution, and aren’t filled with
+boilerplate.
 
 Gems are so powerful
 
-   Powerful and dangerous.
+Powerful and dangerous.
 
-   I’m used to modules as they work in other systems - Python, Node, Elm,
-   and so on. They provide objects, functions, and variables that you can
-   import and combine into your code explicitly. Usually they sit on some
-   specific level of abstraction - it’s a utility for connecting to
-   servers or a React component you can use.
+I’m used to modules as they work in other systems - Python, Node, Elm, and so
+on. They provide objects, functions, and variables that you can import and
+combine into your code explicitly. Usually they sit on some specific level of
+abstraction - it’s a utility for connecting to servers or a React component you
+can use.
 
-   Gems can do so much more. You install something like [28]Devise into
-   your system and it adds views, routes, methods, utilities, you name it.
-   It’s not like “loading some functions”, it’s more like composing a
-   whole different app into your app, implicitly.
+Gems can do so much more. You install something like [26]Devise into your
+system and it adds views, routes, methods, utilities, you name it. It’s not
+like “loading some functions”, it’s more like composing a whole different app
+into your app, implicitly.
 
-   This is obviously terrifying. It means that you can’t look at your
-   directories of views and your file of routes.rb and know what exists at
-   a glance. There are other layers, lurking in the ephemeral space of
-   third-party code. They interact in serious but uncertain ways.
+This is obviously terrifying. It means that you can’t look at your directories
+of views and your file of routes.rb and know what exists at a glance. There are
+other layers, lurking in the ephemeral space of third-party code. They interact
+in serious but uncertain ways.
 
-   But it’s also pretty incredible - the idea that something like
-   [29]passport, Node’s middleware, could instead be a full-fledged
-   authentication system. It means that you have to write a lot less code,
-   and it also means that the people who use that code have a lot more
-   code in common. That gems can work on a higher level of abstraction,
-   making it possible to cobble together software faster, to write less
-   ‘glue code.’
+But it’s also pretty incredible - the idea that something like [27]passport,
+Node’s middleware, could instead be a full-fledged authentication system. It
+means that you have to write a lot less code, and it also means that the people
+who use that code have a lot more code in common. That gems can work on a
+higher level of abstraction, making it possible to cobble together software
+faster, to write less ‘glue code.’
 
 There’s so much good writing about Rails
 
-   Even if you don’t write Ruby, you should pay attention to [30]Sandi
-   Metz. She’s incredibly wise and has so many incredible ideas to share.
+Even if you don’t write Ruby, you should pay attention to [28]Sandi Metz. She’s
+incredibly wise and has so many incredible ideas to share.
 
-   And then there’s [31]arkency, [32]ThoughtBot, and so many other
-   thoughtful writers with years of experience in Rails. Sometimes it’s a
-   little shocking to google for some obscure problem and see a decade of
-   discussion about it.
+And then there’s [29]arkency, [30]ThoughtBot, and so many other thoughtful
+writers with years of experience in Rails. Sometimes it’s a little shocking to
+google for some obscure problem and see a decade of discussion about it.
 
-   The best practices are also formalized into tools like [33]Code Climate
-   and [34]reek. I’ve never seen so many actually-useful suggestions come
-   out of automated systems as I did in the world of Ruby and Rails.
+The best practices are also formalized into tools like [31]Code Climate and 
+[32]reek. I’ve never seen so many actually-useful suggestions come out of
+automated systems as I did in the world of Ruby and Rails.
 
 Ruby
 
-   Ruby is a pretty pleasant language to work in. Sure, it has a lot of
-   syntax and a sprawling standard library, but you don’t have to use all
-   of that if you don’t want to. It took me a while to adjust to the
-   object-oriented way of doing things - in particular, the idea that you
-   can’t just have a free-range function floating out there, unassociated
-   with a class or module, like you can in JavaScript. And you can’t just
-   create an arbitrary one-off object - you either need to define a class
-   to create an object, or use a Hash to store data.
+Ruby is a pretty pleasant language to work in. Sure, it has a lot of syntax and
+a sprawling standard library, but you don’t have to use all of that if you
+don’t want to. It took me a while to adjust to the object-oriented way of doing
+things - in particular, the idea that you can’t just have a free-range function
+floating out there, unassociated with a class or module, like you can in
+JavaScript. And you can’t just create an arbitrary one-off object - you either
+need to define a class to create an object, or use a Hash to store data.
 
-   But Ruby’s standard library isn’t that huge. I’ve seen JavaScript’s
-   ‘standard library’ grow a lot too, and frankly it’s nice to have
-   methods like [35]String.prototype.padStart instead of having every
-   little thing in userspace. The only part that felt actively weird was
-   [36]activesupport - a gem that extends Ruby’s core objects, but is part
-   of Rails. It felt weird to have string methods that would only work if
-   your environment was Rails.
+But Ruby’s standard library isn’t that huge. I’ve seen JavaScript’s ‘standard
+library’ grow a lot too, and frankly it’s nice to have methods like [33]
+String.prototype.padStart instead of having every little thing in userspace.
+The only part that felt actively weird was [34]activesupport - a gem that
+extends Ruby’s core objects, but is part of Rails. It felt weird to have string
+methods that would only work if your environment was Rails.
 
-   The [37]Dash app for documentation rocketed from my pile of unused
-   tools to an absolute must-have. In the world of Ruby and Rails, with
-   most gems having pretty good, semi-standard documentation, you can
-   search for, and get answers, super fast. The Ruby language
-   documentation and the Rails documentation is absolutely great. The
-   JavaScript equivalent - [38]MDN - pales in comparison.
+The [35]Dash app for documentation rocketed from my pile of unused tools to an
+absolute must-have. In the world of Ruby and Rails, with most gems having
+pretty good, semi-standard documentation, you can search for, and get answers,
+super fast. The Ruby language documentation and the Rails documentation is
+absolutely great. The JavaScript equivalent - [36]MDN - pales in comparison.
 
 The bad
 
 The asset pipeline
 
-   Remember SASS and the YUI Compressor? These are, unfortunately,
-   defaults in the [39]asset pipeline. There’s [40]Webpacker too, which
-   has a parallel approach to CSS and images as the asset pipeline. It has
-   [41]opinionated integrations with stuff like React. Ah, and I should
-   mention that Rails’s [42]JavaScript utilities are written in…
-   CoffeeScript.
+Remember SASS and the YUI Compressor? These are, unfortunately, defaults in the
+[37]asset pipeline. There’s [38]Webpacker too, which has a parallel approach to
+CSS and images as the asset pipeline. It has [39]opinionated integrations with
+stuff like React. Ah, and I should mention that Rails’s [40]JavaScript
+utilities are written in… CoffeeScript.
 
-   I get it - it’s hard to keep up with the latest trends in frontend. But
-   this is one area where Rails’s strong backwards compatibility feels
-   iffy. I wish that Rails was more opinionated about the frontend, and
-   that it had better opinions.
+I get it - it’s hard to keep up with the latest trends in frontend. But this is
+one area where Rails’s strong backwards compatibility feels iffy. I wish that
+Rails was more opinionated about the frontend, and that it had better opinions.
 
 Best practice churn
 
-     In Smalltalk, everything happens somewhere else. - [43]Adele
-     Goldberg
+    In Smalltalk, everything happens somewhere else. - [41]Adele Goldberg
 
-   Ruby, as today’s Smalltalk, has the same issue. The community venerates
-   small - that methods should be short, files should be small, complexity
-   should be controlled. This begs the question of where it all goes -
-   certainly not in controllers, which should be skinny, and not in views,
-   which should have very little logic at all, and maybe [44]not in models
-   either. Maybe in [45]Service Objects, or policies, or decorators?
+Ruby, as today’s Smalltalk, has the same issue. The community venerates small -
+that methods should be short, files should be small, complexity should be
+controlled. This begs the question of where it all goes - certainly not in
+controllers, which should be skinny, and not in views, which should have very
+little logic at all, and maybe [42]not in models either. Maybe in [43]Service
+Objects, or policies, or decorators?
 
-   I found myself falling victim to this. I’d try to win CodeClimate’s
-   approval by moving code around, perfecting the art of making everything
-   small or at most medium-sized, extracting concerns until most files
-   looked okay. This was time well-spent on learning, but I have to admit
-   that it doesn’t actually matter for an early-stage startup’s product.
+I found myself falling victim to this. I’d try to win CodeClimate’s approval by
+moving code around, perfecting the art of making everything small or at most
+medium-sized, extracting concerns until most files looked okay. This was time
+well-spent on learning, but I have to admit that it doesn’t actually matter for
+an early-stage startup’s product.
 
-   In stark contrast to the folks who say that Rails is for prototypes,
-   there’s a lot of attention paid to long-lived engineering efforts -
-   adopting patterns that let many team work on the same ‘monolith’,
-   identifying [46]shotgun surgery - a term I first heard from Sandi Metz.
+In stark contrast to the folks who say that Rails is for prototypes, there’s a
+lot of attention paid to long-lived engineering efforts - adopting patterns
+that let many team work on the same ‘monolith’, identifying [44]shotgun surgery
+- a term I first heard from Sandi Metz.
 
 ActiveRecord is great, except when it isn’t
 
-   One of the hardest bugs we encountered happened with ActiveRecord. We
-   were creating a set of changes to apply to a model, using their
-   in-memory instances to do some stuff, and then finally applying them.
-   This broke because one of the ActiveRecord methods automatically
-   ‘committed’ those changes, quietly.
+One of the hardest bugs we encountered happened with ActiveRecord. We were
+creating a set of changes to apply to a model, using their in-memory instances
+to do some stuff, and then finally applying them. This broke because one of the
+ActiveRecord methods automatically ‘committed’ those changes, quietly.
 
-   ActiveRecord is kind of like this - a lot of the times it’s pleasantly
-   implicit, letting you just assign a value and automatically saving that
-   to the database. But then it’ll do something implicitly that you don’t
-   want to happen, and figuring out why this happened and how to stop it
-   from happening is a real challenge.
+ActiveRecord is kind of like this - a lot of the times it’s pleasantly
+implicit, letting you just assign a value and automatically saving that to the
+database. But then it’ll do something implicitly that you don’t want to happen,
+and figuring out why this happened and how to stop it from happening is a real
+challenge.
 
-   Most of the time, to be clear - it’s a really great system. It provides
-   lots of ways to generate efficient-enough queries, knowing full well
-   that SQL performance is often the bottleneck of web applications. Most
-   of the time it’s really nice that it automatically casts and
-   deserializes query results. But when it goes bad, the diagnosis and the
-   cure can be pretty ugly.
+Most of the time, to be clear - it’s a really great system. It provides lots of
+ways to generate efficient-enough queries, knowing full well that SQL
+performance is often the bottleneck of web applications. Most of the time it’s
+really nice that it automatically casts and deserializes query results. But
+when it goes bad, the diagnosis and the cure can be pretty ugly.
 
-   The other issue with ActiveRecord is that it has efficient methods and
-   inefficient methods right next to each other, because it automatically
-   turns your ‘query builder’ into an array when you call array-like
-   methods. So, for example:
+The other issue with ActiveRecord is that it has efficient methods and
+inefficient methods right next to each other, because it automatically turns
+your ‘query builder’ into an array when you call array-like methods. So, for
+example:
+
 Dogs.all.max_by(&:height)
 
-   Is wildly inefficient. It might fetch and deserialized a million
-   records just to sort them and give you the first. On the other hand,
+Is wildly inefficient. It might fetch and deserialized a million records just
+to sort them and give you the first. On the other hand,
+
 Dogs.order(height: :desc).first
 
-   Is fast - it sorts in the database and fetches a single record. Rails
-   is both offering smart and easy ways to write optimized code, but also
-   making it really easy to write inefficient code.
-     __________________________________________________________________
+Is fast - it sorts in the database and fetches a single record. Rails is both
+offering smart and easy ways to write optimized code, but also making it really
+easy to write inefficient code.
 
-   A Rails-like framework is a really good thing to have in your toolbox,
-   and there’s a lot to learn from the Ruby community. My hope is that we
-   see these sorts of abstractions in new languages and frameworks, and
-   see more of the Ruby community’s culture filter into the programming
-   world.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-   February 18, 2021  [47]Tom MacWright ([48]@tmcw,
-   [49]@tmcw@mastodon.social)
+A Rails-like framework is a really good thing to have in your toolbox, and
+there’s a lot to learn from the Ruby community. My hope is that we see these
+sorts of abstractions in new languages and frameworks, and see more of the Ruby
+community’s culture filter into the programming world.
 
-References
+February 18, 2021  [45]Tom MacWright ([46]@tmcw, [47]@tmcw@mastodon.social)
 
-   1. https://macwright.com/micro/rss.xml
-   2. https://macwright.com/micro/atom.xml
-   3. https://macwright.com/
-   4. https://macwright.com/reading/
-   5. https://macwright.com/photos/
-   6. https://macwright.com/projects/
-   7. https://macwright.com/drawings/
-   8. https://macwright.com/micro/
-   9. https://macwright.com/about/
-  10. https://rubyonrails.org/
-  11. https://nextjs.org/
-  12. https://www.rust-lang.org/
-  13. https://macwright.com/2020/05/10/spa-fatigue
-  14. http://boringtechnology.club/
-  15. https://macwright.com/2020/10/28/if-not-spas
-  16. https://twitter.com/tmcw/status/1321133460501585922
-  17. https://developers.google.com/web/updates/2015/05/automatically-pause-on-any-exception
-  18. https://www.html5rocks.com/en/tutorials/developertools/sourcemaps/
-  19. https://github.com/facebook/regenerator
-  20. https://github.com/deivid-rodriguez/byebug
-  21. https://github.com/fxn/zeitwerk
-  22. https://weblog.rubyonrails.org/2005/8/25/10-reasons-rails-does-pluralization/
-  23. https://nightwatchjs.org/
-  24. https://jestjs.io/
-  25. https://enzymejs.github.io/enzyme/
-  26. https://www.cypress.io/
-  27. https://rspec.info/
-  28. https://github.com/heartcombo/devise
-  29. http://www.passportjs.org/
-  30. https://sandimetz.com/
-  31. https://blog.arkency.com/
-  32. https://thoughtbot.com/blog/
-  33. https://codeclimate.com/
-  34. https://github.com/troessner/reek
-  35. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart
-  36. https://web.archive.org/web/https://rubygems.org/gems/activesupport/versions/6.1.1
-  37. https://kapeli.com/dash
-  38. https://developer.mozilla.org/en-US/
-  39. https://guides.rubyonrails.org/asset_pipeline.html
-  40. https://edgeguides.rubyonrails.org/webpacker.html
-  41. https://github.com/rails/webpacker#integrations
-  42. https://github.com/rails/rails/tree/main/actionview/app/assets/javascripts
-  43. https://en.wikipedia.org/wiki/Adele_Goldberg_(computer_scientist)
-  44. https://thoughtbot.com/blog/skinny-controllers-skinny-models
-  45. https://codeclimate.com/blog/7-ways-to-decompose-fat-activerecord-models/
-  46. https://en.wikipedia.org/wiki/Shotgun_surgery
-  47. https://macwright.com/about/
-  48. https://twitter.com/intent/follow?screen_name=tmcw&user_id=1458271
-  49. https://mastodon.social/@tmcw
+
+References:
+
+[1] https://macwright.com/
+[2] https://macwright.com/reading/
+[3] https://macwright.com/photos/
+[4] https://macwright.com/projects/
+[5] https://macwright.com/drawings/
+[6] https://macwright.com/micro/
+[7] https://macwright.com/about/
+[8] https://rubyonrails.org/
+[9] https://nextjs.org/
+[10] https://www.rust-lang.org/
+[11] https://macwright.com/2020/05/10/spa-fatigue
+[12] http://boringtechnology.club/
+[13] https://macwright.com/2020/10/28/if-not-spas
+[14] https://twitter.com/tmcw/status/1321133460501585922
+[15] https://developers.google.com/web/updates/2015/05/automatically-pause-on-any-exception
+[16] https://www.html5rocks.com/en/tutorials/developertools/sourcemaps/
+[17] https://github.com/facebook/regenerator
+[18] https://github.com/deivid-rodriguez/byebug
+[19] https://github.com/fxn/zeitwerk
+[20] https://weblog.rubyonrails.org/2005/8/25/10-reasons-rails-does-pluralization/
+[21] https://nightwatchjs.org/
+[22] https://jestjs.io/
+[23] https://enzymejs.github.io/enzyme/
+[24] https://www.cypress.io/
+[25] https://rspec.info/
+[26] https://github.com/heartcombo/devise
+[27] http://www.passportjs.org/
+[28] https://sandimetz.com/
+[29] https://blog.arkency.com/
+[30] https://thoughtbot.com/blog/
+[31] https://codeclimate.com/
+[32] https://github.com/troessner/reek
+[33] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart
+[34] https://web.archive.org/web/https://rubygems.org/gems/activesupport/versions/6.1.1
+[35] https://kapeli.com/dash
+[36] https://developer.mozilla.org/en-US/
+[37] https://guides.rubyonrails.org/asset_pipeline.html
+[38] https://edgeguides.rubyonrails.org/webpacker.html
+[39] https://github.com/rails/webpacker#integrations
+[40] https://github.com/rails/rails/tree/main/actionview/app/assets/javascripts
+[41] https://en.wikipedia.org/wiki/Adele_Goldberg_%28computer_scientist%29
+[42] https://thoughtbot.com/blog/skinny-controllers-skinny-models
+[43] https://codeclimate.com/blog/7-ways-to-decompose-fat-activerecord-models/
+[44] https://en.wikipedia.org/wiki/Shotgun_surgery
+[45] https://macwright.com/about/
+[46] https://twitter.com/intent/follow?screen_name=tmcw&user_id=1458271
+[47] https://mastodon.social/@tmcw

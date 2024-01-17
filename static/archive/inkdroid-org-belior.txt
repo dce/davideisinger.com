@@ -1,165 +1,153 @@
-   #[1]inkdroid
-
-   (BUTTON)
-     * [2]Home
-     * [3]About
-     * [4]Tags
-     * [5]Bookmarks
-     * [6]Photos
-     * [7]Podcasts
-     * [8]Music
-     * [9]Software
-     * [10]Mastodon
-     * [11]Talks
-     * [12]Web Archives
-     * [13]Feed
-     * [14]🎁
+  • [2]Home
+  • [3]About
+  • [4]Tags
+  • [5]Bookmarks
+  • [6]Photos
+  • [7]Podcasts
+  • [8]Music
+  • [9]Software
+  • [10]Mastodon
+  • [11]Talks
+  • [12]Web Archives
+  • [13]Feed
+  • [14]🎁
 
 Why I don't use Copilot
 
-   June 4, 2023
-   [15]programming [16]artificial-intelligence
-     __________________________________________________________________
+June 4, 2023
+[15]programming [16]artificial-intelligence
 
-   TL;DR Don’t install Copilot. It rots your brain and destroys the
-   environment.
-     __________________________________________________________________
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-   [rubber-duck.jpg] [17]A rubber duck in use by a developer to aid code
-   review
+TL;DR Don’t install Copilot. It rots your brain and destroys the environment.
 
-   [18]GitHub Copilot is a technology that is designed to help you write
-   code, kind of like your partner in [19]pair programming. But, you know,
-   it’s not an actual person. It’s “A.I.”–whatever that means.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[rubber-duc] [17]A rubber duck in use by a developer to aid code review
 
-   In principle this sounds like it might actually be a good thing right?
-   I know several people, who I respect, that use it as part of their
-   daily work. I’ve heard [20]smart people say AI coding assistants like
-   Copilot will democratize programming, by making it possible for more
-   people to write code, and automate the drudgery out of their lives. I’m
-   not convinced.
+[18]GitHub Copilot is a technology that is designed to help you write code,
+kind of like your partner in [19]pair programming. But, you know, it’s not an
+actual person. It’s “A.I.”–whatever that means.
 
-   Here’s why I don’t use Copilot (or ChatGPT) to write code:
-    1. Copilot’s suggestions are based on a corpus of open source code in
-       GitHub, but the suggestions do not mention where the code came
-       from, and what the license is. GitHub is stealing and selling
-       intellectual property.
-    2. Copilot lets you write code faster. I don’t think more code is a
-       good thing. The more code there is, the more code there is to
-       maintain. Minimalism in features is usually a good thing too. Less
-       really is more.
-    3. As more and more programmers use Copilot it creates conservativism
-       in languages and frameworks that prevents people from creating and
-       learning new ways of doing things. Collectively, we get even more
-       stuck in our ways and biases. Some of the biases encoded into LLMs
-       are things that we are actively trying to [21]change.
-    4. Developers become dependent on Copilot for intellectual work.
-       Actually, maybe addicted is a better word here. The same could be
-       (and was) said about the effect of search engines on software
-       development work (e.g. Googling error messages). But the difference
-       is that search results need to be interpreted, and the resulting
-       web pages have important context that you often need to understand.
-       This is work that Copilot optimizes away and truncates our
-       knowledge in the process.
-    5. Copilot costs money. It doesn’t cost tons of money (for a
-       professional person in the USA) but it could be significant for
-       some. Who does it privilege? Also, it could change (see point 4).
-       Remember who owns this thing.
-    6. How much [22]energy does it take to run Copilot as millions of
-       developers outsource their intellectual work to its LLM
-       infrastructure? Is this massive centralization and enclosure really
-       progress in computing? Or is it a [23]step backwards as we try to
-       [24]reduce our energy use as a species?
-    7. What does Copilot see of the code in your editor? Does it use your
-       code as context for the prompt? What does it store, and remember,
-       and give to others? Somebody has probably looked into this, but if
-       they have it is always up for revision. Just out of principle I
-       don’t want my editor sending my code somewhere else without me
-       intentionally doing it.
-    8. Working with others who use Copilot makes my job harder, since they
-       sometimes don’t really understand the details of why the code is
-       written a particular way. Over time Copilot code can mix idioms,
-       styles and approaches, in ways that the developer doesn’t really
-       understand or even recognize. This makes maintenance harder.
+In principle this sounds like it might actually be a good thing right? I know
+several people, who I respect, that use it as part of their daily work. I’ve
+heard [20]smart people say AI coding assistants like Copilot will democratize
+programming, by making it possible for more people to write code, and automate
+the drudgery out of their lives. I’m not convinced.
 
-   As far as I can tell the only redeeming qualities of Copilot are:
-    1. Copilot encourages you to articulate and describe a problem as
-       written prose before starting to write code. You don’t need Copilot
-       for this. Maybe keep a work journal or write a [25]design document?
-       Maybe use your issue tracker? Use [26]text to communicate with
-       other people.
-    2. Copilot is more interactive than a [27]rubber duck. But, it turns
-       out Actual People are even more interactive and surprising. Reach
-       out to other professionals and make some friends. Go to workshops
-       and conferences.
-    3. I could be convinced that Copilot has a useful place in the
-       [28]review of code rather than the first draft of code. It wouldn’t
-       be a replacement for review by people, but I believe it could
-       potentially help people do the review. I don’t think this exists
-       yet?
-    4. Copilot makes me think critically about machine learning
-       technology, my profession and its place in the world.
+Here’s why I don’t use Copilot (or ChatGPT) to write code:
 
-   Maybe my thinking on this will change. But I doubt it. I’m on the older
-   side for a software developer, and (hopefully) will retire some day.
-   Maybe people like me are on the way out, and writing code with Copilot
-   and ChatGPT is the future. Maybe programming has always been about
-   increasing layers of abstraction and this is just the next logical
-   layer. I really hope not.
+ 1. Copilot’s suggestions are based on a corpus of open source code in GitHub,
+    but the suggestions do not mention where the code came from, and what the
+    license is. GitHub is stealing and selling intellectual property.
+ 2. Copilot lets you write code faster. I don’t think more code is a good
+    thing. The more code there is, the more code there is to maintain.
+    Minimalism in features is usually a good thing too. Less really is more.
+ 3. As more and more programmers use Copilot it creates conservativism in
+    languages and frameworks that prevents people from creating and learning
+    new ways of doing things. Collectively, we get even more stuck in our ways
+    and biases. Some of the biases encoded into LLMs are things that we are
+    actively trying to [21]change.
+ 4. Developers become dependent on Copilot for intellectual work. Actually,
+    maybe addicted is a better word here. The same could be (and was) said
+    about the effect of search engines on software development work
+    (e.g. Googling error messages). But the difference is that search results
+    need to be interpreted, and the resulting web pages have important context
+    that you often need to understand. This is work that Copilot optimizes away
+    and truncates our knowledge in the process.
+ 5. Copilot costs money. It doesn’t cost tons of money (for a professional
+    person in the USA) but it could be significant for some. Who does it
+    privilege? Also, it could change (see point 4). Remember who owns this
+    thing.
+ 6. How much [22]energy does it take to run Copilot as millions of developers
+    outsource their intellectual work to its LLM infrastructure? Is this
+    massive centralization and enclosure really progress in computing? Or is it
+    a [23]step backwards as we try to [24]reduce our energy use as a species?
+ 7. What does Copilot see of the code in your editor? Does it use your code as
+    context for the prompt? What does it store, and remember, and give to
+    others? Somebody has probably looked into this, but if they have it is
+    always up for revision. Just out of principle I don’t want my editor
+    sending my code somewhere else without me intentionally doing it.
+ 8. Working with others who use Copilot makes my job harder, since they
+    sometimes don’t really understand the details of why the code is written a
+    particular way. Over time Copilot code can mix idioms, styles and
+    approaches, in ways that the developer doesn’t really understand or even
+    recognize. This makes maintenance harder.
 
-   I enjoy programming because it’s about reasoning, thinking, models,
-   concepts, expression, communication, ethics, reading, learning, making,
-   and process. It’s an art and a practice that is best done with other
-   people.
+As far as I can tell the only redeeming qualities of Copilot are:
 
-   Increasingly I think it’s imperative for programming to be done more
-   slowly, more deliberatively, and as part of more conversations with
-   more people. The furious automation of everything is eating the world.
+ 1. Copilot encourages you to articulate and describe a problem as written
+    prose before starting to write code. You don’t need Copilot for this. Maybe
+    keep a work journal or write a [25]design document? Maybe use your issue
+    tracker? Use [26]text to communicate with other people.
+ 2. Copilot is more interactive than a [27]rubber duck. But, it turns out
+    Actual People are even more interactive and surprising. Reach out to other
+    professionals and make some friends. Go to workshops and conferences.
+ 3. I could be convinced that Copilot has a useful place in the [28]review of
+    code rather than the first draft of code. It wouldn’t be a replacement for
+    review by people, but I believe it could potentially help people do the
+    review. I don’t think this exists yet?
+ 4. Copilot makes me think critically about machine learning technology, my
+    profession and its place in the world.
 
-   Programs need to run more efficiently. Programs need to be well
-   understood, by a more diverse and varied set of people. Programs need
-   to be robust and resilient. Programs need to be easier to change.
+Maybe my thinking on this will change. But I doubt it. I’m on the older side
+for a software developer, and (hopefully) will retire some day. Maybe people
+like me are on the way out, and writing code with Copilot and ChatGPT is the
+future. Maybe programming has always been about increasing layers of
+abstraction and this is just the next logical layer. I really hope not.
 
-   Can Copilot help with these [29]goals? I think the answer is no,
-   because it doesn’t actually understand anything, and more importantly,
-   it doesn’t promote understanding.
-     __________________________________________________________________
+I enjoy programming because it’s about reasoning, thinking, models, concepts,
+expression, communication, ethics, reading, learning, making, and process. It’s
+an art and a practice that is best done with other people.
 
-   Update (2023-06-09): For another take on Copilot that uses this post as
-   a jumping off point see Vivek Haldar’s [30]Re: Why I don’t use Copilot.
+Increasingly I think it’s imperative for programming to be done more slowly,
+more deliberatively, and as part of more conversations with more people. The
+furious automation of everything is eating the world.
 
-   Unless otherwise noted all the content here is licensed [31]CC-BY
+Programs need to run more efficiently. Programs need to be well understood, by
+a more diverse and varied set of people. Programs need to be robust and
+resilient. Programs need to be easier to change.
 
-References
+Can Copilot help with these [29]goals? I think the answer is no, because it
+doesn’t actually understand anything, and more importantly, it doesn’t promote
+understanding.
 
-   1. https://inkdroid.org/feed.xml
-   2. https://inkdroid.org/
-   3. https://inkdroid.org/about/
-   4. https://inkdroid.org/tags/
-   5. http://pinboard.in/u:edsu
-   6. https://www.flickr.com/photos/inkdroid
-   7. https://inkdroid.org/podcasts/feed.opml
-   8. https://bandcamp.com/edsu
-   9. https://github.com/edsu
-  10. https://social.coop/@edsu
-  11. https://inkdroid.org/talks/
-  12. https://inkdroid.org/web-archives/archives/
-  13. https://inkdroid.org/feed.xml
-  14. https://bookshop.org/wishlists/d7c0224f5440df8d2c174ad2cc38b3fca1aa813f
-  15. https://inkdroid.org/tag/programming
-  16. https://inkdroid.org/tag/artificial-intelligence
-  17. https://commons.wikimedia.org/wiki/File:Rubber_duck_assisting_with_debugging.jpg
-  18. https://en.wikipedia.org/wiki/GitHub_Copilot
-  19. https://en.wikipedia.org/wiki/Pair_programming
-  20. https://changelog.com/podcast/534
-  21. https://www.wired.com/story/tech-confronts-use-labels-master-slave/
-  22. https://dl.acm.org/doi/pdf/10.1145/3442188.3445922
-  23. https://www.washingtonpost.com/technology/2023/06/05/chatgpt-hidden-cost-gpu-compute/
-  24. https://www.jasonhickel.org/less-is-more
-  25. https://en.wikipedia.org/wiki/Software_design_description
-  26. https://graydon2.dreamwidth.org/193447.html
-  27. https://en.wikipedia.org/wiki/Rubber_duck_debugging
-  28. https://en.wikipedia.org/wiki/Code_review
-  29. https://permacomputing.net/
-  30. https://vivekhaldar.com/articles/re--why-i-don-t-use-copilot/
-  31. https://creativecommons.org/licenses/by/4.0/
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Update (2023-06-09): For another take on Copilot that uses this post as a
+jumping off point see Vivek Haldar’s [30]Re: Why I don’t use Copilot.
+
+Unless otherwise noted all the content here is licensed [31]CC-BY
+
+
+References:
+
+[2] https://inkdroid.org/
+[3] https://inkdroid.org/about/
+[4] https://inkdroid.org/tags/
+[5] http://pinboard.in/u:edsu
+[6] https://www.flickr.com/photos/inkdroid
+[7] https://inkdroid.org/podcasts/feed.opml
+[8] https://bandcamp.com/edsu
+[9] https://github.com/edsu
+[10] https://social.coop/@edsu
+[11] https://inkdroid.org/talks/
+[12] https://inkdroid.org/web-archives/archives/
+[13] https://inkdroid.org/feed.xml
+[14] https://bookshop.org/wishlists/d7c0224f5440df8d2c174ad2cc38b3fca1aa813f
+[15] https://inkdroid.org/tag/programming
+[16] https://inkdroid.org/tag/artificial-intelligence
+[17] https://commons.wikimedia.org/wiki/File:Rubber_duck_assisting_with_debugging.jpg
+[18] https://en.wikipedia.org/wiki/GitHub_Copilot
+[19] https://en.wikipedia.org/wiki/Pair_programming
+[20] https://changelog.com/podcast/534
+[21] https://www.wired.com/story/tech-confronts-use-labels-master-slave/
+[22] https://dl.acm.org/doi/pdf/10.1145/3442188.3445922
+[23] https://www.washingtonpost.com/technology/2023/06/05/chatgpt-hidden-cost-gpu-compute/
+[24] https://www.jasonhickel.org/less-is-more
+[25] https://en.wikipedia.org/wiki/Software_design_description
+[26] https://graydon2.dreamwidth.org/193447.html
+[27] https://en.wikipedia.org/wiki/Rubber_duck_debugging
+[28] https://en.wikipedia.org/wiki/Code_review
+[29] https://permacomputing.net/
+[30] https://vivekhaldar.com/articles/re--why-i-don-t-use-copilot/
+[31] https://creativecommons.org/licenses/by/4.0/

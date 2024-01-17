@@ -1,297 +1,301 @@
-   #[1]Medium [2]alternate
+[1]Open in app
 
-   [3]Open in app
+Sign up
 
-   (BUTTON) Sign up
+[3]Sign in
 
-   [4]Sign in
-   ____________________
-   Write
+[4]
+[5][                    ]
+[6]
+Write
+[7]
 
-   (BUTTON) Sign up
+Sign up
 
-   [5]Sign in
-   (BUTTON)
+[9]Sign in
+
+[1]
 
 Go Project Layout
 
-   Kyle C. Quest (Q)
-   golang-learn
+[11]
+Kyle C. Quest (Q)
+[12]
+golang-learn
 
-   [6]Kyle C. Quest (Q)
-   ·
+[13]Kyle C. Quest (Q)
 
-   [7]Follow
-   Published in
-   [8]
+·
 
-   golang-learn
-   ·
-   5 min read
-   ·
-   Sep 11, 2017
+[14]Follow
 
-   --
-   (BUTTON)
+Published in
+[15]
 
-   11
-   (BUTTON)
+golang-learn
 
-   Listen
-   (BUTTON)
+·
+5 min read
+·
+Sep 11, 2017
 
-   Share
+--
 
-   You went through the ‘[9]Tour of Go’, played with
-   [10]https://play.golang.org/ and you feel you are ready to write some
-   code. Great! However, you are not sure how to structure your projects.
-   Can you put your code anywhere you want? Is there a standard way to
-   organize your code? What if you need to have multiple application
-   binaries? What does it mean to be ‘go gettable’? These are some of the
-   questions you’ll be asking yourself.
+11
 
-   First, you have to understand Go workspaces. ‘[11]How to Write Go Code’
-   is a good place to start. By default, Go keeps and expects all code in
-   a single workspace. This place is identified by the GOPATH environment
-   variable. What does it mean for you? It means you have to put your code
-   in the default workspace or you have to change the GOPATH variable to
-   point to your own location. Either way the actual source code for your
-   project needs to be placed in the src subdirectory (e.g.,
-   $GOPATH/src/your_project or
-   $GOPATH/src/github.com/your_github_username/your_project). Technically
-   your project doesn’t have to be in a workspace if you don’t import
-   external packages and you use relative imports for your own code, but
-   it’s not recommended. It’s fine for a toy project or a PoC though. Go
-   v1.11 does introduce the concept of [12]modules that allows you to have
-   your project code outside of your GOPATHwithout the import restrictions
-   mentioned above, but it’s still an experimental feature at this point
-   in time.
+Listen
 
-   You have your project directory in the right place. What’s next?
+Share
 
-   For a PoC or a very small project where you are the only one writing
-   the code using a single main.go file in the root directory for your
-   project is enough. If you know your project will be large enough or
-   it’ll go into production and others will be contributing to it you
-   should consider adopting, at least, some of the project layout patterns
-   outlined here.
+You went through the ‘[19]Tour of Go’, played with [20]https://play.golang.org/
+and you feel you are ready to write some code. Great! However, you are not sure
+how to structure your projects. Can you put your code anywhere you want? Is
+there a standard way to organize your code? What if you need to have multiple
+application binaries? What does it mean to be ‘go gettable’? These are some of
+the questions you’ll be asking yourself.
 
-   There are a number of project layout patterns emerging in the Go
-   ecosystem. The two most common patterns are the cmd and pkg
-   directories. You should adopt these patterns unless you have a tiny
-   project.
+First, you have to understand Go workspaces. ‘[21]How to Write Go Code’ is a
+good place to start. By default, Go keeps and expects all code in a single
+workspace. This place is identified by the GOPATH environment variable. What
+does it mean for you? It means you have to put your code in the default
+workspace or you have to change the GOPATH variable to point to your own
+location. Either way the actual source code for your project needs to be placed
+in the src subdirectory (e.g., $GOPATH/src/your_project or $GOPATH/src/
+github.com/your_github_username/your_project). Technically your project doesn’t
+have to be in a workspace if you don’t import external packages and you use
+relative imports for your own code, but it’s not recommended. It’s fine for a
+toy project or a PoC though. Go v1.11 does introduce the concept of [22]modules
+that allows you to have your project code outside of your GOPATHwithout the
+import restrictions mentioned above, but it’s still an experimental feature at
+this point in time.
 
-   The cmd layout pattern is very useful when you need to have more than
-   one application binary. Each binary gets a subdirectory (e.g.,
-   your_project/cmd/your_app). This patterns also helps you keep your
-   project/package ‘go gettable’. What does it mean? It means you can use
-   the go get command to fetch (and install) your project, its
-   applications and its libraries (e.g., go get
-   github.com/your_github_username/your_project/cmd/appxg). You don’t have
-   to separate the application files. You’ll be able to build each
-   application with the right set of go build flags, but go get will no
-   longer work because it will not know which application code to build.
-   The official [13]Go tools is one example of the cmd layout patter. A
-   number of other well known projects use the same pattern:
-   [14]Kubernetes, [15]Docker, [16]Prometheus, [17]Influxdb.
+You have your project directory in the right place. What’s next?
 
-   The pkg layout pattern is also pretty popular. For new Go developers
-   it’s one of the most confusing package structure concepts because Go
-   workspaces have a directory with the same name and that directory has a
-   different purpose (it’s used to store object files for the packages the
-   Go compiler builds). The pkg directory is where you put your public
-   libraries. They can be used internally by your application. They can
-   also be used by external projects. This is an informal contract between
-   you and other external users of your code. Other projects will import
-   these libraries expecting them to work, so think twice before you put
-   something here. Many well known projects use this pattern:
-   [18]Kubernetes, [19]Docker, [20]Grafana, [21]Influxdb, [22]Etcd.
+For a PoC or a very small project where you are the only one writing the code
+using a single main.go file in the root directory for your project is enough.
+If you know your project will be large enough or it’ll go into production and
+others will be contributing to it you should consider adopting, at least, some
+of the project layout patterns outlined here.
 
-   Some of the libraries in the pkg directory are not always for public
-   use. Why is that? It happens because many existing Go projects predate
-   the ability to hide internal packages. Some projects put those internal
-   libraries in the pkg directory to be consistent with the rest of their
-   code structure. Other projects put their internal libraries into
-   separate directories outside of the pkg directory. [23]Go 1.4 introduce
-   an ability to hide code using internal directories. What does it mean?
-   If you put your code in an ‘internal’ directory no external project
-   will be able to import that code. Even other code in your project won’t
-   be able to access this internal code if it lives outside of its parent
-   directory. This feature is not widely used yet because it’s relatively
-   new; however, it’s extremely valuable as an additional layer of control
-   (in addition to the lowercase and uppercase function visibility rules
-   in Go). A number of new and well known projects use this pattern:
-   [24]Dep, [25]Docker, [26]Nsq, [27]Go Ethereal, [28]Contour.
+There are a number of project layout patterns emerging in the Go ecosystem. The
+two most common patterns are the cmd and pkg directories. You should adopt
+these patterns unless you have a tiny project.
 
-   The internal directory is the place to put your private packages. You
-   can optionally add additional structure by separating your internally
-   shared libraries (e.g., your_project/internal/pkg/your_private_lib) and
-   the application code you don’t want others to import (e.g.,
-   your_project/internal/app/your_app). When you put all of you private
-   code in the ‘internal’ directory the application code in the cmd
-   directory will be limited to small files that define the ‘main’
-   function for the corresponding application binaries. Everything else
-   will be imported from the internal or pkg directories ([29]ark, from
-   Heptio, and [30]loki, from Grafana, are good examples of this tiny main
-   package pattern).
+The cmd layout pattern is very useful when you need to have more than one
+application binary. Each binary gets a subdirectory (e.g., your_project/cmd/
+your_app). This patterns also helps you keep your project/package ‘go
+gettable’. What does it mean? It means you can use the go get command to fetch
+(and install) your project, its applications and its libraries (e.g., go get
+github.com/your_github_username/your_project/cmd/appxg). You don’t have to
+separate the application files. You’ll be able to build each application with
+the right set of go build flags, but go get will no longer work because it will
+not know which application code to build. The official [23]Go tools is one
+example of the cmd layout patter. A number of other well known projects use the
+same pattern: [24]Kubernetes, [25]Docker, [26]Prometheus, [27]Influxdb.
 
-   What if you forked and modified a piece of an external project? Some
-   projects put that code in the pkg directory, but it’s better to put it
-   in the third_party top level directory to keep your code separate from
-   the code you borrowed from others.
+The pkg layout pattern is also pretty popular. For new Go developers it’s one
+of the most confusing package structure concepts because Go workspaces have a
+directory with the same name and that directory has a different purpose (it’s
+used to store object files for the packages the Go compiler builds). The pkg
+directory is where you put your public libraries. They can be used internally
+by your application. They can also be used by external projects. This is an
+informal contract between you and other external users of your code. Other
+projects will import these libraries expecting them to work, so think twice
+before you put something here. Many well known projects use this pattern: [28]
+Kubernetes, [29]Docker, [30]Grafana, [31]Influxdb, [32]Etcd.
 
-   What about the external packages you import in your projects? Where do
-   they go? You have several options. You can keep them outside of your
-   project. The packages you install with go get will be saved in your Go
-   workspace. It works most of the times, but depending on the package it
-   might be brittle and unpredictable because when somebody else tries to
-   build your project they might get a backward incompatible version of
-   that package. The solution is ‘vendoring’. With ‘vendoring’ you freeze
-   your dependencies by committing them with your project. [31]Go 1.6
-   introduced a standard way to ‘vendor’ external packages (it was an
-   experimental feature in Go 1.5). Put your external package in the
-   vendor directory. How is this different from the third_party directory?
-   If you import and use external code as-is then it should go into the
-   vendor directory. If you are using a modified version of an external
-   project then put it in the third_party directory.
+Some of the libraries in the pkg directory are not always for public use. Why
+is that? It happens because many existing Go projects predate the ability to
+hide internal packages. Some projects put those internal libraries in the pkg
+directory to be consistent with the rest of their code structure. Other
+projects put their internal libraries into separate directories outside of the
+pkg directory. [33]Go 1.4 introduce an ability to hide code using internal
+directories. What does it mean? If you put your code in an ‘internal’ directory
+no external project will be able to import that code. Even other code in your
+project won’t be able to access this internal code if it lives outside of its
+parent directory. This feature is not widely used yet because it’s relatively
+new; however, it’s extremely valuable as an additional layer of control (in
+addition to the lowercase and uppercase function visibility rules in Go). A
+number of new and well known projects use this pattern: [34]Dep, [35]Docker, 
+[36]Nsq, [37]Go Ethereal, [38]Contour.
 
-   If you want to learn more about the project structure used by other Go
-   projects read the ‘[32]Analysis of the Top 1000 Go Repositories’. It’s
-   a little dated, but it’s still useful.
+The internal directory is the place to put your private packages. You can
+optionally add additional structure by separating your internally shared
+libraries (e.g., your_project/internal/pkg/your_private_lib) and the
+application code you don’t want others to import (e.g., your_project/internal/
+app/your_app). When you put all of you private code in the ‘internal’ directory
+the application code in the cmd directory will be limited to small files that
+define the ‘main’ function for the corresponding application binaries.
+Everything else will be imported from the internal or pkg directories ([39]ark,
+from Heptio, and [40]loki, from Grafana, are good examples of this tiny main
+package pattern).
 
-   A real project will have additional directories too. You can use this
-   layout template as a starting point for your Go projects:
-   [33]https://github.com/golang-standards/project-layout. It covers the
-   Go project layout patterns described in this blog post and it includes
-   a number of supporting directories you’ll need to have.
+What if you forked and modified a piece of an external project? Some projects
+put that code in the pkg directory, but it’s better to put it in the
+third_party top level directory to keep your code separate from the code you
+borrowed from others.
 
-   Now it’s time to write some code! If you don’t have Go installed take a
-   look at this [34]quick setup guide for Mac OS X (setup on other
-   platforms is similar). Go through the ‘[35]Tour of Go’ if you haven’t
-   done it yet and then read ’[36]50 Shades of Go’ to learn about the most
-   common gotchas in Go, which will save you quite a bit of time when you
-   start writing and debugging code.
-   Golang
-   Go
-   Standards
-   Project Structure
+What about the external packages you import in your projects? Where do they go?
+You have several options. You can keep them outside of your project. The
+packages you install with go get will be saved in your Go workspace. It works
+most of the times, but depending on the package it might be brittle and
+unpredictable because when somebody else tries to build your project they might
+get a backward incompatible version of that package. The solution is
+‘vendoring’. With ‘vendoring’ you freeze your dependencies by committing them
+with your project. [41]Go 1.6 introduced a standard way to ‘vendor’ external
+packages (it was an experimental feature in Go 1.5). Put your external package
+in the vendor directory. How is this different from the third_party directory?
+If you import and use external code as-is then it should go into the vendor
+directory. If you are using a modified version of an external project then put
+it in the third_party directory.
 
-   --
+If you want to learn more about the project structure used by other Go projects
+read the ‘[42]Analysis of the Top 1000 Go Repositories’. It’s a little dated,
+but it’s still useful.
 
-   --
-   (BUTTON)
+A real project will have additional directories too. You can use this layout
+template as a starting point for your Go projects: [43]https://github.com/
+golang-standards/project-layout. It covers the Go project layout patterns
+described in this blog post and it includes a number of supporting directories
+you’ll need to have.
 
-   11
-   (BUTTON)
-   Kyle C. Quest (Q)
-   golang-learn
-   (BUTTON) Follow
-   [37](BUTTON)
-   [38]
+Now it’s time to write some code! If you don’t have Go installed take a look at
+this [44]quick setup guide for Mac OS X (setup on other platforms is similar).
+Go through the ‘[45]Tour of Go’ if you haven’t done it yet and then read ’[46]
+50 Shades of Go’ to learn about the most common gotchas in Go, which will save
+you quite a bit of time when you start writing and debugging code.
+
+[47]
+Golang
+[48]
+Go
+[49]
+Standards
+[50]
+Project Structure
+
+--
+
+--
+
+11
+
+[53]
+Kyle C. Quest (Q)
+[54]
+golang-learn
+Follow
+[56]
+[58]
 
 Written by Kyle C. Quest (Q)
 
-   [39]358 Followers
-   ·Editor for
-   [40]
+[59]358 Followers
+·Editor for
+[60]
 
-   golang-learn
+golang-learn
 
-   CTO / Redefining DevOps * Hacker @DockerSlim * @Golang50Shades * Cloud
-   Native * Data * Security
-   (BUTTON) Follow
-   [41](BUTTON)
-   [42]
+CTO / Redefining DevOps * Hacker @DockerSlim * @Golang50Shades * Cloud Native *
+Data * Security
 
-   Help
-   [43]
+Follow
+[62]
+[64]
 
-   Status
-   [44]
+Help
 
-   About
-   [45]
+[65]
 
-   Careers
-   [46]
+Status
 
-   Blog
-   [47]
+[66]
 
-   Privacy
-   [48]
+About
 
-   Terms
-   [49]
+[67]
 
-   Text to speech
-   [50]
+Careers
 
-   Teams
+[68]
 
-References
+Blog
 
-   Visible links:
-   1. https://medium.com/osd.xml
-   2. android-app://com.medium.reader/https/medium.com/p/e5213cdcfaa2
-   3. https://rsci.app.link/?$canonical_url=https://medium.com/p/e5213cdcfaa2&~feature=LoOpenInAppButton&~channel=ShowPostUnderCollection&source=---two_column_layout_nav----------------------------------
-   4. https://medium.com/m/signin?operation=login&redirect=https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2&source=post_page---two_column_layout_nav-----------------------global_nav-----------
-   5. https://medium.com/m/signin?operation=login&redirect=https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2&source=post_page---two_column_layout_nav-----------------------global_nav-----------
-   6. https://medium.com/@kcq?source=post_page-----e5213cdcfaa2--------------------------------
-   7. https://medium.com/m/signin?actionUrl=https://medium.com/_/subscribe/user/6aac7a58837&operation=register&redirect=https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2&user=Kyle+C.+Quest+(Q)&userId=6aac7a58837&source=post_page-6aac7a58837----e5213cdcfaa2---------------------post_header-----------
-   8. https://medium.com/golang-learn?source=post_page-----e5213cdcfaa2--------------------------------
-   9. https://tour.golang.org/
-  10. https://play.golang.org/
-  11. https://golang.org/doc/code.html
-  12. https://github.com/golang/go/wiki/Modules
-  13. https://github.com/golang/tools/tree/master/cmd
-  14. https://github.com/kubernetes/kubernetes/tree/master/cmd
-  15. https://github.com/moby/moby/tree/master/cmd
-  16. https://github.com/prometheus/prometheus/tree/master/cmd
-  17. https://github.com/influxdata/influxdb/tree/master/cmd
-  18. https://github.com/kubernetes/kubernetes/tree/master/pkg
-  19. https://github.com/moby/moby/tree/master/pkg
-  20. https://github.com/grafana/grafana/tree/master/pkg
-  21. https://github.com/influxdata/influxdb/tree/master/pkg
-  22. https://github.com/coreos/etcd/tree/master/pkg
-  23. https://golang.org/doc/go1.4#internalpackages
-  24. https://github.com/golang/dep/tree/master/internal
-  25. https://github.com/moby/moby/tree/master/internal
-  26. https://github.com/nsqio/nsq/tree/master/internal
-  27. https://github.com/ethereum/go-ethereum/tree/master/internal
-  28. https://github.com/heptio/contour/tree/master/internal
-  29. https://github.com/heptio/ark/blob/master/cmd/ark/main.go
-  30. https://github.com/grafana/loki/blob/master/cmd/loki/main.go
-  31. https://golang.org/doc/go1.6#go_command
-  32. http://blog.sgmansfield.com/2016/01/an-analysis-of-the-top-1000-go-repositories/
-  33. https://github.com/golang-standards/project-layout
-  34. https://medium.com/golang-learn/quick-go-setup-guide-on-mac-os-x-956b327222b8
-  35. https://tour.golang.org/
-  36. http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/
-  37. https://medium.com/m/signin?actionUrl=/_/api/subscriptions/newsletters/997b4efe98f9&operation=register&redirect=https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2&newsletterV3=6aac7a58837&newsletterV3Id=997b4efe98f9&user=Kyle+C.+Quest+(Q)&userId=6aac7a58837&source=-----e5213cdcfaa2---------------------subscribe_user-----------
-  38. https://medium.com/@kcq?source=post_page-----e5213cdcfaa2--------------------------------
-  39. https://medium.com/@kcq/followers?source=post_page-----e5213cdcfaa2--------------------------------
-  40. https://medium.com/golang-learn?source=post_page-----e5213cdcfaa2--------------------------------
-  41. https://medium.com/m/signin?actionUrl=/_/api/subscriptions/newsletters/997b4efe98f9&operation=register&redirect=https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2&newsletterV3=6aac7a58837&newsletterV3Id=997b4efe98f9&user=Kyle+C.+Quest+(Q)&userId=6aac7a58837&source=-----e5213cdcfaa2---------------------subscribe_user-----------
-  42. https://help.medium.com/hc/en-us?source=post_page-----e5213cdcfaa2--------------------------------
-  43. https://medium.statuspage.io/?source=post_page-----e5213cdcfaa2--------------------------------
-  44. https://medium.com/about?autoplay=1&source=post_page-----e5213cdcfaa2--------------------------------
-  45. https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=post_page-----e5213cdcfaa2--------------------------------
-  46. https://blog.medium.com/?source=post_page-----e5213cdcfaa2--------------------------------
-  47. https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=post_page-----e5213cdcfaa2--------------------------------
-  48. https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=post_page-----e5213cdcfaa2--------------------------------
-  49. https://speechify.com/medium?source=post_page-----e5213cdcfaa2--------------------------------
-  50. https://medium.com/business?source=post_page-----e5213cdcfaa2--------------------------------
+[69]
 
-   Hidden links:
-  52. https://medium.com/?source=---two_column_layout_nav----------------------------------
-  53. https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2Fnew-story&source=---two_column_layout_nav-----------------------new_post_topnav-----------
-  54. https://medium.com/search?source=---two_column_layout_nav----------------------------------
-  55. https://medium.com/@kcq?source=post_page-----e5213cdcfaa2--------------------------------
-  56. https://medium.com/golang-learn?source=post_page-----e5213cdcfaa2--------------------------------
-  57. https://medium.com/tag/golang?source=post_page-----e5213cdcfaa2---------------golang-----------------
-  58. https://medium.com/tag/go?source=post_page-----e5213cdcfaa2---------------go-----------------
-  59. https://medium.com/tag/standards?source=post_page-----e5213cdcfaa2---------------standards-----------------
-  60. https://medium.com/tag/project-structure?source=post_page-----e5213cdcfaa2---------------project_structure-----------------
-  61. https://medium.com/@kcq?source=post_page-----e5213cdcfaa2--------------------------------
-  62. https://medium.com/golang-learn?source=post_page-----e5213cdcfaa2--------------------------------
+Privacy
+
+[70]
+
+Terms
+
+[71]
+
+Text to speech
+
+[72]
+
+Teams
+
+
+References:
+
+[1] https://rsci.app.link/?%24canonical_url=https%3A%2F%2Fmedium.com%2Fp%2Fe5213cdcfaa2&%7Efeature=LoOpenInAppButton&%7Echannel=ShowPostUnderCollection&source=---two_column_layout_nav----------------------------------
+[3] https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2Fgolang-learn%2Fgo-project-layout-e5213cdcfaa2&source=post_page---two_column_layout_nav-----------------------global_nav-----------
+[4] https://medium.com/?source=---two_column_layout_nav----------------------------------
+[6] https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2Fnew-story&source=---two_column_layout_nav-----------------------new_post_topnav-----------
+[7] https://medium.com/search?source=---two_column_layout_nav----------------------------------
+[9] https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2Fgolang-learn%2Fgo-project-layout-e5213cdcfaa2&source=post_page---two_column_layout_nav-----------------------global_nav-----------
+[11] https://medium.com/@kcq?source=post_page-----e5213cdcfaa2--------------------------------
+[12] https://medium.com/golang-learn?source=post_page-----e5213cdcfaa2--------------------------------
+[13] https://medium.com/@kcq?source=post_page-----e5213cdcfaa2--------------------------------
+[14] https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fsubscribe%2Fuser%2F6aac7a58837&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fgolang-learn%2Fgo-project-layout-e5213cdcfaa2&user=Kyle+C.+Quest+%28Q%29&userId=6aac7a58837&source=post_page-6aac7a58837----e5213cdcfaa2---------------------post_header-----------
+[15] https://medium.com/golang-learn?source=post_page-----e5213cdcfaa2--------------------------------
+[19] https://tour.golang.org/
+[20] https://play.golang.org/
+[21] https://golang.org/doc/code.html
+[22] https://github.com/golang/go/wiki/Modules
+[23] https://github.com/golang/tools/tree/master/cmd
+[24] https://github.com/kubernetes/kubernetes/tree/master/cmd
+[25] https://github.com/moby/moby/tree/master/cmd
+[26] https://github.com/prometheus/prometheus/tree/master/cmd
+[27] https://github.com/influxdata/influxdb/tree/master/cmd
+[28] https://github.com/kubernetes/kubernetes/tree/master/pkg
+[29] https://github.com/moby/moby/tree/master/pkg
+[30] https://github.com/grafana/grafana/tree/master/pkg
+[31] https://github.com/influxdata/influxdb/tree/master/pkg
+[32] https://github.com/coreos/etcd/tree/master/pkg
+[33] https://golang.org/doc/go1.4#internalpackages
+[34] https://github.com/golang/dep/tree/master/internal
+[35] https://github.com/moby/moby/tree/master/internal
+[36] https://github.com/nsqio/nsq/tree/master/internal
+[37] https://github.com/ethereum/go-ethereum/tree/master/internal
+[38] https://github.com/heptio/contour/tree/master/internal
+[39] https://github.com/heptio/ark/blob/master/cmd/ark/main.go
+[40] https://github.com/grafana/loki/blob/master/cmd/loki/main.go
+[41] https://golang.org/doc/go1.6#go_command
+[42] http://blog.sgmansfield.com/2016/01/an-analysis-of-the-top-1000-go-repositories/
+[43] https://github.com/golang-standards/project-layout
+[44] https://medium.com/golang-learn/quick-go-setup-guide-on-mac-os-x-956b327222b8
+[45] https://tour.golang.org/
+[46] http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/
+[47] https://medium.com/tag/golang?source=post_page-----e5213cdcfaa2---------------golang-----------------
+[48] https://medium.com/tag/go?source=post_page-----e5213cdcfaa2---------------go-----------------
+[49] https://medium.com/tag/standards?source=post_page-----e5213cdcfaa2---------------standards-----------------
+[50] https://medium.com/tag/project-structure?source=post_page-----e5213cdcfaa2---------------project_structure-----------------
+[53] https://medium.com/@kcq?source=post_page-----e5213cdcfaa2--------------------------------
+[54] https://medium.com/golang-learn?source=post_page-----e5213cdcfaa2--------------------------------
+[56] https://medium.com/m/signin?actionUrl=%2F_%2Fapi%2Fsubscriptions%2Fnewsletters%2F997b4efe98f9&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fgolang-learn%2Fgo-project-layout-e5213cdcfaa2&newsletterV3=6aac7a58837&newsletterV3Id=997b4efe98f9&user=Kyle+C.+Quest+%28Q%29&userId=6aac7a58837&source=-----e5213cdcfaa2---------------------subscribe_user-----------
+[58] https://medium.com/@kcq?source=post_page-----e5213cdcfaa2--------------------------------
+[59] https://medium.com/@kcq/followers?source=post_page-----e5213cdcfaa2--------------------------------
+[60] https://medium.com/golang-learn?source=post_page-----e5213cdcfaa2--------------------------------
+[62] https://medium.com/m/signin?actionUrl=%2F_%2Fapi%2Fsubscriptions%2Fnewsletters%2F997b4efe98f9&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fgolang-learn%2Fgo-project-layout-e5213cdcfaa2&newsletterV3=6aac7a58837&newsletterV3Id=997b4efe98f9&user=Kyle+C.+Quest+%28Q%29&userId=6aac7a58837&source=-----e5213cdcfaa2---------------------subscribe_user-----------
+[64] https://help.medium.com/hc/en-us?source=post_page-----e5213cdcfaa2--------------------------------
+[65] https://medium.statuspage.io/?source=post_page-----e5213cdcfaa2--------------------------------
+[66] https://medium.com/about?autoplay=1&source=post_page-----e5213cdcfaa2--------------------------------
+[67] https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=post_page-----e5213cdcfaa2--------------------------------
+[68] https://blog.medium.com/?source=post_page-----e5213cdcfaa2--------------------------------
+[69] https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=post_page-----e5213cdcfaa2--------------------------------
+[70] https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=post_page-----e5213cdcfaa2--------------------------------
+[71] https://speechify.com/medium?source=post_page-----e5213cdcfaa2--------------------------------
+[72] https://medium.com/business?source=post_page-----e5213cdcfaa2--------------------------------

@@ -1,222 +1,210 @@
-   #[1]All posts for Baldur Bjarnason
+  • [1]Archive
+  • [2]Newsletter
+  • [3]Book
+  • [4]AI Book
+  • [5]Contact
 
-     * [2]Archive
-     * [3]Newsletter
-     * [4]Book
-     * [5]AI Book
-     * [6]Contact
+[6]Baldur Bjarnason
 
-   [7]Baldur Bjarnason
+Web dev at the end of the world, from Hveragerði, Iceland
 
-   Web dev at the end of the world, from Hveragerði, Iceland
-
-   21 November 2022
+21 November 2022
 
 Programming is a Pop Culture
 
-   (What follows is an extract from [8]Out of the Software Crisis, lightly
-   edited to work as a blog post.)
-     __________________________________________________________________
+(What follows is an extract from [7]Out of the Software Crisis, lightly edited
+to work as a blog post.)
 
-     So I think what happened is computing has turned into pop culture
-     and the universities are not helping in general, at least not in the
-     US.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-     So, Cicero---anybody know a good Cicero quote having to do with the
-     present and past? Let's check your classical education here. So, you
-     know who Cicero was. He was one of those old Roman guys.
 
-     So, Cicero once wrote: 'He who knows only his own generation remains
-     forever a child.'
+    So I think what happened is computing has turned into pop culture and the
+    universities are not helping in general, at least not in the US.
 
-   [9]Programming and Scaling (Alan Kay, 2011)
+    So, Cicero---anybody know a good Cicero quote having to do with the present
+    and past? Let's check your classical education here. So, you know who
+    Cicero was. He was one of those old Roman guys.
 
-   The programming pop culture defines change—any change—as progress. Most
-   developers, myself included, have a fascination with novelty. If it’s
-   new, then it must be an improvement. You even hear this stated outright
-   as an argument by developers: it’s newer and therefore better. Trends
-   in software development are rarely based on objective observation or
-   sensible practice. This endless chasing of trends leads to projects
-   being needlessly rewritten, code being abandoned, and new projects
-   being started when fixing the bugs in an old project would have done
-   the same. The stocks of the software development system are flushed out
-   at a moment’s notice simply because the developers found something
-   shinier.
+    So, Cicero once wrote: 'He who knows only his own generation remains
+    forever a child.'
 
-   Experienced developers are aware of this tendency in themselves and
-   work to mitigate it, but younger developers are often under the
-   mistaken impression that this is how software development works. Unless
-   they can pare back this tendency or are matched with teammates who hold
-   them back, this tendency can lead to immense destruction of value for
-   an organisation.
+[8]Programming and Scaling (Alan Kay, 2011)
 
-   Pop cultures favour the visual aesthetic of the day. We all know what
-   sort of aesthetic designers commonly favour. Small, low-contrast text,
-   lots of whitespace, no pure whites or pure blacks (just greys). The
-   details vary with fashion, but each generation of designers has a
-   preferred visual aesthetic. That aesthetic tests poorly; the text is
-   illegible; the layout doesn’t have enough contrast. The information
-   density is so sparse it’s effectively non-existent.
+The programming pop culture defines change—any change—as progress. Most
+developers, myself included, have a fascination with novelty. If it’s new, then
+it must be an improvement. You even hear this stated outright as an argument by
+developers: it’s newer and therefore better. Trends in software development are
+rarely based on objective observation or sensible practice. This endless
+chasing of trends leads to projects being needlessly rewritten, code being
+abandoned, and new projects being started when fixing the bugs in an old
+project would have done the same. The stocks of the software development system
+are flushed out at a moment’s notice simply because the developers found
+something shinier.
 
-   Looks pretty, though.
+Experienced developers are aware of this tendency in themselves and work to
+mitigate it, but younger developers are often under the mistaken impression
+that this is how software development works. Unless they can pare back this
+tendency or are matched with teammates who hold them back, this tendency can
+lead to immense destruction of value for an organisation.
 
-   Coders have a similar tendency, their preferred aesthetic is just a bit
-   different, but as with designers, it tests horribly when put in front
-   of genuine users. The exact details of the preferred aesthetic tend to
-   vary from generation to generation. One group prefers light-on-dark
-   text (despite not suffering from conditions that benefit from dark
-   mode) and unusable hyper-complex layouts where everything is
-   configurable. Another group goes for ultra-minimalism where nothing is
-   shown by default. You constantly scrub around and hunt for a button, a
-   widget—anything that even vaguely resembles an affordance. This is
-   usually not an issue if you have designers on the team. If you’re
-   letting the programmers design the user interface or are a programmer
-   designing a user interface, you need to be aware of it.
+Pop cultures favour the visual aesthetic of the day. We all know what sort of
+aesthetic designers commonly favour. Small, low-contrast text, lots of
+whitespace, no pure whites or pure blacks (just greys). The details vary with
+fashion, but each generation of designers has a preferred visual aesthetic.
+That aesthetic tests poorly; the text is illegible; the layout doesn’t have
+enough contrast. The information density is so sparse it’s effectively
+non-existent.
 
-   But this adherence to a specific aesthetic isn’t limited to designs.
-   It’s also an issue when it comes to the code itself.
+Looks pretty, though.
 
-   The programming pop culture favours specific code aesthetics based on
-   the trends of the day. I’m not talking about code style or formatting.
-   The code in a project should adhere to a single style, simple as that.
-   The issue is that the programming pop culture demands that code exhibit
-   the latest popular aesthetics of rigour, formality, and cleverness.
-   Whether the code actually is rigorous, formal, or clever matters less.
-   A few years ago, as the popularity of the Ruby programming language
-   peaked, a certain dynamism and trickery were en vogue. It didn’t matter
-   if you were writing in Ruby, JavaScript, or Objective-C. Your code had
-   to have a level of “magic” to it. Metaprogramming, syntax-hacking
-   languages to create ad hoc Domain-Specific Languages, tricks with
-   extreme late binding, and more were frequent topics on developer
-   weblogs and forums. Even a phrase like “objective-c runtime
-   metaprogramming” will date you to a specific generation of native app
-   developers almost down to a single year.
+Coders have a similar tendency, their preferred aesthetic is just a bit
+different, but as with designers, it tests horribly when put in front of
+genuine users. The exact details of the preferred aesthetic tend to vary from
+generation to generation. One group prefers light-on-dark text (despite not
+suffering from conditions that benefit from dark mode) and unusable
+hyper-complex layouts where everything is configurable. Another group goes for
+ultra-minimalism where nothing is shown by default. You constantly scrub around
+and hunt for a button, a widget—anything that even vaguely resembles an
+affordance. This is usually not an issue if you have designers on the team. If
+you’re letting the programmers design the user interface or are a programmer
+designing a user interface, you need to be aware of it.
 
-   As with all of these pop culture trends in programming, this led to
-   unreadable code that was impossible to work with or fix as soon as it
-   faded from popular consciousness.
+But this adherence to a specific aesthetic isn’t limited to designs. It’s also
+an issue when it comes to the code itself.
 
-   The current trend is towards the aesthetics of correctness. Everything
-   has to look like it has strong or static typing. It doesn’t have to
-   really have static typing. That can all be made up after the fact in a
-   declaration file. It merely needs to have the aesthetics of types. Type
-   annotations everywhere, implementing logic through type system
-   trickery, and forcing any and all dynamism out of the system in the
-   name of correctness is the name of the game.
+The programming pop culture favours specific code aesthetics based on the
+trends of the day. I’m not talking about code style or formatting. The code in
+a project should adhere to a single style, simple as that. The issue is that
+the programming pop culture demands that code exhibit the latest popular
+aesthetics of rigour, formality, and cleverness. Whether the code actually is
+rigorous, formal, or clever matters less. A few years ago, as the popularity of
+the Ruby programming language peaked, a certain dynamism and trickery were en
+vogue. It didn’t matter if you were writing in Ruby, JavaScript, or
+Objective-C. Your code had to have a level of “magic” to it. Metaprogramming,
+syntax-hacking languages to create ad hoc Domain-Specific Languages, tricks
+with extreme late binding, and more were frequent topics on developer weblogs
+and forums. Even a phrase like “objective-c runtime metaprogramming” will date
+you to a specific generation of native app developers almost down to a single
+year.
 
-   A part of this trend is the unpopularity of the approaches and
-   languages that are seen as less rigorous. CSS is dropped in favour of
-   statically typed CSS-in-JS approaches. HTML is dropped in favour of a
-   strict inline XML-like markup format called JSX. Just a few years ago,
-   everybody in web development hated and dropped XML and XHTML
-   specifically because it was too strict and felt less dynamic and
-   flexible than HTML. At some point, pop culture will bore of this and
-   swing its attention back the other way.
+As with all of these pop culture trends in programming, this led to unreadable
+code that was impossible to work with or fix as soon as it faded from popular
+consciousness.
 
-   It’s a fashion industry. Trends come; trends go. The lack of historical
-   awareness is considered by most to be a feature.
+The current trend is towards the aesthetics of correctness. Everything has to
+look like it has strong or static typing. It doesn’t have to really have static
+typing. That can all be made up after the fact in a declaration file. It merely
+needs to have the aesthetics of types. Type annotations everywhere,
+implementing logic through type system trickery, and forcing any and all
+dynamism out of the system in the name of correctness is the name of the game.
 
-   This rigour is useful in moderation. Static typing does prevent bugs.
-   Usually, they are the same sort of bugs unit testing prevents. Both
-   have immense value as tools to manage your software development.
-   Currently, the fashion is to favour static typing over unit testing for
-   establishing a certain base level of correctness in your code. At some
-   point, they are likely to switch again. They have a couple of times in
-   the past. That you could use both at the same time and get the benefits
-   of both doesn’t enter the discourse. Static typing with compile-time
-   correctness checks has its uses. So do dynamism, extreme late binding,
-   and metaprogramming. Most of these approaches can be used together, but
-   that isn’t how pop culture works. Pop culture demands there be only one
-   winner at a time. Choose one, not whichever works the best at each
-   time.
+A part of this trend is the unpopularity of the approaches and languages that
+are seen as less rigorous. CSS is dropped in favour of statically typed
+CSS-in-JS approaches. HTML is dropped in favour of a strict inline XML-like
+markup format called JSX. Just a few years ago, everybody in web development
+hated and dropped XML and XHTML specifically because it was too strict and felt
+less dynamic and flexible than HTML. At some point, pop culture will bore of
+this and swing its attention back the other way.
 
-   Product development can’t indulge in being pop culture. Be wary of
-   these popularity contests.
+It’s a fashion industry. Trends come; trends go. The lack of historical
+awareness is considered by most to be a feature.
 
-   These issues with programming culture aren’t new.
+This rigour is useful in moderation. Static typing does prevent bugs. Usually,
+they are the same sort of bugs unit testing prevents. Both have immense value
+as tools to manage your software development. Currently, the fashion is to
+favour static typing over unit testing for establishing a certain base level of
+correctness in your code. At some point, they are likely to switch again. They
+have a couple of times in the past. That you could use both at the same time
+and get the benefits of both doesn’t enter the discourse. Static typing with
+compile-time correctness checks has its uses. So do dynamism, extreme late
+binding, and metaprogramming. Most of these approaches can be used together,
+but that isn’t how pop culture works. Pop culture demands there be only one
+winner at a time. Choose one, not whichever works the best at each time.
 
-   Jamie Zawinski calls it the [10]“Cascade of Attention-Deficit
-   Teenagers” model. We can’t do much to change the nature of the field by
-   now—Alan Kay has certainly tried—but we can mitigate the harm done by
-   the trend-seeking. We can work to ensure that everybody on the team,
-   programmers and designers, is aligned, and have the same understanding
-   of what matters and how to accomplish it.
+Product development can’t indulge in being pop culture. Be wary of these
+popularity contests.
 
-   For that, you need everybody to understand the context they are working
-   in—the works of their field and how they are received. You need to
-   develop taste and understanding.
+These issues with programming culture aren’t new.
 
-   You need research.
-     __________________________________________________________________
+Jamie Zawinski calls it the [9]“Cascade of Attention-Deficit Teenagers” model.
+We can’t do much to change the nature of the field by now—Alan Kay has
+certainly tried—but we can mitigate the harm done by the trend-seeking. We can
+work to ensure that everybody on the team, programmers and designers, is
+aligned, and have the same understanding of what matters and how to accomplish
+it.
 
-   Bonus Alan Kay quote on programming as a pop culture that I didn’t
-   include in the book:
+For that, you need everybody to understand the context they are working in—the
+works of their field and how they are received. You need to develop taste and
+understanding.
 
-     But pop culture holds a disdain for history. Pop culture is all
-     about identity and feeling like you’re participating. It has nothing
-     to do with cooperation, the past or the future—it’s living in the
-     present. I think the same is true of most people who write code for
-     money. They have no idea where [their culture came from]—and the
-     Internet was done so well that most people think of it as a natural
-     resource like the Pacific Ocean, rather than something that was
-     man-made.
+You need research.
 
-   Alan Kay, [11]Dr. Dobb’s Interview with Alan Kay
-     __________________________________________________________________
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-[12]Out of the Software Crisis
+Bonus Alan Kay quote on programming as a pop culture that I didn’t include in
+the book:
 
-   [13]Out of the Software Crisis by Baldur Bjarnason
+    But pop culture holds a disdain for history. Pop culture is all about
+    identity and feeling like you’re participating. It has nothing to do with
+    cooperation, the past or the future—it’s living in the present. I think the
+    same is true of most people who write code for money. They have no idea
+    where [their culture came from]—and the Internet was done so well that most
+    people think of it as a natural resource like the Pacific Ocean, rather
+    than something that was man-made.
 
-   Software projects keep failing, not because we don’t have the right
-   team or tools but because our software development system is broken.
-   Out of the Software Crisis is a guide to fixing your software projects
-   with systems-thinking making them more resilient to change and less
-   likely to fail.
+Alan Kay, [10]Dr. Dobb’s Interview with Alan Kay
 
-   [14]Systems-Thinking For Software Projects
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-   [15]WTF is a Framework?
+[11]Out of the Software Crisis
 
-   [16]The response to Out of the Software Crisis has been amazing
+[12]Out of the Software Crisis by Baldur Bjarnason
+
+Software projects keep failing, not because we don’t have the right team or
+tools but because our software development system is broken. Out of the
+Software Crisis is a guide to fixing your software projects with
+systems-thinking making them more resilient to change and less likely to fail.
+
+[13]Systems-Thinking For Software Projects
+
+[14] WTF is a Framework? 
+
+[15]The response to Out of the Software Crisis has been amazing
 
 Join the Newsletter
 
-   Subscribe to the [17]Out of the Software Crisis newsletter to get my
-   weekly (at least) essays on how to avoid or get out of software
-   development crises.
+Subscribe to the [16]Out of the Software Crisis newsletter to get my weekly (at
+least) essays on how to avoid or get out of software development crises.
 
-   Join now and get a free PDF of three bonus essays from Out of the
-   Software Crisis.
+Join now and get a free PDF of three bonus essays from Out of the Software
+Crisis.
 
-   ____________________
-   (BUTTON)
-   Subscribe
+[17][                    ]
+Subscribe
 
-   We respect your privacy.
+We respect your privacy.
 
-   Unsubscribe at any time.
+Unsubscribe at any time.
 
-   You can also find me on [18]Mastodon and [19]Twitter
+You can also find me on [19]Mastodon and [20]Twitter
 
-References
+References:
 
-   1. https://www.baldurbjarnason.com/feed.xml
-   2. https://www.baldurbjarnason.com/archive
-   3. https://softwarecrisis.dev/
-   4. https://softwarecrisis.baldurbjarnason.com/
-   5. https://illusion.baldurbjarnason.com/
-   6. mailto:baldur.bjarnason@gmail.com
-   7. https://www.baldurbjarnason.com/
-   8. https://softwarecrisis.baldurbjarnason.com/
-   9. https://www.youtube.com/watch?v=YyIQKBzIuBY
-  10. https://www.jwz.org/doc/cadt.html
-  11. https://link.springer.com/content/pdf/bbm:978-3-319-90008-7/1.pdf
-  12. https://softwarecrisis.baldurbjarnason.com/
-  13. https://softwarecrisis.baldurbjarnason.com/
-  14. https://softwarecrisis.baldurbjarnason.com/
-  15. https://www.baldurbjarnason.com/2022/wtf-is-a-framework/
-  16. https://www.baldurbjarnason.com/2022/ootsc-update/
-  17. https://softwarecrisis.dev/
-  18. https://toot.cafe/@baldur
-  19. https://twitter.com/fakebaldur
+[1] https://www.baldurbjarnason.com/archive
+[2] https://softwarecrisis.dev/
+[3] https://softwarecrisis.baldurbjarnason.com/
+[4] https://illusion.baldurbjarnason.com/
+[5] mailto:baldur.bjarnason@gmail.com
+[6] https://www.baldurbjarnason.com/
+[7] https://softwarecrisis.baldurbjarnason.com/
+[8] https://www.youtube.com/watch?v=YyIQKBzIuBY
+[9] https://www.jwz.org/doc/cadt.html
+[10] https://link.springer.com/content/pdf/bbm:978-3-319-90008-7/1.pdf
+[11] https://softwarecrisis.baldurbjarnason.com/
+[12] https://softwarecrisis.baldurbjarnason.com/
+[13] https://softwarecrisis.baldurbjarnason.com/
+[14] https://www.baldurbjarnason.com/2022/wtf-is-a-framework/
+[15] https://www.baldurbjarnason.com/2022/ootsc-update/
+[16] https://softwarecrisis.dev/
+[19] https://toot.cafe/@baldur
+[20] https://twitter.com/fakebaldur

@@ -1,1068 +1,1022 @@
-   #[1]Out of the Software Crisis (Newsletter) [2]Out of the Software
-   Crisis (Newsletter)
-
-   [3]Out of the Software Crisis
-
-   Bird flying logo [4]Newsletter [5]Book [6]AI Book [7]Archive [8]Author
+[1]Out of the Software Crisis Bird flying logo [2]Newsletter [3]Book [4]AI Book
+[5]Archive [6]Author
 
 Modern software quality, or why I think using language models for programming
 is a bad idea
 
-   By Baldur Bjarnason,
-   May 30th, 2023
+By Baldur Bjarnason,
+May 30th, 2023
 
-   This essay is based on a talk I gave at [9]Hakkavélin, a hackerspace in
-   Reykjavík. I had a wonderful time presenting to a lovely crowd, full of
-   inquisitive and critically-minded people. Their questions and the
-   discussion afterwards led to a number of improvements and
-   clarifications as I turned my notes into this letter. This resulted in
-   a substantial expansion of this essay. Many of the expanded points,
-   such as the ones surrounding language model security, come directly
-   from these discussions.
+This essay is based on a talk I gave at [7]Hakkavélin, a hackerspace in
+Reykjavík. I had a wonderful time presenting to a lovely crowd, full of
+inquisitive and critically-minded people. Their questions and the discussion
+afterwards led to a number of improvements and clarifications as I turned my
+notes into this letter. This resulted in a substantial expansion of this essay.
+Many of the expanded points, such as the ones surrounding language model
+security, come directly from these discussions.
 
-   Many thanks to all of those who attended. The references for the
-   presentation are also the references for this essay, which you can find
-   all the way down in the footnotes section.
+Many thanks to all of those who attended. The references for the presentation
+are also the references for this essay, which you can find all the way down in
+the footnotes section.
 
-   The best way to support this newsletter or my blog is to buy one of my
-   books, [10]The Intelligence Illusion: a practical guide to the business
-   risks of Generative AI or [11]Out of the Software Crisis. Or, you can
-   buy them both [12]as a bundle.
+The best way to support this newsletter or my blog is to buy one of my books, 
+[8]The Intelligence Illusion: a practical guide to the business risks of
+Generative AI or [9]Out of the Software Crisis. Or, you can buy them both [10]
+as a bundle.
 
 The software industry is very bad at software
 
-   Here’s a true story. Names withheld to protect the innocent.
+Here’s a true story. Names withheld to protect the innocent.
 
-   A chain of stores here in Iceland recently upgraded their point-of-sale
-   terminals to use new software.
+A chain of stores here in Iceland recently upgraded their point-of-sale
+terminals to use new software.
 
-   Disaster, obviously, ensued. The barcode scanner stopped working
-   properly, leading customer to be either overcharged or undercharged.
-   Everything was extremely slow. The terminals started to lock up
-   regularly. The new invoice printer sucked. A process that had been
-   working smoothly was now harder and took more time.
+Disaster, obviously, ensued. The barcode scanner stopped working properly,
+leading customer to be either overcharged or undercharged. Everything was
+extremely slow. The terminals started to lock up regularly. The new invoice
+printer sucked. A process that had been working smoothly was now harder and
+took more time.
 
-   The store, where my “informant” is a manager, deals with a lot of
-   businesses, many of them stores. When they explain to their customers
-   why everything is taking so long, their answer is generally the same:
+The store, where my “informant” is a manager, deals with a lot of businesses,
+many of them stores. When they explain to their customers why everything is
+taking so long, their answer is generally the same:
 
-   “Ah, software upgrade. The same happened to us when we upgraded our
-   terminals.”
+“Ah, software upgrade. The same happened to us when we upgraded our terminals.”
 
-   This is the norm.
+This is the norm.
 
-   The new software is worse in every way than what it’s replacing.
-   Despite having a more cluttered UI, it seems to have omitted a bunch of
-   important features. Despite being new and “optimised”, it’s
-   considerably slower than what it’s replacing.
+The new software is worse in every way than what it’s replacing. Despite having
+a more cluttered UI, it seems to have omitted a bunch of important features.
+Despite being new and “optimised”, it’s considerably slower than what it’s
+replacing.
 
-   This is also the norm.
+This is also the norm.
 
-   Switching costs are, more often than not, massive for business
-   software, and purchases are not decided by anybody who actually uses
-   it. The quality of the software disconnects from sales performance very
-   quickly in a growing software company. The company ends up “owning” the
-   customer and no longer has any incentive to improve the software. In
-   fact, because adding features is a key marketing and sales tactic, the
-   software development cycle becomes an act of intentional, controlled
-   deterioration.
+Switching costs are, more often than not, massive for business software, and
+purchases are not decided by anybody who actually uses it. The quality of the
+software disconnects from sales performance very quickly in a growing software
+company. The company ends up “owning” the customer and no longer has any
+incentive to improve the software. In fact, because adding features is a key
+marketing and sales tactic, the software development cycle becomes an act of
+intentional, controlled deterioration.
 
-   Enormous engineering resources go into finding new ways to minimise the
-   deterioration—witness Microsoft’s “ribbon menu”, a widget invented
-   entirely to manage the feature escalation mandated by marketing.
+Enormous engineering resources go into finding new ways to minimise the
+deterioration—witness Microsoft’s “ribbon menu”, a widget invented entirely to
+manage the feature escalation mandated by marketing.
 
-   This is the norm.
+This is the norm.
 
-   This has always been the norm, from the early days of software.
+This has always been the norm, from the early days of software.
 
-   The software industry is bad at software. Great at shipping features
-   and selling software. Bad at the software itself.
+The software industry is bad at software. Great at shipping features and
+selling software. Bad at the software itself.
 
 Why I started researching “AI” for programming
 
-   In most sectors of the software industry, sales performance and product
-   quality are disconnected.
+In most sectors of the software industry, sales performance and product quality
+are disconnected.
 
-   By its nature software has enormous margins which further cushion it
-   from the effect of delivering bad products.
+By its nature software has enormous margins which further cushion it from the
+effect of delivering bad products.
 
-   The objective impact of poor software quality on the bottom lines of
-   companies like Microsoft, Google, Apple, Facebook, or the retail side
-   of Amazon is a rounding error. The rest only need to deliver usable
-   early versions, but once you have an established customer base and an
-   experienced sales team, you can coast for a long, long time without
-   improving your product in any meaningful way.
+The objective impact of poor software quality on the bottom lines of companies
+like Microsoft, Google, Apple, Facebook, or the retail side of Amazon is a
+rounding error. The rest only need to deliver usable early versions, but once
+you have an established customer base and an experienced sales team, you can
+coast for a long, long time without improving your product in any meaningful
+way.
 
-   You only need to show change. Improvements don’t sell, it’s freshness
-   that moves product. It’s like store tomatoes. Needs to look good and be
-   fresh. They’re only going to taste it after they’ve paid, so who cares
-   about the actual quality.
+You only need to show change. Improvements don’t sell, it’s freshness that
+moves product. It’s like store tomatoes. Needs to look good and be fresh.
+They’re only going to taste it after they’ve paid, so who cares about the
+actual quality.
 
-   Uptime reliability is the only quality measurement with a real impact
-   on ad revenue or the success of enterprise contracts, so that’s the
-   only quality measurement that ultimately matters to them.
+Uptime reliability is the only quality measurement with a real impact on ad
+revenue or the success of enterprise contracts, so that’s the only quality
+measurement that ultimately matters to them.
 
-   Bugs, shoddy UX, poor accessibility—even when accessibility is required
-   by law—are non-factors in modern software management, especially at
-   larger software companies.
+Bugs, shoddy UX, poor accessibility—even when accessibility is required by
+law—are non-factors in modern software management, especially at larger
+software companies.
 
-   The rest of us in the industry then copy their practices, and we mostly
-   get away with it. Our margins may not be as enormous as Google’s, but
-   they are still quite good compared to non-software industries.
+The rest of us in the industry then copy their practices, and we mostly get
+away with it. Our margins may not be as enormous as Google’s, but they are
+still quite good compared to non-software industries.
 
-   We have an industry that’s largely disconnected from the consequences
-   of making bad products, which means that we have a lot of successful
-   but bad products.
+We have an industry that’s largely disconnected from the consequences of making
+bad products, which means that we have a lot of successful but bad products.
 
-  The software crisis
+The software crisis
 
-   Research bears this out. I pointed out in my 2021 essay [13]Software
-   Crisis 2.0 that very few non-trivial software projects are successful,
-   even when your benchmarks are fundamentally conservative and short
-   term.
+Research bears this out. I pointed out in my 2021 essay [11]Software Crisis 2.0
+that very few non-trivial software projects are successful, even when your
+benchmarks are fundamentally conservative and short term.
 
-   For example, the following table is from [14]a 2015 report by the
-   Standish Group on their long term study in software project success:
+For example, the following table is from [12]a 2015 report by the Standish
+Group on their long term study in software project success:
 
-            SUCCESSFUL CHALLENGED FAILED TOTAL
-    Grand   6%         51%        43%    100%
-    Large   11%        59%        30%    100%
-    Medium  12%        62%        26%    100%
-   Moderate 24%        64%        12%    100%
-    Small   61%        32%        7%     100%
+         SUCCESSFUL CHALLENGED FAILED TOTAL
+ Grand   6%         51%        43%    100%
+ Large   11%        59%        30%    100%
+ Medium  12%        62%        26%    100%
+Moderate 24%        64%        12%    100%
+ Small   61%        32%        7%     100%
 
-   The Chaos Report 2015 resolution by project size
+The Chaos Report 2015 resolution by project size
 
-   This is based on data that’s collected and anonymised from a number of
-   organisations in a variety of industries. You’ll note that very few
-   projects outright succeed. Most of them go over budget or don’t deliver
-   the functionality they were supposed to. A frightening number of large
-   projects outright fail to ship anything usable.
+This is based on data that’s collected and anonymised from a number of
+organisations in a variety of industries. You’ll note that very few projects
+outright succeed. Most of them go over budget or don’t deliver the
+functionality they were supposed to. A frightening number of large projects
+outright fail to ship anything usable.
 
-   In my book [15]Out of the Software Crisis, I expanded on this by
-   pointing out that there are many classes and types of bugs and defects
-   that we don’t measure at all, many of them catastrophic, which means
-   that these estimates are conservative. Software project failure is
-   substantially higher than commonly estimated, and success if much rarer
-   than the numbers would indicate.
+In my book [13]Out of the Software Crisis, I expanded on this by pointing out
+that there are many classes and types of bugs and defects that we don’t measure
+at all, many of them catastrophic, which means that these estimates are
+conservative. Software project failure is substantially higher than commonly
+estimated, and success if much rarer than the numbers would indicate.
 
-   The true percentage of large software projects that are genuinely
-   successful in the long term—that don’t have any catastrophic bugs,
-   don’t suffer from UX deterioration, don’t end up having core issues
-   that degrade their business value—is probably closer to 1–3%.
+The true percentage of large software projects that are genuinely successful in
+the long term—that don’t have any catastrophic bugs, don’t suffer from UX
+deterioration, don’t end up having core issues that degrade their business
+value—is probably closer to 1–3%.
 
-  The management crisis
+The management crisis
 
-   We also have a management crisis.
+We also have a management crisis.
 
-   The methods of top-down-control taught to managers are
-   counterproductive for software development.
-     * Managers think design is about decoration when it’s the key to
-       making software that generates value.
-     * Trying to prevent projects that are likely to fail is harmful for
-       your career, even if the potential failure is wide-ranging and
-       potentially catastrophic.
-     * When projects fail, it’s the critics who tried to prevent disaster
-       who are blamed, not the people who ran it into the ground.
-     * Supporting a project that is guaranteed to fail is likely to
-       benefit your career, establish you as a “team player”, and protects
-       you from harmful consequences when the project crashes.
-     * Teams and staff management in the software industry commonly
-       ignores every innovation and discovery in organisational
-       psychology, management, and systems-thinking since the early
-       sixties and operate mostly on management ideas that Henry Ford
-       considered outdated in the 1920s.
+The methods of top-down-control taught to managers are counterproductive for
+software development.
 
-   We are a mismanaged industry that habitually fails to deliver usable
-   software that actually solves the problems it’s supposed to.
+  • Managers think design is about decoration when it’s the key to making
+    software that generates value.
+  • Trying to prevent projects that are likely to fail is harmful for your
+    career, even if the potential failure is wide-ranging and potentially
+    catastrophic.
+  • When projects fail, it’s the critics who tried to prevent disaster who are
+    blamed, not the people who ran it into the ground.
+  • Supporting a project that is guaranteed to fail is likely to benefit your
+    career, establish you as a “team player”, and protects you from harmful
+    consequences when the project crashes.
+  • Teams and staff management in the software industry commonly ignores every
+    innovation and discovery in organisational psychology, management, and
+    systems-thinking since the early sixties and operate mostly on management
+    ideas that Henry Ford considered outdated in the 1920s.
 
-   Thus, [16]Weinberg’s Law:
+We are a mismanaged industry that habitually fails to deliver usable software
+that actually solves the problems it’s supposed to.
 
-     If builders built buildings the way programmers wrote programs, then
-     the first woodpecker that came along would destroy civilization.
+Thus, [14]Weinberg’s Law:
 
-   It’s into this environment that “AI” software development tools appear.
+    If builders built buildings the way programmers wrote programs, then the
+    first woodpecker that came along would destroy civilization.
 
-   The punditry presented it as a revolutionary improvement in how we make
-   software. It’s supposed to fix everything.
+It’s into this environment that “AI” software development tools appear.
 
-   —This time the silver bullet will work!
+The punditry presented it as a revolutionary improvement in how we make
+software. It’s supposed to fix everything.
 
-   Because, of course, we have had such a great track record with
-   [17]silver bullets.
+—This time the silver bullet will work!
 
-   So, I had to dive into it, research it, and figure out how it really
-   worked. I needed to understand how generative AI works, as a system. I
-   haven’t researched any single topic to this degree since I finished my
-   PhD in 2006.
+Because, of course, we have had such a great track record with [15]silver
+bullets.
 
-   This research led me to write my book [18]The Intelligence Illusion: a
-   practical guide to the business risks of Generative AI. In it, I take a
-   broader view and go over the risks I discovered that come with business
-   use of generative AI.
+So, I had to dive into it, research it, and figure out how it really worked. I
+needed to understand how generative AI works, as a system. I haven’t researched
+any single topic to this degree since I finished my PhD in 2006.
 
-   But, ultimately, all that work was to answer the one question that I
-   was ultimately interested in:
+This research led me to write my book [16]The Intelligence Illusion: a
+practical guide to the business risks of Generative AI. In it, I take a broader
+view and go over the risks I discovered that come with business use of
+generative AI.
 
-  Is generative AI good or bad for software development?
+But, ultimately, all that work was to answer the one question that I was
+ultimately interested in:
 
-   To even have a hope of answering this, we first need to define our
-   terms, because the conclusion is likely to vary a lot depending on how
-   you define “AI” or even "software development.
+Is generative AI good or bad for software development?
 
-  A theory of software development as an inclusive system
+To even have a hope of answering this, we first need to define our terms,
+because the conclusion is likely to vary a lot depending on how you define “AI”
+or even "software development.
 
-   Software development is the entire system of creating, delivering, and
-   using a software project, from idea to end-user.
+A theory of software development as an inclusive system
 
-   That includes the entire process on the development side—the idea,
-   planning, management, design, collaboration, programming, testing,
-   prototyping—as well as the value created by the system when it has been
-   shipped and is being used.
+Software development is the entire system of creating, delivering, and using a
+software project, from idea to end-user.
 
-   My model is that of [19]theory-building. From my essay on
-   theory-building, which itself is an excerpt from [20]Out of the
-   Software Crisis:
+That includes the entire process on the development side—the idea, planning,
+management, design, collaboration, programming, testing, prototyping—as well as
+the value created by the system when it has been shipped and is being used.
 
-     Beyond that, software is a theory. It’s a theory about a particular
-     solution to a problem. Like the proverbial garden, it is composed of
-     a microscopic ecosystem of artefacts, each of whom has to be treated
-     like a living thing. The gardener develops a sense of how the parts
-     connect and affect each other, what makes them thrive, what kills
-     them off, and how you prompt them to grow. The software project and
-     its programmers are an indivisible and organic entity that our
-     industry treats like a toy model made of easily replaceable lego
-     blocks. They believe a software project and its developers can be
-     broken apart and reassembled without dying.
+My model is that of [17]theory-building. From my essay on theory-building,
+which itself is an excerpt from [18]Out of the Software Crisis:
 
-     What keeps the software alive are the programmers who have an
-     accurate mental model (theory) of how it is built and works. That
-     mental model can only be learned by having worked on the project
-     while it grew or by working alongside somebody who did, who can help
-     you absorb the theory. Replace enough of the programmers, and their
-     mental models become disconnected from the reality of the code, and
-     the code dies. That dead code can only be replaced by new code that
-     has been ‘grown’ by the current programmers.
+    Beyond that, software is a theory. It’s a theory about a particular
+    solution to a problem. Like the proverbial garden, it is composed of a
+    microscopic ecosystem of artefacts, each of whom has to be treated like a
+    living thing. The gardener develops a sense of how the parts connect and
+    affect each other, what makes them thrive, what kills them off, and how you
+    prompt them to grow. The software project and its programmers are an
+    indivisible and organic entity that our industry treats like a toy model
+    made of easily replaceable lego blocks. They believe a software project and
+    its developers can be broken apart and reassembled without dying.
 
-   Design and user research is an integral part of the mental model the
-   programmer needs to build, because none of the software components
-   ultimately make sense without the end-user.
+    What keeps the software alive are the programmers who have an accurate
+    mental model (theory) of how it is built and works. That mental model can
+    only be learned by having worked on the project while it grew or by working
+    alongside somebody who did, who can help you absorb the theory. Replace
+    enough of the programmers, and their mental models become disconnected from
+    the reality of the code, and the code dies. That dead code can only be
+    replaced by new code that has been ‘grown’ by the current programmers.
 
-   But, design is also vital because it is, to reuse Donald G.
-   Reinertsen’s definition from Managing the Design Factory (p. 11),
-   design is economically useful information that generally only becomes
-   useful information through validation of some sort. Otherwise it’s just
-   a guess.
+Design and user research is an integral part of the mental model the programmer
+needs to build, because none of the software components ultimately make sense
+without the end-user.
 
-   The economic part usually comes from the end-user in some way.
+But, design is also vital because it is, to reuse Donald G. Reinertsen’s
+definition from Managing the Design Factory (p. 11), design is economically
+useful information that generally only becomes useful information through
+validation of some sort. Otherwise it’s just a guess.
 
-   This systemic view is inclusive by design as you can’t accurately
-   measure the productivity or quality of a software project unless you
-   look at it end to end, from idea to end-user.
-     * If it doesn’t work for the end-user, then it’s a failure.
-     * If the management is dysfunctional, then the entire system is
-       dysfunctional.
-     * If you keep starting projects based on unworkable ideas, then your
-       programmer productivity doesn’t matter.
+The economic part usually comes from the end-user in some way.
 
-   Lines of code isn’t software development. Working software,
-   productively used, understood by the developers, is software
-   development.
+This systemic view is inclusive by design as you can’t accurately measure the
+productivity or quality of a software project unless you look at it end to end,
+from idea to end-user.
+
+  • If it doesn’t work for the end-user, then it’s a failure.
+  • If the management is dysfunctional, then the entire system is
+    dysfunctional.
+  • If you keep starting projects based on unworkable ideas, then your
+    programmer productivity doesn’t matter.
+
+Lines of code isn’t software development. Working software, productively used,
+understood by the developers, is software development.
 
 A high-level crash course in language models
 
-   Language models, small or large, are today either used as autocomplete
-   copilots or as chatbots. Some of these language model tools would be
-   used by the developer, some by the manager or other staff.
+Language models, small or large, are today either used as autocomplete copilots
+or as chatbots. Some of these language model tools would be used by the
+developer, some by the manager or other staff.
 
-   I’m treating generative media and image models as a separate topic,
-   even when they’re used by people in the software industry to generate
-   icons, graphics, or even UIs. They matter as well, but don’t have the
-   same direct impact on software quality.
+I’m treating generative media and image models as a separate topic, even when
+they’re used by people in the software industry to generate icons, graphics, or
+even UIs. They matter as well, but don’t have the same direct impact on
+software quality.
 
-   To understand the role these systems could play in software
-   development, we need a little bit more detail on what language models
-   are, how they are made, and how they work.
+To understand the role these systems could play in software development, we
+need a little bit more detail on what language models are, how they are made,
+and how they work.
 
-   Most modern machine learning models are layered networks of parameters,
-   each representing its connection to its neighbouring parameters. In a
-   modern transformer-based language model most of these parameters are
-   floating point numbers—weights—that describe the connection. Positive
-   numbers are an excitatory connection. Negative numbers are inhibitory.
+Most modern machine learning models are layered networks of parameters, each
+representing its connection to its neighbouring parameters. In a modern
+transformer-based language model most of these parameters are floating point
+numbers—weights—that describe the connection. Positive numbers are an
+excitatory connection. Negative numbers are inhibitory.
 
-   These models are built by feeding data through a tokeniser that breaks
-   text into tokens—often one word per token—that are ultimately fed into
-   an algorithm. That algorithm constructs the network, node by node,
-   layer by layer, based on the relationships it calculates between the
-   tokens/words. This is done in several runs and, usually, the developer
-   of the model will evaluate after each run that the model is progressing
-   in the right direction, with some doing more thorough evaluation at
-   specific checkpoints.
+These models are built by feeding data through a tokeniser that breaks text
+into tokens—often one word per token—that are ultimately fed into an algorithm.
+That algorithm constructs the network, node by node, layer by layer, based on
+the relationships it calculates between the tokens/words. This is done in
+several runs and, usually, the developer of the model will evaluate after each
+run that the model is progressing in the right direction, with some doing more
+thorough evaluation at specific checkpoints.
 
-   The network is, in a very fundamental way, a mathematical derivation of
-   the language in the data.
+The network is, in a very fundamental way, a mathematical derivation of the
+language in the data.
 
-   A language model is constructed from the data. The transformer code
-   regulates and guides the process, but the distributions within the data
-   set are what defines the network.
+A language model is constructed from the data. The transformer code regulates
+and guides the process, but the distributions within the data set are what
+defines the network.
 
-   This process takes time—both collecting and managing the data set and
-   the build process itself—which inevitably introduces a cut-off point
-   for the data set. For OpenAI and Anthropic, that cut-off point is in
-   2021. For Google’s PaLM2 it’s early 2023.
-     __________________________________________________________________
+This process takes time—both collecting and managing the data set and the build
+process itself—which inevitably introduces a cut-off point for the data set.
+For OpenAI and Anthropic, that cut-off point is in 2021. For Google’s PaLM2
+it’s early 2023.
 
-  Aside: not a brain
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-   This is very, very different from how a biological neural network
-   interacts with data. A biological brain is modified by input and
-   data—its environment—but its construction is derived from nutrition,
-   its chemical environment, and genetics.
+Aside: not a brain
 
-   The data set, conversely, is a deep and fundamental part of the
-   language model. The algorithm’s code provides the process while the
-   weights themselves are derived from the data, and the model itself is
-   dead and static during input and output.
+This is very, very different from how a biological neural network interacts
+with data. A biological brain is modified by input and data—its environment—but
+its construction is derived from nutrition, its chemical environment, and
+genetics.
 
-   The construction process of a neural network is called “training”,
-   which is yet another incredibly inaccurate term used by the industry.
-     * A pregnant mother isn’t “training” the fetus.
-     * A language model isn’t “trained” from the data, but constructed.
+The data set, conversely, is a deep and fundamental part of the language model.
+The algorithm’s code provides the process while the weights themselves are
+derived from the data, and the model itself is dead and static during input and
+output.
 
-   This is nonsense.
+The construction process of a neural network is called “training”, which is yet
+another incredibly inaccurate term used by the industry.
 
-   But this is the term that the AI industry uses, so we’re stuck with it.
+  • A pregnant mother isn’t “training” the fetus.
+  • A language model isn’t “trained” from the data, but constructed.
 
-   A language model is a mathematical model built as a derivation of its
-   training data. There is no actual training, only construction.
+This is nonsense.
 
-   This is also why it’s inaccurate to say that these systems are inspired
-   by their training data. Even though genes and nutrition make an
-   artist’s mind they are not in what any reasonable person would call
-   “their inspiration”. Even when they are sought out for study and
-   genuine inspiration, it’s our representations of our understanding of
-   the genes that are the true source of inspiration. Nobody sticks their
-   hand in a gelatinous puddle of DNA and spontaneously gets inspired by
-   the data it encodes.
+But this is the term that the AI industry uses, so we’re stuck with it.
 
-   Training data are construction materials for a language models. A
-   language model can never be inspired. It is itself a cultural artefact
-   derived from other cultural artefacts.
+A language model is a mathematical model built as a derivation of its training
+data. There is no actual training, only construction.
 
-   The machine learning process is loosely based on decades-old grossly
-   simplified models of how brains work.
+This is also why it’s inaccurate to say that these systems are inspired by
+their training data. Even though genes and nutrition make an artist’s mind they
+are not in what any reasonable person would call “their inspiration”. Even when
+they are sought out for study and genuine inspiration, it’s our representations
+of our understanding of the genes that are the true source of inspiration.
+Nobody sticks their hand in a gelatinous puddle of DNA and spontaneously gets
+inspired by the data it encodes.
 
-   A biological neuron is a complex system in its own right—one of the
-   more complex cells in an animal’s body. In a living brain, a biological
-   neuron will use electricity, multiple different classes of
-   neurotransmitters, and timing to accomplish its function in ways that
-   we still don’t fully understand. It even has its own [21]built-in
-   engine for chemical energy.
+Training data are construction materials for a language models. A language
+model can never be inspired. It is itself a cultural artefact derived from
+other cultural artefacts.
 
-   The brain as a whole is composed of not just a massive neural network,
-   but also layers of hormonal chemical networks that dynamically modify
-   its function, both granularly and as a whole.
+The machine learning process is loosely based on decades-old grossly simplified
+models of how brains work.
 
-   The digital neuron—a single signed floating point number—is to a
-   biological neuron what a flat-head screwdriver is to a Tesla.
+A biological neuron is a complex system in its own right—one of the more
+complex cells in an animal’s body. In a living brain, a biological neuron will
+use electricity, multiple different classes of neurotransmitters, and timing to
+accomplish its function in ways that we still don’t fully understand. It even
+has its own [19]built-in engine for chemical energy.
 
-   They both contain metal and that’s about the extent of their
-   similarity.
+The brain as a whole is composed of not just a massive neural network, but also
+layers of hormonal chemical networks that dynamically modify its function, both
+granularly and as a whole.
 
-   The human brain contains roughly 100 billion neuron cells, a layered
-   chemical network, and a cerebrovascular system that all integrate as a
-   whole to create a functioning, self-aware system capable of general
-   reasoning and autonomous behaviour. This system is multiple orders of
-   magnitude more complex than even the largest language model to date,
-   both in terms of individual neuron structure, and taken as a whole.
+The digital neuron—a single signed floating point number—is to a biological
+neuron what a flat-head screwdriver is to a Tesla.
 
-   It’s important to remember this so that we don’t fall for marketing
-   claims that constantly imply that these tools are fully functioning
-   assistants.
-     __________________________________________________________________
+They both contain metal and that’s about the extent of their similarity.
 
-  The prompt
+The human brain contains roughly 100 billion neuron cells, a layered chemical
+network, and a cerebrovascular system that all integrate as a whole to create a
+functioning, self-aware system capable of general reasoning and autonomous
+behaviour. This system is multiple orders of magnitude more complex than even
+the largest language model to date, both in terms of individual neuron
+structure, and taken as a whole.
 
-   After all of this, we have a data set which can be used to generate
-   text in response to prompts.
+It’s important to remember this so that we don’t fall for marketing claims that
+constantly imply that these tools are fully functioning assistants.
 
-   Prompts such as:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-     Who was the first man on the moon?
+The prompt
 
-   The input phrase, or prompt, has no structure beyond the linguistic.
-   It’s just a blob of text. You can’t give the model commands or
-   parameters separately from other input. Because of this, if your model
-   lets a third party enter text, an attacker will always be able to
-   bypass whatever restrictions you put on it. Control prompts or prefixes
-   will be discovered and countermanded. Delimiters don’t work.
-   Fine-tuning the model only limits the harm, but doesn’t prevent it.
+After all of this, we have a data set which can be used to generate text in
+response to prompts.
 
-   This is called a prompt injection and what it means is that model input
-   can’t be secured. You have to assume that anybody that can send text to
-   the model has full access to it.
+Prompts such as:
 
-   Language models need to be treated like an unsecured client and only
-   very carefully integrated into other systems.
+    Who was the first man on the moon?
 
-  The response
+The input phrase, or prompt, has no structure beyond the linguistic. It’s just
+a blob of text. You can’t give the model commands or parameters separately from
+other input. Because of this, if your model lets a third party enter text, an
+attacker will always be able to bypass whatever restrictions you put on it.
+Control prompts or prefixes will be discovered and countermanded. Delimiters
+don’t work. Fine-tuning the model only limits the harm, but doesn’t prevent it.
 
-   What you’re likely to get back from that prompt would be something
-   like:
+This is called a prompt injection and what it means is that model input can’t
+be secured. You have to assume that anybody that can send text to the model has
+full access to it.
 
-     On July 20, 1969, Neil Armstrong became the first human to step on
-     the moon.
+Language models need to be treated like an unsecured client and only very
+carefully integrated into other systems.
 
-   This is NASA’s own phrasing. Most answers on the web are likely to be
-   variations on this, so the answer from a language model is likely to be
-   so too.
-     * The moon landing happens to be a fact, but the language model only
-       knows it as a text.
+The response
 
-   The prompt we provided is strongly associated in the training data set
-   with other sentences that are all variations of NASA’s phrasing of the
-   answer. The model won’t answer with just “Neil Armstrong” because it
-   isn’t actually answering the question, it’s responding with the text
-   that correlates with the question. It doesn’t “know” anything.
-     * The language model is fabricating a mathematically plausible
-       response, based on word distributions in the training data.
-     * There are no facts in a language model or its output. Only
-       memorised text.
+What you’re likely to get back from that prompt would be something like:
 
-   It only fabricates. It’s all “hallucinations” all the way down.
+    On July 20, 1969, Neil Armstrong became the first human to step on the
+    moon.
 
-   Occasionally those fabrications correlate with facts, but that is a
-   mathematical quirk resulting from the fact that, on average, what
-   people write roughly correlates with their understanding of a factual
-   reality, which in turn roughly correlates with a factual reality.
+This is NASA’s own phrasing. Most answers on the web are likely to be
+variations on this, so the answer from a language model is likely to be so too.
 
-  A knowledge system?
+  • The moon landing happens to be a fact, but the language model only knows it
+    as a text.
 
-   To be able to answer that question and pass as a knowledge system, the
-   model needs to memorise the answer, or at least parts of the phrase.
+The prompt we provided is strongly associated in the training data set with
+other sentences that are all variations of NASA’s phrasing of the answer. The
+model won’t answer with just “Neil Armstrong” because it isn’t actually
+answering the question, it’s responding with the text that correlates with the
+question. It doesn’t “know” anything.
 
-   Because “AI” vendors are performing a sleight-of-hand here and
-   presenting statistical language synthesis engines as knowledge
-   retrieval systems, their focus in training and testing is on “facts”
-   and minimising “falsehoods”. The model has no notion of either, as it’s
-   entirely a language model, so the only way to square this circle is for
-   the model to memorise it all.
-     * To be able to answer a question factually, not “hallucinate”, and
-       pass as a knowledge system, the model needs to memorise the answer.
-     * The model doesn’t know facts, only text.
-     * If you want a fact from it, the model will need to memorise text
-       that correlates with that fact.
+  • The language model is fabricating a mathematically plausible response,
+    based on word distributions in the training data.
+  • There are no facts in a language model or its output. Only memorised text.
 
-  “Dr. AI”?
+It only fabricates. It’s all “hallucinations” all the way down.
 
-   Vendors then compound this by using human exams as benchmarks for
-   reasoning performance. The problem is that bar exams, medical exams,
-   and diagnosis tests are specifically designed to mostly test rote
-   memorisation. That’s what they’re for.
+Occasionally those fabrications correlate with facts, but that is a
+mathematical quirk resulting from the fact that, on average, what people write
+roughly correlates with their understanding of a factual reality, which in turn
+roughly correlates with a factual reality.
 
-   The human brain is bad at rote memorisation and generally it only
-   happens with intensive work and practice. If you want to design a test
-   that’s specifically intended to verify that somebody has spent a large
-   amount of time studying a subject, you test for rote memorisation.
+A knowledge system?
 
-   Many other benchmarks they use, such as those related to programming
-   languages also require memorisation, otherwise the systems would just
-   constantly make up APIs.
-     * Vendors use human exams as benchmarks.
-     * These are specifically designed to test rote memorisation, because
-       that’s hard for humans.
-     * Programming benchmarks also require memorisation. Otherwise, you’d
-       only get pseudocode.
+To be able to answer that question and pass as a knowledge system, the model
+needs to memorise the answer, or at least parts of the phrase.
 
-   Between the tailoring of these systems for knowledge retrieval, and the
-   use of rote memorisation exams and code generation as benchmarks, the
-   tech industry has created systems where memorisation is a core part of
-   how they function. In all research to date, memorisation has been key
-   to language model performance in a range of benchmarks.^[22][1]
+Because “AI” vendors are performing a sleight-of-hand here and presenting
+statistical language synthesis engines as knowledge retrieval systems, their
+focus in training and testing is on “facts” and minimising “falsehoods”. The
+model has no notion of either, as it’s entirely a language model, so the only
+way to square this circle is for the model to memorise it all.
 
-   If you’re familiar with storytelling devices, this here would be a
-   [23]Chekhov’s gun. Observe! The gun is above the mantelpiece:
+  • To be able to answer a question factually, not “hallucinate”, and pass as a
+    knowledge system, the model needs to memorise the answer.
+  • The model doesn’t know facts, only text.
+  • If you want a fact from it, the model will need to memorise text that
+    correlates with that fact.
 
-     👉🏻👉🏻 memorisation!
+“Dr. AI”?
 
-   Make a note of it, because those finger guns are going to be fired
-   later.
+Vendors then compound this by using human exams as benchmarks for reasoning
+performance. The problem is that bar exams, medical exams, and diagnosis tests
+are specifically designed to mostly test rote memorisation. That’s what they’re
+for.
 
-  Biases
+The human brain is bad at rote memorisation and generally it only happens with
+intensive work and practice. If you want to design a test that’s specifically
+intended to verify that somebody has spent a large amount of time studying a
+subject, you test for rote memorisation.
 
-   Beyond question and answer, these systems are great at generating the
-   averagely plausible text for a given prompt. In prose, current system
-   output smells vaguely of sweaty-but-quiet LinkedIn desperation and
-   over-enthusiastic social media. The general style will vary, but it’s
-   always going to be the most plausible style and response based on the
-   training data.
+Many other benchmarks they use, such as those related to programming languages
+also require memorisation, otherwise the systems would just constantly make up
+APIs.
 
-   One consequence of how these systems are made is that they are
-   constantly backwards-facing. Where brains are focused on the present,
-   often to their detriment, “AI” models are built using historical data.
+  • Vendors use human exams as benchmarks.
+  • These are specifically designed to test rote memorisation, because that’s
+    hard for humans.
+  • Programming benchmarks also require memorisation. Otherwise, you’d only get
+    pseudocode.
 
-   The training data encompasses thousands of diverse voices, styles,
-   structures, and tones, but some word distributions will be more common
-   in the set than others and those will end up dominating the output. As
-   a result, language models tend to lean towards the “racist grandpa who
-   has learned to speak fluent LinkedIn” end of the spectrum.^[24][2]
+Between the tailoring of these systems for knowledge retrieval, and the use of
+rote memorisation exams and code generation as benchmarks, the tech industry
+has created systems where memorisation is a core part of how they function. In
+all research to date, memorisation has been key to language model performance
+in a range of benchmarks.^[20][1]
 
-   This has implications for a whole host of use cases:
-     * Generated text is going to skew conservative in content and
-       marketing copy in structure and vocabulary. (Bigoted, prejudiced,
-       but polite and inoffensively phrased.)
-     * Even when the cut-off date for the data set is recent, it’s still
-       going to skew historical because what’s new is also comparatively
-       smaller than the old.
-     * Language models will always skew towards the more common, middling,
-       mediocre, and predictable.
-     * Because most of these models are trained on the web, much of which
-       is unhinged, violent, pornographic, and abusive, some of that
-       language will be represented in the output.
+If you’re familiar with storytelling devices, this here would be a [21]
+Chekhov’s gun. Observe! The gun is above the mantelpiece:
 
-  Modify, summarise, and “reason”
+    👉🏻👉🏻 memorisation!
 
-   The superpower that these systems provide is conversion or
-   modification. They can, generally, take text and convert it to another
-   style or structure. Take this note and turn it into a formal prose, and
-   it will! That’s amazing. I don’t think that’s a trillion-dollar
-   industry, but it’s a neat feature that will definitely be useful.
+Make a note of it, because those finger guns are going to be fired later.
 
-   They can summarise text too, but that’s much less reliable than you’d
-   expect. It unsurprisingly works best with text that already provides
-   its own summary, such as a newspaper article (first paragraphs always
-   summarise the story), academic paper (the abstract), or corporate
-   writing (executive summary). Anything that’s a mix of styles, voices,
-   or has an unusual structure won’t work as well.
+Biases
 
-   What little reasoning they do is entirely based on finding through
-   correlation and re-enacting prior textual descriptions of reasoning.
-   They fail utterly when confronted with adversarial or novel examples.
-   They also fail if you rephrase the question so that it no longer
-   correlates with the phrasing in the data set.^[25][3]
+Beyond question and answer, these systems are great at generating the averagely
+plausible text for a given prompt. In prose, current system output smells
+vaguely of sweaty-but-quiet LinkedIn desperation and over-enthusiastic social
+media. The general style will vary, but it’s always going to be the most
+plausible style and response based on the training data.
 
-   So, not actual reasoning. “Reasoning”, if you will. In other “AI” model
-   genres these correlations are often called “shortcuts”, which feels
-   apt.
+One consequence of how these systems are made is that they are constantly
+backwards-facing. Where brains are focused on the present, often to their
+detriment, “AI” models are built using historical data.
 
-   To summarise:
-     * Language models are a mathematical expression of the training data
-       set.
-     * Have very little in common with human brains.
-     * Rely on inputs that can’t be secured.
-     * Lie. Everything they output is a fabrication.
-     * Memorise heavily.
-     * Great for modifying text. No sarcasm. Genuinely good at this.
-     * Occasionally useful for summarisation if you don’t mind being lied
-       to regularly.
-     * Don’t actually reason.
+The training data encompasses thousands of diverse voices, styles, structures,
+and tones, but some word distributions will be more common in the set than
+others and those will end up dominating the output. As a result, language
+models tend to lean towards the “racist grandpa who has learned to speak fluent
+LinkedIn” end of the spectrum.^[22][2]
+
+This has implications for a whole host of use cases:
+
+  • Generated text is going to skew conservative in content and marketing copy
+    in structure and vocabulary. (Bigoted, prejudiced, but polite and
+    inoffensively phrased.)
+  • Even when the cut-off date for the data set is recent, it’s still going to
+    skew historical because what’s new is also comparatively smaller than the
+    old.
+  • Language models will always skew towards the more common, middling,
+    mediocre, and predictable.
+  • Because most of these models are trained on the web, much of which is
+    unhinged, violent, pornographic, and abusive, some of that language will be
+    represented in the output.
+
+Modify, summarise, and “reason”
+
+The superpower that these systems provide is conversion or modification. They
+can, generally, take text and convert it to another style or structure. Take
+this note and turn it into a formal prose, and it will! That’s amazing. I don’t
+think that’s a trillion-dollar industry, but it’s a neat feature that will
+definitely be useful.
+
+They can summarise text too, but that’s much less reliable than you’d expect.
+It unsurprisingly works best with text that already provides its own summary,
+such as a newspaper article (first paragraphs always summarise the story),
+academic paper (the abstract), or corporate writing (executive summary).
+Anything that’s a mix of styles, voices, or has an unusual structure won’t work
+as well.
+
+What little reasoning they do is entirely based on finding through correlation
+and re-enacting prior textual descriptions of reasoning. They fail utterly when
+confronted with adversarial or novel examples. They also fail if you rephrase
+the question so that it no longer correlates with the phrasing in the data set.
+^[23][3]
+
+So, not actual reasoning. “Reasoning”, if you will. In other “AI” model genres
+these correlations are often called “shortcuts”, which feels apt.
+
+To summarise:
+
+  • Language models are a mathematical expression of the training data set.
+  • Have very little in common with human brains.
+  • Rely on inputs that can’t be secured.
+  • Lie. Everything they output is a fabrication.
+  • Memorise heavily.
+  • Great for modifying text. No sarcasm. Genuinely good at this.
+  • Occasionally useful for summarisation if you don’t mind being lied to
+    regularly.
+  • Don’t actually reason.
 
 Why I believe “AI” for programming is a bad idea
 
-   If you recall from the start of this essay, I began my research into
-   machine learning and language models because I was curious to see if
-   they could help fix or improve the mess that is modern software
-   development.
+If you recall from the start of this essay, I began my research into machine
+learning and language models because I was curious to see if they could help
+fix or improve the mess that is modern software development.
 
-   There was reason to be hopeful. Programming languages are more uniform
-   and structured than prose, so it’s not too unreasonable to expect that
-   they might lend themselves to language models. Programming language
-   output can often be tested directly, which might help with the
-   evaluation of each training run.
+There was reason to be hopeful. Programming languages are more uniform and
+structured than prose, so it’s not too unreasonable to expect that they might
+lend themselves to language models. Programming language output can often be
+tested directly, which might help with the evaluation of each training run.
 
-   Training a language model on code also seems to benefit the model.
-   Models that include substantial code in their data set tend to be
-   better at correlative “reasoning” (to a point, still not actual
-   reasoning), which makes sense since code is all about representing
-   structured logic in text.
+Training a language model on code also seems to benefit the model. Models that
+include substantial code in their data set tend to be better at correlative
+“reasoning” (to a point, still not actual reasoning), which makes sense since
+code is all about representing structured logic in text.
 
-   But, there is an inherent [26]Catch 22 to any attempt at fixing
-   software industry dysfunction with more software. The structure of the
-   industry depends entirely on variables that everybody pretends are
-   proxies for end user value, but generally aren’t. This will always tend
-   to sabotage our efforts at industrial self-improvement.
+But, there is an inherent [24]Catch 22 to any attempt at fixing software
+industry dysfunction with more software. The structure of the industry depends
+entirely on variables that everybody pretends are proxies for end user value,
+but generally aren’t. This will always tend to sabotage our efforts at
+industrial self-improvement.
 
-   The more I studied language models as a technology the more flaws I
-   found until it became clear to me that odds are that the overall effect
-   on software development will be harmful. The problem starts with the
-   models themselves.
+The more I studied language models as a technology the more flaws I found until
+it became clear to me that odds are that the overall effect on software
+development will be harmful. The problem starts with the models themselves.
 
-  1. Language models can’t be secured
+1. Language models can’t be secured
 
-   This first issue has less to do with the use of language models for
-   software development and more to do with their use in software
-   products, which is likely to be a priority for many software companies
-   over the next few years.
+This first issue has less to do with the use of language models for software
+development and more to do with their use in software products, which is likely
+to be a priority for many software companies over the next few years.
 
-   Prompt injections are not a solved problem. OpenAI has come up with a
-   few “solutions” in the past, but none of them actually worked.
-   Everybody expects this to be fixed, but nobody has a clue how.
+Prompt injections are not a solved problem. OpenAI has come up with a few
+“solutions” in the past, but none of them actually worked. Everybody expects
+this to be fixed, but nobody has a clue how.
 
-   Language models are fundamentally based on the idea that you give it
-   text as input and get text as output. It’s entirely possible that the
-   only way to completely fix this is to invent a completely new kind of
-   language model and spend a few years training it from scratch.
-     * A language model needs to be treated like an unsecured client. It’s
-       about as secure as a web page form. It’s vulnerable to a new
-       generation of injection vulnerabilities, both direct and indirect,
-       that we still don’t quite understand.^[27][4]
+Language models are fundamentally based on the idea that you give it text as
+input and get text as output. It’s entirely possible that the only way to
+completely fix this is to invent a completely new kind of language model and
+spend a few years training it from scratch.
 
-   The training data set itself is also a security hazard. I’ve gone into
-   this in more detail elsewhere^[28][5], but the short version is that
-   training data set is vulnerable to keyword manipulation, both in terms
-   of altering sentiment and censorship.
+  • A language model needs to be treated like an unsecured client. It’s about
+    as secure as a web page form. It’s vulnerable to a new generation of
+    injection vulnerabilities, both direct and indirect, that we still don’t
+    quite understand.^[25][4]
 
-   Again, fully defending against this kind of attack would seem to
-   require inventing a completely new kind of language model.
+The training data set itself is also a security hazard. I’ve gone into this in
+more detail elsewhere^[26][5], but the short version is that training data set
+is vulnerable to keyword manipulation, both in terms of altering sentiment and
+censorship.
 
-   Neither of these issues affect the use of language models for software
-   development, but it does affect our work because we’re the ones who
-   will be expected to integrate these systems into existing websites and
-   products.
+Again, fully defending against this kind of attack would seem to require
+inventing a completely new kind of language model.
 
-  2. It encourages the worst of our management and development practices
+Neither of these issues affect the use of language models for software
+development, but it does affect our work because we’re the ones who will be
+expected to integrate these systems into existing websites and products.
 
-   A language model will never question, push back, doubt, hesitate, or
-   waver.
+2. It encourages the worst of our management and development practices
 
-   Your managers are going to use it to flesh out and describe unworkable
-   ideas, and it won’t complain. The resulting spec won’t have any bearing
-   with reality.
+A language model will never question, push back, doubt, hesitate, or waver.
 
-   People on your team will do “user research” by asking a language model,
-   which it will do even though the resulting research will be fiction and
-   entirely useless.
+Your managers are going to use it to flesh out and describe unworkable ideas,
+and it won’t complain. The resulting spec won’t have any bearing with reality.
 
-   It’ll let you implement the worst ideas ever in your code without
-   protest. Ask a copilot “how can I roll my own cryptography?” and it’ll
-   regurgitate a half-baked expression of sha1 in PHP for you.
+People on your team will do “user research” by asking a language model, which
+it will do even though the resulting research will be fiction and entirely
+useless.
 
-   Think of all the times you’ve had an idea for an approach, looked up
-   how to do it on the web, and found out that, no, this was a really bad
-   idea? I have a couple of those every week when I’m in the middle of a
-   project.
+It’ll let you implement the worst ideas ever in your code without protest. Ask
+a copilot “how can I roll my own cryptography?” and it’ll regurgitate a
+half-baked expression of sha1 in PHP for you.
 
-   Language models don’t deliver productivity improvements. They increase
-   the volume, unchecked by reason.
+Think of all the times you’ve had an idea for an approach, looked up how to do
+it on the web, and found out that, no, this was a really bad idea? I have a
+couple of those every week when I’m in the middle of a project.
 
-   A core aspect of the theory-building model of software development is
-   code that developers don’t understand is a liability. It means your
-   mental model of the software is inaccurate which will lead you to
-   create bugs as you modify it or add other components that interact with
-   pieces you don’t understand.
+Language models don’t deliver productivity improvements. They increase the
+volume, unchecked by reason.
 
-   Language model tools for software development are specifically designed
-   to create large volumes of code that the programmer doesn’t understand.
-   They are liability engines for all but the most experienced developer.
-   You can’t solve this problem by having the “AI” understand the codebase
-   and how its various components interact with each other because a
-   language model isn’t a mind. It can’t have a mental model of anything.
-   It only works through correlation.
+A core aspect of the theory-building model of software development is code that
+developers don’t understand is a liability. It means your mental model of the
+software is inaccurate which will lead you to create bugs as you modify it or
+add other components that interact with pieces you don’t understand.
 
-   These tools will indeed make you go faster, but it’s going to be
-   accelerating in the wrong direction. That is objectively worse than
-   just standing still.
+Language model tools for software development are specifically designed to
+create large volumes of code that the programmer doesn’t understand. They are
+liability engines for all but the most experienced developer. You can’t solve
+this problem by having the “AI” understand the codebase and how its various
+components interact with each other because a language model isn’t a mind. It
+can’t have a mental model of anything. It only works through correlation.
 
-  3. Its User Interfaces do not work, and we haven’t found interfaces that do
-  work
+These tools will indeed make you go faster, but it’s going to be accelerating
+in the wrong direction. That is objectively worse than just standing still.
 
-   Human factors studies, the field responsible for designing cockpits and
-   the like, discovered that humans suffer from an automation bias.
+3. Its User Interfaces do not work, and we haven’t found interfaces that do
+work
 
-   What it means is that when you have cognitive automation—something that
-   helps you think less—you inevitably think less. That means that you are
-   less critical of the output than if you were doing it yourself. That’s
-   potentially catastrophic when the output is code, especially since the
-   quality of the generated code is, understandably considering how the
-   system works, broadly on the level of a novice developer.^[29][6]
+Human factors studies, the field responsible for designing cockpits and the
+like, discovered that humans suffer from an automation bias.
 
-   Copilots and chatbots—exacerbated by anthropomorphism—seem to trigger
-   our automation biases.
+What it means is that when you have cognitive automation—something that helps
+you think less—you inevitably think less. That means that you are less critical
+of the output than if you were doing it yourself. That’s potentially
+catastrophic when the output is code, especially since the quality of the
+generated code is, understandably considering how the system works, broadly on
+the level of a novice developer.^[27][6]
 
-   Microsoft themselves have said that 40% of GitHub Copilot’s output is
-   committed unchanged.^[30][7]
+Copilots and chatbots—exacerbated by anthropomorphism—seem to trigger our
+automation biases.
 
-   Let’s not get into the question of how we, as an industry, put
-   ourselves in the position where Microsoft can follow a line of code
-   from their language model, through your text editor, and into your
-   supposedly decentralised version control system.
+Microsoft themselves have said that 40% of GitHub Copilot’s output is committed
+unchanged.^[28][7]
 
-   People overwhelmingly seem to trust the output of a language model.
+Let’s not get into the question of how we, as an industry, put ourselves in the
+position where Microsoft can follow a line of code from their language model,
+through your text editor, and into your supposedly decentralised version
+control system.
 
-   If it runs without errors, it must be fine.
+People overwhelmingly seem to trust the output of a language model.
 
-   But that’s never the case. We all know this. We’ve all seen running
-   code turn out to be buggy as hell. But something in our mind switches
-   off when we use tools for cognitive automation.
+If it runs without errors, it must be fine.
 
-  4. It’s biased towards the stale and popular
+But that’s never the case. We all know this. We’ve all seen running code turn
+out to be buggy as hell. But something in our mind switches off when we use
+tools for cognitive automation.
 
-   The biases inherent in these language models are bad enough when it
-   comes to prose, but they become a functional problem in code.
-     * Its JS code will lean towards React and node, most of it several
-       versions old, and away from the less popular corners of the JS
-       ecosystem.
-     * The code is, inevitably, more likely to be built around CommonJS
-       modules instead of the modern ESM modules.
-     * It won’t know much about Deno or Cloudflare Workers.
-     * It’ll always prefer older APIs over new. Most of these models won’t
-       know about any API or module released after 2021. This is going to
-       be an issue for languages such as Swift.
-     * New platforms and languages don’t exist to it.
-     * Existing data will outweigh deprecations and security issues.
-     * Popular but obsolete or outdated open source projects will always
-       win out over the up-to-date equivalent.
+4. It’s biased towards the stale and popular
 
-   These systems live in the popular past, like the middle-aged man who
-   doesn’t realise he isn’t the popular kid at school any more. Everything
-   he thinks is cool is actually very much not cool. More the other thing.
+The biases inherent in these language models are bad enough when it comes to
+prose, but they become a functional problem in code.
 
-   This is an issue for software because our industry is entirely
-   structured around constant change. Software security hinges on it. All
-   of our practices are based on constant march towards the new and fancy.
-   We go from framework to framework to try and find the magic solution
-   that will solve everything. In some cases language models might help
-   push back against that, but it’ll also push back against all the very
-   many changes that are necessary because the old stuff turned out to be
-   broken.
-     * The software industry is built on change.
-     * Language models are built on a static past.
+  • Its JS code will lean towards React and node, most of it several versions
+    old, and away from the less popular corners of the JS ecosystem.
+  • The code is, inevitably, more likely to be built around CommonJS modules
+    instead of the modern ESM modules.
+  • It won’t know much about Deno or Cloudflare Workers.
+  • It’ll always prefer older APIs over new. Most of these models won’t know
+    about any API or module released after 2021. This is going to be an issue
+    for languages such as Swift.
+  • New platforms and languages don’t exist to it.
+  • Existing data will outweigh deprecations and security issues.
+  • Popular but obsolete or outdated open source projects will always win out
+    over the up-to-date equivalent.
 
-  5. No matter how the lawsuits go, this threatens the existence of free and
-  open source software
+These systems live in the popular past, like the middle-aged man who doesn’t
+realise he isn’t the popular kid at school any more. Everything he thinks is
+cool is actually very much not cool. More the other thing.
 
-   Many AI vendors are mired in lawsuits.^[31][8]
+This is an issue for software because our industry is entirely structured
+around constant change. Software security hinges on it. All of our practices
+are based on constant march towards the new and fancy. We go from framework to
+framework to try and find the magic solution that will solve everything. In
+some cases language models might help push back against that, but it’ll also
+push back against all the very many changes that are necessary because the old
+stuff turned out to be broken.
 
-   These lawsuits all concentrate on the relationship between the training
-   data set and the model and they do so from a variety of angles. Some
-   are based on contract and licensing law. Others are claiming that the
-   models violate fair use. It’s hard to predict how they will go. They
-   might not all go the same way, as laws will vary across industries and
-   jurisdictions.
+  • The software industry is built on change.
+  • Language models are built on a static past.
 
-   No matter the result, we’re likely to be facing a major decline in the
-   free and open source ecosystem.
-    1. All of these models are trained on open source code without payment
-       or even acknowledgement, which is a major disincentive for
-       contributors and maintainers. That large corporations might benefit
-       from your code is a fixture of open source, but they do
-       occasionally give back to the community.
-    2. Language models—built on open source code—commonly replace that
-       code. Instead of importing a module to do a thing, you prompt your
-       Copilot. The code generated is almost certainly based on the open
-       source module, at least partially, but it has been laundered
-       through the language model, disconnecting the programmer from the
-       community, recognition, and what little reward there was.
+5. No matter how the lawsuits go, this threatens the existence of free and open
+source software
 
-   Language models demotivate maintainers and drain away both resources
-   and users. What you’re likely to be left with are those who are
-   building core infrastructure or end-user software out of principle. The
-   “free software” side of the community is more likely to survive than
-   the rest. The Linux kernel, Gnome, KDE—that sort of thing.
+Many AI vendors are mired in lawsuits.^[29][8]
 
-   The “open source” ecosystem, especially that surrounding the web and
-   node, is likely to be hit the hardest. The more driven the open source
-   project was by its proximity to either an employed contributor or
-   actively dependent business, the bigger the impact from a shift to
-   language models will be.
+These lawsuits all concentrate on the relationship between the training data
+set and the model and they do so from a variety of angles. Some are based on
+contract and licensing law. Others are claiming that the models violate fair
+use. It’s hard to predict how they will go. They might not all go the same way,
+as laws will vary across industries and jurisdictions.
 
-   This is a serious problem for the software industry as arguably much of
-   the economic value the industry has provided over the past decade comes
-   from strip-mining open source and free software.
+No matter the result, we’re likely to be facing a major decline in the free and
+open source ecosystem.
 
-  6. Licence contamination
+ 1. All of these models are trained on open source code without payment or even
+    acknowledgement, which is a major disincentive for contributors and
+    maintainers. That large corporations might benefit from your code is a
+    fixture of open source, but they do occasionally give back to the
+    community.
+ 2. Language models—built on open source code—commonly replace that code.
+    Instead of importing a module to do a thing, you prompt your Copilot. The
+    code generated is almost certainly based on the open source module, at
+    least partially, but it has been laundered through the language model,
+    disconnecting the programmer from the community, recognition, and what
+    little reward there was.
 
-   Microsoft and Google don’t train their language models on their own
-   code. GitHub’s Copilot isn’t trained on code from Microsoft’s office
-   suite, even though many of its products are likely to be some of the
-   largest React Native projects in existence. There aren’t many C++ code
-   bases as big as Windows. Google’s repository is probably one of the
-   biggest collection of python and java code you can find.
+Language models demotivate maintainers and drain away both resources and users.
+What you’re likely to be left with are those who are building core
+infrastructure or end-user software out of principle. The “free software” side
+of the community is more likely to survive than the rest. The Linux kernel,
+Gnome, KDE—that sort of thing.
 
-   They don’t seem to use it for training, but instead train on
-   collections of open source code that contain both permissive and
-   copyleft licences.
+The “open source” ecosystem, especially that surrounding the web and node, is
+likely to be hit the hardest. The more driven the open source project was by
+its proximity to either an employed contributor or actively dependent business,
+the bigger the impact from a shift to language models will be.
 
-   Copyleft licences, if used, force you to release your own project under
-   their licence. Many of them, even non-copyleft, have patent clauses,
-   which is poison for quite a few employers. Even permissive licences
-   require attribution, and you can absolutely get sued if you’re caught
-   copying open source code without attribution.
+This is a serious problem for the software industry as arguably much of the
+economic value the industry has provided over the past decade comes from
+strip-mining open source and free software.
 
-   Remember our Chekhov’s gun?
+6. Licence contamination
 
-     👉🏻👉🏻 memorisation!
+Microsoft and Google don’t train their language models on their own code.
+GitHub’s Copilot isn’t trained on code from Microsoft’s office suite, even
+though many of its products are likely to be some of the largest React Native
+projects in existence. There aren’t many C++ code bases as big as Windows.
+Google’s repository is probably one of the biggest collection of python and
+java code you can find.
 
-   Well, 👉🏻👉🏻 pewpew!!!
+They don’t seem to use it for training, but instead train on collections of
+open source code that contain both permissive and copyleft licences.
 
-   Turns out blindly copying open source code is problematic.
-   Whodathunkit?
+Copyleft licences, if used, force you to release your own project under their
+licence. Many of them, even non-copyleft, have patent clauses, which is poison
+for quite a few employers. Even permissive licences require attribution, and
+you can absolutely get sued if you’re caught copying open source code without
+attribution.
 
-   These models all memorise a lot, and they tend to copy what they
-   memorise into their output. [32]GitHub’s own numbers peg verbatim
-   copies of code that’s at least 150 characters at 1%^[33][9], which is
-   roughly the same, in terms of verbatim copying, as what you seem to get
-   in other language models.
+Remember our Chekhov’s gun?
 
-   For context, that means that if you use a language model for
-   development, a copilot or chatbot, three or four times a day, you’re
-   going to get a verbatim copy of open source code injected into your
-   project about once a month. If every team member uses one, then
-   multiply that by the size of the team.
+    👉🏻👉🏻 memorisation!
 
-   GitHub’s Copilot has a feature that lets you block verbatim copies.
-   This obviously requires both a check, which slows the result down, and
-   it will throw out a bunch of useful results, making the language model
-   less useful. It’s already not as useful as it’s made out to be and
-   pretty darn slow so many people are going to turn off the “please don’t
-   plagiarise” checkbox.
+Well, 👉🏻👉🏻 pewpew!!!
 
-   But even GitHub’s checks are insufficient. The keyword there is
-   “verbatim”, because language models have a tendency to rephrase their
-   output. If GitHub Copilot copies a GPLed implementation of an algorithm
-   into your project but changes all the variable names, Copilot won’t
-   detect it, it’ll still be plagiarism and the copied code is still under
-   the GPL. This isn’t unlikely as this is how language models work.
-   Memorisation and then copying with light rephrasing is what they do.
+Turns out blindly copying open source code is problematic. Whodathunkit?
 
-   Training the system only on permissively licensed code doesn’t solve
-   the problem. It won’t force your project to adopt an MIT licence or
-   anything like that, but you can still be sued if it’s discovered.
+These models all memorise a lot, and they tend to copy what they memorise into
+their output. [30]GitHub’s own numbers peg verbatim copies of code that’s at
+least 150 characters at 1%^[31][9], which is roughly the same, in terms of
+verbatim copying, as what you seem to get in other language models.
 
-   This would seem to give Microsoft and GitHub a good reason not to train
-   on the Office code base, for example. If they did, there’s a good
-   chance that a prompt to generate DOCX parsing code might “generate” a
-   verbatim copy of the DOCX parsing code from Microsoft Word.
+For context, that means that if you use a language model for development, a
+copilot or chatbot, three or four times a day, you’re going to get a verbatim
+copy of open source code injected into your project about once a month. If
+every team member uses one, then multiply that by the size of the team.
 
-   And they can’t have that, can they? This would both undercut their own
-   strategic advantage, and it would break the illusion that these systems
-   are generating novel code from scratch.
+GitHub’s Copilot has a feature that lets you block verbatim copies. This
+obviously requires both a check, which slows the result down, and it will throw
+out a bunch of useful results, making the language model less useful. It’s
+already not as useful as it’s made out to be and pretty darn slow so many
+people are going to turn off the “please don’t plagiarise” checkbox.
 
-   This should make it clear that what they’re actually doing is
-   strip-mine the free and open source software ecosystem.
+But even GitHub’s checks are insufficient. The keyword there is “verbatim”,
+because language models have a tendency to rephrase their output. If GitHub
+Copilot copies a GPLed implementation of an algorithm into your project but
+changes all the variable names, Copilot won’t detect it, it’ll still be
+plagiarism and the copied code is still under the GPL. This isn’t unlikely as
+this is how language models work. Memorisation and then copying with light
+rephrasing is what they do.
 
-  How much of a problem is this?
+Training the system only on permissively licensed code doesn’t solve the
+problem. It won’t force your project to adopt an MIT licence or anything like
+that, but you can still be sued if it’s discovered.
 
-   —It won’t matter. I won’t get caught.
+This would seem to give Microsoft and GitHub a good reason not to train on the
+Office code base, for example. If they did, there’s a good chance that a prompt
+to generate DOCX parsing code might “generate” a verbatim copy of the DOCX
+parsing code from Microsoft Word.
 
-   You personally won’t get caught, but your employer might, and
-   Intellectual Property scans or similar code audits tend to come up at
-   the absolute worst moments in the history of any given organisation:
-     * During due diligence for an acquisition. Could cost the company and
-       managers a fortune.
-     * In discovery for an unrelated lawsuit. Again, could cost the
-       company a fortune.
-     * During hacks and other security incidents. Could. Cost. A. Fortune.
+And they can’t have that, can they? This would both undercut their own
+strategic advantage, and it would break the illusion that these systems are
+generating novel code from scratch.
 
-   “AI” vendors won’t take any responsibility for this risk. I doubt your
-   business insurance covers “automated language model plagiarism”
-   lawsuits.
+This should make it clear that what they’re actually doing is strip-mine the
+free and open source software ecosystem.
 
-   Language models for software development are a lawsuit waiting to
-   happen.
+How much of a problem is this?
 
-   Unless they are completely reinvented from scratch, language model code
-   generators are, in my opinion, unsuitable for anything except for
-   prototypes and throwaway projects.
+—It won’t matter. I won’t get caught.
+
+You personally won’t get caught, but your employer might, and Intellectual
+Property scans or similar code audits tend to come up at the absolute worst
+moments in the history of any given organisation:
+
+  • During due diligence for an acquisition. Could cost the company and
+    managers a fortune.
+  • In discovery for an unrelated lawsuit. Again, could cost the company a
+    fortune.
+  • During hacks and other security incidents. Could. Cost. A. Fortune.
+
+“AI” vendors won’t take any responsibility for this risk. I doubt your business
+insurance covers “automated language model plagiarism” lawsuits.
+
+Language models for software development are a lawsuit waiting to happen.
+
+Unless they are completely reinvented from scratch, language model code
+generators are, in my opinion, unsuitable for anything except for prototypes
+and throwaway projects.
 
 So, obviously, everybody’s going to use them
 
-     * All the potentially bad stuff happens later. Unlikely to affect
-       your bonuses or employment.
-     * It’ll be years before the first licence contamination lawsuits
-       happen.
-     * Most employees will be long gone before anybody realises just how
-       much of a bad idea it was.
-     * But you’ll still get that nice “AI” bump in the stock market.
+  • All the potentially bad stuff happens later. Unlikely to affect your
+    bonuses or employment.
+  • It’ll be years before the first licence contamination lawsuits happen.
+  • Most employees will be long gone before anybody realises just how much of a
+    bad idea it was.
+  • But you’ll still get that nice “AI” bump in the stock market.
 
-   What all of these problems have in common is that their impact is
-   delayed and most of them will only appear in the form of increased
-   frequency of bugs and other defects and general project chaos.
+What all of these problems have in common is that their impact is delayed and
+most of them will only appear in the form of increased frequency of bugs and
+other defects and general project chaos.
 
-   The biggest issue, licence contamination, will likely take years before
-   it starts to hit the industry, and is likely to be mitigated by virtue
-   of the fact that many of the heaviest users of “AI”-generated code will
-   have folded due to general mismanagement long before anybody cares
-   enough to check their code.
+The biggest issue, licence contamination, will likely take years before it
+starts to hit the industry, and is likely to be mitigated by virtue of the fact
+that many of the heaviest users of “AI”-generated code will have folded due to
+general mismanagement long before anybody cares enough to check their code.
 
-   If you were ever wondering if we, as an industry, were capable of
-   coming up with a systemic issue to rival the Y2K bug in scale and
-   stupidity? Well, here you go.
+If you were ever wondering if we, as an industry, were capable of coming up
+with a systemic issue to rival the Y2K bug in scale and stupidity? Well, here
+you go.
 
-   You can start using a language model, get the stock market bump,
-   present the short term increase in volume as productivity, and be long
-   gone before anybody connects the dots between language model use and
-   the jump in defects.
+You can start using a language model, get the stock market bump, present the
+short term increase in volume as productivity, and be long gone before anybody
+connects the dots between language model use and the jump in defects.
 
-   Even if you purposefully tried to come up with a technology that played
-   directly into and magnified the software industry’s dysfunctions you
-   wouldn’t be able to come up with anything as perfectly imperfect as
-   these language models.
+Even if you purposefully tried to come up with a technology that played
+directly into and magnified the software industry’s dysfunctions you wouldn’t
+be able to come up with anything as perfectly imperfect as these language
+models.
 
-   It’s nonsense without consequence.
+It’s nonsense without consequence.
 
-   Counterproductive novelty that you can indulge in without harming your
-   career.
+Counterproductive novelty that you can indulge in without harming your career.
 
-   It might even do your career some good. Show that you’re embracing the
-   future.
+It might even do your career some good. Show that you’re embracing the future.
 
-   But…
+But…
 
-  The best is yet to come
+The best is yet to come
 
-   In a few years’ time, once the effects of the “AI” bubble finally
-   dissipates…
+In a few years’ time, once the effects of the “AI” bubble finally dissipates…
 
-   Somebody’s going to get paid to fix the crap it left behind.
+Somebody’s going to get paid to fix the crap it left behind.
 
-   The best way to support this newsletter or my blog is to buy one of my
-   books, [34]The Intelligence Illusion: a practical guide to the business
-   risks of Generative AI or [35]Out of the Software Crisis. Or, you can
-   buy them both [36]as a bundle.
-     __________________________________________________________________
+The best way to support this newsletter or my blog is to buy one of my books, 
+[32]The Intelligence Illusion: a practical guide to the business risks of
+Generative AI or [33]Out of the Software Crisis. Or, you can buy them both [34]
+as a bundle.
 
-    1. There’s quite a bit of papers that either highlight the tendency to
-       memorise or demonstrate a strong relationship between that tendency
-       and eventual performance.
-          + [37]An Empirical Study of Memorization in NLP (Zheng & Jiang,
-            ACL 2022)
-          + [38]Does learning require memorization? a short tale about a
-            long tail. (Feldman, 2020)
-          + [39]When is memorization of irrelevant training data necessary
-            for high-accuracy learning? (Brown et al. 2021)
-          + [40]What Neural Networks Memorize and Why: Discovering the
-            Long Tail via Influence Estimation (Feldman & Zhang, 2020)
-          + [41]Question and Answer Test-Train Overlap in Open-Domain
-            Question Answering Datasets (Lewis et al., EACL 2021)
-          + [42]Quantifying Memorization Across Neural Language Models
-            (Carlini et al. 2022)
-          + [43]On Training Sample Memorization: Lessons from Benchmarking
-            Generative Modeling with a Large-scale Competition (Bai et al.
-            2021)
-       [44]↩︎
-    2. See the [45]Bias & Safety card at [46]needtoknow.fyi for
-       references. [47]↩︎
-    3. See the [48]Shortcut “Reasoning” card at [49]needtoknow.fyi for
-       references. [50]↩︎
-    4. Simon Willison has been covering this issue [51]in a series of blog
-       posts. [52]↩︎
-    5.
-          + [53]The poisoning of ChatGPT
-          + [54]Google Bard is a glorious reinvention of black-hat SEO
-            spam and keyword-stuffing
-       [55]↩︎
-    6. See, for example:
-          + [56]Asleep at the Keyboard? Assessing the Security of GitHub
-            Copilot’s Code Contributions (Hammond Pearce et al., December
-            2021)
-          + [57]Do Users Write More Insecure Code with AI Assistants?
-            (Neil Perry et al., December 2022)
-       [58]↩︎
-    7. This came out [59]during an investor event and was presented as
-       evidence of the high quality of Copilot’s output. [60]↩︎
-    8.
-          + [61]Getty Images v. Stability AI - Complaint
-          + [62]Getty Images is suing the creators of AI art tool Stable
-            Diffusion for scraping its content
-          + [63]The Wave of AI Lawsuits Have Begun
-          + [64]Copyright lawsuits pose a serious threat to generative AI
-          + [65]GitHub Copilot litigation
-          + [66]Stable Diffusion litigation
-       [67]↩︎
-    9. Archived link of the [68]GitHub Copilot feature page. [69]↩︎
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ 1. There’s quite a bit of papers that either highlight the tendency to
+    memorise or demonstrate a strong relationship between that tendency and
+    eventual performance.
+
+      □ [35]An Empirical Study of Memorization in NLP (Zheng & Jiang, ACL 2022)
+      □ [36]Does learning require memorization? a short tale about a long tail.
+        (Feldman, 2020)
+      □ [37]When is memorization of irrelevant training data necessary for
+        high-accuracy learning? (Brown et al. 2021)
+      □ [38]What Neural Networks Memorize and Why: Discovering the Long Tail
+        via Influence Estimation (Feldman & Zhang, 2020)
+      □ [39]Question and Answer Test-Train Overlap in Open-Domain Question
+        Answering Datasets (Lewis et al., EACL 2021)
+      □ [40]Quantifying Memorization Across Neural Language Models (Carlini et
+        al. 2022)
+      □ [41]On Training Sample Memorization: Lessons from Benchmarking
+        Generative Modeling with a Large-scale Competition (Bai et al. 2021)
+    [42]↩︎
+ 2. See the [43]Bias & Safety card at [44]needtoknow.fyi for references. [45]↩︎
+
+ 3. See the [46]Shortcut “Reasoning” card at [47]needtoknow.fyi for references.
+    [48]↩︎
+
+ 4. Simon Willison has been covering this issue [49]in a series of blog posts. 
+    [50]↩︎
+
+ 5.
+      □ [51]The poisoning of ChatGPT
+      □ [52]Google Bard is a glorious reinvention of black-hat SEO spam and
+        keyword-stuffing
+    [53]↩︎
+ 6. See, for example:
+
+      □ [54]Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s
+        Code Contributions (Hammond Pearce et al., December 2021)
+      □ [55]Do Users Write More Insecure Code with AI Assistants? (Neil Perry
+        et al., December 2022)
+    [56]↩︎
+ 7. This came out [57]during an investor event and was presented as evidence of
+    the high quality of Copilot’s output. [58]↩︎
+
+ 8.
+      □ [59]Getty Images v. Stability AI - Complaint
+      □ [60]Getty Images is suing the creators of AI art tool Stable Diffusion
+        for scraping its content
+      □ [61]The Wave of AI Lawsuits Have Begun
+      □ [62]Copyright lawsuits pose a serious threat to generative AI
+      □ [63]GitHub Copilot litigation
+      □ [64]Stable Diffusion litigation
+    [65]↩︎
+ 9. Archived link of the [66]GitHub Copilot feature page. [67]↩︎
 
 Join the Newsletter
 
-   Subscribe to the Out of the Software Crisis newsletter to get my weekly
-   (at least) essays on how to avoid or get out of software development
-   crises.
+Subscribe to the Out of the Software Crisis newsletter to get my weekly (at
+least) essays on how to avoid or get out of software development crises.
 
-   Join now and get a free PDF of three bonus essays from Out of the
-   Software Crisis.
+Join now and get a free PDF of three bonus essays from Out of the Software
+Crisis.
 
-   ____________________
-   (BUTTON)
-   Subscribe
+[68][                    ]
+Subscribe
 
-   We respect your privacy.
+We respect your privacy.
 
-   Unsubscribe at any time.
+Unsubscribe at any time.
 
-   [70]Mastodon [71]Twitter [72]GitHub [73]Feed
+[70]Mastodon [71]Twitter [72]GitHub [73]Feed
 
-References
+References:
 
-   1. https://softwarecrisis.dev/index.xml
-   2. https://softwarecrisis.dev/feed.json
-   3. https://softwarecrisis.dev/
-   4. https://softwarecrisis.dev/
-   5. https://softwarecrisis.baldurbjarnason.com/
-   6. https://illusion.baldurbjarnason.com/
-   7. https://softwarecrisis.dev/archive/
-   8. https://softwarecrisis.dev/author/
-   9. https://www.hakkavelin.is/
-  10. https://illusion.baldurbjarnason.com/
-  11. https://softwarecrisis.baldurbjarnason.com/
-  12. https://baldurbjarnason.lemonsqueezy.com/checkout/buy/cfc2f2c6-34af-436f-91c1-cb2e47283c40
-  13. https://www.baldurbjarnason.com/2021/software-crisis-2/
-  14. https://standishgroup.com/sample_research_files/CHAOSReport2015-Final.pdf
-  15. https://softwarecrisis.baldurbjarnason.com/
-  16. https://quoteinvestigator.com/2019/09/19/woodpecker/
-  17. http://worrydream.com/refs/Brooks-NoSilverBullet.pdf
-  18. https://illusion.baldurbjarnason.com/
-  19. https://www.baldurbjarnason.com/2022/theory-building/
-  20. https://softwarecrisis.baldurbjarnason.com/
-  21. https://en.wikipedia.org/wiki/Mitochondrion
-  22. https://softwarecrisis.dev/letters/ai-and-software-quality/#fn1
-  23. https://en.wikipedia.org/wiki/Chekhov's_gun
-  24. https://softwarecrisis.dev/letters/ai-and-software-quality/#fn2
-  25. https://softwarecrisis.dev/letters/ai-and-software-quality/#fn3
-  26. https://en.wikipedia.org/wiki/Catch-22_(logic)
-  27. https://softwarecrisis.dev/letters/ai-and-software-quality/#fn4
-  28. https://softwarecrisis.dev/letters/ai-and-software-quality/#fn5
-  29. https://softwarecrisis.dev/letters/ai-and-software-quality/#fn6
-  30. https://softwarecrisis.dev/letters/ai-and-software-quality/#fn7
-  31. https://softwarecrisis.dev/letters/ai-and-software-quality/#fn8
-  32. https://archive.ph/2023.01.11-224507/https://github.com/features/copilot#selection-19063.298-19063.462:~:text=Our latest internal research shows that about 1% of the time, a suggestion may contain some code snippets longer than ~150 characters that matches the training set.
-  33. https://softwarecrisis.dev/letters/ai-and-software-quality/#fn9
-  34. https://illusion.baldurbjarnason.com/
-  35. https://softwarecrisis.baldurbjarnason.com/
-  36. https://baldurbjarnason.lemonsqueezy.com/checkout/buy/cfc2f2c6-34af-436f-91c1-cb2e47283c40
-  37. https://aclanthology.org/2022.acl-long.434
-  38. https://doi.org/10.1145/3357713.3384290
-  39. https://doi.org/10.1145/3406325.3451131
-  40. https://papers.nips.cc/paper/2020/hash/1e14bfe2714193e7af5abc64ecbd6b46-Abstract.html
-  41. https://aclanthology.org/2021.eacl-main.86
-  42. https://arxiv.org/abs/2202.07646
-  43. https://dl.acm.org/doi/10.1145/3447548.3467198
-  44. https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref1
-  45. https://needtoknow.fyi/card/bias/
-  46. https://needtoknow.fyi/
-  47. https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref2
-  48. https://needtoknow.fyi/card/shortcut-reasoning/
-  49. https://needtoknow.fyi/
-  50. https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref3
-  51. https://simonwillison.net/series/prompt-injection/
-  52. https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref4
-  53. https://softwarecrisis.dev/letters/the-poisoning-of-chatgpt/
-  54. https://softwarecrisis.dev/letters/google-bard-seo/
-  55. https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref5
-  56. https://doi.org/10.48550/arXiv.2108.09293
-  57. https://doi.org/10.48550/arXiv.2211.03622
-  58. https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref6
-  59. https://www.microsoft.com/en-us/Investor/events/FY-2023/Morgan-Stanley-TMT-Conference#:~:text=Scott Guthrie: I think you're,is now AI-generated and unmodified
-  60. https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref7
-  61. https://copyrightlately.com/pdfviewer/getty-images-v-stability-ai-complaint/?auto_viewer=true#page=&zoom=auto&pagemode=none
-  62. https://www.theverge.com/2023/1/17/23558516/ai-art-copyright-stable-diffusion-getty-images-lawsuit
-  63. https://www.plagiarismtoday.com/2023/01/17/the-wave-of-ai-lawsuits-have-begun/
-  64. https://www.understandingai.org/p/copyright-lawsuits-pose-a-serious
-  65. https://githubcopilotlitigation.com/
-  66. https://stablediffusionlitigation.com/
-  67. https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref8
-  68. https://archive.ph/2023.01.11-224507/https://github.com/features/copilot#selection-19063.298-19063.462:~:text=Our latest internal research shows that about 1% of the time, a suggestion may contain some code snippets longer than ~150 characters that matches the training set.
-  69. https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref9
-  70. https://toot.cafe/@baldur
-  71. https://twitter.com/fakebaldur
-  72. https://github.com/baldurbjarnason
-  73. https://softwarecrisis.dev/feed.xml
+[1] https://softwarecrisis.dev/
+[2] https://softwarecrisis.dev/
+[3] https://softwarecrisis.baldurbjarnason.com/
+[4] https://illusion.baldurbjarnason.com/
+[5] https://softwarecrisis.dev/archive/
+[6] https://softwarecrisis.dev/author/
+[7] https://www.hakkavelin.is/
+[8] https://illusion.baldurbjarnason.com/
+[9] https://softwarecrisis.baldurbjarnason.com/
+[10] https://baldurbjarnason.lemonsqueezy.com/checkout/buy/cfc2f2c6-34af-436f-91c1-cb2e47283c40
+[11] https://www.baldurbjarnason.com/2021/software-crisis-2/
+[12] https://standishgroup.com/sample_research_files/CHAOSReport2015-Final.pdf
+[13] https://softwarecrisis.baldurbjarnason.com/
+[14] https://quoteinvestigator.com/2019/09/19/woodpecker/
+[15] http://worrydream.com/refs/Brooks-NoSilverBullet.pdf
+[16] https://illusion.baldurbjarnason.com/
+[17] https://www.baldurbjarnason.com/2022/theory-building/
+[18] https://softwarecrisis.baldurbjarnason.com/
+[19] https://en.wikipedia.org/wiki/Mitochondrion
+[20] https://softwarecrisis.dev/letters/ai-and-software-quality/#fn1
+[21] https://en.wikipedia.org/wiki/Chekhov's_gun
+[22] https://softwarecrisis.dev/letters/ai-and-software-quality/#fn2
+[23] https://softwarecrisis.dev/letters/ai-and-software-quality/#fn3
+[24] https://en.wikipedia.org/wiki/Catch-22_(logic)
+[25] https://softwarecrisis.dev/letters/ai-and-software-quality/#fn4
+[26] https://softwarecrisis.dev/letters/ai-and-software-quality/#fn5
+[27] https://softwarecrisis.dev/letters/ai-and-software-quality/#fn6
+[28] https://softwarecrisis.dev/letters/ai-and-software-quality/#fn7
+[29] https://softwarecrisis.dev/letters/ai-and-software-quality/#fn8
+[30] https://archive.ph/2023.01.11-224507/https://github.com/features/copilot#selection-19063.298-19063.462:~:text=Our%20latest%20internal%20research%20shows%20that%20about%201%25%20of%20the%20time%2C%20a%20suggestion%20may%20contain%20some%20code%20snippets%20longer%20than%20~150%20characters%20that%20matches%20the%20training%20set.
+[31] https://softwarecrisis.dev/letters/ai-and-software-quality/#fn9
+[32] https://illusion.baldurbjarnason.com/
+[33] https://softwarecrisis.baldurbjarnason.com/
+[34] https://baldurbjarnason.lemonsqueezy.com/checkout/buy/cfc2f2c6-34af-436f-91c1-cb2e47283c40
+[35] https://aclanthology.org/2022.acl-long.434
+[36] https://doi.org/10.1145/3357713.3384290
+[37] https://doi.org/10.1145/3406325.3451131
+[38] https://papers.nips.cc/paper/2020/hash/1e14bfe2714193e7af5abc64ecbd6b46-Abstract.html
+[39] https://aclanthology.org/2021.eacl-main.86
+[40] https://arxiv.org/abs/2202.07646
+[41] https://dl.acm.org/doi/10.1145/3447548.3467198
+[42] https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref1
+[43] https://needtoknow.fyi/card/bias/
+[44] https://needtoknow.fyi/
+[45] https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref2
+[46] https://needtoknow.fyi/card/shortcut-reasoning/
+[47] https://needtoknow.fyi/
+[48] https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref3
+[49] https://simonwillison.net/series/prompt-injection/
+[50] https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref4
+[51] https://softwarecrisis.dev/letters/the-poisoning-of-chatgpt/
+[52] https://softwarecrisis.dev/letters/google-bard-seo/
+[53] https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref5
+[54] https://doi.org/10.48550/arXiv.2108.09293
+[55] https://doi.org/10.48550/arXiv.2211.03622
+[56] https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref6
+[57] https://www.microsoft.com/en-us/Investor/events/FY-2023/Morgan-Stanley-TMT-Conference#:~:text=Scott%20Guthrie%3A%20I%20think%20you%27re,is%20now%20AI%2Dgenerated%20and%20unmodified
+[58] https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref7
+[59] https://copyrightlately.com/pdfviewer/getty-images-v-stability-ai-complaint/?auto_viewer=true#page=&zoom=auto&pagemode=none
+[60] https://www.theverge.com/2023/1/17/23558516/ai-art-copyright-stable-diffusion-getty-images-lawsuit
+[61] https://www.plagiarismtoday.com/2023/01/17/the-wave-of-ai-lawsuits-have-begun/
+[62] https://www.understandingai.org/p/copyright-lawsuits-pose-a-serious
+[63] https://githubcopilotlitigation.com/
+[64] https://stablediffusionlitigation.com/
+[65] https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref8
+[66] https://archive.ph/2023.01.11-224507/https://github.com/features/copilot#selection-19063.298-19063.462:~:text=Our%20latest%20internal%20research%20shows%20that%20about%201%25%20of%20the%20time%2C%20a%20suggestion%20may%20contain%20some%20code%20snippets%20longer%20than%20~150%20characters%20that%20matches%20the%20training%20set.
+[67] https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref9
+[70] https://toot.cafe/@baldur
+[71] https://twitter.com/fakebaldur
+[72] https://github.com/baldurbjarnason
+[73] https://softwarecrisis.dev/feed.xml

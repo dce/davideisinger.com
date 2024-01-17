@@ -1,556 +1,589 @@
-   #[1]alternate
+[1]Skip to main content
+Open Navigation Menu
 
-   IFRAME: [2]https://www.googletagmanager.com/ns.html?id=GTM-5HBJC2K
+To revist this article, visit My Profile, then [3]View saved stories.
 
-   [3]Skip to main content
+Close Alert
+[5]WIRED
+I Finally Reached Computing Nirvana. What Was It All For?
 
-   (BUTTON) Open Navigation Menu
+  • [6]Backchannel
+  • [7]Business
+  • [8]Culture
+  • [9]Gear
+  • [10]Ideas
+  • [11]Politics
+  • [12]Science
+  • [13]Security
+  • [14]Merch
 
-   To revist this article, visit My Profile, then [4]View saved stories.
-   (BUTTON) Close Alert
-   [5]WIRED
-   I Finally Reached Computing Nirvana. What Was It All For?
+More
 
-     * [6]Backchannel
-     * [7]Business
-     * [8]Culture
-     * [9]Gear
-     * [10]Ideas
-     * [11]Politics
-     * [12]Science
-     * [13]Security
-     * [14]Merch
+To revist this article, visit My Profile, then [16]View saved stories.
 
-   (BUTTON) More
+Close Alert
+[18]Sign In
 
-   To revist this article, visit My Profile, then [15]View saved stories.
-   (BUTTON) Close Alert
-   [16]Sign In
+[19]Search
 
-   [17]Search
+  • [20]Backchannel
+  • [21]Business
+  • [22]Culture
+  • [23]Gear
+  • [24]Ideas
+  • [25]Politics
+  • [26]Science
+  • [27]Security
+  • [28]Merch
 
-     * [18]Backchannel
-     * [19]Business
-     * [20]Culture
-     * [21]Gear
-     * [22]Ideas
-     * [23]Politics
-     * [24]Science
-     * [25]Security
-     * [26]Merch
+  • [29]Podcasts
+  • [30]Video
+  • [31]Wired World
+  • [32]Artificial Intelligence
+  • [33]Climate
+  • [34]Games
+  • [35]Newsletters
+  • [36]Magazine
+  • [37]Events
+  • [38]Wired Insider
+  • [39]Jobs
+  • [40]Coupons
 
-     * [27]Podcasts
-     * [28]Video
-     * [29]Wired World
-     * [30]Artificial Intelligence
-     * [31]Climate
-     * [32]Games
-     * [33]Newsletters
-     * [34]Magazine
-     * [35]Events
-     * [36]Wired Insider
-     * [37]Jobs
-     * [38]Coupons
+[41]Paul Ford
 
-   [39]Paul Ford
-   [40]Ideas
-   Apr 1, 2022 7:00 AM
+[42]Ideas
+Apr 1, 2022 7:00 AM
 
 I Finally Reached Computing Nirvana. What Was It All For?
 
-   Breakfast, it turns out. The answer is breakfast.
-   illustration concept of an optimal computer system
-   Illustration: Elena Lacey
+Breakfast, it turns out. The answer is breakfast. 
+illustration concept of an optimal computer system
+Illustration: Elena Lacey
+Save
+Save
 
-   (BUTTON) Save
-   (BUTTON) Save
+Like many nerds before me, I spent a goodly portion of my life searching for
+the perfect [45]computing system. I wanted a single tool that would let me
+write prose or programs, that could search every email, tweet, or document in a
+few keystrokes, and that would work across all my devices. I yearned to summit
+the mythic Mt. Augment, to achieve the enlightenment of a properly orchestrated
+personal computer. Where the [46]software industry offered notifications,
+little clicks and dings, messages jumping up and down on my screen like a dog
+begging for a treat, I wanted calm textuality. Seeking it, I tweaked. I
+configured.
 
-   Like many nerds before me, I spent a goodly portion of my life
-   searching for the perfect [41]computing system. I wanted a single tool
-   that would let me write prose or programs, that could search every
-   email, tweet, or document in a few keystrokes, and that would work
-   across all my devices. I yearned to summit the mythic Mt. Augment, to
-   achieve the enlightenment of a properly orchestrated personal computer.
-   Where the [42]software industry offered notifications, little clicks
-   and dings, messages jumping up and down on my screen like a dog begging
-   for a treat, I wanted calm textuality. Seeking it, I tweaked. I
-   configured.
+The purpose of configuration is to make a thing work with some other thing—to
+make the to-do list work with the email client, say, or the calendar work with
+the other calendar. It's an interdisciplinary study. Configuration can be as
+complex as programming or as simple as checking a box. Everyone talks about it,
+but it's not taken that seriously, because there's not much profit in it. And
+unfortunately, configuration is indistinguishable from procrastination. A
+little is fine but too much is embarrassing.
 
-   The purpose of configuration is to make a thing work with some other
-   thing—to make the to-do list work with the email client, say, or the
-   calendar work with the other calendar. It's an interdisciplinary study.
-   Configuration can be as complex as programming or as simple as checking
-   a box. Everyone talks about it, but it's not taken that seriously,
-   because there's not much profit in it. And unfortunately, configuration
-   is indistinguishable from procrastination. A little is fine but too
-   much is embarrassing.
+[47]The Best Way to Learn Online? Be a Lurker
+Sneakbrowsing
+[48]
+The Best Way to Learn Online? Be a Lurker
 
-   [43]The Best Way to Learn Online? Be a Lurker
-   Sneakbrowsing
-   The Best Way to Learn Online? Be a Lurker
+Paul Ford
 
-   Paul Ford
-   [44]Coders’ Primal Urge to Kill Inefficiency&-Everywhere
-   Coders
-   Coders’ Primal Urge to Kill Inefficiency—Everywhere
+[49]Coders’ Primal Urge to Kill Inefficiency&-Everywhere
+Coders
+[50]
+Coders’ Primal Urge to Kill Inefficiency—Everywhere
 
-   Clive Thompson
-   [45]Forget To-Do Lists. You Really Need a ‘Got Done’ List
-   work smart
-   Forget To-Do Lists. You Really Need a ‘Got Done’ List
+Clive Thompson
 
-   Stacy S. Kim
+[51]Forget To-Do Lists. You Really Need a ‘Got Done’ List
+work smart
+[52]
+Forget To-Do Lists. You Really Need a ‘Got Done’ List
 
-   I spent almost three decades configuring my text editor, amassing 20 or
-   so dotfiles that would make one acronym or nonsense word concordant
-   with another. (For me: i3wm + emacs + org-mode + notmuch + tmux, bound
-   together with ssh + git + Syncthing + Tailscale.) I'd start down a
-   path, but then there'd be some blocker—some bug I didn't understand,
-   some page of errors I didn't have time to deal with—and I'd give up.
+Stacy S. Kim
 
-   A big problem I had was where to put my stuff. I tried different
-   databases, folder structures, private websites, cloud drives, and
-   desktop search tools. The key, finally, was to turn nearly everything
-   in my life into emails. All my calendar entries, essay drafts, tweets—I
-   wrote programs that turned them into gigs and gigs of emails. Emails
-   are horrible, messy, swollen, decrepit forms of data, but they are
-   understood by everything everywhere. You can lard them with
-   attachments. You can tag them. You can add any amount of metadata to
-   them and synchronize them with servers. They suck, but they work. No
-   higher praise.
+I spent almost three decades configuring my text editor, amassing 20 or so
+dotfiles that would make one acronym or nonsense word concordant with another.
+(For me: i3wm + emacs + org-mode + notmuch + tmux, bound together with ssh +
+git + Syncthing + Tailscale.) I'd start down a path, but then there'd be some
+blocker—some bug I didn't understand, some page of errors I didn't have time to
+deal with—and I'd give up.
 
-   It took years to get all these emails into place, tag them, filter them
-   just so. Little by little I could see more of the shape of my own data.
-   And as I did this, software got better and computers got faster. Not
-   only that, other people started sharing their config files on GitHub.
+A big problem I had was where to put my stuff. I tried different databases,
+folder structures, private websites, cloud drives, and desktop search tools.
+The key, finally, was to turn nearly everything in my life into emails. All my
+calendar entries, essay drafts, tweets—I wrote programs that turned them into
+gigs and gigs of emails. Emails are horrible, messy, swollen, decrepit forms of
+data, but they are understood by everything everywhere. You can lard them with
+attachments. You can tag them. You can add any amount of metadata to them and
+synchronize them with servers. They suck, but they work. No higher praise.
 
-   Then, one cold day—January 31, 2022—something bizarre happened. I was
-   at home, writing a little glue function to make my emails searchable
-   from anywhere inside my text editor. I evaluated that tiny program and
-   ran it. It worked. Somewhere in my brain, I felt a distinct click. I
-   was done. No longer configuring, but configured. The world had
-   conspired to give me what I wanted. I stood up from the computer,
-   suffused with a sort of European-classical-composer level of emotion,
-   and went for a walk. Was this happiness? Freedom? Or would I find
-   myself back tomorrow, with a whole new set of requirements?
-   Most Popular
-     * [46]Cult of the Lamb’s ‘Sex Update’ Is a Good Sign for Horny Video
-       Games
-       Culture
-       Cult of the Lamb’s ‘Sex Update’ Is a Good Sign for Horny Video
-       Games
-       Megan Farokhmanesh
-     * [47]The Emmys Proved Streaming Changed TV for the Better
-       Culture
-       The Emmys Proved Streaming Changed TV for the Better
-       Angela Watercutter
-     * [48]A Flaw in Millions of Apple, AMD, and Qualcomm GPUs Could
-       Expose AI Data
-       Security
-       A Flaw in Millions of Apple, AMD, and Qualcomm GPUs Could Expose AI
-       Data
-       Lily Hay Newman
-     * [49]Even After a Landslide Victory, Trump Supporters Claim Iowa
-       Caucus Was Rigged
-       Politics
-       Even After a Landslide Victory, Trump Supporters Claim Iowa Caucus
-       Was Rigged
-       David Gilbert
-     *
+It took years to get all these emails into place, tag them, filter them just
+so. Little by little I could see more of the shape of my own data. And as I did
+this, software got better and computers got faster. Not only that, other people
+started sharing their config files on GitHub.
 
-   The more “professional” a piece of software is intended to be, the more
-   likely it is to be scriptable. CAD tools or 3D programs will provide
-   whole languages just for configuration. But the huge consumer products,
-   the operating systems themselves, are more and more locked down. The
-   reasons are multiple—money, security, simplicity. A lot of our
-   computing is done on someone else's terms. We describe it with carceral
-   words. To assert control over your device, you “jailbreak” out.
+Then, one cold day—January 31, 2022—something bizarre happened. I was at home,
+writing a little glue function to make my emails searchable from anywhere
+inside my text editor. I evaluated that tiny program and ran it. It worked.
+Somewhere in my brain, I felt a distinct click. I was done. No longer
+configuring, but configured. The world had conspired to give me what I wanted.
+I stood up from the computer, suffused with a sort of
+European-classical-composer level of emotion, and went for a walk. Was this
+happiness? Freedom? Or would I find myself back tomorrow, with a whole new set
+of requirements?
 
-   I wonder if this is one of the reasons people get into [50]crypto—they
-   dream of a new world that can be customized like software. Programmable
-   money, self-executing contracts, little scripts that rearrange reality.
-   In DAOs (decentralized autonomous organizations), people use code to
-   make social rules, then buy or do things with their consolidated
-   digital might.
+Most Popular
 
-   A lot of my friends hate all this stuff (perhaps [51]NFTs more than
-   DAOs) with great passion; they see it as a closing off, a betrayal of
-   the open, trust-driven nature of the early web. Others love it, seeing
-   it as a continuation of the community-building, empowering nature of
-   the early web. What I see is a generation of configurers coming into
-   their own. Older web folks expected to create the new digital economy;
-   these younger ones are trying to create the new economy economy. Their
-   dream is a more perfect union where humans will, because of computers,
-   stop acting in the ways we've been acting since we came out of the
-   trees. Then again, $200 million in NFTs were stolen the day I drafted
-   this column.
+  • [53]
+    Big Tech Won’t Let You Leave. Here's a Way Out
+    Ideas
+    [54]
+    Big Tech Won’t Let You Leave. Here's a Way Out
 
-   When in history have we been able to schedule folly? Sometimes the only
-   way to end the vacation is to drive the RV off a cliff.
+    Cory Doctorow
 
-   Perhaps by the time you read this the NFTs will have been returned.
-   That would be a good reconfiguration. But the likely outcome of the
-   boom is that some people will cash out at the right time and become
-   convinced that they hold the keys to the universe and will lecture us
-   for the rest of our lives, and most people (like those who had their
-   NFTs stolen) will be humbled, or at best break even. When in history
-   have we been able to schedule folly? Sometimes the only way to end the
-   vacation is to drive the RV off a cliff.
+  • [55]
+    How a 27-Year-Old Codebreaker Busted the Myth of Bitcoin’s Anonymity
+    Backchannel
+    [56]
+    How a 27-Year-Old Codebreaker Busted the Myth of Bitcoin’s Anonymity
 
-   While the youth reconfigure society, I'm done configuring. A month has
-   gone by since the click, and the urge to tweak is gone. My system looks
-   like something from the '80s (a lot of it is from the '80s), but I
-   finally got my room just the way I like it.
+    Andy Greenberg
 
-   Here's what I mean. Say I search for the word “database”; 7,222 emails
-   pop up. Most are from marketers and industry mailing lists proclaiming
-   some technological triumph, but nestled among them are messages from
-   me, or to me, about learning to use databases—XML databases, SQL
-   databases, and so forth. When I read these old messages, I am always
-   surprised at how little I've changed, how consistent my obsessions are.
-   There's something valuable to me in just seeing that, in seeing how the
-   world keeps trumpeting the new while the self stays the same. You'd
-   think there'd be at least five new me's by now, given how often I've
-   vowed to become better. But no. I've been writing about configuring my
-   text editor since 1996. I've been running my mouth about databases at
-   least that long. They say you can't dip your hand in the same river
-   twice, but they rarely mention that it's the same hand doing the
-   dipping.
-   Most Popular
-     * [52]Cult of the Lamb’s ‘Sex Update’ Is a Good Sign for Horny Video
-       Games
-       Culture
-       Cult of the Lamb’s ‘Sex Update’ Is a Good Sign for Horny Video
-       Games
-       Megan Farokhmanesh
-     * [53]The Emmys Proved Streaming Changed TV for the Better
-       Culture
-       The Emmys Proved Streaming Changed TV for the Better
-       Angela Watercutter
-     * [54]A Flaw in Millions of Apple, AMD, and Qualcomm GPUs Could
-       Expose AI Data
-       Security
-       A Flaw in Millions of Apple, AMD, and Qualcomm GPUs Could Expose AI
-       Data
-       Lily Hay Newman
-     * [55]Even After a Landslide Victory, Trump Supporters Claim Iowa
-       Caucus Was Rigged
-       Politics
-       Even After a Landslide Victory, Trump Supporters Claim Iowa Caucus
-       Was Rigged
-       David Gilbert
-     *
+  • [57]
+    Scabies Is Making a Comeback
+    Science
+    [58]
+    Scabies Is Making a Comeback
 
-   Since the emails are, well, just emails, sometimes I hit Reply (by
-   typing “r”). On a thread that went dormant a decade ago. I don't always
-   offer context. Sometimes I just write, “Curious … how did this turn
-   out?” I used to feel I was intruding, to just drop in like that. But
-   what the hell. It's been a long pandemic. No one has to write back.
+    David Cox
 
-   Out go the emails. Most get no reply; some get a bounce-back. But often
-   enough, people respond at length. Some left the city and came back.
-   Some are up for coffee. A surprising number are now cyborgs
-   (pacemakers, hearing aids). Some are rich, some are broke, some are
-   divorced. One is considering being frozen after death, some are
-   considering getting into crypto, and one has moved to Miami. None of us
-   understand our children.
+  • [59]
+    Cult of the Lamb’s ‘Sex Update’ Is a Good Sign for Horny Video Games
+    Culture
+    [60]
+    Cult of the Lamb’s ‘Sex Update’ Is a Good Sign for Horny Video Games
 
-   I'm thinking of starting a Sunday morning waffle breakfast for
-   [56]vaccinated people to come stare at each other. It's one thing to
-   email after 10 years, but everyone appreciates an invitation to
-   breakfast. Maybe I'll set up some sort of internet-connected LED
-   scrolly screen, like they put on food carts, so out-of-towners can
-   leave messages. I gotta have something to configure.
+    Megan Farokhmanesh
 
-   If you'd asked me, back when I was still configuring, not yet
-   configured, exactly why I was nurturing these dozens of dotfiles, I'd
-   have had a hard time telling you. I would have said: I want a pure and
-   sleek experience. I want the computer working for me, augmenting my
-   dumb brain with its immense arithmetical speed. I want access to my
-   whole digital self. So I am very surprised that the terminal result of
-   my efforts is not some sort of ecstatic communion with the internet, or
-   even with my own computer. The function of my whole big orchestrated,
-   tagged, integrated system was merely to rekindle old ties. What was all
-   that configuration for? It was, in all sincerity, for waffles.
-     __________________________________________________________________
+  • 
 
-   This article appears in the April 2022 issue. [57]Subscribe now.
-     __________________________________________________________________
+The more “professional” a piece of software is intended to be, the more likely
+it is to be scriptable. CAD tools or 3D programs will provide whole languages
+just for configuration. But the huge consumer products, the operating systems
+themselves, are more and more locked down. The reasons are multiple—money,
+security, simplicity. A lot of our computing is done on someone else's terms.
+We describe it with carceral words. To assert control over your device, you
+“jailbreak” out.
 
-   More Great WIRED Stories
-     * 📩 The latest on tech, science, and more: [58]Get our newsletters!
-     * [59]Jacques Vallée still doesn’t know what UFOs are
-     * When should you [60]test yourself for Covid-19?
-     * [61]How to leave your photos to someone when you die
-     * TV struggles to put [62]Silicon Valley on the screen
-     * [63]YouTube's captions insert explicit language in kids' videos
-     * 👁️ Explore AI like never before with [64]our new database
-     * 🎧 Things not sounding right? Check out our favorite [65]wireless
-       headphones, [66]soundbars, and [67]Bluetooth speakers
+I wonder if this is one of the reasons people get into [61]crypto—they dream of
+a new world that can be customized like software. Programmable money,
+self-executing contracts, little scripts that rearrange reality. In DAOs
+(decentralized autonomous organizations), people use code to make social rules,
+then buy or do things with their consolidated digital might.
 
-   [68]Paul Ford is a writer, programmer, and software entrepreneur. He
-   lives in Brooklyn.
-   Contributor
-     *
+A lot of my friends hate all this stuff (perhaps [62]NFTs more than DAOs) with
+great passion; they see it as a closing off, a betrayal of the open,
+trust-driven nature of the early web. Others love it, seeing it as a
+continuation of the community-building, empowering nature of the early web.
+What I see is a generation of configurers coming into their own. Older web
+folks expected to create the new digital economy; these younger ones are trying
+to create the new economy economy. Their dream is a more perfect union where
+humans will, because of computers, stop acting in the ways we've been acting
+since we came out of the trees. Then again, $200 million in NFTs were stolen
+the day I drafted this column.
 
-   Topics[69]magazine-30.04[70]crypto[71]NFTs[72]software[73]Web3
+When in history have we been able to schedule folly? Sometimes the only way to
+end the vacation is to drive the RV off a cliff.
 
-   More from WIRED
-   [74]
-   A Key to Detecting Brain Disease Earlier Than Ever
-   A Key to Detecting Brain Disease Earlier Than Ever
-   Treatment of Parkinson’s, Huntington’s, ALS, and other brain diseases
-   depends on reliable detection—especially in those who don’t even know
-   they’re at risk. An innovative scratch-and-sniff test can help.
+Perhaps by the time you read this the NFTs will have been returned. That would
+be a good reconfiguration. But the likely outcome of the boom is that some
+people will cash out at the right time and become convinced that they hold the
+keys to the universe and will lecture us for the rest of our lives, and most
+people (like those who had their NFTs stolen) will be humbled, or at best break
+even. When in history have we been able to schedule folly? Sometimes the only
+way to end the vacation is to drive the RV off a cliff.
 
-   Michael J. Fox
-   [75]The Danger of Digitizing Everything
-   The Danger of Digitizing Everything
-   The creep of conducting our day-to-day interactions over screens has
-   reached a breaking point—and it threatens to push out everyone but
-   those with the “right” access.
+While the youth reconfigure society, I'm done configuring. A month has gone by
+since the click, and the urge to tweak is gone. My system looks like something
+from the '80s (a lot of it is from the '80s), but I finally got my room just
+the way I like it.
 
-   Naomi Alderman
-   [76]Regulators Are Finally Catching Up With Big Tech
-   Regulators Are Finally Catching Up With Big Tech
-   The lawless, Wild West era of AI and technology is almost at an end, as
-   data protection authorities use new and existing legislation to get
-   tough.
+Here's what I mean. Say I search for the word “database”; 7,222 emails pop up.
+Most are from marketers and industry mailing lists proclaiming some
+technological triumph, but nestled among them are messages from me, or to me,
+about learning to use databases—XML databases, SQL databases, and so forth.
+When I read these old messages, I am always surprised at how little I've
+changed, how consistent my obsessions are. There's something valuable to me in
+just seeing that, in seeing how the world keeps trumpeting the new while the
+self stays the same. You'd think there'd be at least five new me's by now,
+given how often I've vowed to become better. But no. I've been writing about
+configuring my text editor since 1996. I've been running my mouth about
+databases at least that long. They say you can't dip your hand in the same
+river twice, but they rarely mention that it's the same hand doing the dipping.
 
-   Susie Alegre
-   [77]Get Ready for the Great AI Disappointment
-   Get Ready for the Great AI Disappointment
-   Rose-tinted predictions for artificial intelligence’s grand
-   achievements will be swept aside by underwhelming performance and
-   dangerous results.
+Most Popular
 
-   Daron Acemoglu
-   [78]The Ocean’s Mysteries&-and Marvels&-Are About to Reach New Depths
-   The Ocean’s Mysteries—and Marvels—Are About to Reach New Depths
-   Advancements in science will bring unprecedented lens into the
-   complexities of the ocean, and a renewed call for humans to protect it.
+  • [63]
+    Big Tech Won’t Let You Leave. Here's a Way Out
+    Ideas
+    [64]
+    Big Tech Won’t Let You Leave. Here's a Way Out
 
-   Helen Czerski
-   [79]AI Needs to Be Both Trusted and Trustworthy
-   AI Needs to Be Both Trusted and Trustworthy
-   Through sensors, actuators, and IoT devices, AI is going to be
-   interacting with the physical plane on a massive scale. The question
-   is, how does one build trust in its actions?
+    Cory Doctorow
 
-   Bruce Schneier
-   [80]The End of One-Size-Fits-All Health Care
-   The End of One-Size-Fits-All Health Care
-   Medicines need to be safe for all, but also effective for the
-   individual. Embracing our differences will lead to better health care
-   for everyone.
+  • [65]
+    How a 27-Year-Old Codebreaker Busted the Myth of Bitcoin’s Anonymity
+    Backchannel
+    [66]
+    How a 27-Year-Old Codebreaker Busted the Myth of Bitcoin’s Anonymity
 
-   Angela Saini
-   [81]Digitization Beats Deforestation
-   Digitization Beats Deforestation
-   Geolocation, supply-chain tracking, and digital payments are the tools
-   that will enable farmers and consumers to make better choices.
+    Andy Greenberg
 
-   Alloysius Attah
+  • [67]
+    Scabies Is Making a Comeback
+    Science
+    [68]
+    Scabies Is Making a Comeback
 
-   [82]WIRED
-   WIRED is where tomorrow is realized. It is the essential source of
-   information and ideas that make sense of a world in constant
-   transformation. The WIRED conversation illuminates how technology is
-   changing every aspect of our lives—from culture to business, science to
-   design. The breakthroughs and innovations that we uncover lead to new
-   ways of thinking, new connections, and new industries.
+    David Cox
 
-   (BUTTON) More From WIRED
-     * [83]Subscribe
-     * [84]Newsletters
-     * [85]FAQ
-     * [86]WIRED Staff
-     * [87]Editorial Standards
-     * [88]Archive
-     * [89]RSS
-     * [90]Accessibility Help
+  • [69]
+    Cult of the Lamb’s ‘Sex Update’ Is a Good Sign for Horny Video Games
+    Culture
+    [70]
+    Cult of the Lamb’s ‘Sex Update’ Is a Good Sign for Horny Video Games
 
-   (BUTTON) Reviews and Guides
-     * [91]Reviews
-     * [92]Buying Guides
-     * [93]Coupons
-     * [94]Mattresses
-     * [95]Electric Bikes
-     * [96]Fitness Trackers
-     * [97]Streaming Guides
+    Megan Farokhmanesh
 
-     * [98]Advertise
-     * [99]Contact Us
-     * [100]Customer Care
-     * [101]Jobs
-     * [102]Press Center
-     * [103]Condé Nast Store
+  • 
 
-   © 2024 Condé Nast. All rights reserved. Use of this site constitutes
-   acceptance of our [104]User Agreement and [105]Privacy Policy and
-   Cookie Statement and [106]Your California Privacy Rights. WIRED may
-   earn a portion of sales from products that are purchased through our
-   site as part of our Affiliate Partnerships with retailers. The material
-   on this site may not be reproduced, distributed, transmitted, cached or
-   otherwise used, except with the prior written permission of Condé Nast.
-   [107]Ad Choices
+Since the emails are, well, just emails, sometimes I hit Reply (by typing “r”).
+On a thread that went dormant a decade ago. I don't always offer context.
+Sometimes I just write, “Curious … how did this turn out?” I used to feel I was
+intruding, to just drop in like that. But what the hell. It's been a long
+pandemic. No one has to write back.
+
+Out go the emails. Most get no reply; some get a bounce-back. But often enough,
+people respond at length. Some left the city and came back. Some are up for
+coffee. A surprising number are now cyborgs (pacemakers, hearing aids). Some
+are rich, some are broke, some are divorced. One is considering being frozen
+after death, some are considering getting into crypto, and one has moved to
+Miami. None of us understand our children.
+
+I'm thinking of starting a Sunday morning waffle breakfast for [71]vaccinated
+people to come stare at each other. It's one thing to email after 10 years, but
+everyone appreciates an invitation to breakfast. Maybe I'll set up some sort of
+internet-connected LED scrolly screen, like they put on food carts, so
+out-of-towners can leave messages. I gotta have something to configure.
+
+If you'd asked me, back when I was still configuring, not yet configured,
+exactly why I was nurturing these dozens of dotfiles, I'd have had a hard time
+telling you. I would have said: I want a pure and sleek experience. I want the
+computer working for me, augmenting my dumb brain with its immense arithmetical
+speed. I want access to my whole digital self. So I am very surprised that the
+terminal result of my efforts is not some sort of ecstatic communion with the
+internet, or even with my own computer. The function of my whole big
+orchestrated, tagged, integrated system was merely to rekindle old ties. What
+was all that configuration for? It was, in all sincerity, for waffles.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+This article appears in the April 2022 issue. [72]Subscribe now.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+More Great WIRED Stories
+
+  • 📩 The latest on tech, science, and more: [73]Get our newsletters!
+  • [74]Jacques Vallée still doesn’t know what UFOs are
+  • When should you [75]test yourself for Covid-19?
+  • [76]How to leave your photos to someone when you die
+  • TV struggles to put [77]Silicon Valley on the screen
+  • [78]YouTube's captions insert explicit language in kids' videos
+  • 👁️ Explore AI like never before with [79]our new database
+  • 🎧 Things not sounding right? Check out our favorite [80]wireless headphones
+    , [81]soundbars, and [82]Bluetooth speakers
+
+[83]Paul Ford is a writer, programmer, and software entrepreneur. He lives in
+Brooklyn.
+Contributor
+
+  • [84]
+
+Topics[85]magazine-30.04[86]crypto[87]NFTs[88]software[89]Web3
+More from WIRED
+[90]
+A Key to Detecting Brain Disease Earlier Than Ever
+[91]
+A Key to Detecting Brain Disease Earlier Than Ever
+Treatment of Parkinson’s, Huntington’s, ALS, and other brain diseases depends
+on reliable detection—especially in those who don’t even know they’re at risk.
+An innovative scratch-and-sniff test can help.
+
+Michael J. Fox
+
+[92]
+The Danger of Digitizing Everything
+[93]
+The Danger of Digitizing Everything
+The creep of conducting our day-to-day interactions over screens has reached a
+breaking point—and it threatens to push out everyone but those with the “right”
+access.
+
+Naomi Alderman
+
+[94]
+Forget Growth. Optimize for Resilience
+[95]
+Forget Growth. Optimize for Resilience
+The tech economy is all about getting those next 10,000 users. What if it
+maximized something else for a change?
+
+Paul Ford
+
+[96]
+AI Needs to Be Both Trusted and Trustworthy
+[97]
+AI Needs to Be Both Trusted and Trustworthy
+Through sensors, actuators, and IoT devices, AI is going to be interacting with
+the physical plane on a massive scale. The question is, how does one build
+trust in its actions?
+
+Bruce Schneier
+
+[98]
+To Own the Future, Read Shakespeare
+[99]
+To Own the Future, Read Shakespeare
+Tech and the liberal arts have always been at war. Don’t assume Silicon Valley
+will win.
+
+Paul Ford
+
+[100]
+Gene Editing Needs to Be for Everyone
+[101]
+Gene Editing Needs to Be for Everyone
+Crispr recently marked a major milestone in medicine. But it's not time for a
+victory lap—the race is just beginning.
+
+Jennifer Doudna
+
+[102]
+Big Tech Won’t Let You Leave. Here's a Way Out
+[103]
+Big Tech Won’t Let You Leave. Here's a Way Out
+The year 2023 saw the “enshittification” of platforms from Facebook to Google
+Search. A new exit strategy means platforms will have to play nicely with your
+data, even if you leave for a rival.
+
+Cory Doctorow
+
+[104]
+The Creative’s Toolbox Gets an AI Upgrade
+[105]
+The Creative’s Toolbox Gets an AI Upgrade
+It’s easy to accuse algorithms of stifling creativity, but designers of every
+stripe should be embracing their multidisciplinary abilities.
+
+Suhair Khan
+
+[106]WIRED
+WIRED is where tomorrow is realized. It is the essential source of information
+and ideas that make sense of a world in constant transformation. The WIRED
+conversation illuminates how technology is changing every aspect of our
+lives—from culture to business, science to design. The breakthroughs and
+innovations that we uncover lead to new ways of thinking, new connections, and
+new industries.
+
+More From WIRED
+
+  • [108]Subscribe
+  • [109]Newsletters
+  • [110]FAQ
+  • [111]WIRED Staff
+  • [112]Editorial Standards
+  • [113]Archive
+  • [114]RSS
+  • [115]Accessibility Help
+
+Reviews and Guides
+
+  • [117]Reviews
+  • [118]Buying Guides
+  • [119]Coupons
+  • [120]Mattresses
+  • [121]Electric Bikes
+  • [122]Fitness Trackers
+  • [123]Streaming Guides
+
+  • [124]Advertise
+  • [125]Contact Us
+  • [126]Customer Care
+  • [127]Jobs
+  • [128]Press Center
+  • [129]Condé Nast Store
+
+© 2024 Condé Nast. All rights reserved. Use of this site constitutes acceptance
+of our [130]User Agreement and [131]Privacy Policy and Cookie Statement and 
+[132]Your California Privacy Rights. WIRED may earn a portion of sales from
+products that are purchased through our site as part of our Affiliate
+Partnerships with retailers. The material on this site may not be reproduced,
+distributed, transmitted, cached or otherwise used, except with the prior
+written permission of Condé Nast. [133]Ad Choices
 
 Select international site
 
-   (BUTTON) United States
-     * [108]UK
-     * [109]Italia
-     * [110]Japón
-     * [111]Czech Republic & Slovakia
+United States
 
-     *
-     *
-     *
-     *
-     *
-     *
+  • [135]UK
+  • [136]Italia
+  • [137]Japón
+  • [138]Czech Republic & Slovakia
 
-   (BUTTON) Do Not Sell My Personal Info
+  • [139]
+  • [140]
+  • [141]
+  • [142]
+  • [143]
+  • [144]
 
-References
+Do Not Sell My Personal Info
 
-   Visible links:
-   1. https://www.wired.com/feed/rss
-   2. https://www.googletagmanager.com/ns.html?id=GTM-5HBJC2K
-   3. https://www.wired.com/story/i-finally-reached-computing-nirvana-what-was-it-all-for/#main-content
-   4. https://www.wired.com/account/saved
-   5. https://www.wired.com/
-   6. https://www.wired.com/category/backchannel/
-   7. https://www.wired.com/category/business/
-   8. https://www.wired.com/category/culture/
-   9. https://www.wired.com/category/gear/
-  10. https://www.wired.com/category/ideas/
-  11. https://www.wired.com/category/politics/
-  12. https://www.wired.com/category/science/
-  13. https://www.wired.com/category/security/
-  14. https://shop.wired.com/
-  15. https://www.wired.com/account/saved
-  16. https://www.wired.com/auth/initiate?redirectURL=/story/i-finally-reached-computing-nirvana-what-was-it-all-for/&source=VERSO_NAVIGATION
-  17. https://www.wired.com/search/
-  18. https://www.wired.com/category/backchannel/
-  19. https://www.wired.com/category/business/
-  20. https://www.wired.com/category/culture/
-  21. https://www.wired.com/category/gear/
-  22. https://www.wired.com/category/ideas/
-  23. https://www.wired.com/category/politics/
-  24. https://www.wired.com/category/science/
-  25. https://www.wired.com/category/security/
-  26. https://shop.wired.com/
-  27. https://www.wired.com/podcasts/
-  28. https://www.wired.com/video/
-  29. https://www.wired.com/wired-world/
-  30. https://www.wired.com/category/artificial-intelligence/
-  31. https://www.wired.com/category/science/environment-climate-change/
-  32. https://www.wired.com/tag/video-games/
-  33. https://www.wired.com/newsletter
-  34. https://www.wired.com/magazine
-  35. https://events.wired.com/livewired
-  36. https://www.wired.com/category/wiredinsider/
-  37. https://jobs.wired.com/?source=navbar
-  38. https://www.wired.com/coupons
-  39. https://www.wired.com/author/paul-ford
-  40. https://www.wired.com/category/ideas
-  41. https://www.wired.com/tag/computers/
-  42. https://www.wired.com/tag/software/
-  43. https://www.wired.com/story/best-way-learn-online-be-lurker/
-  44. https://www.wired.com/story/coders-efficiency-is-beautiful/
-  45. https://www.wired.com/story/productivity-got-done-list/
-  46. https://www.wired.com/story/cult-of-the-lamb-sins-of-the-flesh-sex-update-horny-games/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
-  47. https://www.wired.com/story/emmys-streaming-succession-the-bear-hbo-hulu/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
-  48. https://www.wired.com/story/leftoverlocals-gpu-vulnerability-generative-ai/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
-  49. https://www.wired.com/story/trump-iowa-conspiracies/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
-  50. https://www.wired.com/tag/cryptocurrency/
-  51. https://www.wired.com/tag/nfts/
-  52. https://www.wired.com/story/cult-of-the-lamb-sins-of-the-flesh-sex-update-horny-games/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
-  53. https://www.wired.com/story/emmys-streaming-succession-the-bear-hbo-hulu/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
-  54. https://www.wired.com/story/leftoverlocals-gpu-vulnerability-generative-ai/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
-  55. https://www.wired.com/story/trump-iowa-conspiracies/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
-  56. https://www.wired.com/tag/vaccines/
-  57. https://subscribe.wired.com/subscribe/splits/wired/WIR_Edit_Hardcoded?source=ArticleEnd_CMlink
-  58. https://www.wired.com/newsletter?sourceCode=BottomStories
-  59. https://www.wired.com/story/jacques-vallee-still-doesnt-know-what-ufos-are/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
-  60. https://www.wired.com/story/when-to-test-for-covid-vaccinated/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
-  61. https://www.wired.com/story/how-to-leave-photos-behind-when-you-die/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
-  62. https://www.wired.com/story/wecrashed-tv-silicon-valley/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
-  63. https://www.wired.com/story/youtubes-captions-insert-explicit-language-kids-videos/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
-  64. https://www.wired.com/category/artificial-intelligence/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
-  65. https://www.wired.com/gallery/best-wireless-headphones/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
-  66. https://www.wired.com/gallery/best-soundbars/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
-  67. https://www.wired.com/gallery/best-bluetooth-speakers/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
-  68. https://www.wired.com/author/paul-ford
-  69. https://www.wired.com/tag/magazine-3004/
-  70. https://www.wired.com/tag/crypto/
-  71. https://www.wired.com/tag/nfts/
-  72. https://www.wired.com/tag/software/
-  73. https://www.wired.com/tag/web3/
-  74. https://www.wired.com/story/a-key-to-detecting-brain-disease-earlier-than-ever/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
-  75. https://www.wired.com/story/the-danger-of-digitizing-everything/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
-  76. https://www.wired.com/story/regulators-are-finally-catching-up-with-big-tech/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
-  77. https://www.wired.com/story/get-ready-for-the-great-ai-disappointment/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
-  78. https://www.wired.com/story/the-oceans-mysteries-and-marvels-are-about-to-reach-new-depths/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
-  79. https://www.wired.com/story/ai-needs-to-be-both-trusted-and-trustworthy/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
-  80. https://www.wired.com/story/the-end-of-one-size-fits-all-health-care/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
-  81. https://www.wired.com/story/digitization-beats-deforestation/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
-  82. https://www.wired.com/
-  83. https://www.wired.com/subscribe/
-  84. https://www.wired.com/newsletter?sourceCode=HeaderAndFooter
-  85. https://www.wired.com/about/faq/
-  86. https://www.wired.com/wired-staff/
-  87. https://www.wired.com/about/wired-on-background-policy/
-  88. https://archive.wired.com/t/storefront/storefront
-  89. https://www.wired.com/about/rss-feeds/
-  90. https://www.wired.com/about/accessibility-help/
-  91. https://www.wired.com/category/gear/reviews/
-  92. https://www.wired.com/category/gear/buying-guides/
-  93. https://www.wired.com/coupons
-  94. https://www.wired.com/gallery/best-mattresses/
-  95. https://www.wired.com/gallery/best-electric-bikes/
-  96. https://www.wired.com/gallery/best-fitness-tracker/
-  97. https://www.wired.com/tag/culture-guides/
-  98. https://www.condenast.com/brands/wired
-  99. https://www.wired.com/about/feedback/
- 100. https://subscriptions.wired.com/pubs/N3/WIR/Register.jsp?cds_page_id=175371&cds_mag_code=WIR&id=1423757547774&lsid=50431012277019467&vid=1
- 101. https://www.wired.com/about/wired-jobs/
- 102. https://www.wired.com/about/press/
- 103. https://www.condenaststore.com/
- 104. https://www.condenast.com/user-agreement/
- 105. http://www.condenast.com/privacy-policy#privacypolicy
- 106. http://www.condenast.com/privacy-policy#privacypolicy-california
- 107. http://www.condenast.com/privacy-policy#privacypolicy-optout
- 108. https://www.wired.co.uk/
- 109. https://www.wired.it/
- 110. https://wired.jp/
- 111. https://www.wired.cz/
+References:
 
-   Hidden links:
- 113. https://www.wired.com/story/best-way-learn-online-be-lurker/
- 114. https://www.wired.com/story/coders-efficiency-is-beautiful/
- 115. https://www.wired.com/story/productivity-got-done-list/
- 116. https://www.wired.com/story/cult-of-the-lamb-sins-of-the-flesh-sex-update-horny-games/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
- 117. https://www.wired.com/story/emmys-streaming-succession-the-bear-hbo-hulu/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
- 118. https://www.wired.com/story/leftoverlocals-gpu-vulnerability-generative-ai/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
- 119. https://www.wired.com/story/trump-iowa-conspiracies/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
- 120. https://www.wired.com/story/cult-of-the-lamb-sins-of-the-flesh-sex-update-horny-games/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
- 121. https://www.wired.com/story/emmys-streaming-succession-the-bear-hbo-hulu/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
- 122. https://www.wired.com/story/leftoverlocals-gpu-vulnerability-generative-ai/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
- 123. https://www.wired.com/story/trump-iowa-conspiracies/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
- 124. https://www.twitter.com/https://twitter.com/ftrain
- 125. https://www.wired.com/story/a-key-to-detecting-brain-disease-earlier-than-ever/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
- 126. https://www.wired.com/story/the-danger-of-digitizing-everything/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
- 127. https://www.wired.com/story/regulators-are-finally-catching-up-with-big-tech/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
- 128. https://www.wired.com/story/get-ready-for-the-great-ai-disappointment/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
- 129. https://www.wired.com/story/the-oceans-mysteries-and-marvels-are-about-to-reach-new-depths/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
- 130. https://www.wired.com/story/ai-needs-to-be-both-trusted-and-trustworthy/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
- 131. https://www.wired.com/story/the-end-of-one-size-fits-all-health-care/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
- 132. https://www.wired.com/story/digitization-beats-deforestation/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
- 133. https://www.facebook.com/wired/
- 134. https://twitter.com/wired/
- 135. https://pinterest.com/wired/
- 136. https://www.youtube.com/user/wired/
- 137. https://instagram.com/wired/
- 138. https://www.tiktok.com/@wired?lang=en
+[1] https://www.wired.com/story/i-finally-reached-computing-nirvana-what-was-it-all-for/#main-content
+[3] https://www.wired.com/account/saved
+[5] https://www.wired.com/
+[6] https://www.wired.com/category/backchannel/
+[7] https://www.wired.com/category/business/
+[8] https://www.wired.com/category/culture/
+[9] https://www.wired.com/category/gear/
+[10] https://www.wired.com/category/ideas/
+[11] https://www.wired.com/category/politics/
+[12] https://www.wired.com/category/science/
+[13] https://www.wired.com/category/security/
+[14] https://shop.wired.com/
+[16] https://www.wired.com/account/saved
+[18] https://www.wired.com/auth/initiate?redirectURL=%2Fstory%2Fi-finally-reached-computing-nirvana-what-was-it-all-for%2F&source=VERSO_NAVIGATION
+[19] https://www.wired.com/search/
+[20] https://www.wired.com/category/backchannel/
+[21] https://www.wired.com/category/business/
+[22] https://www.wired.com/category/culture/
+[23] https://www.wired.com/category/gear/
+[24] https://www.wired.com/category/ideas/
+[25] https://www.wired.com/category/politics/
+[26] https://www.wired.com/category/science/
+[27] https://www.wired.com/category/security/
+[28] https://shop.wired.com/
+[29] https://www.wired.com/podcasts/
+[30] https://www.wired.com/video/
+[31] https://www.wired.com/wired-world/
+[32] https://www.wired.com/category/artificial-intelligence/
+[33] https://www.wired.com/category/science/environment-climate-change/
+[34] https://www.wired.com/tag/video-games/
+[35] https://www.wired.com/newsletter
+[36] https://www.wired.com/magazine
+[37] https://events.wired.com/livewired
+[38] https://www.wired.com/category/wiredinsider/
+[39] https://jobs.wired.com/?source=navbar
+[40] https://www.wired.com/coupons
+[41] https://www.wired.com/author/paul-ford
+[42] https://www.wired.com/category/ideas
+[45] https://www.wired.com/tag/computers/
+[46] https://www.wired.com/tag/software/
+[47] https://www.wired.com/story/best-way-learn-online-be-lurker/
+[48] https://www.wired.com/story/best-way-learn-online-be-lurker/
+[49] https://www.wired.com/story/coders-efficiency-is-beautiful/
+[50] https://www.wired.com/story/coders-efficiency-is-beautiful/
+[51] https://www.wired.com/story/productivity-got-done-list/
+[52] https://www.wired.com/story/productivity-got-done-list/
+[53] https://www.wired.com/story/big-tech-wont-let-you-leave-heres-a-way-out/#intcid=_wired-right-rail_7824e7f5-690c-4792-a1a6-f9f6a2517e3a_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+[54] https://www.wired.com/story/big-tech-wont-let-you-leave-heres-a-way-out/#intcid=_wired-right-rail_7824e7f5-690c-4792-a1a6-f9f6a2517e3a_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+[55] https://www.wired.com/story/27-year-old-codebreaker-busted-myth-bitcoins-anonymity/#intcid=_wired-right-rail_7824e7f5-690c-4792-a1a6-f9f6a2517e3a_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+[56] https://www.wired.com/story/27-year-old-codebreaker-busted-myth-bitcoins-anonymity/#intcid=_wired-right-rail_7824e7f5-690c-4792-a1a6-f9f6a2517e3a_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+[57] https://www.wired.com/story/scabies-outbreak-uk-europe-treatment-shortages-drug-resistance-permethrin-ivermectin/#intcid=_wired-right-rail_7824e7f5-690c-4792-a1a6-f9f6a2517e3a_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+[58] https://www.wired.com/story/scabies-outbreak-uk-europe-treatment-shortages-drug-resistance-permethrin-ivermectin/#intcid=_wired-right-rail_7824e7f5-690c-4792-a1a6-f9f6a2517e3a_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+[59] https://www.wired.com/story/cult-of-the-lamb-sins-of-the-flesh-sex-update-horny-games/#intcid=_wired-right-rail_7824e7f5-690c-4792-a1a6-f9f6a2517e3a_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+[60] https://www.wired.com/story/cult-of-the-lamb-sins-of-the-flesh-sex-update-horny-games/#intcid=_wired-right-rail_7824e7f5-690c-4792-a1a6-f9f6a2517e3a_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+[61] https://www.wired.com/tag/cryptocurrency/
+[62] https://www.wired.com/tag/nfts/
+[63] https://www.wired.com/story/big-tech-wont-let-you-leave-heres-a-way-out/#intcid=_wired-right-rail_7824e7f5-690c-4792-a1a6-f9f6a2517e3a_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+[64] https://www.wired.com/story/big-tech-wont-let-you-leave-heres-a-way-out/#intcid=_wired-right-rail_7824e7f5-690c-4792-a1a6-f9f6a2517e3a_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+[65] https://www.wired.com/story/27-year-old-codebreaker-busted-myth-bitcoins-anonymity/#intcid=_wired-right-rail_7824e7f5-690c-4792-a1a6-f9f6a2517e3a_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+[66] https://www.wired.com/story/27-year-old-codebreaker-busted-myth-bitcoins-anonymity/#intcid=_wired-right-rail_7824e7f5-690c-4792-a1a6-f9f6a2517e3a_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+[67] https://www.wired.com/story/scabies-outbreak-uk-europe-treatment-shortages-drug-resistance-permethrin-ivermectin/#intcid=_wired-right-rail_7824e7f5-690c-4792-a1a6-f9f6a2517e3a_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+[68] https://www.wired.com/story/scabies-outbreak-uk-europe-treatment-shortages-drug-resistance-permethrin-ivermectin/#intcid=_wired-right-rail_7824e7f5-690c-4792-a1a6-f9f6a2517e3a_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+[69] https://www.wired.com/story/cult-of-the-lamb-sins-of-the-flesh-sex-update-horny-games/#intcid=_wired-right-rail_7824e7f5-690c-4792-a1a6-f9f6a2517e3a_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+[70] https://www.wired.com/story/cult-of-the-lamb-sins-of-the-flesh-sex-update-horny-games/#intcid=_wired-right-rail_7824e7f5-690c-4792-a1a6-f9f6a2517e3a_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+[71] https://www.wired.com/tag/vaccines/
+[72] https://subscribe.wired.com/subscribe/splits/wired/WIR_Edit_Hardcoded?source=ArticleEnd_CMlink
+[73] https://www.wired.com/newsletter?sourceCode=BottomStories
+[74] https://www.wired.com/story/jacques-vallee-still-doesnt-know-what-ufos-are/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
+[75] https://www.wired.com/story/when-to-test-for-covid-vaccinated/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
+[76] https://www.wired.com/story/how-to-leave-photos-behind-when-you-die/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
+[77] https://www.wired.com/story/wecrashed-tv-silicon-valley/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
+[78] https://www.wired.com/story/youtubes-captions-insert-explicit-language-kids-videos/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
+[79] https://www.wired.com/category/artificial-intelligence/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
+[80] https://www.wired.com/gallery/best-wireless-headphones/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
+[81] https://www.wired.com/gallery/best-soundbars/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
+[82] https://www.wired.com/gallery/best-bluetooth-speakers/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
+[83] https://www.wired.com/author/paul-ford
+[84] https://www.twitter.com/https://twitter.com/ftrain
+[85] https://www.wired.com/tag/magazine-3004/
+[86] https://www.wired.com/tag/crypto/
+[87] https://www.wired.com/tag/nfts/
+[88] https://www.wired.com/tag/software/
+[89] https://www.wired.com/tag/web3/
+[90] https://www.wired.com/story/a-key-to-detecting-brain-disease-earlier-than-ever/#intcid=_wired-bottom-recirc-version3_6b0d90ba-adca-4eee-a0a5-d5b31ddc96aa_roberta-similarity2-1-with-time-decay
+[91] https://www.wired.com/story/a-key-to-detecting-brain-disease-earlier-than-ever/#intcid=_wired-bottom-recirc-version3_6b0d90ba-adca-4eee-a0a5-d5b31ddc96aa_roberta-similarity2-1-with-time-decay
+[92] https://www.wired.com/story/the-danger-of-digitizing-everything/#intcid=_wired-bottom-recirc-version3_6b0d90ba-adca-4eee-a0a5-d5b31ddc96aa_roberta-similarity2-1-with-time-decay
+[93] https://www.wired.com/story/the-danger-of-digitizing-everything/#intcid=_wired-bottom-recirc-version3_6b0d90ba-adca-4eee-a0a5-d5b31ddc96aa_roberta-similarity2-1-with-time-decay
+[94] https://www.wired.com/story/forget-growth-optimize-resilience/#intcid=_wired-bottom-recirc-version3_6b0d90ba-adca-4eee-a0a5-d5b31ddc96aa_roberta-similarity2-1-with-time-decay
+[95] https://www.wired.com/story/forget-growth-optimize-resilience/#intcid=_wired-bottom-recirc-version3_6b0d90ba-adca-4eee-a0a5-d5b31ddc96aa_roberta-similarity2-1-with-time-decay
+[96] https://www.wired.com/story/ai-needs-to-be-both-trusted-and-trustworthy/#intcid=_wired-bottom-recirc-version3_6b0d90ba-adca-4eee-a0a5-d5b31ddc96aa_roberta-similarity2-1-with-time-decay
+[97] https://www.wired.com/story/ai-needs-to-be-both-trusted-and-trustworthy/#intcid=_wired-bottom-recirc-version3_6b0d90ba-adca-4eee-a0a5-d5b31ddc96aa_roberta-similarity2-1-with-time-decay
+[98] https://www.wired.com/story/own-future-artificial-intelligence-read-shakespeare/#intcid=_wired-bottom-recirc-version3_6b0d90ba-adca-4eee-a0a5-d5b31ddc96aa_roberta-similarity2-1-with-time-decay
+[99] https://www.wired.com/story/own-future-artificial-intelligence-read-shakespeare/#intcid=_wired-bottom-recirc-version3_6b0d90ba-adca-4eee-a0a5-d5b31ddc96aa_roberta-similarity2-1-with-time-decay
+[100] https://www.wired.com/story/gene-editing-needs-to-be-for-everyone/#intcid=_wired-bottom-recirc-version3_6b0d90ba-adca-4eee-a0a5-d5b31ddc96aa_roberta-similarity2-1-with-time-decay
+[101] https://www.wired.com/story/gene-editing-needs-to-be-for-everyone/#intcid=_wired-bottom-recirc-version3_6b0d90ba-adca-4eee-a0a5-d5b31ddc96aa_roberta-similarity2-1-with-time-decay
+[102] https://www.wired.com/story/big-tech-wont-let-you-leave-heres-a-way-out/#intcid=_wired-bottom-recirc-version3_6b0d90ba-adca-4eee-a0a5-d5b31ddc96aa_roberta-similarity2-1-with-time-decay
+[103] https://www.wired.com/story/big-tech-wont-let-you-leave-heres-a-way-out/#intcid=_wired-bottom-recirc-version3_6b0d90ba-adca-4eee-a0a5-d5b31ddc96aa_roberta-similarity2-1-with-time-decay
+[104] https://www.wired.com/story/the-creatives-toolbox-gets-an-ai-upgrade/#intcid=_wired-bottom-recirc-version3_6b0d90ba-adca-4eee-a0a5-d5b31ddc96aa_roberta-similarity2-1-with-time-decay
+[105] https://www.wired.com/story/the-creatives-toolbox-gets-an-ai-upgrade/#intcid=_wired-bottom-recirc-version3_6b0d90ba-adca-4eee-a0a5-d5b31ddc96aa_roberta-similarity2-1-with-time-decay
+[106] https://www.wired.com/
+[108] https://www.wired.com/subscribe/
+[109] https://www.wired.com/newsletter?sourceCode=HeaderAndFooter
+[110] https://www.wired.com/about/faq/
+[111] https://www.wired.com/wired-staff/
+[112] https://www.wired.com/about/wired-on-background-policy/
+[113] https://archive.wired.com/t/storefront/storefront
+[114] https://www.wired.com/about/rss-feeds/
+[115] https://www.wired.com/about/accessibility-help/
+[117] https://www.wired.com/category/gear/reviews/
+[118] https://www.wired.com/category/gear/buying-guides/
+[119] https://www.wired.com/coupons
+[120] https://www.wired.com/gallery/best-mattresses/
+[121] https://www.wired.com/gallery/best-electric-bikes/
+[122] https://www.wired.com/gallery/best-fitness-tracker/
+[123] https://www.wired.com/tag/culture-guides/
+[124] https://www.condenast.com/brands/wired
+[125] https://www.wired.com/about/feedback/
+[126] https://subscriptions.wired.com/pubs/N3/WIR/Register.jsp?cds_page_id=175371&cds_mag_code=WIR&id=1423757547774&lsid=50431012277019467&vid=1
+[127] https://www.wired.com/about/wired-jobs/
+[128] https://www.wired.com/about/press/
+[129] https://www.condenaststore.com/
+[130] https://www.condenast.com/user-agreement/
+[131] http://www.condenast.com/privacy-policy#privacypolicy
+[132] http://www.condenast.com/privacy-policy#privacypolicy-california
+[133] http://www.condenast.com/privacy-policy#privacypolicy-optout
+[135] https://www.wired.co.uk/
+[136] https://www.wired.it/
+[137] https://wired.jp/
+[138] https://www.wired.cz/
+[139] https://www.facebook.com/wired/
+[140] https://twitter.com/wired/
+[141] https://pinterest.com/wired/
+[142] https://www.youtube.com/user/wired/
+[143] https://instagram.com/wired/
+[144] https://www.tiktok.com/@wired?lang=en

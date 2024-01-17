@@ -1,183 +1,169 @@
-   [1]←Home [2]Archive [3]Tags [4]About
+[1] ←Home [2]Archive [3]Tags [4]About
 
-                           Daily notes for 2023-07-17
+Daily notes for 2023-07-17
 
-   Jul 17, 2023 · 1447 words · 7 minute read
+Jul 17, 2023 · 1447 words · 7 minute read
+Table of Contents
 
-   Table of Contents
-
-     * [5]Notes on conflict
-     * [6]The INT650
+  • [5]Notes on conflict
+  • [6]The INT650
 
 Notes on conflict [7]🔗
 
-     When my master and I were walking in the rain, he would say, “Do not
-     walk so fast, the rain is everywhere.”
-     —Shunryu Suzuki
+    When my master and I were walking in the rain, he would say, “Do not walk
+    so fast, the rain is everywhere.”
+    —Shunryu Suzuki
 
-   For a very long time — too much of my life — I thought conflict was a
-   sign that there was a problem. I didn’t like disagreeing with people
-   about much of anything. I’m using “conflict” in a broad sense: Over
-   resources, points of view, vision, beliefs, tastes.
+For a very long time — too much of my life — I thought conflict was a sign that
+there was a problem. I didn’t like disagreeing with people about much of
+anything. I’m using “conflict” in a broad sense: Over resources, points of
+view, vision, beliefs, tastes.
 
-   Over time I shifted on the matter a little, but when I look back on it
-   I realize I wasn’t really evolving my attitude toward conflict, I was
-   just evolving my response to its existence, while still believing that
-   being in a state of conflict is a problem. I just got better at keeping
-   my blood pressure low and gritting through it. I think I was looking at
-   conflict as a thing that you have to acknowledge exists, but that you
-   need to get through as quickly as possible, because it’s a bad place to
-   be.
+Over time I shifted on the matter a little, but when I look back on it I
+realize I wasn’t really evolving my attitude toward conflict, I was just
+evolving my response to its existence, while still believing that being in a
+state of conflict is a problem. I just got better at keeping my blood pressure
+low and gritting through it. I think I was looking at conflict as a thing that
+you have to acknowledge exists, but that you need to get through as quickly as
+possible, because it’s a bad place to be.
 
-   That attitude created some problems:
-     * When you’re bad at being in conflict, you’re at a disadvantage with
-       people who are good at it and mean you harm; and you’re annoying
-       people who are good at it and mean you no harm.
-     * When you look at conflict as a thing to grit through and end
-       quickly it’s hard to maintain your integrity. (See above: The
-       people who don’t want what’s best for you (or the business, or the
-       world, or etc.) understand this, and the ones who are really good
-       at it and a little indifferent toward what’s best for you are
-       counting on you to do all the work to get out of conflict.)
-     * When you’d rather do anything than admit that you’re in a state of
-       conflict, you will eventually do something about your problem that
-       is less skillful for having waited than if you’d admitted it to
-       yourself (and whoever you’re in conflict with) sooner. Or, as one
-       of my past managers put it to me, “don’t be that guy who
-       hockey-sticks.” (I nodded then kind of hockey-sticked.)
-     * When you’re bad at being in conflict, and you’re willing to be set
-       aside your integrity or do other things to get out of it quickly,
-       you’ll eventually get tired of “losing” and figure out ways to
-       “win” that cause others to see you as, at best, baffling and
-       frustrating, and at worst Machiavellian and treacherous.
+That attitude created some problems:
 
-   That, anyhow, is a rough categorization of my many hundreds of
-   mishandlings of conflict. Maybe the most interesting thing to me about
-   all those mishandlings is that over time I managed to convince myself
-   that failing to be in conflict well was a sign of virtue. Moral
-   sophistication. “Taking the high road.” “Not worth the stress.”
-   “Learning how to play the game.” “Protecting the team.”
+  • When you’re bad at being in conflict, you’re at a disadvantage with people
+    who are good at it and mean you harm; and you’re annoying people who are
+    good at it and mean you no harm.
+  • When you look at conflict as a thing to grit through and end quickly it’s
+    hard to maintain your integrity. (See above: The people who don’t want
+    what’s best for you (or the business, or the world, or etc.) understand
+    this, and the ones who are really good at it and a little indifferent
+    toward what’s best for you are counting on you to do all the work to get
+    out of conflict.)
+  • When you’d rather do anything than admit that you’re in a state of
+    conflict, you will eventually do something about your problem that is less
+    skillful for having waited than if you’d admitted it to yourself (and
+    whoever you’re in conflict with) sooner. Or, as one of my past managers put
+    it to me, “don’t be that guy who hockey-sticks.” (I nodded then kind of
+    hockey-sticked.)
+  • When you’re bad at being in conflict, and you’re willing to be set aside
+    your integrity or do other things to get out of it quickly, you’ll
+    eventually get tired of “losing” and figure out ways to “win” that cause
+    others to see you as, at best, baffling and frustrating, and at worst
+    Machiavellian and treacherous.
 
-   Over the past few years, I’ve changed on the matter: On balance, I
-   definitely don’t think its existence is a sign there’s a problem. It’s
-   just a sign that there’s a conflict.
+That, anyhow, is a rough categorization of my many hundreds of mishandlings of
+conflict. Maybe the most interesting thing to me about all those mishandlings
+is that over time I managed to convince myself that failing to be in conflict
+well was a sign of virtue. Moral sophistication. “Taking the high road.” “Not
+worth the stress.” “Learning how to play the game.” “Protecting the team.”
 
-   I still feel a little cautious about conflict when I don’t know the
-   person I’m in conflict with very well. Caution is useful, because
-   people who are bad at being in conflict but mean well — people who are
-   “good eggs” — can still sort of mess things up, because if I have to
-   bet on whether someone hates “losing” or just grinning and bearing it
-   more, my money is on them hating losing more. When things get to a
-   place where it feels existential to them, even good eggs can act sort
-   of rotten. So you have to take time and attend to the interaction so
-   they can be in conflict and feel safe about it.
+Over the past few years, I’ve changed on the matter: On balance, I definitely
+don’t think its existence is a sign there’s a problem. It’s just a sign that
+there’s a conflict.
 
-   I still think I have a responsibility to introduce the existence of
-   conflict with kindness, or receive the news that I’ve entered into a
-   state of conflict in a manner that invites a full airing. “Relaxed and
-   possibly delighted curiosity,” I suppose I’d call it, rather than a
-   furrowing of the brow and assurances that I want to restore harmony at
-   once. Because I don’t want to restore harmony at once. I want to
-   understand why we want different things, then figure out how we can
-   both behave with integrity while we sort that out.
+I still feel a little cautious about conflict when I don’t know the person I’m
+in conflict with very well. Caution is useful, because people who are bad at
+being in conflict but mean well — people who are “good eggs” — can still sort
+of mess things up, because if I have to bet on whether someone hates “losing”
+or just grinning and bearing it more, my money is on them hating losing more.
+When things get to a place where it feels existential to them, even good eggs
+can act sort of rotten. So you have to take time and attend to the interaction
+so they can be in conflict and feel safe about it.
+
+I still think I have a responsibility to introduce the existence of conflict
+with kindness, or receive the news that I’ve entered into a state of conflict
+in a manner that invites a full airing. “Relaxed and possibly delighted
+curiosity,” I suppose I’d call it, rather than a furrowing of the brow and
+assurances that I want to restore harmony at once. Because I don’t want to
+restore harmony at once. I want to understand why we want different things,
+then figure out how we can both behave with integrity while we sort that out.
 
 The INT650 [8]🔗
 
-   I finally quit waffling on what to do with the Royal Enfield Himalayan.
-   I took it up to [9]Sabatino Moto in St. Johns and traded it in for
-   another Royal Enfield: An INT650 (“Interceptor” everywhere else in the
-   world, but not in North America where Honda owns the rights to the
-   name.)
+[f4d4087a00284d89b3cedd2720a3b117]
 
-   It’s a pretty night and day difference. The Himalayan is a mountain
-   goat, and the INT650 is … something a little prettier and a little less
-   rough. I was never going to ride the Himalayan the way it was meant to
-   be ridden — fire roads, gravel, dirt — and I didn’t have the patience
-   for the very “work in progress” attitude Royal Enfield took toward it.
-   One thing you learn from all the Himalayan videos on YouTube is that
-   the people who love them best don’t mind fiddling, tweaking, and
-   wrenching. After reading hundreds of owners talk about their
-   experiences, I have come to realize I lost the factory QA lottery on
-   mine, and that engendered a lack of confidence in it that I never
-   recovered from.
+I finally quit waffling on what to do with the Royal Enfield Himalayan. I took
+it up to [9]Sabatino Moto in St. Johns and traded it in for another Royal
+Enfield: An INT650 (“Interceptor” everywhere else in the world, but not in
+North America where Honda owns the rights to the name.)
 
-   Also turns out, I think, that I had a bad dealer:
+It’s a pretty night and day difference. The Himalayan is a mountain goat, and
+the INT650 is … something a little prettier and a little less rough. I was
+never going to ride the Himalayan the way it was meant to be ridden — fire
+roads, gravel, dirt — and I didn’t have the patience for the very “work in
+progress” attitude Royal Enfield took toward it. One thing you learn from all
+the Himalayan videos on YouTube is that the people who love them best don’t
+mind fiddling, tweaking, and wrenching. After reading hundreds of owners talk
+about their experiences, I have come to realize I lost the factory QA lottery
+on mine, and that engendered a lack of confidence in it that I never recovered
+from.
 
-   The first RE dealer in the Portland area doesn’t really want to sell
-   them, and it really does not want to do anything other than the most
-   basic service. I think I’ve documented that elsewhere, so I won’t go
-   into it more here, but I’ll just offer the observation that RE’s
-   strategy of linking up with Harley dealers to build out its US
-   distribution network did its customers no favors.
+Also turns out, I think, that I had a bad dealer:
 
-   The folks at Sabatino, on the other hand, seem to have a genuine
-   appreciation for the bikes, that extends all the way to acknowledging
-   that RE has some QA challenges. Sabatino addresses that by doing their
-   own QA when they uncrate a new bike. And they’re willing to talk about
-   the ups and downs of each model. My head was briefly turned by another
-   model, and I got a reasoned, balanced, discussion of why maybe that one
-   wouldn’t work for me.
+The first RE dealer in the Portland area doesn’t really want to sell them, and
+it really does not want to do anything other than the most basic service. I
+think I’ve documented that elsewhere, so I won’t go into it more here, but I’ll
+just offer the observation that RE’s strategy of linking up with Harley dealers
+to build out its US distribution network did its customers no favors.
 
-   They also offer test rides. I can name one dealership that grudgingly
-   made me sign a waiver and write a check for the full amount to test
-   ride a Grom for five laps around their parking lot, and they only did
-   that because it was a two-year-old model and they’d sold the newer one
-   they promised me out from under me. Sabatino made me do the waiver,
-   share my insurance information, and hand over my license, but then they
-   tossed me the keys and told me they’d see me when they saw me.
+The folks at Sabatino, on the other hand, seem to have a genuine appreciation
+for the bikes, that extends all the way to acknowledging that RE has some QA
+challenges. Sabatino addresses that by doing their own QA when they uncrate a
+new bike. And they’re willing to talk about the ups and downs of each model. My
+head was briefly turned by another model, and I got a reasoned, balanced,
+discussion of why maybe that one wouldn’t work for me.
 
-   Anyhow, the test ride sold me. I’ve been through several configurations
-   of motorcycle and scooter since getting my motorcycle endorsement —
-   maxiscoots, normal scoots, mini-moto, cruiser, trail bike, dual-sport —
-   and none of them have been the thing I first imagined myself riding
-   when I finally decided to learn how to ride. Well, learn how to ride as
-   an adult, anyhow. The twin 650 runs and sounds nice, the bike handles
-   more comfortably than the Himalayan despite there being 40 pounds more
-   of it, and the super-simple analog speedo and tach are just sort of
-   pleasant. I ran it around St. Johns for a while, was struck by how
-   immediately comfortable it was (and how confident I felt on it), and
-   that was that.
+They also offer test rides. I can name one dealership that grudgingly made me
+sign a waiver and write a check for the full amount to test ride a Grom for
+five laps around their parking lot, and they only did that because it was a
+two-year-old model and they’d sold the newer one they promised me out from
+under me. Sabatino made me do the waiver, share my insurance information, and
+hand over my license, but then they tossed me the keys and told me they’d see
+me when they saw me.
 
-   Yesterday I took it on a ride out Foster Road toward Damascus. There’s
-   a side road I head out onto that eventually rejoins on the other side
-   of Damascus, close to a back road that joins the highway down to
-   Estacada. So I headed out past Estacada, to see how it did on a small
-   back highway. There was a little bit of buffeting — no fairings — but
-   it ran and handled well. I felt more confident on the little back roads
-   coming back than I did heading out as I got to know the bike better. I
-   did decide to detract from its vintage purity a little by ordering a
-   Dart flyscreen when I got back: People say it helps clean up the
-   turbulence at highway speeds, and keeps the bugs off the pretty silver
-   cans.
+Anyhow, the test ride sold me. I’ve been through several configurations of
+motorcycle and scooter since getting my motorcycle endorsement — maxiscoots,
+normal scoots, mini-moto, cruiser, trail bike, dual-sport — and none of them
+have been the thing I first imagined myself riding when I finally decided to
+learn how to ride. Well, learn how to ride as an adult, anyhow. The twin 650
+runs and sounds nice, the bike handles more comfortably than the Himalayan
+despite there being 40 pounds more of it, and the super-simple analog speedo
+and tach are just sort of pleasant. I ran it around St. Johns for a while, was
+struck by how immediately comfortable it was (and how confident I felt on it),
+and that was that.
 
-   Anyhow, glad I’ve got it in the driveway with so much of the riding
-   season left, and I can wholeheartedly recommend Sabatino Moto if you’re
-   looking to buy one for yourself.
+Yesterday I took it on a ride out Foster Road toward Damascus. There’s a side
+road I head out onto that eventually rejoins on the other side of Damascus,
+close to a back road that joins the highway down to Estacada. So I headed out
+past Estacada, to see how it did on a small back highway. There was a little
+bit of buffeting — no fairings — but it ran and handled well. I felt more
+confident on the little back roads coming back than I did heading out as I got
+to know the bike better. I did decide to detract from its vintage purity a
+little by ordering a Dart flyscreen when I got back: People say it helps clean
+up the turbulence at highway speeds, and keeps the bugs off the pretty silver
+cans.
 
-   [10]journal [11]conflict
+Anyhow, glad I’ve got it in the driveway with so much of the riding season
+left, and I can wholeheartedly recommend Sabatino Moto if you’re looking to buy
+one for yourself.
 
-   Created with Sketch.
+[10]journal [11]conflict
+[12] Created with Sketch.
+© Copyright 2024 mph
+Powered by [13]Hugo Theme By [14]nodejh
 
-   © Copyright 2024 mph
+References:
 
-   Powered by [12]Hugo Theme By [13]nodejh
-
-References
-
-   Visible links:
-   1. https://mike.puddingtime.org/
-   2. https://mike.puddingtime.org/posts
-   3. https://mike.puddingtime.org/tags
-   4. https://mike.puddingtime.org/about
-   5. https://mike.puddingtime.org/posts/2023-07-17-daily-notes/#notes-on-conflict
-   6. https://mike.puddingtime.org/posts/2023-07-17-daily-notes/#the-int650
-   7. https://mike.puddingtime.org/posts/2023-07-17-daily-notes/#notes-on-conflict
-   8. https://mike.puddingtime.org/posts/2023-07-17-daily-notes/#the-int650
-   9. https://www.sabatinomoto.com/
-  10. https://mike.puddingtime.org/tags/journal
-  11. https://mike.puddingtime.org/tags/conflict
-  12. http://www.gohugo.io/
-  13. https://github.com/nodejh/hugo-theme-mini
-
-   Hidden links:
-  15. https://github.com/pdxmph
+[1] https://mike.puddingtime.org/
+[2] https://mike.puddingtime.org/posts
+[3] https://mike.puddingtime.org/tags
+[4] https://mike.puddingtime.org/about
+[5] https://mike.puddingtime.org/posts/2023-07-17-daily-notes/#notes-on-conflict
+[6] https://mike.puddingtime.org/posts/2023-07-17-daily-notes/#the-int650
+[7] https://mike.puddingtime.org/posts/2023-07-17-daily-notes/#notes-on-conflict
+[8] https://mike.puddingtime.org/posts/2023-07-17-daily-notes/#the-int650
+[9] https://www.sabatinomoto.com/
+[10] https://mike.puddingtime.org/tags/journal
+[11] https://mike.puddingtime.org/tags/conflict
+[12] https://github.com/pdxmph
+[13] http://www.gohugo.io/
+[14] https://github.com/nodejh/hugo-theme-mini

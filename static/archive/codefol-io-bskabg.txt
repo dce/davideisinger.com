@@ -1,374 +1,360 @@
-   [1]Codefol.io book logo
+[1]Codefol.io book logo
 
 [2]Codefol.io
 
-     * [3]All Articles
-     * [4]Articles by Topic
-     * [5]Favourite Articles
-     * [6]RSS
-     * [7]About
+  • [3]All Articles
+  • [4]Articles by Topic
+  • [5]Favourite Articles
+  • [6]RSS
+  • [7]About
 
 When Should You NOT Use Rails?
 
-   A chimpanzee in a white coat types at a keyboard lit by glowing LEDs.
-   He's gorgeous, yes. But is his talent natural… or is it Ruby on Rails?
+A chimpanzee in a white coat types at a keyboard lit by glowing LEDs.
+He's gorgeous, yes. But is his talent natural… or is it Ruby on Rails?
 
-   I was [8]recently on Jason Swett’s podcast again. He’s a great
-   interviewer and I always have fun with him.
+I was [8]recently on Jason Swett’s podcast again. He’s a great interviewer and
+I always have fun with him.
 
-   By Twitter request we talked about… When would you not use Rails? It’s
-   a great question.
+By Twitter request we talked about… When would you not use Rails? It’s a great
+question.
 
-   For the entertaining version, [9]listen to the podcast. For the
-   just-the-facts extra-complete version, I’m writing this post.
+For the entertaining version, [9]listen to the podcast. For the just-the-facts
+extra-complete version, I’m writing this post.
 
 When Is Rails the Wrong Choice?
 
-   I’ll start with a few simple, obvious times you wouldn’t use Rails, and
-   then I’ll talk about some technically interesting times.
+I’ll start with a few simple, obvious times you wouldn’t use Rails, and then
+I’ll talk about some technically interesting times.
 
-   First, and most important, is team familiarity. If your team doesn’t
-   already know Rails and isn’t especially interested in learning it then
-   Rails is the wrong choice. This should be obvious, but it still
-   deserves first billing.
+First, and most important, is team familiarity. If your team doesn’t already
+know Rails and isn’t especially interested in learning it then Rails is the
+wrong choice. This should be obvious, but it still deserves first billing.
 
-   Second, when you know some other framework fits better. I’ll talk more
-   below about when that is. But sometimes you have a specific concern
-   that trumps everything else. If you need to use a Java-language machine
-   learning library and you don’t want to use JRuby for some reason, Rails
-   isn’t your framework. If you’re writing a WordPress plugin, you’ll be
-   doing it in PHP. Often there’s one specific compatibility concern that
-   overrides everything else.
+Second, when you know some other framework fits better. I’ll talk more below
+about when that is. But sometimes you have a specific concern that trumps
+everything else. If you need to use a Java-language machine learning library
+and you don’t want to use JRuby for some reason, Rails isn’t your framework. If
+you’re writing a WordPress plugin, you’ll be doing it in PHP. Often there’s one
+specific compatibility concern that overrides everything else.
 
-   You can also think of it as: use it where Rails’ good points hold and
-   its bad points don’t. So we’ll also talk about the good and bad points.
+You can also think of it as: use it where Rails’ good points hold and its bad
+points don’t. So we’ll also talk about the good and bad points.
 
-   Separately: you’d normally only use Rails as an HTTP server, so some
-   tasks just aren’t Rails-shaped.
+Separately: you’d normally only use Rails as an HTTP server, so some tasks just
+aren’t Rails-shaped.
 
 When is Rails Too Much?
 
-   [10]A pirate puppet with an eyepatch, safety goggles and a huge
-   scraggly mustache watches over a purple crystal ball at his feet.' He’s
-   too much lab assistant for your lab.
+[10] A pirate puppet with an eyepatch, safety goggles and a huge scraggly
+mustache watches over a purple crystal ball at his feet.' He’s too much lab
+assistant for your lab.
 
-   Some places not to use Rails can include:
+Some places not to use Rails can include:
 
-   Really Small Tasks that Won’t Grow: if a server does very little, Rails
-   is often too much. Not going to touch a database? Then the DB setup
-   isn’t helping you, is it? Just a tiny low-traffic intermediate server
-   with no caching? A lot of Rails is more trouble than it’s worth.
+Really Small Tasks that Won’t Grow: if a server does very little, Rails is
+often too much. Not going to touch a database? Then the DB setup isn’t helping
+you, is it? Just a tiny low-traffic intermediate server with no caching? A lot
+of Rails is more trouble than it’s worth.
 
-   Be careful with tasks that grow, though — making a tiny server scale up
-   to do a lot more can be ugly. If you’re already serving HTTP pages to a
-   human with a web browser, consider that you may have to add features to
-   it later. Something like that is already fairly large from the word
-   “go”.
+Be careful with tasks that grow, though — making a tiny server scale up to do a
+lot more can be ugly. If you’re already serving HTTP pages to a human with a
+web browser, consider that you may have to add features to it later. Something
+like that is already fairly large from the word “go”.
 
-   When It’s ‘Just’ an API Server: Rails has less to offer an API server
-   that speaks JSON over the wire. A lot of its HTTP security doesn’t
-   matter for that case: CSRF protection is entirely about dealing with
-   HTML and Javascript. Many kinds of XSS attacks are dependent on a
-   browser as the weak link, or on putting unescaped user input into HTML.
-   Redirection vulnerabilities assume automatic redirection, which APIs
-   usually don’t do. You can prevent SQL injection attacks with just an
-   ORM, a simpler ORM, or even the raw Ruby MySQL and Postgres gems, which
-   support question-mark arguments.
+When It’s ‘Just’ an API Server: Rails has less to offer an API server that
+speaks JSON over the wire. A lot of its HTTP security doesn’t matter for that
+case: CSRF protection is entirely about dealing with HTML and Javascript. Many
+kinds of XSS attacks are dependent on a browser as the weak link, or on putting
+unescaped user input into HTML. Redirection vulnerabilities assume automatic
+redirection, which APIs usually don’t do. You can prevent SQL injection attacks
+with just an ORM, a simpler ORM, or even the raw Ruby MySQL and Postgres gems,
+which support question-mark arguments.
 
-   Rails security really shines when you’re navigating the bewildering
-   world of HTML and browser security. Small projects that mostly speak a
-   structured format read by machines will get less from Rails. Securing
-   something like an integer ID or a hash of strings is just easier than
-   ensuring your HTML contains no script tags or anything exploitable.
+Rails security really shines when you’re navigating the bewildering world of
+HTML and browser security. Small projects that mostly speak a structured format
+read by machines will get less from Rails. Securing something like an integer
+ID or a hash of strings is just easier than ensuring your HTML contains no
+script tags or anything exploitable.
 
-   Related to that is when you’re doing in-browser rendering and Rails is
-   ‘just’ serving JSON. It’s a weird kind of in-between case. A lot of
-   Rails security and convenience functions no longer help you, but you’re
-   still doing things where internal libraries (ActiveRecord, ActiveJob,
-   ActionMailer) can be highly useful. But if you’re never rendering HTML
-   on the server and you’re very sure you never will, Rails will probably
-   help you less.
+Related to that is when you’re doing in-browser rendering and Rails is ‘just’
+serving JSON. It’s a weird kind of in-between case. A lot of Rails security and
+convenience functions no longer help you, but you’re still doing things where
+internal libraries (ActiveRecord, ActiveJob, ActionMailer) can be highly
+useful. But if you’re never rendering HTML on the server and you’re very sure
+you never will, Rails will probably help you less.
 
 When Is Rails Not Enough?
 
-   Rails is also designed for a small team and a medium-sized codebase. A
-   huge team (lots of programmers) or a huge codebase (lots of
-   controllers, models and/or lines of code) will tend to drag down the
-   standard Rails-app structure.
+Rails is also designed for a small team and a medium-sized codebase. A huge
+team (lots of programmers) or a huge codebase (lots of controllers, models and/
+or lines of code) will tend to drag down the standard Rails-app structure.
 
-   Ruby allows for a lot of [11]non-local effects. Whether that’s
-   monkeypatching, writing to a database or creating new types at runtime,
-   Ruby isn’t designed for a team of 200 programmers where you don’t trust
-   some of them. There are too many ways for them to cause you trouble.
-   You can use [12]good tooling to scale Ruby to larger teams, but even
-   that will [13]tend to have exceptions and difficulties. That’s not
-   really Ruby’s sweet spot.
+Ruby allows for a lot of [11]non-local effects. Whether that’s monkeypatching,
+writing to a database or creating new types at runtime, Ruby isn’t designed for
+a team of 200 programmers where you don’t trust some of them. There are too
+many ways for them to cause you trouble. You can use [12]good tooling to scale
+Ruby to larger teams, but even that will [13]tend to have exceptions and
+difficulties. That’s not really Ruby’s sweet spot.
 
-   In most cases you can cut up a large project into smaller projects. If
-   one Rails app is too big, you can often separate it into multiple apps,
-   or a thinner app with more back-end services, or an app and a separate
-   microservice, or… One way or another there is usually a way to separate
-   out smaller pieces. Ruby strongly encourages that, as do I.
+In most cases you can cut up a large project into smaller projects. If one
+Rails app is too big, you can often separate it into multiple apps, or a
+thinner app with more back-end services, or an app and a separate microservice,
+or… One way or another there is usually a way to separate out smaller pieces.
+Ruby strongly encourages that, as do I.
 
-   There are also not-quite-Rails structures that can scale better. Avdi
-   Grimm’s (now retired) [14]Objects on Rails was an attempt in that
-   direction, as is [15]the Hexagonal architecture for Rails, which in
-   turn has a lot in common with the older and more general [16]N-tier
-   architecture.
+There are also not-quite-Rails structures that can scale better. Avdi Grimm’s
+(now retired) [14]Objects on Rails was an attempt in that direction, as is [15]
+the Hexagonal architecture for Rails, which in turn has a lot in common with
+the older and more general [16]N-tier architecture.
 
-   But at some point you might want to consider a different framework.
-   [17]Hanami is an obvious choice, designed to be less quick and nimble
-   than Rails for getting a tiny app off the ground, but more scalable if
-   you want to use the same code with a lot more contributors.
+But at some point you might want to consider a different framework. [17]Hanami
+is an obvious choice, designed to be less quick and nimble than Rails for
+getting a tiny app off the ground, but more scalable if you want to use the
+same code with a lot more contributors.
 
-   I’d still start out in Rails, personally. If you’re building something
-   quickly to see if anybody cares, I know of no framework that comes
-   close to its productivity. Wait to rewrite (in a more rigid framework)
-   until you’re successful and you can afford the drag on your development
-   speed.
+I’d still start out in Rails, personally. If you’re building something quickly
+to see if anybody cares, I know of no framework that comes close to its
+productivity. Wait to rewrite (in a more rigid framework) until you’re
+successful and you can afford the drag on your development speed.
 
-   The other worry here can be performance. If you’re rewriting a project
-   that is already as large as the current Basecamp… then you’re
-   [18]actually fine for performance. Rails still scales great for them.
-   But if you’re looking at something a hundred times larger (which by
-   definition means B2C, not B2B) then you might have a situation where
-   your server costs are substantially greater than your engineering
-   payroll. In that case it can make sense to slow down your engineers to
-   pay lower server costs. To check this, see what your EC2-or-equivalent
-   costs are just for your application servers, which are what run Rails.
-   And check your payroll just for web engineers, which is who writes in
-   Rails. Normally the engineering payroll is much larger and you should
-   stick with trading cheap machine time for expensive engineering time.
-   But at some point the balance may tip and you should consider raising
-   your engineering payroll to cut your server costs.
+The other worry here can be performance. If you’re rewriting a project that is
+already as large as the current Basecamp… then you’re [18]actually fine for
+performance. Rails still scales great for them. But if you’re looking at
+something a hundred times larger (which by definition means B2C, not B2B) then
+you might have a situation where your server costs are substantially greater
+than your engineering payroll. In that case it can make sense to slow down your
+engineers to pay lower server costs. To check this, see what your
+EC2-or-equivalent costs are just for your application servers, which are what
+run Rails. And check your payroll just for web engineers, which is who writes
+in Rails. Normally the engineering payroll is much larger and you should stick
+with trading cheap machine time for expensive engineering time. But at some
+point the balance may tip and you should consider raising your engineering
+payroll to cut your server costs.
 
 When Does Rails Have the Wrong Assumptions?
 
-   [19]A pirate, a bear and a chimp sit at a wicker table. The bear looks
-   into a very old-fashioned microscope as the other two look on. They’re
-   checking the microscope for real-world use cases where Rails might be
-   wrong.
+[19] A pirate, a bear and a chimp sit at a wicker table. The bear looks into a
+very old-fashioned microscope as the other two look on. They’re checking the
+microscope for real-world use cases where Rails might be wrong.
 
-   Before checking if Rails’ assumptions are right for you, we should see
-   what those assumptions actually are.
+Before checking if Rails’ assumptions are right for you, we should see what
+those assumptions actually are.
 
-   Before you take my word for it, I recommend taking [20]David Heinemeier
-   Hansson’s word for it in the form of The Rails Doctrine. It’s a great
-   document and it covers a lot of ground.
+Before you take my word for it, I recommend taking [20]David Heinemeier
+Hansson’s word for it in the form of The Rails Doctrine. It’s a great document
+and it covers a lot of ground.
 
-   Indeed, if you want to better understand why Rails isn’t amazing for
-   large, low-trust teams, you should read [21]“Provide Sharp Knives” in
-   the Rails Doctrine several times. A lot of Rails’ tradeoffs are
-   entirely by design.
+Indeed, if you want to better understand why Rails isn’t amazing for large,
+low-trust teams, you should read [21]“Provide Sharp Knives” in the Rails
+Doctrine several times. A lot of Rails’ tradeoffs are entirely by design.
 
-   Rails also has some simpler assumptions: it assumes you’re writing an
-   interactive app with server-rendered HTML. It assumes that security is
-   vital (Rails trades a lot for security) but that you don’t want to
-   build your own custom security system in most cases. And it assumes
-   that you either have a small, excellent team doing prototyping work
-   (“Provide Sharp Knives”) or that you have a possibly-mediocre team that
-   needs powerful built-in guidelines ([22]“The Menu is Omakase.”)
+Rails also has some simpler assumptions: it assumes you’re writing an
+interactive app with server-rendered HTML. It assumes that security is vital
+(Rails trades a lot for security) but that you don’t want to build your own
+custom security system in most cases. And it assumes that you either have a
+small, excellent team doing prototyping work (“Provide Sharp Knives”) or that
+you have a possibly-mediocre team that needs powerful built-in guidelines ([22]
+“The Menu is Omakase.”)
 
-   Rails also assumes you want high developer velocity at a cost of
-   technical debt. In other words, it’s designed for building very
-   quickly. That makes sense when technical execution is not your biggest
-   risk. For instance: if you’re building a small startup, and you’re
-   pretty sure you can build the site but people may not buy your product,
-   you are dominated by market risk. That’s when Rails is perfect. You
-   want to build very quickly. And even if you build perfectly, you’re
-   probably going to have to throw away the result for nontechnical
-   reasons, like “people don’t want to buy it.”
+Rails also assumes you want high developer velocity at a cost of technical
+debt. In other words, it’s designed for building very quickly. That makes sense
+when technical execution is not your biggest risk. For instance: if you’re
+building a small startup, and you’re pretty sure you can build the site but
+people may not buy your product, you are dominated by market risk. That’s when
+Rails is perfect. You want to build very quickly. And even if you build
+perfectly, you’re probably going to have to throw away the result for
+nontechnical reasons, like “people don’t want to buy it.”
 
-   As part of “high dev velocity, technical debt is okay” Rails assumes
-   things like, “you’ll want to use a lot of gems” and “dependencies that
-   work are fine if they speed you up.”
+As part of “high dev velocity, technical debt is okay” Rails assumes things
+like, “you’ll want to use a lot of gems” and “dependencies that work are fine
+if they speed you up.”
 
-   Rails assumes you don’t mind scaling out application servers
-   horizontally (by bringing more of them online.) It’s designed to scale
-   well if you can do that. Rails assumes CPU is fairly cheap and it’s
-   usually right about that. Relatedly, Rails assumes that the database is
-   usually your most serious performance bottleneck, which is how web
-   applications usually work.
+Rails assumes you don’t mind scaling out application servers horizontally (by
+bringing more of them online.) It’s designed to scale well if you can do that.
+Rails assumes CPU is fairly cheap and it’s usually right about that. Relatedly,
+Rails assumes that the database is usually your most serious performance
+bottleneck, which is how web applications usually work.
 
-   Rails also assumes you’ll have some calculation or data transformation
-   in your application. It assumes that it’s okay to use some CPU because
-   you’ll be doing that anyway.
+Rails also assumes you’ll have some calculation or data transformation in your
+application. It assumes that it’s okay to use some CPU because you’ll be doing
+that anyway.
 
-   (When does that last assumption matter? Let’s talk about Evented
-   Servers and see.)
+(When does that last assumption matter? Let’s talk about Evented Servers and
+see.)
 
 What Isn’t Rails Good At?
 
-   [23]The Node.js logo. Sometimes you need it, or something like it.
+[23] The Node.js logo. Sometimes you need it, or something like it.
 
-   While Rails is great at a lot of things, there’s one particular task
-   that it’s not amazing for: shim servers.
+While Rails is great at a lot of things, there’s one particular task that it’s
+not amazing for: shim servers.
 
-   By “shim servers” I mean servers that do very little calculation but
-   integrate answers from a few other back-end services and relay the
-   result. Imagine a server that queries two JSON services and combines
-   the result with simple string-manipulation, for instance. It does very
-   little calculation, but it juggles a lot of events.
+By “shim servers” I mean servers that do very little calculation but integrate
+answers from a few other back-end services and relay the result. Imagine a
+server that queries two JSON services and combines the result with simple
+string-manipulation, for instance. It does very little calculation, but it
+juggles a lot of events.
 
-   And that’s the relevant word: “events.”
+And that’s the relevant word: “events.”
 
-   There is a specific kind of app architecture embodied by Node.js and
-   its relatives called “Evented” programming. It can support many
-   thousands, or even millions, of simultaneous connections with a tiny
-   amount of server resources. It can be both high-throughput and
-   low-latency. Its benchmark numbers are matchless… for the cases where
-   it works.
+There is a specific kind of app architecture embodied by Node.js and its
+relatives called “Evented” programming. It can support many thousands, or even
+millions, of simultaneous connections with a tiny amount of server resources.
+It can be both high-throughput and low-latency. Its benchmark numbers are
+matchless… for the cases where it works.
 
-   Rails can’t match Evented programming at what Evented programming is
-   good at. Basically no framework can. There are Evented frameworks for
-   Ruby (e.g. [24]EventMachine, [25]Async.) Rails is built differently.
+Rails can’t match Evented programming at what Evented programming is good at.
+Basically no framework can. There are Evented frameworks for Ruby (e.g. [24]
+EventMachine, [25]Async.) Rails is built differently.
 
-   If Evented is so much better, why don’t we use it for everything?
-   Because it doesn’t work for everything. I emphasise calculation
-   per-request because an Evented server will fall down and die if you try
-   to make it do very much calculation per-request. Having one server
-   handle a million connections is no good if each connection winds up
-   using a hundred milliseconds of CPU time — that’s simply too many
-   connections and the latency will be terrible.
+If Evented is so much better, why don’t we use it for everything? Because it
+doesn’t work for everything. I emphasise calculation per-request because an
+Evented server will fall down and die if you try to make it do very much
+calculation per-request. Having one server handle a million connections is no
+good if each connection winds up using a hundred milliseconds of CPU time —
+that’s simply too many connections and the latency will be terrible.
 
-   In other words, Rails and Node.js are different tools for different
-   projects. If you’re thinking, “I should either use Rails or Node for
-   this” I would recommend looking deeper into your project (and/or your
-   framework) until it’s obvious which one is the right answer. They do
-   different things.
+In other words, Rails and Node.js are different tools for different projects.
+If you’re thinking, “I should either use Rails or Node for this” I would
+recommend looking deeper into your project (and/or your framework) until it’s
+obvious which one is the right answer. They do different things.
 
 Look, I Just Scroll to the Bottom for the Summary and Criticise It On Reddit
 
-   [26]A chimpanzee in a lab coat stares down at his lap, containing
-   sections of wooden train track, and his hand holding a toy train. I’m
-   sure this is the right answer, but I have forgotten the question.
+[26] A chimpanzee in a lab coat stares down at his lap, containing sections of
+wooden train track, and his hand holding a toy train. I’m sure this is the
+right answer, but I have forgotten the question.
 
-   Rails is the wrong choice if your team doesn’t want to use it or
-   doesn’t know how.
+Rails is the wrong choice if your team doesn’t want to use it or doesn’t know
+how.
 
-   Rails is the wrong choice in cases where a different framework is
-   specifically better, or you have a specific library you need to be
-   compatible with that isn’t Rails-friendly.
+Rails is the wrong choice in cases where a different framework is specifically
+better, or you have a specific library you need to be compatible with that
+isn’t Rails-friendly.
 
-   Rails might be the wrong choice if you’re not rendering HTML on the
-   server, especially if your project is very small and/or doesn’t use a
-   database.
+Rails might be the wrong choice if you’re not rendering HTML on the server,
+especially if your project is very small and/or doesn’t use a database.
 
-   Rails is the wrong choice is you’re not doing prototyping-flavoured
-   work, preferably with a small, highly-competent team.
+Rails is the wrong choice is you’re not doing prototyping-flavoured work,
+preferably with a small, highly-competent team.
 
-   Rails is the wrong choice if your dev team or your app code is too big
-   and you can’t subdivide the project.
+Rails is the wrong choice if your dev team or your app code is too big and you
+can’t subdivide the project.
 
-   Rails is the wrong choice if your project wants an Evented server like
-   Node.js or EventMachine.
+Rails is the wrong choice if your project wants an Evented server like Node.js
+or EventMachine.
 
-   This article is the wrong choice if you’d rather [27]listen to an
-   entertaining podcast on the same topic.
+This article is the wrong choice if you’d rather [27]listen to an entertaining
+podcast on the same topic.
 
-   If you’re wondering when Rails is the right choice, [28]the Rails
-   Doctrine is a great first step.
-   Aug 6 2020
-   [29]ruby [30]rails
+If you’re wondering when Rails is the right choice, [28]the Rails Doctrine is a
+great first step.
+
+Aug 6 2020
+[29]ruby [30]rails
 
 You Hunger to Get Better
 
-   Subscribe to get free ebook chapters and an emailed coding class now,
-   plus videos and articles a few times a month.
+Subscribe to get free ebook chapters and an emailed coding class now, plus
+videos and articles a few times a month.
 
-   Why this specific newsletter? You want to be an expert. Expertise comes
-   from learning the fundamentals, deeply. And that comes from the best
-   kind of practice. I write with that in mind. I won't waste your time.
+Why this specific newsletter? You want to be an expert. Expertise comes from
+learning the fundamentals, deeply. And that comes from the best kind of
+practice. I write with that in mind. I won't waste your time.
 
-   (Yes, I also sell things. They're good, but I'm fine if you don't buy
-   them.)
-   ____________________ ____________________ (BUTTON) Sign-up
+(Yes, I also sell things. They're good, but I'm fine if you don't buy them.)
 
+[32][                    ][33][                    ] Sign-up
 Comments
 
-   Please enable JavaScript to view the [31]comments powered by Disqus.
-   [32]comments powered by Disqus
+Please enable JavaScript to view the [35]comments powered by Disqus. [36]
+comments powered by Disqus
 
 Read Next
 
-[33]Computer Science: Just the Useful Bits
+[37]Computer Science: Just the Useful Bits
 
-   [34]ruby [35]rails
-   [36]Computer Science: Just the Useful Bits
+[38]ruby [39]rails
 
-[37]Let's Build Course Software: Email Reminders
+[40] Computer Science: Just the Useful Bits
 
-   [38]ruby [39]rails [40]letsbuild [41]rubymadscience
-   [42]Let's Build Course Software: Email Reminders
+[41]Let's Build Course Software: Email Reminders
 
-[43]Free Rebuilding Rails Video Chapters
+[42]ruby [43]rails [44]letsbuild [45]rubymadscience
 
-   [44]career
+[46] Let's Build Course Software: Email Reminders
 
-[45]The Urban Legend of the 10X Developer
+[47]Free Rebuilding Rails Video Chapters
 
-   [46]career
-   [47]The Urban Legend of the 10X Developer
+[48]career
 
-   [48]Mastodon [49]GitHub [50]Linkedin [51]Mastodon
+[49]The Urban Legend of the 10X Developer
 
-   [52]Codefol.io © 2020 . Horace theme by [53]JustGoodThemes..
+[50]career
 
-   [54]Back to top
+[51] The Urban Legend of the 10X Developer
 
-References
+[52] Mastodon [53] GitHub [54] Linkedin [55]Mastodon
 
-   1. https://codefol.io/
-   2. https://codefol.io/
-   3. https://codefol.io/posts
-   4. https://codefol.io/topics
-   5. https://codefol.io/tags/favourite
-   6. https://codefol.io/feed.xml
-   7. https://codefol.io/about
-   8. https://www.codewithjason.com/rails-with-jason-podcast/noah-gibbs-3/
-   9. https://www.codewithjason.com/rails-with-jason-podcast/noah-gibbs-3/
-  10. https://rubymadscience.com/img/assistant_pirate_with_sphere_bigthumb.png
-  11. https://en.wikipedia.org/wiki/Side_effect_(computer_science)
-  12. https://sorbet.org/
-  13. https://sorbet.org/docs/troubleshooting#escape-hatches
-  14. https://www.goodreads.com/book/show/13481927-objects-on-rails
-  15. https://medium.com/@vsavkin/hexagonal-architecture-for-rails-developers-8b1fee64a613
-  16. https://en.wikipedia.org/wiki/Multitier_architecture
-  17. https://hanamirb.org/
-  18. https://m.signalvnoise.com/only-15-of-the-basecamp-operations-budget-is-spent-on-ruby/
-  19. https://rubymadscience.com/img/dr_bear_microscope_bigthumb.png
-  20. https://rubyonrails.org/doctrine/
-  21. https://rubyonrails.org/doctrine/#provide-sharp-knives
-  22. https://rubyonrails.org/doctrine/#omakase
-  23. https://codefol.io/posts/when-should-you-not-use-rails/node_js_logo.png
-  24. https://github.com/eventmachine/eventmachine
-  25. https://github.com/socketry/async
-  26. http://rubymadscience.com/img/rails_internals_bigthumb.png
-  27. https://www.codewithjason.com/rails-with-jason-podcast/noah-gibbs-3/
-  28. https://rubyonrails.org/doctrine/
-  29. https://codefol.io/tags/ruby/
-  30. https://codefol.io/tags/rails/
-  31. http://disqus.com/?ref_noscript
-  32. http://disqus.com/
-  33. https://codefol.io/posts/introducing-computer-science-just-the-useful-bits/
-  34. https://codefol.io/tags/ruby/
-  35. https://codefol.io/tags/rails/
-  36. https://codefol.io/posts/introducing-computer-science-just-the-useful-bits/
-  37. https://codefol.io/posts/series-build-coding-course-email-reminders/
-  38. https://codefol.io/tags/ruby/
-  39. https://codefol.io/tags/rails/
-  40. https://codefol.io/tags/letsbuild/
-  41. https://codefol.io/tags/rubymadscience/
-  42. https://codefol.io/posts/series-build-coding-course-email-reminders/
-  43. https://codefol.io/posts/free-rr-video-chapters/
-  44. https://codefol.io/tags/career/
-  45. https://codefol.io/posts/urban-legend-of-the-10x-developer/
-  46. https://codefol.io/tags/career/
-  47. https://codefol.io/posts/urban-legend-of-the-10x-developer/
-  48. https://ruby.social/@codefolio
-  49. https://github.com/noahgibbs
-  50. https://www.linkedin.com/in/noahgibbs
-  51. https://ruby.social/@codefolio
-  52. https://codefol.io/posts/when-should-you-not-use-rails/
-  53. https://justgoodthemes.com/
-  54. https://codefol.io/posts/when-should-you-not-use-rails/#page
+[56]Codefol.io © 2020 . Horace theme by [57]JustGoodThemes..
+
+[58] Back to top
+
+
+References:
+
+[1] https://codefol.io/
+[2] https://codefol.io/
+[3] https://codefol.io/posts
+[4] https://codefol.io/topics
+[5] https://codefol.io/tags/favourite
+[6] https://codefol.io/feed.xml
+[7] https://codefol.io/about
+[8] https://www.codewithjason.com/rails-with-jason-podcast/noah-gibbs-3/
+[9] https://www.codewithjason.com/rails-with-jason-podcast/noah-gibbs-3/
+[10] https://rubymadscience.com/img/assistant_pirate_with_sphere_bigthumb.png
+[11] https://en.wikipedia.org/wiki/Side_effect_(computer_science)
+[12] https://sorbet.org/
+[13] https://sorbet.org/docs/troubleshooting#escape-hatches
+[14] https://www.goodreads.com/book/show/13481927-objects-on-rails
+[15] https://medium.com/@vsavkin/hexagonal-architecture-for-rails-developers-8b1fee64a613
+[16] https://en.wikipedia.org/wiki/Multitier_architecture
+[17] https://hanamirb.org/
+[18] https://m.signalvnoise.com/only-15-of-the-basecamp-operations-budget-is-spent-on-ruby/
+[19] https://rubymadscience.com/img/dr_bear_microscope_bigthumb.png
+[20] https://rubyonrails.org/doctrine/
+[21] https://rubyonrails.org/doctrine/#provide-sharp-knives
+[22] https://rubyonrails.org/doctrine/#omakase
+[23] https://codefol.io/posts/when-should-you-not-use-rails/node_js_logo.png
+[24] https://github.com/eventmachine/eventmachine
+[25] https://github.com/socketry/async
+[26] http://rubymadscience.com/img/rails_internals_bigthumb.png
+[27] https://www.codewithjason.com/rails-with-jason-podcast/noah-gibbs-3/
+[28] https://rubyonrails.org/doctrine/
+[29] https://codefol.io/tags/ruby/
+[30] https://codefol.io/tags/rails/
+[35] http://disqus.com/?ref_noscript
+[36] http://disqus.com/
+[37] https://codefol.io/posts/introducing-computer-science-just-the-useful-bits/
+[38] https://codefol.io/tags/ruby/
+[39] https://codefol.io/tags/rails/
+[40] https://codefol.io/posts/introducing-computer-science-just-the-useful-bits/
+[41] https://codefol.io/posts/series-build-coding-course-email-reminders/
+[42] https://codefol.io/tags/ruby/
+[43] https://codefol.io/tags/rails/
+[44] https://codefol.io/tags/letsbuild/
+[45] https://codefol.io/tags/rubymadscience/
+[46] https://codefol.io/posts/series-build-coding-course-email-reminders/
+[47] https://codefol.io/posts/free-rr-video-chapters/
+[48] https://codefol.io/tags/career/
+[49] https://codefol.io/posts/urban-legend-of-the-10x-developer/
+[50] https://codefol.io/tags/career/
+[51] https://codefol.io/posts/urban-legend-of-the-10x-developer/
+[52] https://ruby.social/@codefolio
+[53] https://github.com/noahgibbs
+[54] https://www.linkedin.com/in/noahgibbs
+[55] https://ruby.social/@codefolio
+[56] https://codefol.io/posts/when-should-you-not-use-rails/#
+[57] https://justgoodthemes.com/
+[58] https://codefol.io/posts/when-should-you-not-use-rails/#page

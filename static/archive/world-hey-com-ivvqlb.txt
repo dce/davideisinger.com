@@ -1,103 +1,104 @@
-   #[1]Feed
+[1] [avatar-fb3]
 
-   [2][avatar-fb368b1ee9b185dc2a09b03eabdb61678dd55244]
+David Heinemeier Hansson
 
-   David Heinemeier Hansson
-
-   May 4, 2023
+May 4, 2023
 
 Even Amazon can't make sense of serverless or microservices
 
-   The Prime Video team at Amazon has published a rather [3]remarkable
-   case study on their decision to dump their serverless, microservices
-   architecture and replace it with a monolith instead. This move saved
-   them a staggering 90%(!!) on operating costs, and simplified the system
-   too. What a win!
-   But beyond celebrating their good sense, I think there's a bigger point
-   here that applies to our entire industry. Here's the telling bit:
+The Prime Video team at Amazon has published a rather [2]remarkable case study
+on their decision to dump their serverless, microservices architecture and
+replace it with a monolith instead. This move saved them a staggering 90%(!!)
+on operating costs, and simplified the system too. What a win!
 
-     "We designed our initial solution as a distributed system using
-     serverless components... In theory, this would allow us to scale
-     each service component independently. However, the way we used some
-     components caused us to hit a hard scaling limit at around 5% of the
-     expected load."
+But beyond celebrating their good sense, I think there's a bigger point here
+that applies to our entire industry. Here's the telling bit:
 
-   That really sums up so much of the microservices craze that was tearing
-   through the tech industry for a while: IN THEORY.  Now the real-world
-   results of all this theory are finally in, and it's clear that in
-   practice, microservices pose perhaps the biggest siren song for
-   needlessly complicating your system. And serverless only makes it
-   worse.
-   What makes this story unique is that Amazon was the original poster
-   child for service-oriented architectures. The far more reasonable prior
-   to microservices. An organizational pattern for dealing with
-   intra-company communication at crazy scale when API calls beat
-   scheduling coordination meetings.
-   SOA makes perfect sense at the scale of Amazon. No single team could
-   ever hope to know or understand everything needed to steer such a fleet
-   of supertankers. Making teams coordinate via published APIs was a
-   stroke of genius.
-   But, as with many good ideas, this pattern turned toxic as soon as it
-   was adopted outside its original context, and wreaked havoc once it got
-   pushed into the internals of single-application architectures. That's
-   how we got microservices.
-   In many ways, microservices is a zombie architecture. Another strain of
-   an intellectual contagion that just refuses to die. It's been eating
-   brains since the dark days of J2EE (remote server beans, anyone??)
-   through the [4]WS-Deathstar nonsense, and now in the form of
-   microservices and serverless.
-   But this third wave seems finally to have crested. I wrote an ode to
-   [5]The Majestic Monolith way back in 2016. Kelsey Hightower, one of the
-   leading voices behind Kubernetes, [6]put it beautifully in 2020:
 
-     "We’re gonna break [the monolith] up and somehow find the
-     engineering discipline we never had in the first place... Now you
-     went from writing bad code to building bad infrastructure.
-     Because it drives a lot of new spend, it drives a lot of new hiring…
-     So a lot of people get addicted to all the flourishment of money,
-     and marketing, and it’s just a lot of buzz that people are attaching
-     their assignment to, when honestly it’s not gonna necessarily solve
-     their problem."
+    "We designed our initial solution as a distributed system using serverless
+    components... In theory, this would allow us to scale each service
+    component independently. However, the way we used some components caused us
+    to hit a hard scaling limit at around 5% of the expected load."
 
-   Bingo. Replacing method calls and module separations with network
-   invocations and service partitioning within a single, coherent team and
-   application is madness in almost all cases.
-   I'm happy that we beat back the zombie onslaught of that terrible idea
-   for the third time in my living memory, but we still need to stay
-   vigilant that we'll eventually have to do it again. Some bad ideas
-   simply refuse to die no matter how many times you kill them. All you
-   can do is recognize when they rise from the dead once more, and keep
-   your retorical shotgun locked and loaded.
 
-   About David Heinemeier Hansson
-   Made [7]Basecamp and [8]HEY for the underdogs as co-owner and CTO of
-   [9]37signals. Created [10]Ruby on Rails. Wrote [11]REWORK, [12]It
-   Doesn't Have to Be Crazy at Work, and [13]REMOTE. Won at Le Mans as a
-   [14]racing driver. Fought the big tech monopolies as an [15]antitrust
-   advocate. Invested in [16]Danish startups.
+That really sums up so much of the microservices craze that was tearing through
+the tech industry for a while: IN THEORY.  Now the real-world results of all
+this theory are finally in, and it's clear that in practice, microservices pose
+perhaps the biggest siren song for needlessly complicating your system. And
+serverless only makes it worse.
 
-   Subscribe to get future posts via email (or grab the [17]RSS feed)
-   ____________________ (BUTTON) Subscribe
+What makes this story unique is that Amazon was the original poster child for
+service-oriented architectures. The far more reasonable prior to microservices.
+An organizational pattern for dealing with intra-company communication at crazy
+scale when API calls beat scheduling coordination meetings.
 
-   [18]Sent to the world with HEY
+SOA makes perfect sense at the scale of Amazon. No single team could ever hope
+to know or understand everything needed to steer such a fleet of supertankers.
+Making teams coordinate via published APIs was a stroke of genius.
 
-References
+But, as with many good ideas, this pattern turned toxic as soon as it was
+adopted outside its original context, and wreaked havoc once it got pushed into
+the internals of single-application architectures. That's how we got
+microservices.
 
-   1. https://world.hey.com/dhh/feed.atom
-   2. https://world.hey.com/dhh
-   3. https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90
-   4. https://www.flickr.com/photos/psd/1428661128/
-   5. https://m.signalvnoise.com/the-majestic-monolith/
-   6. https://changelog.com/posts/monoliths-are-the-future
-   7. https://www.basecamp.com/
-   8. https://www.hey.com/
-   9. https://37signals.com/
-  10. https://rubyonrails.org/
-  11. https://www.amazon.com/Rework-Jason-Fried/dp/0307463745
-  12. https://www.amazon.com/Doesnt-Have-Be-Crazy-Work/dp/0062874780
-  13. https://www.amazon.com/Remote-Office-Not-Required/dp/0804137501
-  14. https://www.youtube.com/watch?v=iNQl0x6WS3M
-  15. https://dhh.dk/#antitrust
-  16. https://dhh.dk/#investor
-  17. https://world.hey.com/dhh/feed.atom
-  18. https://www.hey.com/world/?utm_source=hw-web
+In many ways, microservices is a zombie architecture. Another strain of an
+intellectual contagion that just refuses to die. It's been eating brains since
+the dark days of J2EE (remote server beans, anyone??) through the [3]
+WS-Deathstar nonsense, and now in the form of microservices and serverless.
+
+But this third wave seems finally to have crested. I wrote an ode to [4]The
+Majestic Monolith way back in 2016. Kelsey Hightower, one of the leading voices
+behind Kubernetes, [5]put it beautifully in 2020:
+
+
+    "We’re gonna break [the monolith] up and somehow find the engineering
+    discipline we never had in the first place... Now you went from writing bad
+    code to building bad infrastructure.  
+
+    Because it drives a lot of new spend, it drives a lot of new hiring… So a
+    lot of people get addicted to all the flourishment of money, and marketing,
+    and it’s just a lot of buzz that people are attaching their assignment to,
+    when honestly it’s not gonna necessarily solve their problem."
+
+
+Bingo. Replacing method calls and module separations with network invocations
+and service partitioning within a single, coherent team and application is
+madness in almost all cases. 
+
+I'm happy that we beat back the zombie onslaught of that terrible idea for the
+third time in my living memory, but we still need to stay vigilant that we'll
+eventually have to do it again. Some bad ideas simply refuse to die no matter
+how many times you kill them. All you can do is recognize when they rise from
+the dead once more, and keep your retorical shotgun locked and loaded.
+
+About David Heinemeier Hansson
+
+Made [6]Basecamp and [7]HEY for the underdogs as co-owner and CTO of [8]
+37signals. Created [9]Ruby on Rails. Wrote [10]REWORK, [11]It Doesn't Have to
+Be Crazy at Work, and [12]REMOTE. Won at Le Mans as a [13]racing driver. Fought
+the big tech monopolies as an [14]antitrust advocate. Invested in [15]Danish
+startups.
+Subscribe to get future posts via email (or grab the [16]RSS feed)
+[17][                    ] Subscribe
+[19]Sent to the world with HEY
+
+
+References:
+
+[1] https://world.hey.com/dhh
+[2] https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90
+[3] https://www.flickr.com/photos/psd/1428661128/
+[4] https://m.signalvnoise.com/the-majestic-monolith/
+[5] https://changelog.com/posts/monoliths-are-the-future
+[6] https://www.basecamp.com/
+[7] https://www.hey.com/
+[8] https://37signals.com/
+[9] https://rubyonrails.org/
+[10] https://www.amazon.com/Rework-Jason-Fried/dp/0307463745
+[11] https://www.amazon.com/Doesnt-Have-Be-Crazy-Work/dp/0062874780
+[12] https://www.amazon.com/Remote-Office-Not-Required/dp/0804137501
+[13] https://www.youtube.com/watch?v=iNQl0x6WS3M
+[14] https://dhh.dk/#antitrust
+[15] https://dhh.dk/#investor
+[16] https://world.hey.com/dhh/feed.atom
+[19] https://www.hey.com/world/?utm_source=hw-web

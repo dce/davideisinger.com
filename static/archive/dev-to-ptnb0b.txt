@@ -1,2595 +1,2447 @@
-   #[1]DEV Community
-
-   [2]Skip to content
-
-   (BUTTON) [3]DEV Community
-   ____________________ (BUTTON)
-   [4]Log in [5]Create account
+[1]Skip to content
+[3] DEV Community
+[4][                    ]
+[6]
+[7] Log in [8] Create account
 
 DEV Community
 
-   (BUTTON)
+● Add reaction
+[sp] Like [mu] Unicorn [ex] Exploding Head [ra] Raised Hands [fi] Fire
+Jump to Comments Save
+Copy link
+Copied to Clipboard
+[20] Share to Twitter [21] Share to LinkedIn [22] Share to Reddit [23] Share to
+Hacker News [24] Share to Facebook [25] Share to Mastodon
+[26]Share Post via... [27]Report Abuse
+[28]Rich Harris
+[29]Rich Harris
 
-   (BUTTON)
-   [heart-plus-active-9ea3b22f2bc311281db911d416166c5f430636e76b15cd5df6b3
-   b841d830eefa.svg] Add reaction
-   (BUTTON)
-   [sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382
-   d02920cf.svg] Like (BUTTON)
-   [multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f
-   1f4f3e97.svg] Unicorn (BUTTON)
-   [exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068
-   ad3e2c4b5.svg] Exploding Head (BUTTON)
-   [raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b49997
-   3048fe5.svg] Raised Hands (BUTTON)
-   [fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.
-   svg] Fire
-   (BUTTON) Jump to Comments (BUTTON) Save
-   (BUTTON)
-   (BUTTON) Copy link
-   Copied to Clipboard
-   [6]Share to Twitter [7]Share to LinkedIn [8]Share to Reddit [9]Share to
-   Hacker News [10]Share to Facebook [11]Share to Mastodon
-   [12]Share Post via... [13]Report Abuse
+Posted on May 15, 2020
 
-   [14]Rich Harris
-   [15]Rich Harris
-
-   Posted on May 15, 2020
-   [sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382
-   d02920cf.svg]
-   [multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f
-   1f4f3e97.svg]
-   [exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068
-   ad3e2c4b5.svg]
-   [raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b49997
-   3048fe5.svg]
-   [fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.
-   svg]
+●   ●   ●   ●   ●  
 
 In defense of the modern web
 
-   [16]#javascript [17]#react [18]#svelte [19]#webdev
+[30]#javascript [31]#react [32]#svelte [33]#webdev
 
-   I expect I'll annoy everyone with this post: the anti-JavaScript
-   crusaders, justly aghast at how much of the stuff we slather onto
-   modern websites; the people arguing the web is a broken platform for
-   interactive applications anyway and we should start over; React users;
-   the old guard with their artisanal JS and hand authored HTML; and
-   [20]Tom MacWright, someone I've admired from afar since I first became
-   aware of his work on Mapbox many years ago. But I guess that's the
-   price of having opinions.
+I expect I'll annoy everyone with this post: the anti-JavaScript crusaders,
+justly aghast at how much of the stuff we slather onto modern websites; the
+people arguing the web is a broken platform for interactive applications anyway
+and we should start over; React users; the old guard with their artisanal JS
+and hand authored HTML; and [34]Tom MacWright, someone I've admired from afar
+since I first became aware of his work on Mapbox many years ago. But I guess
+that's the price of having opinions.
 
-   Tom recently posted [21]Second-guessing the modern web, and it took the
-   front end world by storm. You should read it, or at the very least the
-   [22]CliffsNotes. There's a lot of stuff I agree with to varying
-   degrees:
+Tom recently posted [35]Second-guessing the modern web, and it took the front
+end world by storm. You should read it, or at the very least the [36]
+CliffsNotes. There's a lot of stuff I agree with to varying degrees:
 
-     There is a sweet spot of React: in moderately interactive interfaces
-     ... But there’s a lot on either side of that sweet spot.
+    There is a sweet spot of React: in moderately interactive interfaces ...
+    But there’s a lot on either side of that sweet spot.
 
-   It's absolutely the case that running React in the client for a largely
-   static site is overkill. It's also true that you have to avoid React if
-   your app is very heavily interactive — it's widely understood that if
-   you want 60fps animation, you will likely have to bypass the React
-   update cycle and do things in a more imperative fashion (indeed, this
-   is what libraries like [23]react-spring do). But while all this is true
-   of React, it's much less true of component frameworks in general.
+It's absolutely the case that running React in the client for a largely static
+site is overkill. It's also true that you have to avoid React if your app is
+very heavily interactive — it's widely understood that if you want 60fps
+animation, you will likely have to bypass the React update cycle and do things
+in a more imperative fashion (indeed, this is what libraries like [37]
+react-spring do). But while all this is true of React, it's much less true of
+component frameworks in general.
 
-     User sessions are surprisingly long: someone might have your website
-     open in a tab for weeks at a time. I’ve seen it happen. So if they
-     open the ‘about page’, keep the tab open for a week, and then
-     request the ‘home page’, then the home page that they request is
-     dictated by the index bundle that they downloaded last week. This is
-     a deeply weird and under-discussed situation.
+    User sessions are surprisingly long: someone might have your website open
+    in a tab for weeks at a time. I’ve seen it happen. So if they open the
+    ‘about page’, keep the tab open for a week, and then request the ‘home
+    page’, then the home page that they request is dictated by the index bundle
+    that they downloaded last week. This is a deeply weird and under-discussed
+    situation.
 
-   It's an excellent point that isn't really being addressed, though (as
-   Tom acknowledges) it's really just exacerbating a problem that was
-   always there. I think there are solutions to it — we can iterate on the
-   'index bundle' approach, we could include the site version in a cookie
-   and use that to show actionable feedback if there's a mismatch — but we
-   do need to spend time on it.
+It's an excellent point that isn't really being addressed, though (as Tom
+acknowledges) it's really just exacerbating a problem that was always there. I
+think there are solutions to it — we can iterate on the 'index bundle'
+approach, we could include the site version in a cookie and use that to show
+actionable feedback if there's a mismatch — but we do need to spend time on it.
 
-     It’s your startup’s homepage, and it has a “Sign up” button, but
-     until the JavaScript loads, that button doesn’t do anything. So you
-     need to compensate.
+    It’s your startup’s homepage, and it has a “Sign up” button, but until the
+    JavaScript loads, that button doesn’t do anything. So you need to
+    compensate.
 
-   This is indeed very annoying, though it's easy enough to do this sort
-   of thing — we just need to care enough:
+This is indeed very annoying, though it's easy enough to do this sort of thing
+— we just need to care enough:
+
 <button class="sign-up" disabled={!is_browser}>
   {is_browser ? 'Sign up' : 'Loading'}
 </button>
 
-   But I'm not sure what this has to do with React-style frameworks — this
-   issue exists whatever form your front end takes, unless you make it
-   work without JS (which you should!).
+But I'm not sure what this has to do with React-style frameworks — this issue
+exists whatever form your front end takes, unless you make it work without JS
+(which you should!).
 
-     Your formerly-lightweight application server is now doing quite a
-     bit of labor, running React & making API requests in order to do
-     this pre-rendering.
+    Your formerly-lightweight application server is now doing quite a bit of
+    labor, running React & making API requests in order to do this
+    pre-rendering.
 
-   Again, this is true but more React-specific than anything. React's
-   approach to server-side rendering — constructing a component tree, then
-   serialising it — involves overhead that isn't shared by frameworks
-   that, for example, compile your components ([24]hi!) to functions that
-   just concatenate strings for SSR, which is faster by a dramatic amount.
-   And those API requests were going to have to get made anyway, so it
-   makes sense to do them as early as possible, especially if your app
-   server and API server are close to each other (or even the same thing).
+Again, this is true but more React-specific than anything. React's approach to
+server-side rendering — constructing a component tree, then serialising it —
+involves overhead that isn't shared by frameworks that, for example, compile
+your components ([38]hi!) to functions that just concatenate strings for SSR,
+which is faster by a dramatic amount. And those API requests were going to have
+to get made anyway, so it makes sense to do them as early as possible,
+especially if your app server and API server are close to each other (or even
+the same thing).
 
-     The dream of APIs is that you have generic, flexible endpoints upon
-     which you can build any web application. That idea breaks down
-     pretty fast.
+    The dream of APIs is that you have generic, flexible endpoints upon which
+    you can build any web application. That idea breaks down pretty fast.
 
-   Amen. [25]Just go and read the whole 'APIs' section several times.
-     __________________________________________________________________
+Amen. [39]Just go and read the whole 'APIs' section several times.
 
-   Minor quibbles aside, Tom identifies some real problems with the state
-   of the art in web development. But I think the article reaches a
-   dangerous conclusion.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-   Let's start by dissecting this statement:
+Minor quibbles aside, Tom identifies some real problems with the state of the
+art in web development. But I think the article reaches a dangerous conclusion.
 
-     I can, for example, guarantee that this blog is faster than any
-     Gatsby blog (and much love to the Gatsby team) because there is
-     nothing that a React static site can do that will make it faster
-     than a non-React static site.
+Let's start by dissecting this statement:
 
-   With all due respect to those involved, I don't think Gatsby is a
-   particularly relevant benchmark. The gatsby new my-site starter app
-   executes 266kB of minified JavaScript for a completely static page in
-   production mode; for [26]gatsbyjs.org it's 808kB. Honestly, these are
-   not impressive numbers.
+    I can, for example, guarantee that this blog is faster than any Gatsby blog
+    (and much love to the Gatsby team) because there is nothing that a React
+    static site can do that will make it faster than a non-React static site.
 
-   [27]The Lighthouse performance score for gatsbyjs.org
-   The [28]Lighthouse score for Gatsby's homepage, obtained via
-   [29]webpagetest.org/easy.
+With all due respect to those involved, I don't think Gatsby is a particularly
+relevant benchmark. The gatsby new my-site starter app executes 266kB of
+minified JavaScript for a completely static page in production mode; for [40]
+gatsbyjs.org it's 808kB. Honestly, these are not impressive numbers.
 
-   Leaving that aside, I disagree with the premise. When I tap on a link
-   on Tom's JS-free website, the browser first waits to confirm that it
-   was a tap and not a brush/swipe, then makes a request, and then we have
-   to wait for the response. With a framework-authored site with
-   client-side routing, we can start to do more interesting things. We can
-   make informed guesses based on analytics about which things the user is
-   likely to interact with and preload the logic and data for them. We can
-   kick off requests as soon as the user first touches (or hovers) the
-   link instead of waiting for confirmation of a tap — worst case
-   scenario, we've loaded some stuff that will be useful later if they do
-   tap on it. We can provide better visual feedback that loading is taking
-   place and a transition is about to occur. And we don't need to load the
-   entire contents of the page — often, we can make do with a small bit of
-   JSON because we already have the JavaScript for the page. This stuff
-   gets fiendishly difficult to do by hand.
+[41]The Lighthouse performance score for gatsbyjs.org
 
-   Beyond that, vanilla static sites are not an ambitious enough goal.
-   Take transitions for example. Web developers are currently trapped in a
-   mindset of discrete pages with jarring transitions — click a link, see
-   the entire page get replaced whether through client-side routing or a
-   page reload — while native app developers are thinking on another
-   level:
+The [42]Lighthouse score for Gatsby's homepage, obtained via [43]
+webpagetest.org/easy.
 
-   unknown tweet media content Play butt
+Leaving that aside, I disagree with the premise. When I tap on a link on Tom's
+JS-free website, the browser first waits to confirm that it was a tap and not a
+brush/swipe, then makes a request, and then we have to wait for the response.
+With a framework-authored site with client-side routing, we can start to do
+more interesting things. We can make informed guesses based on analytics about
+which things the user is likely to interact with and preload the logic and data
+for them. We can kick off requests as soon as the user first touches (or
+hovers) the link instead of waiting for confirmation of a tap — worst case
+scenario, we've loaded some stuff that will be useful later if they do tap on
+it. We can provide better visual feedback that loading is taking place and a
+transition is about to occur. And we don't need to load the entire contents of
+the page — often, we can make do with a small bit of JSON because we already
+have the JavaScript for the page. This stuff gets fiendishly difficult to do by
+hand.
 
-   Ryan Florence profile image
-   Ryan Florence
-   [30]@ryanflorence
-   twitter logo
-   This is what I've had in mind for the web with React Router. We say
-   these kinds of animations are "good for phones but not desktop".
-   My iPad pro is as big as my laptop and these apps are shopping/content
-   (most of the web).
-   These transitions are such a great UX.
-   16:06 PM - 22 Oct 2019
-   [31]Twitter reply action [32]Twitter retweet action 20 [33]Twitter like
-   action 197
+Beyond that, vanilla static sites are not an ambitious enough goal. Take
+transitions for example. Web developers are currently trapped in a mindset of
+discrete pages with jarring transitions — click a link, see the entire page get
+replaced whether through client-side routing or a page reload — while native
+app developers are thinking on another level:
 
-   It will take more than technological advancement to get the web there;
-   it will take a cultural shift as well. But we certainly can't get there
-   if we abandon our current trajectory. Which is exactly what Tom seems
-   to be suggesting.
-     __________________________________________________________________
+    unknown tweet media content Play butt
+    Ryan Florence profile image
+    Ryan Florence
+    [44]@ryanflorence
+    twitter logo
+    This is what I've had in mind for the web with React Router. We say these
+    kinds of animations are "good for phones but not desktop".
 
-   I'm not aware of any other platform where you're expected to write the
-   logic for your initial render using a different set of technologies
-   than the logic for subsequent interactions. The very idea sounds daft.
-   But on the web, with its unique history, that was the norm for many
-   years — we'd generate some HTML with PHP or Rails or whatever, and then
-   'sprinkle some jQuery' on it.
+    My iPad pro is as big as my laptop and these apps are shopping/content
+    (most of the web).
 
-   With the advent of Node, that changed. The fact that we can do
-   server-side rendering and communicate with databases and what-have-you
-   using a language native to the web is a wonderful development.
+    These transitions are such a great UX.
+    16:06 PM - 22 Oct 2019
+    [45] Twitter reply action [46] Twitter retweet action 20 [47] Twitter like
+    action 197
 
-   There are problems with this model. Tom identifies some of them.
-   Another major issue he doesn't discuss is that the server-rendered SPA
-   model typically 'hydrates' the entire initial page in a way that
-   requires you to duplicate a ton of data — once in the HTML, once in the
-   JSON blob that's passed to the client version of the app to produce the
-   exact same result — and can block the main thread during the period the
-   user is starting to interact with the app.
+It will take more than technological advancement to get the web there; it will
+take a cultural shift as well. But we certainly can't get there if we abandon
+our current trajectory. Which is exactly what Tom seems to be suggesting.
 
-   But we can fix those problems. [34]Next is doing amazing innovation
-   around (for example) mixing static and dynamic pages within a single
-   app, so you get the benefits of the purely static model without ending
-   up finding yourself constrained by it. [35]Marko does intelligent
-   component-level hydration, something I expect other frameworks to
-   adopt. [36]Sapper, the companion framework to [37]Svelte, has a stated
-   goal of eventually not sending any JS other than the (tiny) router
-   itself for pages that don't require it.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-   The future I want — the future I see — is one with tooling that's
-   accessible to the greatest number of people (including designers), that
-   can intelligently move work between server and client as appropriate,
-   that lets us build experiences that compete with native on UX (yes,
-   even for blogs!), and where upgrading part of a site to 'interactive'
-   or from 'static' to 'dynamic' doesn't involve communication across
-   disparate teams using different technologies. We can only get there by
-   committing to the paradigm Tom critiques — the JavaScript-ish component
-   framework server-rendered SPA. (Better names welcomed.)
+I'm not aware of any other platform where you're expected to write the logic
+for your initial render using a different set of technologies than the logic
+for subsequent interactions. The very idea sounds daft. But on the web, with
+its unique history, that was the norm for many years — we'd generate some HTML
+with PHP or Rails or whatever, and then 'sprinkle some jQuery' on it.
 
-   The modern web has flaws, and we should talk about them. But let's not
-   give up on it.
+With the advent of Node, that changed. The fact that we can do server-side
+rendering and communicate with databases and what-have-you using a language
+native to the web is a wonderful development.
+
+There are problems with this model. Tom identifies some of them. Another major
+issue he doesn't discuss is that the server-rendered SPA model typically
+'hydrates' the entire initial page in a way that requires you to duplicate a
+ton of data — once in the HTML, once in the JSON blob that's passed to the
+client version of the app to produce the exact same result — and can block the
+main thread during the period the user is starting to interact with the app.
+
+But we can fix those problems. [48]Next is doing amazing innovation around (for
+example) mixing static and dynamic pages within a single app, so you get the
+benefits of the purely static model without ending up finding yourself
+constrained by it. [49]Marko does intelligent component-level hydration,
+something I expect other frameworks to adopt. [50]Sapper, the companion
+framework to [51]Svelte, has a stated goal of eventually not sending any JS
+other than the (tiny) router itself for pages that don't require it.
+
+The future I want — the future I see — is one with tooling that's accessible to
+the greatest number of people (including designers), that can intelligently
+move work between server and client as appropriate, that lets us build
+experiences that compete with native on UX (yes, even for blogs!), and where
+upgrading part of a site to 'interactive' or from 'static' to 'dynamic' doesn't
+involve communication across disparate teams using different technologies. We
+can only get there by committing to the paradigm Tom critiques — the
+JavaScript-ish component framework server-rendered SPA. (Better names
+welcomed.)
+
+The modern web has flaws, and we should talk about them. But let's not give up
+on it.
 
 Top comments (98)
 
-   (BUTTON) Crown
-
-Sort discussion:
-
-     * Top
-       Most upvoted and relevant comments will be first
-     * Latest
-       Most recent comments will be first
-     * Oldest
-       The oldest comments will be first
-
-   Subscribe
-   pic
-
-   ____________________________________________________________
-   ____________________________________________________________
-   ____________________________________________________________
-   ____________________________________________________________
-
-   (BUTTON) Personal (BUTTON) Trusted User
-   [38]Create template
-
-   Templates let you quickly answer FAQs or store snippets for re-use.
-   (BUTTON) Submit (BUTTON) Preview [39]Dismiss
-
-   [40]twigman08 profile image
-   [41]Chad Smith
-   (BUTTON) Chad Smith
-   [42]Chad Smith
-   (button) Follow
-   Work with C# all day everyday creating web applications. Huge baseball
-   buff.
-     * Location
-       Texas
-     * Education
-       B.S in Computer Science
-     * Joined
-       Dec 17, 2017
-
-   • [43]May 15 '20
-   (BUTTON)
-     * [44]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   Honestly my biggest issue with the current state of the web is the
-   current state of how complex the tools or build process is.
-
-   I miss the days of some html, add a bit of JavaScript to the page and
-   you were done. You didn't worry about going and making sure you had a
-   complete build or bundling process to get everything good. You spent
-   your time worrying about how to develop your app. Which in my opinion
-   was better for the users. There was less bugs. We actually spent more
-   time making sure the application worked rock solid.
-
-   Nowadays to get anything cool to be be ready for production you have
-   spend needless time on the configuration. Did you do this? Did you
-   configure it to do that? Oh you can't do that unless you eject it that
-   build tool and use this build tool. That's where the current state of
-   the web is failing.
-
-   Sure we have taken steps forward in some areas. But we have to be
-   honest with ourselves. We took major steps back in other areas of the
-   web. Sometimes I wonder if we took too many steps back.
-
-   (BUTTON) 61 likes Like Reply
-
-   [45]gotofritz profile image
-   [46]fritz
-   (BUTTON) fritz
-   [47]fritz
-   (button) Follow
-     * Location
-       Berlin
-     * Joined
-       Sep 28, 2018
-
-   • [48]May 18 '20
-   (BUTTON)
-     * [49]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   I don't get it. Nobody's stopping you from firing up an HTML doc in
-   Notepad and FTPing the result to a web server, if that's all you need.
-   But other people have more complex needs (in the "good ole days" there
-   were no smart phones, to mention just one thing) and therefore we need
-   more complex tools. Why do you want to force me to party like it's
-   1999?
-
-   (BUTTON) 23 likes Like Reply
-
-   [50]twigman08 profile image
-   [51]Chad Smith
-   (BUTTON) Chad Smith
-   [52]Chad Smith
-   (button) Follow
-   Work with C# all day everyday creating web applications. Huge baseball
-   buff.
-     * Location
-       Texas
-     * Education
-       B.S in Computer Science
-     * Joined
-       Dec 17, 2017
-
-   • [53]May 19 '20
-   (BUTTON)
-     * [54]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   My issue isn't with applications are too complex really. I develop
-   complex applications too at work.
-
-   My issue is with all the moving parts with a modern web application.
-   Fighting if I can use certain language features. Oh I can't, now I have
-   to bother with setting up and making sure I can use Babel or something
-   to do it properly, or even loading in polyfills (cool just added
-   another dependency the browser has to load before the application can
-   be used).
-
-   That still hasn't covered bundling everything. What's the correct way
-   bundle this? Well crap I now have to go and correctly configure
-   WebPack. Unless you're one of the VERY FEW experts on that ,that will
-   take time to figure out to get right. Ok so I think it bundles right,
-   well now how should I lazy load this code for the user? What should be
-   lazy loaded? What should i use to set it up?
-
-   That's just the beginning. I could go on and on about the other complex
-   moving parts with a modern web application.
-
-   I am not asking anyone to make applications like it is 1999. All I'm
-   asking for is a more modern and simpler process that is a STANDARD.
-
-   Maybe it is because I come from compiled language background. Where I
-   have to worry about that one single binary. I only have to worry if the
-   compiler supports the language version I'm using. Where I can just pass
-   in a single flag to the compiler for the optimization level I want.
-
-   Yes I will be the first to say that in some areas of modern web
-   application development we have taken steps forward. I just wonder if
-   we have taken steps back in some areas to take those steps forward.
-
-   (BUTTON) 13 likes Like Thread
-
-   [55]gotofritz profile image
-   [56]fritz
-   (BUTTON) fritz
-   [57]fritz
-   (button) Follow
-     * Location
-       Berlin
-     * Joined
-       Sep 28, 2018
-
-   • [58]May 22 '20 • Edited on May 22 • Edited
-   (BUTTON)
-     * [59]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-     All I'm asking for is a more modern and simpler process that is a
-     STANDARD ...
-     Maybe it is because I come from compiled language background ...
-
-   Well I am sorry, but web development is a complete different kettle of
-   fish. We download all the parts that make up an application
-   asynchronously, on a wide variety of devices, with different specs and
-   rendering capabilities - all things which the app, once downloaded,
-   need to adapt to. We have progressive rendering and respond to all sort
-   of sensors. All while ensuring boot up time for the app is in the
-   microseconds range and security for both you who download the code and
-   the server.
-
-   Your expectations are simply unrealistic, sorry.
-
-   Also, we always had polyfills, even "back in the day". Except that back
-   then everyone had to bake their own. In fact, we had browser wars and
-   appalling browser (IE5 for the Mac, anyone??!?) and it was a real pain
-   in the neck.
-
-   (BUTTON) 10 likes Like Reply
-
-   [60]adrianus profile image
-   [61]Adrianus
-   (BUTTON) Adrianus
-   [62]Adrianus
-   (button) Follow
-   Running a small company based in Kent.
-     * Location
-       Chatham, Kent
-     * Education
-       autodidactic
-     * Work
-       Entrepreneur at AVANDERGRINTEN Ltd.
-     * Joined
-       Jan 21, 2020
-
-   • [63]May 19 '20 • Edited on May 20 • Edited
-   (BUTTON)
-     * [64]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   Bingo, the complexity today is a must, at least because of the growing
-   smartphone usage. The simple reason why "Native Apps didn't kill the
-   web even with all their superior capabilities" (Ryan) is simply UX. As
-   internet usage often starts with searching for something having in
-   mind, that all-app-thinking interrupts exactly this flow, leaving at
-   least 30% of all traffic untouched. For what? For 5-minutes-crafts
-   skyrocketing their YouTube traffic? Although not everything needs
-   server side complexity plus having API's and webhooks easily integrated
-   using browser capabilities not existing in the god old days, the
-   architecture underneath is not the real issue.
-
-   (BUTTON) 3 likes Like Reply
-
-   [65]techbelle profile image
-   [66]rachelle palmer
-   (BUTTON) rachelle palmer
-   [67]rachelle palmer
-   (button) Follow
-   I decided I would try to build an app in every programming language.
-   That didn't happen, but what I learned along the way was really
-   valuable.
-     * Location
-       Raleigh, NC
-     * Joined
-       Sep 23, 2020
-
-   • [68]Feb 25 '21
-   (BUTTON)
-     * [69]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   re: sessions --> I keep tabs open for months at a time, not sure about
-   anyone else
-
-   (BUTTON) 1 like Like Reply
-
-   [70]ojrask profile image
-   [71]Otto Rask
-   (BUTTON) Otto Rask
-   [72]Otto Rask
-   (button) Follow
-   A software engineer, mainly PHP, Rust, and related things.
-     * Location
-       Finland
-     * Joined
-       Mar 12, 2019
-
-   • [73]May 28 '21
-   (BUTTON)
-     * [74]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   You fight complexity with ... more complexity?
-
-   (BUTTON) 1 like Like Thread
-
-   [75]gotofritz profile image
-   [76]fritz
-   (BUTTON) fritz
-   [77]fritz
-   (button) Follow
-     * Location
-       Berlin
-     * Joined
-       Sep 28, 2018
-
-   • [78]May 28 '21
-   (BUTTON)
-     * [79]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   You are getting it wrong. The aim is not "to fight complexity". The aim
-   is to fulfil complex needs. I am saying for that you often need more
-   complex tools.
-
-   (BUTTON) 1 like Like Thread
-
-   [80]ojrask profile image
-   [81]Otto Rask
-   (BUTTON) Otto Rask
-   [82]Otto Rask
-   (button) Follow
-   A software engineer, mainly PHP, Rust, and related things.
-     * Location
-       Finland
-     * Joined
-       Mar 12, 2019
-
-   • [83]May 28 '21
-   (BUTTON)
-     * [84]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   What percentage of modern web is a "complex needs" target that requires
-   a complex solution such as React or Vue or perhaps something custom
-   written in WASM? 50% 25%? 5% 1%?
-
-   (BUTTON) 2 likes Like Thread
-
-   [85]gotofritz profile image
-   [86]fritz
-   (BUTTON) fritz
-   [87]fritz
-   (button) Follow
-     * Location
-       Berlin
-     * Joined
-       Sep 28, 2018
-
-   • [88]May 28 '21
-   (BUTTON)
-     * [89]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   All of it. Unless you have actual data that proves otherwise...
-
-   (BUTTON) 2 likes Like Thread
-
-   [90]jacobmakestheweb profile image
-   [91]Jacob Ybarra
-   (BUTTON) Jacob Ybarra
-   [92]Jacob Ybarra
-   (button) Follow
-   dank web dev
-     * Education
-       school
-     * Work
-       nada
-     * Joined
-       Sep 21, 2021
-
-   • [93]Sep 21 '21
-   (BUTTON)
-     * [94]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   uh what? the web is about content and media. not a software
-   environment.
-
-   (BUTTON) 1 like Like Reply
-
-   [95]mark_saward profile image
-   [96]Mark Saward
-   (BUTTON) Mark Saward
-   [97]Mark Saward
-   (button) Follow
-   CEO and Developer | PhD in Philosophy | Some things I like: Linux, Go,
-   Rust, SQL, Devops
-     * Location
-       Victoria, Australia
-     * Education
-       BA/Bsc in Philosophy and Physics. PhD in Philosophy.
-     * Work
-       CEO/Software Developer at Episub
-     * Joined
-       May 13, 2020
-
-   • [98]May 15 '20
-   (BUTTON)
-     * [99]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   Some interesting thoughts, in the original article and your response.
-   Certainly good for generating discussion :)
-
-     It will take more than technological advancement to get the web
-     there; it will take a cultural shift as well. But we certainly can't
-     get there if we abandon our current trajectory.
-
-   The problem as I see it is that the web -- in terms of client-side
-   executed markup and code (HTML/CSS/JavaScript) just wasn't designed
-   with these kinds of interactions in mind (the interactions that Ryan
-   Florence highlighted). It's the wrong foundation for it.
-
-   I don't think that "getting there" should be through bending original
-   web technologies, but rather with something else entirely -- perhaps
-   WebAssembly, or a return to actual native applications much like we've
-   come to depend on on our tablets and phones. We already can do nice
-   animations like that iPad demo with native desktop applications.
-   There's many advantages to websites over native desktop apps, with the
-   standout one being that they don't require someone to install an
-   application on their machine. Maybe WebAssembly can give us a
-   compromise -- desktop apps built with technology designed for that job,
-   but available in a way that doesn't require any local installation.
-   Then we can use tools that were purpose built for those kinds of tasks,
-   instead of trying to wrangle the foundations of the web to fit
-   something they were never built for.
-
-   When I think back to how we used to build websites back in the day, and
-   how we build sites with technologies in tools like React now, I'm
-   honestly not sure that we've gained anything of great enough value
-   relative to the simplicity we've lost. In short, I'd be happy to
-   abandon our current trajectory and put our hope in alternative
-   solutions for those situations where what we really need is a native
-   application. Leave the web for what it's good at.
-
-   (BUTTON) 23 likes Like Reply
-
-   [100]ryansolid profile image
-   [101]Ryan Carniato
-   (BUTTON) Ryan Carniato
-   [102]Ryan Carniato
-   (button) Follow
-   Frontend performance enthusiast and Fine-Grained Reactivity super fan.
-   Author of the SolidJS UI library and MarkoJS Core Team Member.
-     * Location
-       San Jose, California
-     * Education
-       Computer Engineering B.A.Sc, University of British Columbia
-     * Work
-       Principal Engineer, Open Source, Netlify
-     * Joined
-       Jun 25, 2019
-
-   • [103]May 15 '20
-   (BUTTON)
-     * [104]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   That's interesting. I mean I was there too, and the extent of what I
-   can build with a modern library so extends what I could reasonably do
-   before. And the reason for that is JavaScript. When I was building
-   sites in the late 90s so many things weren't possible and you had no
-   choice but to pay these costs for interactivity. Sure I view sourced a
-   few cool tricks.. image maps etc, but with my table based layouts and a
-   little JavaScript I could do very little. Part of it was the available
-   DOM api's. My lack of understanding of the language but I think we look
-   at the past with rose colored glasses.
-
-   It's more interesting to me that native platforms have borrowed
-   concepts from libraries like React in terms of declarative views etc.
-   I'm not saying React invented this stuff but that the trend would
-   suggest the contrary. These trends could be mistakes but popularity has
-   as much stake in the course of events as innate value.
-
-   I think this comes down to really this hope of a Silver Bullet. It
-   doesn't exist. Instead we have momentum of a ubiquitous platform that
-   just is constantly aiming to improve. It's not only that the other
-   approaches have already lost, we're getting to a point where any new
-   approach will have to atleast acknowledge the current web. At this
-   point a competitor isn't going to change the tide, but something from
-   within. It's more likely that the web addresses those fundamental
-   shortcomings than people moving to a different platform. Native Apps
-   didn't kill the web even with all their superior capabilities. And on a
-   similar note it is going to take monumental change for this to
-   fundamentally change. Even with React's reach, it wasn't alone in a
-   movement that started years before. This is bigger than any particular
-   library or framework.
-
-   (BUTTON) 13 likes Like Reply
-
-   [105]mark_saward profile image
-   [106]Mark Saward
-   (BUTTON) Mark Saward
-   [107]Mark Saward
-   (button) Follow
-   CEO and Developer | PhD in Philosophy | Some things I like: Linux, Go,
-   Rust, SQL, Devops
-     * Location
-       Victoria, Australia
-     * Education
-       BA/Bsc in Philosophy and Physics. PhD in Philosophy.
-     * Work
-       CEO/Software Developer at Episub
-     * Joined
-       May 13, 2020
-
-   • [108]May 16 '20 • Edited on May 16 • Edited
-   (BUTTON)
-     * [109]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   There is absolutely no doubt that you can do incredible things with
-   modern web, and the power unlocked by having a programming language in
-   the browser has been amazing. However, when I think about a great deal
-   of the websites I interact with, and ones I build, there would not be
-   much lost if they significantly simplified the tech stack they work
-   with to be closer to the core technologies of the web (including a
-   splash of JavaScript).
-
-   What I'm trying to convey is that I think our move to make everything a
-   web app has been a mistake, for multiple reasons. You are absolutely
-   right to say that this tide is going to be very hard (perhaps
-   impossible) to turn, and I absolutely agree there is no silver bullet
-   (I've looked), but that doesn't mean we haven't taken a worse path and
-   shouldn't lament for what could have been.
-
-   The advantages of web apps are compelling for developers -- they are
-   easy to distribute, update, control, make cross platform, when compared
-   to native apps. It is not hard to understand why and how we have ended
-   up where we are. I just wish we were somewhere else -- but it would
-   take a lot of work to create that 'silver bullet'.
-
-   (BUTTON) 11 likes Like Thread
-
-   [110]adrianus profile image
-   [111]Adrianus
-   (BUTTON) Adrianus
-   [112]Adrianus
-   (button) Follow
-   Running a small company based in Kent.
-     * Location
-       Chatham, Kent
-     * Education
-       autodidactic
-     * Work
-       Entrepreneur at AVANDERGRINTEN Ltd.
-     * Joined
-       Jan 21, 2020
-
-   • [113]May 19 '20 • Edited on May 20 • Edited
-   (BUTTON)
-     * [114]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   That whole app environment was basically triggered by one need, and one
-   need only: bandwidth. No idea if anyone remembers when they launched
-   this WAP protocol, making the internet available on smartphones, what
-   failed for two reasons. The providers made it easy to access on their
-   own portals aka AOL strategy at beginning of the web, leaving the rest
-   of the market untouched, secondly the site performance was ridiculous.
-   Apple stepped in, put a bunch of intelligence into the app,
-   dramatically reducing the load time, did not convert so much traffic on
-   their own apps and let developers do what they do best. By 2008 more
-   than 50% of the whole mobile internet traffic was iPhone traffic.
-
-   Bandwidth is no longer the breaking point.
-
-   Google has for years campaigned the untapped goldmine local traffic,
-   experience flows that often start at the search for getting something
-   done in time, monetising on micro moments as more than half of all
-   mobile searches have a local intend. I posted an example how something
-   to get done interferes cross-applicational from the perspective of a
-   user. With an app-only scheme this is getting impossible. Sure it is
-   understandable that nobody pays so much attention. Most search engines
-   run a change and heavily invested in AI to optimise traffic at the
-   client's frontend. But even this is not enough, when it comes to
-   intends other than something very individualised. I wouldn't care so
-   much about the user, but more about what the user wants to achieve.
-
-   (BUTTON) 1 like Like Reply
-
-
-   [115]oenonono profile image
-   [116]Junk
-   (BUTTON) Junk
-   [117]Junk
-   (button) Follow
-     * Joined
-       Mar 12, 2017
-
-   • [118]May 17 '20
-   (BUTTON)
-     * [119]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   React definitely didn't invent HTML.
-
-   Declarative views, indeed.
-
-   (BUTTON) 1 like Like Reply
-
-
-   [120]v6 profile image
-   [121]🦄N B🛡
-   (BUTTON) 🦄N B🛡
-   [122]🦄N B🛡
-   (button) Follow
-   // , “It is not so important to be serious as it is to be serious about
-   the important things. The monkey wears an expression of seriousness...
-   but the monkey is serious because he itches."(No/No)
-     * Location
-       (No/No)
-     * Education
-       (No/No)
-     * Work
-       Security
-     * Joined
-       Mar 1, 2018
-
-   • [123]May 15 '20
-   (BUTTON)
-     * [124]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-     The problem as I see it is that the web -- in terms of client-side
-     executed markup and code (HTML/CSS/JavaScript) just wasn't designed
-     with these kinds of interactions in mind (the interactions that Ryan
-     Florence highlighted). It's the wrong foundation for it.
-
-   Yes. Please. Can we please just accept that it's all broken.
-
-   (BUTTON) 4 likes Like Reply
-
-
-   [125]gotofritz profile image
-   [126]fritz
-   (BUTTON) fritz
-   [127]fritz
-   (button) Follow
-     * Location
-       Berlin
-     * Joined
-       Sep 28, 2018
-
-   • [128]May 18 '20 • Edited on May 18 • Edited
-   (BUTTON)
-     * [129]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   Not at all.
-
-   CSS has media queries and all sort of crazy and wonderful stuff. HTML
-   has tags for responsive design. JS has (in the browser) access to apis
-   like mutation observer and orientation and speech recognition. It's
-   TOTALLY built for that. Enough of the "get off my lawn" negativity
-
-   (BUTTON) 8 likes Like Thread
-
-   [130]v6 profile image
-   [131]🦄N B🛡
-   (BUTTON) 🦄N B🛡
-   [132]🦄N B🛡
-   (button) Follow
-   // , “It is not so important to be serious as it is to be serious about
-   the important things. The monkey wears an expression of seriousness...
-   but the monkey is serious because he itches."(No/No)
-     * Location
-       (No/No)
-     * Education
-       (No/No)
-     * Work
-       Security
-     * Joined
-       Mar 1, 2018
-
-   • [133]May 18 '20 • Edited on May 18 • Edited
-   (BUTTON)
-     * [134]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   shakes his cane at you
-
-   mutters incomprehensibly
-
-   (BUTTON) 4 likes Like Reply
-
-
-   [135]stew_sims profile image
-   [136]Stewart Sims
-   (BUTTON) Stewart Sims
-   [137]Stewart Sims
-   (button) Follow
-     * Joined
-       May 31, 2019
-
-   • [138]May 15 '20 • Edited on May 15 • Edited
-   (BUTTON)
-     * [139]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   There's a lot to agree with in both of these takes. However, one
-   criticism of this one (and I realise we're getting into hugely
-   subjective territory) is the assumption that the goal should be to
-   'build experiences that compete with native on UX'. It strikes me that
-   the web never was and never will be anything like any other platform
-   for building applications. Whether or not someone wants to turn it into
-   that is their prerogative and any success they have probably will help
-   others build better things. But it ultimately depends on what you want
-   to build and why, and emulating a native application might not always
-   be the best option. I think the key is to allow ourselves to question
-   the assumptions we all hold which seems to be exactly what both of you
-   are doing with different approaches, reaching different conclusions. So
-   I would say; keep doing that and keep doing your thing, but just don't
-   expect everyone to agree and do things the same way. The world is a
-   better place when we allow and encourage people not to homogenise in
-   their thinking.
-
-   (BUTTON) 34 likes Like Reply
-
-
-   [140]rhymes profile image
-   [141]rhymes
-   (BUTTON) rhymes
-   [142]rhymes
-   (button) Follow
-   Such software as dreams are made on. I mostly rant about performance,
-   unnecessary complexity, privacy and data collection.
-     * Joined
-       Feb 2, 2017
-
-   • [143]May 18 '20 • Edited on May 18 • Edited
-   (BUTTON)
-     * [144]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-     It strikes me that the web never was and never will be anything like
-     any other platform for building applications. Whether or not someone
-     wants to turn it into that is their prerogative and any success they
-     have probably will help others build better things. But it
-     ultimately depends on what you want to build and why, and emulating
-     a native application might not always be the best option.
-
-   this :-)
-
-   (BUTTON) 5 likes Like Reply
-
-
-   [145]oenonono profile image
-   [146]Junk
-   (BUTTON) Junk
-   [147]Junk
-   (button) Follow
-     * Joined
-       Mar 12, 2017
-
-   • [148]May 17 '20
-   (BUTTON)
-     * [149]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   points up
-
-   (BUTTON) 1 like Like Reply
-
-
-   [150]holdit profile image
-   [151]holdit
-   (BUTTON) holdit
-   [152]holdit
-   (button) Follow
-     * Joined
-       May 15, 2020
-
-   • [153]May 15 '20
-   (BUTTON)
-     * [154]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   Looking at the criticism made about some recent redesigns (reddit,
-   facebook, etc) it seems that the main complaint (from a user point of
-   view, at least) is how slow it feels compared to the previous version
-   or to a "simple" site with HTML, CSS, and a little bit of javascript.
-
-   I haven't checked it recently, but when the new reddit UI was released,
-   scrolling was terrible on my $2500k laptop. It felt slow. Everything
-   was sluggish. It also downloaded a few MB of javascript on pages that
-   essentially had a thumbnail, a title, and some comments (not everyone
-   lives in a big city or is connected to a super fast internet
-   connection!). When the page was loaded, I was seeing more scrolling lag
-   because they lazyload some content. I mean, it's hard to like this
-   "modern web".
-
-   As a user, I don't care about how things work behind the scenes. I
-   don't mind some javascript on a page, after all we don't need a page
-   reload just to preview a comment or "like" something. You can even use
-   javascript for everything, I don't mind. But it needs to be fast and it
-   needs to work well... and right now some "modern" sites provide a worse
-   experience than before.
-
-   (BUTTON) 24 likes Like Reply
-
-
-   [155]iamschulz profile image
-   [156]Daniel Schulz
-   (BUTTON) Daniel Schulz
-   [157]Daniel Schulz
-   (button) Follow
-   Hi! I'm a frontend guy.
-     * Location
-       Germany
-     * Education
-       Studied Media Art and Design
-     * Work
-       Performance Engineer at Baqend
-     * Joined
-       Sep 17, 2018
-
-   • [158]May 15 '20 • Edited on May 15 • Edited
-   (BUTTON)
-     * [159]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   Tom identified the main weakness of modern web development correctly:
-   It's based on javascript. He points out the sluggishness and
-   accessibility problems that stem from that attitude, and hes absolutely
-   right to do so. Static pages (as a paradigm, not as Gatsby in
-   particular) are maybe not the cure for that, but they are definitely a
-   step into the right direction.
-   I just rewrote my website with hugo and specifically without a major JS
-   framework, but settled for a vanilla approach rooted in a progressive
-   enhancement mindset. I didn't even run into the problems that are
-   inherent to React, Vue and Angular.
-   Sure, you can serve HTML with SSR, but you still have to wait for the
-   bundle in order to have a functional site, plus a truckload of
-   ssr-related complexity. And that is utter rubbish. JS should never be a
-   requirement, it needs to be put in its place as the cherry on top of
-   the cake.
-   Progressive enhancement needs not only to be a major approach to
-   webdevelopment again, it needs to be out default mode of operation.
-   This is also the core of Toms article. And I agree with him.
-
-   That said, nothing stops you from adding features like nice
-   transitions. But please be sure not to break standard web features
-   while doing so.
-   Transitions need to add to hyperlinks, not replace them.
-
-   (BUTTON) 21 likes Like Reply
-
-
-   [160]richharris profile image
-   [161]Rich Harris
-   (BUTTON) Rich Harris
-   [162]Rich Harris
-   (button) Follow
-   I like turtles
-     * Location
-       Behind you
-     * Work
-       Graphics editor at the New York Times
-     * Joined
-       Jun 20, 2019
-
-   • [163]May 15 '20
-   (BUTTON)
-     * [164]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   I feel like you didn't quite read the article closely enough ;) Of
-   course progressive enhancement needs to be the default — that's why
-   there's so much focus on SSR in all major meta-frameworks.
-
-     Sure, you can serve HTML with SSR, but you still have to wait for
-     the bundle in order to have a functional site
-
-   This isn't true! Take [165]sapper.svelte.dev, which is a site built
-   with Sapper and baked out as static pages. It works just fine without
-   JavaScript, you just don't get client-side routing. It's a small site,
-   but the same thing applies to larger ones like Gatsby's homepage — no
-   JS? No problem.
-
-   (BUTTON) 20 likes Like Reply
-
-
-   [166]iamschulz profile image
-   [167]Daniel Schulz
-   (BUTTON) Daniel Schulz
-   [168]Daniel Schulz
-   (button) Follow
-   Hi! I'm a frontend guy.
-     * Location
-       Germany
-     * Education
-       Studied Media Art and Design
-     * Work
-       Performance Engineer at Baqend
-     * Joined
-       Sep 17, 2018
-
-   • [169]May 15 '20
-   (BUTTON)
-     * [170]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   It certainly is true for standard implementations of React-, Vue- and
-   Angular- based sites. There may be a focus on SSR, but it still isn't
-   close enough to deserve to be the default. It needs to come without
-   extra complexity. Only then we're ready to take the step to fully
-   embrace those solution.
-
-   And this is my point. You need to take one step after the other. It was
-   a mistake to build everything with javascript first and then try to
-   look if it still works without afterwards. The damage to the web has
-   been done.
-
-   I didn't take a look at Sapper/Svelte. Though, in comparison, those are
-   still a nieche product.
-
-   (BUTTON) 7 likes Like Thread
-
-   [171]martinmalinda profile image
-   [172]Martin Malinda
-   (BUTTON) Martin Malinda
-   [173]Martin Malinda
-   (button) Follow
-     * Joined
-       Apr 7, 2020
-
-   • [174]May 18 '20
-   (BUTTON)
-     * [175]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-     The damage to the web has been done.
-
-   JS certainly caused a lot of damage on many websites. But now - finally
-   - we're getting to the point of having frameworks which can, by
-   default, offer client-side routing with SSR and hydration without
-   shipping large bundles of JS. Up to this point the frontend devs should
-   have been more conservative and they should have thought twice whether
-   they should really go all-in into an SPA. But now's the time when it's
-   really starting to be a viable option. Next, Nuxt, Marko and Sapper are
-   finally technologies highly worth pursuing, even for content-based
-   websites.
-
-   (BUTTON) 2 likes Like Reply
-
-
-   [176]ben profile image
-   [177]Ben Halpern
-   (BUTTON) Ben Halpern
-   [178]Ben Halpern
-   (button) Follow
-   A Canadian software developer who thinks he’s funny.
-     * Email
-       [179]ben@forem.com
-     * Location
-       NY
-     * Education
-       Mount Allison University
-     * Pronouns
-       He/him
-     * Work
-       Co-founder at Forem
-     * Joined
-       Dec 27, 2015
-
-   • [180]May 15 '20
-   (BUTTON)
-     * [181]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-     The future I want — the future I see — is one with tooling that's
-     accessible to the greatest number of people (including designers),
-     that can intelligently move work between server and client as
-     appropriate, that lets us build experiences that compete with native
-     on UX (yes, even for blogs!), and where upgrading part of a site to
-     'interactive' or from 'static' to 'dynamic' doesn't involve
-     communication across disparate teams using different technologies.
-     We can only get there by committing to the paradigm Tom critiques —
-     the JavaScript-ish component framework server-rendered SPA. (Better
-     names welcomed.)
-
-   I like this takeaway because it's heavy on acknowledging the process
-   behind the technology which is often disparate and confusing. Even the
-   most well-intentioned and organized dev team is going to get out of
-   wack if succeeding with the tooling is experts only. We need to be able
-   to achieve great performance, UX and accessibility even under
-   conditions where designers do some work, devs pop in some hotfixes here
-   and there, old devs leave with some of the knowledge, priorities
-   change, etc.
-
-   (BUTTON) 19 likes Like Reply
-
-
-   [182]v6 profile image
-   [183]🦄N B🛡
-   (BUTTON) 🦄N B🛡
-   [184]🦄N B🛡
-   (button) Follow
-   // , “It is not so important to be serious as it is to be serious about
-   the important things. The monkey wears an expression of seriousness...
-   but the monkey is serious because he itches."(No/No)
-     * Location
-       (No/No)
-     * Education
-       (No/No)
-     * Work
-       Security
-     * Joined
-       Mar 1, 2018
-
-   • [185]May 15 '20 • Edited on May 15 • Edited
-   (BUTTON)
-     * [186]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   I like this aspect of Mr. Harris' article, too. It's the first
-   principle of the Tao of HashiCorp: [187]Workflows, not Technologies.
-
-     The HashiCorp approach is to focus on the end goal and workflow,
-     rather than the underlying technologies. Software and hardware will
-     evolve and improve, and it is our goal to make adoption of new
-     tooling simple, while still providing the most streamlined user
-     experience possible. Product design starts with an envisioned
-     workflow to achieve a set goal. We then identify existing tools that
-     simplify the workflow. If a sufficient tool does not exist, we step
-     in to build it. This leads to a fundamentally technology-agnostic
-     view — we will use the best technology available to solve the
-     problem. As technologies evolve and better tooling emerges, the
-     ideal workflow is just updated to leverage those technologies.
-     Technologies change, end goals stay the same.
-
-   And it's why Sacrificial Architecture appeases the dark ones.
-
-   (BUTTON) 4 likes Like Reply
-
-
-   [188]phlash profile image
-   [189]Phil Ashby
-   (BUTTON) Phil Ashby
-   [190]Phil Ashby
-   (button) Follow
-   30+ years of tech, retired from an identity intelligence company, job
-   done! Dev community mod - mostly light gardening & weeding out spam :)
-     * Location
-       Felixstowe, UK
-     * Education
-       M.Eng (hons) Electronics, MIET, MBCS, AMCIISec, CEH
-     * Pronouns
-       he/him
-     * Work
-       Retired!
-     * Joined
-       Apr 2, 2017
-
-   • [191]May 15 '20
-   (BUTTON)
-     * [192]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   Good response, opinions are always worth having, as long as you are
-   prepared to discuss/defend/change them! I had a few thoughts on this
-   topic last year in response to your good self and web components that I
-   think is worth referring back to: [193]dev.to/phlash909/comment/cghl
-
-   In essence, the DOM and page model of HTML is a constraint around the
-   outside of applications that might be better inverted: I'd like to see
-   browsers that support HTML/DOM content if required, but do not
-   constrain devs to always go though it. Let's stop thinking of them as
-   HTML rendering engines, and start thinking of pre-installed runtimes
-   with excellent web-based application management!
-
-   We'll want to retain the benefits of dynamic software running on the
-   client (native UX, easy architecture changes, no user-install step,
-   etc.), while leveraging the effort that goes into making that a
-   portable & safe thing to do (common APIs, sandboxes, browsers as the
-   standard runtime for client-side applications). We are nearly there
-   with PWAs perhaps? WASM then expands the available languages for the
-   runtime, allowing common client/server languages and development
-   processes to ease developer adoption. As/when a document needs
-   rendering, then HTML/DOM/CSS is there to perform it's proper function,
-   however many apps many be better off with a UX library (eg: SDL) or
-   widget set (eg: wxWidgets) atop the runtime bindings.
-
-   (BUTTON) 11 likes Like Reply
-
-
-   [194]v6 profile image
-   [195]🦄N B🛡
-   (BUTTON) 🦄N B🛡
-   [196]🦄N B🛡
-   (button) Follow
-   // , “It is not so important to be serious as it is to be serious about
-   the important things. The monkey wears an expression of seriousness...
-   but the monkey is serious because he itches."(No/No)
-     * Location
-       (No/No)
-     * Education
-       (No/No)
-     * Work
-       Security
-     * Joined
-       Mar 1, 2018
-
-   • [197]May 15 '20
-   (BUTTON)
-     * [198]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-     start thinking of pre-installed runtimes with excellent web-based
-     application management!
-
-   If you were to remove the "web-based" part, it'd almost describe the
-   beginning of OSes back in the day.
-
-   Which is perhaps what they are: The UI part of a vast "operating
-   system" by which we access the "applications" of the internet.
-
-   (BUTTON) 4 likes Like Reply
-
-
-   [199]panesofglass profile image
-   [200]panesofglass
-   (BUTTON) panesofglass
-   [201]panesofglass
-   (button) Follow
-     * Joined
-       Jul 23, 2020
-
-   • [202]Jul 23 '20
-   (BUTTON)
-     * [203]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   I believe at the point you fundamentally push to render things other
-   than markup, you start making a different application. And that is
-   perfectly reasonable. I’m frankly surprised how well HTTP has held up
-   to so many use cases. I long ago expected to see far more protocols for
-   more kinds of apps, but HTTP seems to have solved so many problems well
-   enough that it now hosts other protocols.
-
-   There are probably more protocols that could be written and hosted on
-   other ports. Those would likely address many of these issues in a far
-   better way. I just wonder when the industry will pivot back to building
-   protocols and leave HTTP well enough alone.
-
-   (BUTTON) 1 like Like Reply
-
-
-   [204]rhymes profile image
-   [205]rhymes
-   (BUTTON) rhymes
-   [206]rhymes
-   (button) Follow
-   Such software as dreams are made on. I mostly rant about performance,
-   unnecessary complexity, privacy and data collection.
-     * Joined
-       Feb 2, 2017
-
-   • [207]Jul 23 '20
-   (BUTTON)
-     * [208]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   I think we're past that as most recent innovations in the web space are
-   either formats or evolutions of HTTP. Why reinvent the wheel if the
-   wheel works well? What do you think?
-
-   (BUTTON) 1 like Like Thread
-
-   [209]panesofglass profile image
-   [210]panesofglass
-   (BUTTON) panesofglass
-   [211]panesofglass
-   (button) Follow
-     * Joined
-       Jul 23, 2020
-
-   • [212]Jul 23 '20
-   (BUTTON)
-     * [213]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   HTTP/3 with QUIC seems like a great improvement, but it is changing
-   HTTP. I don’t see why HTTP needs changing for most things. Why not
-   update SMTP or FTP, as well? QUIC solves specific problems, and it
-   might be better for those who need QUIC for it to have features better
-   suited to their needs.
-
-   In some ways, this also feels like the mash of several formats into
-   HTML5 to avoid name spacing. While we focus on and champion components
-   within our own apps, we continue to avoid and break components in the
-   infrastructure.
-
-   Therefore, I think we may see new protocols emerge as the weight of
-   these complexities begin to cause problems. That could still be some
-   way off.
-
-   (BUTTON) 1 like Like Thread
-
-   [214]rhymes profile image
-   [215]rhymes
-   (BUTTON) rhymes
-   [216]rhymes
-   (button) Follow
-   Such software as dreams are made on. I mostly rant about performance,
-   unnecessary complexity, privacy and data collection.
-     * Joined
-       Feb 2, 2017
-
-   • [217]Jul 23 '20
-   (BUTTON)
-     * [218]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   I'm not sure it is changing HTTP, it's HTTP over UDP. The protocol is
-   basically the same as HTTP/1 and HTTP/2.
-
-     QUIC solves specific problems, and it might be better for those who
-     need QUIC for it to have features better suited to their needs.
-
-   QUIC solves a specific problem HTTP has because it sits on top of TCP
-   though, basically pipelining
-
-     In some ways, this also feels like the mash of several formats into
-     HTML5 to avoid name spacing. While we focus on and champion
-     components within our own apps, we continue to avoid and break
-     components in the infrastructure.
-
-   I'm not sure I follow the analogy with HTML5, sorry :( IIRC HTML5 was
-   created to stop having to revise HTML as a a single unit and let things
-   evolve at their own pace. Same with CSS 3 I guess. I don't think it's
-   the same thing here: HTTP/3 is the result of the entire world using
-   HTTP and needing to improve performance.
-
-   Could they have created a new protocol? Sure, but why break
-   compatibility with millions of browsers, proxies, machines, software
-   application and so on that understand and function through HTTP? I
-   think the decision to rewrite the transport layer to be a smart one.
-
-   This doesn't mean that other protocols can't emerge, but it's okay not
-   to throw away those that work already
-
-   (BUTTON) 1 like Like Reply
-
-
-   [219]gregfletcher profile image
-   [220]Greg Fletcher
-   (BUTTON) Greg Fletcher
-   [221]Greg Fletcher
-   (button) Follow
-   loop { refactoring() }
-     * Work
-       Full Stack at Freelance
-     * Joined
-       Mar 16, 2019
-
-   • [222]May 15 '20
-   (BUTTON)
-     * [223]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   Great article!
-
-   Doesn't a lot of this disagreement stem from --> "keep the web as it
-   is, coz it's fine" vs "let's make it better by making mistakes along
-   the way coz that's how software development works"?
-
-   (BUTTON) 14 likes Like Reply
-
-
-   [224]v6 profile image
-   [225]🦄N B🛡
-   (BUTTON) 🦄N B🛡
-   [226]🦄N B🛡
-   (button) Follow
-   // , “It is not so important to be serious as it is to be serious about
-   the important things. The monkey wears an expression of seriousness...
-   but the monkey is serious because he itches."(No/No)
-     * Location
-       (No/No)
-     * Education
-       (No/No)
-     * Work
-       Security
-     * Joined
-       Mar 1, 2018
-
-   • [227]May 15 '20
-   (BUTTON)
-     * [228]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   What about making it better by [229]sacrificing it?
-
-   We can [230]learn this lesson from Biology, that the best way to avoid
-   excessive optimization is the ultimate flexibility: Keeping the option
-   on the table to throw out the code, or well abstracted parts of it, and
-   rewrite that code or product from scratch.
-
-   It's a little known "dark" pattern of Software Design, from the shadows
-   of Agile, called "Sacrificial Architecture."
-
-   [231]exponential growth isnt kind to architectural decisions
-
-   (BUTTON) 5 likes Like Reply
-
-
-   [232]richharris profile image
-   [233]Rich Harris
-   (BUTTON) Rich Harris
-   [234]Rich Harris
-   (button) Follow
-   I like turtles
-     * Location
-       Behind you
-     * Work
-       Graphics editor at the New York Times
-     * Joined
-       Jun 20, 2019
-
-   • [235]May 15 '20
-   (BUTTON)
-     * [236]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-     Is the Web for applications?
-
-   I feel like this question sort of answers itself! Have you heard of
-   Amazon? Gmail? Facebook?
-
-   (BUTTON) 13 likes Like Reply
-
-
-   [237]ben profile image
-   [238]Ben Halpern
-   (BUTTON) Ben Halpern
-   [239]Ben Halpern
-   (button) Follow
-   A Canadian software developer who thinks he’s funny.
-     * Email
-       [240]ben@forem.com
-     * Location
-       NY
-     * Education
-       Mount Allison University
-     * Pronouns
-       He/him
-     * Work
-       Co-founder at Forem
-     * Joined
-       Dec 27, 2015
-
-   • [241]May 15 '20
-   (BUTTON)
-     * [242]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   My perpective: The web is for applications. The web is also for rich
-   documents where reading and simple linking can take priority.
-
-   And there is an uncanny valley when you the latter is the sensible
-   choice, but the former is the approach taken.
-
-   And many, the web is whatever Google tells them it is. Is AMP the web?
-
-   (BUTTON) 22 likes Like Reply
-
-
-   [243]gotofritz profile image
-   [244]fritz
-   (BUTTON) fritz
-   [245]fritz
-   (button) Follow
-     * Location
-       Berlin
-     * Joined
-       Sep 28, 2018
-
-   • [246]May 22 '20
-   (BUTTON)
-     * [247]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-     We need to have a similar approach in client side frameworks.
-
-   No we don't... if the The One True Omniscient God Framework approach
-   that Rails developers are constantly pining for was really the best
-   one, then Rails would be ruling. It isn't; it peaked in 2012 or
-   thereabouts, knocked off its perch by Node, among other technologies.
-   It's a single point of failure and it cannot adapt quickly enough to
-   the bewilderingly fast changing environment in which we operate.
-
-   Alternatively, you can pick one of the two frameworks that follow the
-   model you advocate: Ember (actually inspired by Rails) or Angular (more
-   of a C# flavour), both of which strive to be a nanny that remove as
-   much as possible the need to (god forbid!) make your own decisions or
-   (the horror!) having to learn new tools
-
-     If I could have the framework of my dreams ... It would allow me to
-     focus on HTML with a sprinkle of JavaScript.
-
-   You may want to consider [248]stimulusjs.org/, which comes from the
-   Rails universe (it was created by no other than David Heinemeier
-   Hansson, the Rails Superstar) and does exactly what you want
-
-   (BUTTON) 5 likes Like Thread
-
-   [249]loilo profile image
-   [250]Florian Reuschel
-   (BUTTON) Florian Reuschel
-   [251]Florian Reuschel
-   (button) Follow
-   Web developer (JS, PHP), OSS enthusiast, loves to explain things to
-   beginners
-     * Location
-       Karlsruhe, DE
-     * Joined
-       Jan 14, 2017
-
-   • [252]May 22 '20
-   (BUTTON)
-     * [253]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   Can confirm that the Stimulus framework works great for that exact use
-   case. But if you're used to the more common frameworks, you might
-   quickly miss the declarative "give me data, I give you DOM" approach
-   they provide.
-
-   I haven't tried it myself yet, but [254]Alpine.js gained some steam
-   lately and might be a good middle ground between Stimulus and the "top
-   dogs".
-
-   (BUTTON) 4 likes Like Reply
-
-
-   [255]mattwelke profile image
-   [256]Matt Welke
-   (BUTTON) Matt Welke
-   [257]Matt Welke
-   (button) Follow
-   Back end software developer, open source enthusiast.
-     * Location
-       Ontario, Canada
-     * Education
-       Seneca College
-     * Work
-       Backend software engineer at DigitalOcean
-     * Joined
-       Aug 16, 2019
-
-   • [258]May 27 '20
-   (BUTTON)
-     * [259]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-     writing an Express API requires "old javascript" unless you want to
-     go through the hassle of setting Babel up
-
-   Not sure what you mean here. You can use very recent JS features in
-   Node. We have async/await, async iteration, ES module imports, and more
-   now. I've never felt the need to set up Babel in an Express project.
-
-   (BUTTON) 5 likes Like Reply
-
-
-   [260]mattgperry profile image
-   [261]Matt Perry
-   (BUTTON) Matt Perry
-   [262]Matt Perry
-   (button) Follow
-   Creator of Framer Motion, Popmotion and Pose
-     * Location
-       Amsterdam
-     * Joined
-       May 15, 2020
-
-   • [263]May 15 '20
-   (BUTTON)
-     * [264]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-     it's widely understood that if you want 60fps animation, you will
-     likely have to bypass the React update cycle and do things in a more
-     imperative fashion (indeed, this is what libraries like react-spring
-     do)
-
-   Probably aside from the article, which I largely agree with, but I
-   think this is an odd point to try and make. This is true of any
-   component library that has overhead above imperative JS. But there's
-   nothing stopping you from using CSS in React, which is all Svelte does
-   anyway.
-
-   (BUTTON) 9 likes Like Reply
-
-
-   [265]richharris profile image
-   [266]Rich Harris
-   (BUTTON) Rich Harris
-   [267]Rich Harris
-   (button) Follow
-   I like turtles
-     * Location
-       Behind you
-     * Work
-       Graphics editor at the New York Times
-     * Joined
-       Jun 20, 2019
-
-   • [268]May 15 '20
-   (BUTTON)
-     * [269]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   Wrong, sorry :)
-
-   This isn't a CSS demo: [270]twitter.com/Rich_Harris/status/120...
-
-   (BUTTON) 11 likes Like Reply
-
-
-   [271]daniel15 profile image
-   [272]Daniel Lo Nigro
-   (BUTTON) Daniel Lo Nigro
-   [273]Daniel Lo Nigro
-   (button) Follow
-   Australian living in the San Francisco Bay Area. Front End Engineer at
-   Facebook.
-     * Location
-       Palo Alto, CA
-     * Education
-       Swinburne University, Australia
-     * Work
-       Front End Engineer at Facebook
-     * Joined
-       Jan 11, 2017
-
-   • [274]May 15 '20 • Edited on May 15 • Edited
-   (BUTTON)
-     * [275]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-     We can provide better visual feedback that loading is taking place
-
-   I'm not so sure about that... IMO, so many single-page apps get this
-   wrong. The native browser loading indicator is still a lot better than
-   many SPAs, and unfortunately it's something that can't be triggered
-   from JS (apart from ugly hacks like infinitely-loading iframes)
-
-     With the advent of Node, that changed. The fact that we can do
-     server-side rendering and communicate with databases and
-     what-have-you using a language native to the web is a wonderful
-     development.
-
-   Server-side JS was a thing looooong before Node. I remember using
-   Microsoft's version of JavaScript ("JScript") server-side via Classic
-   ASP in the early 2000s. The issue back then was that JavaScript just
-   wasn't quite that popular yet. ES5 wasn't around yet (it was all ES3),
-   and there was a lack of good third-party libraries. But still, it was
-   absolutely in use long before Node even existed.
-
-   What Node did do was cross-platform support, introduce a module system
-   (CommonJS) as standard, and introduced the concept of easily obtaining
-   third-party packages via "npm", taking ideas from similar systems like
-   Perl's CPAN.
-
-   (BUTTON) 4 likes Like Reply
-
-
-   [276]mrispoli24 profile image
-   [277]Mike Rispoli
-   (BUTTON) Mike Rispoli
-   [278]Mike Rispoli
-   (button) Follow
-   I'm an award-winning designer, engineer and creative technologist that
-   helps daring founders ship valuable software.
-     * Location
-       New York City
-     * Work
-       Co-founder & CTO at Cause of a Kind
-     * Joined
-       Mar 8, 2019
-
-   • [279]May 15 '20
-   (BUTTON)
-     * [280]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   So one thing I wondered after reading Tom's article and now yours is
-   how you feel about modern UI being so tied to node or javascript run
-   times on the backend specifically. For instance if you were to be
-   running something in Go and Phoenix you could dynamically render HTML
-   on the back end and serve it up quite a bit faster that the current SSR
-   environments based in Next or Nuxt or Sapper? So essentially somewhat
-   the way Stimulus JS works where you can send over static HTML, rendered
-   anywhere, by any type of server and the frontend could just hydrate
-   that and build components from it.
-
-   (BUTTON) 3 likes Like Reply
-
-
-   [281]richharris profile image
-   [282]Rich Harris
-   (BUTTON) Rich Harris
-   [283]Rich Harris
-   (button) Follow
-   I like turtles
-     * Location
-       Behind you
-     * Work
-       Graphics editor at the New York Times
-     * Joined
-       Jun 20, 2019
-
-   • [284]May 15 '20
-   (BUTTON)
-     * [285]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   This is the 'PHP with jQuery sprinkles' approach I mention in the
-   article, except with shinier things than PHP and jQuery. I'm not a fan,
-   personally.
-
-   Phoenix LiveView is an interesting take on the problem, but I suspect
-   you hit a limit as to how ambitious your UI can be when deltas have to
-   come across web sockets at a consistent 60fps.
-
-   (BUTTON) 5 likes Like Reply
-
-
-   [286]mrispoli24 profile image
-   [287]Mike Rispoli
-   (BUTTON) Mike Rispoli
-   [288]Mike Rispoli
-   (button) Follow
-   I'm an award-winning designer, engineer and creative technologist that
-   helps daring founders ship valuable software.
-     * Location
-       New York City
-     * Work
-       Co-founder & CTO at Cause of a Kind
-     * Joined
-       Mar 8, 2019
-
-   • [289]May 15 '20
-   (BUTTON)
-     * [290]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   So do you think it’s impossible for a framework to effectively hydrate
-   static HTML not rendered by that frameworks specified renderToString
-   method?
-
-   I really don’t know what these functions do under the hood to allow
-   rehydration so I’m just curious if it would be possible and achieve a
-   good frame rate.
-
-   (BUTTON) 2 likes Like Reply
-
-
-   [291]lawwantsin profile image
-   [292]Lawrence Whiteside
-   (BUTTON) Lawrence Whiteside
-   [293]Lawrence Whiteside
-   (button) Follow
-   I'm a freelance web developer working remotely. Inquire about projects.
-     * Location
-       Austin, TX
-     * Work
-       Freelance Web Developer at Self-employeed
-     * Joined
-       Jun 19, 2019
-
-   • [294]May 15 '20
-   (BUTTON)
-     * [295]Copy link
-     *
-     * (BUTTON) Hide
-     *
-     *
-     *
-
-   Universal Javascript is a need for only Juniors out of Bootcamp. And
-   the cost is great. Just learn about parsers and you'll never look at a
-   framework or template library ever again. Good on you for jumping on
-   how terrible Gatsby is.
-
-   (BUTTON) 3 likes Like Reply
-
-   [296]View full discussion (98 comments)
-
-   [297]Code of Conduct • [298]Report abuse
-
-   Are you sure you want to hide this comment? It will become hidden in
-   your post, but will still be visible via the comment's [299]permalink.
-   [ ]
-
-   Hide child comments as well
-
-   (BUTTON) Confirm
-
-   For further actions, you may consider blocking this person and/or
-   [300]reporting abuse
+Subscribe
+pic
+[                    ]
+Personal Trusted User
+[59] Create template
+
+Templates let you quickly answer FAQs or store snippets for re-use.
+
+Submit Preview [62]Dismiss
+ 
+[63] twigman08 profile image
+[64] Chad Smith
+Chad Smith
+[66] [71bd929d-4] Chad Smith
+Follow
+Work with C# all day everyday creating web applications. Huge baseball buff.
+
+  • Location
+    Texas
+  • Education
+    B.S in Computer Science
+  • Joined
+    Dec 17, 2017
+
+• [68] May 15 '20
+
+  • [70]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+Honestly my biggest issue with the current state of the web is the current
+state of how complex the tools or build process is.
+
+I miss the days of some html, add a bit of JavaScript to the page and you were
+done. You didn't worry about going and making sure you had a complete build or
+bundling process to get everything good. You spent your time worrying about how
+to develop your app. Which in my opinion was better for the users. There was
+less bugs. We actually spent more time making sure the application worked rock
+solid.
+
+Nowadays to get anything cool to be be ready for production you have spend
+needless time on the configuration. Did you do this? Did you configure it to do
+that? Oh you can't do that unless you eject it that build tool and use this
+build tool. That's where the current state of the web is failing.
+
+Sure we have taken steps forward in some areas. But we have to be honest with
+ourselves. We took major steps back in other areas of the web. Sometimes I
+wonder if we took too many steps back.
+
+61 likes Like [73] Reply
+ 
+[74] gotofritz profile image
+[75] fritz
+fritz
+[77] [4e77b2fc-1] fritz
+Follow
+
+  • Location
+    Berlin
+  • Joined
+    Sep 28, 2018
+
+• [79] May 18 '20
+
+  • [81]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+I don't get it. Nobody's stopping you from firing up an HTML doc in Notepad and
+FTPing the result to a web server, if that's all you need. But other people
+have more complex needs (in the "good ole days" there were no smart phones, to
+mention just one thing) and therefore we need more complex tools. Why do you
+want to force me to party like it's 1999?
+
+23 likes Like [84] Reply
+ 
+[85] twigman08 profile image
+[86] Chad Smith
+Chad Smith
+[88] [71bd929d-4] Chad Smith
+Follow
+Work with C# all day everyday creating web applications. Huge baseball buff.
+
+  • Location
+    Texas
+  • Education
+    B.S in Computer Science
+  • Joined
+    Dec 17, 2017
+
+• [90] May 19 '20
+
+  • [92]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+My issue isn't with applications are too complex really. I develop complex
+applications too at work.
+
+My issue is with all the moving parts with a modern web application. Fighting
+if I can use certain language features. Oh I can't, now I have to bother with
+setting up and making sure I can use Babel or something to do it properly, or
+even loading in polyfills (cool just added another dependency the browser has
+to load before the application can be used).
+
+That still hasn't covered bundling everything. What's the correct way bundle
+this? Well crap I now have to go and correctly configure WebPack. Unless you're
+one of the VERY FEW experts on that ,that will take time to figure out to get
+right. Ok so I think it bundles right, well now how should I lazy load this
+code for the user? What should be lazy loaded? What should i use to set it up?
+
+That's just the beginning. I could go on and on about the other complex moving
+parts with a modern web application.
+
+I am not asking anyone to make applications like it is 1999. All I'm asking for
+is a more modern and simpler process that is a STANDARD.
+
+Maybe it is because I come from compiled language background. Where I have to
+worry about that one single binary. I only have to worry if the compiler
+supports the language version I'm using. Where I can just pass in a single flag
+to the compiler for the optimization level I want.
+
+Yes I will be the first to say that in some areas of modern web application
+development we have taken steps forward. I just wonder if we have taken steps
+back in some areas to take those steps forward.
+
+13 likes Like Thread
+ 
+[95] gotofritz profile image
+[96] fritz
+fritz
+[98] [4e77b2fc-1] fritz
+Follow
+
+  • Location
+    Berlin
+  • Joined
+    Sep 28, 2018
+
+• [100] May 22 '20 • Edited on May 22 • Edited
+
+  • [102]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+    All I'm asking for is a more modern and simpler process that is a STANDARD
+    ...
+    Maybe it is because I come from compiled language background ...
+
+Well I am sorry, but web development is a complete different kettle of fish. We
+download all the parts that make up an application asynchronously, on a wide
+variety of devices, with different specs and rendering capabilities - all
+things which the app, once downloaded, need to adapt to. We have progressive
+rendering and respond to all sort of sensors. All while ensuring boot up time
+for the app is in the microseconds range and security for both you who download
+the code and the server.
+
+Your expectations are simply unrealistic, sorry.
+
+Also, we always had polyfills, even "back in the day". Except that back then
+everyone had to bake their own. In fact, we had browser wars and appalling
+browser (IE5 for the Mac, anyone??!?) and it was a real pain in the neck.
+
+10 likes Like [105] Reply
+ 
+[106] adrianus profile image
+[107] Adrianus
+Adrianus
+[109] [4e6de1e2-6] Adrianus
+Follow
+Running a small company based in Kent.
+
+  • Location
+    Chatham, Kent
+  • Education
+    autodidactic
+  • Work
+    Entrepreneur at AVANDERGRINTEN Ltd.
+  • Joined
+    Jan 21, 2020
+
+• [111] May 19 '20 • Edited on May 20 • Edited
+
+  • [113]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+Bingo, the complexity today is a must, at least because of the growing
+smartphone usage. The simple reason why "Native Apps didn't kill the web even
+with all their superior capabilities" (Ryan) is simply UX. As internet usage
+often starts with searching for something having in mind, that all-app-thinking
+interrupts exactly this flow, leaving at least 30% of all traffic untouched.
+For what? For 5-minutes-crafts skyrocketing their YouTube traffic? Although not
+everything needs server side complexity plus having API's and webhooks easily
+integrated using browser capabilities not existing in the god old days, the
+architecture underneath is not the real issue.
+
+3 likes Like [116] Reply
+ 
+[117] ojrask profile image
+[118] Otto Rask
+Otto Rask
+[120] [f4751361-7] Otto Rask
+Follow
+A software engineer, mainly PHP, Rust, and related things.
+
+  • Location
+    Finland
+  • Joined
+    Mar 12, 2019
+
+• [122] May 28 '21
+
+  • [124]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+You fight complexity with ... more complexity?
+
+1 like Like Thread
+ 
+[127] gotofritz profile image
+[128] fritz
+fritz
+[130] [4e77b2fc-1] fritz
+Follow
+
+  • Location
+    Berlin
+  • Joined
+    Sep 28, 2018
+
+• [132] May 28 '21
+
+  • [134]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+You are getting it wrong. The aim is not "to fight complexity". The aim is to
+fulfil complex needs. I am saying for that you often need more complex tools.
+
+1 like Like Thread
+ 
+[137] ojrask profile image
+[138] Otto Rask
+Otto Rask
+[140] [f4751361-7] Otto Rask
+Follow
+A software engineer, mainly PHP, Rust, and related things.
+
+  • Location
+    Finland
+  • Joined
+    Mar 12, 2019
+
+• [142] May 28 '21
+
+  • [144]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+What percentage of modern web is a "complex needs" target that requires a
+complex solution such as React or Vue or perhaps something custom written in
+WASM? 50% 25%? 5% 1%?
+
+2 likes Like Thread
+ 
+[147] gotofritz profile image
+[148] fritz
+fritz
+[150] [4e77b2fc-1] fritz
+Follow
+
+  • Location
+    Berlin
+  • Joined
+    Sep 28, 2018
+
+• [152] May 28 '21
+
+  • [154]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+All of it. Unless you have actual data that proves otherwise...
+
+2 likes Like Thread
+ 
+[157] jacobmakestheweb profile image
+[158] Jacob Ybarra
+Jacob Ybarra
+[160] [ea7fc8c6-1] Jacob Ybarra
+Follow
+dank web dev
+
+  • Education
+    school
+  • Work
+    nada
+  • Joined
+    Sep 21, 2021
+
+• [162] Sep 21 '21
+
+  • [164]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+uh what? the web is about content and media. not a software environment.
+
+1 like Like [167] Reply
+ 
+[168] techbelle profile image
+[169] rachelle palmer
+rachelle palmer
+[171] [16c23058-3] rachelle palmer
+Follow
+I decided I would try to build an app in every programming language. That
+didn't happen, but what I learned along the way was really valuable.
+
+  • Location
+    Raleigh, NC
+  • Joined
+    Sep 23, 2020
+
+• [173] Feb 25 '21
+
+  • [175]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+re: sessions --> I keep tabs open for months at a time, not sure about anyone
+else
+
+1 like Like [178] Reply
+ 
+[179] mark_saward profile image
+[180] Mark Saward
+Mark Saward
+[182] [2c925970-7] Mark Saward
+Follow
+CEO and Developer | PhD in Philosophy | Some things I like: Linux, Go, Rust,
+SQL, Devops
+
+  • Location
+    Victoria, Australia
+  • Education
+    BA/Bsc in Philosophy and Physics. PhD in Philosophy.
+  • Work
+    CEO/Software Developer at Episub
+  • Joined
+    May 13, 2020
+
+• [184] May 15 '20
+
+  • [186]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+Some interesting thoughts, in the original article and your response. Certainly
+good for generating discussion :)
+
+    It will take more than technological advancement to get the web there; it
+    will take a cultural shift as well. But we certainly can't get there if we
+    abandon our current trajectory.
+
+The problem as I see it is that the web -- in terms of client-side executed
+markup and code (HTML/CSS/JavaScript) just wasn't designed with these kinds of
+interactions in mind (the interactions that Ryan Florence highlighted). It's
+the wrong foundation for it.
+
+I don't think that "getting there" should be through bending original web
+technologies, but rather with something else entirely -- perhaps WebAssembly,
+or a return to actual native applications much like we've come to depend on on
+our tablets and phones. We already can do nice animations like that iPad demo
+with native desktop applications. There's many advantages to websites over
+native desktop apps, with the standout one being that they don't require
+someone to install an application on their machine. Maybe WebAssembly can give
+us a compromise -- desktop apps built with technology designed for that job,
+but available in a way that doesn't require any local installation. Then we can
+use tools that were purpose built for those kinds of tasks, instead of trying
+to wrangle the foundations of the web to fit something they were never built
+for.
+
+When I think back to how we used to build websites back in the day, and how we
+build sites with technologies in tools like React now, I'm honestly not sure
+that we've gained anything of great enough value relative to the simplicity
+we've lost. In short, I'd be happy to abandon our current trajectory and put
+our hope in alternative solutions for those situations where what we really
+need is a native application. Leave the web for what it's good at.
+
+23 likes Like [189] Reply
+ 
+[190] ryansolid profile image
+[191] Ryan Carniato
+Ryan Carniato
+[193] [a3d1cfed-a] Ryan Carniato
+Follow
+Frontend performance enthusiast and Fine-Grained Reactivity super fan. Author
+of the SolidJS UI library and MarkoJS Core Team Member.
+
+  • Location
+    San Jose, California
+  • Education
+    Computer Engineering B.A.Sc, University of British Columbia
+  • Work
+    Principal Engineer, Open Source, Netlify
+  • Joined
+    Jun 25, 2019
+
+• [195] May 15 '20
+
+  • [197]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+That's interesting. I mean I was there too, and the extent of what I can build
+with a modern library so extends what I could reasonably do before. And the
+reason for that is JavaScript. When I was building sites in the late 90s so
+many things weren't possible and you had no choice but to pay these costs for
+interactivity. Sure I view sourced a few cool tricks.. image maps etc, but with
+my table based layouts and a little JavaScript I could do very little. Part of
+it was the available DOM api's. My lack of understanding of the language but I
+think we look at the past with rose colored glasses.
+
+It's more interesting to me that native platforms have borrowed concepts from
+libraries like React in terms of declarative views etc. I'm not saying React
+invented this stuff but that the trend would suggest the contrary. These trends
+could be mistakes but popularity has as much stake in the course of events as
+innate value.
+
+I think this comes down to really this hope of a Silver Bullet. It doesn't
+exist. Instead we have momentum of a ubiquitous platform that just is
+constantly aiming to improve. It's not only that the other approaches have
+already lost, we're getting to a point where any new approach will have to
+atleast acknowledge the current web. At this point a competitor isn't going to
+change the tide, but something from within. It's more likely that the web
+addresses those fundamental shortcomings than people moving to a different
+platform. Native Apps didn't kill the web even with all their superior
+capabilities. And on a similar note it is going to take monumental change for
+this to fundamentally change. Even with React's reach, it wasn't alone in a
+movement that started years before. This is bigger than any particular library
+or framework.
+
+13 likes Like [200] Reply
+ 
+[201] mark_saward profile image
+[202] Mark Saward
+Mark Saward
+[204] [2c925970-7] Mark Saward
+Follow
+CEO and Developer | PhD in Philosophy | Some things I like: Linux, Go, Rust,
+SQL, Devops
+
+  • Location
+    Victoria, Australia
+  • Education
+    BA/Bsc in Philosophy and Physics. PhD in Philosophy.
+  • Work
+    CEO/Software Developer at Episub
+  • Joined
+    May 13, 2020
+
+• [206] May 16 '20 • Edited on May 16 • Edited
+
+  • [208]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+There is absolutely no doubt that you can do incredible things with modern web,
+and the power unlocked by having a programming language in the browser has been
+amazing. However, when I think about a great deal of the websites I interact
+with, and ones I build, there would not be much lost if they significantly
+simplified the tech stack they work with to be closer to the core technologies
+of the web (including a splash of JavaScript).
+
+What I'm trying to convey is that I think our move to make everything a web app
+has been a mistake, for multiple reasons. You are absolutely right to say that
+this tide is going to be very hard (perhaps impossible) to turn, and I
+absolutely agree there is no silver bullet (I've looked), but that doesn't mean
+we haven't taken a worse path and shouldn't lament for what could have been.
+
+The advantages of web apps are compelling for developers -- they are easy to
+distribute, update, control, make cross platform, when compared to native apps.
+It is not hard to understand why and how we have ended up where we are. I just
+wish we were somewhere else -- but it would take a lot of work to create that
+'silver bullet'.
+
+11 likes Like Thread
+ 
+[211] adrianus profile image
+[212] Adrianus
+Adrianus
+[214] [4e6de1e2-6] Adrianus
+Follow
+Running a small company based in Kent.
+
+  • Location
+    Chatham, Kent
+  • Education
+    autodidactic
+  • Work
+    Entrepreneur at AVANDERGRINTEN Ltd.
+  • Joined
+    Jan 21, 2020
+
+• [216] May 19 '20 • Edited on May 20 • Edited
+
+  • [218]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+That whole app environment was basically triggered by one need, and one need
+only: bandwidth. No idea if anyone remembers when they launched this WAP
+protocol, making the internet available on smartphones, what failed for two
+reasons. The providers made it easy to access on their own portals aka AOL
+strategy at beginning of the web, leaving the rest of the market untouched,
+secondly the site performance was ridiculous. Apple stepped in, put a bunch of
+intelligence into the app, dramatically reducing the load time, did not convert
+so much traffic on their own apps and let developers do what they do best. By
+2008 more than 50% of the whole mobile internet traffic was iPhone traffic.
+
+Bandwidth is no longer the breaking point.
+
+Google has for years campaigned the untapped goldmine local traffic, experience
+flows that often start at the search for getting something done in time,
+monetising on micro moments as more than half of all mobile searches have a
+local intend. I posted an example how something to get done interferes
+cross-applicational from the perspective of a user. With an app-only scheme
+this is getting impossible. Sure it is understandable that nobody pays so much
+attention. Most search engines run a change and heavily invested in AI to
+optimise traffic at the client's frontend. But even this is not enough, when it
+comes to intends other than something very individualised. I wouldn't care so
+much about the user, but more about what the user wants to achieve.
+
+1 like Like [221] Reply
+ 
+[222] oenonono profile image
+[223] Junk
+Junk
+[225] [default_pr] Junk
+Follow
+
+  • Joined
+    Mar 12, 2017
+
+• [227] May 17 '20
+
+  • [229]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+React definitely didn't invent HTML.
+
+Declarative views, indeed.
+
+1 like Like [232] Reply
+ 
+[233] v6 profile image
+[234] 🦄N B🛡
+🦄N B🛡
+[236] [8267c2c7-f] 🦄N B🛡
+Follow
+// , “It is not so important to be serious as it is to be serious about the
+important things. The monkey wears an expression of seriousness... but the
+monkey is serious because he itches."(No/No)
+
+  • Location
+    (No/No)
+  • Education
+    (No/No)
+  • Work
+    Security
+  • Joined
+    Mar 1, 2018
+
+• [238] May 15 '20
+
+  • [240]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+    The problem as I see it is that the web -- in terms of client-side executed
+    markup and code (HTML/CSS/JavaScript) just wasn't designed with these kinds
+    of interactions in mind (the interactions that Ryan Florence highlighted).
+    It's the wrong foundation for it.
+
+Yes. Please. Can we please just accept that it's all broken.
+
+4 likes Like [243] Reply
+ 
+[244] gotofritz profile image
+[245] fritz
+fritz
+[247] [4e77b2fc-1] fritz
+Follow
+
+  • Location
+    Berlin
+  • Joined
+    Sep 28, 2018
+
+• [249] May 18 '20 • Edited on May 18 • Edited
+
+  • [251]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+Not at all.
+
+CSS has media queries and all sort of crazy and wonderful stuff. HTML has tags
+for responsive design. JS has (in the browser) access to apis like mutation
+observer and orientation and speech recognition. It's TOTALLY built for that.
+Enough of the "get off my lawn" negativity
+
+8 likes Like Thread
+ 
+[254] v6 profile image
+[255] 🦄N B🛡
+🦄N B🛡
+[257] [8267c2c7-f] 🦄N B🛡
+Follow
+// , “It is not so important to be serious as it is to be serious about the
+important things. The monkey wears an expression of seriousness... but the
+monkey is serious because he itches."(No/No)
+
+  • Location
+    (No/No)
+  • Education
+    (No/No)
+  • Work
+    Security
+  • Joined
+    Mar 1, 2018
+
+• [259] May 18 '20 • Edited on May 18 • Edited
+
+  • [261]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+shakes his cane at you
+
+mutters incomprehensibly
+
+4 likes Like [264] Reply
+ 
+[265] holdit profile image
+[266] holdit
+holdit
+[268] [6f8ff7f5-7] holdit
+Follow
+
+  • Joined
+    May 15, 2020
+
+• [270] May 15 '20
+
+  • [272]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+Looking at the criticism made about some recent redesigns (reddit, facebook,
+etc) it seems that the main complaint (from a user point of view, at least) is
+how slow it feels compared to the previous version or to a "simple" site with
+HTML, CSS, and a little bit of javascript.
+
+I haven't checked it recently, but when the new reddit UI was released,
+scrolling was terrible on my $2500k laptop. It felt slow. Everything was
+sluggish. It also downloaded a few MB of javascript on pages that essentially
+had a thumbnail, a title, and some comments (not everyone lives in a big city
+or is connected to a super fast internet connection!). When the page was
+loaded, I was seeing more scrolling lag because they lazyload some content. I
+mean, it's hard to like this "modern web".
+
+As a user, I don't care about how things work behind the scenes. I don't mind
+some javascript on a page, after all we don't need a page reload just to
+preview a comment or "like" something. You can even use javascript for
+everything, I don't mind. But it needs to be fast and it needs to work well...
+and right now some "modern" sites provide a worse experience than before.
+
+24 likes Like [275] Reply
+ 
+[276] iamschulz profile image
+[277] Daniel Schulz
+Daniel Schulz
+[279] [0f4b16d2-a] Daniel Schulz
+Follow
+Hi! I'm a frontend guy.
+
+  • Location
+    Germany
+  • Education
+    Studied Media Art and Design
+  • Work
+    Performance Engineer at Baqend
+  • Joined
+    Sep 17, 2018
+
+• [281] May 15 '20 • Edited on May 15 • Edited
+
+  • [283]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+Tom identified the main weakness of modern web development correctly: It's
+based on javascript. He points out the sluggishness and accessibility problems
+that stem from that attitude, and hes absolutely right to do so. Static pages
+(as a paradigm, not as Gatsby in particular) are maybe not the cure for that,
+but they are definitely a step into the right direction.
+I just rewrote my website with hugo and specifically without a major JS
+framework, but settled for a vanilla approach rooted in a progressive
+enhancement mindset. I didn't even run into the problems that are inherent to
+React, Vue and Angular.
+Sure, you can serve HTML with SSR, but you still have to wait for the bundle in
+order to have a functional site, plus a truckload of ssr-related complexity.
+And that is utter rubbish. JS should never be a requirement, it needs to be put
+in its place as the cherry on top of the cake.
+Progressive enhancement needs not only to be a major approach to webdevelopment
+again, it needs to be out default mode of operation.
+This is also the core of Toms article. And I agree with him.
+
+That said, nothing stops you from adding features like nice transitions. But
+please be sure not to break standard web features while doing so.
+Transitions need to add to hyperlinks, not replace them.
+
+21 likes Like [286] Reply
+ 
+[287] richharris profile image
+[288] Rich Harris
+Rich Harris
+[290] [92d6b6d1-4] Rich Harris
+Follow
+I like turtles
+
+  • Location
+    Behind you
+  • Work
+    Graphics editor at the New York Times
+  • Joined
+    Jun 20, 2019
+
+• [292] May 15 '20
+
+  • [294]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+I feel like you didn't quite read the article closely enough ;) Of course
+progressive enhancement needs to be the default — that's why there's so much
+focus on SSR in all major meta-frameworks.
+
+    Sure, you can serve HTML with SSR, but you still have to wait for the
+    bundle in order to have a functional site
+
+This isn't true! Take [296]sapper.svelte.dev, which is a site built with Sapper
+and baked out as static pages. It works just fine without JavaScript, you just
+don't get client-side routing. It's a small site, but the same thing applies to
+larger ones like Gatsby's homepage — no JS? No problem.
+
+20 likes Like [298] Reply
+ 
+[299] iamschulz profile image
+[300] Daniel Schulz
+Daniel Schulz
+[302] [0f4b16d2-a] Daniel Schulz
+Follow
+Hi! I'm a frontend guy.
+
+  • Location
+    Germany
+  • Education
+    Studied Media Art and Design
+  • Work
+    Performance Engineer at Baqend
+  • Joined
+    Sep 17, 2018
+
+• [304] May 15 '20
+
+  • [306]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+It certainly is true for standard implementations of React-, Vue- and Angular-
+based sites. There may be a focus on SSR, but it still isn't close enough to
+deserve to be the default. It needs to come without extra complexity. Only then
+we're ready to take the step to fully embrace those solution.
+
+And this is my point. You need to take one step after the other. It was a
+mistake to build everything with javascript first and then try to look if it
+still works without afterwards. The damage to the web has been done.
+
+I didn't take a look at Sapper/Svelte. Though, in comparison, those are still a
+nieche product.
+
+7 likes Like Thread
+ 
+[309] martinmalinda profile image
+[310] Martin Malinda
+Martin Malinda
+[312] [2ee5ec39-1] Martin Malinda
+Follow
+
+  • Joined
+    Apr 7, 2020
+
+• [314] May 18 '20
+
+  • [316]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+    The damage to the web has been done.
+
+JS certainly caused a lot of damage on many websites. But now - finally - we're
+getting to the point of having frameworks which can, by default, offer
+client-side routing with SSR and hydration without shipping large bundles of
+JS. Up to this point the frontend devs should have been more conservative and
+they should have thought twice whether they should really go all-in into an
+SPA. But now's the time when it's really starting to be a viable option. Next,
+Nuxt, Marko and Sapper are finally technologies highly worth pursuing, even for
+content-based websites.
+
+2 likes Like [319] Reply
+ 
+[320] ben profile image
+[321] Ben Halpern
+Ben Halpern
+[323] [f451a206-1] Ben Halpern
+Follow
+A Canadian software developer who thinks he’s funny.
+
+  • Email
+    [325]ben@forem.com
+  • Location
+    NY
+  • Education
+    Mount Allison University
+  • Pronouns
+    He/him
+  • Work
+    Co-founder at Forem
+  • Joined
+    Dec 27, 2015
+
+• [326] May 15 '20
+
+  • [328]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+    The future I want — the future I see — is one with tooling that's
+    accessible to the greatest number of people (including designers), that can
+    intelligently move work between server and client as appropriate, that lets
+    us build experiences that compete with native on UX (yes, even for blogs!),
+    and where upgrading part of a site to 'interactive' or from 'static' to
+    'dynamic' doesn't involve communication across disparate teams using
+    different technologies. We can only get there by committing to the paradigm
+    Tom critiques — the JavaScript-ish component framework server-rendered SPA.
+    (Better names welcomed.)
+
+I like this takeaway because it's heavy on acknowledging the process behind the
+technology which is often disparate and confusing. Even the most
+well-intentioned and organized dev team is going to get out of wack if
+succeeding with the tooling is experts only. We need to be able to achieve
+great performance, UX and accessibility even under conditions where designers
+do some work, devs pop in some hotfixes here and there, old devs leave with
+some of the knowledge, priorities change, etc.
+
+19 likes Like [331] Reply
+ 
+[332] v6 profile image
+[333] 🦄N B🛡
+🦄N B🛡
+[335] [8267c2c7-f] 🦄N B🛡
+Follow
+// , “It is not so important to be serious as it is to be serious about the
+important things. The monkey wears an expression of seriousness... but the
+monkey is serious because he itches."(No/No)
+
+  • Location
+    (No/No)
+  • Education
+    (No/No)
+  • Work
+    Security
+  • Joined
+    Mar 1, 2018
+
+• [337] May 15 '20 • Edited on May 15 • Edited
+
+  • [339]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+I like this aspect of Mr. Harris' article, too. It's the first principle of the
+Tao of HashiCorp: [341]Workflows, not Technologies.
+
+    The HashiCorp approach is to focus on the end goal and workflow, rather
+    than the underlying technologies. Software and hardware will evolve and
+    improve, and it is our goal to make adoption of new tooling simple, while
+    still providing the most streamlined user experience possible. Product
+    design starts with an envisioned workflow to achieve a set goal. We then
+    identify existing tools that simplify the workflow. If a sufficient tool
+    does not exist, we step in to build it. This leads to a fundamentally
+    technology-agnostic view — we will use the best technology available to
+    solve the problem. As technologies evolve and better tooling emerges, the
+    ideal workflow is just updated to leverage those technologies. Technologies
+    change, end goals stay the same.
+
+And it's why Sacrificial Architecture appeases the dark ones.
+
+4 likes Like [343] Reply
+ 
+[344] phlash profile image
+[345] Phil Ashby
+Phil Ashby
+[347] [e6bffa0e-3] Phil Ashby
+Follow
+30+ years of tech, retired from an identity intelligence company, job done! Dev
+community mod - mostly light gardening & weeding out spam :)
+
+  • Location
+    Felixstowe, UK
+  • Education
+    M.Eng (hons) Electronics, MIET, MBCS, AMCIISec, CEH
+  • Pronouns
+    he/him
+  • Work
+    Retired!
+  • Joined
+    Apr 2, 2017
+
+• [349] May 15 '20
+
+  • [351]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+Good response, opinions are always worth having, as long as you are prepared to
+discuss/defend/change them! I had a few thoughts on this topic last year in
+response to your good self and web components that I think is worth referring
+back to: [353]dev.to/phlash909/comment/cghl
+
+In essence, the DOM and page model of HTML is a constraint around the outside
+of applications that might be better inverted: I'd like to see browsers that
+support HTML/DOM content if required, but do not constrain devs to always go
+though it. Let's stop thinking of them as HTML rendering engines, and start
+thinking of pre-installed runtimes with excellent web-based application
+management!
+
+We'll want to retain the benefits of dynamic software running on the client
+(native UX, easy architecture changes, no user-install step, etc.), while
+leveraging the effort that goes into making that a portable & safe thing to do
+(common APIs, sandboxes, browsers as the standard runtime for client-side
+applications). We are nearly there with PWAs perhaps? WASM then expands the
+available languages for the runtime, allowing common client/server languages
+and development processes to ease developer adoption. As/when a document needs
+rendering, then HTML/DOM/CSS is there to perform it's proper function, however
+many apps many be better off with a UX library (eg: SDL) or widget set (eg:
+wxWidgets) atop the runtime bindings.
+
+11 likes Like [355] Reply
+ 
+[356] v6 profile image
+[357] 🦄N B🛡
+🦄N B🛡
+[359] [8267c2c7-f] 🦄N B🛡
+Follow
+// , “It is not so important to be serious as it is to be serious about the
+important things. The monkey wears an expression of seriousness... but the
+monkey is serious because he itches."(No/No)
+
+  • Location
+    (No/No)
+  • Education
+    (No/No)
+  • Work
+    Security
+  • Joined
+    Mar 1, 2018
+
+• [361] May 15 '20
+
+  • [363]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+    start thinking of pre-installed runtimes with excellent web-based
+    application management!
+
+If you were to remove the "web-based" part, it'd almost describe the beginning
+of OSes back in the day.
+
+Which is perhaps what they are: The UI part of a vast "operating system" by
+which we access the "applications" of the internet.
+
+4 likes Like [366] Reply
+ 
+[367] panesofglass profile image
+[368] panesofglass
+panesofglass
+[370] [b5aa0a77-5] panesofglass
+Follow
+
+  • Joined
+    Jul 23, 2020
+
+• [372] Jul 23 '20
+
+  • [374]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+I believe at the point you fundamentally push to render things other than
+markup, you start making a different application. And that is perfectly
+reasonable. I’m frankly surprised how well HTTP has held up to so many use
+cases. I long ago expected to see far more protocols for more kinds of apps,
+but HTTP seems to have solved so many problems well enough that it now hosts
+other protocols.
+
+There are probably more protocols that could be written and hosted on other
+ports. Those would likely address many of these issues in a far better way. I
+just wonder when the industry will pivot back to building protocols and leave
+HTTP well enough alone.
+
+1 like Like [377] Reply
+ 
+[378] rhymes profile image
+[379] rhymes
+rhymes
+[381] [bfd9a4a5-9] rhymes
+Follow
+Such software as dreams are made on. I mostly rant about performance,
+unnecessary complexity, privacy and data collection.
+
+  • Joined
+    Feb 2, 2017
+
+• [383] Jul 23 '20
+
+  • [385]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+I think we're past that as most recent innovations in the web space are either
+formats or evolutions of HTTP. Why reinvent the wheel if the wheel works well?
+What do you think?
+
+1 like Like Thread
+ 
+[388] panesofglass profile image
+[389] panesofglass
+panesofglass
+[391] [b5aa0a77-5] panesofglass
+Follow
+
+  • Joined
+    Jul 23, 2020
+
+• [393] Jul 23 '20
+
+  • [395]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+HTTP/3 with QUIC seems like a great improvement, but it is changing HTTP. I
+don’t see why HTTP needs changing for most things. Why not update SMTP or FTP,
+as well? QUIC solves specific problems, and it might be better for those who
+need QUIC for it to have features better suited to their needs.
+
+In some ways, this also feels like the mash of several formats into HTML5 to
+avoid name spacing. While we focus on and champion components within our own
+apps, we continue to avoid and break components in the infrastructure.
+
+Therefore, I think we may see new protocols emerge as the weight of these
+complexities begin to cause problems. That could still be some way off.
+
+1 like Like Thread
+ 
+[398] rhymes profile image
+[399] rhymes
+rhymes
+[401] [bfd9a4a5-9] rhymes
+Follow
+Such software as dreams are made on. I mostly rant about performance,
+unnecessary complexity, privacy and data collection.
+
+  • Joined
+    Feb 2, 2017
+
+• [403] Jul 23 '20
+
+  • [405]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+I'm not sure it is changing HTTP, it's HTTP over UDP. The protocol is basically
+the same as HTTP/1 and HTTP/2.
+
+    QUIC solves specific problems, and it might be better for those who need
+    QUIC for it to have features better suited to their needs.
+
+QUIC solves a specific problem HTTP has because it sits on top of TCP though,
+basically pipelining
+
+    In some ways, this also feels like the mash of several formats into HTML5
+    to avoid name spacing. While we focus on and champion components within our
+    own apps, we continue to avoid and break components in the infrastructure.
+
+I'm not sure I follow the analogy with HTML5, sorry :( IIRC HTML5 was created
+to stop having to revise HTML as a a single unit and let things evolve at their
+own pace. Same with CSS 3 I guess. I don't think it's the same thing here: HTTP
+/3 is the result of the entire world using HTTP and needing to improve
+performance.
+
+Could they have created a new protocol? Sure, but why break compatibility with
+millions of browsers, proxies, machines, software application and so on that
+understand and function through HTTP? I think the decision to rewrite the
+transport layer to be a smart one.
+
+This doesn't mean that other protocols can't emerge, but it's okay not to throw
+away those that work already
+
+1 like Like [408] Reply
+ 
+[409] gregfletcher profile image
+[410] Greg Fletcher
+Greg Fletcher
+[412] [60dd3143-5] Greg Fletcher
+Follow
+loop { refactoring() }
+
+  • Work
+    Full Stack at Freelance
+  • Joined
+    Mar 16, 2019
+
+• [414] May 15 '20
+
+  • [416]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+Great article!
+
+Doesn't a lot of this disagreement stem from --> "keep the web as it is, coz
+it's fine" vs "let's make it better by making mistakes along the way coz that's
+how software development works"?
+
+14 likes Like [419] Reply
+ 
+[420] v6 profile image
+[421] 🦄N B🛡
+🦄N B🛡
+[423] [8267c2c7-f] 🦄N B🛡
+Follow
+// , “It is not so important to be serious as it is to be serious about the
+important things. The monkey wears an expression of seriousness... but the
+monkey is serious because he itches."(No/No)
+
+  • Location
+    (No/No)
+  • Education
+    (No/No)
+  • Work
+    Security
+  • Joined
+    Mar 1, 2018
+
+• [425] May 15 '20
+
+  • [427]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+What about making it better by [429]sacrificing it?
+
+We can [430]learn this lesson from Biology, that the best way to avoid
+excessive optimization is the ultimate flexibility: Keeping the option on the
+table to throw out the code, or well abstracted parts of it, and rewrite that
+code or product from scratch.
+
+It's a little known "dark" pattern of Software Design, from the shadows of
+Agile, called "Sacrificial Architecture."
+
+[431]exponential growth isnt kind to architectural decisions
+
+5 likes Like [433] Reply
+ 
+[434] richharris profile image
+[435] Rich Harris
+Rich Harris
+[437] [92d6b6d1-4] Rich Harris
+Follow
+I like turtles
+
+  • Location
+    Behind you
+  • Work
+    Graphics editor at the New York Times
+  • Joined
+    Jun 20, 2019
+
+• [439] May 15 '20
+
+  • [441]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+    Is the Web for applications?
+
+I feel like this question sort of answers itself! Have you heard of Amazon?
+Gmail? Facebook?
+
+13 likes Like [444] Reply
+ 
+[445] ben profile image
+[446] Ben Halpern
+Ben Halpern
+[448] [f451a206-1] Ben Halpern
+Follow
+A Canadian software developer who thinks he’s funny.
+
+  • Email
+    [450]ben@forem.com
+  • Location
+    NY
+  • Education
+    Mount Allison University
+  • Pronouns
+    He/him
+  • Work
+    Co-founder at Forem
+  • Joined
+    Dec 27, 2015
+
+• [451] May 15 '20
+
+  • [453]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+My perpective: The web is for applications. The web is also for rich documents
+where reading and simple linking can take priority.
+
+And there is an uncanny valley when you the latter is the sensible choice, but
+the former is the approach taken.
+
+And many, the web is whatever Google tells them it is. Is AMP the web?
+
+22 likes Like [456] Reply
+ 
+[457] rhymes profile image
+[458] rhymes
+rhymes
+[460] [bfd9a4a5-9] rhymes
+Follow
+Such software as dreams are made on. I mostly rant about performance,
+unnecessary complexity, privacy and data collection.
+
+  • Joined
+    Feb 2, 2017
+
+• [462] May 18 '20 • Edited on May 18 • Edited
+
+  • [464]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+    It strikes me that the web never was and never will be anything like any
+    other platform for building applications. Whether or not someone wants to
+    turn it into that is their prerogative and any success they have probably
+    will help others build better things. But it ultimately depends on what you
+    want to build and why, and emulating a native application might not always
+    be the best option.
+
+this :-)
+
+5 likes Like [467] Reply
+ 
+[468] gotofritz profile image
+[469] fritz
+fritz
+[471] [4e77b2fc-1] fritz
+Follow
+
+  • Location
+    Berlin
+  • Joined
+    Sep 28, 2018
+
+• [473] May 22 '20
+
+  • [475]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+    We need to have a similar approach in client side frameworks.
+
+No we don't... if the The One True Omniscient God Framework approach that Rails
+developers are constantly pining for was really the best one, then Rails would
+be ruling. It isn't; it peaked in 2012 or thereabouts, knocked off its perch by
+Node, among other technologies. It's a single point of failure and it cannot
+adapt quickly enough to the bewilderingly fast changing environment in which we
+operate.
+
+Alternatively, you can pick one of the two frameworks that follow the model you
+advocate: Ember (actually inspired by Rails) or Angular (more of a C# flavour),
+both of which strive to be a nanny that remove as much as possible the need to
+(god forbid!) make your own decisions or (the horror!) having to learn new
+tools
+
+    If I could have the framework of my dreams ... It would allow me to focus
+    on HTML with a sprinkle of JavaScript.
+
+You may want to consider [477]stimulusjs.org/, which comes from the Rails
+universe (it was created by no other than David Heinemeier Hansson, the Rails
+Superstar) and does exactly what you want
+
+5 likes Like Thread
+ 
+[479] loilo profile image
+[480] Florian Reuschel
+Florian Reuschel
+[482] [13456f88-0] Florian Reuschel
+Follow
+Web developer (JS, PHP), OSS enthusiast, loves to explain things to beginners
+
+  • Location
+    Karlsruhe, DE
+  • Joined
+    Jan 14, 2017
+
+• [484] May 22 '20
+
+  • [486]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+Can confirm that the Stimulus framework works great for that exact use case.
+But if you're used to the more common frameworks, you might quickly miss the
+declarative "give me data, I give you DOM" approach they provide.
+
+I haven't tried it myself yet, but [488]Alpine.js gained some steam lately and
+might be a good middle ground between Stimulus and the "top dogs".
+
+4 likes Like [490] Reply
+ 
+[491] mattwelke profile image
+[492] Matt Welke
+Matt Welke
+[494] [666b194b-1] Matt Welke
+Follow
+Back end software developer, open source enthusiast.
+
+  • Location
+    Ontario, Canada
+  • Education
+    Seneca College
+  • Work
+    Backend software engineer at DigitalOcean
+  • Joined
+    Aug 16, 2019
+
+• [496] May 27 '20
+
+  • [498]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+    writing an Express API requires "old javascript" unless you want to go
+    through the hassle of setting Babel up
+
+Not sure what you mean here. You can use very recent JS features in Node. We
+have async/await, async iteration, ES module imports, and more now. I've never
+felt the need to set up Babel in an Express project.
+
+5 likes Like [501] Reply
+ 
+[502] mattgperry profile image
+[503] Matt Perry
+Matt Perry
+[505] [f6c730d5-6] Matt Perry
+Follow
+Creator of Framer Motion, Popmotion and Pose
+
+  • Location
+    Amsterdam
+  • Joined
+    May 15, 2020
+
+• [507] May 15 '20
+
+  • [509]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+    it's widely understood that if you want 60fps animation, you will likely
+    have to bypass the React update cycle and do things in a more imperative
+    fashion (indeed, this is what libraries like react-spring do)
+
+Probably aside from the article, which I largely agree with, but I think this
+is an odd point to try and make. This is true of any component library that has
+overhead above imperative JS. But there's nothing stopping you from using CSS
+in React, which is all Svelte does anyway.
+
+9 likes Like [512] Reply
+ 
+[513] richharris profile image
+[514] Rich Harris
+Rich Harris
+[516] [92d6b6d1-4] Rich Harris
+Follow
+I like turtles
+
+  • Location
+    Behind you
+  • Work
+    Graphics editor at the New York Times
+  • Joined
+    Jun 20, 2019
+
+• [518] May 15 '20
+
+  • [520]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+Wrong, sorry :)
+
+This isn't a CSS demo: [522]twitter.com/Rich_Harris/status/120...
+
+11 likes Like [524] Reply
+ 
+[525] daniel15 profile image
+[526] Daniel Lo Nigro
+Daniel Lo Nigro
+[528] [91933] Daniel Lo Nigro
+Follow
+Australian living in the San Francisco Bay Area. Senior Front End Engineer at
+Meta
+
+  • Location
+    San Francisco Bay Area
+  • Education
+    Swinburne University, Australia
+  • Work
+    Senior Front End Engineer at Meta
+  • Joined
+    Jan 11, 2017
+
+• [530] May 15 '20 • Edited on May 15 • Edited
+
+  • [532]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+    We can provide better visual feedback that loading is taking place
+
+I'm not so sure about that... IMO, so many single-page apps get this wrong. The
+native browser loading indicator is still a lot better than many SPAs, and
+unfortunately it's something that can't be triggered from JS (apart from ugly
+hacks like infinitely-loading iframes)
+
+    With the advent of Node, that changed. The fact that we can do server-side
+    rendering and communicate with databases and what-have-you using a language
+    native to the web is a wonderful development.
+
+Server-side JS was a thing looooong before Node. I remember using Microsoft's
+version of JavaScript ("JScript") server-side via Classic ASP in the early
+2000s. The issue back then was that JavaScript just wasn't quite that popular
+yet. ES5 wasn't around yet (it was all ES3), and there was a lack of good
+third-party libraries. But still, it was absolutely in use long before Node
+even existed.
+
+What Node did do was cross-platform support, introduce a module system
+(CommonJS) as standard, and introduced the concept of easily obtaining
+third-party packages via "npm", taking ideas from similar systems like Perl's
+CPAN.
+
+4 likes Like [535] Reply
+ 
+[536] mrispoli24 profile image
+[537] Mike Rispoli
+Mike Rispoli
+[539] [93acebe4-b] Mike Rispoli
+Follow
+I'm an award-winning designer, engineer and creative technologist that helps
+daring founders ship valuable software.
+
+  • Location
+    New York City
+  • Work
+    Co-founder & CTO at Cause of a Kind
+  • Joined
+    Mar 8, 2019
+
+• [541] May 15 '20
+
+  • [543]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+So one thing I wondered after reading Tom's article and now yours is how you
+feel about modern UI being so tied to node or javascript run times on the
+backend specifically. For instance if you were to be running something in Go
+and Phoenix you could dynamically render HTML on the back end and serve it up
+quite a bit faster that the current SSR environments based in Next or Nuxt or
+Sapper? So essentially somewhat the way Stimulus JS works where you can send
+over static HTML, rendered anywhere, by any type of server and the frontend
+could just hydrate that and build components from it.
+
+3 likes Like [546] Reply
+ 
+[547] richharris profile image
+[548] Rich Harris
+Rich Harris
+[550] [92d6b6d1-4] Rich Harris
+Follow
+I like turtles
+
+  • Location
+    Behind you
+  • Work
+    Graphics editor at the New York Times
+  • Joined
+    Jun 20, 2019
+
+• [552] May 15 '20
+
+  • [554]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+This is the 'PHP with jQuery sprinkles' approach I mention in the article,
+except with shinier things than PHP and jQuery. I'm not a fan, personally.
+
+Phoenix LiveView is an interesting take on the problem, but I suspect you hit a
+limit as to how ambitious your UI can be when deltas have to come across web
+sockets at a consistent 60fps.
+
+5 likes Like [557] Reply
+ 
+[558] mrispoli24 profile image
+[559] Mike Rispoli
+Mike Rispoli
+[561] [93acebe4-b] Mike Rispoli
+Follow
+I'm an award-winning designer, engineer and creative technologist that helps
+daring founders ship valuable software.
+
+  • Location
+    New York City
+  • Work
+    Co-founder & CTO at Cause of a Kind
+  • Joined
+    Mar 8, 2019
+
+• [563] May 15 '20
+
+  • [565]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+So do you think it’s impossible for a framework to effectively hydrate static
+HTML not rendered by that frameworks specified renderToString method?
+
+I really don’t know what these functions do under the hood to allow rehydration
+so I’m just curious if it would be possible and achieve a good frame rate.
+
+2 likes Like [568] Reply
+ 
+[569] vintharas profile image
+[570] Jaime González García
+Jaime González García
+[572] [09d69d89-7] Jaime González García
+Follow
+Senior Software Engineer at Google working on Google Meet 👨‍💻 Helping
+developers be more awesome 🔥 author, speaker & nerd 🧙🏼‍♂️ into JavaScript,
+TypeScript, Vim & pixelart ❤️
+
+  • Location
+    Stockholm
+  • Education
+    MsC Telecommunications Engineering
+  • Work
+    Senior Software Engineer at Google
+  • Joined
+    Aug 15, 2018
+
+• [574] May 15 '20
+
+  • [576]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+Beautifully written and very inspiring 😀👏👏👏
+
+4 likes Like [579] Reply
+[580] View full discussion (98 comments)
+[581]Code of Conduct • [582]Report abuse
+
+Are you sure you want to hide this comment? It will become hidden in your post,
+but will still be visible via the comment's [586]permalink.
+
+[588][ ]
+
+Hide child comments as well
+
+Confirm
+
+For further actions, you may consider blocking this person and/or [590]
+reporting abuse
 
 Read next
 
-   franciscomendes10866 profile image
+[591]
+tthroo profile image
 
-Next.js and GraphQL: The Perfect Combination for Full Stack Development
+Build your SaaS landing page in 15 minutes using Mantine
 
-   Francisco Mendes - Jul 1
+TThroo-Dev - Jan 11
 
-   bdbch profile image
+[592]
+tlaloces profile image
 
-Sharing your Tailwind Configuration between Monorepo Packages
+Authentication example with FastAPI and JWT, is it as easy and straightforward
+as they claim?
 
-   bdbch - Jun 23
+Tlaloc-Es - Jan 11
 
-   desoga profile image
+[593]
+myogeshchavan97 profile image
 
-How to Fetch Data using the provideHttpClient in Angular
+I Launched The Most Awaited Complete React Course
 
-   deji adesoga - Jul 1
+Yogesh Chavan - Jan 13
 
-   jeetvora331 profile image
+[594]
+ziontutorial profile image
 
-React Hooks vs Functions made easy
+Build a Dynamic Currency Converter Beginner React Project
 
-   jeetvora331 - Jun 19
+ziontutorial - Jan 11
 
-   [301]Rich Harris
-   (button) Follow
-   I like turtles
-     * Location
-       Behind you
-     * Work
-       Graphics editor at the New York Times
-     * Joined
-       Jun 20, 2019
+[595] [92d6b6d1-4] Rich Harris
+Follow
+I like turtles
 
-More from [302]Rich Harris
+  • Location
+    Behind you
+  • Work
+    Graphics editor at the New York Times
+  • Joined
+    Jun 20, 2019
 
-   [303]Stay alert
-   #javascript
-   [304]A new technique for making responsive, JavaScript-free charts
-   #dataviz #svelte #javascript
+More from [597]Rich Harris
 
-   Once suspended, richharris will not be able to comment or publish posts
-   until their suspension is removed.
-   Note:
-   ______________________________________________________________________
-   ______________________________________________________________________
-   ______________________________________________________________________
-   ______________________________________________________________________
+[598] Stay alert
+#javascript
+[599] A new technique for making responsive, JavaScript-free charts
+#dataviz #svelte #javascript
 
-   (BUTTON) Submit & Suspend
+Once suspended, richharris will not be able to comment or publish posts until
+their suspension is removed.
 
-   Once unsuspended, richharris will be able to comment and publish posts
-   again.
-   Note:
-   ______________________________________________________________________
-   ______________________________________________________________________
-   ______________________________________________________________________
-   ______________________________________________________________________
+      [                                                                      ]
+      [                                                                      ]
+      [                                                                      ]
+Note: [                                                                      ]
 
-   (BUTTON) Submit & Unsuspend
+Submit & Suspend
 
-   Once unpublished, all posts by richharris will become hidden and only
-   accessible to themselves.
+Once unsuspended, richharris will be able to comment and publish posts again.
 
-   If richharris is not suspended, they can still re-publish their posts
-   from their dashboard.
+      [                                                                      ]
+      [                                                                      ]
+      [                                                                      ]
+Note: [                                                                      ]
 
-   Note:
-   ____________________________________________________________
-   ____________________________________________________________
-   ____________________________________________________________
-   ____________________________________________________________
-   (BUTTON) Unpublish all posts
+Submit & Unsuspend
 
-   Once unpublished, this post will become invisible to the public and
-   only accessible to Rich Harris.
+Once unpublished, all posts by richharris will become hidden and only
+accessible to themselves.
 
-   They can still re-publish the post if they are not suspended.
-   (BUTTON) Unpublish Post
+If richharris is not suspended, they can still re-publish their posts from
+their dashboard.
 
-   Thanks for keeping DEV Community safe. Here is what you can do to flag
-   richharris:
-   (*) Make all posts by richharris less visible
+Note:[                    ]
 
-   richharris consistently posts content that violates DEV Community's
-   code of conduct because it is harassing, offensive or spammy.
-   [305]Report other inappropriate conduct
+Unpublish all posts
 
-   (BUTTON) Confirm Flag
+Once unpublished, this post will become invisible to the public and only
+accessible to Rich Harris.
 
-   Unflagging richharris will restore default visibility to their posts.
-   (BUTTON) Confirm Unflag
+They can still re-publish the post if they are not suspended.
 
-   [306]DEV Community — A constructive and inclusive social network for
-   software developers. With you every step of your journey.
-     * [307]Home
-     * [308]Listings
-     * [309]Podcasts
-     * [310]Videos
-     * [311]Tags
-     * [312]FAQ
-     * [313]Forem Shop
-     * [314]Sponsors
-     * [315]About
-     * [316]Contact
-     * [317]Guides
-     * [318]Software comparisons
+Unpublish Post
 
-     * [319]Code of Conduct
-     * [320]Privacy Policy
-     * [321]Terms of use
+Thanks for keeping DEV Community safe. Here is what you can do to flag
+richharris:
 
-   Built on [322]Forem — the [323]open source software that powers
-   [324]DEV and other inclusive communities.
+[607]( ) Make all posts by richharris less visible
 
-   Made with love and [325]Ruby on Rails. DEV Community © 2016 - 2023.
+richharris consistently posts content that violates DEV Community's code of
+conduct because it is harassing, offensive or spammy.
 
-   DEV Community
+[608] Report other inappropriate conduct
 
-   We're a place where coders share, stay up-to-date and grow their
-   careers.
-   [326]Log in [327]Create account
+Confirm Flag
 
-References
+Unflagging richharris will restore default visibility to their posts.
 
-   Visible links:
-   1. https://dev.to/open-search.xml
-   2. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#main-content
-   3. file:///
-   4. file:///enter
-   5. file:///enter?state=new-user
-   6. https://twitter.com/intent/tweet?text="In defense of the modern web" by @Rich_Harris #DEVCommunity https://dev.to/richharris/in-defense-of-the-modern-web-2nia
-   7. https://www.linkedin.com/shareArticle?mini=true&url=https://dev.to/richharris/in-defense-of-the-modern-web-2nia&title=In defense of the modern web&summary=I expect I'll annoy everyone with this post: the anti-JavaScript crusaders, justly aghast at how much...&source=DEV Community
-   8. https://www.reddit.com/submit?url=https://dev.to/richharris/in-defense-of-the-modern-web-2nia&title=In defense of the modern web
-   9. https://news.ycombinator.com/submitlink?u=https://dev.to/richharris/in-defense-of-the-modern-web-2nia&t=In defense of the modern web
-  10. https://www.facebook.com/sharer.php?u=https://dev.to/richharris/in-defense-of-the-modern-web-2nia
-  11. https://toot.kytta.dev/?text=https://dev.to/richharris/in-defense-of-the-modern-web-2nia
-  12. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html
-  13. file:///report-abuse
-  14. file:///richharris
-  15. file:///richharris
-  16. file:///t/javascript
-  17. file:///t/react
-  18. file:///t/svelte
-  19. file:///t/webdev
-  20. https://twitter.com/tmcw
-  21. https://macwright.org/2020/05/10/spa-fatigue.html
-  22. https://twitter.com/tmcw/status/1259600386094030848
-  23. https://www.react-spring.io/
-  24. https://svelte.dev/
-  25. https://macwright.org/2020/05/10/spa-fatigue.html
-  26. https://gatsbyjs.org/
-  27. https://res.cloudinary.com/practicaldev/image/fetch/s--L4S_VLxO--/c_limit,f_auto,fl_progressive,q_auto,w_880/https://user-images.githubusercontent.com/1162160/82001896-43e38b00-962a-11ea-9ae7-bda853a8cec1.png
-  28. https://webpagetest.org/lighthouse.php?test=200515_N4_a92cbdd5b87d402522f710a8d82d2228&run=1
-  29. https://webpagetest.org/easy
-  30. https://dev.to/ryanflorence
-  31. https://twitter.com/intent/tweet?in_reply_to=1186675229621248000
-  32. https://twitter.com/intent/retweet?tweet_id=1186675229621248000
-  33. https://twitter.com/intent/like?tweet_id=1186675229621248000
-  34. https://nextjs.org/
-  35. https://medium.com/@mlrawlings/maybe-you-dont-need-that-spa-f2c659bc7fec
-  36. https://sapper.svelte.dev/
-  37. https://svelte.dev/
-  38. file:///settings/response-templates
-  39. file:///404.html
-  40. https://dev.to/twigman08
-  41. https://dev.to/twigman08
-  42. file:///twigman08
-  43. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2j6
-  44. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2j6
-  45. https://dev.to/gotofritz
-  46. https://dev.to/gotofritz
-  47. file:///gotofritz
-  48. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p5gj
-  49. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p5gj
-  50. https://dev.to/twigman08
-  51. https://dev.to/twigman08
-  52. file:///twigman08
-  53. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p7ke
-  54. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p7ke
-  55. https://dev.to/gotofritz
-  56. https://dev.to/gotofritz
-  57. file:///gotofritz
-  58. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-paob
-  59. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-paob
-  60. https://dev.to/adrianus
-  61. https://dev.to/adrianus
-  62. file:///adrianus
-  63. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p6g5
-  64. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p6g5
-  65. https://dev.to/techbelle
-  66. https://dev.to/techbelle
-  67. file:///techbelle
-  68. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-1bp6j
-  69. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-1bp6j
-  70. https://dev.to/ojrask
-  71. https://dev.to/ojrask
-  72. file:///ojrask
-  73. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-1epjh
-  74. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-1epjh
-  75. https://dev.to/gotofritz
-  76. https://dev.to/gotofritz
-  77. file:///gotofritz
-  78. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-1epjk
-  79. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-1epjk
-  80. https://dev.to/ojrask
-  81. https://dev.to/ojrask
-  82. file:///ojrask
-  83. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-1epn5
-  84. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-1epn5
-  85. https://dev.to/gotofritz
-  86. https://dev.to/gotofritz
-  87. file:///gotofritz
-  88. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-1f04h
-  89. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-1f04h
-  90. https://dev.to/jacobmakestheweb
-  91. https://dev.to/jacobmakestheweb
-  92. file:///jacobmakestheweb
-  93. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-1i7gc
-  94. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-1i7gc
-  95. https://dev.to/mark_saward
-  96. https://dev.to/mark_saward
-  97. file:///mark_saward
-  98. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2k0
-  99. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2k0
- 100. https://dev.to/ryansolid
- 101. https://dev.to/ryansolid
- 102. file:///ryansolid
- 103. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p369
- 104. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p369
- 105. https://dev.to/mark_saward
- 106. https://dev.to/mark_saward
- 107. file:///mark_saward
- 108. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p3b8
- 109. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p3b8
- 110. https://dev.to/adrianus
- 111. https://dev.to/adrianus
- 112. file:///adrianus
- 113. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p7ka
- 114. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p7ka
- 115. https://dev.to/oenonono
- 116. https://dev.to/oenonono
- 117. file:///oenonono
- 118. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p4hk
- 119. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p4hk
- 120. https://dev.to/v6
- 121. https://dev.to/v6
- 122. file:///v6
- 123. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p34a
- 124. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p34a
- 125. https://dev.to/gotofritz
- 126. https://dev.to/gotofritz
- 127. file:///gotofritz
- 128. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p5gf
- 129. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p5gf
- 130. https://dev.to/v6
- 131. https://dev.to/v6
- 132. file:///v6
- 133. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p5lf
- 134. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p5lf
- 135. https://dev.to/stew_sims
- 136. https://dev.to/stew_sims
- 137. file:///stew_sims
- 138. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2kj
- 139. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2kj
- 140. https://dev.to/rhymes
- 141. https://dev.to/rhymes
- 142. file:///rhymes
- 143. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p6cm
- 144. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p6cm
- 145. https://dev.to/oenonono
- 146. https://dev.to/oenonono
- 147. file:///oenonono
- 148. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p4hm
- 149. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p4hm
- 150. https://dev.to/holdit
- 151. https://dev.to/holdit
- 152. file:///holdit
- 153. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2p4
- 154. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2p4
- 155. https://dev.to/iamschulz
- 156. https://dev.to/iamschulz
- 157. file:///iamschulz
- 158. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2hk
- 159. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2hk
- 160. https://dev.to/richharris
- 161. https://dev.to/richharris
- 162. file:///richharris
- 163. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2i2
- 164. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2i2
- 165. https://sapper.svelte.dev/
- 166. https://dev.to/iamschulz
- 167. https://dev.to/iamschulz
- 168. file:///iamschulz
- 169. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2id
- 170. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2id
- 171. https://dev.to/martinmalinda
- 172. https://dev.to/martinmalinda
- 173. file:///martinmalinda
- 174. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p5d6
- 175. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p5d6
- 176. https://dev.to/ben
- 177. https://dev.to/ben
- 178. file:///ben
- 179. mailto:ben@forem.com
- 180. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2jk
- 181. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2jk
- 182. https://dev.to/v6
- 183. https://dev.to/v6
- 184. file:///v6
- 185. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p34f
- 186. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p34f
- 187. https://www.hashicorp.com/tao-of-hashicorp#workflows,-not-technologies
- 188. https://dev.to/phlash
- 189. https://dev.to/phlash
- 190. file:///phlash
- 191. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2j3
- 192. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2j3
- 193. https://dev.to/phlash909/comment/cghl
- 194. https://dev.to/v6
- 195. https://dev.to/v6
- 196. file:///v6
- 197. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p348
- 198. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p348
- 199. https://dev.to/panesofglass
- 200. https://dev.to/panesofglass
- 201. file:///panesofglass
- 202. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-12d20
- 203. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-12d20
- 204. https://dev.to/rhymes
- 205. https://dev.to/rhymes
- 206. file:///rhymes
- 207. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-12d40
- 208. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-12d40
- 209. https://dev.to/panesofglass
- 210. https://dev.to/panesofglass
- 211. file:///panesofglass
- 212. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-12dc2
- 213. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-12dc2
- 214. https://dev.to/rhymes
- 215. https://dev.to/rhymes
- 216. file:///rhymes
- 217. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-12df6
- 218. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-12df6
- 219. https://dev.to/gregfletcher
- 220. https://dev.to/gregfletcher
- 221. file:///gregfletcher
- 222. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2j2
- 223. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2j2
- 224. https://dev.to/v6
- 225. https://dev.to/v6
- 226. file:///v6
- 227. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p34d
- 228. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p34d
- 229. https://martinfowler.com/bliki/SacrificialArchitecture.html
- 230. https://youtu.be/oKg1hTOQXoY?t=1754
- 231. https://res.cloudinary.com/practicaldev/image/fetch/s--KIKmJfBA--/c_limit,f_auto,fl_progressive,q_66,w_880/https://dev-to-uploads.s3.amazonaws.com/i/5ehz4jt3d7skefmuwg6d.gif
- 232. https://dev.to/richharris
- 233. https://dev.to/richharris
- 234. file:///richharris
- 235. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2n0
- 236. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2n0
- 237. https://dev.to/ben
- 238. https://dev.to/ben
- 239. file:///ben
- 240. mailto:ben@forem.com
- 241. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2nd
- 242. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2nd
- 243. https://dev.to/gotofritz
- 244. https://dev.to/gotofritz
- 245. file:///gotofritz
- 246. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-paom
- 247. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-paom
- 248. https://stimulusjs.org/
- 249. https://dev.to/loilo
- 250. https://dev.to/loilo
- 251. file:///loilo
- 252. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-pb3c
- 253. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-pb3c
- 254. https://github.com/alpinejs/alpine
- 255. https://dev.to/mattwelke
- 256. https://dev.to/mattwelke
- 257. file:///mattwelke
- 258. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-pg9g
- 259. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-pg9g
- 260. https://dev.to/mattgperry
- 261. https://dev.to/mattgperry
- 262. file:///mattgperry
- 263. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2i0
- 264. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2i0
- 265. https://dev.to/richharris
- 266. https://dev.to/richharris
- 267. file:///richharris
- 268. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2je
- 269. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2je
- 270. https://twitter.com/Rich_Harris/status/1200807516529147904
- 271. https://dev.to/daniel15
- 272. https://dev.to/daniel15
- 273. file:///daniel15
- 274. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2n6
- 275. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2n6
- 276. https://dev.to/mrispoli24
- 277. https://dev.to/mrispoli24
- 278. file:///mrispoli24
- 279. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2kc
- 280. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2kc
- 281. https://dev.to/richharris
- 282. https://dev.to/richharris
- 283. file:///richharris
- 284. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2p5
- 285. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2p5
- 286. https://dev.to/mrispoli24
- 287. https://dev.to/mrispoli24
- 288. file:///mrispoli24
- 289. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p35p
- 290. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p35p
- 291. https://dev.to/lawwantsin
- 292. https://dev.to/lawwantsin
- 293. file:///lawwantsin
- 294. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2i8
- 295. https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2i8
- 296. file:///richharris/in-defense-of-the-modern-web-2nia/comments
- 297. file:///code-of-conduct
- 298. file:///report-abuse
- 299. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html
- 300. file:///report-abuse
- 301. file:///richharris
- 302. file:///richharris
- 303. file:///richharris/stay-alert-d
- 304. file:///richharris/a-new-technique-for-making-responsive-javascript-free-charts-gmp
- 305. javascript:void(0);
- 306. file:///
- 307. file:///
- 308. file:///listings
- 309. file:///pod
- 310. file:///videos
- 311. file:///tags
- 312. file:///faq
- 313. https://shop.forem.com/
- 314. file:///sponsorships
- 315. file:///about
- 316. file:///contact
- 317. file:///guides
- 318. file:///software-comparisons
- 319. file:///code-of-conduct
- 320. file:///privacy
- 321. file:///terms
- 322. https://www.forem.com/
- 323. https://dev.to/t/opensource
- 324. https://dev.to/
- 325. https://dev.to/t/rails
- 326. file:///enter
- 327. file:///enter?state=new-user
+Confirm Unflag
 
-   Hidden links:
- 329. file://localhost/search
- 330. file://localhost/richharris/in-defense-of-the-modern-web-2nia?comments_sort=top#toggle-comments-sort-dropdown
- 331. file://localhost/richharris/in-defense-of-the-modern-web-2nia?comments_sort=latest#toggle-comments-sort-dropdown
- 332. file://localhost/richharris/in-defense-of-the-modern-web-2nia?comments_sort=oldest#toggle-comments-sort-dropdown
- 333. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2j6
- 334. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p5gj
- 335. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/paob
- 336. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p6g5
- 337. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/1bp6j
- 338. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/1i7gc
- 339. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2k0
- 340. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p369
- 341. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p7ka
- 342. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p4hk
- 343. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p34a
- 344. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p5lf
- 345. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2kj
- 346. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p6cm
- 347. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p4hm
- 348. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2p4
- 349. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2hk
- 350. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2i2
- 351. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p5d6
- 352. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2jk
- 353. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p34f
- 354. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2j3
- 355. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p348
- 356. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/12d20
- 357. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/12df6
- 358. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2j2
- 359. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p34d
- 360. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2n0
- 361. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2nd
- 362. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/pb3c
- 363. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/pg9g
- 364. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2i0
- 365. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2je
- 366. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2n6
- 367. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2kc
- 368. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2p5
- 369. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p35p
- 370. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12384-4857TMP.html#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2i8
- 371. file://localhost/franciscomendes10866/nextjs-and-graphql-the-perfect-combination-for-full-stack-development-18l7
- 372. file://localhost/bdbch/sharing-your-tailwind-configuration-between-monorepo-packages-4o5k
- 373. file://localhost/this-is-angular/how-to-fetch-data-using-the-providehttpclient-in-angular-5h47
- 374. file://localhost/jeetvora331/react-hooks-vs-functions-made-easy-2g2l
+[611]DEV Community — A constructive and inclusive social network for software
+developers. With you every step of your journey.
+
+  • [612] Home
+  • [613] Podcasts
+  • [614] Videos
+  • [615] Tags
+  • [616] FAQ
+  • [617] Forem Shop
+  • [618] Advertise on DEV
+  • [619] About
+  • [620] Contact
+  • [621] Guides
+  • [622] Software comparisons
+
+  • [623] Code of Conduct
+  • [624] Privacy Policy
+  • [625] Terms of use
+
+Built on [626]Forem — the [627]open source software that powers [628]DEV and
+other inclusive communities.
+
+Made with love and [629]Ruby on Rails. DEV Community © 2016 - 2024.
+
+DEV Community
+
+We're a place where coders share, stay up-to-date and grow their careers.
+
+[630] Log in [631] Create account
+● ● ● ● ●
+
+References:
+
+[1] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#main-content
+[3] https://dev.to/
+[6] https://dev.to/search
+[7] https://dev.to/enter
+[8] https://dev.to/enter?state=new-user
+[20] https://twitter.com/intent/tweet?text=%22In%20defense%20of%20the%20modern%20web%22%20by%20%40Rich_Harris%20%23DEVCommunity%20https%3A%2F%2Fdev.to%2Frichharris%2Fin-defense-of-the-modern-web-2nia
+[21] https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdev.to%2Frichharris%2Fin-defense-of-the-modern-web-2nia&title=In%20defense%20of%20the%20modern%20web&summary=I%20expect%20I%27ll%20annoy%20everyone%20with%20this%20post%3A%20the%20anti-JavaScript%20crusaders%2C%20justly%20aghast%20at%20how%20much...&source=DEV%20Community
+[22] https://www.reddit.com/submit?url=https%3A%2F%2Fdev.to%2Frichharris%2Fin-defense-of-the-modern-web-2nia&title=In%20defense%20of%20the%20modern%20web
+[23] https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fdev.to%2Frichharris%2Fin-defense-of-the-modern-web-2nia&t=In%20defense%20of%20the%20modern%20web
+[24] https://www.facebook.com/sharer.php?u=https%3A%2F%2Fdev.to%2Frichharris%2Fin-defense-of-the-modern-web-2nia
+[25] https://toot.kytta.dev/?text=https%3A%2F%2Fdev.to%2Frichharris%2Fin-defense-of-the-modern-web-2nia
+[26] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#
+[27] https://dev.to/report-abuse
+[28] https://dev.to/richharris
+[29] https://dev.to/richharris
+[30] https://dev.to/t/javascript
+[31] https://dev.to/t/react
+[32] https://dev.to/t/svelte
+[33] https://dev.to/t/webdev
+[34] https://twitter.com/tmcw
+[35] https://macwright.org/2020/05/10/spa-fatigue.html
+[36] https://twitter.com/tmcw/status/1259600386094030848
+[37] https://www.react-spring.io/
+[38] https://svelte.dev/
+[39] https://macwright.org/2020/05/10/spa-fatigue.html
+[40] https://gatsbyjs.org/
+[41] https://res.cloudinary.com/practicaldev/image/fetch/s--L4S_VLxO--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://user-images.githubusercontent.com/1162160/82001896-43e38b00-962a-11ea-9ae7-bda853a8cec1.png
+[42] https://webpagetest.org/lighthouse.php?test=200515_N4_a92cbdd5b87d402522f710a8d82d2228&run=1
+[43] https://webpagetest.org/easy
+[44] https://dev.to/ryanflorence
+[45] https://twitter.com/intent/tweet?in_reply_to=1186675229621248000
+[46] https://twitter.com/intent/retweet?tweet_id=1186675229621248000
+[47] https://twitter.com/intent/like?tweet_id=1186675229621248000
+[48] https://nextjs.org/
+[49] https://medium.com/@mlrawlings/maybe-you-dont-need-that-spa-f2c659bc7fec
+[50] https://sapper.svelte.dev/
+[51] https://svelte.dev/
+[59] https://dev.to/settings/response-templates
+[62] https://dev.to/404.html
+[63] https://dev.to/twigman08
+[64] https://dev.to/twigman08
+[66] https://dev.to/twigman08
+[68] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2j6
+[70] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2j6
+[73] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2j6
+[74] https://dev.to/gotofritz
+[75] https://dev.to/gotofritz
+[77] https://dev.to/gotofritz
+[79] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p5gj
+[81] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p5gj
+[84] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p5gj
+[85] https://dev.to/twigman08
+[86] https://dev.to/twigman08
+[88] https://dev.to/twigman08
+[90] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p7ke
+[92] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p7ke
+[95] https://dev.to/gotofritz
+[96] https://dev.to/gotofritz
+[98] https://dev.to/gotofritz
+[100] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-paob
+[102] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-paob
+[105] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/paob
+[106] https://dev.to/adrianus
+[107] https://dev.to/adrianus
+[109] https://dev.to/adrianus
+[111] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p6g5
+[113] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p6g5
+[116] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p6g5
+[117] https://dev.to/ojrask
+[118] https://dev.to/ojrask
+[120] https://dev.to/ojrask
+[122] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-1epjh
+[124] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-1epjh
+[127] https://dev.to/gotofritz
+[128] https://dev.to/gotofritz
+[130] https://dev.to/gotofritz
+[132] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-1epjk
+[134] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-1epjk
+[137] https://dev.to/ojrask
+[138] https://dev.to/ojrask
+[140] https://dev.to/ojrask
+[142] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-1epn5
+[144] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-1epn5
+[147] https://dev.to/gotofritz
+[148] https://dev.to/gotofritz
+[150] https://dev.to/gotofritz
+[152] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-1f04h
+[154] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-1f04h
+[157] https://dev.to/jacobmakestheweb
+[158] https://dev.to/jacobmakestheweb
+[160] https://dev.to/jacobmakestheweb
+[162] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-1i7gc
+[164] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-1i7gc
+[167] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/1i7gc
+[168] https://dev.to/techbelle
+[169] https://dev.to/techbelle
+[171] https://dev.to/techbelle
+[173] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-1bp6j
+[175] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-1bp6j
+[178] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/1bp6j
+[179] https://dev.to/mark_saward
+[180] https://dev.to/mark_saward
+[182] https://dev.to/mark_saward
+[184] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2k0
+[186] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2k0
+[189] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2k0
+[190] https://dev.to/ryansolid
+[191] https://dev.to/ryansolid
+[193] https://dev.to/ryansolid
+[195] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p369
+[197] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p369
+[200] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p369
+[201] https://dev.to/mark_saward
+[202] https://dev.to/mark_saward
+[204] https://dev.to/mark_saward
+[206] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p3b8
+[208] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p3b8
+[211] https://dev.to/adrianus
+[212] https://dev.to/adrianus
+[214] https://dev.to/adrianus
+[216] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p7ka
+[218] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p7ka
+[221] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p7ka
+[222] https://dev.to/oenonono
+[223] https://dev.to/oenonono
+[225] https://dev.to/oenonono
+[227] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p4hk
+[229] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p4hk
+[232] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p4hk
+[233] https://dev.to/v6
+[234] https://dev.to/v6
+[236] https://dev.to/v6
+[238] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p34a
+[240] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p34a
+[243] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p34a
+[244] https://dev.to/gotofritz
+[245] https://dev.to/gotofritz
+[247] https://dev.to/gotofritz
+[249] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p5gf
+[251] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p5gf
+[254] https://dev.to/v6
+[255] https://dev.to/v6
+[257] https://dev.to/v6
+[259] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p5lf
+[261] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p5lf
+[264] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p5lf
+[265] https://dev.to/holdit
+[266] https://dev.to/holdit
+[268] https://dev.to/holdit
+[270] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2p4
+[272] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2p4
+[275] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2p4
+[276] https://dev.to/iamschulz
+[277] https://dev.to/iamschulz
+[279] https://dev.to/iamschulz
+[281] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2hk
+[283] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2hk
+[286] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2hk
+[287] https://dev.to/richharris
+[288] https://dev.to/richharris
+[290] https://dev.to/richharris
+[292] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2i2
+[294] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2i2
+[296] https://sapper.svelte.dev/
+[298] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2i2
+[299] https://dev.to/iamschulz
+[300] https://dev.to/iamschulz
+[302] https://dev.to/iamschulz
+[304] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2id
+[306] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2id
+[309] https://dev.to/martinmalinda
+[310] https://dev.to/martinmalinda
+[312] https://dev.to/martinmalinda
+[314] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p5d6
+[316] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p5d6
+[319] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p5d6
+[320] https://dev.to/ben
+[321] https://dev.to/ben
+[323] https://dev.to/ben
+[325] mailto:ben@forem.com
+[326] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2jk
+[328] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2jk
+[331] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2jk
+[332] https://dev.to/v6
+[333] https://dev.to/v6
+[335] https://dev.to/v6
+[337] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p34f
+[339] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p34f
+[341] https://www.hashicorp.com/tao-of-hashicorp#workflows,-not-technologies
+[343] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p34f
+[344] https://dev.to/phlash
+[345] https://dev.to/phlash
+[347] https://dev.to/phlash
+[349] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2j3
+[351] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2j3
+[353] https://dev.to/phlash909/comment/cghl
+[355] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2j3
+[356] https://dev.to/v6
+[357] https://dev.to/v6
+[359] https://dev.to/v6
+[361] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p348
+[363] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p348
+[366] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p348
+[367] https://dev.to/panesofglass
+[368] https://dev.to/panesofglass
+[370] https://dev.to/panesofglass
+[372] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-12d20
+[374] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-12d20
+[377] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/12d20
+[378] https://dev.to/rhymes
+[379] https://dev.to/rhymes
+[381] https://dev.to/rhymes
+[383] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-12d40
+[385] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-12d40
+[388] https://dev.to/panesofglass
+[389] https://dev.to/panesofglass
+[391] https://dev.to/panesofglass
+[393] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-12dc2
+[395] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-12dc2
+[398] https://dev.to/rhymes
+[399] https://dev.to/rhymes
+[401] https://dev.to/rhymes
+[403] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-12df6
+[405] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-12df6
+[408] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/12df6
+[409] https://dev.to/gregfletcher
+[410] https://dev.to/gregfletcher
+[412] https://dev.to/gregfletcher
+[414] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2j2
+[416] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2j2
+[419] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2j2
+[420] https://dev.to/v6
+[421] https://dev.to/v6
+[423] https://dev.to/v6
+[425] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p34d
+[427] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p34d
+[429] https://martinfowler.com/bliki/SacrificialArchitecture.html
+[430] https://youtu.be/oKg1hTOQXoY?t=1754
+[431] https://res.cloudinary.com/practicaldev/image/fetch/s--KIKmJfBA--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/5ehz4jt3d7skefmuwg6d.gif
+[433] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p34d
+[434] https://dev.to/richharris
+[435] https://dev.to/richharris
+[437] https://dev.to/richharris
+[439] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2n0
+[441] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2n0
+[444] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2n0
+[445] https://dev.to/ben
+[446] https://dev.to/ben
+[448] https://dev.to/ben
+[450] mailto:ben@forem.com
+[451] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2nd
+[453] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2nd
+[456] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2nd
+[457] https://dev.to/rhymes
+[458] https://dev.to/rhymes
+[460] https://dev.to/rhymes
+[462] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p6cm
+[464] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p6cm
+[467] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p6cm
+[468] https://dev.to/gotofritz
+[469] https://dev.to/gotofritz
+[471] https://dev.to/gotofritz
+[473] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-paom
+[475] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-paom
+[477] https://stimulusjs.org/
+[479] https://dev.to/loilo
+[480] https://dev.to/loilo
+[482] https://dev.to/loilo
+[484] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-pb3c
+[486] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-pb3c
+[488] https://github.com/alpinejs/alpine
+[490] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/pb3c
+[491] https://dev.to/mattwelke
+[492] https://dev.to/mattwelke
+[494] https://dev.to/mattwelke
+[496] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-pg9g
+[498] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-pg9g
+[501] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/pg9g
+[502] https://dev.to/mattgperry
+[503] https://dev.to/mattgperry
+[505] https://dev.to/mattgperry
+[507] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2i0
+[509] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2i0
+[512] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2i0
+[513] https://dev.to/richharris
+[514] https://dev.to/richharris
+[516] https://dev.to/richharris
+[518] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2je
+[520] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2je
+[522] https://twitter.com/Rich_Harris/status/1200807516529147904
+[524] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2je
+[525] https://dev.to/daniel15
+[526] https://dev.to/daniel15
+[528] https://dev.to/daniel15
+[530] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2n6
+[532] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2n6
+[535] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2n6
+[536] https://dev.to/mrispoli24
+[537] https://dev.to/mrispoli24
+[539] https://dev.to/mrispoli24
+[541] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2kc
+[543] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2kc
+[546] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2kc
+[547] https://dev.to/richharris
+[548] https://dev.to/richharris
+[550] https://dev.to/richharris
+[552] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2p5
+[554] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2p5
+[557] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2p5
+[558] https://dev.to/mrispoli24
+[559] https://dev.to/mrispoli24
+[561] https://dev.to/mrispoli24
+[563] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p35p
+[565] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p35p
+[568] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p35p
+[569] https://dev.to/vintharas
+[570] https://dev.to/vintharas
+[572] https://dev.to/vintharas
+[574] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2hp
+[576] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#comment-p2hp
+[579] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#/richharris/in-defense-of-the-modern-web-2nia/comments/new/p2hp
+[580] https://dev.to/richharris/in-defense-of-the-modern-web-2nia/comments
+[581] https://dev.to/code-of-conduct
+[582] https://dev.to/report-abuse
+[586] https://dev.to/richharris/in-defense-of-the-modern-web-2nia#
+[590] https://dev.to/report-abuse
+[591] https://dev.to/tthroo/build-your-saas-landing-page-in-15-minutes-using-mantine-111a
+[592] https://dev.to/tlaloces/authentication-example-with-fastapi-and-jwt-is-it-as-easy-and-straightforward-as-they-claim-16m1
+[593] https://dev.to/myogeshchavan97/i-launched-the-most-awaited-complete-react-course-1efe
+[594] https://dev.to/ziontutorial/build-a-dynamic-currency-converter-beginner-react-project-5cb8
+[595] https://dev.to/richharris
+[597] https://dev.to/richharris
+[598] https://dev.to/richharris/stay-alert-d
+[599] https://dev.to/richharris/a-new-technique-for-making-responsive-javascript-free-charts-gmp
+[608] javascript:void(0);
+[611] https://dev.to/
+[612] https://dev.to/
+[613] https://dev.to/pod
+[614] https://dev.to/videos
+[615] https://dev.to/tags
+[616] https://dev.to/faq
+[617] https://shop.forem.com/
+[618] https://dev.to/advertise
+[619] https://dev.to/about
+[620] https://dev.to/contact
+[621] https://dev.to/guides
+[622] https://dev.to/software-comparisons
+[623] https://dev.to/code-of-conduct
+[624] https://dev.to/privacy
+[625] https://dev.to/terms
+[626] https://www.forem.com/
+[627] https://dev.to/t/opensource
+[628] https://dev.to/
+[629] https://dev.to/t/rails
+[630] https://dev.to/enter
+[631] https://dev.to/enter?state=new-user

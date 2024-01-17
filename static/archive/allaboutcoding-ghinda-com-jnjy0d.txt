@@ -1,122 +1,158 @@
+[2]
 
-   (BUTTON)
-
-   Lucian Ghinda
-
+[4]
+[]Lucian Ghinda
 All about coding
 
-   (BUTTON) (BUTTON)
-   Follow
+Follow
 
-[1]All about coding
+[7]All about coding
 
-   Follow
-   Ruby open source: feedbin Ruby open source: feedbin
+Follow
+[8][9][10][11][12][13][14][15]
+Ruby open source: feedbinRuby open source: feedbin
 
 Ruby open source: feedbin
 
-   [2]Lucian Ghinda's photo Lucian Ghinda's photo
-   [3]Lucian Ghinda
-   ·[4]Nov 17, 2023·
+[16][]Lucian Ghinda's photoLucian Ghinda's photo
+[17]Lucian Ghinda
+·[18]Nov 17, 2023·
 
-   11 min read
+11 min read
 
 Table of contents
 
-     * The product
-     * Open source
-
-     * License
-
-     Technical review
-     * Ruby and Rails version
-     * Architecture
-     * Stats
-     * Style Guide
-     * Storage, Persistence and in-memory storage
-     * Gems used
-     * Code & Design Patterns
-
-     * Code Organisation
-     * Routes
-     * Controllers
-     * Models
-     * Jobs
-     * Presenters
-     * ApplicationComponents
-     * ComponentsPreview
-
-     Testing
-     * Custom assertions
-
-     Conclusion
+  • [19]
+    The product
+  • [20]
+    Open source
+      □ [21]
+        License
+  • [22]
+    Technical review
+      □ [23]
+        Ruby and Rails version
+      □ [24]
+        Architecture
+      □ [25]
+        Stats
+      □ [26]
+        Style Guide
+      □ [27]
+        Storage, Persistence and in-memory storage
+      □ [28]
+        Gems used
+      □ [29]
+        Code & Design Patterns
+          ☆ [30]
+            Code Organisation
+          ☆ [31]
+            Routes
+          ☆ [32]
+            Controllers
+          ☆ [33]
+            Models
+          ☆ [34]
+            Jobs
+          ☆ [35]
+            Presenters
+          ☆ [36]
+            ApplicationComponents
+          ☆ [37]
+            ComponentsPreview
+  • [38]
+    Testing
+      □ [39]
+        Custom assertions
+  • [40]
+    Conclusion
 
 The product
 
-   [5]https://feedbin.com
+[41]https://feedbin.com
 
-     "Feedbin is the best way to enjoy content on the Web. By combining
-     RSS, and newsletters, you can get all the good parts of the Web in
-     one convenient location"
+    "Feedbin is the best way to enjoy content on the Web. By combining RSS, and
+    newsletters, you can get all the good parts of the Web in one convenient
+    location"
+
+[42][dcaac2f3-3]
 
 Open source
 
-   The open-source repository can be found at
-   [6]https://github.com/feedbin/feedbin
+The open-source repository can be found at [43]https://github.com/feedbin/
+feedbin
 
 License
 
-   The [7]license they use is MIT:
+The [44]license they use is MIT:
+
+[45][26c3731c-c]
 
 Technical review
 
 Ruby and Rails version
 
-   They are currently using:
-     * Ruby version 3.2.2
-     * They used a fork of Rails at [8]https://github.com/feedbin/rails
-       forked from [9]https://github.com/Shopify/rails. They are using a
-       branch called [10]7-1-stable-invalid-cache-entries - It seems to be
-       Rails 7.1 and about 1 month behind the Shopify/rails which is
-       usually pretty up to date with main Rails
+They are currently using:
+
+  • Ruby version 3.2.2
+
+  • They used a fork of Rails at [46]https://github.com/feedbin/rails forked
+    from [47]https://github.com/Shopify/rails. They are using a branch called 
+    [48]7-1-stable-invalid-cache-entries - It seems to be Rails 7.1 and about 1
+    month behind the Shopify/rails which is usually pretty up to date with main
+    Rails
 
 Architecture
 
-   Code Architecture:
-     * They are using the standard Rails organisation of MVC.
+Code Architecture:
 
-   Database:
-     * The DB is PostgreSQL
+  • They are using the standard Rails organisation of MVC.
 
-   Jobs queue:
-     * Sidekiq
+Database:
 
-   On the front-end side:
-     * They use .html.erb
-     * They are using Phlex for [11]components
-     * They are using [12]Jquery for the JS library
-     * They have some custom JS code written in [13]CoffeeScript
-     * They are using Hotwire via [14]importmaps
-     * They are using [15]Tailwind
+  • The DB is PostgreSQL
+
+Jobs queue:
+
+  • Sidekiq
+
+On the front-end side:
+
+  • They use .html.erb
+
+  • They are using Phlex for [49]components
+
+  • They are using [50]Jquery for the JS library
+
+  • They have some custom JS code written in [51]CoffeeScript
+
+  • They are using Hotwire via [52]importmaps
+
+  • They are using [53]Tailwind
 
 Stats
 
-   Running /bin/rails stats will output the following:
+Running /bin/rails stats will output the following:
 
-   Running VSCodeCounter will give the following stats:
+[12169b38-4]
+
+Running VSCodeCounter will give the following stats:
+
+[99f9ce55-5]
 
 Style Guide
 
-   For Ruby:
-     * They are using [16]standardrb as the Style Guide with no
-       customisations.
+For Ruby:
+
+  • They are using [54]standardrb as the Style Guide with no customisations.
 
 Storage, Persistence and in-memory storage
 
-   The DB is PostgreSQL.
+The DB is PostgreSQL.
 
-   They are not using the schema.rb but the [17]structure.sql format for
-   DB schema dump is configured via application.rb:
+They are not using the schema.rb but the [55]structure.sql format for DB schema
+dump is configured via application.rb:
+
 module Feedbin
     class Application < Rails::Application
         # other configs
@@ -125,28 +161,29 @@ module Feedbin
     end
 end
 
-   Enabled PSQL extensions:
-     * hstore - "data type for storing sets of (key, value) pairs"
-     * pg_stat_statements - "track planning and execution statistics of
-       all SQL statements executed"
-     * uuid-ossp - "generate universally unique identifiers (UUIDs)"
+Enabled PSQL extensions:
+
+  • hstore - "data type for storing sets of (key, value) pairs"
+
+  • pg_stat_statements - "track planning and execution statistics of all SQL
+    statements executed"
+
+  • uuid-ossp - "generate universally unique identifiers (UUIDs)"
 
 CREATE EXTENSION IF NOT EXISTS hstore WITH SCHEMA public;
-COMMENT ON EXTENSION hstore IS 'data type for storing sets of (key, value) pairs
-';
+COMMENT ON EXTENSION hstore IS 'data type for storing sets of (key, value) pairs';
 
 CREATE EXTENSION IF NOT EXISTS pg_stat_statements WITH SCHEMA public;
-COMMENT ON EXTENSION pg_stat_statements IS 'track planning and execution statist
-ics of all SQL statements executed';
+COMMENT ON EXTENSION pg_stat_statements IS 'track planning and execution statistics of all SQL statements executed';
 
 
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp" WITH SCHEMA public;
-COMMENT ON EXTENSION "uuid-ossp" IS 'generate universally unique identifiers (UU
-IDs)';
+COMMENT ON EXTENSION "uuid-ossp" IS 'generate universally unique identifiers (UUIDs)';
 
-   Redis is configured to be used with Sidekiq.
+Redis is configured to be used with Sidekiq.
 
-   This is what the [18]redis initializer looks like:
+This is what the [56]redis initializer looks like:
+
 # https://github.com/feedbin/feedbin/blob/main/config/initializers/redis.rb#L1
 
 defaults = {connect_timeout: 5, timeout: 5}
@@ -160,18 +197,19 @@ $redis = {}.tap do |hash|
   hash[:refresher] = ConnectionPool.new(size: 10) { Redis.new(options2) }
 end
 
-   Further, there is a [19]RedisLock configured like this:
+Further, there is a [57]RedisLock configured like this:
+
 # https://github.com/feedbin/feedbin/blob/main/app/models/redis_lock.rb#L1
 
 class RedisLock
   def self.acquire(lock_name, expiration_in_seconds = 55)
-    Sidekiq.redis { _1.set(lock_name, "locked", ex: expiration_in_seconds, nx: t
-rue) }
+    Sidekiq.redis { _1.set(lock_name, "locked", ex: expiration_in_seconds, nx: true) }
   end
 end
 
-   Further down this is used in a [20]clock.rb (that defines scheduled
-   tasks to run):
+Further down this is used in a [58]clock.rb (that defines scheduled tasks to
+run):
+
 # https://github.com/feedbin/feedbin/blob/main/lib/clock.rb#L8
 
 every(10.seconds, "clockwork.very_frequent") do
@@ -214,47 +252,57 @@ end
 
 Gems used
 
-   Here are some of the gems used:
-     * [21]sax-machine - "A declarative sax parsing library backed by
-       Nokogiri"
-     * [22]feedjira - "Feedjira is a Ruby library designed to parse feeds"
-     * [23]html-pipeline - "HTML processing filters and utilities. This
-       module is a small framework for defining CSS-based content filters
-       and applying them to user provided content"
-     * [24]apnotic - "A Ruby APNs HTTP/2 gem able to provide instant
-       feedback"
-     * [25]autoprefixer-rails - "Autoprefixer is a tool to parse CSS and
-       add vendor prefixes to CSS rules using values from the Can I Use
-       database. This gem provides Ruby and Ruby on Rails integration with
-       this JavaScript tool"
-     * [26]clockwork - "Clockwork is a cron replacement. It runs as a
-       lightweight, long-running Ruby process which sits alongside your
-       web processes (Mongrel/Thin) and your worker processes
-       (DJ/Resque/Minion/Stalker) to schedule recurring work at particular
-       times or dates"
-     * [27]down - "Streaming downloads using net/http, http.rb, HTTPX or
-       wget"
-     * [28]phlex-rails - "Phlex is a framework that lets you compose web
-       views in pure Ruby"
-     * [29]premailer-rails - "This gem is a drop in solution for styling
-       HTML emails with CSS without having to do the hard work yourself"
-     * [30]raindrops - "raindrops is a real-time stats toolkit to show
-       statistics for Rack HTTP servers. It is designed for preforking
-       servers such as unicorn, but should support any Rack HTTP server on
-       platforms supporting POSIX shared memory"
-     * [31]strong_migrations - "Catch unsafe migrations in development"
-     * [32]web-push - "This gem makes it possible to send push messages to
-       web browsers from Ruby backends using the Web Push Protocol"
-     * [33]stripe-ruby-mock - "A drop-in library to test stripe without
-       hitting their servers"
-     * [34]rails-controller-testing - "Brings back assigns and
-       assert_template to your Rails tests"
+Here are some of the gems used:
 
-   There are many other gems used, I only selected few here. Browse the
-   [35]Gemfile to discover more.
+  • [59]sax-machine - "A declarative sax parsing library backed by Nokogiri"
 
-   What could be mentioned is that they use their fork for some of the
-   gems included in the file:
+  • [60]feedjira - "Feedjira is a Ruby library designed to parse feeds"
+
+  • [61]html-pipeline - "HTML processing filters and utilities. This module is
+    a small framework for defining CSS-based content filters and applying them
+    to user provided content"
+
+  • [62]apnotic - "A Ruby APNs HTTP/2 gem able to provide instant feedback"
+
+  • [63]autoprefixer-rails - "Autoprefixer is a tool to parse CSS and add
+    vendor prefixes to CSS rules using values from the Can I Use database. This
+    gem provides Ruby and Ruby on Rails integration with this JavaScript tool"
+
+  • [64]clockwork - "Clockwork is a cron replacement. It runs as a lightweight,
+    long-running Ruby process which sits alongside your web processes (Mongrel/
+    Thin) and your worker processes (DJ/Resque/Minion/Stalker) to schedule
+    recurring work at particular times or dates"
+
+  • [65]down - "Streaming downloads using net/http, http.rb, HTTPX or wget"
+
+  • [66]phlex-rails - "Phlex is a framework that lets you compose web views in
+    pure Ruby"
+
+  • [67]premailer-rails - "This gem is a drop in solution for styling HTML
+    emails with CSS without having to do the hard work yourself"
+
+  • [68]raindrops - "raindrops is a real-time stats toolkit to show statistics
+    for Rack HTTP servers. It is designed for preforking servers such as
+    unicorn, but should support any Rack HTTP server on platforms supporting
+    POSIX shared memory"
+
+  • [69]strong_migrations - "Catch unsafe migrations in development"
+
+  • [70]web-push - "This gem makes it possible to send push messages to web
+    browsers from Ruby backends using the Web Push Protocol"
+
+  • [71]stripe-ruby-mock - "A drop-in library to test stripe without hitting
+    their servers"
+
+  • [72]rails-controller-testing - "Brings back assigns and assert_template to
+    your Rails tests"
+
+There are many other gems used, I only selected few here. Browse the [73]
+Gemfile to discover more.
+
+What could be mentioned is that they use their fork for some of the gems
+included in the file:
+
 # https://github.com/feedbin/feedbin/blob/main/Gemfile
 
 # other gems
@@ -263,26 +311,19 @@ gem "rails", github: "feedbin/rails", branch: "7-1-stable-invalid-cache-entries"
 
 # some other gems
 
-gem "http",                github: "feedbin/http",                branch: "feedb
-in"
-gem "carrierwave",         github: "feedbin/carrierwave",         branch: "feedb
-in"
-gem "sax-machine",         github: "feedbin/sax-machine",         branch: "feedb
-in"
+gem "http",                github: "feedbin/http",                branch: "feedbin"
+gem "carrierwave",         github: "feedbin/carrierwave",         branch: "feedbin"
+gem "sax-machine",         github: "feedbin/sax-machine",         branch: "feedbin"
 gem "feedjira",            github: "feedbin/feedjira",            branch: "f2"
-gem "feedkit",             github: "feedbin/feedkit",             branch: "maste
-r"
-gem "html-pipeline",       github: "feedbin/html-pipeline",       branch: "feedb
-in"
+gem "feedkit",             github: "feedbin/feedkit",             branch: "master"
+gem "html-pipeline",       github: "feedbin/html-pipeline",       branch: "feedbin"
 gem "html_diff",           github: "feedbin/html_diff",           ref: "013e1bb"
-gem "twitter",             github: "feedbin/twitter",             branch: "feedb
-in"
+gem "twitter",             github: "feedbin/twitter",             branch: "feedbin"
 
-# other gems
+# other gems 
 
 group :development, :test do
-  gem "stripe-ruby-mock", github: "feedbin/stripe-ruby-mock", branch: "feedbin",
- require: "stripe_mock"
+  gem "stripe-ruby-mock", github: "feedbin/stripe-ruby-mock", branch: "feedbin", require: "stripe_mock"
 # other gems
 end
 
@@ -292,44 +333,45 @@ Code & Design Patterns
 
 Code Organisation
 
-   Under /app there are 3 folders different from the ones that Rails comes
-   with:
-     * presenters
-     * uploaders
-     * validators
+Under /app there are 3 folders different from the ones that Rails comes with:
 
-   The lib folder includes very few extra objects. Most of them seems to
-   be related to communicating with external services.
+  • presenters
 
-   Maybe worth mentioning from lib folder is the
-   [36]ConditionalSassCompressor
-# https://github.com/feedbin/feedbin/blob/main/lib/conditional_sass_compressor.r
-b#L1
+  • uploaders
+
+  • validators
+
+The lib folder includes very few extra objects. Most of them seems to be
+related to communicating with external services.
+
+Maybe worth mentioning from lib folder is the [74]ConditionalSassCompressor
+
+# https://github.com/feedbin/feedbin/blob/main/lib/conditional_sass_compressor.rb#L1
 
 class ConditionalSassCompressor
   def compress(string)
     return string if string =~ /tailwindcss/
-    options = { syntax: :scss, cache: false, read_cache: false, style: :compress
-ed}
+    options = { syntax: :scss, cache: false, read_cache: false, style: :compressed}
     begin
       Sprockets::Autoload::SassC::Engine.new(string, options).render
     rescue => e
-      puts "Could not compress '#{string[0..65]}'...: #{e.message}, skipping com
-pression"
+      puts "Could not compress '#{string[0..65]}'...: #{e.message}, skipping compression"
       string
     end
   end
 end
 
-   This is used to configure:
+This is used to configure:
+
 # https://github.com/feedbin/feedbin/blob/main/config/application.rb#L47
 config.assets.css_compressor = ConditionalSassCompressor.new
 
 Routes
 
-   There is a combination of RESTful routes and non-restful routes.
+There is a combination of RESTful routes and non-restful routes.
 
-   Here is an example from entries in the [37]routes.rb :
+Here is an example from entries in the [75]routes.rb :
+
 # https://github.com/feedbin/feedbin/blob/main/config/routes.rb#L133
 
   resources :entries, only: [:show, :index, :destroy] do
@@ -358,20 +400,22 @@ Routes
 
 Controllers
 
-   The controllers are mostly what I would call vanilla Rails controllers.
+The controllers are mostly what I would call vanilla Rails controllers.
 
-   Three notes about them:
-     * Some of them are responding with JS usually using USJ or JQuery to
-       change elements from the page.
-     * They contain non-Rails standard actions (actions that are not show,
-       index, new, create ...)
-     * There is a namespaced api folder that contains APIs used by mobile
-       apps
+Three notes about them:
 
-   Here is one simple example for DELETE /entries/:id , the controller
-   looks like this:
-# https://github.com/feedbin/feedbin/blob/main/app/controllers/entries_controlle
-r.rb#L238
+  • Some of them are responding with JS usually using USJ or JQuery to change
+    elements from the page.
+
+  • They contain non-Rails standard actions (actions that are not show, index,
+    new, create ...)
+
+  • There is a namespaced api folder that contains APIs used by mobile apps
+
+Here is one simple example for DELETE /entries/:id , the controller looks like
+this:
+
+# https://github.com/feedbin/feedbin/blob/main/app/controllers/entries_controller.rb#L238
   def destroy
     @user = current_user
     @entry = @user.entries.find(params[:id])
@@ -380,24 +424,23 @@ r.rb#L238
     end
   end
 
-   And here is the view [38]destroy.js.erb :
+And here is the view [76]destroy.js.erb :
+
 $('[data-behavior~=entries_target] [data-entry-id=<%= @entry.id %>]').remove();
 
-feedbin.Counts.get().removeEntry(<%= @entry.id %>, <%= @entry.feed_id %>, 'unrea
-d')
-feedbin.Counts.get().removeEntry(<%= @entry.id %>, <%= @entry.feed_id %>, 'starr
-ed')
+feedbin.Counts.get().removeEntry(<%= @entry.id %>, <%= @entry.feed_id %>, 'unread')
+feedbin.Counts.get().removeEntry(<%= @entry.id %>, <%= @entry.feed_id %>, 'starred')
 feedbin.applyCounts(true)
 
 feedbin.clearEntry();
 feedbin.fullScreen(false)
 
-   The main pattern adopted to controllers is to have some logic in them
-   and delegate to jobs some part of the processing.
+The main pattern adopted to controllers is to have some logic in them and
+delegate to jobs some part of the processing.
 
-   The repo contains mostly straight-forward controllers like this one:
-# https://github.com/feedbin/feedbin/blob/main/app/controllers/pages_internal_co
-ntroller.rb#L1
+The repo contains mostly straight-forward controllers like this one:
+
+# https://github.com/feedbin/feedbin/blob/main/app/controllers/pages_internal_controller.rb#L1
 class PagesInternalController < ApplicationController
 
   def create
@@ -406,9 +449,9 @@ class PagesInternalController < ApplicationController
   end
 end
 
-   But also few controllers that include some logic:
-# https://github.com/feedbin/feedbin/blob/main/app/controllers/api/podcasts/v1/f
-eeds_controller.rb#L8
+But also few controllers that include some logic:
+
+# https://github.com/feedbin/feedbin/blob/main/app/controllers/api/podcasts/v1/feeds_controller.rb#L8
 
  def show
   url = hex_decode(params[:id])
@@ -437,21 +480,22 @@ rescue => exception
   end
 end
 
-   Even with this structure, I find all controllers easy to read and I
-   think they can be easier to change.
+Even with this structure, I find all controllers easy to read and I think they
+can be easier to change.
 
 Models
 
-   The app/models folders contain both ActiveRecord and normal Ruby
-   objects. With few exceptions, they are not namespaced.
+The app/models folders contain both ActiveRecord and normal Ruby objects. With
+few exceptions, they are not namespaced.
 
 Jobs
 
-   The jobs folder contains Sidekiq jobs which are used to do processing
-   on various objects. They are usually called from controllers and most
-   of them are async.
+The jobs folder contains Sidekiq jobs which are used to do processing on
+various objects. They are usually called from controllers and most of them are
+async.
 
-   Here is one job that is caching views:
+Here is one job that is caching views:
+
 # https://github.com/feedbin/feedbin/blob/main/app/jobs/cache_entry_views.rb#L1
 
 class CacheEntryViews
@@ -491,12 +535,12 @@ end
 
 Presenters
 
-   There is a [39]BasePresenter and all other presenters are extending it
-   via inheritance:
+There is a [77]BasePresenter and all other presenters are extending it via
+inheritance:
 
-   This controller defines a private method called presents:
-# https://github.com/feedbin/feedbin/blob/main/app/presenters/base_presenter.rb#
-L1
+This controller defines a private method called presents:
+
+# https://github.com/feedbin/feedbin/blob/main/app/presenters/base_presenter.rb#L1
 
 class BasePresenter
   def initialize(object, locals, template)
@@ -516,9 +560,9 @@ class BasePresenter
   end
 end
 
-   and it is used like this for example:
-# https://github.com/feedbin/feedbin/blob/main/app/presenters/user_presenter.rb#
-L2
+and it is used like this for example:
+
+# https://github.com/feedbin/feedbin/blob/main/app/presenters/user_presenter.rb#L2
 
 class UserPresenter < BasePresenter
   presents :user
@@ -533,8 +577,9 @@ class UserPresenter < BasePresenter
   # ... other code
 end
 
-   To use the presenters, there is a helper defined in ApplicationHelper
-   will instantiate the proper helper based on the object class:
+To use the presenters, there is a helper defined in ApplicationHelper will
+instantiate the proper helper based on the object class:
+
 module ApplicationHelper
   def present(object, locals = nil, klass = nil)
     klass ||= "#{object.class}Presenter".constantize
@@ -546,23 +591,21 @@ module ApplicationHelper
   # more code ...
 end
 
-   and it is used [40]like this in views:
+and it is used [78]like this in views:
+
 <% present @user do |user_presenter| %>
-    <% @class = "settings-body settings-#{params[:action]} theme-#{user_presente
-r.theme}"%>
+    <% @class = "settings-body settings-#{params[:action]} theme-#{user_presenter.theme}"%>
 <% end %>
 
 ApplicationComponents
 
-   Components are based on Phlex and they inherit from
-   [41]ApplicationComponent
+Components are based on Phlex and they inherit from [79]ApplicationComponent
 
-   It defines a method to add Stimulus controller in components like this:
-# https://github.com/feedbin/feedbin/blob/main/app/views/components/application_
-component.rb#L25
+It defines a method to add Stimulus controller in components like this:
 
-  def stimulus(controller:, actions: {}, values: {}, outlets: {}, classes: {}, d
-ata: {})
+# https://github.com/feedbin/feedbin/blob/main/app/views/components/application_component.rb#L25
+
+  def stimulus(controller:, actions: {}, values: {}, outlets: {}, classes: {}, data: {})
     stimulus_controller = controller.to_s.dasherize
 
     action = actions.map do |event, function|
@@ -581,18 +624,17 @@ ata: {})
       [controller, key, "class"].join("_").to_sym
     end
 
-    { controller: stimulus_controller, action: }.merge!({ **values, **outlets, *
-*classes, **data})
+    { controller: stimulus_controller, action: }.merge!({ **values, **outlets, **classes, **data})
   end
 
-   Where we can also see a bit of hash literal omission at {controller:
-   stimulus_controller, action: }
+Where we can also see a bit of hash literal omission at {controller:
+stimulus_controller, action: }
 
-   But more interesting that this method that helps defining a Stimulus
-   controller, is the method used to define a Stimulus item that uses
-   binding to get variables from the object where it is used:
-# https://github.com/feedbin/feedbin/blob/main/app/views/components/application_
-component.rb#L47
+But more interesting that this method that helps defining a Stimulus
+controller, is the method used to define a Stimulus item that uses binding to
+get variables from the object where it is used:
+
+# https://github.com/feedbin/feedbin/blob/main/app/views/components/application_component.rb#L47
 
   def stimulus_item(target: nil, actions: {}, params: {}, data: {}, for:)
     stimulus_controller = binding.local_variable_get(:for).to_s.dasherize
@@ -612,54 +654,53 @@ component.rb#L47
     end
 
     if target
-      defaults[:"#{binding.local_variable_get(:for)}_target"] = target.to_s.came
-lize(:lower)
+      defaults[:"#{binding.local_variable_get(:for)}_target"] = target.to_s.camelize(:lower)
     end
 
     defaults
   end
 
-   The part with binding does the following:
-     * stimulus_controller =
-       binding.local_variable_get(:for).to_s.dasherize This line retrieves
-       the value of the local variable for, converts it to a string, and
-       then applies the dasherize method (presumably to format it for use
-       in a specific context, like a CSS class or an identifier in HTML).
-     * Apparently binding.local_variable_get should not be needed as the
-       variable is passed a keyword parameter to the method. But the name
-       of the variable is for which is a reserved word and thus if the
-       code would have been stimulus_controller = for.to_s_dasherize that
-       would have raised syntax error, unexpected '.' (SyntaxError)
+The part with binding does the following:
 
-   This is a way to have keyword arguments named as reserved words and
-   still be able to use them.
+  • stimulus_controller = binding.local_variable_get(:for).to_s.dasherize This
+    line retrieves the value of the local variable for, converts it to a
+    string, and then applies the dasherize method (presumably to format it for
+    use in a specific context, like a CSS class or an identifier in HTML).
+
+  • Apparently binding.local_variable_get should not be needed as the variable
+    is passed a keyword parameter to the method. But the name of the variable
+    is for which is a reserved word and thus if the code would have been
+    stimulus_controller = for.to_s_dasherize that would have raised syntax
+    error, unexpected '.' (SyntaxError)
+
+This is a way to have keyword arguments named as reserved words and still be
+able to use them.
 
 ComponentsPreview
 
-   All components can be previewed via Lookbook and they can be found in
-   test/components
+All components can be previewed via Lookbook and they can be found in test/
+components
 
 Testing
 
-   For testing it uses Minitest, the default testing framework from Rails.
-   It uses fixtures to set up the test db.
+For testing it uses Minitest, the default testing framework from Rails. It uses
+fixtures to set up the test db.
 
-   Tests are simple and direct, containing all preconditions and
-   postconditions in each test. This is great for following what each test
-   is doing.
+Tests are simple and direct, containing all preconditions and postconditions in
+each test. This is great for following what each test is doing.
 
-   There are controller tests, model tests, job tests and some system
-   tests. There are more controller tests than system tests making the
-   test suite run quite fast. Also the jobs are covered pretty good with
-   testing as there is a log of logic in the jobs.
+There are controller tests, model tests, job tests and some system tests. There
+are more controller tests than system tests making the test suite run quite
+fast. Also the jobs are covered pretty good with testing as there is a log of
+logic in the jobs.
 
 Custom assertions
 
-   There are some custom assertions created specifically to work with
-   collections: assert_has_keys will check if all keys are included in the
-   hash and assert_equal_ids will check if the two collections provided
-   have the same ids (one being a collection of objects and the other one
-   being a hash).
+There are some custom assertions created specifically to work with collections:
+assert_has_keys will check if all keys are included in the hash and
+assert_equal_ids will check if the two collections provided have the same ids
+(one being a collection of objects and the other one being a hash).
+
 # https://github.com/feedbin/feedbin/blob/main/test/support/assertions.rb#L3
 
     def assert_has_keys(keys, hash)
@@ -674,134 +715,132 @@ Custom assertions
 
 Conclusion
 
-   In conclusion, Feedbin is an open-source project that combines RSS
-   feeds and newsletters into a convenient platform.
+In conclusion, Feedbin is an open-source project that combines RSS feeds and
+newsletters into a convenient platform.
 
-   It utilizes Ruby on Rails, PostgreSQL, Sidekiq, and various other
-   technologies to provide a robust and efficient service.
+It utilizes Ruby on Rails, PostgreSQL, Sidekiq, and various other technologies
+to provide a robust and efficient service.
 
-   The code is well-organized and simple to follow the logic and what is
-   happening. I think it will make it easy for anyone to contribute to
-   this repo. If you want to run this yourself locally you should take a
-   look at the [42]feedbin-docker.
-     __________________________________________________________________
+The code is well-organized and simple to follow the logic and what is
+happening. I think it will make it easy for anyone to contribute to this repo.
+If you want to run this yourself locally you should take a look at the [80]
+feedbin-docker.
 
-   Enjoyed this article?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-   👉 Join my [43]Short Ruby News newsletter for weekly Ruby updates from
-   the community and visit [44]rubyandrails.info, a directory with
-   learning content about Ruby.
+Enjoyed this article?
 
-   👐 Subscribe to my Ruby and Ruby on rails courses over email at
-   [45]learn.shortruby.com - effortless learning anytime, anywhere
+👉 Join my [81]Short Ruby News newsletter for weekly Ruby updates from the
+community and visit [82][83]rubyandrails.info, a directory with learning
+content about Ruby.
 
-   🤝 Let's connect on [46]Ruby.social or [47]Linkedin or [48]Twitter where
-   I post mainly about Ruby and Rails.
+👐 Subscribe to my Ruby and Ruby on rails courses over email at [84]
+learn.shortruby.com - effortless learning anytime, anywhere
 
-   🎥 Follow me on [49]my YouTube channel for short videos about Ruby
+🤝 Let's connect on [85][86]Ruby.social or [87]Linkedin or [88]Twitter where I
+post mainly about Ruby and Rails.
+
+🎥 Follow me on [89]my YouTube channel for short videos about Ruby
 
 Did you find this article valuable?
 
-   Support Lucian Ghinda by becoming a sponsor. Any amount is appreciated!
-   (BUTTON) Sponsor
-   [50]See recent sponsors | [51]Learn more about Hashnode Sponsors
+Support Lucian Ghinda by becoming a sponsor. Any amount is appreciated!
 
-   [52]Ruby[53]Ruby on Rails[54]Open Source[55]coding[56]Programming Blogs
+Sponsor
+[91]See recent sponsors | [92]Learn more about Hashnode Sponsors
+[93]Ruby[94]Ruby on Rails[95]Open Source[96]coding[97]Programming Blogs
 
-References
+References:
 
-   Visible links:
-   1. https://allaboutcoding.ghinda.com/?source=top_nav_blog_home
-   2. https://hashnode.com/@lucianghinda
-   3. https://hashnode.com/@lucianghinda
-   4. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin
-   5. https://feedbin.com/
-   6. https://github.com/feedbin/feedbin/blob/main/LICENSE.md
-   7. https://github.com/feedbin/feedbin/blob/main/LICENSE.md
-   8. https://github.com/feedbin/rails
-   9. https://github.com/Shopify/rails
-  10. https://github.com/feedbin/rails/tree/7-1-stable-invalid-cache-entries
-  11. https://github.com/feedbin/feedbin/tree/main/app/views/components
-  12. https://github.com/feedbin/feedbin/blob/main/Gemfile#L38
-  13. https://github.com/feedbin/feedbin/tree/main/app/assets/javascripts/web
-  14. https://github.com/feedbin/feedbin/blob/abf1ad883dab8a3464fe12e4653de6323296175b/config/importmap.rb#L1
-  15. https://github.com/feedbin/feedbin/blob/abf1ad883dab8a3464fe12e4653de6323296175b/Gemfile#L66
-  16. https://github.com/feedbin/feedbin/blob/abf1ad883dab8a3464fe12e4653de6323296175b/Gemfile#L94
-  17. https://github.com/feedbin/feedbin/blob/main/db/structure.sql
-  18. https://github.com/feedbin/feedbin/blob/abf1ad883dab8a3464fe12e4653de6323296175b/config/initializers/redis.rb#L1
-  19. https://github.com/feedbin/feedbin/blob/main/app/models/redis_lock.rb#L1
-  20. https://github.com/feedbin/feedbin/blob/main/lib/clock.rb#L8
-  21. https://github.com/pauldix/sax-machine
-  22. https://github.com/feedjira/feedjira
-  23. https://github.com/feedbin/html-pipeline
-  24. https://github.com/ostinelli/apnotic
-  25. https://github.com/ai/autoprefixer-rails
-  26. https://github.com/Rykian/clockwork
-  27. https://github.com/janko/down
-  28. https://github.com/phlex-ruby/phlex-rails
-  29. https://github.com/fphilipe/premailer-rails
-  30. https://rubygems.org/gems/raindrops
-  31. https://github.com/ankane/strong_migrations
-  32. https://github.com/pushpad/web-push
-  33. https://github.com/stripe-ruby-mock/stripe-ruby-mock
-  34. https://github.com/rails/rails-controller-testing
-  35. https://github.com/feedbin/feedbin/blob/main/Gemfile
-  36. https://github.com/feedbin/feedbin/blob/main/lib/conditional_sass_compressor.rb#L1
-  37. https://github.com/feedbin/feedbin/blob/main/config/routes.rb#L133
-  38. https://github.com/feedbin/feedbin/blob/main/app/views/entries/destroy.js.erb#L1
-  39. https://github.com/feedbin/feedbin/blob/main/app/presenters/base_presenter.rb#L1
-  40. https://github.com/feedbin/feedbin/blob/main/app/views/layouts/settings.html.erb#L1
-  41. https://github.com/feedbin/feedbin/blob/main/app/views/components/application_component.rb#L3
-  42. https://github.com/angristan/feedbin-docker
-  43. https://shortruby.com/
-  44. http://rubyandrails.info/
-  45. https://learn.shortruby.com/
-  46. http://Ruby.social/
-  47. https://linkedin.com/in/lucianghinda
-  48. https://x.com/lucianghinda
-  49. https://www.youtube.com/@shortruby
-  50. https://allaboutcoding.ghinda.com/sponsor
-  51. https://hashnode.com/sponsors
-  52. https://allaboutcoding.ghinda.com/tag/ruby?source=tags_bottom_blogs
-  53. https://allaboutcoding.ghinda.com/tag/ruby-on-rails?source=tags_bottom_blogs
-  54. https://allaboutcoding.ghinda.com/tag/opensource?source=tags_bottom_blogs
-  55. https://allaboutcoding.ghinda.com/tag/coding?source=tags_bottom_blogs
-  56. https://allaboutcoding.ghinda.com/tag/programming-blogs?source=tags_bottom_blogs
-
-   Hidden links:
-  58. https://allaboutcoding.ghinda.com/
-  59. https://allaboutcoding.ghinda.com/?source=top_nav_blog_home
-  60. https://twitter.com/lucianghinda
-  61. https://github.com/lucianghinda
-  62. https://shortruby.com/
-  63. https://hashnode.com/@lucianghinda
-  64. https://app.daily.dev/lucianghinda
-  65. https://linkedin.com/in/lucianghinda
-  66. https://ruby.social/@lucian
-  67. https://allaboutcoding.ghinda.com/rss.xml
-  68. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-the-product
-  69. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-open-source
-  70. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-license
-  71. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-technical-review
-  72. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-ruby-and-rails-version
-  73. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-architecture
-  74. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-stats
-  75. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-style-guide
-  76. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-storage-persistence-and-in-memory-storage
-  77. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-gems-used
-  78. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-code-amp-design-patterns
-  79. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-code-organisation
-  80. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-routes
-  81. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-controllers
-  82. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-models
-  83. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-jobs
-  84. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-presenters
-  85. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-applicationcomponents
-  86. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-componentspreview
-  87. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-testing
-  88. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-custom-assertions
-  89. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-conclusion
-  90. https://feedbin.com/about
-  91. https://github.com/feedbin/feedbin/blob/main/LICENSE.md
-  92. http://rubyandrails.info/
-  93. https://ruby.social/@lucian
+[2] https://allaboutcoding.ghinda.com/
+[4] https://allaboutcoding.ghinda.com/?source=top_nav_blog_home
+[7] https://allaboutcoding.ghinda.com/?source=top_nav_blog_home
+[8] https://twitter.com/lucianghinda
+[9] https://github.com/lucianghinda
+[10] https://shortruby.com/
+[11] https://hashnode.com/@lucianghinda
+[12] https://app.daily.dev/lucianghinda
+[13] https://linkedin.com/in/lucianghinda
+[14] https://ruby.social/@lucian
+[15] https://allaboutcoding.ghinda.com/rss.xml
+[16] https://hashnode.com/@lucianghinda
+[17] https://hashnode.com/@lucianghinda
+[18] https://allaboutcoding.ghinda.com/ruby-open-source-feedbin
+[19] https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-the-product
+[20] https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-open-source
+[21] https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-license
+[22] https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-technical-review
+[23] https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-ruby-and-rails-version
+[24] https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-architecture
+[25] https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-stats
+[26] https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-style-guide
+[27] https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-storage-persistence-and-in-memory-storage
+[28] https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-gems-used
+[29] https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-code-amp-design-patterns
+[30] https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-code-organisation
+[31] https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-routes
+[32] https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-controllers
+[33] https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-models
+[34] https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-jobs
+[35] https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-presenters
+[36] https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-applicationcomponents
+[37] https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-componentspreview
+[38] https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-testing
+[39] https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-custom-assertions
+[40] https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-conclusion
+[41] https://feedbin.com/
+[42] https://feedbin.com/about
+[43] https://github.com/feedbin/feedbin/blob/main/LICENSE.md
+[44] https://github.com/feedbin/feedbin/blob/main/LICENSE.md
+[45] https://github.com/feedbin/feedbin/blob/main/LICENSE.md
+[46] https://github.com/feedbin/rails
+[47] https://github.com/Shopify/rails
+[48] https://github.com/feedbin/rails/tree/7-1-stable-invalid-cache-entries
+[49] https://github.com/feedbin/feedbin/tree/main/app/views/components
+[50] https://github.com/feedbin/feedbin/blob/main/Gemfile#L38
+[51] https://github.com/feedbin/feedbin/tree/main/app/assets/javascripts/web
+[52] https://github.com/feedbin/feedbin/blob/abf1ad883dab8a3464fe12e4653de6323296175b/config/importmap.rb#L1
+[53] https://github.com/feedbin/feedbin/blob/abf1ad883dab8a3464fe12e4653de6323296175b/Gemfile#L66
+[54] https://github.com/feedbin/feedbin/blob/abf1ad883dab8a3464fe12e4653de6323296175b/Gemfile#L94
+[55] https://github.com/feedbin/feedbin/blob/main/db/structure.sql
+[56] https://github.com/feedbin/feedbin/blob/abf1ad883dab8a3464fe12e4653de6323296175b/config/initializers/redis.rb#L1
+[57] https://github.com/feedbin/feedbin/blob/main/app/models/redis_lock.rb#L1
+[58] https://github.com/feedbin/feedbin/blob/main/lib/clock.rb#L8
+[59] https://github.com/pauldix/sax-machine
+[60] https://github.com/feedjira/feedjira
+[61] https://github.com/feedbin/html-pipeline
+[62] https://github.com/ostinelli/apnotic
+[63] https://github.com/ai/autoprefixer-rails
+[64] https://github.com/Rykian/clockwork
+[65] https://github.com/janko/down
+[66] https://github.com/phlex-ruby/phlex-rails
+[67] https://github.com/fphilipe/premailer-rails
+[68] https://rubygems.org/gems/raindrops
+[69] https://github.com/ankane/strong_migrations
+[70] https://github.com/pushpad/web-push
+[71] https://github.com/stripe-ruby-mock/stripe-ruby-mock
+[72] https://github.com/rails/rails-controller-testing
+[73] https://github.com/feedbin/feedbin/blob/main/Gemfile
+[74] https://github.com/feedbin/feedbin/blob/main/lib/conditional_sass_compressor.rb#L1
+[75] https://github.com/feedbin/feedbin/blob/main/config/routes.rb#L133
+[76] https://github.com/feedbin/feedbin/blob/main/app/views/entries/destroy.js.erb#L1
+[77] https://github.com/feedbin/feedbin/blob/main/app/presenters/base_presenter.rb#L1
+[78] https://github.com/feedbin/feedbin/blob/main/app/views/layouts/settings.html.erb#L1
+[79] https://github.com/feedbin/feedbin/blob/main/app/views/components/application_component.rb#L3
+[80] https://github.com/angristan/feedbin-docker
+[81] https://shortruby.com/
+[82] http://rubyandrails.info/
+[83] http://rubyandrails.info/
+[84] https://learn.shortruby.com/
+[85] https://ruby.social/@lucian
+[86] http://ruby.social/
+[87] https://linkedin.com/in/lucianghinda
+[88] https://x.com/lucianghinda
+[89] https://www.youtube.com/@shortruby
+[91] https://allaboutcoding.ghinda.com/sponsor
+[92] https://hashnode.com/sponsors
+[93] https://allaboutcoding.ghinda.com/tag/ruby?source=tags_bottom_blogs
+[94] https://allaboutcoding.ghinda.com/tag/ruby-on-rails?source=tags_bottom_blogs
+[95] https://allaboutcoding.ghinda.com/tag/opensource?source=tags_bottom_blogs
+[96] https://allaboutcoding.ghinda.com/tag/coding?source=tags_bottom_blogs
+[97] https://allaboutcoding.ghinda.com/tag/programming-blogs?source=tags_bottom_blogs
