@@ -1,103 +1,89 @@
-   #[1]crawshaw.io atom feed
-
 One process programming notes (with Go and SQLite)
 
-   2018 July 30
+2018 July 30
 
-   Blog-ified version of a talk I gave at [2]Go Northwest.
+Blog-ified version of a talk I gave at [1]Go Northwest.
 
-   This content covers my recent exploration of writing internet services,
-   iOS apps, and macOS programs as an indie developer.
+This content covers my recent exploration of writing internet services, iOS
+apps, and macOS programs as an indie developer.
 
-   There are several topics here that should each have their own blog
-   post. But as I have a lot of programming to do I am going to put these
-   notes up as is and split the material out some time later.
+There are several topics here that should each have their own blog post. But as
+I have a lot of programming to do I am going to put these notes up as is and
+split the material out some time later.
 
-   My focus has been on how to adapt the lessons I have learned working in
-   teams at Google to a single programmer building small business work.
-   There are many great engineering practices in Silicon Valleyʼs big
-   companies and well-capitalized VC firms, but one person does not have
-   enough bandwidth to use them all and write software. The exercise for
-   me is: what to keep and what must go.
+My focus has been on how to adapt the lessons I have learned working in teams
+at Google to a single programmer building small business work. There are many
+great engineering practices in Silicon Valley's big companies and
+well-capitalized VC firms, but one person does not have enough bandwidth to use
+them all and write software. The exercise for me is: what to keep and what must
+go.
 
-   If I have been doing it right, the technology and techniques described
-   here will sound easy. I have to fit it all in my head while having
-   enough capacity left over to write software people want. Every extra
-   thing has great cost, especially rarely touched software that comes
-   back to bite in the middle of the night six months later.
+If I have been doing it right, the technology and techniques described here
+will sound easy. I have to fit it all in my head while having enough capacity
+left over to write software people want. Every extra thing has great cost,
+especially rarely touched software that comes back to bite in the middle of the
+night six months later.
 
-   Two key technologies I have decided to use are Go and SQLite.
+Two key technologies I have decided to use are Go and SQLite.
 
 A brief introduction to SQLite
 
-   SQLite is an implementation of SQL. Unlike traditional database
-   implementations like PostgreSQL or MySQL, SQLite is a self-contained C
-   library designed to be embedded into programs. It has been built by D.
-   Richard Hipp since its release in 2000, and in the past 18 years other
-   open source contributors have helped. At this point it has been around
-   most of the time I have been programming and is a core part of my
-   programming toolbox.
+SQLite is an implementation of SQL. Unlike traditional database implementations
+like PostgreSQL or MySQL, SQLite is a self-contained C library designed to be
+embedded into programs. It has been built by D. Richard Hipp since its release
+in 2000, and in the past 18 years other open source contributors have helped.
+At this point it has been around most of the time I have been programming and
+is a core part of my programming toolbox.
 
 Hands-on with the SQLite command line tool
 
-   Rather than talk through SQLite in the abstract, let me show it to you.
+Rather than talk through SQLite in the abstract, let me show it to you.
 
-   A kind person on Kaggle has [3]provided a CSV file of the plays of
-   Shakespeare. Letʼs build an SQLite database out of it.
+A kind person on Kaggle has [2]provided a CSV file of the plays of Shakespeare.
+Let's build an SQLite database out of it.
+
 $ head shakespeare_data.csv
 "Dataline","Play","PlayerLinenumber","ActSceneLine","Player","PlayerLine"
 "1","Henry IV",,,,"ACT I"
 "2","Henry IV",,,,"SCENE I. London. The palace."
-"3","Henry IV",,,,"Enter KING HENRY, LORD JOHN OF LANCASTER, the EARL of WESTMOR
-ELAND, SIR WALTER BLUNT, and others"
-"4","Henry IV","1","1.1.1","KING HENRY IV","So shaken as we are, so wan with car
-e,"
-"5","Henry IV","1","1.1.2","KING HENRY IV","Find we a time for frighted peace to
- pant,"
-"6","Henry IV","1","1.1.3","KING HENRY IV","And breathe short-winded accents of
-new broils"
-"7","Henry IV","1","1.1.4","KING HENRY IV","To be commenced in strands afar remo
-te."
-"8","Henry IV","1","1.1.5","KING HENRY IV","No more the thirsty entrance of this
- soil"
-"9","Henry IV","1","1.1.6","KING HENRY IV","Shall daub her lips with her own chi
-ldren's blood,"
+"3","Henry IV",,,,"Enter KING HENRY, LORD JOHN OF LANCASTER, the EARL of WESTMORELAND, SIR WALTER BLUNT, and others"
+"4","Henry IV","1","1.1.1","KING HENRY IV","So shaken as we are, so wan with care,"
+"5","Henry IV","1","1.1.2","KING HENRY IV","Find we a time for frighted peace to pant,"
+"6","Henry IV","1","1.1.3","KING HENRY IV","And breathe short-winded accents of new broils"
+"7","Henry IV","1","1.1.4","KING HENRY IV","To be commenced in strands afar remote."
+"8","Henry IV","1","1.1.5","KING HENRY IV","No more the thirsty entrance of this soil"
+"9","Henry IV","1","1.1.6","KING HENRY IV","Shall daub her lips with her own children's blood,"
 
-   First, letʼs use the sqlite command line tool to create a new database
-   and import the CSV.
+First, let's use the sqlite command line tool to create a new database and
+import the CSV.
+
 $ sqlite3 shakespeare.db
 sqlite> .mode csv
 sqlite> .import shakespeare_data.csv import
 
-   Done! A couple of SELECTs will let us quickly see if it worked.
+Done! A couple of SELECTs will let us quickly see if it worked.
+
 sqlite> SELECT count(*) FROM import;
 111396
 sqlite> SELECT * FROM import LIMIT 10;
 1,"Henry IV","","","","ACT I"
 2,"Henry IV","","","","SCENE I. London. The palace."
-3,"Henry IV","","","","Enter KING HENRY, LORD JOHN OF LANCASTER, the EARL of WES
-TMORELAND, SIR WALTER BLUNT, and others"
+3,"Henry IV","","","","Enter KING HENRY, LORD JOHN OF LANCASTER, the EARL of WESTMORELAND, SIR WALTER BLUNT, and others"
 4,"Henry IV",1,1.1.1,"KING HENRY IV","So shaken as we are, so wan with care,"
-5,"Henry IV",1,1.1.2,"KING HENRY IV","Find we a time for frighted peace to pant,
-"
-6,"Henry IV",1,1.1.3,"KING HENRY IV","And breathe short-winded accents of new br
-oils"
+5,"Henry IV",1,1.1.2,"KING HENRY IV","Find we a time for frighted peace to pant,"
+6,"Henry IV",1,1.1.3,"KING HENRY IV","And breathe short-winded accents of new broils"
 7,"Henry IV",1,1.1.4,"KING HENRY IV","To be commenced in strands afar remote."
 8,"Henry IV",1,1.1.5,"KING HENRY IV","No more the thirsty entrance of this soil"
-9,"Henry IV",1,1.1.6,"KING HENRY IV","Shall daub her lips with her own children'
-s blood,"
+9,"Henry IV",1,1.1.6,"KING HENRY IV","Shall daub her lips with her own children's blood,"
 
-   Looks good! Now we can do a little cleanup. The original CSV contains a
-   column called AceSceneLine that uses dots to encode Act number, Scene
-   number, and Line number. Those would look much nicer as their own
-   columns.
-sqlite> CREATE TABLE plays (rowid INTEGER PRIMARY KEY, play, linenumber, act, sc
-ene, line, player, text);
+Looks good! Now we can do a little cleanup. The original CSV contains a column
+called AceSceneLine that uses dots to encode Act number, Scene number, and Line
+number. Those would look much nicer as their own columns.
+
+sqlite> CREATE TABLE plays (rowid INTEGER PRIMARY KEY, play, linenumber, act, scene, line, player, text);
 sqlite> .schema
-CREATE TABLE import (rowid primary key, play, playerlinenumber, actsceneline, pl
-ayer, playerline);
-CREATE TABLE plays (rowid primary key, play, linenumber, act, scene, line, playe
-r, text);
+CREATE TABLE import (rowid primary key, play, playerlinenumber, actsceneline, player, playerline);
+CREATE TABLE plays (rowid primary key, play, linenumber, act, scene, line, player, text);
 sqlite> INSERT INTO plays SELECT
         row AS rowid,
         play,
@@ -109,83 +95,82 @@ sqlite> INSERT INTO plays SELECT
         playerline AS text
         FROM import;
 
-   (The substr above can be improved by using instr to find the ʼ.ʼ
-   characters. Exercise left for the reader.)
+(The substr above can be improved by using instr to find the '.' characters.
+Exercise left for the reader.)
 
-   Here we used the INSERT ... SELECT syntax to build a table out of
-   another table. The ActSceneLine column was split apart using the
-   builtin SQLite function substr, which slices strings.
+Here we used the INSERT ... SELECT syntax to build a table out of another
+table. The ActSceneLine column was split apart using the builtin SQLite
+function substr, which slices strings.
 
-   The result:
+The result:
+
 sqlite> SELECT * FROM plays LIMIT 10;
 1,"Henry IV","","","","","","ACT I"
 2,"Henry IV","","","","","","SCENE I. London. The palace."
-3,"Henry IV","","","","","","Enter KING HENRY, LORD JOHN OF LANCASTER, the EARL
-of WESTMORELAND, SIR WALTER BLUNT, and others"
+3,"Henry IV","","","","","","Enter KING HENRY, LORD JOHN OF LANCASTER, the EARL of WESTMORELAND, SIR WALTER BLUNT, and others"
 4,"Henry IV",1,1,1,1,"KING HENRY IV","So shaken as we are, so wan with care,"
-5,"Henry IV",1,1,1,2,"KING HENRY IV","Find we a time for frighted peace to pant,
-"
-6,"Henry IV",1,1,1,3,"KING HENRY IV","And breathe short-winded accents of new br
-oils"
+5,"Henry IV",1,1,1,2,"KING HENRY IV","Find we a time for frighted peace to pant,"
+6,"Henry IV",1,1,1,3,"KING HENRY IV","And breathe short-winded accents of new broils"
 7,"Henry IV",1,1,1,4,"KING HENRY IV","To be commenced in strands afar remote."
 8,"Henry IV",1,1,1,5,"KING HENRY IV","No more the thirsty entrance of this soil"
-9,"Henry IV",1,1,1,6,"KING HENRY IV","Shall daub her lips with her own children'
-s blood,"
+9,"Henry IV",1,1,1,6,"KING HENRY IV","Shall daub her lips with her own children's blood,"
 
-   Now we have our data, let us search for something:
+Now we have our data, let us search for something:
+
 sqlite> SELECT * FROM plays WHERE text LIKE "whether tis nobler%";
 sqlite>
 
-   That did not work. Hamlet definitely says that, but perhaps the text
-   formatting is slightly off. SQLite to the rescue. It ships with a Full
-   Text Search extension compiled in. Let us index all of Shakespeare with
-   FTS5:
+That did not work. Hamlet definitely says that, but perhaps the text formatting
+is slightly off. SQLite to the rescue. It ships with a Full Text Search
+extension compiled in. Let us index all of Shakespeare with FTS5:
+
 sqlite> CREATE VIRTUAL TABLE playsearch USING fts5(playsrowid, text);
 sqlite> INSERT INTO playsearch SELECT rowid, text FROM plays;
 
-   Now we can search for our soliloquy:
-sqlite> SELECT rowid, text FROM playsearch WHERE text MATCH "whether tis nobler"
-;
+Now we can search for our soliloquy:
+
+sqlite> SELECT rowid, text FROM playsearch WHERE text MATCH "whether tis nobler";
 34232|Whether 'tis nobler in the mind to suffer
 
-   Success! The act and scene can be acquired by joining with our original
-   table.
+Success! The act and scene can be acquired by joining with our original table.
+
 sqlite> SELECT play, act, scene, line, player, plays.text
         FROM playsearch
         INNER JOIN plays ON playsearch.playsrowid = plays.rowid
         WHERE playsearch.text MATCH "whether tis nobler";
 Hamlet|3|1|65|HAMLET|Whether 'tis nobler in the mind to suffer
 
-   Letʼs clean up.
+Let's clean up.
+
 sqlite> DROP TABLE import;
 sqlite> VACUUM;
 
-   Finally, what does all of this look like on the file system?
+Finally, what does all of this look like on the file system?
+
 $ ls -l
 -rwxr-xr-x@ 1 crawshaw  staff  10188854 Apr 27  2017 shakespeare_data.csv
 -rw-r--r--  1 crawshaw  staff  22286336 Jul 25 22:05 shakespeare.db
 
-   There you have it. The SQLite database contains two full copies of the
-   plays of Shakespeare, one with a full text search index, and stores
-   both of them in about twice the space it takes the original CSV file to
-   store one. Not bad.
+There you have it. The SQLite database contains two full copies of the plays of
+Shakespeare, one with a full text search index, and stores both of them in
+about twice the space it takes the original CSV file to store one. Not bad.
 
-   That should give you a feel for the i-t-e of SQLite.
+That should give you a feel for the i-t-e of SQLite.
 
-   And scene.
+And scene.
 
 Using SQLite from Go
 
 The standard database/sql
 
-   There are a number of cgo-based [4]database/sql drivers available for
-   SQLite. The most popular one appears to be
-   [5]github.com/mattn/go-sqlite3. It gets the job done and is probably
-   what you want.
+There are a number of cgo-based [3]database/sql drivers available for SQLite.
+The most popular one appears to be [4]github.com/mattn/go-sqlite3. It gets the
+job done and is probably what you want.
 
-   Using the database/sql package it is straightforward to open an SQLite
-   database and execute SQL statements on it. For example, we can run the
-   FTS query from earlier using this Go code:
+Using the database/sql package it is straightforward to open an SQLite database
+and execute SQL statements on it. For example, we can run the FTS query from
+earlier using this Go code:
+
 package main
 
 import (
@@ -212,69 +197,67 @@ func main() {
         }
         var play, text string
         var act, scene int
-        err = stmt.QueryRow("whether tis nobler").Scan(&play, &act, &scene, &tex
-t)
+        err = stmt.QueryRow("whether tis nobler").Scan(&play, &act, &scene, &text)
         if err != nil {
                 log.Fatal(err)
         }
         fmt.Printf("%s %d:%d: %q\n", play, act, scene, text)
 }
 
-   Executing it yields:
+Executing it yields:
+
 Hamlet 3:1 "Whether 'tis nobler in the mind to suffer"
 
 A low-level wrapper: crawshaw.io/sqlite
 
-   Just as SQLite steps beyond the basics of SELECT, INSERT, UPDATE,
-   DELETE with full-text search, it has several other interesting features
-   and extensions that cannot be accessed by SQL statements alone. These
-   need specialized interfaces, and many of the interfaces are not
-   supported by any of the existing drivers.
+Just as SQLite steps beyond the basics of SELECT, INSERT, UPDATE, DELETE with
+full-text search, it has several other interesting features and extensions that
+cannot be accessed by SQL statements alone. These need specialized interfaces,
+and many of the interfaces are not supported by any of the existing drivers.
 
-   So I wrote my own. You can get it from [6]crawshaw.io/sqlite. In
-   particular, it supports the streaming blob interface, the [7]session
-   extension, and implements the necessary sqlite_unlock_notify machinery
-   to make good use of the [8]shared cache for connection pools. I am
-   going to cover these features through two use case studies: the client
-   and the cloud.
+So I wrote my own. You can get it from [5]crawshaw.io/sqlite. In particular, it
+supports the streaming blob interface, the [6]session extension, and implements
+the necessary sqlite_unlock_notify machinery to make good use of the [7]shared
+cache for connection pools. I am going to cover these features through two use
+case studies: the client and the cloud.
 
 cgo
 
-   All of these approaches rely on cgo for integrating C into Go. This is
-   straightforward to do, but adds some operational complexity. Building a
-   Go program using SQLite requires a C compiler for the target.
+All of these approaches rely on cgo for integrating C into Go. This is
+straightforward to do, but adds some operational complexity. Building a Go
+program using SQLite requires a C compiler for the target.
 
-   In practice, this means if you develop on macOS you need to install a
-   cross-compiler for linux.
+In practice, this means if you develop on macOS you need to install a
+cross-compiler for linux.
 
-   Typical concerns about the impact on software quality of adding C code
-   to Go do not apply to SQLite as it has an extraordinary degree of
-   testing. The quality of the code is exceptional.
+Typical concerns about the impact on software quality of adding C code to Go do
+not apply to SQLite as it has an extraordinary degree of testing. The quality
+of the code is exceptional.
 
 Go and SQLite for the client
 
-   I am building an [9]iOS app, with almost all the code written in Go and
-   the UI provided by a web view. This app has a full copy of the user
-   data, it is not a thin view onto an internet server. This means storing
-   a large amount of local, structured data, on-device full text
-   searching, background tasks working on the database in a way that does
-   not disrupt the UI, and syncing DB changes to a backup in the cloud.
+I am building an [8]iOS app, with almost all the code written in Go and the UI
+provided by a web view. This app has a full copy of the user data, it is not a
+thin view onto an internet server. This means storing a large amount of local,
+structured data, on-device full text searching, background tasks working on the
+database in a way that does not disrupt the UI, and syncing DB changes to a
+backup in the cloud.
 
-   That is a lot of moving parts for a client. More than I want to write
-   in JavaScript, and more than I want to write in Swift and then have to
-   promptly rewrite if I ever manage to build an Android app. More
-   importantly, the server is in Go, and I am one independent developer.
-   It is absolutely vital I reduce the number of moving pieces in my
-   development environment to the smallest possible number. Hence the
-   effort to build (the big bits) of a client using the exact same
-   technology as my server.
+That is a lot of moving parts for a client. More than I want to write in
+JavaScript, and more than I want to write in Swift and then have to promptly
+rewrite if I ever manage to build an Android app. More importantly, the server
+is in Go, and I am one independent developer. It is absolutely vital I reduce
+the number of moving pieces in my development environment to the smallest
+possible number. Hence the effort to build (the big bits) of a client using the
+exact same technology as my server.
 
 The Session extension
 
-   The session extension lets you start a session on an SQLite connection.
-   All changes made to the database through that connection are bundled
-   into a patchset blob. The extension also provides method for applying
-   the generated patchset to a table.
+The session extension lets you start a session on an SQLite connection. All
+changes made to the database through that connection are bundled into a
+patchset blob. The extension also provides method for applying the generated
+patchset to a table.
+
 func (conn *Conn) CreateSession(db string) (*Session, error)
 
 func (s *Session) Changeset(w io.Writer) error
@@ -285,49 +268,46 @@ func (conn *Conn) ChangesetApply(
         conflictFn func(ConflictType, ChangesetIter) ConflictAction,
 ) error
 
-   This can be used to build a very simple client-sync system. Collect the
-   changes made in a client, periodically bundle them up into a changeset
-   and upload it to the server where it is applied to a backup copy of the
-   database. If another client changes the database then the server
-   advertises it to the client, who downloads a changeset and applies it.
+This can be used to build a very simple client-sync system. Collect the changes
+made in a client, periodically bundle them up into a changeset and upload it to
+the server where it is applied to a backup copy of the database. If another
+client changes the database then the server advertises it to the client, who
+downloads a changeset and applies it.
 
-   This requires a bit of care in the database design. The reason I kept
-   the FTS table separate in the Shakespeare example is I keep my FTS
-   tables in a separate attached database (which in SQLite, means a
-   different file). The cloud backup database never generates the FTS
-   tables, the client is free to generate the tables in a background
-   thread and they can lag behind data backups.
+This requires a bit of care in the database design. The reason I kept the FTS
+table separate in the Shakespeare example is I keep my FTS tables in a separate
+attached database (which in SQLite, means a different file). The cloud backup
+database never generates the FTS tables, the client is free to generate the
+tables in a background thread and they can lag behind data backups.
 
-   Another point of care is minimizing conflicts. The biggest one is
-   AUTOINCREMENT keys. By default the primary key of a rowid table is
-   incremented, which means if you have multiple clients generating rowids
-   you will see lots of conflicts.
+Another point of care is minimizing conflicts. The biggest one is AUTOINCREMENT
+keys. By default the primary key of a rowid table is incremented, which means
+if you have multiple clients generating rowids you will see lots of conflicts.
 
-   I have been trialing two different solutions. The first is having each
-   client register a rowid range with the server and only allocate from
-   its own range. It works. The second is randomly generating int64
-   values, and relying on the low collision rate. So far it works too.
-   Both strategies have risks, and I havenʼt decided which is better.
+I have been trialing two different solutions. The first is having each client
+register a rowid range with the server and only allocate from its own range. It
+works. The second is randomly generating int64 values, and relying on the low
+collision rate. So far it works too. Both strategies have risks, and I haven't
+decided which is better.
 
-   In practice, I have found I have to limit DB updates to a single
-   connection to keep changeset quality high. (A changeset does not see
-   changes made on other connections.) To do this I maintain a read-only
-   pool of connections and a single guarded read-write connection in a
-   pool of 1. The code only grabs the read-write connection when it needs
-   it, and the read-only connections are enforced by the read-only bit on
-   the SQLite connection.
+In practice, I have found I have to limit DB updates to a single connection to
+keep changeset quality high. (A changeset does not see changes made on other
+connections.) To do this I maintain a read-only pool of connections and a
+single guarded read-write connection in a pool of 1. The code only grabs the
+read-write connection when it needs it, and the read-only connections are
+enforced by the read-only bit on the SQLite connection.
 
 Nested Transactions
 
-   The database/sql driver encourages the use of SQL transactions with its
-   Tx type, but this does not appear to play well with nested
-   transactions. This is a concept implemented by SAVEPOINT / RELEASE in
-   SQL, and it makes for surprisingly composable code.
+The database/sql driver encourages the use of SQL transactions with its Tx
+type, but this does not appear to play well with nested transactions. This is a
+concept implemented by SAVEPOINT / RELEASE in SQL, and it makes for
+surprisingly composable code.
 
-   If a function needs to make multiple statements in a transaction, it
-   can open with a SAVEPOINT, then defer a call to RELEASE if the function
-   produces no Go return error, or if it does instead call ROLLBACK and
-   return the error.
+If a function needs to make multiple statements in a transaction, it can open
+with a SAVEPOINT, then defer a call to RELEASE if the function produces no Go
+return error, or if it does instead call ROLLBACK and return the error.
+
 func f(conn *sqlite.Conn) (err error) {
         conn...SAVEPOINT
         defer func() {
@@ -339,23 +319,25 @@ func f(conn *sqlite.Conn) (err error) {
         }()
 }
 
-   Now if this transactional function f needs to call another
-   transactional function g, then g can use exactly the same strategy and
-   f can call it in a very traditional Go way:
+Now if this transactional function f needs to call another transactional
+function g, then g can use exactly the same strategy and f can call it in a
+very traditional Go way:
+
 if err := g(conn); err != nil {
         return err // all changes in f will be rolled back by the defer
 }
 
-   The function g is also perfectly safe to use in its own right, as it
-   has its own transaction.
+The function g is also perfectly safe to use in its own right, as it has its
+own transaction.
 
-   I have been using this SAVEPOINT + defer RELEASE or return an error
-   semantics for several months now and find it invaluable. It makes it
-   easy to safely wrap code in SQL transactions.
+I have been using this SAVEPOINT + defer RELEASE or return an error semantics
+for several months now and find it invaluable. It makes it easy to safely wrap
+code in SQL transactions.
 
-   The example above however is a bit bulky, and there are some edge cases
-   that need to be handled. (For example, if the RELEASE fails, then an
-   error needs to be returned.) So I have wrapped this up in a utility:
+The example above however is a bit bulky, and there are some edge cases that
+need to be handled. (For example, if the RELEASE fails, then an error needs to
+be returned.) So I have wrapped this up in a utility:
+
 func f(conn *sqlite.Conn) (err error) {
         defer sqlitex.Save(conn)(&err)
 
@@ -363,130 +345,124 @@ func f(conn *sqlite.Conn) (err error) {
         // with other functions that call sqlitex.Save.
 }
 
-   The first time you see sqlitex.Save in action it can be a little
-   off-putting, at least it was for me when I first created it. But I
-   quickly got used to it, and it does a lot of heavy lifting. The first
-   call to sqlitex.Save opens a SAVEPOINT on the conn and returns a
-   closure that either RELEASEs or ROLLBACKs depending on the value of
-   err, and sets err if necessary.
+The first time you see sqlitex.Save in action it can be a little off-putting,
+at least it was for me when I first created it. But I quickly got used to it,
+and it does a lot of heavy lifting. The first call to sqlitex.Save opens a
+SAVEPOINT on the conn and returns a closure that either RELEASEs or ROLLBACKs
+depending on the value of err, and sets err if necessary.
 
 Go and SQLite in the cloud
 
-   I have spent several months now redesigning services I have encountered
-   before and designing services for problems I would like to work on
-   going forward. The process has led me to a general design that works
-   for many problems and I quite enjoy building.
+I have spent several months now redesigning services I have encountered before
+and designing services for problems I would like to work on going forward. The
+process has led me to a general design that works for many problems and I quite
+enjoy building.
 
-   It can be summarized as 1 VM, 1 Zone, 1 process programming.
+It can be summarized as 1 VM, 1 Zone, 1 process programming.
 
-   If this sounds ridiculously simplistic to you, I think thatʼs good! It
-   is simple. It does not meet all sorts of requirements that we would
-   like our modern fancy cloud services to meet. It is not "serverless",
-   which means when a service is extremely small it does not run for free,
-   and when a service grows it does not automatically scale. Indeed, there
-   is an explicit scaling limit. Right now the best server you can get
-   from Amazon is roughly:
-     * 128 CPU threads at ~4GHz
-     * 4TB RAM
-     * 25 Gbit ethernet
-     * 10 Gbps NAS
-     * hours of yearly downtime
+If this sounds ridiculously simplistic to you, I think that's good! It is
+simple. It does not meet all sorts of requirements that we would like our
+modern fancy cloud services to meet. It is not "serverless", which means when a
+service is extremely small it does not run for free, and when a service grows
+it does not automatically scale. Indeed, there is an explicit scaling limit.
+Right now the best server you can get from Amazon is roughly:
 
-   That is a huge potential downside of of one process programming.
-   However, I claim that is a livable limit.
+  • 128 CPU threads at ~4GHz
+  • 4TB RAM
+  • 25 Gbit ethernet
+  • 10 Gbps NAS
+  • hours of yearly downtime
 
-   I claim typical services do not hit this scaling limit.
+That is a huge potential downside of of one process programming. However, I
+claim that is a livable limit.
 
-   If you are building a small business, most products can grow and become
-   profitable well under this limit for years. When you see the limit
-   approaching in the next year or two, you have a business with revenue
-   to hire more than one engineer, and the new team can, in the face of
-   radically changing business requirements, rewrite the service.
+I claim typical services do not hit this scaling limit.
 
-   Reaching this limit is a good problem to have because when it comes you
-   will have plenty of time to deal with it and the human resources you
-   need to solve it well.
+If you are building a small business, most products can grow and become
+profitable well under this limit for years. When you see the limit approaching
+in the next year or two, you have a business with revenue to hire more than one
+engineer, and the new team can, in the face of radically changing business
+requirements, rewrite the service.
 
-   Early in the life of a small business you donʼt, and every hour you
-   spend trying to work beyond this scaling limit is an hour that would
-   have been better spent talking to your customers about their needs.
+Reaching this limit is a good problem to have because when it comes you will
+have plenty of time to deal with it and the human resources you need to solve
+it well.
 
-   The principle at work here is:
+Early in the life of a small business you don't, and every hour you spend
+trying to work beyond this scaling limit is an hour that would have been better
+spent talking to your customers about their needs.
 
-   Donʼt use N computers when 1 will do.
+The principle at work here is:
 
-   To go into a bit more technical detail,
+Don't use N computers when 1 will do.
 
-   I run a single VM on AWS, in a single availability zone. The VM has
-   three EBS volumes (this is Amazon name for NAS). The first holds the
-   OS, logs, temporary files, and any ephemeral SQLite databases that are
-   generated from the main databases, e.g. FTS tables. The second the
-   primary SQLite database for the main service. The third holds the
-   customer sync SQLite databases.
+To go into a bit more technical detail,
 
-   The system is configured to periodically snapshot the system EBS volume
-   and the customer EBS volumes to S3, the Amazon geo-redundant blob
-   store. This is a relatively cheap operation that can be scripted,
-   because only blocks that change are copied.
+I run a single VM on AWS, in a single availability zone. The VM has three EBS
+volumes (this is Amazon name for NAS). The first holds the OS, logs, temporary
+files, and any ephemeral SQLite databases that are generated from the main
+databases, e.g. FTS tables. The second the primary SQLite database for the main
+service. The third holds the customer sync SQLite databases.
 
-   The main EBS volume is backed up to S3 very regularly, by custom code
-   that flushes the WAL cache. Iʼll explain that in a bit.
+The system is configured to periodically snapshot the system EBS volume and the
+customer EBS volumes to S3, the Amazon geo-redundant blob store. This is a
+relatively cheap operation that can be scripted, because only blocks that
+change are copied.
 
-   The service is a single Go binary running on this VM. The machine has
-   plenty of extra RAM that is used by linuxʼs disk cache. (And that can
-   be used by a second copy of the service spinning up for low down-time
-   replacement.)
+The main EBS volume is backed up to S3 very regularly, by custom code that
+flushes the WAL cache. I'll explain that in a bit.
 
-   The result of this is a service that has at most tens of hours of
-   downtime a year, about as much change of suffering block loss as a
-   physical computer with a RAID5 array, and active offsite backups being
-   made every few minutes to a distributed system that is built and
-   maintained by a large team.
+The service is a single Go binary running on this VM. The machine has plenty of
+extra RAM that is used by linux's disk cache. (And that can be used by a second
+copy of the service spinning up for low down-time replacement.)
 
-   This system is astonishingly simple. I shell into one machine. It is a
-   linux machine. I have a deploy script for the service that is ten lines
-   long. Almost all of my performance work is done with pprof.
+The result of this is a service that has at most tens of hours of downtime a
+year, about as much change of suffering block loss as a physical computer with
+a RAID5 array, and active offsite backups being made every few minutes to a
+distributed system that is built and maintained by a large team.
 
-   On a medium sized VM I can clock 5-6 thousand concurrent requests with
-   only a few hours of performance tuning. On the largest machine AWS has,
-   tens of thousands.
+This system is astonishingly simple. I shell into one machine. It is a linux
+machine. I have a deploy script for the service that is ten lines long. Almost
+all of my performance work is done with pprof.
 
-   Now to talk a little more about the particulars of the stack:
+On a medium sized VM I can clock 5-6 thousand concurrent requests with only a
+few hours of performance tuning. On the largest machine AWS has, tens of
+thousands.
+
+Now to talk a little more about the particulars of the stack:
 
 Shared cache and WAL
 
-   To make the server extremely concurrent there are two important SQLite
-   features I use. The first is the shared cache, which lets me allocate
-   one large pool of memory to the database page cache and many concurrent
-   connections can use it simultaneously. This requires some support in
-   the driver for sqlite_unlock_notify so user code doesnʼt need to deal
-   with locking events, but that is transparent to end user code.
+To make the server extremely concurrent there are two important SQLite features
+I use. The first is the shared cache, which lets me allocate one large pool of
+memory to the database page cache and many concurrent connections can use it
+simultaneously. This requires some support in the driver for
+sqlite_unlock_notify so user code doesn't need to deal with locking events, but
+that is transparent to end user code.
 
-   The second is the Write Ahead Log. This is a mode SQLite can be knocked
-   into at the beginning of connection which changes the way it writes
-   transactions to disk. Instead of locking the database and making
-   modifications along with a rollback journal, it appends the new change
-   to a separate file. This allows readers to work concurrently with the
-   writer. The WAL has to be flushed periodically by SQLite, which
-   involves locking the database and writing the changes from it. There
-   are default settings for doing this.
+The second is the Write Ahead Log. This is a mode SQLite can be knocked into at
+the beginning of connection which changes the way it writes transactions to
+disk. Instead of locking the database and making modifications along with a
+rollback journal, it appends the new change to a separate file. This allows
+readers to work concurrently with the writer. The WAL has to be flushed
+periodically by SQLite, which involves locking the database and writing the
+changes from it. There are default settings for doing this.
 
-   I override these and execute WAL flushes manually from a package that,
-   when it is done, also triggers an S3 snapshot. This package is called
-   reallyfsync, and if I can work out how to test it properly I will make
-   it open source.
+I override these and execute WAL flushes manually from a package that, when it
+is done, also triggers an S3 snapshot. This package is called reallyfsync, and
+if I can work out how to test it properly I will make it open source.
 
 Incremental Blob API
 
-   Another smaller, but important to my particular server feature, is
-   SQLiteʼs [10]incremental blob API. This allows a field of bytes to be
-   read and written in the DB without storing all the bytes in memory
-   simultaneously, which matters when it is possible for each request to
-   be working with hundreds of megabytes, but you want tens of thousands
-   of potential concurrent requests.
+Another smaller, but important to my particular server feature, is SQLite's [9]
+incremental blob API. This allows a field of bytes to be read and written in
+the DB without storing all the bytes in memory simultaneously, which matters
+when it is possible for each request to be working with hundreds of megabytes,
+but you want tens of thousands of potential concurrent requests.
 
-   This is one of the places where the driver deviates from being a
-   close-to-cgo wrapper to be more [11]Go-like:
+This is one of the places where the driver deviates from being a close-to-cgo
+wrapper to be more [10]Go-like:
+
 type Blob
     func (blob *Blob) Close() error
     func (blob *Blob) Read(p []byte) (n int, err error)
@@ -496,79 +472,75 @@ type Blob
     func (blob *Blob) Write(p []byte) (n int, err error)
     func (blob *Blob) WriteAt(p []byte, off int64) (n int, err error)
 
-   This looks a lot like a file, and indeed can be used like a file, with
-   one caveat: the size of a blob is set when it is created. (As such, I
-   still find temporary files to be useful.)
+This looks a lot like a file, and indeed can be used like a file, with one
+caveat: the size of a blob is set when it is created. (As such, I still find
+temporary files to be useful.)
 
 Designing with one process programming
 
-   I start with: Do you really need N computers?
+I start with: Do you really need N computers?
 
-   Some problems really do. For example, you cannot build a low-latency
-   index of the public internet with only 4TB of RAM. You need a lot more.
-   These problems are great fun, and we like to talk a lot about them, but
-   they are a relatively small amount of all the code written. So far all
-   the projects I have been developing post-Google fit on 1 computer.
+Some problems really do. For example, you cannot build a low-latency index of
+the public internet with only 4TB of RAM. You need a lot more. These problems
+are great fun, and we like to talk a lot about them, but they are a relatively
+small amount of all the code written. So far all the projects I have been
+developing post-Google fit on 1 computer.
 
-   There are also more common sub-problems that are hard to solve with one
-   computer. If you have a global customer base and need low-latency to
-   your server, the speed of light gets in the way. But many of these
-   problems can be solved with relatively straightforward CDN products.
+There are also more common sub-problems that are hard to solve with one
+computer. If you have a global customer base and need low-latency to your
+server, the speed of light gets in the way. But many of these problems can be
+solved with relatively straightforward CDN products.
 
-   Another great solution to the speed of light is geo-sharding. Have
-   complete and independent copies of your service in multiple
-   datacenters, move your userʼs data to the service near them. This can
-   be as easy as having one small global redirect database (maybe SQLite
-   on geo-redundant NFS!) redirecting the user to a specific DNS name like
-   {us-east, us-west}.mservice.com.
+Another great solution to the speed of light is geo-sharding. Have complete and
+independent copies of your service in multiple datacenters, move your user's
+data to the service near them. This can be as easy as having one small global
+redirect database (maybe SQLite on geo-redundant NFS!) redirecting the user to
+a specific DNS name like {us-east, us-west}.mservice.com.
 
-   Most problems do fit in one computer, up to a point. Spend some time
-   determining where that point is. If it is years away there is a good
-   chance one computer will do.
+Most problems do fit in one computer, up to a point. Spend some time
+determining where that point is. If it is years away there is a good chance one
+computer will do.
 
 Indie dev techniques for the corporate programmer
 
-   Even if you do not write code in this particular technology stack and
-   you are not an independent developer, there is value here. Use the one
-   big VM, one zone, one process Go, SQLite, and snapshot backup stack as
-   a hypothetical tool to test your designs.
+Even if you do not write code in this particular technology stack and you are
+not an independent developer, there is value here. Use the one big VM, one
+zone, one process Go, SQLite, and snapshot backup stack as a hypothetical tool
+to test your designs.
 
-   So add a hypothetical step to your design process: If you solved your
-   problem on this stack with one computers, how far could you get? How
-   many customers could you support? At what size would you need to
-   rewrite your software?
+So add a hypothetical step to your design process: If you solved your problem
+on this stack with one computers, how far could you get? How many customers
+could you support? At what size would you need to rewrite your software?
 
-   If this indie mini stack would last your business years, you might want
-   to consider delaying the adoption of modern cloud software.
+If this indie mini stack would last your business years, you might want to
+consider delaying the adoption of modern cloud software.
 
-   If you are a programmer at a well-capitalized company, you may also
-   want to consider what development looks like for small internal or
-   experimental projects. Do your coworkers have to use large complex
-   distributed systems for policy reasons? Many of these projects will
-   never need to scale beyond one computer, or if they do they will need a
-   rewrite to deal with shifting requirements. In which case, find a way
-   to make an indie stack, linux VMs with a file system, available for
-   prototyping and experimentation.
-     __________________________________________________________________
+If you are a programmer at a well-capitalized company, you may also want to
+consider what development looks like for small internal or experimental
+projects. Do your coworkers have to use large complex distributed systems for
+policy reasons? Many of these projects will never need to scale beyond one
+computer, or if they do they will need a rewrite to deal with shifting
+requirements. In which case, find a way to make an indie stack, linux VMs with
+a file system, available for prototyping and experimentation.
 
-   [12]Index
-   [13]github.com/crawshaw
-   [14]twitter.com/davidcrawshaw
-   david@zentus.com
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[11]Index
+[12]github.com/crawshaw
+[13]twitter.com/davidcrawshaw
+david@zentus.com
 
-References
+References:
 
-   1. https://crawshaw.io/atom.xml
-   2. https://gonorthwest.io/
-   3. https://www.kaggle.com/kingburrito666/shakespeare-plays
-   4. https://golang.org/pkg/database/sql
-   5. https://github.com/mattn/go-sqlite3
-   6. https://crawshaw.io/sqlite
-   7. https://www.sqlite.org/sessionintro.html
-   8. https://www.sqlite.org/sharedcache.html
-   9. https://www.posticulous.com/
-  10. https://www.sqlite.org/c3ref/blob_open.html
-  11. https://godoc.org/crawshaw.io/sqlite#Blob
-  12. https://crawshaw.io/
-  13. https://github.com/crawshaw
-  14. https://twitter.com/davidcrawshaw
+[1] https://gonorthwest.io/
+[2] https://www.kaggle.com/kingburrito666/shakespeare-plays
+[3] https://golang.org/pkg/database/sql
+[4] https://github.com/mattn/go-sqlite3
+[5] https://crawshaw.io/sqlite
+[6] https://www.sqlite.org/sessionintro.html
+[7] https://www.sqlite.org/sharedcache.html
+[8] https://www.posticulous.com/
+[9] https://www.sqlite.org/c3ref/blob_open.html
+[10] https://godoc.org/crawshaw.io/sqlite#Blob
+[11] https://crawshaw.io/
+[12] https://github.com/crawshaw
+[13] https://twitter.com/davidcrawshaw

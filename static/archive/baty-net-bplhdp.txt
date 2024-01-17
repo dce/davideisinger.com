@@ -1,74 +1,67 @@
-   [1]Baty.net
-   (BUTTON)
+[1][apple-touc]Baty.net
 
-     * [2]Archive
-     * [3]About
-     * [4]Tags
-     * [5]Uses
-     * [6]Search
+  • [3]Archive
+  • [4]About
+  • [5]Tags
+  • [6]Uses
+  • [7]Search
 
-                     Ending my OpenBSD experiment (Almost)
+Ending my OpenBSD experiment (Almost)
 
-   January 4, 2024 · 197 words
+January 4, 2024 · 197 words
 
-   I did [7]this fun thing from Derek Sivers because I wanted to play with
-   [8]OpenBSD and with [9]Vultr for hosting.
+I did [8]this fun thing from Derek Sivers because I wanted to play with [9]
+OpenBSD and with [10]Vultr for hosting.
 
-   Well, I played with it. It was fun. I got to see how [10]Dovecot works
-   and I learned how to configure Relayd and the OpenBSD httpd server.
+Well, I played with it. It was fun. I got to see how [11]Dovecot works and I
+learned how to configure Relayd and the OpenBSD httpd server.
 
-   I think I’d end up liking it. BSD feels lighter and simpler and
-   therefore probably more secure than the Ubuntu servers I’m running.
+I think I’d end up liking it. BSD feels lighter and simpler and therefore
+probably more secure than the Ubuntu servers I’m running.
 
-   However, I don’t need another server to manage. I don’t need to run my
-   own mail server or CalDAV server. My VPS at Digital Ocean has been
-   running (::knocks wood::) smoothly for years and I’ve got the
-   configuration down.
+However, I don’t need another server to manage. I don’t need to run my own mail
+server or CalDAV server. My VPS at Digital Ocean has been running (::knocks
+wood::) smoothly for years and I’ve got the configuration down.
 
-   I’ll be deleting the OpenBSD server once I’ve moved the few sites I’d
-   migrated there back to Digital Ocean.
+I’ll be deleting the OpenBSD server once I’ve moved the few sites I’d migrated
+there back to Digital Ocean.
 
-   Remember, [11]Reduce and Simplify.
+Remember, [12]Reduce and Simplify.
 
-   I may try again later with stock OpenBSD and Caddy, without all of the
-   Sivers’ stuff.
+I may try again later with stock OpenBSD and Caddy, without all of the Sivers’
+stuff.
 
-   2 hours later: I was right. I spun up a fresh OpenBSD server at Vultr
-   and configured it myself. No services running but relayd->httpd and so
-   far the only site it’s running is [12]jackbaty.com. I like the idea of
-   BSD so much that I couldn’t give up quite yet.
+2 hours later: I was right. I spun up a fresh OpenBSD server at Vultr and
+configured it myself. No services running but relayd->httpd and so far the only
+site it’s running is [13]jackbaty.com. I like the idea of BSD so much that I
+couldn’t give up quite yet.
 
-     * [13]OpenBSD
+  • [14]OpenBSD
 
-   [14]« Prev
-   Obsidian is not at all joyful to use [15]Next »
-   The care and feeding of my system
+[15]« Prev
+Obsidian is not at all joyful to use [16]Next »
+The care and feeding of my system
+[17]✍️ Reply by email
+© Jack Baty | Powered by [18]Hugo & [19]PaperMod[20]
 
-   [16]✍️ Reply by email
+References:
 
-   © Jack Baty | Powered by [17]Hugo & [18]PaperMod
-
-References
-
-   Visible links:
-   1. https://baty.net/
-   2. https://baty.net/archives
-   3. https://baty.net/about/
-   4. https://baty.net/tags/
-   5. https://baty.net/uses/
-   6. https://baty.net/search/
-   7. https://baty.net/journal/2023/12/29/running-an-openbsd-server
-   8. https://www.openbsdfoundation.org/
-   9. https://www.vultr.com/
-  10. https://dovecot.org/
-  11. https://baty.net/journal/2023/12/31/reduce-and-simplify
-  12. https://jackbaty.com/
-  13. https://baty.net/tags/openbsd/
-  14. https://baty.net/journal/2024/01/04/obsidian-is-not-at-all-joyful-to-use/
-  15. https://baty.net/2024/01/the-care-and-feeding-of-my-system/
-  16. mailto:jack@baty.net?subject=[baty.net] Re: Ending my OpenBSD experiment (Almost)
-  17. https://gohugo.io/
-  18. https://github.com/adityatelange/hugo-PaperMod/
-
-   Hidden links:
-  20. https://baty.net/2024/01/ending-my-openbsd-experiment/#top
+[1] https://baty.net/
+[3] https://baty.net/archives
+[4] https://baty.net/about/
+[5] https://baty.net/tags/
+[6] https://baty.net/uses/
+[7] https://baty.net/search/
+[8] https://baty.net/journal/2023/12/29/running-an-openbsd-server
+[9] https://www.openbsdfoundation.org/
+[10] https://www.vultr.com/
+[11] https://dovecot.org/
+[12] https://baty.net/journal/2023/12/31/reduce-and-simplify
+[13] https://jackbaty.com/
+[14] https://baty.net/tags/openbsd/
+[15] https://baty.net/journal/2024/01/04/obsidian-is-not-at-all-joyful-to-use/
+[16] https://baty.net/2024/01/the-care-and-feeding-of-my-system/
+[17] mailto:jack@baty.net?subject=[baty.net]%20Re:%20Ending%20my%20OpenBSD%20experiment%20%28Almost%29
+[18] https://gohugo.io/
+[19] https://github.com/adityatelange/hugo-PaperMod/
+[20] https://baty.net/2024/01/ending-my-openbsd-experiment/#top

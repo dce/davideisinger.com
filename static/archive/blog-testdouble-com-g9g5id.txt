@@ -1,365 +1,346 @@
-        [1]Test Double The Test Double logo
+[matomo]
 
-        Menu
+[1] Test Double The Test Double logo
 
-   (BUTTON) Menu Menu An icon that displays an illustration of a website
-   menu
-     * [2]Home
-     * [3]Agency
-     * [4]Services
-     * [5]Careers
-     * [6]Blog
-     * [7]Contact
+Menu
 
-   [8]Blog [9]Posts
+Menu An icon that displays an illustration of a website menu
+
+  • [3] Home
+  • [4] Agency
+  • [5] Services
+  • [6] Careers
+  • [7] Blog
+  • [8] Contact
+
+[9] Blog [10] Posts
 
 Only you can give meaning to your career
 
 How to mark moments that matter by planting a flag
 
-   An icon of a clock Publish Date
-          January 2, 2024
+An icon of a clock Publish Date
+    January 2, 2024
+An icon of a human figure Authors
+    [11]Justin Searls
 
-   An icon of a human figure Authors
-          [10]Justin Searls
+I have, for whatever reason, live-blogged my career. Posting technical tips
+I’ve learned. Complaining about bugs I’ve uncovered. Elaborating on struggles
+my teams have faced. Mixed in with the substantive stuff has been plenty of
+vain ephemera that many would rightly describe as “over-sharing.” My brother
+sent me [12]this last week and I felt personally attacked:
 
-   I have, for whatever reason, live-blogged my career. Posting technical
-   tips I’ve learned. Complaining about bugs I’ve uncovered. Elaborating
-   on struggles my teams have faced. Mixed in with the substantive stuff
-   has been plenty of vain ephemera that many would rightly describe as
-   “over-sharing.” My brother sent me [11]this last week and I felt
-   personally attacked:
+    Everyone is fighting a battle you don’t know about. Except for me. I am
+    complaining loudly about my battle. Everybody knows about it.
 
-     Everyone is fighting a battle you don’t know about. Except for me. I
-     am complaining loudly about my battle. Everybody knows about it.
+So if you’ve borne witness to how much of my life I have spewed
+indiscriminately onto the Internet: first, I’m sorry. And second, please know
+that my vocation as a limelight enthusiast is emphatically not what I’m
+encouraging when I say this: I really wish more people took the time to reflect
+on the moments that mattered most in their careers and did more to memorialize
+them.
 
-   So if you’ve borne witness to how much of my life I have spewed
-   indiscriminately onto the Internet: first, I’m sorry. And second,
-   please know that my vocation as a limelight enthusiast is emphatically
-   not what I’m encouraging when I say this: I really wish more people
-   took the time to reflect on the moments that mattered most in their
-   careers and did more to memorialize them.
+Ask yourself: what experience in the Spring of 2019 had the greatest impact on
+how you go about your work today? Or 2017… what was 2017 all about? Think about
+the project you’re focused on right now. What will you remember about it a
+decade from now? In what ways are you reaching (or being stretched) beyond your
+comfort zone? If Walter Isaacson were writing a bullshit hagiography about your
+life instead of some [13]other schmuck, what would he have to say about you in
+your current chapter?
 
-   Ask yourself: what experience in the Spring of 2019 had the greatest
-   impact on how you go about your work today? Or 2017… what was 2017 all
-   about? Think about the project you’re focused on right now. What will
-   you remember about it a decade from now? In what ways are you reaching
-   (or being stretched) beyond your comfort zone? If Walter Isaacson were
-   writing a bullshit hagiography about your life instead of some
-   [12]other schmuck, what would he have to say about you in your current
-   chapter?
+How does it feel to be asked these questions?
 
-   How does it feel to be asked these questions?
+Early in my career, being asked those questions would have felt like a personal
+attack. But why? I had the tremendous privilege to have a job that paid me to
+use my mind instead of my hands, that afforded me the comfort of working behind
+a desk instead of out in a field, and that saw value in my continued growth
+instead of viewing me as a resource to be extracted and consumed. Those
+relative luxuries signaled that (by some definitions) I had “made it,” but
+nevertheless there I was: working overtime and shedding hair to deliver
+projects that meant nothing to me. As the years passed, I knew I was
+accomplishing something and growing somehow, but I found myself totally unable
+to articulate what or how.
 
-   Early in my career, being asked those questions would have felt like a
-   personal attack. But why? I had the tremendous privilege to have a job
-   that paid me to use my mind instead of my hands, that afforded me the
-   comfort of working behind a desk instead of out in a field, and that
-   saw value in my continued growth instead of viewing me as a resource to
-   be extracted and consumed. Those relative luxuries signaled that (by
-   some definitions) I had “made it,” but nevertheless there I was:
-   working overtime and shedding hair to deliver projects that meant
-   nothing to me. As the years passed, I knew I was accomplishing
-   something and growing somehow, but I found myself totally unable to
-   articulate what or how.
+Not unrelatedly, I grew to hate answering “what do you do?” at parties.
 
-   Not unrelatedly, I grew to hate answering “what do you do?” at parties.
+People tend to spend about a third of their lifespan at work, and that’s
+assuming they’re fortunate enough to retire at some point. That’s a big chunk
+of life to be rendered meaningless! So I decided to be someone whose work
+mattered—to myself, if no one else.
 
-   People tend to spend about a third of their lifespan at work, and
-   that’s assuming they’re fortunate enough to retire at some point.
-   That’s a big chunk of life to be rendered meaningless! So I decided to
-   be someone whose work mattered—to myself, if no one else.
+Deciding to take ownership over the meaning of my work has unquestionably
+changed my life for the better. This post is the first time I’ve shared my
+process publicly, and my hope is that others will benefit from reading it.
+Given how dissatisfied most people seem to be with their careers, maybe that’s
+you.
 
-   Deciding to take ownership over the meaning of my work has
-   unquestionably changed my life for the better. This post is the first
-   time I’ve shared my process publicly, and my hope is that others will
-   benefit from reading it. Given how dissatisfied most people seem to be
-   with their careers, maybe that’s you.
+[14]Periodically plant a flag
 
-[13]Periodically plant a flag
+Despite the fact that I live in Florida and I’m typing this sentence poolside
+in shorts and a t-shirt in mid-December, I conceptualize time with the passage
+of seasons. There are seasons when my life demands a lot from me and my career
+is forced to take a back seat. There are seasons when my work is particularly
+engaging and my life falls into a pleasant-but-unremarkable routine. There are,
+of course, seasons when both are challenging simultaneously, but hopefully not
+too many. Whatever the case, I find myself pausing every three or four months
+and pondering, “what from the last season of my life is worth remembering?”
 
-   Despite the fact that I live in Florida and I’m typing this sentence
-   poolside in shorts and a t-shirt in mid-December, I conceptualize time
-   with the passage of seasons. There are seasons when my life demands a
-   lot from me and my career is forced to take a back seat. There are
-   seasons when my work is particularly engaging and my life falls into a
-   pleasant-but-unremarkable routine. There are, of course, seasons when
-   both are challenging simultaneously, but hopefully not too many.
-   Whatever the case, I find myself pausing every three or four months and
-   pondering, “what from the last season of my life is worth remembering?”
+It’s not like I have a reminder scheduled or anything. I don’t gather my
+colleagues and family for a standing meeting to review my achievements from the
+prior quarter. It’s more like an itch I’ve trained my brain to scratch whenever
+I go more than a few months without examining where my time has gone and what I
+have to show for it.
 
-   It’s not like I have a reminder scheduled or anything. I don’t gather
-   my colleagues and family for a standing meeting to review my
-   achievements from the prior quarter. It’s more like an itch I’ve
-   trained my brain to scratch whenever I go more than a few months
-   without examining where my time has gone and what I have to show for
-   it.
+I often refer to this regular act of reflection as “planting a flag” to
+symbolize whatever I want to stand out when I look back on a period of my life.
+In my case, these flags usually take the form of creative work like a blog
+post, a conference talk, or an open source library, but however you choose to
+imbue meaning into your experiences is entirely up to you. The most important
+thing is that you sit with them long enough to associate your memories of those
+experiences with why they mattered. When useful artifacts shake out of my
+process that can help others along in their own journeys, that’s a happy
+accident as far as I’m concerned.
 
-   I often refer to this regular act of reflection as “planting a flag” to
-   symbolize whatever I want to stand out when I look back on a period of
-   my life. In my case, these flags usually take the form of creative work
-   like a blog post, a conference talk, or an open source library, but
-   however you choose to imbue meaning into your experiences is entirely
-   up to you. The most important thing is that you sit with them long
-   enough to associate your memories of those experiences with why they
-   mattered. When useful artifacts shake out of my process that can help
-   others along in their own journeys, that’s a happy accident as far as
-   I’m concerned.
+[15]How to plant a flag
 
-[14]How to plant a flag
+So, how does one actually assign meaning to a heretofore meaningless
+experience? This is the process I’ve settled into over the years to identify
+and commemorate my life’s watershed moments:
 
-   So, how does one actually assign meaning to a heretofore meaningless
-   experience? This is the process I’ve settled into over the years to
-   identify and commemorate my life’s watershed moments:
-    1. Reflect: spend some unstructured time—maybe on a walk or with a
-       notebook—and let your mind wander through the previous season of
-       your life. A lesson you learned. Feedback that encouraged you. An
-       interaction that left an impact. A moment that inspired you. I’m
-       especially drawn to memories where emotions ran high—maybe I was
-       really worried before a hard conversation or relieved after a
-       colleague helped me solve a hard problem. If I draw a blank, I scan
-       my e-mail and calendar to jog my memory. If, nothing stands out
-       after all that, I don’t force it; I’ll give the exercise a rest and
-       come back to it a few days later
-    2. Collect: considering the experiences that came to mind when
-       reflecting, which ones were distinct and new to you? Anything new
-       you learned is, by definition, novel, and would obviously qualify.
-       It’s naturally harder to identify familiar-seeming experiences as
-       novel, but perhaps there was something unique and interesting
-       hiding in the otherwise banal UI control you shipped last month.
-       Why do this? Because by filtering out everything you’ve seen and
-       done before, whatever flag you plant will stand taller, and you
-       won’t risk mistaking this moment and its meaning for another. If
-       this step filters everything out because nothing seems sufficiently
-       novel, widen the aperture a bit—surely something interesting
-       happened in the last few months. And, try as you might, if you go
-       long enough with nothing to show for it, the meaning you’re
-       searching for may be that it’s time to make a change
-    3. Connect: for each of the experiences you’ve collected, try to
-       understand how they might connect to future situations. A new tool
-       or technique might empower you to do something you couldn’t
-       accomplish otherwise. A painful mistake might warn your future self
-       to avoid try a different approach next time. Since I can’t see the
-       future, I imagine what impact each such insight might have had if
-       applied to experiences from my past. “If I’d had learned this years
-       ago, how would it have changed other events in my life?” If I can
-       think of several moments in my life that would have played out
-       differently, that’s as good of evidence as any that it has the
-       potential to make an impact on you going forward
-    4. Protect: memory is fleeting, and the work you do to identify
-       moments that matter will quickly fade away if you don’t do
-       something to mark the occasion. Memories thrive in novelty and
-       wither in predictability, so the only wrong answer would be to
-       enshrine every life lesson in the exact same way. Because creative
-       endeavors necessarily result in the creation of something new,
-       they’re a great way to clarify meaning and cement memories. My
-       go-to creative outlets are essays, videos, and code, but yours
-       might be songs, recipes, or [15]Etch A Sketch portraiture
+ 1. Reflect: spend some unstructured time—maybe on a walk or with a
+    notebook—and let your mind wander through the previous season of your life.
+    A lesson you learned. Feedback that encouraged you. An interaction that
+    left an impact. A moment that inspired you. I’m especially drawn to
+    memories where emotions ran high—maybe I was really worried before a hard
+    conversation or relieved after a colleague helped me solve a hard problem.
+    If I draw a blank, I scan my e-mail and calendar to jog my memory. If,
+    nothing stands out after all that, I don’t force it; I’ll give the exercise
+    a rest and come back to it a few days later
+ 2. Collect: considering the experiences that came to mind when reflecting,
+    which ones were distinct and new to you? Anything new you learned is, by
+    definition, novel, and would obviously qualify. It’s naturally harder to
+    identify familiar-seeming experiences as novel, but perhaps there was
+    something unique and interesting hiding in the otherwise banal UI control
+    you shipped last month. Why do this? Because by filtering out everything
+    you’ve seen and done before, whatever flag you plant will stand taller, and
+    you won’t risk mistaking this moment and its meaning for another. If this
+    step filters everything out because nothing seems sufficiently novel, widen
+    the aperture a bit—surely something interesting happened in the last few
+    months. And, try as you might, if you go long enough with nothing to show
+    for it, the meaning you’re searching for may be that it’s time to make a
+    change
+ 3. Connect: for each of the experiences you’ve collected, try to understand
+    how they might connect to future situations. A new tool or technique might
+    empower you to do something you couldn’t accomplish otherwise. A painful
+    mistake might warn your future self to avoid try a different approach next
+    time. Since I can’t see the future, I imagine what impact each such insight
+    might have had if applied to experiences from my past. “If I’d had learned
+    this years ago, how would it have changed other events in my life?” If I
+    can think of several moments in my life that would have played out
+    differently, that’s as good of evidence as any that it has the potential to
+    make an impact on you going forward
+ 4. Protect: memory is fleeting, and the work you do to identify moments that
+    matter will quickly fade away if you don’t do something to mark the
+    occasion. Memories thrive in novelty and wither in predictability, so the
+    only wrong answer would be to enshrine every life lesson in the exact same
+    way. Because creative endeavors necessarily result in the creation of
+    something new, they’re a great way to clarify meaning and cement memories.
+    My go-to creative outlets are essays, videos, and code, but yours might be
+    songs, recipes, or [16]Etch A Sketch portraiture
 
-   That’s it! Reflect, collect, connect, and protect.
+That’s it! Reflect, collect, connect, and protect.
 
-   (See what I did there? How all the steps rhyme. That’s the kind of
-   thing you’ll be able to pull off with a decade of practice doing this.)
+(See what I did there? How all the steps rhyme. That’s the kind of thing you’ll
+be able to pull off with a decade of practice doing this.)
 
-[16]This all happens in hindsight
+[17]This all happens in hindsight
 
-   If you’ve ever had a job that encouraged you to make quarterly or
-   annual goals for yourself, you may have noticed that a lot of those
-   goals go unfinished. By the time performance reviews roll around,
-   people often feel forced to justify why they didn’t achieve this or
-   that goal. Regardless of the reason—maybe learning some skill was no
-   longer relevant or the business’s strategic priorities shifted—the
-   failure to meet a goal is often rooted in a failure to predict the
-   future. I’m sure managers hope people will feel inspired and
-   accountable to pursue their goals creatively, but in my experience they
-   more often instill procrastination and anxiety. If there’s any
-   creativity exhibited in annual goal rituals, it’s usually when people
-   feel forced to weave a narrative that kinda-sorta connects a stated
-   objective to whatever mostly-unrelated work they actually did.
+If you’ve ever had a job that encouraged you to make quarterly or annual goals
+for yourself, you may have noticed that a lot of those goals go unfinished. By
+the time performance reviews roll around, people often feel forced to justify
+why they didn’t achieve this or that goal. Regardless of the reason—maybe
+learning some skill was no longer relevant or the business’s strategic
+priorities shifted—the failure to meet a goal is often rooted in a failure to
+predict the future. I’m sure managers hope people will feel inspired and
+accountable to pursue their goals creatively, but in my experience they more
+often instill procrastination and anxiety. If there’s any creativity exhibited
+in annual goal rituals, it’s usually when people feel forced to weave a
+narrative that kinda-sorta connects a stated objective to whatever
+mostly-unrelated work they actually did.
 
-   To wit, I’ve never accomplished anything I felt proud of by setting a
-   goal. In fact, the surest way to ensure I don’t do something is to set
-   a goal. When asked to set goals for myself, I’ve found that expressing
-   the goal (as opposed to achieving it) becomes my overriding objective.
-   The moment a manager approved my list of goals, I felt that I had
-   completed the work asked of me and I would instantly lose all
-   motivation to pursue the goals themselves.
+To wit, I’ve never accomplished anything I felt proud of by setting a goal. In
+fact, the surest way to ensure I don’t do something is to set a goal. When
+asked to set goals for myself, I’ve found that expressing the goal (as opposed
+to achieving it) becomes my overriding objective. The moment a manager approved
+my list of goals, I felt that I had completed the work asked of me and I would
+instantly lose all motivation to pursue the goals themselves.
 
-   This explains why planting flags can succeed where goal-setting fails.
-   If what I’m searching for is meaning in my work, setting a goal creates
-   an expectation of where, when, and how my future self should find that
-   meaning. High pressure. Focusing on doing my job well and reflecting on
-   whatever I did in retrospect, however, has allowed me to sift through
-   my experiences, identify patterns, and give meaning to them. Low
-   pressure.
+This explains why planting flags can succeed where goal-setting fails. If what
+I’m searching for is meaning in my work, setting a goal creates an expectation
+of where, when, and how my future self should find that meaning. High pressure.
+Focusing on doing my job well and reflecting on whatever I did in retrospect,
+however, has allowed me to sift through my experiences, identify patterns, and
+give meaning to them. Low pressure.
 
-   Instead of studying something you think you might need in the future,
-   wait for the need to arise and then immerse yourself in learning it.
-   Instead of feeling stressed and distracted by the fear that you’ll run
-   out of time before hitting an annual goal, do your work diligently and
-   look forward to the next opportunity to reflect on the things you’ll
-   achieve. Instead of reducing your existence at work into a series of
-   boxes to check in a prescribed career plan, focus on being truly
-   present and intentional at work and open to wherever that might lead
-   you.
+Instead of studying something you think you might need in the future, wait for
+the need to arise and then immerse yourself in learning it. Instead of feeling
+stressed and distracted by the fear that you’ll run out of time before hitting
+an annual goal, do your work diligently and look forward to the next
+opportunity to reflect on the things you’ll achieve. Instead of reducing your
+existence at work into a series of boxes to check in a prescribed career plan,
+focus on being truly present and intentional at work and open to wherever that
+might lead you.
 
-[17]Who, me? Yes, you!
+[18]Who, me? Yes, you!
 
-   There’s just one last thing to talk about: you, and why you don’t
-   already do this.
+There’s just one last thing to talk about: you, and why you don’t already do
+this.
 
-   It’s not like this retrospective process of imbuing meaning into one’s
-   work is particularly clever or insightful. I don’t think I’m a genius
-   for arriving at the following three-step formula to having a deeply
-   meaningful career and leaving a memorable legacy:
-    1. Work really damn hard
-    2. Occasionally gather highlights
-    3. Commemorate them somehow
+It’s not like this retrospective process of imbuing meaning into one’s work is
+particularly clever or insightful. I don’t think I’m a genius for arriving at
+the following three-step formula to having a deeply meaningful career and
+leaving a memorable legacy:
 
-   But if it’s so obvious, why don’t more people do this?
+ 1. Work really damn hard
+ 2. Occasionally gather highlights
+ 3. Commemorate them somehow
 
-   I wonder if it’s because everything above might seem like the exclusive
-   domain of the Thoughtleader™ class. “I don’t have (or necessarily want)
-   an audience to read my blog posts or watch me speak, so this ain’t for
-   me!” you might be thinking.
+But if it’s so obvious, why don’t more people do this?
 
-   This line of thinking is reasonable, but it’s based on an assumption
-   that doesn’t always hold.
+I wonder if it’s because everything above might seem like the exclusive domain
+of the Thoughtleader™ class. “I don’t have (or necessarily want) an audience to
+read my blog posts or watch me speak, so this ain’t for me!” you might be
+thinking.
 
-   It’s true: if you believe the purpose of creating something borne out
-   of your career experience is for other people to see and appreciate it,
-   then maybe it makes no sense for you to bother. Not everyone craves
-   attention. Building a following inevitably attracts a certain number of
-   trolls. And if you build it, odds are people won’t come. I can’t
-   guarantee anyone will run your code, read your blog, or watch your
-   talk.
+This line of thinking is reasonable, but it’s based on an assumption that
+doesn’t always hold.
 
-   But here’s the thing: I create these things for me and me alone. When a
-   bunch of people read something I wrote or show up to one of my talks,
-   do I find it encouraging and validating? Sure. But it’s not what drives
-   me. I started creating things to punctuate my life’s sentences long
-   before anybody took an interest in me and I wouldn’t stop even if
-   everyone loses interest in me.
+It’s true: if you believe the purpose of creating something borne out of your
+career experience is for other people to see and appreciate it, then maybe it
+makes no sense for you to bother. Not everyone craves attention. Building a
+following inevitably attracts a certain number of trolls. And if you build it,
+odds are people won’t come. I can’t guarantee anyone will run your code, read
+your blog, or watch your talk.
 
-   What’s more, a lot of (ugh) content creators are the same way. In the
-   course of my travels, I’ve gotten to meet many of my heroes, and while
-   a few have disappointed me spectacularly (don’t meet your heroes!),
-   I’ve found that a surprising number of them got into the
-   thought-leading racket for the same selfish reason I did. They create
-   stuff to scratch their own intrinsic creative itches and to give
-   meaning to their careers. If other people’s attention factors in at
-   all, it’s usually to justify the time they spend making stuff.
+But here’s the thing: I create these things for me and me alone. When a bunch
+of people read something I wrote or show up to one of my talks, do I find it
+encouraging and validating? Sure. But it’s not what drives me. I started
+creating things to punctuate my life’s sentences long before anybody took an
+interest in me and I wouldn’t stop even if everyone loses interest in me.
 
-[18]Justin Searls
+What’s more, a lot of (ugh) content creators are the same way. In the course of
+my travels, I’ve gotten to meet many of my heroes, and while a few have
+disappointed me spectacularly (don’t meet your heroes!), I’ve found that a
+surprising number of them got into the thought-leading racket for the same
+selfish reason I did. They create stuff to scratch their own intrinsic creative
+itches and to give meaning to their careers. If other people’s attention
+factors in at all, it’s usually to justify the time they spend making stuff.
 
-   An icon of a human figure Status
-          Double Agent
+[002]
 
-   An icon of a hash sign Code Name
-          Agent 002
+[19] Justin Searls
 
-   An icon of a map marker Location
-          Orlando, FL
+An icon of a human figure Status
+    Double Agent
+An icon of a hash sign Code Name
+    Agent 002
+An icon of a map marker Location
+    Orlando, FL
 
-   [19]Twitter [20]Mastodon [21]Github [22]LinkedIn [23]Website
+[20] Twitter [21] Mastodon [22] Github [23] LinkedIn [24] Website
 
 Related posts:
 
-[24]16 things you believe about software
+[25] 16 things you believe about software
 
-   Over 6 years ago, I made up an unscientific personality quiz as a
-   joke…and people can't help themselves—they're still filling it out!
-   Here's what they think
+Over 6 years ago, I made up an unscientific personality quiz as a joke…and
+people can't help themselves—they're still filling it out! Here's what they
+think
 
-   An icon of a clock Publish Date
-          October 10, 2023
+An icon of a clock Publish Date
+    October 10, 2023
+An icon of a human figure Authors
+    [26]Justin Searls
+An icon of a paper organzier Categories
+    [27]Community
 
-   An icon of a human figure Authors
-          [25]Justin Searls
+[28] Shared values can make the difference for your engineering team
 
-   An icon of a paper organzier Categories
-          [26]Community
+Ever feel challenged in how to level up your engineering team's effectiveness?
+Apply values in day-to-day work. That's how you build great software and great
+teams. Here's how Test Double does that.
 
-[27]Shared values can make the difference for your engineering team
-
-   Ever feel challenged in how to level up your engineering team's
-   effectiveness? Apply values in day-to-day work. That's how you build
-   great software and great teams. Here's how Test Double does that.
-
-   An icon of a clock Publish Date
-          February 20, 2023
-
-   An icon of a human figure Authors
-          [28]Cathy Colliver
-
-   An icon of a paper organzier Categories
-          [29]Leadership
-          [30]Teams
-          [31]Our Company
+An icon of a clock Publish Date
+    February 20, 2023
+An icon of a human figure Authors
+    [29]Cathy Colliver
+An icon of a paper organzier Categories
+    [30]Leadership
+    [31]Teams
+    [32]Our Company
 
 Looking for developers? Work with people who care about what you care about.
 
 We level up teams striving to ship great code.
 
-   [32]Let's talk
+[33] Let's talk
+[34]Home [35]Agency [36]Services [37]Careers [38]Blog [39]Contact
+[40] Mastodon [41] GitHub [42] LinkedIn [43] Twitter
 
-   [33]Home [34]Agency [35]Services [36]Careers [37]Blog [38]Contact
+[44] 614.349.4279
+[45] hello@testdouble.com
+[46]Privacy Policy
+Founded in Columbus, OH
+
+[47] Test Double
 
 
-   [39]Mastodon [40]GitHub [41]LinkedIn [42]Twitter
 
-   [43]614.349.4279
-   [44]hello@testdouble.com
-   [45]Privacy Policy
-   Founded in Columbus, OH
+References:
 
-[46]Test Double
-
-References
-
-   1. https://testdouble.com/
-   2. https://testdouble.com/
-   3. https://testdouble.com/agency
-   4. https://testdouble.com/services
-   5. https://testdouble.com/careers
-   6. https://blog.testdouble.com/
-   7. https://testdouble.com/contact
-   8. https://blog.testdouble.com/
-   9. https://blog.testdouble.com/posts/
-  10. https://blog.testdouble.com/authors/justin-searls/
-  11. https://x.com/TheAndrewNadeau/status/1647622603698257921
-  12. https://www.amazon.com/Elon-Musk-Walter-Isaacson/dp/1982181281
-  13. https://blog.testdouble.com/posts/2024-01-02-plant-your-flag-career-advice/#periodically-plant-a-flag
-  14. https://blog.testdouble.com/posts/2024-01-02-plant-your-flag-career-advice/#how-to-plant-a-flag
-  15. https://www.etsy.com/shop/PrincessEtch
-  16. https://blog.testdouble.com/posts/2024-01-02-plant-your-flag-career-advice/#this-all-happens-in-hindsight
-  17. https://blog.testdouble.com/posts/2024-01-02-plant-your-flag-career-advice/#who-me-yes-you
-  18. https://blog.testdouble.com/authors/justin-searls/
-  19. https://twitter.com/searls
-  20. https://mastodon.social/@searls
-  21. https://github.com/searls
-  22. https://linkedin.com/in/searls
-  23. https://justin.searls.co/
-  24. https://blog.testdouble.com/posts/2023-10-10-16-things-you-believe-about-software/
-  25. https://blog.testdouble.com/authors/justin-searls/
-  26. https://blog.testdouble.com/categories/community
-  27. https://blog.testdouble.com/posts/2023-02-20-shared-values-make-the-difference/
-  28. https://blog.testdouble.com/authors/cathy-colliver/
-  29. https://blog.testdouble.com/categories/leadership
-  30. https://blog.testdouble.com/categories/teams
-  31. https://blog.testdouble.com/categories/our-company
-  32. https://link.testdouble.com/blog-cta-sales
-  33. https://testdouble.com/
-  34. https://testdouble.com/agency
-  35. https://testdouble.com/services
-  36. https://testdouble.com/careers
-  37. https://blog.testdouble.com/
-  38. https://testdouble.com/contact
-  39. https://mastodon.social/@testdouble
-  40. https://github.com/testdouble
-  41. https://www.linkedin.com/company/testdouble
-  42. https://twitter.com/testdouble
-  43. tel:+16143494279
-  44. mailto:hello@testdouble.com
-  45. https://testdouble.com/privacy-policy
-  46. https://testdouble.com/
+[1] https://testdouble.com/
+[3] https://testdouble.com/
+[4] https://testdouble.com/agency
+[5] https://testdouble.com/services
+[6] https://testdouble.com/careers
+[7] https://blog.testdouble.com/
+[8] https://testdouble.com/contact
+[9] https://blog.testdouble.com/
+[10] https://blog.testdouble.com/posts/
+[11] https://blog.testdouble.com/authors/justin-searls/
+[12] https://x.com/TheAndrewNadeau/status/1647622603698257921
+[13] https://www.amazon.com/Elon-Musk-Walter-Isaacson/dp/1982181281
+[14] https://blog.testdouble.com/posts/2024-01-02-plant-your-flag-career-advice/#periodically-plant-a-flag
+[15] https://blog.testdouble.com/posts/2024-01-02-plant-your-flag-career-advice/#how-to-plant-a-flag
+[16] https://www.etsy.com/shop/PrincessEtch
+[17] https://blog.testdouble.com/posts/2024-01-02-plant-your-flag-career-advice/#this-all-happens-in-hindsight
+[18] https://blog.testdouble.com/posts/2024-01-02-plant-your-flag-career-advice/#who-me-yes-you
+[19] https://blog.testdouble.com/authors/justin-searls/
+[20] https://twitter.com/searls
+[21] https://mastodon.social/@searls
+[22] https://github.com/searls
+[23] https://linkedin.com/in/searls
+[24] https://justin.searls.co/
+[25] https://blog.testdouble.com/posts/2023-10-10-16-things-you-believe-about-software/
+[26] https://blog.testdouble.com/authors/justin-searls/
+[27] https://blog.testdouble.com/categories/community
+[28] https://blog.testdouble.com/posts/2023-02-20-shared-values-make-the-difference/
+[29] https://blog.testdouble.com/authors/cathy-colliver/
+[30] https://blog.testdouble.com/categories/leadership
+[31] https://blog.testdouble.com/categories/teams
+[32] https://blog.testdouble.com/categories/our-company
+[33] https://link.testdouble.com/blog-cta-sales
+[34] https://testdouble.com/
+[35] https://testdouble.com/agency
+[36] https://testdouble.com/services
+[37] https://testdouble.com/careers
+[38] https://blog.testdouble.com/
+[39] https://testdouble.com/contact
+[40] https://mastodon.social/@testdouble
+[41] https://github.com/testdouble
+[42] https://www.linkedin.com/company/testdouble
+[43] https://twitter.com/testdouble
+[44] tel:+16143494279
+[45] mailto:hello@testdouble.com
+[46] https://testdouble.com/privacy-policy
+[47] https://testdouble.com/

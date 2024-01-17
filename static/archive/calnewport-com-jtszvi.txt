@@ -1,393 +1,380 @@
-   #[1]Cal Newport » Feed [2]Cal Newport » Comments Feed [3]Cal Newport »
-   On Tools and the Aesthetics of Work Comments Feed [4]alternate
-   [5]alternate [6]alternate
+[1]Skip to content
+[2] Cal Newport
+Menu
+[4] Cal Newport
+Menu
 
-   IFRAME: [7]https://www.googletagmanager.com/ns.html?id=GTM-W6XZ4TH
+  • [6]Home
+  • [7]Scholarship
+  • [8]Writing
+  • [9]Essays
+  • [10]Press
+  • [11]Contact
 
-   [8]Skip to content
-
-   [9]Cal Newport
-
-   (BUTTON) Menu
-
-   [10]Cal Newport
-   (BUTTON) Menu
-     * [11]Home
-     * [12]Scholarship
-     * [13]Writing
-     * [14]Essays
-     * [15]Press
-     * [16]Contact
-
-   [17]Home » [18]Blog » On Tools and the Aesthetics of Work
+[12]Home » [13]Blog » On Tools and the Aesthetics of Work
 
 On Tools and the Aesthetics of Work
 
-   September 4, 2023
+September 4, 2023
+[mythic-640px]
 
-   In the summer of 2022, an engineer named Keegan McNamara, who was at
-   the time working for a fundraising technology startup, found his way to
-   the [19]Arms and Armor exhibit at the Met. He was struck by the
-   unapologetic mixture of extreme beauty and focused function captured in
-   the antique firearms on display. As reported in [20]a recent profile of
-   McNamara published in The Verge, this encounter with the past sparked a
-   realization about the present:
+In the summer of 2022, an engineer named Keegan McNamara, who was at the time
+working for a fundraising technology startup, found his way to the [14]Arms and
+Armor exhibit at the Met. He was struck by the unapologetic mixture of extreme
+beauty and focused function captured in the antique firearms on display. As
+reported in [15]a recent profile of McNamara published in The Verge, this
+encounter with the past sparked a realization about the present:
 
-     “That combination of craftsmanship and utility, objects that are
-     both thoroughly practical and needlessly outrageously beautiful,
-     doesn’t really exist anymore. ‘And it especially doesn’t exist for
-     computers.'”
+    “That combination of craftsmanship and utility, objects that are both
+    thoroughly practical and needlessly outrageously beautiful, doesn’t really
+    exist anymore. ‘And it especially doesn’t exist for computers.'”
 
-   Aesthetically, contemporary digitals devices have become industrial and
-   impersonal: grey and black rectangles carved into generically-modern
-   clean lines . Functionally, they offer the hapless user a cluttered
-   explosion of potential activity, windows piling on top of windows,
-   command bars thick with applications. Standing in the Arms and Armor
-   exhibit McNamara began to wonder if there was a way to rethink the PC;
-   to save it from a predictable maximalism.
+Aesthetically, contemporary digitals devices have become industrial and
+impersonal: grey and black rectangles carved into generically-modern clean
+lines . Functionally, they offer the hapless user a cluttered explosion of
+potential activity, windows piling on top of windows, command bars thick with
+applications. Standing in the Arms and Armor exhibit McNamara began to wonder
+if there was a way to rethink the PC; to save it from a predictable maximalism.
 
-   The result was [21]The Mythic I, a custom computer that McNamara
-   handcrafted over the year or so that followed that momentous afternoon
-   at the Met. The machine is housed in a swooping hardwood frame carved
-   using manual tools. An eight-inch screen is mounted above a 1980’s
-   IBM-style keyboard with big clacking keys that McNamara carefully
-   lubricated to achieve exactly the right sound on each strike: “if you
-   have dry rubbing of plastic, it doesn’t sound thock-y. It just sounds
-   cheap.” Below the keyboard is an Italian leather hand rest. To turn it
-   on you insert and turn a key and then flip a toggle switch.
+The result was [16]The Mythic I, a custom computer that McNamara handcrafted
+over the year or so that followed that momentous afternoon at the Met. The
+machine is housed in a swooping hardwood frame carved using manual tools. An
+eight-inch screen is mounted above a 1980’s IBM-style keyboard with big
+clacking keys that McNamara carefully lubricated to achieve exactly the right
+sound on each strike: “if you have dry rubbing of plastic, it doesn’t sound
+thock-y. It just sounds cheap.” Below the keyboard is an Italian leather hand
+rest. To turn it on you insert and turn a key and then flip a toggle switch.
 
-   Equally notable is what happens once the machine is activated. McNamara
-   designed the Mythic for three specific purposes: writing a novel,
-   writing occasional computer code, and writing his daily journal.
-   Accordingly, it runs a highly-modular version of Linux called NixOS
-   that he’s customized to only offer emacs, a text-based editor popular
-   among hacker types, that’s launched from a basic green command line.
-   You can’t go online, or create a PowerPoint presentation, or edit a
-   video. It’s a writing a machine, and like the antique arms that
-   inspired it, the Mythic implements this functionality with a focused,
-   beautiful utilitarianism.
+Equally notable is what happens once the machine is activated. McNamara
+designed the Mythic for three specific purposes: writing a novel, writing
+occasional computer code, and writing his daily journal. Accordingly, it runs a
+highly-modular version of Linux called NixOS that he’s customized to only offer
+emacs, a text-based editor popular among hacker types, that’s launched from a
+basic green command line. You can’t go online, or create a PowerPoint
+presentation, or edit a video. It’s a writing a machine, and like the antique
+arms that inspired it, the Mythic implements this functionality with a focused,
+beautiful utilitarianism.
 
-   In his critical classic, [22]Amusing Ourselves to Death, Neil Postman
-   argued that the form taken by the technologies we use impacts the
-   fundamental nature of our cognition. When we switched media consumption
-   from long newspaper articles to television soundbites, for example, our
-   understanding of news lost its heft and became more superficial and
-   emotionally-charged.
+In his critical classic, [17]Amusing Ourselves to Death, Neil Postman argued
+that the form taken by the technologies we use impacts the fundamental nature
+of our cognition. When we switched media consumption from long newspaper
+articles to television soundbites, for example, our understanding of news lost
+its heft and became more superficial and emotionally-charged.
 
-   When pondering Keegan McNamara and the Mythic, I can’t help but apply
-   Postman’s framework to the machines that organize our professional
-   activities. The modern computer, with its generic styling and
-   overloaded activity, creates a cognitive environment defined by urgent,
-   bland, Sisyphean widget cranking — work as endless Slack and email and
-   Zoom and “jumping on” calls, in which there is always too much to do,
-   but no real sense of much of importance actually being accomplished.
+When pondering Keegan McNamara and the Mythic, I can’t help but apply Postman’s
+framework to the machines that organize our professional activities. The modern
+computer, with its generic styling and overloaded activity, creates a cognitive
+environment defined by urgent, bland, Sisyphean widget cranking — work as
+endless Slack and email and Zoom and “jumping on” calls, in which there is
+always too much to do, but no real sense of much of importance actually being
+accomplished.
 
-   In Keegan’s construction we find an alternative understanding of work,
-   built now on beauty, craftsmanship, and focus. Replacing everyone’s
-   MacBook with custom-carved hardwood, of course, is not enough on its
-   own to transform how we think about out jobs, [23]as these issues have
-   deeper roots. But the Mythic is a useful reminder that the rhythms of
-   our professional lives are not pre-ordained. We craft the world in
-   which we work, even if we don’t realize it.
+In Keegan’s construction we find an alternative understanding of work, built
+now on beauty, craftsmanship, and focus. Replacing everyone’s MacBook with
+custom-carved hardwood, of course, is not enough on its own to transform how we
+think about out jobs, [18]as these issues have deeper roots. But the Mythic is
+a useful reminder that the rhythms of our professional lives are not
+pre-ordained. We craft the world in which we work, even if we don’t realize it.
 
-   #####
+#####
 
-   In other news: My longtime friend Brad Stulberg has a great new book
-   out this week. It’s called, [24]Master of Change: How to Excel When
-   Everything is Changing — Including You. In my cover blurb, I noted that
-   this “immensely wise and timely book provides a roadmap for a
-   tumultuous world.” I really mean it! The idea of preparing yourself to
-   thrive, and not crumble, when faced with inevitable change is
-   self-evidently important, and Brad does a great job of delivering the
-   goods on this timely theme.
+In other news: My longtime friend Brad Stulberg has a great new book out this
+week. It’s called, [19]Master of Change: How to Excel When Everything is
+Changing — Including You. In my cover blurb, I noted that this “immensely wise
+and timely book provides a roadmap for a tumultuous world.” I really mean it!
+The idea of preparing yourself to thrive, and not crumble, when faced with
+inevitable change is self-evidently important, and Brad does a great job of
+delivering the goods on this timely theme.
 
-   Pro-tip: if you do buy the book this week, [25]go to Brad’s website to
-   claim a bunch of cool pre-order bonuses that he’s offering through the
-   first full week of publication.
+Pro-tip: if you do buy the book this week, [20]go to Brad’s website to claim a
+bunch of cool pre-order bonuses that he’s offering through the first full week
+of publication.
 
-   [26]We Don’t Need a New Twitter
-   [27]On Tire Pressure and Productivity
+[21]We Don’t Need a New Twitter
+[22]On Tire Pressure and Productivity
 
 11 thoughts on “On Tools and the Aesthetics of Work”
 
-    1.
-   Galia
-       [28]September 4, 2023 at 9:27 am
-       Too much information when few things matter: that reminds me of the
-       book Essentialism. Acting like those everyday stimuli don’t exist
-       is the first recipe for success.
-       [29]Reply
-    2.
-   Alexander Lewis
-       [30]September 4, 2023 at 11:57 am
-       I love the idea here. People still use old typewriters as art
-       pieces and coffee table decor in their homes. It’s hard to imagine
-       something similar occuring with modern computers. Laptops are used
-       until they’re dead, and then they’re recycled or thrown into the
-       junk drawer.
-       I think this craftsman/engineer might be onto something.
-       [31]Reply
-    3.
-   Rafa Font
-       [32]September 4, 2023 at 3:22 pm
-       They have become Swiss knives, tools for all. Especially mobile
-       phones, they’re maps, navigators, radio, compass, torch, voice
-       recorder, word processor… all in one.
-       I gave my kids a voice recorder the other day. So that they can
-       have a one-action device to play with and understand what it is, on
-       its own.
-       [33]Reply
-          +
+ 1. [aac40]
+    Galia
+    [23] September 4, 2023 at 9:27 am
+
+    Too much information when few things matter: that reminds me of the book
+    Essentialism. Acting like those everyday stimuli don’t exist is the first
+    recipe for success.
+
+    [24]Reply
+ 2. [8b32b]
+    Alexander Lewis
+    [25] September 4, 2023 at 11:57 am
+
+    I love the idea here. People still use old typewriters as art pieces and
+    coffee table decor in their homes. It’s hard to imagine something similar
+    occuring with modern computers. Laptops are used until they’re dead, and
+    then they’re recycled or thrown into the junk drawer.
+
+    I think this craftsman/engineer might be onto something.
+
+    [26]Reply
+ 3. [d7ec0]
+    Rafa Font
+    [27] September 4, 2023 at 3:22 pm
+
+    They have become Swiss knives, tools for all. Especially mobile phones,
+    they’re maps, navigators, radio, compass, torch, voice recorder, word
+    processor… all in one.
+
+    I gave my kids a voice recorder the other day. So that they can have a
+    one-action device to play with and understand what it is, on its own.
+
+    [28]Reply
+      □ [92093]
         Tim Koerner
-            [34]September 11, 2023 at 3:27 pm
-            Love the voice recorder idea for kids, well done.
-            [35]Reply
-    4.
-   Alex Francisco
-       [36]September 4, 2023 at 8:04 pm
-       What a find!
-       My copies of ‘Understanding Media: The Extensions of Man’ –
-       McLuhan,
-       the Medium is the Massage are always in my mind.
-       A good summary is that one line by Culkin in an article about
-       McLuhan:
-       “We become what we behold. We shape our tools, and thereafter our
-       tools shape us.”
-       Timeless, humbling AND empowering at once.
-       [37]Reply
-          +
+        [29] September 11, 2023 at 3:27 pm
+
+        Love the voice recorder idea for kids, well done.
+
+        [30]Reply
+ 4. [2e0eb]
+    Alex Francisco
+    [31] September 4, 2023 at 8:04 pm
+
+    What a find!
+
+    My copies of ‘Understanding Media: The Extensions of Man’ – McLuhan,
+    the Medium is the Massage are always in my mind.
+
+    A good summary is that one line by Culkin in an article about McLuhan:
+    “We become what we behold. We shape our tools, and thereafter our tools
+    shape us.”
+
+    Timeless, humbling AND empowering at once.
+
+    [32]Reply
+      □ [2a88f]
         Jonathan
-            [38]November 11, 2023 at 6:47 pm
-            That quote it itself based on one by Winston Churchill to the
-            UK Parliament in 1943: “We shape our buildings, and afterwards
-            our buildings shape us.” Churchill was referring to the
-            reconstruction of the bombed House of Commons, emphasizing how
-            the design of buildings influences the behavior and culture of
-            the people who use them.
-            [39]Reply
-    5.
-   rb
-       [40]September 4, 2023 at 9:47 pm
-       WordStar was more fun than WordPerfect, which was quite a bit more
-       fun than Microsoft Word. There has not been a professional writing
-       application since WordStar and its pale descendants including
-       EMACS. Everybody writes – there is opportunity here.
-       [41]Reply
-    6.
-   Garrett
-       [42]September 6, 2023 at 1:46 pm
-       In my opinion, another huge value of this is that it has a distinct
-       physical location. There’s a lot of power (at least for me) in
-       having a physical place to do things. When I’m in my woodshop for
-       instance, I am not engaging with distractions. I’m there to create
-       things and I’m limited (or, empowered) by the tools around me.
-       [43]Reply
-    7.
-   Judy
-       [44]September 6, 2023 at 6:23 pm
-       As someone who formerly worked in IT but transitioned to become a
-       classical fine art painter, I love the concept of objects that are
-       both utilitarian and beautiful. Many craftspeople of the past took
-       great pride in creating all manner of objects that were more than
-       simply useful, as Keegan McNamara discovered. Owners of these
-       well-crafted objects also loved them for their beauty. Beauty is
-       important in life.
-       [45]Reply
-    8.
-   Kenneth Lawson
-       [46]September 11, 2023 at 11:43 am
-       This goes back to the idea of writing things in a book, on real
-       paper.
-       Paper and pen are used for one thing.
-       Creation.
-       When writing with a pen on paper, there is no distraction, only
-       you, Your mind, and the physical act of putting words on paper.
-       Thats not to say that paper and pen can’t be works of art in
-       themselves.
-       They definitely can.
-       Good quality paper in a nice notebook will always be more enjoyable
-       to use than cheap printer paper.
-       The same with pens.
-       Would you rather write the same note on printer paper with a Bic
-       Ballpoint pen, or in a nice notebook on quality paper, with a nice
-       fountain pen, that writes better and has more character than any
-       pen could ever have?
-       The note written on good paper with a fountain pen becomes a work
-       of art in itself.
-       And going back to read it later is more enjoyable.
-       ‘
-       [47]Reply
-    9.
-   Kenwood
-       [48]September 22, 2023 at 11:32 am
-       Nice. Your essay emphasizes the profound influence of tool
-       aesthetics on our work and cognition. The Mythic I, handcrafted by
-       Keegan McNamara, epitomizes the fusion of craftsmanship and
-       practicality, offering a stark contrast to today’s industrial and
-       impersonal digital devices. McNamara’s computer is designed for
-       specific tasks like writing, coding, and journaling, redirecting
-       our focus from multitasking chaos to singular productivity. It
-       reminds us that we shape our work environment and challenges
-       conventional notions of productivity. I would like to share
-       [49]https://writinguniverse.com/essay-writing-service/ free tools
-       for writers. While we can’t all have custom-made computers,
-       McNamara’s creation encourages us to rethink the balance between
-       aesthetics and function in our daily tools.
-       [50]Reply
+        [33] November 11, 2023 at 6:47 pm
 
-Leave a Comment [51]Cancel reply
+        That quote it itself based on one by Winston Churchill to the UK
+        Parliament in 1943: “We shape our buildings, and afterwards our
+        buildings shape us.” Churchill was referring to the reconstruction of
+        the bombed House of Commons, emphasizing how the design of buildings
+        influences the behavior and culture of the people who use them.
 
-   Comment
-   _____________________________________________
-   _____________________________________________
-   _____________________________________________
-   _____________________________________________
-   _____________________________________________
-   _____________________________________________
-   _____________________________________________
-   _____________________________________________
+        [34]Reply
+ 5. [8e65d]
+    rb
+    [35] September 4, 2023 at 9:47 pm
 
-   ____________________________________________________________
-   ____________________________________________________________
-   ____________________________________________________________
-   ____________________________________________________________
-   Name ______________________________ Email
-   ______________________________ ______________________________
+    WordStar was more fun than WordPerfect, which was quite a bit more fun than
+    Microsoft Word. There has not been a professional writing application since
+    WordStar and its pale descendants including EMACS. Everybody writes – there
+    is opportunity here.
 
-   [ ] Save my name, email, and website in this browser for the next time
-   I comment.
+    [36]Reply
+ 6. [5d6ca]
+    Garrett
+    [37] September 6, 2023 at 1:46 pm
 
-   Post Comment
+    In my opinion, another huge value of this is that it has a distinct
+    physical location. There’s a lot of power (at least for me) in having a
+    physical place to do things. When I’m in my woodshop for instance, I am not
+    engaging with distractions. I’m there to create things and I’m limited (or,
+    empowered) by the tools around me.
 
-   Cal Newport headshot
+    [38]Reply
+ 7. [90c00]
+    Judy
+    [39] September 6, 2023 at 6:23 pm
+
+    As someone who formerly worked in IT but transitioned to become a classical
+    fine art painter, I love the concept of objects that are both utilitarian
+    and beautiful. Many craftspeople of the past took great pride in creating
+    all manner of objects that were more than simply useful, as Keegan McNamara
+    discovered. Owners of these well-crafted objects also loved them for their
+    beauty. Beauty is important in life.
+
+    [40]Reply
+ 8. [50214]
+    Kenneth Lawson
+    [41] September 11, 2023 at 11:43 am
+
+    This goes back to the idea of writing things in a book, on real paper.
+
+    Paper and pen are used for one thing.
+    Creation.
+    When writing with a pen on paper, there is no distraction, only you, Your
+    mind, and the physical act of putting words on paper.
+
+    Thats not to say that paper and pen can’t be works of art in themselves.
+    They definitely can.
+    Good quality paper in a nice notebook will always be more enjoyable to use
+    than cheap printer paper.
+
+    The same with pens.
+    Would you rather write the same note on printer paper with a Bic Ballpoint
+    pen, or in a nice notebook on quality paper, with a nice fountain pen, that
+    writes better and has more character than any pen could ever have?
+
+    The note written on good paper with a fountain pen becomes a work of art in
+    itself.
+    And going back to read it later is more enjoyable.
+    ‘
+
+    [42]Reply
+ 9. [97f77]
+    Kenwood
+    [43] September 22, 2023 at 11:32 am
+
+    Nice. Your essay emphasizes the profound influence of tool aesthetics on
+    our work and cognition. The Mythic I, handcrafted by Keegan McNamara,
+    epitomizes the fusion of craftsmanship and practicality, offering a stark
+    contrast to today’s industrial and impersonal digital devices. McNamara’s
+    computer is designed for specific tasks like writing, coding, and
+    journaling, redirecting our focus from multitasking chaos to singular
+    productivity. It reminds us that we shape our work environment and
+    challenges conventional notions of productivity. I would like to share [44]
+    https://writinguniverse.com/essay-writing-service/ free tools for writers.
+    While we can’t all have custom-made computers, McNamara’s creation
+    encourages us to rethink the balance between aesthetics and function in our
+    daily tools.
+
+    [45]Reply
+
+Leave a Comment [46]Cancel reply
+
+       [                                             ]                       
+       [                                             ]                       
+       [                                             ]                       
+       [                                             ]                       
+       [                                             ]                       
+       [                                             ]                       
+       [                                             ]                       
+Comment[                                             ] [                    ]
+
+Name[49][                              ] Email
+[50][                              ] [51][                              ]
+
+[52][ ] Save my name, email, and website in this browser for the next time I
+comment.
+
+[53][Post Comment] 
+
+Cal Newport headshot
 
 About
 
-   Cal launched the "Study Hacks" blog at calnewport.com in 2007, and has
-   been regularly publishing essays here ever since. Over 2,000,000 people
-   a year visit this site to read Cal's weekly posts about technology,
-   productivity, and the quest to live and work deeply in an increasingly
-   distracted world, while tens of thousands more subscribe to have these
-   essays delivered directly to their inbox (see the sign-up form
-   below). [52]To read more, you can browse more than 15 years of past
-   essays in the archive.
-   In the fall of 2022, Cal launched a new portal, [53]TheDeepLife.com, to
-   serve as the online home for all other content relevant to the deep
-   life movement he helped initiate. Here you can find all past episodes
-   of Cal's popular podcast, Deep Questions, and explore an extensive
-   library of original videos.
-     __________________________________________________________________
+Cal launched the "Study Hacks" blog at calnewport.com in 2007, and has been
+regularly publishing essays here ever since. Over 2,000,000 people a year visit
+this site to read Cal's weekly posts about technology, productivity, and the
+quest to live and work deeply in an increasingly distracted world, while tens
+of thousands more subscribe to have these essays delivered directly to their
+inbox (see the sign-up form below). [57]To read more, you can browse more than
+15 years of past essays in the archive.
+In the fall of 2022, Cal launched a new portal, [58]TheDeepLife.com, to serve
+as the online home for all other content relevant to the deep life movement he
+helped initiate. Here you can find all past episodes of Cal's popular podcast, 
+Deep Questions, and explore an extensive library of original videos.
 
-   Cal Newport logo
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Cal Newport logo
 
-   This site is the online home for the computer science professor and
-   bestselling author Cal Newport. Here you can learn more about Cal and
-   both his general-audience and academic writing. You can also browse and
-   subscribe to his long-running weekly essay series. For more on Cal's
-   podcast, videos, and online courses, please visit his media
-   portal, [54]TheDeepLife.com
+This site is the online home for the computer science professor and bestselling
+author Cal Newport. Here you can learn more about Cal and both his
+general-audience and academic writing. You can also browse and subscribe to his
+long-running weekly essay series. For more on Cal's podcast, videos, and online
+courses, please visit his media portal, [59]TheDeepLife.com
 
 Contact Info
 
-   Academic Communication
-   [55][email protected]
+Academic Communication
+[60][email protected]
 
-   Media Inquires
-   [56][email protected]
+Media Inquires
+[61][email protected]
 
-   All Other Requests
-   [57]See Contact Page
+All Other Requests
+[62]See Contact Page
 
 Quick Links
 
-     * [58]Scholarship
-     * [59]Writing
-     * [60]Essays
-     * [61]Press
-     * [62]Contact
-     * [63]Media Kit
-     * [64]Podcast/Videos
+  • [63]Scholarship
+  • [64]Writing
+  • [65]Essays
+  • [66]Press
+  • [67]Contact
+  • [68]Media Kit
+  • [69]Podcast/Videos
 
-     * [65]Privacy Policies
-     * [66]Cookie Policy
-     * [67]Terms of Service
-     * [68]Accessibility Statement
+  • [70]Privacy Policies
+  • [71]Cookie Policy
+  • [72]Terms of Service
+  • [73]Accessibility Statement
 
-   Copyright © 2024 Cal Newport, All rights reserved.
+Copyright © 2024 Cal Newport, All rights reserved.
+[74] Cleantalk Pixel 
 
-   Cleantalk Pixel
+References:
 
-References
-
-   Visible links:
-   1. https://calnewport.com/feed/
-   2. https://calnewport.com/comments/feed/
-   3. https://calnewport.com/on-tools-and-the-aesthetics-of-work/feed/
-   4. https://calnewport.com/wp-json/wp/v2/posts/15503
-   5. https://calnewport.com/wp-json/oembed/1.0/embed?url=https://calnewport.com/on-tools-and-the-aesthetics-of-work/
-   6. https://calnewport.com/wp-json/oembed/1.0/embed?url=https://calnewport.com/on-tools-and-the-aesthetics-of-work/&format=xml
-   7. https://www.googletagmanager.com/ns.html?id=GTM-W6XZ4TH
-   8. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#content
-   9. https://calnewport.com/
-  10. https://calnewport.com/
-  11. https://calnewport.com/
-  12. https://calnewport.com/scholarship/
-  13. https://calnewport.com/writing/
-  14. https://calnewport.com/blog/
-  15. https://calnewport.com/press/
-  16. https://calnewport.com/contact/
-  17. https://calnewport.com/
-  18. https://calnewport.com/blog/
-  19. https://www.metmuseum.org/about-the-met/collection-areas/arms-and-armor
-  20. https://www.theverge.com/23841276/mythic-computer-keegan-mcnamara-pc-builder
-  21. https://www.mythic.computer/
-  22. https://www.amazon.com/Amusing-Ourselves-Death-Discourse-Business/dp/014303653X/
-  23. https://www.amazon.com/World-Without-Email-Reimagining-Communication/dp/0525536558/
-  24. https://www.amazon.com/Master-Change-Everything-Changing-Including/dp/006325316X
-  25. https://www.bradstulberg.com/
-  26. https://calnewport.com/we-dont-need-a-new-twitter/
-  27. https://calnewport.com/on-tire-pressure-and-productivity/
-  28. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75274
-  29. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75274
-  30. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75292
-  31. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75292
-  32. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75309
-  33. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75309
-  34. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-76565
-  35. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-76565
-  36. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75349
-  37. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75349
-  38. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-83574
-  39. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-83574
-  40. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75355
-  41. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75355
-  42. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75579
-  43. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75579
-  44. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75642
-  45. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75642
-  46. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-76535
-  47. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-76535
-  48. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-78315
-  49. https://writinguniverse.com/essay-writing-service/
-  50. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-78315
-  51. https://calnewport.com/on-tools-and-the-aesthetics-of-work/#respond
-  52. https://calnewport.com/archive/
-  53. https://www.thedeeplife.com/
-  54. https://www.thedeeplife.com/
-  55. https://calnewport.com/cdn-cgi/l/email-protection#f2919cc0c6cab295979d809597869d859cdc979687
-  56. https://calnewport.com/cdn-cgi/l/email-protection#9ffcfef3f1fae8eff0edebdfeffaf1f8eaf6f1edfef1fbf0f2f7f0eaecfab1fcf0f2
-  57. https://calnewport.com/contact/
-  58. https://calnewport.com/scholarship/
-  59. https://calnewport.com/writing/
-  60. https://calnewport.com/blog/
-  61. https://calnewport.com/press/
-  62. https://calnewport.com/contact/
-  63. https://calnewport.com/media-kit/
-  64. https://calnewport.com/podcasts/
-  65. https://calnewport.com/privacy-policies/
-  66. https://calnewport.com/cookie-policy/
-  67. https://calnewport.com/terms-of-service/
-  68. https://calnewport.com/accessibility-statement/
-
-   Hidden links:
-  70. https://calnewport.com/on-tools-and-the-aesthetics-of-work/
+[1] https://calnewport.com/on-tools-and-the-aesthetics-of-work/#content
+[2] https://calnewport.com/
+[4] https://calnewport.com/
+[6] https://calnewport.com/
+[7] https://calnewport.com/scholarship/
+[8] https://calnewport.com/writing/
+[9] https://calnewport.com/blog/
+[10] https://calnewport.com/press/
+[11] https://calnewport.com/contact/
+[12] https://calnewport.com/
+[13] https://calnewport.com/blog/
+[14] https://www.metmuseum.org/about-the-met/collection-areas/arms-and-armor
+[15] https://www.theverge.com/23841276/mythic-computer-keegan-mcnamara-pc-builder
+[16] https://www.mythic.computer/
+[17] https://www.amazon.com/Amusing-Ourselves-Death-Discourse-Business/dp/014303653X/
+[18] https://www.amazon.com/World-Without-Email-Reimagining-Communication/dp/0525536558/
+[19] https://www.amazon.com/Master-Change-Everything-Changing-Including/dp/006325316X
+[20] https://www.bradstulberg.com/
+[21] https://calnewport.com/we-dont-need-a-new-twitter/
+[22] https://calnewport.com/on-tire-pressure-and-productivity/
+[23] https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75274
+[24] https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75274
+[25] https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75292
+[26] https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75292
+[27] https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75309
+[28] https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75309
+[29] https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-76565
+[30] https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-76565
+[31] https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75349
+[32] https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75349
+[33] https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-83574
+[34] https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-83574
+[35] https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75355
+[36] https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75355
+[37] https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75579
+[38] https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75579
+[39] https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75642
+[40] https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-75642
+[41] https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-76535
+[42] https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-76535
+[43] https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-78315
+[44] https://writinguniverse.com/essay-writing-service/
+[45] https://calnewport.com/on-tools-and-the-aesthetics-of-work/#comment-78315
+[46] https://calnewport.com/on-tools-and-the-aesthetics-of-work/#respond
+[57] https://calnewport.com/archive/
+[58] https://www.thedeeplife.com/
+[59] https://www.thedeeplife.com/
+[60] https://calnewport.com/cdn-cgi/l/email-protection#34575a06000c7453515b465351405b435a1a515041
+[61] https://calnewport.com/cdn-cgi/l/email-protection#b8dbd9d4d6ddcfc8d7caccf8c8ddd6dfcdd1d6cad9d6dcd7d5d0d7cdcbdd96dbd7d5
+[62] https://calnewport.com/contact/
+[63] https://calnewport.com/scholarship/
+[64] https://calnewport.com/writing/
+[65] https://calnewport.com/blog/
+[66] https://calnewport.com/press/
+[67] https://calnewport.com/contact/
+[68] https://calnewport.com/media-kit/
+[69] https://calnewport.com/podcasts/
+[70] https://calnewport.com/privacy-policies/
+[71] https://calnewport.com/cookie-policy/
+[72] https://calnewport.com/terms-of-service/
+[73] https://calnewport.com/accessibility-statement/
+[74] https://calnewport.com/on-tools-and-the-aesthetics-of-work/#

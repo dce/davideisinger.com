@@ -1,533 +1,506 @@
-        [1]Test Double The Test Double logo
+[matomo]
 
-        Menu
+[1] Test Double The Test Double logo
 
-   (BUTTON) Menu Menu An icon that displays an illustration of a website
-   menu
-     * [2]Home
-     * [3]Agency
-     * [4]Services
-     * [5]Careers
-     * [6]Blog
-     * [7]Contact
+Menu
 
-   [8]Blog [9]Posts
+Menu An icon that displays an illustration of a website menu
+
+  • [3] Home
+  • [4] Agency
+  • [5] Services
+  • [6] Careers
+  • [7] Blog
+  • [8] Contact
+
+[9] Blog [10] Posts
 
 How to tell if AI threatens YOUR job
 
 No, really, this post may give you a way to answer that
 
-   An icon of a clock Publish Date
-          March 14, 2023
+An icon of a clock Publish Date
+    March 14, 2023
+An icon of a human figure Authors
+    [11]Justin Searls
 
-   An icon of a human figure Authors
-          [10]Justin Searls
+As a young lad, I developed a habit of responding to the enthusiasm of others
+with fear, skepticism, and judgment.
 
-   As a young lad, I developed a habit of responding to the enthusiasm of
-   others with fear, skepticism, and judgment.
+While it never made me very fun at parties, my hypercritical reflex has been
+rewarded with the sweet satisfaction of being able to say “I told you so” more
+often than not. Everyone brings a default disposition to the table, and for me
+that includes a deep suspicion of hope and optimism as irrational exuberance.
 
-   While it never made me very fun at parties, my hypercritical reflex has
-   been rewarded with the sweet satisfaction of being able to say “I told
-   you so” more often than not. Everyone brings a default disposition to
-   the table, and for me that includes a deep suspicion of hope and
-   optimism as irrational exuberance.
+But there’s one trend people are excited about that—try as I might—I’m having a
+hard time passing off as mere hype: generative AI.
 
-   But there’s one trend people are excited about that—try as I might—I’m
-   having a hard time passing off as mere hype: generative AI.
+The more excited someone is by the prospect of AI making their job easier, the
+more they should be worried.
 
-   The more excited someone is by the prospect of AI making their job
-   easier, the more they should be worried.
+There’s little doubt at this point: the tools that succeed [12]DALL•E and [13]
+ChatGPT will have a profound impact on society. If it feels obvious that
+self-driving cars will put millions of truckers out of work, it should be clear
+even more white collar jobs will be rendered unnecessary by this new class of
+AI tools.
 
-   There’s little doubt at this point: the tools that succeed [11]DALL•E
-   and [12]ChatGPT will have a profound impact on society. If it feels
-   obvious that self-driving cars will put millions of truckers out of
-   work, it should be clear even more white collar jobs will be rendered
-   unnecessary by this new class of AI tools.
+While [14]Level 4 autonomous vehicles may still be years away, production-ready
+AI is here today. It’s already being used to do significant amounts of paid
+work, often with employers being none the wiser.
 
-   While [13]Level 4 autonomous vehicles may still be years away,
-   production-ready AI is here today. It’s already being used to do
-   significant amounts of paid work, often with employers being none the
-   wiser.
+If truckers deserve [15]years [16]of [17]warnings that their jobs are at risk,
+we owe it to ourselves and others to think through the types of problems that
+generative AI is best equipped to solve, which sorts of jobs are at greatest
+risk, and what workers can start doing now to prepare for the profound
+disruption that’s coming for the information economy.
 
-   If truckers deserve [14]years [15]of [16]warnings that their jobs are
-   at risk, we owe it to ourselves and others to think through the types
-   of problems that generative AI is best equipped to solve, which sorts
-   of jobs are at greatest risk, and what workers can start doing now to
-   prepare for the profound disruption that’s coming for the information
-   economy.
+So let’s do that.
 
-   So let’s do that.
+[18]Now it’s time to major bump Web 2.0
 
-[17]Now it’s time to major bump Web 2.0
+Computer-generated content wouldn’t pose the looming threat it does without the
+last 20 years of user-generated content blanketing the Internet to fertilize
+it.
 
-   Computer-generated content wouldn’t pose the looming threat it does
-   without the last 20 years of user-generated content blanketing the
-   Internet to fertilize it.
+As user-generated content came to dominate the Internet with the advent of Web
+2.0 in the 2000s, we heard a lot about the [19]Wisdom of the Crowd. The theory
+was simple: if anyone could publish content to a platform, then users could
+rank that content’s quality (whether via viewership metrics or explicit
+upvotes), and eventually the efforts of the (unpaid!) general public would
+outperform the productivity of (quite expensive!) professional authors and
+publishers. The winners, under Web 2.0, would no longer be the best content
+creators, but the platforms that successfully achieve [20]network effect and
+come to mediate everyone’s experience with respect to a particular category of
+content.
 
-   As user-generated content came to dominate the Internet with the advent
-   of Web 2.0 in the 2000s, we heard a lot about the [18]Wisdom of the
-   Crowd. The theory was simple: if anyone could publish content to a
-   platform, then users could rank that content’s quality (whether via
-   viewership metrics or explicit upvotes), and eventually the efforts of
-   the (unpaid!) general public would outperform the productivity of
-   (quite expensive!) professional authors and publishers. The winners,
-   under Web 2.0, would no longer be the best content creators, but the
-   platforms that successfully achieve [19]network effect and come to
-   mediate everyone’s experience with respect to a particular category of
-   content.
+This theory quickly proved correct. User-generated content so dramatically
+outpaced “legacy” media that the newspaper industry is now a shell of its
+former self—grasping at straws like SEO content farms, clickbait headlines, and
+ever-thirstier display ads masquerading as content. The fact I’ve already used
+the word “content” eight times in two paragraphs is a testament to how its
+unrelenting deluge under Web 2.0 has flattened our relationship with
+information. “Content” has become a fungible resource to be consumed by our
+eyeballs and earholes, which transforms it into a value-added product called
+“engagement,” and which the platform owners in turn package and resell to
+advertisers as a service called “impressions.”
 
-   This theory quickly proved correct. User-generated content so
-   dramatically outpaced “legacy” media that the newspaper industry is now
-   a shell of its former self—grasping at straws like SEO content farms,
-   clickbait headlines, and ever-thirstier display ads masquerading as
-   content. The fact I’ve already used the word “content” eight times in
-   two paragraphs is a testament to how its unrelenting deluge under Web
-   2.0 has flattened our relationship with information. “Content” has
-   become a fungible resource to be consumed by our eyeballs and earholes,
-   which transforms it into a value-added product called “engagement,” and
-   which the platform owners in turn package and resell to advertisers as
-   a service called “impressions.”
+And for a beautiful moment in time, this system created a lot of value for
+shareholders.
 
-   And for a beautiful moment in time, this system created a lot of value
-   for shareholders.
+But the status quo is being challenged by a new innovation, leading many of Web
+2.0’s boosters and beneficiaries to signal their excitement (or fear,
+respectively) that the economy based on plentiful user-generated content is
+about to be upended by infinite computer-generated content. If we’re witnessing
+the first act of Web 3.0, it’s got nothing to do with crypto and everything to
+do with [21]generative AI.
 
-   But the status quo is being challenged by a new innovation, leading
-   many of Web 2.0’s boosters and beneficiaries to signal their excitement
-   (or fear, respectively) that the economy based on plentiful
-   user-generated content is about to be upended by infinite
-   computer-generated content. If we’re witnessing the first act of Web
-   3.0, it’s got nothing to do with crypto and everything to do with
-   [20]generative AI.
+If you’re reading this, you don’t need me to recap the cultural impact of [22]
+ChatGPT and [23]Bing Chat for you. Suffice to say, if Google—the runaway winner
+of the Web 2.0 economy—is [24]legit shook, there’s probably fire to go with all
+this smoke. Moreover, when you consider that [25]the same incumbent is already
+at the forefront of AI innovation but is nevertheless terrified by this sea
+change, Google clearly believes we’re witnessing a major market disruption in
+addition to a technological one.
 
-   If you’re reading this, you don’t need me to recap the cultural impact
-   of [21]ChatGPT and [22]Bing Chat for you. Suffice to say, if Google—the
-   runaway winner of the Web 2.0 economy—is [23]legit shook, there’s
-   probably fire to go with all this smoke. Moreover, when you consider
-   that [24]the same incumbent is already at the forefront of AI
-   innovation but is nevertheless terrified by this sea change, Google
-   clearly believes we’re witnessing a major market disruption in addition
-   to a technological one.
+One reason I’ve been thinking so much about this is that I’ve started work on a
+personal project to build an AI chatbot for practicing Japanese language and
+I’m livecoding 100% of my work for an educational video series I call [26]
+Searls After Dark. Might be why I’ve got AI on the mind lately!
 
-   One reason I’ve been thinking so much about this is that I’ve started
-   work on a personal project to build an AI chatbot for practicing
-   Japanese language and I’m livecoding 100% of my work for an educational
-   video series I call [25]Searls After Dark. Might be why I’ve got AI on
-   the mind lately!
+But you’re not a tech giant. You’re wondering what this means for you and your
+weekend. And I think we’re beginning to identify the contours of an answer to
+that question.
 
-   But you’re not a tech giant. You’re wondering what this means for you
-   and your weekend. And I think we’re beginning to identify the contours
-   of an answer to that question.
+[27]ChatGPT can do some people’s work, but not everyone’s
 
-[26]ChatGPT can do some people’s work, but not everyone’s
+A profound difference between the coming economic upheaval and those of the
+past is that it will most severely impact white collar workers. Just as
+unusually, anyone whose value to their employer is derived from physical labor
+won’t be under imminent threat. Everyone else is left to ask: will generative
+AI replace my job? Do I need to be worried?
 
-   A profound difference between the coming economic upheaval and those of
-   the past is that it will most severely impact white collar workers.
-   Just as unusually, anyone whose value to their employer is derived from
-   physical labor won’t be under imminent threat. Everyone else is left to
-   ask: will generative AI replace my job? Do I need to be worried?
+Suppose we approached AI as a new form of outsourcing. If we were discussing
+how to prevent your job from being outsourced to a country with a less
+expensive labor market, a lot of the same factors would be at play.
 
-   Suppose we approached AI as a new form of outsourcing. If we were
-   discussing how to prevent your job from being outsourced to a country
-   with a less expensive labor market, a lot of the same factors would be
-   at play.
+Having spent months programming with [28]GitHub Copilot, weeks talking to
+ChatGPT, and days searching via Bing Chat as an alternative to Google, the best
+description I’ve heard of AI’s capabilities is “[29]fluent bullshit.” And after
+months of seeing friends “cheat” at their day jobs by having [30]ChatGPT do
+their homework for them, I’ve come to a pretty grim, if obvious, realization:
+the more excited someone is by the prospect of AI making their job easier, the
+more they should be worried.
 
-   Having spent months programming with [27]GitHub Copilot, weeks talking
-   to ChatGPT, and days searching via Bing Chat as an alternative to
-   Google, the best description I’ve heard of AI’s capabilities is
-   “[28]fluent bullshit.” And after months of seeing friends “cheat” at
-   their day jobs by having [29]ChatGPT do their homework for them, I’ve
-   come to a pretty grim, if obvious, realization: the more excited
-   someone is by the prospect of AI making their job easier, the more they
-   should be worried.
+Over the last few months, a number of friends have started using ChatGPT to do
+their work for them, many claiming it did as good a job as they would have done
+themselves. Examples include:
 
-   Over the last few months, a number of friends have started using
-   ChatGPT to do their work for them, many claiming it did as good a job
-   as they would have done themselves. Examples include:
-     * Summarizing content for social media previews
-     * Authoring weekly newsletters
-     * E-mailing follow-ups to sales prospects and clients
-     * Submitting feature specifications for their team’s issue tracker
-     * Optimizing the performance of SQL queries and algorithms
-     * Completing employees’ performance reviews
+  • Summarizing content for social media previews
+  • Authoring weekly newsletters
+  • E-mailing follow-ups to sales prospects and clients
+  • Submitting feature specifications for their team’s issue tracker
+  • Optimizing the performance of SQL queries and algorithms
+  • Completing employees’ performance reviews
 
-   Each time I’d hear something like this, I’d get jealous, open ChatGPT
-   for myself, and feed it whatever problem I was working on. It never
-   worked. Sometimes it’d give up and claim the thing I was trying to do
-   was too obscure. Sometimes it’d generate a superficially realistic
-   response, but always with just enough nonsense mixed in that it would
-   take [30]more [31]time to [32]edit than to rewrite from scratch. But
-   most often, I’d end up wasting time stuck in this never-ending loop:
-    1. Ask ChatGPT to do something
-    2. It responds with an obviously-wrong answer
-    3. Explain to ChatGPT why its response is wrong
-    4. It politely apologizes (“You are correct, X in fact does not equal
-       Y. I apologize.”) before immediately generating an
-       equally-incorrect answer
-    5. GOTO 3
+Each time I’d hear something like this, I’d get jealous, open ChatGPT for
+myself, and feed it whatever problem I was working on. It never worked.
+Sometimes it’d give up and claim the thing I was trying to do was too obscure.
+Sometimes it’d generate a superficially realistic response, but always with
+just enough nonsense mixed in that it would take [31]more [32]time to [33]edit
+than to rewrite from scratch. But most often, I’d end up wasting time stuck in
+this never-ending loop:
 
-   I got so frustrated asking it to help me troubleshoot my VS Code task
-   configuration that [33]I recorded my screen and set it to a few lofi
-   tracks before [34]giving up.
+ 1. Ask ChatGPT to do something
+ 2. It responds with an obviously-wrong answer
+ 3. Explain to ChatGPT why its response is wrong
+ 4. It politely apologizes (“You are correct, X in fact does not equal Y. I
+    apologize.”) before immediately generating an equally-incorrect answer
+ 5. GOTO 3
 
-   For many of my friends, ChatGPT isn’t some passing fad—it’s a
-   productivity revolution that’s already saving them hours of work each
-   week. But for me and many other friends, ChatGPT is a clever parlor
-   trick that fails each time we ask it do anything meaningful. What
-   gives?
+I got so frustrated asking it to help me troubleshoot my VS Code task
+configuration that [34]I recorded my screen and set it to a few lofi tracks
+before [35]giving up.
 
-[35]Three simple rules for keeping your job
+For many of my friends, ChatGPT isn’t some passing fad—it’s a productivity
+revolution that’s already saving them hours of work each week. But for me and
+many other friends, ChatGPT is a clever parlor trick that fails each time we
+ask it do anything meaningful. What gives?
 
-   I’ve spent the last few months puzzling over this. Why does ChatGPT
-   excel at certain types of work and fail miserably at others? Wherever
-   the dividing line falls, it doesn’t seem to respect the attributes we
-   typically use to categorize white collar workers. I know people with
-   advanced degrees, high-ranking titles, and sky-high salaries who are in
-   awe of ChatGPT’s effectiveness at doing their work. But I can identify
-   just as many roles that sit near the bottom of the org chart, don’t
-   require special credentials, and don’t pay particularly well for which
-   ChatGPT isn’t even remotely useful.
+[36]Three simple rules for keeping your job
 
-   Here’s where I landed. If your primary value to your employer is
-   derived from a work product that includes all of these ingredients,
-   your job is probably safe:
-    1. Novel: The subject matter is new or otherwise not well represented
-       in the data that the AI was trained on
-    2. Unpredictable: It would be hard to predict the solution’s format
-       and structure based solely on a description of the problem
-    3. Fragile: Minor errors and inaccuracies would dramatically reduce
-       the work’s value without time-intensive remediation from an expert
+I’ve spent the last few months puzzling over this. Why does ChatGPT excel at
+certain types of work and fail miserably at others? Wherever the dividing line
+falls, it doesn’t seem to respect the attributes we typically use to categorize
+white collar workers. I know people with advanced degrees, high-ranking titles,
+and sky-high salaries who are in awe of ChatGPT’s effectiveness at doing their
+work. But I can identify just as many roles that sit near the bottom of the org
+chart, don’t require special credentials, and don’t pay particularly well for
+which ChatGPT isn’t even remotely useful.
 
-   To illustrate, each of the following professions have survived previous
-   revolutions in information technology, but will find themselves under
-   tremendous pressure from generative AI:
-     * A lawyer that drafts, edits, and red-lines contracts for their
-       clients will be at risk because most legal agreements fall into one
-       of a few dozen categories. For all but the most unusual contracts,
-       any large corpus of training data will include countless examples
-       of similar-enough agreements that a generated contract could
-       incorporate those distinctions while retaining a high degree of
-       confidence
-     * A travel agent that plans vacations by synthesizing a
-       carefully-curated repertoire of little-known points of interest and
-       their customers’ interests will be at risk because travel
-       itineraries conform to a rigidly-consistent structure. With
-       training, a [36]stochastic AI could predictably fill in the blanks
-       of a traveler’s agenda with “hidden” gems while avoiding
-       recommending the same places to everyone
-     * An insurance broker responsible for translating known risks and
-       potential liabilities into a prescribed set of coverages will
-       themselves be at risk because most policy mistakes are relatively
-       inconsequential. Insurance covers low-probability events that may
-       not take place for years—if they occur at all—so there’s plenty of
-       room for error for human and AI brokers alike (and plenty of
-       boilerplate legalese to protect them)
+Here’s where I landed. If your primary value to your employer is derived from a
+work product that includes all of these ingredients, your job is probably safe:
 
-   This also explains why ChatGPT has proven worthless for every task I’ve
-   thrown at it. As an experienced application developer, let’s consider
-   whether that’s because my work meets the three criteria identified
-   above:
-    1. Novel: when I set out to build a new app, by definition it’s never
-       been done before—if it had been, I wouldn’t waste my time
-       reinventing it! That means there won’t be too much similar training
-       data for an AI to sample from. Moreover, by preferring expressive,
-       terse languages like Ruby and frameworks like Rails that promote
-       [37]DRY, there just isn’t all that much for GitHub Copilot to
-       suggest to me (and when it does generate a large chunk of correct
-       code, I interpret it as a smell that I’m needlessly [38]reinventing
-       a wheel)
-    2. Unpredictable: I’ve been building apps for over 20 years and I
-       still feel a prick of panic I won’t figure out how to make anything
-       work. Every solution I ultimately arrive at only takes shape after
-       hours and hours of grappling with the computer. Whether you call
-       programming trial-and-error or dress it up as “[39]emergent
-       design,” the upshot is that the best engineers tend to be resigned
-       to the fact that the architectural design of the solution to any
-       problem is unknowable at the outset and can only be discovered
-       through the act of solving
-    3. Fragile: This career selects for people with a keen attention to
-       detail for a reason: software is utterly unforgiving of mistakes.
-       One errant character is enough to break a program millions of lines
-       long. Subtle bugs can have costly consequences if deployed, like
-       security breaches and data loss. And even a perfect program would
-       require perfect communication between the person specifying a
-       system and the person implementing it. While AI may one day create
-       apps, the precision and accuracy required makes probabilistic
-       language models poorly-suited for the task
+ 1. Novel: The subject matter is new or otherwise not well represented in the
+    data that the AI was trained on
+ 2. Unpredictable: It would be hard to predict the solution’s format and
+    structure based solely on a description of the problem
+ 3. Fragile: Minor errors and inaccuracies would dramatically reduce the work’s
+    value without time-intensive remediation from an expert
 
-   This isn’t to say my job is free of drudgery that generative AI could
-   take off my hands (like summarizing the <meta name="description"> tag
-   for this post), but—unlike someone who makes SEO tweaks for a
-   living—delegating ancillary, time-consuming work actually makes me more
-   valuable to my employer because it frees up more time for stuff AI
-   can’t do (yet).
+To illustrate, each of the following professions have survived previous
+revolutions in information technology, but will find themselves under
+tremendous pressure from generative AI:
 
-   So if you’re a programmer like me, you’re probably safe!
+  • A lawyer that drafts, edits, and red-lines contracts for their clients will
+    be at risk because most legal agreements fall into one of a few dozen
+    categories. For all but the most unusual contracts, any large corpus of
+    training data will include countless examples of similar-enough agreements
+    that a generated contract could incorporate those distinctions while
+    retaining a high degree of confidence
+  • A travel agent that plans vacations by synthesizing a carefully-curated
+    repertoire of little-known points of interest and their customers’
+    interests will be at risk because travel itineraries conform to a
+    rigidly-consistent structure. With training, a [37]stochastic AI could
+    predictably fill in the blanks of a traveler’s agenda with “hidden” gems
+    while avoiding recommending the same places to everyone
+  • An insurance broker responsible for translating known risks and potential
+    liabilities into a prescribed set of coverages will themselves be at risk
+    because most policy mistakes are relatively inconsequential. Insurance
+    covers low-probability events that may not take place for years—if they
+    occur at all—so there’s plenty of room for error for human and AI brokers
+    alike (and plenty of boilerplate legalese to protect them)
 
-   Job’s done. Post over.
+This also explains why ChatGPT has proven worthless for every task I’ve thrown
+at it. As an experienced application developer, let’s consider whether that’s
+because my work meets the three criteria identified above:
 
-[40]Post not over: How can I save my job?
+ 1. Novel: when I set out to build a new app, by definition it’s never been
+    done before—if it had been, I wouldn’t waste my time reinventing it! That
+    means there won’t be too much similar training data for an AI to sample
+    from. Moreover, by preferring expressive, terse languages like Ruby and
+    frameworks like Rails that promote [38]DRY, there just isn’t all that much
+    for GitHub Copilot to suggest to me (and when it does generate a large
+    chunk of correct code, I interpret it as a smell that I’m needlessly [39]
+    reinventing a wheel)
+ 2. Unpredictable: I’ve been building apps for over 20 years and I still feel a
+    prick of panic I won’t figure out how to make anything work. Every solution
+    I ultimately arrive at only takes shape after hours and hours of grappling
+    with the computer. Whether you call programming trial-and-error or dress it
+    up as “[40]emergent design,” the upshot is that the best engineers tend to
+    be resigned to the fact that the architectural design of the solution to
+    any problem is unknowable at the outset and can only be discovered through
+    the act of solving
+ 3. Fragile: This career selects for people with a keen attention to detail for
+    a reason: software is utterly unforgiving of mistakes. One errant character
+    is enough to break a program millions of lines long. Subtle bugs can have
+    costly consequences if deployed, like security breaches and data loss. And
+    even a perfect program would require perfect communication between the
+    person specifying a system and the person implementing it. While AI may one
+    day create apps, the precision and accuracy required makes probabilistic
+    language models poorly-suited for the task
 
-   So what can someone do if their primary role doesn’t produce work that
-   checks the three boxes of novelty, unpredictability, and fragility?
+This isn’t to say my job is free of drudgery that generative AI could take off
+my hands (like summarizing the <meta name="description"> tag for this post),
+but—unlike someone who makes SEO tweaks for a living—delegating ancillary,
+time-consuming work actually makes me more valuable to my employer because it
+frees up more time for stuff AI can’t do (yet).
 
-   Here are a few ideas that probably won’t work:
-     * Ask major tech companies to kindly put this genie back into the
-       bottle
-     * Lobby for [41]humane policies to prepare for a world that doesn’t
-       need every human’s labor
-     * Embrace return-to-office mandates by doing stuff software can’t do,
-       like stocking the snack cabinet and proactively offering to play
-       foosball with your boss
+So if you’re a programmer like me, you’re probably safe!
 
-   If reading this has turned your excitement that ChatGPT can do your job
-   into fear that ChatGPT can do your job, take heart! There are things
-   you can do today to prepare.
+Job’s done. Post over.
 
-   Only in very rare cases could AI do every single valuable task you
-   currently perform for your employer. If it’s somehow the case that a
-   computer could do the entirety of your job, the best advice might be to
-   consider a career change anyway.
+[41]Post not over: How can I save my job?
 
-   Suppose we approached AI as a new form of outsourcing. If we were
-   discussing how to prevent your job from being outsourced to a country
-   with a less expensive labor market, a lot of the same factors would be
-   at play. As a result, if you were my friend (just kidding! You are my
-   friend, I swear!) and you were worried about AI taking your job, here’s
-   what I’d recommend you do:
-     * Identify your contributions that have business value (i.e. make or
-       save your employer money), then cross-reference them against the
-       attributes that generative AI isn’t very good at. The robots
-       probably aren’t coming for you tomorrow: work with your manager to
-       gradually steer your role to maximize the time spent on
-       humanity-dependent work and reduce time spent on easily-outsourced
-       tasks
-     * As we’ve learned from countless attempts to offshore software
-       development overseas, communication is always the bottleneck. Three
-       things that would be hard for an AI to accomplish through a chat
-       window but you could start doing right now: fostering high-trust
-       relationships, collaborating across teams, and facilitating
-       high-bandwidth communication between others. By taking an
-       interdisciplinary approach to your work, it will not only make it
-       more difficult for someone to outsource you, it could have the
-       unintended consequence of also leading to a more meaningful,
-       enriching career
-     * The natural response to any threat is [42]fight, flight, or freeze;
-       but counter-intuitively one of the best ways to protect your job
-       from AI is to become an enthusiastic early adopter of AI tools. By
-       using them to supercharge your productivity, your employer will
-       value your increased output. Additionally, your newfound skills
-       will put you in a better position to lead your company’s future AI
-       efforts (just ask the [43]former editor-in-chief of CNET)
+So what can someone do if their primary role doesn’t produce work that checks
+the three boxes of novelty, unpredictability, and fragility?
 
-   Like all the best things in life, this advice is simple but hard. The
-   reason I wrote this post now (instead of waiting until GPT-9.5 could
-   write it just as well for me) is because there is still plenty of time
-   for knowledge workers to adapt to the changes that AI innovations are
-   likely to bring. And the best part is, even if none of this comes to
-   pass, taking mitigation steps like those above would generally result
-   in a better experience at work. It’s a win-win!
+Here are a few ideas that probably won’t work:
 
-[44]In conclusion
+  • Ask major tech companies to kindly put this genie back into the bottle
 
-   I got tired after writing 2400 words on this topic, so I asked ChatGPT
-   to write a conclusion after feeding it this post.
+  • Lobby for [42]humane policies to prepare for a world that doesn’t need
+    every human’s labor
 
-   Here’s what it spat out:
-   [45]The article discusses the potential impact of generative AI on
-   society, particularly on white-collar jobs in the information economy.
-   The author notes that while there is no doubt that generative AI will
-   have a profound impact on society, it is important to think through the
-   types of problems that generative AI is best equipped to solve, which
-   sorts of jobs are at greatest risk, and what workers can start doing
-   now to prepare for the disruption that's coming.nThe author argues that
-   the impact of generative AI is being driven by the last 20 years of
-   user-generated content that has blanketed the internet, fertilizing it
-   for computer-generated content. User-generated content dominated the
-   internet with the advent of Web 2.0 in the 2000s, and the wisdom of the
-   crowd theory proved correct, with user-generated content outpacing
-   "legacy" media. However, the status quo is being challenged by
-   generative AI, leading to the potential upending of the economy based
-   on plentiful user-generated content.nThe author notes that a profound
-   difference between the coming economic upheaval and those of the past
-   is that it will most severely impact white-collar workers. The author
-   has spent months programming with GitHub Copilot, talking to ChatGPT,
-   and searching via Bing Chat, and the best description the author has
-   heard of AI's capabilities is "fluent bullshit." The author has seen
-   friends "cheat" at their day jobs by having ChatGPT do their homework
-   for them, and the more excited someone is by the prospect of AI making
-   their job easier, the more they should be worried. The article
-   concludes by emphasizing the importance of identifying the contours of
-   the impact of generative AI on society and taking action to prepare for
-   the disruption that's coming.
+  • Embrace return-to-office mandates by doing stuff software can’t do, like
+    stocking the snack cabinet and proactively offering to play foosball with
+    your boss
 
-   Disappointed that ChatGPT can’t tell the difference between a
-   conclusion and a summary, I gave it a second try. The following
-   screenshot is not modified; this was its actual response:
-   [46]Justin: Try again but this time make it shorter, reuse fewer
-   phrases that appear in the post, and rather than summarize the content,
-   add your own conclusion that readers should take away from reading the
-   article\nChatGPT:New study suggests that the Mediterranean diet can
-   help reduce the risk of heart disease by 47%. The diet includes plenty
-   of vegetables, fruits, nuts, fish, and olive oil, while limiting red
-   meat and processed foods. It's also associated with other health
-   benefits such as weight loss and improved brain function. Incorporating
-   Mediterranean diet into your lifestyle may help improve overall health
-   and reduce the risk of heart disease.
+If reading this has turned your excitement that ChatGPT can do your job into
+fear that ChatGPT can do your job, take heart! There are things you can do
+today to prepare.
 
-   So, in conclusion: eat more olives. 🫒
+Only in very rare cases could AI do every single valuable task you currently
+perform for your employer. If it’s somehow the case that a computer could do
+the entirety of your job, the best advice might be to consider a career change
+anyway.
 
-[47]Justin Searls
+Suppose we approached AI as a new form of outsourcing. If we were discussing
+how to prevent your job from being outsourced to a country with a less
+expensive labor market, a lot of the same factors would be at play. As a
+result, if you were my friend (just kidding! You are my friend, I swear!) and
+you were worried about AI taking your job, here’s what I’d recommend you do:
 
-   An icon of a human figure Status
-          Double Agent
+  • Identify your contributions that have business value (i.e. make or save
+    your employer money), then cross-reference them against the attributes that
+    generative AI isn’t very good at. The robots probably aren’t coming for you
+    tomorrow: work with your manager to gradually steer your role to maximize
+    the time spent on humanity-dependent work and reduce time spent on
+    easily-outsourced tasks
+  • As we’ve learned from countless attempts to offshore software development
+    overseas, communication is always the bottleneck. Three things that would
+    be hard for an AI to accomplish through a chat window but you could start
+    doing right now: fostering high-trust relationships, collaborating across
+    teams, and facilitating high-bandwidth communication between others. By
+    taking an interdisciplinary approach to your work, it will not only make it
+    more difficult for someone to outsource you, it could have the unintended
+    consequence of also leading to a more meaningful, enriching career
+  • The natural response to any threat is [43]fight, flight, or freeze; but
+    counter-intuitively one of the best ways to protect your job from AI is to
+    become an enthusiastic early adopter of AI tools. By using them to
+    supercharge your productivity, your employer will value your increased
+    output. Additionally, your newfound skills will put you in a better
+    position to lead your company’s future AI efforts (just ask the [44]former
+    editor-in-chief of CNET)
 
-   An icon of a hash sign Code Name
-          Agent 002
+Like all the best things in life, this advice is simple but hard. The reason I
+wrote this post now (instead of waiting until GPT-9.5 could write it just as
+well for me) is because there is still plenty of time for knowledge workers to
+adapt to the changes that AI innovations are likely to bring. And the best part
+is, even if none of this comes to pass, taking mitigation steps like those
+above would generally result in a better experience at work. It’s a win-win!
 
-   An icon of a map marker Location
-          Orlando, FL
+[45]In conclusion
 
-   [48]Twitter [49]Mastodon [50]Github [51]LinkedIn [52]Website
+I got tired after writing 2400 words on this topic, so I asked ChatGPT to write
+a conclusion after feeding it this post.
+
+Here’s what it spat out:
+
+[46] The article discusses the potential impact of generative AI on society,
+particularly on white-collar jobs in the information economy. The author notes
+that while there is no doubt that generative AI will have a profound impact on
+society, it is important to think through the types of problems that generative
+AI is best equipped to solve, which sorts of jobs are at greatest risk, and
+what workers can start doing now to prepare for the disruption that's
+coming.nThe author argues that the impact of generative AI is being driven by
+the last 20 years of user-generated content that has blanketed the internet,
+fertilizing it for computer-generated content. User-generated content dominated
+the internet with the advent of Web 2.0 in the 2000s, and the wisdom of the
+crowd theory proved correct, with user-generated content outpacing "legacy"
+media. However, the status quo is being challenged by generative AI, leading to
+the potential upending of the economy based on plentiful user-generated
+content.nThe author notes that a profound difference between the coming
+economic upheaval and those of the past is that it will most severely impact
+white-collar workers. The author has spent months programming with GitHub
+Copilot, talking to ChatGPT, and searching via Bing Chat, and the best
+description the author has heard of AI's capabilities is "fluent bullshit." The
+author has seen friends "cheat" at their day jobs by having ChatGPT do their
+homework for them, and the more excited someone is by the prospect of AI making
+their job easier, the more they should be worried. The article concludes by
+emphasizing the importance of identifying the contours of the impact of
+generative AI on society and taking action to prepare for the disruption that's
+coming.
+
+Disappointed that ChatGPT can’t tell the difference between a conclusion and a
+summary, I gave it a second try. The following screenshot is not modified; this
+was its actual response:
+
+[47] Justin: Try again but this time make it shorter, reuse fewer phrases that
+appear in the post, and rather than summarize the content, add your own
+conclusion that readers should take away from reading the article\nChatGPT:New
+study suggests that the Mediterranean diet can help reduce the risk of heart
+disease by 47%. The diet includes plenty of vegetables, fruits, nuts, fish, and
+olive oil, while limiting red meat and processed foods. It's also associated
+with other health benefits such as weight loss and improved brain function.
+Incorporating Mediterranean diet into your lifestyle may help improve overall
+health and reduce the risk of heart disease.
+
+So, in conclusion: eat more olives. 🫒
+
+[002]
+
+[48] Justin Searls
+
+An icon of a human figure Status
+    Double Agent
+An icon of a hash sign Code Name
+    Agent 002
+An icon of a map marker Location
+    Orlando, FL
+
+[49] Twitter [50] Mastodon [51] Github [52] LinkedIn [53] Website
 
 Related posts:
 
-[53]Policy update: We’re still remote
+[54] Policy update: We’re still remote
 
-   Don’t waste time commuting to an office. Test Double will continue to
-   be a 100% remote software development company that values autonomy and
-   flexibility.
+Don’t waste time commuting to an office. Test Double will continue to be a 100%
+remote software development company that values autonomy and flexibility.
 
-   An icon of a clock Publish Date
-          July 7, 2021
+An icon of a clock Publish Date
+    July 7, 2021
+An icon of a human figure Authors
+    [55]Todd Kaufman
+An icon of a paper organzier Categories
+    [56]Our Company
 
-   An icon of a human figure Authors
-          [54]Todd Kaufman
+[57] Celebrating Agent 00100 milestone
 
-   An icon of a paper organzier Categories
-          [55]Our Company
+Test Double celebrates hiring Agent 00100—a big milestone and a reminder about
+why we do this: to fix what's broken in software.
 
-[56]Celebrating Agent 00100 milestone
+An icon of a clock Publish Date
+    June 1, 2021
+An icon of a human figure Authors
+    [58]Todd Kaufman
+An icon of a paper organzier Categories
+    [59]Our Company
 
-   Test Double celebrates hiring Agent 00100—a big milestone and a
-   reminder about why we do this: to fix what's broken in software.
+[60] 5 for 5000: Find your leading indicators
 
-   An icon of a clock Publish Date
-          June 1, 2021
+It's easy to tune out talk of metrics and spreadsheets, but one of the best
+ways to ensure long-term success is to uncover the numbers that signal future
+events while there's time to act on them
 
-   An icon of a human figure Authors
-          [57]Todd Kaufman
-
-   An icon of a paper organzier Categories
-          [58]Our Company
-
-[59]5 for 5000: Find your leading indicators
-
-   It's easy to tune out talk of metrics and spreadsheets, but one of the
-   best ways to ensure long-term success is to uncover the numbers that
-   signal future events while there's time to act on them
-
-   An icon of a clock Publish Date
-          October 22, 2020
-
-   An icon of a human figure Authors
-          [60]Justin Searls
-
-   An icon of a paper organzier Categories
-          [61]Our Company
+An icon of a clock Publish Date
+    October 22, 2020
+An icon of a human figure Authors
+    [61]Justin Searls
+An icon of a paper organzier Categories
+    [62]Our Company
 
 Looking for developers? Work with people who care about what you care about.
 
 We level up teams striving to ship great code.
 
-   [62]Let's talk
+[63] Let's talk
+[64]Home [65]Agency [66]Services [67]Careers [68]Blog [69]Contact
+[70] Mastodon [71] GitHub [72] LinkedIn [73] Twitter
 
-   [63]Home [64]Agency [65]Services [66]Careers [67]Blog [68]Contact
+[74] 614.349.4279
+[75] hello@testdouble.com
+[76]Privacy Policy
+Founded in Columbus, OH
+
+[77] Test Double
 
 
-   [69]Mastodon [70]GitHub [71]LinkedIn [72]Twitter
 
-   [73]614.349.4279
-   [74]hello@testdouble.com
-   [75]Privacy Policy
-   Founded in Columbus, OH
+References:
 
-[76]Test Double
-
-References
-
-   1. https://testdouble.com/
-   2. https://testdouble.com/
-   3. https://testdouble.com/agency
-   4. https://testdouble.com/services
-   5. https://testdouble.com/careers
-   6. https://blog.testdouble.com/
-   7. https://testdouble.com/contact
-   8. https://blog.testdouble.com/
-   9. https://blog.testdouble.com/posts/
-  10. https://blog.testdouble.com/authors/justin-searls/
-  11. https://openai.com/product/dall-e-2
-  12. https://openai.com/blog/chatgpt
-  13. https://en.wikipedia.org/wiki/Self-driving_car
-  14. https://www.automotivelogistics.media/transition-to-automated-trucks-must-be-managed-warn-trade-bodies/18446.article
-  15. https://www.nytimes.com/2017/08/11/business/dealbook/teamsters-union-tries-to-slow-self-driving-truck-push.html
-  16. https://www.nbcnews.com/business/autos/millions-professional-drivers-will-be-replaced-self-driving-vehicles-n817356
-  17. https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/#_now_-its-time-to-major-bump-web-20
-  18. https://en.wikipedia.org/wiki/Wisdom_of_the_crowd
-  19. https://en.wikipedia.org/wiki/Network_effect
-  20. https://en.wikipedia.org/wiki/Generative_adversarial_network
-  21. https://www.theverge.com/2022/12/8/23499728/ai-capability-accessibility-chatgpt-stable-diffusion-commercialization
-  22. https://www.theverge.com/2023/2/15/23599072/microsoft-ai-bing-personality-conversations-spy-employees-webcams
-  23. https://www.theverge.com/2023/1/20/23563851/google-search-ai-chatbot-demo-chatgpt
-  24. https://www.theverge.com/2021/5/18/22442328/google-io-2021-ai-language-model-lamda-pluto
-  25. https://www.youtube.com/playlist?list=PLIuJbrOVyGjkRj7UM_whr-CPoqcXTOsZa
-  26. https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/#chatgpt-can-do-some-peoples-work-but-not-everyones
-  27. https://github.com/features/copilot
-  28. https://www.theverge.com/2022/12/5/23493932/chatgpt-ai-generated-answers-temporarily-banned-stack-overflow-llms-dangers
-  29. https://www.npr.org/2022/12/19/1143912956/chatgpt-ai-chatbot-homework-academia
-  30. https://cdn-blog.testdouble.com/img/how-to-tell-if-ai-threatens-your-job/bing-1.ebd5fca31dbdd729c4dcc7388630e69f6d26b128d967b20a38c41409b7ee0099.png
-  31. https://cdn-blog.testdouble.com/img/how-to-tell-if-ai-threatens-your-job/bing-2.c1830c7fb3f4634158a9fffc0ccac3396f09619761d7ccd2218ce9b77d19b826.png
-  32. https://cdn-blog.testdouble.com/img/how-to-tell-if-ai-threatens-your-job/bing-3.a2922e3b785ab4216bb01299f118c55a7cd2b43a82db909f66bdc9c83e956fe6.png
-  33. https://www.youtube.com/watch?v=gllCXqnR-5E
-  34. https://www.youtube.com/watch?v=gllCXqnR-5E&t=1004s
-  35. https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/#three-simple-rules-for-keeping-your-job
-  36. https://en.wikipedia.org/wiki/Artificial_neural_network#Stochastic_neural_network
-  37. https://en.wikipedia.org/wiki/Don't_repeat_yourself
-  38. https://en.wikipedia.org/wiki/Reinventing_the_wheel
-  39. https://en.wikipedia.org/wiki/Emergent_Design
-  40. https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/#post-not-over-how-can-i-save-my-job
-  41. https://en.wikipedia.org/wiki/Universal_basic_income
-  42. https://en.wikipedia.org/wiki/Fight-or-flight_response
-  43. https://www.theverge.com/2023/3/2/23622836/cnet-eic-takes-red-ventures-ai-content-job-connie-guglielmo
-  44. https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/#in-conclusion
-  45. https://cdn-blog.testdouble.com/img/how-to-tell-if-ai-threatens-your-job/chat-gpt-1.be7ef1f6a65dabe7f2ee88e296ff404980183879a0a79f88537affe6a44f17e3.png
-  46. https://cdn-blog.testdouble.com/img/how-to-tell-if-ai-threatens-your-job/chat-gpt-2.ccd08019b5f629691f6f09f5e4118186dc3d3001d712449034804f9a8ffde7c3.png
-  47. https://blog.testdouble.com/authors/justin-searls/
-  48. https://twitter.com/searls
-  49. https://mastodon.social/@searls
-  50. https://github.com/searls
-  51. https://linkedin.com/in/searls
-  52. https://justin.searls.co/
-  53. https://blog.testdouble.com/posts/2021-07-07-policy-update-were-still-remote/
-  54. https://blog.testdouble.com/authors/todd-kaufman/
-  55. https://blog.testdouble.com/categories/our-company
-  56. https://blog.testdouble.com/posts/2021-06-01-celebrating-agent-0100-milestone/
-  57. https://blog.testdouble.com/authors/todd-kaufman/
-  58. https://blog.testdouble.com/categories/our-company
-  59. https://blog.testdouble.com/posts/2020-10-22-5-for-5000-find-your-leading-indicators/
-  60. https://blog.testdouble.com/authors/justin-searls/
-  61. https://blog.testdouble.com/categories/our-company
-  62. https://link.testdouble.com/blog-cta-sales
-  63. https://testdouble.com/
-  64. https://testdouble.com/agency
-  65. https://testdouble.com/services
-  66. https://testdouble.com/careers
-  67. https://blog.testdouble.com/
-  68. https://testdouble.com/contact
-  69. https://mastodon.social/@testdouble
-  70. https://github.com/testdouble
-  71. https://www.linkedin.com/company/testdouble
-  72. https://twitter.com/testdouble
-  73. tel:+16143494279
-  74. mailto:hello@testdouble.com
-  75. https://testdouble.com/privacy-policy
-  76. https://testdouble.com/
+[1] https://testdouble.com/
+[3] https://testdouble.com/
+[4] https://testdouble.com/agency
+[5] https://testdouble.com/services
+[6] https://testdouble.com/careers
+[7] https://blog.testdouble.com/
+[8] https://testdouble.com/contact
+[9] https://blog.testdouble.com/
+[10] https://blog.testdouble.com/posts/
+[11] https://blog.testdouble.com/authors/justin-searls/
+[12] https://openai.com/product/dall-e-2
+[13] https://openai.com/blog/chatgpt
+[14] https://en.wikipedia.org/wiki/Self-driving_car
+[15] https://www.automotivelogistics.media/transition-to-automated-trucks-must-be-managed-warn-trade-bodies/18446.article
+[16] https://www.nytimes.com/2017/08/11/business/dealbook/teamsters-union-tries-to-slow-self-driving-truck-push.html
+[17] https://www.nbcnews.com/business/autos/millions-professional-drivers-will-be-replaced-self-driving-vehicles-n817356
+[18] https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/#_now_-its-time-to-major-bump-web-20
+[19] https://en.wikipedia.org/wiki/Wisdom_of_the_crowd
+[20] https://en.wikipedia.org/wiki/Network_effect
+[21] https://en.wikipedia.org/wiki/Generative_adversarial_network
+[22] https://www.theverge.com/2022/12/8/23499728/ai-capability-accessibility-chatgpt-stable-diffusion-commercialization
+[23] https://www.theverge.com/2023/2/15/23599072/microsoft-ai-bing-personality-conversations-spy-employees-webcams
+[24] https://www.theverge.com/2023/1/20/23563851/google-search-ai-chatbot-demo-chatgpt
+[25] https://www.theverge.com/2021/5/18/22442328/google-io-2021-ai-language-model-lamda-pluto
+[26] https://www.youtube.com/playlist?list=PLIuJbrOVyGjkRj7UM_whr-CPoqcXTOsZa
+[27] https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/#chatgpt-can-do-some-peoples-work-but-not-everyones
+[28] https://github.com/features/copilot
+[29] https://www.theverge.com/2022/12/5/23493932/chatgpt-ai-generated-answers-temporarily-banned-stack-overflow-llms-dangers
+[30] https://www.npr.org/2022/12/19/1143912956/chatgpt-ai-chatbot-homework-academia
+[31] https://cdn-blog.testdouble.com/img/how-to-tell-if-ai-threatens-your-job/bing-1.ebd5fca31dbdd729c4dcc7388630e69f6d26b128d967b20a38c41409b7ee0099.png
+[32] https://cdn-blog.testdouble.com/img/how-to-tell-if-ai-threatens-your-job/bing-2.c1830c7fb3f4634158a9fffc0ccac3396f09619761d7ccd2218ce9b77d19b826.png
+[33] https://cdn-blog.testdouble.com/img/how-to-tell-if-ai-threatens-your-job/bing-3.a2922e3b785ab4216bb01299f118c55a7cd2b43a82db909f66bdc9c83e956fe6.png
+[34] https://www.youtube.com/watch?v=gllCXqnR-5E
+[35] https://www.youtube.com/watch?v=gllCXqnR-5E&t=1004s
+[36] https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/#three-simple-rules-for-keeping-your-job
+[37] https://en.wikipedia.org/wiki/Artificial_neural_network#Stochastic_neural_network
+[38] https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
+[39] https://en.wikipedia.org/wiki/Reinventing_the_wheel
+[40] https://en.wikipedia.org/wiki/Emergent_Design
+[41] https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/#post-not-over-how-can-i-save-my-job
+[42] https://en.wikipedia.org/wiki/Universal_basic_income
+[43] https://en.wikipedia.org/wiki/Fight-or-flight_response
+[44] https://www.theverge.com/2023/3/2/23622836/cnet-eic-takes-red-ventures-ai-content-job-connie-guglielmo
+[45] https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/#in-conclusion
+[46] https://cdn-blog.testdouble.com/img/how-to-tell-if-ai-threatens-your-job/chat-gpt-1.be7ef1f6a65dabe7f2ee88e296ff404980183879a0a79f88537affe6a44f17e3.png
+[47] https://cdn-blog.testdouble.com/img/how-to-tell-if-ai-threatens-your-job/chat-gpt-2.ccd08019b5f629691f6f09f5e4118186dc3d3001d712449034804f9a8ffde7c3.png
+[48] https://blog.testdouble.com/authors/justin-searls/
+[49] https://twitter.com/searls
+[50] https://mastodon.social/@searls
+[51] https://github.com/searls
+[52] https://linkedin.com/in/searls
+[53] https://justin.searls.co/
+[54] https://blog.testdouble.com/posts/2021-07-07-policy-update-were-still-remote/
+[55] https://blog.testdouble.com/authors/todd-kaufman/
+[56] https://blog.testdouble.com/categories/our-company
+[57] https://blog.testdouble.com/posts/2021-06-01-celebrating-agent-0100-milestone/
+[58] https://blog.testdouble.com/authors/todd-kaufman/
+[59] https://blog.testdouble.com/categories/our-company
+[60] https://blog.testdouble.com/posts/2020-10-22-5-for-5000-find-your-leading-indicators/
+[61] https://blog.testdouble.com/authors/justin-searls/
+[62] https://blog.testdouble.com/categories/our-company
+[63] https://link.testdouble.com/blog-cta-sales
+[64] https://testdouble.com/
+[65] https://testdouble.com/agency
+[66] https://testdouble.com/services
+[67] https://testdouble.com/careers
+[68] https://blog.testdouble.com/
+[69] https://testdouble.com/contact
+[70] https://mastodon.social/@testdouble
+[71] https://github.com/testdouble
+[72] https://www.linkedin.com/company/testdouble
+[73] https://twitter.com/testdouble
+[74] tel:+16143494279
+[75] mailto:hello@testdouble.com
+[76] https://testdouble.com/privacy-policy
+[77] https://testdouble.com/

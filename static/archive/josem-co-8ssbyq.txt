@@ -1,133 +1,126 @@
-   #[1]alternate
+[1]
 
-     * [2]Home
-     * [3]Articles
-     * [4]Subscribe
-     * [5]Work
-     * [6]About
-     * (BUTTON)
+  • [2]Home
+  • [3]Articles
+  • [4]Subscribe
+  • [5]Work
+  • [6]About
+  • 
 
-                        The beauty of finished software
+The beauty of finished software
 
-   October 31, 2023
+October 31, 2023
 
-   Let me introduce you to [7]WordStar 4.0, a popular word processor from
-   the early 80s.
+Let me introduce you to [8]WordStar 4.0, a popular word processor from the
+early 80s.
 
-   Wordstar 4.0 WordStar 4.0
+Wordstar 4.0 WordStar 4.0
 
-   As old as it seems, George R.R. Martin used it to write “A Song of Ice
-   and Fire”.
+As old as it seems, George R.R. Martin used it to write “A Song of Ice and
+Fire”.
 
-   Why would someone use such an old piece of software to write over 5,000
-   pages? I love how he puts it:
+Why would someone use such an old piece of software to write over 5,000 pages?
+I love how he puts it:
 
-     It does everything I want a word processing program to do and it
-     doesn't do anything else. I don't want any help. I hate some of
-     these modern systems where you type up a lowercase letter and it
-     becomes a capital. I don't want a capital, if I'd wanted a capital,
-     I would have typed the capital.[8]George R.R. Martin
+    It does everything I want a word processing program to do and it doesn't do
+    anything else. I don't want any help. I hate some of these modern systems
+    where you type up a lowercase letter and it becomes a capital. I don't want
+    a capital, if I'd wanted a capital, I would have typed the capital.[9]
+    George R.R. Martin
 
-   This program embodies the concept of finished software — a software you
-   can use forever with no unneeded changes.
+This program embodies the concept of finished software — a software you can use
+forever with no unneeded changes.
 
-   Finished software is software that’s not expected to change, and that’s
-   a feature! You can rely on it to do some real work.
+Finished software is software that’s not expected to change, and that’s a
+feature! You can rely on it to do some real work.
 
-   Once you get used to the software, once the software works for you, you
-   don’t need to learn anything new; the interface will exactly be the
-   same, and all your files will stay relevant. No migrations, no new
-   payments, no new changes.
+Once you get used to the software, once the software works for you, you don’t
+need to learn anything new; the interface will exactly be the same, and all
+your files will stay relevant. No migrations, no new payments, no new changes.
 
-   This kind of software can be created intentionally, with a compromise
-   from the creators that they won’t bother you with things you don’t
-   need, and only the absolutely necessary will change, like minor updates
-   to make it compatible with new operating systems.
+This kind of software can be created intentionally, with a compromise from the
+creators that they won’t bother you with things you don’t need, and only the
+absolutely necessary will change, like minor updates to make it compatible with
+new operating systems.
 
-   Sometimes, finished software happens accidentally; maybe the company
-   behind it has disappeared, or the product has been abandoned.
+Sometimes, finished software happens accidentally; maybe the company behind it
+has disappeared, or the product has been abandoned.
 
-   There are also some great examples in the UNIX world of finished
-   software: commands like cd(to change the current directory) or ls(to
-   list what’s there) won’t ever change in a significant way. You can rely
-   on them until the end of your career.
+There are also some great examples in the UNIX world of finished software:
+commands like cd(to change the current directory) or ls(to list what’s there)
+won’t ever change in a significant way. You can rely on them until the end of
+your career.
 
 The seduction of constant updates
 
-   Our expectations for software are different from other products we use
-   in our daily lives.
+Our expectations for software are different from other products we use in our
+daily lives.
 
-   When we buy a physical product, we accept that it won’t change in its
-   lifetime. We’ll use it until it wears off, and we replace it. We can
-   rely on that product not evolving; the gas pedal in my car will always
-   be in the same place.
+When we buy a physical product, we accept that it won’t change in its lifetime.
+We’ll use it until it wears off, and we replace it. We can rely on that product
+not evolving; the gas pedal in my car will always be in the same place.
 
-   However, when it comes to software, we usually have the ingrained
-   expectations of perpetual updates. We believe that if software doesn’t
-   evolve it’ll be boring, old and unusable. If we see an app with no
-   updates in the last year, we think the creator might be dead.
+However, when it comes to software, we usually have the ingrained expectations
+of perpetual updates. We believe that if software doesn’t evolve it’ll be
+boring, old and unusable. If we see an app with no updates in the last year, we
+think the creator might be dead.
 
-   We also expect new versions of any software will be better than the
-   previous ones. Once it’s released, most of our problems will be solved!
-   What a deceiving lie.
+We also expect new versions of any software will be better than the previous
+ones. Once it’s released, most of our problems will be solved! What a deceiving
+lie.
 
-   Sometimes, a software upgrade is a step backward: less usable, less
-   stable, with new bugs. Even if it’s genuinely better, there’s the
-   learning curve. You were efficient with the old version, but now your
-   most used button is on the other side of the screen under a hidden
-   menu.
+Sometimes, a software upgrade is a step backward: less usable, less stable,
+with new bugs. Even if it’s genuinely better, there’s the learning curve. You
+were efficient with the old version, but now your most used button is on the
+other side of the screen under a hidden menu.
 
 Finished software is a good reminder
 
-   In a world where constant change is the norm, finished software
-   provides a breath of fresh air. It’s a reminder that reliability,
-   consistency, and user satisfaction can coexist in the realm of software
-   development.
+In a world where constant change is the norm, finished software provides a
+breath of fresh air. It’s a reminder that reliability, consistency, and user
+satisfaction can coexist in the realm of software development.
 
-   So the next time you find yourself yearning for the latest update,
-   remember that sometimes, the best software is the one that doesn’t
-   change at all.
-     __________________________________________________________________
+So the next time you find yourself yearning for the latest update, remember
+that sometimes, the best software is the one that doesn’t change at all.
 
-References
-
-   [1] George R.R. Martin in Conan show (2014).
-   [9]https://www.youtube.com/watch?v=X5REM-3nWHg.
-
-   Subscribe below to get future posts in your inbox (no spam)
-   ____________________
-   ____________________
-   Subscribe
-
-   Or use the [10]RSS feed link.
-     __________________________________________________________________
-
-   This site is ads-free and done in my free time. [11]Buy Me A Coffee to
-   help me keep working on it.
-
-   © 2023 [12]Home | [13]Mastodon | [14]Twitter | [15]RSS feed | [16]Buy
-   Me A Coffee
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 References
 
-   Visible links:
-   1. https://josem.co//articles/index.xml
-   2. https://josem.co/
-   3. https://josem.co/articles/
-   4. https://josem.co/subscribe/
-   5. https://josem.co/work/
-   6. https://josem.co/about/
-   7. https://en.wikipedia.org/wiki/WordStar
-   8. https://josem.co/the-beauty-of-finished-software/#rf1
-   9. https://www.youtube.com/watch?v=X5REM-3nWHg
-  10. https://josem.co/articles/index.xml
-  11. https://www.buymeacoffee.com/josem.co
-  12. https://josem.co/
-  13. https://mstdn.social/@josem
-  14. https://twitter.com/gilgado_
-  15. https://josem.co/articles/index.xml
-  16. https://www.buymeacoffee.com/josem.co
+[1] George R.R. Martin in Conan show (2014). [10]https://www.youtube.com/watch?
+v=X5REM-3nWHg.
 
-   Hidden links:
-  18. https://josem.co/
-  19. https://josem.co/the-beauty-of-finished-software/#top
+Subscribe below to get future posts in your inbox (no spam)
+
+[11][                    ]
+[12][                    ]
+[13][Subscribe]
+Or use the [14]RSS feed link.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+This site is ads-free and done in my free time. [15]Buy Me A Coffee to help me
+keep working on it.
+
+© 2023 [16]Home | [17]Mastodon | [18]Twitter | [19]RSS feed | [20]Buy Me A
+Coffee[21]
+
+References:
+
+[1] https://josem.co/
+[2] https://josem.co/
+[3] https://josem.co/articles/
+[4] https://josem.co/subscribe/
+[5] https://josem.co/work/
+[6] https://josem.co/about/
+[8] https://en.wikipedia.org/wiki/WordStar
+[9] https://josem.co/the-beauty-of-finished-software/#rf1
+[10] https://www.youtube.com/watch?v=X5REM-3nWHg
+[14] https://josem.co/articles/index.xml
+[15] https://www.buymeacoffee.com/josem.co
+[16] https://josem.co/
+[17] https://mstdn.social/@josem
+[18] https://twitter.com/gilgado_
+[19] https://josem.co/articles/index.xml
+[20] https://www.buymeacoffee.com/josem.co
+[21] https://josem.co/the-beauty-of-finished-software/#top

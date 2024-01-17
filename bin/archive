@@ -15,7 +15,7 @@ puts "references:"
 
 urls.each do |url|
   page_content = `curl -s #{url}`
-  text_content = `lynx -dump --display_charset=utf-8 #{url}`
+  text_content = `w3m -dump -T text/html -o display_link_number=1 #{url}`
 
   begin
     title = page_content

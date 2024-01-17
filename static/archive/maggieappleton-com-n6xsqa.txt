@@ -1,772 +1,738 @@
-   #[1]Main RSS Feed
+[1]Home
+The Garden
+[3]Now
+[4]About
+Essays
 
-   [2]Home
-   The Garden (BUTTON)
-   [3]Now
-   [4]About
-   (BUTTON)
-
-   Essays
-
-   evergreen
+evergreen
 
 A Brief History & Ethos of the Digital Garden
 
-   A newly revived philosophy for publishing personal knowledge on the web
-     * [5]Digital Gardening
-     * [6]Personal Knowledge
-     * [7]The Web
+A newly revived philosophy for publishing personal knowledge on the web
 
-   Planted over 3 years agoLast tended over 2 years ago
+  • [6]Digital Gardening
+  • [7]Personal Knowledge
+  • [8]The Web
 
-   (BUTTON) Back To Top
-
-Table of Contents
-
-   [8]A Brief History of Digital Gardens[9]The Early Gardens of
-   Hypertext[10]Digital Puttering on Twitter[11]Gardens, Streams, and
-   Caufield's Metaphors[12]Carrying on Caufield[13]Digital Gardening's
-   Fertile Soil[14]Developer-led Gardening[15]The Six Patterns of
-   Gardening[16]1. Topography over Timelines[17]2. Continuous Growth[18]3.
-   Imperfection & Learning in Public[19]4. Playful, Personal, and
-   Experimental[20]5. Intercropping & Content Diversity[21]6. Independent
-   Ownership
+Planted over 3 years agoLast tended over 2 years ago
+Back To Top
 
 Table of Contents
 
-   [22]A Brief History of Digital Gardens[23]The Early Gardens of
-   Hypertext[24]Digital Puttering on Twitter[25]Gardens, Streams, and
-   Caufield's Metaphors[26]Carrying on Caufield[27]Digital Gardening's
-   Fertile Soil[28]Developer-led Gardening[29]The Six Patterns of
-   Gardening[30]1. Topography over Timelines[31]2. Continuous Growth[32]3.
-   Imperfection & Learning in Public[33]4. Playful, Personal, and
-   Experimental[34]5. Intercropping & Content Diversity[35]6. Independent
-   Ownership
-   Loading...
+[10]A Brief History of Digital Gardens[11]The Early Gardens of Hypertext[12]
+Digital Puttering on Twitter[13]Gardens, Streams, and Caufield's Metaphors[14]
+Carrying on Caufield[15]Digital Gardening's Fertile Soil[16]Developer-led
+Gardening[17]The Six Patterns of Gardening[18]1. Topography over Timelines[19]
+2. Continuous Growth[20]3. Imperfection & Learning in Public[21]4. Playful,
+Personal, and Experimental[22]5. Intercropping & Content Diversity[23]6.
+Independent Ownership
 
-   My highlighted a number of sites that are taking a new approach to the
-   way we publish personal knowledge on the web.
+Table of Contents
 
-   They're not following the conventions of the "personal blog," as we've
-   come to know it. Rather than presenting a set of polished articles,
-   displayed in reverse chronological order, these sites act more like
-   free form, work-in-progress wikis.
+[24]A Brief History of Digital Gardens[25]The Early Gardens of Hypertext[26]
+Digital Puttering on Twitter[27]Gardens, Streams, and Caufield's Metaphors[28]
+Carrying on Caufield[29]Digital Gardening's Fertile Soil[30]Developer-led
+Gardening[31]The Six Patterns of Gardening[32]1. Topography over Timelines[33]
+2. Continuous Growth[34]3. Imperfection & Learning in Public[35]4. Playful,
+Personal, and Experimental[36]5. Intercropping & Content Diversity[37]6.
+Independent Ownership
+Loading...
 
-   A garden is a collection of evolving ideas that aren't strictly
-   organised by their publication date. They're inherently exploratory –
-   notes are linked through contextual associations. They aren't refined
-   or complete - notes are published as half-finished thoughts that will
-   grow and evolve over time. They're less rigid, less performative, and
-   less perfect than the personal websites we're used to seeing.
+My highlighted a number of sites that are taking a new approach to the way we
+publish personal knowledge on the web.
 
-   It harkens back to the early days of the web when people had fewer
-   notions of how websites "should be.” It's an ethos that is both
-   classically old and newly imagined.
-     __________________________________________________________________
+They're not following the conventions of the "personal blog," as we've come to
+know it. Rather than presenting a set of polished articles, displayed in
+reverse chronological order, these sites act more like free form,
+work-in-progress wikis.
 
-   [36]
+A garden is a collection of evolving ideas that aren't strictly organised by
+their publication date. They're inherently exploratory – notes are linked
+through contextual associations. They aren't refined or complete - notes are
+published as half-finished thoughts that will grow and evolve over time.
+They're less rigid, less performative, and less perfect than the personal
+websites we're used to seeing.
+
+It harkens back to the early days of the web when people had fewer notions of
+how websites "should be.” It's an ethos that is both classically old and newly
+imagined.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[38]
 
 A Brief History of Digital Gardens
 
-   Let's go on a short journey to the origin of this word. The notion of a
-   digital garden is not a 2020 invention. It's been floating around for
-   over two decades. However, it's passed through a couple of semantic
-   shifts in that time, meaning different things to different people
-   across the years. As words tend to do.
+Let's go on a short journey to the origin of this word. The notion of a digital
+garden is not a 2020 invention. It's been floating around for over two decades.
+However, it's passed through a couple of semantic shifts in that time, meaning
+different things to different people across the years. As words tend to do.
 
-   Tracing back how
-   [37]Neologisms
-   are born helps us understand why anyone needed this word in the first
-   place. Language is always a response to the evolving world around us –
-   we expand it when our current vocabulary fails to capture what we're
-   observing, or have a particular desire for how we'd like the future to
-   unfold. Naming is a political act as much as a poetic one.
+Tracing back how
+[39]Neologisms
+are born helps us understand why anyone needed this word in the first place.
+Language is always a response to the evolving world around us – we expand it
+when our current vocabulary fails to capture what we're observing, or have a
+particular desire for how we'd like the future to unfold. Naming is a political
+act as much as a poetic one.
 
 The Early Gardens of Hypertext
 
-   Mark Bernstein's 1998 essay appears to be the first recorded mention of
-   the term. Mark was part of the early hypertext crowd – the developers
-   figuring out how to arrange and present this new medium.
+Mark Bernstein's 1998 essay appears to be the first recorded mention of the
+term. Mark was part of the early hypertext crowd – the developers figuring out
+how to arrange and present this new medium.
 
-   While the essay is a beautiful ode to free-wheeling internet
-   exploration, it's less about building personal internet spaces, and
-   more of a manifesto on user experience flows and content organisation.
+While the essay is a beautiful ode to free-wheeling internet exploration, it's
+less about building personal internet spaces, and more of a manifesto on user
+experience flows and content organisation.
 
-   Let's note that Mark's graphics are to die for
+Let's note that Mark's graphics are to die for
 
-   To put this in its historical context, Mark's writing was part of a
-   larger conversation happening throughout the nineties around hypertext
-   and its metaphorical framing.
+To put this in its historical context, Mark's writing was part of a larger
+conversation happening throughout the nineties around hypertext and its
+metaphorical framing.
 
-   The early web-adopters were caught up in the idea of The Web as a
-   labyrinth-esque community landscape tended by and These creators wanted
-   to enable pick-your-own-path experiences, while also providing enough
-   signposts that people didn't feel lost in their new, strange medium.
+The early web-adopters were caught up in the idea of The Web as a
+labyrinth-esque community landscape tended by and These creators wanted to
+enable pick-your-own-path experiences, while also providing enough signposts
+that people didn't feel lost in their new, strange medium.
 
-   The early web debates around this became known as – the issue of how to
-   give web users just enough guidance to freely explore the web, without
-   forcing them into pre-defined browsing experiences. The eternal
-   struggle to find the right balance of chaos and structure.
+The early web debates around this became known as – the issue of how to give
+web users just enough guidance to freely explore the web, without forcing them
+into pre-defined browsing experiences. The eternal struggle to find the right
+balance of chaos and structure.
 
-     "Unplanned hypertext sprawl is wilderness: complex and interesting,
-     but uninviting. Interesting things await us in the thickets, but we
-     may be reluctant to plough through the brush, subject to thorns and
-     mosquitoes"
+    "Unplanned hypertext sprawl is wilderness: complex and interesting, but
+    uninviting. Interesting things await us in the thickets, but we may be
+    reluctant to plough through the brush, subject to thorns and mosquitoes"
 
-   While Mark's essay was concerned with different problems to the ones we
-   face on the web today, its core ethos feels aligned with our emerging
-   understanding of digital gardening. It captures the desire for
-   exploratory experiences, a welcoming of digital weirdness, and a
-   healthy amount of resistance to top-down structures.
+While Mark's essay was concerned with different problems to the ones we face on
+the web today, its core ethos feels aligned with our emerging understanding of
+digital gardening. It captures the desire for exploratory experiences, a
+welcoming of digital weirdness, and a healthy amount of resistance to top-down
+structures.
 
-   After Mark's essay the term digital gardening goes quiet for nearly a
-   decade.
+After Mark's essay the term digital gardening goes quiet for nearly a decade.
 
 Digital Puttering on Twitter
 
-   In April of 2007 when Tweets first started ringing through the internet
-   airwaves, Rory Sutherland (oddly, the vice president of Ogilvy Group)
-   used the term "digital gardening", but defined it as "faffing about
-   syncing things, defragging - like pruning for young people"
-   Loading...
+In April of 2007 when Tweets first started ringing through the internet
+airwaves, Rory Sutherland (oddly, the vice president of Ogilvy Group) used the
+term "digital gardening", but defined it as "faffing about syncing things,
+defragging - like pruning for young people"
 
-   The next dozen mentions on Twitter all followed this sentiment – people
-   were using the term as a way to describe digital maintenance - the act
-   of cleaning up one's digital space. The focus was on sorting, weeding,
-   pruning, and decluttering, rather than growing and cultivating. People
-   mentioned cleaning out private folders, codebases, and photo albums as
-   the focus of their gardening efforts.
+Loading...
 
-   These people were digital puttering more than gardening.
-   Loading...
-   Loading...
-   Loading...
+The next dozen mentions on Twitter all followed this sentiment – people were
+using the term as a way to describe digital maintenance - the act of cleaning
+up one's digital space. The focus was on sorting, weeding, pruning, and
+decluttering, rather than growing and cultivating. People mentioned cleaning
+out private folders, codebases, and photo albums as the focus of their
+gardening efforts.
 
-   Since none of these folks reference to the earlier nineties notion of
-   digital gardening, or mention issues of hypertext navigation, this use
-   of the word feels like a brief tangent. Given the tiny size of Twitter
-   in the early days, these people probably belonged to the same social
-   flocks and were riffing off one another. It's not necessarily part of
-   the mainstream narrative we're tracking, but shows there's not one
-   strict meaning to the term.
+These people were digital puttering more than gardening.
 
-   That said, some degree of faffing about, sorting, and pruning are
-   certainly part of the practice of digital gardening. Though best
-   enjoyed in moderation.
+Loading...
+Loading...
+Loading...
+
+Since none of these folks reference to the earlier nineties notion of digital
+gardening, or mention issues of hypertext navigation, this use of the word
+feels like a brief tangent. Given the tiny size of Twitter in the early days,
+these people probably belonged to the same social flocks and were riffing off
+one another. It's not necessarily part of the mainstream narrative we're
+tracking, but shows there's not one strict meaning to the term.
+
+That said, some degree of faffing about, sorting, and pruning are certainly
+part of the practice of digital gardening. Though best enjoyed in moderation.
 
 Gardens, Streams, and Caufield's Metaphors
 
-   At the 2015 Digital Learning Research Network, Mike Caufield delivered
-   a keynote on . It later becomes that lays the foundations for our
-   current understanding of the term. If anyone should be considered the
-   original source of digital gardening, it's Caufield. They are the first
-   to lay out this whole idea in poetic, coherent words.
+At the 2015 Digital Learning Research Network, Mike Caufield delivered a
+keynote on . It later becomes that lays the foundations for our current
+understanding of the term. If anyone should be considered the original source
+of digital gardening, it's Caufield. They are the first to lay out this whole
+idea in poetic, coherent words.
 
-   Caufield makes clear digital gardening is not about specific tools –
-   it's not a Wordpress plugin, Gastby theme, or Jekyll template. It's a
-   different way of thinking about our online behaviour around information
-   - one that accumulates personal knowledge over time in an explorable
-   space.
+Caufield makes clear digital gardening is not about specific tools – it's not a
+Wordpress plugin, Gastby theme, or Jekyll template. It's a different way of
+thinking about our online behaviour around information - one that accumulates
+personal knowledge over time in an explorable space.
 
-   Caufield's main argument was that we have become swept away by streams
-   – the collapse of information into single-track timelines of events.
-   The conversational feed design of email inboxes, group chats, and
-   InstaTwitBook is fleeting – they're only concerned with self-assertive
-   immediate thoughts that rush by us in a few moments.
+Caufield's main argument was that we have become swept away by streams – the
+collapse of information into single-track timelines of events. The
+conversational feed design of email inboxes, group chats, and InstaTwitBook is
+fleeting – they're only concerned with self-assertive immediate thoughts that
+rush by us in a few moments.
 
-   This is not inherently bad. Streams have their time and place. Twitter
-   is a force-multiplier for exploratory thoughts and delightful
-   encounters once you fall in with the right crowd and learn to play the
-   game.
+This is not inherently bad. Streams have their time and place. Twitter is a
+force-multiplier for exploratory thoughts and delightful encounters once you
+fall in with the right crowd and learn to play the game.
 
-   But streams only surface the Zeitgeisty ideas of the last 24 hours.
-   They are not designed to accumulate knowledge, connect disparate
-   information, or mature over time.
+But streams only surface the Zeitgeisty ideas of the last 24 hours. They are
+not designed to accumulate knowledge, connect disparate information, or mature
+over time.
 
-   The garden is our counterbalance. Gardens present information in a
-   richly linked landscape that grows slowly over time. Everything is
-   arranged and connected in ways that allow you to explore. Think about
-   the way Wikipedia works when you're hopping from to to . It's
-   hyperlinking at it's best. You get to actively choose which curiosity
-   trail to follow, rather than defaulting to the algorithmically-filtered
-   ephemeral stream. The garden helps us move away from time-bound streams
-   and into contextual knowledge spaces.
 
-     "The Garden is the web as topology. The web as space. It’s the
-     integrative web, the iterative web, the web as an arrangement and
-     rearrangement of things to one another."
+The garden is our counterbalance. Gardens present information in a richly
+linked landscape that grows slowly over time. Everything is arranged and
+connected in ways that allow you to explore. Think about the way Wikipedia
+works when you're hopping from to to . It's hyperlinking at it's best. You get
+to actively choose which curiosity trail to follow, rather than defaulting to
+the algorithmically-filtered ephemeral stream. The garden helps us move away
+from time-bound streams and into contextual knowledge spaces.
+
+    "The Garden is the web as topology. The web as space. It’s the integrative
+    web, the iterative web, the web as an arrangement and rearrangement of
+    things to one another."
 
 Carrying on Caufield
 
-   Good ideas take time to germinate, and Caufield's vision of the
-   personal garden didn't reach critical mass right off the bat. It lay
-   dormant, waiting for the right time and the right people to find it.
+Good ideas take time to germinate, and Caufield's vision of the personal garden
+didn't reach critical mass right off the bat. It lay dormant, waiting for the
+right time and the right people to find it.
 
-   In late 2018 the corner of Twitter I hang out in began using the term
-   more regularly – folks began passing around Caufield's original article
-   and experimenting with ways to turn their chronological blogs into
-   exploratory, interlinked gardens.
+In late 2018 the corner of Twitter I hang out in began using the term more
+regularly – folks began passing around Caufield's original article and
+experimenting with ways to turn their chronological blogs into exploratory,
+interlinked gardens.
 
-   Tom Critchlow's 2018 article was one of the main kick-off points. Tom
-   read Caufield's essay and began speculating on alternative metaphors to
-   frame the way we consume and produce information. They suggested we add
-   campfires to the idea of streams and gardens – the private Slack
-   groups, casual blog rings, and
-   [38]Cozy Web
-   areas where people write in response to one another. While gardens
-   present the ideas of an individual, campfires are conversational spaces
-   to exchange ideas that aren't yet fully formed.
+Tom Critchlow's 2018 article was one of the main kick-off points. Tom read
+Caufield's essay and began speculating on alternative metaphors to frame the
+way we consume and produce information. They suggested we add campfires to the
+idea of streams and gardens – the private Slack groups, casual blog rings, and
+[40]Cozy Web
+areas where people write in response to one another. While gardens present the
+ideas of an individual, campfires are conversational spaces to exchange ideas
+that aren't yet fully formed.
 
-   Tom piece was shortly followed by Joel Hooks' in early 2019. Joel
-   focused on the process of digital gardening, emphasising the slow
-   growth of ideas through writing, rewriting, editing, and revising
-   thoughts in public. Instead of slapping Fully Formed Opinions up on the
-   web and never changing them.
+Tom piece was shortly followed by Joel Hooks' in early 2019. Joel focused on
+the process of digital gardening, emphasising the slow growth of ideas through
+writing, rewriting, editing, and revising thoughts in public. Instead of
+slapping Fully Formed Opinions up on the web and never changing them.
 
-   Joel also added Amy Hoy's post to the pile of influential ideas that
-   led to our current gardening infatuation. While not specifically about
-   gardening, Amy's piece gives us a lot of good historical context. In
-   it, she explores the history of blogs over the last three decades, and
-   pinpoints exactly when we all became fixated on publishing our thoughts
-   in reverse chronological order (spoiler: around 2001 with the launch of
-   ).
+Joel also added Amy Hoy's post to the pile of influential ideas that led to our
+current gardening infatuation. While not specifically about gardening, Amy's
+piece gives us a lot of good historical context. In it, she explores the
+history of blogs over the last three decades, and pinpoints exactly when we all
+became fixated on publishing our thoughts in reverse chronological order
+(spoiler: around 2001 with the launch of ).
 
-   Amy argues that Moveable Type didn't just launch us into the
-   "Chronological Sort Era". It also killed the wild, diverse, hodge-podge
-   personalisation of websites that characterised the early web. Instead
-   of hand-coding your own layout and deciding exactly how to arrange the
-   digital furniture, we began to enter the age of standardised layouts.
-   Plug n' play templates that you drop content into became the norm. It
-   became harder and more technically involved to edit the HTML & CSS
-   yourself.
+Amy argues that Moveable Type didn't just launch us into the "Chronological
+Sort Era". It also killed the wild, diverse, hodge-podge personalisation of
+websites that characterised the early web. Instead of hand-coding your own
+layout and deciding exactly how to arrange the digital furniture, we began to
+enter the age of standardised layouts. Plug n' play templates that you drop
+content into became the norm. It became harder and more technically involved to
+edit the HTML & CSS yourself.
 
-     "Suddenly people weren’t creating homepages or even web pages...
-     they were writing web content in form fields and text areas inside a
-     web page."
+    "Suddenly people weren’t creating homepages or even web pages... they were
+    writing web content in form fields and text areas inside a web page."
 
-   Many people have lamented the web's slow transition from unique
-   homepages to a bland ocean of generic Wordpress themes. Digital
-   gardening is part of the pushback against the limited range of vanilla
-   web formats and layouts we now for granted.
+Many people have lamented the web's slow transition from unique homepages to a
+bland ocean of generic Wordpress themes. Digital gardening is part of the
+pushback against the limited range of vanilla web formats and layouts we now
+for granted.
 
-   Over the course 2019 and early 2020, more and more people began riffing
-   on the concept. Shaun Wang compiled the . Anne-Laure Le Cunff published
-   a popular guide to setting up . The IndieWeb community hosted a to
-   discuss the history of commonplace books, personal wikis, and memory
-   palaces.
+Over the course 2019 and early 2020, more and more people began riffing on the
+concept. Shaun Wang compiled the . Anne-Laure Le Cunff published a popular
+guide to setting up . The IndieWeb community hosted a to discuss the history of
+commonplace books, personal wikis, and memory palaces.
 
-   By late 2020 this whole concept had attracted enough attention for the
-   MIT Tech Review to write on it. Perhaps this is the watershed moment
-   when a Twitter buzzword has "made it."
+By late 2020 this whole concept had attracted enough attention for the MIT Tech
+Review to write on it. Perhaps this is the watershed moment when a Twitter
+buzzword has "made it."
 
 Digital Gardening's Fertile Soil
 
-   What made our current historical moment the right time for digital
-   gardening to take off?
+What made our current historical moment the right time for digital gardening to
+take off?
 
-   The timing coincided with a few complimentary ideas and communities
-   rallying around personal knowledge systems, note-taking practices, and
-   reimagining tools for blogging. The scene was ripe for new ideas around
-   curating and sharing personal knowledge online.
+The timing coincided with a few complimentary ideas and communities rallying
+around personal knowledge systems, note-taking practices, and reimagining tools
+for blogging. The scene was ripe for new ideas around curating and sharing
+personal knowledge online.
 
-   Many of the people who jumped on the early digital gardening bandwagon
-   were part of communities like...
-     * The collective – a group that has been championing independent web
-       spaces outside the walled gardens of Instatwitbook for nearly a
-       decade.
-     * Users of the note-taking app – Roam pioneered new ways of
-       interlinking content and strongly appeals to people trying to build
-       sprawling knowledge graphs.
-     * Followers of Tiago Forte's course which popularised the idea of
-       actively curating personal knowledge.
-     * People rallying around the ethos that encourages continuously
-       creating 'learning exhaust' in the form of notes and summaries.
+Many of the people who jumped on the early digital gardening bandwagon were
+part of communities like...
+
+  • The collective – a group that has been championing independent web spaces
+    outside the walled gardens of Instatwitbook for nearly a decade.
+  • Users of the note-taking app – Roam pioneered new ways of interlinking
+    content and strongly appeals to people trying to build sprawling knowledge
+    graphs.
+  • Followers of Tiago Forte's course which popularised the idea of actively
+    curating personal knowledge.
+  • People rallying around the ethos that encourages continuously creating
+    'learning exhaust' in the form of notes and summaries.
 
 Developer-led Gardening
 
-   Many of these early adopters were people who understood how to build
-   websites – either professional developers or enthusiastic hobbyists.
-   Any kind of novel experimentation with the web requires knowing a
-   non-trivial amount of HTML, CSS, and JS. Not to mention all the
-   surrounding infrastructure required actually to get a site live.
-   Developers took to the idea because they already had the technical
-   ability to jump in play around with what garden-esque websites might
-   look like.
+Many of these early adopters were people who understood how to build websites –
+either professional developers or enthusiastic hobbyists. Any kind of novel
+experimentation with the web requires knowing a non-trivial amount of HTML,
+CSS, and JS. Not to mention all the surrounding infrastructure required
+actually to get a site live. Developers took to the idea because they already
+had the technical ability to jump in play around with what garden-esque
+websites might look like.
 
-   The current state of web development helped here too. While it feels
-   like we've been in a slow descent into a horrifyingly complex and
-   bloated web development process, a number of recent tools have made it
-   easier to get a fully customised website up and running. Services like
-   and have taken the pain out of deployment. Static site generators like
-   , , and make it easier to build sophisticated websites that
-   auto-generate pages, and take care of grunt work like optimising load
-   time, images, and SEO. These services are trying to find a happy middle
-   ground between tediously hand-coding solutions, and being trapped in
-   the restrictions of Wordpress or Squarespace.
+The current state of web development helped here too. While it feels like we've
+been in a slow descent into a horrifyingly complex and bloated web development
+process, a number of recent tools have made it easier to get a fully customised
+website up and running. Services like and have taken the pain out of
+deployment. Static site generators like , , and make it easier to build
+sophisticated websites that auto-generate pages, and take care of grunt work
+like optimising load time, images, and SEO. These services are trying to find a
+happy middle ground between tediously hand-coding solutions, and being trapped
+in the restrictions of Wordpress or Squarespace.
 
-   While developers were the first on the scene, plenty of writers,
-   researchers, and note-taking enthusiasts have been drawn to the idea of
-   digital gardening. To help folks without programming skills join in,
-   there's been a surge in templates and platforms that allow people to
-   build their own digital gardens without touching a ton of code. I've
-   written an entire guide to
-   [39]Digital Gardening for Non-Technical Folks
-   if you fall into that category.
+While developers were the first on the scene, plenty of writers, researchers,
+and note-taking enthusiasts have been drawn to the idea of digital gardening.
+To help folks without programming skills join in, there's been a surge in
+templates and platforms that allow people to build their own digital gardens
+without touching a ton of code. I've written an entire guide to
+[41]Digital Gardening for Non-Technical Folks
+if you fall into that category.
 
-   Tools like , , and are all great options. Many of them offer fancy
-   features like nested folders,
-   [40]Bi-Directional Links
-   , footnotes, and visual graphs.
+Tools like , , and are all great options. Many of them offer fancy features
+like nested folders,
+[42]Bi-Directional Links
+, footnotes, and visual graphs.
 
-   However, many of these no-code tools still feel like cookie-cutter
-   solutions. Rather than allowing people to design the and spatial
-   layouts of their gardens, they inevitably force people into pre-made
-   arrangements. This doesn't meant they don't "count,” as "real” gardens,
-   but simply that they limit their gardeners to some extent. You can't
-   design different types of links, novel features, experimental layouts,
-   or custom architecture. They're pre-fab houses instead of raw building
-   materials.
-     __________________________________________________________________
+However, many of these no-code tools still feel like cookie-cutter solutions.
+Rather than allowing people to design the and spatial layouts of their gardens,
+they inevitably force people into pre-made arrangements. This doesn't meant
+they don't "count,” as "real” gardens, but simply that they limit their
+gardeners to some extent. You can't design different types of links, novel
+features, experimental layouts, or custom architecture. They're pre-fab houses
+instead of raw building materials.
 
-   [41]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[43]
 
 The Six Patterns of Gardening
 
-   In all the recent gardening flurry, we've run into the inevitable
-   confusion around how to define the term.
-   Loading...
+In all the recent gardening flurry, we've run into the inevitable confusion
+around how to define the term.
 
-   There are contested ideas about what qualifies as a garden, what the
-   core ethos should focus on, and whether it's worthy of a new label at
-   all. What exactly makes a website a digital garden as opposed to just
-   another blog?
+Loading...
 
-   After reading all the existing takes on the term, observing a wide
-   variety of gardens, and collecting some of the , I've identified a few
-   key qualities they all share.
+There are contested ideas about what qualifies as a garden, what the core ethos
+should focus on, and whether it's worthy of a new label at all. What exactly
+makes a website a digital garden as opposed to just another blog?
 
-   There are a few guiding principles, design patterns and structures
-   people are rallying around. This amounts to a kind of digital gardening
-   [42]Pattern Language
-   .
+After reading all the existing takes on the term, observing a wide variety of
+gardens, and collecting some of the , I've identified a few key qualities they
+all share.
+
+There are a few guiding principles, design patterns and structures people are
+rallying around. This amounts to a kind of digital gardening
+[44]Pattern Language
+.
 
 1. Topography over Timelines
 
-   Gardens are organised around contextual relationships and associative
-   links; the concepts and themes within each note determine how it's
-   connected to others.
+Gardens are organised around contextual relationships and associative links;
+the concepts and themes within each note determine how it's connected to
+others.
 
-   This runs counter to the time-based structure of traditional blogs:
-   posts presented in reverse chronological order based on publication
-   date.
+This runs counter to the time-based structure of traditional blogs: posts
+presented in reverse chronological order based on publication date.
 
-   Gardens don't consider publication dates the most important detail of a
-   piece of writing. Dates might be included on posts, but they aren't the
-   structural basis of how you navigate around the garden. Posts are
-   connected to other by posts through related themes, topics, and shared
-   context.
+Gardens don't consider publication dates the most important detail of a piece
+of writing. Dates might be included on posts, but they aren't the structural
+basis of how you navigate around the garden. Posts are connected to other by
+posts through related themes, topics, and shared context.
 
-   One of the best ways to do this is through
-   [43]Bi-Directional Links
-   – links that make both the destination page and the source page visible
-   to the reader. This makes it easy to move between related content.
+One of the best ways to do this is through
+[45]Bi-Directional Links
+– links that make both the destination page and the source page visible to the
+reader. This makes it easy to move between related content.
 
-   Because garden notes are densely linked, a garden explorer can enter at
-   any location and follow any trail they link through the content, rather
-   than being dumped into a "most recent” feed.
+Because garden notes are densely linked, a garden explorer can enter at any
+location and follow any trail they link through the content, rather than being
+dumped into a "most recent” feed.
 
-   Dense links are essential, but gardeners often layer on other ways of
-   exploring their knowledge base. They might have , , tags and filtering
-   functionality, , , or listing notable and popular content.
+Dense links are essential, but gardeners often layer on other ways of exploring
+their knowledge base. They might have , , tags and filtering functionality, , ,
+or listing notable and popular content.
 
-   Many entry points but no prescribed pathways.
+Many entry points but no prescribed pathways.
 
 2. Continuous Growth
 
-   Gardens are never finished, they're constantly growing, evolving, and
-   changing. Just like a real soil, carrot, and cabbage garden.
+Gardens are never finished, they're constantly growing, evolving, and changing.
+Just like a real soil, carrot, and cabbage garden.
 
-   The isn't how we usually think about writing on the web. Over the last
-   decade, we've moved away from casual live journal entries and
-   formalised our writing into articles and essays. These are carefully
-   crafted, edited, revised, and published with a timestamp. When it's
-   done, it's done. We act like tiny magazines, sending our writing off to
-   the printer.
+The isn't how we usually think about writing on the web. Over the last decade,
+we've moved away from casual live journal entries and formalised our writing
+into articles and essays. These are carefully crafted, edited, revised, and
+published with a timestamp. When it's done, it's done. We act like tiny
+magazines, sending our writing off to the printer.
 
-   This is odd considering editability is one of the main selling points
-   of the web. Gardens lean into this – there is no "final version” on a
-   garden. What you publish is always open to revision and expansion.
+This is odd considering editability is one of the main selling points of the
+web. Gardens lean into this – there is no "final version” on a garden. What you
+publish is always open to revision and expansion.
 
-   Gardens are designed to evolve alongside your thoughts. When you first
-   have an idea, it's fuzzy and unrefined. You might notice a pattern in
-   your corner of the world, but need to collect evidence, consider
-   counter-arguments, spot similar trends, and research who else has thunk
-   such thoughts before you. In short, you need to do your homework and
-   critically think about it over time.
+Gardens are designed to evolve alongside your thoughts. When you first have an
+idea, it's fuzzy and unrefined. You might notice a pattern in your corner of
+the world, but need to collect evidence, consider counter-arguments, spot
+similar trends, and research who else has thunk such thoughts before you. In
+short, you need to do your homework and critically think about it over time.
 
-   In performance-blog-land you do that thinking and researching
-   privately, then shove it out at the final moment. A grand flourish that
-   hides the process.
+In performance-blog-land you do that thinking and researching privately, then
+shove it out at the final moment. A grand flourish that hides the process.
 
-   In garden-land, that process of researching and refining happens on the
-   open internet. You post ideas while they're still "seedlings,” and tend
-   them regularly until they're fully grown, respectable opinions.
+In garden-land, that process of researching and refining happens on the open
+internet. You post ideas while they're still "seedlings,” and tend them
+regularly until they're fully grown, respectable opinions.
 
-   This has a number of benefits:
-     * You're freed from the pressure to get everything right immediately.
-       You can test ideas, get feedback, and revise your opinions like a
-       good internet citizen.
-     * It's low friction. Gardening your thoughts becomes a daily ritual
-       that only takes a small amount of effort. Over time, big things
-       grow.
-     * It gives readers an insight into your writing and thinking process.
-       They come to realise you are not a magical idea machine banging out
-       perfectly formed thoughts, but instead an equally mediocre human
-       doing The Work of trying to understand the world and make sense of
-       it alongside you.
+This has a number of benefits:
 
-   This all comes with an important caveat; gardens make their
-   imperfection known to readers. Which brings us to the next pattern...
+  • You're freed from the pressure to get everything right immediately. You can
+    test ideas, get feedback, and revise your opinions like a good internet
+    citizen.
+  • It's low friction. Gardening your thoughts becomes a daily ritual that only
+    takes a small amount of effort. Over time, big things grow.
+  • It gives readers an insight into your writing and thinking process. They
+    come to realise you are not a magical idea machine banging out perfectly
+    formed thoughts, but instead an equally mediocre human doing The Work of
+    trying to understand the world and make sense of it alongside you.
+
+This all comes with an important caveat; gardens make their imperfection known
+to readers. Which brings us to the next pattern...
 
 3. Imperfection & Learning in Public
 
-   Gardens are imperfect by design. They don't hide their rough edges or
-   claim to be a permanent source of truth.
+Gardens are imperfect by design. They don't hide their rough edges or claim to
+be a permanent source of truth.
 
-   Putting anything imperfect and half-written on an "official website”
-   may feel strange. We have all been trained to behave like tiny,
-   performative corporations when it comes to presenting ourselves in
-   digital space. Blogging evolved in the culture of Millenialism as a way
-   to Promote Your Personal Brand™ and market your SEO-optimized Content.
+Putting anything imperfect and half-written on an "official website” may feel
+strange. We have all been trained to behave like tiny, performative
+corporations when it comes to presenting ourselves in digital space. Blogging
+evolved in the culture of Millenialism as a way to Promote Your Personal Brand™
+and market your SEO-optimized Content.
 
-   Weird, quirky personal blogs of the early 2000's turned into cleanly
-   crafted brands with publishing strategies and media campaigns. Everyone
-   now has a modern minimalist logo and an LLC.
+Weird, quirky personal blogs of the early 2000's turned into cleanly crafted
+brands with publishing strategies and media campaigns. Everyone now has a
+modern minimalist logo and an LLC.
 
-   Digital gardening is the response to the professional personal blog;
-   it's both intimate and public, weird and welcoming. It's less
-   performative than a blog, but more intentional and thoughtful than a
-   Twitter feed. It wants to build personal knowledge over time, rather
-   than engage in banter and quippy conversations.
+Digital gardening is the response to the professional personal blog; it's both
+intimate and public, weird and welcoming. It's less performative than a blog,
+but more intentional and thoughtful than a Twitter feed. It wants to build
+personal knowledge over time, rather than engage in banter and quippy
+conversations.
 
-   Think of it as a spectrum. Things we dump into private WhatsApp group
-   chats, DMs, and cavalier Tweet threads are part of our chaos streams -
-   a continuous flow of high noise / low signal ideas. On the other end we
-   have highly performative and cultivated artefacts like published books
-   that you prune and tend for years.
+Think of it as a spectrum. Things we dump into private WhatsApp group chats,
+DMs, and cavalier Tweet threads are part of our chaos streams - a continuous
+flow of high noise / low signal ideas. On the other end we have highly
+performative and cultivated artefacts like published books that you prune and
+tend for years.
 
-   Gardening sits in the middle. It's the perfect balance of chaos and
-   cultivation.
+Gardening sits in the middle. It's the perfect balance of chaos and
+cultivation.
 
-   This ethos of imperfection opens up a world of possibility that
-   performative blogging shut down. First, it enables you to ; the
-   practice of sharing what you learn as you're learning it, not a decade
-   later once you're an "expert.”
+This ethos of imperfection opens up a world of possibility that performative
+blogging shut down. First, it enables you to ; the practice of sharing what you
+learn as you're learning it, not a decade later once you're an "expert.”
 
-   This freedom of course comes with great responsibility. Publishing
-   imperfect and early ideas requires that we make the status of our notes
-   clear to readers. You should include some indicator of how "done” they
-   are, and how much effort you've invested in them.
+This freedom of course comes with great responsibility. Publishing imperfect
+and early ideas requires that we make the status of our notes clear to readers.
+You should include some indicator of how "done” they are, and how much effort
+you've invested in them.
 
-   This could be with a simple categorisation system. I personally use an
-   overly horticultural metaphor:
-     * 🌱 Seedlings for very rough and early ideas
-     * 🌿 Budding for work I've cleaned up and clarified
-     * 🌳 Evergreen for work that is reasonably complete (though I still
-       tend these over time).
+This could be with a simple categorisation system. I personally use an overly
+horticultural metaphor:
 
-   I also include the dates I planted and last tended a post so people get
-   a sense of how long I've been growing it.
+  • 🌱 Seedlings for very rough and early ideas
+  • 🌿 Budding for work I've cleaned up and clarified
+  • 🌳 Evergreen for work that is reasonably complete (though I still tend these
+    over time).
 
-   Other gardeners include an epistemic status on their posts – a short
-   statement that makes clear how they know what they know, and how much
-   time they've invested in researching it.
+I also include the dates I planted and last tended a post so people get a sense
+of how long I've been growing it.
 
-   was one of the earliest and most consistent gardeners to offer
-   meta-reflections on their work. Each entry comes with:
-     * topic tags
-     * start and end date
-     * a stage tag: draft, in progress, or finished
-     * a certainty tag: impossible, unlikely, certain, etc.
-     * 1-10 importance tag
+Other gardeners include an epistemic status on their posts – a short statement
+that makes clear how they know what they know, and how much time they've
+invested in researching it.
 
-   These are all explained in their , which is worth reading if you're
-   designing your own epistemological system.
+was one of the earliest and most consistent gardeners to offer meta-reflections
+on their work. Each entry comes with:
 
-   Devon Zuegal is another notable gardener who has epistemic status and
-   epistemic effort on their posts, indicating both their certainty level
-   about the material, and how much effort went into making it. They also
-   make a strong case for as a feature, not a bug.
+  • topic tags
+  • start and end date
+  • a stage tag: draft, in progress, or finished
+  • a certainty tag: impossible, unlikely, certain, etc.
+  • 1-10 importance tag
 
-   In a similar vein, Shawn Wang has written the Digital Gardening which I
-   adore and ascribe to. They ask the reader to allow the writer to be
-   wrong, offer constructive criticism, and attribute their work. They ask
-   gardeners to be considerate of others (don't share private information
-   or name and shame), offer epistemic disclosure, and respond to
-   feedback.
-   The digital gardening terms of service – Source: Shawn Wang, swyx.io
+These are all explained in their , which is worth reading if you're designing
+your own epistemological system.
 
-   All of these design patterns feed our growing desire for transparency,
-   meta information, and breadcrumbs back to the source of ideas.
+Devon Zuegal is another notable gardener who has epistemic status and epistemic
+effort on their posts, indicating both their certainty level about the
+material, and how much effort went into making it. They also make a strong case
+for as a feature, not a bug.
+
+In a similar vein, Shawn Wang has written the Digital Gardening which I adore
+and ascribe to. They ask the reader to allow the writer to be wrong, offer
+constructive criticism, and attribute their work. They ask gardeners to be
+considerate of others (don't share private information or name and shame),
+offer epistemic disclosure, and respond to feedback.
+
+The digital gardening terms of service – Source: Shawn Wang, swyx.io
+
+All of these design patterns feed our growing desire for transparency, meta
+information, and breadcrumbs back to the source of ideas.
 
 4. Playful, Personal, and Experimental
 
-   Gardens are non-homogenous by nature. You can plant the same seeds as
-   your neighbour, but you'll always end up with a different arrangement
-   of plants.
+Gardens are non-homogenous by nature. You can plant the same seeds as your
+neighbour, but you'll always end up with a different arrangement of plants.
 
-   Digital gardens should be just as unique and particular as their
-   vegetative counterparts. The point of a garden is that it's a personal
-   playspace. You organise the garden around the ideas and mediums that
-   match your way of thinking, rather than off someone else's standardised
-   template.
+Digital gardens should be just as unique and particular as their vegetative
+counterparts. The point of a garden is that it's a personal playspace. You
+organise the garden around the ideas and mediums that match your way of
+thinking, rather than off someone else's standardised template.
 
-   Ideally, this involves experimenting with the native languages of the
-   web – HTML, CSS, and JavaScript. They're the most flexible and robust
-   tools we have for building interconnected knowledge online. Gardens are
-   a chance to question the established norms of a 'personal website', and
-   make space for weirder, wilder experiments.
+Ideally, this involves experimenting with the native languages of the web –
+HTML, CSS, and JavaScript. They're the most flexible and robust tools we have
+for building interconnected knowledge online. Gardens are a chance to question
+the established norms of a 'personal website', and make space for weirder,
+wilder experiments.
 
-   That said, I should acknowledge that jumping into full-on web
-   development is simply beyond the abilities and interests of many
-   people. There is still room for personalisation and play if you're
-   using a pre-made template or service – it'll just be within the
-   constraints of that system.
+That said, I should acknowledge that jumping into full-on web development is
+simply beyond the abilities and interests of many people. There is still room
+for personalisation and play if you're using a pre-made template or service –
+it'll just be within the constraints of that system.
 
-   One goal of these hyper-personalised gardens is deep contextualisation.
-   The overwhelming lesson of the Web 2.0 social media age is that dumping
-   millions of people together into decontextualised social spaces is a
-   shit show. Devoid of any established social norms and abstracted from
-   our specific cultural identities, we end up in awkward, aggravating
-   exchanges with people who are socially incoherent to us. We know
-   nothing of their lives, backgrounds, or belief systems, and have to
-   assume the worst. Twitter only offers us a 240 character bio. Facebook
-   pre-selects the categories it deems important about you – relationship
-   status, gender, hometown.
+One goal of these hyper-personalised gardens is deep contextualisation. The
+overwhelming lesson of the Web 2.0 social media age is that dumping millions of
+people together into decontextualised social spaces is a shit show. Devoid of
+any established social norms and abstracted from our specific cultural
+identities, we end up in awkward, aggravating exchanges with people who are
+socially incoherent to us. We know nothing of their lives, backgrounds, or
+belief systems, and have to assume the worst. Twitter only offers us a 240
+character bio. Facebook pre-selects the categories it deems important about you
+– relationship status, gender, hometown.
 
-   Gardens offer us the ability to present ourselves in forms that aren't
-   cookie cutter profiles. They're the higher-fidelity version, complete
-   with quirks, contradictions, and complexity.
+Gardens offer us the ability to present ourselves in forms that aren't cookie
+cutter profiles. They're the higher-fidelity version, complete with quirks,
+contradictions, and complexity.
 
 5. Intercropping & Content Diversity
 
-   Gardens are not just a collection of interlinked words. While linear
-   writing is an incredible medium that has served us well for a little
-   over 5000 years, it is daft to pretend working in a single medium is a
-   sufficient way to explore complex ideas.
+Gardens are not just a collection of interlinked words. While linear writing is
+an incredible medium that has served us well for a little over 5000 years, it
+is daft to pretend working in a single medium is a sufficient way to explore
+complex ideas.
 
-   It is also absurd to ignore the fact we're living in an audio-visual
-   cornucopia that the web makes possible. Podcasts, videos, diagrams,
-   illustrations, interactive web animations, academic papers, tweets,
-   rough sketches, and code snippets should all live and grow in the
-   garden.
-   [intercropping-garden_shrink_mx6nx8.png]
+It is also absurd to ignore the fact we're living in an audio-visual cornucopia
+that the web makes possible. Podcasts, videos, diagrams, illustrations,
+interactive web animations, academic papers, tweets, rough sketches, and code
+snippets should all live and grow in the garden.
 
-   Historically, monocropping has been the quickest route to starvation,
-   pests, and famine. Don't be a lumper potato farmer while everyone else
-   is sustainably intercropping.
+[intercropping-garden_shrink_mx6nx8]
+
+Historically, monocropping has been the quickest route to starvation, pests,
+and famine. Don't be a lumper potato farmer while everyone else is sustainably
+intercropping.
 
 6. Independent Ownership
 
-   Gardening is about claiming a small patch of the web for yourself, one
-   you fully own and control.
+Gardening is about claiming a small patch of the web for yourself, one you
+fully own and control.
 
-   This patch should not live on the servers of Facebook, LinkedIn,
-   Twitter, Instagram (aka. also Facebook), or Medium. None of these
-   platforms are designed to help you slowly build and weave personal
-   knowledge. Most of them actively fight against it.
+This patch should not live on the servers of Facebook, LinkedIn, Twitter,
+Instagram (aka. also Facebook), or Medium. None of these platforms are designed
+to help you slowly build and weave personal knowledge. Most of them actively
+fight against it.
 
-   If any of those services go under, your writing and creations sink with
-   it (crazier things have happened in the span of humanity). None of them
-   have an easy export button. And they certainly won't hand you your data
-   in a transferable format.
-   A set of walled gardens with the Twitter, Medium, and Facebook logos
-   next to an open garden built on HTML, CSS, and Markdown
+If any of those services go under, your writing and creations sink with it
+(crazier things have happened in the span of humanity). None of them have an
+easy export button. And they certainly won't hand you your data in a
+transferable format.
 
-   Independently owning your garden helps you plan for long-term change.
-   You should think about how you want your space to grow over the next
-   few decades, not just the next few months.
+A set of walled gardens with the Twitter, Medium, and Facebook logos next to an
+open garden built on HTML, CSS, and Markdown
 
-   If you give it a bit of forethought, you can build your garden in a way
-   that makes it easy to transfer and adapt. Platforms and technologies
-   will inevitably change. Using old-school, reliable, and widely used web
-   native formats like HTML/CSS is a safe bet. Backing up your notes as
-   flat markdown files won't hurt either.
+Independently owning your garden helps you plan for long-term change. You
+should think about how you want your space to grow over the next few decades,
+not just the next few months.
 
-   Keeping your garden on the open web also sets you up to take part in
-   the future of gardening. At the moment our gardens are rather solo
-   affairs. We haven't figure out how to make them multi-player. But
-   there's an enthusiastic community of developers and designers trying to
-   fix that. It's hard to say what kind of libraries, frameworks, and
-   design patterns might emerge out of that effort, but it certainly isn't
-   going to happen behind a Medium paywall.
-   A set of gardens with plant life moving between them
-     __________________________________________________________________
+If you give it a bit of forethought, you can build your garden in a way that
+makes it easy to transfer and adapt. Platforms and technologies will inevitably
+change. Using old-school, reliable, and widely used web native formats like
+HTML/CSS is a safe bet. Backing up your notes as flat markdown files won't hurt
+either.
 
-   This is all my take on gardening, but knowledge and neologisms always
-   live within communities. No one owns The Official Definition of digital
-   gardening. Numerous people have contributed to the growing conversation
-   and you should read their thoughts as well.
+Keeping your garden on the open web also sets you up to take part in the future
+of gardening. At the moment our gardens are rather solo affairs. We haven't
+figure out how to make them multi-player. But there's an enthusiastic community
+of developers and designers trying to fix that. It's hard to say what kind of
+libraries, frameworks, and design patterns might emerge out of that effort, but
+it certainly isn't going to happen behind a Medium paywall.
 
-   Want to share? (BUTTON) Tell Twitter About It
+A set of gardens with plant life moving between them
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+This is all my take on gardening, but knowledge and neologisms always live
+within communities. No one owns The Official Definition of digital gardening.
+Numerous people have contributed to the growing conversation and you should
+read their thoughts as well.
+
+Want to share?Tell Twitter About It
 
 8 Backlinks
 
 The Expanding Dark Forest and Generative AI
 
-   Proving you're a human on a web flooded with generative AI content
+Proving you're a human on a web flooded with generative AI content
 
 A Short History of Bi-Directional Links
 
-   Seventy years ago we dreamed up links that would allow us to create
-   two-way, contextual conversations. Why don't we use them on the web?
+Seventy years ago we dreamed up links that would allow us to create two-way,
+contextual conversations. Why don't we use them on the web?
 
 Digital Gardening for Non-Technical Folks
 
-   How to build a digital garden without touching code
+How to build a digital garden without touching code
 
 Transclusion and Transcopyright Dreams
 
-   The lost permissioning and copyright system of the Web
+The lost permissioning and copyright system of the Web
 
 The Pattern Language of Project Xanadu
 
-   Project Xanadu as a pattern language, rather than a failed software
-   project
+Project Xanadu as a pattern language, rather than a failed software project
 
 Growing the Evergreens
 
-   Illustrated notes on the concept of 'Evergreen notes' and how to write
-   them
+Illustrated notes on the concept of 'Evergreen notes' and how to write them
 
 A Meta-Tour of This Site
 
-   A video tour through how I build the old version of this site
+A video tour through how I build the old version of this site
 
 Tending Evergreen Notes in Roam Research
 
-   A walkthrough of how I manage and tend Evergreen notes in Roam
+A walkthrough of how I manage and tend Evergreen notes in Roam
 
 Mentions around the web
 
-   subterraneanwebZ
-   a new hope
-   with-heart
-   Winson Tang
-   Hacker News
-   Abra Tusz
-   King | "OG" Zettelkasten 🧠 2nd Brain 🚢
-   HN Front Page
-   ⎯ΘωΘ⟶
-   lqdev
-   Evgeny Kuznetsov
-   Brad
-   Brad
-   Chris Aldrich
-   DixOnGE
-   talyssa
-   Chris Krycho
-   márcio moreira
-   84 Likes and Retweets
-   [44]wildrye.commentionedMarch 10, 2023
-   Image by Pallangor, How to Make a Beautiful Minecraft GardenGarden of
-   Infinite Possibilities Jorge Luis Borges’ story the “Garden of Forking
-   Paths” is set in an elaborate garden, but the real garden is a book
-   that is structured in such a way as to allow infinite possibilities.
-   [45]wildrye.commentionedMarch 09, 2023
-   Mike Caufield talks about his collection of notes in his wiki and how
-   they work together as a rich network of ideas. Part of his method is to
-   very carefully describe the relationship between two ideas when he
-   builds his links. These descriptions become ideas in their own right.
-   [46]Cristinamentionedin What the heck is a digital garden?March 04,
-   2023
-   Digital gardens are a relatively new concept that are gaining
-   popularity online. They are often described as a cross between a blog
-   and a personal wiki. At its core, a digital garden is a place for
-   someone to share their thoughts, ideas, and learning experiences in a
-   more casual
-   Whatdefang
-   [47]WhatdefangmentionedFebruary 28, 2023
-   Naming is a political act as much as a poetic one.
-   (BUTTON) Show 33 more
+subterraneanwebZ
+a new hope
+with-heart
+Winson Tang
+Hacker News
+Abra Tusz
+King | "OG" Zettelkasten 🧠 2nd Brain 🚢
+HN Front Page
+⎯ΘωΘ⟶
+lqdev
+Evgeny Kuznetsov
+Brad
+Brad
+Chris Aldrich
+DixOnGE
+talyssa
+Chris Krycho
+márcio moreira
+84 Likes and Retweets
+[47]wildrye.commentionedMarch 10, 2023
+Image by Pallangor, How to Make a Beautiful Minecraft GardenGarden of Infinite
+Possibilities Jorge Luis Borges’ story the “Garden of Forking Paths” is set in
+an elaborate garden, but the real garden is a book that is structured in such a
+way as to allow infinite possibilities.
+[48]wildrye.commentionedMarch 09, 2023
+Mike Caufield talks about his collection of notes in his wiki and how they work
+together as a rich network of ideas. Part of his method is to very carefully
+describe the relationship between two ideas when he builds his links. These
+descriptions become ideas in their own right.
+[49]Cristinamentionedin What the heck is a digital garden?March 04, 2023
+Digital gardens are a relatively new concept that are gaining popularity
+online. They are often described as a cross between a blog and a personal wiki.
+At its core, a digital garden is a place for someone to share their thoughts,
+ideas, and learning experiences in a more casual
+Whatdefang
+[50]WhatdefangmentionedFebruary 28, 2023
+Naming is a political act as much as a poetic one.
+Show 33 more
 
 Want to stay up to date?
 
-   (BUTTON) Subscribe via RSS Feed
-   © 2024 Maggie Appleton
-     * [48]The Garden
-     * [49]Essays
-     * [50]About
-     * [51]Notes
-     * [52]Now
-     * [53]Patterns
-     * [54]Library
-     * [55]Projects
-     * [56]Colophon
+Subscribe via RSS Feed
+[53][54][55][56][57]
+© 2024 Maggie Appleton
 
-References
+  • [58]The Garden
+  • [59]Essays
+  • [60]About
+  • [61]Notes
+  • [62]Now
+  • [63]Patterns
+  • [64]Library
+  • [65]Projects
+  • [66]Colophon
 
-   Visible links:
-   1. https://maggieappleton.com/rss.xml
-   2. https://maggieappleton.com/
-   3. https://maggieappleton.com/now
-   4. https://maggieappleton.com/about
-   5. https://maggieappleton.com/topics/digital-gardening
-   6. https://maggieappleton.com/topics/personal-knowledge
-   7. https://maggieappleton.com/topics/the-web
-   8. https://maggieappleton.com/garden-history#a-brief-history-of-digital-gardens
-   9. https://maggieappleton.com/garden-history#the-early-gardens-of-hypertext
-  10. https://maggieappleton.com/garden-history#digital-puttering-on-twitter
-  11. https://maggieappleton.com/garden-history#gardens-streams-and-caufield's-metaphors
-  12. https://maggieappleton.com/garden-history#carrying-on-caufield
-  13. https://maggieappleton.com/garden-history#digital-gardening's-fertile-soil
-  14. https://maggieappleton.com/garden-history#developer-led-gardening
-  15. https://maggieappleton.com/garden-history#the-six-patterns-of-gardening
-  16. https://maggieappleton.com/garden-history#1-topography-over-timelines
-  17. https://maggieappleton.com/garden-history#2-continuous-growth
-  18. https://maggieappleton.com/garden-history#3-imperfection-&-learning-in-public
-  19. https://maggieappleton.com/garden-history#4-playful-personal-and-experimental
-  20. https://maggieappleton.com/garden-history#5-intercropping-&-content-diversity
-  21. https://maggieappleton.com/garden-history#6-independent-ownership
-  22. https://maggieappleton.com/garden-history#a-brief-history-of-digital-gardens
-  23. https://maggieappleton.com/garden-history#the-early-gardens-of-hypertext
-  24. https://maggieappleton.com/garden-history#digital-puttering-on-twitter
-  25. https://maggieappleton.com/garden-history#gardens-streams-and-caufield's-metaphors
-  26. https://maggieappleton.com/garden-history#carrying-on-caufield
-  27. https://maggieappleton.com/garden-history#digital-gardening's-fertile-soil
-  28. https://maggieappleton.com/garden-history#developer-led-gardening
-  29. https://maggieappleton.com/garden-history#the-six-patterns-of-gardening
-  30. https://maggieappleton.com/garden-history#1-topography-over-timelines
-  31. https://maggieappleton.com/garden-history#2-continuous-growth
-  32. https://maggieappleton.com/garden-history#3-imperfection-&-learning-in-public
-  33. https://maggieappleton.com/garden-history#4-playful-personal-and-experimental
-  34. https://maggieappleton.com/garden-history#5-intercropping-&-content-diversity
-  35. https://maggieappleton.com/garden-history#6-independent-ownership
-  36. https://maggieappleton.com/garden-history#a-brief-history-of-digital-gardens
-  37. https://maggieappleton.com/neologisms
-  38. https://maggieappleton.com/cozy-web
-  39. https://maggieappleton.com/nontechnical-gardening
-  40. https://maggieappleton.com/bidirectionals
-  41. https://maggieappleton.com/garden-history#the-six-patterns-of-gardening
-  42. https://maggieappleton.com/pattern-languages
-  43. https://maggieappleton.com/bidirectionals
-  44. https://wildrye.com/what-is-a-digital-garden/
-  45. https://wildrye.com/the-digital-garden-as-an-experience-generator/
-  46. https://embersonthehearth.com/2023/03/04/what-the-heck-is-a-digital-garden/
-  47. https://twitter.com/whatdefang/status/1630464510740815872
-  48. https://maggieappleton.com/garden
-  49. https://maggieappleton.com/essays
-  50. https://maggieappleton.com/about
-  51. https://maggieappleton.com/notes
-  52. https://maggieappleton.com/now
-  53. https://maggieappleton.com/patterns
-  54. https://maggieappleton.com/library
-  55. https://maggieappleton.com/projects
-  56. https://maggieappleton.com/colophon
 
-   Hidden links:
-  58. https://github.com/MaggieAppleton
-  59. https://uk.linkedin.com/in/maggieappleton
-  60. https://dribbble.com/mappleton
-  61. https://twitter.com/Mappletons
-  62. https://indieweb.social/@maggie
+References:
+
+[1] https://maggieappleton.com/
+[3] https://maggieappleton.com/now
+[4] https://maggieappleton.com/about
+[6] https://maggieappleton.com/topics/digital-gardening
+[7] https://maggieappleton.com/topics/personal-knowledge
+[8] https://maggieappleton.com/topics/the-web
+[10] https://maggieappleton.com/garden-history#a-brief-history-of-digital-gardens
+[11] https://maggieappleton.com/garden-history#the-early-gardens-of-hypertext
+[12] https://maggieappleton.com/garden-history#digital-puttering-on-twitter
+[13] https://maggieappleton.com/garden-history#gardens-streams-and-caufield's-metaphors
+[14] https://maggieappleton.com/garden-history#carrying-on-caufield
+[15] https://maggieappleton.com/garden-history#digital-gardening's-fertile-soil
+[16] https://maggieappleton.com/garden-history#developer-led-gardening
+[17] https://maggieappleton.com/garden-history#the-six-patterns-of-gardening
+[18] https://maggieappleton.com/garden-history#1-topography-over-timelines
+[19] https://maggieappleton.com/garden-history#2-continuous-growth
+[20] https://maggieappleton.com/garden-history#3-imperfection-&-learning-in-public
+[21] https://maggieappleton.com/garden-history#4-playful-personal-and-experimental
+[22] https://maggieappleton.com/garden-history#5-intercropping-&-content-diversity
+[23] https://maggieappleton.com/garden-history#6-independent-ownership
+[24] https://maggieappleton.com/garden-history#a-brief-history-of-digital-gardens
+[25] https://maggieappleton.com/garden-history#the-early-gardens-of-hypertext
+[26] https://maggieappleton.com/garden-history#digital-puttering-on-twitter
+[27] https://maggieappleton.com/garden-history#gardens-streams-and-caufield's-metaphors
+[28] https://maggieappleton.com/garden-history#carrying-on-caufield
+[29] https://maggieappleton.com/garden-history#digital-gardening's-fertile-soil
+[30] https://maggieappleton.com/garden-history#developer-led-gardening
+[31] https://maggieappleton.com/garden-history#the-six-patterns-of-gardening
+[32] https://maggieappleton.com/garden-history#1-topography-over-timelines
+[33] https://maggieappleton.com/garden-history#2-continuous-growth
+[34] https://maggieappleton.com/garden-history#3-imperfection-&-learning-in-public
+[35] https://maggieappleton.com/garden-history#4-playful-personal-and-experimental
+[36] https://maggieappleton.com/garden-history#5-intercropping-&-content-diversity
+[37] https://maggieappleton.com/garden-history#6-independent-ownership
+[38] https://maggieappleton.com/garden-history#a-brief-history-of-digital-gardens
+[39] https://maggieappleton.com/neologisms
+[40] https://maggieappleton.com/cozy-web
+[41] https://maggieappleton.com/nontechnical-gardening
+[42] https://maggieappleton.com/bidirectionals
+[43] https://maggieappleton.com/garden-history#the-six-patterns-of-gardening
+[44] https://maggieappleton.com/pattern-languages
+[45] https://maggieappleton.com/bidirectionals
+[47] https://wildrye.com/what-is-a-digital-garden/
+[48] https://wildrye.com/the-digital-garden-as-an-experience-generator/
+[49] https://embersonthehearth.com/2023/03/04/what-the-heck-is-a-digital-garden/
+[50] https://twitter.com/whatdefang/status/1630464510740815872
+[53] https://github.com/MaggieAppleton
+[54] https://uk.linkedin.com/in/maggieappleton
+[55] https://dribbble.com/mappleton
+[56] https://twitter.com/Mappletons
+[57] https://indieweb.social/@maggie
+[58] https://maggieappleton.com/garden
+[59] https://maggieappleton.com/essays
+[60] https://maggieappleton.com/about
+[61] https://maggieappleton.com/notes
+[62] https://maggieappleton.com/now
+[63] https://maggieappleton.com/patterns
+[64] https://maggieappleton.com/library
+[65] https://maggieappleton.com/projects
+[66] https://maggieappleton.com/colophon

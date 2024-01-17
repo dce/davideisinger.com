@@ -1,113 +1,109 @@
-   #[1]alternate
+[1] Skip to main content
+Search [2][                              ]
+[3][Search]
+[4] Home
+Main navigation Menu
 
-   IFRAME: [2]https://www.googletagmanager.com/ns.html?id=GTM-NBN52P
+  • [6]Who we are
+      □ [7]About Inviqa
+      □ [8]About Havas
+      □ [9]Our Sustainability Journey
+  • [10]What we do
+      □ [11]Digital Strategy Consulting
+      □ [12]Digital Roadmap Development
+      □ [13]Digital Product Design
+      □ [14]User Research
+      □ [15]Usability Testing
+      □ [16]Technical Architecture Consulting & Development
+      □ [17]Digital Platform Implementation
+      □ [18]Experience Optimisation
+      □ [19]All services
+  • [20]Case studies
+      □ [21]B2B case studies
+      □ [22]Fashion & Luxury case studies
+      □ [23]Not-For-Profit case studies
+      □ [24]Retail & DTC case studies
+      □ [25]Sport, Leisure & Entertainment case studies
+      □ [26]Travel & Hotels case studies
+      □ [27]All case studies
+  • [28]Partners
+      □ [29]Akeneo
+      □ [30]BigCommerce
+      □ [31]Drupal
+      □ [32]Magento / Adobe Commerce
+      □ [33]Spryker
+      □ [34]All partners
+  • [35]Careers
+      □ [36]Life at Inviqa
+      □ [37]Current Vacancies
+  • [38]Insights
+      □ [39]DTC Ecommerce Report 2023
+      □ [40]PIM Readiness Framework
+      □ [41]Retail Optimisation Whitepaper
+      □ [42]Blog
+      □ [43]All insights
+  • [44]Contact
+      □ [45]Get in Touch
 
-   [3]Skip to main content
-
-   Search ______________________________
-   Search
-   [4]Home
-
-   Main navigation (BUTTON) Menu
-     * [5]Who we are
-          + [6]About Inviqa
-          + [7]About Havas
-          + [8]Our Sustainability Journey
-     * [9]What we do
-          + [10]Digital Strategy Consulting
-          + [11]Digital Roadmap Development
-          + [12]Digital Product Design
-          + [13]User Research
-          + [14]Usability Testing
-          + [15]Technical Architecture Consulting & Development
-          + [16]Digital Platform Implementation
-          + [17]Experience Optimisation
-          + [18]All services
-     * [19]Case studies
-          + [20]B2B case studies
-          + [21]Fashion & Luxury case studies
-          + [22]Not-For-Profit case studies
-          + [23]Retail & DTC case studies
-          + [24]Sport, Leisure & Entertainment case studies
-          + [25]Travel & Hotels case studies
-          + [26]All case studies
-     * [27]Partners
-          + [28]Akeneo
-          + [29]BigCommerce
-          + [30]Drupal
-          + [31]Magento / Adobe Commerce
-          + [32]Spryker
-          + [33]All partners
-     * [34]Careers
-          + [35]Life at Inviqa
-          + [36]Current Vacancies
-     * [37]Insights
-          + [38]DTC Ecommerce Report 2023
-          + [39]PIM Readiness Framework
-          + [40]Retail Optimisation Whitepaper
-          + [41]Blog
-          + [42]All insights
-     * [43]Contact
-          + [44]Get in Touch
-
-     * [45]EN
-     * [46]DE
+  • [46] EN
+  • [47] DE
 
 Storing graphs in the database: SQL meets social network
 
-   By Lorenzo Alberton
-   7 September 2009 [47]Technology engineering
+By Lorenzo Alberton
+7 September 2009 [48]Technology engineering
 
-   Graphs are ubiquitous. Social or P2P networks, thesauri, route planning
-   systems, recommendation systems, collaborative filtering, even the
-   World Wide Web itself is ultimately a graph!
+Graphs are ubiquitous. Social or P2P networks, thesauri, route planning
+systems, recommendation systems, collaborative filtering, even the World Wide
+Web itself is ultimately a graph!
 
-   Given their importance, it's surely worth spending some time in
-   studying some algorithms and models to represent and work with them
-   effectively. In this short article, we're going to see how we can store
-   a graph in a DBMS. Given how much attention my talk about storing a
-   tree data structure in the db received, it's probably going to be
-   interesting to many. Unfortunately, the Tree models/techniques do not
-   apply to generic graphs, so let's discover how we can deal with them.
+Given their importance, it's surely worth spending some time in studying some
+algorithms and models to represent and work with them effectively. In this
+short article, we're going to see how we can store a graph in a DBMS. Given how
+much attention my talk about storing a tree data structure in the db received,
+it's probably going to be interesting to many. Unfortunately, the Tree models/
+techniques do not apply to generic graphs, so let's discover how we can deal
+with them.
 
 What's a graph
 
-   A graph is a set of nodes (vertices) interconnected by links (edges).
-   When the edges have no orientation, the graph is called an undirected
-   graph. In contrast, a graph where the edges have a specific orientation
-   from a node to another is called directed:
-   " "
+A graph is a set of nodes (vertices) interconnected by links (edges). When the
+edges have no orientation, the graph is called an undirected graph. In
+contrast, a graph where the edges have a specific orientation from a node to
+another is called directed:
 
-   A graph is called complete when there's an edge between any two
-   nodes, dense when the number of edges is close to the maximal number of
-   edges, and sparse when it has only a few edges:
-   " "
+" "
+
+A graph is called complete when there's an edge between any two nodes, dense
+ when the number of edges is close to the maximal number of edges, and sparse
+ when it has only a few edges:
+
+" "
 
 Representing a graph
 
-   Two main data structures for the representation of graphs are used in
-   practice. The first is called an adjacency list, and is implemented as
-   an array with one linked list for each source node, containing the
-   destination nodes of the edges that leave each node. The second is a
-   two-dimensional boolean adjacency matrix, in which the rows and columns
-   are the source and destination vertices, and entries in the array
-   indicate whether an edge exists between the vertices. Adjacency lists
-   are preferred for sparse graphs; otherwise, an adjacency matrix is a
-   good choice. [1]
-   " " " "
+Two main data structures for the representation of graphs are used in practice.
+The first is called an adjacency list, and is implemented as an array with one
+linked list for each source node, containing the destination nodes of the edges
+that leave each node. The second is a two-dimensional boolean adjacency matrix,
+in which the rows and columns are the source and destination vertices, and
+entries in the array indicate whether an edge exists between the vertices.
+Adjacency lists are preferred for sparse graphs; otherwise, an adjacency matrix
+is a good choice. [1]
 
-   When dealing with databases, most of the times the adjacency matrix is
-   not a viable option, for two reasons: there is a hard limit in the
-   number of columns that a table can have, and adding or removing a node
-   requires a DDL statement.
+" "" "
 
-   Joe Celko dedicates a short chapter to graphs in his '[48]SQL for
-   Smarties' book, but the topic is treated in a quite hasty way, which is
-   surprising given his usual high standards.
+When dealing with databases, most of the times the adjacency matrix is not a
+viable option, for two reasons: there is a hard limit in the number of columns
+that a table can have, and adding or removing a node requires a DDL statement.
 
-   One of the basic rules of a successful representation is to separate
-   the nodes and the edges, to avoid [49]DKNF problems. Thus, we create
-   two tables:
+Joe Celko dedicates a short chapter to graphs in his '[49]SQL for Smarties'
+book, but the topic is treated in a quite hasty way, which is surprising given
+his usual high standards.
+
+One of the basic rules of a successful representation is to separate the nodes
+and the edges, to avoid [50]DKNF problems. Thus, we create two tables:
+
 CREATE TABLE nodes (
  id INTEGER PRIMARY KEY,
  name VARCHAR(10) NOT NULL,
@@ -124,20 +120,19 @@ CREATE TABLE edges (
 CREATE INDEX a_idx ON edges (a);
 CREATE INDEX b_idx ON edges (b);
 
-   The first table (nodes) contains the actual node payload, with all the
-   interesting information we need to store about a node (in the
-   example, feat1 and feat2 represent two node features, like the age of
-   the person, or the location, etc.).
+The first table (nodes) contains the actual node payload, with all the
+interesting information we need to store about a node (in the example, feat1
+ and feat2 represent two node features, like the age of the person, or the
+location, etc.).
 
-   If we want to represent an undirected graph, we need to add a CHECK
-   constraint on the uniqueness of the pair.
+If we want to represent an undirected graph, we need to add a CHECK constraint
+on the uniqueness of the pair.
 
-   Since the SQL standard does not allow a subquery in the CHECK
-   constraint, we first create a function and then we use it in the CHECK
-   constraint (this example is for PostgreSQL, but can be easily ported to
-   other DBMS):
-CREATE FUNCTION check_unique_pair(IN id1 INTEGER, IN id2 INTEGER) RETURNS INTEGE
-R AS $body$
+Since the SQL standard does not allow a subquery in the CHECK constraint, we
+first create a function and then we use it in the CHECK constraint (this
+example is for PostgreSQL, but can be easily ported to other DBMS):
+
+CREATE FUNCTION check_unique_pair(IN id1 INTEGER, IN id2 INTEGER) RETURNS INTEGER AS $body$
 DECLARE retval INTEGER DEFAULT 0;
 BEGIN
 SELECT COUNT(*) INTO retval FROM (
@@ -150,31 +145,32 @@ END
 $body$
 LANGUAGE 'plpgsql';
 
-ALTER TABLE edges ADD CONSTRAINT unique_pair CHECK (check_unique_pair(a, b) < 1)
-;
+ALTER TABLE edges ADD CONSTRAINT unique_pair CHECK (check_unique_pair(a, b) < 1);
 
-   NB: a UDF in a CHECK constraint might be a bit slow [4]. An alternative
-   is to have a materialized view [5] or force an order in the node pair
-   (i.e. "CHECK (a < b)", and then using a stored procedure to insert the
-   nodes in the correct order).
+NB: a UDF in a CHECK constraint might be a bit slow [4]. An alternative is to
+have a materialized view [5] or force an order in the node pair (i.e. "CHECK (a
+< b)", and then using a stored procedure to insert the nodes in the correct
+order).
 
-   If we also want to prevent self-loops (i.e. a node linking to itself),
-   we can add another CHECK constraint:
+If we also want to prevent self-loops (i.e. a node linking to itself), we can
+add another CHECK constraint:
+
 ALTER TABLE edges ADD CONSTRAINT no_self_loop CHECK (a <> b)
 
-   " " " "
+" "" "
 
 Traversing the graph
 
-   Now that we know how to store the graph, we might want to know which
-   nodes are connected. Listing the directly connected nodes is very
-   simple:
+Now that we know how to store the graph, we might want to know which nodes are
+connected. Listing the directly connected nodes is very simple:
+
 SELECT *
   FROM nodes n
   LEFT JOIN edges e ON n.id = e.b
  WHERE e.a = 1;  -- retrieve nodes connected to node 1
 
-   or, in the case of undirected edges:
+or, in the case of undirected edges:
+
 SELECT * FROM nodes WHERE id IN (
   SELECT a FROM edges WHERE b = 1
   UNION
@@ -189,53 +185,51 @@ SELECT * FROM nodes where id IN (
      WHERE 1 IN (a, b)
 );
 
-   Traversing the full graph usually requires more than a query: we can
-   either loop through the connected nodes, one level a time, or we can
-   create a temporary table holding all the possible paths between two
-   nodes.
+Traversing the full graph usually requires more than a query: we can either
+loop through the connected nodes, one level a time, or we can create a
+temporary table holding all the possible paths between two nodes.
 
-   We could use Oracle’s CONNECT BY syntax or SQL standard’s Common Table
-   Expressions (CTEs) to recurse through the nodes, but since the graph
-   can contain loops, we’d get errors (unless we’re very careful, as we’ll
-   see in a moment).
+We could use Oracle’s CONNECT BY syntax or SQL standard’s Common Table
+Expressions (CTEs) to recurse through the nodes, but since the graph can
+contain loops, we’d get errors (unless we’re very careful, as we’ll see in a
+moment).
 
-   Kendall Willets [2] proposes a way of traversing (BFS) the graph using
-   a temporary table. It is quite robust, since it doesn’t fail on graphs
-   with cycles (and when dealing with trees, he shows there are better
-   algorithms available). His solution is just one of the many available,
-   but quite good.
+Kendall Willets [2] proposes a way of traversing (BFS) the graph using a
+temporary table. It is quite robust, since it doesn’t fail on graphs with
+cycles (and when dealing with trees, he shows there are better algorithms
+available). His solution is just one of the many available, but quite good.
 
-   The problem with temporary tables holding all the possible paths is it
-   has to be maintained. Depending on how frequently the data is accessed
-   and updated it might still be worth it, but it’s quite expensive. If
-   you do resort to such a solution, these references may be of use [13]
-   [14].
+The problem with temporary tables holding all the possible paths is it has to
+be maintained. Depending on how frequently the data is accessed and updated it
+might still be worth it, but it’s quite expensive. If you do resort to such a
+solution, these references may be of use [13] [14].
 
-   Before going further in our analysis, we need to introduce a new
-   concept: the transitive closure of a graph.
+Before going further in our analysis, we need to introduce a new concept: the
+transitive closure of a graph.
 
 Transitive closure
 
-   The transitive closure of a graph G = (V,E) is a graph G* = (V,E*) such
-   that E* contains an edge (u,v) if and only if G contains a path from u
-   to v.
+The transitive closure of a graph G = (V,E) is a graph G* = (V,E*) such that E*
+contains an edge (u,v) if and only if G contains a path from u to v.
 
-   In other words, the transitive closure of a graph is a graph which
-   contains an edge (u,v) whenever there is a directed path from u to v.
-   " "
+In other words, the transitive closure of a graph is a graph which contains an
+edge (u,v) whenever there is a directed path from u to v.
 
-   Graph: transitive closure
+" "
 
-   As already mentioned, SQL has historically been unable [3] to express
-   recursive functions needed to maintain the transitive closure of a
-   graph without an auxiliary table. There are many solutions to solve
-   this problem with a temporary table (some even elegant [2]), but I
-   still haven't found one to do it dynamically.
+Graph: transitive closure
 
-   Here's my clumsy attempt at a possible solution using CTEs
+As already mentioned, SQL has historically been unable [3] to express recursive
+functions needed to maintain the transitive closure of a graph without an
+auxiliary table. There are many solutions to solve this problem with a
+temporary table (some even elegant [2]), but I still haven't found one to do it
+dynamically.
 
-   First, this is how we can write the WITH RECURSIVE statement for a
-   Directed (Cyclic) Graph:
+Here's my clumsy attempt at a possible solution using CTEs
+
+First, this is how we can write the WITH RECURSIVE statement for a Directed
+(Cyclic) Graph:
+
 WITH RECURSIVE transitive_closure(a, b, distance, path_string) AS
 ( SELECT a, b, 1 AS distance,
     a || '.' || b || '.' AS path_string
@@ -253,15 +247,16 @@ WITH RECURSIVE transitive_closure(a, b, distance, path_string) AS
 SELECT * FROM transitive_closure
 ORDER BY a, b, distance;
 
-   Notice the WHERE condition, which stops the recursion in the presence
-   of loops. This is very important to avoid errors.
+Notice the WHERE condition, which stops the recursion in the presence of loops.
+This is very important to avoid errors.
 
-   Sample output:
-   " "
+Sample output:
 
-   This is a slightly modified version of the same query to deal with
-   Undirected graphs (NB: this is probably going to be rather slow if done
-   in real time):
+" "
+
+This is a slightly modified version of the same query to deal with Undirected
+graphs (NB: this is probably going to be rather slow if done in real time):
+
 -- DROP VIEW edges2;
 CREATE VIEW edges2 (a, b) AS (
   SELECT a, b FROM edges
@@ -287,24 +282,24 @@ ORDER BY a, b, distance;
 
 Linkedin: Degrees of separation
 
-   One of the fundamental characteristics of networks (or graphs in
-   general) is connectivity. We might want to know how to go from A to B,
-   or how two people are connected, and we also want to know how many
-   "hops" separate two nodes, to have an idea about the distance.
+One of the fundamental characteristics of networks (or graphs in general) is
+connectivity. We might want to know how to go from A to B, or how two people
+are connected, and we also want to know how many "hops" separate two nodes, to
+have an idea about the distance.
 
-   For instance, social networks like LinkedIN show our connections or
-   search results sorted by degree of separation, and trip planning sites
-   show how many flights you have to take to reach your destination,
-   usually listing direct connections first.
+For instance, social networks like LinkedIN show our connections or search
+results sorted by degree of separation, and trip planning sites show how many
+flights you have to take to reach your destination, usually listing direct
+connections first.
 
-   There are some database extensions or hybrid solutions like SPARQL on
-   Virtuoso [11] that add a TRANSITIVE clause [12] to make this kind of
-   queries both easy and efficient, but we want to see how to reach the
-   same goal with standard SQL.
+There are some database extensions or hybrid solutions like SPARQL on Virtuoso
+[11] that add a TRANSITIVE clause [12] to make this kind of queries both easy
+and efficient, but we want to see how to reach the same goal with standard SQL.
 
-   As you might guess, this becomes really easy once you have the
-   transitive closure of the graph, we only have to add a WHERE clause
-   specifying what our source and destination nodes are:
+As you might guess, this becomes really easy once you have the transitive
+closure of the graph, we only have to add a WHERE clause specifying what our
+source and destination nodes are:
+
 WITH RECURSIVE transitive_closure(a, b, distance, path_string) AS
 ( SELECT a, b, 1 AS distance,
          a || '.' || b || '.' AS path_string
@@ -323,20 +318,20 @@ WITH RECURSIVE transitive_closure(a, b, distance, path_string) AS
    WHERE b=6 -- destination
 ORDER BY a, b, distance;
 
-   " "
+" "
 
-   If we're showing the trip planning results, then we have a list of all
-   possible travel solutions; instead of sorting by distance, we might
-   sort by price or other parameters with little changes.
+If we're showing the trip planning results, then we have a list of all possible
+travel solutions; instead of sorting by distance, we might sort by price or
+other parameters with little changes.
 
-   If we're showing how two people are connected (LinkedIN), then we can
-   limit the result set to the first row, since we're probably interested
-   in showing the shortest distance only and not all the other
-   alternatives.
+If we're showing how two people are connected (LinkedIN), then we can limit the
+result set to the first row, since we're probably interested in showing the
+shortest distance only and not all the other alternatives.
 
-   Instead of adding a LIMIT clause, it's probably more efficient to add
-   "AND tc.distance = 0" to the WHERE clause of the recursive part of the
-   CTE, or a GROUP BY clause as follows:
+Instead of adding a LIMIT clause, it's probably more efficient to add "AND
+tc.distance = 0" to the WHERE clause of the recursive part of the CTE, or a
+GROUP BY clause as follows:
+
 WITH RECURSIVE transitive_closure(a, b, distance, path_string)
 AS
 ( SELECT a, b, 1 AS distance,
@@ -356,11 +351,12 @@ SELECT a, b, min(distance) AS dist FROM transitive_closure
 GROUP BY a, b
 ORDER BY a, dist, b;
 
-   " "
+" "
 
-   If you are interested in the immediate connections of a certain node,
-   then specify the starting node and a distance equals to one (by
-   limiting the recursion at the first level)
+If you are interested in the immediate connections of a certain node, then
+specify the starting node and a distance equals to one (by limiting the
+recursion at the first level)
+
 WITH RECURSIVE transitive_closure(a, b, distance, path_string) AS
 ( SELECT  a, b, 1 AS distance, a || '.' || b || '.' AS path_string
    FROM edges2
@@ -377,16 +373,16 @@ WITH RECURSIVE transitive_closure(a, b, distance, path_string) AS
 )
 SELECT b FROM transitive_closure;
 
-   Of course to get the immediate connections there's no need for a
-   recursive query (just use the one presented at the previous paragraph),
-   but I thought I'd show it anyway as a first step towards more complex
-   queries.
+Of course to get the immediate connections there's no need for a recursive
+query (just use the one presented at the previous paragraph), but I thought I'd
+show it anyway as a first step towards more complex queries.
 
-   LinkedIN has a nice feature to show "How this user is connected to you"
-   for non directly connected nodes.
+LinkedIN has a nice feature to show "How this user is connected to you" for non
+directly connected nodes.
 
-   If the distance between the two nodes is equal to 2, you can show the
-   shared connections:
+If the distance between the two nodes is equal to 2, you can show the shared
+connections:
+
 SELECT b FROM (
 
 WITH RECURSIVE transitive_closure(a, b, distance, path_string) AS
@@ -426,15 +422,15 @@ SELECT b FROM transitive_closure
 GROUP BY b
 HAVING COUNT(b) > 1;
 
-   In the above query, we select the immediate connections of the two
-   nodes separately, and then select the shared ones.
+In the above query, we select the immediate connections of the two nodes
+separately, and then select the shared ones.
 
-   For nodes having a distance equals to 3, the approach is slightly
-   different.
+For nodes having a distance equals to 3, the approach is slightly different.
 
-   First, you check that the two nodes are indeed at a minimum distance of
-   3 nodes (you're probably not interested in showing the relationship
-   between two nodes when the distance is bigger):
+First, you check that the two nodes are indeed at a minimum distance of 3 nodes
+(you're probably not interested in showing the relationship between two nodes
+when the distance is bigger):
+
 WITH RECURSIVE transitive_closure(a, b, distance, path_string) AS
 ( SELECT a, b, 1 AS distance,
          a || '.' || b || '.' AS path_string
@@ -455,21 +451,22 @@ WHERE b=4  -- set the target node
 GROUP BY a, b
 HAVING min(distance) = 3; --set the minimum distance
 
-   Then you select the paths between those nodes.
+Then you select the paths between those nodes.
 
-   But there's a different approach which is more generic and efficient,
-   and can be used for all the nodes whose distance is bigger than 2.
+But there's a different approach which is more generic and efficient, and can
+be used for all the nodes whose distance is bigger than 2.
 
-   The idea is to select the immediate neighbours of the starting node
-   that are also in the path to the other node.
+The idea is to select the immediate neighbours of the starting node that are
+also in the path to the other node.
 
-   Depending on the distance, you can have either the shared nodes
-   (distance = 2), or the connections that could lead to the other node
-   (distance > 2). In the latter case, you could for instance show how A
-   is connected to B:
-   " "
+Depending on the distance, you can have either the shared nodes (distance = 2),
+or the connections that could lead to the other node (distance > 2). In the
+latter case, you could for instance show how A is connected to B:
 
-   Linkedin
+" "
+
+Linkedin
+
 WITH RECURSIVE transitive_closure(a, b, distance, path_string) AS
 ( SELECT a, b, 1 AS distance,
          a || '.' || b || '.' AS path_string,
@@ -491,47 +488,44 @@ SELECT * FROM transitive_closure
 --WHERE b=3  -- set the target node
 ORDER BY a,b,distance
 
-   " "
+" "
 
 Facebook: You might also know
 
-   A similar but slightly different requirement is to find those nodes
-   that are most strongly related, but not directly connected yet. In
-   other words, it's interesting to find out which and how many connected
-   nodes are shared between any two nodes, i.e. how many 'friends' are
-   shared between two individuals. Or better yet, to find those nodes
-   sharing a certain (minimum) number of nodes with the current one.
+A similar but slightly different requirement is to find those nodes that are
+most strongly related, but not directly connected yet. In other words, it's
+interesting to find out which and how many connected nodes are shared between
+any two nodes, i.e. how many 'friends' are shared between two individuals. Or
+better yet, to find those nodes sharing a certain (minimum) number of nodes
+with the current one.
 
-   This could be useful to suggest a new possible friend, or in the case
-   of recommendation systems, to suggest a new item/genre that matches the
-   user's interests.
+This could be useful to suggest a new possible friend, or in the case of
+recommendation systems, to suggest a new item/genre that matches the user's
+interests.
 
-   There are many ways of doing this. In theory, this is bordering on the
-   domain of collaborative filtering [6][7][8], so using Pearson's
-   correlation [9] or a similar distance measure with an appropriate
-   algorithm [10] is going to generate the best results. Collaborative
-   filtering is an incredibly interesting topic on its own, but outside
-   the scope of this article.
+There are many ways of doing this. In theory, this is bordering on the domain
+of collaborative filtering [6][7][8], so using Pearson's correlation [9] or a
+similar distance measure with an appropriate algorithm [10] is going to
+generate the best results. Collaborative filtering is an incredibly interesting
+topic on its own, but outside the scope of this article.
 
-   A rough and inexpensive alternative is to find the nodes having
-   distance equals to 2, and filter those that either have a common
-   characteristic with the source node (went to the same school / worked
-   at the same company, belong to the same interest group / are items of
-   the same genre) or have several mutual 'friends'.
-   " "
+A rough and inexpensive alternative is to find the nodes having distance equals
+to 2, and filter those that either have a common characteristic with the source
+node (went to the same school / worked at the same company, belong to the same
+interest group / are items of the same genre) or have several mutual 'friends'.
 
-   Facebook
+" "
 
-   This, again, is easily done once you have the transitive closure of the
-   graph:
+Facebook
+
+This, again, is easily done once you have the transitive closure of the graph:
+
 SELECT a AS you,
        b AS mightknow,
        shared_connection,
        CASE
-         WHEN (n1.feat1 = n2.feat1 AND n1.feat1 = n3.feat1) THEN 'feat1 in commo
-n'
-         WHEN (n1.feat2 = n2.feat2 AND n1.feat2 = n3.feat2) THEN 'feat2 in commo
-n'
+         WHEN (n1.feat1 = n2.feat1 AND n1.feat1 = n3.feat1) THEN 'feat1 in common'
+         WHEN (n1.feat2 = n2.feat2 AND n1.feat2 = n3.feat2) THEN 'feat2 in common'
          ELSE 'nothing in common'
        END AS reason
   FROM (
@@ -564,184 +558,179 @@ LEFT JOIN nodes AS n3 ON youmightknow.shared_connection = n3.id
 WHERE (n1.feat1 = n2.feat1 AND n1.feat1 = n3.feat1)
    OR (n1.feat2 = n2.feat2 AND n1.feat2 = n3.feat2);
 
-   " "
+" "
 
-   Once you have selected these nodes, you can filter those recurring more
-   often, or give more importance to those having a certain feature in
-   common, or pick one randomly (so you don't end up suggesting the same
-   node over and over).
+Once you have selected these nodes, you can filter those recurring more often,
+or give more importance to those having a certain feature in common, or pick
+one randomly (so you don't end up suggesting the same node over and over).
 
 Conclusion
 
-   In this article I had some fun with the new and powerful CTEs, and
-   showed some practical examples where they can be useful. I also showed
-   some approaches at solving the challenges faced by any social network
-   or recommendation system.
+In this article I had some fun with the new and powerful CTEs, and showed some
+practical examples where they can be useful. I also showed some approaches at
+solving the challenges faced by any social network or recommendation system.
 
-   You are advised that depending on the size of the graph and the
-   performance requirements of your application, the above queries might
-   be too slow to run in realtime. Caching is your friend.
+You are advised that depending on the size of the graph and the performance
+requirements of your application, the above queries might be too slow to run in
+realtime. Caching is your friend.
 
-   Update: Many of the queries in this article have been revised, so
-   please refer
-   to [50]http://www.slideshare.net/quipo/rdbms-in-the-social-networks-age
-    for changes.
+Update: Many of the queries in this article have been revised, so please refer
+to [51]http://www.slideshare.net/quipo/rdbms-in-the-social-networks-age for
+changes.
 
 References
 
-   [1] [51]http://willets.org/sqlgraphs.html
+[1] [52]http://willets.org/sqlgraphs.html
 
-   [2] [52]http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.48.53
+[2] [53]http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.48.53
 
-   [3] [53]http://sqlblog.com/blogs/alexander_kuznetsov/archive/2009/06/25
-   /scalar-udfs-wrapped-in-check-constraints-are-very-slow-and-may-fail-fo
-   r-multirow-updates.aspx
+[3] [54]http://sqlblog.com/blogs/alexander_kuznetsov/archive/2009/06/25/
+scalar-udfs-wrapped-in-check-constraints-are-very-slow-and-may-fail-for-multirow-updates.aspx
 
-   [4] [54]http://www.dbazine.com/oracle/or-articles/tropashko8
+[4] [55]http://www.dbazine.com/oracle/or-articles/tropashko8
 
-   [5] [55]http://en.wikipedia.org/wiki/Collaborative_filtering
+[5] [56]http://en.wikipedia.org/wiki/Collaborative_filtering
 
-   [6] [56]http://en.wikipedia.org/wiki/Slope_One
+[6] [57]http://en.wikipedia.org/wiki/Slope_One
 
-   [7] blog.charliezhu.com/2008/07/21/implementing-slope-one-in-t-sql/
+[7] blog.charliezhu.com/2008/07/21/implementing-slope-one-in-t-sql/
 
-   [8] bakara.eng.tau.ac.il/~semcomm/slides7/grouplensAlgs-Kahn.pps
+[8] bakara.eng.tau.ac.il/~semcomm/slides7/grouplensAlgs-Kahn.pps
 
-   [9] [57]http://www.slideshare.net/denisparra/evaluation-of-collaborativ
-   e-filtering-algorithms-for-recommending-articles-on-citeulike
+[9] [58]http://www.slideshare.net/denisparra/
+evaluation-of-collaborative-filtering-algorithms-for-recommending-articles-on-citeulike
 
-   [10] [58]http://virtuoso.openlinksw.com/
+[10] [59]http://virtuoso.openlinksw.com/
 
-   [11] [59]http://www.openlinksw.com/weblog/oerling/?id=1433
+[11] [60]http://www.openlinksw.com/weblog/oerling/?id=1433
 
-   [12] [60]http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.48.53
+[12] [61]http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.48.53
 
-   [13] [61]http://en.wikipedia.org/wiki/Transitive_reduction
+[13] [62]http://en.wikipedia.org/wiki/Transitive_reduction
 
 You might also like...
 
-   A woman reviews code on her laptop
+[63]
+A woman reviews code on her laptop
+
 
 Headless commerce: everything you need to know
 
-   What the heck is headless? Discover the what, why, and when of headless
-   architectures with our guide to headless commerce.
+What the heck is headless? Discover the what, why, and when of headless
+architectures with our guide to headless commerce.
 
-   Drupal consulting and web development at Inviqa
+[64]
+Drupal consulting and web development at Inviqa
+
 
 The Drupal 9 upgrade Config Split issue and how to fix it
 
-   In this article we look back at an issue we’ve encountered with Drupal
-   Config Split when upgrading Drupal 8 to 9 – and we share how to fix it,
-   so you don’t have to run into the same issue when upgrading to Drupal
-   9.
+In this article we look back at an issue we’ve encountered with Drupal Config
+Split when upgrading Drupal 8 to 9 – and we share how to fix it, so you don’t
+have to run into the same issue when upgrading to Drupal 9.
 
-   Inviqa, winner of Webby Awards The Webby Awards winner
-   Inviqa named one of Top 100 Agencies in Econsultancy Top 100 Digital
-   Agencies
-   Inviqa UXUK Awards winner UXUK Awards winner
-   DADI Award winner of 'Best UX / Usability category' DADI Award winner
+Inviqa, winner of Webby Awards The Webby Awards winner
+Inviqa named one of Top 100 Agencies in Econsultancy Top 100 Digital Agencies
+Inviqa UXUK Awards winner UXUK Awards winner
+DADI Award winner of 'Best UX / Usability category' DADI Award winner
+Footer Main Navigation
 
-   Footer Main Navigation
-     * [62]Home
-     * [63]Who we are
-     * [64]What we do
-     * [65]Case studies
-     * [66]Careers
-     * [67]Insights
-     * [68]Contact
-     * [69]Accessibility statement
+  • [65]Home
+  • [66]Who we are
+  • [67]What we do
+  • [68]Case studies
+  • [69]Careers
+  • [70]Insights
+  • [71]Contact
+  • [72]Accessibility statement
 
 About us
 
-   Together with your teams, we shape the digital products, teams,
-   processes, and software systems you need to meet diverse customer needs
-   and accelerate your business growth.
+Together with your teams, we shape the digital products, teams, processes, and
+software systems you need to meet diverse customer needs and accelerate your
+business growth.
 
-   © 2007-2024, Inviqa UK Ltd. Registered No. 06278367. Registered Office:
-   Havas House, Hermitage Court, Hermitage Lane, Maidstone, ME16 9NT, UK.
+© 2007-2024, Inviqa UK Ltd. Registered No. 06278367. Registered Office: Havas
+House, Hermitage Court, Hermitage Lane, Maidstone, ME16 9NT, UK.
 
-   Footer Legal Links
-     * [70]Covid-19
-     * [71]Privacy policy
-     * [72]Sitemap
+Footer Legal Links
 
-References
+  • [73]Covid-19
+  • [74]Privacy policy
+  • [75]Sitemap
 
-   Visible links:
-   1. https://inviqa.com/blog/storing-graphs-database-sql-meets-social-network
-   2. https://www.googletagmanager.com/ns.html?id=GTM-NBN52P
-   3. https://inviqa.com/blog/storing-graphs-database-sql-meets-social-network#main-content
-   4. https://inviqa.com/
-   5. https://inviqa.com/who-we-are
-   6. https://inviqa.com/who-we-are
-   7. https://www.havas.com/
-   8. https://inviqa.com/digital-sustainability-journey
-   9. https://inviqa.com/what-we-do
-  10. https://inviqa.com/what-we-do/digital-strategy-consulting-and-development
-  11. https://inviqa.com/what-we-do/digital-roadmap-development
-  12. https://inviqa.com/what-we-do/digital-product-design
-  13. https://inviqa.com/what-we-do/user-research
-  14. https://inviqa.com/what-we-do/usability-testing
-  15. https://inviqa.com/what-we-do/technical-architecture-consulting-and-development
-  16. https://inviqa.com/what-we-do/digital-platform-consulting-and-implementation
-  17. https://inviqa.com/what-we-do/experience-optimisation
-  18. https://inviqa.com/what-we-do
-  19. https://inviqa.com/case-studies
-  20. https://inviqa.com/case-studies?category=b2b
-  21. https://inviqa.com/case-studies#fashion
-  22. https://inviqa.com/case-studies#charity
-  23. https://inviqa.com/case-studies?category=retail
-  24. https://inviqa.com/case-studies#leisure
-  25. https://inviqa.com/case-studies?category=travel
-  26. https://inviqa.com/case-studies
-  27. https://inviqa.com/partners
-  28. https://inviqa.com/akeneo-pim-consulting-and-implementation
-  29. https://inviqa.com/blog/bigcommerce-7-best-sites
-  30. https://inviqa.com/drupal-consulting-and-web-development
-  31. https://inviqa.com/magento-consulting-and-web-development
-  32. https://inviqa.com/blog/spryker-commerce-platform-introduction
-  33. https://inviqa.com/partners
-  34. https://careers.inviqa.com/
-  35. https://careers.inviqa.com/
-  36. https://careers.inviqa.com/jobs
-  37. https://inviqa.com/insights
-  38. https://inviqa.com/insights/dtc-ecommerce-report-2023
-  39. https://inviqa.com/insights/PIM-readiness-framework
-  40. https://inviqa.com/insights/retail-optimisation-guide-2023
-  41. https://inviqa.com/blog
-  42. https://inviqa.com/insights
-  43. https://inviqa.com/contact
-  44. https://inviqa.com/contact
-  45. https://inviqa.com/
-  46. https://inviqa.de/
-  47. https://inviqa.com/blog#Technology engineering
-  48. https://www.amazon.com/Joe-Celkos-SQL-Smarties-Programming/dp/0123693799/157-5667933-6571053?ie=UTF8&redirect=true&tag=postcarfrommy-20
-  49. https://en.wikipedia.org/wiki/Domain-key_normal_form
-  50. http://www.slideshare.net/quipo/rdbms-in-the-social-networks-age
-  51. http://willets.org/sqlgraphs.html
-  52. http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.48.53
-  53. http://sqlblog.com/blogs/alexander_kuznetsov/archive/2009/06/25/scalar-udfs-wrapped-in-check-constraints-are-very-slow-and-may-fail-for-multirow-updates.aspx
-  54. http://www.dbazine.com/oracle/or-articles/tropashko8/
-  55. https://en.wikipedia.org/wiki/Collaborative_filtering
-  56. https://en.wikipedia.org/wiki/Slope_One
-  57. http://www.slideshare.net/denisparra/evaluation-of-collaborative-filtering-algorithms-for-recommending-articles-on-citeulike
-  58. http://virtuoso.openlinksw.com/
-  59. http://www.openlinksw.com/weblog/oerling/?id=1433
-  60. http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.48.53
-  61. https://en.wikipedia.org/wiki/Transitive_reduction
-  62. https://inviqa.com/we-craft-game-changing-digital-experiences
-  63. https://inviqa.com/who-we-are
-  64. https://inviqa.com/what-we-do
-  65. https://inviqa.com/case-studies
-  66. https://careers.inviqa.com/
-  67. https://inviqa.com/insights
-  68. https://inviqa.com/contact
-  69. https://inviqa.com/accessibility-statement
-  70. https://inviqa.com/covid-19-measures
-  71. https://inviqa.com/privacy-policy-UK
-  72. https://inviqa.com/sitemap
 
-   Hidden links:
-  74. https://inviqa.com/blog/headless-commerce-everything-you-need-know
-  75. https://inviqa.com/blog/drupal-9-upgrade-config-split-issue-and-how-fix-it
+References:
+
+[1] https://inviqa.com/blog/storing-graphs-database-sql-meets-social-network#main-content
+[4] https://inviqa.com/
+[6] https://inviqa.com/who-we-are
+[7] https://inviqa.com/who-we-are
+[8] https://www.havas.com/
+[9] https://inviqa.com/digital-sustainability-journey
+[10] https://inviqa.com/what-we-do
+[11] https://inviqa.com/what-we-do/digital-strategy-consulting-and-development
+[12] https://inviqa.com/what-we-do/digital-roadmap-development
+[13] https://inviqa.com/what-we-do/digital-product-design
+[14] https://inviqa.com/what-we-do/user-research
+[15] https://inviqa.com/what-we-do/usability-testing
+[16] https://inviqa.com/what-we-do/technical-architecture-consulting-and-development
+[17] https://inviqa.com/what-we-do/digital-platform-consulting-and-implementation
+[18] https://inviqa.com/what-we-do/experience-optimisation
+[19] https://inviqa.com/what-we-do
+[20] https://inviqa.com/case-studies
+[21] https://inviqa.com/case-studies?category=b2b
+[22] https://inviqa.com/case-studies#fashion
+[23] https://inviqa.com/case-studies#charity
+[24] https://inviqa.com/case-studies?category=retail
+[25] https://inviqa.com/case-studies#leisure
+[26] https://inviqa.com/case-studies?category=travel
+[27] https://inviqa.com/case-studies
+[28] https://inviqa.com/partners
+[29] https://inviqa.com/akeneo-pim-consulting-and-implementation
+[30] https://inviqa.com/blog/bigcommerce-7-best-sites
+[31] https://inviqa.com/drupal-consulting-and-web-development
+[32] https://inviqa.com/magento-consulting-and-web-development
+[33] https://inviqa.com/blog/spryker-commerce-platform-introduction
+[34] https://inviqa.com/partners
+[35] https://careers.inviqa.com/
+[36] https://careers.inviqa.com/
+[37] https://careers.inviqa.com/jobs
+[38] https://inviqa.com/insights
+[39] https://inviqa.com/insights/dtc-ecommerce-report-2023
+[40] https://inviqa.com/insights/PIM-readiness-framework
+[41] https://inviqa.com/insights/retail-optimisation-guide-2023
+[42] https://inviqa.com/blog
+[43] https://inviqa.com/insights
+[44] https://inviqa.com/contact
+[45] https://inviqa.com/contact
+[46] https://inviqa.com/
+[47] https://inviqa.de/
+[48] https://inviqa.com/blog#Technology%20engineering
+[49] https://www.amazon.com/Joe-Celkos-SQL-Smarties-Programming/dp/0123693799/157-5667933-6571053?ie=UTF8&redirect=true&tag=postcarfrommy-20
+[50] https://en.wikipedia.org/wiki/Domain-key_normal_form
+[51] http://www.slideshare.net/quipo/rdbms-in-the-social-networks-age
+[52] http://willets.org/sqlgraphs.html
+[53] http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.48.53
+[54] http://sqlblog.com/blogs/alexander_kuznetsov/archive/2009/06/25/scalar-udfs-wrapped-in-check-constraints-are-very-slow-and-may-fail-for-multirow-updates.aspx
+[55] http://www.dbazine.com/oracle/or-articles/tropashko8/
+[56] https://en.wikipedia.org/wiki/Collaborative_filtering
+[57] https://en.wikipedia.org/wiki/Slope_One
+[58] http://www.slideshare.net/denisparra/evaluation-of-collaborative-filtering-algorithms-for-recommending-articles-on-citeulike
+[59] http://virtuoso.openlinksw.com/
+[60] http://www.openlinksw.com/weblog/oerling/?id=1433
+[61] http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.48.53
+[62] https://en.wikipedia.org/wiki/Transitive_reduction
+[63] https://inviqa.com/blog/headless-commerce-everything-you-need-know
+[64] https://inviqa.com/blog/drupal-9-upgrade-config-split-issue-and-how-fix-it
+[65] https://inviqa.com/we-craft-game-changing-digital-experiences
+[66] https://inviqa.com/who-we-are
+[67] https://inviqa.com/what-we-do
+[68] https://inviqa.com/case-studies
+[69] https://careers.inviqa.com/
+[70] https://inviqa.com/insights
+[71] https://inviqa.com/contact
+[72] https://inviqa.com/accessibility-statement
+[73] https://inviqa.com/covid-19-measures
+[74] https://inviqa.com/privacy-policy-UK
+[75] https://inviqa.com/sitemap

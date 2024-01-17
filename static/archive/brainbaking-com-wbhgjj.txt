@@ -1,217 +1,208 @@
-   GoatCounter stats
+[test-img]
+[1]skip to main content
+[2]Brain Baking navigation toggle
 
-   [1]skip to main content
+  • [4]  Brain Baking
+  • [5]  Archives
+  • [6]  Subscribe
 
-   [2]Brain Baking (BUTTON) navigation toggle
-     * [3] Brain Baking
-     * [4] Archives
-     * [5] Subscribe
+  • [7]  Works
+  • [8]  About
+  • [9]  Links
 
-     * [6] Works
-     * [7] About
-     * [8] Links
+[10]
 
-                           Favorites of December 2023
+Favorites of December 2023
 
-   [9]1 January 2024
+[11] 1 January 2024
 
-   Happy New Year! Hopefully 2024 will bring the needed peace and solace
-   to everyone. 2023 was a very difficult year for us, with lots of what
-   you might call “low lows” and a few “high highs”. We usually make fun
-   of that saying, but this seems like the first time it’s appropriate to
-   use it.
+Happy New Year! Hopefully 2024 will bring the needed peace and solace to
+everyone. 2023 was a very difficult year for us, with lots of what you might
+call “low lows” and a few “high highs”. We usually make fun of that saying, but
+this seems like the first time it’s appropriate to use it.
 
-   As far as blogging goes, 2023 was a great year. See the Brain Baking
-   [10]blog post archive for 2023: with 90 posts last year, that’s on
-   average 7.5 a month or 1.875 a week. The best part about 2023 in
-   blogging was the feedback I got, and the new friends and e-mail pen
-   pals I made. As frequently mentioned before, [11]blogging keeps on
-   giving. If there’s one thing I never ever intend to give up, it’s
-   blogging.
+As far as blogging goes, 2023 was a great year. See the Brain Baking [12]blog
+post archive for 2023: with 90 posts last year, that’s on average 7.5 a month
+or 1.875 a week. The best part about 2023 in blogging was the feedback I got,
+and the new friends and e-mail pen pals I made. As frequently mentioned before,
+[13]blogging keeps on giving. If there’s one thing I never ever intend to give
+up, it’s blogging.
 
-   The following posts turned out to be the most popular of 2023:
-    1. [12]FPGAs And The Renaissance of Retro Hardware
-    2. [13]Overlooked Reasons To Still Buy Physical Media
-    3. [14]Goodbye, ProtonMail
-    4. [15]Phomemo Thermal Printing On MacOS
-    5. [16]DOOM Turned Thirty
+The following posts turned out to be the most popular of 2023:
 
-   As for Jefklak’s Codex, the most popular article was the one on
-   [17]Freaky Trip, a bizarre (and very buggy) single-screen
-   adventure/puzzle game. That one got a few hits simply because I
-   couldn’t find any reviews online myself! As far as visitor counts go,
-   the Codex gets almost none, but I still have a lot of fun filling it.
-   It’s my own thing, and I’ve pondered on that subject recently in [18]On
-   Writing For Yourself In Public.
+ 1. [14]FPGAs And The Renaissance of Retro Hardware
+ 2. [15]Overlooked Reasons To Still Buy Physical Media
+ 3. [16]Goodbye, ProtonMail
+ 4. [17]Phomemo Thermal Printing On MacOS
+ 5. [18]DOOM Turned Thirty
 
-   Previous month: [19]October 2023.
+As for Jefklak’s Codex, the most popular article was the one on [19]Freaky Trip
+, a bizarre (and very buggy) single-screen adventure/puzzle game. That one got
+a few hits simply because I couldn’t find any reviews online myself! As far as
+visitor counts go, the Codex gets almost none, but I still have a lot of fun
+filling it. It’s my own thing, and I’ve pondered on that subject recently in 
+[20]On Writing For Yourself In Public.
+
+Previous month: [21]October 2023.
 
 Books I’ve read
 
-   Not much this month. Read my [20]2023 in books overview post to find
-   out about the 22 books I managed to finish last year.
+Not much this month. Read my [22]2023 in books overview post to find out about
+the 22 books I managed to finish last year.
 
-   The Malloreon chronicles by [21]David Eddings continues to be my go-to
-   bed-time material. Books 1 and 2 are done and although the tension
-   doesn’t exactly build up, I don’t mind to keep on reading as it’s a
-   light read and entertaining enough.
+The Malloreon chronicles by [23]David Eddings continues to be my go-to bed-time
+material. Books 1 and 2 are done and although the tension doesn’t exactly build
+up, I don’t mind to keep on reading as it’s a light read and entertaining
+enough.
 
 Games I’ve played
 
-   After finishing Super Mario Bros. Wonder, I continued with the 2D Mario
-   strike with the Mario Land Game Boy series that evolved into Wario Land
-   and Wario Land II. The best is yet to come, though, as Wario Land 3 is
-   on my [22]25 Best Games of All Time list! I know them all by heart but
-   still breeze through these platformers once every few years.
+After finishing Super Mario Bros. Wonder, I continued with the 2D Mario strike
+with the Mario Land Game Boy series that evolved into Wario Land and Wario Land
+II. The best is yet to come, though, as Wario Land 3 is on my [24]25 Best Games
+of All Time list! I know them all by heart but still breeze through these
+platformers once every few years.
 
-   My wife discovered a cheap Switch eShop code for Mario + Rabbids:
-   Kingdom Battle and since I love tactical turn-based games, I eagerly
-   dove in. It’s okay so far: the core gameplay is very solid, but
-   everything slathered on top is not my cup of tea. I’m nearing the end
-   and will have a review up shortly. Meanwhile, Kristien insists on
-   playing [23]Railbound, a cosy railway puzzle game with sometimes
-   devilishly difficult levels! Most of the time, I just don’t “see it”,
-   but we’re having fun together nonetheless.
+My wife discovered a cheap Switch eShop code for Mario + Rabbids: Kingdom
+Battle and since I love tactical turn-based games, I eagerly dove in. It’s okay
+so far: the core gameplay is very solid, but everything slathered on top is not
+my cup of tea. I’m nearing the end and will have a review up shortly.
+Meanwhile, Kristien insists on playing [25]Railbound, a cosy railway puzzle
+game with sometimes devilishly difficult levels! Most of the time, I just don’t
+“see it”, but we’re having fun together nonetheless.
 
 Selected (blog) posts
 
-     * Gibru writes several interesting articles on AI and LLM generation,
-       including [24]Contextualizing the Artistic Process.
-     * Jonas Downey is convinced that having [25]side projects is
-       essential for creatives, and I agree. This could grow into a
-       powerful manifesto.
-     * Cory Zue provides an overview on his side projects and why
-       [26]building publicly in private works for him.
-     * Keith McNulty explains why [27]the MBTI tests are corporate
-       astrology (Medum link).
-     * Michael Klamerus explains his process on [28]finding small indie
-       games.
-     * This sobering article at Eurogamer reminds us that in the video
-       game industry, 2023 was also the year of low lows and high highs:
-       [29]You Can’t Talk About Games Without Talking About The Layoffs.
-     * Glyph explains how to set up the best possible [30]Phython
-       development environment for MacOS. Don’t use brew install like I
-       did.
-     * Speaking of Python, [31]why is Python so slow? Jake VanderPlas
-       deciphers the Python internals to figure out why.
-     * Vlad-Stefan Harbuz’s blog is great: it’s a combination between
-       computing and philosophical work. Here’s his [32]overview on
-       resources on the philosophy of work I still have to dig into.
-     * Here’s an interesting piece on [33]Mickey Mouse and the Public
-       Domain. As of today, one of the earliest versions of Mickey hits
-       public domain in USA.
-     * [34]You Don’t Need Statistics On Your Blog says William Woodruff.
-       Perhaps I should take on the challenge and ditch GoatCounter in
-       favor of a few grep scripts in access logs, if that?
+  • Gibru writes several interesting articles on AI and LLM generation,
+    including [26]Contextualizing the Artistic Process.
+  • Jonas Downey is convinced that having [27]side projects is essential for
+    creatives, and I agree. This could grow into a powerful manifesto.
+  • Cory Zue provides an overview on his side projects and why [28]building
+    publicly in private works for him.
+  • Keith McNulty explains why [29]the MBTI tests are corporate astrology
+    (Medum link).
+  • Michael Klamerus explains his process on [30]finding small indie games.
+  • This sobering article at Eurogamer reminds us that in the video game
+    industry, 2023 was also the year of low lows and high highs: [31]You Can’t
+    Talk About Games Without Talking About The Layoffs.
+  • Glyph explains how to set up the best possible [32]Phython development
+    environment for MacOS. Don’t use brew install like I did.
+  • Speaking of Python, [33]why is Python so slow? Jake VanderPlas deciphers
+    the Python internals to figure out why.
+  • Vlad-Stefan Harbuz’s blog is great: it’s a combination between computing
+    and philosophical work. Here’s his [34]overview on resources on the
+    philosophy of work I still have to dig into.
+  • Here’s an interesting piece on [35]Mickey Mouse and the Public Domain. As
+    of today, one of the earliest versions of Mickey hits public domain in USA.
+  • [36]You Don’t Need Statistics On Your Blog says William Woodruff. Perhaps I
+    should take on the challenge and ditch GoatCounter in favor of a few grep
+    scripts in access logs, if that?
 
 Other random links
 
-     * [35]Déjà Dup Backups is a Gnome-powered UI-friendly backup tool for
-       Unix.
-     * Did you know you can [36]Scheme in Scheme on WASM in the browser?
-       wait what now? The Spritely Institute also has cool info on Lisp
-       hackatons if that’s your jam.
-     * If you want to follow physical video game releases, look no further
-       than [37]https://www.physicalreleases.com/
-     * The [38]Into The Aether Podcast released a six-hour long episode on
-       the 2023 Game of the Year. It’s great, but I have been slogging
-       through it on and off all week and I’m still just over 03:21:00
-       hours/minutes in! Who decided that three-plus hours of jabbering
-       about video games is a good thing? Because it totally is!
+  • [37]Déjà Dup Backups is a Gnome-powered UI-friendly backup tool for Unix.
+  • Did you know you can [38]Scheme in Scheme on WASM in the browser? wait what
+    now? The Spritely Institute also has cool info on Lisp hackatons if that’s
+    your jam.
+  • If you want to follow physical video game releases, look no further than 
+    [39]https://www.physicalreleases.com/
+  • The [40]Into The Aether Podcast released a six-hour long episode on the
+    2023 Game of the Year. It’s great, but I have been slogging through it on
+    and off all week and I’m still just over 03:21:00 hours/minutes in! Who
+    decided that three-plus hours of jabbering about video games is a good
+    thing? Because it totally is!
 
-   I hope to keep up the blogging rhythm in 2024. That’s everything I wish
-   for in 2024 besides the obvious ones.
+I hope to keep up the blogging rhythm in 2024. That’s everything I wish for in
+2024 besides the obvious ones.
 
-   [39]metapost
+[41]metapost
 
-You Might Also Like...
+[42] You Might Also Like...
 
-     * [40]2023 In Books 28 Dec 2023
-     * [41]DOOM Turned Thirty 11 Dec 2023
-     * [42]FPGAs And The Renaissance Of Retro Hardware 27 Nov 2023
-     * [43]On Writing For Yourself In Public 06 Nov 2023
-     * [44]Favorites of October 2023 02 Nov 2023
-     * [45]Top 25 Best Games Of All Time (GOAT) 08 Oct 2023
-     * [46]Overlooked Reasons To Still Buy Physical Media 25 Sep 2023
+  • [43]2023 In Books 28 Dec 2023
+  • [44]DOOM Turned Thirty 11 Dec 2023
+  • [45]FPGAs And The Renaissance Of Retro Hardware 27 Nov 2023
+  • [46]On Writing For Yourself In Public 06 Nov 2023
+  • [47]Favorites of October 2023 02 Nov 2023
+  • [48]Top 25 Best Games Of All Time (GOAT) 08 Oct 2023
+  • [49]Overlooked Reasons To Still Buy Physical Media 25 Sep 2023
 
-Bio and Support
+[50] Bio and Support
 
-   [47]A photo of Me!
+[51] A photo of Me!
 
-   I'm [48]Wouter Groeneveld, a Brain Baker, and I love the smell of
-   freshly baked thoughts (and bread) in the morning. I sometimes convince
-   others to bake their brain (and bread) too.
+I'm [52]Wouter Groeneveld, a Brain Baker, and I love the smell of freshly baked
+thoughts (and bread) in the morning. I sometimes convince others to bake their
+brain (and bread) too.
 
-   If you found this article amusing and/or helpful, you can support me
-   via [49]PayPal or [50]Ko-Fi. I also like to hear your feedback via
-   [51]Mastodon or email. Thanks!
-   JavaScript is disabled. I use it to obfuscate my e-mail, keeping
-   spambots at bay.
-   Reach me using: [firstname] at [this domain].
+If you found this article amusing and/or helpful, you can support me via [53]
+PayPal or [54]Ko-Fi. I also like to hear your feedback via [55]Mastodon or 
+email. Thanks!
 
-   ↑ [52]Top
-   [53]Brain Baking | [54]Archives | [55]© CC BY 4.0 License.
+JavaScript is disabled. I use it to obfuscate my e-mail, keeping spambots at
+bay.
+Reach me using: [firstname] at [this domain].
 
-References
+↑ [56]Top [57]Brain Baking | [58]Archives | [59]© CC BY 4.0 License.
 
-   Visible links:
-   1. https://brainbaking.com/post/2024/01/december-2023/#top
-   2. https://brainbaking.com/post/2024/01/december-2023/
-   3. https://brainbaking.com/
-   4. https://brainbaking.com/archives
-   5. https://brainbaking.com/subscribe
-   6. https://brainbaking.com/works
-   7. https://brainbaking.com/about
-   8. https://brainbaking.com/links
-   9. https://brainbaking.com/post/2024/01/december-2023/
-  10. https://brainbaking.com/post/2023/
-  11. https://brainbaking.com/post/2021/10/a-triumph-for-blogging/
-  12. https://brainbaking.com/post/2023/11/fpgas-and-the-renaissance-of-retro-hardware/
-  13. https://brainbaking.com/post/2023/09/overlooked-reasons-to-still-buy-physical-media/
-  14. https://brainbaking.com/post/2023/01/goodbye-protonmail/
-  15. https://brainbaking.com/post/2023/02/phomemo-thermal-printing-on-macos/
-  16. https://brainbaking.com/post/2023/12/doom-turned-thirty/
-  17. https://jefklakscodex.com/games/switch/freaky-trip/
-  18. https://brainbaking.com/post/2023/11/on-writing-for-yourself-in-public/
-  19. https://brainbaking.com/post/2023/11/october-2023
-  20. https://brainbaking.com/post/2023/12/2023-in-books
-  21. https://www.eddingschronicles.com/index.html
-  22. https://brainbaking.com/post/2023/10/top-25-best-games-of-all-time
-  23. https://store.steampowered.com/app/1967510/Railbound/
-  24. https://elusivewordsmith.com/posts/Playground/contextualizing/
-  25. https://jonas.do/writing/2023-10-05-side-projects/
-  26. https://www.coryzue.com/writing/building-in-private/
-  27. https://medium.com/swlh/the-mbti-is-corporate-astrology-c132d93e684f
-  28. https://virtualmoose.org/2023/12/13/finding-indie-games/
-  29. https://www.eurogamer.net/you-cant-talk-about-2023-in-games-without-talking-about-layoffs
-  30. https://blog.glyph.im/2023/08/get-your-mac-python-from-python-dot-org.html
-  31. http://jakevdp.github.io/blog/2014/05/09/why-python-is-slow/
-  32. https://vladh.net/wage-labour-resources/
-  33. https://web.law.duke.edu/cspd/mickey/
-  34. https://blog.yossarian.net/2023/12/24/You-dont-need-analytics-on-your-blog
-  35. https://apps.gnome.org/en-GB/DejaDup/
-  36. https://spritely.institute/news/scheme-in-scheme-on-wasm-in-the-browser.html
-  37. https://www.physicalreleases.com/
-  38. https://intothecast.online/
-  39. https://brainbaking.com/tags/metapost
-  40. https://brainbaking.com/post/2023/12/2023-in-books/
-  41. https://brainbaking.com/post/2023/12/doom-turned-thirty/
-  42. https://brainbaking.com/post/2023/11/fpgas-and-the-renaissance-of-retro-hardware/
-  43. https://brainbaking.com/post/2023/11/on-writing-for-yourself-in-public/
-  44. https://brainbaking.com/post/2023/11/october-2023/
-  45. https://brainbaking.com/post/2023/10/top-25-best-games-of-all-time/
-  46. https://brainbaking.com/post/2023/09/overlooked-reasons-to-still-buy-physical-media/
-  47. https://brainbaking.com/
-  48. https://brainbaking.com/about
-  49. https://www.paypal.com/donate/?hosted_button_id=R2WTKY7G9V2KQ
-  50. https://ko-fi.com/woutergroeneveld
-  51. https://dosgame.club/@jefklak
-  52. https://brainbaking.com/post/2024/01/december-2023/#header
-  53. https://brainbaking.com/
-  54. https://brainbaking.com/archives
-  55. https://brainbaking.com/copyright-and-tracking-policy
 
-   Hidden links:
-  57. https://brainbaking.com/
-  58. https://brainbaking.com/post/2024/01/december-2023/#related
-  59. https://brainbaking.com/post/2024/01/december-2023/#bio
+References:
+
+[1] https://brainbaking.com/post/2024/01/december-2023/#top
+[2] https://brainbaking.com/post/2024/01/december-2023/#
+[4] https://brainbaking.com/
+[5] https://brainbaking.com/archives
+[6] https://brainbaking.com/subscribe
+[7] https://brainbaking.com/works
+[8] https://brainbaking.com/about
+[9] https://brainbaking.com/links
+[10] https://brainbaking.com/
+[11] https://brainbaking.com/post/2024/01/december-2023/
+[12] https://brainbaking.com/post/2023/
+[13] https://brainbaking.com/post/2021/10/a-triumph-for-blogging/
+[14] https://brainbaking.com/post/2023/11/fpgas-and-the-renaissance-of-retro-hardware/
+[15] https://brainbaking.com/post/2023/09/overlooked-reasons-to-still-buy-physical-media/
+[16] https://brainbaking.com/post/2023/01/goodbye-protonmail/
+[17] https://brainbaking.com/post/2023/02/phomemo-thermal-printing-on-macos/
+[18] https://brainbaking.com/post/2023/12/doom-turned-thirty/
+[19] https://jefklakscodex.com/games/switch/freaky-trip/
+[20] https://brainbaking.com/post/2023/11/on-writing-for-yourself-in-public/
+[21] https://brainbaking.com/post/2023/11/october-2023
+[22] https://brainbaking.com/post/2023/12/2023-in-books
+[23] https://www.eddingschronicles.com/index.html
+[24] https://brainbaking.com/post/2023/10/top-25-best-games-of-all-time
+[25] https://store.steampowered.com/app/1967510/Railbound/
+[26] https://elusivewordsmith.com/posts/Playground/contextualizing/
+[27] https://jonas.do/writing/2023-10-05-side-projects/
+[28] https://www.coryzue.com/writing/building-in-private/
+[29] https://medium.com/swlh/the-mbti-is-corporate-astrology-c132d93e684f
+[30] https://virtualmoose.org/2023/12/13/finding-indie-games/
+[31] https://www.eurogamer.net/you-cant-talk-about-2023-in-games-without-talking-about-layoffs
+[32] https://blog.glyph.im/2023/08/get-your-mac-python-from-python-dot-org.html
+[33] http://jakevdp.github.io/blog/2014/05/09/why-python-is-slow/
+[34] https://vladh.net/wage-labour-resources/
+[35] https://web.law.duke.edu/cspd/mickey/
+[36] https://blog.yossarian.net/2023/12/24/You-dont-need-analytics-on-your-blog
+[37] https://apps.gnome.org/en-GB/DejaDup/
+[38] https://spritely.institute/news/scheme-in-scheme-on-wasm-in-the-browser.html
+[39] https://www.physicalreleases.com/
+[40] https://intothecast.online/
+[41] https://brainbaking.com/tags/metapost
+[42] https://brainbaking.com/post/2024/01/december-2023/#related
+[43] https://brainbaking.com/post/2023/12/2023-in-books/
+[44] https://brainbaking.com/post/2023/12/doom-turned-thirty/
+[45] https://brainbaking.com/post/2023/11/fpgas-and-the-renaissance-of-retro-hardware/
+[46] https://brainbaking.com/post/2023/11/on-writing-for-yourself-in-public/
+[47] https://brainbaking.com/post/2023/11/october-2023/
+[48] https://brainbaking.com/post/2023/10/top-25-best-games-of-all-time/
+[49] https://brainbaking.com/post/2023/09/overlooked-reasons-to-still-buy-physical-media/
+[50] https://brainbaking.com/post/2024/01/december-2023/#bio
+[51] https://brainbaking.com/
+[52] https://brainbaking.com/about
+[53] https://www.paypal.com/donate/?hosted_button_id=R2WTKY7G9V2KQ
+[54] https://ko-fi.com/woutergroeneveld
+[55] https://dosgame.club/@jefklak
+[56] https://brainbaking.com/post/2024/01/december-2023/#header
+[57] https://brainbaking.com/
+[58] https://brainbaking.com/archives
+[59] https://brainbaking.com/copyright-and-tracking-policy

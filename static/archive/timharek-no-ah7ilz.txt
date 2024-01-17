@@ -1,68 +1,64 @@
-   #[1]RSS feed [2]JSON feed
+[1]Skip to content[2]
 
-   [3]Skip to content
+  • [3]Blog
+  • [4]About
+  • [5]More
 
-     * [4]Blog
-     * [5]About
-     * [6]More
+ 1. [6]Index
+ 2. [7]Blog
+ 3. [8]My thoughts on Helix after 6 months
 
-    1. [7]Index
-    2. [8]Blog
-    3. [9]My thoughts on Helix after 6 months
-
-   [10](Photo)[11]tim@harek.no[12]PGP key
+[9][10](Photo)[11]tim@harek.no[12]PGP key
 
 My thoughts on Helix after 6 months
 
-   Published June 19, 2023
-   2 minutes read
+Published June 19, 2023
+2 minutes read
 
-   Back in [13]January I decided to try out Helix as my primary editor and
-   today I have almost been using it for 6 months and these are my
-   thoughts.
+Back in [13]January I decided to try out Helix as my primary editor and today I
+have almost been using it for 6 months and these are my thoughts.
 
 What I like
 
 Keystrokes
 
-   Helix lives in the opposite land when it comes to keystrokes in
-   comparison to Vim, and it was only difficult for the first couple of
-   days. I've become fond of the way to navigate around.
+Helix lives in the opposite land when it comes to keystrokes in comparison to
+Vim, and it was only difficult for the first couple of days. I've become fond
+of the way to navigate around.
 
 Minor modes
 
-   I really like that there are more modes, called [14]"Minor modes", and
-   the reason why I like them are that whenever I initate a mode there is
-   a subtle pop-up in the lower-right corner with the available actions
-   with the activated mode. This is super helpful when you are first
-   learning Helix and when you are doing something you don't do on a
-   regular basis. It lowers the chance of having to switch context in
-   order to do something. For instance, I know that m activates "Match
-   mode", but sometimes I may forget how to select around specific
-   selector like (), but with Helix I will have a little helper that tells
-   me that the next key is a and then the next helper will help me select
-   just ().
+I really like that there are more modes, called [14]"Minor modes", and the
+reason why I like them are that whenever I initate a mode there is a subtle
+pop-up in the lower-right corner with the available actions with the activated
+mode. This is super helpful when you are first learning Helix and when you are
+doing something you don't do on a regular basis. It lowers the chance of having
+to switch context in order to do something. For instance, I know that m
+activates "Match mode", but sometimes I may forget how to select around
+specific selector like (), but with Helix I will have a little helper that
+tells me that the next key is a and then the next helper will help me select
+just ().
 
 Moving around
 
-   I've become really fond of the idea that every move-action is also a
-   selection/highlight, I find that I miss that feature whenever I edit
-   server-configs via SSH or somewhere else when I'm not in Helix. It
-   feels natural after a while because you get used to moving around
-   text/code with w and e.
+I've become really fond of the idea that every move-action is also a selection/
+highlight, I find that I miss that feature whenever I edit server-configs via
+SSH or somewhere else when I'm not in Helix. It feels natural after a while
+because you get used to moving around text/code with w and e.
 
 Configuration
 
-   No more Vimscript and Lua, just plaintext TOML! The documentation for
-   how to configure the editor is great and most of the defaults are also
-   great! My editor-config is just 23 lines in contrast to my
-   Neovim-config which is 209 lines long.
+No more Vimscript and Lua, just plaintext TOML! The documentation for how to
+configure the editor is great and most of the defaults are also great! My
+editor-config is just 23 lines in contrast to my Neovim-config which is 209
+lines long.
 
 Language server protocol (LSP) support
 
-   I had some experience with this from Neovim, but it felt cumbersome
-   having to configure everything. With Helix I can simply run hx --health
-   markdown and see what LSP is required for Markdown.
+I had some experience with this from Neovim, but it felt cumbersome having to
+configure everything. With Helix I can simply run hx --health markdown and see
+what LSP is required for Markdown.
+
 $ hx --health markdown
 Configured language server: marksman
 Binary for language server: /opt/homebrew/bin/marksman
@@ -71,77 +67,73 @@ Highlight queries: ✓
 Textobject queries: ✘
 Indent queries: ✘
 
-   I even managed to get it working with Deno thanks to its documentation
-   on how to use custom LSPs for specific languages.
+I even managed to get it working with Deno thanks to its documentation on how
+to use custom LSPs for specific languages.
 
 What I don't like
 
-   There really isn't anything in particualr that I don't like about
-   Helix. I really miss having it installed on servers by default, but I
-   completely understand that that is a big ask 😅 It's not too difficult
-   to swap between Vim-bindings and Helix-bindings for short sessions.
+There really isn't anything in particualr that I don't like about Helix. I
+really miss having it installed on servers by default, but I completely
+understand that that is a big ask 😅 It's not too difficult to swap between
+Vim-bindings and Helix-bindings for short sessions.
 
 Conclusion
 
-   Helix is fun and easy! I highly recommend Helix if you:
-     * want to try a new editor,
-     * tired of configuring {Neo}vim with Vimscript/Lua,
-     * or been thinking about trying out Vim, but been hesitant because of
-       the modes.
+Helix is fun and easy! I highly recommend Helix if you:
 
-   I will continue to use Helix for the forseeable future, I'm looking
-   forward to what future updates will bring!
+  • want to try a new editor,
+  • tired of configuring {Neo}vim with Vimscript/Lua,
+  • or been thinking about trying out Vim, but been hesitant because of the
+    modes.
 
-   Remember to check out Helix's tutor, hx --tutor for quick introduction
-   to its keystrokes and interactions.
+I will continue to use Helix for the forseeable future, I'm looking forward to
+what future updates will bring!
+
+Remember to check out Helix's tutor, hx --tutor for quick introduction to its
+keystrokes and interactions.
 
 Tagged with
 
-     * [15]#100-days-to-offload
-     * [16]#helix
-     * [17]#software
-     * [18]#thoughts
-     * [19]#tools
+  • [15]#100-days-to-offload
+  • [16]#helix
+  • [17]#software
+  • [18]#thoughts
+  • [19]#tools
 
 516 words
 
-   [20]Reply via email
+[20]Reply via email
+Last deploy: 2024-01-10
 
-   Last deploy: 2024-01-10
+  • [21]Stats
+  • [22]Privacy
+  • [23]Connect
+  • [24]Subscribe
 
-     * [21]Stats
-     * [22]Privacy
-     * [23]Connect
-     * [24]Subscribe
 
-References
+References:
 
-   Visible links:
-   1. https://timharek.no/feed.xml
-   2. https://timharek.no/feed.json
-   3. https://timharek.no/blog/my-thoughts-on-helix-after-6-months#main
-   4. https://timharek.no/blog
-   5. https://timharek.no/about
-   6. https://timharek.no/more
-   7. https://timharek.no/
-   8. https://timharek.no/blog
-   9. https://timharek.no/blog/my-thoughts-on-helix-after-6-months
-  10. https://timharek.no/.well-known/avatar?size=250&quality=90
-  11. mailto:tim@harek.no
-  12. https://timharek.no/public-key.asc
-  13. https://timharek.no/blog/trying-helix
-  14. https://docs.helix-editor.com/keymap.html#normal-mode
-  15. https://timharek.no/tags/100-days-to-offload
-  16. https://timharek.no/tags/helix
-  17. https://timharek.no/tags/software
-  18. https://timharek.no/tags/thoughts
-  19. https://timharek.no/tags/tools
-  20. mailto:tim@harek.no?subject=RE: My thoughts on Helix after 6 months
-  21. https://timharek.no/stats
-  22. https://timharek.no/privacy
-  23. https://timharek.no/connect
-  24. https://timharek.no/subscribe
-
-   Hidden links:
-  26. https://timharek.no/
-  27. https://timharek.no/
+[1] https://timharek.no/blog/my-thoughts-on-helix-after-6-months#main
+[2] https://timharek.no/
+[3] https://timharek.no/blog
+[4] https://timharek.no/about
+[5] https://timharek.no/more
+[6] https://timharek.no/
+[7] https://timharek.no/blog
+[8] https://timharek.no/blog/my-thoughts-on-helix-after-6-months
+[9] https://timharek.no/
+[10] https://timharek.no/.well-known/avatar?size=250&quality=90
+[11] mailto:tim@harek.no
+[12] https://timharek.no/public-key.asc
+[13] https://timharek.no/blog/trying-helix
+[14] https://docs.helix-editor.com/keymap.html#normal-mode
+[15] https://timharek.no/tags/100-days-to-offload
+[16] https://timharek.no/tags/helix
+[17] https://timharek.no/tags/software
+[18] https://timharek.no/tags/thoughts
+[19] https://timharek.no/tags/tools
+[20] mailto:tim@harek.no?subject=RE:%20My%20thoughts%20on%20Helix%20after%206%20months
+[21] https://timharek.no/stats
+[22] https://timharek.no/privacy
+[23] https://timharek.no/connect
+[24] https://timharek.no/subscribe

@@ -1,390 +1,385 @@
-   #[1]The Sweet Setup [2]alternate [3]alternate [4]alternate
+fbpx *
 
-   fbpx [tr?id=1547247442291447&ev=PageView &noscript=1]
+FREE! Plan Your Ideal Week: Bonus Workshop + Planner  →  Get the Workshop
 
-   IFRAME: [5]https://www.googletagmanager.com/ns.html?id=GTM-PS7L89F
+[1]The Sweet SetupThe Sweet Setup
+[2]ABOUT   [3]COURSES   [4]BLOG
+[5]Sign In
 
-   FREE! Plan Your Ideal Week: Bonus Workshop + Planner  →  Get the
-   Workshop
+  • [6]Categories
+      □ [7]Mindfulness
+      □ [8]Workflows
+      □ [9]Setups
+      □ [10]Quick Tips
 
-   [6]The Sweet Setup The Sweet Setup
-   [7]ABOUT   [8]COURSES   [9]BLOG
-   [10]Sign In
-
-     * [11]Categories
-          + [12]Mindfulness
-          + [13]Workflows
-          + [14]Setups
-          + [15]Quick Tips
-
-   ____________________ Go
-
+[11]
+[12][                    ] [13][Go]
 Turning Obsidian into My Perfect Writing App
 
-   October 24, 2022
-   by [16]Mike Schmitz
+October 24, 2022
+by [14]Mike Schmitz
 
-   NaNoWriMo (National Novel Writing Month) is right around the corner,
-   and if you’re looking for a great tool to help you hit your writing
-   goals, there are lots of great options available.
+NaNoWriMo (National Novel Writing Month) is right around the corner, and if
+you’re looking for a great tool to help you hit your writing goals, there are
+lots of great options available.
 
-   In this article, I want to make the case for using [17]Obsidian by
-   showing you how to turn it into a powerful writing environment using a
-   few essential plugins.
+In this article, I want to make the case for using [15]Obsidian by showing you
+how to turn it into a powerful writing environment using a few essential
+plugins.
+
+[svg][obsidianwr]
 
 But Isn’t Obsidian a Notes App?
 
-   That’s what I thought when I first started using it a couple of years
-   ago. I was hoping it would help me make connections between my notes
-   and help inspire some new ideas. But over time, I fell in love with it
-   as a writing tool. In fact, every article I’ve written in the last 2
-   years has been written in Obsidian.
+That’s what I thought when I first started using it a couple of years ago. I
+was hoping it would help me make connections between my notes and help inspire
+some new ideas. But over time, I fell in love with it as a writing tool. In
+fact, every article I’ve written in the last 2 years has been written in
+Obsidian.
 
-   What makes Obsidian great as a writing tool is how much you can
-   customize it using third-party plugins. The number of plugins continues
-   to grow (676 as of this writing), and with Obsidian recently launching
-   version 1.0, the app shows no signs of slowing down any time soon.
+What makes Obsidian great as a writing tool is how much you can customize it
+using third-party plugins. The number of plugins continues to grow (676 as of
+this writing), and with Obsidian recently launching version 1.0, the app shows
+no signs of slowing down any time soon.
 
 My Journey Away from Ulysses
 
-   Let me get this out right now: Ulysses is an incredible writing app.
+Let me get this out right now: Ulysses is an incredible writing app.
 
-   It’s just not for me for a couple of specific reasons.
+It’s just not for me for a couple of specific reasons.
 
-   First, publishing to the web isn’t quite as easy as it should be with
-   Ulysses. It does give you the ability to publish straight to WordPress,
-   and you can even update blog posts from Ulysses now — if you can get it
-   to connect to your custom WordPress blog.
+First, publishing to the web isn’t quite as easy as it should be with Ulysses.
+It does give you the ability to publish straight to WordPress, and you can even
+update blog posts from Ulysses now — if you can get it to connect to your
+custom WordPress blog.
 
-   When this broke for me, I started digging in to how to fix it and
-   quickly came across weird plugins and settings for modifying XMLRPC.
-   And unfortunately, I could never get it functioning again. I fully
-   understand it’s something on my domains, but the “simple instructions”
-   didn’t work for me, and even as a web developer I didn’t feel
-   comfortable digging too far into this.
+When this broke for me, I started digging in to how to fix it and quickly came
+across weird plugins and settings for modifying XMLRPC. And unfortunately, I
+could never get it functioning again. I fully understand it’s something on my
+domains, but the “simple instructions” didn’t work for me, and even as a web
+developer I didn’t feel comfortable digging too far into this.
 
-   Which meant I was stuck copying and pasting into WordPress.
+Which meant I was stuck copying and pasting into WordPress.
 
-   And because Ulysses doesn’t use standard Markdown, that meant I had to
-   “export” my text first. This works, but adds a few extra clicks (or
-   taps in iOS) in order to get my text out of my writing app. Combine
-   that with the fact that Ulysses has some weird Markdown formatting that
-   never quite clicked for me in the first place, and I was left looking
-   for a straight Markdown-based text editor.
+And because Ulysses doesn’t use standard Markdown, that meant I had to “export”
+my text first. This works, but adds a few extra clicks (or taps in iOS) in
+order to get my text out of my writing app. Combine that with the fact that
+Ulysses has some weird Markdown formatting that never quite clicked for me in
+the first place, and I was left looking for a straight Markdown-based text
+editor.
 
-   Obsidian fits that description perfectly. It’s simple, uses plain text
-   files, provides inline formatting, and supports standard Markdown. It’s
-   everything I’ve ever wanted in a plain text editor.
+Obsidian fits that description perfectly. It’s simple, uses plain text files,
+provides inline formatting, and supports standard Markdown. It’s everything
+I’ve ever wanted in a plain text editor.
 
-   But there are a few additional settings and plugins you can use to make
-   it even better as a writing app.
+But there are a few additional settings and plugins you can use to make it even
+better as a writing app.
 
 Obsidian Settings
 
-   First, let’s look at some of the settings.
+First, let’s look at some of the settings.
 
-   To access these settings, click the gear icon in the lower-left corner
-   and then select Editor from the Settings sidebar.
+To access these settings, click the gear icon in the lower-left corner and then
+select Editor from the Settings sidebar.
 
-   The defaults are actually pretty good, but here’s the key settings you
-   want if you’re going to use Obsidian for writing:
-     * Make sure that Auto pair Markdown syntax is toggled ON. This
-       creates both symbols and places the cursor in the middle, making it
-       easier to create italicized or emphasized text.
-     * Make sure Smart indent lists is toggled ON. This makes it easier to
-       create bulleted and numbered lists quickly, automatically adding
-       the next bullet when you hit the Return key.
-     * Make sure that Fold heading and Fold indent are toggled ON. This
-       creates carats for Markdown headers as well as indented text,
-       adding some cool outliner-inspired features that make it easy to
-       fold up text in large files and focus on the text you want.
+The defaults are actually pretty good, but here’s the key settings you want if
+you’re going to use Obsidian for writing:
 
-   There are a bunch of other settings you can customize, but many of them
-   are simply personal preference. These are the important ones.
+  • Make sure that Auto pair Markdown syntax is toggled ON. This creates both
+    symbols and places the cursor in the middle, making it easier to create
+    italicized or emphasized text.
+  • Make sure Smart indent lists is toggled ON. This makes it easier to create
+    bulleted and numbered lists quickly, automatically adding the next bullet
+    when you hit the Return key.
+  • Make sure that Fold heading and Fold indent are toggled ON. This creates
+    carats for Markdown headers as well as indented text, adding some cool
+    outliner-inspired features that make it easy to fold up text in large files
+    and focus on the text you want.
 
-   Once you have your settings, it’s time to move on to the plugins.
+There are a bunch of other settings you can customize, but many of them are
+simply personal preference. These are the important ones.
+
+Once you have your settings, it’s time to move on to the plugins.
 
 Obsidian Core Plugin Settings
 
-   There are two types of plugins in Obsidian: Core plugins that ship with
-   the app, and Community plugins that you can install to extend the
-   functionality of Obsidian. We’re going to look at the Core plugins
-   first.
+There are two types of plugins in Obsidian: Core plugins that ship with the
+app, and Community plugins that you can install to extend the functionality of
+Obsidian. We’re going to look at the Core plugins first.
 
-   Here are my recommendations for modifying the Core plugins:
-     * Make sure that Backlinks and Outgoing Links are both toggled ON.
-       These are sections available in the right sidebar that show all of
-       the notes that link to the active note and all of the notes linked
-       to from the active note respectively. (If you’re new to the concept
-       of connected notes, check out [18]this article on using the local
-       graph.)
-     * Make sure that Outline is toggled ON. This adds a tab in the right
-       sidebar that creates a table of contents for your note based on the
-       Markdown headers. This is helpful when you need to jump to a
-       specific section of a longer text as you can do so simply by
-       clicking on the appropriate header title.
-     * Turn the Word Count setting OFF. Word counts are important, but
-       there’s a Community plugin that does this much better than the
-       built-in word count tool here.
+Here are my recommendations for modifying the Core plugins:
 
-   Again, there are a bunch of options here that are personal preference,
-   but these are the important ones. Once you have these Core plugins set,
-   it’s time to really make Obsidian dance by adding some Community
-   plugins.
+  • Make sure that Backlinks and Outgoing Links are both toggled ON. These are
+    sections available in the right sidebar that show all of the notes that
+    link to the active note and all of the notes linked to from the active note
+    respectively. (If you’re new to the concept of connected notes, check out 
+    [16]this article on using the local graph.)
+  • Make sure that Outline is toggled ON. This adds a tab in the right sidebar
+    that creates a table of contents for your note based on the Markdown
+    headers. This is helpful when you need to jump to a specific section of a
+    longer text as you can do so simply by clicking on the appropriate header
+    title.
+  • Turn the Word Count setting OFF. Word counts are important, but there’s a
+    Community plugin that does this much better than the built-in word count
+    tool here.
+
+Again, there are a bunch of options here that are personal preference, but
+these are the important ones. Once you have these Core plugins set, it’s time
+to really make Obsidian dance by adding some Community plugins.
 
 Obsidian Community Plugins for an Upgraded Writing Experience
 
-   You can access the Community plugins public directory by going to
-   Settings → Community plugins → Browse once you’ve toggled off Safe
-   Mode. From there, you can find plugins for just about anything, from
-   [19]embedding tasks from Todoist to [20]creating timeblocked daily
-   plans to [21]creating kanban boards — all based on your locally-stored
-   plain text files using standard Markdown.
+You can access the Community plugins public directory by going to Settings →
+Community plugins → Browse once you’ve toggled off Safe Mode. From there, you
+can find plugins for just about anything, from [17]embedding tasks from Todoist
+to [18]creating timeblocked daily plans to [19]creating kanban boards — all
+based on your locally-stored plain text files using standard Markdown.
 
-   All of the plugin links I share below are Obsidian links
-   (obsidian://link-adress) that will open straight to the plug-in page if
-   you have Obsidian installed and running on your device.
+[svg][obsidianpl]
 
-   Note that many of the plugins I will share here are 1:1 replacements
-   for standard features in Ulysses, so if you don’t mind non-standard
-   Markdown formatting and don’t run into the publishing issues that I
-   did, maybe try that instead. But if you’re all in with Obsidian, here
-   are the plugins I use to make Obsidian my perfect writing app.
+All of the plugin links I share below are Obsidian links (obsidian://
+link-adress) that will open straight to the plug-in page if you have Obsidian
+installed and running on your device.
+
+Note that many of the plugins I will share here are 1:1 replacements for
+standard features in Ulysses, so if you don’t mind non-standard Markdown
+formatting and don’t run into the publishing issues that I did, maybe try that
+instead. But if you’re all in with Obsidian, here are the plugins I use to make
+Obsidian my perfect writing app.
 
 Better Word Count
 
-   The first plugin is called [22]Better Word Count. This replaces the
-   built-in word count core plugin, and it functions largely the same with
-   one key addition: when you highlight text, it shows the
-   words/characters of the highlighted text instead of the whole document.
+The first plugin is called [20]Better Word Count. This replaces the built-in
+word count core plugin, and it functions largely the same with one key
+addition: when you highlight text, it shows the words/characters of the
+highlighted text instead of the whole document.
 
-   It’s not as good as the writing stats in Ulysses, but it’s good enough
-   for me.
+[svg][obsidianbw]
+
+It’s not as good as the writing stats in Ulysses, but it’s good enough for me.
 
 cMenu
 
-   If you’re uncomfortable relying on your memory for Markdown formatting,
-   [23]cMenu is a third-party plugin that gives you a minimal text editor
-   modal that allows you to do things like bold, italicize, strikethrough,
-   underline, and toggle blockquotes.
+If you’re uncomfortable relying on your memory for Markdown formatting, [21]
+cMenu is a third-party plugin that gives you a minimal text editor modal that
+allows you to do things like bold, italicize, strikethrough, underline, and
+toggle blockquotes.
 
-   If you don’t like the default options, you can customize what shows up
-   in the modal by adding any of the Commands in your Obsidian library.
+[svg][obsidiancm]
+
+If you don’t like the default options, you can customize what shows up in the
+modal by adding any of the Commands in your Obsidian library.
 
 Reading Time
 
-   Another handy Ulysses feature is being able to see how long it will
-   take to read the text in the selected file. But you can add this
-   feature to the status bar using the [24]Reading Time plugin.
+Another handy Ulysses feature is being able to see how long it will take to
+read the text in the selected file. But you can add this feature to the status
+bar using the [22]Reading Time plugin.
 
-   This one is pretty straightforward — just install it and turn it on and
-   you’ll see the reading time at the bottom of your Obsidian window. You
-   can customize your reading speed in the settings for the plugin.
+[svg][obsidianre]
+
+This one is pretty straightforward — just install it and turn it on and you’ll
+see the reading time at the bottom of your Obsidian window. You can customize
+your reading speed in the settings for the plugin.
 
 Footnote Shortcut
 
-   If you use footnotes a lot, they can be a bit of a pain to create with
-   standard Markdown. It’s a lot easier with the [25]Obsidian Footnotes
-   plugin.^[26]1
+If you use footnotes a lot, they can be a bit of a pain to create with standard
+Markdown. It’s a lot easier with the [23]Obsidian Footnotes plugin.^[24]1
 
-   Once installed, you can find it in the Command Palette and with the
-   hotkey: Footnote Shortcut: Insert and Navigate Footnote. You can
-   customize the hotkey by going to Settings → Hotkey and searching for
-   Footnote, which will then insert the appropriate Markdown and navigate
-   to the bottom of the note where you can insert the text for your
-   footnote.
+[svg][obsidianfo]
+
+Once installed, you can find it in the Command Palette and with the hotkey:
+Footnote Shortcut: Insert and Navigate Footnote. You can customize the hotkey
+by going to Settings → Hotkey and searching for Footnote, which will then
+insert the appropriate Markdown and navigate to the bottom of the note where
+you can insert the text for your footnote.
 
 Focus Mode
 
-   The Obsidian interface can be a little distracting when you’re trying
-   to focus on your words. Fortunately, the [27]Focus Mode plugin allows
-   you to remove all the distractions and focus on what you’re writing.
+The Obsidian interface can be a little distracting when you’re trying to focus
+on your words. Fortunately, the [25]Focus Mode plugin allows you to remove all
+the distractions and focus on what you’re writing.
 
-   Once the plugin is installed and active, just click the Toggle Focus
-   Mode button to hide the sidebars and status bar, and you can
-   shift-click the button to hide everything but the active writing pane.
+[svg][obsidianfo]
+
+Once the plugin is installed and active, just click the Toggle Focus Mode
+button to hide the sidebars and status bar, and you can shift-click the button
+to hide everything but the active writing pane.
 
 Typewriter Scroll
 
-   [28]This plugin keeps the currently selected line in the middle of the
-   screen as you type. As you type, the focus moves from the current
-   section to the next section by moving the rest of the page in the
-   background, much like an old-fashioned typewriter.
+[26]This plugin keeps the currently selected line in the middle of the screen
+as you type. As you type, the focus moves from the current section to the next
+section by moving the rest of the page in the background, much like an
+old-fashioned typewriter.
 
-   There’s even a Zen Mode option that grays out the background text to
-   help you focus on the line that you are currently writing.
+[svg][obsidianty]
+
+There’s even a Zen Mode option that grays out the background text to help you
+focus on the line that you are currently writing.
 
 Novel Word Count
 
-   If you are aiming to write a book (fiction or non-fiction), you
-   probably have a total word count in mind. [29]Novel Word Count shows
-   you the number of words that a document or folder contains in the
-   sidebar so you can keep track of your long-form writing progress.
+If you are aiming to write a book (fiction or non-fiction), you probably have a
+total word count in mind. [27]Novel Word Count shows you the number of words
+that a document or folder contains in the sidebar so you can keep track of your
+long-form writing progress.
 
-   You can also use pages, characters, date created, and date updated (as
-   well as a few different combinations) that can be configured in the
-   plugin settings once you turn it on.
+[svg][obsidianno]
+
+You can also use pages, characters, date created, and date updated (as well as
+a few different combinations) that can be configured in the plugin settings
+once you turn it on.
 
 Conclusion
 
-   Obsidian is much more than just a notes app, and might be the perfect
-   writing tool for you if you want to:
-    1. Store your plain text files locally
-    2. Use something that supports standard Markdown
-    3. Gives you the flexibility to craft your writing environment
+Obsidian is much more than just a notes app, and might be the perfect writing
+tool for you if you want to:
 
-   Obsidian may not be for everyone, but since it’s completely free to
-   start, there’s no reason not to give it a spin.
-     __________________________________________________________________
+ 1. Store your plain text files locally
+ 2. Use something that supports standard Markdown
+ 3. Gives you the flexibility to craft your writing environment
 
-    1. Since it’s an Obsidian Command, you could also add this as a button
-       to the cMenu plugin mentioned above. [30]↩
+Obsidian may not be for everyone, but since it’s completely free to start,
+there’s no reason not to give it a spin.
 
-Follow us
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ 1. Since it’s an Obsidian Command, you could also add this as a button to the
+    cMenu plugin mentioned above. [28]↩
+
+Follow us  [29] [30]
 
 [31]Get App Picks, Guides, & More
 
-   Get workflow tips, app recommendations, how-to guides, stories, and
-   more delivered to your inbox. Plus we'll send you our productivity
-   guide for free!
+Get workflow tips, app recommendations, how-to guides, stories, and more
+delivered to your inbox. Plus we'll send you our productivity guide for free!
 
-   ____________________
+[39][                    ]
 
-                                   Sweet!
+                                 [40][Sweet!]
 
-[32]Best-Selling Courses
+[41]Best-Selling Courses
 
-[33]🎟 All Access Pass 🎟
+[42]🎟 All Access Pass 🎟
 
-   Join the Focus Accelerator to get instant access to the entire course
-   library, resource vault, and more. [34]»
+Join the Focus Accelerator to get instant access to the entire course library,
+resource vault, and more. [43]»
 
-[35]NEW: All the Things
+[44]NEW: All the Things
 
-   Best-selling productivity course. Stop being managed by your task list.
-   [36]»
+Best-selling productivity course. Stop being managed by your task list. [45]»
 
-[37]Full Course List
+[46]Full Course List
 
-   Serving 15,000 customers since 2013, we have a library full of in-depth
-   courses to help you be more productive, creative, and focused. [38]View
-   all courses »
+Serving 15,000 customers since 2013, we have a library full of in-depth courses
+to help you be more productive, creative, and focused. [47]View all courses »
 
-[39]The Latest Posts
+[48]The Latest Posts
 
-[40]Our First Look at Apple’s New Journal App
+[49]Our First Look at Apple’s New Journal App
 
-   Let’s take a look at Apple’s new Journal app for iPhone and how it
-   stacks up to one of the perennial apps on the App Store. The app has a
-   long way to go, but it has some very intriguing elements to start.
-   [41]»
+Let’s take a look at Apple’s new Journal app for iPhone and how it stacks up to
+one of the perennial apps on the App Store. The app has a long way to go, but
+it has some very intriguing elements to start. [50]»
 
-[42]Tracking Important Events with Up Ahead, Time Blocking Methods, and More
+[51]Tracking Important Events with Up Ahead, Time Blocking Methods, and More
 
-   Catch up on what we published this week, including a look at Up Ahead
-   for tracking upcoming events you're looking forward to, a guide to
-   effectively using time blocking for productivity, and more. [43]»
+Catch up on what we published this week, including a look at Up Ahead for
+tracking upcoming events you're looking forward to, a guide to effectively
+using time blocking for productivity, and more. [52]»
 
-[44]Up Ahead Lets You Track the Important Things in Life
+[53]Up Ahead Lets You Track the Important Things in Life
 
-   How many days is it until your next trip? How about until your
-   anniversary? Or maybe that movie you’ve been waiting to see comes out?
-   You can of course put all of these events on a calendar and find them
-   that way, but that doesn’t really make it easy to see how long it is
-   until that thing happens. That's where Up Ahead comes in. [45]»
+How many days is it until your next trip? How about until your anniversary? Or
+maybe that movie you’ve been waiting to see comes out? You can of course put
+all of these events on a calendar and find them that way, but that doesn’t
+really make it easy to see how long it is until that thing happens. That's
+where Up Ahead comes in. [54]»
 
-[46]The Power of Focus Themes
+[55]The Power of Focus Themes
 
-   One of the most important concepts to learn as you figure out your 2024
-   plans comes from David Allen: "You can do anything you want, but you
-   can’t do everything you want." [Free Workshop this Monday] [47]»
+One of the most important concepts to learn as you figure out your 2024 plans
+comes from David Allen: "You can do anything you want, but you can’t do
+everything you want." [Free Workshop this Monday] [56]»
 
-[48]The CEO Who Had No Goals (Video)
+[57]The CEO Who Had No Goals (Video)
 
-   I recently heard a surprising admission from a very successful CEO.
-   [49]»
+I recently heard a surprising admission from a very successful CEO. [58]»
 
-     * [50]Home
-     * [51]About
-     * [52]Products
-     * [53]Contact
-     * [54]Blog
-     * [55]Newsletter
-     * [56]Sign In
+  • [59]Home
+  • [60]About
+  • [61]Products
+  • [62]Contact
+  • [63]Blog
+  • [64]Newsletter
+  • [65]Sign In
 
-   A website by [57]Shawn Blanc and friends. See also: [58]The Focus
-   Course  |  [59]Tools & Toys
-   © 2024 Blanc Media, LLC
-   [60]Design by Ink Blot Media Group • [61]Dev by Jonathan Christopher
+A website by [66]Shawn Blanc and friends. See also: [67]The Focus Course  |  
+[68]Tools & Toys
+© 2024 Blanc Media, LLC
+[69]Design by Ink Blot Media Group • [70]Dev by Jonathan Christopher
+fbpx
 
-   fbpx
+References:
 
-References
-
-   Visible links:
-   1. https://thesweetsetup.com/feed/
-   2. https://thesweetsetup.com/wp-json/wp/v2/posts/132252
-   3. https://thesweetsetup.com/wp-json/oembed/1.0/embed?url=https://thesweetsetup.com/turning-obsidian-into-my-perfect-writing-app/
-   4. https://thesweetsetup.com/wp-json/oembed/1.0/embed?url=https://thesweetsetup.com/turning-obsidian-into-my-perfect-writing-app/&format=xml
-   5. https://www.googletagmanager.com/ns.html?id=GTM-PS7L89F
-   6. https://thesweetsetup.com/
-   7. https://thesweetsetup.com/colophon/
-   8. https://thesweetsetup.com/training/
-   9. https://thesweetsetup.com/blog/
-  10. https://thesweetsetup.com/my-account
-  11. https://thesweetsetup.com/turning-obsidian-into-my-perfect-writing-app/
-  12. https://thesweetsetup.com/category/mindfulness/
-  13. https://thesweetsetup.com/category/workflows/
-  14. https://thesweetsetup.com/category/sweet-setup-interview/
-  15. https://thesweetsetup.com/category/quick-tip/
-  16. https://thesweetsetup.com/author/mikeschmitz/
-  17. https://obsidian.md/
-  18. https://thesweetsetup.com/the-power-of-obsidians-local-graph/
-  19. https://thesweetsetup.com/syncing-embedding-tasks-from-todoist-in-obsidian/
-  20. https://thesweetsetup.com/timeblocking-in-obsidian/
-  21. https://thesweetsetup.com/my-obsidian-based-kanban-writing-workflow/
-  22. obsidian://show-plugin/?id=better-word-count
-  23. obsidian://show-plugin/?id=cmenu-plugin
-  24. obsidian://show-plugin/?id=obsidian-reading-time
-  25. obsidian://show-plugin/?id=obsidian-footnotes
-  26. https://thesweetsetup.com/turning-obsidian-into-my-perfect-writing-app/#fn-132252:1
-  27. obsidian://show-plugin/?id=obsidian-focus-mode
-  28. obsidian://show-plugin/?id=cm-typewriter-scroll-obsidian
-  29. obsidian://show-plugin/?id=novel-word-count
-  30. https://thesweetsetup.com/turning-obsidian-into-my-perfect-writing-app/#fnref-132252:1
-  31. https://thesweetsetup.com/newsletter/
-  32. https://thesweetsetup.com/training/
-  33. https://thesweetsetup.com/accelerator/
-  34. https://thesweetsetup.com/accelerator/
-  35. https://thesweetsetup.com/things/
-  36. https://thesweetsetup.com/things/
-  37. https://thesweetsetup.com/training/?utm_source=training_sidebar_link&utm_medium=sidebar&utm_campaign=sidebar_att
-  38. https://thesweetsetup.com/training/
-  39. https://thesweetsetup.com/blog/
-  40. https://thesweetsetup.com/our-first-look-at-apples-new-journal-app/
-  41. https://thesweetsetup.com/our-first-look-at-apples-new-journal-app/
-  42. https://thesweetsetup.com/tracking-important-events-up-ahead-timeblocking-more/
-  43. https://thesweetsetup.com/tracking-important-events-up-ahead-timeblocking-more/
-  44. https://thesweetsetup.com/up-ahead-lets-you-track-the-important-things-in-life/
-  45. https://thesweetsetup.com/up-ahead-lets-you-track-the-important-things-in-life/
-  46. https://thesweetsetup.com/the-power-of-focus-themes/
-  47. https://thesweetsetup.com/the-power-of-focus-themes/
-  48. https://thesweetsetup.com/the-ceo-who-dad-no-goals-video/
-  49. https://thesweetsetup.com/the-ceo-who-dad-no-goals-video/
-  50. https://thesweetsetup.com/
-  51. https://thesweetsetup.com/colophon/
-  52. https://thesweetsetup.com/training/
-  53. https://thesweetsetup.com/contact/
-  54. https://thesweetsetup.com/blog/
-  55. https://thesweetsetup.com/newsletter/
-  56. https://thesweetsetup.com/my-account
-  57. https://shawnblanc.net/
-  58. https://thefocuscourse.com/
-  59. http://toolsandtoys.net/
-  60. http://inkblotmediagroup.com/
-  61. http://mondaybynoon.com/
-
-   Hidden links:
-  63. https://thesweetsetup.com/turning-obsidian-into-my-perfect-writing-app/
-  64. https://twitter.com/thesweetsetup
-  65. https://thesweetsetup.com/feed
+[1] https://thesweetsetup.com/
+[2] https://thesweetsetup.com/colophon/
+[3] https://thesweetsetup.com/training/
+[4] https://thesweetsetup.com/blog/
+[5] https://thesweetsetup.com/my-account
+[6] https://thesweetsetup.com/turning-obsidian-into-my-perfect-writing-app/#
+[7] https://thesweetsetup.com/category/mindfulness/
+[8] https://thesweetsetup.com/category/workflows/
+[9] https://thesweetsetup.com/category/sweet-setup-interview/
+[10] https://thesweetsetup.com/category/quick-tip/
+[11] https://thesweetsetup.com/turning-obsidian-into-my-perfect-writing-app/#
+[14] https://thesweetsetup.com/author/mikeschmitz/
+[15] https://obsidian.md/
+[16] https://thesweetsetup.com/the-power-of-obsidians-local-graph/
+[17] https://thesweetsetup.com/syncing-embedding-tasks-from-todoist-in-obsidian/
+[18] https://thesweetsetup.com/timeblocking-in-obsidian/
+[19] https://thesweetsetup.com/my-obsidian-based-kanban-writing-workflow/
+[20] obsidian://show-plugin?id=better-word-count
+[21] obsidian://show-plugin?id=cmenu-plugin
+[22] obsidian://show-plugin?id=obsidian-reading-time
+[23] obsidian://show-plugin?id=obsidian-footnotes
+[24] https://thesweetsetup.com/turning-obsidian-into-my-perfect-writing-app/#fn-132252:1
+[25] obsidian://show-plugin?id=obsidian-focus-mode
+[26] obsidian://show-plugin?id=cm-typewriter-scroll-obsidian
+[27] obsidian://show-plugin?id=novel-word-count
+[28] https://thesweetsetup.com/turning-obsidian-into-my-perfect-writing-app/#fnref-132252:1
+[29] https://twitter.com/thesweetsetup
+[30] https://thesweetsetup.com/feed
+[31] https://thesweetsetup.com/newsletter/
+[41] https://thesweetsetup.com/training/
+[42] https://thesweetsetup.com/accelerator/
+[43] https://thesweetsetup.com/accelerator/
+[44] https://thesweetsetup.com/things/
+[45] https://thesweetsetup.com/things/
+[46] https://thesweetsetup.com/training/?utm_source=training_sidebar_link&utm_medium=sidebar&utm_campaign=sidebar_att
+[47] https://thesweetsetup.com/training/
+[48] https://thesweetsetup.com/blog/
+[49] https://thesweetsetup.com/our-first-look-at-apples-new-journal-app/
+[50] https://thesweetsetup.com/our-first-look-at-apples-new-journal-app/
+[51] https://thesweetsetup.com/tracking-important-events-up-ahead-timeblocking-more/
+[52] https://thesweetsetup.com/tracking-important-events-up-ahead-timeblocking-more/
+[53] https://thesweetsetup.com/up-ahead-lets-you-track-the-important-things-in-life/
+[54] https://thesweetsetup.com/up-ahead-lets-you-track-the-important-things-in-life/
+[55] https://thesweetsetup.com/the-power-of-focus-themes/
+[56] https://thesweetsetup.com/the-power-of-focus-themes/
+[57] https://thesweetsetup.com/the-ceo-who-dad-no-goals-video/
+[58] https://thesweetsetup.com/the-ceo-who-dad-no-goals-video/
+[59] https://thesweetsetup.com/
+[60] https://thesweetsetup.com/colophon/
+[61] https://thesweetsetup.com/training/
+[62] https://thesweetsetup.com/contact/
+[63] https://thesweetsetup.com/blog/
+[64] https://thesweetsetup.com/newsletter/
+[65] https://thesweetsetup.com/my-account
+[66] https://shawnblanc.net/
+[67] https://thefocuscourse.com/
+[68] http://toolsandtoys.net/
+[69] http://inkblotmediagroup.com/
+[70] http://mondaybynoon.com/
