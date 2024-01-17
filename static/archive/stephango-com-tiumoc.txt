@@ -4,7 +4,7 @@
 
                          Style is consistent constraint
 
-   September 3, 2023 •2 minute read
+   September 3, 2023 · 2 minute read
 
    Oscar Wilde once said:
 
@@ -80,51 +80,50 @@ Appendix
        vocalizations
 
    Linked mentions
-   [26]Don't specialize, hybridize
-   Specialization is too heavily encouraged as a career path. Becoming a
-   generalist is one alternative, but there is...
-   [27]Buy wisely
+   Don't specialize, hybridize
+   Specialization is too heavily encouraged as a career path. The world
+   needs more hybrid people.
+   Buy wisely
    Whenever I buy things I try to prioritize cost per use. Sometimes I
-   consider other priorities such as...
-   [28]Obsidian Vault Template
-   I use Obsidian to write and take notes. This is my bottom-up approach
-   to note-taking and organizing things...
-   [29]Flexoki
-   Flexoki is an inky color scheme for prose and code. Flexoki is designed
-   for reading and writing on...
+   consider other priorities such as cost per smile, cost...
+   Obsidian Vault Template
+   My personal Obsidian vault template. A bottom-up approach to
+   note-taking and organizing things I am interested in.
+   Flexoki
+   An inky color scheme for prose and code.
 
    You might also enjoy
-     * [30]Buy wisely
-     * [31]Concise explanations accelerate progress
-     * [32]Scars are beautiful
-     * [33]Don't delegate understanding
-     * [34]Nibble and your appetite will grow
-     * [35]How I do my to-dos
-     * [36]Calmness is a superpower
-     * [37]Design is compromise
-     * [38]A little bit every day
+     * [26]Buy wisely
+     * [27]Concise explanations accelerate progress
+     * [28]Scars are beautiful
+     * [29]Choose optimism
+     * [30]Quality software deserves your hard‑earned cash
+     * [31]Don't delegate understanding
+     * [32]Nibble and your appetite will grow
+     * [33]How I do my to-dos
+     * [34]Calmness is a superpower
 
-   [39]Receive my updates
+   [35]Receive my updates
 
-   Follow me via email, [40]RSS, [41]Twitter and [42]other options
+   Follow me via email, [36]RSS, [37]Twitter, and [38]other options
    ____________________ Sign up
 
-   [43]Mastodon
+   [39]Mastodon
 
 References
 
    Visible links:
    1. https://stephango.com/feed.xml
    2. https://stephango.com/feed.json
-   3. file:///
-   4. file:///
-   5. file:///about
-   6. file:///now
-   7. file:///file-over-app
-   8. file:///40-questions
-   9. file:///concise
-  10. file:///in-good-hands
-  11. file:///about
+   3. https://stephango.com/
+   4. https://stephango.com/
+   5. https://stephango.com/about
+   6. https://stephango.com/now
+   7. https://stephango.com/file-over-app
+   8. https://stephango.com/40-questions
+   9. https://stephango.com/concise
+  10. https://stephango.com/in-good-hands
+  11. https://stephango.com/about
   12. https://www.youtube.com/@ScottYuJan
   13. https://www.youtube.com/watch?v=3GBPYRG9jM0
   14. https://www.youtube.com/@2ynthetic
@@ -139,24 +138,24 @@ References
   23. https://teenage.engineering/
   24. https://scandinavianmind.com/feature/human-touch-interview-jesper-kouthoofd-teenage-engineering
   25. https://en.wikipedia.org/wiki/La_Linea_(TV_series)
-  26. file:///hybridize
-  27. file:///buy-wisely
-  28. file:///vault
-  29. file:///flexoki
-  30. file:///buy-wisely
-  31. file:///concise
-  32. file:///scars
-  33. file:///understand
-  34. file:///nibble
-  35. file:///todos
-  36. file:///calmness
-  37. file:///design-is-compromise
-  38. file:///a-little-bit-every-day
-  39. file:///subscribe
-  40. file:///feed.xml
-  41. https://twitter.com/kepano
-  42. file:///subscribe
-  43. https://mastodon.social/@kepano
+  26. https://stephango.com/buy-wisely
+  27. https://stephango.com/concise
+  28. https://stephango.com/scars
+  29. https://stephango.com/optimism
+  30. https://stephango.com/quality-software
+  31. https://stephango.com/understand
+  32. https://stephango.com/nibble
+  33. https://stephango.com/todos
+  34. https://stephango.com/calmness
+  35. https://stephango.com/subscribe
+  36. https://stephango.com/feed.xml
+  37. https://twitter.com/kepano
+  38. https://stephango.com/subscribe
+  39. https://mastodon.social/@kepano
 
    Hidden links:
+  41. https://stephango.com/hybridize
+  42. https://stephango.com/buy-wisely
+  43. https://stephango.com/vault
+  44. https://stephango.com/flexoki
   45. https://twitter.com/kepano

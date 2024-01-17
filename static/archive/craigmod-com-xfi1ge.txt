@@ -2,12 +2,11 @@
 
    [2]About Craig
    [3]Books & [4]Essays
-   [5]Talks
-   [6]Membership
-   [7]Shop!
-   [8]“Special Projects” Membership
-   Podcasts:🎧   [9]On Margins & [10]SW945
-   Newsletters:📩   [11]Roden & [12]Ridgeline
+   [5]Membership
+   [6]Shop!
+   [7]“Special Projects” Membership
+   Podcasts:🎧   [8]On Margins & [9]SW945
+   [10]Newsletters:📩   [11]Roden & [12]Ridgeline
 
    Header image for Electric Bike, Stupid Love of My Life
 
@@ -298,23 +297,26 @@ Reflections on eighteen months of electric bike ownership
    [23]Craig Mod, his head, floating at the bottom of the article
 
    [24]Craig Mod is a writer and photographer based in Japan. He's the
-   author of [25]Kissa by Kissa and a MacDowell, Ragdale, and VCCA writing
-   fellow. His essays and articles have appeared in Eater, The Atlantic,
+   author of the books [25]Things Become Other Things and [26]Kissa by
+   Kissa and is a MacDowell, Ragdale, and VCCA writing fellow. His essays
+   and articles have appeared in The New York Times, Eater, The Atlantic,
    California Sunday Magazine, Wired, Aeon, New Scientist, Virginia
-   Quarterly Review, The New Yorker, The New York Times, The Morning News,
-   Codex: Journal of Typography, and elsewhere. He writes newsletters, oh
-   yes, [26]newsletters: [27]Roden & [28]Ridgeline.
+   Quarterly Review, The New Yorker, The Morning News, Codex: Journal of
+   Typography, and elsewhere.
 
-   The work on this site is supported in part by [29]paid memberships.
+   He writes newsletters, oh yes, [27]newsletters: [28]Roden &
+   [29]Ridgeline.
 
-   Whatever you do, don't follow @craigmod on [30]Twitter or
-   [31]Instagram.
+   The work on this site is supported in part by [30]paid memberships.
+
+   Whatever you do, don't follow @craigmod on [31]Threads or
+   [32]Instagram.
 
 Subscribe to my newsletters
 
    Join some ~30,000 other subscribers.
-   [32]Roden: photography × literature × tech × film (monthly)
-   [33]Ridgeline: walking × Japan (weekly)
+   [33]Roden: photography × literature × tech × film (monthly)
+   [34]Ridgeline: walking × Japan (weekly)
    Always one-click to unsubscribe.
    ____________________
    [X] Roden (monthly)
@@ -324,30 +326,29 @@ Subscribe to my newsletters
 Popular Essays
 
 
-Pop-Up Walk
+An endless, gritty, very spitty walk
 
-What does a pop-up walk look like?
-
-
-Self-Improvement and the Big Walk
-
-Every day a change to be better
+Good walks benefit from context.
 
 
-Upon this Wrist
+How I Got My Attention Back
 
-A week with Apple Watch
+Technology is commanding our attention in infinite, insurmountable loops. A
+country trip off-grid helped me escape.
 
 
-A Walk is a Tool and a Platform
+Annapurna Moonrise
 
-My talk from Figma's Config conference
+A night on Annapurna basecamp
+
+
+The Leica Q
+
+A six month field test — by Craig Mod
 
    ____________________
 
-   © 2001 - 2023, [34]Craig Mod
-
-   [35]Twitter    [36]Instagram    [37]Mastodon    [38]RSS
+   Produced / written / maintained by [35]Craig Mod since 2002
 
 References
 
@@ -356,12 +357,12 @@ References
    2. https://craigmod.com/about/
    3. https://craigmod.com/books/
    4. https://craigmod.com/essays/
-   5. https://craigmod.com/talks/
-   6. https://craigmod.com/membership/
-   7. https://shop.specialprojects.jp/
-   8. https://craigmod.com/membership/
-   9. https://craigmod.com/onmargins/
-  10. https://sw945.craigmod.com/
+   5. https://craigmod.com/membership/
+   6. https://shop.specialprojects.jp/
+   7. https://craigmod.com/membership/
+   8. https://craigmod.com/onmargins/
+   9. https://sw945.craigmod.com/
+  10. https://craigmod.com/newsletters/
   11. https://craigmod.com/roden/
   12. https://craigmod.com/ridgeline/
   13. https://craigmod.com/essays/electric_bikes/#so-many-bikes
@@ -376,28 +377,30 @@ References
   22. mailto:me@craigmod.com
   23. https://craigmod.com/about/
   24. https://craigmod.com/about/
-  25. https://shop.specialprojects.jp/products/kissa-by-kissa-4th-ed
-  26. https://craigmod.com/newsletters
-  27. https://craigmod.com/explorers/
-  28. https://craigmod.com/ridgeline/
-  29. https://craigmod.com/membership/
-  30. http://twitter.com/craigmod/
-  31. http://instagram.com/craigmod
-  32. https://craigmod.com/roden/
-  33. https://craigmod.com/ridgeline/
-  34. https://craigmod.com/about/
-  35. http://twitter.com/craigmod
-  36. http://instagram.com/craigmod
-  37. https://mastodon.social/@craigmod
-  38. https://craigmod.com/index.xml
+  25. https://shop.specialprojects.jp/products/things-become-other-things-1st-ed/
+  26. https://shop.specialprojects.jp/products/kissa-by-kissa-4th-ed
+  27. https://craigmod.com/newsletters
+  28. https://craigmod.com/explorers/
+  29. https://craigmod.com/ridgeline/
+  30. https://craigmod.com/membership/
+  31. http://threads.net/@craigmod/
+  32. http://instagram.com/craigmod
+  33. https://craigmod.com/roden/
+  34. https://craigmod.com/ridgeline/
+  35. https://craigmod.com/about/
 
    Hidden links:
-  40. https://craigmod.com/
-  41. https://twitter.com/craigmod/
-  42. https://instagram.com/craigmod/
-  43. mailto:?subject=From%20craigmod.com:%20Electric%20Bike%2c%20Stupid%20Love%20of%20My%20Life&body=I%20think%20you%20might%20enjoy%20this%20article:%0D%0Ahttps%3a%2f%2fcraigmod.com%2fessays%2felectric_bikes%2f%20%0D%0A
-  44. https://twitter.com/intent/tweet?text=Electric%20Bike,%20Stupid%20Love%20of%20My%20Life+https://craigmod.com/essays/electric_bikes/
-  45. https://craigmod.com/ridgeline/047/
-  46. https://craigmod.com/ridgeline/091/
-  47. https://craigmod.com/essays/upon_this_wrist/
-  48. https://craigmod.com/ridgeline/058/
+  37. https://craigmod.com/
+  38. https://threads.net/@craigmod/
+  39. https://instagram.com/craigmod/
+  40. https://mastodon.social/@craigmod
+  41. mailto:?subject=From%20craigmod.com:%20Electric%20Bike%2c%20Stupid%20Love%20of%20My%20Life&body=I%20think%20you%20might%20enjoy%20this%20article:%0D%0Ahttps%3a%2f%2fcraigmod.com%2fessays%2felectric_bikes%2f%20%0D%0A
+  42. https://twitter.com/intent/tweet?text=Electric%20Bike,%20Stupid%20Love%20of%20My%20Life+https://craigmod.com/essays/electric_bikes/
+  43. https://craigmod.com/ridgeline/001/
+  44. https://craigmod.com/essays/how_i_got_my_attention_back/
+  45. https://craigmod.com/journal/annapurna_moonrise/
+  46. https://craigmod.com/essays/leica_q/
+  47. https://threads.net/@craigmod/
+  48. https://instagram.com/craigmod/
+  49. https://mastodon.social/@craigmod
+  50. https://craigmod.com/index.xml

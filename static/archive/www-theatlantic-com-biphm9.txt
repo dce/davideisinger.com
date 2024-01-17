@@ -64,17 +64,16 @@ The Print Edition
 More From Planet
 
    [43]Explore This Series
-     * Satellite imagery provided by GOES-16 satellite shows Hurricane
-       Otis making landfall near Acapulco, Mexico, as a Category 5 storm.
-       It's bright red in the center.
-    Hurricane Otis Was Too Fast for the Forecasters[44]Zoë Schlanger
-     * Cropped images of fruit and bread in a grid
-    The Great Underappreciated Driver of Climate Change[45]Alexandra Frost
-     * White threads of mycelium growing on tree bark.
-    The Invisible Force Keeping Carbon in the Ground[46]Zoë Schlanger
-     * A collage of 12 photographs of e-bikes against a light-pink
-       background
-    The Real Reason You Should Get an E-bike[47]Michael Thomas
+     * A person holds an umbrella in the wet and snowy city
+    The Threshold at Which Snow Starts Irreversibly Disappearing[44]Zoë
+       Schlanger
+     * Color photo of an arctic vole resting on small tundra plants
+    A Major Climate Force Has Been Ignored for Decades[45]Bathsheba Demuth
+     * Photos of flooding, as well as of family Polaroids and heirlooms,
+       arranged in a 3 x 4 grid and washed blue, against a blue background
+    Pack Your Memories Into Your Disaster Bag[46]Ayurella Horn-Muller
+     * A man works on an electric car
+    Electric Cars Are Already Upending America[47]Saahil Desai
 
    [48]Health
 
@@ -89,7 +88,7 @@ The Real Reason You Should Get an E-bike
    Illustration by The Atlantic. Source: Getty.
    October 20, 2023
    (BUTTON) Share
-   [50]Saved Stories (BUTTON) Save
+   (BUTTON) Save
 
    Today’s happiness and personal-finance gurus have no shortage of advice
    for living a good life. Meditate daily. Sleep for eight hours a night.
@@ -100,20 +99,20 @@ The Real Reason You Should Get an E-bike
    A year ago, my wife and I sold one of our cars and replaced it with an
    e-bike. As someone who writes about climate change, I knew that I was
    doing something good for the planet. I knew that passenger vehicles are
-   responsible for much of our greenhouse-gas emissions—[51]16 percent in
+   responsible for much of our greenhouse-gas emissions—[50]16 percent in
    the U.S., to be exact—and that the pollution spewing from gas-powered
    cars doesn’t just heat up the planet; it could increase the risk of
-   [52]premature death. I also knew that electric cars were an imperfect
+   [51]premature death. I also knew that electric cars were an imperfect
    fix: Though they’re responsible for less carbon pollution than gas
    cars, even when powered by today’s dirty electric grid, their supply
    chain is carbon intensive, and many of the materials needed to produce
    their batteries are, in some cases, mined via a process that
-   [53]brutally exploits workers and harms [54]ecosystems and sacred
+   [52]brutally exploits workers and harms [53]ecosystems and sacred
    Indigenous lands. An e-bike’s comparatively tiny battery means less
    electricity, fewer emissions, fewer resources. They are clearly better
    for the planet than cars of any kind.
 
-   [55]Read: America is missing out on the biggest EV boom of all
+   [54]Read: America is missing out on the biggest EV boom of all
 
    I knew all of this. But I also viewed getting rid of my car as a
    sacrifice—something for the militant and reckless, something that
@@ -125,7 +124,7 @@ The Real Reason You Should Get an E-bike
    I was very wrong. The first thing I noticed was the savings. Between
    car payments, insurance, maintenance, and gas, a car-centered lifestyle
    is expensive. According to AAA, after fuel, maintenance, insurance,
-   taxes, and the like, owning and driving a new car in America costs[56]
+   taxes, and the like, owning and driving a new car in America costs[55]
    $10,728 a year. My e-bike, by comparison, cost $2,000 off the rack and
    has near-negligible recurring charges. After factoring in maintenance
    and a few bucks a month in electricity costs, I estimate that we’ll
@@ -134,7 +133,7 @@ The Real Reason You Should Get an E-bike
    The actual experience of riding to work each day over the past year has
    been equally surprising. Before selling our car, I worried most about
    riding in the cold winter months. But I quickly learned that, as the
-   saying goes, there is [57]no bad weather, only bad gear. I wear gloves,
+   saying goes, there is [56]no bad weather, only bad gear. I wear gloves,
    warm socks, a balaclava, and a ski jacket when I ride, and am almost
    never too cold.
 
@@ -146,7 +145,7 @@ The Real Reason You Should Get an E-bike
    days—days when she wouldn’t want to be in a car, either. “Those days
    are honestly a mess even on the roads,” she said.
 
-   And though I, like [58]many would-be cyclists, was worried about
+   And though I, like [57]many would-be cyclists, was worried about
    arriving at the office sweaty in hotter months, the e-bike solved my
    problem. Even when it was 90 degrees outside, I didn’t break a sweat,
    thanks to my bike’s pedal-assist mode. If I’m honest, sometimes I
@@ -166,14 +165,14 @@ The Real Reason You Should Get an E-bike
    introduced e-bikes to its fleet, ridership tripled, she told me, from
    500,000 to 1.5 million people.)
 
-   [59]Read: How to get fewer people to commute in cars
+   [58]Read: How to get fewer people to commute in cars
 
    But biking to work wasn’t just not unpleasant—it was downright
    enjoyable. It made me feel happier and healthier; I arrived to work a
    little more buoyant for having spent the morning in fresh air rather
-   than traffic. [60]Study after [61]study shows that people with longer
+   than traffic. [59]Study after [60]study shows that people with longer
    car commutes are more likely to experience poor health outcomes and
-   lower personal well-being—and that cyclists are the [62]happiest
+   lower personal well-being—and that cyclists are the [61]happiest
    commuters. One day, shortly after selling our car, I hopped on my bike
    after a stressful day at work and rode home down a street edged with
    changing fall leaves. I felt more connected to the physical environment
@@ -191,19 +190,19 @@ The Real Reason You Should Get an E-bike
    lanes, are the norm, it’s unrealistic to expect e-bikes to replace cars
    in the way that the Model T replaced horses. But we don’t need everyone
    to ride an e-bike to work to make a big dent in our carbon-pollution
-   problem. [63]A recent study found that if 5 percent of commuters were
+   problem. [62]A recent study found that if 5 percent of commuters were
    to switch to e-bikes as their mode of transportation, emissions would
    fall by 4 percent. As an individual, you don’t even need to sell your
    car to reduce your carbon footprint significantly. In 2021, half of all
    trips in the United States were less than three miles, according to
-   [64]the Bureau of Transportation Statistics. Making those short trips
+   [63]the Bureau of Transportation Statistics. Making those short trips
    on an e-bike instead of in a car would likely save people money, cut
    their emissions, and improve their health and happiness.
 
    E-bikes are such a no-brainer for individuals, and for the collective,
-   that state and local governments [65]are now subsidizing them. In May,
+   that state and local governments [64]are now subsidizing them. In May,
    I asked Will Toor, the executive director of the Colorado Energy
-   Office, to explain the state’s rationale for [66]a newly passed
+   Office, to explain the state’s rationale for [65]a newly passed
    incentive that offers residents $450 to get an e-bike. He dutifully
    ticked through the environmental benefits and potential cost savings
    for low-income people. Then he surprised me: The legislation, he added,
@@ -215,79 +214,78 @@ The Real Reason You Should Get an E-bike
 References
 
    Visible links:
-   1. file:///feed/all/
-   2. file:///feed/best-of/
-   3. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L8425-8528TMP.html#main-content
-   4. file:///most-popular/
-   5. file:///latest/
-   6. file:///newsletters/
-   7. file:///politics/
-   8. file:///ideas/
+   1. https://www.theatlantic.com/feed/all/
+   2. https://www.theatlantic.com/feed/best-of/
+   3. https://www.theatlantic.com/health/archive/2023/10/reasons-to-get-e-bike-emissions-climate-change-benefits/675716/#main-content
+   4. https://www.theatlantic.com/most-popular/
+   5. https://www.theatlantic.com/latest/
+   6. https://www.theatlantic.com/newsletters/
+   7. https://www.theatlantic.com/politics/
+   8. https://www.theatlantic.com/ideas/
    9. https://www.theatlantic.com/category/fiction/
-  10. file:///technology/
-  11. file:///science/
+  10. https://www.theatlantic.com/technology/
+  11. https://www.theatlantic.com/science/
   12. https://www.theatlantic.com/photo/
-  13. file:///business/
-  14. file:///culture/
-  15. file:///projects/planet/
-  16. file:///international/
-  17. file:///books/
-  18. file:///podcasts/
-  19. file:///health/
-  20. file:///education/
-  21. file:///projects/
+  13. https://www.theatlantic.com/business/
+  14. https://www.theatlantic.com/culture/
+  15. https://www.theatlantic.com/projects/planet/
+  16. https://www.theatlantic.com/international/
+  17. https://www.theatlantic.com/books/
+  18. https://www.theatlantic.com/podcasts/
+  19. https://www.theatlantic.com/health/
+  20. https://www.theatlantic.com/education/
+  21. https://www.theatlantic.com/projects/
   22. https://www.theatlantic.com/category/features/
-  23. file:///family/
-  24. file:///events/
+  23. https://www.theatlantic.com/family/
+  24. https://www.theatlantic.com/events/
   25. https://www.theatlantic.com/category/washington-week-atlantic/
   26. https://www.theatlantic.com/progress/
-  27. file:///newsletters/
-  28. file:///archive/
-  29. file:///free-daily-crossword-puzzle/
-  30. file:///magazine/
-  31. file:///magazine/backissues/
+  27. https://www.theatlantic.com/newsletters/
+  28. https://www.theatlantic.com/archive/
+  29. https://www.theatlantic.com/free-daily-crossword-puzzle/
+  30. https://www.theatlantic.com/magazine/
+  31. https://www.theatlantic.com/magazine/backissues/
   32. https://accounts.theatlantic.com/products/gift
-  33. file:///projects/dear-therapist/
-  34. file:///free-daily-crossword-puzzle/
-  35. file:///archive/
+  33. https://www.theatlantic.com/projects/dear-therapist/
+  34. https://www.theatlantic.com/free-daily-crossword-puzzle/
+  35. https://www.theatlantic.com/archive/
   36. https://accounts.theatlantic.com/accounts/subscription/
-  37. file:///most-popular/
-  38. file:///latest/
-  39. file:///newsletters/
+  37. https://www.theatlantic.com/most-popular/
+  38. https://www.theatlantic.com/latest/
+  39. https://www.theatlantic.com/newsletters/
   40. https://accounts.theatlantic.com/login/
   41. https://www.theatlantic.com/subscribe/navbar/
   42. https://www.theatlantic.com/projects/planet/
   43. https://www.theatlantic.com/projects/planet/
   44. https://www.theatlantic.com/author/zoe-schlanger/
-  45. https://www.theatlantic.com/author/alexandra-frost/
-  46. https://www.theatlantic.com/author/zoe-schlanger/
-  47. https://www.theatlantic.com/author/michael-thomas/
+  45. https://www.theatlantic.com/author/bathsheba-demuth/
+  46. https://www.theatlantic.com/author/ayurella-horn-muller/
+  47. https://www.theatlantic.com/author/saahil-desai/
   48. https://www.theatlantic.com/health/
   49. https://www.theatlantic.com/author/michael-thomas/
-  50. https://accounts.theatlantic.com/accounts/saved-stories/
-  51. https://energy.mit.edu/news/us-passenger-cars/
-  52. https://qz.com/135509/more-americans-die-from-car-pollution-than-car-accidents
-  53. https://www.npr.org/sections/goatsandsoda/2023/02/01/1152893248/red-cobalt-congo-drc-mining-siddharth-kara
-  54. https://www.nrdc.org/stories/lithium-mining-leaving-chiles-indigenous-communities-high-and-dry-literally
-  55. https://www.theatlantic.com/science/archive/2023/04/electric-ev-rickshaw-sales-climate-change/673629/
-  56. https://newsroom.aaa.com/2022/08/annual-cost-of-new-car-ownership-crosses-10k-mark/
-  57. https://www.theatlantic.com/health/archive/2021/01/how-socialize-outside-winter/617520/
-  58. https://www.sciencedirect.com/science/article/abs/pii/S2214140518306054
-  59. https://www.theatlantic.com/business/archive/2018/02/seattle-car-commute/553589/
-  60. https://travelbehaviour.files.wordpress.com/2017/10/caw-summaryreport-onlineedition.pdf
-  61. https://www.reuters.com/article/us-commuting/long-commutes-may-be-bad-for-health-study-idUKBRE8470U520120508
-  62. https://www.sciencedirect.com/science/article/abs/pii/S2214140518305255
-  63. https://peopleforbikes.cdn.prismic.io/peopleforbikes/e3dad6f7-d81b-4e59-9208-b012406ffa8e_E-bike-Potential-Paper-05_15_19-Final.pdf
-  64. https://www.energy.gov/eere/vehicles/articles/fotw-1230-march-21-2022-more-half-all-daily-trips-were-less-three-miles-2021#:~:text=A research study for the,were greater than 50 miles.
-  65. https://electrek.co/2023/02/19/free-electric-bikes-rebates-us-cities-and-states/
-  66. https://www.cpr.org/2023/08/10/colorado-ebike-rebates-how-to-qualify/
+  50. https://energy.mit.edu/news/us-passenger-cars/
+  51. https://qz.com/135509/more-americans-die-from-car-pollution-than-car-accidents
+  52. https://www.npr.org/sections/goatsandsoda/2023/02/01/1152893248/red-cobalt-congo-drc-mining-siddharth-kara
+  53. https://www.nrdc.org/stories/lithium-mining-leaving-chiles-indigenous-communities-high-and-dry-literally
+  54. https://www.theatlantic.com/science/archive/2023/04/electric-ev-rickshaw-sales-climate-change/673629/
+  55. https://newsroom.aaa.com/2022/08/annual-cost-of-new-car-ownership-crosses-10k-mark/
+  56. https://www.theatlantic.com/health/archive/2021/01/how-socialize-outside-winter/617520/
+  57. https://www.sciencedirect.com/science/article/abs/pii/S2214140518306054
+  58. https://www.theatlantic.com/business/archive/2018/02/seattle-car-commute/553589/
+  59. https://travelbehaviour.files.wordpress.com/2017/10/caw-summaryreport-onlineedition.pdf
+  60. https://www.reuters.com/article/us-commuting/long-commutes-may-be-bad-for-health-study-idUKBRE8470U520120508
+  61. https://www.sciencedirect.com/science/article/abs/pii/S2214140518305255
+  62. https://peopleforbikes.cdn.prismic.io/peopleforbikes/e3dad6f7-d81b-4e59-9208-b012406ffa8e_E-bike-Potential-Paper-05_15_19-Final.pdf
+  63. https://www.energy.gov/eere/vehicles/articles/fotw-1230-march-21-2022-more-half-all-daily-trips-were-less-three-miles-2021#:~:text=A research study for the,were greater than 50 miles.
+  64. https://electrek.co/2023/02/19/free-electric-bikes-rebates-us-cities-and-states/
+  65. https://www.cpr.org/2023/08/10/colorado-ebike-rebates-how-to-qualify/
 
    Hidden links:
-  68. file://localhost/
-  69. file://localhost/magazine/
-  70. file://localhost/
-  71. file://localhost/
-  72. https://www.theatlantic.com/science/archive/2023/10/hurricane-otis-forecast-warming-oceans/675773/
-  73. https://www.theatlantic.com/health/archive/2023/10/american-families-have-massive-food-waste-problem/675744/
-  74. https://www.theatlantic.com/science/archive/2023/10/tree-survival-fungi-corsica-climate-change/675739/
-  75. https://www.theatlantic.com/health/archive/2023/10/reasons-to-get-e-bike-emissions-climate-change-benefits/675716/
+  67. https://www.theatlantic.com/
+  68. https://www.theatlantic.com/magazine/
+  69. https://www.theatlantic.com/
+  70. https://www.theatlantic.com/
+  71. https://www.theatlantic.com/science/archive/2024/01/winter-snow-loss-climate-change/677078/
+  72. https://www.theatlantic.com/science/archive/2024/01/alaska-arctic-voles-carbon-source-climate-change/677014/
+  73. https://www.theatlantic.com/health/archive/2023/12/disaster-kit-loss-memories-mental-health/676961/
+  74. https://www.theatlantic.com/technology/archive/2023/12/tesla-chatgpt-most-important-technology/676980/

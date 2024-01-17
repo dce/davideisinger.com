@@ -463,12 +463,16 @@ Why an era of enthusiast programmers is coming to an end
    a constant, so planning for a future that looks different than the past
    is usually time well spent.
 
-   What challenges do you see in this generational transition? I’d love to
-   [54]hear from you! If you enjoyed this piece and want to keep up with
-   what myself and the other agents are up to, you should check out our
-   [55]monthly newsletter.
+   What challenges do you see in this generational transition? [54]Join
+   the conversation on our N.E.A.T community
 
-[56]Justin Searls
+   Not a N.E.A.T. community member yet? [55]More info.
+
+   If you enjoyed this piece and want to keep up with what myself and the
+   other agents are up to, you should check out our [56]monthly
+   newsletter.
+
+[57]Justin Searls
 
    An icon of a human figure Status
           Double Agent
@@ -479,11 +483,11 @@ Why an era of enthusiast programmers is coming to an end
    An icon of a map marker Location
           Orlando, FL
 
-   [57]Twitter [58]Mastodon [59]Github [60]LinkedIn [61]Website
+   [58]Twitter [59]Mastodon [60]Github [61]LinkedIn [62]Website
 
 Related posts:
 
-[62]How to tell if AI threatens YOUR job
+[63]How to tell if AI threatens YOUR job
 
    Can ChatGPT help do your job? If so, how can you be sure AI won't
    eventually replace you? Spot whether your job is at risk and what you
@@ -493,13 +497,13 @@ Related posts:
           March 14, 2023
 
    An icon of a human figure Authors
-          [63]Justin Searls
+          [64]Justin Searls
 
    An icon of a paper organzier Categories
-          [64]Industry
-          [65]Career
+          [65]Industry
+          [66]Career
 
-[66]Never Staff to the Peak
+[67]Never Staff to the Peak
 
    For a decade, engineering leaders were taught to solve every problem
    with more full-time hires. There was always a better solution. Are you
@@ -509,13 +513,13 @@ Related posts:
           April 3, 2023
 
    An icon of a human figure Authors
-          [67]Justin Searls
+          [68]Justin Searls
 
    An icon of a paper organzier Categories
-          [68]Industry
-          [69]Leadership
+          [69]Industry
+          [70]Leadership
 
-[70]How my experience as an engineer made me a better recruiter
+[71]How my experience as an engineer made me a better recruiter
 
    How similar are engineers and recruiters? Turns out a lot. A developer
    turned recruiter adapted from writing code to recruit those who write
@@ -525,29 +529,29 @@ Related posts:
           March 20, 2023
 
    An icon of a human figure Authors
-          [71]Colleen Leonard
+          [72]Colleen Leonard
 
    An icon of a paper organzier Categories
-          [72]Recruitment
-          [73]Community
+          [73]Recruitment
+          [74]Community
 
 Looking for developers? Work with people who care about what you care about.
 
 We level up teams striving to ship great code.
 
-   [74]Let's talk
+   [75]Let's talk
 
-   [75]Home [76]Agency [77]Services [78]Careers [79]Blog [80]Contact
+   [76]Home [77]Agency [78]Services [79]Careers [80]Blog [81]Contact
 
 
-   [81]Mastodon [82]GitHub [83]LinkedIn [84]Twitter
+   [82]Mastodon [83]GitHub [84]LinkedIn [85]Twitter
 
-   [85]614.349.4279
-   [86]hello@testdouble.com
-   [87]Privacy Policy
+   [86]614.349.4279
+   [87]hello@testdouble.com
+   [88]Privacy Policy
    Founded in Columbus, OH
 
-[88]Test Double
+[89]Test Double
 
 References
 
@@ -556,11 +560,11 @@ References
    3. https://testdouble.com/agency
    4. https://testdouble.com/services
    5. https://testdouble.com/careers
-   6. file:///
+   6. https://blog.testdouble.com/
    7. https://testdouble.com/contact
-   8. file:///
-   9. file:///posts/
-  10. file:///authors/justin-searls/
+   8. https://blog.testdouble.com/
+   9. https://blog.testdouble.com/posts/
+  10. https://blog.testdouble.com/authors/justin-searls/
   11. https://sorbet.org/
   12. https://github.com/testdouble/mocktail
   13. https://github.com/testdouble/mocktail/pull/22
@@ -568,29 +572,29 @@ References
   15. https://github.com/kddnewton
   16. https://github.com/jez
   17. mailto:justin@testdouble.com
-  18. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12618-6018TMP.html#what-makes-me-special
+  18. https://blog.testdouble.com/posts/2023-07-12-the-looming-demise-of-the-10x-developer/#what-makes-me-special
   19. https://www.crowe.com/
   20. https://www.vbulletin.com/
   21. https://en.wikipedia.org/wiki/Mad_Libs
-  22. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12618-6018TMP.html#an-aberrant-generation-of-programmers
+  22. https://blog.testdouble.com/posts/2023-07-12-the-looming-demise-of-the-10x-developer/#an-aberrant-generation-of-programmers
   23. https://en.wikipedia.org/wiki/The_Big_Bang_Theory
   24. https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)
   25. https://www.npr.org/transcripts/356944145
   26. https://nces.ed.gov/programs/digest/d12/tables/dt12_349.asp
-  27. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12618-6018TMP.html#inter-generational-conflict-is-brewing
-  28. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12618-6018TMP.html#passion
+  27. https://blog.testdouble.com/posts/2023-07-12-the-looming-demise-of-the-10x-developer/#inter-generational-conflict-is-brewing
+  28. https://blog.testdouble.com/posts/2023-07-12-the-looming-demise-of-the-10x-developer/#passion
   29. https://starbreaker.org/blog/programmer-passion-considered-harmful/index.html
   30. https://www.hotjar.com/blog/the-passion-fallacy/
   31. https://web.archive.org/web/20160304021738/http://www.gamasutra.com/view/feature/6523/the_designers_notebook_passion_.php?print=1
   32. https://avdi.codes/the-moderately-enthusiastic-programmer/
   33. https://philippe.bourgau.net/is-there-any-room-for-the-not-passionate-developer/
   34. https://exceptionnotfound.net/passion-not-required-its-ok-to-only-program-for-a-paycheck/
-  35. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12618-6018TMP.html#craftsmanship
+  35. https://blog.testdouble.com/posts/2023-07-12-the-looming-demise-of-the-10x-developer/#craftsmanship
   36. https://scna.softwarecraftsmanship.org/
   37. http://manifesto.softwarecraftsmanship.org/
   38. https://en.wikipedia.org/wiki/Extreme_programming
   39. https://engineerscanada.ca/become-an-engineer/overview-of-licensing-process
-  40. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12618-6018TMP.html#10x-developers
+  40. https://blog.testdouble.com/posts/2023-07-12-the-looming-demise-of-the-10x-developer/#10x-developers
   41. https://jasoncrawford.org/10x-engineers
   42. https://web.archive.org/web/20131205042721/https://medium.com/about-work/6aedba30ecfe
   43. https://networkingnerd.net/2019/07/18/i-was-a-10x-engineer-and-im-sorry/
@@ -603,39 +607,40 @@ References
   50. https://dl.acm.org/doi/10.1145/362851.362858
   51. https://en.wikipedia.org/wiki/The_Mythical_Man-Month
   52. https://www.inc.com/jeff-haden/why-google-quietly-uses-power-law-rule-to-pay-its-superstar-employees-unfairly.html
-  53. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12618-6018TMP.html#what-do-we-do-with-this
-  54. mailto:justin@testdouble.com
-  55. https://testdouble.com/newsletter
-  56. file:///authors/justin-searls/
-  57. https://twitter.com/searls
-  58. https://mastodon.social/@searls
-  59. https://github.com/searls
-  60. https://linkedin.com/in/searls
-  61. https://justin.searls.co/
-  62. file:///posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/
-  63. file:///authors/justin-searls/
-  64. file:///categories/industry
-  65. file:///categories/career
-  66. file:///posts/2023-04-03-never-staff-to-the-peak/
-  67. file:///authors/justin-searls/
-  68. file:///categories/industry
-  69. file:///categories/leadership
-  70. file:///posts/2023-03-20-how-my-experience-as-an-engineer-made-me-a-better-recruiter/
-  71. file:///authors/colleen-leonard/
-  72. file:///categories/recruitment
-  73. file:///categories/community
-  74. https://link.testdouble.com/blog-cta-sales
-  75. https://testdouble.com/
-  76. https://testdouble.com/agency
-  77. https://testdouble.com/services
-  78. https://testdouble.com/careers
-  79. file:///
-  80. https://testdouble.com/contact
-  81. https://mastodon.social/@testdouble
-  82. https://github.com/testdouble
-  83. https://www.linkedin.com/company/testdouble
-  84. https://twitter.com/testdouble
-  85. tel:+16143494279
-  86. mailto:hello@testdouble.com
-  87. file://testdouble.com/privacy-policy
-  88. file://testdouble.com/
+  53. https://blog.testdouble.com/posts/2023-07-12-the-looming-demise-of-the-10x-developer/#what-do-we-do-with-this
+  54. https://forum.neat.town/t/the-looming-demise-of-the-10x-developer/91
+  55. https://testdouble.com/neat
+  56. https://testdouble.com/newsletter
+  57. https://blog.testdouble.com/authors/justin-searls/
+  58. https://twitter.com/searls
+  59. https://mastodon.social/@searls
+  60. https://github.com/searls
+  61. https://linkedin.com/in/searls
+  62. https://justin.searls.co/
+  63. https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/
+  64. https://blog.testdouble.com/authors/justin-searls/
+  65. https://blog.testdouble.com/categories/industry
+  66. https://blog.testdouble.com/categories/career
+  67. https://blog.testdouble.com/posts/2023-04-03-never-staff-to-the-peak/
+  68. https://blog.testdouble.com/authors/justin-searls/
+  69. https://blog.testdouble.com/categories/industry
+  70. https://blog.testdouble.com/categories/leadership
+  71. https://blog.testdouble.com/posts/2023-03-20-how-my-experience-as-an-engineer-made-me-a-better-recruiter/
+  72. https://blog.testdouble.com/authors/colleen-leonard/
+  73. https://blog.testdouble.com/categories/recruitment
+  74. https://blog.testdouble.com/categories/community
+  75. https://link.testdouble.com/blog-cta-sales
+  76. https://testdouble.com/
+  77. https://testdouble.com/agency
+  78. https://testdouble.com/services
+  79. https://testdouble.com/careers
+  80. https://blog.testdouble.com/
+  81. https://testdouble.com/contact
+  82. https://mastodon.social/@testdouble
+  83. https://github.com/testdouble
+  84. https://www.linkedin.com/company/testdouble
+  85. https://twitter.com/testdouble
+  86. tel:+16143494279
+  87. mailto:hello@testdouble.com
+  88. https://testdouble.com/privacy-policy
+  89. https://testdouble.com/

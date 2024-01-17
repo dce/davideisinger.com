@@ -14,32 +14,31 @@
    [8]Search
 
      * [9]The Latest
-     * [10]2023 in Review
-     * [11]News
-     * [12]Books & Culture
-     * [13]Fiction & Poetry
-     * [14]Humor & Cartoons
-     * [15]Magazine
-     * [16]Puzzles & Games
-     * [17]Video
-     * [18]Podcasts
-     * [19]Goings On
-     * [20]Shop
+     * [10]News
+     * [11]Books & Culture
+     * [12]Fiction & Poetry
+     * [13]Humor & Cartoons
+     * [14]Magazine
+     * [15]Puzzles & Games
+     * [16]Video
+     * [17]Podcasts
+     * [18]Goings On
+     * [19]Shop
 
    (BUTTON) Open Navigation Menu
 
    Find anything you save across the site in your account
    (BUTTON) Close Alert
-   [21]The New Yorker
+   [20]The New Yorker
 
-   [22]Personal History
+   [21]Personal History
 
 A Coder Considers the Waning Days of the Craft
 
    Coding has always felt to me like an endlessly deep and rich domain.
    Now I find myself wanting to write a eulogy for it.
 
-   By [23]James Somers
+   By [22]James Somers
    November 13, 2023
      *
      *
@@ -83,9 +82,9 @@ A Coder Considers the Waning Days of the Craft
    of date; the serious coding was left to me. For the new crossword
    project, though, Ben had introduced a third party. He’d signed up for a
    ChatGPT Plus subscription and was using GPT-4 as a coding assistant.
-   [24]More on A.I.
+   [23]More on A.I.
 
-   [25]Sign up for The New Yorker’s weekly Science & Technology
+   [24]Sign up for The New Yorker’s weekly Science & Technology
    newsletter.
 
    Something strange started happening. Ben and I would talk about a bit
@@ -284,7 +283,7 @@ A Coder Considers the Waning Days of the Craft
    freelance artists to make their own Web sites just by clicking around.
    For professional coders, a tranche of high-paying, relatively
    low-effort work disappeared.
-   [26]“I should have known he has absolutely no morals—Ive seen how he
+   [25]“I should have known he has absolutely no morals—Ive seen how he
    loads a dishwasher.”
    “I should have known he has absolutely no morals—I’ve seen how he loads
    a dishwasher.”
@@ -507,24 +506,24 @@ A Coder Considers the Waning Days of the Craft
    as black boxes. I shouldn’t worry that the era of coding is winding
    down. Hacking is forever. ♦
 
-   Published in the print edition of the [27]November 20, 2023, issue,
+   Published in the print edition of the [26]November 20, 2023, issue,
    with the headline “Begin End.”
 
 More Science and Technology
 
-     * Can we [28]stop runaway A.I.?
+     * Can we [27]stop runaway A.I.?
      * Saving the climate will depend on blue-collar workers. Can we train
-       enough of them [29]before time runs out?
-     * There are ways of controlling A.I.—but first we [30]need to stop
+       enough of them [28]before time runs out?
+     * There are ways of controlling A.I.—but first we [29]need to stop
        mythologizing it.
-     * A security camera [31]for the entire planet.
-     * What’s the point of [32]reading writing by humans?
-     * A heat shield for [33]the most important ice on Earth.
-     * The climate solutions [34]we can’t live without.
+     * A security camera [30]for the entire planet.
+     * What’s the point of [31]reading writing by humans?
+     * A heat shield for [32]the most important ice on Earth.
+     * The climate solutions [33]we can’t live without.
 
-   [35]Sign up for our daily newsletter to receive the best stories from
+   [34]Sign up for our daily newsletter to receive the best stories from
    The New Yorker.
-   [36]James Somers is a writer and a programmer based in New York.
+   [35]James Somers is a writer and a programmer based in New York.
 
 Weekly
 
@@ -533,90 +532,90 @@ Weekly
    ____________________
    (BUTTON) Sign up
 
-   By signing up, you agree to our [37]User Agreement and [38]Privacy
+   By signing up, you agree to our [36]User Agreement and [37]Privacy
    Policy & Cookie Statement. This site is protected by reCAPTCHA and the
-   Google[39] Privacy Policy and[40] Terms of Service apply.
+   Google[38] Privacy Policy and[39] Terms of Service apply.
 
    Read More
+   [40]
+   The Beach House
+   Fiction
+   The Beach House
    [41]
-   Why Can’t We Quit “The Morning Show”?
-   On Television
-   Why Can’t We Quit “The Morning Show”?
-   [42]
-   Why Can’t We Quit “The Morning Show”?
-   Apple’s glossy experiment in prestige melodrama is utterly baffling—and
-   must-watch TV.
+   The Beach House
+   Her father said that he loved her—he just wasn’t going to leave her the
+   beach house, which to him had become not the beach house at all but, in
+   truth, something else entirely.
 
-   By Inkoo Kang
-   [43]The Man Who “Completed Football”
-   The Sporting Scene
-   The Man Who “Completed Football”
-   [44]
-   The Man Who “Completed Football”
-   Pelly Ruddock Mpanzu, a central midfielder for Luton Town F.C., is the
-   first player to rise from England’s lowest tier of professional soccer
-   to its highest with a single team.
+   By Joy Williams
+   [42]“Crown Heights North”
+   Fiction
+   “Crown Heights North”
+   [43]
+   “Crown Heights North”
+   The dead man decided to try the running app.
 
-   By Simon Akam
-   [45]Why the Godfather of A.I. Fears What He’s Built
-   Profiles
-   Why the Godfather of A.I. Fears What He’s Built
-   [46]
-   Why the Godfather of A.I. Fears What He’s Built
-   Geoffrey Hinton has spent a lifetime teaching computers to learn. Now
-   he worries that artificial brains are better than ours.
+   By Rivka Galchen
+   [44]Can Crosswords Be More Inclusive?
+   Annals of Gaming
+   Can Crosswords Be More Inclusive?
+   [45]
+   Can Crosswords Be More Inclusive?
+   The puzzles spread from the United States across the globe, but the
+   American crossword today doesn’t always reflect the linguistic changes
+   that immigration brings.
 
-   By Joshua Rothman
-   [47]How Jensen Huang’s Nvidia Is Powering the A.I. Revolution
-   Brave New World Dept.
-   How Jensen Huang’s Nvidia Is Powering the A.I. Revolution
-   [48]
-   How Jensen Huang’s Nvidia Is Powering the A.I. Revolution
-   The company’s C.E.O. bet it all on a new kind of chip. Now that Nvidia
-   is one of the biggest companies in the world, what will he do next?
+   By Natan Last
+   [46]Coming of Age at the Dawn of the Social Internet
+   The Weekend Essay
+   Coming of Age at the Dawn of the Social Internet
+   [47]
+   Coming of Age at the Dawn of the Social Internet
+   Online platforms allowed me to cultivate a freer version of myself.
+   Then the digital world began to close off.
 
-   By Stephen Witt
+   By Kyle Chayka
 
-   [49]The New Yorker
+   [48]The New Yorker
 
    (BUTTON) Sections
-     * [50]News
-     * [51]Books & Culture
-     * [52]Fiction & Poetry
-     * [53]Humor & Cartoons
-     * [54]Magazine
-     * [55]Crossword
-     * [56]Video
-     * [57]Podcasts
-     * [58]Archive
-     * [59]Goings On
+     * [49]News
+     * [50]Books & Culture
+     * [51]Fiction & Poetry
+     * [52]Humor & Cartoons
+     * [53]Magazine
+     * [54]Crossword
+     * [55]Video
+     * [56]Podcasts
+     * [57]Archive
+     * [58]Goings On
 
    (BUTTON) More
-     * [60]Customer Care
-     * [61]Shop The New Yorker
-     * [62]Buy Covers and Cartoons
-     * [63]Condé Nast Store
-     * [64]Digital Access
-     * [65]Newsletters
-     * [66]Jigsaw Puzzle
-     * [67]RSS
+     * [59]Customer Care
+     * [60]Shop The New Yorker
+     * [61]Buy Covers and Cartoons
+     * [62]Condé Nast Store
+     * [63]Digital Access
+     * [64]Newsletters
+     * [65]Jigsaw Puzzle
+     * [66]RSS
 
-     * [68]About
-     * [69]Careers
-     * [70]Contact
-     * [71]F.A.Q.
-     * [72]Media Kit
-     * [73]Press
-     * [74]Accessibility Help
+     * [67]About
+     * [68]Careers
+     * [69]Contact
+     * [70]F.A.Q.
+     * [71]Media Kit
+     * [72]Press
+     * [73]Accessibility Help
 
-   © 2023 Condé Nast. All rights reserved. Use of this site constitutes
-   acceptance of our [75]User Agreement and [76]Privacy Policy and Cookie
-   Statement and [77]Your California Privacy Rights. The New Yorker may
+   © 2024 Condé Nast. All rights reserved. Use of this site constitutes
+   acceptance of our [74]User Agreement and [75]Privacy Policy and Cookie
+   Statement and [76]Your California Privacy Rights. The New Yorker may
    earn a portion of sales from products that are purchased through our
    site as part of our Affiliate Partnerships with retailers. The material
    on this site may not be reproduced, distributed, transmitted, cached or
    otherwise used, except with the prior written permission of Condé Nast.
-   [78]Ad Choices
+   [77]Ad Choices
      *
      *
      *
@@ -630,96 +629,95 @@ References
    Visible links:
    1. https://www.newyorker.com/feed/rss
    2. https://www.googletagmanager.com/ns.html?id=GTM-NX5LSK3
-   3. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L38432-7220TMP.html#main-content
-   4. file:///
-   5. file:///newsletters
-   6. file:///account/saved
-   7. file:///auth/initiate?redirectURL=/magazine/2023/11/20/a-coder-considers-the-waning-days-of-the-craft&source=VERSO_NAVIGATION
-   8. file:///search
-   9. file:///latest
-  10. file:///culture/2023-in-review
-  11. file:///news
-  12. file:///culture
-  13. file:///fiction-and-poetry
-  14. file:///humor
-  15. file:///magazine
-  16. file:///crossword-puzzles-and-games
-  17. file:///video
-  18. file:///podcasts
-  19. file:///goings-on
-  20. https://store.newyorker.com/
-  21. file:///
-  22. file:///magazine/personal-history
-  23. file:///contributors/james-somers
+   3. https://www.newyorker.com/magazine/2023/11/20/a-coder-considers-the-waning-days-of-the-craft?currentPage=all#main-content
+   4. https://www.newyorker.com/
+   5. https://www.newyorker.com/newsletters
+   6. https://www.newyorker.com/account/saved
+   7. https://www.newyorker.com/auth/initiate?redirectURL=/magazine/2023/11/20/a-coder-considers-the-waning-days-of-the-craft&source=VERSO_NAVIGATION
+   8. https://www.newyorker.com/search
+   9. https://www.newyorker.com/latest
+  10. https://www.newyorker.com/news
+  11. https://www.newyorker.com/culture
+  12. https://www.newyorker.com/fiction-and-poetry
+  13. https://www.newyorker.com/humor
+  14. https://www.newyorker.com/magazine
+  15. https://www.newyorker.com/crossword-puzzles-and-games
+  16. https://www.newyorker.com/video
+  17. https://www.newyorker.com/podcasts
+  18. https://www.newyorker.com/goings-on
+  19. https://store.newyorker.com/
+  20. https://www.newyorker.com/
+  21. https://www.newyorker.com/magazine/personal-history
+  22. https://www.newyorker.com/contributors/james-somers
+  23. https://www.newyorker.com/newsletter/science-technology
   24. https://www.newyorker.com/newsletter/science-technology
-  25. https://www.newyorker.com/newsletter/science-technology
-  26. https://www.newyorker.com/cartoon/a27287
-  27. file:///magazine/2023/11/20
-  28. file:///science/annals-of-artificial-intelligence/can-we-stop-the-singularity
-  29. file:///news/dept-of-energy/the-great-electrician-shortage
-  30. file:///science/annals-of-artificial-intelligence/there-is-no-ai
-  31. file:///news/annals-of-climate-action/a-security-camera-for-the-planet
-  32. file:///news/our-columnists/whats-the-point-of-reading-writing-by-humans
-  33. file:///news/the-control-of-nature/a-heat-shield-for-the-most-important-ice-on-earth
-  34. file:///news/annals-of-a-warming-planet/the-climate-solutions-we-cant-live-without
-  35. https://www.newyorker.com/newsletter/daily?sourceCode=BottomStories
-  36. file:///contributors/james-somers
-  37. https://www.condenast.com/user-agreement
-  38. https://www.condenast.com/privacy-policy
-  39. https://policies.google.com/privacy
-  40. https://policies.google.com/terms
-  41. https://www.newyorker.com/culture/on-television/why-cant-we-quit-the-morning-show#intcid=_the-new-yorker-bottom-recirc-v2_cdc35741-5fcf-4fa7-807c-c9e46fae6a71_roberta-similarity1
-  42. https://www.newyorker.com/culture/on-television/why-cant-we-quit-the-morning-show#intcid=_the-new-yorker-bottom-recirc-v2_cdc35741-5fcf-4fa7-807c-c9e46fae6a71_roberta-similarity1
-  43. https://www.newyorker.com/sports/sporting-scene/the-man-who-completed-football#intcid=_the-new-yorker-bottom-recirc-v2_cdc35741-5fcf-4fa7-807c-c9e46fae6a71_roberta-similarity1
-  44. https://www.newyorker.com/sports/sporting-scene/the-man-who-completed-football#intcid=_the-new-yorker-bottom-recirc-v2_cdc35741-5fcf-4fa7-807c-c9e46fae6a71_roberta-similarity1
-  45. https://www.newyorker.com/magazine/2023/11/20/geoffrey-hinton-profile-ai#intcid=_the-new-yorker-bottom-recirc-v2_cdc35741-5fcf-4fa7-807c-c9e46fae6a71_roberta-similarity1_fallback_text2vec1
-  46. https://www.newyorker.com/magazine/2023/11/20/geoffrey-hinton-profile-ai#intcid=_the-new-yorker-bottom-recirc-v2_cdc35741-5fcf-4fa7-807c-c9e46fae6a71_roberta-similarity1_fallback_text2vec1
-  47. https://www.newyorker.com/magazine/2023/12/04/how-jensen-huangs-nvidia-is-powering-the-ai-revolution#intcid=_the-new-yorker-bottom-recirc-v2_cdc35741-5fcf-4fa7-807c-c9e46fae6a71_roberta-similarity1_fallback_text2vec1
-  48. https://www.newyorker.com/magazine/2023/12/04/how-jensen-huangs-nvidia-is-powering-the-ai-revolution#intcid=_the-new-yorker-bottom-recirc-v2_cdc35741-5fcf-4fa7-807c-c9e46fae6a71_roberta-similarity1_fallback_text2vec1
-  49. file:///
-  50. file:///news
-  51. file:///culture
-  52. file:///fiction-and-poetry
-  53. file:///humor
-  54. file:///magazine
-  55. file:///crossword-puzzles-and-games
-  56. https://video.newyorker.com/
-  57. file:///podcast
-  58. file:///archive
-  59. file:///goings-on-about-town
-  60. http://w1.buysub.com/servlet/CSGateway?cds_mag_code=NYR
-  61. https://store.newyorker.com/
-  62. https://condenaststore.com/art/new+yorker+covers
-  63. https://condenaststore.com/conde-nast-brand/thenewyorker
-  64. file:///digital-editions
-  65. file:///newsletter
-  66. file:///jigsaw
-  67. file:///about/feeds
-  68. file:///about/us
-  69. file:///about/careers
-  70. file:///about/contact
-  71. file:///about/faq
-  72. https://www.condenast.com/advertising
-  73. file:///about/press
-  74. file:///about/accessibility-help
-  75. https://www.condenast.com/user-agreement/
-  76. http://www.condenast.com/privacy-policy#privacypolicy
-  77. http://www.condenast.com/privacy-policy#privacypolicy-california
-  78. http://www.condenast.com/privacy-policy#privacypolicy-optout
+  25. https://www.newyorker.com/cartoon/a27287
+  26. https://www.newyorker.com/magazine/2023/11/20
+  27. https://www.newyorker.com/science/annals-of-artificial-intelligence/can-we-stop-the-singularity
+  28. https://www.newyorker.com/news/dept-of-energy/the-great-electrician-shortage
+  29. https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai
+  30. https://www.newyorker.com/news/annals-of-climate-action/a-security-camera-for-the-planet
+  31. https://www.newyorker.com/news/our-columnists/whats-the-point-of-reading-writing-by-humans
+  32. https://www.newyorker.com/news/the-control-of-nature/a-heat-shield-for-the-most-important-ice-on-earth
+  33. https://www.newyorker.com/news/annals-of-a-warming-planet/the-climate-solutions-we-cant-live-without
+  34. https://www.newyorker.com/newsletter/daily?sourceCode=BottomStories
+  35. https://www.newyorker.com/contributors/james-somers
+  36. https://www.condenast.com/user-agreement
+  37. https://www.condenast.com/privacy-policy
+  38. https://policies.google.com/privacy
+  39. https://policies.google.com/terms
+  40. https://www.newyorker.com/magazine/2024/01/15/the-beach-house-fiction-joy-williams#intcid=_the-new-yorker-bottom-recirc-v2_79ab568c-4ce6-4a2a-b03a-653b1f80b65b_roberta-similarity1
+  41. https://www.newyorker.com/magazine/2024/01/15/the-beach-house-fiction-joy-williams#intcid=_the-new-yorker-bottom-recirc-v2_79ab568c-4ce6-4a2a-b03a-653b1f80b65b_roberta-similarity1
+  42. https://www.newyorker.com/magazine/2024/01/01/crown-heights-north-fiction-rivka-galchen#intcid=_the-new-yorker-bottom-recirc-v2_79ab568c-4ce6-4a2a-b03a-653b1f80b65b_roberta-similarity1_fallback_text2vec1
+  43. https://www.newyorker.com/magazine/2024/01/01/crown-heights-north-fiction-rivka-galchen#intcid=_the-new-yorker-bottom-recirc-v2_79ab568c-4ce6-4a2a-b03a-653b1f80b65b_roberta-similarity1_fallback_text2vec1
+  44. https://www.newyorker.com/magazine/2023/12/25/can-crosswords-be-more-inclusive#intcid=_the-new-yorker-bottom-recirc-v2_79ab568c-4ce6-4a2a-b03a-653b1f80b65b_roberta-similarity1_fallback_text2vec1
+  45. https://www.newyorker.com/magazine/2023/12/25/can-crosswords-be-more-inclusive#intcid=_the-new-yorker-bottom-recirc-v2_79ab568c-4ce6-4a2a-b03a-653b1f80b65b_roberta-similarity1_fallback_text2vec1
+  46. https://www.newyorker.com/culture/the-weekend-essay/coming-of-age-at-the-dawn-of-the-social-internet#intcid=_the-new-yorker-bottom-recirc-v2_79ab568c-4ce6-4a2a-b03a-653b1f80b65b_roberta-similarity1_fallback_text2vec1
+  47. https://www.newyorker.com/culture/the-weekend-essay/coming-of-age-at-the-dawn-of-the-social-internet#intcid=_the-new-yorker-bottom-recirc-v2_79ab568c-4ce6-4a2a-b03a-653b1f80b65b_roberta-similarity1_fallback_text2vec1
+  48. https://www.newyorker.com/
+  49. https://www.newyorker.com/news
+  50. https://www.newyorker.com/culture
+  51. https://www.newyorker.com/fiction-and-poetry
+  52. https://www.newyorker.com/humor
+  53. https://www.newyorker.com/magazine
+  54. https://www.newyorker.com/crossword-puzzles-and-games
+  55. https://video.newyorker.com/
+  56. https://www.newyorker.com/podcast
+  57. https://www.newyorker.com/archive
+  58. https://www.newyorker.com/goings-on-about-town
+  59. http://w1.buysub.com/servlet/CSGateway?cds_mag_code=NYR
+  60. https://store.newyorker.com/
+  61. https://condenaststore.com/art/new+yorker+covers
+  62. https://condenaststore.com/conde-nast-brand/thenewyorker
+  63. https://www.newyorker.com/digital-editions
+  64. https://www.newyorker.com/newsletter
+  65. https://www.newyorker.com/jigsaw
+  66. https://www.newyorker.com/about/feeds
+  67. https://www.newyorker.com/about/us
+  68. https://www.newyorker.com/about/careers
+  69. https://www.newyorker.com/about/contact
+  70. https://www.newyorker.com/about/faq
+  71. https://www.condenast.com/advertising
+  72. https://www.newyorker.com/about/press
+  73. https://www.newyorker.com/about/accessibility-help
+  74. https://www.condenast.com/user-agreement/
+  75. http://www.condenast.com/privacy-policy#privacypolicy
+  76. http://www.condenast.com/privacy-policy#privacypolicy-california
+  77. http://www.condenast.com/privacy-policy#privacypolicy-optout
 
    Hidden links:
-  80. file://localhost/account/saved
-  81. https://www.facebook.com/dialog/feed?&display=popup&caption=A%20Coder%20Considers%20the%20Waning%20Days%20of%20the%20Craft&app_id=1147169538698836&link=https%3A%2F%2Fwww.newyorker.com%2Fmagazine%2F2023%2F11%2F20%2Fa-coder-considers-the-waning-days-of-the-craft%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3Donsite-share%26utm_brand%3Dthe-new-yorker%26utm_social-type%3Dearned
-  82. https://twitter.com/intent/tweet/?url=https%3A%2F%2Fwww.newyorker.com%2Fmagazine%2F2023%2F11%2F20%2Fa-coder-considers-the-waning-days-of-the-craft%3Futm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3Donsite-share%26utm_brand%3Dthe-new-yorker%26utm_social-type%3Dearned&text=A%20Coder%20Considers%20the%20Waning%20Days%20of%20the%20Craft&via=NewYorker
-  83. mailto:?subject=A%20Coder%20Considers%20the%20Waning%20Days%20of%20the%20Craft&body=https%3A%2F%2Fwww.newyorker.com%2Fmagazine%2F2023%2F11%2F20%2Fa-coder-considers-the-waning-days-of-the-craft%3Futm_source%3Donsite-share%26utm_medium%3Demail%26utm_campaign%3Donsite-share%26utm_brand%3Dthe-new-yorker
-  84. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L38432-7220TMP.html
-  85. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L38432-7220TMP.html
-  86. https://www.newyorker.com/culture/on-television/why-cant-we-quit-the-morning-show#intcid=_the-new-yorker-bottom-recirc-v2_cdc35741-5fcf-4fa7-807c-c9e46fae6a71_roberta-similarity1
-  87. https://www.newyorker.com/sports/sporting-scene/the-man-who-completed-football#intcid=_the-new-yorker-bottom-recirc-v2_cdc35741-5fcf-4fa7-807c-c9e46fae6a71_roberta-similarity1
-  88. https://www.newyorker.com/magazine/2023/11/20/geoffrey-hinton-profile-ai#intcid=_the-new-yorker-bottom-recirc-v2_cdc35741-5fcf-4fa7-807c-c9e46fae6a71_roberta-similarity1_fallback_text2vec1
-  89. https://www.newyorker.com/magazine/2023/12/04/how-jensen-huangs-nvidia-is-powering-the-ai-revolution#intcid=_the-new-yorker-bottom-recirc-v2_cdc35741-5fcf-4fa7-807c-c9e46fae6a71_roberta-similarity1_fallback_text2vec1
-  90. https://www.facebook.com/newyorker/
-  91. https://twitter.com/NewYorker/
-  92. https://www.snapchat.com/add/newyorkermag
-  93. https://www.youtube.com/user/NewYorkerDotCom/
-  94. https://instagram.com/newyorkermag/
+  79. https://www.newyorker.com/account/saved
+  80. https://www.facebook.com/dialog/feed?&display=popup&caption=A%20Coder%20Considers%20the%20Waning%20Days%20of%20the%20Craft&app_id=1147169538698836&link=https%3A%2F%2Fwww.newyorker.com%2Fmagazine%2F2023%2F11%2F20%2Fa-coder-considers-the-waning-days-of-the-craft%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3Donsite-share%26utm_brand%3Dthe-new-yorker%26utm_social-type%3Dearned
+  81. https://twitter.com/intent/tweet/?url=https%3A%2F%2Fwww.newyorker.com%2Fmagazine%2F2023%2F11%2F20%2Fa-coder-considers-the-waning-days-of-the-craft%3Futm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3Donsite-share%26utm_brand%3Dthe-new-yorker%26utm_social-type%3Dearned&text=A%20Coder%20Considers%20the%20Waning%20Days%20of%20the%20Craft&via=NewYorker
+  82. mailto:?subject=A%20Coder%20Considers%20the%20Waning%20Days%20of%20the%20Craft&body=https%3A%2F%2Fwww.newyorker.com%2Fmagazine%2F2023%2F11%2F20%2Fa-coder-considers-the-waning-days-of-the-craft%3Futm_source%3Donsite-share%26utm_medium%3Demail%26utm_campaign%3Donsite-share%26utm_brand%3Dthe-new-yorker
+  83. https://www.newyorker.com/magazine/2023/11/20/a-coder-considers-the-waning-days-of-the-craft?currentPage=all
+  84. https://www.newyorker.com/magazine/2023/11/20/a-coder-considers-the-waning-days-of-the-craft?currentPage=all
+  85. https://www.newyorker.com/magazine/2024/01/15/the-beach-house-fiction-joy-williams#intcid=_the-new-yorker-bottom-recirc-v2_79ab568c-4ce6-4a2a-b03a-653b1f80b65b_roberta-similarity1
+  86. https://www.newyorker.com/magazine/2024/01/01/crown-heights-north-fiction-rivka-galchen#intcid=_the-new-yorker-bottom-recirc-v2_79ab568c-4ce6-4a2a-b03a-653b1f80b65b_roberta-similarity1_fallback_text2vec1
+  87. https://www.newyorker.com/magazine/2023/12/25/can-crosswords-be-more-inclusive#intcid=_the-new-yorker-bottom-recirc-v2_79ab568c-4ce6-4a2a-b03a-653b1f80b65b_roberta-similarity1_fallback_text2vec1
+  88. https://www.newyorker.com/culture/the-weekend-essay/coming-of-age-at-the-dawn-of-the-social-internet#intcid=_the-new-yorker-bottom-recirc-v2_79ab568c-4ce6-4a2a-b03a-653b1f80b65b_roberta-similarity1_fallback_text2vec1
+  89. https://www.facebook.com/newyorker/
+  90. https://twitter.com/NewYorker/
+  91. https://www.snapchat.com/add/newyorkermag
+  92. https://www.youtube.com/user/NewYorkerDotCom/
+  93. https://instagram.com/newyorkermag/

@@ -320,11 +320,11 @@ References
 
    1. https://codefol.io/
    2. https://codefol.io/
-   3. file:///posts
-   4. file:///topics
-   5. file:///tags/favourite
-   6. file:///feed.xml
-   7. file:///about
+   3. https://codefol.io/posts
+   4. https://codefol.io/topics
+   5. https://codefol.io/tags/favourite
+   6. https://codefol.io/feed.xml
+   7. https://codefol.io/about
    8. https://www.codewithjason.com/rails-with-jason-podcast/noah-gibbs-3/
    9. https://www.codewithjason.com/rails-with-jason-podcast/noah-gibbs-3/
   10. https://rubymadscience.com/img/assistant_pirate_with_sphere_bigthumb.png
@@ -340,35 +340,35 @@ References
   20. https://rubyonrails.org/doctrine/
   21. https://rubyonrails.org/doctrine/#provide-sharp-knives
   22. https://rubyonrails.org/doctrine/#omakase
-  23. file:///posts/when-should-you-not-use-rails/node_js_logo.png
+  23. https://codefol.io/posts/when-should-you-not-use-rails/node_js_logo.png
   24. https://github.com/eventmachine/eventmachine
   25. https://github.com/socketry/async
   26. http://rubymadscience.com/img/rails_internals_bigthumb.png
   27. https://www.codewithjason.com/rails-with-jason-podcast/noah-gibbs-3/
   28. https://rubyonrails.org/doctrine/
-  29. file:///tags/ruby/
-  30. file:///tags/rails/
+  29. https://codefol.io/tags/ruby/
+  30. https://codefol.io/tags/rails/
   31. http://disqus.com/?ref_noscript
   32. http://disqus.com/
-  33. file:///posts/introducing-computer-science-just-the-useful-bits/
-  34. file:///tags/ruby/
-  35. file:///tags/rails/
-  36. file:///posts/introducing-computer-science-just-the-useful-bits/
-  37. file:///posts/series-build-coding-course-email-reminders/
-  38. file:///tags/ruby/
-  39. file:///tags/rails/
-  40. file:///tags/letsbuild/
-  41. file:///tags/rubymadscience/
-  42. file:///posts/series-build-coding-course-email-reminders/
-  43. file:///posts/free-rr-video-chapters/
-  44. file:///tags/career/
-  45. file:///posts/urban-legend-of-the-10x-developer/
-  46. file:///tags/career/
-  47. file:///posts/urban-legend-of-the-10x-developer/
+  33. https://codefol.io/posts/introducing-computer-science-just-the-useful-bits/
+  34. https://codefol.io/tags/ruby/
+  35. https://codefol.io/tags/rails/
+  36. https://codefol.io/posts/introducing-computer-science-just-the-useful-bits/
+  37. https://codefol.io/posts/series-build-coding-course-email-reminders/
+  38. https://codefol.io/tags/ruby/
+  39. https://codefol.io/tags/rails/
+  40. https://codefol.io/tags/letsbuild/
+  41. https://codefol.io/tags/rubymadscience/
+  42. https://codefol.io/posts/series-build-coding-course-email-reminders/
+  43. https://codefol.io/posts/free-rr-video-chapters/
+  44. https://codefol.io/tags/career/
+  45. https://codefol.io/posts/urban-legend-of-the-10x-developer/
+  46. https://codefol.io/tags/career/
+  47. https://codefol.io/posts/urban-legend-of-the-10x-developer/
   48. https://ruby.social/@codefolio
   49. https://github.com/noahgibbs
   50. https://www.linkedin.com/in/noahgibbs
   51. https://ruby.social/@codefolio
-  52. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L9874-9978TMP.html
+  52. https://codefol.io/posts/when-should-you-not-use-rails/
   53. https://justgoodthemes.com/
-  54. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L9874-9978TMP.html#page
+  54. https://codefol.io/posts/when-should-you-not-use-rails/#page

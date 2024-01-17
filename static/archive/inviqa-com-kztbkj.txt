@@ -671,7 +671,7 @@ References
    Visible links:
    1. https://inviqa.com/blog/storing-graphs-database-sql-meets-social-network
    2. https://www.googletagmanager.com/ns.html?id=GTM-NBN52P
-   3. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L84755-9551TMP.html#main-content
+   3. https://inviqa.com/blog/storing-graphs-database-sql-meets-social-network#main-content
    4. https://inviqa.com/
    5. https://inviqa.com/who-we-are
    6. https://inviqa.com/who-we-are

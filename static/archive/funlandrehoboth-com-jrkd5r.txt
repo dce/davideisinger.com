@@ -1,4 +1,5 @@
-   Funland is open for the season! Click here for our daily schedule!
+   Funland is closed for the season! Our opening day next season is Sat,
+   May 11!
    [1]Home
    Attractions
      * [2]Park Information
@@ -14,72 +15,69 @@
      * [10]Maintenance Mechanic
      * [11]Seasonal Park Cleaner
 
-   [12]Tickets
    Info
-     * [13]Shop
-     * [14]Height Restrictions
-     * [15]Photos
-     * [16]Contact Us
-     * [17]Report A Lost Item
+     * [12]Tickets
+     * [13]Height Restrictions
+     * [14]Photos
+     * [15]Contact Us
+     * [16]Report A Lost Item
 
    Funland Rehoboth
-   [18]Home
+   [17]Home
    Attractions
-     * [19]Park Information
-     * [20]Rides
-     * [21]Games
-     * [22]Retail & Food
+     * [18]Park Information
+     * [19]Rides
+     * [20]Games
+     * [21]Retail & Food
 
-   [23]Schedule
+   [22]Schedule
    Work For Us
-     * [24]Employee Testimonials
-     * [25]Seasonal Rides/ Games
-     * [26]Maintenance Manager
-     * [27]Maintenance Mechanic
-     * [28]Seasonal Park Cleaner
+     * [23]Employee Testimonials
+     * [24]Seasonal Rides/ Games
+     * [25]Maintenance Manager
+     * [26]Maintenance Mechanic
+     * [27]Seasonal Park Cleaner
 
-   [29]Tickets
    Info
-     * [30]Shop
-     * [31]Height Restrictions
-     * [32]Photos
-     * [33]Contact Us
-     * [34]Report A Lost Item
+     * [28]Tickets
+     * [29]Height Restrictions
+     * [30]Photos
+     * [31]Contact Us
+     * [32]Report A Lost Item
 
    More
-     * [35]Home
+     * [33]Home
      * Attractions
-          + [36]Park Information
-          + [37]Rides
-          + [38]Games
-          + [39]Retail & Food
-     * [40]Schedule
+          + [34]Park Information
+          + [35]Rides
+          + [36]Games
+          + [37]Retail & Food
+     * [38]Schedule
      * Work For Us
-          + [41]Employee Testimonials
-          + [42]Seasonal Rides/ Games
-          + [43]Maintenance Manager
-          + [44]Maintenance Mechanic
-          + [45]Seasonal Park Cleaner
-     * [46]Tickets
+          + [39]Employee Testimonials
+          + [40]Seasonal Rides/ Games
+          + [41]Maintenance Manager
+          + [42]Maintenance Mechanic
+          + [43]Seasonal Park Cleaner
      * Info
-          + [47]Shop
-          + [48]Height Restrictions
-          + [49]Photos
-          + [50]Contact Us
-          + [51]Report A Lost Item
+          + [44]Tickets
+          + [45]Height Restrictions
+          + [46]Photos
+          + [47]Contact Us
+          + [48]Report A Lost Item
 
-     * [52]Sign In
+     * [49]Sign In
      *
          ______________________________________________________________
 
-     * [53]My Account
+     * [50]My Account
 
      * Signed in as:
      * filler@godaddy.com
      *
          ______________________________________________________________
 
-     * [54]My Account
+     * [51]My Account
      * Sign out
 
    Funland Rehoboth
@@ -87,43 +85,53 @@
    Signed in as:
 
    filler@godaddy.com
-     * [55]Home
-     * [56]Attractions
-          + [57]Park Information
-          + [58]Rides
-          + [59]Games
-          + [60]Retail & Food
-     * [61]Schedule
-     * [62]Work For Us
-          + [63]Employee Testimonials
-          + [64]Seasonal Rides/ Games
-          + [65]Maintenance Manager
-          + [66]Maintenance Mechanic
-          + [67]Seasonal Park Cleaner
-     * [68]Tickets
-     * [69]Info
-          + [70]Shop
-          + [71]Height Restrictions
-          + [72]Photos
-          + [73]Contact Us
-          + [74]Report A Lost Item
+     * [52]Home
+     * [53]Attractions
+          + [54]Park Information
+          + [55]Rides
+          + [56]Games
+          + [57]Retail & Food
+     * [58]Schedule
+     * [59]Work For Us
+          + [60]Employee Testimonials
+          + [61]Seasonal Rides/ Games
+          + [62]Maintenance Manager
+          + [63]Maintenance Mechanic
+          + [64]Seasonal Park Cleaner
+     * [65]Info
+          + [66]Tickets
+          + [67]Height Restrictions
+          + [68]Photos
+          + [69]Contact Us
+          + [70]Report A Lost Item
 
    Account
      *
          ______________________________________________________________
 
-     * [75]My Account
+     * [71]My Account
      * Sign out
 
      *
          ______________________________________________________________
 
-     * [76]Sign In
-     * [77]My Account
+     * [72]Sign In
+     * [73]My Account
 
-   []
+   [rs=w:388,h:388,cg:true,m]
+   [74]Schedule
+   [rs=w:388,h:388,cg:true]
+   [75]Tickets
+   [rs=w:388,h:388,cg:true,m]
+   [76]Work for Us
+   [cr=w:388,h:388]
+   [77]Rides
+   [rs=w:388,h:388,cg:true,m]
+   [78]Games
+   [rs=w:388,h:388,cg:true]
+   [79]Park Info
 
-   IFRAME: [78]javascript: window.frameElement.getAttribute("srcdoc");
+   IFRAME: [80]javascript: window.frameElement.getAttribute("srcdoc");
 
 History of Funland
 
@@ -171,10 +179,10 @@ It all started as an innocent vacation to the beach, back in 1961…
    If you would like to hear more about the Funland story check out the
    links below!
 
-   CBS Sunday Morning:   [79]“Old-Fashion Fun: Funland”
-   Content Delaware Documentary: [80] “Nothing Beats Fun: The Funland
+   CBS Sunday Morning:   [81]“Old-Fashion Fun: Funland”
+   Content Delaware Documentary: [82] “Nothing Beats Fun: The Funland
    Story!”.
-   The Cape Gazette also featured a [81]Funland Retrospective which marked
+   The Cape Gazette also featured a [83]Funland Retrospective which marked
    our 50th year of fun at the Rehoboth seashore.
 
 Subscribe
@@ -182,11 +190,11 @@ Subscribe
    Sign up to stay up to date with all announcements!
    ____________________Email
    (BUTTON) Sign up
-     * [82]Seasonal Rides/ Games
-     * [83]Park Policies
-     * [84]Rider Safety Guide
-     * [85]Contact Us
-     * [86]Subscribe
+     * [84]Seasonal Rides/ Games
+     * [85]Park Policies
+     * [86]Rider Safety Guide
+     * [87]Contact Us
+     * [88]Subscribe
 
    Funland
 
@@ -195,107 +203,109 @@ Subscribe
 References
 
    Visible links:
-   1. file:///
-   2. file:///park-information
-   3. file:///rides
-   4. file:///games
-   5. file:///retail-&-food
-   6. file:///schedule
-   7. file:///employee-testimonials
-   8. file:///seasonal-rides/-games
-   9. file:///maintenance-manager
-  10. file:///maintenance-mechanic
-  11. file:///seasonal-park-cleaner
-  12. file:///tickets
-  13. https://the-funland-store.myshopify.com/
-  14. file:///height-restrictions
-  15. file:///photos
-  16. file:///contact-us
-  17. file:///report-a-lost-item
-  18. file:///
-  19. file:///park-information
-  20. file:///rides
-  21. file:///games
-  22. file:///retail-&-food
-  23. file:///schedule
-  24. file:///employee-testimonials
-  25. file:///seasonal-rides/-games
-  26. file:///maintenance-manager
-  27. file:///maintenance-mechanic
-  28. file:///seasonal-park-cleaner
-  29. file:///tickets
-  30. https://the-funland-store.myshopify.com/
-  31. file:///height-restrictions
-  32. file:///photos
-  33. file:///contact-us
-  34. file:///report-a-lost-item
-  35. file:///
-  36. file:///park-information
-  37. file:///rides
-  38. file:///games
-  39. file:///retail-&-food
-  40. file:///schedule
-  41. file:///employee-testimonials
-  42. file:///seasonal-rides/-games
-  43. file:///maintenance-manager
-  44. file:///maintenance-mechanic
-  45. file:///seasonal-park-cleaner
-  46. file:///tickets
-  47. https://the-funland-store.myshopify.com/
-  48. file:///height-restrictions
-  49. file:///photos
-  50. file:///contact-us
-  51. file:///report-a-lost-item
-  52. file:///m/account
-  53. file:///m/account
-  54. file:///m/account
-  55. file:///
-  56. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L8603-4788TMP.html
-  57. file:///park-information
-  58. file:///rides
-  59. file:///games
-  60. file:///retail-&-food
-  61. file:///schedule
-  62. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L8603-4788TMP.html
-  63. file:///employee-testimonials
-  64. file:///seasonal-rides/-games
-  65. file:///maintenance-manager
-  66. file:///maintenance-mechanic
-  67. file:///seasonal-park-cleaner
-  68. file:///tickets
-  69. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L8603-4788TMP.html
-  70. https://the-funland-store.myshopify.com/
-  71. file:///height-restrictions
-  72. file:///photos
-  73. file:///contact-us
-  74. file:///report-a-lost-item
-  75. file:///m/account
-  76. file:///m/account
-  77. file:///m/account
-  78. javascript: window.frameElement.getAttribute("srcdoc");
-  79. https://www.youtube.com/watch?v=7sB9vcZvigA
-  80. http://www.youtube.com/watch?v=eyftYi7p4zs
-  81. http://capegazette.villagesoup.com/p/rehoboths-funland-marks-50-years-of-thrills/104065
-  82. file:///seasonal-rides/-games
-  83. file:///park-policies
-  84. file:///rider-safety-guide
-  85. file:///contact-us
-  86. file:///subscribe
+   1. https://funlandrehoboth.com/
+   2. https://funlandrehoboth.com/park-information
+   3. https://funlandrehoboth.com/rides
+   4. https://funlandrehoboth.com/games
+   5. https://funlandrehoboth.com/retail-&-food
+   6. https://funlandrehoboth.com/schedule
+   7. https://funlandrehoboth.com/employee-testimonials
+   8. https://funlandrehoboth.com/seasonal-rides/-games
+   9. https://funlandrehoboth.com/maintenance-manager
+  10. https://funlandrehoboth.com/maintenance-mechanic
+  11. https://funlandrehoboth.com/seasonal-park-cleaner
+  12. https://funlandrehoboth.com/tickets
+  13. https://funlandrehoboth.com/height-restrictions
+  14. https://funlandrehoboth.com/photos
+  15. https://funlandrehoboth.com/contact-us
+  16. https://funlandrehoboth.com/report-a-lost-item
+  17. https://funlandrehoboth.com/
+  18. https://funlandrehoboth.com/park-information
+  19. https://funlandrehoboth.com/rides
+  20. https://funlandrehoboth.com/games
+  21. https://funlandrehoboth.com/retail-&-food
+  22. https://funlandrehoboth.com/schedule
+  23. https://funlandrehoboth.com/employee-testimonials
+  24. https://funlandrehoboth.com/seasonal-rides/-games
+  25. https://funlandrehoboth.com/maintenance-manager
+  26. https://funlandrehoboth.com/maintenance-mechanic
+  27. https://funlandrehoboth.com/seasonal-park-cleaner
+  28. https://funlandrehoboth.com/tickets
+  29. https://funlandrehoboth.com/height-restrictions
+  30. https://funlandrehoboth.com/photos
+  31. https://funlandrehoboth.com/contact-us
+  32. https://funlandrehoboth.com/report-a-lost-item
+  33. https://funlandrehoboth.com/
+  34. https://funlandrehoboth.com/park-information
+  35. https://funlandrehoboth.com/rides
+  36. https://funlandrehoboth.com/games
+  37. https://funlandrehoboth.com/retail-&-food
+  38. https://funlandrehoboth.com/schedule
+  39. https://funlandrehoboth.com/employee-testimonials
+  40. https://funlandrehoboth.com/seasonal-rides/-games
+  41. https://funlandrehoboth.com/maintenance-manager
+  42. https://funlandrehoboth.com/maintenance-mechanic
+  43. https://funlandrehoboth.com/seasonal-park-cleaner
+  44. https://funlandrehoboth.com/tickets
+  45. https://funlandrehoboth.com/height-restrictions
+  46. https://funlandrehoboth.com/photos
+  47. https://funlandrehoboth.com/contact-us
+  48. https://funlandrehoboth.com/report-a-lost-item
+  49. https://funlandrehoboth.com/m/account
+  50. https://funlandrehoboth.com/m/account
+  51. https://funlandrehoboth.com/m/account
+  52. https://funlandrehoboth.com/
+  53. https://funlandrehoboth.com/
+  54. https://funlandrehoboth.com/park-information
+  55. https://funlandrehoboth.com/rides
+  56. https://funlandrehoboth.com/games
+  57. https://funlandrehoboth.com/retail-&-food
+  58. https://funlandrehoboth.com/schedule
+  59. https://funlandrehoboth.com/
+  60. https://funlandrehoboth.com/employee-testimonials
+  61. https://funlandrehoboth.com/seasonal-rides/-games
+  62. https://funlandrehoboth.com/maintenance-manager
+  63. https://funlandrehoboth.com/maintenance-mechanic
+  64. https://funlandrehoboth.com/seasonal-park-cleaner
+  65. https://funlandrehoboth.com/
+  66. https://funlandrehoboth.com/tickets
+  67. https://funlandrehoboth.com/height-restrictions
+  68. https://funlandrehoboth.com/photos
+  69. https://funlandrehoboth.com/contact-us
+  70. https://funlandrehoboth.com/report-a-lost-item
+  71. https://funlandrehoboth.com/m/account
+  72. https://funlandrehoboth.com/m/account
+  73. https://funlandrehoboth.com/m/account
+  74. https://funlandrehoboth.com/schedule
+  75. https://funlandrehoboth.com/tickets
+  76. https://funlandrehoboth.com/seasonal-rides/-games
+  77. https://funlandrehoboth.com/rides
+  78. https://funlandrehoboth.com/games
+  79. https://funlandrehoboth.com/park-information
+  80. javascript: window.frameElement.getAttribute("srcdoc");
+  81. https://www.youtube.com/watch?v=7sB9vcZvigA
+  82. http://www.youtube.com/watch?v=eyftYi7p4zs
+  83. http://capegazette.villagesoup.com/p/rehoboths-funland-marks-50-years-of-thrills/104065
+  84. https://funlandrehoboth.com/seasonal-rides/-games
+  85. https://funlandrehoboth.com/park-policies
+  86. https://funlandrehoboth.com/rider-safety-guide
+  87. https://funlandrehoboth.com/contact-us
+  88. https://funlandrehoboth.com/subscribe
 
    Hidden links:
-  88. file://localhost/schedule
-  89. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L8603-4788TMP.html
-  90. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L8603-4788TMP.html
-  91. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L8603-4788TMP.html
-  92. file://localhost/
-  93. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L8603-4788TMP.html
-  94. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L8603-4788TMP.html
-  95. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L8603-4788TMP.html
-  96. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L8603-4788TMP.html
-  97. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L8603-4788TMP.html
-  98. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L8603-4788TMP.html
-  99. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L8603-4788TMP.html
- 100. file://localhost/
- 101. https://www.facebook.com/Funland.RehobothBeach?fref=ts
- 102. https://www.instagram.com/funlandrehoboth/
- 103. https://www.twitter.com/FunlandRehoboth
+  90. https://funlandrehoboth.com/schedule
+  91. https://funlandrehoboth.com/
+  92. https://funlandrehoboth.com/
+  93. https://funlandrehoboth.com/
+  94. https://funlandrehoboth.com/
+  95. https://funlandrehoboth.com/
+  96. https://funlandrehoboth.com/
+  97. https://funlandrehoboth.com/
+  98. https://funlandrehoboth.com/
+  99. https://funlandrehoboth.com/
+ 100. https://funlandrehoboth.com/
+ 101. https://funlandrehoboth.com/
+ 102. https://funlandrehoboth.com/
+ 103. https://www.facebook.com/Funland.RehobothBeach?fref=ts
+ 104. https://www.instagram.com/funlandrehoboth/
+ 105. https://www.twitter.com/FunlandRehoboth

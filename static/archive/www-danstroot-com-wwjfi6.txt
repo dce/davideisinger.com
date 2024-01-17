@@ -3,7 +3,7 @@
    IFRAME: [2]https://www.googletagmanager.com/ns.html?id=GTM-55JC288
 
    [3]Dan Stroot
-   [4]Home[5]About[6]Archive[7]Snippets[8]Uses
+   [4]Home[5]About[6]Archive[7]Snippets[8]Uses[9]Quotes
 
    (BUTTON) Toggle Menu
 
@@ -41,7 +41,7 @@ Making Software Last Forever
    and more importantly, fixed.
 
    Joel Spolsky (of Fog Creek Software and Stack Overflow) describes
-   system re-writes in "[9]Things You Should Never Do, Part I" as “the
+   system re-writes in "[10]Things You Should Never Do, Part I" as “the
    single worst strategic mistake that any software company can make.”
 
    Continuing our home analogy, recent price increases for construction
@@ -78,13 +78,13 @@ The World's Oldest Software Systems
    In 1958, the United States Department of Defense launched a new
    computer-based contract management system called "Mechanization of
    Contract Administration Services", or MOCAS (pronounced “MOH-cass”). In
-   2015, [10]MIT Technology Review stated that MOCAS was the oldest
+   2015, [11]MIT Technology Review stated that MOCAS was the oldest
    computer program in continuous use they could verify. At that time
    MOCAS managed about $1.3 trillion in government obligations and 340,000
    contracts.
 
-   According to the [11]Guinness Book of World Records, the oldest
-   software system in use today is either the [12]SABRE Airline
+   According to the [12]Guinness Book of World Records, the oldest
+   software system in use today is either the [13]SABRE Airline
    Reservation System (introduced in 1960), or the IRS Individual Master
    File (IMF) and Business Master File (BMF) systems introduced in
    1962–63.
@@ -115,7 +115,7 @@ Maintenance is About Making Something Last
    However, most older airframes are retired for fuel-efficiency reasons,
    not because they're worn out.
 
-   Even stuctures made of grass can last indefinitely. [13]Inca rope
+   Even stuctures made of grass can last indefinitely. [14]Inca rope
    bridges were simple suspension bridges constructed by the Inca Empire.
    The bridges were an integral part of the Inca road system were
    constructed using ichu grass.
@@ -264,7 +264,7 @@ Risks of Replacing Software Systems
 
 Maintaining Software to Last Forever
 
-   As I discussed in [14]How Software Learns, software adapts over time -
+   As I discussed in [15]How Software Learns, software adapts over time -
    as it is continually refined and reshaped by maintenance and
    enhancements. Maintenance is crucial to software's lifespan and
    business relevance/value. When software systems are first developed,
@@ -480,7 +480,7 @@ Protecting your maintenance budget - creating a "maintenance fund"
    unknown because he always successfully treats small illnesses,
    preventing them from evolving into more serious or terminal ones. So,
    people say "Oh he is a fine doctor, but he only treats minor
-   illnesses". It's true: [15]Nobody Ever Gets Credit for Fixing Problems
+   illnesses". It's true: [16]Nobody Ever Gets Credit for Fixing Problems
    that Never Happened.
 
    To most software engineers, legacy systems seem like torturous dead-end
@@ -491,7 +491,7 @@ Protecting your maintenance budget - creating a "maintenance fund"
    battlefield surgeons.
 
    Engineering loves new technology. It gains the engineers attention and
-   industry marketability. [16]Boring technology on the other hand is
+   industry marketability. [17]Boring technology on the other hand is
    great for the company. The engineering cost is lower, and the skills
    are easier to obtain and keep, because these engineers are not being
    pulled out of your organization for double their salary by Amazon or
@@ -561,7 +561,7 @@ Legacy System Modernization
    To do this, you need to overcome people’s natural skepticism and get
    them to buy in. The important word in the phrase "proof of concept" is
    proof. You need to prove to people that success is possible and worth
-   doing. It can't be just an MVP, because [17]MVPs are dangerous.. A red
+   doing. It can't be just an MVP, because [18]MVPs are dangerous.. A red
    flag is raised when companies talk about the phases of their
    modernization plans in terms of which technologies they are going to
    use rather than what value they will add.
@@ -632,25 +632,25 @@ Summary
    spending a much smaller amount of money to prevent it; as a business
    strategy this makes no sense.
 
-   The [18]Open Mainframe Project estimates that there about 250 billion
+   The [19]Open Mainframe Project estimates that there about 250 billion
    lines of COBOL code running today in the world economy, and nearly all
    COBOL code contains critical business logic. Companies should maintain
    that software and make it last as long as possible.
 
 References
 
-     * [19]Things You Should Never Do, Part I
-     * [20]Patterns of Legacy Displacement
-     * [21]Kill It with Fire: Manage Aging Computer Systems (and Future
+     * [20]Things You Should Never Do, Part I
+     * [21]Patterns of Legacy Displacement
+     * [22]Kill It with Fire: Manage Aging Computer Systems (and Future
        Proof Modern Ones)
-     * [22]Building software to last forever
-     * [23]The Disappearing Art Of Maintenance
-     * [24]Inca rope bridge
-     * [25]How Often Do Commercial Airplanes Need Maintenance?
-     * [26]Nobody Ever Gets Credit for Fixing Problems that Never Happened
-     * [27]Boring Technology Club
-     * [28]Open Mainframe Project 2021 Annual Report
-     * [29]How Popular is COBOL?
+     * [23]Building software to last forever
+     * [24]The Disappearing Art Of Maintenance
+     * [25]Inca rope bridge
+     * [26]How Often Do Commercial Airplanes Need Maintenance?
+     * [27]Nobody Ever Gets Credit for Fixing Problems that Never Happened
+     * [28]Boring Technology Club
+     * [29]Open Mainframe Project 2021 Annual Report
+     * [30]How Popular is COBOL?
      __________________________________________________________________
 
    Image Credit: Bill Gates, CEO of Microsoft, holds Windows 1.0 floppy
@@ -665,52 +665,53 @@ Sharing is Caring
 
    (BUTTON) (BUTTON) (BUTTON)
 
-   [30]Edit this page
+   [31]Edit this page
 
    Dan Stroot · Blog
    I love building things. Made in California. Family man, technologist
    and Hacker News aficionado. Eternally curious.
-   [31]Join me on Twitter.[32]Join me on LinkedIn.[33]Join me on GitHub.
-   Crafted with ♥️ in California. © 2023, [34]Dan Stroot
+   [32]Join me on Twitter.[33]Join me on LinkedIn.[34]Join me on GitHub.
+   Crafted with ♥️ in California. © 2024, [35]Dan Stroot
 
 References
 
    Visible links:
    1. https://www.danstroot.com/feed.xml
    2. https://www.googletagmanager.com/ns.html?id=GTM-55JC288
-   3. file:///
-   4. file:///
-   5. file:///about
-   6. file:///archive
-   7. file:///snippets
-   8. file:///uses
-   9. https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/
-  10. https://www.technologyreview.com/2015/08/06/166822/what-is-the-oldest-computer-program-still-in-use/
-  11. https://www.guinnessworldrecords.com/world-records/636196-oldest-software-system-in-continuous-use
-  12. https://en.wikipedia.org/wiki/Sabre_(travel_reservation_system)
-  13. https://en.wikipedia.org/wiki/Inca_rope_bridge
-  14. file:///posts/2022-06-05-how-software-learns
-  15. https://web.mit.edu/nelsonr/www/Repenning=Sterman_CMR_su01_.pdf
-  16. https://engineering.atspotify.com/2013/02/in-praise-of-boring-technology/
-  17. file:///posts/2021-12-27-dangerous-mvps
-  18. https://www.openmainframeproject.org/
-  19. https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/
-  20. https://martinfowler.com/articles/patterns-legacy-displacement/
-  21. https://www.amazon.com/Kill-Fire-Manage-Computer-Systems/dp/1718501188
-  22. https://herman.bearblog.dev/building-software-to-last-forever/
-  23. https://www.noemamag.com/the-disappearing-art-of-maintenance/
-  24. https://en.wikipedia.org/wiki/Inca_rope_bridge
-  25. https://monroeaerospace.com/blog/how-often-do-commercial-airplanes-need-maintenance/#:~:text=Commercial airplanes require frequent maintenance,inspection once every few years.
-  26. https://web.mit.edu/nelsonr/www/Repenning=Sterman_CMR_su01_.pdf
-  27. https://boringtechnology.club/
-  28. https://www.openmainframeproject.org/wp-content/uploads/sites/11/2022/04/OMP_Annual_Report_2021_040622.pdf
-  29. https://news.ycombinator.com/item?id=33999718
-  30. https://github.com/dstroot/blog-next-13/blob/master/content/posts/2023-05-25-making_software_last_forever.mdx
-  31. https://twitter.com/danstroot
-  32. https://www.linkedin.com/in/danstroot
-  33. https://github.com/dstroot/blog-next
-  34. file:///analytics
+   3. https://www.danstroot.com/
+   4. https://www.danstroot.com/
+   5. https://www.danstroot.com/about
+   6. https://www.danstroot.com/archive
+   7. https://www.danstroot.com/snippets
+   8. https://www.danstroot.com/uses
+   9. https://www.danstroot.com/quotes
+  10. https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/
+  11. https://www.technologyreview.com/2015/08/06/166822/what-is-the-oldest-computer-program-still-in-use/
+  12. https://www.guinnessworldrecords.com/world-records/636196-oldest-software-system-in-continuous-use
+  13. https://en.wikipedia.org/wiki/Sabre_(travel_reservation_system)
+  14. https://en.wikipedia.org/wiki/Inca_rope_bridge
+  15. https://www.danstroot.com/posts/2022-06-05-how-software-learns
+  16. https://web.mit.edu/nelsonr/www/Repenning=Sterman_CMR_su01_.pdf
+  17. https://engineering.atspotify.com/2013/02/in-praise-of-boring-technology/
+  18. https://www.danstroot.com/posts/2021-12-27-dangerous-mvps
+  19. https://www.openmainframeproject.org/
+  20. https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/
+  21. https://martinfowler.com/articles/patterns-legacy-displacement/
+  22. https://www.amazon.com/Kill-Fire-Manage-Computer-Systems/dp/1718501188
+  23. https://herman.bearblog.dev/building-software-to-last-forever/
+  24. https://www.noemamag.com/the-disappearing-art-of-maintenance/
+  25. https://en.wikipedia.org/wiki/Inca_rope_bridge
+  26. https://monroeaerospace.com/blog/how-often-do-commercial-airplanes-need-maintenance/#:~:text=Commercial airplanes require frequent maintenance,inspection once every few years.
+  27. https://web.mit.edu/nelsonr/www/Repenning=Sterman_CMR_su01_.pdf
+  28. https://boringtechnology.club/
+  29. https://www.openmainframeproject.org/wp-content/uploads/sites/11/2022/04/OMP_Annual_Report_2021_040622.pdf
+  30. https://news.ycombinator.com/item?id=33999718
+  31. https://github.com/dstroot/blog-next-13/blob/master/content/posts/2023-05-25-making_software_last_forever.mdx
+  32. https://twitter.com/danstroot
+  33. https://www.linkedin.com/in/danstroot
+  34. https://github.com/dstroot/blog-next
+  35. https://www.danstroot.com/analytics
 
    Hidden links:
-  36. file://localhost/search
-  37. file://localhost/about
+  37. https://www.danstroot.com/search
+  38. https://www.danstroot.com/about

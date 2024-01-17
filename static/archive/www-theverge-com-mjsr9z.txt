@@ -325,28 +325,28 @@ Share this story
    Most Popular
     1. [26]
 
-Chrome is about to look a bit different
+Apple Vision Pro hands-on, again, for the first time
          ______________________________________________________________
 
     2. [27]
 
-Tesla’s $25,000 ‘next-generation car’ will have a Cybertruck design
+Google layoffs continue with ‘hundreds’ from sales team
          ______________________________________________________________
 
     3. [28]
 
-iOS 16.6.1 fixes a big iPhone security vulnerability used to install Pegasus
-spyware
+Microsoft’s new Copilot Pro brings AI-powered Office features to the rest of
+us
          ______________________________________________________________
 
     4. [29]
 
-You’ll soon be able to buy a brand-new Xbox 360
+Google’s latest layoffs are just the beginning
          ______________________________________________________________
 
     5. [30]
 
-BMW drops plan to charge a monthly fee for heated seats
+Apple Watch drops blood oxygen features to dodge the import ban
          ______________________________________________________________
 
 Verge Deals
@@ -366,15 +366,22 @@ Verge Deals
 
 More from [35]Apps
 
-     * [36]Dropbox blames crypto miners and resellers for ending its
-       unlimited cloud storage plan
-     * Image of Meta’s logo with a red and blue background. Image of
-       Meta’s logo with a red and blue background.
-    [37]Meta is pulling the plug on Messenger Lite on Android
-     * An image showing the Threads logo An image showing the Threads logo
-    [38]Threads on the web is here
-     * [39]Max will launch a 24/7 CNN stream for all subscribers next
-       month
+     * An image showing the WhatsApp logo in black An image showing the
+       WhatsApp logo in black
+    [36]WhatsApp tests voice messages that disappear after your recipient
+       hears them
+     * WhatsApp logo on a green, black, and white background WhatsApp logo
+       on a green, black, and white background
+    [37]WhatsApp will soon let you stay logged in to two accounts at once
+     * A screenshot of widgets from Pixel Pals. A screenshot of widgets
+       from Pixel Pals.
+    [38]The creator of Apollo for Reddit has moved onto smaller and
+       weirder things
+     * A picture of the Internal Revenue Service headquarters in
+       Washington, DC. A picture of the Internal Revenue Service
+       headquarters in Washington, DC.
+    [39]13 states join the IRS direct-file test after tax prep firms
+       dropped the ball
      * Advertiser Content From Sponsor logo
 
 
@@ -398,23 +405,23 @@ More from [35]Apps
      * [53]Advertise with us
      * [54]Jobs @ Vox Media
 
-   © 2023 [55]Vox Media, LLC. All Rights Reserved
+   © 2024 [55]Vox Media, LLC. All Rights Reserved
 
 References
 
    Visible links:
-   1. file:///rss/index.xml
-   2. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L26893-4475TMP.html#content
-   3. file:///
-   4. file:///
-   5. file:///tech
-   6. file:///reviews
-   7. file:///science
-   8. file:///entertainment
-   9. file:///platformer
-  10. file:///apps
-  11. file:///tech
-  12. file:///authors/casey-newton
+   1. https://www.theverge.com/rss/index.xml
+   2. https://www.theverge.com/2023/8/25/23845590/note-taking-apps-ai-chat-distractions-notion-roam-mem-obsidian#content
+   3. https://www.theverge.com/
+   4. https://www.theverge.com/
+   5. https://www.theverge.com/tech
+   6. https://www.theverge.com/reviews
+   7. https://www.theverge.com/science
+   8. https://www.theverge.com/entertainment
+   9. https://www.theverge.com/platformer
+  10. https://www.theverge.com/apps
+  11. https://www.theverge.com/tech
+  12. https://www.theverge.com/authors/casey-newton
   13. https://www.platformer.news/
   14. https://www.wsj.com/articles/americas-farmers-are-bogged-down-by-data-524f0a4d
   15. https://roamresearch.com/
@@ -428,42 +435,42 @@ References
   23. https://notes.andymatuschak.org/§Note-writing_systems?stackedNotes=zsRuFxYgckGS81tr2eiBAP
   24. https://notes.andymatuschak.org/§Note-writing_systems?stackedNotes=z8V2q398qu89vdJ73N2BEYCgevMqux3yxQUAC&stackedNotes=z7kEFe6NfUSgtaDuUjST1oczKKzQQeQWk4Dbc
   25. https://www.platformer.news/embed
-  26. file:///2023/9/7/23862311/google-chrome-redesign-material-you-web-store
-  27. file:///2023/9/8/23864172/tesla-next-generation-car-cybertruck-design-price
-  28. file:///2023/9/8/23864150/ios-16-6-1-iphone-security-vulnerability-0-day-exploit-patch-update
-  29. file:///2023/9/8/23864463/xbox-360-replica-mega-target-halo-3
-  30. file:///2023/9/7/23863258/bmw-cancel-heated-seat-subscription-microtransaction
+  26. https://www.theverge.com/24040075/apple-vision-pro-hands-on-virtual-reality
+  27. https://www.theverge.com/2024/1/16/24040093/google-layoffs-ad-sales-team
+  28. https://www.theverge.com/2024/1/15/24038711/microsoft-copilot-pro-office-ai-apps
+  29. https://www.theverge.com/2024/1/14/24038397/google-layoffs-just-the-beginning
+  30. https://www.theverge.com/2024/1/15/24034324/apple-watch-ban-us-customs-decision
   31. https://www.voxmedia.com/legal/terms-of-use
   32. https://www.voxmedia.com/legal/privacy-notice
   33. https://policies.google.com/privacy
   34. https://policies.google.com/terms
-  35. file:///apps
-  36. file:///2023/8/25/23845554/dropbox-ending-unlimited-storage-advanced-plan
-  37. file:///2023/8/24/23845179/meta-messenger-lite-android-google-play-shutting-down
-  38. file:///2023/8/22/23840441/meta-threads-web-app
-  39. file:///2023/8/24/23844121/cnn-max-warnerbros-discovery-news
+  35. https://www.theverge.com/apps
+  36. https://www.theverge.com/2023/10/19/23923648/whatsapp-view-once-voice-messages-notes-beta-test
+  37. https://www.theverge.com/2023/10/19/23923113/whatsapp-stay-logged-in-two-accounts-meta
+  38. https://www.theverge.com/2023/10/18/23922707/pixel-pals-language-widget-christian-selig-apollo
+  39. https://www.theverge.com/2023/10/18/23922150/irs-direct-file-pilot-available-13-states-income-tax-2024
   40. https://www.voxmedia.com/legal/terms-of-use
   41. https://www.voxmedia.com/legal/privacy-notice
   42. https://www.voxmedia.com/legal/cookie-policy
-  43. file:///contact
+  43. https://www.theverge.com/contact
   44. https://www.voxmedia.com/pages/licensing
   45. https://www.voxmedia.com/legal/accessibility
   46. https://status.voxmedia.com/
-  47. file:///pages/how-we-rate
-  48. file:///contact-the-verge
-  49. file:///a/tip-us-secure-contact-email
-  50. file:///community-guidelines
-  51. file:///about-the-verge
-  52. file:///ethics-statement
+  47. https://www.theverge.com/pages/how-we-rate
+  48. https://www.theverge.com/contact-the-verge
+  49. https://www.theverge.com/a/tip-us-secure-contact-email
+  50. https://www.theverge.com/community-guidelines
+  51. https://www.theverge.com/about-the-verge
+  52. https://www.theverge.com/ethics-statement
   53. https://www.voxmedia.com/vox-advertising
   54. https://jobs.voxmedia.com/
   55. https://www.voxmedia.com/
 
    Hidden links:
-  57. file://localhost/
-  58. file://localhost/
+  57. https://www.theverge.com/
+  58. https://www.theverge.com/
   59. http://theverge.com/
   60. http://theverge.com/
   61. http://theverge.com/
   62. http://theverge.com/
-  63. file://localhost/
+  63. https://www.theverge.com/

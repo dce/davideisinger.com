@@ -92,16 +92,16 @@
 References
 
    1. https://twonerds.net/blog?format=rss
-   2. file:///
-   3. file:///
-   4. file:///about
-   5. file:///blog/radda-in-chianti-to-siena
-   6. file:///blog/radda-in-chianti-to-siena
-   7. file:///?author=590f29c99f745610d38765af
+   2. https://twonerds.net/
+   3. https://twonerds.net/
+   4. https://twonerds.net/about
+   5. https://twonerds.net/blog/radda-in-chianti-to-siena
+   6. https://twonerds.net/blog/radda-in-chianti-to-siena
+   7. https://twonerds.net/?author=590f29c99f745610d38765af
    8. http://www.tuscanybicycle.com/en/
    9. http://www.baronericasoli.com/
   10. https://www.strava.com/activities/986032513
-  11. file:///blog/radda-in-chianti-to-siena
-  12. file:///?author=590f29c99f745610d38765af
-  13. file:///blog/siena-to-san-gimignano
-  14. file:///blog/firenze-to-radda-in-chianti-our-first-day-in-the-saddle
+  11. https://twonerds.net/blog/radda-in-chianti-to-siena
+  12. https://twonerds.net/?author=590f29c99f745610d38765af
+  13. https://twonerds.net/blog/siena-to-san-gimignano
+  14. https://twonerds.net/blog/firenze-to-radda-in-chianti-our-first-day-in-the-saddle

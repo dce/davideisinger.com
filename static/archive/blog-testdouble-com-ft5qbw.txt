@@ -21,7 +21,7 @@ No, really, this post may give you a way to answer that
           March 14, 2023
 
    An icon of a human figure Authors
-          Justin Searls
+          [10]Justin Searls
 
    As a young lad, I developed a habit of responding to the enthusiasm of
    others with fear, skepticism, and judgment.
@@ -38,18 +38,18 @@ No, really, this post may give you a way to answer that
    The more excited someone is by the prospect of AI making their job
    easier, the more they should be worried.
 
-   There’s little doubt at this point: the tools that succeed [10]DALL•E
-   and [11]ChatGPT will have a profound impact on society. If it feels
+   There’s little doubt at this point: the tools that succeed [11]DALL•E
+   and [12]ChatGPT will have a profound impact on society. If it feels
    obvious that self-driving cars will put millions of truckers out of
    work, it should be clear even more white collar jobs will be rendered
    unnecessary by this new class of AI tools.
 
-   While [12]Level 4 autonomous vehicles may still be years away,
+   While [13]Level 4 autonomous vehicles may still be years away,
    production-ready AI is here today. It’s already being used to do
    significant amounts of paid work, often with employers being none the
    wiser.
 
-   If truckers deserve [13]years [14]of [15]warnings that their jobs are
+   If truckers deserve [14]years [15]of [16]warnings that their jobs are
    at risk, we owe it to ourselves and others to think through the types
    of problems that generative AI is best equipped to solve, which sorts
    of jobs are at greatest risk, and what workers can start doing now to
@@ -58,21 +58,21 @@ No, really, this post may give you a way to answer that
 
    So let’s do that.
 
-[16]Now it’s time to major bump Web 2.0
+[17]Now it’s time to major bump Web 2.0
 
    Computer-generated content wouldn’t pose the looming threat it does
    without the last 20 years of user-generated content blanketing the
    Internet to fertilize it.
 
    As user-generated content came to dominate the Internet with the advent
-   of Web 2.0 in the 2000s, we heard a lot about the [17]Wisdom of the
+   of Web 2.0 in the 2000s, we heard a lot about the [18]Wisdom of the
    Crowd. The theory was simple: if anyone could publish content to a
    platform, then users could rank that content’s quality (whether via
    viewership metrics or explicit upvotes), and eventually the efforts of
    the (unpaid!) general public would outperform the productivity of
    (quite expensive!) professional authors and publishers. The winners,
    under Web 2.0, would no longer be the best content creators, but the
-   platforms that successfully achieve [18]network effect and come to
+   platforms that successfully achieve [19]network effect and come to
    mediate everyone’s experience with respect to a particular category of
    content.
 
@@ -97,13 +97,13 @@ No, really, this post may give you a way to answer that
    user-generated content is about to be upended by infinite
    computer-generated content. If we’re witnessing the first act of Web
    3.0, it’s got nothing to do with crypto and everything to do with
-   [19]generative AI.
+   [20]generative AI.
 
    If you’re reading this, you don’t need me to recap the cultural impact
-   of [20]ChatGPT and [21]Bing Chat for you. Suffice to say, if Google—the
-   runaway winner of the Web 2.0 economy—is [22]legit shook, there’s
+   of [21]ChatGPT and [22]Bing Chat for you. Suffice to say, if Google—the
+   runaway winner of the Web 2.0 economy—is [23]legit shook, there’s
    probably fire to go with all this smoke. Moreover, when you consider
-   that [23]the same incumbent is already at the forefront of AI
+   that [24]the same incumbent is already at the forefront of AI
    innovation but is nevertheless terrified by this sea change, Google
    clearly believes we’re witnessing a major market disruption in addition
    to a technological one.
@@ -111,14 +111,14 @@ No, really, this post may give you a way to answer that
    One reason I’ve been thinking so much about this is that I’ve started
    work on a personal project to build an AI chatbot for practicing
    Japanese language and I’m livecoding 100% of my work for an educational
-   video series I call [24]Searls After Dark. Might be why I’ve got AI on
+   video series I call [25]Searls After Dark. Might be why I’ve got AI on
    the mind lately!
 
    But you’re not a tech giant. You’re wondering what this means for you
    and your weekend. And I think we’re beginning to identify the contours
    of an answer to that question.
 
-[25]ChatGPT can do some people’s work, but not everyone’s
+[26]ChatGPT can do some people’s work, but not everyone’s
 
    A profound difference between the coming economic upheaval and those of
    the past is that it will most severely impact white collar workers.
@@ -131,11 +131,11 @@ No, really, this post may give you a way to answer that
    with a less expensive labor market, a lot of the same factors would be
    at play.
 
-   Having spent months programming with [26]GitHub Copilot, weeks talking
+   Having spent months programming with [27]GitHub Copilot, weeks talking
    to ChatGPT, and days searching via Bing Chat as an alternative to
    Google, the best description I’ve heard of AI’s capabilities is
-   “[27]fluent bullshit.” And after months of seeing friends “cheat” at
-   their day jobs by having [28]ChatGPT do their homework for them, I’ve
+   “[28]fluent bullshit.” And after months of seeing friends “cheat” at
+   their day jobs by having [29]ChatGPT do their homework for them, I’ve
    come to a pretty grim, if obvious, realization: the more excited
    someone is by the prospect of AI making their job easier, the more they
    should be worried.
@@ -155,7 +155,7 @@ No, really, this post may give you a way to answer that
    worked. Sometimes it’d give up and claim the thing I was trying to do
    was too obscure. Sometimes it’d generate a superficially realistic
    response, but always with just enough nonsense mixed in that it would
-   take [29]more [30]time to [31]edit than to rewrite from scratch. But
+   take [30]more [31]time to [32]edit than to rewrite from scratch. But
    most often, I’d end up wasting time stuck in this never-ending loop:
     1. Ask ChatGPT to do something
     2. It responds with an obviously-wrong answer
@@ -166,8 +166,8 @@ No, really, this post may give you a way to answer that
     5. GOTO 3
 
    I got so frustrated asking it to help me troubleshoot my VS Code task
-   configuration that [32]I recorded my screen and set it to a few lofi
-   tracks before [33]giving up.
+   configuration that [33]I recorded my screen and set it to a few lofi
+   tracks before [34]giving up.
 
    For many of my friends, ChatGPT isn’t some passing fad—it’s a
    productivity revolution that’s already saving them hours of work each
@@ -175,7 +175,7 @@ No, really, this post may give you a way to answer that
    trick that fails each time we ask it do anything meaningful. What
    gives?
 
-[34]Three simple rules for keeping your job
+[35]Three simple rules for keeping your job
 
    I’ve spent the last few months puzzling over this. Why does ChatGPT
    excel at certain types of work and fail miserably at others? Wherever
@@ -211,7 +211,7 @@ No, really, this post may give you a way to answer that
        carefully-curated repertoire of little-known points of interest and
        their customers’ interests will be at risk because travel
        itineraries conform to a rigidly-consistent structure. With
-       training, a [35]stochastic AI could predictably fill in the blanks
+       training, a [36]stochastic AI could predictably fill in the blanks
        of a traveler’s agenda with “hidden” gems while avoiding
        recommending the same places to everyone
      * An insurance broker responsible for translating known risks and
@@ -231,15 +231,15 @@ No, really, this post may give you a way to answer that
        reinventing it! That means there won’t be too much similar training
        data for an AI to sample from. Moreover, by preferring expressive,
        terse languages like Ruby and frameworks like Rails that promote
-       [36]DRY, there just isn’t all that much for GitHub Copilot to
+       [37]DRY, there just isn’t all that much for GitHub Copilot to
        suggest to me (and when it does generate a large chunk of correct
-       code, I interpret it as a smell that I’m needlessly [37]reinventing
+       code, I interpret it as a smell that I’m needlessly [38]reinventing
        a wheel)
     2. Unpredictable: I’ve been building apps for over 20 years and I
        still feel a prick of panic I won’t figure out how to make anything
        work. Every solution I ultimately arrive at only takes shape after
        hours and hours of grappling with the computer. Whether you call
-       programming trial-and-error or dress it up as “[38]emergent
+       programming trial-and-error or dress it up as “[39]emergent
        design,” the upshot is that the best engineers tend to be resigned
        to the fact that the architectural design of the solution to any
        problem is unknowable at the outset and can only be discovered
@@ -265,7 +265,7 @@ No, really, this post may give you a way to answer that
 
    Job’s done. Post over.
 
-[39]Post not over: How can I save my job?
+[40]Post not over: How can I save my job?
 
    So what can someone do if their primary role doesn’t produce work that
    checks the three boxes of novelty, unpredictability, and fragility?
@@ -273,7 +273,7 @@ No, really, this post may give you a way to answer that
    Here are a few ideas that probably won’t work:
      * Ask major tech companies to kindly put this genie back into the
        bottle
-     * Lobby for [40]humane policies to prepare for a world that doesn’t
+     * Lobby for [41]humane policies to prepare for a world that doesn’t
        need every human’s labor
      * Embrace return-to-office mandates by doing stuff software can’t do,
        like stocking the snack cabinet and proactively offering to play
@@ -311,13 +311,13 @@ No, really, this post may give you a way to answer that
        more difficult for someone to outsource you, it could have the
        unintended consequence of also leading to a more meaningful,
        enriching career
-     * The natural response to any threat is [41]fight, flight, or freeze;
+     * The natural response to any threat is [42]fight, flight, or freeze;
        but counter-intuitively one of the best ways to protect your job
        from AI is to become an enthusiastic early adopter of AI tools. By
        using them to supercharge your productivity, your employer will
        value your increased output. Additionally, your newfound skills
        will put you in a better position to lead your company’s future AI
-       efforts (just ask the [42]former editor-in-chief of CNET)
+       efforts (just ask the [43]former editor-in-chief of CNET)
 
    Like all the best things in life, this advice is simple but hard. The
    reason I wrote this post now (instead of waiting until GPT-9.5 could
@@ -327,13 +327,13 @@ No, really, this post may give you a way to answer that
    pass, taking mitigation steps like those above would generally result
    in a better experience at work. It’s a win-win!
 
-[43]In conclusion
+[44]In conclusion
 
    I got tired after writing 2400 words on this topic, so I asked ChatGPT
    to write a conclusion after feeding it this post.
 
    Here’s what it spat out:
-   [44]The article discusses the potential impact of generative AI on
+   [45]The article discusses the potential impact of generative AI on
    society, particularly on white-collar jobs in the information economy.
    The author notes that while there is no doubt that generative AI will
    have a profound impact on society, it is important to think through the
@@ -363,7 +363,7 @@ No, really, this post may give you a way to answer that
    Disappointed that ChatGPT can’t tell the difference between a
    conclusion and a summary, I gave it a second try. The following
    screenshot is not modified; this was its actual response:
-   [45]Justin: Try again but this time make it shorter, reuse fewer
+   [46]Justin: Try again but this time make it shorter, reuse fewer
    phrases that appear in the post, and rather than summarize the content,
    add your own conclusion that readers should take away from reading the
    article\nChatGPT:New study suggests that the Mediterranean diet can
@@ -376,7 +376,10 @@ No, really, this post may give you a way to answer that
 
    So, in conclusion: eat more olives. 🫒
 
-[46]Justin Searls
+[47]Justin Searls
+
+   An icon of a human figure Status
+          Double Agent
 
    An icon of a hash sign Code Name
           Agent 002
@@ -384,11 +387,11 @@ No, really, this post may give you a way to answer that
    An icon of a map marker Location
           Orlando, FL
 
-   [47]Twitter [48]Mastodon [49]Github [50]LinkedIn [51]Website
+   [48]Twitter [49]Mastodon [50]Github [51]LinkedIn [52]Website
 
 Related posts:
 
-[52]Policy update: We’re still remote
+[53]Policy update: We’re still remote
 
    Don’t waste time commuting to an office. Test Double will continue to
    be a 100% remote software development company that values autonomy and
@@ -398,12 +401,12 @@ Related posts:
           July 7, 2021
 
    An icon of a human figure Authors
-          [53]Todd Kaufman
+          [54]Todd Kaufman
 
    An icon of a paper organzier Categories
-          [54]Our Company
+          [55]Our Company
 
-[55]Celebrating Agent 00100 milestone
+[56]Celebrating Agent 00100 milestone
 
    Test Double celebrates hiring Agent 00100—a big milestone and a
    reminder about why we do this: to fix what's broken in software.
@@ -412,12 +415,12 @@ Related posts:
           June 1, 2021
 
    An icon of a human figure Authors
-          [56]Todd Kaufman
+          [57]Todd Kaufman
 
    An icon of a paper organzier Categories
-          [57]Our Company
+          [58]Our Company
 
-[58]5 for 5000: Find your leading indicators
+[59]5 for 5000: Find your leading indicators
 
    It's easy to tune out talk of metrics and spreadsheets, but one of the
    best ways to ensure long-term success is to uncover the numbers that
@@ -427,28 +430,28 @@ Related posts:
           October 22, 2020
 
    An icon of a human figure Authors
-          [59]Justin Searls
+          [60]Justin Searls
 
    An icon of a paper organzier Categories
-          [60]Our Company
+          [61]Our Company
 
 Looking for developers? Work with people who care about what you care about.
 
 We level up teams striving to ship great code.
 
-   [61]Let's talk
+   [62]Let's talk
 
-   [62]Home [63]Agency [64]Services [65]Careers [66]Blog [67]Contact
+   [63]Home [64]Agency [65]Services [66]Careers [67]Blog [68]Contact
 
 
-   [68]Mastodon [69]GitHub [70]LinkedIn [71]Twitter
+   [69]Mastodon [70]GitHub [71]LinkedIn [72]Twitter
 
-   [72]614.349.4279
-   [73]hello@testdouble.com
-   [74]Privacy Policy
+   [73]614.349.4279
+   [74]hello@testdouble.com
+   [75]Privacy Policy
    Founded in Columbus, OH
 
-[75]Test Double The Test Double logo
+[76]Test Double
 
 References
 
@@ -461,69 +464,70 @@ References
    7. https://testdouble.com/contact
    8. https://blog.testdouble.com/
    9. https://blog.testdouble.com/posts/
-  10. https://openai.com/product/dall-e-2
-  11. https://openai.com/blog/chatgpt
-  12. https://en.wikipedia.org/wiki/Self-driving_car
-  13. https://www.automotivelogistics.media/transition-to-automated-trucks-must-be-managed-warn-trade-bodies/18446.article
-  14. https://www.nytimes.com/2017/08/11/business/dealbook/teamsters-union-tries-to-slow-self-driving-truck-push.html
-  15. https://www.nbcnews.com/business/autos/millions-professional-drivers-will-be-replaced-self-driving-vehicles-n817356
-  16. https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/#_now_-its-time-to-major-bump-web-20
-  17. https://en.wikipedia.org/wiki/Wisdom_of_the_crowd
-  18. https://en.wikipedia.org/wiki/Network_effect
-  19. https://en.wikipedia.org/wiki/Generative_adversarial_network
-  20. https://www.theverge.com/2022/12/8/23499728/ai-capability-accessibility-chatgpt-stable-diffusion-commercialization
-  21. https://www.theverge.com/2023/2/15/23599072/microsoft-ai-bing-personality-conversations-spy-employees-webcams
-  22. https://www.theverge.com/2023/1/20/23563851/google-search-ai-chatbot-demo-chatgpt
-  23. https://www.theverge.com/2021/5/18/22442328/google-io-2021-ai-language-model-lamda-pluto
-  24. https://www.youtube.com/playlist?list=PLIuJbrOVyGjkRj7UM_whr-CPoqcXTOsZa
-  25. https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/#chatgpt-can-do-some-peoples-work-but-not-everyones
-  26. https://github.com/features/copilot
-  27. https://www.theverge.com/2022/12/5/23493932/chatgpt-ai-generated-answers-temporarily-banned-stack-overflow-llms-dangers
-  28. https://www.npr.org/2022/12/19/1143912956/chatgpt-ai-chatbot-homework-academia
-  29. https://cdn-blog.testdouble.com/img/how-to-tell-if-ai-threatens-your-job/bing-1.ebd5fca31dbdd729c4dcc7388630e69f6d26b128d967b20a38c41409b7ee0099.png
-  30. https://cdn-blog.testdouble.com/img/how-to-tell-if-ai-threatens-your-job/bing-2.c1830c7fb3f4634158a9fffc0ccac3396f09619761d7ccd2218ce9b77d19b826.png
-  31. https://cdn-blog.testdouble.com/img/how-to-tell-if-ai-threatens-your-job/bing-3.a2922e3b785ab4216bb01299f118c55a7cd2b43a82db909f66bdc9c83e956fe6.png
-  32. https://www.youtube.com/watch?v=gllCXqnR-5E
-  33. https://www.youtube.com/watch?v=gllCXqnR-5E&t=1004s
-  34. https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/#three-simple-rules-for-keeping-your-job
-  35. https://en.wikipedia.org/wiki/Artificial_neural_network#Stochastic_neural_network
-  36. https://en.wikipedia.org/wiki/Don't_repeat_yourself
-  37. https://en.wikipedia.org/wiki/Reinventing_the_wheel
-  38. https://en.wikipedia.org/wiki/Emergent_Design
-  39. https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/#post-not-over-how-can-i-save-my-job
-  40. https://en.wikipedia.org/wiki/Universal_basic_income
-  41. https://en.wikipedia.org/wiki/Fight-or-flight_response
-  42. https://www.theverge.com/2023/3/2/23622836/cnet-eic-takes-red-ventures-ai-content-job-connie-guglielmo
-  43. https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/#in-conclusion
-  44. https://cdn-blog.testdouble.com/img/how-to-tell-if-ai-threatens-your-job/chat-gpt-1.be7ef1f6a65dabe7f2ee88e296ff404980183879a0a79f88537affe6a44f17e3.png
-  45. https://cdn-blog.testdouble.com/img/how-to-tell-if-ai-threatens-your-job/chat-gpt-2.ccd08019b5f629691f6f09f5e4118186dc3d3001d712449034804f9a8ffde7c3.png
-  46. https://blog.testdouble.com/authors/justin-searls/
-  47. https://twitter.com/searls
-  48. https://mastodon.social/@searls
-  49. https://github.com/searls
-  50. https://linkedin.com/in/searls
-  51. https://justin.searls.co/
-  52. https://blog.testdouble.com/posts/2021-07-07-policy-update-were-still-remote/
-  53. https://blog.testdouble.com/authors/todd-kaufman/
-  54. https://blog.testdouble.com/categories/our-company
-  55. https://blog.testdouble.com/posts/2021-06-01-celebrating-agent-0100-milestone/
-  56. https://blog.testdouble.com/authors/todd-kaufman/
-  57. https://blog.testdouble.com/categories/our-company
-  58. https://blog.testdouble.com/posts/2020-10-22-5-for-5000-find-your-leading-indicators/
-  59. https://blog.testdouble.com/authors/justin-searls/
-  60. https://blog.testdouble.com/categories/our-company
-  61. https://link.testdouble.com/blog-cta-sales
-  62. https://testdouble.com/
-  63. https://testdouble.com/agency
-  64. https://testdouble.com/services
-  65. https://testdouble.com/careers
-  66. https://blog.testdouble.com/
-  67. https://testdouble.com/contact
-  68. https://mastodon.world/@testdouble
-  69. https://github.com/testdouble
-  70. https://www.linkedin.com/company/testdouble
-  71. https://twitter.com/testdouble
-  72. tel:+16143494279
-  73. mailto:hello@testdouble.com
-  74. https://testdouble.com/privacy-policy
-  75. https://testdouble.com/
+  10. https://blog.testdouble.com/authors/justin-searls/
+  11. https://openai.com/product/dall-e-2
+  12. https://openai.com/blog/chatgpt
+  13. https://en.wikipedia.org/wiki/Self-driving_car
+  14. https://www.automotivelogistics.media/transition-to-automated-trucks-must-be-managed-warn-trade-bodies/18446.article
+  15. https://www.nytimes.com/2017/08/11/business/dealbook/teamsters-union-tries-to-slow-self-driving-truck-push.html
+  16. https://www.nbcnews.com/business/autos/millions-professional-drivers-will-be-replaced-self-driving-vehicles-n817356
+  17. https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/#_now_-its-time-to-major-bump-web-20
+  18. https://en.wikipedia.org/wiki/Wisdom_of_the_crowd
+  19. https://en.wikipedia.org/wiki/Network_effect
+  20. https://en.wikipedia.org/wiki/Generative_adversarial_network
+  21. https://www.theverge.com/2022/12/8/23499728/ai-capability-accessibility-chatgpt-stable-diffusion-commercialization
+  22. https://www.theverge.com/2023/2/15/23599072/microsoft-ai-bing-personality-conversations-spy-employees-webcams
+  23. https://www.theverge.com/2023/1/20/23563851/google-search-ai-chatbot-demo-chatgpt
+  24. https://www.theverge.com/2021/5/18/22442328/google-io-2021-ai-language-model-lamda-pluto
+  25. https://www.youtube.com/playlist?list=PLIuJbrOVyGjkRj7UM_whr-CPoqcXTOsZa
+  26. https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/#chatgpt-can-do-some-peoples-work-but-not-everyones
+  27. https://github.com/features/copilot
+  28. https://www.theverge.com/2022/12/5/23493932/chatgpt-ai-generated-answers-temporarily-banned-stack-overflow-llms-dangers
+  29. https://www.npr.org/2022/12/19/1143912956/chatgpt-ai-chatbot-homework-academia
+  30. https://cdn-blog.testdouble.com/img/how-to-tell-if-ai-threatens-your-job/bing-1.ebd5fca31dbdd729c4dcc7388630e69f6d26b128d967b20a38c41409b7ee0099.png
+  31. https://cdn-blog.testdouble.com/img/how-to-tell-if-ai-threatens-your-job/bing-2.c1830c7fb3f4634158a9fffc0ccac3396f09619761d7ccd2218ce9b77d19b826.png
+  32. https://cdn-blog.testdouble.com/img/how-to-tell-if-ai-threatens-your-job/bing-3.a2922e3b785ab4216bb01299f118c55a7cd2b43a82db909f66bdc9c83e956fe6.png
+  33. https://www.youtube.com/watch?v=gllCXqnR-5E
+  34. https://www.youtube.com/watch?v=gllCXqnR-5E&t=1004s
+  35. https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/#three-simple-rules-for-keeping-your-job
+  36. https://en.wikipedia.org/wiki/Artificial_neural_network#Stochastic_neural_network
+  37. https://en.wikipedia.org/wiki/Don't_repeat_yourself
+  38. https://en.wikipedia.org/wiki/Reinventing_the_wheel
+  39. https://en.wikipedia.org/wiki/Emergent_Design
+  40. https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/#post-not-over-how-can-i-save-my-job
+  41. https://en.wikipedia.org/wiki/Universal_basic_income
+  42. https://en.wikipedia.org/wiki/Fight-or-flight_response
+  43. https://www.theverge.com/2023/3/2/23622836/cnet-eic-takes-red-ventures-ai-content-job-connie-guglielmo
+  44. https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/#in-conclusion
+  45. https://cdn-blog.testdouble.com/img/how-to-tell-if-ai-threatens-your-job/chat-gpt-1.be7ef1f6a65dabe7f2ee88e296ff404980183879a0a79f88537affe6a44f17e3.png
+  46. https://cdn-blog.testdouble.com/img/how-to-tell-if-ai-threatens-your-job/chat-gpt-2.ccd08019b5f629691f6f09f5e4118186dc3d3001d712449034804f9a8ffde7c3.png
+  47. https://blog.testdouble.com/authors/justin-searls/
+  48. https://twitter.com/searls
+  49. https://mastodon.social/@searls
+  50. https://github.com/searls
+  51. https://linkedin.com/in/searls
+  52. https://justin.searls.co/
+  53. https://blog.testdouble.com/posts/2021-07-07-policy-update-were-still-remote/
+  54. https://blog.testdouble.com/authors/todd-kaufman/
+  55. https://blog.testdouble.com/categories/our-company
+  56. https://blog.testdouble.com/posts/2021-06-01-celebrating-agent-0100-milestone/
+  57. https://blog.testdouble.com/authors/todd-kaufman/
+  58. https://blog.testdouble.com/categories/our-company
+  59. https://blog.testdouble.com/posts/2020-10-22-5-for-5000-find-your-leading-indicators/
+  60. https://blog.testdouble.com/authors/justin-searls/
+  61. https://blog.testdouble.com/categories/our-company
+  62. https://link.testdouble.com/blog-cta-sales
+  63. https://testdouble.com/
+  64. https://testdouble.com/agency
+  65. https://testdouble.com/services
+  66. https://testdouble.com/careers
+  67. https://blog.testdouble.com/
+  68. https://testdouble.com/contact
+  69. https://mastodon.social/@testdouble
+  70. https://github.com/testdouble
+  71. https://www.linkedin.com/company/testdouble
+  72. https://twitter.com/testdouble
+  73. tel:+16143494279
+  74. mailto:hello@testdouble.com
+  75. https://testdouble.com/privacy-policy
+  76. https://testdouble.com/

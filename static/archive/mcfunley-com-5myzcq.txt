@@ -12,14 +12,14 @@
 
    Probably the single best thing to happen to me in my career was having
    had [6]Kellan placed in charge of me. I stuck around long enough to see
-   Kellanâs technical decisionmaking start to bear fruit. I learned a
+   Kellan’s technical decisionmaking start to bear fruit. I learned a
    great deal from this, but I also learned a great deal as a result of
    this. I would not have been free to become the engineer that wrote
    [7]Data Driven Products Now! if Kellan had not been there to so
    thoroughly stick the landing on technology choices.
    [FRQKLCy.jpg] Being inspirational as always.
 
-   In the year since leaving Etsy, Iâve resurrected my ability to care
+   In the year since leaving Etsy, I’ve resurrected my ability to care
    about technology. And my thoughts have crystallized to the point where
    I can write them down coherently. What follows is a distillation of the
    Kellan gestalt, which will hopefully serve to horrify him only
@@ -27,7 +27,7 @@
 
       Embrace Boredom.
 
-   Letâs say every company gets about three innovation tokens. You can
+   Let’s say every company gets about three innovation tokens. You can
    spend these however you want, but the supply is fixed for a long while.
    You might get a few more after you achieve a [8]certain level of
    stability and maturity, but the general tendency is to overestimate the
@@ -37,20 +37,20 @@
    If you choose to write your website in NodeJS, you just spent one of
    your innovation tokens. If you choose to use [9]MongoDB, you just spent
    one of your innovation tokens. If you choose to use [10]service
-   discovery tech thatâs existed for a year or less, you just spent one of
+   discovery tech that’s existed for a year or less, you just spent one of
    your innovation tokens. If you choose to write your own database, oh
-   god, youâre in trouble.
+   god, you’re in trouble.
 
-   Any of those choices might be sensible if youâre a javascript
-   consultancy, or a database company. But youâre probably not. Youâre
+   Any of those choices might be sensible if you’re a javascript
+   consultancy, or a database company. But you’re probably not. You’re
    probably working for a company that is at least ostensibly
    [11]rethinking global commerce or [12]reinventing payments on the web
    or pursuing some other suitably epic mission. In that context, devoting
    any of your limited attention to innovating ssh is an excellent way to
    fail. Or at best, delay success [13][1].
 
-   What counts as boring? Thatâs a little tricky. âBoringâ should not be
-   conflated with âbad.â There is technology out there that is both boring
+   What counts as boring? That’s a little tricky. “Boring” should not be
+   conflated with “bad.” There is technology out there that is both boring
    and bad [14][2]. You should not use any of that. But there are many
    choices of technology that are boring and good, or at least good
    enough. MySQL is boring. Postgres is boring. PHP is boring. Python is
@@ -59,33 +59,33 @@
    The nice thing about boringness (so constrained) is that the
    capabilities of these things are well understood. But more importantly,
    their failure modes are well understood. Anyone who knows me well will
-   understand that itâs only with a overwhelming sense of malaise that I
+   understand that it’s only with a overwhelming sense of malaise that I
    now invoke the spectre of Don Rumsfeld, but I must.
    [n8ElWr3.jpg] To be clear, fuck this guy.
 
    When choosing technology, you have both known unknowns and unknown
    unknowns [15][3].
-     * A known unknown is something like: we donât know what happens when
+     * A known unknown is something like: we don’t know what happens when
        this database hits 100% CPU.
-     * An unknown unknown is something like: geez it didnât even occur to
+     * An unknown unknown is something like: geez it didn’t even occur to
        us that [16]writing stats would cause GC pauses.
 
-   Both sets are typically non-empty, even for tech thatâs existed for
+   Both sets are typically non-empty, even for tech that’s existed for
    decades. But for shiny new technology the magnitude of unknown unknowns
    is significantly larger, and this is important.
 
       Optimize Globally.
 
    I unapologetically think a bias in favor of boring technology is a good
-   thing, but itâs not the only factor that needs to be considered.
-   Technology choices donât happen in isolation. They have a scope that
+   thing, but it’s not the only factor that needs to be considered.
+   Technology choices don’t happen in isolation. They have a scope that
    touches your entire team, organization, and the system that emerges
    from the sum total of your choices.
 
    Adding technology to your company comes with a cost. As an abstract
-   statement this is obvious: if weâre already using Ruby, adding Python
-   to the mix doesnât feel sensible because the resulting complexity would
-   outweigh Pythonâs marginal utility. But somehow when weâre talking
+   statement this is obvious: if we’re already using Ruby, adding Python
+   to the mix doesn’t feel sensible because the resulting complexity would
+   outweigh Python’s marginal utility. But somehow when we’re talking
    about Python and Scala or MySQL and Redis people [17]lose their minds,
    discard all constraints, and start raving about using the best tool for
    the job.
@@ -98,8 +98,8 @@
    choose technology in a world where choices are cheap: "pick the right
    tool for the job."
 
-   But of course, the baggage exists. We call the baggage âoperationsâ and
-   to a lesser extent âcognitive overhead.â You have to monitor the thing.
+   But of course, the baggage exists. We call the baggage “operations” and
+   to a lesser extent “cognitive overhead.” You have to monitor the thing.
    You have to figure out unit tests. You need to know the first thing
    about it to hack on it. You need an init script. I could go on for days
    here, and all of this adds up fast.
@@ -107,10 +107,10 @@
    technology in the world where operations are a serious concern (i.e.,
    "reality").
 
-   The problem with âbest tool for the jobâ thinking is that it takes a
-   myopic view of the words âbestâ and âjob.â Your job is keeping the
-   company in business, god damn it. And the âbestâ tool is the one that
-   occupies the âleast worstâ position for as many of your problems as
+   The problem with “best tool for the job” thinking is that it takes a
+   myopic view of the words “best” and “job.” Your job is keeping the
+   company in business, god damn it. And the “best” tool is the one that
+   occupies the “least worst” position for as many of your problems as
    possible.
 
    It is basically always the case that the long-term costs of keeping a
@@ -135,32 +135,32 @@
    One of the most worthwhile exercises I recommend here is to consider
    how you would solve your immediate problem without adding anything new.
    First, posing this question should detect the situation where the
-   âproblemâ is that someone really wants to use the technology. If that
+   “problem” is that someone really wants to use the technology. If that
    is the case, you should immediately abort.
    [rmdSx.gif] I just watched a webinar about this graph database, we
    should try it out.
 
    It can be amazing how far a small set of technology choices can go. The
-   answer to this question in practice is almost never âwe canât do it,â
-   itâs usually just somewhere on the spectrum of âwell, we could do it,
-   but it would be too hardâ [20][4]. If you think you canât accomplish
-   your goals with what youâve got now, you are probably just not thinking
+   answer to this question in practice is almost never “we can’t do it,”
+   it’s usually just somewhere on the spectrum of “well, we could do it,
+   but it would be too hard” [20][4]. If you think you can’t accomplish
+   your goals with what you’ve got now, you are probably just not thinking
    creatively enough.
 
-   Itâs helpful to write down exactly what it is about the current stack
+   It’s helpful to write down exactly what it is about the current stack
    that makes solving the problem prohibitively expensive and difficult.
-   This is related to the previous exercise, but itâs subtly different.
+   This is related to the previous exercise, but it’s subtly different.
 
-   New technology choices might be purely additive (for example: âwe donât
-   have caching yet, so letâs add memcachedâ). But they might also overlap
-   or replace things you are already using. If thatâs the case, you should
+   New technology choices might be purely additive (for example: “we don’t
+   have caching yet, so let’s add memcached”). But they might also overlap
+   or replace things you are already using. If that’s the case, you should
    set clear expectations about migrating old functionality to the new
-   system. The policy should typically be âweâre committed to migrating,â
+   system. The policy should typically be “we’re committed to migrating,”
    with a proposed timeline. The intention of this step is to keep
    wreckage at manageable levels, and to avoid proliferating
    locally-optimal solutions.
 
-   This process is not daunting, and itâs not much of a hassle. Itâs a
+   This process is not daunting, and it’s not much of a hassle. It’s a
    handful of questions to fill out as homework, followed by a meeting to
    talk about it. I think that if a new technology (or a new service to be
    created on your infrastructure) can pass through this gauntlet
@@ -225,34 +225,34 @@
 References
 
    1. https://mcfunley.com/feed.xml
-   2. file:///
+   2. https://mcfunley.com/
    3. https://twitter.com/intent/tweet
    4. https://twitter.com/mcfunley
-   5. file:///choose-boring-technology
+   5. https://mcfunley.com/choose-boring-technology
    6. http://laughingmeme.org/
-   7. file:///data-driven-products-lean-startup-2014
+   7. https://mcfunley.com/data-driven-products-lean-startup-2014
    8. http://rc3.org/2015/03/24/the-pleasure-of-building-big-things/
-   9. file:///why-mongodb-never-worked-out-at-etsy
+   9. https://mcfunley.com/why-mongodb-never-worked-out-at-etsy
   10. https://consul.io/
   11. https://www.etsy.com/
   12. https://stripe.com/
-  13. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L21912-441TMP.html#f1
-  14. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L21912-441TMP.html#f2
-  15. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L21912-441TMP.html#f3
+  13. https://mcfunley.com/choose-boring-technology#f1
+  14. https://mcfunley.com/choose-boring-technology#f2
+  15. https://mcfunley.com/choose-boring-technology#f3
   16. http://www.evanjones.ca/jvm-mmap-pause.html
   17. http://martinfowler.com/bliki/PolyglotPersistence.html
   18. https://twitter.com/coda/status/580531932393504768
   19. https://twitter.com/mcfunley/status/578603932949164032
-  20. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L21912-441TMP.html#f4
+  20. https://mcfunley.com/choose-boring-technology#f4
   21. https://twitter.com/handler
-  22. file:///effective-web-experimentation-as-a-homo-narrans
+  22. https://mcfunley.com/effective-web-experimentation-as-a-homo-narrans
   23. http://boringtechnology.club/
   24. https://www.youtube.com/watch?v=eenrfm50mXw
   25. http://www.sec.gov/Archives/edgar/data/1370637/000119312515077045/d806992ds1.htm
   26. http://en.wikipedia.org/wiki/I_know_that_I_know_nothing
   27. https://speakerdeck.com/mcfunley/etsy-activity-feed-architecture
   28. https://aphyr.com/posts/283-call-me-maybe-redis
-  29. file:///
+  29. https://mcfunley.com/
   30. https://twitter.com/intent/tweet
   31. https://twitter.com/mcfunley
   32. https://github.com/mcfunley

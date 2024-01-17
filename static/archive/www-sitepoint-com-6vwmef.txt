@@ -1,64 +1,60 @@
-    [tr?id=721455246308784&ev=PageView&noscript=1] #[1]SitePoint
+   #[1]SitePoint
 
    IFRAME: [2]https://www.googletagmanager.com/ns.html?id=GTM-KL8PMMW
 
-   🤯 Save 33% 700+ courses, assessments, and books
-   [3]Browse Titles
-   (BUTTON)
-
    (BUTTON)
      * ____________________
-     * [4]Blog
+     * [3]Blog
      *
-          + [5]Free Tech Books →
-          + [6]AI →
-          + [7]JavaScript
-          + [8]Computing
-          + [9]Design & UX
-          + [10]HTML & CSS
-          + [11]Entrepreneur
-          + [12]Web
-          + [13]PHP
-          + [14]WordPress
-          + [15]Mobile
-          + [16]Programming
-          + [17]Python →
-     * [18]Forum
-     * [19]Library
-     * [20]Login
-     * [21]Join Premium
+          + [4]Free Tech Books →
+          + [5]AI →
+          + [6]JavaScript
+          + [7]Computing
+          + [8]Design & UX
+          + [9]HTML & CSS
+          + [10]Entrepreneur
+          + [11]Web
+          + [12]PHP
+          + [13]WordPress
+          + [14]Mobile
+          + [15]Programming
+          + [16]Python →
+     * [17]Forum
+     * [18]Library
+     * [19]Login
+     * [20]Join Premium
 
-   [22]Join Premium
+   [21]Join Premium
 
    ____________________
 
    (BUTTON)
    (BUTTON)
-     * [23]Free Tech Books
-     * [24]AI
-     * [25]JavaScript
-     * [26]Computing
-     * [27]Design & UX
-     * [28]HTML & CSS
-     * [29]Entrepreneur
-     * [30]Web
-     * [31]PHP
-     * [32]WordPress
-     * [33]Mobile
-     * [34]Programming
-     * [35]Python
+     * [22]Free Tech Books
+     * [23]AI
+     * [24]JavaScript
+     * [25]Computing
+     * [26]Design & UX
+     * [27]HTML & CSS
+     * [28]Entrepreneur
+     * [29]Web
+     * [30]PHP
+     * [31]WordPress
+     * [32]Mobile
+     * [33]Programming
+     * [34]Python
 
    (BUTTON)
    (BUTTON)
 
-   [36]Ruby
+   [35]Ruby
 
 The History of Ruby
 
-   [37][1433174717Profile-2015-May-96x96.jpg]
+   [36][1433174717Profile-2015-May-96x96.jpg]
 
 
-    [38]Jesse Herrick
+    [37]Jesse Herrick
 
    July 26, 2014
    Share (BUTTON) (BUTTON) (BUTTON) (BUTTON) (BUTTON)
@@ -80,7 +76,7 @@ Birth (1993)
    Ruby was born in 1993, conceieved in a discussion between Yukihiro
    Matsumoto (“Matz”) and a colleague. They were discussing the
    possibility of an object-oriented scripting-language. Matz stated in
-   [39]ruby-talk:00382 that he knew Perl, but did not like it very much;
+   [38]ruby-talk:00382 that he knew Perl, but did not like it very much;
    that it had the smell of a “toy” language. He also discussed that he
    knew Python, but didn’t like it because it wasn’t a true
    object-oriented programming language.
@@ -97,7 +93,7 @@ Birth (1993)
    Matsumoto decided to create his own. After spending several months
    writing an interpreter, Matz finally published the first public version
    of Ruby (0.95) to various Japanese domestic newsgroups in December,
-   1995. You can still download the infant version of Ruby [40]here at
+   1995. You can still download the infant version of Ruby [39]here at
    your own risk.
 
 Toddler Years
@@ -114,11 +110,11 @@ Primary School Years
 
    In 1998, Matz created a simple English homepage for Ruby. However, Ruby
    was still very localized to Japan. In trying to further this expansion,
-   the first English language Ruby mailing list, [41]Ruby-Talk, was
+   the first English language Ruby mailing list, [40]Ruby-Talk, was
    created. Ruby was beginning to spread beyond Japan.
 
    Ruby-Talk is still very active today, and you can subscribe to it
-   [42]here.
+   [41]here.
 
    In October of 1999, Yukihiro Matsumoto and Keiju Ishitsuka wrote the
    first book on the Ruby programming language: The Object-oriented
@@ -201,7 +197,7 @@ Strong Adult
 
    Ruby 2.1.0 was released on Christmas day of 2013. It brought several
    minor changes to the language. But the biggest news of 2.1.0 was
-   [43]semantic versioning, a way to properly version a project without
+   [42]semantic versioning, a way to properly version a project without
    breaking dependencies by accident.
 
    Ruby 2.1.1 was released on Ruby’s 21st birthday (February 24, 2014).
@@ -229,153 +225,156 @@ Share This Article
    (BUTTON) (BUTTON) (BUTTON) (BUTTON) (BUTTON)
 
 
-    [44]Jesse Herrick
+    [43]Jesse Herrick
 
-   [45]Jesse Herrick
+   [44]Jesse Herrick
 
    Jesse Herrick is an avid Ruby developer who specializes in web
-   development. He is a back-end developer at [46]Littlelines and loves
+   development. He is a back-end developer at [45]Littlelines and loves
    programming. You can read his personal blog at:
-   [47]https://jesse.codes.
+   [46]https://jesse.codes.
 
    GlennGhistoryruby
 
 Up Next
 
-   [48]How to Build an Interactive History Map with WRLD
-   [49]How to Build an Interactive History Map with WRLD[50]Adrian Try
+   [47]How to Build an Interactive History Map with WRLD
+   [48]How to Build an Interactive History Map with WRLD[49]Adrian Try
 
-   [51]Digital Fonts: A Condensed History
-   [52]Digital Fonts: A Condensed History[53]Alex Bigman
+   [50]Digital Fonts: A Condensed History
+   [51]Digital Fonts: A Condensed History[52]Alex Bigman
 
-   [54]A History of CSS Image Replacement
-   [55]A History of CSS Image Replacement[56]Baljeet Rathi
+   [53]A History of CSS Image Replacement
+   [54]A History of CSS Image Replacement[55]Baljeet Rathi
 
-   [57]Making Alternative ’80s Film History Come to Life with Photoshop
-   [58]Making Alternative ’80s Film History Come to Life with
-   Photoshop[59]Gabrielle Gosha
+   [56]Making Alternative ’80s Film History Come to Life with Photoshop
+   [57]Making Alternative ’80s Film History Come to Life with
+   Photoshop[58]Gabrielle Gosha
 
-   [60]10 Years of Mobile Industry History in 10 Minutes
-   [61]10 Years of Mobile Industry History in 10 Minutes[62]Dirk Reagle
+   [59]10 Years of Mobile Industry History in 10 Minutes
+   [60]10 Years of Mobile Industry History in 10 Minutes[61]Dirk Reagle
 
-   [63]How to Modify the Browser History in Complex HTML5 and JavaScript
+   [62]How to Modify the Browser History in Complex HTML5 and JavaScript
    Applications
-   [64]How to Modify the Browser History in Complex HTML5 and JavaScript
-   Applications[65]Craig Buckler
+   [63]How to Modify the Browser History in Complex HTML5 and JavaScript
+   Applications[64]Craig Buckler
 
      * Stuff we do
-     * [66]Premium
-     * [67]Newsletters
-     * [68]Forums
+     * [65]Premium
+     * [66]Newsletters
+     * [67]Forums
 
      * About
-     * [69]Our story
-     * [70]Terms of use
-     * [71]Privacy policy
-     * [72]Corporate memberships
+     * [68]Our story
+     * [69]Terms of use
+     * [70]Privacy policy
+     * [71]Corporate memberships
 
      * Contact
-     * [73]Contact us
-     * [74]FAQ
-     * [75]Publish your book with us
-     * [76]Write an article for us
-     * [77]Advertise
+     * [72]Contact us
+     * [73]FAQ
+     * [74]Publish your book with us
+     * [75]Write an article for us
+     * [76]Advertise
 
      * Connect
      *
 
-   © 2000 – 2023 SitePoint Pty. Ltd.
+   © 2000 – 2024 SitePoint Pty. Ltd.
 
-   This site is protected by reCAPTCHA and the Google[78] Privacy Policy
-   and[79] Terms of Service apply.
+   This site is protected by reCAPTCHA and the Google[77] Privacy Policy
+   and[78] Terms of Service apply.
+
+   <img height="1" width="1" style="display:none"
+   src="https://www.facebook.com/tr?id=721455246308784&ev=PageView&noscrip
+   t=1"} />
 
 References
 
    Visible links:
-   1. file:///sitepoint.rss
+   1. https://www.sitepoint.com/sitepoint.rss
    2. https://www.googletagmanager.com/ns.html?id=GTM-KL8PMMW
-   3. https://www.sitepoint.com/premium/library/?ref_source=blog&ref_medium=smartbar
-   4. file:///blog/
-   5. file:///premium/library/free/?ref_source=blog_nav
-   6. file:///ai/
-   7. file:///javascript/
-   8. file:///computing/
-   9. file:///design-ux/
-  10. file:///html-css/
-  11. file:///entrepreneur/
-  12. file:///web/
-  13. file:///php/
-  14. file:///wordpress/
-  15. file:///mobile/
-  16. file:///programming/
-  17. file:///python/
-  18. file:///community/
-  19. file:///premium/library/
-  20. file:///premium/sign-in/
-  21. file:///premium/pricing/?ref_source=sitepoint&ref_medium=topnav
-  22. file:///premium/pricing/?ref_source=sitepoint&ref_medium=topnav
-  23. file:///premium/library/free/?ref_source=blog_nav
-  24. file:///ai/
-  25. file:///javascript/
-  26. file:///computing/
-  27. file:///design-ux/
-  28. file:///html-css/
-  29. file:///entrepreneur/
-  30. file:///web/
-  31. file:///php/
-  32. file:///wordpress/
-  33. file:///mobile/
-  34. file:///programming/
-  35. file:///python/
-  36. file:///ruby/
-  37. file:///author/jherrick/
-  38. file:///author/jherrick/
-  39. http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/382
-  40. https://ftp.ruby-lang.org/pub/ruby/1.0/
-  41. http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
-  42. https://www.ruby-lang.org/en/community/mailing-lists/
-  43. http://semver.org/
-  44. file:///author/jherrick/
-  45. file:///author/jherrick/
-  46. http://www.littlelines.com/
-  47. https://jesse.codes/
-  48. file:///how-to-build-an-interactive-history-map-with-wrld/
-  49. file:///how-to-build-an-interactive-history-map-with-wrld/
-  50. file:///author/atry/
-  51. file:///digital-fonts-condensed-history/
-  52. file:///digital-fonts-condensed-history/
-  53. file:///author/alex-bigman/
-  54. file:///css-image-replacement-text-indent-negative-margins-and-more/
-  55. file:///css-image-replacement-text-indent-negative-margins-and-more/
-  56. file:///author/brathi/
-  57. file:///making-alternative-80s-film-history-come-life-photoshop/
-  58. file:///making-alternative-80s-film-history-come-life-photoshop/
-  59. file:///author/ggosha/
-  60. file:///the-advancements-in-mobile-design-and-how-it-has-developed-into-a-strong-industry/
-  61. file:///the-advancements-in-mobile-design-and-how-it-has-developed-into-a-strong-industry/
-  62. file:///author/dreagle/
-  63. file:///javascript-history-pushstate/
-  64. file:///javascript-history-pushstate/
-  65. file:///author/craig-buckler/
-  66. file:///premium/library/
-  67. file:///newsletters/
-  68. file:///community/
-  69. file:///about-us/
-  70. file:///legals/
-  71. file:///privacy-policy/
-  72. file:///premium-for-teams/
-  73. file:///contact-us/
-  74. https://support.sitepoint.com/hc/en-us
-  75. https://sitepoint.typeform.com/to/HtAXVN
-  76. file:///write-for-us/
-  77. file:///partnerships/
-  78. https://policies.google.com/privacy
-  79. https://policies.google.com/terms
+   3. https://www.sitepoint.com/blog/
+   4. https://www.sitepoint.com/premium/library/free/?ref_source=blog_nav
+   5. https://www.sitepoint.com/ai/
+   6. https://www.sitepoint.com/javascript/
+   7. https://www.sitepoint.com/computing/
+   8. https://www.sitepoint.com/design-ux/
+   9. https://www.sitepoint.com/html-css/
+  10. https://www.sitepoint.com/entrepreneur/
+  11. https://www.sitepoint.com/web/
+  12. https://www.sitepoint.com/php/
+  13. https://www.sitepoint.com/wordpress/
+  14. https://www.sitepoint.com/mobile/
+  15. https://www.sitepoint.com/programming/
+  16. https://www.sitepoint.com/python/
+  17. https://www.sitepoint.com/community/
+  18. https://www.sitepoint.com/premium/library/
+  19. https://www.sitepoint.com/premium/sign-in/
+  20. https://www.sitepoint.com/premium/pricing/?ref_source=sitepoint&ref_medium=topnav
+  21. https://www.sitepoint.com/premium/pricing/?ref_source=sitepoint&ref_medium=topnav
+  22. https://www.sitepoint.com/premium/library/free/?ref_source=blog_nav
+  23. https://www.sitepoint.com/ai/
+  24. https://www.sitepoint.com/javascript/
+  25. https://www.sitepoint.com/computing/
+  26. https://www.sitepoint.com/design-ux/
+  27. https://www.sitepoint.com/html-css/
+  28. https://www.sitepoint.com/entrepreneur/
+  29. https://www.sitepoint.com/web/
+  30. https://www.sitepoint.com/php/
+  31. https://www.sitepoint.com/wordpress/
+  32. https://www.sitepoint.com/mobile/
+  33. https://www.sitepoint.com/programming/
+  34. https://www.sitepoint.com/python/
+  35. https://www.sitepoint.com/ruby/
+  36. https://www.sitepoint.com/author/jherrick/
+  37. https://www.sitepoint.com/author/jherrick/
+  38. http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/382
+  39. https://ftp.ruby-lang.org/pub/ruby/1.0/
+  40. http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
+  41. https://www.ruby-lang.org/en/community/mailing-lists/
+  42. http://semver.org/
+  43. https://www.sitepoint.com/author/jherrick/
+  44. https://www.sitepoint.com/author/jherrick/
+  45. http://www.littlelines.com/
+  46. https://jesse.codes/
+  47. https://www.sitepoint.com/how-to-build-an-interactive-history-map-with-wrld/
+  48. https://www.sitepoint.com/how-to-build-an-interactive-history-map-with-wrld/
+  49. https://www.sitepoint.com/author/atry/
+  50. https://www.sitepoint.com/digital-fonts-condensed-history/
+  51. https://www.sitepoint.com/digital-fonts-condensed-history/
+  52. https://www.sitepoint.com/author/alex-bigman/
+  53. https://www.sitepoint.com/css-image-replacement-text-indent-negative-margins-and-more/
+  54. https://www.sitepoint.com/css-image-replacement-text-indent-negative-margins-and-more/
+  55. https://www.sitepoint.com/author/brathi/
+  56. https://www.sitepoint.com/making-alternative-80s-film-history-come-life-photoshop/
+  57. https://www.sitepoint.com/making-alternative-80s-film-history-come-life-photoshop/
+  58. https://www.sitepoint.com/author/ggosha/
+  59. https://www.sitepoint.com/the-advancements-in-mobile-design-and-how-it-has-developed-into-a-strong-industry/
+  60. https://www.sitepoint.com/the-advancements-in-mobile-design-and-how-it-has-developed-into-a-strong-industry/
+  61. https://www.sitepoint.com/author/dreagle/
+  62. https://www.sitepoint.com/javascript-history-pushstate/
+  63. https://www.sitepoint.com/javascript-history-pushstate/
+  64. https://www.sitepoint.com/author/craig-buckler/
+  65. https://www.sitepoint.com/premium/library/
+  66. https://www.sitepoint.com/newsletters/
+  67. https://www.sitepoint.com/community/
+  68. https://www.sitepoint.com/about-us/
+  69. https://www.sitepoint.com/legals/
+  70. https://www.sitepoint.com/privacy-policy/
+  71. https://www.sitepoint.com/premium-for-teams/
+  72. https://www.sitepoint.com/contact-us/
+  73. https://support.sitepoint.com/hc/en-us
+  74. https://sitepoint.typeform.com/to/HtAXVN
+  75. https://www.sitepoint.com/write-for-us/
+  76. https://www.sitepoint.com/partnerships/
+  77. https://policies.google.com/privacy
+  78. https://policies.google.com/terms
 
    Hidden links:
-  81. file://localhost/
-  82. https://github.com/JesseHerrick
-  83. https://twitter.com/JesseHerrick
-  84. https://www.facebook.com/sitepoint
-  85. https://twitter.com/sitepointdotcom
-  86. file://localhost/sitepoint.rss
+  80. https://www.sitepoint.com/
+  81. https://github.com/JesseHerrick
+  82. https://twitter.com/JesseHerrick
+  83. https://www.facebook.com/sitepoint
+  84. https://twitter.com/sitepointdotcom
+  85. https://www.sitepoint.com/sitepoint.rss

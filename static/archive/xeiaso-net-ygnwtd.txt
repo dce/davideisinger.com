@@ -16,9 +16,11 @@
 
 gokrazy is really cool
 
-   Published on 09/20/2023
-   An image of undefined I work for Tailscale at the time of writing this
-   article. I wrote this on my own time out of my own volition.
+   Published on 09/20/2023, 3515 words, 13 minutes to read
+   An image of undefined - Nikon D3300, 35mm f/1.8 DX, a red formula one
+   style car speeds along a racetrack with visible tire skidmarks. Photo
+   by Xe Iaso I worked for Tailscale at the time of writing this article.
+   I wrote this on my own time out of my own volition.
 
    When you deal with Linux, you end up hearing about "distributions" as
    different "flavors" of Linux combined with a bunch of other tools. This
@@ -137,35 +139,35 @@ gokrazy
    like:
 / # tree etc gokrazy user
 etc
-âââ breakglass.authorized_keys
-âââ gokr-pw.txt
-âââ gokrazy
-â   âââ sbom.json
-âââ hostname
-âââ hosts
-âââ http-port.txt
-âââ https-port.txt
-âââ localtime
-âââ machine-id
-âââ resolv.conf -> /tmp/resolv.conf
-âââ ssl
-    âââ ca-bundle.pem
+├── breakglass.authorized_keys
+├── gokr-pw.txt
+├── gokrazy
+│   └── sbom.json
+├── hostname
+├── hosts
+├── http-port.txt
+├── https-port.txt
+├── localtime
+├── machine-id
+├── resolv.conf -> /tmp/resolv.conf
+└── ssl
+    └── ca-bundle.pem
 
 gokrazy
-âââ dhcp
-âââ heartbeat
-âââ init
-âââ ntp
-âââ randomd
+├── dhcp
+├── heartbeat
+├── init
+├── ntp
+└── randomd
 
 user
-âââ breakglass
-âââ fbstatus
-âââ qemu-guest-kragent
-âââ serial-busybox
-âââ tailscale
-âââ tailscaled
-âââ waifud-gok-agent
+├── breakglass
+├── fbstatus
+├── qemu-guest-kragent
+├── serial-busybox
+├── tailscale
+├── tailscaled
+└── waifud-gok-agent
 
    That is the entire system. It's all stripped down to these few
    programs, configuration files, and one symlink for DNS resolution. This
@@ -511,6 +513,8 @@ Conclusion
    Mara is hacker
    <[58]Mara> Spoiler alert: [59]waifud support is coming soon to a
    homelab near you.
+     __________________________________________________________________
+
    (BUTTON) Share
 
    Facts and circumstances may have changed since publication. Please
@@ -519,28 +523,28 @@ Conclusion
 
    Tags: go, gokrazy, linux
 
-   Copyright 2012-2023 Xe Iaso (Christine Dodrill). Any and all opinions
+   Copyright 2012-2024 Xe Iaso (Christine Dodrill). Any and all opinions
    listed here are my own and not representative of any of my employers,
    past, future, and/or present.
 
    Like what you see? Donate on [60]Patreon like [61]these awesome people!
 
    Served by xesite v4
-   (/nix/store/5k4azk5h5ymf5r6siw9jv7d3k58qrwx7-xesite_v4-20231009/bin/xes
-   ite), source code available [62]here.
+   (/nix/store/5pbrsn0khhga62ipyl043c9z22dlah4w-xesite_v4-20231122/bin/xes
+   ite) with site version [62]ae5283f7 , source code available [63]here.
 
 References
 
    1. https://xeiaso.net/blog.rss
    2. https://xeiaso.net/blog.json
-   3. file:///
-   4. file:///blog
-   5. file:///contact
-   6. file:///resume
-   7. file:///talks
-   8. file:///vods
-   9. file:///signalboost
-  10. file:///characters#mara
+   3. https://xeiaso.net/
+   4. https://xeiaso.net/blog
+   5. https://xeiaso.net/contact
+   6. https://xeiaso.net/resume
+   7. https://xeiaso.net/talks
+   8. https://xeiaso.net/vods
+   9. https://xeiaso.net/signalboost
+  10. https://xeiaso.net/characters#mara
   11. https://gcc.gnu.org/
   12. https://www.gnu.org/software/coreutils/coreutils.html
   13. https://www.gnu.org/software/libc/
@@ -548,27 +552,27 @@ References
   15. https://musl.libc.org/
   16. https://www.gnu.org/software/libc/
   17. https://en.wikipedia.org/wiki/BusyBox
-  18. file:///characters#mara
+  18. https://xeiaso.net/characters#mara
   19. https://en.wikipedia.org/wiki/Android_(operating_system)
-  20. file:///characters#aoi
-  21. file:///characters#aoi
-  22. file:///characters#cadey
+  20. https://xeiaso.net/characters#aoi
+  21. https://xeiaso.net/characters#aoi
+  22. https://xeiaso.net/characters#cadey
   23. https://gokrazy.org/
   24. https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol
   25. https://en.wikipedia.org/wiki/Network_Time_Protocol
   26. https://gokrazy.org/quickstart/
   27. https://golang.org/doc/install
-  28. file:///characters#mara
+  28. https://xeiaso.net/characters#mara
   29. https://tailscale.com/
   30. https://tailscale.com/kb/1081/magicdns/
   31. https://tailscale.com/kb/1085/auth-keys/
   32. https://login.tailscale.com/admin/settings/keys
-  33. file:///characters#mara
+  33. https://xeiaso.net/characters#mara
   34. https://tailscale.com/kb/1080/cli/#up
   35. https://tailscale.com/kb/1103/exit-nodes/?q=exit node
   36. https://etcher.balena.io/
-  37. file:///characters#aoi
-  38. file:///characters#cadey
+  37. https://xeiaso.net/characters#aoi
+  38. https://xeiaso.net/characters#cadey
   39. https://github.com/gokrazy/breakglass
   40. http://casa/
   41. https://cdn.xeiaso.net/file/christine-static/blog/2023/gokrazy/gokrazy-ui.jpg
@@ -588,8 +592,9 @@ References
   55. https://tailscale.dev/blog/tclip-updates-092023
   56. http://paste/
   57. https://paste.shark-harmonic.ts.net/paste/696b9b02-90ac-4adc-a33d-d749bb6f460f
-  58. file:///characters#mara
+  58. https://xeiaso.net/characters#mara
   59. https://github.com/Xe/waifud-gok-agent
   60. https://patreon.com/cadey
-  61. file:///patrons
-  62. https://github.com/Xe/site
+  61. https://xeiaso.net/patrons
+  62. https://github.com/Xe/site/commit/ae5283f759ecfc72f6779f57231991d0a881a8a9
+  63. https://github.com/Xe/site

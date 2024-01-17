@@ -276,7 +276,7 @@ References
   10. https://uptimerobot.com/
   11. https://pg.ucsd.edu/publications/Python-Tutor-scalable-sustainable-research-software_UIST-2021.pdf
   12. https://irchiver.com/
-  13. https://docs.google.com/forms/d/e/1FAIpQLSeTCgnwF1gjrc1O8mfJ_5TmT_TLowFQ2DUhsollmqPG84pAFQ/viewform?usp=pp_url&entry.1299571007=Irchiver:+browser+history+search&entry.1760653896=designed_to_last
+  13. https://docs.google.com/forms/d/e/1FAIpQLSeTCgnwF1gjrc1O8mfJ_5TmT_TLowFQ2DUhsollmqPG84pAFQ/viewform?usp=pp_url&entry.1299571007=irchiver:+your+full-resolution+personal+web+archive+and+search&entry.1760653896=designed_to_last
   14. https://news.ycombinator.com/item?id=21840140
   15. https://www.reddit.com/r/programming/comments/ed88ra/this_page_is_designed_to_last_a_manifesto_for/
   16. https://jeffhuang.com/struggle_for_each_paper/

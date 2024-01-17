@@ -1,33 +1,34 @@
    #[1]The Sweet Setup [2]alternate [3]alternate [4]alternate
 
-   [tr?id=1547247442291447&ev=PageView &noscript=1]
+   fbpx [tr?id=1547247442291447&ev=PageView &noscript=1]
 
    IFRAME: [5]https://www.googletagmanager.com/ns.html?id=GTM-PS7L89F
 
-   NEW! All the Things: Productivity Course  →  [6]Check it Out
+   FREE! Plan Your Ideal Week: Bonus Workshop + Planner  →  Get the
+   Workshop
 
-   [7]The Sweet Setup The Sweet Setup
-   [8]ABOUT   [9]COURSES   [10]BLOG
-   [11]Sign In
+   [6]The Sweet Setup The Sweet Setup
+   [7]ABOUT   [8]COURSES   [9]BLOG
+   [10]Sign In
 
-     * [12]Categories
-          + [13]Mindfulness
-          + [14]Workflows
-          + [15]Setups
-          + [16]Quick Tips
+     * [11]Categories
+          + [12]Mindfulness
+          + [13]Workflows
+          + [14]Setups
+          + [15]Quick Tips
 
    ____________________ Go
 
 Turning Obsidian into My Perfect Writing App
 
    October 24, 2022
-   by [17]Mike Schmitz
+   by [16]Mike Schmitz
 
    NaNoWriMo (National Novel Writing Month) is right around the corner,
    and if you’re looking for a great tool to help you hit your writing
    goals, there are lots of great options available.
 
-   In this article, I want to make the case for using [18]Obsidian by
+   In this article, I want to make the case for using [17]Obsidian by
    showing you how to turn it into a powerful writing environment using a
    few essential plugins.
 
@@ -115,7 +116,7 @@ Obsidian Core Plugin Settings
        These are sections available in the right sidebar that show all of
        the notes that link to the active note and all of the notes linked
        to from the active note respectively. (If you’re new to the concept
-       of connected notes, check out [19]this article on using the local
+       of connected notes, check out [18]this article on using the local
        graph.)
      * Make sure that Outline is toggled ON. This adds a tab in the right
        sidebar that creates a table of contents for your note based on the
@@ -136,8 +137,8 @@ Obsidian Community Plugins for an Upgraded Writing Experience
    You can access the Community plugins public directory by going to
    Settings → Community plugins → Browse once you’ve toggled off Safe
    Mode. From there, you can find plugins for just about anything, from
-   [20]embedding tasks from Todoist to [21]creating timeblocked daily
-   plans to [22]creating kanban boards — all based on your locally-stored
+   [19]embedding tasks from Todoist to [20]creating timeblocked daily
+   plans to [21]creating kanban boards — all based on your locally-stored
    plain text files using standard Markdown.
 
    All of the plugin links I share below are Obsidian links
@@ -152,7 +153,7 @@ Obsidian Community Plugins for an Upgraded Writing Experience
 
 Better Word Count
 
-   The first plugin is called [23]Better Word Count. This replaces the
+   The first plugin is called [22]Better Word Count. This replaces the
    built-in word count core plugin, and it functions largely the same with
    one key addition: when you highlight text, it shows the
    words/characters of the highlighted text instead of the whole document.
@@ -163,7 +164,7 @@ Better Word Count
 cMenu
 
    If you’re uncomfortable relying on your memory for Markdown formatting,
-   [24]cMenu is a third-party plugin that gives you a minimal text editor
+   [23]cMenu is a third-party plugin that gives you a minimal text editor
    modal that allows you to do things like bold, italicize, strikethrough,
    underline, and toggle blockquotes.
 
@@ -174,7 +175,7 @@ Reading Time
 
    Another handy Ulysses feature is being able to see how long it will
    take to read the text in the selected file. But you can add this
-   feature to the status bar using the [25]Reading Time plugin.
+   feature to the status bar using the [24]Reading Time plugin.
 
    This one is pretty straightforward — just install it and turn it on and
    you’ll see the reading time at the bottom of your Obsidian window. You
@@ -183,8 +184,8 @@ Reading Time
 Footnote Shortcut
 
    If you use footnotes a lot, they can be a bit of a pain to create with
-   standard Markdown. It’s a lot easier with the [26]Obsidian Footnotes
-   plugin.^[27]1
+   standard Markdown. It’s a lot easier with the [25]Obsidian Footnotes
+   plugin.^[26]1
 
    Once installed, you can find it in the Command Palette and with the
    hotkey: Footnote Shortcut: Insert and Navigate Footnote. You can
@@ -196,7 +197,7 @@ Footnote Shortcut
 Focus Mode
 
    The Obsidian interface can be a little distracting when you’re trying
-   to focus on your words. Fortunately, the [28]Focus Mode plugin allows
+   to focus on your words. Fortunately, the [27]Focus Mode plugin allows
    you to remove all the distractions and focus on what you’re writing.
 
    Once the plugin is installed and active, just click the Toggle Focus
@@ -205,7 +206,7 @@ Focus Mode
 
 Typewriter Scroll
 
-   [29]This plugin keeps the currently selected line in the middle of the
+   [28]This plugin keeps the currently selected line in the middle of the
    screen as you type. As you type, the focus moves from the current
    section to the next section by moving the rest of the page in the
    background, much like an old-fashioned typewriter.
@@ -216,7 +217,7 @@ Typewriter Scroll
 Novel Word Count
 
    If you are aiming to write a book (fiction or non-fiction), you
-   probably have a total word count in mind. [30]Novel Word Count shows
+   probably have a total word count in mind. [29]Novel Word Count shows
    you the number of words that a document or folder contains in the
    sidebar so you can keep track of your long-form writing progress.
 
@@ -237,11 +238,11 @@ Conclusion
      __________________________________________________________________
 
     1. Since it’s an Obsidian Command, you could also add this as a button
-       to the cMenu plugin mentioned above. [31]↩
+       to the cMenu plugin mentioned above. [30]↩
 
 Follow us
 
-[32]Get App Picks, Guides, & More
+[31]Get App Picks, Guides, & More
 
    Get workflow tips, app recommendations, how-to guides, stories, and
    more delivered to your inbox. Plus we'll send you our productivity
@@ -251,75 +252,70 @@ Follow us
 
                                    Sweet!
 
-[33]Best-Selling Courses
+[32]Best-Selling Courses
 
-[34]🎟 All Access Pass 🎟
+[33]🎟 All Access Pass 🎟
 
    Join the Focus Accelerator to get instant access to the entire course
-   library, resource vault, and more. [35]»
+   library, resource vault, and more. [34]»
 
-[36]NEW: All the Things
+[35]NEW: All the Things
 
    Best-selling productivity course. Stop being managed by your task list.
-   [37]»
+   [36]»
 
-[38]Full Course List
+[37]Full Course List
 
    Serving 15,000 customers since 2013, we have a library full of in-depth
-   courses to help you be more productive, creative, and focused. [39]View
+   courses to help you be more productive, creative, and focused. [38]View
    all courses »
 
-[40]The Latest Posts
+[39]The Latest Posts
 
-[41]Mike Schmitz’s Must-Have Productivity Apps
+[40]Our First Look at Apple’s New Journal App
 
-   Like Josh, Matt, and Jeff did previously, today I'm going to share a
-   handful of my favorite productivity apps that are essential for how I
-   work. [42]»
+   Let’s take a look at Apple’s new Journal app for iPhone and how it
+   stacks up to one of the perennial apps on the App Store. The app has a
+   long way to go, but it has some very intriguing elements to start.
+   [41]»
 
-[43]Jeff Abbott’s Must-Have Productivity Apps
+[42]Tracking Important Events with Up Ahead, Time Blocking Methods, and More
 
-   We've heard from Matt and Josh on which apps they consider
-   irreplaceable for their workflows and productivity, and now it's my
-   turn to pull back the curtain. These days, a lot of my work happens on
-   a work MacBook Pro that is fairly locked down. The IT-managed operating
-   system presents some challenges when it comes to finding a good
-   productivity balance, and these apps meet my needs on my work device
-   and personal devices too. [44]»
+   Catch up on what we published this week, including a look at Up Ahead
+   for tracking upcoming events you're looking forward to, a guide to
+   effectively using time blocking for productivity, and more. [43]»
 
-[45]How We Created our Master Resource Database
+[44]Up Ahead Lets You Track the Important Things in Life
 
-   A couple of months ago, we were in a Blanc Media staff meeting and we
-   were talking about one of our resources, an e-book called
-   Procrastinator’s Guide to Progress. And I asked, “Do we have a central
-   place to easily find all of our resources with source files and links?”
-   Well, the answer was.... “um, I don’t think so”. So then I had the idea
-   to track down all of our resources, PDFs, slide decks etc. and drop
-   them into one place. So our Master Resource Database in Notion was
-   born. [46]»
+   How many days is it until your next trip? How about until your
+   anniversary? Or maybe that movie you’ve been waiting to see comes out?
+   You can of course put all of these events on a calendar and find them
+   that way, but that doesn’t really make it easy to see how long it is
+   until that thing happens. That's where Up Ahead comes in. [45]»
 
-[47]Lock Screen Widgets, Productivity Must-Haves, and More
+[46]The Power of Focus Themes
 
-   Catch up on what we published this week, including a look at some great
-   lock screen widgets for iPhone 14 Pro (Max), must-have productivity
-   apps from our team, and more. [48]»
+   One of the most important concepts to learn as you figure out your 2024
+   plans comes from David Allen: "You can do anything you want, but you
+   can’t do everything you want." [Free Workshop this Monday] [47]»
 
-[49]Great Lock Screen Widgets for the iPhone 14 Pro and Pro Max
+[48]The CEO Who Had No Goals (Video)
 
-   Here are some of our favorite Lock Screen widgets thus far. [50]»
+   I recently heard a surprising admission from a very successful CEO.
+   [49]»
 
-     * [51]Home
-     * [52]About
-     * [53]Products
-     * [54]Contact
-     * [55]Blog
-     * [56]Newsletter
-     * [57]Sign In
+     * [50]Home
+     * [51]About
+     * [52]Products
+     * [53]Contact
+     * [54]Blog
+     * [55]Newsletter
+     * [56]Sign In
 
-   A website by [58]Shawn Blanc and friends. See also: [59]The Focus
-   Course  |  [60]Tools & Toys
-   © 2023 Blanc Media, LLC
-   [61]Design by Ink Blot Media Group • [62]Dev by Jonathan Christopher
+   A website by [57]Shawn Blanc and friends. See also: [58]The Focus
+   Course  |  [59]Tools & Toys
+   © 2024 Blanc Media, LLC
+   [60]Design by Ink Blot Media Group • [61]Dev by Jonathan Christopher
 
    fbpx
 
@@ -331,65 +327,64 @@ References
    3. https://thesweetsetup.com/wp-json/oembed/1.0/embed?url=https://thesweetsetup.com/turning-obsidian-into-my-perfect-writing-app/
    4. https://thesweetsetup.com/wp-json/oembed/1.0/embed?url=https://thesweetsetup.com/turning-obsidian-into-my-perfect-writing-app/&format=xml
    5. https://www.googletagmanager.com/ns.html?id=GTM-PS7L89F
-   6. https://thesweetsetup.com/things/?ref=46
-   7. https://thesweetsetup.com/
-   8. file:///colophon/
-   9. file:///training/
-  10. file:///blog/
-  11. https://thesweetsetup.com/my-account
-  12. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60569-2817TMP.html
-  13. https://thesweetsetup.com/category/mindfulness/
-  14. https://thesweetsetup.com/category/workflows/
-  15. https://thesweetsetup.com/category/sweet-setup-interview/
-  16. https://thesweetsetup.com/category/quick-tip/
-  17. https://thesweetsetup.com/author/mikeschmitz/
-  18. https://obsidian.md/
-  19. https://thesweetsetup.com/the-power-of-obsidians-local-graph/
-  20. https://thesweetsetup.com/syncing-embedding-tasks-from-todoist-in-obsidian/
-  21. https://thesweetsetup.com/timeblocking-in-obsidian/
-  22. https://thesweetsetup.com/my-obsidian-based-kanban-writing-workflow/
-  23. obsidian://show-plugin/?id=better-word-count
-  24. obsidian://show-plugin/?id=cmenu-plugin
-  25. obsidian://show-plugin/?id=obsidian-reading-time
-  26. obsidian://show-plugin/?id=obsidian-footnotes
-  27. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60569-2817TMP.html#fn-132252:1
-  28. obsidian://show-plugin/?id=obsidian-focus-mode
-  29. obsidian://show-plugin/?id=cm-typewriter-scroll-obsidian
-  30. obsidian://show-plugin/?id=novel-word-count
-  31. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60569-2817TMP.html#fnref-132252:1
-  32. https://thesweetsetup.com/newsletter/
-  33. https://thesweetsetup.com/training/
+   6. https://thesweetsetup.com/
+   7. https://thesweetsetup.com/colophon/
+   8. https://thesweetsetup.com/training/
+   9. https://thesweetsetup.com/blog/
+  10. https://thesweetsetup.com/my-account
+  11. https://thesweetsetup.com/turning-obsidian-into-my-perfect-writing-app/
+  12. https://thesweetsetup.com/category/mindfulness/
+  13. https://thesweetsetup.com/category/workflows/
+  14. https://thesweetsetup.com/category/sweet-setup-interview/
+  15. https://thesweetsetup.com/category/quick-tip/
+  16. https://thesweetsetup.com/author/mikeschmitz/
+  17. https://obsidian.md/
+  18. https://thesweetsetup.com/the-power-of-obsidians-local-graph/
+  19. https://thesweetsetup.com/syncing-embedding-tasks-from-todoist-in-obsidian/
+  20. https://thesweetsetup.com/timeblocking-in-obsidian/
+  21. https://thesweetsetup.com/my-obsidian-based-kanban-writing-workflow/
+  22. obsidian://show-plugin/?id=better-word-count
+  23. obsidian://show-plugin/?id=cmenu-plugin
+  24. obsidian://show-plugin/?id=obsidian-reading-time
+  25. obsidian://show-plugin/?id=obsidian-footnotes
+  26. https://thesweetsetup.com/turning-obsidian-into-my-perfect-writing-app/#fn-132252:1
+  27. obsidian://show-plugin/?id=obsidian-focus-mode
+  28. obsidian://show-plugin/?id=cm-typewriter-scroll-obsidian
+  29. obsidian://show-plugin/?id=novel-word-count
+  30. https://thesweetsetup.com/turning-obsidian-into-my-perfect-writing-app/#fnref-132252:1
+  31. https://thesweetsetup.com/newsletter/
+  32. https://thesweetsetup.com/training/
+  33. https://thesweetsetup.com/accelerator/
   34. https://thesweetsetup.com/accelerator/
-  35. https://thesweetsetup.com/accelerator/
+  35. https://thesweetsetup.com/things/
   36. https://thesweetsetup.com/things/
-  37. https://thesweetsetup.com/things/
-  38. https://thesweetsetup.com/training/?utm_source=training_sidebar_link&utm_medium=sidebar&utm_campaign=sidebar_att
-  39. https://thesweetsetup.com/training/
-  40. https://thesweetsetup.com/blog/
-  41. https://thesweetsetup.com/mike-schmitzs-must-have-productivity-apps/
-  42. https://thesweetsetup.com/mike-schmitzs-must-have-productivity-apps/
-  43. https://thesweetsetup.com/jeff-abbotts-must-have-productivity-apps/
-  44. https://thesweetsetup.com/jeff-abbotts-must-have-productivity-apps/
-  45. https://thesweetsetup.com/how-we-created-our-master-resource-database/
-  46. https://thesweetsetup.com/how-we-created-our-master-resource-database/
-  47. https://thesweetsetup.com/lock-screen-widgets-productivity-must-haves-and-more/
-  48. https://thesweetsetup.com/lock-screen-widgets-productivity-must-haves-and-more/
-  49. https://thesweetsetup.com/great-lock-screen-widgets-for-the-iphone-14-pro-and-pro-max/
-  50. https://thesweetsetup.com/great-lock-screen-widgets-for-the-iphone-14-pro-and-pro-max/
-  51. file:///
-  52. https://thesweetsetup.com/colophon/
-  53. https://thesweetsetup.com/training/
-  54. https://thesweetsetup.com/contact/
-  55. https://thesweetsetup.com/blog/
-  56. https://thesweetsetup.com/newsletter/
-  57. https://thesweetsetup.com/my-account
-  58. https://shawnblanc.net/
-  59. https://thefocuscourse.com/
-  60. http://toolsandtoys.net/
-  61. http://inkblotmediagroup.com/
-  62. http://mondaybynoon.com/
+  37. https://thesweetsetup.com/training/?utm_source=training_sidebar_link&utm_medium=sidebar&utm_campaign=sidebar_att
+  38. https://thesweetsetup.com/training/
+  39. https://thesweetsetup.com/blog/
+  40. https://thesweetsetup.com/our-first-look-at-apples-new-journal-app/
+  41. https://thesweetsetup.com/our-first-look-at-apples-new-journal-app/
+  42. https://thesweetsetup.com/tracking-important-events-up-ahead-timeblocking-more/
+  43. https://thesweetsetup.com/tracking-important-events-up-ahead-timeblocking-more/
+  44. https://thesweetsetup.com/up-ahead-lets-you-track-the-important-things-in-life/
+  45. https://thesweetsetup.com/up-ahead-lets-you-track-the-important-things-in-life/
+  46. https://thesweetsetup.com/the-power-of-focus-themes/
+  47. https://thesweetsetup.com/the-power-of-focus-themes/
+  48. https://thesweetsetup.com/the-ceo-who-dad-no-goals-video/
+  49. https://thesweetsetup.com/the-ceo-who-dad-no-goals-video/
+  50. https://thesweetsetup.com/
+  51. https://thesweetsetup.com/colophon/
+  52. https://thesweetsetup.com/training/
+  53. https://thesweetsetup.com/contact/
+  54. https://thesweetsetup.com/blog/
+  55. https://thesweetsetup.com/newsletter/
+  56. https://thesweetsetup.com/my-account
+  57. https://shawnblanc.net/
+  58. https://thefocuscourse.com/
+  59. http://toolsandtoys.net/
+  60. http://inkblotmediagroup.com/
+  61. http://mondaybynoon.com/
 
    Hidden links:
-  64. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60569-2817TMP.html
-  65. https://twitter.com/thesweetsetup
-  66. https://thesweetsetup.com/feed
+  63. https://thesweetsetup.com/turning-obsidian-into-my-perfect-writing-app/
+  64. https://twitter.com/thesweetsetup
+  65. https://thesweetsetup.com/feed

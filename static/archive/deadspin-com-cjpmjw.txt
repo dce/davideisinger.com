@@ -1,33 +1,62 @@
-   #[1]Deadspin - All stories
+   #[1]alternate [2]alternate [3]Deadspin - All stories
 
-     * [2]The A.V. Club
-     * [3]Deadspin
-     * [4]Gizmodo
-     * [5]Jalopnik
-     * [6]Jezebel
-     * [7]Kotaku
-     * [8]Quartz
-     * [9]The Root
-     * [10]The Takeout
+   [p?c1=2&c2=6770184&cv=4.4.0&cj=1]
+
+     * [4]The A.V. Club
+     * [5]Deadspin
+     * [6]Gizmodo
+     * [7]Jalopnik
+     * [8]Kotaku
+     * [9]Quartz
+     * [10]The Root
+     * [11]The Takeout
      *
-     * [11]The Onion
+     * [12]The Onion
      *
-     * [12]The Inventory
+     * [13]The Inventory
 
-   Sports News Without Fear, Favor or Compromise
-   [13]Send us a tip![14]Shop[15]Subscribe
+     * [14]Home
+     * [15]Latest
+     * [16]Baseball
+     * [17]Football
+     * [18]Basketball
+     * [19]Hockey
+     * [20]Golf
+     * [21]Soccer
+     * [22]The Mourning After
+     * [23]Wrestling
+     * [24]Lists
+     * [25]Tennis
+     * [26]The Fights
+     * [27]Olympics
+     * [28]Racing
+     * [29]Poker
+     * [30]Media
+     * [31]Locker
+     * [32]Español
 
-   [16]Home[17]Latest[18]Baseball[19]Football[20]Basketball[21]Hockey[22]G
-   olf[23]Soccer[24]The Mourning
-   After[25]Wrestling[26]Lists[27]Tennis[28]The
-   Fights[29]Olympics[30]Racing[31]Poker[32]Media[33]Locker
-   We may earn a commission from links on this page.
-   Sports News Without Fear, Favor or Compromise
+   We may earn a commission from links on this page
 
-   [34]Home[35]Latest[36]Baseball[37]Football[38]Basketball[39]Hockey[40]G
-   olf[41]Soccer[42]The Mourning
-   After[43]Wrestling[44]Lists[45]Tennis[46]The
-   Fights[47]Olympics[48]Racing[49]Poker[50]Media[51]Locker
+     * [33]Home
+     * [34]Latest
+     * [35]Baseball
+     * [36]Football
+     * [37]Basketball
+     * [38]Hockey
+     * [39]Golf
+     * [40]Soccer
+     * [41]The Mourning After
+     * [42]Wrestling
+     * [43]Lists
+     * [44]Tennis
+     * [45]The Fights
+     * [46]Olympics
+     * [47]Racing
+     * [48]Poker
+     * [49]Media
+     * [50]Locker
+     * [51]Español
+
    Locker
 
 Spend Exactly None Of Your Time Killing Time
@@ -45,19 +74,23 @@ Spend Exactly None Of Your Time Killing Time
    between doing things you should be doing, and doing things you want to
    be doing.
    Watch
-   The end is nigh for the Clippers Kawhi & PG era | Keep it a Buck(et)
+   What Jason Kelce’s retirement says about the Eagles future
+   (BUTTON) CC
    Share
+   Subtitles
+     * Off
+     * English
+
    Share this Video
    [53]Facebook[54]Twitter[55]Email
    [56]Reddit[57]Link
    [58]view video
-   [59]The end is nigh for the Clippers Kawhi & PG era | Keep it a
-   Buck(et)
-   Who asked for a Charles Barkley & Gayle King CNN show? NOBODY! | The
-   SEO Show
-   Wednesday 3:18PM
-   Are you sick of talking about Aaron Rodgers yet? | Agree to Disagree
-   Tuesday 5:18PM
+   [59]What Jason Kelce’s retirement says about the Eagles future
+   Which NFL team lands Jim Harbaugh as their next head coach?
+   January 10, 2024
+   Josh Allen, Trevor Lawrence, or the Eagles: Who are the biggest frauds
+   of the season?
+   January 8, 2024
 
    When you are not doing something you should be doing—straightening up
    around the house, taking out the garbage, walking the dog, your job—you
@@ -85,6 +118,7 @@ Spend Exactly None Of Your Time Killing Time
    give your life some feeble structure. Stop it! Killing time is the very
    habit we are trying to address, here. There’s barely enough time as it
    is.
+   Advertisement
 
    Along the way you will need to hone your sense of what things you
    should be doing. You know the most obvious ones—they’re occupying the
@@ -98,14 +132,6 @@ Spend Exactly None Of Your Time Killing Time
    work but which, I’m afraid, must be done. But it’s also good news,
    because by acknowledging that those are responsibilities, you have also
    earned the right to take some satisfaction from having fulfilled them.
-   $300 off Outdoor Furniture Set on Amazon
-   Save 33%
-   $300 off Outdoor Furniture Set on Amazon
-
-   Make your patio the place to be
-   This 7-piece outdoor sectional furniture set is marked down from $900
-   to $600 on Amazon right now.
-   [61](BUTTON) Buy for $600 at Amazon
    Advertisement
 
    Sometimes you have the bandwidth and energy to address your attention
@@ -198,89 +224,89 @@ Spend Exactly None Of Your Time Killing Time
    failure. When you remember this wise practice, when it occurs to you,
    treat it as a rule and follow it. Ah, right, I said I wasn’t gonna sit
    here stewing in my anxiety all afternoon, so instead I’m going to go
-   see [62]Into the Spider-Verse. Good plan! You are going to end the day
+   see [61]Into the Spider-Verse. Good plan! You are going to end the day
    with something to show for it, and that’s the whole idea.
+   (BUTTON)
+   Continue reading
 
-   IFRAME: [63]https://www.googletagmanager.com/ns.html?id=GTM-T73GPNQ
+   IFRAME: [62]https://www.googletagmanager.com/ns.html?id=GTM-T73GPNQ
 
 References
 
    Visible links:
-   1. https://deadspin.com/rss
-   2. https://avclub.com/
-   3. https://deadspin.com/spend-exactly-none-of-your-time-killing-time-1831777904
-   4. https://gizmodo.com/
-   5. https://jalopnik.com/
-   6. https://jezebel.com/
-   7. https://kotaku.com/
-   8. https://qz.com/
-   9. https://theroot.com/
-  10. https://thetakeout.com/
-  11. https://theonion.com/
-  12. https://theinventory.com/
-  13. mailto:tips@deadspin.com
-  14. https://store.deadspin.com/
-  15. https://deadspin.com/newsletter
-  16. https://deadspin.com/
-  17. https://deadspin.com/latest
-  18. https://deadspin.com/baseball
-  19. https://deadspin.com/football
-  20. https://deadspin.com/basketball
-  21. https://deadspin.com/hockey
-  22. https://deadspin.com/golf
-  23. https://deadspin.com/soccer
-  24. https://deadspin.com/locker/the-mourning-after
-  25. https://deadspin.com/wrestling
-  26. https://deadspin.com/lists
-  27. https://deadspin.com/tennis
-  28. https://deadspin.com/the-fights
-  29. https://deadspin.com/olympics
-  30. https://deadspin.com/racing
-  31. https://deadspin.com/poker
-  32. https://deadspin.com/media
-  33. https://deadspin.com/locker
-  34. https://deadspin.com/
-  35. https://deadspin.com/latest
-  36. https://deadspin.com/baseball
-  37. https://deadspin.com/football
-  38. https://deadspin.com/basketball
-  39. https://deadspin.com/hockey
-  40. https://deadspin.com/golf
-  41. https://deadspin.com/soccer
-  42. https://deadspin.com/locker/the-mourning-after
-  43. https://deadspin.com/wrestling
-  44. https://deadspin.com/lists
-  45. https://deadspin.com/tennis
-  46. https://deadspin.com/the-fights
-  47. https://deadspin.com/olympics
-  48. https://deadspin.com/racing
-  49. https://deadspin.com/poker
-  50. https://deadspin.com/media
-  51. https://deadspin.com/locker
+   1. https://deadspin.com/spend-exactly-none-of-your-time-killing-time-1831777904
+   2. https://deadspin.com/spend-exactly-none-of-your-time-killing-time-1831777904
+   3. https://deadspin.com/rss
+   4. https://avclub.com/
+   5. https://deadspin.com/spend-exactly-none-of-your-time-killing-time-1831777904
+   6. https://gizmodo.com/
+   7. https://jalopnik.com/
+   8. https://kotaku.com/
+   9. https://qz.com/
+  10. https://theroot.com/
+  11. https://thetakeout.com/
+  12. https://theonion.com/
+  13. https://theinventory.com/
+  14. https://deadspin.com/
+  15. https://deadspin.com/latest
+  16. https://deadspin.com/baseball
+  17. https://deadspin.com/football
+  18. https://deadspin.com/basketball
+  19. https://deadspin.com/hockey
+  20. https://deadspin.com/golf
+  21. https://deadspin.com/soccer
+  22. https://deadspin.com/locker/the-mourning-after
+  23. https://deadspin.com/wrestling
+  24. https://deadspin.com/lists
+  25. https://deadspin.com/tennis
+  26. https://deadspin.com/the-fights
+  27. https://deadspin.com/olympics
+  28. https://deadspin.com/racing
+  29. https://deadspin.com/poker
+  30. https://deadspin.com/media
+  31. https://deadspin.com/locker
+  32. https://es.deadspin.com/
+  33. https://deadspin.com/
+  34. https://deadspin.com/latest
+  35. https://deadspin.com/baseball
+  36. https://deadspin.com/football
+  37. https://deadspin.com/basketball
+  38. https://deadspin.com/hockey
+  39. https://deadspin.com/golf
+  40. https://deadspin.com/soccer
+  41. https://deadspin.com/locker/the-mourning-after
+  42. https://deadspin.com/wrestling
+  43. https://deadspin.com/lists
+  44. https://deadspin.com/tennis
+  45. https://deadspin.com/the-fights
+  46. https://deadspin.com/olympics
+  47. https://deadspin.com/racing
+  48. https://deadspin.com/poker
+  49. https://deadspin.com/media
+  50. https://deadspin.com/locker
+  51. https://es.deadspin.com/
   52. https://deadspin.com/author/miserableshitehawk
-  53. https://facebook.com/sharer.php?u=https://deadspin.com/kawhi-leonard-paul-george-clippers-doomed-1850379989?utm_medium=sharefromsite&utm_source=facebook
-  54. https://twitter.com/intent/tweet?url=https://deadspin.com/kawhi-leonard-paul-george-clippers-doomed-1850379989?utm_medium=sharefromsite&utm_source=twitter&text=The end is nigh for the Clippers Kawhi &amp; PG era | Keep it a Buck(et)
-  55. mailto:?subject=The end is nigh for the Clippers Kawhi &amp; PG era | Keep it a Buck(et)&body=https://deadspin.com/kawhi-leonard-paul-george-clippers-doomed-1850379989?utm_medium=sharefromsite&utm_source=email
-  56. https://www.reddit.com/submit?url=https://deadspin.com/kawhi-leonard-paul-george-clippers-doomed-1850379989?utm_medium=sharefromsite&utm_source=reddit&title=The end is nigh for the Clippers Kawhi &amp; PG era | Keep it a Buck(et)
-  57. https://deadspin.com/kawhi-leonard-paul-george-clippers-doomed-1850379989
-  58. https://deadspin.com/kawhi-leonard-paul-george-clippers-doomed-1850379989
-  59. https://deadspin.com/kawhi-leonard-paul-george-clippers-doomed-1850379989
+  53. https://facebook.com/sharer.php?u=https://deadspin.com/what-jason-kelce-s-retirement-says-about-the-eagles-fut-1851169895?utm_medium=sharefromsite&utm_source=facebook
+  54. https://twitter.com/intent/tweet?url=https://deadspin.com/what-jason-kelce-s-retirement-says-about-the-eagles-fut-1851169895?utm_medium=sharefromsite&utm_source=twitter&text=What Jason Kelce’s retirement says about the Eagles future
+  55. mailto:?subject=What Jason Kelce’s retirement says about the Eagles future&body=https://deadspin.com/what-jason-kelce-s-retirement-says-about-the-eagles-fut-1851169895?utm_medium=sharefromsite&utm_source=email
+  56. https://www.reddit.com/submit?url=https://deadspin.com/what-jason-kelce-s-retirement-says-about-the-eagles-fut-1851169895?utm_medium=sharefromsite&utm_source=reddit&title=What Jason Kelce’s retirement says about the Eagles future
+  57. https://deadspin.com/what-jason-kelce-s-retirement-says-about-the-eagles-fut-1851169895
+  58. https://deadspin.com/what-jason-kelce-s-retirement-says-about-the-eagles-fut-1851169895
+  59. https://deadspin.com/what-jason-kelce-s-retirement-says-about-the-eagles-fut-1851169895
   60. https://theconcourse.deadspin.com/i-like-chopping-firewood-in-red-dead-redemption-2-1830178593#_ga=2.215259543.149258240.1547482638-1486199056.1525795056
-  61. https://www.amazon.com/Best-Choice-Products-Sectional-Conversation/dp/B0863D974H/ref=sr_1_1?asc_campaign=InlineMobile&asc_refurl=https://deadspin.com/spend-exactly-none-of-your-time-killing-time-1831777904&asc_source=&tag=kinjadeadspinpromo-20
-  62. https://film.avclub.com/superhero-dimensions-collide-in-a-funny-gorgeously-psy-1830700647
-  63. https://www.googletagmanager.com/ns.html?id=GTM-T73GPNQ
+  61. https://film.avclub.com/superhero-dimensions-collide-in-a-funny-gorgeously-psy-1830700647
+  62. https://www.googletagmanager.com/ns.html?id=GTM-T73GPNQ
 
    Hidden links:
+  64. https://deadspin.com/spend-exactly-none-of-your-time-killing-time-1831777904
   65. https://deadspin.com/spend-exactly-none-of-your-time-killing-time-1831777904
   66. https://deadspin.com/search
-  67. https://deadspin.com/spend-exactly-none-of-your-time-killing-time-1831777904
-  68. https://deadspin.com/search
-  69. https://deadspin.com/locker
-  70. https://twitter.com/intent/tweet?via=deadspin&url=https%3A%2F%2Fdeadspin.com%2Fspend-exactly-none-of-your-time-killing-time-1831777904%3Futm_medium%3Dsharefromsite%26utm_source%3Ddeadspin_twitter&text=Spend%20Exactly%20None%20Of%20Your%20Time%20Killing%20Time
-  71. https://facebook.com/sharer.php?u=https%3A%2F%2Fdeadspin.com%2Fspend-exactly-none-of-your-time-killing-time-1831777904%3Futm_medium%3Dsharefromsite%26utm_source%3Ddeadspin_facebook
-  72. https://www.reddit.com/submit?url=https%3A%2F%2Fdeadspin.com%2Fspend-exactly-none-of-your-time-killing-time-1831777904%3Futm_medium%3Dsharefromsite%26utm_source%3Ddeadspin_reddit&title=Spend%20Exactly%20None%20Of%20Your%20Time%20Killing%20Time
-  73. mailto:?subject=Spend%20Exactly%20None%20Of%20Your%20Time%20Killing%20Time&body=https%3A%2F%2Fdeadspin.com%2Fspend-exactly-none-of-your-time-killing-time-1831777904%3Futm_medium%3Dsharefromsite%26utm_source%3Ddeadspin_email
-  74. https://deadspin.com/spend-exactly-none-of-your-time-killing-time-1831777904
-  75. https://deadspin.com/charles-barkley-gayle-king-cnn-show-the-seo-show-1850379370
-  76. https://deadspin.com/aaron-rodgers-jets-trade-news-oversaturation-1850375353
-  77. https://www.amazon.com/Best-Choice-Products-Sectional-Conversation/dp/B0863D974H/ref=sr_1_1?asc_campaign=InlineMobile&asc_refurl=https://deadspin.com/spend-exactly-none-of-your-time-killing-time-1831777904&asc_source=&tag=kinjadeadspinpromo-20
+  67. https://deadspin.com/newsletter
+  68. https://deadspin.com/locker
+  69. https://twitter.com/intent/tweet?via=deadspin&url=https%3A%2F%2Fdeadspin.com%2Fspend-exactly-none-of-your-time-killing-time-1831777904%3Futm_medium%3Dsharefromsite%26utm_source%3Ddeadspin_twitter&text=Spend%20Exactly%20None%20Of%20Your%20Time%20Killing%20Time
+  70. https://facebook.com/sharer.php?u=https%3A%2F%2Fdeadspin.com%2Fspend-exactly-none-of-your-time-killing-time-1831777904%3Futm_medium%3Dsharefromsite%26utm_source%3Ddeadspin_facebook
+  71. https://www.reddit.com/submit?url=https%3A%2F%2Fdeadspin.com%2Fspend-exactly-none-of-your-time-killing-time-1831777904%3Futm_medium%3Dsharefromsite%26utm_source%3Ddeadspin_reddit&title=Spend%20Exactly%20None%20Of%20Your%20Time%20Killing%20Time
+  72. mailto:?subject=Spend%20Exactly%20None%20Of%20Your%20Time%20Killing%20Time&body=https%3A%2F%2Fdeadspin.com%2Fspend-exactly-none-of-your-time-killing-time-1831777904%3Futm_medium%3Dsharefromsite%26utm_source%3Ddeadspin_email
+  73. https://deadspin.com/spend-exactly-none-of-your-time-killing-time-1831777904
+  74. https://deadspin.com/which-nfl-team-lands-jim-harbaugh-as-their-next-head-co-1851156349
+  75. https://deadspin.com/josh-allen-trevor-lawrence-or-the-eagles-who-are-the-1851149579

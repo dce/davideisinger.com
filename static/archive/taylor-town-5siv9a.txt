@@ -1,6 +1,6 @@
    [1]taylor.town
 
-   [2]about [3]now [4]hire [5]rss [6]spam
+   [2]about [3]now [4]spam [5]rss [6]hire
 
    cloaca maxima
 
@@ -166,21 +166,21 @@ Awful Architecture
 
 References
 
-   1. file:///
-   2. file:///about
-   3. file:///now
-   4. file:///hire-me
-   5. file:///feed.xml
-   6. https://newsletter.taylor.town/
+   1. https://taylor.town/
+   2. https://taylor.town/about
+   3. https://taylor.town/now
+   4. https://newsletter.taylor.town/
+   5. https://taylor.town/feed.xml
+   6. https://taylor.town/hire-me
    7. https://en.wikipedia.org/wiki/Raising_of_Chicago
    8. https://en.wikipedia.org/wiki/Jack_(device)#House_jack
    9. https://www.reddit.com/r/ProgrammerHumor/comments/blhec6/fixing_bugs_in_production/
   10. https://en.wikipedia.org/wiki/Cloaca_Maxima
-  11. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L81887-9224TMP.html#irreversible
-  12. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L81887-9224TMP.html#unintended
-  13. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L81887-9224TMP.html#scale-down
-  14. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L81887-9224TMP.html#labor-materials
-  15. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L81887-9224TMP.html#awful
+  11. https://taylor.town/millennium-sewer#irreversible
+  12. https://taylor.town/millennium-sewer#unintended
+  13. https://taylor.town/millennium-sewer#scale-down
+  14. https://taylor.town/millennium-sewer#labor-materials
+  15. https://taylor.town/millennium-sewer#awful
   16. https://www.sec.gov/Archives/edgar/data/1018724/000119312516530910/d168744dex991.htm
   17. https://en.wikipedia.org/wiki/ExxonMobil_climate_change_denial
   18. https://en.wikipedia.org/wiki/Own_goal

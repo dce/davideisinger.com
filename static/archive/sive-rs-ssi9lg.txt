@@ -613,69 +613,69 @@ Welcome to OpenBSD: The proactively secure Unix-like operating system.
 
 References
 
-   1. file:///en.atom
-   2. file:///
-   3. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#why
-   4. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#register
-   5. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#dns0
-   6. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#storage1
-   7. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#ssh
-   8. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#server1
-   9. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#server2
-  10. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#custom
-  11. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#storage4
-  12. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#radicale
-  13. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#mailjet
-  14. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#mail3
-  15. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#web1
-  16. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#web2
-  17. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#indie
-  18. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#storage5
-  19. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#mutt
-  20. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#upkeep
-  21. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#cert
-  22. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#redo
-  23. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#questions
-  24. file:///openbsd
+   1. https://sive.rs/en.atom
+   2. https://sive.rs/
+   3. https://sive.rs/ti#why
+   4. https://sive.rs/ti#register
+   5. https://sive.rs/ti#dns0
+   6. https://sive.rs/ti#storage1
+   7. https://sive.rs/ti#ssh
+   8. https://sive.rs/ti#server1
+   9. https://sive.rs/ti#server2
+  10. https://sive.rs/ti#custom
+  11. https://sive.rs/ti#storage4
+  12. https://sive.rs/ti#radicale
+  13. https://sive.rs/ti#mailjet
+  14. https://sive.rs/ti#mail3
+  15. https://sive.rs/ti#web1
+  16. https://sive.rs/ti#web2
+  17. https://sive.rs/ti#indie
+  18. https://sive.rs/ti#storage5
+  19. https://sive.rs/ti#mutt
+  20. https://sive.rs/ti#upkeep
+  21. https://sive.rs/ti#cert
+  22. https://sive.rs/ti#redo
+  23. https://sive.rs/ti#questions
+  24. https://sive.rs/openbsd
   25. https://www.vultr.com/?ref=9541378-8H
   26. https://porkbun.com/
   27. https://www.vultr.com/?ref=6930328
   28. https://my.vultr.com/blockstorage/add/
   29. https://my.vultr.com/blockstorage/add/
-  30. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#server1
+  30. https://sive.rs/ti#server1
   31. https://www.vultr.com/?ref=6930328
   32. https://my.vultr.com/deploy/
   33. https://my.vultr.com/deploy/
-  34. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#ssh
-  35. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#server1
-  36. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#ssh
-  37. file:///ti.sh
+  34. https://sive.rs/ti#ssh
+  35. https://sive.rs/ti#server1
+  36. https://sive.rs/ti#ssh
+  37. https://sive.rs/ti.sh
   38. https://freefilesync.org/
   39. https://freefilesync.org/
   40. https://freefilesync.org/download.php
-  41. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#ssh
-  42. file:///ti.sh
+  41. https://sive.rs/ti#ssh
+  42. https://sive.rs/ti.sh
   43. https://en.wikipedia.org/wiki/CardDAV
   44. https://en.wikipedia.org/wiki/CalDAV
   45. https://www.davx5.com/
   46. https://www.davx5.com/download
   47. https://app.mailjet.com/signup?lang=en_US
   48. https://app.mailjet.com/account/apikeys
-  49. file:///ti.sh
+  49. https://sive.rs/ti.sh
   50. https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol
   51. https://www.dovecot.org/
-  52. file:///file/template.html
-  53. file:///file/style.css
+  52. https://sive.rs/file/template.html
+  53. https://sive.rs/file/style.css
   54. https://duckduckgo.com/?q=css+tutorial
   55. https://freefilesync.org/
-  56. file:///su
-  57. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#web1
+  56. https://sive.rs/su
+  57. https://sive.rs/ti#web1
   58. https://www.mozilla.org/firefox/
   59. https://ublockorigin.com/
   60. https://getaegis.app/
   61. https://raivo-otp.com/
   62. https://ubuntu.com/desktop
-  63. file:///pe
+  63. https://sive.rs/pe
   64. https://mailbox.org/
   65. https://www.fastmail.com/
   66. https://www.hetzner.com/storage/storage-box
@@ -685,10 +685,10 @@ References
   70. http://mutt.org/doc/manual/
   71. https://duckduckgo.com/?q=vi+editor
   72. https://www.openbsd.org/faq/
-  73. file:///contact
-  74. file:///contact
+  73. https://sive.rs/contact
+  74. https://sive.rs/contact
   75. https://my.vultr.com/
-  76. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60154-995TMP.html#server1
+  76. https://sive.rs/ti#server1
   77. https://man.openbsd.org/help
   78. https://man.openbsd.org/man.1
   79. https://man.openbsd.org/adduser.8
@@ -698,6 +698,6 @@ References
   83. https://man.openbsd.org/pkg_add.1
   84. https://man.openbsd.org/ftp.1
   85. https://man.openbsd.org/httpd.conf.5
-  86. file:///contact
-  87. file:///contact
-  88. file:///contact
+  86. https://sive.rs/contact
+  87. https://sive.rs/contact
+  88. https://sive.rs/contact

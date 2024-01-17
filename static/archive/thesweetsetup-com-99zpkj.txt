@@ -1,27 +1,28 @@
    #[1]The Sweet Setup [2]alternate [3]alternate [4]alternate
 
-   [tr?id=1547247442291447&ev=PageView &noscript=1]
+   fbpx [tr?id=1547247442291447&ev=PageView &noscript=1]
 
    IFRAME: [5]https://www.googletagmanager.com/ns.html?id=GTM-PS7L89F
 
-   NEW! All the Things: Productivity Course  →  [6]Check it Out
+   FREE! Plan Your Ideal Week: Bonus Workshop + Planner  →  Get the
+   Workshop
 
-   [7]The Sweet Setup The Sweet Setup
-   [8]ABOUT   [9]COURSES   [10]BLOG
-   [11]Sign In
+   [6]The Sweet Setup The Sweet Setup
+   [7]ABOUT   [8]COURSES   [9]BLOG
+   [10]Sign In
 
-     * [12]Categories
-          + [13]Mindfulness
-          + [14]Workflows
-          + [15]Setups
-          + [16]Quick Tips
+     * [11]Categories
+          + [12]Mindfulness
+          + [13]Workflows
+          + [14]Setups
+          + [15]Quick Tips
 
    ____________________ Go
 
 How to Create an Effective Weekly Schedule
 
    April 24, 2023
-   by [17]Isaac Smith
+   by [16]Isaac Smith
 
    Hero Hero
 
@@ -143,7 +144,7 @@ Winning Each Day
 
 Follow us
 
-[18]Get App Picks, Guides, & More
+[17]Get App Picks, Guides, & More
 
    Get workflow tips, app recommendations, how-to guides, stories, and
    more delivered to your inbox. Plus we'll send you our productivity
@@ -153,71 +154,70 @@ Follow us
 
                                    Sweet!
 
-[19]Best-Selling Courses
+[18]Best-Selling Courses
 
-[20]🎟 All Access Pass 🎟
+[19]🎟 All Access Pass 🎟
 
    Join the Focus Accelerator to get instant access to the entire course
-   library, resource vault, and more. [21]»
+   library, resource vault, and more. [20]»
 
-[22]NEW: All the Things
+[21]NEW: All the Things
 
    Best-selling productivity course. Stop being managed by your task list.
-   [23]»
+   [22]»
 
-[24]Full Course List
+[23]Full Course List
 
    Serving 15,000 customers since 2013, we have a library full of in-depth
-   courses to help you be more productive, creative, and focused. [25]View
+   courses to help you be more productive, creative, and focused. [24]View
    all courses »
 
-[26]The Latest Posts
+[25]The Latest Posts
 
-[27]Lock Screen Widgets, Productivity Must-Haves, and More
+[26]Our First Look at Apple’s New Journal App
 
-   Catch up on what we published this week, including a look at some great
-   lock screen widgets for iPhone 14 Pro (Max), must-have productivity
-   apps from our team, and more. [28]»
+   Let’s take a look at Apple’s new Journal app for iPhone and how it
+   stacks up to one of the perennial apps on the App Store. The app has a
+   long way to go, but it has some very intriguing elements to start.
+   [27]»
 
-[29]Great Lock Screen Widgets for the iPhone 14 Pro and Pro Max
+[28]Tracking Important Events with Up Ahead, Time Blocking Methods, and More
 
-   Here are some of our favorite Lock Screen widgets thus far. [30]»
+   Catch up on what we published this week, including a look at Up Ahead
+   for tracking upcoming events you're looking forward to, a guide to
+   effectively using time blocking for productivity, and more. [29]»
 
-[31]Using ChatGPT for Productivity, Josh’s Must-Have Apps, and More
+[30]Up Ahead Lets You Track the Important Things in Life
 
-   Catch up on what we published this week, including a look at Josh's
-   must-have apps for productivity, some apps for using ChatGPT on macOS
-   and iOS, and more. [32]»
+   How many days is it until your next trip? How about until your
+   anniversary? Or maybe that movie you’ve been waiting to see comes out?
+   You can of course put all of these events on a calendar and find them
+   that way, but that doesn’t really make it easy to see how long it is
+   until that thing happens. That's where Up Ahead comes in. [31]»
 
-[33]Your opinion: Notion
+[32]The Power of Focus Themes
 
-   Do you have thoughts about Notion? Good! We need your feedback. We’re
-   working on some new trainings, resources, and templates for Notion
-   users — specifically to help with prioritizing ideas and managing
-   tasks. We’re excited about it, but before we get too far we have a
-   quick favor to ask you: Would you mind taking […] [34]»
+   One of the most important concepts to learn as you figure out your 2024
+   plans comes from David Allen: "You can do anything you want, but you
+   can’t do everything you want." [Free Workshop this Monday] [33]»
 
-[35]Josh’s Must-Have Productivity Apps
+[34]The CEO Who Had No Goals (Video)
 
-   As Matt so wisely put last week, we’ll quickly run the risk here of
-   replicating each The Sweet Setup contributor’s must-have productivity
-   apps. By the end of this little series, you’re likely to see a few
-   commonalities, such as Notion, Fantastical, Ulysses, 1Password and
-   perhaps Things. Each of these apps rock in their own right. And we as a
-   group have a great taste in productivity apps. [36]»
+   I recently heard a surprising admission from a very successful CEO.
+   [35]»
 
-     * [37]Home
-     * [38]About
-     * [39]Products
-     * [40]Contact
-     * [41]Blog
-     * [42]Newsletter
-     * [43]Sign In
+     * [36]Home
+     * [37]About
+     * [38]Products
+     * [39]Contact
+     * [40]Blog
+     * [41]Newsletter
+     * [42]Sign In
 
-   A website by [44]Shawn Blanc and friends. See also: [45]The Focus
-   Course  |  [46]Tools & Toys
-   © 2023 Blanc Media, LLC
-   [47]Design by Ink Blot Media Group • [48]Dev by Jonathan Christopher
+   A website by [43]Shawn Blanc and friends. See also: [44]The Focus
+   Course  |  [45]Tools & Toys
+   © 2024 Blanc Media, LLC
+   [46]Design by Ink Blot Media Group • [47]Dev by Jonathan Christopher
 
    fbpx
 
@@ -229,51 +229,50 @@ References
    3. https://thesweetsetup.com/wp-json/oembed/1.0/embed?url=https://thesweetsetup.com/how-to-create-an-effective-weekly-schedule/
    4. https://thesweetsetup.com/wp-json/oembed/1.0/embed?url=https://thesweetsetup.com/how-to-create-an-effective-weekly-schedule/&format=xml
    5. https://www.googletagmanager.com/ns.html?id=GTM-PS7L89F
-   6. https://thesweetsetup.com/things/?ref=46
-   7. https://thesweetsetup.com/
-   8. file:///colophon/
-   9. file:///training/
-  10. file:///blog/
-  11. https://thesweetsetup.com/my-account
-  12. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L24351-9467TMP.html
-  13. https://thesweetsetup.com/category/mindfulness/
-  14. https://thesweetsetup.com/category/workflows/
-  15. https://thesweetsetup.com/category/sweet-setup-interview/
-  16. https://thesweetsetup.com/category/quick-tip/
-  17. https://thesweetsetup.com/author/imsmith/
-  18. https://thesweetsetup.com/newsletter/
-  19. https://thesweetsetup.com/training/
+   6. https://thesweetsetup.com/
+   7. https://thesweetsetup.com/colophon/
+   8. https://thesweetsetup.com/training/
+   9. https://thesweetsetup.com/blog/
+  10. https://thesweetsetup.com/my-account
+  11. https://thesweetsetup.com/how-to-create-an-effective-weekly-schedule/
+  12. https://thesweetsetup.com/category/mindfulness/
+  13. https://thesweetsetup.com/category/workflows/
+  14. https://thesweetsetup.com/category/sweet-setup-interview/
+  15. https://thesweetsetup.com/category/quick-tip/
+  16. https://thesweetsetup.com/author/imsmith/
+  17. https://thesweetsetup.com/newsletter/
+  18. https://thesweetsetup.com/training/
+  19. https://thesweetsetup.com/accelerator/
   20. https://thesweetsetup.com/accelerator/
-  21. https://thesweetsetup.com/accelerator/
+  21. https://thesweetsetup.com/things/
   22. https://thesweetsetup.com/things/
-  23. https://thesweetsetup.com/things/
-  24. https://thesweetsetup.com/training/?utm_source=training_sidebar_link&utm_medium=sidebar&utm_campaign=sidebar_att
-  25. https://thesweetsetup.com/training/
-  26. https://thesweetsetup.com/blog/
-  27. https://thesweetsetup.com/lock-screen-widgets-productivity-must-haves-and-more/
-  28. https://thesweetsetup.com/lock-screen-widgets-productivity-must-haves-and-more/
-  29. https://thesweetsetup.com/great-lock-screen-widgets-for-the-iphone-14-pro-and-pro-max/
-  30. https://thesweetsetup.com/great-lock-screen-widgets-for-the-iphone-14-pro-and-pro-max/
-  31. https://thesweetsetup.com/using-chatgpt-for-productivity-joshs-must-have-apps-and-more/
-  32. https://thesweetsetup.com/using-chatgpt-for-productivity-joshs-must-have-apps-and-more/
-  33. https://thesweetsetup.com/notion-survey/
-  34. https://thesweetsetup.com/notion-survey/
-  35. https://thesweetsetup.com/joshs-must-have-productivity-apps/
-  36. https://thesweetsetup.com/joshs-must-have-productivity-apps/
-  37. file:///
-  38. https://thesweetsetup.com/colophon/
-  39. https://thesweetsetup.com/training/
-  40. https://thesweetsetup.com/contact/
-  41. https://thesweetsetup.com/blog/
-  42. https://thesweetsetup.com/newsletter/
-  43. https://thesweetsetup.com/my-account
-  44. https://shawnblanc.net/
-  45. https://thefocuscourse.com/
-  46. http://toolsandtoys.net/
-  47. http://inkblotmediagroup.com/
-  48. http://mondaybynoon.com/
+  23. https://thesweetsetup.com/training/?utm_source=training_sidebar_link&utm_medium=sidebar&utm_campaign=sidebar_att
+  24. https://thesweetsetup.com/training/
+  25. https://thesweetsetup.com/blog/
+  26. https://thesweetsetup.com/our-first-look-at-apples-new-journal-app/
+  27. https://thesweetsetup.com/our-first-look-at-apples-new-journal-app/
+  28. https://thesweetsetup.com/tracking-important-events-up-ahead-timeblocking-more/
+  29. https://thesweetsetup.com/tracking-important-events-up-ahead-timeblocking-more/
+  30. https://thesweetsetup.com/up-ahead-lets-you-track-the-important-things-in-life/
+  31. https://thesweetsetup.com/up-ahead-lets-you-track-the-important-things-in-life/
+  32. https://thesweetsetup.com/the-power-of-focus-themes/
+  33. https://thesweetsetup.com/the-power-of-focus-themes/
+  34. https://thesweetsetup.com/the-ceo-who-dad-no-goals-video/
+  35. https://thesweetsetup.com/the-ceo-who-dad-no-goals-video/
+  36. https://thesweetsetup.com/
+  37. https://thesweetsetup.com/colophon/
+  38. https://thesweetsetup.com/training/
+  39. https://thesweetsetup.com/contact/
+  40. https://thesweetsetup.com/blog/
+  41. https://thesweetsetup.com/newsletter/
+  42. https://thesweetsetup.com/my-account
+  43. https://shawnblanc.net/
+  44. https://thefocuscourse.com/
+  45. http://toolsandtoys.net/
+  46. http://inkblotmediagroup.com/
+  47. http://mondaybynoon.com/
 
    Hidden links:
-  50. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L24351-9467TMP.html
-  51. https://twitter.com/thesweetsetup
-  52. https://thesweetsetup.com/feed
+  49. https://thesweetsetup.com/how-to-create-an-effective-weekly-schedule/
+  50. https://twitter.com/thesweetsetup
+  51. https://thesweetsetup.com/feed

@@ -10,7 +10,7 @@ references:
   date: 2023-07-05T16:08:47Z
   file: www-valetmag-com-b1tpcf.txt
 - title: "My thoughts on Helix after 6 months - Tim Hårek"
-  url: https://timharek.no/blog/my-thoughts-on-helix-after-6-months/
+  url: https://timharek.no/blog/my-thoughts-on-helix-after-6-months
   date: 2023-07-02T12:53:51Z
   file: timharek-no-ah7ilz.txt
 - title: "What App is That?"
@@ -53,7 +53,7 @@ I also read some good articles about [Helix][5] and [Procreate][6], and I'm hopi
 [2]: https://www.valetmag.com/the-handbook/living/how-to-slow-down-time.php
 [3]: https://1up-usa.com/product/2-super-duty-double
 [4]: https://www.thule.com/en-us/child-bike-seats/rear-mounted-child-bike-seats/thule-yepp-nexxt-maxi-_-12080211
-[5]: https://timharek.no/blog/my-thoughts-on-helix-after-6-months/
+[5]: https://timharek.no/blog/my-thoughts-on-helix-after-6-months
 [6]: https://maggieappleton.com/apps
 
 This month:

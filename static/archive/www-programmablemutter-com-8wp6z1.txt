@@ -5,7 +5,7 @@
 
 [3]Programmable Mutter
 
-   (BUTTON) (BUTTON)
+   (BUTTON)
    Subscribe
    (BUTTON) Sign in
 
@@ -26,22 +26,13 @@ What OpenAI shares with Scientology
    (BUTTON)
    Other
 
-Discover more from Programmable Mutter
-
-   Technology and politics in an interdependent world
-   Over 1,000 subscribers
-   ____________________
-   (BUTTON) Subscribe
-   Continue reading
-   Sign in
-
 What OpenAI shares with Scientology
 
 Strange beliefs, fights over money and bad science fiction
 
    [4]Henry Farrell
    Nov 20, 2023
-   72
+   73
    (BUTTON)
    Share this post
 
@@ -59,7 +50,6 @@ What OpenAI shares with Scientology
    (BUTTON)
    Other
    17
-   Share
 
    When Sam Altman was ousted as CEO of OpenAI, some hinted that lurid
    depravities lay behind his downfall. Surely, OpenAI’s board wouldn’t
@@ -353,7 +343,7 @@ What OpenAI shares with Scientology
    everywhere else that people find out about good books.
    ____________________
    (BUTTON) Subscribe
-   72
+   73
    (BUTTON)
    Share this post
 
@@ -396,7 +386,7 @@ What OpenAI shares with Scientology
    Other
    Tarik Najeddine
    [27]Writes Factual Dispatch
-   [28]Nov 20
+   [28]Nov 20, 2023
 
    ChatGPT is just Zapp Brannigan or a McKinsey consultant. A veneer of
    confidence and a person to blame when the executive "needs" to make a
@@ -407,7 +397,7 @@ What OpenAI shares with Scientology
    Share
    (BUTTON)
    Gerben Wierda
-   [29]Nov 21·edited Nov 21
+   [29]Nov 21, 2023·edited Nov 21, 2023
 
    Came here via Dave Karpf's link. Beautiful stuff, and "The Singularity
    is Nigh" made me laugh out loud.
@@ -443,7 +433,7 @@ What OpenAI shares with Scientology
    Ready for more?
    ____________________
    (BUTTON) Subscribe
-   © 2023 Henry Farrell
+   © 2024 Henry Farrell
    [32]Privacy ∙ [33]Terms ∙ [34]Collection notice
    Start Writing[35]Get the app
    [36]Substack is the home for great writing
@@ -454,9 +444,9 @@ What OpenAI shares with Scientology
 References
 
    Visible links:
-   1. file:///feed
-   2. file:///
-   3. file:///
+   1. https://www.programmablemutter.com/feed
+   2. https://www.programmablemutter.com/
+   3. https://www.programmablemutter.com/
    4. https://substack.com/@henryfarrell
    5. https://www.nytimes.com/2023/11/18/technology/open-ai-sam-altman-what-happened.html
    6. https://www.ft.com/content/54e36c93-08e5-4a9e-bda6-af673c3e9bb5
@@ -485,7 +475,7 @@ References
   29. https://www.programmablemutter.com/p/look-at-scientology-to-understand/comment/44033603
   30. https://erikjlarson.substack.com/p/gerben-wierda-on-chatgpt-altman-and
   31. https://www.programmablemutter.com/p/look-at-scientology-to-understand/comments
-  32. https://www.programmablemutter.com/privacy?utm_source=
+  32. https://substack.com/privacy
   33. https://substack.com/tos
   34. https://substack.com/ccpa#personal-data-collected
   35. https://substack.com/app/app-store-redirect?utm_campaign=app-marketing&utm_content=web-footer-button

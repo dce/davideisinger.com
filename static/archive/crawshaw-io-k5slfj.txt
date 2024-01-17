@@ -558,7 +558,7 @@ Indie dev techniques for the corporate programmer
 
 References
 
-   1. file:///atom.xml
+   1. https://crawshaw.io/atom.xml
    2. https://gonorthwest.io/
    3. https://www.kaggle.com/kingburrito666/shakespeare-plays
    4. https://golang.org/pkg/database/sql
@@ -569,6 +569,6 @@ References
    9. https://www.posticulous.com/
   10. https://www.sqlite.org/c3ref/blob_open.html
   11. https://godoc.org/crawshaw.io/sqlite#Blob
-  12. file:///
+  12. https://crawshaw.io/
   13. https://github.com/crawshaw
   14. https://twitter.com/davidcrawshaw
