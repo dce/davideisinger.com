@@ -45,8 +45,8 @@ Science X Account
    [INS: :INS]
      * (BUTTON)
      * share this!
-     * [30]90
-     * [31]15
+     * [30]114
+     * [31]32
      * [32]Share
      * [33]Email
 
@@ -118,6 +118,7 @@ We are wasting up to 20% of our time on computer problems, says study
    users in identifying problems. But it also means that problems that are
    not identified and solved will probably frustrate a large number of
    users," says Morten Hertzum.
+   [INS: :INS]
 
 The problems are only too recognizable
 
@@ -153,7 +154,6 @@ The problems are only too recognizable
    become better, but at the same time, we expect more from it. Even
    though downloads are faster now, they are often still experienced as
    frustratingly slow. "
-   [INS: :INS]
 
 88% use a computer at work
 
@@ -198,7 +198,7 @@ The problems are only too recognizable
    [47]DOI: 10.1145/3582432
    Provided by [48]University of Copenhagen
    Citation: We are wasting up to 20% of our time on computer problems,
-   says study (2023, June 29) retrieved 3 July 2023 from
+   says study (2023, June 29) retrieved 16 January 2024 from
    https://techxplore.com/news/2023-06-problems.html
    This document is subject to copyright. Apart from any fair dealing for
    the purpose of private study or research, no part may be reproduced
@@ -210,7 +210,7 @@ The problems are only too recognizable
    [49]Computer 'brains' solving mysteries of human behaviour
      __________________________________________________________________
 
-   [50]107 shares
+   [50]148 shares
      * [51]Facebook
      * [52]Twitter
      * [53]Email
@@ -223,82 +223,80 @@ The problems are only too recognizable
      * [56]Last Comments
      * [57]Popular
 
-[58]GitHub's Copilot may lead to global $1.5 trillion GDP boost
+[58]Team at Anthropic finds LLMs can be made to engage in deceptive behaviors
 
-   Jun 30, 2023
+   11 hours ago
 
-   4
+   0
 
-[59]Corporate collaboration bolsters quantum encryption
+[59]Model outlines how ionic blockades influence energy recovery in forward
+bias bipolar membranes
 
-   Jun 27, 2023
+   Jan 15, 2024
+
+   0
+
+[60]A new method to develop recyclable, organic and flexible electronics
+
+   Jan 10, 2024
+
+   0
+
+[61]Light-emitting textiles for diverse flexible and wearable displays
+
+   Jan 9, 2024
+
+   0
+
+[62]A robot that can play video games with humans
+
+   Jan 9, 2024
 
    1
-
-[60]Rendering three-dimensional images from eye reflections with NeRF
-
-   Jun 27, 2023
-
-   0
-
-[61]Engineering liquid crystal elastomers inspired by elephant trunks to make
-artificial plants
-
-   Jun 27, 2023
-
-   0
-
-[62]Wafer-scale transistor arrays created using slot-die printing
-
-   Jun 27, 2023
-
-   0
      __________________________________________________________________
 
-Researchers develop a redox-based transistor as a reservoir system for
-neuromorphic computing
+Team develops a new deepfake detector designed to be less biased
 
-   1 hour ago
+   8 hours ago
 
-Sweden orders four companies to stop using Google tool
+From cannabis harvest to flexible solar panels: Using organic electronics to
+develop next-gen devices
 
-   3 hours ago
+   11 hours ago
 
-New glass could cut carbon footprint by nearly half and is 10x more damage
-resistant
+Team at Anthropic finds LLMs can be made to engage in deceptive behaviors
 
-   4 hours ago
+   11 hours ago
 
-Team develops a faster, cheaper way to train large language models
+Volocopter flying taxi seeks to seduce Paris
 
-   5 hours ago
+   12 hours ago
 
-Researchers develop recycling method to address carbon and glass fiber
-composites waste
+Engineers propose hybrid urban water sourcing model using reclaimed
+wastewater
 
-   5 hours ago
+   12 hours ago
 
-Cutting edge transistors for semiconductors of the future
+Africa's chance for green electricity
 
-   7 hours ago
+   12 hours ago
 
-In AI tussle, Twitter restricts number of posts users can read
+Squishy, metal-free magnets to power robots and guide medical implants
 
-   Jul 1, 2023
+   13 hours ago
 
-After several turbulent days, flight disruptions ease despite worries about
-5G signals
+Material science advance could lead to airplanes that optimize their shape in
+flight
 
-   Jul 1, 2023
+   13 hours ago
 
-Displays controlled by flexible fins and liquid droplets more versatile,
-efficient than LED screens
+Discovery enables cost-effective and eco-friendly green hydrogen production
 
-   Jun 30, 2023
+   13 hours ago
 
-GitHub's Copilot may lead to global $1.5 trillion GDP boost
+Advancement in thermoelectricity could light up the Internet of Things
 
-   Jun 30, 2023
+   18 hours ago
    [INS: :INS]
 
      *
@@ -328,26 +326,25 @@ Scalable photonic computer solves the subset sum problem
 
 Recommended for you
 
-Robot swarms neutralize harmful Byzantine robots using a blockchain-based
-token economy
-       Jun 30, 2023
+Team develops a new deepfake detector designed to be less biased
+       8 hours ago
 
-Researchers teach an AI to write better chart captions
-       Jun 29, 2023
+Zeroing in on the origins of bias in large language models
+       Jan 15, 2024
 
-BBCube 3D: Implementing CPU/GPU and memory in a hybrid 3D approach
-       Jun 29, 2023
+Robot baristas and AI chefs caused a stir at CES 2024 as casino union workers
+fear for their jobs
+       Jan 14, 2024
 
-Why do some chatbots talk funny? Teaching them to 'think' rationally might
-help them do better
-       Jun 28, 2023
+At CES, gadgets to make everyday life easier
+       Jan 13, 2024
 
-Researchers design tools to automatically detect natural disasters using
-images on social media
-       Jun 28, 2023
+Scientists show how shallow learning mechanism used by the brain can compete
+with deep learning
+       Jan 12, 2024
 
-Researchers devise new way to evaluate cybersecurity methods
-       Jun 28, 2023
+Novel AI framework generates images from nothing
+       Jan 11, 2024
 
    IFRAME:
    [63]//js.trendmd.com/trendmd.amp.html?title=We%20are%20wasting%20up%20t
@@ -465,7 +462,7 @@ Follow us
      * [82]RSS feeds
      * [83]Push notification
 
-   © Tech Xplore 2014 - 2023 powered by [84]Science X Network
+   © Tech Xplore 2014 - 2024 powered by [84]Science X Network
    [85]Privacy policy [86]Terms of use
 
 Your Privacy
@@ -498,7 +495,7 @@ Follow us
 References
 
    Visible links:
-   1. file:///
+   1. https://techxplore.com/
    2. https://techxplore.com/search/
    3. https://techxplore.com/rss-feed/
    4. https://techxplore.com/rss-feed/breaking/
@@ -506,7 +503,7 @@ References
    6. https://techxplore.com/weekly-news/
    7. https://techxplore.com/latest-news/
    8. https://techxplore.com/unread-news/
-   9. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L4446-7560TMP.html
+   9. https://techxplore.com/news/2023-06-problems.html
   10. https://sciencex.com/profile/login/
   11. https://sciencex.com/profile/pwdreset/
   12. https://sciencex.com/profile/register/
@@ -528,12 +525,12 @@ References
   28. https://techxplore.com/software-news/
   29. https://techxplore.com/telecom-news/
   30. javascript:void(0)
-  31. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L4446-7560TMP.html
-  32. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L4446-7560TMP.html
+  31. https://techxplore.com/news/2023-06-problems.html
+  32. https://techxplore.com/news/2023-06-problems.html
   33. mailto:/
-  34. file:///
+  34. https://techxplore.com/
   35. https://techxplore.com/consumer-gadgets-news/
-  36. file:///
+  36. https://techxplore.com/
   37. https://techxplore.com/computer-sciences-news/
   38. javascript:void(0)
   39. https://sciencex.com/help/editorial-process/
@@ -549,23 +546,23 @@ References
   49. https://techxplore.com/news/2016-10-brains-mysteries-human-behaviour.html
   50. javascript:void(0)
   51. javascript:void(0)
-  52. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L4446-7560TMP.html
-  53. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L4446-7560TMP.html
-  54. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L4446-7560TMP.html
-  55. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L4446-7560TMP.html#nav-featured
-  56. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L4446-7560TMP.html#nav-commented
-  57. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L4446-7560TMP.html#nav-popular
-  58. https://techxplore.com/news/2023-06-github-copilot-global-trillion-gdp.html
-  59. https://techxplore.com/news/2023-06-corporate-collaboration-bolsters-quantum-encryption.html
-  60. https://techxplore.com/news/2023-06-three-dimensional-images-eye-nerf.html
-  61. https://techxplore.com/news/2023-06-liquid-crystal-elastomers-elephant-trunks.html
-  62. https://techxplore.com/news/2023-06-wafer-scale-transistor-arrays-slot-die.html
-  63. file://js.trendmd.com/trendmd.amp.html?title=We are wasting up to 20% of our time on computer problems, says study&url=https://techxplore.com/news/2023-06-problems.html&journalId=73746
+  52. https://techxplore.com/news/2023-06-problems.html
+  53. https://techxplore.com/news/2023-06-problems.html
+  54. https://techxplore.com/news/2023-06-problems.html
+  55. https://techxplore.com/news/2023-06-problems.html#nav-featured
+  56. https://techxplore.com/news/2023-06-problems.html#nav-commented
+  57. https://techxplore.com/news/2023-06-problems.html#nav-popular
+  58. https://techxplore.com/news/2024-01-team-anthropic-llms-engage-deceptive.html
+  59. https://techxplore.com/news/2024-01-outlines-ionic-blockades-energy-recovery.html
+  60. https://techxplore.com/news/2024-01-method-recyclable-flexible-electronics.html
+  61. https://techxplore.com/news/2024-01-emitting-textiles-diverse-flexible-wearable.html
+  62. https://techxplore.com/news/2024-01-robot-play-video-games-humans.html
+  63. https://js.trendmd.com/trendmd.amp.html?title=We are wasting up to 20% of our time on computer problems, says study&url=https://techxplore.com/news/2023-06-problems.html&journalId=73746
   64. Javascript:void(0);
   65. https://sciencex.com/help/feedback/
   66. https://sciencex.com/help/comments/
   67. https://sciencex.com/help/newsletter/
-  68. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L4446-7560TMP.html
+  68. https://techxplore.com/news/2023-06-problems.html
   69. https://techxplore.com/
   70. https://techxplore.com/search/
   71. https://techxplore.com/news/2023-06-problems.html?deviceType=mobile
@@ -586,39 +583,39 @@ References
   86. https://sciencex.com/help/terms/
   87. https://sciencex.com/help/privacy/
   88. https://sciencex.com/help/terms/
-  89. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L4446-7560TMP.html
+  89. https://techxplore.com/news/2023-06-problems.html
   90. https://sciencex.com/help/cookies/
   91. https://sciencex.com/help/adblock/
 
    Hidden links:
-  93. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L4446-7560TMP.html
+  93. https://techxplore.com/news/2023-06-problems.html
   94. javascript:void(0)
   95. https://techxplore.com/news/2023-06-problems.pdf
   96. javascript:window.print()
   97. https://techxplore.com/archive/29-06-2023/
   98. http://www.ku.dk/english/
-  99. https://techxplore.com/news/2023-07-redox-based-transistor-reservoir-neuromorphic.html
- 100. https://techxplore.com/news/2023-07-sweden-companies-google-tool.html
- 101. https://techxplore.com/news/2023-07-glass-carbon-footprint-10x-resistant.html
- 102. https://techxplore.com/news/2023-07-team-faster-cheaper-large-language.html
- 103. https://techxplore.com/news/2023-07-recycling-method-carbon-glass-fiber.html
- 104. https://techxplore.com/news/2023-07-edge-transistors-semiconductors-future.html
- 105. https://techxplore.com/news/2023-07-ai-tussle-twitter-restricts-users.html
- 106. https://techxplore.com/news/2023-07-air-isnt-hard-5g-wireless.html
- 107. https://techxplore.com/news/2023-06-displays-flexible-fins-liquid-droplets.html
- 108. https://techxplore.com/news/2023-06-github-copilot-global-trillion-gdp.html
+  99. https://techxplore.com/news/2024-01-team-deepfake-detector-biased.html
+ 100. https://techxplore.com/news/2024-01-cannabis-harvest-flexible-solar-panels.html
+ 101. https://techxplore.com/news/2024-01-team-anthropic-llms-engage-deceptive.html
+ 102. https://techxplore.com/news/2024-01-volocopter-flying-taxi-seduce-paris.html
+ 103. https://techxplore.com/news/2024-01-hybrid-urban-sourcing-reclaimed-wastewater.html
+ 104. https://techxplore.com/news/2024-01-africa-chance-green-electricity.html
+ 105. https://techxplore.com/news/2024-01-squishy-metal-free-magnets-power.html
+ 106. https://techxplore.com/news/2024-01-material-science-advance-airplanes-optimize.html
+ 107. https://techxplore.com/news/2024-01-discovery-enables-effective-eco-friendly.html
+ 108. https://techxplore.com/news/2024-01-advancement-thermoelectricity-internet.html
  109. https://techxplore.com/news/2016-10-brains-mysteries-human-behaviour.html
  110. https://techxplore.com/news/2023-05-quantum-powerful.html
  111. https://techxplore.com/news/2023-05-qa-expert-discusses-realistically-quantum.html
  112. https://phys.org/news/2020-12-tiny-quantum-real-optimization-problem.html
  113. https://techxplore.com/news/2022-10-software-nonspecialists-intuitively-machines-gestures.html
  114. https://phys.org/news/2020-02-scalable-photonic-subset-sum-problem.html
- 115. https://techxplore.com/news/2023-06-robot-swarms-neutralize-byzantine-robots.html
- 116. https://techxplore.com/news/2023-06-ai-captions.html
- 117. https://techxplore.com/news/2023-06-bbcube-3d-cpugpu-memory-hybrid.html
- 118. https://techxplore.com/news/2023-06-chatbots-funny-rationally.html
- 119. https://techxplore.com/news/2023-06-tools-automatically-natural-disasters-images.html
- 120. https://techxplore.com/news/2023-06-cybersecurity-methods.html
+ 115. https://techxplore.com/news/2024-01-team-deepfake-detector-biased.html
+ 116. https://techxplore.com/news/2024-01-zeroing-bias-large-language.html
+ 117. https://techxplore.com/news/2024-01-robot-baristas-ai-chefs-ces.html
+ 118. https://techxplore.com/news/2024-01-ces-gadgets-everyday-life-easier.html
+ 119. https://techxplore.com/news/2024-01-scientists-shallow-mechanism-brain-deep.html
+ 120. https://techxplore.com/news/2024-01-ai-framework-generates-images.html
  121. https://phys.org/
  122. https://medicalxpress.com/
  123. https://sciencex.com/

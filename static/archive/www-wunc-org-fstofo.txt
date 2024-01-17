@@ -52,84 +52,86 @@
           + [45]Western NC News
      * Special Coverage
        (BUTTON)
-          + [46]2022 Raleigh Shooting
-          + [47]A Teacher in Every Class
-          + [48]Behind The Lines
-          + [49]2022 North Carolina Elections
-          + [50]Tested: Beyond The Pod
-          + [51]The Lives Lost
-          + [52]The Killing of Andrew Brown Jr.
-          + [53]Calling for Change
-          + [54]Lumberton Undeterred
-          + [55]Southern Witness
-          + [56]Coronavirus Coverage
-          + [57]The Cost of Summer
-          + [58]A State Divided: HB2 And Transgender Rights
-          + [59]2022 Raleigh Shooting
-          + [60]A Teacher in Every Class
-          + [61]Behind The Lines
-          + [62]2022 North Carolina Elections
-          + [63]Tested: Beyond The Pod
-          + [64]The Lives Lost
-          + [65]The Killing of Andrew Brown Jr.
-          + [66]Calling for Change
-          + [67]Lumberton Undeterred
-          + [68]Southern Witness
-          + [69]Coronavirus Coverage
-          + [70]The Cost of Summer
-          + [71]A State Divided: HB2 And Transgender Rights
+          + [46]Main Street NC
+          + [47]2023 UNC-Chapel Hill Shooting
+          + [48]2022 Raleigh Shooting
+          + [49]A Teacher in Every Class
+          + [50]Behind The Lines
+          + [51]Tested: Beyond The Pod
+          + [52]The Lives Lost
+          + [53]The Killing of Andrew Brown Jr.
+          + [54]Calling for Change
+          + [55]Lumberton Undeterred
+          + [56]Southern Witness
+          + [57]Coronavirus Coverage
+          + [58]The Cost of Summer
+          + [59]A State Divided: HB2 And Transgender Rights
+          + [60]Main Street NC
+          + [61]2023 UNC-Chapel Hill Shooting
+          + [62]2022 Raleigh Shooting
+          + [63]A Teacher in Every Class
+          + [64]Behind The Lines
+          + [65]Tested: Beyond The Pod
+          + [66]The Lives Lost
+          + [67]The Killing of Andrew Brown Jr.
+          + [68]Calling for Change
+          + [69]Lumberton Undeterred
+          + [70]Southern Witness
+          + [71]Coronavirus Coverage
+          + [72]The Cost of Summer
+          + [73]A State Divided: HB2 And Transgender Rights
+     * Due South
+       (BUTTON)
+          + [74]About Due South
+          + [75]Shows
+          + [76]Contact Due South
+          + [77]About Due South
+          + [78]Shows
+          + [79]Contact Due South
      * Programs
        (BUTTON)
-          + [72]WUNC Radio Schedule
-          + [73]Programs A-Z
-          + [74]All Things Considered
-          + [75]Morning Edition
-          + [76]Back Porch Music
-          + [77]Embodied Radio Show
-          + [78]Sound Opinions
-          + [79]The Thistle and Shamrock
-          + [80]Youth Reporting Institute
-          + [81]The People's Pharmacy
-          + [82]American Homefront Project
-          + [83]Fresh Air
-          + [84]The Poetry Café
-          + [85]NPR Music & Concerts
-          + [86]WUNC Radio Schedule
-          + [87]Programs A-Z
-          + [88]All Things Considered
-          + [89]Morning Edition
-          + [90]Back Porch Music
-          + [91]Embodied Radio Show
-          + [92]Sound Opinions
-          + [93]The Thistle and Shamrock
-          + [94]Youth Reporting Institute
-          + [95]The People's Pharmacy
-          + [96]American Homefront Project
-          + [97]Fresh Air
-          + [98]The Poetry Café
-          + [99]NPR Music & Concerts
+          + [80]WUNC Radio Schedule
+          + [81]Programs A-Z
+          + [82]Due South
+          + [83]All Things Considered
+          + [84]Morning Edition
+          + [85]Back Porch Music
+          + [86]Embodied Radio Show
+          + [87]Sound Opinions
+          + [88]The Thistle and Shamrock
+          + [89]Youth Reporting Institute
+          + [90]The People's Pharmacy
+          + [91]American Homefront Project
+          + [92]Fresh Air
+          + [93]The Poetry Café
+          + [94]NPR Music & Concerts
+          + [95]WUNC Radio Schedule
+          + [96]Programs A-Z
+          + [97]Due South
+          + [98]All Things Considered
+          + [99]Morning Edition
+          + [100]Back Porch Music
+          + [101]Embodied Radio Show
+          + [102]Sound Opinions
+          + [103]The Thistle and Shamrock
+          + [104]Youth Reporting Institute
+          + [105]The People's Pharmacy
+          + [106]American Homefront Project
+          + [107]Fresh Air
+          + [108]The Poetry Café
+          + [109]NPR Music & Concerts
      * Podcasts
        (BUTTON)
-          + [100]Podcasts From WUNC
-          + [101]Tested Podcast
-          + [102]WUNC Politics
-          + [103]Embodied Podcast
-          + [104]CREEP
-          + [105]Dating While Gray™
-          + [106]Criminal
-          + [107]Great Grief
-          + [108]Me & My Muslim Friends
-          + [109]The Story Stables
           + [110]Podcasts From WUNC
-          + [111]Tested Podcast
-          + [112]WUNC Politics
-          + [113]Embodied Podcast
-          + [114]CREEP
-          + [115]Dating While Gray™
-          + [116]Criminal
-          + [117]Great Grief
-          + [118]Me & My Muslim Friends
-          + [119]The Story Stables
+          + [111]The Broadside
+          + [112]Embodied Podcast
+          + [113]WUNC Politics
+          + [114]Me & My Muslim Friends
+          + [115]Podcasts From WUNC
+          + [116]The Broadside
+          + [117]Embodied Podcast
+          + [118]WUNC Politics
+          + [119]Me & My Muslim Friends
      * About
        (BUTTON)
           + [120]About WUNC
@@ -158,9 +160,9 @@
           + [143]Telling Public Radio’s Story
           + [144]Ethics
           + [145]Contact Us
-     * [146]Events
      * Support
        (BUTTON)
+          + [146]Year-End Giving Deadlines to Know
           + [147]Ways to Give to WUNC
           + [148]WUNC Thank You Gifts
           + [149]Drawing Rules & Entry Form
@@ -174,34 +176,36 @@
           + [157]Business Sponsors & Underwriting
           + [158]Community Sponsor Circle
           + [159]Other Ways To Give
-          + [160]Ways to Give to WUNC
-          + [161]WUNC Thank You Gifts
-          + [162]Drawing Rules & Entry Form
-          + [163]WUNC Sustainer Program
-          + [164]Update Sustainer Information
-          + [165]Increase Sustainer Gift
-          + [166]Join WUNC's Leadership Circle
-          + [167]Donate Your Vehicle to WUNC
-          + [168]Be a WUNC Volunteer
-          + [169]Include WUNC in Your Will
-          + [170]Business Sponsors & Underwriting
-          + [171]Community Sponsor Circle
-          + [172]Other Ways To Give
-     * [173]WUNC Music
-     * [174]Search
+          + [160]Year-End Giving Deadlines to Know
+          + [161]Ways to Give to WUNC
+          + [162]WUNC Thank You Gifts
+          + [163]Drawing Rules & Entry Form
+          + [164]WUNC Sustainer Program
+          + [165]Update Sustainer Information
+          + [166]Increase Sustainer Gift
+          + [167]Join WUNC's Leadership Circle
+          + [168]Donate Your Vehicle to WUNC
+          + [169]Be a WUNC Volunteer
+          + [170]Include WUNC in Your Will
+          + [171]Business Sponsors & Underwriting
+          + [172]Community Sponsor Circle
+          + [173]Other Ways To Give
+     * [174]WUNC Music
+     * [175]Search
 
    Bringing The World Home To You
-   © 2023 WUNC North Carolina Public Radio
+   © 2024 WUNC North Carolina Public Radio
    120 Friday Center Dr
    Chapel Hill, NC 27517
    919.445.9150 | 800.962.9862
 
    (BUTTON) Menu
    91.5 Chapel Hill 88.9 Manteo 90.9 Rocky Mount 91.1 Welcome 91.9
-   Fayetteville 90.5 Buxton 94.1 Lumberton 99.9 Southern Pines
+   Fayetteville 90.5 Buxton 94.1 Lumberton 99.9 Southern Pines 89.9
+   Chadbourn
    (BUTTON) Show Search
    ____________________Search Query (BUTTON)
-   [175]Donate
+   [176]Donate
 
    (BUTTON) (BUTTON)
    (BUTTON)
@@ -220,204 +224,207 @@
 
      * News
        (BUTTON)
-          + [176]North Carolina News
-          + [177]NPR News
-          + [178]Politics
-          + [179]Arts & Culture
-          + [180]Race & Demographics
-          + [181]Business & Economy
-          + [182]Education
-          + [183]Environment
-          + [184]Health
-          + [185]Science & Technology
-          + [186]Military
-          + [187]Sports
-          + [188]Weather
-          + [189]Ethics
-          + [190]Corrections & Clarifications
-          + [191]North Carolina News
-          + [192]NPR News
-          + [193]Politics
-          + [194]Arts & Culture
-          + [195]Race & Demographics
-          + [196]Business & Economy
-          + [197]Education
-          + [198]Environment
-          + [199]Health
-          + [200]Science & Technology
-          + [201]Military
-          + [202]Sports
-          + [203]Weather
-          + [204]Ethics
-          + [205]Corrections & Clarifications
+          + [177]North Carolina News
+          + [178]NPR News
+          + [179]Politics
+          + [180]Arts & Culture
+          + [181]Race & Demographics
+          + [182]Business & Economy
+          + [183]Education
+          + [184]Environment
+          + [185]Health
+          + [186]Science & Technology
+          + [187]Military
+          + [188]Sports
+          + [189]Weather
+          + [190]Ethics
+          + [191]Corrections & Clarifications
+          + [192]North Carolina News
+          + [193]NPR News
+          + [194]Politics
+          + [195]Arts & Culture
+          + [196]Race & Demographics
+          + [197]Business & Economy
+          + [198]Education
+          + [199]Environment
+          + [200]Health
+          + [201]Science & Technology
+          + [202]Military
+          + [203]Sports
+          + [204]Weather
+          + [205]Ethics
+          + [206]Corrections & Clarifications
      * Regions
        (BUTTON)
-          + [206]Triangle News
-          + [207]Triad News
-          + [208]Fayetteville Area News
-          + [209]Eastern NC News
-          + [210]Southeastern NC News
-          + [211]Charlotte Area News
-          + [212]Western NC News
-          + [213]Triangle News
-          + [214]Triad News
-          + [215]Fayetteville Area News
-          + [216]Eastern NC News
-          + [217]Southeastern NC News
-          + [218]Charlotte Area News
-          + [219]Western NC News
+          + [207]Triangle News
+          + [208]Triad News
+          + [209]Fayetteville Area News
+          + [210]Eastern NC News
+          + [211]Southeastern NC News
+          + [212]Charlotte Area News
+          + [213]Western NC News
+          + [214]Triangle News
+          + [215]Triad News
+          + [216]Fayetteville Area News
+          + [217]Eastern NC News
+          + [218]Southeastern NC News
+          + [219]Charlotte Area News
+          + [220]Western NC News
      * Special Coverage
        (BUTTON)
-          + [220]2022 Raleigh Shooting
-          + [221]A Teacher in Every Class
-          + [222]Behind The Lines
-          + [223]2022 North Carolina Elections
-          + [224]Tested: Beyond The Pod
-          + [225]The Lives Lost
-          + [226]The Killing of Andrew Brown Jr.
-          + [227]Calling for Change
-          + [228]Lumberton Undeterred
-          + [229]Southern Witness
-          + [230]Coronavirus Coverage
-          + [231]The Cost of Summer
-          + [232]A State Divided: HB2 And Transgender Rights
-          + [233]2022 Raleigh Shooting
-          + [234]A Teacher in Every Class
-          + [235]Behind The Lines
-          + [236]2022 North Carolina Elections
-          + [237]Tested: Beyond The Pod
-          + [238]The Lives Lost
-          + [239]The Killing of Andrew Brown Jr.
-          + [240]Calling for Change
-          + [241]Lumberton Undeterred
-          + [242]Southern Witness
-          + [243]Coronavirus Coverage
-          + [244]The Cost of Summer
-          + [245]A State Divided: HB2 And Transgender Rights
+          + [221]Main Street NC
+          + [222]2023 UNC-Chapel Hill Shooting
+          + [223]2022 Raleigh Shooting
+          + [224]A Teacher in Every Class
+          + [225]Behind The Lines
+          + [226]Tested: Beyond The Pod
+          + [227]The Lives Lost
+          + [228]The Killing of Andrew Brown Jr.
+          + [229]Calling for Change
+          + [230]Lumberton Undeterred
+          + [231]Southern Witness
+          + [232]Coronavirus Coverage
+          + [233]The Cost of Summer
+          + [234]A State Divided: HB2 And Transgender Rights
+          + [235]Main Street NC
+          + [236]2023 UNC-Chapel Hill Shooting
+          + [237]2022 Raleigh Shooting
+          + [238]A Teacher in Every Class
+          + [239]Behind The Lines
+          + [240]Tested: Beyond The Pod
+          + [241]The Lives Lost
+          + [242]The Killing of Andrew Brown Jr.
+          + [243]Calling for Change
+          + [244]Lumberton Undeterred
+          + [245]Southern Witness
+          + [246]Coronavirus Coverage
+          + [247]The Cost of Summer
+          + [248]A State Divided: HB2 And Transgender Rights
+     * Due South
+       (BUTTON)
+          + [249]About Due South
+          + [250]Shows
+          + [251]Contact Due South
+          + [252]About Due South
+          + [253]Shows
+          + [254]Contact Due South
      * Programs
        (BUTTON)
-          + [246]WUNC Radio Schedule
-          + [247]Programs A-Z
-          + [248]All Things Considered
-          + [249]Morning Edition
-          + [250]Back Porch Music
-          + [251]Embodied Radio Show
-          + [252]Sound Opinions
-          + [253]The Thistle and Shamrock
-          + [254]Youth Reporting Institute
-          + [255]The People's Pharmacy
-          + [256]American Homefront Project
-          + [257]Fresh Air
-          + [258]The Poetry Café
-          + [259]NPR Music & Concerts
-          + [260]WUNC Radio Schedule
-          + [261]Programs A-Z
-          + [262]All Things Considered
-          + [263]Morning Edition
-          + [264]Back Porch Music
-          + [265]Embodied Radio Show
-          + [266]Sound Opinions
-          + [267]The Thistle and Shamrock
-          + [268]Youth Reporting Institute
-          + [269]The People's Pharmacy
-          + [270]American Homefront Project
-          + [271]Fresh Air
-          + [272]The Poetry Café
-          + [273]NPR Music & Concerts
+          + [255]WUNC Radio Schedule
+          + [256]Programs A-Z
+          + [257]Due South
+          + [258]All Things Considered
+          + [259]Morning Edition
+          + [260]Back Porch Music
+          + [261]Embodied Radio Show
+          + [262]Sound Opinions
+          + [263]The Thistle and Shamrock
+          + [264]Youth Reporting Institute
+          + [265]The People's Pharmacy
+          + [266]American Homefront Project
+          + [267]Fresh Air
+          + [268]The Poetry Café
+          + [269]NPR Music & Concerts
+          + [270]WUNC Radio Schedule
+          + [271]Programs A-Z
+          + [272]Due South
+          + [273]All Things Considered
+          + [274]Morning Edition
+          + [275]Back Porch Music
+          + [276]Embodied Radio Show
+          + [277]Sound Opinions
+          + [278]The Thistle and Shamrock
+          + [279]Youth Reporting Institute
+          + [280]The People's Pharmacy
+          + [281]American Homefront Project
+          + [282]Fresh Air
+          + [283]The Poetry Café
+          + [284]NPR Music & Concerts
      * Podcasts
        (BUTTON)
-          + [274]Podcasts From WUNC
-          + [275]Tested Podcast
-          + [276]WUNC Politics
-          + [277]Embodied Podcast
-          + [278]CREEP
-          + [279]Dating While Gray™
-          + [280]Criminal
-          + [281]Great Grief
-          + [282]Me & My Muslim Friends
-          + [283]The Story Stables
-          + [284]Podcasts From WUNC
-          + [285]Tested Podcast
-          + [286]WUNC Politics
+          + [285]Podcasts From WUNC
+          + [286]The Broadside
           + [287]Embodied Podcast
-          + [288]CREEP
-          + [289]Dating While Gray™
-          + [290]Criminal
-          + [291]Great Grief
-          + [292]Me & My Muslim Friends
-          + [293]The Story Stables
+          + [288]WUNC Politics
+          + [289]Me & My Muslim Friends
+          + [290]Podcasts From WUNC
+          + [291]The Broadside
+          + [292]Embodied Podcast
+          + [293]WUNC Politics
+          + [294]Me & My Muslim Friends
      * About
        (BUTTON)
-          + [294]About WUNC
-          + [295]Ways To Listen To WUNC Online
-          + [296]About HD Radio
-          + [297]Station Policies & Financial Documents
-          + [298]Committee on Inclusion Diversity Equity Accountability
-          + [299]WUNC Public Radio, LLC Board of Directors
-          + [300]People
-          + [301]Ways to Connect
-          + [302]WUNC Jobs
-          + [303]WUNC Community Discussion Rules
-          + [304]Telling Public Radio’s Story
-          + [305]Ethics
-          + [306]Contact Us
-          + [307]About WUNC
-          + [308]Ways To Listen To WUNC Online
-          + [309]About HD Radio
-          + [310]Station Policies & Financial Documents
-          + [311]Committee on Inclusion Diversity Equity Accountability
-          + [312]WUNC Public Radio, LLC Board of Directors
-          + [313]People
-          + [314]Ways to Connect
-          + [315]WUNC Jobs
-          + [316]WUNC Community Discussion Rules
-          + [317]Telling Public Radio’s Story
-          + [318]Ethics
-          + [319]Contact Us
-     * [320]Events
+          + [295]About WUNC
+          + [296]Ways To Listen To WUNC Online
+          + [297]About HD Radio
+          + [298]Station Policies & Financial Documents
+          + [299]Committee on Inclusion Diversity Equity Accountability
+          + [300]WUNC Public Radio, LLC Board of Directors
+          + [301]People
+          + [302]Ways to Connect
+          + [303]WUNC Jobs
+          + [304]WUNC Community Discussion Rules
+          + [305]Telling Public Radio’s Story
+          + [306]Ethics
+          + [307]Contact Us
+          + [308]About WUNC
+          + [309]Ways To Listen To WUNC Online
+          + [310]About HD Radio
+          + [311]Station Policies & Financial Documents
+          + [312]Committee on Inclusion Diversity Equity Accountability
+          + [313]WUNC Public Radio, LLC Board of Directors
+          + [314]People
+          + [315]Ways to Connect
+          + [316]WUNC Jobs
+          + [317]WUNC Community Discussion Rules
+          + [318]Telling Public Radio’s Story
+          + [319]Ethics
+          + [320]Contact Us
      * Support
        (BUTTON)
-          + [321]Ways to Give to WUNC
-          + [322]WUNC Thank You Gifts
-          + [323]Drawing Rules & Entry Form
-          + [324]WUNC Sustainer Program
-          + [325]Update Sustainer Information
-          + [326]Increase Sustainer Gift
-          + [327]Join WUNC's Leadership Circle
-          + [328]Donate Your Vehicle to WUNC
-          + [329]Be a WUNC Volunteer
-          + [330]Include WUNC in Your Will
-          + [331]Business Sponsors & Underwriting
-          + [332]Community Sponsor Circle
-          + [333]Other Ways To Give
-          + [334]Ways to Give to WUNC
-          + [335]WUNC Thank You Gifts
-          + [336]Drawing Rules & Entry Form
-          + [337]WUNC Sustainer Program
-          + [338]Update Sustainer Information
-          + [339]Increase Sustainer Gift
-          + [340]Join WUNC's Leadership Circle
-          + [341]Donate Your Vehicle to WUNC
-          + [342]Be a WUNC Volunteer
-          + [343]Include WUNC in Your Will
-          + [344]Business Sponsors & Underwriting
-          + [345]Community Sponsor Circle
-          + [346]Other Ways To Give
-     * [347]WUNC Music
-     * [348]Search
+          + [321]Year-End Giving Deadlines to Know
+          + [322]Ways to Give to WUNC
+          + [323]WUNC Thank You Gifts
+          + [324]Drawing Rules & Entry Form
+          + [325]WUNC Sustainer Program
+          + [326]Update Sustainer Information
+          + [327]Increase Sustainer Gift
+          + [328]Join WUNC's Leadership Circle
+          + [329]Donate Your Vehicle to WUNC
+          + [330]Be a WUNC Volunteer
+          + [331]Include WUNC in Your Will
+          + [332]Business Sponsors & Underwriting
+          + [333]Community Sponsor Circle
+          + [334]Other Ways To Give
+          + [335]Year-End Giving Deadlines to Know
+          + [336]Ways to Give to WUNC
+          + [337]WUNC Thank You Gifts
+          + [338]Drawing Rules & Entry Form
+          + [339]WUNC Sustainer Program
+          + [340]Update Sustainer Information
+          + [341]Increase Sustainer Gift
+          + [342]Join WUNC's Leadership Circle
+          + [343]Donate Your Vehicle to WUNC
+          + [344]Be a WUNC Volunteer
+          + [345]Include WUNC in Your Will
+          + [346]Business Sponsors & Underwriting
+          + [347]Community Sponsor Circle
+          + [348]Other Ways To Give
+     * [349]WUNC Music
+     * [350]Search
 
-   [349]News
+   [351]News
 
 Storm leaves trail of damage across central NC; Thousands still without power
 Wednesday
 
-   WUNC | By [350]Mitchell Northam,
-   [351]Bradley George, [352]Will Michaels
+   WUNC | By [352]Mitchell Northam,
+   [353]Bradley George, [354]Will Michaels
    Published August 16, 2023 at 11:39 AM EDT
-     * [353]Facebook
-     * [354]Twitter
-     * [355]LinkedIn
-     * [356]Email
+     * [355]Facebook
+     * [356]Twitter
+     * [357]LinkedIn
+     * [358]Email
 
    This photo from the City of Durham Fire Department shows a fallen tree
    laying on a power line on Aug. 15, 2023 after severe thunderstorms in
@@ -443,19 +450,19 @@ Wednesday
      RIGHT NOW: This is Morehead Ave. & Cranford Rd. in Durham this
      morning after yesterday's storms. We're hearing of quite a few other
      problem areas so be careful on the roads this morning!
-     [357]@AnissaLopezTV has more on [358]@SpecNews1RDU (Drone footage:
-     Chief Photog Mark Barger) [359]pic.twitter.com/Yuphqoo3TG
-     — Kyleigh Panetta (@KyleighPanetta) [360]August 16, 2023
+     [359]@AnissaLopezTV has more on [360]@SpecNews1RDU (Drone footage:
+     Chief Photog Mark Barger) [361]pic.twitter.com/Yuphqoo3TG
+     — Kyleigh Panetta (@KyleighPanetta) [362]August 16, 2023
 
    Severe weather also led to a 32-vehicle accident on westbound
    Interstate 40 near the Southpoint Mall around 4:45 p.m. Tuesday,
-   forcing a closure between exits 274 and 276. According [361]to WRAL, no
+   forcing a closure between exits 274 and 276. According [363]to WRAL, no
    one was seriously injured in the crash.
 
    Durham Police say a 78-year-old woman was killed Tuesday when a tree
    fell on her car.
 
-   Durham officials have [362]opened multiple cooling centers, mainly
+   Durham officials have [364]opened multiple cooling centers, mainly
    public libraries, to help residents beat the heat as they wait for
    power to be restored. The Durham County Main Library, the only cooling
    center with phone and internet access, was temporarily closed Wednesday
@@ -465,8 +472,8 @@ Wednesday
      A heavy thunderstorm swept over WUNC's Durham studios, launching
      metal chairs into the artificial river and sending umbrellas flying.
      What's the storm scene near you? Stay safe out there!
-     📷 by Paul Hunton/ WUNC [363]pic.twitter.com/F5OiDz2EvF
-     — WUNC (@wunc) [364]August 15, 2023
+     📷 by Paul Hunton/ WUNC [365]pic.twitter.com/F5OiDz2EvF
+     — WUNC (@wunc) [366]August 15, 2023
 
    County officials did not expect straight-line winds of up to 80 miles
    per hour based on Tuesday’s severe weather forecast, said Elizabeth
@@ -555,21 +562,21 @@ Wednesday
    WUNC's Sascha Cordner, Eli Chen and Laura Pellicer contributed to this
    report.
    Tags
-   [365]News [366]Durham County[367]Thunderstorms[368]School
-   closure[369]Weather
-     * [370]Facebook
-     * [371]Twitter
-     * [372]LinkedIn
-     * [373]Email
+   [367]News [368]Durham County[369]Thunderstorms[370]School
+   closure[371]Weather
+     * [372]Facebook
+     * [373]Twitter
+     * [374]LinkedIn
+     * [375]Email
 
-   [374]Mitchell Northam
+   [376]Mitchell Northam
    Mitchell Northam is a Digital Producer for WUNC. His past work has been
    featured at the Atlanta Journal-Constitution, SB Nation, the Orlando
    Sentinel and the Associated Press. He is a graduate of Salisbury
    University and is also a voter in the AP Top 25 poll for women's
    college basketball.
-   [375]See stories by Mitchell Northam
-   [376]Bradley George
+   [377]See stories by Mitchell Northam
+   [378]Bradley George
    Bradley George is WUNC's AM reporter. A North Carolina native, his
    public radio career has taken him to Atlanta, Birmingham, Nashville and
    most recently WUSF in Tampa. While there, he reported on the COVID-19
@@ -577,110 +584,101 @@ Wednesday
    the 2020 election. Along the way, he has reported for NPR, Marketplace,
    The Takeaway, and the BBC World Service. Bradley is a graduate of
    Guilford College, where he majored in Theatre and German.
-   [377]See stories by Bradley George
-   [378]Will Michaels
-   Will Michaels is WUNC's General Assignment Reporter and fill-in host
-   for "Morning Edition"
-   [379]See stories by Will Michaels
+   [379]See stories by Bradley George
+   [380]Will Michaels
+   Will Michaels is WUNC's Weekend Host and Reporter.
+   [381]See stories by Will Michaels
 
    LATEST STORIES
-    1. [380]'They Live In My Head' is as vital any album the Bush Tetras
-       have ever made
-    2. [381]Tropical Storm Hilary moves on from California, leaving a
-       trail of damage and debris
-    3. [382]'Louder Than A Riot' reckons with hip-hop's past and looks to
-       a more inclusive future
-    4. [383]Mortgage rates just hit their highest since 2002
-    5. [384]Criminal or absurd? A look at the charges against Mark Meadows
-    6. [385]Russia's latest attempt at Moon landing fails. India will try
-       again this week
+    1. [382]The U.S. military continues strikes in attempts to deter
+       Houthi fighters in Yemen
+    2. [383]Helping veterans cope with life after a bipolar diagnosis
+    3. [384]Why flight attendants have a lot of time in their day that is
+       unpaid
+    4. [385]The fight across the nation for the 'right to repair'
+    5. [386]The economic impact from the Red Sea tensions
+    6. [387]Presidential hopefuls pivot their efforts to New Hampshire
 
    Discuss North Carolina politics. Analyze how and why you love the way
    you do. Quiz yourself on Black history. Hear poetry from NC's poet
    laureate. Meet NPR hosts and reporters. You never know where WUNC's
    events will take you. Join us for this ride! See our upcoming events
    and sign up to attend.
-   [386]SEE OUR EVENTS
+   [388]SEE OUR EVENTS
 
    More Stories
-     * [387]Durham, NC
-       [388]News
-       [389]Durham County to launch guaranteed income pilot program
-       [390]Bradley George
-       DoCo Thrives will provide $750 a month to 125 families.
-     * [391]Huntersville pipeline cleanup continues, three years after
-       major spill
-       [392]David Boraks
-       We're taking note this week of the third anniversary of a major
-       gasoline spill on the Colonial Pipeline in Huntersville — the
-       largest gasoline spill on land in the U.S.
-     * [393]The House bill would delay updates to the states building code
-       and energy efficiency rules governing things such as roofs,
-       insulation and heating and cooling systems.
-       [394]North Carolina lawmakers override veto of bill that delays
-       building code updates
-       [395]David Boraks
-       North Carolina won't be revising its outdated energy efficiency
-       rules for new homes anytime soon. On Wednesday, the House and
-       Senate both voted to override Gov. Roy Cooper's veto of House Bill
-       488. The new law blocks the state Building Code Council from
-       updating key sections of the state building code until 2031. Some
-       parts of the current code date from 2009. The law also reorganizes
-       the council and limits the governor's appointment power.
-       (BUTTON) Listen • 1:19
-     * [396]UNCW assistant professor Dr. Michael Tift with a crabeater
-       seal in Antarctica. NMFS permit #25770
-       [397]UNCW researchers return from Antarctic winters spent studying
-       climate change and crabeater seals
-       [398]Rachel Keith
-       Dr. Michael Tift, an assistant professor in the Department of
-       Biology and Marine Biology at the University of North Carolina
-       Wilmington, has recently returned from his second Antarctic winter
-       researching the effects of climate change on the most populous seal
-       species on earth, the crabeater. Tift and his colleagues are able
-       to do this research through a $690,446 National Science Foundation
-       (NSF) grant.
-       (BUTTON) Listen • 1:41
-     * [399]Senate leader Phil Berger, R-Rockingham, talks with reporters
-       after the Senate's session on Aug. 17.
-       [400]Politics
-       [401]Effort to strip governor's appointment powers could prompt
-       veto, lawsuit
-       [402]Colin Campbell
-       Legislation that would weaken Gov. Roy Cooper's appointment powers
-       passed the House and Senate this week. The bill now heads to his
-       desk for a likely veto.
+     * [389]Minerva, Goddess of Wisdom stands outside the Elliott
+       University Center in the center of UNC Greensboro's campus
+       [390]Education
+       [391]UNC Greensboro announces program cut recommendations
+       [392]Brianna Atkinson
+       The department dean’s recommendations include 19 programs, majors
+       and minors total — affecting about 194 students.
+     * [393]A civil suit, filed by New Hanover County against numerous
+       PFAS manufacturers on Friday, January 12, 2024, in New Hanover
+       County Superior Court.
+       [394]New Hanover County sues over a dozen PFAS manufacturers,
+       sellers
+       [395]Kelly Kenoyer
+       New Hanover County has filed a lawsuit against more than a dozen
+       PFAS manufacturers, ranging from legacy chemical companies to
+       smaller, firefighting foam companies.
+       (BUTTON) Listen • 1:24
+     * [396]Pembroke, North Carolina - Main Street - 12-23
+       [397]Sports
+       [398]Q&A: UNC Pembroke AD Dick Christy on how sports betting will
+       impact smaller NC colleges
+       [399]Mitchell Northam
+       While it comes with its critics and concerns, sports betting could
+       benefit 10 UNC System schools, including UNC Pembroke, in a big
+       way. Once betting begins, those schools – the 10 with the smallest
+       athletic department budgets – will split 20% of the yearly tax
+       revenue from legal gambling in North Carolina.
+     * [400]Buncombe County living wage increases to $22.10 an hour,
+       nonprofit says
+       [401]Felicia Sonmez
+       Just Economics WNC said the increase is being driven by the soaring
+       cost of housing.
+     * [402]High Point University officials participate in the dental
+       school groundbreaking.
+       [403]Education
+       [404]High Point University’s new dental school will welcome its
+       first cohort of students in the fall
+       [405]Sharryse Piggott
+       The Workman School of Dental Medicine is only one of three dental
+       schools in North Carolina.
 
    Stay Connected
-     * [403]twitter
-     * [404]instagram
-     * [405]youtube
-     * [406]facebook
-     * [407]linkedin
+     * [406]twitter
+     * [407]instagram
+     * [408]youtube
+     * [409]facebook
+     * [410]linkedin
 
    Bringing The World Home To You
-   © 2023 WUNC North Carolina Public Radio
+   © 2024 WUNC North Carolina Public Radio
    120 Friday Center Dr
    Chapel Hill, NC 27517
    919.445.9150 | 800.962.9862
-     * [408]Listen Live
-     * [409]Podcasts From WUNC
-     * [410]Events
-     * [411]About
-     * [412]Contact Us
-     * [413]Employment
-     * [414]Privacy
-     * [415]FCC Applications
-     * [416]WUNC FCC Public File
-     * [417]WBUX FCC Public File
-     * [418]WFSS FCC Public File
-     * [419]WRQM FCC Public File
-     * [420]WUND-FM FCC Public File
-     * [421]WURI FCC Public File
-     * [422]WUNW FCC Public File
-     * [423]WUNC Drawing Rules
+     * [411]Listen Live
+     * [412]Podcasts From WUNC
+     * [413]Events
+     * [414]About
+     * [415]Contact Us
+     * [416]Employment
+     * [417]Privacy
+     * [418]FCC Applications
+     * [419]WUNC FCC Public File
+     * [420]WBUX FCC Public File
+     * [421]WFSS FCC Public File
+     * [422]WRQM FCC Public File
+     * [423]WUND-FM FCC Public File
+     * [424]WURI FCC Public File
+     * [425]WUNW FCC Public File
+     * [426]WZCO FCC Public File
+     * [427]WUNC Drawing Rules
 
-     * [424]NPR
+     * [428]NPR
      *
      *
      *
@@ -734,80 +732,80 @@ References
   43. https://www.wunc.org/southeastern-nc-news
   44. https://www.wunc.org/charlotte-area-news
   45. https://www.wunc.org/western-nc-news
-  46. https://www.wunc.org/raleigh-shooting
-  47. https://www.wunc.org/tags/a-teacher-in-every-class
-  48. https://www.wunc.org/behind-the-lines
-  49. https://www.wunc.org/tags/election-2022
-  50. https://www.wunc.org/tested-beyond-the-pod
-  51. https://www.wunc.org/the-lives-lost
-  52. https://www.wunc.org/andrew-brown-jr
-  53. https://www.wunc.org/calling-for-change
-  54. https://www.wunc.org/lumberton-undeterred
-  55. https://www.wunc.org/southern-witness
-  56. https://www.wunc.org/tags/nc-coronavirus-updates
-  57. https://www.wunc.org/education/2021-12-14/the-cost-of-summer
-  58. https://www.wunc.org/a-state-divided-hb2-and-transgender-rights
-  59. https://www.wunc.org/raleigh-shooting
-  60. https://www.wunc.org/tags/a-teacher-in-every-class
-  61. https://www.wunc.org/behind-the-lines
-  62. https://www.wunc.org/tags/election-2022
-  63. https://www.wunc.org/tested-beyond-the-pod
-  64. https://www.wunc.org/the-lives-lost
-  65. https://www.wunc.org/andrew-brown-jr
-  66. https://www.wunc.org/calling-for-change
-  67. https://www.wunc.org/lumberton-undeterred
-  68. https://www.wunc.org/southern-witness
-  69. https://www.wunc.org/tags/nc-coronavirus-updates
-  70. https://www.wunc.org/education/2021-12-14/the-cost-of-summer
-  71. https://www.wunc.org/a-state-divided-hb2-and-transgender-rights
-  72. https://www.wunc.org/wunc-radio-schedule
-  73. https://www.wunc.org/all-shows
-  74. https://www.wunc.org/show/all-things-considered
-  75. https://www.wunc.org/show/morning-edition
-  76. https://www.wunc.org/back-porch-music
-  77. https://www.wunc.org/show/embodied-radio-show
-  78. https://www.wunc.org/show/sound-opinions
-  79. https://www.wunc.org/show/thistle-and-shamrock
-  80. https://www.wunc.org/youth-radio/youth-reporting-institute
-  81. https://www.wunc.org/show/the-peoples-pharmacy
-  82. https://americanhomefront.wunc.org/
-  83. https://www.wunc.org/show/fresh-air
-  84. https://www.wunc.org/show/the-poetry-cafe
-  85. https://www.wunc.org/npr-music-concerts
-  86. https://www.wunc.org/wunc-radio-schedule
-  87. https://www.wunc.org/all-shows
-  88. https://www.wunc.org/show/all-things-considered
-  89. https://www.wunc.org/show/morning-edition
-  90. https://www.wunc.org/back-porch-music
-  91. https://www.wunc.org/show/embodied-radio-show
-  92. https://www.wunc.org/show/sound-opinions
-  93. https://www.wunc.org/show/thistle-and-shamrock
-  94. https://www.wunc.org/youth-radio/youth-reporting-institute
-  95. https://www.wunc.org/show/the-peoples-pharmacy
-  96. https://americanhomefront.wunc.org/
-  97. https://www.wunc.org/show/fresh-air
-  98. https://www.wunc.org/show/the-poetry-cafe
-  99. https://www.wunc.org/npr-music-concerts
- 100. https://www.wunc.org/podcasts-from-wunc
- 101. https://www.wunc.org/podcast/tested-podcast
- 102. https://www.wunc.org/podcast/podcast-wuncpolitics
- 103. https://www.wunc.org/podcast/embodied-podcast
- 104. https://www.wunc.org/podcast/creep
- 105. https://www.wunc.org/podcast/dating-while-gray
- 106. https://thisiscriminal.com/
- 107. https://www.wunc.org/podcast/great-grief
- 108. https://www.wunc.org/podcast/me-and-my-muslim-friends-podcast
- 109. https://www.wunc.org/podcast/the-story-stables
+  46. https://www.wunc.org/tags/main-street-nc
+  47. https://www.wunc.org/unc-chapel-hill-shooting
+  48. https://www.wunc.org/raleigh-shooting
+  49. https://www.wunc.org/tags/a-teacher-in-every-class
+  50. https://www.wunc.org/behind-the-lines
+  51. https://www.wunc.org/tested-beyond-the-pod
+  52. https://www.wunc.org/the-lives-lost
+  53. https://www.wunc.org/andrew-brown-jr
+  54. https://www.wunc.org/calling-for-change
+  55. https://www.wunc.org/lumberton-undeterred
+  56. https://www.wunc.org/southern-witness
+  57. https://www.wunc.org/tags/nc-coronavirus-updates
+  58. https://www.wunc.org/education/2021-12-14/the-cost-of-summer
+  59. https://www.wunc.org/a-state-divided-hb2-and-transgender-rights
+  60. https://www.wunc.org/tags/main-street-nc
+  61. https://www.wunc.org/unc-chapel-hill-shooting
+  62. https://www.wunc.org/raleigh-shooting
+  63. https://www.wunc.org/tags/a-teacher-in-every-class
+  64. https://www.wunc.org/behind-the-lines
+  65. https://www.wunc.org/tested-beyond-the-pod
+  66. https://www.wunc.org/the-lives-lost
+  67. https://www.wunc.org/andrew-brown-jr
+  68. https://www.wunc.org/calling-for-change
+  69. https://www.wunc.org/lumberton-undeterred
+  70. https://www.wunc.org/southern-witness
+  71. https://www.wunc.org/tags/nc-coronavirus-updates
+  72. https://www.wunc.org/education/2021-12-14/the-cost-of-summer
+  73. https://www.wunc.org/a-state-divided-hb2-and-transgender-rights
+  74. https://www.wunc.org/about-due-south
+  75. https://www.wunc.org/show/due-south
+  76. https://www.wunc.org/contact-due-south
+  77. https://www.wunc.org/about-due-south
+  78. https://www.wunc.org/show/due-south
+  79. https://www.wunc.org/contact-due-south
+  80. https://www.wunc.org/wunc-radio-schedule
+  81. https://www.wunc.org/all-shows
+  82. https://www.wunc.org/show/due-south
+  83. https://www.wunc.org/show/all-things-considered
+  84. https://www.wunc.org/show/morning-edition
+  85. https://www.wunc.org/back-porch-music
+  86. https://www.wunc.org/show/embodied-radio-show
+  87. https://www.wunc.org/show/sound-opinions
+  88. https://www.wunc.org/show/thistle-and-shamrock
+  89. https://www.wunc.org/youth-radio/youth-reporting-institute
+  90. https://www.wunc.org/show/the-peoples-pharmacy
+  91. https://americanhomefront.wunc.org/
+  92. https://www.wunc.org/show/fresh-air
+  93. https://www.wunc.org/show/the-poetry-cafe
+  94. https://www.wunc.org/npr-music-concerts
+  95. https://www.wunc.org/wunc-radio-schedule
+  96. https://www.wunc.org/all-shows
+  97. https://www.wunc.org/show/due-south
+  98. https://www.wunc.org/show/all-things-considered
+  99. https://www.wunc.org/show/morning-edition
+ 100. https://www.wunc.org/back-porch-music
+ 101. https://www.wunc.org/show/embodied-radio-show
+ 102. https://www.wunc.org/show/sound-opinions
+ 103. https://www.wunc.org/show/thistle-and-shamrock
+ 104. https://www.wunc.org/youth-radio/youth-reporting-institute
+ 105. https://www.wunc.org/show/the-peoples-pharmacy
+ 106. https://americanhomefront.wunc.org/
+ 107. https://www.wunc.org/show/fresh-air
+ 108. https://www.wunc.org/show/the-poetry-cafe
+ 109. https://www.wunc.org/npr-music-concerts
  110. https://www.wunc.org/podcasts-from-wunc
- 111. https://www.wunc.org/podcast/tested-podcast
- 112. https://www.wunc.org/podcast/podcast-wuncpolitics
- 113. https://www.wunc.org/podcast/embodied-podcast
- 114. https://www.wunc.org/podcast/creep
- 115. https://www.wunc.org/podcast/dating-while-gray
- 116. https://thisiscriminal.com/
- 117. https://www.wunc.org/podcast/great-grief
- 118. https://www.wunc.org/podcast/me-and-my-muslim-friends-podcast
- 119. https://www.wunc.org/podcast/the-story-stables
+ 111. https://www.wunc.org/podcast/the-broadside
+ 112. https://www.wunc.org/podcast/embodied-podcast
+ 113. https://www.wunc.org/podcast/podcast-wuncpolitics
+ 114. https://www.wunc.org/podcast/me-and-my-muslim-friends-podcast
+ 115. https://www.wunc.org/podcasts-from-wunc
+ 116. https://www.wunc.org/podcast/the-broadside
+ 117. https://www.wunc.org/podcast/embodied-podcast
+ 118. https://www.wunc.org/podcast/podcast-wuncpolitics
+ 119. https://www.wunc.org/podcast/me-and-my-muslim-friends-podcast
  120. https://www.wunc.org/about-wunc
  121. https://www.wunc.org/ways-to-listen-to-wunc-online
  122. https://www.wunc.org/about-hd-radio
@@ -834,7 +832,7 @@ References
  143. https://www.wunc.org/telling-public-radios-story
  144. https://www.wunc.org/ethics
  145. https://www.wunc.org/contact-us
- 146. https://www.wunc.org/events-calendar
+ 146. https://www.wunc.org/year-end-giving-deadlines-to-know
  147. https://www.wunc.org/ways-to-give-to-wunc
  148. https://www.wunc.org/thank-you-gifts
  149. https://www.wunc.org/drawing-rules-entry-form
@@ -848,289 +846,293 @@ References
  157. https://www.wunc.org/sponsorships
  158. https://www.wunc.org/community-sponsor-circle
  159. https://www.wunc.org/other-ways-to-give
- 160. https://www.wunc.org/ways-to-give-to-wunc
- 161. https://www.wunc.org/thank-you-gifts
- 162. https://www.wunc.org/drawing-rules-entry-form
- 163. https://www.wunc.org/wunc-sustainers
- 164. https://support.wunc.org/site/Donation2;jsessionid=00000000.app30114a?idb=877548436&DONATION_LEVEL_ID_SELECTED=1&df_id=2033&mfc_pref=T&2033.donation=form1&NONCE_TOKEN=64CF2D8289923341669CC5D4BFB6EF54&idb=0
- 165. https://support.wunc.org/site/Donation2?df_id=2140&mfc_pref=T&2140.donation=form1
- 166. https://www.wunc.org/join-the-leadership-circle
- 167. https://wunc.careasy.org/home
- 168. https://www.wunc.org/volunteer-opportunities
- 169. https://www.wunc.org/wuncs-legacy-society
- 170. https://www.wunc.org/sponsorships
- 171. https://www.wunc.org/community-sponsor-circle
- 172. https://www.wunc.org/other-ways-to-give
- 173. https://www.wunc.org/wunc-music
- 174. https://www.wunc.org/search
- 175. https://support.wunc.org/site/Donation2?2885.donation=form1&df_id=2885&mfc_pref=T
- 176. https://www.wunc.org/nc-news
- 177. https://www.wunc.org/tags/npr-news
- 178. https://www.wunc.org/politics
- 179. https://www.wunc.org/arts-culture
- 180. https://www.wunc.org/race-demographics
- 181. https://www.wunc.org/business-economy
- 182. https://www.wunc.org/education
- 183. https://www.wunc.org/environment
- 184. https://www.wunc.org/health
- 185. https://www.wunc.org/science-technology
- 186. https://www.wunc.org/military
- 187. https://www.wunc.org/sports
- 188. https://www.wunc.org/tags/weather
- 189. https://www.wunc.org/ethics
- 190. https://www.wunc.org/tags/corrections-clarifications
- 191. https://www.wunc.org/nc-news
- 192. https://www.wunc.org/tags/npr-news
- 193. https://www.wunc.org/politics
- 194. https://www.wunc.org/arts-culture
- 195. https://www.wunc.org/race-demographics
- 196. https://www.wunc.org/business-economy
- 197. https://www.wunc.org/education
- 198. https://www.wunc.org/environment
- 199. https://www.wunc.org/health
- 200. https://www.wunc.org/science-technology
- 201. https://www.wunc.org/military
- 202. https://www.wunc.org/sports
- 203. https://www.wunc.org/tags/weather
- 204. https://www.wunc.org/ethics
- 205. https://www.wunc.org/tags/corrections-clarifications
- 206. https://www.wunc.org/triangle-news
- 207. https://www.wunc.org/triad-news
- 208. https://www.wunc.org/fayetteville-area-news
- 209. https://www.wunc.org/eastern-nc-news
- 210. https://www.wunc.org/southeastern-nc-news
- 211. https://www.wunc.org/charlotte-area-news
- 212. https://www.wunc.org/western-nc-news
- 213. https://www.wunc.org/triangle-news
- 214. https://www.wunc.org/triad-news
- 215. https://www.wunc.org/fayetteville-area-news
- 216. https://www.wunc.org/eastern-nc-news
- 217. https://www.wunc.org/southeastern-nc-news
- 218. https://www.wunc.org/charlotte-area-news
- 219. https://www.wunc.org/western-nc-news
- 220. https://www.wunc.org/raleigh-shooting
- 221. https://www.wunc.org/tags/a-teacher-in-every-class
- 222. https://www.wunc.org/behind-the-lines
- 223. https://www.wunc.org/tags/election-2022
- 224. https://www.wunc.org/tested-beyond-the-pod
- 225. https://www.wunc.org/the-lives-lost
- 226. https://www.wunc.org/andrew-brown-jr
- 227. https://www.wunc.org/calling-for-change
- 228. https://www.wunc.org/lumberton-undeterred
- 229. https://www.wunc.org/southern-witness
- 230. https://www.wunc.org/tags/nc-coronavirus-updates
- 231. https://www.wunc.org/education/2021-12-14/the-cost-of-summer
- 232. https://www.wunc.org/a-state-divided-hb2-and-transgender-rights
- 233. https://www.wunc.org/raleigh-shooting
- 234. https://www.wunc.org/tags/a-teacher-in-every-class
- 235. https://www.wunc.org/behind-the-lines
- 236. https://www.wunc.org/tags/election-2022
- 237. https://www.wunc.org/tested-beyond-the-pod
- 238. https://www.wunc.org/the-lives-lost
- 239. https://www.wunc.org/andrew-brown-jr
- 240. https://www.wunc.org/calling-for-change
- 241. https://www.wunc.org/lumberton-undeterred
- 242. https://www.wunc.org/southern-witness
- 243. https://www.wunc.org/tags/nc-coronavirus-updates
- 244. https://www.wunc.org/education/2021-12-14/the-cost-of-summer
- 245. https://www.wunc.org/a-state-divided-hb2-and-transgender-rights
- 246. https://www.wunc.org/wunc-radio-schedule
- 247. https://www.wunc.org/all-shows
- 248. https://www.wunc.org/show/all-things-considered
- 249. https://www.wunc.org/show/morning-edition
- 250. https://www.wunc.org/back-porch-music
- 251. https://www.wunc.org/show/embodied-radio-show
- 252. https://www.wunc.org/show/sound-opinions
- 253. https://www.wunc.org/show/thistle-and-shamrock
- 254. https://www.wunc.org/youth-radio/youth-reporting-institute
- 255. https://www.wunc.org/show/the-peoples-pharmacy
- 256. https://americanhomefront.wunc.org/
- 257. https://www.wunc.org/show/fresh-air
- 258. https://www.wunc.org/show/the-poetry-cafe
- 259. https://www.wunc.org/npr-music-concerts
- 260. https://www.wunc.org/wunc-radio-schedule
- 261. https://www.wunc.org/all-shows
- 262. https://www.wunc.org/show/all-things-considered
- 263. https://www.wunc.org/show/morning-edition
- 264. https://www.wunc.org/back-porch-music
- 265. https://www.wunc.org/show/embodied-radio-show
- 266. https://www.wunc.org/show/sound-opinions
- 267. https://www.wunc.org/show/thistle-and-shamrock
- 268. https://www.wunc.org/youth-radio/youth-reporting-institute
- 269. https://www.wunc.org/show/the-peoples-pharmacy
- 270. https://americanhomefront.wunc.org/
- 271. https://www.wunc.org/show/fresh-air
- 272. https://www.wunc.org/show/the-poetry-cafe
- 273. https://www.wunc.org/npr-music-concerts
- 274. https://www.wunc.org/podcasts-from-wunc
- 275. https://www.wunc.org/podcast/tested-podcast
- 276. https://www.wunc.org/podcast/podcast-wuncpolitics
- 277. https://www.wunc.org/podcast/embodied-podcast
- 278. https://www.wunc.org/podcast/creep
- 279. https://www.wunc.org/podcast/dating-while-gray
- 280. https://thisiscriminal.com/
- 281. https://www.wunc.org/podcast/great-grief
- 282. https://www.wunc.org/podcast/me-and-my-muslim-friends-podcast
- 283. https://www.wunc.org/podcast/the-story-stables
- 284. https://www.wunc.org/podcasts-from-wunc
- 285. https://www.wunc.org/podcast/tested-podcast
- 286. https://www.wunc.org/podcast/podcast-wuncpolitics
+ 160. https://www.wunc.org/year-end-giving-deadlines-to-know
+ 161. https://www.wunc.org/ways-to-give-to-wunc
+ 162. https://www.wunc.org/thank-you-gifts
+ 163. https://www.wunc.org/drawing-rules-entry-form
+ 164. https://www.wunc.org/wunc-sustainers
+ 165. https://support.wunc.org/site/Donation2;jsessionid=00000000.app30114a?idb=877548436&DONATION_LEVEL_ID_SELECTED=1&df_id=2033&mfc_pref=T&2033.donation=form1&NONCE_TOKEN=64CF2D8289923341669CC5D4BFB6EF54&idb=0
+ 166. https://support.wunc.org/site/Donation2?df_id=2140&mfc_pref=T&2140.donation=form1
+ 167. https://www.wunc.org/join-the-leadership-circle
+ 168. https://wunc.careasy.org/home
+ 169. https://www.wunc.org/volunteer-opportunities
+ 170. https://www.wunc.org/wuncs-legacy-society
+ 171. https://www.wunc.org/sponsorships
+ 172. https://www.wunc.org/community-sponsor-circle
+ 173. https://www.wunc.org/other-ways-to-give
+ 174. https://www.wunc.org/wunc-music
+ 175. https://www.wunc.org/search
+ 176. https://support.wunc.org/site/Donation2?2885.donation=form1&df_id=2885&mfc_pref=T
+ 177. https://www.wunc.org/nc-news
+ 178. https://www.wunc.org/tags/npr-news
+ 179. https://www.wunc.org/politics
+ 180. https://www.wunc.org/arts-culture
+ 181. https://www.wunc.org/race-demographics
+ 182. https://www.wunc.org/business-economy
+ 183. https://www.wunc.org/education
+ 184. https://www.wunc.org/environment
+ 185. https://www.wunc.org/health
+ 186. https://www.wunc.org/science-technology
+ 187. https://www.wunc.org/military
+ 188. https://www.wunc.org/sports
+ 189. https://www.wunc.org/tags/weather
+ 190. https://www.wunc.org/ethics
+ 191. https://www.wunc.org/tags/corrections-clarifications
+ 192. https://www.wunc.org/nc-news
+ 193. https://www.wunc.org/tags/npr-news
+ 194. https://www.wunc.org/politics
+ 195. https://www.wunc.org/arts-culture
+ 196. https://www.wunc.org/race-demographics
+ 197. https://www.wunc.org/business-economy
+ 198. https://www.wunc.org/education
+ 199. https://www.wunc.org/environment
+ 200. https://www.wunc.org/health
+ 201. https://www.wunc.org/science-technology
+ 202. https://www.wunc.org/military
+ 203. https://www.wunc.org/sports
+ 204. https://www.wunc.org/tags/weather
+ 205. https://www.wunc.org/ethics
+ 206. https://www.wunc.org/tags/corrections-clarifications
+ 207. https://www.wunc.org/triangle-news
+ 208. https://www.wunc.org/triad-news
+ 209. https://www.wunc.org/fayetteville-area-news
+ 210. https://www.wunc.org/eastern-nc-news
+ 211. https://www.wunc.org/southeastern-nc-news
+ 212. https://www.wunc.org/charlotte-area-news
+ 213. https://www.wunc.org/western-nc-news
+ 214. https://www.wunc.org/triangle-news
+ 215. https://www.wunc.org/triad-news
+ 216. https://www.wunc.org/fayetteville-area-news
+ 217. https://www.wunc.org/eastern-nc-news
+ 218. https://www.wunc.org/southeastern-nc-news
+ 219. https://www.wunc.org/charlotte-area-news
+ 220. https://www.wunc.org/western-nc-news
+ 221. https://www.wunc.org/tags/main-street-nc
+ 222. https://www.wunc.org/unc-chapel-hill-shooting
+ 223. https://www.wunc.org/raleigh-shooting
+ 224. https://www.wunc.org/tags/a-teacher-in-every-class
+ 225. https://www.wunc.org/behind-the-lines
+ 226. https://www.wunc.org/tested-beyond-the-pod
+ 227. https://www.wunc.org/the-lives-lost
+ 228. https://www.wunc.org/andrew-brown-jr
+ 229. https://www.wunc.org/calling-for-change
+ 230. https://www.wunc.org/lumberton-undeterred
+ 231. https://www.wunc.org/southern-witness
+ 232. https://www.wunc.org/tags/nc-coronavirus-updates
+ 233. https://www.wunc.org/education/2021-12-14/the-cost-of-summer
+ 234. https://www.wunc.org/a-state-divided-hb2-and-transgender-rights
+ 235. https://www.wunc.org/tags/main-street-nc
+ 236. https://www.wunc.org/unc-chapel-hill-shooting
+ 237. https://www.wunc.org/raleigh-shooting
+ 238. https://www.wunc.org/tags/a-teacher-in-every-class
+ 239. https://www.wunc.org/behind-the-lines
+ 240. https://www.wunc.org/tested-beyond-the-pod
+ 241. https://www.wunc.org/the-lives-lost
+ 242. https://www.wunc.org/andrew-brown-jr
+ 243. https://www.wunc.org/calling-for-change
+ 244. https://www.wunc.org/lumberton-undeterred
+ 245. https://www.wunc.org/southern-witness
+ 246. https://www.wunc.org/tags/nc-coronavirus-updates
+ 247. https://www.wunc.org/education/2021-12-14/the-cost-of-summer
+ 248. https://www.wunc.org/a-state-divided-hb2-and-transgender-rights
+ 249. https://www.wunc.org/about-due-south
+ 250. https://www.wunc.org/show/due-south
+ 251. https://www.wunc.org/contact-due-south
+ 252. https://www.wunc.org/about-due-south
+ 253. https://www.wunc.org/show/due-south
+ 254. https://www.wunc.org/contact-due-south
+ 255. https://www.wunc.org/wunc-radio-schedule
+ 256. https://www.wunc.org/all-shows
+ 257. https://www.wunc.org/show/due-south
+ 258. https://www.wunc.org/show/all-things-considered
+ 259. https://www.wunc.org/show/morning-edition
+ 260. https://www.wunc.org/back-porch-music
+ 261. https://www.wunc.org/show/embodied-radio-show
+ 262. https://www.wunc.org/show/sound-opinions
+ 263. https://www.wunc.org/show/thistle-and-shamrock
+ 264. https://www.wunc.org/youth-radio/youth-reporting-institute
+ 265. https://www.wunc.org/show/the-peoples-pharmacy
+ 266. https://americanhomefront.wunc.org/
+ 267. https://www.wunc.org/show/fresh-air
+ 268. https://www.wunc.org/show/the-poetry-cafe
+ 269. https://www.wunc.org/npr-music-concerts
+ 270. https://www.wunc.org/wunc-radio-schedule
+ 271. https://www.wunc.org/all-shows
+ 272. https://www.wunc.org/show/due-south
+ 273. https://www.wunc.org/show/all-things-considered
+ 274. https://www.wunc.org/show/morning-edition
+ 275. https://www.wunc.org/back-porch-music
+ 276. https://www.wunc.org/show/embodied-radio-show
+ 277. https://www.wunc.org/show/sound-opinions
+ 278. https://www.wunc.org/show/thistle-and-shamrock
+ 279. https://www.wunc.org/youth-radio/youth-reporting-institute
+ 280. https://www.wunc.org/show/the-peoples-pharmacy
+ 281. https://americanhomefront.wunc.org/
+ 282. https://www.wunc.org/show/fresh-air
+ 283. https://www.wunc.org/show/the-poetry-cafe
+ 284. https://www.wunc.org/npr-music-concerts
+ 285. https://www.wunc.org/podcasts-from-wunc
+ 286. https://www.wunc.org/podcast/the-broadside
  287. https://www.wunc.org/podcast/embodied-podcast
- 288. https://www.wunc.org/podcast/creep
- 289. https://www.wunc.org/podcast/dating-while-gray
- 290. https://thisiscriminal.com/
- 291. https://www.wunc.org/podcast/great-grief
- 292. https://www.wunc.org/podcast/me-and-my-muslim-friends-podcast
- 293. https://www.wunc.org/podcast/the-story-stables
- 294. https://www.wunc.org/about-wunc
- 295. https://www.wunc.org/ways-to-listen-to-wunc-online
- 296. https://www.wunc.org/about-hd-radio
- 297. https://www.wunc.org/station-policies-financial-documents
- 298. https://www.wunc.org/i-d-e-a
- 299. https://www.wunc.org/wunc-public-radio-llc-board-of-directors
- 300. https://www.wunc.org/people
- 301. https://www.wunc.org/ways-to-connect
- 302. https://www.wunc.org/wunc-jobs
- 303. https://www.wunc.org/wunc-community-discussion-rules
- 304. https://www.wunc.org/telling-public-radios-story
- 305. https://www.wunc.org/ethics
- 306. https://www.wunc.org/contact-us
- 307. https://www.wunc.org/about-wunc
- 308. https://www.wunc.org/ways-to-listen-to-wunc-online
- 309. https://www.wunc.org/about-hd-radio
- 310. https://www.wunc.org/station-policies-financial-documents
- 311. https://www.wunc.org/i-d-e-a
- 312. https://www.wunc.org/wunc-public-radio-llc-board-of-directors
- 313. https://www.wunc.org/people
- 314. https://www.wunc.org/ways-to-connect
- 315. https://www.wunc.org/wunc-jobs
- 316. https://www.wunc.org/wunc-community-discussion-rules
- 317. https://www.wunc.org/telling-public-radios-story
- 318. https://www.wunc.org/ethics
- 319. https://www.wunc.org/contact-us
- 320. https://www.wunc.org/events-calendar
- 321. https://www.wunc.org/ways-to-give-to-wunc
- 322. https://www.wunc.org/thank-you-gifts
- 323. https://www.wunc.org/drawing-rules-entry-form
- 324. https://www.wunc.org/wunc-sustainers
- 325. https://support.wunc.org/site/Donation2;jsessionid=00000000.app30114a?idb=877548436&DONATION_LEVEL_ID_SELECTED=1&df_id=2033&mfc_pref=T&2033.donation=form1&NONCE_TOKEN=64CF2D8289923341669CC5D4BFB6EF54&idb=0
- 326. https://support.wunc.org/site/Donation2?df_id=2140&mfc_pref=T&2140.donation=form1
- 327. https://www.wunc.org/join-the-leadership-circle
- 328. https://wunc.careasy.org/home
- 329. https://www.wunc.org/volunteer-opportunities
- 330. https://www.wunc.org/wuncs-legacy-society
- 331. https://www.wunc.org/sponsorships
- 332. https://www.wunc.org/community-sponsor-circle
- 333. https://www.wunc.org/other-ways-to-give
- 334. https://www.wunc.org/ways-to-give-to-wunc
- 335. https://www.wunc.org/thank-you-gifts
- 336. https://www.wunc.org/drawing-rules-entry-form
- 337. https://www.wunc.org/wunc-sustainers
- 338. https://support.wunc.org/site/Donation2;jsessionid=00000000.app30114a?idb=877548436&DONATION_LEVEL_ID_SELECTED=1&df_id=2033&mfc_pref=T&2033.donation=form1&NONCE_TOKEN=64CF2D8289923341669CC5D4BFB6EF54&idb=0
- 339. https://support.wunc.org/site/Donation2?df_id=2140&mfc_pref=T&2140.donation=form1
- 340. https://www.wunc.org/join-the-leadership-circle
- 341. https://wunc.careasy.org/home
- 342. https://www.wunc.org/volunteer-opportunities
- 343. https://www.wunc.org/wuncs-legacy-society
- 344. https://www.wunc.org/sponsorships
- 345. https://www.wunc.org/community-sponsor-circle
- 346. https://www.wunc.org/other-ways-to-give
- 347. https://www.wunc.org/wunc-music
- 348. https://www.wunc.org/search
- 349. https://www.wunc.org/news
- 350. https://www.wunc.org/people/mitchell-northam
- 351. https://www.wunc.org/people/bradley-george
- 352. https://www.wunc.org/people/will-michaels
- 353. https://www.facebook.com/dialog/share?app_id=3927319740668442&display=popup&href=https://www.wunc.org/news/2023-08-16/storm-damage-durham-power-outage-closures-north-carolina-816
- 354. https://twitter.com/intent/tweet?url=https://www.wunc.org/news/2023-08-16/storm-damage-durham-power-outage-closures-north-carolina-816&text=Storm leaves trail of damage across central NC; Thousands still without power Wednesday
- 355. https://www.linkedin.com/shareArticle?url=https://www.wunc.org/news/2023-08-16/storm-damage-durham-power-outage-closures-north-carolina-816&mini=true&title=Storm leaves trail of damage across central NC; Thousands still without power Wednesday&summary=Tuesday's severe thunderstorms caused damages, outages, car accidents, and road closures. One 78-year-old Durham woman died after a tree fell on her car.&source=WUNC
- 356. mailto:?body=Storm leaves trail of damage across central NC; Thousands still without power Wednesday
+ 288. https://www.wunc.org/podcast/podcast-wuncpolitics
+ 289. https://www.wunc.org/podcast/me-and-my-muslim-friends-podcast
+ 290. https://www.wunc.org/podcasts-from-wunc
+ 291. https://www.wunc.org/podcast/the-broadside
+ 292. https://www.wunc.org/podcast/embodied-podcast
+ 293. https://www.wunc.org/podcast/podcast-wuncpolitics
+ 294. https://www.wunc.org/podcast/me-and-my-muslim-friends-podcast
+ 295. https://www.wunc.org/about-wunc
+ 296. https://www.wunc.org/ways-to-listen-to-wunc-online
+ 297. https://www.wunc.org/about-hd-radio
+ 298. https://www.wunc.org/station-policies-financial-documents
+ 299. https://www.wunc.org/i-d-e-a
+ 300. https://www.wunc.org/wunc-public-radio-llc-board-of-directors
+ 301. https://www.wunc.org/people
+ 302. https://www.wunc.org/ways-to-connect
+ 303. https://www.wunc.org/wunc-jobs
+ 304. https://www.wunc.org/wunc-community-discussion-rules
+ 305. https://www.wunc.org/telling-public-radios-story
+ 306. https://www.wunc.org/ethics
+ 307. https://www.wunc.org/contact-us
+ 308. https://www.wunc.org/about-wunc
+ 309. https://www.wunc.org/ways-to-listen-to-wunc-online
+ 310. https://www.wunc.org/about-hd-radio
+ 311. https://www.wunc.org/station-policies-financial-documents
+ 312. https://www.wunc.org/i-d-e-a
+ 313. https://www.wunc.org/wunc-public-radio-llc-board-of-directors
+ 314. https://www.wunc.org/people
+ 315. https://www.wunc.org/ways-to-connect
+ 316. https://www.wunc.org/wunc-jobs
+ 317. https://www.wunc.org/wunc-community-discussion-rules
+ 318. https://www.wunc.org/telling-public-radios-story
+ 319. https://www.wunc.org/ethics
+ 320. https://www.wunc.org/contact-us
+ 321. https://www.wunc.org/year-end-giving-deadlines-to-know
+ 322. https://www.wunc.org/ways-to-give-to-wunc
+ 323. https://www.wunc.org/thank-you-gifts
+ 324. https://www.wunc.org/drawing-rules-entry-form
+ 325. https://www.wunc.org/wunc-sustainers
+ 326. https://support.wunc.org/site/Donation2;jsessionid=00000000.app30114a?idb=877548436&DONATION_LEVEL_ID_SELECTED=1&df_id=2033&mfc_pref=T&2033.donation=form1&NONCE_TOKEN=64CF2D8289923341669CC5D4BFB6EF54&idb=0
+ 327. https://support.wunc.org/site/Donation2?df_id=2140&mfc_pref=T&2140.donation=form1
+ 328. https://www.wunc.org/join-the-leadership-circle
+ 329. https://wunc.careasy.org/home
+ 330. https://www.wunc.org/volunteer-opportunities
+ 331. https://www.wunc.org/wuncs-legacy-society
+ 332. https://www.wunc.org/sponsorships
+ 333. https://www.wunc.org/community-sponsor-circle
+ 334. https://www.wunc.org/other-ways-to-give
+ 335. https://www.wunc.org/year-end-giving-deadlines-to-know
+ 336. https://www.wunc.org/ways-to-give-to-wunc
+ 337. https://www.wunc.org/thank-you-gifts
+ 338. https://www.wunc.org/drawing-rules-entry-form
+ 339. https://www.wunc.org/wunc-sustainers
+ 340. https://support.wunc.org/site/Donation2;jsessionid=00000000.app30114a?idb=877548436&DONATION_LEVEL_ID_SELECTED=1&df_id=2033&mfc_pref=T&2033.donation=form1&NONCE_TOKEN=64CF2D8289923341669CC5D4BFB6EF54&idb=0
+ 341. https://support.wunc.org/site/Donation2?df_id=2140&mfc_pref=T&2140.donation=form1
+ 342. https://www.wunc.org/join-the-leadership-circle
+ 343. https://wunc.careasy.org/home
+ 344. https://www.wunc.org/volunteer-opportunities
+ 345. https://www.wunc.org/wuncs-legacy-society
+ 346. https://www.wunc.org/sponsorships
+ 347. https://www.wunc.org/community-sponsor-circle
+ 348. https://www.wunc.org/other-ways-to-give
+ 349. https://www.wunc.org/wunc-music
+ 350. https://www.wunc.org/search
+ 351. https://www.wunc.org/news
+ 352. https://www.wunc.org/people/mitchell-northam
+ 353. https://www.wunc.org/people/bradley-george
+ 354. https://www.wunc.org/people/will-michaels
+ 355. https://www.facebook.com/dialog/share?app_id=3927319740668442&display=popup&href=https://www.wunc.org/news/2023-08-16/storm-damage-durham-power-outage-closures-north-carolina-816
+ 356. https://twitter.com/intent/tweet?url=https://www.wunc.org/news/2023-08-16/storm-damage-durham-power-outage-closures-north-carolina-816&text=Storm leaves trail of damage across central NC; Thousands still without power Wednesday
+ 357. https://www.linkedin.com/shareArticle?url=https://www.wunc.org/news/2023-08-16/storm-damage-durham-power-outage-closures-north-carolina-816&mini=true&title=Storm leaves trail of damage across central NC; Thousands still without power Wednesday&summary=Tuesday's severe thunderstorms caused damages, outages, car accidents, and road closures. One 78-year-old Durham woman died after a tree fell on her car.&source=WUNC
+ 358. mailto:?body=Storm leaves trail of damage across central NC; Thousands still without power Wednesday
 
 https://www.wunc.org/news/2023-08-16/storm-damage-durham-power-outage-closures-north-carolina-816
 
 Tuesday's severe thunderstorms caused damages, outages, car accidents, and road closures. One 78-year-old Durham woman died after a tree fell on her car.
- 357. https://twitter.com/AnissaLopezTV?ref_src=twsrc^tfw
- 358. https://twitter.com/SpecNews1RDU?ref_src=twsrc^tfw
- 359. https://t.co/Yuphqoo3TG
- 360. https://twitter.com/KyleighPanetta/status/1691778846532509716?ref_src=twsrc^tfw
- 361. https://www.wral.com/story/i-40-west-in-durham-reopens-after-crash-involving-32-vehicles-during-severe-storms/21001866/
- 362. https://www.dconc.gov/Home/Components/News/News/9711/31
- 363. https://t.co/F5OiDz2EvF
- 364. https://twitter.com/wunc/status/1691574282189516878?ref_src=twsrc^tfw
- 365. https://www.wunc.org/news
- 366. https://www.wunc.org/tags/durham-county
- 367. https://www.wunc.org/tags/thunderstorms
- 368. https://www.wunc.org/tags/school-closure
- 369. https://www.wunc.org/tags/weather
- 370. https://www.facebook.com/dialog/share?app_id=3927319740668442&display=popup&href=https://www.wunc.org/news/2023-08-16/storm-damage-durham-power-outage-closures-north-carolina-816
- 371. https://twitter.com/intent/tweet?url=https://www.wunc.org/news/2023-08-16/storm-damage-durham-power-outage-closures-north-carolina-816&text=Storm leaves trail of damage across central NC; Thousands still without power Wednesday
- 372. https://www.linkedin.com/shareArticle?url=https://www.wunc.org/news/2023-08-16/storm-damage-durham-power-outage-closures-north-carolina-816&mini=true&title=Storm leaves trail of damage across central NC; Thousands still without power Wednesday&summary=Tuesday's severe thunderstorms caused damages, outages, car accidents, and road closures. One 78-year-old Durham woman died after a tree fell on her car.&source=WUNC
- 373. mailto:?body=Storm leaves trail of damage across central NC; Thousands still without power Wednesday
+ 359. https://twitter.com/AnissaLopezTV?ref_src=twsrc^tfw
+ 360. https://twitter.com/SpecNews1RDU?ref_src=twsrc^tfw
+ 361. https://t.co/Yuphqoo3TG
+ 362. https://twitter.com/KyleighPanetta/status/1691778846532509716?ref_src=twsrc^tfw
+ 363. https://www.wral.com/story/i-40-west-in-durham-reopens-after-crash-involving-32-vehicles-during-severe-storms/21001866/
+ 364. https://www.dconc.gov/Home/Components/News/News/9711/31
+ 365. https://t.co/F5OiDz2EvF
+ 366. https://twitter.com/wunc/status/1691574282189516878?ref_src=twsrc^tfw
+ 367. https://www.wunc.org/news
+ 368. https://www.wunc.org/tags/durham-county
+ 369. https://www.wunc.org/tags/thunderstorms
+ 370. https://www.wunc.org/tags/school-closure
+ 371. https://www.wunc.org/tags/weather
+ 372. https://www.facebook.com/dialog/share?app_id=3927319740668442&display=popup&href=https://www.wunc.org/news/2023-08-16/storm-damage-durham-power-outage-closures-north-carolina-816
+ 373. https://twitter.com/intent/tweet?url=https://www.wunc.org/news/2023-08-16/storm-damage-durham-power-outage-closures-north-carolina-816&text=Storm leaves trail of damage across central NC; Thousands still without power Wednesday
+ 374. https://www.linkedin.com/shareArticle?url=https://www.wunc.org/news/2023-08-16/storm-damage-durham-power-outage-closures-north-carolina-816&mini=true&title=Storm leaves trail of damage across central NC; Thousands still without power Wednesday&summary=Tuesday's severe thunderstorms caused damages, outages, car accidents, and road closures. One 78-year-old Durham woman died after a tree fell on her car.&source=WUNC
+ 375. mailto:?body=Storm leaves trail of damage across central NC; Thousands still without power Wednesday
 
 https://www.wunc.org/news/2023-08-16/storm-damage-durham-power-outage-closures-north-carolina-816
 
 Tuesday's severe thunderstorms caused damages, outages, car accidents, and road closures. One 78-year-old Durham woman died after a tree fell on her car.
- 374. https://www.wunc.org/people/mitchell-northam
- 375. https://www.wunc.org/people/mitchell-northam
- 376. https://www.wunc.org/people/bradley-george
- 377. https://www.wunc.org/people/bradley-george
- 378. https://www.wunc.org/people/will-michaels
- 379. https://www.wunc.org/people/will-michaels
- 380. https://www.wunc.org/2023-08-21/they-live-in-my-head-is-as-vital-any-album-the-bush-tetras-have-ever-made
- 381. https://www.wunc.org/2023-08-21/tropical-storm-hilary-moves-on-from-california-leaving-a-trail-of-damage-and-debris
- 382. https://www.wunc.org/2023-08-21/louder-than-a-riot-reckons-with-hip-hops-past-and-looks-to-a-more-inclusive-future
- 383. https://www.wunc.org/2023-08-21/mortgage-rates-just-hit-their-highest-since-2002
- 384. https://www.wunc.org/2023-08-21/criminal-or-absurd-a-look-at-the-charges-against-mark-meadows
- 385. https://www.wunc.org/2023-08-21/russias-latest-attempt-at-moon-landing-fails-india-will-try-again-this-week
- 386. https://www.wunc.org/events-calendar
- 387. https://www.wunc.org/news/2023-08-18/durham-county-to-launch-guaranteed-income-pilot-program
- 388. https://www.wunc.org/news
- 389. https://www.wunc.org/news/2023-08-18/durham-county-to-launch-guaranteed-income-pilot-program
- 390. https://www.wunc.org/people/bradley-george
- 391. https://www.wunc.org/2023-08-18/huntersville-pipeline-cleanup-continues-three-years-after-major-spill
- 392. https://www.wfae.org/people/david-boraks
- 393. https://www.wunc.org/2023-08-17/north-carolina-lawmakers-override-veto-of-bill-that-delays-building-code-updates
- 394. https://www.wunc.org/2023-08-17/north-carolina-lawmakers-override-veto-of-bill-that-delays-building-code-updates
- 395. https://www.wfae.org/people/david-boraks
- 396. https://www.wunc.org/2023-08-17/uncw-researchers-return-from-antarctic-winters-spent-studying-climate-change-and-crabeater-seals
- 397. https://www.wunc.org/2023-08-17/uncw-researchers-return-from-antarctic-winters-spent-studying-climate-change-and-crabeater-seals
- 398. https://www.whqr.org/people/rachel-keith
- 399. https://www.wunc.org/politics/2023-08-17/effort-to-strip-governors-appointment-powers-could-prompt-veto-lawsuit
- 400. https://www.wunc.org/politics
- 401. https://www.wunc.org/politics/2023-08-17/effort-to-strip-governors-appointment-powers-could-prompt-veto-lawsuit
- 402. https://www.wunc.org/people/colin-campbell
- 403. https://twitter.com/wunc
- 404. https://www.instagram.com/915wunc/
- 405. https://www.youtube.com/wuncfm
- 406. https://www.facebook.com/915wunc
- 407. https://www.linkedin.com/company/wunc-fm-91.5fm-north-carolina-public-radio
- 408. https://www.wunc.org/ways-to-listen-to-wunc-online
- 409. https://www.wunc.org/podcasts-from-wunc
- 410. https://www.wunc.org/wunc-events
- 411. https://www.wunc.org/about-wunc
- 412. https://www.wunc.org/contact-us
- 413. https://www.wunc.org/wunc-jobs
- 414. https://www.wunc.org/privacy
- 415. https://www.wunc.org/fcc-applications
- 416. https://publicfiles.fcc.gov/fm-profile/WUNC
- 417. https://publicfiles.fcc.gov/fm-profile/WBUX
- 418. https://publicfiles.fcc.gov/fm-profile/WFSS
- 419. https://publicfiles.fcc.gov/fm-profile/WRQM
- 420. https://publicfiles.fcc.gov/fm-profile/WUND-FM
- 421. https://publicfiles.fcc.gov/fm-profile/WURI
- 422. https://publicfiles.fcc.gov/fm-profile/WUNW-FM
- 423. https://docs.google.com/document/u/1/d/e/2PACX-1vSqllkRbwiZZtXGXNeRNC8bs8yd4syzFuPDZUAc5XQqadIJ91cqQCujTD_rN2-vmIT-vYeAYA693exg/pub
- 424. http://www.npr.org/
+ 376. https://www.wunc.org/people/mitchell-northam
+ 377. https://www.wunc.org/people/mitchell-northam
+ 378. https://www.wunc.org/people/bradley-george
+ 379. https://www.wunc.org/people/bradley-george
+ 380. https://www.wunc.org/people/will-michaels
+ 381. https://www.wunc.org/people/will-michaels
+ 382. https://www.wunc.org/2024-01-16/the-u-s-military-continues-strikes-in-attempts-to-deter-houthi-fighters-in-yemen
+ 383. https://www.wunc.org/2024-01-16/helping-veterans-cope-with-life-after-a-bipolar-diagnosis
+ 384. https://www.wunc.org/2024-01-16/why-flight-attendants-have-a-lot-of-time-in-their-day-that-is-unpaid
+ 385. https://www.wunc.org/2024-01-16/the-fight-across-the-nation-for-the-right-to-repair
+ 386. https://www.wunc.org/2024-01-16/the-economic-impact-from-the-red-sea-tensions
+ 387. https://www.wunc.org/2024-01-16/presidential-hopefuls-pivot-their-efforts-to-new-hampshire
+ 388. https://www.wunc.org/events-calendar
+ 389. https://www.wunc.org/education/2024-01-16/unc-greensboro-announces-program-cut-recommendations
+ 390. https://www.wunc.org/education
+ 391. https://www.wunc.org/education/2024-01-16/unc-greensboro-announces-program-cut-recommendations
+ 392. https://www.wunc.org/people/brianna-atkinson
+ 393. https://www.wunc.org/2024-01-16/new-hanover-county-sues-over-a-dozen-pfas-manufacturers-sellers
+ 394. https://www.wunc.org/2024-01-16/new-hanover-county-sues-over-a-dozen-pfas-manufacturers-sellers
+ 395. https://www.whqr.org/people/kelly-kenoyer-2
+ 396. https://www.wunc.org/sports/2024-01-16/unc-pembroke-dick-christy-gambling-betting-impact-small-colleges
+ 397. https://www.wunc.org/sports
+ 398. https://www.wunc.org/sports/2024-01-16/unc-pembroke-dick-christy-gambling-betting-impact-small-colleges
+ 399. https://www.wunc.org/people/mitchell-northam
+ 400. https://www.wunc.org/2024-01-15/buncombe-county-living-wage-increases-to-22-10-an-hour-nonprofit-says
+ 401. https://www.bpr.org/people/felicia-sonmez
+ 402. https://www.wunc.org/education/2024-01-15/high-point-dental-school-workman-students-fall
+ 403. https://www.wunc.org/education
+ 404. https://www.wunc.org/education/2024-01-15/high-point-dental-school-workman-students-fall
+ 405. https://www.wunc.org/people/sharryse-piggott
+ 406. https://twitter.com/wunc
+ 407. https://www.instagram.com/915wunc/
+ 408. https://www.youtube.com/wuncfm
+ 409. https://www.facebook.com/915wunc
+ 410. https://www.linkedin.com/company/wunc-fm-91.5fm-north-carolina-public-radio
+ 411. https://www.wunc.org/ways-to-listen-to-wunc-online
+ 412. https://www.wunc.org/podcasts-from-wunc
+ 413. https://www.wunc.org/events-calendar
+ 414. https://www.wunc.org/about-wunc
+ 415. https://www.wunc.org/contact-us
+ 416. https://www.wunc.org/wunc-jobs
+ 417. https://www.wunc.org/privacy
+ 418. https://www.wunc.org/fcc-applications
+ 419. https://publicfiles.fcc.gov/fm-profile/WUNC
+ 420. https://publicfiles.fcc.gov/fm-profile/WBUX
+ 421. https://publicfiles.fcc.gov/fm-profile/WFSS
+ 422. https://publicfiles.fcc.gov/fm-profile/WRQM
+ 423. https://publicfiles.fcc.gov/fm-profile/WUND-FM
+ 424. https://publicfiles.fcc.gov/fm-profile/WURI
+ 425. https://publicfiles.fcc.gov/fm-profile/WUNW-FM
+ 426. https://publicfiles.fcc.gov/fm-profile/WZCO
+ 427. https://docs.google.com/document/u/1/d/e/2PACX-1vSqllkRbwiZZtXGXNeRNC8bs8yd4syzFuPDZUAc5XQqadIJ91cqQCujTD_rN2-vmIT-vYeAYA693exg/pub
+ 428. http://www.npr.org/
 
    Hidden links:
- 426. file://localhost/
- 427. file://localhost/
- 428. https://www.wunc.org/people/mitchell-northam
- 429. https://www.wunc.org/people/bradley-george
- 430. https://www.wunc.org/people/will-michaels
- 431. https://www.wunc.org/2023-08-18/huntersville-pipeline-cleanup-continues-three-years-after-major-spill
- 432. file://localhost/
- 433. http://prx.org/
- 434. https://www.pri.org/
- 435. https://www.americanpublicmedia.org/
- 436. http://bbc.com/
+ 430. https://www.wunc.org/
+ 431. https://www.wunc.org/
+ 432. https://www.wunc.org/people/mitchell-northam
+ 433. https://www.wunc.org/people/bradley-george
+ 434. https://www.wunc.org/people/will-michaels
+ 435. https://www.wunc.org/2024-01-15/buncombe-county-living-wage-increases-to-22-10-an-hour-nonprofit-says
+ 436. https://www.wunc.org/
+ 437. http://prx.org/
+ 438. https://www.pri.org/
+ 439. https://www.americanpublicmedia.org/
+ 440. http://bbc.com/

@@ -155,28 +155,28 @@ Bio and Support
 References
 
    Visible links:
-   1. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L61518-8406TMP.html#top
-   2. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L61518-8406TMP.html
-   3. file:///
-   4. file:///archives
-   5. file:///subscribe
-   6. file:///works
-   7. file:///about
-   8. file:///links
-   9. file:///post/2024/01/december-2023/
-  10. file:///post/2023/
-  11. file:///post/2021/10/a-triumph-for-blogging/
-  12. file:///post/2023/11/fpgas-and-the-renaissance-of-retro-hardware/
-  13. file:///post/2023/09/overlooked-reasons-to-still-buy-physical-media/
-  14. file:///post/2023/01/goodbye-protonmail/
-  15. file:///post/2023/02/phomemo-thermal-printing-on-macos/
-  16. file:///post/2023/12/doom-turned-thirty/
+   1. https://brainbaking.com/post/2024/01/december-2023/#top
+   2. https://brainbaking.com/post/2024/01/december-2023/
+   3. https://brainbaking.com/
+   4. https://brainbaking.com/archives
+   5. https://brainbaking.com/subscribe
+   6. https://brainbaking.com/works
+   7. https://brainbaking.com/about
+   8. https://brainbaking.com/links
+   9. https://brainbaking.com/post/2024/01/december-2023/
+  10. https://brainbaking.com/post/2023/
+  11. https://brainbaking.com/post/2021/10/a-triumph-for-blogging/
+  12. https://brainbaking.com/post/2023/11/fpgas-and-the-renaissance-of-retro-hardware/
+  13. https://brainbaking.com/post/2023/09/overlooked-reasons-to-still-buy-physical-media/
+  14. https://brainbaking.com/post/2023/01/goodbye-protonmail/
+  15. https://brainbaking.com/post/2023/02/phomemo-thermal-printing-on-macos/
+  16. https://brainbaking.com/post/2023/12/doom-turned-thirty/
   17. https://jefklakscodex.com/games/switch/freaky-trip/
-  18. file:///post/2023/11/on-writing-for-yourself-in-public/
-  19. file:///post/2023/11/october-2023
-  20. file:///post/2023/12/2023-in-books
+  18. https://brainbaking.com/post/2023/11/on-writing-for-yourself-in-public/
+  19. https://brainbaking.com/post/2023/11/october-2023
+  20. https://brainbaking.com/post/2023/12/2023-in-books
   21. https://www.eddingschronicles.com/index.html
-  22. file:///post/2023/10/top-25-best-games-of-all-time
+  22. https://brainbaking.com/post/2023/10/top-25-best-games-of-all-time
   23. https://store.steampowered.com/app/1967510/Railbound/
   24. https://elusivewordsmith.com/posts/Playground/contextualizing/
   25. https://jonas.do/writing/2023-10-05-side-projects/
@@ -194,24 +194,24 @@ References
   37. https://www.physicalreleases.com/
   38. https://intothecast.online/
   39. https://brainbaking.com/tags/metapost
-  40. file:///post/2023/12/2023-in-books/
-  41. file:///post/2023/12/doom-turned-thirty/
-  42. file:///post/2023/11/fpgas-and-the-renaissance-of-retro-hardware/
-  43. file:///post/2023/11/on-writing-for-yourself-in-public/
-  44. file:///post/2023/11/october-2023/
-  45. file:///post/2023/10/top-25-best-games-of-all-time/
-  46. file:///post/2023/09/overlooked-reasons-to-still-buy-physical-media/
+  40. https://brainbaking.com/post/2023/12/2023-in-books/
+  41. https://brainbaking.com/post/2023/12/doom-turned-thirty/
+  42. https://brainbaking.com/post/2023/11/fpgas-and-the-renaissance-of-retro-hardware/
+  43. https://brainbaking.com/post/2023/11/on-writing-for-yourself-in-public/
+  44. https://brainbaking.com/post/2023/11/october-2023/
+  45. https://brainbaking.com/post/2023/10/top-25-best-games-of-all-time/
+  46. https://brainbaking.com/post/2023/09/overlooked-reasons-to-still-buy-physical-media/
   47. https://brainbaking.com/
-  48. file:///about
+  48. https://brainbaking.com/about
   49. https://www.paypal.com/donate/?hosted_button_id=R2WTKY7G9V2KQ
   50. https://ko-fi.com/woutergroeneveld
   51. https://dosgame.club/@jefklak
-  52. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L61518-8406TMP.html#header
-  53. file:///
-  54. file:///archives
-  55. file:///copyright-and-tracking-policy
+  52. https://brainbaking.com/post/2024/01/december-2023/#header
+  53. https://brainbaking.com/
+  54. https://brainbaking.com/archives
+  55. https://brainbaking.com/copyright-and-tracking-policy
 
    Hidden links:
-  57. file://localhost/
-  58. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L61518-8406TMP.html#related
-  59. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L61518-8406TMP.html#bio
+  57. https://brainbaking.com/
+  58. https://brainbaking.com/post/2024/01/december-2023/#related
+  59. https://brainbaking.com/post/2024/01/december-2023/#bio

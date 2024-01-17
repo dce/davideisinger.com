@@ -403,7 +403,7 @@ Your Knives
 
    [113]About Valet.  |  [114]Advertising on Valet.
 
-   © Copyright 2023 Valet Media LLC - All Rights
+   © Copyright 2024 Valet Media LLC - All Rights
    Reserved.  |  [115]Privacy Policy  |  [116]Terms & Conditions
    [tr?id=130137150768080&ev=PageView&noscript=1]
 
@@ -412,7 +412,7 @@ References
    Visible links:
    1. https://valetmag.com/distribution/rss_all.xml
    2. https://www.googletagmanager.com/ns.html?id=GTM-TKWJ6RK
-   3. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L79798-6429TMP.html
+   3. https://www.valetmag.com/the-handbook/living/how-to-slow-down-time.php
    4. https://www.valetmag.com/
    5. https://www.valetmag.com/
    6. https://www.valetmag.com/style/
@@ -421,7 +421,7 @@ References
    9. https://www.valetmag.com/grooming/
   10. http://www.valetmag.com/personal-shopper/
   11. http://www.valetmag.com/the-handbook/
-  12. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L79798-6429TMP.html
+  12. https://www.valetmag.com/the-handbook/living/how-to-slow-down-time.php
   13. https://www.valetmag.com/
   14. https://www.valetmag.com/
   15. https://www.valetmag.com/style/

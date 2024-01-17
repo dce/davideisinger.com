@@ -15,7 +15,7 @@ Why You Own an iPad and Still Can't Draw
    The failure of drawing materials without mediums and meat
      * [5]How to Illustrate
 
-   Planted almost 3 years agoLast tended almost 3 years ago
+   Planted over 3 years agoLast tended over 3 years ago
 
    (BUTTON) Back To Top
 
@@ -95,7 +95,7 @@ Mentions around the web
 Want to stay up to date?
 
    (BUTTON) Subscribe via RSS Feed
-   © 2023 Maggie Appleton
+   © 2024 Maggie Appleton
      * [9]The Garden
      * [10]Essays
      * [11]About
@@ -109,23 +109,23 @@ Want to stay up to date?
 References
 
    Visible links:
-   1. file:///rss.xml
-   2. file:///
-   3. file:///now
-   4. file:///about
-   5. file:///topics/how-to-illustrate
-   6. file:///apps
-   7. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L84552-9249TMP.html#what-you-have-is-material-without-the-medium-or-the-meat
-   8. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L84552-9249TMP.html#moving-past-materials
-   9. file:///garden
-  10. file:///essays
-  11. file:///about
-  12. file:///notes
-  13. file:///now
-  14. file:///patterns
-  15. file:///library
-  16. file:///projects
-  17. file:///colophon
+   1. https://maggieappleton.com/rss.xml
+   2. https://maggieappleton.com/
+   3. https://maggieappleton.com/now
+   4. https://maggieappleton.com/about
+   5. https://maggieappleton.com/topics/how-to-illustrate
+   6. https://maggieappleton.com/apps
+   7. https://maggieappleton.com/still-cant-draw#what-you-have-is-material-without-the-medium-or-the-meat
+   8. https://maggieappleton.com/still-cant-draw#moving-past-materials
+   9. https://maggieappleton.com/garden
+  10. https://maggieappleton.com/essays
+  11. https://maggieappleton.com/about
+  12. https://maggieappleton.com/notes
+  13. https://maggieappleton.com/now
+  14. https://maggieappleton.com/patterns
+  15. https://maggieappleton.com/library
+  16. https://maggieappleton.com/projects
+  17. https://maggieappleton.com/colophon
 
    Hidden links:
   19. https://github.com/MaggieAppleton

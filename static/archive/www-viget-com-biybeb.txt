@@ -40,34 +40,39 @@ More
 
 Featured
 
-   Read the Article: AI in Recruiting
+   Read the Article: Revolutionizing the Web
 
    Newsletter
 
-AI in Recruiting
+Revolutionizing the Web
 
-   Git logo variation
+   Read the Article: Elephants, Squirrels, Porcupines, and Zombies Can
+   Help Your Team Thrive
 
    Article
 
-Simple Commit Linting for Issue Number in GitHub Actions
+Elephants, Squirrels, Porcupines, and Zombies Can Help Your Team Thrive
 
 Simple Commit Linting for Issue Number in GitHub Actions
 
-   Git logo variation
    [22]David Eisinger
 
    [23]David Eisinger, Development Director
 
-   Article Category: [24]#Code
+   Article Categories: [24]#Code, [25]#Tooling
 
    Posted on April 28, 2023
      * Share
      * Share
-     * Tweet
+     * Post
 
    Including relevant ticket numbers in your git commit messages is a gift
    to your future self. Here's how to ensure you do it consistently.
+
+   I n c l u d i n g r e l e v a n t t i c k e t n u m b e r s i n y o u r
+   g i t c o m m i t m e s s a g e s i s a g i f t t o y o u r f u t u r e
+   s e l f . H e r e ' s h o w t o e n s u r e y o u d o i t c o n s i s t
+   e n t l y .
 
    I don't believe there is a right way to do software; I think teams can
    be effective (or ineffective!) in a lot of different ways using all
@@ -75,19 +80,19 @@ Simple Commit Linting for Issue Number in GitHub Actions
    die is this: referencing tickets in commit messages pays enormous
    dividends over the long haul and you should always do it. As someone
    who regularly commits code to apps created in the Obama era, nothing
-   warms my heart like running [25]:Git blame on some confusing code and
+   warms my heart like running [26]:Git blame on some confusing code and
    seeing a reference to a GitHub Issue where I can get the necessary
    context. And, conversely, nothing sparks nerd rage like fix bug or PR
    feedback or, heaven forbid, oops.
 
-   In a recent [26]project retrospective, the team identified that we
+   In a recent [27]project retrospective, the team identified that we
    weren't being as consistent with this as we'd like, and decided to take
    action. I figured some sort of commit linting would be a good candidate
-   for [27]continuous integration — when a team member pushes a branch up
+   for [28]continuous integration — when a team member pushes a branch up
    to GitHub, check the commits and make sure they include a reference to
    a ticket.
 
-   I looked into [28]commitlint, but I found it a lot more opinionated
+   I looked into [29]commitlint, but I found it a lot more opinionated
    than I am — I really just want to make sure commits begin with either
    [#XXX] (an issue number) or [n/a] — and rather difficult to
    reconfigure. After struggling with it for a few hours, I decided to
@@ -148,14 +153,14 @@ echo '[#123] Message 1
    all valid commit messages; modify one of the messages if you want to
    see the failure state.
 
-Other Languages [29]#
+Other Languages [30]#
 
    Since there's a very real possibility you might not otherwise install
    Ruby in your GitHub Actions, and because I weirdly enjoy writing the
    same code in a bunch of different languages, here are scripts for
    several of Viget's other favorites:
 
-JavaScript [30]#
+JavaScript [31]#
 
 git log --format=format:%s HEAD ^origin/main | node -e "
   let msgs = require('fs').readFileSync(0).toString().trim().split('\n');
@@ -180,7 +185,7 @@ echo '[#123] Message 1
   }
 "
 
-PHP [31]#
+PHP [32]#
 
 git log --format=format:%s HEAD ^origin/main | php -r '
   while ($msg = fgets(STDIN)) {
@@ -203,7 +208,7 @@ echo '[#123] Message 1
   }
 '
 
-Python [32]#
+Python [33]#
 
 git log --format=format:%s HEAD ^origin/main | python -c '
 import sys
@@ -233,78 +238,78 @@ for msg in sys.stdin:
 
    So there you have it: simple GitHub Actions commit linting in most of
    Viget's favorite languages (try as I might, I could not figure out how
-   to do this in [33]Elixir, at least not in a concise way). As I said up
+   to do this in [34]Elixir, at least not in a concise way). As I said up
    front, writing good tickets and then referencing them in commit
    messages so that they can easily be surfaced with git blame pays huge
    dividends over the life of a codebase. If you're not already in the
    habit of doing this, well, the best time to start was Initial commit,
    but the second best time is today.
 
-   [34]David Eisinger
+   [35]David Eisinger
 
-   [35]David is Viget's managing development director. From our Durham,
+   [36]David is Viget's managing development director. From our Durham,
    NC, office, he builds high-quality, forward-thinking software for PUMA,
    the World Wildlife Fund, NFLPA, and many others.
-   [36]More articles by David
+   [37]More articles by David
 
 Related Articles
 
-     * Maintenance Matters: Timely Upgrades
+     * Thoughts on Remix
        Article
 
-Maintenance Matters: Timely Upgrades
-       Chris Manning
-     * Styling the Native File Upload Input Field
+Thoughts on Remix
+       Solomon Hawk
+     * Going Headless in 2024: A View of the Headless CMS Landscape
        Article
 
-Styling the Native File Upload Input Field
-       Eric Fuhrmann
-     * 10 SQL Tricks That I Like
+Going Headless in 2024: A View of the Headless CMS Landscape
+       Andrew Mosby
+     * Maintenance Matters: Good Tests
        Article
 
-10 SQL Tricks That I Like
-       Noah Over
+Maintenance Matters: Good Tests
+       David Eisinger
 
 The Viget Newsletter
 
    Nobody likes popups, so we waited until now to recommend our
    newsletter, featuring thoughts, opinions, and tools for building a
-   better digital world. [37]Read the current issue.
+   better digital world. [38]Read the current issue.
 
-   [38]Subscribe Here (opens in new window)
+   [39]Subscribe Here (opens in new window)
 
 Site Footer
 
    Have an unsolvable problem or audacious idea?
 
    Let’s get to work
-   [39]Contact Us [40]hello@viget.com [41]703.891.0670
+   [40]Contact Us [41]hello@viget.com [42]703.891.0670
 
      * Practice
-     * [42]Work
-     * [43]Services
-     * [44]Articles
+     * [43]Work
+     * [44]Services
+     * [45]Articles
 
      * People
-     * [45]Company
-     * [46]Careers
-     * [47]Code of Ethics
-     * [48]Diversity & Inclusion
+     * [46]Company
+     * [47]Careers
+     * [48]Code of Ethics
+     * [49]Diversity & Inclusion
 
      * More
-     * [49]Pointless Corp.
-     * [50]Explorations
-     * [51]Code at Viget
+     * [50]Pointless Corp.
+     * [51]Explorations
+     * [52]Code at Viget
 
 Sign Up For Our Newsletter
 
    A curated periodical featuring thoughts, opinions, and tools for
    building a better digital world.
-   [52]Check it out
+   [53]Check it out
 
 Social Links
 
-   [53]Viget
+   [54]Viget
      *
      *
      *
@@ -314,22 +319,22 @@ Social Links
 
 Office Locations
 
-     * [54]Washington DC Metro
-     * [55]Durham, NC
-     * [56]Boulder, CO
-     * [57]Chattanooga, TN
+     * [55]Washington DC Metro
+     * [56]Durham, NC
+     * [57]Boulder, CO
+     * [58]Chattanooga, TN
 
-   © 1999 – 2023 Viget Labs, LLC. [58]Terms [59]Privacy [60]MRF
+   © 1999 – 2024 Viget Labs, LLC. [59]Terms [60]Privacy [61]MRF
 
-     * [61]Home
-     * [62]Articles
-     * [63]Simple Commit Linting for Issue Number in GitHub Actions
+     * [62]Home
+     * [63]Articles
+     * [64]Simple Commit Linting for Issue Number in GitHub Actions
 
-   [64]Subscribe (opens in a new window)
+   [65]Subscribe (opens in a new window)
    (BUTTON) Share
-     * [65]Share this page
      * [66]Share this page
-     * [67]Tweet this page
+     * [67]Share this page
+     * [68]Post this page
 
 References
 
@@ -358,62 +363,63 @@ References
   22. https://www.viget.com/about/team/deisinger/
   23. https://www.viget.com/about/team/deisinger/
   24. https://www.viget.com/articles/category/code/
-  25. https://github.com/tpope/vim-fugitive#fugitivevim
-  26. https://www.viget.com/articles/get-the-most-out-of-your-internal-retrospectives/
-  27. https://www.viget.com/articles/maintenance-matters-continuous-integration/
-  28. https://commitlint.js.org/
-  29. https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/#other-languages
-  30. https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/#javaScript
-  31. https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/#php
-  32. https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/#python
-  33. https://elixir-lang.org/
-  34. https://www.viget.com/about/team/deisinger/
+  25. https://www.viget.com/articles/category/tooling/
+  26. https://github.com/tpope/vim-fugitive#fugitivevim
+  27. https://www.viget.com/articles/get-the-most-out-of-your-internal-retrospectives/
+  28. https://www.viget.com/articles/maintenance-matters-continuous-integration/
+  29. https://commitlint.js.org/
+  30. https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/#other-languages
+  31. https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/#javaScript
+  32. https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/#php
+  33. https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/#python
+  34. https://elixir-lang.org/
   35. https://www.viget.com/about/team/deisinger/
   36. https://www.viget.com/about/team/deisinger/
-  37. https://www.viget.com/newsletter
-  38. http://eepurl.com/gtHqsj
-  39. https://www.viget.com/contact/
-  40. mailto:hello@viget.com?subject=Hello, Viget!
-  41. tel:7038910670
-  42. https://www.viget.com/work/
-  43. https://www.viget.com/services/
-  44. https://www.viget.com/articles/
-  45. https://www.viget.com/about/
-  46. https://www.viget.com/careers/
-  47. https://www.viget.com/code-of-ethics/
-  48. https://www.viget.com/diversity-equity-and-inclusion/
-  49. https://pointlesscorp.com/
-  50. https://explorations.viget.com/
-  51. https://code.viget.com/
-  52. https://www.viget.com/newsletter/
-  53. https://www.viget.com/
-  54. https://www.viget.com/dc-metro-hq/
-  55. https://www.viget.com/durham/
-  56. https://www.viget.com/boulder/
-  57. https://www.viget.com/chattanooga/
-  58. https://www.viget.com/terms-conditions/
-  59. https://www.viget.com/privacy-policy/
-  60. https://individual.carefirst.com/individuals-families/mandates-policies/machine-readable-file.page
-  61. https://www.viget.com/
-  62. https://www.viget.com/articles
-  63. https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/#hero
-  64. http://eepurl.com/gtHqsj
-  65. https://www.facebook.com/sharer/sharer.php?u=https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/
-  66. http://www.linkedin.com/shareArticle?mini=true&url=https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/
-  67. https://twitter.com/intent/tweet?text=Including relevant ticket numbers in your git commit messages is a gift to your future self. Here's how to ensure you do it consistently. https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/
+  37. https://www.viget.com/about/team/deisinger/
+  38. https://www.viget.com/newsletter
+  39. http://eepurl.com/gtHqsj
+  40. https://www.viget.com/contact/
+  41. mailto:hello@viget.com?subject=Hello, Viget!
+  42. tel:7038910670
+  43. https://www.viget.com/work/
+  44. https://www.viget.com/services/
+  45. https://www.viget.com/articles/
+  46. https://www.viget.com/about/
+  47. https://www.viget.com/careers/
+  48. https://www.viget.com/code-of-ethics/
+  49. https://www.viget.com/diversity-equity-and-inclusion/
+  50. https://pointlesscorp.com/
+  51. https://explorations.viget.com/
+  52. https://code.viget.com/
+  53. https://www.viget.com/newsletter/
+  54. https://www.viget.com/
+  55. https://www.viget.com/dc-metro-hq/
+  56. https://www.viget.com/durham/
+  57. https://www.viget.com/boulder/
+  58. https://www.viget.com/chattanooga/
+  59. https://www.viget.com/terms-conditions/
+  60. https://www.viget.com/privacy-policy/
+  61. https://individual.carefirst.com/individuals-families/mandates-policies/machine-readable-file.page
+  62. https://www.viget.com/
+  63. https://www.viget.com/articles
+  64. https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/#hero
+  65. http://eepurl.com/gtHqsj
+  66. https://www.facebook.com/sharer/sharer.php?u=https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/
+  67. http://www.linkedin.com/shareArticle?mini=true&url=https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/
+  68. https://x.com/intent/tweet?text=Including relevant ticket numbers in your git commit messages is a gift to your future self. Here's how to ensure you do it consistently. https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/
 
    Hidden links:
-  69. https://www.viget.com/newsletter/ai-in-recruiting/
-  70. https://www.viget.com/articles/simple-commit-linting-for-issue-number-in-github-actions/
-  71. https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.viget.com%2Farticles%2Fsimple-commit-linting-for-issue-number-in-github-actions%2F
-  72. http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.viget.com%2Farticles%2Fsimple-commit-linting-for-issue-number-in-github-actions%2F
-  73. https://twitter.com/intent/tweet?text=Including%20relevant%20ticket%20numbers%20in%20your%20git%20commit%20messages%20is%20a%20gift%20to%20your%20future%20self.%20Here%27s%20how%20to%20ensure%20you%20do%20it%20consistently.%20https%3A%2F%2Fwww.viget.com%2Farticles%2Fsimple-commit-linting-for-issue-number-in-github-actions%2F
-  74. https://www.viget.com/articles/maintenance-matters-timely-upgrades/
-  75. https://www.viget.com/articles/styling-native-file-upload-input-field/
-  76. https://www.viget.com/articles/10-sql-tricks-that-i-like/
-  77. https://twitter.com/viget
-  78. https://github.com/vigetlabs
-  79. https://dribbble.com/viget
-  80. https://www.instagram.com/viget/
-  81. https://www.linkedin.com/company/viget-labs
-  82. https://vimeo.com/viget/collections
+  70. https://www.viget.com/newsletter/revolutionizing-the-web/
+  71. https://www.viget.com/articles/elephants-squirrels-porcupines-and-zombies-can-help-your-team-thrive/
+  72. https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.viget.com%2Farticles%2Fsimple-commit-linting-for-issue-number-in-github-actions%2F
+  73. http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.viget.com%2Farticles%2Fsimple-commit-linting-for-issue-number-in-github-actions%2F
+  74. https://x.com/intent/tweet?text=Including%20relevant%20ticket%20numbers%20in%20your%20git%20commit%20messages%20is%20a%20gift%20to%20your%20future%20self.%20Here%27s%20how%20to%20ensure%20you%20do%20it%20consistently.%20https%3A%2F%2Fwww.viget.com%2Farticles%2Fsimple-commit-linting-for-issue-number-in-github-actions%2F
+  75. https://www.viget.com/articles/thoughts-on-remix/
+  76. https://www.viget.com/articles/a-view-of-the-headless-cms-landscape/
+  77. https://www.viget.com/articles/maintenance-matters-good-tests/
+  78. http://x.com/viget
+  79. https://github.com/vigetlabs
+  80. https://dribbble.com/viget
+  81. https://www.instagram.com/viget/
+  82. https://www.linkedin.com/company/viget-labs
+  83. https://vimeo.com/viget/collections

@@ -428,11 +428,11 @@ Date
 References
 
    1. https://chrisnotes.io/feed.rss
-   2. file:///
-   3. file:///
-   4. file:///archives
-   5. file:///search
-   6. file:///feed.rss
+   2. https://chrisnotes.io/
+   3. https://chrisnotes.io/
+   4. https://chrisnotes.io/archives
+   5. https://chrisnotes.io/search
+   6. https://chrisnotes.io/feed.rss
    7. https://mastodon.social/@chrisnotes
    8. https://getdrafts.com/
    9. https://directory.getdrafts.com/

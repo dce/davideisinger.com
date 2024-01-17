@@ -40,50 +40,55 @@ More
 
 Featured
 
-   Read the Article: The Future of React Frontends
+   Read the Article: Revolutionizing the Web
 
    Newsletter
 
-The Future of React Frontends
+Revolutionizing the Web
 
-   A rounded square with two eyes and a smile.
+   Read the Article: The Reflection Before Christmas
 
    Article
 
-What’s in a Word? Building a Verbose Party Game
+The Reflection Before Christmas
 
 What’s in a Word? Building a Verbose Party Game
 
-   A rounded square with two eyes and a smile.
+   [22]Haroon Matties [23]David Eisinger
 
-   [22]Haley Johnson, Product Manager,
+   Haley Johnson, Former Product Manager,
 
-   [23]Haroon Matties, Product Designer,
+   [24]Haroon Matties, Product Designer,
 
-   [24]Andrew Thomas, JavaScript Developer,
+   Andrew Thomas, Former JavaScript Developer,
 
-   [25]Nicole Rymarz, Project Manager, and
+   Nicole Rymarz, Former Project Manager, and
 
-   [26]David Eisinger, Development Director
+   [25]David Eisinger, Development Director
 
-   Article Categories: [27]#News & Culture, [28]#Employee Engagement
+   Article Categories: [26]#News & Culture, [27]#Employee Engagement
 
    Posted on May 25, 2023
      * Share
      * Share
-     * Tweet
+     * Post
 
    Our Pointless Palooza team designed and built a word-association game
    in 48 hours. Here's what we learned (and loved) while doing it.
 
+   O u r P o i n t l e s s P a l o o z a t e a m d e s i g n e d a n d b u
+   i l t a w o r d - a s s o c i a t i o n g a m e i n 4 8 h o u r s . H e
+   r e ' s w h a t w e l e a r n e d ( a n d l o v e d ) w h i l e d o i n
+   g i t .
+
    Fun group party game. Somehow incorporate AI. Build it quickly. These
    were the constraints we put on our mostly Colorado-based Pointless
-   Corp. team before [29]Pointless Palooza. A few of us wanted to partake
+   Corp. team before [28]Pointless Palooza. A few of us wanted to partake
    in the old Pointless tradition of trying out another role on the
    project, so simplicity was key. Thankfully, Haley was itching to build
    a digital version of a very fun, but relatively straightforward, game.
 
-   [30]Just One is a collaborative word association game that encourages
+   [29]Just One is a collaborative word association game that encourages
    both teamwork and creativity. On a given turn, everyone except one
    player (the Guesser) knows a random mystery word and must attempt to
    get the Guesser to guess the mystery word via one-word hints. The catch
@@ -96,13 +101,12 @@ What’s in a Word? Building a Verbose Party Game
    expanding the party and it seemed like an easy enough lift for our
    team.
 
-   It’s easier to play than explain, so mosey on over to [31]verbose.club
+   It’s easier to play than explain, so mosey on over to [30]verbose.club
    and give it a try. And, if you want to know more about how each of us
    fared going heads down on one project for 48 hours (and counting), read
    on.
-   Verbose.club UI
 
-[32]Haley | Pointless Role: Design | Day Job: PM
+[31]Haley | Pointless Role: Design | Day Job: PM
 
    My favorite part of building verbose.club was being granted permission
    to focus on one project with my teammates. We hopped on Meets or
@@ -119,7 +123,7 @@ What’s in a Word? Building a Verbose Party Game
    use instead of starting from scratch!
      __________________________________________________________________
 
-[33]Haroon | Pointless Role: Dev | Day Job: Product Design
+[32]Haroon | Pointless Role: Dev | Day Job: Product Design
 
    My favorite part of building verbose.club was stepping into a new role,
    or at least trying to. I got a chance to build out styled components
@@ -135,7 +139,7 @@ What’s in a Word? Building a Verbose Party Game
    things later.
      __________________________________________________________________
 
-[34]Nicole | Pointless Role: Design | Day Job: PM
+[33]Nicole | Pointless Role: Design | Day Job: PM
 
    My favorite part of building verbose.club was seeing our team
    immediately dive in with a “we’re in this together” approach. I am
@@ -144,13 +148,13 @@ What’s in a Word? Building a Verbose Party Game
    environment and how everyone was really open to hearing new ideas,
    trying something new, and working together to make something cool.
 
-   Something I learned was how to use [35]Whimsical and [36]Figma to make
+   Something I learned was how to use [34]Whimsical and [35]Figma to make
    wireframes and designs. I had used these tools before; but, it was my
    first time “building” anything at Viget — and it was super fun. I’m
    glad I got to try something outside of my usual PM role.
      __________________________________________________________________
 
-[37]Andrew | Pointless Role: CEO Dev | Day Job: Dev
+[36]Andrew | Pointless Role: CEO Dev | Day Job: Dev
 
    My favorite part of building verbose.club was coordinating work among
    my teammates. With less than 3 days to do everything, we had to hit the
@@ -181,7 +185,7 @@ What’s in a Word? Building a Verbose Party Game
    that makes it all work.
      __________________________________________________________________
 
-[38]David | Pointless Role: Dev | Day Job: Dev
+[37]David | Pointless Role: Dev | Day Job: Dev
 
    My favorite part of working on verbose.club was helping from afar. I
    was 1,500 miles and several time zones away from most of the team, so I
@@ -191,7 +195,7 @@ What’s in a Word? Building a Verbose Party Game
    others to deploy code. It was sort of like being the bass player in a
    rad band.
 
-   Something I learned is that [39]Caddy is super legit. Here’s the entire
+   Something I learned is that [38]Caddy is super legit. Here’s the entire
    web server config file, which automatically sets up HTTPS and proxies
    traffic to our Remix app:
 verbose.club
@@ -199,45 +203,26 @@ verbose.club
 reverse_proxy remix-prod:3001
 
    Our overall architecture (running with docker compose) looks like this:
-   Architecture diagram with Caddy at the top pointing to Remix, pointing
-   to Rails, pointing to both Postgres and Redis.
      __________________________________________________________________
 
    In two days’ time, we had a beautiful, functioning game that we played
    during our Pointless celebration happy hour. Since then, we’ve added
    some cool animations and the ability to pull in AI players — no human
    friends required! So, grab some friends (robot or otherwise) and check
-   out [40]verbose.club!
+   out [39]verbose.club!
 
-   [41]Haley Johnson
+   [40]Haroon Matties
 
-   [42]Haley is a product manager in Viget’s Boulder, CO office. With
-   small-agency and large-tech-company experience, she keeps all types of
-   projects moving, no matter their size.
-   [43]More articles by Haley
-   [44]Haroon Matties
+   [41]Haroon is a product designer in our Boulder, CO office. His
+   appreciation for human-centered design informs his approach to
+   researching and building intuitive interfaces.
+   [42]More articles by Haroon
+   [43]David Eisinger
 
-   [45]Haroon is a product designer in our HQ office. His appreciation for
-   human-centered design informs his approach to researching and building
-   intuitive interfaces.
-   [46]More articles by Haroon
-   [47]Andrew Thomas
-
-   [48]Andrew is a developer in our Boulder, CO, office. He loves building
-   sophisticated web applications while utilizing the latest and greatest
-   tech.
-   [49]More articles by Andrew
-   [50]Nicole Rymarz
-
-   [51]Nicole is an observant project manager who thrives on building
-   personal connections and successful brand and product experiences.
-   [52]More articles by Nicole
-   [53]David Eisinger
-
-   [54]David is Viget's managing development director. From our Durham,
+   [44]David is Viget's managing development director. From our Durham,
    NC, office, he builds high-quality, forward-thinking software for PUMA,
    the World Wildlife Fund, NFLPA, and many others.
-   [55]More articles by David
+   [45]More articles by David
 
 Related Articles
 
@@ -261,42 +246,42 @@ The Viget Newsletter
 
    Nobody likes popups, so we waited until now to recommend our
    newsletter, featuring thoughts, opinions, and tools for building a
-   better digital world. [56]Read the current issue.
+   better digital world. [46]Read the current issue.
 
-   [57]Subscribe Here (opens in new window)
+   [47]Subscribe Here (opens in new window)
 
 Site Footer
 
    Have an unsolvable problem or audacious idea?
 
    Let’s get to work
-   [58]Contact Us [59]hello@viget.com [60]703.891.0670
+   [48]Contact Us [49]hello@viget.com [50]703.891.0670
 
      * Practice
-     * [61]Work
-     * [62]Services
-     * [63]Articles
+     * [51]Work
+     * [52]Services
+     * [53]Articles
 
      * People
-     * [64]Company
-     * [65]Careers
-     * [66]Code of Ethics
-     * [67]Diversity & Inclusion
+     * [54]Company
+     * [55]Careers
+     * [56]Code of Ethics
+     * [57]Diversity & Inclusion
 
      * More
-     * [68]Pointless Corp.
-     * [69]Explorations
-     * [70]Code at Viget
+     * [58]Pointless Corp.
+     * [59]Explorations
+     * [60]Code at Viget
 
 Sign Up For Our Newsletter
 
    A curated periodical featuring thoughts, opinions, and tools for
    building a better digital world.
-   [71]Check it out
+   [61]Check it out
 
 Social Links
 
-   [72]Viget
+   [62]Viget
      *
      *
      *
@@ -306,24 +291,22 @@ Social Links
 
 Office Locations
 
-     * [73]Washington DC Metro
-     * [74]Durham, NC
-     * [75]Boulder, CO
-     * [76]Chattanooga, TN
+     * [63]Washington DC Metro
+     * [64]Durham, NC
+     * [65]Boulder, CO
+     * [66]Chattanooga, TN
 
-   © 1999 – 2023 Viget Labs, LLC. [77]Terms [78]Privacy [79]MRF
+   © 1999 – 2024 Viget Labs, LLC. [67]Terms [68]Privacy [69]MRF
 
-     * [80]Home
-     * [81]Articles
-     * [82]What’s in a Word? Building a Verbose Party Game
+     * [70]Home
+     * [71]Articles
+     * [72]What’s in a Word? Building a Verbose Party Game
 
-   [83]Subscribe (opens in a new window)
+   [73]Subscribe (opens in a new window)
    (BUTTON) Share
-     * [84]Share this page
-     * [85]Share this page
-     * [86]Tweet this page
-
-   [87]Edit Entry
+     * [74]Share this page
+     * [75]Share this page
+     * [76]Post this page
 
 References
 
@@ -349,85 +332,74 @@ References
   19. https://pointlesscorp.com/
   20. https://explorations.viget.com/
   21. https://code.viget.com/
-  22. https://www.viget.com/about/team/hjohnson/
-  23. https://www.viget.com/about/team/hmatties/
-  24. https://www.viget.com/about/team/athomas/
-  25. https://www.viget.com/about/team/nrymarz/
-  26. https://www.viget.com/about/team/deisinger/
-  27. https://www.viget.com/articles/category/news-culture/
-  28. https://www.viget.com/articles/category/employee-engagement/
-  29. https://www.viget.com/articles/the-enduring-point-of-pointless-corp/
-  30. https://boardgamegeek.com/boardgame/254640/just-one
-  31. https://verbose.club/
-  32. https://www.viget.com/about/team/hjohnson/
-  33. https://www.viget.com/about/team/hmatties/
-  34. https://www.viget.com/about/team/nrymarz/
-  35. http://whimsical.com/
-  36. http://figma.com/
-  37. https://www.viget.com/about/team/athomas/
-  38. https://www.viget.com/about/team/deisinger/
-  39. https://caddyserver.com/
-  40. https://verbose.club/
-  41. https://www.viget.com/about/team/hjohnson/
-  42. https://www.viget.com/about/team/hjohnson/
-  43. https://www.viget.com/about/team/hjohnson/
-  44. https://www.viget.com/about/team/hmatties/
-  45. https://www.viget.com/about/team/hmatties/
-  46. https://www.viget.com/about/team/hmatties/
-  47. https://www.viget.com/about/team/athomas/
-  48. https://www.viget.com/about/team/athomas/
-  49. https://www.viget.com/about/team/athomas/
-  50. https://www.viget.com/about/team/nrymarz/
-  51. https://www.viget.com/about/team/nrymarz/
-  52. https://www.viget.com/about/team/nrymarz/
-  53. https://www.viget.com/about/team/deisinger/
-  54. https://www.viget.com/about/team/deisinger/
-  55. https://www.viget.com/about/team/deisinger/
-  56. https://www.viget.com/newsletter
-  57. http://eepurl.com/gtHqsj
-  58. https://www.viget.com/contact/
-  59. mailto:hello@viget.com?subject=Hello, Viget!
-  60. tel:7038910670
-  61. https://www.viget.com/work/
-  62. https://www.viget.com/services/
-  63. https://www.viget.com/articles/
-  64. https://www.viget.com/about/
-  65. https://www.viget.com/careers/
-  66. https://www.viget.com/code-of-ethics/
-  67. https://www.viget.com/diversity-equity-and-inclusion/
-  68. https://pointlesscorp.com/
-  69. https://explorations.viget.com/
-  70. https://code.viget.com/
-  71. https://www.viget.com/newsletter/
-  72. https://www.viget.com/
-  73. https://www.viget.com/dc-metro-hq/
-  74. https://www.viget.com/durham/
-  75. https://www.viget.com/boulder/
-  76. https://www.viget.com/chattanooga/
-  77. https://www.viget.com/terms-conditions/
-  78. https://www.viget.com/privacy-policy/
-  79. https://individual.carefirst.com/individuals-families/mandates-policies/machine-readable-file.page
-  80. https://www.viget.com/
-  81. https://www.viget.com/articles
-  82. https://www.viget.com/articles/whats-in-a-word-building-a-verbose-party-game/#hero
-  83. http://eepurl.com/gtHqsj
-  84. https://www.facebook.com/sharer/sharer.php?u=https://www.viget.com/articles/whats-in-a-word-building-a-verbose-party-game/
-  85. http://www.linkedin.com/shareArticle?mini=true&url=https://www.viget.com/articles/whats-in-a-word-building-a-verbose-party-game/
-  86. https://twitter.com/intent/tweet?text=Our Pointless Palooza team designed and built a word-association game in 48 hours. Here's what we learned (and loved) while doing it. https://www.viget.com/articles/whats-in-a-word-building-a-verbose-party-game/
-  87. https://www.viget.com/admin/entries/article/466210-whats-in-a-word-building-a-verbose-party-game
+  22. https://www.viget.com/about/team/hmatties/
+  23. https://www.viget.com/about/team/deisinger/
+  24. https://www.viget.com/about/team/hmatties/
+  25. https://www.viget.com/about/team/deisinger/
+  26. https://www.viget.com/articles/category/news-culture/
+  27. https://www.viget.com/articles/category/employee-engagement/
+  28. https://www.viget.com/articles/the-enduring-point-of-pointless-corp/
+  29. https://boardgamegeek.com/boardgame/254640/just-one
+  30. https://verbose.club/
+  31. https://www.viget.com/about/team/hjohnson/
+  32. https://www.viget.com/about/team/hmatties/
+  33. https://www.viget.com/about/team/nrymarz/
+  34. http://whimsical.com/
+  35. http://figma.com/
+  36. https://www.viget.com/about/team/athomas/
+  37. https://www.viget.com/about/team/deisinger/
+  38. https://caddyserver.com/
+  39. https://verbose.club/
+  40. https://www.viget.com/about/team/hmatties/
+  41. https://www.viget.com/about/team/hmatties/
+  42. https://www.viget.com/about/team/hmatties/
+  43. https://www.viget.com/about/team/deisinger/
+  44. https://www.viget.com/about/team/deisinger/
+  45. https://www.viget.com/about/team/deisinger/
+  46. https://www.viget.com/newsletter
+  47. http://eepurl.com/gtHqsj
+  48. https://www.viget.com/contact/
+  49. mailto:hello@viget.com?subject=Hello, Viget!
+  50. tel:7038910670
+  51. https://www.viget.com/work/
+  52. https://www.viget.com/services/
+  53. https://www.viget.com/articles/
+  54. https://www.viget.com/about/
+  55. https://www.viget.com/careers/
+  56. https://www.viget.com/code-of-ethics/
+  57. https://www.viget.com/diversity-equity-and-inclusion/
+  58. https://pointlesscorp.com/
+  59. https://explorations.viget.com/
+  60. https://code.viget.com/
+  61. https://www.viget.com/newsletter/
+  62. https://www.viget.com/
+  63. https://www.viget.com/dc-metro-hq/
+  64. https://www.viget.com/durham/
+  65. https://www.viget.com/boulder/
+  66. https://www.viget.com/chattanooga/
+  67. https://www.viget.com/terms-conditions/
+  68. https://www.viget.com/privacy-policy/
+  69. https://individual.carefirst.com/individuals-families/mandates-policies/machine-readable-file.page
+  70. https://www.viget.com/
+  71. https://www.viget.com/articles
+  72. https://www.viget.com/articles/whats-in-a-word-building-a-verbose-party-game/#hero
+  73. http://eepurl.com/gtHqsj
+  74. https://www.facebook.com/sharer/sharer.php?u=https://www.viget.com/articles/whats-in-a-word-building-a-verbose-party-game/
+  75. http://www.linkedin.com/shareArticle?mini=true&url=https://www.viget.com/articles/whats-in-a-word-building-a-verbose-party-game/
+  76. https://x.com/intent/tweet?text=Our Pointless Palooza team designed and built a word-association game in 48 hours. Here's what we learned (and loved) while doing it. https://www.viget.com/articles/whats-in-a-word-building-a-verbose-party-game/
 
    Hidden links:
-  89. https://www.viget.com/newsletter/react-server-components-the-future-of-react-frontends/
-  90. https://www.viget.com/articles/whats-in-a-word-building-a-verbose-party-game/
-  91. https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.viget.com%2Farticles%2Fwhats-in-a-word-building-a-verbose-party-game%2F
-  92. http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.viget.com%2Farticles%2Fwhats-in-a-word-building-a-verbose-party-game%2F
-  93. https://twitter.com/intent/tweet?text=Our%20Pointless%20Palooza%20team%20designed%20and%20built%20a%20word-association%20game%20in%2048%20hours.%20Here%27s%20what%20we%20learned%20%28and%20loved%29%20while%20doing%20it.%20https%3A%2F%2Fwww.viget.com%2Farticles%2Fwhats-in-a-word-building-a-verbose-party-game%2F
-  94. https://www.viget.com/articles/figma-comic-creator/
-  95. https://www.viget.com/articles/the-enduring-point-of-pointless-corp/
-  96. https://www.viget.com/articles/plan-a-killer-party-with-thrillr/
-  97. https://twitter.com/viget
-  98. https://github.com/vigetlabs
-  99. https://dribbble.com/viget
- 100. https://www.instagram.com/viget/
- 101. https://www.linkedin.com/company/viget-labs
- 102. https://vimeo.com/viget/collections
+  78. https://www.viget.com/newsletter/revolutionizing-the-web/
+  79. https://www.viget.com/articles/the-reflection-before-christmas/
+  80. https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.viget.com%2Farticles%2Fwhats-in-a-word-building-a-verbose-party-game%2F
+  81. http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.viget.com%2Farticles%2Fwhats-in-a-word-building-a-verbose-party-game%2F
+  82. https://x.com/intent/tweet?text=Our%20Pointless%20Palooza%20team%20designed%20and%20built%20a%20word-association%20game%20in%2048%20hours.%20Here%27s%20what%20we%20learned%20%28and%20loved%29%20while%20doing%20it.%20https%3A%2F%2Fwww.viget.com%2Farticles%2Fwhats-in-a-word-building-a-verbose-party-game%2F
+  83. https://www.viget.com/articles/figma-comic-creator/
+  84. https://www.viget.com/articles/the-enduring-point-of-pointless-corp/
+  85. https://www.viget.com/articles/plan-a-killer-party-with-thrillr/
+  86. http://x.com/viget
+  87. https://github.com/vigetlabs
+  88. https://dribbble.com/viget
+  89. https://www.instagram.com/viget/
+  90. https://www.linkedin.com/company/viget-labs
+  91. https://vimeo.com/viget/collections

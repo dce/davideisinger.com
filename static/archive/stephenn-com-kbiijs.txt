@@ -187,40 +187,43 @@ func (h *handlers) handleRefreshRequest(w http.ResponseWriter, r *http.Request)
     w.WriteHeader(http.StatusOK)
 }
 
-   [15]Next »
+   [15]« Prev
+   PDFs on the Fly: Programmatically Transforming Webpages into PDFs
+   [16]Next »
    How to Serve Web Sockets with Http4s
 
-   © 2023 [16]Stephen's Tech Blog
+   © 2023 [17]Stephen's Tech Blog
 
 References
 
    Visible links:
    1. https://stephenn.com/
    2. https://webhookwizard.com/
-   3. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L18069-7455TMP.html#guiding-principle
-   4. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L18069-7455TMP.html#1-always-handle-errors
-   5. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L18069-7455TMP.html#2-log-errors-in-one-layer
-   6. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L18069-7455TMP.html#3-returning-async-errors
-   7. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L18069-7455TMP.html#4-wrapping-errors
-   8. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L18069-7455TMP.html#5-downgrade-errors-warnings
-   9. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L18069-7455TMP.html#guiding-principle
-  10. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L18069-7455TMP.html#1-always-handle-errors
-  11. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L18069-7455TMP.html#2-log-errors-in-one-layer
-  12. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L18069-7455TMP.html#3-returning-async-errors
-  13. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L18069-7455TMP.html#4-wrapping-errors
-  14. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L18069-7455TMP.html#5-downgrade-errors-warnings
-  15. https://stephenn.com/2022/07/web-sockets-with-http4s/
-  16. https://stephenn.com/
+   3. https://stephenn.com/2023/06/gopher-wrangling.-effective-error-handling-in-go/#guiding-principle
+   4. https://stephenn.com/2023/06/gopher-wrangling.-effective-error-handling-in-go/#1-always-handle-errors
+   5. https://stephenn.com/2023/06/gopher-wrangling.-effective-error-handling-in-go/#2-log-errors-in-one-layer
+   6. https://stephenn.com/2023/06/gopher-wrangling.-effective-error-handling-in-go/#3-returning-async-errors
+   7. https://stephenn.com/2023/06/gopher-wrangling.-effective-error-handling-in-go/#4-wrapping-errors
+   8. https://stephenn.com/2023/06/gopher-wrangling.-effective-error-handling-in-go/#5-downgrade-errors-warnings
+   9. https://stephenn.com/2023/06/gopher-wrangling.-effective-error-handling-in-go/#guiding-principle
+  10. https://stephenn.com/2023/06/gopher-wrangling.-effective-error-handling-in-go/#1-always-handle-errors
+  11. https://stephenn.com/2023/06/gopher-wrangling.-effective-error-handling-in-go/#2-log-errors-in-one-layer
+  12. https://stephenn.com/2023/06/gopher-wrangling.-effective-error-handling-in-go/#3-returning-async-errors
+  13. https://stephenn.com/2023/06/gopher-wrangling.-effective-error-handling-in-go/#4-wrapping-errors
+  14. https://stephenn.com/2023/06/gopher-wrangling.-effective-error-handling-in-go/#5-downgrade-errors-warnings
+  15. https://stephenn.com/2023/06/pdfs-on-the-fly-programmatically-transforming-webpages-into-pdfs/
+  16. https://stephenn.com/2022/07/web-sockets-with-http4s/
+  17. https://stephenn.com/
 
    Hidden links:
-  18. https://twitter.com/intent/tweet/?text=Gopher%20Wrangling.%20Effective%20error%20handling%20in%20Go&url=https%3a%2f%2fstephenn.com%2f2023%2f06%2fgopher-wrangling.-effective-error-handling-in-go%2f&hashtags=
-  19. https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fstephenn.com%2f2023%2f06%2fgopher-wrangling.-effective-error-handling-in-go%2f&title=Gopher%20Wrangling.%20Effective%20error%20handling%20in%20Go&summary=Gopher%20Wrangling.%20Effective%20error%20handling%20in%20Go&source=https%3a%2f%2fstephenn.com%2f2023%2f06%2fgopher-wrangling.-effective-error-handling-in-go%2f
-  20. https://reddit.com/submit?url=https%3a%2f%2fstephenn.com%2f2023%2f06%2fgopher-wrangling.-effective-error-handling-in-go%2f&title=Gopher%20Wrangling.%20Effective%20error%20handling%20in%20Go
-  21. https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fstephenn.com%2f2023%2f06%2fgopher-wrangling.-effective-error-handling-in-go%2f
-  22. https://api.whatsapp.com/send?text=Gopher%20Wrangling.%20Effective%20error%20handling%20in%20Go%20-%20https%3a%2f%2fstephenn.com%2f2023%2f06%2fgopher-wrangling.-effective-error-handling-in-go%2f
-  23. https://telegram.me/share/url?text=Gopher%20Wrangling.%20Effective%20error%20handling%20in%20Go&url=https%3a%2f%2fstephenn.com%2f2023%2f06%2fgopher-wrangling.-effective-error-handling-in-go%2f
-  24. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L18069-7455TMP.html#top
-  25. https://github.com/stephennancekivell
-  26. https://twitter.com/hi_stephen_n
-  27. https://www.linkedin.com/in/stephen-nancekivell-77003039
-  28. https://stackoverflow.com/users/893854/stephen
+  19. https://twitter.com/intent/tweet/?text=Gopher%20Wrangling.%20Effective%20error%20handling%20in%20Go&url=https%3a%2f%2fstephenn.com%2f2023%2f06%2fgopher-wrangling.-effective-error-handling-in-go%2f&hashtags=
+  20. https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fstephenn.com%2f2023%2f06%2fgopher-wrangling.-effective-error-handling-in-go%2f&title=Gopher%20Wrangling.%20Effective%20error%20handling%20in%20Go&summary=Gopher%20Wrangling.%20Effective%20error%20handling%20in%20Go&source=https%3a%2f%2fstephenn.com%2f2023%2f06%2fgopher-wrangling.-effective-error-handling-in-go%2f
+  21. https://reddit.com/submit?url=https%3a%2f%2fstephenn.com%2f2023%2f06%2fgopher-wrangling.-effective-error-handling-in-go%2f&title=Gopher%20Wrangling.%20Effective%20error%20handling%20in%20Go
+  22. https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fstephenn.com%2f2023%2f06%2fgopher-wrangling.-effective-error-handling-in-go%2f
+  23. https://api.whatsapp.com/send?text=Gopher%20Wrangling.%20Effective%20error%20handling%20in%20Go%20-%20https%3a%2f%2fstephenn.com%2f2023%2f06%2fgopher-wrangling.-effective-error-handling-in-go%2f
+  24. https://telegram.me/share/url?text=Gopher%20Wrangling.%20Effective%20error%20handling%20in%20Go&url=https%3a%2f%2fstephenn.com%2f2023%2f06%2fgopher-wrangling.-effective-error-handling-in-go%2f
+  25. https://stephenn.com/2023/06/gopher-wrangling.-effective-error-handling-in-go/#top
+  26. https://github.com/stephennancekivell
+  27. https://twitter.com/hi_stephen_n
+  28. https://www.linkedin.com/in/stephen-nancekivell-77003039
+  29. https://stackoverflow.com/users/893854/stephen

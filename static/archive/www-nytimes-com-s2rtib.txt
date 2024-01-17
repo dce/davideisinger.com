@@ -332,7 +332,7 @@ Site Index
 
 Site Information Navigation
 
-     * [77]© 2023 The New York Times Company
+     * [77]© 2024 The New York Times Company
 
      * [78]NYTCo
      * [79]Contact Us
@@ -359,16 +359,16 @@ Site Information Navigation
 References
 
    Visible links:
-   1. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L38031-3567TMP.html#site-content
-   2. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L38031-3567TMP.html#site-index
-   3. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L38031-3567TMP.html#commentsContainer
-   4. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L38031-3567TMP.html
-   5. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L38031-3567TMP.html
+   1. https://www.nytimes.com/interactive/2023/11/02/travel/things-to-do-durham-nc.html#site-content
+   2. https://www.nytimes.com/interactive/2023/11/02/travel/things-to-do-durham-nc.html#site-index
+   3. https://www.nytimes.com/interactive/2023/11/02/travel/things-to-do-durham-nc.html#commentsContainer
+   4. https://www.nytimes.com/interactive/2023/11/02/travel/things-to-do-durham-nc.html
+   5. https://www.nytimes.com/interactive/2023/11/02/travel/things-to-do-durham-nc.html
    6. mailto:letters@nytimes.com
    7. https://www.nytimes.com/by/ingrid-k-williams
    8. https://www.nytimes.com/column/36-hours
-   9. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L38031-3567TMP.html#recommendations
-  10. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L38031-3567TMP.html#itinerary
+   9. https://www.nytimes.com/interactive/2023/11/02/travel/things-to-do-durham-nc.html#recommendations
+  10. https://www.nytimes.com/interactive/2023/11/02/travel/things-to-do-durham-nc.html#itinerary
   11. https://maps.app.goo.gl/EimCs7T5YjC3DZi27
   12. https://www.brightleafdurham.com/
   13. https://americantobacco.co/
@@ -434,7 +434,7 @@ References
   73. https://www.ncparks.gov/state-parks/eno-river-state-park
   74. https://www.dprplaymore.org/facilities/facility/details/West-Point-on-the-Eno-76
   75. https://rosesdurham.com/
-  76. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L38031-3567TMP.html#after-bottom
+  76. https://www.nytimes.com/interactive/2023/11/02/travel/things-to-do-durham-nc.html#after-bottom
   77. https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-notice
   78. https://www.nytco.com/
   79. https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-Us
@@ -446,13 +446,13 @@ References
   85. https://www.nytimes.com/privacy/privacy-policy
   86. https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service
   87. https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-sale
-  88. file:///sitemap/
+  88. https://www.nytimes.com/sitemap/
   89. https://www.nytimes.com/ca/
   90. https://www.nytimes.com/international/
   91. https://help.nytimes.com/hc/en-us
   92. https://www.nytimes.com/subscription?campaignId=37WXW
-  93. file:///privacy/manage-settings/?fides-toggle=true&fides-override=true
+  93. https://www.nytimes.com/privacy/manage-settings
   94. https://www.googletagmanager.com/ns.html?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x
 
    Hidden links:
-  96. file://localhost/
+  96. https://www.nytimes.com/

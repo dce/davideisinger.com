@@ -11,7 +11,11 @@
    [4]twitter logo
    Publicly berate me on Twitter
 
-   [5]Audio version (read by a tts bot)
+   This blog is no longer active, you can find my new stuff at:
+   [5]george3d6.com, [6]epistem.ink, [7]ontologi.cc, and
+   [8]phenomenologi.cc
+
+   [9]Audio version (read by a tts bot)
 
 Imaginary Problems Are the Root of Bad Software
 
@@ -151,10 +155,11 @@ Imaginary Problems Are the Root of Bad Software
 
    Most companies like having a sales guy who pitches potential customers,
    negotiates prices, and outlines possible features. They also have a
-   [6]people person to discuss more in-depth requirements and details with
-   the customer, usually another sales guy, but with a slightly different
-   title. Then there’s the internal chain of command, various levels of
-   management, and possibly some hierarchy, within the technical team.
+   [10]people person to discuss more in-depth requirements and details
+   with the customer, usually another sales guy, but with a slightly
+   different title. Then there’s the internal chain of command, various
+   levels of management, and possibly some hierarchy, within the technical
+   team.
 
    When a list of client requirements goes through so many people, even if
    those people have the best of intentions, some things will inevitably
@@ -195,18 +200,18 @@ Overcomplexity and natural selection
    migrating major banks to their amazing infrastructure.
 
    Probably you haven’t heard of them, because they don’t exist. There
-   are, however, plenty of teams of [7]thousands of developers, who are
+   are, however, plenty of teams of [11]thousands of developers, who are
    unable to grasp simple concepts such “rollbacks,” perpetually creating
    banking software.
 
    The storage and transfer of numbers is not a particularly hard problem.
    Indexing the whole content of the internet and providing relevant
    results to natural language queries, in sub second times, is a hard
-   problem. [8]But just a few smart guys managed to solve that problem.
+   problem. [12]But just a few smart guys managed to solve that problem.
 
    The persistent problem for online banking is that the banking ecosystem
    has become really good at preserving its own money-grabbing hierarchy.
-   Its leaders are [9]corrupt leeches who prey on society — but the
+   Its leaders are [13]corrupt leeches who prey on society — but the
    leaders in an organization are just a symptom of its members.
 
    I wouldn’t suggest that most underling workers for banks are evil or
@@ -223,7 +228,7 @@ Overcomplexity and natural selection
    problems — real problems which, once pointed out, would threaten the
    jobs of other people. To focus on these real problems could lead to
    getting fired, or, in the case of some particularly nasty
-   “institutions” like Goldman Sachs, [10]getting a few life-ruining brown
+   “institutions” like Goldman Sachs, [14]getting a few life-ruining brown
    envelopes sent to a few FBI officers and prompting a strange suicide.
 
      “It is difficult to get a man to understand something, when his
@@ -231,7 +236,7 @@ Overcomplexity and natural selection
 
      — Upton Sinclair
 
-   The [11]C-suite ignores the fact that their upper management workers
+   The [15]C-suite ignores the fact that their upper management workers
    spend 90 percent of their time on “client meetings” that involve
    tropical islands and million-dollar budgets for “other expenses.” Upper
    management, in return, turns a blind eye to corruption in C-suite.
@@ -278,8 +283,8 @@ Overcomplexity and natural selection
      __________________________________________________________________
 
    If you enjoyed this article you may also like:
-     * [12]The Red Queen
-     * [13]Stop future proofing software
+     * [16]The Red Queen
+     * [17]Stop future proofing software
 
    Published on: 2019-04-29
      __________________________________________________________________
@@ -295,28 +300,32 @@ Overcomplexity and natural selection
    straigt-face
      __________________________________________________________________
 
-   [14]twitter logo
+   [18]twitter logo
    Share this article on twitter
-   [15]linkedin logo
+   [19]linkedin logo
    Share this article on linkedin
-   [16]Fb logo
+   [20]Fb logo
    Share this article on facebook
 
 References
 
-   1. file:///feed.xml
+   1. https://cerebralab.com/feed.xml
    2. https://github.com/George3d6
    3. mailto:george@cerebralab.com
    4. https://twitter.com/Cerebralab2
-   5. https://youtu.be/9jODhmgkp3o
-   6. https://www.youtube.com/watch?v=hNuu9CpdjIo
-   7. https://www.theguardian.com/business/2018/apr/28/warning-signs-for-tsbs-it-meltdown-were-clear-a-year-ago-insider
-   8. https://en.wikipedia.org/wiki/History_of_Google
-   9. https://en.wikipedia.org/wiki/Ben_Bernanke
-  10. https://en.wikipedia.org/wiki/Sergey_Aleynikov
-  11. https://www.investopedia.com/terms/c/c-suite.asp
-  12. https://cerebralab.com/The Red Queen
-  13. https://cerebralab.com/Stop future proofing software
-  14. https://twitter.com/intent/tweet?text=A shameless content-promotion script has asked me to share with you this amazing article I just read: https://cerebralab.com
-  15. https://www.linkedin.com/shareArticle?mini=true&url=https://cerebralab.com&summary=A shameless content-promotion script has asked me to share with you this amazing article I just read&source=https://cerebralab.com
-  16. https://www.facebook.com/sharer/sharer.php?u=https://cerebralab.com
+   5. https://george3d6.com/
+   6. https://epistem.ink/
+   7. https://ontologi.cc/
+   8. https://phenomenologi.cc/
+   9. https://youtu.be/9jODhmgkp3o
+  10. https://www.youtube.com/watch?v=hNuu9CpdjIo
+  11. https://www.theguardian.com/business/2018/apr/28/warning-signs-for-tsbs-it-meltdown-were-clear-a-year-ago-insider
+  12. https://en.wikipedia.org/wiki/History_of_Google
+  13. https://en.wikipedia.org/wiki/Ben_Bernanke
+  14. https://en.wikipedia.org/wiki/Sergey_Aleynikov
+  15. https://www.investopedia.com/terms/c/c-suite.asp
+  16. https://cerebralab.com/The Red Queen
+  17. https://cerebralab.com/Stop future proofing software
+  18. https://twitter.com/intent/tweet?text=A shameless content-promotion script has asked me to share with you this amazing article I just read: https://cerebralab.com
+  19. https://www.linkedin.com/shareArticle?mini=true&url=https://cerebralab.com&summary=A shameless content-promotion script has asked me to share with you this amazing article I just read&source=https://cerebralab.com
+  20. https://www.facebook.com/sharer/sharer.php?u=https://cerebralab.com

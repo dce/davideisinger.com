@@ -4,128 +4,140 @@
      __________________________________________________________________
 
      * [3]Today in Gear
-     * [4]Today's Best Deals
-          + [5]Grill Deals
-          + [6]Patio Furniture Deals
-          + [7]Fitness Deals
-          + [8]Style Deals
-          + [9]Mattress Deals
-          + [10]Outdoor Gear Deals
-          + [11]Furniture Sales
-     * [12]Gift Ideas
-     * [13]Gear Awards
-          + [14]The 2023 Home Awards
-          + [15]The 2023 Cannabis Awards
-          + [16]The 2023 Fitness Awards
-          + [17]The 2023 Outdoor Awards
-          + [18]The 2022 GP100
-     * [19]Buying Guides
-          + [20]Watch Buying Guides
-          + [21]Drink Buying Guides
-          + [22]Home Buying Guides
-          + [23]Tech Buying Guides
-          + [24]Car and Motorcycle Guides
-          + [25]Fitness Buying Guides
-          + [26]Style and Grooming Guides
-          + [27]Outdoor Buying Guides
-     * [28]Reviews
-          + [29]Deep Dive
-          + [30]Kind of Obsessed
-          + [31]Head to Head
-     * [32]How-Tos and Explainers
-          + [33]Counterpoint
-          + [34]Further Details
-          + [35]Product Support
-     * [36]Watches
-          + [37]Watches You Should Know
-          + [38]Dive Watches
-          + [39]Dress Watches
-          + [40]Vintage Watches
-          + [41]Tool Watches
-          + [42]Watch Accessories
-     * [43]Motoring
-          + [44]Motorcycles
-          + [45]Classic Cars
-          + [46]SUVs and Trucks
-          + [47]Adventure Vehicles
-          + [48]Electric Vehicles
-     * [49]Food and Drink
-          + [50]Whiskey
-          + [51]Cocktails
-          + [52]Beer
-          + [53]Coffee
-     * [54]Home
-          + [55]Kitchenware
-          + [56]Office
-          + [57]Weed
-     * [58]Style
-          + [59]Grooming
-          + [60]Style Spotting
-          + [61]Bags and Luggage
-          + [62]Style Accessories
-     * [63]Tech
-          + [64]Audio
-          + [65]Computers and Laptops
-          + [66]Cameras and Photography
-          + [67]Televisions
-          + [68]Smartphones
-     * [69]Outdoors
-          + [70]Knives and Multitools
-          + [71]Camping
-          + [72]Hiking and Climbing
-          + [73]Skiing and Snowboarding
-     * [74]Fitness
-          + [75]Wellness
-          + [76]Training and Recovery
-          + [77]Running
-          + [78]Cycling
-     * [79]Follow
-          + [80]Instagram
-          + [81]Facebook
-          + [82]Twitter
-          + [83]YouTube
-          + [84]Flipboard
-     * [85]Newsletter
-     * [86]Gear Patrol Magazine
-     * [87]Gear Patrol Studios
-     * [88]Videos
-     * [89]Library of Pursuits
-     * [90]About Gear Patrol
-     * [91]Advertise with Us
+     * [4]Deals
+     * [5]Holiday Gift Ideas
+     * [6]Gear Awards
+          + [7]The 2023 Style Awards
+          + [8]The 2023 Tech Awards
+          + [9]The 2023 Home Awards
+          + [10]The 2023 Outdoor Awards
+          + [11]The 2023 Fitness Awards
+          + [12]The 2023 Cannabis Awards
+     * [13]Buying Guides
+          + [14]Watch Buying Guides
+          + [15]Drink Buying Guides
+          + [16]Home Buying Guides
+          + [17]Tech Buying Guides
+          + [18]Car and Motorcycle Guides
+          + [19]Fitness Buying Guides
+          + [20]Style and Grooming Guides
+          + [21]Outdoor Buying Guides
+     * [22]Reviews
+          + [23]Deep Dive
+          + [24]Kind of Obsessed
+          + [25]Head to Head
+     * [26]How-Tos and Explainers
+          + [27]Counterpoint
+          + [28]Further Details
+          + [29]Product Support
+     * [30]Watches
+          + [31]Watches You Should Know
+          + [32]Dive Watches
+          + [33]Dress Watches
+          + [34]Vintage Watches
+          + [35]Tool Watches
+          + [36]Watch Accessories
+     * [37]Motoring
+          + [38]Motorcycles
+          + [39]Classic Cars
+          + [40]SUVs and Trucks
+          + [41]Adventure Vehicles
+          + [42]Electric Vehicles
+     * [43]Food and Drink
+          + [44]Whiskey
+          + [45]Cocktails
+          + [46]Beer
+          + [47]Coffee
+     * [48]Home
+          + [49]Kitchenware
+          + [50]Office
+          + [51]Weed
+     * [52]Style
+          + [53]Grooming
+          + [54]Style Spotting
+          + [55]Bags and Luggage
+          + [56]Style Accessories
+     * [57]Tech
+          + [58]Audio
+          + [59]Computers and Laptops
+          + [60]Cameras and Photography
+          + [61]Televisions
+          + [62]Smartphones
+     * [63]Outdoors
+          + [64]Knives and Multitools
+          + [65]Camping
+          + [66]Hiking and Climbing
+          + [67]Skiing and Snowboarding
+     * [68]Fitness
+          + [69]Wellness
+          + [70]Training and Recovery
+          + [71]Running
+          + [72]Cycling
+     * [73]Follow
+          + [74]Instagram
+          + [75]Facebook
+          + [76]Twitter
+          + [77]YouTube
+          + [78]Flipboard
+     * [79]Newsletter
+     * [80]Gear Patrol Magazine
+     * [81]Gear Patrol Studios
+     * [82]Videos
+     * [83]Library of Pursuits
+     * [84]About Gear Patrol
+     * [85]Advertise with Us
 
-     * [92]Your Privacy Choices
+     * [86]Your Privacy Choices
 
-   [93]Privacy Notice/Notice at Collection [94]Terms of Use
+   [87]Privacy Notice/Notice at Collection [88]Terms of Use
 
-     * [95]Today in Gear
-     * [96]Reviews
-     * [97]Buying Guides
-     * [98]Deals
-     * [99]Studios
+     * [89]Today in Gear
+     * [90]Reviews
+     * [91]Buying Guides
+     * [92]Deals
+     * [93]Studios
 
-   [100]Magazine
+   [94]Newsletter
 
    ____________________ Type keyword(s) to search
 
-   Every product is [101]carefully selected by our editors. If you buy
-   from a link, [102]we may earn a commission.
+   Today's Top Stories
+   1
+   Need a New Stove Hood? Shop Hauslane
+   Presented by
+   Hauslane
+   2
+   Meet the Limited-Edition Dr Pepper® GMT Watch
+   Presented by
+   Jack Mason
+   3
+   The 2024 Fitness Awards Full List of Winners
+   4
+   G-SHOCK's New MUDMASTER Thrives in Extremes
+   Presented by
+   G Shock
+   5
+   21 Vinyl Records Every Collection Should Have
 
-   tascam portastudio 414 mk 2 on a desk
-   Eric Limer
+   Every product is [95]carefully selected by our editors. If you buy from
+   a link, [96]we may earn a commission.
 
-    1. [103]Tech
+    1. [97]Tech
 
-     [104]Audio
+     [98]Audio
 
-     [105]This Four-Track Tape Recorder Made Me Fall In Love With Music
-   All Over Again
+     [99]This Four-Track Tape Recorder Made Me Fall In Love With Music All
+   Over Again
 
   This Four-Track Tape Recorder Made Me Fall In Love With Music All Over Again
 
    The cassette is still cool.
 
-   By [106]Eric Limer
-   Oct 11, 2023
+   By [100]Eric Limer
+   Updated: Dec 22, 2023
+
+   tascam portastudio 414 mk 2 on a desk
+   Eric Limer
 
    For the past ten years or so I've been a musical rut, playing the same
    half-dozen, half-written songs on guitar once every other blue moon and
@@ -134,13 +146,13 @@
    choirs, garage bands, and a cappella groups, I’ve been involved in
    organized (but never professional) music-making for the better part of
    several decades. But, after so long uninspired, I thought that maybe
-   the musical part of my life was mostly behind me. Until the [107]Tascam
+   the musical part of my life was mostly behind me. Until the [101]Tascam
    Portastudio 414 MKII brought it all flooding back.
 
      * Tascam Portastudio 414 MKII 4-Track Cassette Recorder
-       [108]$475 AT REVERB.COM
-       [109]Read More
-       [110]$475 AT REVERB.COM
+       [102]$475 AT REVERB.COM
+       [103]Read More
+       [104]$475 AT REVERB.COM
 
    Released at the tail end of the 90s, the Portastudio 414 MKII harkens
    back to a time before MacBooks shipped with Garageband. If you wanted
@@ -149,10 +161,10 @@
    something like this lovely big blue beast. And make no mistake, this
    chunky boy can deliver if you've got the chops. Bruce Springsteen's
    Nebraska, a few early Ween records, and some vintage Weird Al tunes
-   [111]were all recorded on a Portastudio of one make or another. More
+   [105]were all recorded on a Portastudio of one make or another. More
    recently, Nine Inch Nails' Alessandro Cortini has been almost single
    handedly responsible for making the 414 MKII in particular cool again
-   with [112]his unorthodox (and extremely sick) use of the device as an
+   with [106]his unorthodox (and extremely sick) use of the device as an
    instrument in live performance.
    Eric Limer
 
@@ -160,7 +172,7 @@ Tascam Portastudio 414 MKII 4-Track Cassette Recorder
 
    reverb.com
    $475.00
-   [113]SHOP NOW
+   [107]SHOP NOW
 
    The 414 MK II lets you record four independent tracks to a humble
    cassette tape, just enough room for bass, guitar, vocals, and drums,
@@ -193,7 +205,7 @@ Tascam Portastudio 414 MKII 4-Track Cassette Recorder
    actually want that telltale hiss).
    Eric Limer
 
-   The joy of working in an analog medium, as [114]lovers of film
+   The joy of working in an analog medium, as [108]lovers of film
    photography can attest, is both the friction and the flavor it brings.
    Light leaks can spice up an otherwise average photograph. A little tape
    hiss can give your jam that extra flair. The cost, of course, is that
@@ -204,7 +216,7 @@ Tascam Portastudio 414 MKII 4-Track Cassette Recorder
    artist nor a remotely competent audio engineer.
 
    After a few hours of trying and failing to adequately record the
-   beat-to-shit [115]Yamaha FG-335II I stole from my dad on my way to
+   beat-to-shit [109]Yamaha FG-335II I stole from my dad on my way to
    college 16 years ago with a unidirectional dynamic mic not remotely fit
    for the task, I tripped and fell into a whole other rabbit hole. What
    you really need, the gear gremlin between my ears sweetly whispered, is
@@ -223,8 +235,8 @@ Featured in this track:
    Korg Volca Keys
    Korg amazon.com
    $237.00
-   $147.99 (38% off)
-   [116]SHOP NOW
+   $149.99 (37% off)
+   [110]SHOP NOW
 
    Arguably the cornerstone of Korg's budget "Volca" line, the Volca Keys
    has old-school analog circuitry, basic sequencer functionality and
@@ -234,12 +246,12 @@ Featured in this track:
    Korg NTS Digital Synth Kit 1
    Korg NTS Digital Synth Kit 1
    Korg amazon.com
-   $95.00
-   [117]SHOP NOW
+   $115.99
+   [111]SHOP NOW
 
    You have to assemble this tiny, digital synth yourself, but it packs a
    ton of functionality into an itty bitty and affordable package. It
-   supports [118]a library of community-programmed instrument sounds and
+   supports [112]a library of community-programmed instrument sounds and
    effects and doubles as a capable FX pedal for my other gear thanks to
    its passthrough reverb, chorus and modulation effects.
    Arturia KeyStep 32-Key Controller
@@ -247,7 +259,7 @@ Featured in this track:
    Arturia amazon.com
    $149.00
    $129.00 (13% off)
-   [119]SHOP NOW
+   [113]SHOP NOW
 
    My Korgs all sport touchpad keyboards that are... technically
    functional. If you want any sort of precision, an external MIDI
@@ -257,7 +269,7 @@ Featured in this track:
    Korg Volca Sample 2 Korg Volca Sample 2
    Korg guitarcenter.com
    $109.99
-   [120]SHOP NOW
+   [114]SHOP NOW
 
    It's not a drum machine, but I used it as one because it comes
    preloaded with a number of drum recordings (and other sound clips) and
@@ -285,8 +297,8 @@ Featured in this track:
    has taken me away from analog, and towards digital devices that can
    synthesize and sequence a song’s worth of instruments inside themselves
    (still no computer screens allowed). At the moment, I’m in love with my
-   [121]"Woovebox," a petite-but-powerful one-person labor of love out of
-   Australia, while I simultaneously lust after [122]the wickedly slick,
+   [115]"Woovebox," a petite-but-powerful one-person labor of love out of
+   Australia, while I simultaneously lust after [116]the wickedly slick,
    murdered-out Dirtywave M8 Tracker, a Gameboy-sized studio in a
    handheld.
 
@@ -299,258 +311,258 @@ Featured in this track:
    it's that the odds are very high I'll come crawling back to cassette.
 
      * Tascam Portastudio 414 MKII 4-Track Cassette Recorder
-       [123]$475 AT REVERB.COM
-       [124]Read More
-       [125]$475 AT REVERB.COM
+       [117]$475 AT REVERB.COM
+       [118]Read More
+       [119]$475 AT REVERB.COM
 
    Related Stories
    The Best Vintage Cassette Tape Players
    The Comeback of the Classic Cassette
+   Advertisement - Continue Reading Below
 
    (BUTTON)
 
-   More From [126]Audio
-   The Best Dolby Atmos Soundbars of 2023
-   These Turntable and Speaker Combos Make Vinyl Easy
+   More From [120]Audio
+   21 Vinyl Records Every Collection Should Have
+   The Best Audio Gadgets Announced at CES 2024
      __________________________________________________________________
 
    Advertisement - Continue Reading Below
-   The Best Accessories for Your Sonos Speakers
+   The Best Floorstanding Speakers Under $1,000
      __________________________________________________________________
 
-   6 Tricks All Sonos Owners Should Know
+   The Argument Against the "Do It All" Speaker
      __________________________________________________________________
 
-   How to Play Vinyl Records on Your Sonos Speakers
-   AirPods Pro Don’t Fit Your Ears? Get These
+   Why Your Sound System Needs a Wireless Subwoofer
+   The Most Interesting Hi-Fi and Audio Gear of 2023
      __________________________________________________________________
      __________________________________________________________________
 
-   The Best Cheap Wireless Earbuds (All Under $100)
-   The New Sony WF-1000XM5 Are Elite Wireless Earbuds
+   Apple Might've Solved Your Biggest Soundbar Gripe
+   Our 11 Favorite Headphones We Tested in 2023
      __________________________________________________________________
 
-   Update Your AirPods and Get More Features
+   The Best Multi-Room Wireless Speakers of 2023
      __________________________________________________________________
 
-   Your AirPods Pro Just Got Way Better — Here's How
+   The Argument Against a Wireless Hi-Fi System
      __________________________________________________________________
 
-     * [127]About Us
-     * [128]Today in Gear
-     * [129]Deals
-     * [130]Gift Guides
-     * [131]DPReview
-     * [132]Watches
-     * [133]Motoring
-     * [134]Style
-     * [135]Outdoors
-     * [136]Fitness
-     * [137]Food and Drink
-     * [138]Home
-     * [139]Tech
-     * [140]Gear Patrol Magazine
-     * [141]Newsletters
-     * [142]Gear Patrol Studios
-     * [143]How We Test Products
-     * [144]Advertise
-     * [145]Licensing and Accolades
-     * [146]RSS
+     * [121]About Us
+     * [122]Today in Gear
+     * [123]Deals
+     * [124]Gift Guides
+     * [125]DPReview
+     * [126]Watches
+     * [127]Motoring
+     * [128]Style
+     * [129]Outdoors
+     * [130]Fitness
+     * [131]Food and Drink
+     * [132]Home
+     * [133]Tech
+     * [134]Gear Patrol Magazine
+     * [135]Newsletters
+     * [136]Gear Patrol Studios
+     * [137]How We Test Products
+     * [138]Advertise
+     * [139]Licensing and Accolades
+     * [140]RSS
 
    Gear Patrol – For Life's Pursuits Gear Patrol participates in various
    affiliate marketing programs, which means we may get paid commissions
    on editorially chosen products purchased through our links to retailer
    sites.
-   ©2023 Gear Patrol, LLC. All Rights Reserved.
-     * [147]Privacy Notice
-     * [148]CA Notice at Collection
-     * [149]Your CA Privacy Rights/Shine the Light
-     * [150]DAA Industry Opt Out
-     * [151]Terms Of Use
-     * [152]Sitemap
+   ©2024 Gear Patrol, LLC. All Rights Reserved.
+     * [141]Privacy Notice
+     * [142]CA Notice at Collection
+     * [143]Your CA Privacy Rights/Shine the Light
+     * [144]DAA Industry Opt Out
+     * [145]Terms Of Use
+     * [146]Sitemap
 
-   [153]Your Privacy Choices: Opt Out of Sale/Targeted Ads
+   [147]Your Privacy Choices: Opt Out of Sale/Targeted Ads
 
 References
 
    Visible links:
-   1. file:///
-   2. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L75009-3138TMP.html#searchoverlay
-   3. file:///briefings/today-in-gear/
+   1. https://www.gearpatrol.com/
+   2. https://www.gearpatrol.com/tech/audio/a45461959/tascam-portastudio-414-mkii/#searchoverlay
+   3. https://www.gearpatrol.com/briefings/today-in-gear/
    4. https://www.gearpatrol.com/deals/a34849668/best-deals/
-   5. https://www.gearpatrol.com/deals/a35785047/best-grills-on-sale/
-   6. https://www.gearpatrol.com/deals/a35730687/patio-furniture-sales/
-   7. file:///deals/a37854345/best-fitness-gear-deals/
-   8. https://www.gearpatrol.com/deals/a34847479/mens-clothing-sale/
-   9. https://www.gearpatrol.com/deals/a655645/best-mattress-deals/
-  10. https://www.gearpatrol.com/deals/a35854645/best-outdoor-gear-deals/
-  11. https://www.gearpatrol.com/deals/a37867872/furniture-sale/
-  12. https://www.gearpatrol.com/gift-guides/
-  13. https://www.gearpatrol.com/gear-awards/
-  14. https://www.gearpatrol.com/home/a43576931/home-awards-2023/
-  15. https://www.gearpatrol.com/home/a43496144/cannabis-awards-2023/
-  16. https://www.gearpatrol.com/fitness/a42254287/fitness-awards-2023/
-  17. https://www.gearpatrol.com/outdoors/a44116782/outdoor-awards-2023/
-  18. https://www.gearpatrol.com/briefings/a41917334/2022-gp100-best-products-of-the-year/
-  19. file:///buying-guides/
-  20. file:///watch-buying-guides/
-  21. file:///drink-buying-guides/
-  22. file:///home-buying-guides/
-  23. file:///tech-buying-guides/
-  24. file:///car-motorcycle-buying-guides/
-  25. file:///fitness-buying-guides/
-  26. file:///style-buying-guides/
-  27. file:///outdoor-buying-guides/
-  28. file:///reviews/
-  29. file:///deep-dive/
-  30. file:///kind-of-obsessed/
-  31. file:///head-to-head-reviews/
-  32. file:///how-tos-explainers/
-  33. file:///counterpoint/
-  34. file:///further-details/
-  35. file:///product-support/
-  36. file:///watches/
-  37. file:///watches-you-should-know/
-  38. file:///dive-watches/
-  39. file:///dress-watches/
-  40. file:///vintage-watches/
-  41. file:///tool-watches/
-  42. file:///watch-accessories/
-  43. file:///cars/
-  44. file:///cars/motorcycles/
-  45. file:///classic-cars/
-  46. file:///suvs-trucks/
-  47. file:///adventure-vehicles/
-  48. file:///electric-vehicles/
-  49. file:///food/
-  50. file:///whiskey/
-  51. file:///cocktails/
-  52. file:///beer/
-  53. file:///coffee/
-  54. file:///home/
-  55. file:///kitchenware/
-  56. file:///office/
-  57. file:///weed/
-  58. file:///style/
-  59. file:///style/grooming/
-  60. file:///style-spotting/
-  61. file:///bags-luggage/
-  62. file:///style-accessories/
-  63. file:///tech/
-  64. file:///tech/audio/
-  65. file:///computers-laptops/
-  66. file:///cameras-photography/
-  67. file:///televisions/
-  68. file:///smartphones/
-  69. file:///outdoors/
-  70. file:///knives-multitools/
-  71. file:///camping/
-  72. file:///hiking-climbing/
-  73. file:///skiing-snowboarding/
-  74. file:///fitness/
-  75. file:///fitness/health-wellness/
-  76. file:///training-recovery/
-  77. file:///running/
-  78. file:///biking/
-  79. file:///about/
-  80. https://www.instagram.com/gearpatrol/
-  81. https://www.facebook.com/gearpatrol
-  82. https://twitter.com/gearpatrol
-  83. https://www.youtube.com/user/gearpatrol
-  84. https://flipboard.com/@GearPatrol
-  85. https://email.gearpatrol.com/subscribe
-  86. https://www.gearpatrol.com/about/a40849193/about-gear-patrol-magazine/
-  87. https://studios.gearpatrol.com/
-  88. file:///videos/
-  89. https://email.gearpatrol.com/library-of-pursuits
-  90. https://www.gearpatrol.com/about/a2281/about/
-  91. https://studios.gearpatrol.com/contact/
-  92. file:///about/a42158740/do-not-sell-my-personal-information/
-  93. https://www.hearst.com/-/us-magazines-privacy-notice
-  94. https://www.hearst.com/-/us-magazines-terms-of-use
-  95. file:///today-in-gear
-  96. file:///reviews/
-  97. file:///buying-guides
-  98. file:///deals/
-  99. https://studios.gearpatrol.com/
- 100. https://store.gearpatrol.com/collections/gear-patrol-magazine-issue-twenty/products/gear-patrol-magazine-subscription
- 101. https://www.gearpatrol.com/about/a43276360/how-we-evaluate-products/
- 102. https://www.gearpatrol.com/about/a2281/about/#:~:text=Affiliate Disclosure Statement,price as a referral fee.
- 103. https://www.gearpatrol.com/tech/
- 104. https://www.gearpatrol.com/tech/audio/
- 105. https://www.gearpatrol.com/tech/audio/a45461959/tascam-portastudio-414-mkii/
- 106. file:///author/225861/eric-limer/
- 107. https://go.redirectingat.com/?id=31959X896062&xs=1&url=https://reverb.com/p/tascam-414-mkii&sref=https://www.gearpatrol.com/tech/audio/a45461959/tascam-portastudio-414-mkii/
- 108. https://go.redirectingat.com/?id=31959X896062&url=https://reverb.com/marketplace?product_type=pro-audio&query=TASCAM+Portastudio+414+MKII+4-Track+Cassette+Recorder
- 109. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L75009-3138TMP.html#product-1018365f-aed1-4bbd-86ea-466ab005acb7-anchor
- 110. https://go.redirectingat.com/?id=31959X896062&url=https://reverb.com/marketplace?product_type=pro-audio&query=TASCAM+Portastudio+414+MKII+4-Track+Cassette+Recorder
- 111. https://mixdownmag.com.au/features/the-10-best-recordings-on-the-iconic-tascam-portastudio/
- 112. https://www.youtube.com/watch?v=11BP4Pe8iYk
- 113. https://go.redirectingat.com/?id=31959X896062&url=https://reverb.com/marketplace?product_type=pro-audio&query=TASCAM+Portastudio+414+MKII+4-Track+Cassette+Recorder
- 114. https://www.gearpatrol.com/tech/a43946858/formula-1-film-photography-tips/
- 115. https://terrifyingtonetrip.wordpress.com/2013/11/07/guitarsenal-early-80s-yamaha-fg335ii-acoustic/
- 116. https://www.amazon.com/dp/B00CAKSVTU
- 117. https://www.amazon.com/dp/B07XH591BH
- 118. https://korginc.github.io/logue-sdk/unit-index/
- 119. https://www.amazon.com/dp/B01BPSBU40
- 120. https://go.redirectingat.com/?id=31959X896062&url=https://www.guitarcenter.com/KORG/Volca-Sample-2-Digital-Sample-Sequencer-White-1500000332703.gc
- 121. https://www.woovebox.com/
- 122. https://dirtywave.com/
- 123. https://go.redirectingat.com/?id=31959X896062&url=https://reverb.com/marketplace?product_type=pro-audio&query=TASCAM+Portastudio+414+MKII+4-Track+Cassette+Recorder
- 124. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L75009-3138TMP.html#product-1018365f-aed1-4bbd-86ea-466ab005acb7-anchor
- 125. https://go.redirectingat.com/?id=31959X896062&url=https://reverb.com/marketplace?product_type=pro-audio&query=TASCAM+Portastudio+414+MKII+4-Track+Cassette+Recorder
- 126. file:///tech/audio/
- 127. file:///about/a2281/about/
- 128. file:///briefings/today-in-gear/
- 129. file:///deals/
- 130. file:///gift-guides/
- 131. https://www.dpreview.com/
- 132. file:///watches/
- 133. file:///cars/
- 134. file:///style/
- 135. file:///outdoors/
- 136. file:///fitness/
- 137. file:///food/
- 138. file:///home/
- 139. file:///tech/
- 140. file:///about/a40849193/about-gear-patrol-magazine/
- 141. https://email.gearpatrol.com/subscribe
- 142. https://studios.gearpatrol.com/
- 143. file:///about/a43276360/how-we-evaluate-products/
- 144. https://studios.gearpatrol.com/contact/
- 145. https://info.wrightsmedia.com/gearpatrol-licensing-reprints
- 146. file:///rss/all.xml/
- 147. https://www.hearst.com/-/us-magazines-privacy-notice
- 148. https://www.hearst.com/-/us-magazines-privacy-notice#_ADDITIONAL_INFO
- 149. https://www.hearst.com/-/us-magazines-privacy-notice#_ADDITIONAL_INFO
- 150. https://www.hearst.com/-/us-magazines-privacy-notice#_OPT_OUTS
- 151. https://www.hearst.com/-/us-magazines-terms-of-use
- 152. file:///sitemap/
- 153. file:///about/a42158740/do-not-sell-my-personal-information/
+   5. https://www.gearpatrol.com/gift-guides/
+   6. https://www.gearpatrol.com/gear-awards/
+   7. https://www.gearpatrol.com/style/a45302846/gear-patrol-style-awards-2023/
+   8. https://www.gearpatrol.com/tech/a45619555/tech-awards-2023/
+   9. https://www.gearpatrol.com/home/a43576931/home-awards-2023/
+  10. https://www.gearpatrol.com/outdoors/a44116782/outdoor-awards-2023/
+  11. https://www.gearpatrol.com/fitness/a42254287/fitness-awards-2023/
+  12. https://www.gearpatrol.com/home/a43496144/cannabis-awards-2023/
+  13. https://www.gearpatrol.com/buying-guides/
+  14. https://www.gearpatrol.com/watch-buying-guides/
+  15. https://www.gearpatrol.com/drink-buying-guides/
+  16. https://www.gearpatrol.com/home-buying-guides/
+  17. https://www.gearpatrol.com/tech-buying-guides/
+  18. https://www.gearpatrol.com/car-motorcycle-buying-guides/
+  19. https://www.gearpatrol.com/fitness-buying-guides/
+  20. https://www.gearpatrol.com/style-buying-guides/
+  21. https://www.gearpatrol.com/outdoor-buying-guides/
+  22. https://www.gearpatrol.com/reviews/
+  23. https://www.gearpatrol.com/deep-dive/
+  24. https://www.gearpatrol.com/kind-of-obsessed/
+  25. https://www.gearpatrol.com/head-to-head-reviews/
+  26. https://www.gearpatrol.com/how-tos-explainers/
+  27. https://www.gearpatrol.com/counterpoint/
+  28. https://www.gearpatrol.com/further-details/
+  29. https://www.gearpatrol.com/product-support/
+  30. https://www.gearpatrol.com/watches/
+  31. https://www.gearpatrol.com/watches-you-should-know/
+  32. https://www.gearpatrol.com/dive-watches/
+  33. https://www.gearpatrol.com/dress-watches/
+  34. https://www.gearpatrol.com/vintage-watches/
+  35. https://www.gearpatrol.com/tool-watches/
+  36. https://www.gearpatrol.com/watch-accessories/
+  37. https://www.gearpatrol.com/cars/
+  38. https://www.gearpatrol.com/cars/motorcycles/
+  39. https://www.gearpatrol.com/classic-cars/
+  40. https://www.gearpatrol.com/suvs-trucks/
+  41. https://www.gearpatrol.com/adventure-vehicles/
+  42. https://www.gearpatrol.com/electric-vehicles/
+  43. https://www.gearpatrol.com/food/
+  44. https://www.gearpatrol.com/whiskey/
+  45. https://www.gearpatrol.com/cocktails/
+  46. https://www.gearpatrol.com/beer/
+  47. https://www.gearpatrol.com/coffee/
+  48. https://www.gearpatrol.com/home/
+  49. https://www.gearpatrol.com/kitchenware/
+  50. https://www.gearpatrol.com/office/
+  51. https://www.gearpatrol.com/weed/
+  52. https://www.gearpatrol.com/style/
+  53. https://www.gearpatrol.com/style/grooming/
+  54. https://www.gearpatrol.com/style-spotting/
+  55. https://www.gearpatrol.com/bags-luggage/
+  56. https://www.gearpatrol.com/style-accessories/
+  57. https://www.gearpatrol.com/tech/
+  58. https://www.gearpatrol.com/tech/audio/
+  59. https://www.gearpatrol.com/computers-laptops/
+  60. https://www.gearpatrol.com/cameras-photography/
+  61. https://www.gearpatrol.com/televisions/
+  62. https://www.gearpatrol.com/smartphones/
+  63. https://www.gearpatrol.com/outdoors/
+  64. https://www.gearpatrol.com/knives-multitools/
+  65. https://www.gearpatrol.com/camping/
+  66. https://www.gearpatrol.com/hiking-climbing/
+  67. https://www.gearpatrol.com/skiing-snowboarding/
+  68. https://www.gearpatrol.com/fitness/
+  69. https://www.gearpatrol.com/fitness/health-wellness/
+  70. https://www.gearpatrol.com/training-recovery/
+  71. https://www.gearpatrol.com/running/
+  72. https://www.gearpatrol.com/biking/
+  73. https://www.gearpatrol.com/about/
+  74. https://www.instagram.com/gearpatrol/
+  75. https://www.facebook.com/gearpatrol
+  76. https://twitter.com/gearpatrol
+  77. https://www.youtube.com/user/gearpatrol
+  78. https://flipboard.com/@GearPatrol
+  79. https://email.gearpatrol.com/subscribe
+  80. https://www.gearpatrol.com/about/a40849193/about-gear-patrol-magazine/
+  81. https://studios.gearpatrol.com/
+  82. https://www.gearpatrol.com/videos/
+  83. https://email.gearpatrol.com/library-of-pursuits
+  84. https://www.gearpatrol.com/about/a2281/about/
+  85. https://studios.gearpatrol.com/contact/
+  86. https://www.gearpatrol.com/about/a42158740/do-not-sell-my-personal-information/
+  87. https://www.hearst.com/-/us-magazines-privacy-notice
+  88. https://www.hearst.com/-/us-magazines-terms-of-use
+  89. https://www.gearpatrol.com/today-in-gear
+  90. https://www.gearpatrol.com/reviews/
+  91. https://www.gearpatrol.com/buying-guides
+  92. https://www.gearpatrol.com/deals/a34849668/best-deals/
+  93. https://studios.gearpatrol.com/
+  94. https://email.gearpatrol.com/subscribe
+  95. https://www.gearpatrol.com/about/a43276360/how-we-evaluate-products/
+  96. https://www.gearpatrol.com/about/a2281/about/#:~:text=Affiliate Disclosure Statement,price as a referral fee.
+  97. https://www.gearpatrol.com/tech/
+  98. https://www.gearpatrol.com/tech/audio/
+  99. https://www.gearpatrol.com/tech/audio/a45461959/tascam-portastudio-414-mkii/
+ 100. https://www.gearpatrol.com/author/225861/eric-limer/
+ 101. https://go.redirectingat.com/?id=31959X896062&xs=1&url=https://reverb.com/p/tascam-414-mkii&sref=https://www.gearpatrol.com/tech/audio/a45461959/tascam-portastudio-414-mkii/
+ 102. https://go.redirectingat.com/?id=31959X896062&url=https://reverb.com/marketplace?product_type=pro-audio&query=TASCAM+Portastudio+414+MKII+4-Track+Cassette+Recorder
+ 103. https://www.gearpatrol.com/tech/audio/a45461959/tascam-portastudio-414-mkii/#product-1018365f-aed1-4bbd-86ea-466ab005acb7-anchor
+ 104. https://go.redirectingat.com/?id=31959X896062&url=https://reverb.com/marketplace?product_type=pro-audio&query=TASCAM+Portastudio+414+MKII+4-Track+Cassette+Recorder
+ 105. https://mixdownmag.com.au/features/the-10-best-recordings-on-the-iconic-tascam-portastudio/
+ 106. https://www.youtube.com/watch?v=11BP4Pe8iYk
+ 107. https://go.redirectingat.com/?id=31959X896062&url=https://reverb.com/marketplace?product_type=pro-audio&query=TASCAM+Portastudio+414+MKII+4-Track+Cassette+Recorder
+ 108. https://www.gearpatrol.com/tech/a43946858/formula-1-film-photography-tips/
+ 109. https://terrifyingtonetrip.wordpress.com/2013/11/07/guitarsenal-early-80s-yamaha-fg335ii-acoustic/
+ 110. https://www.amazon.com/dp/B00CAKSVTU
+ 111. https://www.amazon.com/dp/B07XH591BH
+ 112. https://korginc.github.io/logue-sdk/unit-index/
+ 113. https://www.amazon.com/dp/B01BPSBU40
+ 114. https://go.redirectingat.com/?id=31959X896062&url=https://www.guitarcenter.com/KORG/Volca-Sample-2-Digital-Sample-Sequencer-White-1500000332703.gc
+ 115. https://www.woovebox.com/
+ 116. https://dirtywave.com/
+ 117. https://go.redirectingat.com/?id=31959X896062&url=https://reverb.com/marketplace?product_type=pro-audio&query=TASCAM+Portastudio+414+MKII+4-Track+Cassette+Recorder
+ 118. https://www.gearpatrol.com/tech/audio/a45461959/tascam-portastudio-414-mkii/#product-1018365f-aed1-4bbd-86ea-466ab005acb7-anchor
+ 119. https://go.redirectingat.com/?id=31959X896062&url=https://reverb.com/marketplace?product_type=pro-audio&query=TASCAM+Portastudio+414+MKII+4-Track+Cassette+Recorder
+ 120. https://www.gearpatrol.com/tech/audio/
+ 121. https://www.gearpatrol.com/about/a2281/about/
+ 122. https://www.gearpatrol.com/briefings/today-in-gear/
+ 123. https://www.gearpatrol.com/deals/
+ 124. https://www.gearpatrol.com/gift-guides/
+ 125. https://www.dpreview.com/
+ 126. https://www.gearpatrol.com/watches/
+ 127. https://www.gearpatrol.com/cars/
+ 128. https://www.gearpatrol.com/style/
+ 129. https://www.gearpatrol.com/outdoors/
+ 130. https://www.gearpatrol.com/fitness/
+ 131. https://www.gearpatrol.com/food/
+ 132. https://www.gearpatrol.com/home/
+ 133. https://www.gearpatrol.com/tech/
+ 134. https://www.gearpatrol.com/about/a40849193/about-gear-patrol-magazine/
+ 135. https://email.gearpatrol.com/subscribe
+ 136. https://studios.gearpatrol.com/
+ 137. https://www.gearpatrol.com/about/a43276360/how-we-evaluate-products/
+ 138. https://studios.gearpatrol.com/contact/
+ 139. https://info.wrightsmedia.com/gearpatrol-licensing-reprints
+ 140. https://www.gearpatrol.com/rss/all.xml/
+ 141. https://www.hearst.com/-/us-magazines-privacy-notice
+ 142. https://www.hearst.com/-/us-magazines-privacy-notice#_ADDITIONAL_INFO
+ 143. https://www.hearst.com/-/us-magazines-privacy-notice#_ADDITIONAL_INFO
+ 144. https://www.hearst.com/-/us-magazines-privacy-notice#_OPT_OUTS
+ 145. https://www.hearst.com/-/us-magazines-terms-of-use
+ 146. https://www.gearpatrol.com/sitemap/
+ 147. https://www.gearpatrol.com/about/a42158740/do-not-sell-my-personal-information/
 
    Hidden links:
- 155. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L75009-3138TMP.html
- 156. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L75009-3138TMP.html
- 157. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L75009-3138TMP.html#sidepanel
- 158. file://localhost/
- 159. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L75009-3138TMP.html
+ 149. https://www.gearpatrol.com/tech/audio/a45461959/tascam-portastudio-414-mkii/
+ 150. https://www.gearpatrol.com/tech/audio/a45461959/tascam-portastudio-414-mkii/
+ 151. https://www.gearpatrol.com/tech/audio/a45461959/tascam-portastudio-414-mkii/#sidepanel
+ 152. https://www.gearpatrol.com/
+ 153. https://www.gearpatrol.com/tech/audio/a45461959/tascam-portastudio-414-mkii/
+ 154. https://www.gearpatrol.com/briefings/today-in-gear/a45455318/tig-hauslane/
+ 155. https://www.gearpatrol.com/watches/a45446440/meet-the-limited-edition-dr-pepper-gmt-watch/
+ 156. https://www.gearpatrol.com/fitness/a46086061/2024-fitness-awards/
+ 157. https://www.gearpatrol.com/watches/a45415037/product-compedium-template-1696265870/
+ 158. https://www.gearpatrol.com/tech/audio/a44118957/best-vinyl-records-picked-by-experts/
+ 159. https://go.redirectingat.com/?id=31959X896062&url=https%3A%2F%2Freverb.com%2Fmarketplace%3Fproduct_type%3Dpro-audio%26query%3DTASCAM+Portastudio+414+MKII+4-Track+Cassette+Recorder
  160. https://go.redirectingat.com/?id=31959X896062&url=https%3A%2F%2Freverb.com%2Fmarketplace%3Fproduct_type%3Dpro-audio%26query%3DTASCAM+Portastudio+414+MKII+4-Track+Cassette+Recorder
  161. https://go.redirectingat.com/?id=31959X896062&url=https%3A%2F%2Freverb.com%2Fmarketplace%3Fproduct_type%3Dpro-audio%26query%3DTASCAM+Portastudio+414+MKII+4-Track+Cassette+Recorder
- 162. https://go.redirectingat.com/?id=31959X896062&url=https%3A%2F%2Freverb.com%2Fmarketplace%3Fproduct_type%3Dpro-audio%26query%3DTASCAM+Portastudio+414+MKII+4-Track+Cassette+Recorder
- 163. file://localhost/tech/audio/a41601961/vintage-cassette-player/
- 164. file://localhost/tech/a36356719/cassette-tape-player-revival/
- 165. file://localhost/tech/audio/a44446015/best-atmos-soundbars/
- 166. file://localhost/tech/audio/a553650/best-vinyl-setups/
- 167. file://localhost/tech/audio/a36511887/best-sonos-accessories/
- 168. file://localhost/tech/audio/a36792654/sonos-speaker-settings-to-change/
- 169. file://localhost/tech/audio/a36877979/how-to-connect-bluetooth-turntable-sonos-roam/
- 170. file://localhost/tech/audio/a726852/airpods-pro-comply-eartips/
- 171. file://localhost/tech/audio/a45549852/best-wireless-earbuds-under-100/
- 172. file://localhost/tech/audio/a44590793/sony-wf-1000xm5-wireless-earbuds-review/
- 173. file://localhost/tech/audio/a34056968/how-to-update-your-airpods-pro/
- 174. file://localhost/tech/audio/a45507522/airpods-pro-new-features/
- 175. file://localhost/
- 176. https://www.facebook.com/gearpatrol/
- 177. https://twitter.com/gearpatrol
- 178. https://www.youtube.com/gearpatrol
- 179. https://www.instagram.com/gearpatrol/
+ 162. https://www.gearpatrol.com/tech/audio/a41601961/vintage-cassette-player/
+ 163. https://www.gearpatrol.com/tech/a36356719/cassette-tape-player-revival/
+ 164. https://www.gearpatrol.com/tech/audio/a44118957/best-vinyl-records-picked-by-experts/
+ 165. https://www.gearpatrol.com/tech/audio/a46326970/best-audio-ces-2024/
+ 166. https://www.gearpatrol.com/tech/audio/a42030769/best-floorstanding-speakers/
+ 167. https://www.gearpatrol.com/tech/audio/a46260579/modern-speakers-trend/
+ 168. https://www.gearpatrol.com/tech/audio/a46275100/best-wireless-subwoofer/
+ 169. https://www.gearpatrol.com/tech/audio/a46168154/best-new-hi-fi-audio-gear-2023/
+ 170. https://www.gearpatrol.com/tech/audio/a45908277/apple-tv-volume-control-setting/
+ 171. https://www.gearpatrol.com/tech/audio/a46200182/favorite-headphones-2023/
+ 172. https://www.gearpatrol.com/tech/audio/a360311/best-wireless-multiroom-speakers/
+ 173. https://www.gearpatrol.com/tech/audio/a33809800/hi-fi-wireless-sound-quality-explained/
+ 174. https://www.gearpatrol.com/
+ 175. https://www.facebook.com/gearpatrol/
+ 176. https://twitter.com/gearpatrol
+ 177. https://www.youtube.com/gearpatrol
+ 178. https://www.instagram.com/gearpatrol/

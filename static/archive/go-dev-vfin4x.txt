@@ -1,69 +1,75 @@
    IFRAME: [1]https://www.googletagmanager.com/ns.html?id=GTM-W8MVQXG
 
    [2]Go
-     * [3]Why Go arrow_drop_down
-          + [4]Case Studies
+   [3]Skip to Main Content
+     * [4]Why Go arrow_drop_down
+       Press Enter to activate/deactivate dropdown
+          + [5]Case Studies
             Common problems companies solve with Go
-          + [5]Use Cases
+          + [6]Use Cases
             Stories about how and why companies use Go
-          + [6]Security
+          + [7]Security
             How Go can help keep you secure by default
-     * [7]Learn
-     * [8]Docs arrow_drop_down
-          + [9]Effective Go
+     * [8]Learn
+       Press Enter to activate/deactivate dropdown
+     * [9]Docs arrow_drop_down
+       Press Enter to activate/deactivate dropdown
+          + [10]Effective Go
             Tips for writing clear, performant, and idiomatic Go code
-          + [10]Go User Manual
+          + [11]Go User Manual
             A complete introduction to building software with Go
-          + [11]Standard library
+          + [12]Standard library
             Reference documentation for Go's standard library
-          + [12]Release Notes
+          + [13]Release Notes
             Learn what's new in each Go release
-     * [13]Packages
-     * [14]Community arrow_drop_down
-          + [15]Recorded Talks
+     * [14]Packages
+       Press Enter to activate/deactivate dropdown
+     * [15]Community arrow_drop_down
+       Press Enter to activate/deactivate dropdown
+          + [16]Recorded Talks
             Videos from prior events
-          + [16]Meetups open_in_new
+          + [17]Meetups open_in_new
             Meet other local Go developers
-          + [17]Conferences open_in_new
+          + [18]Conferences open_in_new
             Learn and network with Go developers from around the world
-          + [18]Go blog
+          + [19]Go blog
             The Go project's official blog.
-          + [19]Go project
+          + [20]Go project
             Get help and stay informed from Go
           + Get connected
-            [20][google-groups.svg] [21][github.svg] [22][twitter.svg]
-            [23][reddit.svg] [24][slack.svg] [25][stack-overflow.svg]
+            [21][google-groups.svg] [22][github.svg] [23][twitter.svg]
+            [24][reddit.svg] [25][slack.svg] [26][stack-overflow.svg]
 
    (BUTTON)
 
-   [26]Go.
+   [27]Go.
 
-     * [27]Why Go navigate_next
-       [28]navigate_beforeWhy Go
-          + [29]Case Studies
-          + [30]Use Cases
-          + [31]Security
-     * [32]Learn
-     * [33]Docs navigate_next
-       [34]navigate_beforeDocs
-          + [35]Effective Go
-          + [36]Go User Manual
-          + [37]Standard library
-          + [38]Release Notes
-     * [39]Packages
-     * [40]Community navigate_next
-       [41]navigate_beforeCommunity
-          + [42]Recorded Talks
-          + [43]Meetups open_in_new
-          + [44]Conferences open_in_new
-          + [45]Go blog
-          + [46]Go project
+     * [28]Why Go navigate_next
+       [29]navigate_beforeWhy Go
+          + [30]Case Studies
+          + [31]Use Cases
+          + [32]Security
+     * [33]Learn
+     * [34]Docs navigate_next
+       [35]navigate_beforeDocs
+          + [36]Effective Go
+          + [37]Go User Manual
+          + [38]Standard library
+          + [39]Release Notes
+     * [40]Packages
+     * [41]Community navigate_next
+       [42]navigate_beforeCommunity
+          + [43]Recorded Talks
+          + [44]Meetups open_in_new
+          + [45]Conferences open_in_new
+          + [46]Go blog
+          + [47]Go project
           + Get connected
-            [47][google-groups.svg] [48][github.svg] [49][twitter.svg]
-            [50][reddit.svg] [51][slack.svg] [52][stack-overflow.svg]
+            [48][google-groups.svg] [49][github.svg] [50][twitter.svg]
+            [51][reddit.svg] [52][slack.svg] [53][stack-overflow.svg]
 
-    1. [53]Documentation
-    2. [54]Effective Go
+    1. [54]Documentation
+    2. [55]Effective Go
 
                                   Effective Go
 
@@ -83,8 +89,8 @@ Introduction
    other Go programmers to understand.
 
    This document gives tips for writing clear, idiomatic Go code. It
-   augments the [55]language specification, the [56]Tour of Go, and
-   [57]How to Write Go Code, all of which you should read first.
+   augments the [56]language specification, the [57]Tour of Go, and
+   [58]How to Write Go Code, all of which you should read first.
 
    Note added January, 2022: This document was written for Go's release in
    2009, and has not been updated significantly since. Although it is a
@@ -96,16 +102,16 @@ Introduction
    and growing set of documents, blogs, and books do a fine job of
    describing modern Go usage. Effective Go continues to be useful, but
    the reader should understand it is far from a complete guide. See
-   [58]issue 28782 for context.
+   [59]issue 28782 for context.
 
   Examples
 
-   The [59]Go package sources are intended to serve not only as the core
+   The [60]Go package sources are intended to serve not only as the core
    library but also as examples of how to use the language. Moreover, many
    of the packages contain working, self-contained executable examples you
-   can run directly from the [60]golang.org web site, such as [61]this one
-   (if necessary, click on the word "Example" to open it up). If you have
-   a question about how to approach a problem or how something might be
+   can run directly from the [61]go.dev web site, such as [62]this one (if
+   necessary, click on the word "Example" to open it up). If you have a
+   question about how to approach a problem or how something might be
    implemented, the documentation, code and examples in the library can
    provide answers, ideas and background.
 
@@ -173,7 +179,7 @@ Commentary
    Comments that appear before top-level declarations, with no intervening
    newlines, are considered to document the declaration itself. These “doc
    comments” are the primary documentation for a given Go package or
-   command. For more about doc comments, see “[62]Go Doc Comments”.
+   command. For more about doc comments, see “[63]Go Doc Comments”.
 
 Names
 
@@ -433,14 +439,14 @@ for _, value := range array {
     sum += value
 }
 
-   The blank identifier has many uses, as described in [63]a later
+   The blank identifier has many uses, as described in [64]a later
    section.
 
    For strings, the range does more work for you, breaking out individual
    Unicode code points by parsing the UTF-8. Erroneous encodings consume
    one byte and produce the replacement rune U+FFFD. (The name (with
    associated builtin type) rune is Go terminology for a single Unicode
-   code point. See [64]the language specification for details.) The loop
+   code point. See [65]the language specification for details.) The loop
 for pos, char := range "日本\x80語" { // \x80 is an illegal UTF-8 encoding
     fmt.Printf("character %#U starts at byte position %d\n", char, pos)
 }
@@ -1066,7 +1072,7 @@ func offset(tz string) int {
 }
 
    To test for presence in the map without worrying about the actual
-   value, you can use the [65]blank identifier (_) in place of the usual
+   value, you can use the [66]blank identifier (_) in place of the usual
    variable for the value.
 _, present := timeZone[tz]
 
@@ -1168,7 +1174,7 @@ fmt.Printf("%v\n", t)
    (If you need to print values of type T as well as pointers to T, the
    receiver for String must be of value type; this example used a pointer
    because that's more efficient and idiomatic for struct types. See the
-   section below on [66]pointers vs. value receivers for more
+   section below on [67]pointers vs. value receivers for more
    information.)
 
    Our String method is able to call Sprintf because the print routines
@@ -1192,7 +1198,7 @@ func (m MyString) String() string {
     return fmt.Sprintf("MyString=%s", string(m)) // OK: note conversion.
 }
 
-   In the [67]initialization section we'll see another technique that
+   In the [68]initialization section we'll see another technique that
    avoids this recursion.
 
    Another printing technique is to pass a print routine's arguments
@@ -1523,7 +1529,7 @@ func (s Sequence) String() string {
 
   Interface conversions and type assertions
 
-   [68]Type switches are a form of conversion: they take an interface and,
+   [69]Type switches are a form of conversion: they take an interface and,
    for each case in the switch, in a sense convert it to the type of that
    case. Here's a simplified version of how the code under fmt.Printf
    turns a value into a string using a type switch. If it's already a
@@ -1749,7 +1755,7 @@ http.Handle("/args", http.HandlerFunc(ArgServer))
 The blank identifier
 
    We've mentioned the blank identifier a couple of times now, in the
-   context of [69]for range loops and [70]maps. The blank identifier can
+   context of [70]for range loops and [71]maps. The blank identifier can
    be assigned or declared with any value of any type, with the value
    discarded harmlessly. It's a bit like writing to the Unix /dev/null
    file: it represents a write-only value to be used as a place-holder
@@ -1849,7 +1855,7 @@ func main() {
    eventually be used or removed: blank assignments identify code as a
    work in progress. But sometimes it is useful to import a package only
    for its side effects, without any explicit use. For example, during its
-   init function, the [71]net/http/pprof package registers HTTP handlers
+   init function, the [72]net/http/pprof package registers HTTP handlers
    that provide debugging information. It has an exported API, but most
    clients need only the handler registration and access the data through
    a web page. To import the package only for its side effects, rename the
@@ -1863,7 +1869,7 @@ import _ "net/http/pprof"
 
   Interface checks
 
-   As we saw in the discussion of [72]interfaces above, a type need not
+   As we saw in the discussion of [73]interfaces above, a type need not
    declare explicitly that it implements an interface. Instead, a type
    implements the interface just by implementing the interface's methods.
    In practice, most interface conversions are static and therefore
@@ -1872,11 +1878,11 @@ import _ "net/http/pprof"
    io.Reader interface.
 
    Some interface checks do happen at run-time, though. One instance is in
-   the [73]encoding/json package, which defines a [74]Marshaler interface.
+   the [74]encoding/json package, which defines a [75]Marshaler interface.
    When the JSON encoder receives a value that implements that interface,
    the encoder invokes the value's marshaling method to convert it to JSON
    instead of doing the standard conversion. The encoder checks this
-   property at run time with a [75]type assertion like:
+   property at run time with a [76]type assertion like:
 m, ok := val.(json.Marshaler)
 
    If it's necessary only to ask whether a type implements an interface,
@@ -1889,7 +1895,7 @@ if _, ok := val.(json.Marshaler); ok {
 
    One place this situation arises is when it is necessary to guarantee
    within the package implementing the type that it actually satisfies the
-   interface. If a type—for example, [76]json.RawMessage—needs a custom
+   interface. If a type—for example, [77]json.RawMessage—needs a custom
    JSON representation, it should implement json.Marshaler, but there are
    no static conversions that would cause the compiler to verify this
    automatically. If the type inadvertently fails to satisfy the
@@ -2316,11 +2322,11 @@ func (v Vector) DoAll(u Vector) {
 }
 
    Rather than create a constant value for numCPU, we can ask the runtime
-   what value is appropriate. The function [77]runtime.NumCPU returns the
+   what value is appropriate. The function [78]runtime.NumCPU returns the
    number of hardware CPU cores in the machine, so we could write
 var numCPU = runtime.NumCPU()
 
-   There is also a function [78]runtime.GOMAXPROCS, which reports (or
+   There is also a function [79]runtime.GOMAXPROCS, which reports (or
    sets) the user-specified number of cores that a Go program can have
    running simultaneously. It defaults to the value of runtime.NumCPU but
    can be overridden by setting the similarly named shell environment
@@ -2335,7 +2341,7 @@ var numCPU = runtime.GOMAXPROCS(0)
    concurrency features of Go can make some problems easy to structure as
    parallel computations, Go is a concurrent language, not a parallel one,
    and not all parallelization problems fit Go's model. For a discussion
-   of the distinction, see the talk cited in [79]this blog post.
+   of the distinction, see the talk cited in [80]this blog post.
 
   A leaky buffer
 
@@ -2453,7 +2459,7 @@ for try := 0; try < 2; try++ {
     return
 }
 
-   The second if statement here is another [80]type assertion. If it
+   The second if statement here is another [81]type assertion. If it
    fails, ok will be false, and e will be nil. If it succeeds, ok will be
    true, which means the error was of type *os.PathError, and then so is
    e, which we can examine for more information about the error.
@@ -2696,146 +2702,149 @@ const templateStr = `
    display.
 
    The rest of the template string is just the HTML to show when the page
-   loads. If this is too quick an explanation, see the [81]documentation
+   loads. If this is too quick an explanation, see the [82]documentation
    for the template package for a more thorough discussion.
 
    And there you have it: a useful web server in a few lines of code plus
    some data-driven HTML text. Go is powerful enough to make a lot happen
    in a few lines.
 
-   [82]Why Go [83]Use Cases [84]Case Studies
-   [85]Get Started [86]Playground [87]Tour [88]Stack Overflow [89]Help
-   [90]Packages [91]Standard Library [92]About Go Packages
-   [93]About [94]Download [95]Blog [96]Issue Tracker [97]Release Notes
-   [98]Brand Guidelines [99]Code of Conduct
-   [100]Connect [101]Twitter [102]GitHub [103]Slack [104]r/golang
-   [105]Meetup [106]Golang Weekly
+   [83]Why Go [84]Use Cases [85]Case Studies
+   [86]Get Started [87]Playground [88]Tour [89]Stack Overflow [90]Help
+   [91]Packages [92]Standard Library [93]About Go Packages
+   [94]About [95]Download [96]Blog [97]Issue Tracker [98]Release Notes
+   [99]Brand Guidelines [100]Code of Conduct
+   [101]Connect [102]Twitter [103]GitHub [104]Slack [105]r/golang
+   [106]Meetup [107]Golang Weekly
+
+   Opens in new window.
 
    The Go Gopher
-     * [107]Copyright
-     * [108]Terms of Service
-     * [109]Privacy Policy
-     * [110]Report an Issue
+     * [108]Copyright
+     * [109]Terms of Service
+     * [110]Privacy Policy
+     * [111]Report an Issue
      * (BUTTON) System theme Dark theme Light theme
 
-   [111]Google logo
+   [112]Google logo
 
    go.dev uses cookies from Google to deliver and enhance the quality of
-   its services and to analyze traffic. [112]Learn more.
+   its services and to analyze traffic. [113]Learn more.
 
    (BUTTON) Okay
 
 References
 
    1. https://www.googletagmanager.com/ns.html?id=GTM-W8MVQXG
-   2. file:///
-   3. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L44662-4095TMP.html
-   4. file:///solutions/case-studies
-   5. file:///solutions/use-cases
-   6. file:///security/
-   7. file:///learn/
-   8. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L44662-4095TMP.html
-   9. file:///doc/effective_go
-  10. file:///doc
-  11. https://pkg.go.dev/std
-  12. file:///doc/devel/release
-  13. https://pkg.go.dev/
-  14. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L44662-4095TMP.html
-  15. file:///talks/
-  16. https://www.meetup.com/pro/go
-  17. https://github.com/golang/go/wiki/Conferences
-  18. file:///blog
-  19. file:///help
-  20. https://groups.google.com/g/golang-nuts
-  21. https://github.com/golang
-  22. https://twitter.com/golang
-  23. https://www.reddit.com/r/golang/
-  24. https://invite.slack.golangbridge.org/
-  25. https://stackoverflow.com/tags/go
-  26. file:///
-  27. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L44662-4095TMP.html
-  28. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L44662-4095TMP.html
-  29. file:///solutions/case-studies
-  30. file:///solutions/use-cases
-  31. file:///security/
-  32. file:///learn/
-  33. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L44662-4095TMP.html
-  34. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L44662-4095TMP.html
-  35. file:///doc/effective_go
-  36. file:///doc
-  37. https://pkg.go.dev/std
-  38. file:///doc/devel/release
-  39. https://pkg.go.dev/
-  40. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L44662-4095TMP.html
-  41. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L44662-4095TMP.html
-  42. file:///talks/
-  43. https://www.meetup.com/pro/go
-  44. https://github.com/golang/go/wiki/Conferences
-  45. file:///blog
-  46. file:///help
-  47. https://groups.google.com/g/golang-nuts
-  48. https://github.com/golang
-  49. https://twitter.com/golang
-  50. https://www.reddit.com/r/golang/
-  51. https://invite.slack.golangbridge.org/
-  52. https://stackoverflow.com/tags/go
-  53. file:///doc/
-  54. file:///doc/effective_go
-  55. file:///ref/spec
-  56. file:///tour/
-  57. file:///doc/code.html
-  58. https://github.com/golang/go/issues/28782
-  59. file:///src/
-  60. https://golang.org/
-  61. file:///pkg/strings/#example_Map
-  62. file:///doc/comment
-  63. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L44662-4095TMP.html#blank
-  64. file:///ref/spec#Rune_literals
-  65. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L44662-4095TMP.html#blank
-  66. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L44662-4095TMP.html#pointers_vs_values
-  67. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L44662-4095TMP.html#initialization
-  68. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L44662-4095TMP.html#type_switch
-  69. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L44662-4095TMP.html#for
-  70. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L44662-4095TMP.html#maps
-  71. file:///pkg/net/http/pprof/
-  72. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L44662-4095TMP.html#interfaces_and_types
-  73. file:///pkg/encoding/json/
-  74. file:///pkg/encoding/json/#Marshaler
-  75. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L44662-4095TMP.html#interface_conversions
-  76. file:///pkg/encoding/json/#RawMessage
-  77. file:///pkg/runtime#NumCPU
-  78. file:///pkg/runtime#GOMAXPROCS
-  79. https://blog.golang.org/2013/01/concurrency-is-not-parallelism.html
-  80. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L44662-4095TMP.html#interface_conversions
-  81. file:///pkg/html/template/
-  82. file:///solutions/
-  83. file:///solutions/use-cases
-  84. file:///solutions/case-studies
-  85. file:///learn/
-  86. file:///play
-  87. file:///tour/
-  88. https://stackoverflow.com/questions/tagged/go?tab=Newest
-  89. file:///help/
-  90. https://pkg.go.dev/
-  91. file:///pkg/
-  92. https://pkg.go.dev/about
-  93. file:///project
-  94. file:///dl/
-  95. file:///blog/
-  96. https://github.com/golang/go/issues
-  97. file:///doc/devel/release
-  98. file:///brand
-  99. file:///conduct
- 100. https://www.twitter.com/golang
+   2. https://go.dev/
+   3. https://go.dev/doc/effective_go#main-content
+   4. https://go.dev/doc/effective_go
+   5. https://go.dev/solutions/case-studies
+   6. https://go.dev/solutions/use-cases
+   7. https://go.dev/security/
+   8. https://go.dev/learn/
+   9. https://go.dev/doc/effective_go
+  10. https://go.dev/doc/effective_go
+  11. https://go.dev/doc
+  12. https://pkg.go.dev/std
+  13. https://go.dev/doc/devel/release
+  14. https://pkg.go.dev/
+  15. https://go.dev/doc/effective_go
+  16. https://go.dev/talks/
+  17. https://www.meetup.com/pro/go
+  18. https://go.dev/wiki/Conferences
+  19. https://go.dev/blog
+  20. https://go.dev/help
+  21. https://groups.google.com/g/golang-nuts
+  22. https://github.com/golang
+  23. https://twitter.com/golang
+  24. https://www.reddit.com/r/golang/
+  25. https://invite.slack.golangbridge.org/
+  26. https://stackoverflow.com/tags/go
+  27. https://go.dev/
+  28. https://go.dev/doc/effective_go
+  29. https://go.dev/doc/effective_go
+  30. https://go.dev/solutions/case-studies
+  31. https://go.dev/solutions/use-cases
+  32. https://go.dev/security/
+  33. https://go.dev/learn/
+  34. https://go.dev/doc/effective_go
+  35. https://go.dev/doc/effective_go
+  36. https://go.dev/doc/effective_go
+  37. https://go.dev/doc
+  38. https://pkg.go.dev/std
+  39. https://go.dev/doc/devel/release
+  40. https://pkg.go.dev/
+  41. https://go.dev/doc/effective_go
+  42. https://go.dev/doc/effective_go
+  43. https://go.dev/talks/
+  44. https://www.meetup.com/pro/go
+  45. https://go.dev/wiki/Conferences
+  46. https://go.dev/blog
+  47. https://go.dev/help
+  48. https://groups.google.com/g/golang-nuts
+  49. https://github.com/golang
+  50. https://twitter.com/golang
+  51. https://www.reddit.com/r/golang/
+  52. https://invite.slack.golangbridge.org/
+  53. https://stackoverflow.com/tags/go
+  54. https://go.dev/doc/
+  55. https://go.dev/doc/effective_go
+  56. https://go.dev/ref/spec
+  57. https://go.dev/tour/
+  58. https://go.dev/doc/code.html
+  59. https://go.dev/issue/28782
+  60. https://go.dev/src/
+  61. https://go.dev/
+  62. https://go.dev/pkg/strings/#example-Map
+  63. https://go.dev/doc/comment
+  64. https://go.dev/doc/effective_go#blank
+  65. https://go.dev/ref/spec#Rune_literals
+  66. https://go.dev/doc/effective_go#blank
+  67. https://go.dev/doc/effective_go#pointers_vs_values
+  68. https://go.dev/doc/effective_go#initialization
+  69. https://go.dev/doc/effective_go#type_switch
+  70. https://go.dev/doc/effective_go#for
+  71. https://go.dev/doc/effective_go#maps
+  72. https://go.dev/pkg/net/http/pprof/
+  73. https://go.dev/doc/effective_go#interfaces_and_types
+  74. https://go.dev/pkg/encoding/json/
+  75. https://go.dev/pkg/encoding/json/#Marshaler
+  76. https://go.dev/doc/effective_go#interface_conversions
+  77. https://go.dev/pkg/encoding/json/#RawMessage
+  78. https://go.dev/pkg/runtime#NumCPU
+  79. https://go.dev/pkg/runtime#GOMAXPROCS
+  80. https://go.dev/blog/concurrency-is-not-parallelism
+  81. https://go.dev/doc/effective_go#interface_conversions
+  82. https://go.dev/pkg/html/template/
+  83. https://go.dev/solutions/
+  84. https://go.dev/solutions/use-cases
+  85. https://go.dev/solutions/case-studies
+  86. https://go.dev/learn/
+  87. https://go.dev/play
+  88. https://go.dev/tour/
+  89. https://stackoverflow.com/questions/tagged/go?tab=Newest
+  90. https://go.dev/help/
+  91. https://pkg.go.dev/
+  92. https://go.dev/pkg/
+  93. https://pkg.go.dev/about
+  94. https://go.dev/project
+  95. https://go.dev/dl/
+  96. https://go.dev/blog/
+  97. https://github.com/golang/go/issues
+  98. https://go.dev/doc/devel/release
+  99. https://go.dev/brand
+ 100. https://go.dev/conduct
  101. https://www.twitter.com/golang
- 102. https://github.com/golang
- 103. https://invite.slack.golangbridge.org/
- 104. https://reddit.com/r/golang
- 105. https://www.meetup.com/pro/go
- 106. https://golangweekly.com/
- 107. file:///copyright
- 108. file:///tos
- 109. http://www.google.com/intl/en/policies/privacy/
- 110. file:///s/website-issue
- 111. https://google.com/
- 112. https://policies.google.com/technologies/cookies
+ 102. https://www.twitter.com/golang
+ 103. https://github.com/golang
+ 104. https://invite.slack.golangbridge.org/
+ 105. https://reddit.com/r/golang
+ 106. https://www.meetup.com/pro/go
+ 107. https://golangweekly.com/
+ 108. https://go.dev/copyright
+ 109. https://go.dev/tos
+ 110. http://www.google.com/intl/en/policies/privacy/
+ 111. https://go.dev/s/website-issue
+ 112. https://google.com/
+ 113. https://policies.google.com/technologies/cookies

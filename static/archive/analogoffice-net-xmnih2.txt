@@ -191,17 +191,17 @@ NOTES
 
 References
 
-   1. file:///
-   2. file:///
-   3. file:///subscribe/
-   4. file:///archive/
-   5. file:///photos/
-   6. file:///about/
-   7. file:///books/
-   8. file:///contact/
-   9. file:///advice/
-  10. file:///office-holders/
-  11. file:///search/
+   1. https://analogoffice.net/
+   2. https://analogoffice.net/
+   3. https://analogoffice.net/subscribe/
+   4. https://analogoffice.net/archive/
+   5. https://analogoffice.net/photos/
+   6. https://analogoffice.net/about/
+   7. https://analogoffice.net/books/
+   8. https://analogoffice.net/contact/
+   9. https://analogoffice.net/advice/
+  10. https://analogoffice.net/office-holders/
+  11. https://analogoffice.net/search/
   12. https://analogoffice.net/2023/01/16/keep-a-where.html
   13. https://analogoffice.net/2023/05/31/the-lifechanging-magic.html
   14. https://analogoffice.net/subscribe/

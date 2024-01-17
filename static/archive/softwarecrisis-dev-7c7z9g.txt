@@ -5,10 +5,11 @@
 
    Bird flying logo [4]Newsletter [5]Book [6]AI Book [7]Archive [8]Author
 
-Modern software quality, or why I think using language models for programming is
-                                   a bad idea
+Modern software quality, or why I think using language models for programming
+is a bad idea
 
-   By Baldur Bjarnason
+   By Baldur Bjarnason,
+   May 30th, 2023
 
    This essay is based on a talk I gave at [9]Hakkavélin, a hackerspace in
    Reykjavík. I had a wonderful time presenting to a lovely crowd, full of
@@ -45,8 +46,8 @@ The software industry is very bad at software
    businesses, many of them stores. When they explain to their customers
    why everything is taking so long, their answer is generally the same:
 
-     Ah, software upgrade. The same happened to us when we upgraded our
-     terminals.
+   “Ah, software upgrade. The same happened to us when we upgraded our
+   terminals.”
 
    This is the norm.
 
@@ -971,8 +972,6 @@ So, obviously, everybody’s going to use them
        [67]↩︎
     9. Archived link of the [68]GitHub Copilot feature page. [69]↩︎
 
-   Baldur Bjarnason May 30th, 2023
-
 Join the Newsletter
 
    Subscribe to the Out of the Software Crisis newsletter to get my weekly
@@ -994,14 +993,14 @@ Join the Newsletter
 
 References
 
-   1. file:///index.xml
-   2. file:///feed.json
-   3. file:///
-   4. file:///
+   1. https://softwarecrisis.dev/index.xml
+   2. https://softwarecrisis.dev/feed.json
+   3. https://softwarecrisis.dev/
+   4. https://softwarecrisis.dev/
    5. https://softwarecrisis.baldurbjarnason.com/
    6. https://illusion.baldurbjarnason.com/
-   7. file:///archive/
-   8. file:///author/
+   7. https://softwarecrisis.dev/archive/
+   8. https://softwarecrisis.dev/author/
    9. https://www.hakkavelin.is/
   10. https://illusion.baldurbjarnason.com/
   11. https://softwarecrisis.baldurbjarnason.com/
@@ -1015,18 +1014,18 @@ References
   19. https://www.baldurbjarnason.com/2022/theory-building/
   20. https://softwarecrisis.baldurbjarnason.com/
   21. https://en.wikipedia.org/wiki/Mitochondrion
-  22. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L83622-2637TMP.html#fn1
+  22. https://softwarecrisis.dev/letters/ai-and-software-quality/#fn1
   23. https://en.wikipedia.org/wiki/Chekhov's_gun
-  24. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L83622-2637TMP.html#fn2
-  25. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L83622-2637TMP.html#fn3
+  24. https://softwarecrisis.dev/letters/ai-and-software-quality/#fn2
+  25. https://softwarecrisis.dev/letters/ai-and-software-quality/#fn3
   26. https://en.wikipedia.org/wiki/Catch-22_(logic)
-  27. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L83622-2637TMP.html#fn4
-  28. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L83622-2637TMP.html#fn5
-  29. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L83622-2637TMP.html#fn6
-  30. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L83622-2637TMP.html#fn7
-  31. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L83622-2637TMP.html#fn8
+  27. https://softwarecrisis.dev/letters/ai-and-software-quality/#fn4
+  28. https://softwarecrisis.dev/letters/ai-and-software-quality/#fn5
+  29. https://softwarecrisis.dev/letters/ai-and-software-quality/#fn6
+  30. https://softwarecrisis.dev/letters/ai-and-software-quality/#fn7
+  31. https://softwarecrisis.dev/letters/ai-and-software-quality/#fn8
   32. https://archive.ph/2023.01.11-224507/https://github.com/features/copilot#selection-19063.298-19063.462:~:text=Our latest internal research shows that about 1% of the time, a suggestion may contain some code snippets longer than ~150 characters that matches the training set.
-  33. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L83622-2637TMP.html#fn9
+  33. https://softwarecrisis.dev/letters/ai-and-software-quality/#fn9
   34. https://illusion.baldurbjarnason.com/
   35. https://softwarecrisis.baldurbjarnason.com/
   36. https://baldurbjarnason.lemonsqueezy.com/checkout/buy/cfc2f2c6-34af-436f-91c1-cb2e47283c40
@@ -1037,33 +1036,33 @@ References
   41. https://aclanthology.org/2021.eacl-main.86
   42. https://arxiv.org/abs/2202.07646
   43. https://dl.acm.org/doi/10.1145/3447548.3467198
-  44. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L83622-2637TMP.html#fnref1
+  44. https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref1
   45. https://needtoknow.fyi/card/bias/
   46. https://needtoknow.fyi/
-  47. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L83622-2637TMP.html#fnref2
+  47. https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref2
   48. https://needtoknow.fyi/card/shortcut-reasoning/
   49. https://needtoknow.fyi/
-  50. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L83622-2637TMP.html#fnref3
+  50. https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref3
   51. https://simonwillison.net/series/prompt-injection/
-  52. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L83622-2637TMP.html#fnref4
+  52. https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref4
   53. https://softwarecrisis.dev/letters/the-poisoning-of-chatgpt/
   54. https://softwarecrisis.dev/letters/google-bard-seo/
-  55. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L83622-2637TMP.html#fnref5
+  55. https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref5
   56. https://doi.org/10.48550/arXiv.2108.09293
   57. https://doi.org/10.48550/arXiv.2211.03622
-  58. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L83622-2637TMP.html#fnref6
+  58. https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref6
   59. https://www.microsoft.com/en-us/Investor/events/FY-2023/Morgan-Stanley-TMT-Conference#:~:text=Scott Guthrie: I think you're,is now AI-generated and unmodified
-  60. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L83622-2637TMP.html#fnref7
+  60. https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref7
   61. https://copyrightlately.com/pdfviewer/getty-images-v-stability-ai-complaint/?auto_viewer=true#page=&zoom=auto&pagemode=none
   62. https://www.theverge.com/2023/1/17/23558516/ai-art-copyright-stable-diffusion-getty-images-lawsuit
   63. https://www.plagiarismtoday.com/2023/01/17/the-wave-of-ai-lawsuits-have-begun/
   64. https://www.understandingai.org/p/copyright-lawsuits-pose-a-serious
   65. https://githubcopilotlitigation.com/
   66. https://stablediffusionlitigation.com/
-  67. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L83622-2637TMP.html#fnref8
+  67. https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref8
   68. https://archive.ph/2023.01.11-224507/https://github.com/features/copilot#selection-19063.298-19063.462:~:text=Our latest internal research shows that about 1% of the time, a suggestion may contain some code snippets longer than ~150 characters that matches the training set.
-  69. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L83622-2637TMP.html#fnref9
+  69. https://softwarecrisis.dev/letters/ai-and-software-quality/#fnref9
   70. https://toot.cafe/@baldur
   71. https://twitter.com/fakebaldur
   72. https://github.com/baldurbjarnason
-  73. file:///feed.xml
+  73. https://softwarecrisis.dev/feed.xml

@@ -1,13 +1,13 @@
-   #[1]Stationery 🍕
+   #[1]Stationery🍕
 
    [2]
 
-                                  Stationery 🍕
+                                  Stationery🍕
 
-   [3]Home [4]About [5]Colophon [6]Contact [7]Favourites [8]Philosophy
-   [9]Subscribe [10]Pen & Inks
+   [3]Home [4]Favourites [5]Philosophy [6]Pen & Inks [7]About [8]Contact
+   [9]Colophon [10]Feed [11]Archives
 
-[11]Bullet Journal
+[12]Bullet Journal
 
    2023-05-27 00:00
 
@@ -58,7 +58,7 @@ How I use it
 Formatting
 
    I don’t use the official Bullet Journal formatting, I’ve tried a few
-   times but after many years of using [12]Dash/Plus as my task management
+   times but after many years of using [13]Dash/Plus as my task management
    on paper formatting system I’ve never been able to change it.
 
    The way I do things is that I use one pen and color for writing and
@@ -90,14 +90,15 @@ Page layout
 References
 
    1. https://stationery.pizza/feed.rss
-   2. file:///
-   3. file:///
-   4. file:///about
-   5. file:///colophon
-   6. file:///contact
-   7. file:///favourites
-   8. file:///philosophy
-   9. file:///feed.rss
-  10. file:///pen-inks
-  11. file:///2023/05/27/bullet-journal
-  12. https://patrickrhone.com/dashplus/
+   2. https://stationery.pizza/
+   3. https://stationery.pizza/
+   4. https://stationery.pizza/favourites
+   5. https://stationery.pizza/philosophy
+   6. https://stationery.pizza/pen-inks
+   7. https://stationery.pizza/about
+   8. https://stationery.pizza/contact
+   9. https://stationery.pizza/colophon
+  10. https://stationery.pizza/feed.rss
+  11. https://stationery.pizza/archives
+  12. https://stationery.pizza/2023/05/27/bullet-journal
+  13. https://patrickrhone.com/dashplus/

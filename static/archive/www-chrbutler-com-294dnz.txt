@@ -348,10 +348,10 @@ Previous Entry
 References
 
    1. https://www.chrbutler.com/feed.rss
-   2. file:///
-   3. file:///archives
-   4. file:///information
-   5. file:///now/2024-01-06
+   2. https://www.chrbutler.com/
+   3. https://www.chrbutler.com/archives
+   4. https://www.chrbutler.com/information
+   5. https://www.chrbutler.com/now/2024-01-06
    6. https://www.lg.com/us/monitors/lg-32un880-b-4k-uhd-led-monitor
    7. https://www.ergotron.com/en-us/products/product-details/45-241#?color=black&attachment option=2-Piece Clamp
    8. https://www.elgato.com/en/key-light
@@ -361,7 +361,7 @@ References
   12. https://electronics.sony.com/imaging/lenses/all-e-mount/p/sel35f14gm
   13. https://www.amazon.com/dp/B08LV7GZVB?psc=1&ref=ppx_yo2ov_dt_b_product_details
   14. https://audioengine.com/shop/wirelessspeakers/hd3-wireless-speakers/
-  15. file:///2023-04-24
+  15. https://www.chrbutler.com/2023-04-24
   16. https://floydhome.com/products/the-floyd-table?variant=36527968321698
   17. https://www.standupdeskstore.com/sliding-under-desk-pencil-drawer
   18. https://www.cyberpowersystems.com/product/ups/pfc-sinewave/cp1500pfclcd/
@@ -390,10 +390,10 @@ References
   41. https://g.co/kgs/7ot9aS
   42. https://www.post-it.com/3M/en_US/post-it/products/~/Post-it-Super-Sticky-Notes-3-in-x-3-in-Electric-Yellow-12-Pads-Pack-90-Sheets-Pad/?N=4327+3289961157+3294529207&rt=rud
   43. https://www.tops-products.com/oxfordtm-blank-index-cards-white-3-x-5-100-per-pack-4.html
-  44. file:///information
-  45. file:///tagged/essays
-  46. file:///2023-08-21
-  47. file:///2023-07-19
+  44. https://www.chrbutler.com/information
+  45. https://www.chrbutler.com/tagged/essays
+  46. https://www.chrbutler.com/2023-08-21
+  47. https://www.chrbutler.com/2023-07-19
   48. https://dontthinkaboutthefuture.eo.page/8y4tg
   49. http://chrbutler.com/feed.rss
-  50. file:///impressum
+  50. https://www.chrbutler.com/impressum

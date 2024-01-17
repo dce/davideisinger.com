@@ -15,7 +15,7 @@ What App is That?
    A guide to the apps and tools I use to create illustrations
      * [5]How to Illustrate
 
-   Planted about 3 years agoLast tended about 2 years ago
+   Planted over 3 years agoLast tended over 2 years ago
 
    (BUTTON) Back To Top
 
@@ -111,7 +111,7 @@ Mentions around the web
 Want to stay up to date?
 
    (BUTTON) Subscribe via RSS Feed
-   © 2023 Maggie Appleton
+   © 2024 Maggie Appleton
      * [8]The Garden
      * [9]Essays
      * [10]About
@@ -125,22 +125,22 @@ Want to stay up to date?
 References
 
    Visible links:
-   1. file:///rss.xml
-   2. file:///
-   3. file:///now
-   4. file:///about
-   5. file:///topics/how-to-illustrate
-   6. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L71674-9587TMP.html#im-a-promiscuous-polytooler
-   7. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L71674-9587TMP.html#workflows
-   8. file:///garden
-   9. file:///essays
-  10. file:///about
-  11. file:///notes
-  12. file:///now
-  13. file:///patterns
-  14. file:///library
-  15. file:///projects
-  16. file:///colophon
+   1. https://maggieappleton.com/rss.xml
+   2. https://maggieappleton.com/
+   3. https://maggieappleton.com/now
+   4. https://maggieappleton.com/about
+   5. https://maggieappleton.com/topics/how-to-illustrate
+   6. https://maggieappleton.com/apps#im-a-promiscuous-polytooler
+   7. https://maggieappleton.com/apps#workflows
+   8. https://maggieappleton.com/garden
+   9. https://maggieappleton.com/essays
+  10. https://maggieappleton.com/about
+  11. https://maggieappleton.com/notes
+  12. https://maggieappleton.com/now
+  13. https://maggieappleton.com/patterns
+  14. https://maggieappleton.com/library
+  15. https://maggieappleton.com/projects
+  16. https://maggieappleton.com/colophon
 
    Hidden links:
   18. https://github.com/MaggieAppleton

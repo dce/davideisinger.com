@@ -16,10 +16,10 @@
      * [8]Culture
      * [9]Gear
      * [10]Ideas
-     * [11]Science
-     * [12]Security
-     * [13]Merch
-     * [14]Prime Day
+     * [11]Politics
+     * [12]Science
+     * [13]Security
+     * [14]Merch
 
    (BUTTON) More
 
@@ -34,25 +34,26 @@
      * [20]Culture
      * [21]Gear
      * [22]Ideas
-     * [23]Science
-     * [24]Security
-     * [25]Merch
-     * [26]Prime Day
+     * [23]Politics
+     * [24]Science
+     * [25]Security
+     * [26]Merch
 
      * [27]Podcasts
      * [28]Video
-     * [29]Artificial Intelligence
-     * [30]Climate
-     * [31]Games
-     * [32]Newsletters
-     * [33]Magazine
-     * [34]Events
-     * [35]Wired Insider
-     * [36]Jobs
-     * [37]Coupons
+     * [29]Wired World
+     * [30]Artificial Intelligence
+     * [31]Climate
+     * [32]Games
+     * [33]Newsletters
+     * [34]Magazine
+     * [35]Events
+     * [36]Wired Insider
+     * [37]Jobs
+     * [38]Coupons
 
-   [38]Paul Ford
-   [39]Ideas
+   [39]Paul Ford
+   [40]Ideas
    Apr 1, 2022 7:00 AM
 
 I Finally Reached Computing Nirvana. What Was It All For?
@@ -65,12 +66,12 @@ I Finally Reached Computing Nirvana. What Was It All For?
    (BUTTON) Save
 
    Like many nerds before me, I spent a goodly portion of my life
-   searching for the perfect [40]computing system. I wanted a single tool
+   searching for the perfect [41]computing system. I wanted a single tool
    that would let me write prose or programs, that could search every
    email, tweet, or document in a few keystrokes, and that would work
    across all my devices. I yearned to summit the mythic Mt. Augment, to
    achieve the enlightenment of a properly orchestrated personal computer.
-   Where the [41]software industry offered notifications, little clicks
+   Where the [42]software industry offered notifications, little clicks
    and dings, messages jumping up and down on my screen like a dog begging
    for a treat, I wanted calm textuality. Seeking it, I tweaked. I
    configured.
@@ -84,17 +85,17 @@ I Finally Reached Computing Nirvana. What Was It All For?
    is indistinguishable from procrastination. A little is fine but too
    much is embarrassing.
 
-   [42]The Best Way to Learn Online? Be a Lurker
+   [43]The Best Way to Learn Online? Be a Lurker
    Sneakbrowsing
    The Best Way to Learn Online? Be a Lurker
 
    Paul Ford
-   [43]Coders’ Primal Urge to Kill Inefficiency&-Everywhere
+   [44]Coders’ Primal Urge to Kill Inefficiency&-Everywhere
    Coders
    Coders’ Primal Urge to Kill Inefficiency—Everywhere
 
    Clive Thompson
-   [44]Forget To-Do Lists. You Really Need a ‘Got Done’ List
+   [45]Forget To-Do Lists. You Really Need a ‘Got Done’ List
    work smart
    Forget To-Do Lists. You Really Need a ‘Got Done’ List
 
@@ -133,22 +134,28 @@ I Finally Reached Computing Nirvana. What Was It All For?
    and went for a walk. Was this happiness? Freedom? Or would I find
    myself back tomorrow, with a whole new set of requirements?
    Most Popular
-     * [45]New York’s Airbnb Ban Is Descending Into Pure Chaos
-       Business
-       New York’s Airbnb Ban Is Descending Into Pure Chaos
-       Amanda Hoover
-     * [46]The Israel-Hamas War Is Drowning X in Disinformation
+     * [46]Cult of the Lamb’s ‘Sex Update’ Is a Good Sign for Horny Video
+       Games
+       Culture
+       Cult of the Lamb’s ‘Sex Update’ Is a Good Sign for Horny Video
+       Games
+       Megan Farokhmanesh
+     * [47]The Emmys Proved Streaming Changed TV for the Better
+       Culture
+       The Emmys Proved Streaming Changed TV for the Better
+       Angela Watercutter
+     * [48]A Flaw in Millions of Apple, AMD, and Qualcomm GPUs Could
+       Expose AI Data
        Security
-       The Israel-Hamas War Is Drowning X in Disinformation
-       David Gilbert
-     * [47]Inside FTX’s All-Night Race to Stop a $1 Billion Crypto Heist
-       Security
-       Inside FTX’s All-Night Race to Stop a $1 Billion Crypto Heist
-       Andy Greenberg
-     * [48]23andMe User Data Stolen in Targeted Attack on Ashkenazi Jews
-       Security
-       23andMe User Data Stolen in Targeted Attack on Ashkenazi Jews
+       A Flaw in Millions of Apple, AMD, and Qualcomm GPUs Could Expose AI
+       Data
        Lily Hay Newman
+     * [49]Even After a Landslide Victory, Trump Supporters Claim Iowa
+       Caucus Was Rigged
+       Politics
+       Even After a Landslide Victory, Trump Supporters Claim Iowa Caucus
+       Was Rigged
+       David Gilbert
      *
 
    The more “professional” a piece of software is intended to be, the more
@@ -159,14 +166,14 @@ I Finally Reached Computing Nirvana. What Was It All For?
    computing is done on someone else's terms. We describe it with carceral
    words. To assert control over your device, you “jailbreak” out.
 
-   I wonder if this is one of the reasons people get into [49]crypto—they
+   I wonder if this is one of the reasons people get into [50]crypto—they
    dream of a new world that can be customized like software. Programmable
    money, self-executing contracts, little scripts that rearrange reality.
    In DAOs (decentralized autonomous organizations), people use code to
    make social rules, then buy or do things with their consolidated
    digital might.
 
-   A lot of my friends hate all this stuff (perhaps [50]NFTs more than
+   A lot of my friends hate all this stuff (perhaps [51]NFTs more than
    DAOs) with great passion; they see it as a closing off, a betrayal of
    the open, trust-driven nature of the early web. Others love it, seeing
    it as a continuation of the community-building, empowering nature of
@@ -210,22 +217,28 @@ I Finally Reached Computing Nirvana. What Was It All For?
    twice, but they rarely mention that it's the same hand doing the
    dipping.
    Most Popular
-     * [51]New York’s Airbnb Ban Is Descending Into Pure Chaos
-       Business
-       New York’s Airbnb Ban Is Descending Into Pure Chaos
-       Amanda Hoover
-     * [52]The Israel-Hamas War Is Drowning X in Disinformation
+     * [52]Cult of the Lamb’s ‘Sex Update’ Is a Good Sign for Horny Video
+       Games
+       Culture
+       Cult of the Lamb’s ‘Sex Update’ Is a Good Sign for Horny Video
+       Games
+       Megan Farokhmanesh
+     * [53]The Emmys Proved Streaming Changed TV for the Better
+       Culture
+       The Emmys Proved Streaming Changed TV for the Better
+       Angela Watercutter
+     * [54]A Flaw in Millions of Apple, AMD, and Qualcomm GPUs Could
+       Expose AI Data
        Security
-       The Israel-Hamas War Is Drowning X in Disinformation
-       David Gilbert
-     * [53]Inside FTX’s All-Night Race to Stop a $1 Billion Crypto Heist
-       Security
-       Inside FTX’s All-Night Race to Stop a $1 Billion Crypto Heist
-       Andy Greenberg
-     * [54]23andMe User Data Stolen in Targeted Attack on Ashkenazi Jews
-       Security
-       23andMe User Data Stolen in Targeted Attack on Ashkenazi Jews
+       A Flaw in Millions of Apple, AMD, and Qualcomm GPUs Could Expose AI
+       Data
        Lily Hay Newman
+     * [55]Even After a Landslide Victory, Trump Supporters Claim Iowa
+       Caucus Was Rigged
+       Politics
+       Even After a Landslide Victory, Trump Supporters Claim Iowa Caucus
+       Was Rigged
+       David Gilbert
      *
 
    Since the emails are, well, just emails, sometimes I hit Reply (by
@@ -243,7 +256,7 @@ I Finally Reached Computing Nirvana. What Was It All For?
    understand our children.
 
    I'm thinking of starting a Sunday morning waffle breakfast for
-   [55]vaccinated people to come stare at each other. It's one thing to
+   [56]vaccinated people to come stare at each other. It's one thing to
    email after 10 years, but everyone appreciates an invitation to
    breakfast. Maybe I'll set up some sort of internet-connected LED
    scrolly screen, like they put on food carts, so out-of-towners can
@@ -261,264 +274,283 @@ I Finally Reached Computing Nirvana. What Was It All For?
    that configuration for? It was, in all sincerity, for waffles.
      __________________________________________________________________
 
-   This article appears in the April 2022 issue. [56]Subscribe now.
+   This article appears in the April 2022 issue. [57]Subscribe now.
      __________________________________________________________________
 
    More Great WIRED Stories
-     * 📩 The latest on tech, science, and more: [57]Get our newsletters!
-     * [58]Jacques Vallée still doesn’t know what UFOs are
-     * When should you [59]test yourself for Covid-19?
-     * [60]How to leave your photos to someone when you die
-     * TV struggles to put [61]Silicon Valley on the screen
-     * [62]YouTube's captions insert explicit language in kids' videos
-     * 👁️ Explore AI like never before with [63]our new database
-     * 🎧 Things not sounding right? Check out our favorite [64]wireless
-       headphones, [65]soundbars, and [66]Bluetooth speakers
+     * 📩 The latest on tech, science, and more: [58]Get our newsletters!
+     * [59]Jacques Vallée still doesn’t know what UFOs are
+     * When should you [60]test yourself for Covid-19?
+     * [61]How to leave your photos to someone when you die
+     * TV struggles to put [62]Silicon Valley on the screen
+     * [63]YouTube's captions insert explicit language in kids' videos
+     * 👁️ Explore AI like never before with [64]our new database
+     * 🎧 Things not sounding right? Check out our favorite [65]wireless
+       headphones, [66]soundbars, and [67]Bluetooth speakers
 
-   [67]Paul Ford is a writer, programmer, and software entrepreneur. He
+   [68]Paul Ford is a writer, programmer, and software entrepreneur. He
    lives in Brooklyn.
    Contributor
      *
 
-   Topics[68]magazine-30.04[69]crypto[70]NFTs[71]software[72]Web3
+   Topics[69]magazine-30.04[70]crypto[71]NFTs[72]software[73]Web3
 
    More from WIRED
-   [73]
-   ChatGPT Isn't Coming for Your Coding Job
-   ChatGPT Isn't Coming for Your Coding Job
-   New technologies have long promised to make human software engineers
-   redundant. But developers have only gotten more important over time.
+   [74]
+   A Key to Detecting Brain Disease Earlier Than Ever
+   A Key to Detecting Brain Disease Earlier Than Ever
+   Treatment of Parkinson’s, Huntington’s, ALS, and other brain diseases
+   depends on reliable detection—especially in those who don’t even know
+   they’re at risk. An innovative scratch-and-sniff test can help.
 
-   Zeb Larson
-   [74]AI-Powered ‘Thought Decoders’ Won’t Just Read Your Mind&-They’ll
-   Change It
-   AI-Powered ‘Thought Decoders’ Won’t Just Read Your Mind—They’ll Change
-   It
-   “Mind-reading” neural decoders could spell the end of privacy. But the
-   full ramifications of this technology are even more concerning.
+   Michael J. Fox
+   [75]The Danger of Digitizing Everything
+   The Danger of Digitizing Everything
+   The creep of conducting our day-to-day interactions over screens has
+   reached a breaking point—and it threatens to push out everyone but
+   those with the “right” access.
 
-   Leo Kim
-   [75]Marie Kondo and the Manhattan Project
-   Marie Kondo and the Manhattan Project
-   What does the author and lifestyle guru have in common with the
-   mathematician Stan Ulam—and Benjamin Franklin?
+   Naomi Alderman
+   [76]Regulators Are Finally Catching Up With Big Tech
+   Regulators Are Finally Catching Up With Big Tech
+   The lawless, Wild West era of AI and technology is almost at an end, as
+   data protection authorities use new and existing legislation to get
+   tough.
 
-   Coco Krumme
-   [76]In the War Between Harassment and Censorship, No One Wins
-   In the War Between Harassment and Censorship, No One Wins
-   Abuses on Kiwi Farms have sparked debate about harassment, safety, and
-   free speech, with activists on both sides caught in an ethical
-   minefield.
+   Susie Alegre
+   [77]Get Ready for the Great AI Disappointment
+   Get Ready for the Great AI Disappointment
+   Rose-tinted predictions for artificial intelligence’s grand
+   achievements will be swept aside by underwhelming performance and
+   dangerous results.
 
-   Katherine Alejandra Cross
-   [77]Is the Physics of Time Actually Changing?
-   Is the Physics of Time Actually Changing?
-   Days seem to be rushing ahead in a disturbing blur, or else slowing
-   painfully down. Maybe it’s a tale as old as—well, you know.
+   Daron Acemoglu
+   [78]The Ocean’s Mysteries&-and Marvels&-Are About to Reach New Depths
+   The Ocean’s Mysteries—and Marvels—Are About to Reach New Depths
+   Advancements in science will bring unprecedented lens into the
+   complexities of the ocean, and a renewed call for humans to protect it.
 
-   KC Cole
-   [78]Immersive Tech Obscures Reality. AI Will Threaten It
-   Immersive Tech Obscures Reality. AI Will Threaten It
-   AI could supercharge augmented and virtual reality, making online
-   manipulation and disinformation campaigns much more personal—and
-   effective.
+   Helen Czerski
+   [79]AI Needs to Be Both Trusted and Trustworthy
+   AI Needs to Be Both Trusted and Trustworthy
+   Through sensors, actuators, and IoT devices, AI is going to be
+   interacting with the physical plane on a massive scale. The question
+   is, how does one build trust in its actions?
 
-   Jameson Spivack
-   [79]Welcome to Halal Hinge
-   Welcome to Halal Hinge
-   In my community, mums and aunties are joining WhatsApp matchmaking
-   groups to find spouses for their kids. Instead, they’re getting a crash
-   course in modern dating.
+   Bruce Schneier
+   [80]The End of One-Size-Fits-All Health Care
+   The End of One-Size-Fits-All Health Care
+   Medicines need to be safe for all, but also effective for the
+   individual. Embracing our differences will lead to better health care
+   for everyone.
 
-   Faima Bakar
-   [80]Everyone Is a Girl Online
-   Everyone Is a Girl Online
-   NPC influencers, "girl dinner," angels, bimbos—the internet is a girl's
-   world now, whether you like it or not.
+   Angela Saini
+   [81]Digitization Beats Deforestation
+   Digitization Beats Deforestation
+   Geolocation, supply-chain tracking, and digital payments are the tools
+   that will enable farmers and consumers to make better choices.
 
-   Alex Quicho
+   Alloysius Attah
 
-   [81]WIRED
+   [82]WIRED
    WIRED is where tomorrow is realized. It is the essential source of
    information and ideas that make sense of a world in constant
    transformation. The WIRED conversation illuminates how technology is
    changing every aspect of our lives—from culture to business, science to
    design. The breakthroughs and innovations that we uncover lead to new
    ways of thinking, new connections, and new industries.
-     *
-     *
-     *
-     *
-     *
-     *
 
    (BUTTON) More From WIRED
-     * [82]Subscribe
-     * [83]Newsletters
-     * [84]FAQ
-     * [85]Wired Staff
-     * [86]Press Center
-     * [87]Coupons
-     * [88]Editorial Standards
-     * [89]Archive
-     * [90]Prime Day
+     * [83]Subscribe
+     * [84]Newsletters
+     * [85]FAQ
+     * [86]WIRED Staff
+     * [87]Editorial Standards
+     * [88]Archive
+     * [89]RSS
+     * [90]Accessibility Help
 
-   (BUTTON) Contact
-     * [91]Advertise
-     * [92]Contact Us
-     * [93]Customer Care
-     * [94]Jobs
+   (BUTTON) Reviews and Guides
+     * [91]Reviews
+     * [92]Buying Guides
+     * [93]Coupons
+     * [94]Mattresses
+     * [95]Electric Bikes
+     * [96]Fitness Trackers
+     * [97]Streaming Guides
 
-     * [95]RSS
-     * [96]Accessibility Help
-     * [97]Condé Nast Store
-     * (BUTTON) Do Not Sell My Personal Info
+     * [98]Advertise
+     * [99]Contact Us
+     * [100]Customer Care
+     * [101]Jobs
+     * [102]Press Center
+     * [103]Condé Nast Store
 
-   © 2023 Condé Nast. All rights reserved. Use of this site constitutes
-   acceptance of our [98]User Agreement and [99]Privacy Policy and Cookie
-   Statement and [100]Your California Privacy Rights. WIRED may earn a
-   portion of sales from products that are purchased through our site as
-   part of our Affiliate Partnerships with retailers. The material on this
-   site may not be reproduced, distributed, transmitted, cached or
+   © 2024 Condé Nast. All rights reserved. Use of this site constitutes
+   acceptance of our [104]User Agreement and [105]Privacy Policy and
+   Cookie Statement and [106]Your California Privacy Rights. WIRED may
+   earn a portion of sales from products that are purchased through our
+   site as part of our Affiliate Partnerships with retailers. The material
+   on this site may not be reproduced, distributed, transmitted, cached or
    otherwise used, except with the prior written permission of Condé Nast.
-   [101]Ad Choices
-   Select international site (BUTTON) United States
-     * [102]UK
-     * [103]Italia
-     * [104]Japón
+   [107]Ad Choices
+
+Select international site
+
+   (BUTTON) United States
+     * [108]UK
+     * [109]Italia
+     * [110]Japón
+     * [111]Czech Republic & Slovakia
+
+     *
+     *
+     *
+     *
+     *
+     *
+
+   (BUTTON) Do Not Sell My Personal Info
 
 References
 
    Visible links:
    1. https://www.wired.com/feed/rss
    2. https://www.googletagmanager.com/ns.html?id=GTM-5HBJC2K
-   3. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L85849-8TMP.html#main-content
-   4. file:///account/saved
-   5. file:///
-   6. file:///category/backchannel/
-   7. file:///category/business/
-   8. file:///category/culture/
-   9. file:///category/gear/
-  10. file:///category/ideas/
-  11. file:///category/science/
-  12. file:///category/security/
-  13. https://shop.wired.com/
-  14. file:///story/best-october-prime-day-deals-2023-3/
-  15. file:///account/saved
-  16. file:///auth/initiate?redirectURL=/story/i-finally-reached-computing-nirvana-what-was-it-all-for/&source=VERSO_NAVIGATION
-  17. file:///search/
-  18. file:///category/backchannel/
-  19. file:///category/business/
-  20. file:///category/culture/
-  21. file:///category/gear/
-  22. file:///category/ideas/
-  23. file:///category/science/
-  24. file:///category/security/
-  25. https://shop.wired.com/
-  26. file:///story/best-october-prime-day-deals-2023-3/
-  27. file:///podcasts/
-  28. file:///video/
-  29. https://www.wired.com/category/artificial-intelligence/
-  30. https://www.wired.com/category/science/environment-climate-change/
-  31. https://www.wired.com/tag/video-games/
-  32. https://www.wired.com/newsletter
-  33. https://www.wired.com/magazine
-  34. https://events.wired.com/livewired
-  35. file:///category/wiredinsider/
-  36. https://jobs.wired.com/?source=navbar
-  37. https://www.wired.com/coupons
-  38. file:///author/paul-ford
-  39. file:///category/ideas
-  40. https://www.wired.com/tag/computers/
-  41. https://www.wired.com/tag/software/
-  42. file:///story/best-way-learn-online-be-lurker/
-  43. file:///story/coders-efficiency-is-beautiful/
-  44. file:///story/productivity-got-done-list/
-  45. https://www.wired.com/story/airbnb-ban-new-york-illegal-listings/#intcid=_wired-right-rail_04b13a6e-88a3-40d4-830d-f3acae710540_popular4-1-reranked-by-vidi
-  46. https://www.wired.com/story/x-israel-hamas-war-disinformation/#intcid=_wired-right-rail_04b13a6e-88a3-40d4-830d-f3acae710540_popular4-1-reranked-by-vidi
-  47. https://www.wired.com/story/ftx-1-billion-crypto-heist/#intcid=_wired-right-rail_04b13a6e-88a3-40d4-830d-f3acae710540_popular4-1-reranked-by-vidi
-  48. https://www.wired.com/story/23andme-credential-stuffing-data-stolen/#intcid=_wired-right-rail_04b13a6e-88a3-40d4-830d-f3acae710540_popular4-1-reranked-by-vidi
-  49. https://www.wired.com/tag/cryptocurrency/
-  50. https://www.wired.com/tag/nfts/
-  51. https://www.wired.com/story/airbnb-ban-new-york-illegal-listings/#intcid=_wired-right-rail_04b13a6e-88a3-40d4-830d-f3acae710540_popular4-1-reranked-by-vidi
-  52. https://www.wired.com/story/x-israel-hamas-war-disinformation/#intcid=_wired-right-rail_04b13a6e-88a3-40d4-830d-f3acae710540_popular4-1-reranked-by-vidi
-  53. https://www.wired.com/story/ftx-1-billion-crypto-heist/#intcid=_wired-right-rail_04b13a6e-88a3-40d4-830d-f3acae710540_popular4-1-reranked-by-vidi
-  54. https://www.wired.com/story/23andme-credential-stuffing-data-stolen/#intcid=_wired-right-rail_04b13a6e-88a3-40d4-830d-f3acae710540_popular4-1-reranked-by-vidi
-  55. https://www.wired.com/tag/vaccines/
-  56. https://subscribe.wired.com/subscribe/splits/wired/WIR_Edit_Hardcoded?source=ArticleEnd_CMlink
-  57. https://www.wired.com/newsletter?sourceCode=BottomStories
-  58. https://www.wired.com/story/jacques-vallee-still-doesnt-know-what-ufos-are/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
-  59. https://www.wired.com/story/when-to-test-for-covid-vaccinated/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
-  60. https://www.wired.com/story/how-to-leave-photos-behind-when-you-die/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
-  61. https://www.wired.com/story/wecrashed-tv-silicon-valley/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
-  62. https://www.wired.com/story/youtubes-captions-insert-explicit-language-kids-videos/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
-  63. https://www.wired.com/category/artificial-intelligence/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
-  64. https://www.wired.com/gallery/best-wireless-headphones/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
-  65. https://www.wired.com/gallery/best-soundbars/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
-  66. https://www.wired.com/gallery/best-bluetooth-speakers/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
-  67. file:///author/paul-ford
-  68. file:///tag/magazine-3004/
-  69. file:///tag/crypto/
-  70. file:///tag/nfts/
-  71. file:///tag/software/
-  72. file:///tag/web3/
-  73. https://www.wired.com/story/chatgpt-coding-software-crisis/#intcid=_wired-bottom-recirc-v2_1cf83657-8f1c-4af7-bf40-d8067c0a444b_cral2-2-reranked-by-vidi
-  74. https://www.wired.com/story/ai-thought-decoder-mind-philosophy/#intcid=_wired-bottom-recirc-v2_1cf83657-8f1c-4af7-bf40-d8067c0a444b_cral2-2-reranked-by-vidi
-  75. https://www.wired.com/story/optimization-math-history-coco-krumme/#intcid=_wired-bottom-recirc-v2_1cf83657-8f1c-4af7-bf40-d8067c0a444b_cral2-2-reranked-by-vidi
-  76. https://www.wired.com/story/kiwifarms-tech-ethics-networked-harassment/#intcid=_wired-bottom-recirc-v2_1cf83657-8f1c-4af7-bf40-d8067c0a444b_cral2-2-reranked-by-vidi
-  77. https://www.wired.com/story/physics-of-time-actually-changing/#intcid=_wired-bottom-recirc-v2_1cf83657-8f1c-4af7-bf40-d8067c0a444b_cral2-2-reranked-by-vidi
-  78. https://www.wired.com/story/immersive-technology-artificial-intelligence-disinformation/#intcid=_wired-bottom-recirc-v2_1cf83657-8f1c-4af7-bf40-d8067c0a444b_cral2-2-reranked-by-vidi
-  79. https://www.wired.com/story/whatsapp-matchmaking-dating-ghosting/#intcid=_wired-bottom-recirc-v2_1cf83657-8f1c-4af7-bf40-d8067c0a444b_cral2-2-reranked-by-vidi
-  80. https://www.wired.com/story/girls-online-culture/#intcid=_wired-bottom-recirc-v2_1cf83657-8f1c-4af7-bf40-d8067c0a444b_cral2-2-reranked-by-vidi
-  81. file:///
-  82. https://www.wired.com/subscribe/
-  83. https://www.wired.com/newsletter?sourceCode=HeaderAndFooter
-  84. https://www.wired.com/about/faq/
-  85. https://www.wired.com/wired-staff/
-  86. https://www.wired.com/about/press/
-  87. https://www.wired.com/coupons
-  88. https://www.wired.com/about/wired-on-background-policy/
-  89. https://archive.wired.com/t/storefront/storefront
-  90. file:///story/best-october-prime-day-deals-2023-3/
-  91. https://www.condenast.com/brands/wired
-  92. https://www.wired.com/about/feedback/
-  93. https://subscriptions.wired.com/pubs/N3/WIR/Register.jsp?cds_page_id=175371&amp;amp;cds_mag_code=WIR&amp;amp;id=1423757547774&amp;amp;lsid=50431012277019467&amp;amp;vid=1
-  94. https://www.wired.com/about/wired-jobs/
-  95. file:///about/rss-feeds/
-  96. file:///about/accessibility-help/
-  97. https://www.condenaststore.com/
-  98. https://www.condenast.com/user-agreement/
-  99. http://www.condenast.com/privacy-policy#privacypolicy
- 100. http://www.condenast.com/privacy-policy#privacypolicy-california
- 101. http://www.condenast.com/privacy-policy#privacypolicy-optout
- 102. https://www.wired.co.uk/
- 103. https://www.wired.it/
- 104. https://wired.jp/
+   3. https://www.wired.com/story/i-finally-reached-computing-nirvana-what-was-it-all-for/#main-content
+   4. https://www.wired.com/account/saved
+   5. https://www.wired.com/
+   6. https://www.wired.com/category/backchannel/
+   7. https://www.wired.com/category/business/
+   8. https://www.wired.com/category/culture/
+   9. https://www.wired.com/category/gear/
+  10. https://www.wired.com/category/ideas/
+  11. https://www.wired.com/category/politics/
+  12. https://www.wired.com/category/science/
+  13. https://www.wired.com/category/security/
+  14. https://shop.wired.com/
+  15. https://www.wired.com/account/saved
+  16. https://www.wired.com/auth/initiate?redirectURL=/story/i-finally-reached-computing-nirvana-what-was-it-all-for/&source=VERSO_NAVIGATION
+  17. https://www.wired.com/search/
+  18. https://www.wired.com/category/backchannel/
+  19. https://www.wired.com/category/business/
+  20. https://www.wired.com/category/culture/
+  21. https://www.wired.com/category/gear/
+  22. https://www.wired.com/category/ideas/
+  23. https://www.wired.com/category/politics/
+  24. https://www.wired.com/category/science/
+  25. https://www.wired.com/category/security/
+  26. https://shop.wired.com/
+  27. https://www.wired.com/podcasts/
+  28. https://www.wired.com/video/
+  29. https://www.wired.com/wired-world/
+  30. https://www.wired.com/category/artificial-intelligence/
+  31. https://www.wired.com/category/science/environment-climate-change/
+  32. https://www.wired.com/tag/video-games/
+  33. https://www.wired.com/newsletter
+  34. https://www.wired.com/magazine
+  35. https://events.wired.com/livewired
+  36. https://www.wired.com/category/wiredinsider/
+  37. https://jobs.wired.com/?source=navbar
+  38. https://www.wired.com/coupons
+  39. https://www.wired.com/author/paul-ford
+  40. https://www.wired.com/category/ideas
+  41. https://www.wired.com/tag/computers/
+  42. https://www.wired.com/tag/software/
+  43. https://www.wired.com/story/best-way-learn-online-be-lurker/
+  44. https://www.wired.com/story/coders-efficiency-is-beautiful/
+  45. https://www.wired.com/story/productivity-got-done-list/
+  46. https://www.wired.com/story/cult-of-the-lamb-sins-of-the-flesh-sex-update-horny-games/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+  47. https://www.wired.com/story/emmys-streaming-succession-the-bear-hbo-hulu/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+  48. https://www.wired.com/story/leftoverlocals-gpu-vulnerability-generative-ai/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+  49. https://www.wired.com/story/trump-iowa-conspiracies/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+  50. https://www.wired.com/tag/cryptocurrency/
+  51. https://www.wired.com/tag/nfts/
+  52. https://www.wired.com/story/cult-of-the-lamb-sins-of-the-flesh-sex-update-horny-games/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+  53. https://www.wired.com/story/emmys-streaming-succession-the-bear-hbo-hulu/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+  54. https://www.wired.com/story/leftoverlocals-gpu-vulnerability-generative-ai/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+  55. https://www.wired.com/story/trump-iowa-conspiracies/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+  56. https://www.wired.com/tag/vaccines/
+  57. https://subscribe.wired.com/subscribe/splits/wired/WIR_Edit_Hardcoded?source=ArticleEnd_CMlink
+  58. https://www.wired.com/newsletter?sourceCode=BottomStories
+  59. https://www.wired.com/story/jacques-vallee-still-doesnt-know-what-ufos-are/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
+  60. https://www.wired.com/story/when-to-test-for-covid-vaccinated/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
+  61. https://www.wired.com/story/how-to-leave-photos-behind-when-you-die/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
+  62. https://www.wired.com/story/wecrashed-tv-silicon-valley/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
+  63. https://www.wired.com/story/youtubes-captions-insert-explicit-language-kids-videos/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
+  64. https://www.wired.com/category/artificial-intelligence/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
+  65. https://www.wired.com/gallery/best-wireless-headphones/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
+  66. https://www.wired.com/gallery/best-soundbars/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
+  67. https://www.wired.com/gallery/best-bluetooth-speakers/?itm_campaign=BottomRelatedStories&itm_content=footer-recirc
+  68. https://www.wired.com/author/paul-ford
+  69. https://www.wired.com/tag/magazine-3004/
+  70. https://www.wired.com/tag/crypto/
+  71. https://www.wired.com/tag/nfts/
+  72. https://www.wired.com/tag/software/
+  73. https://www.wired.com/tag/web3/
+  74. https://www.wired.com/story/a-key-to-detecting-brain-disease-earlier-than-ever/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
+  75. https://www.wired.com/story/the-danger-of-digitizing-everything/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
+  76. https://www.wired.com/story/regulators-are-finally-catching-up-with-big-tech/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
+  77. https://www.wired.com/story/get-ready-for-the-great-ai-disappointment/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
+  78. https://www.wired.com/story/the-oceans-mysteries-and-marvels-are-about-to-reach-new-depths/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
+  79. https://www.wired.com/story/ai-needs-to-be-both-trusted-and-trustworthy/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
+  80. https://www.wired.com/story/the-end-of-one-size-fits-all-health-care/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
+  81. https://www.wired.com/story/digitization-beats-deforestation/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
+  82. https://www.wired.com/
+  83. https://www.wired.com/subscribe/
+  84. https://www.wired.com/newsletter?sourceCode=HeaderAndFooter
+  85. https://www.wired.com/about/faq/
+  86. https://www.wired.com/wired-staff/
+  87. https://www.wired.com/about/wired-on-background-policy/
+  88. https://archive.wired.com/t/storefront/storefront
+  89. https://www.wired.com/about/rss-feeds/
+  90. https://www.wired.com/about/accessibility-help/
+  91. https://www.wired.com/category/gear/reviews/
+  92. https://www.wired.com/category/gear/buying-guides/
+  93. https://www.wired.com/coupons
+  94. https://www.wired.com/gallery/best-mattresses/
+  95. https://www.wired.com/gallery/best-electric-bikes/
+  96. https://www.wired.com/gallery/best-fitness-tracker/
+  97. https://www.wired.com/tag/culture-guides/
+  98. https://www.condenast.com/brands/wired
+  99. https://www.wired.com/about/feedback/
+ 100. https://subscriptions.wired.com/pubs/N3/WIR/Register.jsp?cds_page_id=175371&cds_mag_code=WIR&id=1423757547774&lsid=50431012277019467&vid=1
+ 101. https://www.wired.com/about/wired-jobs/
+ 102. https://www.wired.com/about/press/
+ 103. https://www.condenaststore.com/
+ 104. https://www.condenast.com/user-agreement/
+ 105. http://www.condenast.com/privacy-policy#privacypolicy
+ 106. http://www.condenast.com/privacy-policy#privacypolicy-california
+ 107. http://www.condenast.com/privacy-policy#privacypolicy-optout
+ 108. https://www.wired.co.uk/
+ 109. https://www.wired.it/
+ 110. https://wired.jp/
+ 111. https://www.wired.cz/
 
    Hidden links:
- 106. file://localhost/story/best-way-learn-online-be-lurker/
- 107. file://localhost/story/coders-efficiency-is-beautiful/
- 108. file://localhost/story/productivity-got-done-list/
- 109. https://www.wired.com/story/airbnb-ban-new-york-illegal-listings/#intcid=_wired-right-rail_04b13a6e-88a3-40d4-830d-f3acae710540_popular4-1-reranked-by-vidi
- 110. https://www.wired.com/story/x-israel-hamas-war-disinformation/#intcid=_wired-right-rail_04b13a6e-88a3-40d4-830d-f3acae710540_popular4-1-reranked-by-vidi
- 111. https://www.wired.com/story/ftx-1-billion-crypto-heist/#intcid=_wired-right-rail_04b13a6e-88a3-40d4-830d-f3acae710540_popular4-1-reranked-by-vidi
- 112. https://www.wired.com/story/23andme-credential-stuffing-data-stolen/#intcid=_wired-right-rail_04b13a6e-88a3-40d4-830d-f3acae710540_popular4-1-reranked-by-vidi
- 113. https://www.wired.com/story/airbnb-ban-new-york-illegal-listings/#intcid=_wired-right-rail_04b13a6e-88a3-40d4-830d-f3acae710540_popular4-1-reranked-by-vidi
- 114. https://www.wired.com/story/x-israel-hamas-war-disinformation/#intcid=_wired-right-rail_04b13a6e-88a3-40d4-830d-f3acae710540_popular4-1-reranked-by-vidi
- 115. https://www.wired.com/story/ftx-1-billion-crypto-heist/#intcid=_wired-right-rail_04b13a6e-88a3-40d4-830d-f3acae710540_popular4-1-reranked-by-vidi
- 116. https://www.wired.com/story/23andme-credential-stuffing-data-stolen/#intcid=_wired-right-rail_04b13a6e-88a3-40d4-830d-f3acae710540_popular4-1-reranked-by-vidi
- 117. https://www.twitter.com/https://twitter.com/ftrain
- 118. https://www.wired.com/story/chatgpt-coding-software-crisis/#intcid=_wired-bottom-recirc-v2_1cf83657-8f1c-4af7-bf40-d8067c0a444b_cral2-2-reranked-by-vidi
- 119. https://www.wired.com/story/ai-thought-decoder-mind-philosophy/#intcid=_wired-bottom-recirc-v2_1cf83657-8f1c-4af7-bf40-d8067c0a444b_cral2-2-reranked-by-vidi
- 120. https://www.wired.com/story/optimization-math-history-coco-krumme/#intcid=_wired-bottom-recirc-v2_1cf83657-8f1c-4af7-bf40-d8067c0a444b_cral2-2-reranked-by-vidi
- 121. https://www.wired.com/story/kiwifarms-tech-ethics-networked-harassment/#intcid=_wired-bottom-recirc-v2_1cf83657-8f1c-4af7-bf40-d8067c0a444b_cral2-2-reranked-by-vidi
- 122. https://www.wired.com/story/physics-of-time-actually-changing/#intcid=_wired-bottom-recirc-v2_1cf83657-8f1c-4af7-bf40-d8067c0a444b_cral2-2-reranked-by-vidi
- 123. https://www.wired.com/story/immersive-technology-artificial-intelligence-disinformation/#intcid=_wired-bottom-recirc-v2_1cf83657-8f1c-4af7-bf40-d8067c0a444b_cral2-2-reranked-by-vidi
- 124. https://www.wired.com/story/whatsapp-matchmaking-dating-ghosting/#intcid=_wired-bottom-recirc-v2_1cf83657-8f1c-4af7-bf40-d8067c0a444b_cral2-2-reranked-by-vidi
- 125. https://www.wired.com/story/girls-online-culture/#intcid=_wired-bottom-recirc-v2_1cf83657-8f1c-4af7-bf40-d8067c0a444b_cral2-2-reranked-by-vidi
- 126. https://www.facebook.com/wired/
- 127. https://twitter.com/wired/
- 128. https://pinterest.com/wired/
- 129. https://www.youtube.com/user/wired/
- 130. https://instagram.com/wired/
- 131. https://www.tiktok.com/@wired?lang=en
+ 113. https://www.wired.com/story/best-way-learn-online-be-lurker/
+ 114. https://www.wired.com/story/coders-efficiency-is-beautiful/
+ 115. https://www.wired.com/story/productivity-got-done-list/
+ 116. https://www.wired.com/story/cult-of-the-lamb-sins-of-the-flesh-sex-update-horny-games/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+ 117. https://www.wired.com/story/emmys-streaming-succession-the-bear-hbo-hulu/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+ 118. https://www.wired.com/story/leftoverlocals-gpu-vulnerability-generative-ai/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+ 119. https://www.wired.com/story/trump-iowa-conspiracies/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+ 120. https://www.wired.com/story/cult-of-the-lamb-sins-of-the-flesh-sex-update-horny-games/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+ 121. https://www.wired.com/story/emmys-streaming-succession-the-bear-hbo-hulu/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+ 122. https://www.wired.com/story/leftoverlocals-gpu-vulnerability-generative-ai/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+ 123. https://www.wired.com/story/trump-iowa-conspiracies/#intcid=_wired-right-rail_74dfed7c-3bc1-442e-a3a4-9ff009852b0c_popular4-1-reranked-by-vidi_fallback_cral-top2-2
+ 124. https://www.twitter.com/https://twitter.com/ftrain
+ 125. https://www.wired.com/story/a-key-to-detecting-brain-disease-earlier-than-ever/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
+ 126. https://www.wired.com/story/the-danger-of-digitizing-everything/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
+ 127. https://www.wired.com/story/regulators-are-finally-catching-up-with-big-tech/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
+ 128. https://www.wired.com/story/get-ready-for-the-great-ai-disappointment/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
+ 129. https://www.wired.com/story/the-oceans-mysteries-and-marvels-are-about-to-reach-new-depths/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
+ 130. https://www.wired.com/story/ai-needs-to-be-both-trusted-and-trustworthy/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
+ 131. https://www.wired.com/story/the-end-of-one-size-fits-all-health-care/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
+ 132. https://www.wired.com/story/digitization-beats-deforestation/#intcid=_wired-bottom-recirc-v2_f8b4e84f-1fac-4055-939a-7c08f87ffd72_text2vec1-reranked-by-vidi_fallback_cral-top2-2
+ 133. https://www.facebook.com/wired/
+ 134. https://twitter.com/wired/
+ 135. https://pinterest.com/wired/
+ 136. https://www.youtube.com/user/wired/
+ 137. https://instagram.com/wired/
+ 138. https://www.tiktok.com/@wired?lang=en

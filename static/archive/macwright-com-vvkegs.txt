@@ -1,4 +1,4 @@
-   #[1]macwright.com [2]macwright.com
+   #[1]macwright.com - Micro [2]macwright.com - Micro
 
 Tom MacWright
 
@@ -11,7 +11,8 @@ Tom MacWright
      * [5]Photos
      * [6]Projects
      * [7]Drawings
-     * [8]About
+     * [8]Micro
+     * [9]About
 
 Second-guessing the modern web
 
@@ -31,16 +32,16 @@ Second-guessing the modern web
    There is a sweet spot of React: in moderately interactive interfaces.
    Complex forms that require immediate feedback, UIs that need to move
    around and react instantly. That’s where it excels. I helped build the
-   editors in [9]Mapbox Studio and [10]Observable and for the most part,
+   editors in [10]Mapbox Studio and [11]Observable and for the most part,
    React was a great choice.
 
    But there’s a lot on either side of that sweet spot.
 
-   The high performance parts aren’t React. [11]Mapbox GL, for example, is
+   The high performance parts aren’t React. [12]Mapbox GL, for example, is
    vanilla JavaScript and probably should be forever. The level of
    abstraction that React works on is too high, and the cost of using
    React - in payload, parse time, and so on - is too much for any company
-   to include it as part of an SDK. Same with the [12]Observable runtime,
+   to include it as part of an SDK. Same with the [13]Observable runtime,
    the juicy center of that product: it’s very performance-intensive and
    would barely benefit from a port.
 
@@ -115,7 +116,7 @@ Server-Side Rendering
    A great optimization, but again, caveats.
 
    The first is that the page you initially render is dead: you’ve created
-   the [13]Time To Interactive metric. It’s your startup’s homepage, and
+   the [14]Time To Interactive metric. It’s your startup’s homepage, and
    it has a “Sign up” button, but until the JavaScript loads, that button
    doesn’t do anything. So you need to compensate. Either you omit some
    interactive elements on load, or you try really hard to make sure that
@@ -147,7 +148,7 @@ APIs
    For example: a generically-designed REST API that tries not to mix
    ‘concerns’ will produce a frontend application that has to make lots of
    requests to display a page. And then a new-age GraphQL application will
-   suffer under the [14]N+1 query problem at the database level until an
+   suffer under the [15]N+1 query problem at the database level until an
    optimization arrives. And a traditional “make a query and put it on a
    page” application will just, well, try to write some good queries.
 
@@ -189,7 +190,7 @@ Data fetching
 
    And it should be easy to do a good job.
 
-   Frameworks should lure people into the [15]pit of success, where
+   Frameworks should lure people into the [16]pit of success, where
    following the normal rules and using normal techniques is the winning
    approach.
 
@@ -208,7 +209,7 @@ Data fetching
    without React and which aren’t complicated enough to push beyond
    React’s limits. But there are also a lot of problems for which I can’t
    see any concrete benefit to using React. Those are things like blogs,
-   shopping-cart-websites, mostly-[16]CRUD-and-forms-websites. For these
+   shopping-cart-websites, mostly-[17]CRUD-and-forms-websites. For these
    things, all of the fancy optimizations are trying to get you closer to
    the performance you would’ve gotten if you just hadn’t used so much
    technology.
@@ -250,35 +251,38 @@ Data fetching
 
    What if everyone’s wrong? We’ve been wrong before.
    Follow-ups & commmentary
-     * [17]"In defense of the modern web", Rich Harris
-     * [18]Friday Night Deploys (Podcast) #22: A Brief Discussion On The
+     * [18]"In defense of the modern web", Rich Harris
+     * [19]Friday Night Deploys (Podcast) #22: A Brief Discussion On The
        State Of The Modern Web
-     * [19]Frontend First (Podcast): Read & Discuss
-     * [20]A Ready-To-Try Concept in Response to “Second-guessing the
+     * [20]Frontend First (Podcast): Read & Discuss
+     * [21]A Ready-To-Try Concept in Response to “Second-guessing the
        modern web”
 
-   May 10, 2020  [21]@tmcw
+   May 10, 2020  [22]Tom MacWright ([23]@tmcw, [24]@tmcw@mastodon.social)
 
 References
 
-   1. https://macwright.com/rss.xml
-   2. https://macwright.com/atom.xml
-   3. file:///
-   4. file:///reading/
-   5. file:///photos/
-   6. file:///projects/
-   7. file:///drawings/
-   8. file:///about/
-   9. https://www.mapbox.com/mapbox-studio/
-  10. https://observablehq.com/
-  11. https://docs.mapbox.com/mapbox-gl-js/api/
-  12. https://github.com/observablehq/runtime
-  13. https://web.dev/interactive/
-  14. https://engineering.shopify.com/blogs/engineering/solving-the-n-1-problem-for-graphql-through-batching
-  15. https://blog.codinghorror.com/falling-into-the-pit-of-success/
-  16. https://en.wikipedia.org/wiki/Create,_read,_update_and_delete
-  17. https://dev.to/richharris/in-defense-of-the-modern-web-2nia
-  18. https://dev.to/devplebs/friday-night-deploys-22-a-brief-discussion-on-the-state-of-the-modern-web-2961
-  19. https://frontendfirst.fm/episodes/read-and-discuss-second-guessing-the-modern-web
-  20. https://medium.com/@kevinkirchner/a-ready-to-try-concept-in-response-to-second-guessing-the-modern-web-6946ec4d0598
-  21. https://twitter.com/intent/follow?screen_name=tmcw&user_id=1458271
+   1. https://macwright.com/micro/rss.xml
+   2. https://macwright.com/micro/atom.xml
+   3. https://macwright.com/
+   4. https://macwright.com/reading/
+   5. https://macwright.com/photos/
+   6. https://macwright.com/projects/
+   7. https://macwright.com/drawings/
+   8. https://macwright.com/micro/
+   9. https://macwright.com/about/
+  10. https://www.mapbox.com/mapbox-studio/
+  11. https://observablehq.com/
+  12. https://docs.mapbox.com/mapbox-gl-js/api/
+  13. https://github.com/observablehq/runtime
+  14. https://web.dev/interactive/
+  15. https://engineering.shopify.com/blogs/engineering/solving-the-n-1-problem-for-graphql-through-batching
+  16. https://blog.codinghorror.com/falling-into-the-pit-of-success/
+  17. https://en.wikipedia.org/wiki/Create,_read,_update_and_delete
+  18. https://dev.to/richharris/in-defense-of-the-modern-web-2nia
+  19. https://dev.to/devplebs/friday-night-deploys-22-a-brief-discussion-on-the-state-of-the-modern-web-2961
+  20. https://frontendfirst.fm/episodes/read-and-discuss-second-guessing-the-modern-web
+  21. https://medium.com/@kevinkirchner/a-ready-to-try-concept-in-response-to-second-guessing-the-modern-web-6946ec4d0598
+  22. https://macwright.com/about/
+  23. https://twitter.com/intent/follow?screen_name=tmcw&user_id=1458271
+  24. https://mastodon.social/@tmcw

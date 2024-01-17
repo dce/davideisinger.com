@@ -4,7 +4,7 @@ date: 2023-08-03T16:19:15-04:00
 draft: false
 references:
 - title: "My thoughts on Helix after 6 months - Tim Hårek"
-  url: https://timharek.no/blog/my-thoughts-on-helix-after-6-months/
+  url: https://timharek.no/blog/my-thoughts-on-helix-after-6-months
   date: 2023-07-02T12:53:51Z
   file: timharek-no-ah7ilz.txt
 ---
@@ -46,7 +46,7 @@ What I don't like:
 Pull it down with Homebrew or similar, and give it a shot. Hint: you launch Helix with `hx` -- figuring that out might've been the hardest part of my Helix journey so far.
 
 [1]: /journal/dispatch-5-july-2023/
-[2]: https://timharek.no/blog/my-thoughts-on-helix-after-6-months/
+[2]: https://timharek.no/blog/my-thoughts-on-helix-after-6-months
 [3]: https://helix-editor.com/
 [4]: https://github.com/helix-editor/helix/pull/7665
 [5]: https://docs.helix-editor.com/master/languages.html#configuring-language-servers-for-a-language

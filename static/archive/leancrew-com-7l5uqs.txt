@@ -270,11 +270,11 @@ References
    6. https://leancrew.com/all-this/2012/09/tidying-markdown-reference-links/
    7. http://www.gutenberg.org/dirs/etext97/lwfan10h.htm
    8. http://daringfireball.net/projects/markdown/syntax#link
-   9. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L97479-6275TMP.html#fn:formd
+   9. https://leancrew.com/all-this/2012/09/tidying-markdown-reference-links/#fn:formd
   10. http://www.leancrew.com/all-this/2012/09/applescript-syntax-highlighting-finally/
   11. http://www.drbunsen.org/formd-a-markdown-formatting-tool.html
   12. https://twitter.com/ttscoff/status/247398632377184256
-  13. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L97479-6275TMP.html#fnref:formd
+  13. https://leancrew.com/all-this/2012/09/tidying-markdown-reference-links/#fnref:formd
   14. https://leancrew.com/all-this/2012/09/some-kind-of-druid-dudes-lifting-the-veil/
   15. https://leancrew.com/all-this/2012/09/implementing-pubsubhubbub/
   16. https://leancrew.com/all-this/archive/

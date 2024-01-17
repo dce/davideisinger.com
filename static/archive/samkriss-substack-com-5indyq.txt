@@ -6,7 +6,7 @@
 
 [3]Numb at the Lodge
 
-   (BUTTON) (BUTTON)
+   (BUTTON)
    Subscribe
    (BUTTON) Sign in
 
@@ -27,22 +27,28 @@ The internet is already over
    (BUTTON)
    Other
 
-Discover more from Numb at the Lodge
-
-   These heavy sands are language tide and wind have silted here
-   Over 11,000 subscribers
-   ____________________
-   (BUTTON) Subscribe
-   Continue reading
-   Sign in
-
 The internet is already over
 
 Our God is a devourer, who makes things only for the swallowing.
 
    [4]Sam Kriss
    Sep 18, 2022
-   Share
+   (BUTTON)
+   Share this post
+
+The internet is already over
+
+   samkriss.substack.com
+   (BUTTON)
+   Copy link
+   (BUTTON)
+   Facebook
+   (BUTTON)
+   Email
+   (BUTTON)
+   Note
+   (BUTTON)
+   Other
 
 A sort of preface
 
@@ -680,7 +686,7 @@ A conclusion, or, where I’m going with all this
    ____________________
    (BUTTON) Subscribe
 
-   © 2023 Sam Kriss
+   © 2024 Sam Kriss
    [48]Privacy ∙ [49]Terms ∙ [50]Collection notice
    Start Writing[51]Get the app
    [52]Substack is the home for great writing
@@ -691,7 +697,7 @@ A conclusion, or, where I’m going with all this
 References
 
    Visible links:
-   1. file:///feed
+   1. https://samkriss.substack.com/feed
    2. https://samkriss.substack.com/
    3. https://samkriss.substack.com/
    4. https://substack.com/@samkriss
@@ -738,7 +744,7 @@ References
   45. https://samkriss.substack.com/p/the-internet-is-already-over#footnote-anchor-9-71503638
   46. https://samkriss.substack.com/p/the-internet-is-already-over#footnote-anchor-10-71503638
   47. https://samkriss.substack.com/p/the-internet-is-already-over#footnote-anchor-11-71503638
-  48. https://samkriss.substack.com/privacy?utm_source=
+  48. https://substack.com/privacy
   49. https://substack.com/tos
   50. https://substack.com/ccpa#personal-data-collected
   51. https://substack.com/app/app-store-redirect?utm_campaign=app-marketing&utm_content=web-footer-button

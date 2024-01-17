@@ -40,19 +40,19 @@ More
 
 Featured
 
-   Read the Article: AI in Recruiting
+   Read the Article: Revolutionizing the Web
 
    Newsletter
 
-AI in Recruiting
+Revolutionizing the Web
 
-   Read the Article: The Enduring Point of Pointless Corp
+   Read the Article: The Reflection Before Christmas
 
    Article
 
-The Enduring Point of Pointless Corp
+The Reflection Before Christmas
 
-The Enduring Point of Pointless Corp
+The Enduring Point of Pointless Corp.
 
    [22]Brian Williams
 
@@ -63,10 +63,14 @@ The Enduring Point of Pointless Corp
    Posted on March 24, 2023
      * Share
      * Share
-     * Tweet
+     * Post
 
    Pointless Corp. is the innovation lab at Viget, where we step away from
    client work to make fun and useful things for everyone
+
+   P o i n t l e s s C o r p . i s t h e i n n o v a t i o n l a b a t V i
+   g e t , w h e r e w e s t e p a w a y f r o m c l i e n t w o r k t o m
+   a k e f u n a n d u s e f u l t h i n g s f o r e v e r y o n e
 
    “Neither pointless, nor a corporation” is how we describe Pointless
    Corp. here at Viget. We founded Viget – an actual company – in 1999
@@ -77,7 +81,7 @@ The Enduring Point of Pointless Corp
    serve our clients has been key in our longevity.
 
    About a decade in, we felt the urge to build and launch our own
-   projects. [26]Pointless Corp became the internal [27]brand we adopted
+   projects. [26]Pointless Corp. became the internal [27]brand we adopted
    to remind ourselves that these projects can be fun and useful but don’t
    replace the primary point of Viget. A line from Harry Nilsson’s The
    Point! referencing the Pointless Man serves as inspiration: “a point in
@@ -105,7 +109,6 @@ The Enduring Point of Pointless Corp
    [31]back in 2012. It’s [32]always been an intense, enjoyable, but
    rather exhausting 48 hours. Photos from [33]2011, [34]2014, and
    [35]2016 bring back some great memories.
-   Photos of Pointless Weekend 2014
    Pointless Weekend 2014 spanned three Viget offices
 
    A couple of years ago, we shifted the schedule to start on Wednesday
@@ -146,7 +149,6 @@ The Enduring Point of Pointless Corp
    work. We still had fun in-office connections, but most of our Pointless
    Projects this year are being worked on with distributed teams, much
    like our client work.
-   Photo of Pointless Branded Stuff 2023
    Pointless Branded Stuff 2023 including a t-shirt and sticker pack --
    very corporate
 
@@ -167,7 +169,6 @@ The Enduring Point of Pointless Corp
    been inspired in a long time. I expect articles will be written and
    shared in the days and weeks ahead outlining the thrills (and mishaps)
    of the teams this year.
-   Photos of Pointless Palooza 2023
    Pointless Palooza 2023 was a blast!
 
    Pointless Corp. is more than an annual palooza. We work on projects
@@ -256,19 +257,17 @@ Office Locations
      * [64]Boulder, CO
      * [65]Chattanooga, TN
 
-   © 1999 – 2023 Viget Labs, LLC. [66]Terms [67]Privacy [68]MRF
+   © 1999 – 2024 Viget Labs, LLC. [66]Terms [67]Privacy [68]MRF
 
      * [69]Home
      * [70]Articles
-     * [71]The Enduring Point of Pointless Corp
+     * [71]The Enduring Point of Pointless Corp.
 
    [72]Subscribe (opens in a new window)
    (BUTTON) Share
      * [73]Share this page
      * [74]Share this page
-     * [75]Tweet this page
-
-   [76]Edit Entry
+     * [75]Post this page
 
 References
 
@@ -347,21 +346,20 @@ References
   72. http://eepurl.com/gtHqsj
   73. https://www.facebook.com/sharer/sharer.php?u=https://www.viget.com/articles/the-enduring-point-of-pointless-corp/
   74. http://www.linkedin.com/shareArticle?mini=true&url=https://www.viget.com/articles/the-enduring-point-of-pointless-corp/
-  75. https://twitter.com/intent/tweet?text=Pointless Corp. is the innovation lab at Viget, where we step away from client work to make fun and useful things for everyone https://www.viget.com/articles/the-enduring-point-of-pointless-corp/
-  76. https://www.viget.com/admin/entries/article/456611-the-enduring-point-of-pointless-corp
+  75. https://x.com/intent/tweet?text=Pointless Corp. is the innovation lab at Viget, where we step away from client work to make fun and useful things for everyone https://www.viget.com/articles/the-enduring-point-of-pointless-corp/
 
    Hidden links:
-  78. https://www.viget.com/newsletter/ai-in-recruiting/
-  79. https://www.viget.com/articles/the-enduring-point-of-pointless-corp/
-  80. https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.viget.com%2Farticles%2Fthe-enduring-point-of-pointless-corp%2F
-  81. http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.viget.com%2Farticles%2Fthe-enduring-point-of-pointless-corp%2F
-  82. https://twitter.com/intent/tweet?text=Pointless%20Corp.%20is%20the%20innovation%20lab%20at%20Viget%2C%20where%20we%20step%20away%20from%20client%20work%20to%20make%20fun%20and%20useful%20things%20for%20everyone%20https%3A%2F%2Fwww.viget.com%2Farticles%2Fthe-enduring-point-of-pointless-corp%2F
-  83. https://www.viget.com/articles/our-pointless-logo/
-  84. https://www.viget.com/articles/introducing-pointless-corp/
-  85. https://www.viget.com/articles/whats-the-point-of-pointless-weekend/
-  86. https://twitter.com/viget
-  87. https://github.com/vigetlabs
-  88. https://dribbble.com/viget
-  89. https://www.instagram.com/viget/
-  90. https://www.linkedin.com/company/viget-labs
-  91. https://vimeo.com/viget/collections
+  77. https://www.viget.com/newsletter/revolutionizing-the-web/
+  78. https://www.viget.com/articles/the-reflection-before-christmas/
+  79. https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.viget.com%2Farticles%2Fthe-enduring-point-of-pointless-corp%2F
+  80. http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.viget.com%2Farticles%2Fthe-enduring-point-of-pointless-corp%2F
+  81. https://x.com/intent/tweet?text=Pointless%20Corp.%20is%20the%20innovation%20lab%20at%20Viget%2C%20where%20we%20step%20away%20from%20client%20work%20to%20make%20fun%20and%20useful%20things%20for%20everyone%20https%3A%2F%2Fwww.viget.com%2Farticles%2Fthe-enduring-point-of-pointless-corp%2F
+  82. https://www.viget.com/articles/our-pointless-logo/
+  83. https://www.viget.com/articles/introducing-pointless-corp/
+  84. https://www.viget.com/articles/whats-the-point-of-pointless-weekend/
+  85. http://x.com/viget
+  86. https://github.com/vigetlabs
+  87. https://dribbble.com/viget
+  88. https://www.instagram.com/viget/
+  89. https://www.linkedin.com/company/viget-labs
+  90. https://vimeo.com/viget/collections

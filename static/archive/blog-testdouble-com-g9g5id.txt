@@ -322,38 +322,38 @@ References
    3. https://testdouble.com/agency
    4. https://testdouble.com/services
    5. https://testdouble.com/careers
-   6. file:///
+   6. https://blog.testdouble.com/
    7. https://testdouble.com/contact
-   8. file:///
-   9. file:///posts/
-  10. file:///authors/justin-searls/
+   8. https://blog.testdouble.com/
+   9. https://blog.testdouble.com/posts/
+  10. https://blog.testdouble.com/authors/justin-searls/
   11. https://x.com/TheAndrewNadeau/status/1647622603698257921
   12. https://www.amazon.com/Elon-Musk-Walter-Isaacson/dp/1982181281
-  13. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60667-6621TMP.html#periodically-plant-a-flag
-  14. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60667-6621TMP.html#how-to-plant-a-flag
+  13. https://blog.testdouble.com/posts/2024-01-02-plant-your-flag-career-advice/#periodically-plant-a-flag
+  14. https://blog.testdouble.com/posts/2024-01-02-plant-your-flag-career-advice/#how-to-plant-a-flag
   15. https://www.etsy.com/shop/PrincessEtch
-  16. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60667-6621TMP.html#this-all-happens-in-hindsight
-  17. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L60667-6621TMP.html#who-me-yes-you
-  18. file:///authors/justin-searls/
+  16. https://blog.testdouble.com/posts/2024-01-02-plant-your-flag-career-advice/#this-all-happens-in-hindsight
+  17. https://blog.testdouble.com/posts/2024-01-02-plant-your-flag-career-advice/#who-me-yes-you
+  18. https://blog.testdouble.com/authors/justin-searls/
   19. https://twitter.com/searls
   20. https://mastodon.social/@searls
   21. https://github.com/searls
   22. https://linkedin.com/in/searls
   23. https://justin.searls.co/
-  24. file:///posts/2023-10-10-16-things-you-believe-about-software/
-  25. file:///authors/justin-searls/
-  26. file:///categories/community
-  27. file:///posts/2023-02-20-shared-values-make-the-difference/
-  28. file:///authors/cathy-colliver/
-  29. file:///categories/leadership
-  30. file:///categories/teams
-  31. file:///categories/our-company
+  24. https://blog.testdouble.com/posts/2023-10-10-16-things-you-believe-about-software/
+  25. https://blog.testdouble.com/authors/justin-searls/
+  26. https://blog.testdouble.com/categories/community
+  27. https://blog.testdouble.com/posts/2023-02-20-shared-values-make-the-difference/
+  28. https://blog.testdouble.com/authors/cathy-colliver/
+  29. https://blog.testdouble.com/categories/leadership
+  30. https://blog.testdouble.com/categories/teams
+  31. https://blog.testdouble.com/categories/our-company
   32. https://link.testdouble.com/blog-cta-sales
   33. https://testdouble.com/
   34. https://testdouble.com/agency
   35. https://testdouble.com/services
   36. https://testdouble.com/careers
-  37. file:///
+  37. https://blog.testdouble.com/
   38. https://testdouble.com/contact
   39. https://mastodon.social/@testdouble
   40. https://github.com/testdouble
@@ -361,5 +361,5 @@ References
   42. https://twitter.com/testdouble
   43. tel:+16143494279
   44. mailto:hello@testdouble.com
-  45. file://testdouble.com/privacy-policy
-  46. file://testdouble.com/
+  45. https://testdouble.com/privacy-policy
+  46. https://testdouble.com/

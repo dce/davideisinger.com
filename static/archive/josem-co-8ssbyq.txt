@@ -2,15 +2,16 @@
 
      * [2]Home
      * [3]Articles
-     * [4]Work
-     * [5]About
+     * [4]Subscribe
+     * [5]Work
+     * [6]About
      * (BUTTON)
 
                         The beauty of finished software
 
    October 31, 2023
 
-   Let me introduce you to [6]WordStar 4.0, a popular word processor from
+   Let me introduce you to [7]WordStar 4.0, a popular word processor from
    the early 80s.
 
    Wordstar 4.0 WordStar 4.0
@@ -25,7 +26,7 @@
      doesn't do anything else. I don't want any help. I hate some of
      these modern systems where you type up a lowercase letter and it
      becomes a capital. I don't want a capital, if I'd wanted a capital,
-     I would have typed the capital.[7]George R.R. Martin
+     I would have typed the capital.[8]George R.R. Martin
 
    This program embodies the concept of finished software — a software you
    can use forever with no unneeded changes.
@@ -91,20 +92,21 @@ Finished software is a good reminder
 References
 
    [1] George R.R. Martin in Conan show (2014).
-   [8]https://www.youtube.com/watch?v=X5REM-3nWHg.
+   [9]https://www.youtube.com/watch?v=X5REM-3nWHg.
 
    Subscribe below to get future posts in your inbox (no spam)
    ____________________
    ____________________
    Subscribe
 
-   Or use the [9]RSS feed link.
+   Or use the [10]RSS feed link.
      __________________________________________________________________
 
-   This site is ads-free and done in my free time. [10]Buy Me A Coffee to
+   This site is ads-free and done in my free time. [11]Buy Me A Coffee to
    help me keep working on it.
 
-   © 2023 [11]Home | [12]RSS feed | [13]Buy Me A Coffee
+   © 2023 [12]Home | [13]Mastodon | [14]Twitter | [15]RSS feed | [16]Buy
+   Me A Coffee
 
 References
 
@@ -112,17 +114,20 @@ References
    1. https://josem.co//articles/index.xml
    2. https://josem.co/
    3. https://josem.co/articles/
-   4. https://josem.co/work/
-   5. https://josem.co/about/
-   6. https://en.wikipedia.org/wiki/WordStar
-   7. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L75711-7804TMP.html#rf1
-   8. https://www.youtube.com/watch?v=X5REM-3nWHg
-   9. https://josem.co/articles/index.xml
-  10. https://www.buymeacoffee.com/josem.co
-  11. https://josem.co/
-  12. https://josem.co/articles/index.xml
-  13. https://www.buymeacoffee.com/josem.co
+   4. https://josem.co/subscribe/
+   5. https://josem.co/work/
+   6. https://josem.co/about/
+   7. https://en.wikipedia.org/wiki/WordStar
+   8. https://josem.co/the-beauty-of-finished-software/#rf1
+   9. https://www.youtube.com/watch?v=X5REM-3nWHg
+  10. https://josem.co/articles/index.xml
+  11. https://www.buymeacoffee.com/josem.co
+  12. https://josem.co/
+  13. https://mstdn.social/@josem
+  14. https://twitter.com/gilgado_
+  15. https://josem.co/articles/index.xml
+  16. https://www.buymeacoffee.com/josem.co
 
    Hidden links:
-  15. https://josem.co/
-  16. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L75711-7804TMP.html#top
+  18. https://josem.co/
+  19. https://josem.co/the-beauty-of-finished-software/#top

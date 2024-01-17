@@ -1,23 +1,15 @@
-   [1]Yes, Mike will do.
-   (BUTTON)
-
-     * [2]About
-     * [3]Tags
-     * [4]Categories
-     * [5]Search
-     * [6]Feed
-
-   [7]Home » [8]Posts
+   [1]←Home [2]Archive [3]Tags [4]About
 
                            Daily notes for 2023-07-17
 
-   July 17, 2023
+   Jul 17, 2023 · 1447 words · 7 minute read
 
    Table of Contents
-     * [9]Notes on conflict
-     * [10]The INT650
 
-Notes on conflict[11]#
+     * [5]Notes on conflict
+     * [6]The INT650
+
+Notes on conflict [7]🔗
 
      When my master and I were walking in the rain, he would say, “Do not
      walk so fast, the rain is everywhere.”
@@ -89,10 +81,10 @@ Notes on conflict[11]#
    understand why we want different things, then figure out how we can
    both behave with integrity while we sort that out.
 
-The INT650[12]#
+The INT650 [8]🔗
 
    I finally quit waffling on what to do with the Royal Enfield Himalayan.
-   I took it up to [13]Sabatino Moto in St. Johns and traded it in for
+   I took it up to [9]Sabatino Moto in St. Johns and traded it in for
    another Royal Enfield: An INT650 (“Interceptor” everywhere else in the
    world, but not in North America where Honda owns the rights to the
    name.)
@@ -162,36 +154,30 @@ The INT650[12]#
    season left, and I can wholeheartedly recommend Sabatino Moto if you’re
    looking to buy one for yourself.
 
-     * [14]journal
-     * [15]conflict
+   [10]journal [11]conflict
 
-   [16]« Prev
-   Daily notes for 2023-07-18 [17]Next »
-   Mission: Incomprehensible © 2023 Mike Hall — [18]Colophon
+   Created with Sketch.
+
+   © Copyright 2024 mph
+
+   Powered by [12]Hugo Theme By [13]nodejh
 
 References
 
    Visible links:
    1. https://mike.puddingtime.org/
-   2. https://mike.puddingtime.org/about/
-   3. https://mike.puddingtime.org/tags/
-   4. https://mike.puddingtime.org/categories/
-   5. https://mike.puddingtime.org/search/
-   6. https://mike.puddingtime.org/index.xml
-   7. https://mike.puddingtime.org/
-   8. https://mike.puddingtime.org/posts/
-   9. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12623-9641TMP.html#notes-on-conflict
-  10. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12623-9641TMP.html#the-int650
-  11. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12623-9641TMP.html#notes-on-conflict
-  12. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12623-9641TMP.html#the-int650
-  13. https://www.sabatinomoto.com/
-  14. https://mike.puddingtime.org/tags/journal/
-  15. https://mike.puddingtime.org/tags/conflict/
-  16. https://mike.puddingtime.org/posts/2023-07-18-daily-notes/
-  17. https://mike.puddingtime.org/posts/2023-07-15-mission--incomprehensible/
-  18. file:///colophon
+   2. https://mike.puddingtime.org/posts
+   3. https://mike.puddingtime.org/tags
+   4. https://mike.puddingtime.org/about
+   5. https://mike.puddingtime.org/posts/2023-07-17-daily-notes/#notes-on-conflict
+   6. https://mike.puddingtime.org/posts/2023-07-17-daily-notes/#the-int650
+   7. https://mike.puddingtime.org/posts/2023-07-17-daily-notes/#notes-on-conflict
+   8. https://mike.puddingtime.org/posts/2023-07-17-daily-notes/#the-int650
+   9. https://www.sabatinomoto.com/
+  10. https://mike.puddingtime.org/tags/journal
+  11. https://mike.puddingtime.org/tags/conflict
+  12. http://www.gohugo.io/
+  13. https://github.com/nodejh/hugo-theme-mini
 
    Hidden links:
-  20. https://social.lol/@mph
-  21. https://pix.puddingtime.org/
-  22. file://localhost/var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12623-9641TMP.html#top
+  15. https://github.com/pdxmph

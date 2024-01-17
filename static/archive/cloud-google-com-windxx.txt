@@ -68,7 +68,7 @@ David Yach
 
    Director of Engineering at Google Cloud
 
-   Iâve been building software over the last four decades, as a developer,
+   I’ve been building software over the last four decades, as a developer,
    manager and executive in both small and large software companies. I
    started my career working on commercial compilers, first BASIC and then
    C. I have written a lot of code in many different languages, and
@@ -79,7 +79,7 @@ David Yach
    that shift gave us the opportunity to consider moving away from the
    incumbent language (Scala). As I read through the Go tutorials, my
    compiler-writing background came back to me and I found myself
-   repeatedly thinking âThatâs cool â I know why the Go team did that!â So
+   repeatedly thinking “That’s cool – I know why the Go team did that!” So
    I got hooked on the language design.
 
 Learning
@@ -97,14 +97,14 @@ Writing code
    me was the blazing compiler speed. It was as fast or faster starting my
    application than many interpreted languages, yet it was a compiled
    program with a strongly typed language. (I have an affinity for
-   strongly typed languages â I have spent way too much time tracking down
+   strongly typed languages – I have spent way too much time tracking down
    obscure issues in my own code in dynamic typed languages, where the
    same issue would have been a compile error in a strongly typed
-   language.) Even better, in Go I often donât need to declare the type â
+   language.) Even better, in Go I often don’t need to declare the type –
    the compiler figures it out.
 
-   I was impressed with the standard Go library â it included many of the
-   capabilities required by modern applications â things like HTTP
+   I was impressed with the standard Go library – it included many of the
+   capabilities required by modern applications – things like HTTP
    support, JSON handling and encryption. Many other languages required
    you to use a third-party library for these features, and often there
    were multiple competing libraries to choose from, adding another
@@ -114,65 +114,65 @@ Writing code
    There were a few other language decisions that I found helpful. One is
    that the compiler figures out if you are returning a pointer to a
    local, and behind the scenes allocates the memory rather than using the
-   stack. This prevents bugs, and I find the code more readable.Â
+   stack. This prevents bugs, and I find the code more readable.
 
-   I also like that you donât declare that you support an interface. I
-   wasnât sure I would like this at first because it isnât obvious if a
+   I also like that you don’t declare that you support an interface. I
+   wasn’t sure I would like this at first because it isn’t obvious if a
    type implements a particular interface, but I found greater value in
-   the fact that I wasnât dependent on the code author (even if it was
+   the fact that I wasn’t dependent on the code author (even if it was
    me!) to declare that the interface is implemented. This first hit home
    when I used fmt.Println() and it automatically used the String() method
-   I had implemented even though it hadnât occurred to me that I was
+   I had implemented even though it hadn’t occurred to me that I was
    implementing the Stringer interface.
 
-   The last feature Iâll note is the ability to do concurrent programming
+   The last feature I’ll note is the ability to do concurrent programming
    through channels and goroutines. The model is simple to understand yet
    powerful.
 
 Reading code
 
    After writing more Go code and starting to incorporate third party
-   libraries, I had a realization that had never occurred to me before â
+   libraries, I had a realization that had never occurred to me before –
    as a developer, I spend a lot of time reading code. In fact, I probably
    spend more time reading code than writing it, once you start counting
    code reviews, debugging, and evaluating third-party libraries.
 
-   What was different about reading Go code? I would summarize it by âit
-   all looks the same.â What do I mean by that? Go format ensures all the
+   What was different about reading Go code? I would summarize it by “it
+   all looks the same.” What do I mean by that? Go format ensures all the
    braces are in the same spot; capitalized identifiers are exported;
    there are no implicit conversions, even of internal types; and there is
    no overloading of operators, functions or methods. That means that with
-   Go code, âwhat you see is what you getâ with no hidden meaning. Of
-   course, it doesnât help me to understand a complicated algorithm, but
+   Go code, “what you see is what you get” with no hidden meaning. Of
+   course, it doesn’t help me to understand a complicated algorithm, but
    it does mean that I can concentrate more on that algorithm because I
-   donât have to understand whether â+â is overloaded, for example.
+   don’t have to understand whether ‘+’ is overloaded, for example.
 
    I was also pleasantly surprised when I used GoDoc on one of my
    projects, and discovered that I had semi-reasonable documentation
    without doing anything while writing the code other than adding
    comments on my functions and methods based on nagging from the IDE I
    was using. I did spend some time cleaning up the comments after that,
-   but Iâm not sure I would have even started that work if Go hadnât given
+   but I’m not sure I would have even started that work if Go hadn’t given
    me a great starting point.
 
 Testing code
 
    Go test is part of the standard Go tools and supported by IDEs, making
    it easy to get started creating unit tests for my code. And like the
-   standard Go library, having a standard way to do tests means I donât
+   standard Go library, having a standard way to do tests means I don’t
    have to evaluate external testing frameworks and select one. I can also
-   understand the tests when Iâm evaluating a third party library.
+   understand the tests when I’m evaluating a third party library.
 
    Even better, the default behavior running package tests in VSCode is to
-   enable Goâs built-in code coverage. I had never taken code coverage
+   enable Go’s built-in code coverage. I had never taken code coverage
    seriously working in other languages, partly because it was often
    difficult to set up. But the immediate feedback (helped by the blazing
    compile speed) gamified this for me, and I found myself adding tests to
    increase code coverage (and finding new bugs along the way).
 
-   Go doesnât allow circular dependencies between packages. While this has
+   Go doesn’t allow circular dependencies between packages. While this has
    caused me some rethinking while writing code, I find it makes my
-   testing regimen easier to think about â if I depend on a package, I can
+   testing regimen easier to think about – if I depend on a package, I can
    rely on that package to have its own tests covering its capabilities.
 
 Deploying code
@@ -188,7 +188,7 @@ Deploying code
    particularly if you have hundreds or thousands of containers running).
 
    Second, Go has built-in cross compiling capabilities so our development
-   machines, containers and cloud hardware donât all have to all be on the
+   machines, containers and cloud hardware don’t all have to all be on the
    same processor or operating system. For example, I can use a Linux
    build machine to produce client executables for Linux, Mac and Windows.
    Again, this takes away a complicated decision process due to artificial
@@ -212,7 +212,7 @@ What do I miss?
    sometimes.
 
    My most frequent coding mistake is when I should have used a pointer
-   receiver for a method and didnât, then modify the receiver expecting
+   receiver for a method and didn’t, then modify the receiver expecting
    the changes to be visible when the method returns. The code looks
    correct, the right values get assigned if I use a debugger to step
    through or issue prints, but the changes disappear after the method
@@ -225,7 +225,7 @@ In conclusion
 
    As you can tell, I am a huge fan of Go, from even before I joined
    Google. I am impressed by the language and ecosystem design, and by the
-   implementation. For me, Go makes me a more productive developer and Iâm
+   implementation. For me, Go makes me a more productive developer and I’m
    more confident in the quality of the code I produce.
 
    Go, give it a [46]try!
@@ -237,38 +237,38 @@ In conclusion
 
 Related articles
 
-   https://storage.googleapis.com/gweb-cloudblog-publish/images/TMI_Blog_h
-   eader_2436x1200_Rnd2.max-700x700.jpg
-   Application Development
-
-The Modernization Imperative: Shifting left is for suckers. Shift down
-instead
-
-   By Richard Seroter â¢ 5-minute read
-
-   https://storage.googleapis.com/gweb-cloudblog-publish/images/DO_NOT_USE
-   _ps1BuN1.max-700x700.jpg
+   https://storage.googleapis.com/gweb-cloudblog-publish/images/containers
+   _2022_anH39my.max-700x700.jpg
    DevOps & SRE
 
-Config Connector: An easy way to manage your infrastructure in Google Cloud
+Best practices for consuming public Docker Hub content
 
-   By Leonid Yankulin â¢ 4-minute read
+   By Rishi Mukhopadhyay • 2-minute read
+
+   https://storage.googleapis.com/gweb-cloudblog-publish/images/General-GC
+   _Blog_header_2436x1200-v1.max-700x700.jpg
+   Google Cloud
+
+The overwhelmed person’s guide to Google Cloud: week of Dec 18
+
+   By Forrest Brazeal • 2-minute read
+
+   https://storage.googleapis.com/gweb-cloudblog-publish/images/Google_Clo
+   ud_AIML_thumbnail.max-700x700.jpg
+   AI & Machine Learning
+
+Have the AI build your app for you!
+
+   By Max Saltonstall • 2-minute read
 
    https://storage.googleapis.com/gweb-cloudblog-publish/images/DO_NOT_USE
    _Wfx45fA.max-700x700.jpg
    Application Modernization
 
-Realizing cloud value for a render platform at Wayfair â Part 2
+Apollo24|7: Migrating a complex microservices application to Google Cloud
+with zero downtime
 
-   By Jack Brooks â¢ 4-minute read
-
-   https://storage.googleapis.com/gweb-cloudblog-publish/images/DO_NOT_USE
-   _Wfx45fA.max-700x700.jpg
-   Application Modernization
-
-Realizing cloud value for a render platform at Wayfair - Part 1
-
-   By Jack Brooks â¢ 4-minute read
+   By Nishu Saxena • 4-minute read
 
   Footer Links
 
@@ -284,9 +284,10 @@ Follow us
      * [51]Google Cloud Products
      * [52]Privacy
      * [53]Terms
+     * [54]Cookies management controls
 
-     * [54]Help
-     * [âªEnglishâ¬_____....]
+     * [55]Help
+     * [‪English‬__��..]
 
 References
 
@@ -344,22 +345,23 @@ References
   51. https://cloud.google.com/products/
   52. https://myaccount.google.com/privacypolicy?hl=en-US
   53. https://myaccount.google.com/termsofservice?hl=en-US
-  54. https://support.google.com/
+  54. https://cloud.google.com/blog/products/application-modernization/why-david-yach-loves-go
+  55. https://support.google.com/
 
    Hidden links:
-  56. https://cloud.google.com/
   57. https://cloud.google.com/
-  58. https://twitter.com/intent/tweet?text=Why%20I%20love%20Go%20@googlecloud&url=https://cloud.google.com/blog/products/application-modernization/why-david-yach-loves-go
-  59. https://www.linkedin.com/shareArticle?mini=true&url=https://cloud.google.com/blog/products/application-modernization/why-david-yach-loves-go&title=Why%20I%20love%20Go
-  60. https://www.facebook.com/sharer/sharer.php?caption=Why%20I%20love%20Go&u=https://cloud.google.com/blog/products/application-modernization/why-david-yach-loves-go
-  61. mailto:?subject=Why%20I%20love%20Go&body=Check%20out%20this%20article%20on%20the%20Cloud%20Blog:%0A%0AWhy%20I%20love%20Go%0A%0ALearn%20all%20the%20reasons%20David%20Yach,%20industry%20veteran%20and%20Director%20of%20Engineering%20at%20Google%20Cloud,%20loves%20to%20use%20Go%20for%20software%20development.%0A%0Ahttps://cloud.google.com/blog/products/application-modernization/why-david-yach-loves-go
-  62. https://cloud.google.com/blog/products/application-development/richard-seroter-on-shifting-down-vs-shifting-left
-  63. https://cloud.google.com/blog/products/devops-sre/how-config-connector-compares-for-infrastructure-management
-  64. https://cloud.google.com/blog/products/application-modernization/wayfair-identified-strategies-to-optimize-cloud-workloads-part-2
-  65. https://cloud.google.com/blog/products/application-modernization/wayfair-identified-strategies-to-optimize-cloud-workloads-part-1
-  66. https://www.twitter.com/googlecloud
-  67. https://www.youtube.com/googlecloud
-  68. https://www.linkedin.com/showcase/google-cloud
-  69. https://www.instagram.com/googlecloud/
-  70. https://www.facebook.com/googlecloud/
-  71. https://cloud.google.com/
+  58. https://cloud.google.com/
+  59. https://twitter.com/intent/tweet?text=Why%20I%20love%20Go%20@googlecloud&url=https://cloud.google.com/blog/products/application-modernization/why-david-yach-loves-go
+  60. https://www.linkedin.com/shareArticle?mini=true&url=https://cloud.google.com/blog/products/application-modernization/why-david-yach-loves-go&title=Why%20I%20love%20Go
+  61. https://www.facebook.com/sharer/sharer.php?caption=Why%20I%20love%20Go&u=https://cloud.google.com/blog/products/application-modernization/why-david-yach-loves-go
+  62. mailto:?subject=Why%20I%20love%20Go&body=Check%20out%20this%20article%20on%20the%20Cloud%20Blog:%0A%0AWhy%20I%20love%20Go%0A%0ALearn%20all%20the%20reasons%20David%20Yach,%20industry%20veteran%20and%20Director%20of%20Engineering%20at%20Google%20Cloud,%20loves%20to%20use%20Go%20for%20software%20development.%0A%0Ahttps://cloud.google.com/blog/products/application-modernization/why-david-yach-loves-go
+  63. https://cloud.google.com/blog/products/devops-sre/using-authenticated-logins-for-docker-hub-in-google-cloud
+  64. https://cloud.google.com/blog/products/gcp/the-overwhelmed-persons-guide-to-google-cloud
+  65. https://cloud.google.com/blog/products/ai-machine-learning/have-duet-ai-make-your-next-app-using-conversation
+  66. https://cloud.google.com/blog/products/application-modernization/migrating-a-microservices-application-with-no-downtime
+  67. https://www.twitter.com/googlecloud
+  68. https://www.youtube.com/googlecloud
+  69. https://www.linkedin.com/showcase/google-cloud
+  70. https://www.instagram.com/googlecloud/
+  71. https://www.facebook.com/googlecloud/
+  72. https://cloud.google.com/

@@ -613,22 +613,22 @@ Summing up
 
 References
 
-   1. file:///
-   2. file:///
-   3. file:///cv/
-   4. file:///projects/
-   5. file:///writings/
-   6. file:///writings/non-tech/
+   1. https://benhoyt.com/
+   2. https://benhoyt.com/
+   3. https://benhoyt.com/cv/
+   4. https://benhoyt.com/projects/
+   5. https://benhoyt.com/writings/
+   6. https://benhoyt.com/writings/non-tech/
    7. mailto:benhoyt@gmail.com
    8. https://benhoyt.com/
    9. mailto:benhoyt@gmail.com
-  10. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L83225-8351TMP.html#small-software
-  11. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L83225-8351TMP.html#small-websites
-  12. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L83225-8351TMP.html#emphasize-server-side-not-javascript
-  13. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L83225-8351TMP.html#static-sites-and-site-generators
-  14. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L83225-8351TMP.html#fewer-dependencies
-  15. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L83225-8351TMP.html#small-analytics
-  16. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L83225-8351TMP.html#small-architectures-not-microservices
+  10. https://benhoyt.com/writings/the-small-web-is-beautiful/#small-software
+  11. https://benhoyt.com/writings/the-small-web-is-beautiful/#small-websites
+  12. https://benhoyt.com/writings/the-small-web-is-beautiful/#emphasize-server-side-not-javascript
+  13. https://benhoyt.com/writings/the-small-web-is-beautiful/#static-sites-and-site-generators
+  14. https://benhoyt.com/writings/the-small-web-is-beautiful/#fewer-dependencies
+  15. https://benhoyt.com/writings/the-small-web-is-beautiful/#small-analytics
+  16. https://benhoyt.com/writings/the-small-web-is-beautiful/#small-architectures-not-microservices
   17. https://basecamp.com/books
   18. https://neustadt.fr/essays/the-small-web/
   19. https://ar.al/2020/08/07/what-is-the-small-web/
@@ -637,7 +637,7 @@ References
   22. https://en.wikipedia.org/wiki/Demoscene
   23. https://www.youtube.com/watch?v=jB0vBmiTr6o
   24. https://www.youtube.com/watch?v=RCh3Q08HMfs
-  25. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L83225-8351TMP.html#fewer-dependencies
+  25. https://benhoyt.com/writings/the-small-web-is-beautiful/#fewer-dependencies
   26. https://cr.yp.to/bib/1995/wirth.pdf
   27. https://blog.brush.co.nz/2008/07/adobe-reader-9/
   28. https://1mb.club/

@@ -295,54 +295,54 @@ The Story of the Mathematician
 References
 
    Visible links:
-   1. file:///about
-   2. file:///music
-   3. file:///photos
-   4. file:///books
-   5. file:///index.xml
-   6. file:///wage-labour-resources
-   7. file:///alternatives-to-wage-labour
-   8. file:///the-epistemic-implications-of-ai-assistants
-   9. file:///our-schools-should-teach-communication
-  10. file:///voting-regardless-of-citizenship
-  11. file:///apologies
-  12. file:///manifesto
-  13. file:///hare
-  14. file:///implementing-regular-expressions-in-hare
-  15. file:///peony
-  16. file:///game-engine-skeletal-animation
-  17. file:///clumsycomputer
-  18. file:///submodule
-  19. file:///vegvisir
-  20. file:///pstr
-  21. file:///dithering
-  22. file:///japanese-recommendations
-  23. file:///german-nouns
-  24. file:///most-minimal-uk-address
-  25. file:///about
-  26. file:///music
-  27. file:///photos
-  28. file:///books
-  29. file:///index.xml
-  30. file:///wage-labour-resources
-  31. file:///alternatives-to-wage-labour
-  32. file:///the-epistemic-implications-of-ai-assistants
-  33. file:///our-schools-should-teach-communication
-  34. file:///voting-regardless-of-citizenship
-  35. file:///apologies
-  36. file:///manifesto
-  37. file:///hare
-  38. file:///implementing-regular-expressions-in-hare
-  39. file:///peony
-  40. file:///game-engine-skeletal-animation
-  41. file:///clumsycomputer
-  42. file:///submodule
-  43. file:///vegvisir
-  44. file:///pstr
-  45. file:///dithering
-  46. file:///japanese-recommendations
-  47. file:///german-nouns
-  48. file:///most-minimal-uk-address
+   1. https://vladh.net/about
+   2. https://vladh.net/music
+   3. https://vladh.net/photos
+   4. https://vladh.net/books
+   5. https://vladh.net/index.xml
+   6. https://vladh.net/wage-labour-resources
+   7. https://vladh.net/alternatives-to-wage-labour
+   8. https://vladh.net/the-epistemic-implications-of-ai-assistants
+   9. https://vladh.net/our-schools-should-teach-communication
+  10. https://vladh.net/voting-regardless-of-citizenship
+  11. https://vladh.net/apologies
+  12. https://vladh.net/manifesto
+  13. https://vladh.net/hare
+  14. https://vladh.net/implementing-regular-expressions-in-hare
+  15. https://vladh.net/peony
+  16. https://vladh.net/game-engine-skeletal-animation
+  17. https://vladh.net/clumsycomputer
+  18. https://vladh.net/submodule
+  19. https://vladh.net/vegvisir
+  20. https://vladh.net/pstr
+  21. https://vladh.net/dithering
+  22. https://vladh.net/japanese-recommendations
+  23. https://vladh.net/german-nouns
+  24. https://vladh.net/most-minimal-uk-address
+  25. https://vladh.net/about
+  26. https://vladh.net/music
+  27. https://vladh.net/photos
+  28. https://vladh.net/books
+  29. https://vladh.net/index.xml
+  30. https://vladh.net/wage-labour-resources
+  31. https://vladh.net/alternatives-to-wage-labour
+  32. https://vladh.net/the-epistemic-implications-of-ai-assistants
+  33. https://vladh.net/our-schools-should-teach-communication
+  34. https://vladh.net/voting-regardless-of-citizenship
+  35. https://vladh.net/apologies
+  36. https://vladh.net/manifesto
+  37. https://vladh.net/hare
+  38. https://vladh.net/implementing-regular-expressions-in-hare
+  39. https://vladh.net/peony
+  40. https://vladh.net/game-engine-skeletal-animation
+  41. https://vladh.net/clumsycomputer
+  42. https://vladh.net/submodule
+  43. https://vladh.net/vegvisir
+  44. https://vladh.net/pstr
+  45. https://vladh.net/dithering
+  46. https://vladh.net/japanese-recommendations
+  47. https://vladh.net/german-nouns
+  48. https://vladh.net/most-minimal-uk-address
   49. https://harpers.org/archive/1932/10/in-praise-of-idleness/
   50. https://www.goodreads.com/book/show/36531574-bullshit-jobs
   51. https://www.goodreads.com/book/show/50364458-the-tyranny-of-merit
@@ -351,9 +351,9 @@ References
   54. https://www.goodreads.com/book/show/36490332-talking-to-my-daughter-about-the-economy
   55. https://www.goodreads.com/en/book/show/19144936
   56. http://xenopraxis.net/readings/adorno_freetime.pdf
-  57. file:///alternatives-to-wage-labour
+  57. https://vladh.net/alternatives-to-wage-labour
   58. https://webring.xxiivv.com/#vladh
   59. https://creativecommons.org/licenses/by-sa/4.0/
 
    Hidden links:
-  61. file://localhost/
+  61. https://vladh.net/

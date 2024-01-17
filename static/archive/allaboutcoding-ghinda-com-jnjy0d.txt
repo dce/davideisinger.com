@@ -23,32 +23,37 @@ Ruby open source: feedbin
 
 Table of contents
 
-     * [5]The product
-     * [6]Open source
-          + [7]License
-     * [8]Technical review
-          + [9]Ruby and Rails version
-          + [10]Architecture
-          + [11]Stats
-          + [12]Style Guide
-          + [13]Storage, Persistence and in-memory storage
-          + [14]Gems used
-          + [15]Code & Design Patterns
-               o [16]Code Organisation
-               o [17]Routes
-               o [18]Controllers
-               o [19]Models
-               o [20]Jobs
-               o [21]Presenters
-               o [22]ApplicationComponents
-               o [23]ComponentsPreview
-     * [24]Testing
-          + [25]Custom assertions
-     * [26]Conclusion
+     * The product
+     * Open source
+
+     * License
+
+     Technical review
+     * Ruby and Rails version
+     * Architecture
+     * Stats
+     * Style Guide
+     * Storage, Persistence and in-memory storage
+     * Gems used
+     * Code & Design Patterns
+
+     * Code Organisation
+     * Routes
+     * Controllers
+     * Models
+     * Jobs
+     * Presenters
+     * ApplicationComponents
+     * ComponentsPreview
+
+     Testing
+     * Custom assertions
+
+     Conclusion
 
 The product
 
-   [27]https://feedbin.com
+   [5]https://feedbin.com
 
      "Feedbin is the best way to enjoy content on the Web. By combining
      RSS, and newsletters, you can get all the good parts of the Web in
@@ -57,11 +62,11 @@ The product
 Open source
 
    The open-source repository can be found at
-   [28]https://github.com/feedbin/feedbin
+   [6]https://github.com/feedbin/feedbin
 
 License
 
-   The [29]license they use is MIT:
+   The [7]license they use is MIT:
 
 Technical review
 
@@ -69,9 +74,9 @@ Ruby and Rails version
 
    They are currently using:
      * Ruby version 3.2.2
-     * They used a fork of Rails at [30]https://github.com/feedbin/rails
-       forked from [31]https://github.com/Shopify/rails. They are using a
-       branch called [32]7-1-stable-invalid-cache-entries - It seems to be
+     * They used a fork of Rails at [8]https://github.com/feedbin/rails
+       forked from [9]https://github.com/Shopify/rails. They are using a
+       branch called [10]7-1-stable-invalid-cache-entries - It seems to be
        Rails 7.1 and about 1 month behind the Shopify/rails which is
        usually pretty up to date with main Rails
 
@@ -88,11 +93,11 @@ Architecture
 
    On the front-end side:
      * They use .html.erb
-     * They are using Phlex for [33]components
-     * They are using [34]Jquery for the JS library
-     * They have some custom JS code written in [35]CoffeeScript
-     * They are using Hotwire via [36]importmaps
-     * They are using [37]Tailwind
+     * They are using Phlex for [11]components
+     * They are using [12]Jquery for the JS library
+     * They have some custom JS code written in [13]CoffeeScript
+     * They are using Hotwire via [14]importmaps
+     * They are using [15]Tailwind
 
 Stats
 
@@ -103,14 +108,14 @@ Stats
 Style Guide
 
    For Ruby:
-     * They are using [38]standardrb as the Style Guide with no
+     * They are using [16]standardrb as the Style Guide with no
        customisations.
 
 Storage, Persistence and in-memory storage
 
    The DB is PostgreSQL.
 
-   They are not using the schema.rb but the [39]structure.sql format for
+   They are not using the schema.rb but the [17]structure.sql format for
    DB schema dump is configured via application.rb:
 module Feedbin
     class Application < Rails::Application
@@ -141,7 +146,7 @@ IDs)';
 
    Redis is configured to be used with Sidekiq.
 
-   This is what the [40]redis initializer looks like:
+   This is what the [18]redis initializer looks like:
 # https://github.com/feedbin/feedbin/blob/main/config/initializers/redis.rb#L1
 
 defaults = {connect_timeout: 5, timeout: 5}
@@ -155,7 +160,7 @@ $redis = {}.tap do |hash|
   hash[:refresher] = ConnectionPool.new(size: 10) { Redis.new(options2) }
 end
 
-   Further, there is a [41]RedisLock configured like this:
+   Further, there is a [19]RedisLock configured like this:
 # https://github.com/feedbin/feedbin/blob/main/app/models/redis_lock.rb#L1
 
 class RedisLock
@@ -165,7 +170,7 @@ rue) }
   end
 end
 
-   Further down this is used in a [42]clock.rb (that defines scheduled
+   Further down this is used in a [20]clock.rb (that defines scheduled
    tasks to run):
 # https://github.com/feedbin/feedbin/blob/main/lib/clock.rb#L8
 
@@ -210,43 +215,43 @@ end
 Gems used
 
    Here are some of the gems used:
-     * [43]sax-machine - "A declarative sax parsing library backed by
+     * [21]sax-machine - "A declarative sax parsing library backed by
        Nokogiri"
-     * [44]feedjira - "Feedjira is a Ruby library designed to parse feeds"
-     * [45]html-pipeline - "HTML processing filters and utilities. This
+     * [22]feedjira - "Feedjira is a Ruby library designed to parse feeds"
+     * [23]html-pipeline - "HTML processing filters and utilities. This
        module is a small framework for defining CSS-based content filters
        and applying them to user provided content"
-     * [46]apnotic - "A Ruby APNs HTTP/2 gem able to provide instant
+     * [24]apnotic - "A Ruby APNs HTTP/2 gem able to provide instant
        feedback"
-     * [47]autoprefixer-rails - "Autoprefixer is a tool to parse CSS and
+     * [25]autoprefixer-rails - "Autoprefixer is a tool to parse CSS and
        add vendor prefixes to CSS rules using values from the Can I Use
        database. This gem provides Ruby and Ruby on Rails integration with
        this JavaScript tool"
-     * [48]clockwork - "Clockwork is a cron replacement. It runs as a
+     * [26]clockwork - "Clockwork is a cron replacement. It runs as a
        lightweight, long-running Ruby process which sits alongside your
        web processes (Mongrel/Thin) and your worker processes
        (DJ/Resque/Minion/Stalker) to schedule recurring work at particular
        times or dates"
-     * [49]down - "Streaming downloads using net/http, http.rb, HTTPX or
+     * [27]down - "Streaming downloads using net/http, http.rb, HTTPX or
        wget"
-     * [50]phlex-rails - "Phlex is a framework that lets you compose web
+     * [28]phlex-rails - "Phlex is a framework that lets you compose web
        views in pure Ruby"
-     * [51]premailer-rails - "This gem is a drop in solution for styling
+     * [29]premailer-rails - "This gem is a drop in solution for styling
        HTML emails with CSS without having to do the hard work yourself"
-     * [52]raindrops - "raindrops is a real-time stats toolkit to show
+     * [30]raindrops - "raindrops is a real-time stats toolkit to show
        statistics for Rack HTTP servers. It is designed for preforking
        servers such as unicorn, but should support any Rack HTTP server on
        platforms supporting POSIX shared memory"
-     * [53]strong_migrations - "Catch unsafe migrations in development"
-     * [54]web-push - "This gem makes it possible to send push messages to
+     * [31]strong_migrations - "Catch unsafe migrations in development"
+     * [32]web-push - "This gem makes it possible to send push messages to
        web browsers from Ruby backends using the Web Push Protocol"
-     * [55]stripe-ruby-mock - "A drop-in library to test stripe without
+     * [33]stripe-ruby-mock - "A drop-in library to test stripe without
        hitting their servers"
-     * [56]rails-controller-testing - "Brings back assigns and
+     * [34]rails-controller-testing - "Brings back assigns and
        assert_template to your Rails tests"
 
    There are many other gems used, I only selected few here. Browse the
-   [57]Gemfile to discover more.
+   [35]Gemfile to discover more.
 
    What could be mentioned is that they use their fork for some of the
    gems included in the file:
@@ -297,7 +302,7 @@ Code Organisation
    be related to communicating with external services.
 
    Maybe worth mentioning from lib folder is the
-   [58]ConditionalSassCompressor
+   [36]ConditionalSassCompressor
 # https://github.com/feedbin/feedbin/blob/main/lib/conditional_sass_compressor.r
 b#L1
 
@@ -324,7 +329,7 @@ Routes
 
    There is a combination of RESTful routes and non-restful routes.
 
-   Here is an example from entries in the [59]routes.rb :
+   Here is an example from entries in the [37]routes.rb :
 # https://github.com/feedbin/feedbin/blob/main/config/routes.rb#L133
 
   resources :entries, only: [:show, :index, :destroy] do
@@ -375,7 +380,7 @@ r.rb#L238
     end
   end
 
-   And here is the view [60]destroy.js.erb :
+   And here is the view [38]destroy.js.erb :
 $('[data-behavior~=entries_target] [data-entry-id=<%= @entry.id %>]').remove();
 
 feedbin.Counts.get().removeEntry(<%= @entry.id %>, <%= @entry.feed_id %>, 'unrea
@@ -486,7 +491,7 @@ end
 
 Presenters
 
-   There is a [61]BasePresenter and all other presenters are extending it
+   There is a [39]BasePresenter and all other presenters are extending it
    via inheritance:
 
    This controller defines a private method called presents:
@@ -541,7 +546,7 @@ module ApplicationHelper
   # more code ...
 end
 
-   and it is used [62]like this in views:
+   and it is used [40]like this in views:
 <% present @user do |user_presenter| %>
     <% @class = "settings-body settings-#{params[:action]} theme-#{user_presente
 r.theme}"%>
@@ -550,7 +555,7 @@ r.theme}"%>
 ApplicationComponents
 
    Components are based on Phlex and they inherit from
-   [63]ApplicationComponent
+   [41]ApplicationComponent
 
    It defines a method to add Stimulus controller in components like this:
 # https://github.com/feedbin/feedbin/blob/main/app/views/components/application_
@@ -678,115 +683,125 @@ Conclusion
    The code is well-organized and simple to follow the logic and what is
    happening. I think it will make it easy for anyone to contribute to
    this repo. If you want to run this yourself locally you should take a
-   look at the [64]feedbin-docker.
+   look at the [42]feedbin-docker.
      __________________________________________________________________
 
    Enjoyed this article?
 
-   Join my [65]Short Ruby News newsletter for weekly Ruby updates from the
-   community. For more Ruby learning resources, visit
-   [66]rubyandrails.info. You can also find me on [67]Ruby.social or
-   [68]Linkedin or [69]Twitter where I post mostly about Ruby and Rails.
+   👉 Join my [43]Short Ruby News newsletter for weekly Ruby updates from
+   the community and visit [44]rubyandrails.info, a directory with
+   learning content about Ruby.
+
+   👐 Subscribe to my Ruby and Ruby on rails courses over email at
+   [45]learn.shortruby.com - effortless learning anytime, anywhere
+
+   🤝 Let's connect on [46]Ruby.social or [47]Linkedin or [48]Twitter where
+   I post mainly about Ruby and Rails.
+
+   🎥 Follow me on [49]my YouTube channel for short videos about Ruby
 
 Did you find this article valuable?
 
    Support Lucian Ghinda by becoming a sponsor. Any amount is appreciated!
    (BUTTON) Sponsor
-   [70]See recent sponsors | [71]Learn more about Hashnode Sponsors
-   [72]Ruby[73]Ruby on Rails[74]Open Source[75]coding[76]Programming Blogs
+   [50]See recent sponsors | [51]Learn more about Hashnode Sponsors
+
+   [52]Ruby[53]Ruby on Rails[54]Open Source[55]coding[56]Programming Blogs
 
 References
 
    Visible links:
-   1. file:///?source=top_nav_blog_home
+   1. https://allaboutcoding.ghinda.com/?source=top_nav_blog_home
    2. https://hashnode.com/@lucianghinda
    3. https://hashnode.com/@lucianghinda
    4. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin
-   5. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L39092-8199TMP.html#heading-the-product
-   6. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L39092-8199TMP.html#heading-open-source
-   7. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L39092-8199TMP.html#heading-license
-   8. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L39092-8199TMP.html#heading-technical-review
-   9. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L39092-8199TMP.html#heading-ruby-and-rails-version
-  10. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L39092-8199TMP.html#heading-architecture
-  11. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L39092-8199TMP.html#heading-stats
-  12. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L39092-8199TMP.html#heading-style-guide
-  13. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L39092-8199TMP.html#heading-storage-persistence-and-in-memory-storage
-  14. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L39092-8199TMP.html#heading-gems-used
-  15. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L39092-8199TMP.html#heading-code-amp-design-patterns
-  16. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L39092-8199TMP.html#heading-code-organisation
-  17. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L39092-8199TMP.html#heading-routes
-  18. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L39092-8199TMP.html#heading-controllers
-  19. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L39092-8199TMP.html#heading-models
-  20. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L39092-8199TMP.html#heading-jobs
-  21. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L39092-8199TMP.html#heading-presenters
-  22. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L39092-8199TMP.html#heading-applicationcomponents
-  23. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L39092-8199TMP.html#heading-componentspreview
-  24. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L39092-8199TMP.html#heading-testing
-  25. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L39092-8199TMP.html#heading-custom-assertions
-  26. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L39092-8199TMP.html#heading-conclusion
-  27. https://feedbin.com/
-  28. https://github.com/feedbin/feedbin/blob/main/LICENSE.md
-  29. https://github.com/feedbin/feedbin/blob/main/LICENSE.md
-  30. https://github.com/feedbin/rails
-  31. https://github.com/Shopify/rails
-  32. https://github.com/feedbin/rails/tree/7-1-stable-invalid-cache-entries
-  33. https://github.com/feedbin/feedbin/tree/main/app/views/components
-  34. https://github.com/feedbin/feedbin/blob/main/Gemfile#L38
-  35. https://github.com/feedbin/feedbin/tree/main/app/assets/javascripts/web
-  36. https://github.com/feedbin/feedbin/blob/abf1ad883dab8a3464fe12e4653de6323296175b/config/importmap.rb#L1
-  37. https://github.com/feedbin/feedbin/blob/abf1ad883dab8a3464fe12e4653de6323296175b/Gemfile#L66
-  38. https://github.com/feedbin/feedbin/blob/abf1ad883dab8a3464fe12e4653de6323296175b/Gemfile#L94
-  39. https://github.com/feedbin/feedbin/blob/main/db/structure.sql
-  40. https://github.com/feedbin/feedbin/blob/abf1ad883dab8a3464fe12e4653de6323296175b/config/initializers/redis.rb#L1
-  41. https://github.com/feedbin/feedbin/blob/main/app/models/redis_lock.rb#L1
-  42. https://github.com/feedbin/feedbin/blob/main/lib/clock.rb#L8
-  43. https://github.com/pauldix/sax-machine
-  44. https://github.com/feedjira/feedjira
-  45. https://github.com/feedbin/html-pipeline
-  46. https://github.com/ostinelli/apnotic
-  47. https://github.com/ai/autoprefixer-rails
-  48. https://github.com/Rykian/clockwork
-  49. https://github.com/janko/down
-  50. https://github.com/phlex-ruby/phlex-rails
-  51. https://github.com/fphilipe/premailer-rails
-  52. https://rubygems.org/gems/raindrops
-  53. https://github.com/ankane/strong_migrations
-  54. https://github.com/pushpad/web-push
-  55. https://github.com/stripe-ruby-mock/stripe-ruby-mock
-  56. https://github.com/rails/rails-controller-testing
-  57. https://github.com/feedbin/feedbin/blob/main/Gemfile
-  58. https://github.com/feedbin/feedbin/blob/main/lib/conditional_sass_compressor.rb#L1
-  59. https://github.com/feedbin/feedbin/blob/main/config/routes.rb#L133
-  60. https://github.com/feedbin/feedbin/blob/main/app/views/entries/destroy.js.erb#L1
-  61. https://github.com/feedbin/feedbin/blob/main/app/presenters/base_presenter.rb#L1
-  62. https://github.com/feedbin/feedbin/blob/main/app/views/layouts/settings.html.erb#L1
-  63. https://github.com/feedbin/feedbin/blob/main/app/views/components/application_component.rb#L3
-  64. https://github.com/angristan/feedbin-docker
-  65. https://shortruby.com/
-  66. http://rubyandrails.info/
-  67. http://Ruby.social/
-  68. https://linkedin.com/in/lucianghinda
-  69. https://x.com/lucianghinda
-  70. file:///sponsor
-  71. https://hashnode.com/sponsors
-  72. file:///tag/ruby?source=tags_bottom_blogs
-  73. file:///tag/ruby-on-rails?source=tags_bottom_blogs
-  74. file:///tag/opensource?source=tags_bottom_blogs
-  75. file:///tag/coding?source=tags_bottom_blogs
-  76. file:///tag/programming-blogs?source=tags_bottom_blogs
+   5. https://feedbin.com/
+   6. https://github.com/feedbin/feedbin/blob/main/LICENSE.md
+   7. https://github.com/feedbin/feedbin/blob/main/LICENSE.md
+   8. https://github.com/feedbin/rails
+   9. https://github.com/Shopify/rails
+  10. https://github.com/feedbin/rails/tree/7-1-stable-invalid-cache-entries
+  11. https://github.com/feedbin/feedbin/tree/main/app/views/components
+  12. https://github.com/feedbin/feedbin/blob/main/Gemfile#L38
+  13. https://github.com/feedbin/feedbin/tree/main/app/assets/javascripts/web
+  14. https://github.com/feedbin/feedbin/blob/abf1ad883dab8a3464fe12e4653de6323296175b/config/importmap.rb#L1
+  15. https://github.com/feedbin/feedbin/blob/abf1ad883dab8a3464fe12e4653de6323296175b/Gemfile#L66
+  16. https://github.com/feedbin/feedbin/blob/abf1ad883dab8a3464fe12e4653de6323296175b/Gemfile#L94
+  17. https://github.com/feedbin/feedbin/blob/main/db/structure.sql
+  18. https://github.com/feedbin/feedbin/blob/abf1ad883dab8a3464fe12e4653de6323296175b/config/initializers/redis.rb#L1
+  19. https://github.com/feedbin/feedbin/blob/main/app/models/redis_lock.rb#L1
+  20. https://github.com/feedbin/feedbin/blob/main/lib/clock.rb#L8
+  21. https://github.com/pauldix/sax-machine
+  22. https://github.com/feedjira/feedjira
+  23. https://github.com/feedbin/html-pipeline
+  24. https://github.com/ostinelli/apnotic
+  25. https://github.com/ai/autoprefixer-rails
+  26. https://github.com/Rykian/clockwork
+  27. https://github.com/janko/down
+  28. https://github.com/phlex-ruby/phlex-rails
+  29. https://github.com/fphilipe/premailer-rails
+  30. https://rubygems.org/gems/raindrops
+  31. https://github.com/ankane/strong_migrations
+  32. https://github.com/pushpad/web-push
+  33. https://github.com/stripe-ruby-mock/stripe-ruby-mock
+  34. https://github.com/rails/rails-controller-testing
+  35. https://github.com/feedbin/feedbin/blob/main/Gemfile
+  36. https://github.com/feedbin/feedbin/blob/main/lib/conditional_sass_compressor.rb#L1
+  37. https://github.com/feedbin/feedbin/blob/main/config/routes.rb#L133
+  38. https://github.com/feedbin/feedbin/blob/main/app/views/entries/destroy.js.erb#L1
+  39. https://github.com/feedbin/feedbin/blob/main/app/presenters/base_presenter.rb#L1
+  40. https://github.com/feedbin/feedbin/blob/main/app/views/layouts/settings.html.erb#L1
+  41. https://github.com/feedbin/feedbin/blob/main/app/views/components/application_component.rb#L3
+  42. https://github.com/angristan/feedbin-docker
+  43. https://shortruby.com/
+  44. http://rubyandrails.info/
+  45. https://learn.shortruby.com/
+  46. http://Ruby.social/
+  47. https://linkedin.com/in/lucianghinda
+  48. https://x.com/lucianghinda
+  49. https://www.youtube.com/@shortruby
+  50. https://allaboutcoding.ghinda.com/sponsor
+  51. https://hashnode.com/sponsors
+  52. https://allaboutcoding.ghinda.com/tag/ruby?source=tags_bottom_blogs
+  53. https://allaboutcoding.ghinda.com/tag/ruby-on-rails?source=tags_bottom_blogs
+  54. https://allaboutcoding.ghinda.com/tag/opensource?source=tags_bottom_blogs
+  55. https://allaboutcoding.ghinda.com/tag/coding?source=tags_bottom_blogs
+  56. https://allaboutcoding.ghinda.com/tag/programming-blogs?source=tags_bottom_blogs
 
    Hidden links:
-  78. file://localhost/
-  79. file://localhost/?source=top_nav_blog_home
-  80. https://twitter.com/lucianghinda
-  81. https://github.com/lucianghinda
-  82. https://shortruby.com/
-  83. https://hashnode.com/@lucianghinda
-  84. https://app.daily.dev/lucianghinda
-  85. https://linkedin.com/in/lucianghinda
-  86. https://ruby.social/@lucian
-  87. file://localhost/rss.xml
-  88. https://feedbin.com/about
-  89. https://github.com/feedbin/feedbin/blob/main/LICENSE.md
-  90. http://rubyandrails.info/
-  91. https://ruby.social/@lucian
+  58. https://allaboutcoding.ghinda.com/
+  59. https://allaboutcoding.ghinda.com/?source=top_nav_blog_home
+  60. https://twitter.com/lucianghinda
+  61. https://github.com/lucianghinda
+  62. https://shortruby.com/
+  63. https://hashnode.com/@lucianghinda
+  64. https://app.daily.dev/lucianghinda
+  65. https://linkedin.com/in/lucianghinda
+  66. https://ruby.social/@lucian
+  67. https://allaboutcoding.ghinda.com/rss.xml
+  68. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-the-product
+  69. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-open-source
+  70. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-license
+  71. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-technical-review
+  72. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-ruby-and-rails-version
+  73. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-architecture
+  74. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-stats
+  75. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-style-guide
+  76. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-storage-persistence-and-in-memory-storage
+  77. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-gems-used
+  78. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-code-amp-design-patterns
+  79. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-code-organisation
+  80. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-routes
+  81. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-controllers
+  82. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-models
+  83. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-jobs
+  84. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-presenters
+  85. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-applicationcomponents
+  86. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-componentspreview
+  87. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-testing
+  88. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-custom-assertions
+  89. https://allaboutcoding.ghinda.com/ruby-open-source-feedbin#heading-conclusion
+  90. https://feedbin.com/about
+  91. https://github.com/feedbin/feedbin/blob/main/LICENSE.md
+  92. http://rubyandrails.info/
+  93. https://ruby.social/@lucian

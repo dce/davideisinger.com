@@ -1,6 +1,6 @@
    #[1]next [2]alternate
 
-   [3]Home [4]About [5]New: Concept album
+   [3]Home [4]About [5]Moonbound
 
    From: Robin Sloan
    To: the lab
@@ -11,43 +11,10 @@
    An extremely close-up photograph of a snowflake, looking almost
    architectural. [6]Snowflake, Wilson Bentley, ca. 1910
 
-   Please excuse the off-schedule transmission. The idea of a steady,
-   predictable publishing cadence is always so appealing … and then events
-   overtake me!
-
-   I think this lab newsletter will shift into a “whenever appropriate”
-   schedule for the rest of this year. In this news flash, you’ll find two
-   items: a time-sensitive link, and some thoughts on all that’s happening
-   with AI.
-
-   This is an archived edition of Robin’s lab newsletter. You can sign up
-   to receive future editions using the form at the bottom of the page.
-
-   A group of internet thinkers has proposed a [7]Summer of Protocols:
-
-     an 18-week program that will run from May 1 to Aug 31, 2023, and
-     aims to catalyze broad-based and wide-ranging exploration of the
-     rapidly evolving world of protocols.
-
-   [8]Applications are due in just a couple weeks, which is why I wanted
-   to circulate the link immediately. I don’t know a ton about the program
-   or its organizers, but I like the spirit captured on the website, and
-   I feel like it might be a generative opportunity for someone(s)
-   reading this.
-
-   Even for those of us who aren’t going to participate, the introductory
-   paper makes for a bracing, inspiring read: [9]The Unreasonable
-   Sufficiency of Protocols.
-
-   Now, on to the AI thoughts, which, as you’ll see, loop around to
-   connect to protocols again:
-
-[10]Finding a question
-
-   Earlier this week, in [11]my main newsletter, I praised a new project
+   Earlier this week, in [7]my main newsletter, I praised a new project
    from Matt Webb. Here, I want to come at it from a different angle.
 
-   Briefly: Matt has built the [12]Braggoscope, a fun and useful
+   Briefly: Matt has built the [8]Braggoscope, a fun and useful
    application for exploring the archives of the beloved BBC radio show In
    Our Time, hosted by the inimitable Melvyn Bragg.
 
@@ -55,16 +22,16 @@
    structured data, no sense of “episode X is connected to episode Y
    because of shared feature Z”.
 
-   As Matt explains [13]in his write-up, he fed the plain-language content
+   As Matt explains [9]in his write-up, he fed the plain-language content
    of each episode page into the GPT-3 API, cleverly prompting it to
    extract basic metadata, along with a few subtler properties — including
    a Dewey Decimal number!?
 
    (Explaining how and why a person might prompt a language model is
-   beyond the scope of this newsletter; you can [14]read up about it
+   beyond the scope of this newsletter; you can [10]read up about it
    here.)
 
-   Here’s [15]a bit of Matt’s prompt:
+   Here’s [11]a bit of Matt’s prompt:
 Extract the description and a list of guests from the supplied episode notes fro
 m a podcast.
 
@@ -88,7 +55,7 @@ Valid JSON:
    doesn’t always return valid JSON, and if you browse the Braggoscope,
    you’ll find plenty of questionable filing choices.
 
-   And yet! What a technique. (Matt credits Noah Brier for [16]the
+   And yet! What a technique. (Matt credits Noah Brier for [12]the
    insight.)
 
    It fits into a pattern I’ve noticed: while the buzzy application of the
@@ -136,7 +103,7 @@ Valid JSON:
    this stuff.
 
    On one hand, I find critical deflation, of the kind you’ll hear from
-   Ted Chiang, Simon Willison, and Claire Leibowicz in [17]this recent
+   Ted Chiang, Simon Willison, and Claire Leibowicz in [13]this recent
    episode of KQED Forum, appropriate and useful. The hype is so powerful
    that any corrective is welcome.
 
@@ -151,7 +118,7 @@ Valid JSON:
 
    AI at this moment feels like a mash-up of programming and biology. The
    programming part is obvious; the biology part becomes apparent when you
-   see [18]AI engineers probing their own creations the way you might
+   see [14]AI engineers probing their own creations the way you might
    probe a mouse in a lab.
 
    The simple fact is: even at the highest levels of theory and practice,
@@ -178,7 +145,7 @@ Valid JSON:
 
    The bot writes poems, sure, and song lyrics, and movie scenes.
 
-   The bot also produces ASCII art, and SVG code, and [19]PICO-8 programs,
+   The bot also produces ASCII art, and SVG code, and [15]PICO-8 programs,
    though they don’t always run.
 
    I find myself deeply ambivalent, in the original sense of: thinking
@@ -190,7 +157,7 @@ Valid JSON:
    happening, and no one knows (the AI engineers least of all) what might
    suddenly become possible.
 
-   As ever, [20]Jack Clark is my guide. He’s a journalist turned AI
+   As ever, [16]Jack Clark is my guide. He’s a journalist turned AI
    practioner, involved in policy and planning at the highest levels,
    first at OpenAI, now at Anthropic. And if he’s no longer a
    disinterested observer, he remains deeply grounded and moral, which
@@ -202,7 +169,7 @@ Valid JSON:
 
    I’ve found it helpful, these past few years, to frame my anxieties and
    dissatisfactions as questions. For example, fed up with the state of
-   social media, [21]I asked: what do I want from the internet, anyway?
+   social media, [17]I asked: what do I want from the internet, anyway?
 
    It turns out I had an answer to that question.
 
@@ -213,23 +180,22 @@ Valid JSON:
    about any X into just about any Y with plain language instructions?
 
    I don’t pose that question with any sense of wide-eyed expectation; a
-   reasonable answer might be, eh, nothing much. Not everything in the
-   world depends on the transformation of symbols. But I think that IS the
+   reasonable answer might be, nothing much. Not everything in the world
+   depends on the transformation of symbols. But I think that IS the
    question, and I think it takes some legitimate work, some strenuous
    imagination, to push yourself to believe it really will be “just about
    any X” into “just about any Y”.
 
-   I help operate [22]a small olive oil company, and I have actually spent
-   a fair amount of time lately considering this question in the context
-   of our business. What might a GPT-alike do for us? What might an even
-   more capable system do?
+   I help operate [18]a small olive oil company, and I have spent a bit of
+   time lately considering this question in the context of our business.
+   What might a GPT-alike do for us? What might an even more capable
+   system do?
 
-   My answer, so far, is indeed: eh, nothing much! It’s a physical
-   business, after all, mainly concerned with moving and transforming
-   matter. The “obvious” application is customer support, which I handle
-   myself, and which I am unwilling to cede to a computer or, indeed,
-   anyone who isn’t me. The specific quality and character of our support
-   is important.
+   My answer, so far, is indeed: nothing much! It’s a physical business,
+   after all, mainly concerned with moving and transforming matter. The
+   “obvious” application is customer support, which I handle myself, and
+   which I am unwilling to cede to a computer or, indeed, anyone who isn’t
+   me. The specific quality and character of our support is important.
 
    (As an aside: every customer support request I receive is a miniature
    puzzle, usually requiring deduction across several different systems.
@@ -248,7 +214,7 @@ Valid JSON:
      __________________________________________________________________
 
    Jack Clark includes, in all of his AI newsletters, a piece of original
-   micro-fiction. One of them, [23]sent in December, has stayed with me.
+   micro-fiction. One of them, [19]sent in December, has stayed with me.
    I’ll reproduce it here in full:
 
      Reality Authentication
@@ -309,39 +275,35 @@ Valid JSON:
 
    March 2023, Oakland
 
-   I'm [24]Robin Sloan, a fiction writer. You can sign up for my
+   I'm [20]Robin Sloan, a fiction writer. You can sign up for my
    lab newsletter:
    ____________________ Subscribe
 
    This website doesn’t collect any information about you or your reading.
    It aspires to the speed and privacy of the printed page.
 
-   Don’t miss [25]the colophon. Hony soyt qui mal pence
+   Don’t miss [21]the colophon. Hony soyt qui mal pence
 
 References
 
-   1. file:///confirm/main/subscribe/
+   1. https://www.robinsloan.com/confirm/main/subscribe/
    2. https://www.robinsloan.com/feed.xml
-   3. file:///
-   4. file:///about
-   5. https://ooo.ghostbows.ooo/?utm_source=Robin_Sloan_sent_me
+   3. https://www.robinsloan.com/
+   4. https://www.robinsloan.com/about/
+   5. https://www.robinsloan.com/moonbound/
    6. https://publicdomainreview.org/essay/the-snowflake-man-of-vermont?utm_source=Robin_Sloan_sent_me
-   7. https://efdn.notion.site/Summer-of-Protocols-3d7983d922184c4eb72749e9cb60d076?utm_source=Robin_Sloan_sent_me
-   8. https://efdn.notion.site/Application-5b71c238d6bd44cf9137946ef7767e53?utm_source=Robin_Sloan_sent_me
-   9. https://efdn.notion.site/Pilot-Study-1bf3e3be6bf34a2eb8156ddf98d3fa67?utm_source=Robin_Sloan_sent_me
-  10. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L12614-3163TMP.html#gpt
-  11. https://www.robinsloan.com/newsletters/ring-got-good/?utm_source=Robin_Sloan_sent_me
-  12. https://genmon.github.io/braggoscope/?utm_source=Robin_Sloan_sent_me
-  13. https://interconnected.org/home/2023/02/07/braggoscope?utm_source=Robin_Sloan_sent_me
-  14. https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api?utm_source=Robin_Sloan_sent_me
-  15. https://news.ycombinator.com/item?id=35073824&utm_source=Robin_Sloan_sent_me
-  16. https://brxnd.substack.com/p/the-prompt-to-rule-all-prompts-brxnd?utm_source=Robin_Sloan_sent_me
-  17. https://www.kqed.org/forum/2010101892368/how-to-wrap-our-heads-around-these-new-shockingly-fluent-chatbots?utm_source=Robin_Sloan_sent_me
-  18. https://www.anthropic.com/index/toy-models-of-superposition-2?utm_source=Robin_Sloan_sent_me
-  19. https://www.lexaloffle.com/pico-8.php?utm_source=Robin_Sloan_sent_me
-  20. https://importai.substack.com/?utm_source=Robin_Sloan_sent_me
-  21. file:///lab/specifying-spring-83/
-  22. https://fat.gold/?utm_source=Robin_Sloan_sent_me
-  23. https://us13.campaign-archive.com/?u=67bd06787e84d73db24fb0aa5&&id=a03ebcd500&utm_source=Robin_Sloan_sent_me
-  24. https://www.robinsloan.com/about?utm_source=Robin_Sloan_sent_me
-  25. file:///colophon/
+   7. https://www.robinsloan.com/newsletters/ring-got-good/?utm_source=Robin_Sloan_sent_me
+   8. https://genmon.github.io/braggoscope/?utm_source=Robin_Sloan_sent_me
+   9. https://interconnected.org/home/2023/02/07/braggoscope?utm_source=Robin_Sloan_sent_me
+  10. https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api?utm_source=Robin_Sloan_sent_me
+  11. https://news.ycombinator.com/item?id=35073824&utm_source=Robin_Sloan_sent_me
+  12. https://brxnd.substack.com/p/the-prompt-to-rule-all-prompts-brxnd?utm_source=Robin_Sloan_sent_me
+  13. https://www.kqed.org/forum/2010101892368/how-to-wrap-our-heads-around-these-new-shockingly-fluent-chatbots?utm_source=Robin_Sloan_sent_me
+  14. https://www.anthropic.com/index/toy-models-of-superposition-2?utm_source=Robin_Sloan_sent_me
+  15. https://www.lexaloffle.com/pico-8.php?utm_source=Robin_Sloan_sent_me
+  16. https://importai.substack.com/?utm_source=Robin_Sloan_sent_me
+  17. https://www.robinsloan.com/lab/specifying-spring-83/
+  18. https://fat.gold/?utm_source=Robin_Sloan_sent_me
+  19. https://us13.campaign-archive.com/?u=67bd06787e84d73db24fb0aa5&&id=a03ebcd500&utm_source=Robin_Sloan_sent_me
+  20. https://www.robinsloan.com/about?utm_source=Robin_Sloan_sent_me
+  21. https://www.robinsloan.com/colophon/

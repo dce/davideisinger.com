@@ -1,5 +1,4 @@
-    [tr?id=1356908847688416&ev=PageView&noscript=1]
-   [tr?id=279433711742018&ev=PageView&noscript=1] #[1]EDM Tips » EDM Song
+    [tr?id=279433711742018&ev=PageView&noscript=1] #[1]EDM Tips » EDM Song
    Structure: Arrange Your Loop into a Full Song Comments Feed
    [2]alternate [3]alternate [4]alternate
 
@@ -10,8 +9,8 @@
 
      * [7]FREE
      * [8]COURSES
-     * [9]ABOUT
-     * [10]BLOG
+     * [9]BLOG
+     * [10]JOIN
      * [11]LOGIN
      * Search
        ____________________ ____________________ Submit
@@ -514,10 +513,10 @@ References
    6. https://edmtips.com/
    7. https://edmtips.com/free-guides/
    8. https://edmtips.com/products/
-   9. https://edmtips.com/about/
-  10. https://edmtips.com/blog/
+   9. https://edmtips.com/blog/
+  10. https://edmtips.com/club/
   11. https://academy.edmtips.com/login
-  12. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L74532-8332TMP.html#comments
+  12. https://edmtips.com/edm-song-structure/#comments
   13. https://www.facebook.com/share.php?u=https://edmtips.com/edm-song-structure/
   14. https://twitter.com/intent/tweet?text=EDM+Song+Structure:+Arrange+Your+Loop+into+a+Full+Song&url=https://edmtips.com/edm-song-structure/&via=EDMtipsOfficial
   15. https://www.youtube.com/embed/EXx9At3iUOw?feature=oembed&iv_load_policy=3&modestbranding=1&rel=0&autohide=1&playsinline=0&autoplay=0

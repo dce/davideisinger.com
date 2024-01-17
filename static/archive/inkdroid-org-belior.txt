@@ -133,21 +133,21 @@ Why I don't use Copilot
 References
 
    1. https://inkdroid.org/feed.xml
-   2. file:///
-   3. file:///about/
-   4. file:///tags/
+   2. https://inkdroid.org/
+   3. https://inkdroid.org/about/
+   4. https://inkdroid.org/tags/
    5. http://pinboard.in/u:edsu
    6. https://www.flickr.com/photos/inkdroid
-   7. file:///podcasts/feed.opml
+   7. https://inkdroid.org/podcasts/feed.opml
    8. https://bandcamp.com/edsu
    9. https://github.com/edsu
   10. https://social.coop/@edsu
-  11. file:///talks/
-  12. file:///web-archives/archives/
-  13. file:///feed.xml
+  11. https://inkdroid.org/talks/
+  12. https://inkdroid.org/web-archives/archives/
+  13. https://inkdroid.org/feed.xml
   14. https://bookshop.org/wishlists/d7c0224f5440df8d2c174ad2cc38b3fca1aa813f
-  15. file:///tag/programming
-  16. file:///tag/artificial-intelligence
+  15. https://inkdroid.org/tag/programming
+  16. https://inkdroid.org/tag/artificial-intelligence
   17. https://commons.wikimedia.org/wiki/File:Rubber_duck_assisting_with_debugging.jpg
   18. https://en.wikipedia.org/wiki/GitHub_Copilot
   19. https://en.wikipedia.org/wiki/Pair_programming

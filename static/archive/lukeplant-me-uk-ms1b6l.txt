@@ -79,13 +79,13 @@ Links
 
 You may also like: [16]§
 
-     * [17]Test smarter, not harder
-     * [18]Announcement: Django Views - The Right Way
-     * [19]Wedding hacks - seating planner using simulated annealing
-     * [20]Wedding hacks - John Lewis gift list hyperlink
-     * [21]A prayer to the programming gods
-     * [22]Why learning Haskell/Python makes you a worse programmer
-     * [23]A Django website that took (a lot) more than 20 minutes.
+     * [17]Super-fast Sphinx docs, and SNOB driven development
+     * [18]Test smarter, not harder
+     * [19]Announcement: Django Views - The Right Way
+     * [20]Wedding hacks - seating planner using simulated annealing
+     * [21]Wedding hacks - John Lewis gift list hyperlink
+     * [22]A prayer to the programming gods
+     * [23]Why learning Haskell/Python makes you a worse programmer
 
 Comments [24]§
 
@@ -98,29 +98,29 @@ Comments [24]§
 
 References
 
-   1. file:///var/folders/
-   2. file:///var/folders/personal/
-   3. file:///var/folders/q9/
-   4. file:///var/folders/q9/categories/
-   5. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L26554-9864TMP.html#comments
-   6. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L26554-9864TMP.html#related
+   1. https://lukeplant.me.uk/
+   2. https://lukeplant.me.uk/personal/
+   3. https://lukeplant.me.uk/blog/
+   4. https://lukeplant.me.uk/blog/categories/
+   5. https://lukeplant.me.uk/blog/posts/no-one-actually-wants-simplicity/#comments
+   6. https://lukeplant.me.uk/blog/posts/no-one-actually-wants-simplicity/#related
    7. https://lukeplant.me.uk/
-   8. file:///var/folders/q9/categories/rants/
-   9. file:///var/folders/q9/categories/software-development/
-  10. file:///var/folders/q9/categories/web-development/
+   8. https://lukeplant.me.uk/blog/categories/rants/
+   9. https://lukeplant.me.uk/blog/categories/software-development/
+  10. https://lukeplant.me.uk/blog/categories/web-development/
   11. https://www.youtube.com/watch?v=BtJAsvJOlhM
-  12. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/test-factory-functions-in-django/
+  12. https://lukeplant.me.uk/blog/posts/test-factory-functions-in-django/
   13. https://en.wikipedia.org/wiki/Fear_of_missing_out
   14. https://grugbrain.dev/#grug-on-saying-no
   15. https://lobste.rs/s/ao2x0v/no_one_actually_wants_simplicity
-  16. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L26554-9864TMP.html#related
-  17. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/test-smarter-not-harder/
-  18. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/announcement-django-views-the-right-way/
-  19. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/wedding-hacks---seating-planner-using-simulated-annealing/
-  20. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/wedding-hacks---john-lewis-gift-list-hyperlink/
-  21. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/a-prayer-to-the-programming-gods/
-  22. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/why-learning-haskell-python-makes-you-a-worse-programmer/
-  23. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/a-django-website-that-took-a-lot-more-than-20-minutes/
-  24. file:///var/folders/q9/qlz2w5251kzdfgn0np7z2s4c0000gn/T/L26554-9864TMP.html#comments
+  16. https://lukeplant.me.uk/blog/posts/no-one-actually-wants-simplicity/#related
+  17. https://lukeplant.me.uk/blog/posts/super-fast-sphinx-docs/
+  18. https://lukeplant.me.uk/blog/posts/test-smarter-not-harder/
+  19. https://lukeplant.me.uk/blog/posts/announcement-django-views-the-right-way/
+  20. https://lukeplant.me.uk/blog/posts/wedding-hacks---seating-planner-using-simulated-annealing/
+  21. https://lukeplant.me.uk/blog/posts/wedding-hacks---john-lewis-gift-list-hyperlink/
+  22. https://lukeplant.me.uk/blog/posts/a-prayer-to-the-programming-gods/
+  23. https://lukeplant.me.uk/blog/posts/why-learning-haskell-python-makes-you-a-worse-programmer/
+  24. https://lukeplant.me.uk/blog/posts/no-one-actually-wants-simplicity/#comments
   25. https://getnikola.com/
   26. https://m.do.co/c/cef485980f20

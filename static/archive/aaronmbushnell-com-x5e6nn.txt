@@ -141,12 +141,12 @@ References
    Visible links:
    1. https://aaronmbushnell.com/
    2. https://aaronmbushnell.com/feed.xml
-   3. file:///
-   4. file:///images/goldens.png
-   5. file:///
-   6. file:///images/goldens.png
-   7. file:///
-   8. file:///running-gatsby-js-sites-with-craft-cms
+   3. https://aaronmbushnell.com/
+   4. https://aaronmbushnell.com/images/goldens.png
+   5. https://aaronmbushnell.com/
+   6. https://aaronmbushnell.com/images/goldens.png
+   7. https://aaronmbushnell.com/
+   8. https://aaronmbushnell.com/running-gatsby-js-sites-with-craft-cms
    9. https://craftcms.com/
   10. https://www.gatsbyjs.com/
   11. https://graphql.org/
