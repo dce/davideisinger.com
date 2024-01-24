@@ -45,7 +45,7 @@ This month:
 
 * Adventure: spending a weekend at Virginia's Eastern Shore with some childhood friends and a week at the beach with my family
 * Project: build a fantasy draft <abbr title="text-based user interface">TUI</abbr> app in Go using [Bubble Tea][5]
-* Skill: learn how to organize a larger Go codebase as part of ☝️
+* Skill: learn how to organize a larger Go codebase as part of 👆
 
 Reading:
 
