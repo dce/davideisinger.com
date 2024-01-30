@@ -1,0 +1,143 @@
+[1]The New Oil
+
+Changes Aren’t Permanent, But Change Is
+
+January 21, 2024
+
+As a veteran, my approach to healthcare and job opportunities has always been
+different than most. I’ve always been in reasonably good health, never been
+much of a thrill seeker, and have a pretty robust immune system. Other than a
+hardcore sweet tooth, I generally take at least some care of myself. As such,
+that meant I could be a little riskier, allowing for a successful freelance
+career. But then, I got married. Suddenly, the math changed and I had to start
+considering health care when I considered employment. This is hardly a unique
+situation: after adopting pets you have to consider who will feed them when
+you’re on vacation, or when you have kids you have to consider what will happen
+to them if anything happens to you.
+
+Yet, for some reason, people in the privacy community have a hard time wrapping
+their minds around change. To some extent, I get that. I think at some level
+we’re all a bit resistant to change. Change can sometimes make us feel out of
+control, or sometimes it’s just the plain old “fear of the unknown.” Sometimes
+there’s a valid reason here; for example, I’ve successfully managed to get
+nearly everyone I know using Signal. If Signal turned out to be unsafe tomorrow
+for any reason, it would be a monumental nightmare to not only pick a service
+that’s as polished, stable, and feature-rich but also to convince everyone to
+move over. It’s also unwise to simply rush into the latest new service blindly
+because it’s new. It’s always a good idea to slow down and first see if these
+services even stand the test of time and second wait to see what the experts
+think (or to examine the project yourself if you are one such expert).
+
+But other times, I think we just get stuck in our habits. When I got into
+privacy, iPhone was clearly superior to Android in the privacy/security front.
+At the time custom OS’s were nearly unusable for a normal person and Android’s
+security was a joke. But while I advanced in my personal privacy journey, the
+entire Android landscape matured and soon Android became an increasingly
+appealing option for me. Making that change represented a huge disruption for
+my existing day-to-day life. I mean sure, at the end of the day a phone is a
+phone and they all more or less function the same, but anyone who’s ever made
+the switch or even temporarily had to use the other OS that isn’t their daily
+driver knows that it’s a bit of a shock and it takes some time to get used to
+the differing menus, capabilities, or thought that went into the design. In the
+case of Android specifically, I also had new apps, features, and possibilities
+to explore.
+
+It is vital that as a community we become accepting of change because it will
+come for all of us whether we like it or not. There are plenty of recent
+examples. Encrypted messenger WickrMe was [2]fully retired this year, but even
+before it was shut down it was on a downward spiral. Michael Bazzell claimed he
+had detected it sending telemetry back to organizations such as Microsoft and
+shortly thereafter Wickr was sold to Amazon. Two more recent, salient examples
+include the sales of [3]Raivo OTP (once recommended on The New Oil) and [4]
+Simple Mobile Tools. In most cases, there is little or nothing standing in the
+way of negative changes, whether it’s as simple and (arguably) innocuous as
+introducing telemetry that you disagree with or full-on shutting down or
+selling out.
+
+In the world of writing, aspiring writers are instructed to “kill your
+darlings.” That means no matter how attached you get to a work, you must be
+willing to set those feelings aside and do whatever it takes to make it the
+best possible version of itself. That might mean cutting a part you really
+like, rearranging some sections, or just throwing out the entire thing and
+starting over. (I did a large amount of that in writing this very post.) In
+privacy, we must have the same attitude.
+
+Compromise and “[5]enshittification” are extreme examples, but I would argue
+they’re probably the least common culprit forcing us into change. I’m willing
+to bet that by sheer numbers, simple life circumstances and growth are. As
+mentioned above, getting married changed a lot of things for me, privacy
+included. Prior to being married, I didn’t even own a TV. Now we have two smart
+TVs because my wife loves to consume streaming content. As such, we also use
+ProtonVPN on our router because they promise to work with streaming services (a
+promise that thus far has been kept). But if I were still single, I would
+probably be using IVPN or Mullvad on my router and I would also be far more
+aggressive with tracker blocking. A single woman dating may download one of
+those safety apps that shares her location with trusted individuals to stay
+safe on dates. A parent may decide that – at least while their children are
+younger – it’s worthwhile to enable location tracking their phones (or to give
+them phones at all) in case something bad happens. They may also decide to use
+certain mainstream, less-private services to better control their child’s
+content intake. I’m not condoning helicopter parenting, for the record, but the
+internet is a vast and dangerous space and it would be pretty reckless to just
+let your young children run wild on it without supervision.
+
+Another example might be outdated devices. Perhaps you were quite happy with
+stock Android so long as it was still receiving security updates, but if you
+suddenly found yourself in possession of a device that has reached “End of
+Life” and you didn’t have the funds to upgrade, the math might change. You
+might decide that it’s worth it to flash a custom OS so you can still receive
+at least some updates.
+
+And of course, there’s always growth. Many of us never stop to consider this,
+but for most of us we make a lot of changes when we first start our privacy
+journeys. We go from Windows/Mac to Linux, SMS to encrypted messaging, Gmail to
+encrypted email, Google search to private search, and more. Sometimes we even
+make multiple changes, testing out several messengers, email providers, Linux
+distributions, and more. Why then, once we settle into a suite that works for
+us, do we suddenly decide that this is it, finality, the end, there can be no
+room to improve after this – at least, not significant changes like the ones
+that got us here? This is ridiculous. It’s called the “End-of-History
+Illusion”: the belief that you have experienced substantial change or growth up
+til now but now things will just be the same forever from here on out.
+
+Change can be scary, but it is vital. As we go through life, different services
+will come and go and in some cases services that are perfectly fine will no
+longer fit our needs. We shouldn’t be afraid of change. Change allows us to
+grow and improve, but it also allows us to live fulfilling, full lives. Privacy
+is a human right, but so is food, education, and shelter. Despite this, most of
+us don’t spend all of our free time learning about water quality, teaching, or
+construction and architecture. We appreciate these things and want to have a
+functional knowledge of them (how to spot bad water and buildings we should
+absolutely steer clear of) but most of us have other hobbies, interests,
+priorities, and desires. Privacy should be no different – it should protect us
+and our rights, but it shouldn’t prevent us from getting the most out of our
+lives the way we want to. I’ve written on this subject before, so I won’t
+rehash it here. I’ll just leave with the parting thought that time waits for no
+one, so it’s best to accept the impermanence of everything in life, especially
+technology and ourselves. Don’t be afraid to embrace evolution and change up
+your privacy strategy as needed. As the band [6]Rush so famously put it well:
+“changes aren’t permanent, but change is.”
+
+You can find more recommended services and programs at [7]TheNewOil.org, and
+you can find our other content across the web [8]here or support our work in a
+variety of ways [9]here.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+published with [10]write.as
+
+[piwik]
+
+
+References:
+
+[1] https://blog.thenewoil.org/
+[2] https://web.archive.org/web/20240115224640/https://www.404media.co/wickr-closed-down-is-dead/
+[3] https://youtu.be/Z0IkcyGUqKc?si=uMOEdhSwbX2Tjjfc&t=60
+[4] https://youtu.be/dnVOdOC3E9c?si=dfzc6y6s-fv8kgDF&t=1005
+[5] https://en.wikipedia.org/wiki/Enshittification
+[6] https://www.youtube.com/watch?v=auLBLk4ibAk
+[7] https://thenewoil.org/
+[8] https://thenewoil.org/en/links/
+[9] https://thenewoil.org/en/support/
+[10] https://write.as/
