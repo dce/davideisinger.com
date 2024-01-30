@@ -98,7 +98,7 @@ Here's a new track called "Altocumulus":
 
 <audio controls src="/journal/dispatch-12-february-2024/Altocumulus.mp3"></audio>
 
-I really set out to make a track that didn't have a bass hit on one and three and snare on two and four, but some things you just can't resist, though you can tell I tried for the first 90 or so seconds. I also found a [really nice app][5] for practicing scales -- Apple catches a lot of shit (perhaps deservedly so) for its app store policies, but it's a pretty cool thing that I can so easily find quality software like this at a fair price.
+I really set out to make a track that didn't have a bass hit on one and three and snare on two and four, but some things you just can't resist, though you can tell I tried for the first 90 or so seconds. I also found a [really nice app][5] for practicing scales -- Apple catches a lot of shit (perhaps deservedly so) for its app store policies, but as a consumer, it's hard to complain.
 
 [5]: https://apps.apple.com/us/app/piano-chords-and-scales/id714086944
 
@@ -116,7 +116,7 @@ I installed [these crossbars][9] on our car in the hopes that we can avoid repla
 [10]: https://www.chrbutler.com/
 [11]: https://www.chrbutler.com/2024-01-21
 
-Couple security updates: my favorite [TOTP][12] app, Raivo, [got bought up by a shady-looking company][13], so I switched over to to [2FAS][14]. Super smooth onboarding experience, and I actually prefer its authentication flow (browser plugin ➡️  push notification ➡️  Face ID ➡️  accept ➡️  autofill). Also, I listened to [a podcast][15] some months back that described the damage a thief can do with a stolen iPhone, so when I learned about this new [Stolen Device Protection][16] feature, I enabled it immediately.
+Couple security updates: my favorite [TOTP][12] app, Raivo, [got bought up by a shady-looking company][13], so I switched over to to [2FAS][14]. Super smooth onboarding experience, and I actually prefer its authentication flow (browser plugin ➡️  push notification ➡️  Face ID ➡️  approve ➡️  autofill). Also, I listened to [a podcast][15] some months back that described the damage a thief can do with a stolen iPhone, so when I learned about this new [Stolen Device Protection][16] feature, I enabled it immediately.
 
 [12]: https://en.wikipedia.org/wiki/Time-based_one-time_password
 [13]: https://blog.thenewoil.org/changes-arent-permanent-but-change-is
@@ -129,7 +129,7 @@ I finished [_Revenge: Eleven Dark Tales_][17] and decided to stay on the short s
 [17]: #
 [18]: #
 
-I make plaintext backups of the things I link to on this site, at least the text-heavy stuff I might want to refer to later (you can see them down below in the "references" section). I'd been using [Lynx][19] to get the text, but that was having issues on some sites, so I switched over to [w3m][20] after finding the right command-line flag[^1] to include link URLs in the output. I've got some ideas around building a more robust archiving solution but I'm gonna let it marinate for a bit.
+I make plaintext backups of the things I link to on this site, at least the text-heavy stuff I might want to refer to later (you can see them down below in the "references" section). I'd been using [Lynx][19] to get the text, but I wasn't super happy with some of the results, so I switched over to [w3m][20] after finding the right command-line flag[^1] to include link URLs in the output. I've got some ideas around building a more robust archiving solution but I'm gonna let it marinate for a bit.
 
 [19]: https://en.wikipedia.org/wiki/Lynx_(web_browser)
 [20]: https://en.wikipedia.org/wiki/W3m
