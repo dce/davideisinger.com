@@ -1,0 +1,108 @@
+[1]Skip to content[2]
+
+  • [3]Blog
+  • [4]About
+  • [5]More
+
+ 1. [6]Index
+ 2. [7]Blog
+ 3. [8]Paper notes
+
+[9][10](Photo)[11]tim@harek.no[12]PGP key
+
+Paper notes
+
+Published April 10, 2022
+3 minutes read
+
+I recently discovered [13]Tom MacWright's blog, and I read some of his
+blog-posts, and found one about [14]paper notes. I highly recommend checking it
+out.
+
+In 2018 I discovered [15]bullet journaling. I've been trying to write
+consistently ever since, with a somewhat success, but always miss some months/
+weeks every year. I've used this to remember what I've done for specific days,
+what appointments and events I'm attending or going to attend. And it works,
+but I usually don't write in it everyday, I write every two or three days,
+depending on how busy I've been that week.
+
+And when it comes to notes in general, I've been trying to use my reMarkable 2
+to write notes about work related stuff and other "discoveries" I come upon on
+the interwebs. But I always seem to forget it when going to work and I think
+it's a hassle to take in and out of my backpack and remembering to charge it.
+
+And like Tom, I bought nice notebooks for my bullet journaling and managed to
+write a lot, but suddenly I abandoned it. I never brought my bullet journal to
+work or when I travelled, it was just too much of a hassle, and what if I lost
+it?
+
+Then a few weeks ago I found a Norwegian store that sells Field Notes, which
+fit my back pocket perfectly, and I thought maybe I should try to keep a small
+notebook with me at all time. So I bought six, because I'm going all in.
+
+And I've written notes everyday, and I've had a blast, it just works. Whenever
+I just remember something I just write it down and forget about it. In meetings
+I use it for the same thing. I use it for todo-lists for the day or future. The
+other day a colleague and I were going through a presentation we were preparing
+for the University of Bergen and I wrote down all the comments and ideas I came
+up as we were presenting for each other, instead of trying to remember all of
+them in my head. And man did that work wonders! I made it into a list and we
+adjusted everything and nailed the presentation!
+
+My field notes. Photo My field notes with my Space Pen.
+
+Like Tom, I treat them as append-only, and when I started doing this, it came
+naturally for me to only write down my notes in the paper notebook instead of
+having to rely on a digital notebook. No more needing to organize my notes, if
+it's more important and useful in a project sense I add it to its specific
+place when I get time. I flip through my notes every now and then, and weirdly
+enough, I started to flip through the notebook instead of checking my phone.
+
+And now, after a week I flip through my notes and add what's interesting to my
+bullet journal and keep the other stuff in the field notes. It's quick and
+easy, and I don't have to spend a lot of time trying to remember what I was
+doing earlier that week.
+
+Again, I highly recommend reading [16]Tom's post, and checking out his [17]blog
+in general.
+
+Tagged with
+
+  • [18]#note-taking
+
+546 words
+
+[19]Reply via email
+Last deploy: 2024-01-28
+
+  • [20]Stats
+  • [21]Privacy
+  • [22]Connect
+  • [23]Subscribe
+
+
+References:
+
+[1] https://timharek.no/blog/paper-notes#main
+[2] https://timharek.no/
+[3] https://timharek.no/blog
+[4] https://timharek.no/about
+[5] https://timharek.no/more
+[6] https://timharek.no/
+[7] https://timharek.no/blog
+[8] https://timharek.no/blog/paper-notes
+[9] https://timharek.no/
+[10] https://timharek.no/.well-known/avatar?size=250&quality=90
+[11] mailto:tim@harek.no
+[12] https://timharek.no/public-key.asc
+[13] https://macwright.com/
+[14] https://macwright.com/2019/01/02/paper-notes.html
+[15] https://bulletjournal.com/
+[16] https://macwright.com/2019/01/02/paper-notes.html
+[17] https://macwright.com/
+[18] https://timharek.no/tags/note-taking
+[19] mailto:tim@harek.no?subject=RE:%20Paper%20notes
+[20] https://timharek.no/stats
+[21] https://timharek.no/privacy
+[22] https://timharek.no/connect
+[23] https://timharek.no/subscribe

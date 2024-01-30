@@ -1,0 +1,169 @@
+  • [1]Apps
+  • [2]About
+  • [3]Archive
+  • [4]Contact
+  • [5]RSS
+
+[6]Hypercritical●
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+I Made This
+
+January 11, 2024 at 1:51 PM by [7]John Siracusa
+
+While the utility of [8]Generative AI is very clear at this point, the moral,
+ethical, and legal questions surrounding it are decidedly less so. I’m not a
+lawyer, and I’m not sure how the many [9]current and future legal battles
+related to this topic will shake out. Right now, I’m still trying to understand
+the issue well enough to form a coherent opinion of how things should be.
+Writing this post is part of my process.
+
+Generative AI needs to be trained on a vast amount of data that represents the
+kinds of things it will be asked to generate. The connection between that
+training data and the eventual generated output is a hotly debated topic. An AI
+model has no value until it’s trained. After training, how much of the model’s
+value is attributable to any given piece of training data? What legal rights,
+if any, can the owners of that training data exert on the creator of the model
+or its output?
+
+A human’s creative work is inextricably linked to their life experiences: every
+piece of art they’ve ever seen, everything they’ve done, everyone they’ve ever
+met. And yet we still say the creative output of humans is worthy of [10]legal
+protection (with some fairly narrow restrictions for works that are deemed
+insufficiently differentiated from existing works).
+
+Some say that generative AI is no different. Its output is inextricably linked
+to its “life experience” (training data). Everything it creates is influenced
+by everything it has ever seen. It’s doing the same thing a human does, so why
+shouldn’t its output be treated the same as a human’s output?
+
+And if it generates output that’s insufficiently differentiated from some
+existing work, well, we already have laws to handle that. But if not, then it’s
+in the clear. There’s no need for any sort of financial arrangement with the
+owners of the training data any more than an artist needs to pay every other
+artist whose work she’s seen each time she makes a new painting.
+
+This argument does not sit well for me, for both practical and ethical reasons.
+Practically speaking, generative AI changes the economics and timescales of the
+market for creative works in a way that has the potential to disincentivize
+non-AI-generated art, both by making creative careers less viable and by
+narrowing the scope of creative skill that is valued by the market. Even if
+generative AI develops to the point where it is self-sustaining without
+(further) human input, the act of creation is an essential part of a life
+well-lived. Humans need to create, and we must foster a market that supports
+this.
+
+Ethically, the argument that generative AI is “just doing what humans do” seems
+to draw an equivalence between computer programs and humans that doesn’t feel
+right to me. It was the pursuit of this feeling that led me to a key question
+at the center of this debate.
+
+Computer programs don’t have rights^[11]1, but people who use computer programs
+do. No one is suggesting that generative AI models should somehow have the
+rights to the things they create. It’s the humans using these AI models that
+are making claims about the output—either that they, the human, should own the
+output, or, at the very least, that the owners of the model’s training data
+should not have any rights to the output.
+
+After all, what’s the difference between using generative AI to create a
+picture and using Photoshop? They’re both computer programs that help humans
+make more, better creative works in less time, right?
+
+We’ve always had technology that empowers human creativity: pencils,
+paintbrushes, rulers, compasses, quills, typewriters, word processors,
+bitmapped and vector drawing programs—thousands of years of technological
+enhancement of creativity. Is generative AI any different?
+
+At the heart of this question is the act of creation itself. Ownership and
+rights hinge on that act of creation. Who owns a creative work? Not the pencil,
+not the typewriter, not Adobe Photoshop. It’s the human who used those tools to
+create the work that owns it.
+
+There can, of course, be legal arrangements to transfer ownership of the work
+created by one human to another human (or a legal entity like a corporation).
+And in this way, value is exchanged, forming a market for creativity.
+
+Now then, when someone uses generative AI, who is the creator? Is [12]writing
+the prompt for the generative AI the act of creation, thus conferring ownership
+of the output to the prompt-writer without any additional legal arrangements?
+
+Suppose Bob writes an email to Sue, who has no existing business relationship
+with Bob, asking her to draw a picture of a polar bear wearing a cowboy hat
+while riding a bicycle. If Sue draws this picture, we all agree that Sue is the
+creator, and that some arrangement is required to transfer ownership of this
+picture to Bob. But if Bob types that same email into a generative AI, has he
+now become the creator of the generated image? If not, then who is the creator?
+
+Where is the act of creation?
+
+This question is at the emotional, ethical (and possibly legal) heart of the
+generative AI debate. I’m reminded of the [13]well-known web comic in which one
+person hands something to another and says, “I made this.” The recipient
+accepts the item, saying “You made this?” The recipient then holds the item
+silently for a moment while the person who gave them the item departs. In the
+final frame of the comic, the recipient stands alone holding the item and says,
+“I made this.”
+
+This comic resonates with people for many reasons. To me, the key is the second
+frame in which the recipient holds the item alone. It’s in that moment that
+possession of the item convinces the person that they own it. After all,
+they’re holding it. It’s theirs! And if they own it, and no one else is around,
+then they must have created it!
+
+This leads me back to the same question. Where is the act of creation? The
+person in the comic would rather not think about it. But generative AI is
+forcing us all to do so.
+
+I’m not focused on this point for reasons of fairness or tradition. Technology
+routinely changes markets. Our job as a society is to ensure that technology
+changes things for the better in the long run, while mitigating the inevitable
+short-term harm.
+
+Every new technology has required new laws to ensure that it becomes and
+remains a net good for society. It’s rare that we can successfully adapt
+existing laws to fully manage a new technology, especially one that has the
+power to radically alter the shape of an existing market like generative AI
+does.
+
+In its current state, generative AI breaks the value chain between creators and
+consumers. We don’t have to reconnect it in exactly the same way it was
+connected before, but we also can’t just leave it dangling. The historical
+practice of conferring ownership based on the act of creation still seems
+sound, but that means we must be able to unambiguously identify that act. And
+if the same act (absent any prior legal arrangements) confers ownership in one
+context but not in another, then perhaps it’s not the best candidate.
+
+I’m not sure what the right answer is, but I think I’m getting closer to the
+right question. It’s a question I think we’re all going to encounter a lot more
+frequently in the future: Who made this?
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ 1. Non-sentient computer programs, that is. If we ever create sentient
+    computer programs, we’ll have a whole host of other problems to deal with. 
+    [14]↩
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[15]← Previous
+
+© 2010-2024 John Siracusa
+
+
+References:
+
+[1] https://hypercritical.co/apps/
+[2] https://hypercritical.co/about/
+[3] https://hypercritical.co/archive/
+[4] https://hypercritical.co/contact/
+[5] https://hypercritical.co/feeds/main
+[6] https://hypercritical.co/
+[7] https://hypercritical.co/about/
+[8] https://en.wikipedia.org/wiki/Generative_artificial_intelligence
+[9] https://www.theverge.com/2023/12/27/24016212/new-york-times-openai-microsoft-lawsuit-copyright-infringement
+[10] https://en.wikipedia.org/wiki/Copyright
+[11] https://hypercritical.co/2024/01/11/i-made-this#fn:1
+[12] https://en.wikipedia.org/wiki/Prompt_engineering
+[13] https://nedroidcomics.tumblr.com/post/41879001445/the-internet
+[14] https://hypercritical.co/2024/01/11/i-made-this#fnref:1
+[15] https://hypercritical.co/2023/10/29/apples-blue-ocean

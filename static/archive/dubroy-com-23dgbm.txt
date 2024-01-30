@@ -1,0 +1,112 @@
+[1] ● ● Patrick Dubroy
+
+  • [2]About
+  • [3]Archives
+
+[4]Cold-blooded software
+
+December 28, 2023
+
+It’s 2004 and I’m sitting in one of the largest lecture halls at my university.
+I’m a computer science major but I’m taking a course on natural history —
+plants and animals — as one of my electives.
+
+The professor tells us that he’s brought something from home, something he
+found in his freezer. He reaches down behind his desk, and then holds his arm
+out to show us what’s sitting in his palm: a baby painted turtle. We’re
+learning about cold-blooded animals, and it turns out that painted turtle
+hatchlings are pretty special — they’re one of only a few species that can
+survive being frozen.
+
+Now, the lecture hall is pretty modern for 2004: there’s an overhead camera at
+the podium, where the professor can write notes that are displayed on screens
+around the hall. But instead of writing notes, he puts the turtle under the
+camera and starts his lecture.
+
+Over the next hour, we watch this little reptile slowly come to life as the
+professor lectures. The first movements were nearly imperceptible. An eyelid
+cracking open, a leg inching forward. By the end of the lecture, the turtle has
+moved about halfway across our screens.
+
+I’ll never forget that class, because it’s where I really understood what it
+means for an animal to be cold blooded. You see, warm-blooded animals — like
+humans or mice — have a stable body temperature that stays within a pretty
+narrow range. For humans, it’s around 37 degrees Celsius. A few degrees higher
+or lower and we’re in big trouble. Cold-blooded animals like the painted turtle
+can adapt their metabolism to the temperature around them. They’re active when
+it’s warm out, and as the environment (and their bodies) get cooler, they move
+more slowly. Very few of them can survive being frozen like the baby painted
+turtle can.
+
+I see a similar dichotomy with software projects. Certain technology decisions
+lead to projects that are warm-blooded: everything is great when there’s
+constant motion on the project, generating heat. But put warm-blooded software
+in the freezer, and you’ll pull out a corpse six months later.
+
+Maybe your CI isn’t working because one of the services you depend on got
+bought or ran out of money. You add a new dependency and find yourself needing
+to upgrade your compiler. Another package you depend on is deprecated, and
+doesn’t work with the latest version of the compiler.
+
+Some projects are different. You work alone, make some changes when you’re
+inspired, and then don’t touch it again for another year, or two, or three. You
+can’t run something like that as a warm-blooded project. There’s not enough
+activity to keep the temperature up.
+
+A cold-blooded project is like the baby painted turtle. You can freeze it for a
+year and then pick it back up right where you left off.
+
+A cold-blooded project uses [5]boring technology. The build and test scripts
+don’t depend on external services that might change, break, or disappear
+entirely. It uses [6]vendored dependencies.
+
+The software that powers this blog is cold-blooded. The first commit was nearly
+twelve years ago — a simple little static site generator to replace my
+out-of-date Wordpress installation:
+
+commit 68949229ad426c1e8795ee640808db9987ab30ab
+Author: Patrick Dubroy <[7][email protected]>
+Date:   Sun Jan 8 19:10:24 2012 +0100
+
+    Add templates and site-building script.
+
+It’s written in Python (2, not 3). It depends on four third-party modules, and
+they’re all committed to the project repository. Everything runs locally, and I
+deploy the result with rsync over ssh.
+
+And boy am I glad I decided to do it that way. I’ve made a few small
+improvements over the years, but otherwise it’s continued to work without
+modification. And I fully expect that it will still be working in another
+twelve years.
+
+🐢
+
+👉 You might also want to check out [8]the discussion on Hacker News.
+
+Thanks to Thorsten Ball for helpful suggestions on this post.
+
+Pssst! I'm working on a book called [9]WebAssembly from the Ground Up. It takes
+you from hand crafting bytecodes to writing a real compiler for a simple
+programming language. If you're interested in WebAssembly, you should
+definitely check it out.
+
+© 2006–2024 Patrick Dubroy · Powered by [10]Butterbrezn and [11]Augustiner.
+
+Subscribe: [12]RSS · [13]email
+
+
+References:
+
+[1] https://dubroy.com/blog
+[2] https://dubroy.com/blog/about
+[3] https://dubroy.com/blog/archives
+[4] https://dubroy.com/blog/cold-blooded-software
+[5] https://mcfunley.com/choose-boring-technology
+[6] https://go.dev/ref/mod#vendoring
+[7] https://dubroy.com/cdn-cgi/l/email-protection
+[8] https://news.ycombinator.com/item?id=38793206
+[9] https://wasmgroundup.com/
+[10] http://www.butterbreze.de/zutaten.html
+[11] http://www.augustiner-braeu.de/
+[12] https://dubroy.com/blog/rss.xml
+[13] https://buttondown.email/pdubroy
