@@ -17,6 +17,22 @@ references:
   url: https://www.chrbutler.com/2024-01-21
   date: 2024-01-30T04:10:23Z
   file: www-chrbutler-com-gbjxba.txt
+- title: "Changes Aren’t Permanent, But Change Is – The New Oil"
+  url: https://blog.thenewoil.org/changes-arent-permanent-but-change-is
+  date: 2024-01-30T15:04:20Z
+  file: blog-thenewoil-org-1zbu4k.txt
+- title: "Stop Everything You're Doing and Enable Stolen Device Protection on Your iPhone"
+  url: https://gizmodo.com/stop-everything-enable-stolen-device-protection-iphone-1851188262
+  date: 2024-01-30T15:05:31Z
+  file: gizmodo-com-mbuz73.txt
+- title: "Stride by Stride – iRunFar"
+  url: https://www.irunfar.com/stride-by-stride
+  date: 2024-01-30T15:07:24Z
+  file: www-irunfar-com-ueqpx0.txt
+- title: "Kimberly Hirsh · Now"
+  url: https://kimberlyhirsh.com/now/
+  date: 2024-01-30T15:08:36Z
+  file: kimberlyhirsh-com-z4tqvg.txt
 - title: "Hypercritical: I Made This"
   url: https://hypercritical.co/2024/01/11/i-made-this
   date: 2024-01-30T14:48:57Z
@@ -37,6 +53,10 @@ references:
   url: https://www.cygnoir.net/2024/01/20/how-i-pocket.html
   date: 2024-01-30T14:49:00Z
   file: www-cygnoir-net-9nlp2w.txt
+- title: "How I Pocket Notebook | cygnoir.net - The Cramped"
+  url: https://www.thecramped.com/how-i-pocket-notebook-cygnoir-net/
+  date: 2024-01-30T15:13:18Z
+  file: www-thecramped-com-7kxkcb.txt
 - title: "Paper notes - macwright.com"
   url: https://macwright.com/2019/01/02/paper-notes
   date: 2024-01-30T14:49:00Z
@@ -60,7 +80,7 @@ We spent MLK weekend with my folks in the Shennandoah Valley, and visited [Luray
 {{<thumbnail IMG_2374.jpeg "600x800" />}}
 {{<thumbnail IMG_9637.jpeg "600x800" />}}
 
-I signed up for the [Wrightsville Beach Valentine Run][2] 10K in Wilmington in early February, which has added a little bit of focus to my running without the commitment of half-marathon training and gives us a good excuse to spend a weekend with Claire's sister in Wilmington. Might try to keep that going, finding organized 10Ks in places we want to visit.
+I signed up for the [Wrightsville Beach Valentine Run][2] 10K in early February, which has added a little bit of focus to my running without the commitment of half-marathon training and gives us a good excuse to spend a weekend with Claire's sister in Wilmington. Might try to keep that going, finding organized 10Ks in places we want to visit.
 
 [2]: https://runsignup.com/Race/NC/WrightsvilleBeach/WrightsvilleBeachValentineRun
 
@@ -78,7 +98,7 @@ Here's a new track called "Altocumulus":
 
 <audio controls src="/journal/dispatch-12-february-2024/Altocumulus.mp3"></audio>
 
-I really set out to make a track that didn't have a bass hit on one and three and snare on two and four, but some things you just can't resist, though you can tell I tried for the first 90 seconds or so. I also found a [really nice app][5] for practicing scales -- Apple catches a lot of shit (perhaps deservedly so) for its app store policies, but it's a pretty cool thing that I can so easily find quality software like this at a fair price.
+I really set out to make a track that didn't have a bass hit on one and three and snare on two and four, but some things you just can't resist, though you can tell I tried for the first 90 or so seconds. I also found a [really nice app][5] for practicing scales -- Apple catches a lot of shit (perhaps deservedly so) for its app store policies, but it's a pretty cool thing that I can so easily find quality software like this at a fair price.
 
 [5]: https://apps.apple.com/us/app/piano-chords-and-scales/id714086944
 
@@ -109,7 +129,7 @@ I finished [_Revenge: Eleven Dark Tales_][17] and decided to stay on the short s
 [17]: #
 [18]: #
 
-I try to keep plaintext backups of the things I link to on this site, at least the text-heavy stuff I might want to refer to later (you can see them down below in the "references" section). I'd been using [Lynx][19] to get the text, but that was having issues on some sites, so I switched over to [w3m][20] after finding the right command-line flag[^1] to include link URLs in the text. I've got some ideas around building a more robust archiving solution but I'm gonna let it marinate for a bit.
+I make plaintext backups of the things I link to on this site, at least the text-heavy stuff I might want to refer to later (you can see them down below in the "references" section). I'd been using [Lynx][19] to get the text, but that was having issues on some sites, so I switched over to [w3m][20] after finding the right command-line flag[^1] to include link URLs in the output. I've got some ideas around building a more robust archiving solution but I'm gonna let it marinate for a bit.
 
 [19]: https://en.wikipedia.org/wiki/Lynx_(web_browser)
 [20]: https://en.wikipedia.org/wiki/W3m
@@ -123,30 +143,33 @@ This month:
 Reading:
 
 * Fiction: [_Story of Your Life and Others_][21], Ted Chiang
-* Non-fiction: [_Bird by Bird: Some Instructions on Writing and Life_][22], Anne Lamott
+* Non-fiction: [_Bird by Bird: Some Instructions on Writing and Life_][22], Anne Lamott (recommended [here][23] and [here][24])
 
 [21]: https://bookshop.org/p/books/stories-of-your-life-and-others-lib-e-ted-chiang/16687839
 [22]: https://bookshop.org/p/books/bird-by-bird-some-instructions-on-writing-and-life-anne-lamott/8649952?ean=9780385480017
+[23]: https://www.irunfar.com/stride-by-stride
+[24]: https://kimberlyhirsh.com/now/
 
 Links:
 
-* [I Made This][23]
-* [The Rise and Fall of Getting Things Done][24]
-* [Cold-blooded software][25] ([via][26])
-* [How I Pocket Notebook][27]
-  * [Tom MacWright][28]
-  * [Tim Hårek][29]
-* [Work hard and take everything really seriously][30]
+* [I Made This][25]
+* [The Rise and Fall of Getting Things Done][26]
+* [Cold-blooded software][27] ([via][28])
+* [How I Pocket Notebook][29] ([via][30])
+  * [Tom MacWright][31]
+  * [Tim Hårek][32]
+* [Work hard and take everything really seriously][33]
 
-[23]: https://hypercritical.co/2024/01/11/i-made-this
-[24]: https://www.newyorker.com/tech/annals-of-technology/the-rise-and-fall-of-getting-things-done
-[25]: https://dubroy.com/blog/cold-blooded-software/
-[26]: https://blog.jim-nielsen.com/2024/cold-blooded-software/
-[27]: https://www.cygnoir.net/2024/01/20/how-i-pocket.html
-[28]: https://macwright.com/2019/01/02/paper-notes
-[29]: https://timharek.no/blog/paper-notes
-[30]: https://macwright.com/2024/01/28/work-hard-and-take-everything-seriously
+[25]: https://hypercritical.co/2024/01/11/i-made-this
+[26]: https://www.newyorker.com/tech/annals-of-technology/the-rise-and-fall-of-getting-things-done
+[27]: https://dubroy.com/blog/cold-blooded-software/
+[28]: https://blog.jim-nielsen.com/2024/cold-blooded-software/
+[29]: https://www.cygnoir.net/2024/01/20/how-i-pocket.html
+[30]: https://www.thecramped.com/how-i-pocket-notebook-cygnoir-net/
+[31]: https://macwright.com/2019/01/02/paper-notes
+[32]: https://timharek.no/blog/paper-notes
+[33]: https://macwright.com/2024/01/28/work-hard-and-take-everything-seriously
 
-[^1]: Running `w3m -dump -o display_link_number=1 <url>` gives a nice plaintext version of a webpage with numbered link references (via this [helpful StackOverflow link][31])
+[^1]: Running `w3m -dump -o display_link_number=1 <url>` gives a nice plaintext version of a webpage with numbered link references (via this [helpful StackOverflow link][34])
 
-[31]: https://askubuntu.com/questions/805014/getting-text-and-links-from-a-web-page/1493418#1493418
+[34]: https://askubuntu.com/questions/805014/getting-text-and-links-from-a-web-page/1493418#1493418

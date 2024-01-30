@@ -1,0 +1,161 @@
+[p]
+
+  • [1]The A.V. Club
+  • [2]Deadspin
+  • [3]Gizmodo
+  • [4]Jalopnik
+  • [5]Kotaku
+  • [6]Quartz
+  • [7]The Root
+  • [8]The Takeout
+  • 
+  • [9]The Onion
+  • 
+  • [10]The Inventory
+
+[11]Send us a Tip![12]Shop[13]Subscribe
+[14]
+The Future Is Here
+We may earn a commission from links on this page
+[15]
+[16]Search
+[17]
+
+  • [18]Home
+  • [19]Latest
+  • [20]News
+  • [21]Reviews
+  • [22]Science
+  • [23]Earther
+  • [24]io9
+  • [25]AI
+  • [26]Space
+  • [27]Español
+  • [28]Video
+
+[29]
+Smartphones
+
+Stop Everything You're Doing and Enable Stolen Device Protection on Your iPhone
+
+The feature is finally out; here's how to turn it on.
+
+By
+[30]Dua Rashid
+PublishedJanuary 23, 2024
+[31]Comments (8)
+We may earn a commission from links on this page.
+[32][33][34][35][36]
+An image of a person entering their passcode on an iPhone.
+Image: NurPhoto (Getty Images)
+
+Apple recently announced a [37]Stolen Device Protection feature for iOS 17.3.
+With the new OS finally released Monday, the safety feature is now available to
+be activated on your devices. Here’s how to turn it on.
+
+Watch
+The iPhone SE Offers Almost Everything You Want In An iPhone
+CC
+Share
+Subtitles
+
+  • Off
+  • English
+
+Share this Video
+[39]Facebook[40]Twitter[41]Email
+[42]Reddit[43]Link
+[44]view video
+[45]The iPhone SE Offers Almost Everything You Want In An iPhone
+[46]
+Is USB-C Finally Coming To iPhone?
+May 18, 2022
+[47]
+Is This the End of Apple’s Lightning Cable?
+June 24, 2022
+
+First, you want to make sure to update the [48]iPhone to the latest 17.3
+version. Then go to Settings, scroll down to Face ID & Passcode, look for
+Stolen Device Protection, and turn the toggle switch on. It’ll take a few
+seconds.
+
+Advertisement
+
+The feature aims to apply a couple of layers of security so that someone who
+gets access to your passcode can’t get a hold of your entire digital life.
+That’s a pretty dangerous thought considering a thief could easily glance at
+your screen while you’re unlocking your device, and then strategically plan the
+theft.
+
+Advertisement
+
+The passcode vulnerability is a big one because having that can let someone
+else change your Apple ID password, and Apple ID is crucial for accessing the
+Find My app when your iPhone goes missing.
+
+Advertisement
+
+One of the ways in which the Stolen Device Protection feature helps is by
+making you enter your biometrics (Face or Touch ID) when you’re trying to
+change your Apple ID password at a place that your device doesn’t recognize as
+either your home or workplace. It does this once and then it makes you re-enter
+your biometrics one hour later for that extra layer of security and confirm
+that it’s really you.
+
+You’d also need to enter your biometrics twice with a one-hour delay to change
+your recovery key and iCloud keychain, which is the place where all your
+passwords are saved. Also, of course, you need to use your biometrics to turn
+the Stolen Device Protection feature off too, or the feature would be
+practically useless.
+
+Show all 8 comments
+
+References:
+
+[1] https://avclub.com/
+[2] https://deadspin.com/
+[3] https://gizmodo.com/
+[4] https://jalopnik.com/
+[5] https://kotaku.com/
+[6] https://qz.com/
+[7] https://theroot.com/
+[8] https://thetakeout.com/
+[9] https://theonion.com/
+[10] https://theinventory.com/
+[11] https://gizmodo.com/how-to-tip-gizmodo-1843880833
+[12] https://store.gizmodo.com/
+[13] https://gizmodo.com/newsletter
+[14] https://gizmodo.com/
+[15] https://gizmodo.com/
+[16] https://gizmodo.com/search
+[17] https://gizmodo.com/
+[18] https://gizmodo.com/
+[19] https://gizmodo.com/latest
+[20] https://gizmodo.com/tech
+[21] https://gizmodo.com/reviews
+[22] https://gizmodo.com/science
+[23] https://gizmodo.com/earther
+[24] https://gizmodo.com/io9
+[25] https://gizmodo.com/tech/artificial-intelligence
+[26] https://gizmodo.com/science/spaceflight
+[27] https://es.gizmodo.com/
+[28] https://gizmodo.com/top-video
+[29] https://gizmodo.com/reviews/smartphones
+[30] https://gizmodo.com/author/drashid
+[31] https://gizmodo.com/stop-everything-enable-stolen-device-protection-iphone-1851188262#replies
+[32] https://twitter.com/intent/tweet?via=gizmodo&url=https%3A%2F%2Fgizmodo.com%2Fstop-everything-enable-stolen-device-protection-iphone-1851188262%3Futm_medium%3Dsharefromsite%26utm_source%3Dgizmodo_twitter&text=Stop%20Everything%20You%26%2339%3Bre%20Doing%20and%20Enable%20Stolen%20Device%20Protection%20on%20Your%20iPhone
+[33] https://facebook.com/sharer.php?u=https%3A%2F%2Fgizmodo.com%2Fstop-everything-enable-stolen-device-protection-iphone-1851188262%3Futm_medium%3Dsharefromsite%26utm_source%3Dgizmodo_facebook
+[34] https://www.reddit.com/submit?url=https%3A%2F%2Fgizmodo.com%2Fstop-everything-enable-stolen-device-protection-iphone-1851188262%3Futm_medium%3Dsharefromsite%26utm_source%3Dgizmodo_reddit&title=Stop%20Everything%20You%26%2339%3Bre%20Doing%20and%20Enable%20Stolen%20Device%20Protection%20on%20Your%20iPhone
+[35] mailto:?subject=Stop%20Everything%20You%26%2339%3Bre%20Doing%20and%20Enable%20Stolen%20Device%20Protection%20on%20Your%20iPhone&body=https%3A%2F%2Fgizmodo.com%2Fstop-everything-enable-stolen-device-protection-iphone-1851188262%3Futm_medium%3Dsharefromsite%26utm_source%3Dgizmodo_email
+[36] https://gizmodo.com/stop-everything-enable-stolen-device-protection-iphone-1851188262
+[37] https://gizmodo.com/apple-iphone-theft-protection-ios-17-3-1851095703
+[39] https://facebook.com/sharer.php?u=https%3A%2F%2Fgizmodo.com%2Fiphone-se-review-1848690777%3Futm_medium%3Dsharefromsite%26utm_source%3Dfacebook
+[40] https://twitter.com/intent/tweet?url=https%3A%2F%2Fgizmodo.com%2Fiphone-se-review-1848690777%3Futm_medium%3Dsharefromsite%26utm_source%3Dtwitter&text=The%20iPhone%20SE%20Offers%20Almost%20Everything%20You%20Want%20In%20An%20iPhone
+[41] mailto:?subject=The%20iPhone%20SE%20Offers%20Almost%20Everything%20You%20Want%20In%20An%20iPhone&body=https%3A%2F%2Fgizmodo.com%2Fiphone-se-review-1848690777%3Futm_medium%3Dsharefromsite%26utm_source%3Demail
+[42] https://www.reddit.com/submit?url=https%3A%2F%2Fgizmodo.com%2Fiphone-se-review-1848690777%3Futm_medium%3Dsharefromsite%26utm_source%3Dreddit&title=The%20iPhone%20SE%20Offers%20Almost%20Everything%20You%20Want%20In%20An%20iPhone
+[43] https://gizmodo.com/iphone-se-review-1848690777
+[44] https://gizmodo.com/iphone-se-review-1848690777
+[45] https://gizmodo.com/iphone-se-review-1848690777
+[46] https://gizmodo.com/the-gadgettes-talk-about-apple-rumor-that-might-finally-1848948230
+[47] https://gizmodo.com/is-this-the-end-of-apple-s-lightning-cable-1849105142
+[48] https://gizmodo.com/apple-iphone-15-review-is-worth-the-upgrade-1850887870
