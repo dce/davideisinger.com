@@ -1,0 +1,92 @@
+Tom MacWright
+
+tom@macwright.com
+
+Tom MacWright
+
+  • [1]Writing⇠
+  • [2]Reading
+  • [3]Photos
+  • [4]Projects
+  • [5]Drawings
+  • [6]Micro
+  • [7]About
+
+Paper notes
+
+From 2006 to 2016, I wanted to be the kind of person who carried a paper
+notebook around. I bought nice notebooks and consistently got halfway through
+each one before abandoning it and giving up again.
+
+In 2016, everything changed all at once. Every month since I’ve finished a
+paper journal. Here’s what I changed and the flaws that I discovered in my
+previous attempts.
+
+Time not topics
+
+Paper notes are append-only: treat them as such. The unlimited flexibility of
+computer note-taking gave me warped expectations of paper notes, and early in
+my journey I’d try to maintain notebooks about certain subjects. I tried to
+keep notes about a certain book in one contiguous section, add a table of
+contents at the beginning, and stay organized.
+
+Organizing paper notes like digital notes is a fool’s errand. The only
+organization strategy that I’ve found that works is this one.
+
+The only consistent structure is time. Notes go forward in time. You write the
+date span of notebooks on the cover, and the date of notes on the pages, and
+keep the notebooks in order. Try to keep all notes from a certain point in time
+in the same notebook.
+
+Summarize topics when you finish notebooks, never when you start. Add a list of
+topics to the front cover (inside or outside), and then after a year, summarize
+the topics from all notebooks in another notebook.
+
+Simplicity not heaviness
+
+Durability, portability, and capacity are part of the same continuum. An
+80-page notebook will probably need a rigid cover, like the kind on a Moleskine
+or Leuchtturm notebook. That’s the kind that I tried using for a long time – I
+was hesitant to sacrifice the fanciness of that for something that was
+pocketable. I was completely wrong about that: when I finally switched to Field
+Notes, I understood the other, personally better corner of the space. The small
+notebooks are delicate, and start breaking down after a month being carried
+around in a pocket or a backpack, but – at 48 pages long, by the end of that
+month, you’re about finished using it anyway.
+
+Note box
+
+Taking notes is useless without a place to put them when you’re done.
+Continuing on the theme of Field Notes fandom, I bought their ‘Archival Wooden
+Box’, a wildly overpriced but perfectly-sized… box… made to hold finished
+notes. Key to this strategy is that your notebooks are precisely the same size,
+so that they line up neatly and if you mark a corner of the notebook with its
+start & end date (as I do), that corner will fall in the same place for each
+notebook in the stack. This also gives you a place to add structure with dated
+& labeled dividers, so it’s easier to hunt down a specific notebook later on.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+I also take digital notes: [8]Day One as a digital journal, and [9]The Archive
+for work-related or reference notes. Like with [10]todo lists, I suspect those
+applications will change and be replaced over time, but thankfully as I’ve
+started to understand my own habits and preferences, that change has slowed.
+
+January 2, 2019  [11]Tom MacWright ([12]@tmcw, [13]@tmcw@mastodon.social)
+
+
+References:
+
+[1] https://macwright.com/
+[2] https://macwright.com/reading/
+[3] https://macwright.com/photos/
+[4] https://macwright.com/projects/
+[5] https://macwright.com/drawings/
+[6] https://macwright.com/micro/
+[7] https://macwright.com/about/
+[8] https://dayoneapp.com/
+[9] https://zettelkasten.de/the-archive/
+[10] https://macwright.com/2015/09/10/todo
+[11] https://macwright.com/about/
+[12] https://twitter.com/intent/follow?screen_name=tmcw&user_id=1458271
+[13] https://mastodon.social/@tmcw

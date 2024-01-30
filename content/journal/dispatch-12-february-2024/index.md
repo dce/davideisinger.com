@@ -17,6 +17,38 @@ references:
   url: https://www.chrbutler.com/2024-01-21
   date: 2024-01-30T04:10:23Z
   file: www-chrbutler-com-gbjxba.txt
+- title: "Hypercritical: I Made This"
+  url: https://hypercritical.co/2024/01/11/i-made-this
+  date: 2024-01-30T14:48:57Z
+  file: hypercritical-co-uicpgh.txt
+- title: "The Rise and Fall of Getting Things Done | The New Yorker"
+  url: https://www.newyorker.com/tech/annals-of-technology/the-rise-and-fall-of-getting-things-done
+  date: 2024-01-30T14:48:58Z
+  file: www-newyorker-com-tw2aqv.txt
+- title: "Cold-blooded software"
+  url: https://dubroy.com/blog/cold-blooded-software/
+  date: 2024-01-30T14:48:59Z
+  file: dubroy-com-23dgbm.txt
+- title: "Cold-blooded Software - Jim Nielsen’s Blog"
+  url: https://blog.jim-nielsen.com/2024/cold-blooded-software/
+  date: 2024-01-30T14:48:59Z
+  file: blog-jim-nielsen-com-hqckqj.txt
+- title: "How I Pocket Notebook | cygnoir.net"
+  url: https://www.cygnoir.net/2024/01/20/how-i-pocket.html
+  date: 2024-01-30T14:49:00Z
+  file: www-cygnoir-net-9nlp2w.txt
+- title: "Paper notes - macwright.com"
+  url: https://macwright.com/2019/01/02/paper-notes
+  date: 2024-01-30T14:49:00Z
+  file: macwright-com-tpk6dj.txt
+- title: "Paper notes - Tim Hårek"
+  url: https://timharek.no/blog/paper-notes
+  date: 2024-01-30T14:49:02Z
+  file: timharek-no-enssiy.txt
+- title: "Work hard and take everything really seriously - macwright.com"
+  url: https://macwright.com/2024/01/28/work-hard-and-take-everything-seriously
+  date: 2024-01-30T14:49:02Z
+  file: macwright-com-ovx2h6.txt
 ---
 
 We spent MLK weekend with my folks in the Shennandoah Valley, and visited [Luray Caverns][1], something I'd done as a kid and still rips 30 years later. Neat place, highly recommended if you're ever in that area. We also got some snow at our cabin, which was pretty fun for Nev.
@@ -28,7 +60,7 @@ We spent MLK weekend with my folks in the Shennandoah Valley, and visited [Luray
 {{<thumbnail IMG_2374.jpeg "600x800" />}}
 {{<thumbnail IMG_9637.jpeg "600x800" />}}
 
-I signed up for the [Wrightsville Beach Valentine Run][2] 10K in Wilmington in early February. Feeling pretty good about that -- gives us a good excuse to spend a weekend with Claire's sister in Wilmington, and adds a little bit of focus to my running without the commitment of half-marathon training. Might try to keep that going, finding good pairings of organized 10Ks in places we want to visit.
+I signed up for the [Wrightsville Beach Valentine Run][2] 10K in Wilmington in early February, which has added a little bit of focus to my running without the commitment of half-marathon training and gives us a good excuse to spend a weekend with Claire's sister in Wilmington. Might try to keep that going, finding organized 10Ks in places we want to visit.
 
 [2]: https://runsignup.com/Race/NC/WrightsvilleBeach/WrightsvilleBeachValentineRun
 
@@ -52,7 +84,7 @@ I really set out to make a track that didn't have a bass hit on one and three an
 
 I traded a couple emails with my buddy [Prayash][6]. He's a super talented musician (among other things) and has a new track out called ["Weightless"][7] that's worth a listen. He also put a [video on Instagram][8] of his production process which is neat.
 
-[6]: https://prayash.io/link/
+[6]: https://prayash.io/links/
 [7]: https://music.apple.com/us/album/weightless/1722942938?i=1722942941
 [8]: https://www.instagram.com/p/C2bWin4rSLG/
 
@@ -77,7 +109,7 @@ I finished [_Revenge: Eleven Dark Tales_][17] and decided to stay on the short s
 [17]: #
 [18]: #
 
-I try to keep plaintext backups of the things I link to on this site, at least the text-heavy stuff I might want to refer to later (you can see them down below in the "references" section). I'd been using [Lynx][19] to get the text to store, but that was having issues on some sites, so I switched over to [w3m][20] after finding the right command-line flag[^1] to include link URLs in the text. I've got some ideas around building a more robust archiving solution but I'm gonna let it marinate for a bit.
+I try to keep plaintext backups of the things I link to on this site, at least the text-heavy stuff I might want to refer to later (you can see them down below in the "references" section). I'd been using [Lynx][19] to get the text, but that was having issues on some sites, so I switched over to [w3m][20] after finding the right command-line flag[^1] to include link URLs in the text. I've got some ideas around building a more robust archiving solution but I'm gonna let it marinate for a bit.
 
 [19]: https://en.wikipedia.org/wiki/Lynx_(web_browser)
 [20]: https://en.wikipedia.org/wiki/W3m
@@ -98,23 +130,23 @@ Reading:
 
 Links:
 
-* [[2024-01-11#Hypercritical I Made This]]
-* [[2024-01-17#The Rise and Fall of Getting Things Done The New Yorker]]
-* [In Search Of The Shanahan Offense](https://defector.com/in-search-of-the-shanahan-offense)
-* [[2024-01-21#Cold-blooded software]]
-	* via [[2024-01-21#Cold-blooded Software - Jim Nielsen’s Blog]]
-* [[2024-01-21#How I Pocket Notebook cygnoir.net]]
-	* [[2024-01-21#Paper notes - macwright.com]]
-	* [[2024-01-21#Paper notes - Tim Hårek]]
+* [I Made This][23]
+* [The Rise and Fall of Getting Things Done][24]
+* [Cold-blooded software][25] ([via][26])
+* [How I Pocket Notebook][27]
+  * [Tom MacWright][28]
+  * [Tim Hårek][29]
+* [Work hard and take everything really seriously][30]
 
-* [Title][23]
-* [Title][24]
-* [Title][25]
+[23]: https://hypercritical.co/2024/01/11/i-made-this
+[24]: https://www.newyorker.com/tech/annals-of-technology/the-rise-and-fall-of-getting-things-done
+[25]: https://dubroy.com/blog/cold-blooded-software/
+[26]: https://blog.jim-nielsen.com/2024/cold-blooded-software/
+[27]: https://www.cygnoir.net/2024/01/20/how-i-pocket.html
+[28]: https://macwright.com/2019/01/02/paper-notes
+[29]: https://timharek.no/blog/paper-notes
+[30]: https://macwright.com/2024/01/28/work-hard-and-take-everything-seriously
 
-[23]: https://example.com/
-[24]: https://example.com/
-[25]: https://example.com/
+[^1]: Running `w3m -dump -o display_link_number=1 <url>` gives a nice plaintext version of a webpage with numbered link references (via this [helpful StackOverflow link][31])
 
-[^1]: Running `w3m -dump -o display_link_number=1 <url>` gives a nice plaintext version of a webpage with numbered link references (via this [helpful StackOverflow link][26])
-
-[26]: https://askubuntu.com/questions/805014/getting-text-and-links-from-a-web-page/1493418#1493418
+[31]: https://askubuntu.com/questions/805014/getting-text-and-links-from-a-web-page/1493418#1493418
