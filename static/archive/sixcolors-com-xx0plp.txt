@@ -1,0 +1,183 @@
+[1] Six Colors
+[2] Six Colors
+
+by Jason Snell & Dan Moren
+
+MENU
+
+  • [3]About
+      □ [4]Sponsorships
+      □ [5]Jason Snell
+      □ [6]Dan Moren
+      □ [7]Six Colors Hat
+      □ [8]Six Colors Shirt
+  • [9]Archive
+  • [10]Sign In
+  • [11]Membership
+  • [12]Topics
+      □ [13]2023 OS updates
+      □ [14]iOS 17
+      □ [15]macOS Sonoma
+      □ [16]iPadOS 17
+      □ [17]Reviews
+      □ [18]Apple Report Card
+      □ [19]WWDC 2023
+      □ [20]Automation
+      □ [21]Podcasting
+      □ [22]E-readers
+      □ [23]Apple Photos
+      □ [24]20 Macs for 2020
+
+  • [25]About
+      □ [26]Sponsorships
+      □ [27]Jason Snell
+      □ [28]Dan Moren
+      □ [29]Six Colors Hat
+      □ [30]Six Colors Shirt
+  • [31]Archive
+  • [32]Sign In
+  • [33]Membership
+  • [34]Topics
+      □ [35]2023 OS updates
+      □ [36]iOS 17
+      □ [37]macOS Sonoma
+      □ [38]iPadOS 17
+      □ [39]Reviews
+      □ [40]Apple Report Card
+      □ [41]WWDC 2023
+      □ [42]Automation
+      □ [43]Podcasting
+      □ [44]E-readers
+      □ [45]Apple Photos
+      □ [46]20 Macs for 2020
+
+This Week's Sponsor
+
+Record a voice memo, receive it as email. Get [47]Whisper Memos for iPhone &
+Apple Watch.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+by Jason Snell
+
+[48]January 5, 2024 12:41 PM PT
+
+[49]Grief and a Photo Shuffle
+
+Charlie Warzel’s beloved dog died last year, and he [50]used an iPhone feature
+to memorialize her:
+
+    Instead of a memorial photo of Peggy, I opted to try a newer, “dynamic”
+    wallpaper feature called “Photo Shuffle.” Every so often, my iPhone would
+    change my wallpaper and home screen to an image it had grabbed from my
+    camera roll. To help it along, I could offer parameters for the photo
+    choice. Knowing that Apple’s Photos app uses image-recognition software to
+    identify cats and dogs in the camera roll, I chose a “Pets” filter.
+
+    Grief is not linear, and neither is Photo Shuffle. Over the next few
+    months, I watched the photos change in and out at random—always with a dog
+    in focus. 
+
+Not only do I empathize with Warzel’s situation (we lost a beloved dog in
+August 2022), but [51]as I wrote about last year, my wife and I also recently
+started using the Photo Shuffle feature that was introduced with iOS 16… and
+it’s pretty powerful.
+
+Not a week goes by where my wife doesn’t show me one of the pictures of our
+kids (her phone is set to shuffle through photos in which either of our
+children’s faces has been identtified) that have surfaced on her phone’s lock
+screen. We’ve taken tens of thousands of photos of these children over two
+decades, and while many photos are familiar (the ones that we’ve printed out
+and framed, or put on calendars, or added to a Favorites list), the vast
+majority of them have largely gone unseen, filed away in an infinite iCloud
+Photo Library filing cabinet.
+
+One of the magical thing about Photo Shuffle is that those obscure photos also
+keep floating to the top. They’re not necessarily the best or most polished,
+but they’re surprising and delightful.
+
+Warzel writes that iOS has “taught me how to grieve,” and while I haven’t used
+Photo Shuffle to grapple with that particular emotion, just a few weeks after
+our dog died, our youngest child went off to college and we officially became
+empty nesters. I suppose the Photo Shuffle is filling a particular (but
+different) emotional need for us, too.
+
+—Linked by Jason Snell
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Search Six Colors
+
+[52][                                        ]
+  • [53]Sponsor
+  • [54]Mastodon
+  • [55]Shirt
+  • [56]Hat
+  • [57]RSS Feed
+  • [58]JSON Feed
+  • [59]Privacy Policy
+
+Six Colors® is copyright © 2024 by The Incomparable Inc.
+[60]Powered by WordPress | [61]Hosted by Pressable
+
+References:
+
+[1] https://sixcolors.com/
+[2] https://sixcolors.com/
+[3] https://sixcolors.com/about/
+[4] https://sixcolors.com/sponsorship/
+[5] https://sixcolors.com/jason/
+[6] https://sixcolors.com/dan/
+[7] https://cottonbureau.com/p/T878W4/hat/six-colors-hat#/17202080/hat-unisex-yupoong-dad-hat-black-100percent-cotton-one-size-fits-all
+[8] https://cottonbureau.com/p/AP2A6N/shirt/six-colors#/2269050/tee-men-standard-tee-premium-heather-tri-blend-s
+[9] https://sixcolors.com/archive/
+[10] https://sixcolors.com/?memberful_endpoint=auth
+[11] https://sixcolors.com/subscribe/
+[12] https://sixcolors.com/link/2024/01/grief-and-a-photo-shuffle/#
+[13] https://sixcolors.com/tag/2023-os-updates/
+[14] https://sixcolors.com/tag/ios-17/
+[15] https://sixcolors.com/tag/macos-sonoma/
+[16] https://sixcolors.com/tag/ipados-17/
+[17] https://sixcolors.com/tag/review/
+[18] https://sixcolors.com/tag/reportcard/
+[19] https://sixcolors.com/tag/wwdc-2023/
+[20] https://sixcolors.com/tag/automation/
+[21] https://sixcolors.com/tag/podcasting/
+[22] https://sixcolors.com/tag/kindle/
+[23] https://sixcolors.com/tag/photosmac/
+[24] https://sixcolors.com/20macs
+[25] https://sixcolors.com/about/
+[26] https://sixcolors.com/sponsorship/
+[27] https://sixcolors.com/jason/
+[28] https://sixcolors.com/dan/
+[29] https://cottonbureau.com/p/T878W4/hat/six-colors-hat#/17202080/hat-unisex-yupoong-dad-hat-black-100percent-cotton-one-size-fits-all
+[30] https://cottonbureau.com/p/AP2A6N/shirt/six-colors#/2269050/tee-men-standard-tee-premium-heather-tri-blend-s
+[31] https://sixcolors.com/archive/
+[32] https://sixcolors.com/?memberful_endpoint=auth
+[33] https://sixcolors.com/subscribe/
+[34] https://sixcolors.com/link/2024/01/grief-and-a-photo-shuffle/#
+[35] https://sixcolors.com/tag/2023-os-updates/
+[36] https://sixcolors.com/tag/ios-17/
+[37] https://sixcolors.com/tag/macos-sonoma/
+[38] https://sixcolors.com/tag/ipados-17/
+[39] https://sixcolors.com/tag/review/
+[40] https://sixcolors.com/tag/reportcard/
+[41] https://sixcolors.com/tag/wwdc-2023/
+[42] https://sixcolors.com/tag/automation/
+[43] https://sixcolors.com/tag/podcasting/
+[44] https://sixcolors.com/tag/kindle/
+[45] https://sixcolors.com/tag/photosmac/
+[46] https://sixcolors.com/20macs
+[47] https://whispermemos.com/
+[48] https://sixcolors.com/link/2024/01/grief-and-a-photo-shuffle/
+[49] https://www.theatlantic.com/technology/archive/2024/01/iphone-grief-dynamic-wallpaper/677034/?utm_campaign=galaxy-brain&utm_source=newsletter&utm_medium=email&utm_content=20240105&utm_term=galaxybrain
+[50] https://www.theatlantic.com/technology/archive/2024/01/iphone-grief-dynamic-wallpaper/677034/
+[51] https://sixcolors.com/offsite/2023/06/pro-tip-the-iphone-has-a-discoverability-problem/
+[53] https://sixcolors.com/sponsorship/
+[54] https://zeppelin.flights/@sixcolors
+[55] https://cottonbureau.com/p/AP2A6N/shirt/six-colors#/2269050/tee-men-standard-tee-premium-heather-tri-blend-s
+[56] https://cottonbureau.com/p/T878W4/hat/six-colors-hat#/17202080/hat-unisex-yupoong-dad-hat-black-100percent-cotton-one-size-fits-all
+[57] https://feedpress.me/sixcolors?type=xml
+[58] https://sixcolors.com/?feed=json
+[59] https://www.theincomparable.com/blog/posts/privacy.html
+[60] https://wordpress.com/wp/?partner_domain=sixcolors.com&utm_source=Automattic&utm_medium=colophon&utm_campaign=Concierge%20Referral&utm_term=sixcolors.com
+[61] https://pressable.com/?utm_source=Automattic&utm_medium=rpc&utm_campaign=Concierge%20Referral&utm_term=concierge
