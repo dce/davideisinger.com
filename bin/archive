@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 
+require "cgi"
 require "uri"
 require "digest"
 require "time"
@@ -18,11 +19,13 @@ urls.each do |url|
   text_content = `w3m -dump -T text/html -o display_link_number=1 #{url}`
 
   begin
-    title = page_content
-      .scan(/<title[^>]*>(.*?)<\/title>/mi)
-      .first
-      .first
-      .strip
+    title = CGI.unescapeHTML(
+      page_content
+        .scan(/<title[^>]*>(.*?)<\/title>/mi)
+        .first
+        .first
+        .strip
+      )
   rescue => ex
     warn "Title error (#{ex}; #{url})"
     exit 1
