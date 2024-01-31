@@ -9,6 +9,18 @@ references:
   url: https://www.sitepoint.com/history-ruby/
   date: 2023-11-16T14:54:03Z
   file: www-sitepoint-com-6vwmef.txt
+- title: "In Ruby, Everything is Evaluated - Mufid's Code blog"
+  url: https://mufid.github.io/blog/2016/ruby-class-evaluation/
+  date: 2024-01-31T15:55:28Z
+  file: mufid-github-io-2czqvc.txt
+- title: "Decorating Ruby - Part Two - Method Added Decoration - DEV Community"
+  url: https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj
+  date: 2024-01-31T15:55:49Z
+  file: dev-to-pywrcp.txt
+- title: "JavaScript Needs Blocks"
+  url: https://yehudakatz.com/2012/01/10/javascript-needs-blocks/
+  date: 2024-01-31T15:55:29Z
+  file: yehudakatz-com-sacizu.txt
 - title: "When Should You NOT Use Rails?"
   url: https://codefol.io/posts/when-should-you-not-use-rails/
   date: 2023-11-04T17:36:55Z

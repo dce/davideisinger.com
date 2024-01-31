@@ -1,0 +1,132 @@
+{
+fidz
+}
+
+[1]Mufid's Code blog
+
+  • [2]RSS
+
+[4][                    ]
+  • [5]Blog
+  • [6]Archives
+
+In Ruby, Everything is Evaluated
+
+Jul 10th, 2016 | [7]Comments
+
+So if i write
+
+1 def hello
+2   puts 'world'
+3 end
+
+It will evaluate def, to which Ruby will “create a method named hello in global
+scope, with puts ‘world’ as a block”. We can change “global scope” to any
+object we want.
+
+1 class Greeting
+2   def hello
+3     puts 'world'
+4   end
+5 end
+
+The class “Greeting” is actually EVALUATED, NOT DEFINED (e.g. In Java, after we
+define a signature of a class/method, we can’t change it, except using
+reflection). So actually, we can put anything in “Greeting” block, like
+
+1 class Greeting
+2   puts "Will define hello in greeting"
+3   def hello
+4     puts 'world'
+5   end
+6 end
+
+Save above script as “test.rb” (or anything) and try to run it. It will show
+“Will define hello in greeting” EVEN you don’t call “Greeting” class or “hello”
+class or you don’t even need to instantiate “Greeting” class. This language
+feature allows meta programming, like what we see in Rails.
+
+This time i will use Class Attribute within active support. If you ever run
+Rails, you should have it, but you can gem install active_support if you don’t.
+
+1  require 'active_support/core_ext/class/attribute'
+2  
+3  module Greeting; end
+4  
+5  class Greeting::Base
+6  
+7    class_attribute :blocks
+8  
+9    def hello(name)
+10     self.blocks[:greeting].call(name)
+11     self.blocks[:hello].call(name)
+12   end
+13 
+14   protected
+15   def self.define_greeting(sym, &blk)
+16     self.blocks ||= {}
+17     self.blocks[sym] = blk
+18   end
+19 end
+20 
+21 class Greeting::English < Greeting::Base
+22   define_greeting :greeting do |who|
+23     puts "Hi #{who}, Ruby will greet you with hello world!"
+24   end
+25   define_greeting :hello do |who|
+26     puts "Hello World, #{who}!"
+27   end
+28 end
+29 
+30 class Greeting::Indonesian < Greeting::Base
+31   define_greeting :greeting do |who|
+32     puts "Halo kakak #{who}, Ruby akan menyapamu dengan Halo Dunia!"
+33   end
+34   define_greeting :hello do |who|
+35     puts "Halo dunia! Salam, #{who}!"
+36   end
+37 end
+38 
+39 x = Greeting::English.new
+40 x.hello "Fido"
+41 # Hi Fido, Ruby will greet you with hello world!
+42 # Hello World, Fido!
+43 x = Greeting::Indonesian.new
+44 x.hello "Fido"
+45 # Halo kakak Fido, Ruby akan menyapamu dengan Halo Dunia!
+46 # Halo dunia! Salam, Fido!
+
+Previously i want to move the class attribute logic to above code, but after i
+see the [8]Active Support code, it is pretty complex, so i just require it : /
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Previously, i posted [9]this in Reddit
+
+Posted by Mufid Jul 10th, 2016
+
+[10]Tweet
+
+[11]« Using Class with Generics <T> Without the T in C# [12]Cara Googling »
+
+Comments
+
+Please enable JavaScript to view the [13]comments powered by Disqus.
+
+Copyright © 2021 - Mufid - Powered by [14]Octopress
+
+
+References:
+
+[1] https://mufid.github.io/blog/
+[2] https://mufid.github.io/atom.xml
+[5] https://mufid.github.io/blog/
+[6] https://mufid.github.io/blog/blog/archives
+[7] https://mufid.github.io/blog/2016/ruby-class-evaluation/#disqus_thread
+[8] https://github.com/rails/rails/blob/e35b98e6f5c54330245645f2ed40d56c74538902/activesupport/lib/active_support/core_ext/class/attribute.rb
+[9] https://www.reddit.com/r/ProgrammerTIL/comments/4s2vmr/ruby_til_in_ruby_everything_is_evaluated/
+[10] http://twitter.com/share
+[11] https://mufid.github.io/blog/2016/generic-type-csharp/
+[12] https://mufid.github.io/blog/2016/how-to-google/
+[13] http://disqus.com/?ref_noscript
+[14] http://octopress.org/
