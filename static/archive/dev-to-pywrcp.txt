@@ -1,0 +1,799 @@
+[1]Skip to content
+[3] DEV Community
+[4][                    ]
+[6]
+[7] Log in [8] Create account
+
+DEV Community
+
+● Add reaction
+[sp] Like [mu] Unicorn [ex] Exploding Head [ra] Raised Hands [fi] Fire
+Jump to Comments Save
+Copy link
+Copied to Clipboard
+[20] Share to Twitter [21] Share to LinkedIn [22] Share to Reddit [23] Share to
+Hacker News [24] Share to Facebook [25] Share to Mastodon
+[26]Share Post via... [27]Report Abuse
+[28] Cover image for Decorating Ruby - Part Two - Method Added Decoration
+[29]Brandon Weaver
+[30]Brandon Weaver
+
+Posted on Aug 18, 2019 • Updated on Jan 21, 2021
+
+●   ●   ●   ●   ●  
+
+Decorating Ruby - Part Two - Method Added Decoration
+
+[31]#ruby
+
+[32]Decorating Ruby (3 Part Series)
+
+[33] 1 Decorating Ruby - Part One - Symbol Method Decoration [34] 2 Decorating
+Ruby - Part Two - Method Added Decoration [35] 3 Decorating Ruby - Part Three -
+Prepending Decoration
+
+One precursor of me writing an article is if I keep forgetting how something's
+done, causing me to write a reference to look back on for later. This is one
+such article.
+
+[36] What's in Store for Today?
+
+We'll be looking at the next type of decoration, which involves intercepting
+method_added to make a more fluent interface.
+
+[37]The "Dark Lord" Crimson with Metaprogramming magic
+
+Table of Contents
+
+  • [38]Part One - Symbol Method Decoration
+  • [39]Part Two - Method Added Decoration
+  • [40]Part Three - Prepending Decoration
+
+[41]<< Previous | [42]Next >>
+
+[43] What Does Method Added Decoration Look Like?
+
+You've seen the Symbol Method variant:
+
+private def something; end
+
+Readers that were paying very close attention in the last article may have
+noticed when I said that I preferred that style of declaring private methods in
+Ruby, but this was after the way that can be debatably considered more popular
+and widely used in the community:
+
+private
+
+def something; end
+def something_else; end
+
+Using private like this means that every method defined after will be
+considered private. We know how the first one works, but what about the second?
+There's no way it's using method names because it catches both of those methods
+and doesn't change the definition syntax.
+
+That's what we'll be looking into and learning today, and let me tell you it's
+a metaprogramming trip.
+
+[44] Making Our Own Method Added Decoration
+
+As with the last article we're going to need to learn about a few tools before
+we'll be ready to implement this one.
+
+[45] Module Inclusion
+
+Ruby uses Module inclusion as a way to extend classes with additional behavior,
+sometimes requiring an interface to be met before it can do so. Enumerable is
+one of the most common, and requires an each implementation to work:
+
+class Collection
+  include Enumerable
+
+  def initialize(*items)
+    @items = items
+  end
+
+  def each(&fn)
+    return @items.to_enum unless block_given?
+    @items.each { |item| fn.call(item) }
+  end
+end
+
+(yield could be used here instead, but is less explicit and can be confusing to
+teach.)
+
+By defining that one method we've given our class the ability to do all types
+of amazing things like map, select, and more.
+
+Through those few lines we've added a lot of functionality to a class. Here's
+the interesting part about Ruby: it also provides hooks to let Enumerable know
+it was included, including what included it.
+
+[46] Feeling Included
+
+Let's say we have our own module, [47]Affable, which gives us a method to say
+"hi":
+
+module Affable
+  def greeting
+    "It's so very lovely to see you today!"
+  end
+end
+
+My, it is quite an [48]Affable module, now isn't it?
+
+We could even go as far as to make a particularly Affable lemur:
+
+class Lemur
+  include Affable
+  def initialize(name) @name = name; end
+end
+
+Lemur.new("Indigo").greeting
+=> "It's so very lovely to see you today!"
+
+What a classy lemur, yes.
+
+[49] Hook, Line, and Sinker
+
+Let's say that we wanted to tell what particular animal was Affable. We can use
+included to see just that:
+
+module Affable
+  def self.included(klass)
+    puts "#{klass.name} has become extra Affable!"
+  end
+end
+
+If we were to re-include that module:
+
+class Lemur
+  include Affable
+  def initialize(name) @name = name; end
+end
+
+# STDOUT: Lemur has become extra Affable!
+# => :initialize
+
+Right classy. Oh, right, speaking of classy...
+
+[50] Extra Classy Indeed
+
+So we can hook inclusion of a module, great! Why do we care?
+
+What if we wanted to both include methods into a class as well as extend its
+behavior?
+
+With just include it will apply all the behavior to instances of a class. With
+just extend it will apply all the behavior to the class itself. We can't do
+both.
+
+...ok ok, it's Ruby, you caught me, we can totally do both.
+
+As it turns out, include and extend are just methods on a class. We could just
+Lemur.extend(ExtraBehavior) if we wanted to, or we could use our fun little
+hooks from earlier.
+
+A common convention for using this technique is a sub-module called
+ClassMethods, like so:
+
+module Affable
+  def self.included(klass)
+    klass.extend(ClassMethods)
+  end
+
+  module ClassMethods
+    def affable?
+      true
+    end
+  end
+end
+
+This allows us to inject behavior directly into the class as well as other
+behavior we want to include in instances.
+
+Part of me thinks this is so I don't have to remember the difference between
+include and extend, but I always remember that and don't have to spend 20
+minutes flipping between the two and prepend to see which one actually works,
+absolutely not.
+
+Now remember the title about Method Added being the technique for today? Oh
+yes, there's a hook for that as well, but first we need to indicate that
+something needs to be hooked in the first place.
+
+[51] Raise Your Flag
+
+We can intercept a method being added, but how do we know which method should
+be intercepted? We'd need to add a flag to let that hook know it's time to
+start intercepting in full force.
+
+module Affable
+  def self.included(klass)
+    klass.extend(ClassMethods)
+  end
+
+  module ClassMethods
+    def extra_affable
+      @extra_affable = true
+    end
+  end
+end
+
+If you remember private, this could be the flag to indicate that every method
+afterwards should be private:
+
+private
+
+def something; end
+def something_else; end
+
+Same idea here, and once a flag is raised it can also be taken down to make
+sure later methods aren't impacted as well. We keep hinting at hooking method
+added, so let's go ahead and do just that.
+
+[52] Method Added
+
+Now that we have our flag, we have enough to hook into method_added:
+
+module Affable
+  def self.included(klass)
+    klass.extend(ClassMethods)
+  end
+
+  module ClassMethods
+    def extra_affable
+      @extra_affable = true
+    end
+
+    def method_added(method_name)
+      return unless @extra_affable
+
+      @extra_affable = false
+      # ...
+    end
+  end
+end
+
+We can use our flag to ignore method_added unless said flag is set. After we
+check that, we can take down the flag to make sure additional methods defined
+after aren't affected as well. For private this doesn't happen, but we want to
+be polite. It is and Affable module after all.
+
+[53] Politely Aliasing
+
+Speaking of politeness, it's not precisely kind to just overwrite a method
+without giving a way to call it as it was. We can use alias_method to get a new
+name to the method before we overwrite it:
+
+def method_added(method_name)
+  return unless @extra_affable
+
+  @extra_affable = false
+
+  original_method_name = "#{method_name}_without_affability".to_sym
+  alias_method original_method_name, method_name
+end
+
+This means that we can access the original method through this name.
+
+[54] Wrap Battle
+
+So we have the original method aliased, our hook in place, let's get to
+overwriting that method then! As with the last tutorial we can use
+define_method to do this:
+
+module Affable
+  def self.included(klass)
+    klass.extend(ClassMethods)
+  end
+
+  module ClassMethods
+    def extra_affable
+      @extra_affable = true
+    end
+
+    def method_added(method_name)
+      return unless @extra_affable
+
+      @extra_affable = false
+
+      original_method_name = "#{method_name}_without_affability".to_sym
+      alias_method original_method_name, method_name
+
+      define_method(method_name) do |*args, &fn|
+        original_result = send(original_method_name, *args, &fn)
+
+        "#{original_result} Very lovely indeed!"
+      end
+    end
+  end
+end
+
+Overwriting our original class again:
+
+class Lemur
+  include Affable
+
+  def initialize(name) @name = name; end
+
+  extra_affable
+
+  def farewell
+    "Farewell! It was lovely to chat."
+  end
+end
+
+We can give it a try:
+
+Lemur.new("Indigo").farewell
+=> "Farewell! It was lovely to chat. Very lovely indeed!"
+
+[55] send Help!
+
+Wait wait wait wait, send? Didn't we use method last time?
+
+We did, but remember that method_added is a class method that does not have the
+context of an instance of the class, or in other words it has no idea where the
+farewell method is located.
+
+send lets us treat this as an instance again by sending the method name
+directly. Now we could use method inside of here as well, but that can be a bit
+more expensive.
+
+Only the contents inside define_method's block are executed in the context of
+the instance.
+
+[56] executive Functions
+
+If we wanted to, we could have our special method take blocks which execute in
+the context of an instance as well, and this is an extra special bonus trick
+for this post.
+
+Say that we made extra_affable also take a block that allows us to manipulate
+the original value and still execute in the context of the instance:
+
+class Lemur
+  include Affable
+
+  def initialize(name) @name = name; end
+
+  extra_affable { |original|
+    "#{@name}: #{original} Very lovely indeed!"
+  }
+
+  def farewell
+    "Farewell! It was lovely to chat."
+  end
+end
+
+With normal blocks, this will evaluate in the context of the class, but we want
+it to evaluate in the context of the instance instead. That's what we have
+instance_exec for:
+
+module Affable
+  def self.included(klass)
+    klass.extend(ClassMethods)
+  end
+
+  module ClassMethods
+    def extra_affable(&fn)
+      @extra_affable    = true
+      @extra_affable_fn = fn
+    end
+
+    def method_added(method_name)
+      return unless @extra_affable
+
+      @extra_affable   = false
+      extra_affable_fn = @extra_affable_fn
+
+      original_method_name = "#{method_name}_without_affability".to_sym
+      alias_method original_method_name, method_name
+
+      define_method(method_name) do |*args, &fn|
+        original_result = send(original_method_name, *args, &fn)
+        instance_exec(original_result, &extra_affable_fn)
+      end
+    end
+  end
+end
+
+Running that gives us this:
+
+Lemur.new("Indigo").farewell
+# => "Indigo: Farewell! It was lovely to chat. Very lovely indeed!"
+
+Now pay very close attention to this line:
+
+extra_affable_fn = @extra_affable_fn
+
+We need to use this because inside define_method's block is inside the
+instance, which has no clue what @extra_affable_fn is. That said, it can still
+see outside to the context where the block was called, meaning it can see that
+local version of extra_affable_fn sitting right there, allowing us to call it:
+
+instance_exec(original_result, &extra_affable_fn)
+
+[57] instance_eval vs instance_exec?
+
+Why not use instance_eval? instance_exec allows us to pass along arguments as
+well, otherwise instance_eval would make a lot of sense to evaluate something
+in an instance. Instead, we need to execute something in the context of an
+instance, so we use instance_exec here.
+
+[58] Wrapping Up
+
+So that was quite a lot of magic, and it took me a fair bit to really
+understand what some of it was doing and why. That's perfectly ok, if I
+understood everything the first time I'd be worried because that means I'm not
+really learning anything!
+
+One issue I think this will have later is I wonder how poorly having multiple
+hooks to method_added will work. If it turns out it makes things go boom in a
+spectacularly pretty and confounding way there'll be a part three. If not, this
+paragraph will disappear and I'll pretend to not know what you're talking about
+if you ask me about it.
+
+There's a lot of potential here for some really interesting things, but there's
+also a lot of potential for abuse. Be sure to not abuse such magic, because for
+every layer of redefinition code can become increasingly harder to reason about
+and test later.
+
+In most cases I would instead advocate for SimpleDelegate, Forwardable, or
+simple inheritance with super to extend behavior of classes. Don't use a
+chainsaw where hedge trimmers will do, but on occasion it's nice to know a
+chainsaw is there for those particularly gnarly problems.
+
+Discretion is the name of the game.
+
+Table of Contents
+
+  • [59]Part One - Symbol Method Decoration
+  • [60]Part Two - Method Added Decoration
+  • [61]Part Three - Prepending Decoration
+
+[62]<< Previous | [63]Next >>
+
+[64]Decorating Ruby (3 Part Series)
+
+[65] 1 Decorating Ruby - Part One - Symbol Method Decoration [66] 2 Decorating
+Ruby - Part Two - Method Added Decoration [67] 3 Decorating Ruby - Part Three -
+Prepending Decoration
+
+Top comments (2)
+
+Subscribe
+pic
+[                    ]
+Personal Trusted User
+[75] Create template
+
+Templates let you quickly answer FAQs or store snippets for re-use.
+
+Submit Preview [78]Dismiss
+ 
+[79] edisonywh profile image
+[80] Edison Yap
+Edison Yap
+[82] [https] Edison Yap
+Follow
+An aspiring software engineer from the tiny city of Kuala Lumpur.
+
+  • Location
+    Stockholm, Sweden
+  • Education
+    RMIT University, Melbourne
+  • Work
+    Software Engineer at Klarna
+  • Joined
+    Jul 25, 2018
+
+• [84] Aug 18 '19 • Edited on Aug 18 • Edited
+
+  • [86]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+Wow this is really cool, thanks for sharing Brandon!
+
+Is there a way to hook onto the last method_added? For example I'd like to
+execute something after all methods are added
+
+EDIT: also quick search online seems to say that method_added only works for
+instance methods, but there's singleton_method_added hook for class methods
+too!
+
+1 like Like [89] Reply
+ 
+[90] baweaver profile image
+[91] Brandon Weaver
+Brandon Weaver
+[93] [https] Brandon Weaver
+Follow
+Principal Ruby Engineer at Gusto on Payroll Services. Autistic / ADHD, He /
+Him. I'm the Lemur guy.
+
+  • Location
+    San Francisco, CA
+  • Work
+    Principal Engineer - Payroll Services at Gusto
+  • Joined
+    Jan 16, 2019
+
+• [95] Aug 18 '19 • Edited on Aug 18 • Edited
+
+  • [97]Copy link
+  • 
+  • Hide
+  • 
+  • 
+  • 
+
+Technically in Ruby there's never a point in which methods are no longer added,
+so it's a bit hard to hook that. One potential is to use TracePoint to hook the
+ending of a class definition and retaining a class of "infected" classes, but
+that'd be slow.
+
+Look for "Class End Event" in this article: [99]medium.com/@baweaver/
+exploring-tra...
+
+EDIT - ...though now I'm curious if one could use such things to freeze a class
+from modifications.
+
+1 like Like [101] Reply
+[102]Code of Conduct • [103]Report abuse
+
+Are you sure you want to hide this comment? It will become hidden in your post,
+but will still be visible via the comment's [107]permalink.
+
+[109][ ]
+
+Hide child comments as well
+
+Confirm
+
+For further actions, you may consider blocking this person and/or [111]
+reporting abuse
+
+Read next
+
+[112]
+cherryramatis profile image
+
+Bringing more sweetness to Ruby with Sorbet types 🍦
+
+Cherry Ramatis - Sep 18 '23
+
+[113]
+hungle00 profile image
+
+Ruby's main object
+
+hungle00 - Oct 1 '23
+
+[114]
+braindeaf profile image
+
+Making a YouTube Short
+
+RobL - Sep 28 '23
+
+[115]
+iberianpig profile image
+
+Enhance Your Touchpad Experience on Linux with ThumbSense!
+
+Kohei Yamada - Sep 27 '23
+
+[116] [https] Brandon Weaver
+Follow
+Principal Ruby Engineer at Gusto on Payroll Services. Autistic / ADHD, He /
+Him. I'm the Lemur guy.
+
+  • Location
+    San Francisco, CA
+  • Work
+    Principal Engineer - Payroll Services at Gusto
+  • Joined
+    Jan 16, 2019
+
+More from [118]Brandon Weaver
+
+[119] Understanding Ruby - Memoization
+#ruby #beginners
+[120] In Favor of Ruby Central Memberships
+#ruby #community
+[121] Pattern Matching Interfaces in Ruby
+#ruby #rails #functional
+
+Once suspended, baweaver will not be able to comment or publish posts until
+their suspension is removed.
+
+      [                                                                      ]
+      [                                                                      ]
+      [                                                                      ]
+Note: [                                                                      ]
+
+Submit & Suspend
+
+Once unsuspended, baweaver will be able to comment and publish posts again.
+
+      [                                                                      ]
+      [                                                                      ]
+      [                                                                      ]
+Note: [                                                                      ]
+
+Submit & Unsuspend
+
+Once unpublished, all posts by baweaver will become hidden and only accessible
+to themselves.
+
+If baweaver is not suspended, they can still re-publish their posts from their
+dashboard.
+
+Note:[                    ]
+
+Unpublish all posts
+
+Once unpublished, this post will become invisible to the public and only
+accessible to Brandon Weaver.
+
+They can still re-publish the post if they are not suspended.
+
+Unpublish Post
+
+Thanks for keeping DEV Community safe. Here is what you can do to flag
+baweaver:
+
+[129]( ) Make all posts by baweaver less visible
+
+baweaver consistently posts content that violates DEV Community's code of
+conduct because it is harassing, offensive or spammy.
+
+[130] Report other inappropriate conduct
+
+Confirm Flag
+
+Unflagging baweaver will restore default visibility to their posts.
+
+Confirm Unflag
+
+[133]DEV Community — A constructive and inclusive social network for software
+developers. With you every step of your journey.
+
+  • [134] Home
+  • [135] Podcasts
+  • [136] Videos
+  • [137] Tags
+  • [138] FAQ
+  • [139] Forem Shop
+  • [140] Advertise on DEV
+  • [141] About
+  • [142] Contact
+  • [143] Guides
+  • [144] Software comparisons
+
+  • [145] Code of Conduct
+  • [146] Privacy Policy
+  • [147] Terms of use
+
+Built on [148]Forem — the [149]open source software that powers [150]DEV and
+other inclusive communities.
+
+Made with love and [151]Ruby on Rails. DEV Community © 2016 - 2024.
+
+DEV Community
+
+We're a place where coders share, stay up-to-date and grow their careers.
+
+[152] Log in [153] Create account
+● ● ● ● ●
+
+References:
+
+[1] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj#main-content
+[3] https://dev.to/
+[6] https://dev.to/search
+[7] https://dev.to/enter
+[8] https://dev.to/enter?state=new-user
+[20] https://twitter.com/intent/tweet?text=%22Decorating%20Ruby%20-%20Part%20Two%20-%20Method%20Added%20Decoration%22%20by%20%40keystonelemur%20%23DEVCommunity%20https%3A%2F%2Fdev.to%2Fbaweaver%2Fdecorating-ruby-part-two-method-added-decoration-48mj
+[21] https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdev.to%2Fbaweaver%2Fdecorating-ruby-part-two-method-added-decoration-48mj&title=Decorating%20Ruby%20-%20Part%20Two%20-%20Method%20Added%20Decoration&summary=How%20various%20forms%20of%20method%20decoration%20work%20in%20Ruby&source=DEV%20Community
+[22] https://www.reddit.com/submit?url=https%3A%2F%2Fdev.to%2Fbaweaver%2Fdecorating-ruby-part-two-method-added-decoration-48mj&title=Decorating%20Ruby%20-%20Part%20Two%20-%20Method%20Added%20Decoration
+[23] https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fdev.to%2Fbaweaver%2Fdecorating-ruby-part-two-method-added-decoration-48mj&t=Decorating%20Ruby%20-%20Part%20Two%20-%20Method%20Added%20Decoration
+[24] https://www.facebook.com/sharer.php?u=https%3A%2F%2Fdev.to%2Fbaweaver%2Fdecorating-ruby-part-two-method-added-decoration-48mj
+[25] https://toot.kytta.dev/?text=https%3A%2F%2Fdev.to%2Fbaweaver%2Fdecorating-ruby-part-two-method-added-decoration-48mj
+[26] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj#
+[27] https://dev.to/report-abuse
+[28] https://res.cloudinary.com/practicaldev/image/fetch/s--UjPHgJnM--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/rdvh6fph3zoga5f9pw98.png
+[29] https://dev.to/baweaver
+[30] https://dev.to/baweaver
+[31] https://dev.to/t/ruby
+[32] https://dev.to/baweaver/series/10894
+[33] https://dev.to/baweaver/decorating-ruby-part-1-symbol-method-decoration-4po2
+[34] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj
+[35] https://dev.to/baweaver/decorating-ruby-part-three-prepending-decoration-1ehc
+[36] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj#whats-in-store-for-today
+[37] https://res.cloudinary.com/practicaldev/image/fetch/s--L5_TPTzS--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://thepracticaldev.s3.amazonaws.com/i/5pzy2brl5apjtt4edgrm.png
+[38] https://dev.to/baweaver/decorating-ruby-part-1-symbol-method-decoration-4po2
+[39] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj
+[40] https://dev.to/baweaver/decorating-ruby-part-three-prepending-decoration-1ehc
+[41] https://dev.to/baweaver/decorating-ruby-part-1-symbol-method-decoration-4po2
+[42] https://dev.to/baweaver/decorating-ruby-part-three-prepending-decoration-1ehc
+[43] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj#what-does-method-added-decoration-look-like
+[44] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj#making-our-own-method-added-decoration
+[45] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj#module-inclusion
+[46] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj#feeling-included
+[47] https://www.merriam-webster.com/dictionary/affable
+[48] https://www.merriam-webster.com/dictionary/affable
+[49] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj#hook-line-and-sinker
+[50] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj#extra-classy-indeed
+[51] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj#raise-your-flag
+[52] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj#method-added
+[53] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj#politely-aliasing
+[54] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj#wrap-battle
+[55] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj#-raw-send-endraw-help
+[56] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj#-raw-exec-endraw-utive-functions
+[57] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj#-raw-instanceeval-endraw-vs-raw-instanceexec-endraw-
+[58] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj#wrapping-up
+[59] https://dev.to/baweaver/decorating-ruby-part-1-symbol-method-decoration-4po2
+[60] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj
+[61] https://dev.to/baweaver/decorating-ruby-part-three-prepending-decoration-1ehc
+[62] https://dev.to/baweaver/decorating-ruby-part-1-symbol-method-decoration-4po2
+[63] https://dev.to/baweaver/decorating-ruby-part-three-prepending-decoration-1ehc
+[64] https://dev.to/baweaver/series/10894
+[65] https://dev.to/baweaver/decorating-ruby-part-1-symbol-method-decoration-4po2
+[66] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj
+[67] https://dev.to/baweaver/decorating-ruby-part-three-prepending-decoration-1ehc
+[75] https://dev.to/settings/response-templates
+[78] https://dev.to/404.html
+[79] https://dev.to/edisonywh
+[80] https://dev.to/edisonywh
+[82] https://dev.to/edisonywh
+[84] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj#comment-e96o
+[86] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj#comment-e96o
+[89] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj#/baweaver/decorating-ruby-part-two-method-added-decoration-48mj/comments/new/e96o
+[90] https://dev.to/baweaver
+[91] https://dev.to/baweaver
+[93] https://dev.to/baweaver
+[95] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj#comment-e9g0
+[97] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj#comment-e9g0
+[99] https://medium.com/@baweaver/exploring-tracepoint-in-ruby-part-two-events-f4fd291992f5
+[101] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj#/baweaver/decorating-ruby-part-two-method-added-decoration-48mj/comments/new/e9g0
+[102] https://dev.to/code-of-conduct
+[103] https://dev.to/report-abuse
+[107] https://dev.to/baweaver/decorating-ruby-part-two-method-added-decoration-48mj#
+[111] https://dev.to/report-abuse
+[112] https://dev.to/cherryramatis/bringing-more-sweetness-to-ruby-with-sorbet-types-13jp
+[113] https://dev.to/hungle00/rubys-main-object-5hni
+[114] https://dev.to/braindeaf/making-a-youtube-short-5gih
+[115] https://dev.to/iberianpig/enhance-your-touchpad-experience-on-linux-with-thumbsense-391n
+[116] https://dev.to/baweaver
+[118] https://dev.to/baweaver
+[119] https://dev.to/baweaver/understanding-ruby-memoization-2be5
+[120] https://dev.to/baweaver/in-favor-of-ruby-central-memberships-15gl
+[121] https://dev.to/baweaver/pattern-matching-interfaces-in-ruby-1b15
+[130] javascript:void(0);
+[133] https://dev.to/
+[134] https://dev.to/
+[135] https://dev.to/pod
+[136] https://dev.to/videos
+[137] https://dev.to/tags
+[138] https://dev.to/faq
+[139] https://shop.forem.com/
+[140] https://dev.to/advertise
+[141] https://dev.to/about
+[142] https://dev.to/contact
+[143] https://dev.to/guides
+[144] https://dev.to/software-comparisons
+[145] https://dev.to/code-of-conduct
+[146] https://dev.to/privacy
+[147] https://dev.to/terms
+[148] https://www.forem.com/
+[149] https://dev.to/t/opensource
+[150] https://dev.to/
+[151] https://dev.to/t/rails
+[152] https://dev.to/enter
+[153] https://dev.to/enter?state=new-user

@@ -1,0 +1,357 @@
+[1] Katz Got Your Tongue
+
+  • [3]Home
+  • [4]About
+  • [5]Projects
+  • [6]Talks
+  • [7]Podcasts
+  • [8]Schedule
+
+Login Subscribe
+Jan 9, 2012 6 min read
+
+JavaScript Needs Blocks
+
+While reading Hacker News posts about JavaScript, I often come across the
+misconception that Ruby's blocks are essentially equivalent to JavaScript's
+"first class functions". Because the ability to pass functions around,
+especially when you can create them anonymously, is extremely powerful, the
+fact that both JavaScript and Ruby have a mechanism to do so makes it natural
+to assume equivalence.
+
+In fact, when people talk about why Ruby's blocks are different from Python's
+functions, they usually talk about anonymity, something that Ruby and
+JavaScript share, but Python does not have. At first glance, a Ruby block is an
+"anonymous function" (or colloquially, a "closure") just as a JavaScript
+function is one.
+
+This impression, which I admittedly shared in my early days as a Ruby/
+JavaScript developer, misses an important subtlety that turns out to have large
+implications. This subtlety is often referred to as "Tennent's Correspondence
+Principle". In short, Tennent's Correspondence Principle says:
+
+    "For a given expression expr, lambda expr should be equivalent."
+
+This is also known as the principle of abstraction, because it means that it is
+easy to refactor common code into methods that take a block. For instance,
+consider the common case of file resource management. Imagine that the block
+form of File.open didn't exist in Ruby, and you saw a lot of the following in
+your code:
+
+begin
+  f = File.open(filename, "r")
+  # do something with f
+ensure
+  f.close
+end
+
+In general, when you see some code that has the same beginning and end, but a
+different middle, it is natural to refactor it into a method that takes a
+block. You would write a method like this:
+
+def read_file(filename)
+  f = File.open(filename, "r")
+  yield f
+ensure
+  f.close
+end
+
+And you'd refactor instances of the pattern in your code with:
+
+read_file(filename) do |f|
+  # do something with f
+end
+
+In order for this strategy to work, it's important that the code inside the
+block look the same after refactoring as before. We can restate the
+correspondence principle in this case as:
+
+    ```ruby # do something with f ```
+
+    should be equivalent to:
+
+    do
+      # do something with
+    end
+
+At first glance, it looks like this is true in Ruby and JavaScript. For
+instance, let's say that what you're doing with the file is printing its mtime.
+You can easily refactor the equivalent in JavaScript:
+
+try {
+  // imaginary JS file API
+  var f = File.open(filename, "r");
+  sys.print(f.mtime);
+} finally {
+  f.close();
+}
+
+Into this:
+
+read_file(function(f) {
+  sys.print(f.mtime);
+});
+
+In fact, cases like this, which are in fact quite elegant, give people the
+mistaken impression that Ruby and JavaScript have a roughly equivalent ability
+to refactor common functionality into anonymous functions.
+
+However, consider a slightly more complicated example, first in Ruby. We'll
+write a simple class that calculates a File's mtime and retrieves its body:
+
+class FileInfo
+  def initialize(filename)
+    @name = filename
+  end
+
+  # calculate the File's +mtime+
+  def mtime
+    f = File.open(@name, "r")
+    mtime = mtime_for(f)
+    return "too old" if mtime < (Time.now - 1000)
+    puts "recent!"
+    mtime
+  ensure
+    f.close
+  end
+
+  # retrieve that file's +body+
+  def body
+    f = File.open(@name, "r")
+    f.read
+  ensure
+    f.close
+  end
+
+  # a helper method to retrieve the mtime of a file
+  def mtime_for(f)
+    File.mtime(f)
+  end
+end
+
+We can easily refactor this code using blocks:
+
+class FileInfo
+  def initialize(filename)
+    @name = filename
+  end
+
+  # refactor the common file management code into a method
+  # that takes a block
+  def mtime
+    with_file do |f|
+      mtime = mtime_for(f)
+      return "too old" if mtime < (Time.now - 1000)
+      puts "recent!"
+      mtime
+    end
+  end
+
+  def body
+    with_file { |f| f.read }
+  end
+
+  def mtime_for(f)
+    File.mtime(f)
+  end
+
+private
+  # this method opens a file, calls a block with it, and
+  # ensures that the file is closed once the block has
+  # finished executing.
+  def with_file
+    f = File.open(@name, "r")
+    yield f
+  ensure
+    f.close
+  end
+end
+
+Again, the important thing to note here is that we could move the code into a
+block without changing it. Unfortunately, this same case does not work in
+JavaScript. Let's first write the equivalent FileInfo class in JavaScript.
+
+// constructor for the FileInfo class
+FileInfo = function(filename) {
+  this.name = filename;
+};
+
+FileInfo.prototype = {
+  // retrieve the file's mtime
+  mtime: function() {
+    try {
+      var f = File.open(this.name, "r");
+      var mtime = this.mtimeFor(f);
+      if (mtime < new Date() - 1000) {
+        return "too old";
+      }
+      sys.print(mtime);
+    } finally {
+      f.close();
+    }
+  },
+
+  // retrieve the file's body
+  body: function() {
+    try {
+      var f = File.open(this.name, "r");
+      return f.read();
+    } finally {
+      f.close();
+    }
+  },
+
+  // a helper method to retrieve the mtime of a file
+  mtimeFor: function(f) {
+    return File.mtime(f);
+  }
+};
+
+If we try to convert the repeated code into a method that takes a function, the
+mtime method will look something like:
+
+function() {
+  // refactor the common file management code into a method
+  // that takes a block
+  this.withFile(function(f) {
+    var mtime = this.mtimeFor(f);
+    if (mtime < new Date() - 1000) {
+      return "too old";
+    }
+    sys.print(mtime);
+  });
+}
+
+There are two very common problems here. First, this has changed contexts. We
+can fix this by allowing a binding as a second parameter, but it means that we
+need to make sure that every time we refactor to a lambda we make sure to
+accept a binding parameter and pass it in. The var self = this pattern emerged
+in JavaScript primarily because of the lack of correspondence.
+
+This is annoying, but not deadly. More problematic is the fact that return has
+changed meaning. Instead of returning from the outer function, it returns from
+the inner one.
+
+This is the right time for JavaScript lovers (and I write this as a sometimes
+JavaScript lover myself) to argue that return behaves exactly as intended, and
+this behavior is simpler and more elegant than the Ruby behavior. That may be
+true, but it doesn't alter the fact that this behavior breaks the
+correspondence principle, with very real consequences.
+
+Instead of effortlessly refactoring code with the same start and end into a
+function taking a function, JavaScript library authors need to consider the
+fact that consumers of their APIs will often need to perform some gymnastics
+when dealing with nested functions. In my experience as an author and consumer
+of JavaScript libraries, this leads to many cases where it's just too much
+bother to provide a nice block-based API.
+
+In order to have a language with return (and possibly super and other similar
+keywords) that satisfies the correspondence principle, the language must, like
+Ruby and Smalltalk before it, have a function lambda and a block lambda.
+Keywords like return always return from the function lambda, even inside of
+block lambdas nested inside. At first glance, this appears a bit inelegant, and
+language partisans often accuse Ruby of unnecessarily having two types of
+"callables", in my experience as an author of large libraries in both Ruby and
+JavaScript, it results in more elegant abstractions in the end.
+
+Iterators and Callbacks
+
+It's worth noting that block lambdas only make sense for functions that take
+functions and invoke them immediately. In this context, keywords like return,
+super and Ruby's yield make sense. These cases include iterators, mutex
+synchronization and resource management (like the block form of File.open).
+
+In contrast, when functions are used as callbacks, those keywords no longer
+make sense. What does it mean to return from a function that has already
+returned? In these cases, typically involving callbacks, function lambdas make
+a lot of sense. In my view, this explains why JavaScript feels so elegant for
+evented code that involves a lot of callbacks, but somewhat clunky for the
+iterator case, and Ruby feels so elegant for the iterator case and somewhat
+more clunky for the evented case. In Ruby's case, (again in my opinion), this
+clunkiness is more from the massively pervasive use of blocks for synchronous
+code than a real deficiency in its structures.
+
+Because of these concerns, the ECMA working group responsible for ECMAScript,
+TC39, [12]is considering adding block lambdas to the language. This would mean
+that the above example could be refactored to:
+
+FileInfo = function(name) {
+  this.name = name;
+};
+
+FileInfo.prototype = {
+  mtime: function() {
+    // use the proposed block syntax, `{ |args| }`.
+    this.withFile { |f|
+      // in block lambdas, +this+ is unchanged
+      var mtime = this.mtimeFor(f);
+      if (mtime < new Date() - 1000) {
+        // block lambdas return from their nearest function
+        return "too old";
+      }
+      sys.print(mtime);
+    }
+  },
+
+  body: function() {
+    this.withFile { |f| f.read(); }
+  },
+
+  mtimeFor: function(f) {
+    return File.mtime(f);
+  },
+
+  withFile: function(block) {
+    try {
+      var f = File.open(this.name, "r");
+      block(f);
+    } finally {
+      f.close();
+    }
+  }
+};
+
+Note that a parallel proposal, which replaces function-scoped var with
+block-scoped let, will almost certainly be accepted by TC39, which would
+slightly, but not substantively, change this example. Also note block lambdas
+automatically return their last statement.
+
+Our experience with Smalltalk and Ruby show that people do not need to
+understand the SCARY correspondence principle for a language that satisfies it
+to yield the desired results. I love the fact that the concept of "iterator" is
+not built into the language, but is instead a consequence of natural block
+semantics. This gives Ruby a rich, broadly useful set of built-in iterators,
+and language users commonly build custom ones. As a JavaScript practitioner, I
+often run into situations where using a for loop is significantly more
+straight-forward than using forEach, always because of the lack of
+correspondence between the code inside a built-in for loop and the code inside
+the function passed to forEach.
+
+For the reasons described above, I strongly approve of [13]the block lambda
+proposal and hope it is adopted.
+
+[14]
+
+Published by:
+
+[15] Yehuda Katz
+[16]
+Katz Got Your Tongue © 2024
+[17]Powered by Ghost
+[pixel]
+
+References:
+
+[1] https://yehudakatz.com/
+[3] http://www.yehudakatz.com/
+[4] https://yehudakatz.com/about/
+[5] https://yehudakatz.com/projects/
+[6] https://yehudakatz.com/talks/
+[7] https://yehudakatz.com/podcasts/
+[8] https://yehudakatz.com/schedule/
+[12] http://wiki.ecmascript.org/doku.php?id=strawman%3Ablock_lambda_revival&ref=yehudakatz.com
+[13] http://wiki.ecmascript.org/doku.php?id=strawman%3Ablock_lambda_revival&ref=yehudakatz.com
+[14] https://yehudakatz.com/2011/12/12/amber-js-formerly-sproutcore-2-0-is-now-ember-js/
+[15] https://yehudakatz.com/author/wycats/
+[16] https://yehudakatz.com/2012/04/13/tokaido-my-hopes-and-dreams/
+[17] https://ghost.org/
