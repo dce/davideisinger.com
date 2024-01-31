@@ -116,7 +116,7 @@ I installed [these crossbars][9] on our car in the hopes that we can avoid repla
 [10]: https://www.chrbutler.com/
 [11]: https://www.chrbutler.com/2024-01-21
 
-Couple security updates: my favorite [TOTP][12] app, Raivo, [got bought up by a shady-looking company][13], so I switched over to to [2FAS][14]. Super smooth onboarding experience, and I actually prefer its authentication flow (browser plugin ➡️  push notification ➡️  Face ID ➡️  approve ➡️  autofill). Also, I listened to [a podcast][15] some months back that described the damage a thief can do with a stolen iPhone, so when I learned about this new [Stolen Device Protection][16] feature, I enabled it immediately.
+Couple security updates: my favorite [TOTP][12] app, Raivo, [got bought up by a shady-looking company][13], so I switched over to to [2FAS][14]. Super smooth onboarding experience, and I actually prefer its authentication flow (browser plugin ➡️  push notification ➡️  Face ID ➡️  "Approve" ➡️  autofill). Also, I listened to [a podcast][15] some months back that described the damage a thief can do with a stolen iPhone, so when I learned about this new [Stolen Device Protection][16] feature, I enabled it immediately.
 
 [12]: https://en.wikipedia.org/wiki/Time-based_one-time_password
 [13]: https://blog.thenewoil.org/changes-arent-permanent-but-change-is
@@ -136,8 +136,8 @@ I make plaintext backups of the things I link to on this site, at least the text
 
 This month:
 
-* Adventure:
-* Project:
+* Adventure: head down to Wilmington for the aforementioned 10K, otherwise laying pretty low -- big stuff coming in the next few months
+* Project: gonna keep this music/hobby table on here until I actually get it done (gear acquisition pause still in effect); I'm also delinquent on an art table for Nev
 * Skill:
 
 Reading:
@@ -153,12 +153,26 @@ Reading:
 Links:
 
 * [I Made This][25]
+
+  > I’m not sure what the right answer is, but I think I’m getting closer to the right question. It’s a question I think we’re all going to encounter a lot more frequently in the future: Who made this?
+
 * [The Rise and Fall of Getting Things Done][26]
+
+  > To move forward, we must step away from Drucker’s commitment to total autonomy—allowing for freedom in how we execute tasks without also allowing for chaos in how these tasks are assigned. We must, in other words, acknowledge the futility of trying to tame our frenzied work lives all on our own, and instead ask, collectively, whether there’s a better way to get things done.
+
 * [Cold-blooded software][27] ([via][28])
+
+  > Some projects are different. You work alone, make some changes when you’re inspired, and then don’t touch it again for another year, or two, or three. You can’t run something like that as a warm-blooded project. There’s not enough activity to keep the temperature up.
+
 * [How I Pocket Notebook][29] ([via][30])
-  * [Tom MacWright][31]
-  * [Tim Hårek][32]
+
+  > Though we exist in an age where technology has wrested the “frictionless and ubiquitous” narrative away from analog tools, I maintain that the old ways can be the best ones in this case. Enter the pocket notebook.
+
+  This inspired me to start carrying a Field Notes in my sling bag; see also: [Tom MacWright][31], [Tim Hårek][32].
+
 * [Work hard and take everything really seriously][33]
+
+  > You can burn out by going too fast, or your flame can dim because you don’t let yourself spend silly amounts of time on silly projects to satisfy your intellectual curiosity. Beware of both outcomes: cultivate your enthusiasm for the things you want to hang onto.
 
 [25]: https://hypercritical.co/2024/01/11/i-made-this
 [26]: https://www.newyorker.com/tech/annals-of-technology/the-rise-and-fall-of-getting-things-done
