@@ -29,9 +29,13 @@ get "/*" do |path|
   convert << @decrypted.path
 
   if geometry
-    convert.resize "#{geometry}^"
-    convert.gravity "center"
-    convert.extent geometry
+    if geometry.start_with?("x") || geometry.end_with?("x")
+      convert.resize geometry
+    else
+      convert.resize "#{geometry}^"
+      convert.gravity "center"
+      convert.extent geometry
+    end
   end
 
   convert.ordered_dither "o8x8"
