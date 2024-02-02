@@ -9,11 +9,31 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup hugo
+      - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "0.109.0"
+          hugo-version: "0.122.0"
           extended: true
+
+      - name: Set up ruby 3.2.1
+        uses: ruby/setup-ruby@v1
+        env:
+          BUNDLE_GEMFILE: ${{ github.workspace }}/bin/dither/Gemfile
+        with:
+          ruby-version: 3.2.1
+          bundler-cache: true
+
+      - name: Add decryption key
+        env:
+          KEY: ${{ secrets.IMAGE_DECRYPTION_KEY }}
+        run: |
+          echo "$KEY" > ${{ github.workspace }}/secret.key
+
+      - name: Start dither server
+        env:
+          ROOT: ${{ github.workspace }}/content
+          KEY: ${{ github.workspace }}/secret.key
+        run: cd bin/dither && bundle exec ruby dither.rb &
 
       - name: Install SSH deploy key
         if: ${{ github.ref == 'refs/heads/main' }}
