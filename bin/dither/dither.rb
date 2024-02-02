@@ -10,7 +10,7 @@ FileUtils.mkdir_p "tmp"
 
 get "/*" do |path|
   filename = File.basename(path)
-  geometry = params["geo"]
+  geometry = params["geo"] unless params["geo"] == ""
 
   @decrypted = Tempfile.new(filename, "tmp")
   @dithered = Tempfile.new([filename, ".png"], "tmp")
@@ -27,9 +27,13 @@ get "/*" do |path|
 
   convert = MiniMagick::Tool::Convert.new
   convert << @decrypted.path
-  convert.resize "#{geometry}^"
-  convert.gravity "center"
-  convert.extent geometry
+
+  if geometry
+    convert.resize "#{geometry}^"
+    convert.gravity "center"
+    convert.extent geometry
+  end
+
   convert.ordered_dither "o8x8"
   convert.monochrome
   convert << @dithered.path
