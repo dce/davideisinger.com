@@ -42,8 +42,8 @@ That's a wrap on 2023. Our little Nevie turned two in December. It's hard to ima
 
 <!--more-->
 
-{{<thumbnail IMG_5187.jpeg "800x600" />}}
-{{<thumbnail IMG_5278.jpeg "800x600" />}}
+{{<thumbnail IMG_5187.jpeg "782x600" />}}
+{{<thumbnail IMG_5278.jpeg "782x600" />}}
 
 We're on a bit of a purge, trying to free up some space in the house. It's an overwhelming project (how did we acquire so much stuff?) but we're taking it one step at a time. I've been building new shelves and put up [guitar hangers][3] to clear up some floor space. I've taken inspiration from [this post about office organization][4] and [this one about maintaining a list of where to find things][5].
 
@@ -51,8 +51,8 @@ We're on a bit of a purge, trying to free up some space in the house. It's an ov
 [4]: https://www.chrbutler.com/organization-office
 [5]: https://analogoffice.net/2023/05/31/the-lifechanging-magic.html
 
-{{<thumbnail IMG_5344.jpeg "800x600" />}}
-{{<thumbnail IMG_5346.jpeg "800x600" />}}
+{{<thumbnail IMG_5344.jpeg "782x600" />}}
+{{<thumbnail IMG_5346.jpeg "782x600" />}}
 
 Music-wise, I received an [Arturia KeyStep 37][6] as a Christmas gift from my in-laws. This thing is super nice; I'm already having a blast using it to play my existing gear, and I'm hoping it'll play a big role as I shift to a more computer-based workflow. Here's a new track called "Orographic":
 

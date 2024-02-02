@@ -67,7 +67,7 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 * Note-taking / journaling app
 * [StevieBlocks][9]
 
-{{<thumbnail project1 "400x" />}}
+{{<thumbnail project1.png "400x" />}}
 
 [9]: https://gist.github.com/dce/f975cb21b50a2cf998bf7230cbf89d85
 

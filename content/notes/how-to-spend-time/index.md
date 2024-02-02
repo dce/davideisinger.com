@@ -49,7 +49,7 @@ Broadly, three categories of productive activities:
 [5]: https://bookshop.org/p/books/building-a-second-brain-a-proven-method-to-organize-your-digital-life-and-unlock-your-creative-potential-tiago-forte/18265370
 [6]: second_brain_48.pdf
 
-{{<thumbnail graph1 "500x" />}}
+{{<thumbnail graph1.png "500x" />}}
 
 _(This would imply that "improving yourself" is the most valuable use of time, but I actually think it's something like the opposite.)_
 
