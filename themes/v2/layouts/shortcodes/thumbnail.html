@@ -1,13 +1,8 @@
-{{ $orig := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
-{{ $options := .Get 1 }}
+{{ $file := printf "%s%s" .Page.RelPermalink (.Get 0) }}
+{{ $geo := .Get 1 }}
+{{ $img := resources.GetRemote (printf "%s%s?geo=%s" (getenv "DITHER_SERVER") $file $geo) }}
 
-{{ $img := $orig.Resize $options }}
-
-{{ if findRE `\d+x\d+` $options }}
-  {{ $img = $orig.Fill (printf "%s center" $options) }}
-{{ end }}
-
-<a href="{{ $orig.RelPermalink }}">
+<a href="{{ $img.RelPermalink }}">
   <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}">
   {{ with .Inner }}
     <figcaption>
