@@ -1,7 +1,7 @@
 ---
 title: "Dispatch #12 (February 2024)"
 date: 2024-01-24T22:48:09-05:00
-draft: true
+draft: false
 tags:
 - dispatch
 references:
