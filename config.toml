@@ -21,3 +21,7 @@ timeout = '120s'
   [markup.goldmark.parser]
     autoHeadingID = true
     autoHeadingIDType = 'blackfriday'
+
+[security]
+  [security.funcs]
+    getenv = ['DITHER_SERVER']
