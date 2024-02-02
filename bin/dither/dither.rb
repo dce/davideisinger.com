@@ -6,34 +6,24 @@ MiniMagick.logger.level = Logger::DEBUG
 ROOT = ENV.fetch("ROOT")
 KEY = ENV.fetch("KEY")
 DITHER = ENV["DITHER"] != "0"
-
-EXTENSION, CONTENT_TYPE = if DITHER
-  [".png", "image/png"]
-else
-  [".webp", "image/webp"]
-end
-
-FileUtils.mkdir_p "tmp"
+FORMAT = DITHER ? "png" : "webp"
 
 get "/*" do |path|
-  filename = File.basename(path)
+  content_type "image/#{FORMAT}"
+
   geometry = params["geo"] unless params["geo"] == ""
 
-  @decrypted = Tempfile.new(filename, "tmp")
-  @dithered = Tempfile.new([filename, EXTENSION], "tmp")
-
-  %x(
+  decrypted = %x(
     openssl \
       aes-256-cbc \
       -d \
       -in #{ROOT}/#{path}.enc \
-      -out #{@decrypted.path} \
       -pass file:#{KEY} \
       -iter 1000000
   )
 
   convert = MiniMagick::Tool::Convert.new
-  convert << @decrypted.path
+  convert.stdin
   convert.background("white")
   convert.layers("flatten")
 
@@ -52,9 +42,6 @@ get "/*" do |path|
     convert.monochrome
   end
 
-  convert << @dithered.path
-  convert.call
-
-  content_type CONTENT_TYPE
-  File.open(@dithered.path)
+  convert << "#{FORMAT.upcase}:-"
+  convert.call(stdin: decrypted)
 end
