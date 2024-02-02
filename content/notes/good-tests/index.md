@@ -75,4 +75,4 @@ _(Notes for a [Viget article][1])_
 [6]: https://json-schema.org/
 [7]: https://github.com/NoRedInk/rspec-retry
 
-{{<thumbnail notes.png "400x" />}}
+{{<dither notes.png "400x" />}}

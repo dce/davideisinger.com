@@ -31,8 +31,8 @@ In April, I'm finishing training for (and then running) the [Tar Heel 10 Miler][
 
 I didn't make much progress on the closet project this month (took some measurements and had some discussions with Claire), but I did manage to build this "learning tower" for Nev and started acquainting myself with Affinity Designer.
 
-{{<thumbnail tower.jpg "800x1200" />}}
-{{<thumbnail rocket.png "800x1200" />}}
+{{<dither tower.jpg "800x1200" />}}
+{{<dither rocket.png "800x1200" />}}
 
 
 This month:

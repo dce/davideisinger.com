@@ -28,10 +28,10 @@ Another month in the books. Man, year's flying by. We filled it up though: went 
 
 <!--more-->
 
-{{<thumbnail IMG_3656.jpeg "400x600" />}}
-{{<thumbnail IMG_3763.jpeg "400x600" />}}
-{{<thumbnail IMG_3816.jpeg "400x600" />}}
-{{<thumbnail IMG_3815.jpeg "400x600" />}}
+{{<dither IMG_3656.jpeg "400x600" />}}
+{{<dither IMG_3763.jpeg "400x600" />}}
+{{<dither IMG_3816.jpeg "400x600" />}}
+{{<dither IMG_3815.jpeg "400x600" />}}
 
 I ordered Claire an [e-bike][1] thinking it might arrive before her birthday mid-May, but it showed up just a few days later. It's been a blast taking Nevie to the museum and around town. We also ran the Tar Heel 10 Miler last weekend. Super fun, and I did better than I expected to based on my training ([result][2], [certificate][3]) -- there's something about an organized race that just gives that extra push I guess.
 

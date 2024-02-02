@@ -77,8 +77,8 @@ We spent MLK weekend with my folks in the Shennandoah Valley, and visited [Luray
 
 <!--more-->
 
-{{<thumbnail IMG_2374.jpeg "782x1200" />}}
-{{<thumbnail IMG_9637.jpeg "782x1200" />}}
+{{<dither IMG_2374.jpeg "782x1200" />}}
+{{<dither IMG_9637.jpeg "782x1200" />}}
 
 I signed up for the [Wrightsville Beach Valentine Run][2] 10K in early February, which has added a little bit of focus to my running without the commitment of half-marathon training and gives us a good excuse to spend a weekend with Claire's sister in Wilmington. Might try to keep that going, finding organized 10Ks in places we want to visit.
 
@@ -86,10 +86,10 @@ I signed up for the [Wrightsville Beach Valentine Run][2] 10K in early February,
 
 I stumbled on [this article][3] ([via][4]) about an iOS feature that periodically updates your lock screen to a random photo of a selected person. It is ... delightful.
 
-{{<thumbnail IMG_5439.PNG "374x850" />}}
-{{<thumbnail IMG_5431.PNG "374x850" />}}
-{{<thumbnail IMG_5398.PNG "374x850" />}}
-{{<thumbnail IMG_5348.PNG "374x850" />}}
+{{<dither IMG_5439.PNG "374x850" />}}
+{{<dither IMG_5431.PNG "374x850" />}}
+{{<dither IMG_5398.PNG "374x850" />}}
+{{<dither IMG_5348.PNG "374x850" />}}
 
 [3]: https://www.theatlantic.com/technology/archive/2024/01/iphone-grief-dynamic-wallpaper/677034/
 [4]: https://sixcolors.com/link/2024/01/grief-and-a-photo-shuffle/

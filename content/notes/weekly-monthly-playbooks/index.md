@@ -21,12 +21,12 @@ references:
   file: www-annahavron-com-8hj07z.txt
 ---
 
-{{<thumbnail notes.png "800x" />}}
+{{<dither notes.png "800x" />}}
 
 _Building a Second Brain_ (p. 215)
 
 ## Notebook Templates
 
-{{<thumbnail template_1.png "534x763" />}}
-{{<thumbnail template_2.png "534x763" />}}
-{{<thumbnail template_3.png "534x763" />}}
+{{<dither template_1.png "534x763" />}}
+{{<dither template_2.png "534x763" />}}
+{{<dither template_3.png "534x763" />}}

@@ -39,16 +39,16 @@ We were down at Lake Norman for the long weekend, and as I was pulling up the ka
 
 <!--more-->
 
-{{<thumbnail IMG_4446.jpeg "800x400" />}}
-{{<thumbnail IMG_1602.jpeg "800x400" />}}
+{{<dither IMG_4446.jpeg "800x400" />}}
+{{<dither IMG_1602.jpeg "800x400" />}}
 
 The following weekend, we headed up to Rehoboth Beach in Delaware to spend the week with my family. It's different than the North Carolina beaches we're used to as there's a lot to do around the town (boardwalk, parks & playgrounds, [indoor amusement park][1]). We brought our bikes and took a ride on the [Gordons Pond Trail][2], which was rad.
 
 [1]: https://funlandrehoboth.com/
 [2]: https://delawaregreenways.org/trail/gordons-pond-trail/
 
-{{<thumbnail IMG_4514.jpeg "800x600" />}}
-{{<thumbnail IMG_4575.jpeg "800x600" />}}
+{{<dither IMG_4514.jpeg "800x600" />}}
+{{<dither IMG_4575.jpeg "800x600" />}}
 
 We also recorded this little jam featuring my 3.5-year-old niece on the melodica:
 
@@ -76,8 +76,8 @@ We got hit with a [nasty storm][9] in the middle of August. It was wild -- hot, 
 
 I did a couple projects in Go this month:
 
-{{<thumbnail golong.png "800x" />}}
-{{<thumbnail forecast.png "800x" />}}
+{{<dither golong.png "800x" />}}
+{{<dither forecast.png "800x" />}}
 
 The first, the fantasy draft <abbr title="text-based user interface">TUI</abbr> app [I mentioned last month][10], came together well and quickly. It was straightforward to set up TOML for configuration, SQLite for data persistence, and [Bubble Tea][11] for the UI. Bubble Tea's super cool -- you pull in your widgets (two in my case, for a table view and a search box), and you can respond to keypresses or let the widgets handle them. As a result, my UI has Vim keybindings without me doing anything, which was super handy during the draft.
 
