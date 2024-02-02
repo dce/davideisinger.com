@@ -5,7 +5,7 @@ theme = 'v2'
 enableGitInfo = true
 timeout = '120s'
 
-[[params.author]]
+[author]
   name = 'David Eisinger'
   email = 'hello@davideisinger.com'
 
