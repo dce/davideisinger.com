@@ -138,7 +138,7 @@ Finally, I made a pair of updates to the website:
 
 1. I make plaintext backups of the things I link to on this site, at least the text-heavy stuff I might want to refer to later (you can see them down below in the "references" section). I'd been using [Lynx][20] to get the text, but I wasn't super happy with some of the results, so I switched over to [w3m][21] after finding the right command-line flag[^1] to include link URLs in the output. I've got some ideas around building a more robust archiving solution but I'm gonna let it marinate for a bit.
 
-2. This site previously featured high-res photos of my family, but [this post][22] made me reconsider putting images of Nev online (I don't know what someone might do with them, and frankly, ignorance is bliss). After a late night of coding, all images are now encrypted on disk, and then decrypted, resized, and dithered as part of the deploy process. I really like the visual effect, as well as how it balances documenting our life and keeping our privacy safe. It's techincally pretty neat how it all works -- definitely worth a follow-on post.
+2. This site previously featured high-res photos of my family, but [this post][22] made me reconsider putting images of Nev online (I don't know what someone might do with them, and frankly, ignorance is bliss). After a late night of coding, all images are now encrypted on disk, and then decrypted, resized, and dithered as part of the deploy process. I really like the visual effect, as well as how it balances documenting our life and keeping our privacy safe. It's technically pretty neat how it all works -- definitely worth a follow-on post.
 
 [20]: https://en.wikipedia.org/wiki/Lynx_(web_browser)
 [21]: https://en.wikipedia.org/wiki/W3m
