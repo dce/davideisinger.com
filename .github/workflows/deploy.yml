@@ -35,6 +35,13 @@ jobs:
           KEY: ${{ github.workspace }}/secret.key
         run: cd bin/dither && bundle exec ruby dither.rb &
 
+      - name: Test build
+        env:
+          DITHER_SERVER: http://localhost:4567
+        run: |
+          source bin/get-last-commit.sh
+          hugo
+
       - name: Install SSH deploy key
         if: ${{ github.ref == 'refs/heads/main' }}
         env:
