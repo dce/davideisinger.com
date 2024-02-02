@@ -25,15 +25,15 @@ get "/*" do |path|
       -iter 1000000
   )
 
-  MiniMagick::Tool::Magick.new do |magick|
-    magick << @decrypted.path
-    magick.resize "#{geometry}^"
-    magick.gravity "center"
-    magick.extent geometry
-    magick.ordered_dither "o8x8"
-    magick.monochrome
-    magick << @dithered.path
-  end
+  convert = MiniMagick::Tool::Convert.new
+  convert << @decrypted.path
+  convert.resize "#{geometry}^"
+  convert.gravity "center"
+  convert.extent geometry
+  convert.ordered_dither "o8x8"
+  convert.monochrome
+  convert << @dithered.path
+  convert.call
 
   content_type "image/png"
   File.open(@dithered.path)

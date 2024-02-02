@@ -35,11 +35,6 @@ jobs:
           KEY: ${{ github.workspace }}/secret.key
         run: cd bin/dither && bundle exec ruby dither.rb >> dither.log 2>&1 &
 
-      - name: Install ImageMagick
-        run: |
-          sudo apt update
-          sudo apt install imagemagick
-
       - name: Test build
         env:
           DITHER_SERVER: http://localhost:4567
