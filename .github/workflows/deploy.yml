@@ -40,7 +40,7 @@ jobs:
           DITHER_SERVER: http://localhost:4567
         run: |
           source bin/get-last-commit.sh
-          timeout 30 hugo || echo "timeout"
+          hugo
 
       - name: Install SSH deploy key
         if: ${{ github.ref == 'refs/heads/main' }}
