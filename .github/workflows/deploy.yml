@@ -59,9 +59,3 @@ jobs:
         env:
           SERVER_IP: ${{ secrets.SERVER_IP }}
         run: bin/deploy
-
-      - name: Upload dither.log
-        uses: actions/upload-artifact@v3
-        with:
-          name: dither.log
-          path: bin/dither/dither.log
