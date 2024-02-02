@@ -21,7 +21,7 @@ references:
   file: www-annahavron-com-8hj07z.txt
 ---
 
-{{<dither notes.png "800x" />}}
+{{<dither notes.png "782x" />}}
 
 _Building a Second Brain_ (p. 215)
 
