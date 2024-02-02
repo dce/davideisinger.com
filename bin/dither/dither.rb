@@ -3,8 +3,8 @@ require "mini_magick"
 
 MiniMagick.logger.level = Logger::DEBUG
 
-ROOT = ENV["ROOT"]
-KEY = ENV["KEY"]
+ROOT = ENV.fetch("ROOT")
+KEY = ENV.fetch("KEY")
 DITHER = ENV["DITHER"] != "0"
 
 EXTENSION, CONTENT_TYPE = if DITHER
