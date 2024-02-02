@@ -128,7 +128,7 @@ Couple security updates: my favorite [TOTP][12] app, Raivo, [got bought up by a 
 [15]: https://daringfireball.net/thetalkshow/2023/07/11/ep-381
 [16]: https://gizmodo.com/stop-everything-enable-stolen-device-protection-iphone-1851188262
 
-I finished [_Revenge: Eleven Dark Tales_][17] and decided to stay on the short fiction train with [_Story of Your Life and Others_][18]. I'm much more able to engage with tones and topics I find unpleasant in long-form fiction, maybe because I'm less invested in the characters -- I loved "Story of Your Life," but I've absolutely no desire to watch [_Arrival_][19], the movie it inspired.
+I finished [_Revenge: Eleven Dark Tales_][17] and decided to stay on the short fiction train with [_Story of Your Life and Others_][18]. I'm abler to engage with short stories containing topics I find unpleasant in long-form fiction, maybe because I'm less invested in the characters -- I loved "Story of Your Life," but I've absolutely no desire to watch [_Arrival_][19], the movie it inspired.
 
 [17]: https://bookshop.org/p/books/revenge-eleven-dark-tales-yoko-ogawa/8623565
 [18]: https://bookshop.org/p/books/stories-of-your-life-and-others-lib-e-ted-chiang/16687839
