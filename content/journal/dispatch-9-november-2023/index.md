@@ -40,14 +40,14 @@ It was nice to have a quieter month after so much travel this summer. We got a f
 
 <!--more-->
 
-{{<thumbnail ECE91676-CF38-4F4D-9F8F-B6C87048AB16_1_105_c.jpeg "800x" />}}
-{{<thumbnail 59EA3598-4D50-4783-8EBF-CA35996F19E9_1_105_c.jpeg "800x" />}}
+{{<thumbnail ECE91676-CF38-4F4D-9F8F-B6C87048AB16_1_105_c.jpeg "782x" />}}
+{{<thumbnail 59EA3598-4D50-4783-8EBF-CA35996F19E9_1_105_c.jpeg "782x" />}}
 
 ## Tech
 
 At my job, I did a cool project working with data from a [Freematics][5] car telematics device. I built a data exploration API using [Gin][6] and learned [`jq`][7] to truncate enormous JSON objects[^1]. I also got to, just like, drive my car around to test things out.
 
-![](golong.png)
+{{<thumbnail golong.png "1600x900" />}}
 
 I also made some updates to my [`golong`][8] tool to prep for a fantasy NBA draft. Now it can munge multiple CSVs of data and supports multiple position eligibility[^2] and average stat projections[^3]. It worked great, and my team's looking solid so far. I'll open source it one of these days.
 

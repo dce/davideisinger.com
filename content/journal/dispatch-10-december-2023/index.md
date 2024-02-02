@@ -29,8 +29,8 @@ We spent the week of Thanksgiving with my sister near Albany, New York. Tough dr
 
 <!--more-->
 
-{{<thumbnail IMG_9217.jpg "800x" />}}
-{{<thumbnail IMG_5088.jpg "800x" />}}
+{{<thumbnail IMG_9217.jpg "782x" />}}
+{{<thumbnail IMG_5088.jpg "782x" />}}
 
 In what's now I guess an annual tradition, I ran a 10K the morning of Thanksgiving, this time the [Troy Turkey Trot][2]. I felt great, and I'm happy with my time ([results][3], [certificate][4]). Claire joked that after you run a marathon, a half-marathon becomes your favorite race distance. That's how I feel about 10Ks -- it's like the first half of a half-marathon, before it really starts to suck.
 

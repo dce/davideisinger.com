@@ -37,10 +37,10 @@ June was dominated by work and travel. Weekdays were filled up with a client pro
 
 <!--more-->
 
-{{<thumbnail IMG_4041 "400x300" />}}
-{{<thumbnail 11B423F8-5D03-4155-B548-185E04A04595_1_105_c "400x300" />}}
-{{<thumbnail IMG_9457 "400x300" />}}
-{{<thumbnail C65C4973-3266-4155-9786-F7B379BD8DD9_1_105_c "400x300" />}}
+{{<thumbnail IMG_4041.jpeg "400x300" />}}
+{{<thumbnail 11B423F8-5D03-4155-B548-185E04A04595_1_105_c.jpeg "400x300" />}}
+{{<thumbnail IMG_9457.jpeg "400x300" />}}
+{{<thumbnail C65C4973-3266-4155-9786-F7B379BD8DD9_1_105_c.jpeg "400x300" />}}
 
 It was a busy month, sometimes overly so, but having so many unique experiences had this odd effect of slowing and expanding time, which is the opposite of how things tend to go as you get older ([good short piece along the same lines][2]). Most everything else fell by the wayside, but that's OK -- these were all awesome experiences, and I'm excited for a (relatively) quiet July.
 
