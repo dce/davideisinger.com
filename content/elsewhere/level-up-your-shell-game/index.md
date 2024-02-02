@@ -31,7 +31,7 @@ favorites:
 -   [Invoking Remote Commands with
     SSH](#invoking-remote-commands-with-ssh)
 
-Ready to get your <img src="neckbeard.png" class="inline"> on? Good. Let's go.
+Ready to get your {{<dither neckbeard.png "" "inline" />}} on? Good. Let's go.
 
 ## Keyboard Shortcuts
 

@@ -1,9 +1,10 @@
 {{ $file := printf "%s%s" .Page.RelPermalink (.Get 0) }}
 {{ $geo := .Get 1 }}
 {{ $img := resources.GetRemote (printf "%s%s?geo=%s" (getenv "DITHER_SERVER") $file $geo) }}
+{{ $imgClass := .Get 2 }}
 
 <a href="{{ $img.RelPermalink }}">
-  <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}">
+  <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" class="{{ $imgClass }}">
   {{ with .Inner }}
     <figcaption>
       {{ . }}

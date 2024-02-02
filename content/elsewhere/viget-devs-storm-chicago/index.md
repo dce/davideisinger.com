@@ -5,7 +5,7 @@ draft: false
 canonical_url: https://www.viget.com/articles/viget-devs-storm-chicago/
 ---
 
-<img src="53100874_f605bd5f42_m.jpg" class="inline">
+{{<dither 53100874_f605bd5f42_m.jpg "" "inline" />}}
 
 This past weekend, Ben and I travelled to Chicago to speak at [Windy
 City Rails](http://windycityrails.org/). It was a great conference;

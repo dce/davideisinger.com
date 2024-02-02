@@ -16,7 +16,7 @@ Engine](http://edgeapi.rubyonrails.org/classes/Rails/Engine.html) to
 display some basic stats. Announcing, then,
 [StatBoard](https://github.com/vigetlabs/stat_board):
 
-![](screenshot.png)
+{{<dither screenshot.png />}}
 
 Installation is a cinch: add the gem to your Gemfile, mount the app in
 `routes.rb`, and set the models to query (full instructions available on

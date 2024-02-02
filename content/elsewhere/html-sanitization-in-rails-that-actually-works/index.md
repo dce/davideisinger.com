@@ -40,7 +40,7 @@ page, not to mention what a `<div>` can do. Self-closing tags are okay.
 With these requirements in mind, we subclassed HTML::WhiteListSanitizer
 and fixed it up. Introducing, then:
 
-<img src="jason_statham.jpg" class="inline">
+{{<dither jason_statham.jpg "" "inline" />}}
 
 [**HTML::StathamSanitizer**](https://gist.github.com/241114).
 User-generated markup, you're on notice: this sanitizer will take its

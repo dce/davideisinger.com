@@ -32,7 +32,7 @@ potentially malicious. The logic is roughly defined as follows:
 Here's a flowchart that might make things clearer (did for me, in any
 event):
 
-![](URfAcl9.png)
+{{<dither URfAcl9.png />}}
 
 This feature is too complex to handle with React component state, but
 too localized to store in application state (the main Microcosm

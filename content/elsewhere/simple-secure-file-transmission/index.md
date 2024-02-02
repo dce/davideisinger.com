@@ -54,7 +54,7 @@ From here, I'd move the encrypted file to my Dropbox public folder and
 send Chris the generated link, as well as the output of `encrypt.sh`,
 over IM:
 
-![](lSEsz5z.jpg)
+{{<dither lSEsz5z.jpg "" "inline" />}}
 
 Once he acknowledges that he's received the file, I immediately delete
 it.
@@ -65,7 +65,7 @@ Now I need to send Chris the password. Here's what I **don't** do: send
 it to him over the same channel that I used to send the file itself.
 Instead, I pull out my phone and send it to him as a text message:
 
-![](pQHZlkO.jpg)
+{{<dither pQHZlkO.jpg "" "inline" />}}
 
 Now Chris has the file, instructions to decrypt it, and the passphrase,
 so he's good to go. An attacker, meanwhile, would need access to both

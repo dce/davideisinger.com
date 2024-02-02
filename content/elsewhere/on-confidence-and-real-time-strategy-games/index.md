@@ -10,7 +10,7 @@ developer. But before I do that, I want to talk about
 *[Z](https://en.wikipedia.org/wiki/Z_(video_game))*, a real-time
 strategy game from the mid-'90s.
 
-<img src="256px-Z_The_Bitmap_Brothers.PNG" class="inline">
+{{<dither 256px-Z_The_Bitmap_Brothers.PNG "" "inline" />}}
 
 In other popular RTSes of the time, like *Warcraft* and *Command and
 Conquer*, you collected `/(gold|Tiberium|Vespene gas)/` and used it to
