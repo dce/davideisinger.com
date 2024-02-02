@@ -27,6 +27,8 @@ get "/*" do |path|
 
   convert = MiniMagick::Tool::Convert.new
   convert << @decrypted.path
+  convert.background("white")
+  convert.layers("flatten")
 
   if geometry
     if geometry.start_with?("x") || geometry.end_with?("x")
