@@ -28,12 +28,12 @@ get "/*" do |path|
   convert.layers("flatten")
 
   if geometry
-    if geometry.start_with?("x") || geometry.end_with?("x")
-      convert.resize geometry
-    else
+    if geometry.match?(/^\d+x\d+$/)
       convert.resize "#{geometry}^"
       convert.gravity "center"
       convert.extent geometry
+    else
+      convert.resize geometry
     end
   end
 
