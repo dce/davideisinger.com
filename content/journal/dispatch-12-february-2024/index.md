@@ -148,7 +148,7 @@ This month:
 
 * Adventure: head down to Wilmington for the aforementioned 10K, otherwise laying pretty low -- big stuff coming in the next few months
 * Project: gonna keep this music/hobby table on here until I actually get it done (gear acquisition pause still in effect); I'm also delinquent on an art table for Nev
-* Skill:
+* Skill: practice scales on my Arturia (15 minutes × 15 times)
 
 Reading:
 
