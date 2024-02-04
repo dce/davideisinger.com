@@ -9,6 +9,8 @@ DITHER = ENV["DITHER"] != "0"
 FORMAT = DITHER ? "png" : "webp"
 
 get "/*" do |path|
+  halt 404, {"Content-Type" => "text/plain"}, "not found" unless File.exist?("#{ROOT}/#{path}.enc")
+
   content_type "image/#{FORMAT}"
 
   geometry = params["geo"] unless params["geo"] == ""
