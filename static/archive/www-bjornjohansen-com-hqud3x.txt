@@ -1,0 +1,334 @@
+[1]Skip to content
+
+[2]{bjørn:johansen}
+
+☆ Not an expert. Probably wrong.
+
+Close collapsed
+
+  • [4]Home
+  • [5]About me
+  • [6]Privacy Policy
+
+Menu expanded
+
+Encrypt and decrypt a file using SSH keys
+
+[encrypt]
+
+If you have someone’s public SSH key, you can use OpenSSL to safely encrypt a
+file and send it to them over an insecure connection (i.e. the internet). They
+can then use their private key to decrypt the file you sent.
+
+If you encrypt/decrypt files or messages on more than a one-off occasion, you
+should really use GnuPGP as that is a much better suited tool for this kind of
+operations. But if you already have someone’s public SSH key, it can be
+convenient to use it, and it is safe.
+
+There is a limit to the maximum length of a message – i.e. size of a file –
+that can be encrypted using asymmetric RSA public key encryption keys (which is
+what SSH keys are). For this reason, we’ll actually generate a 256 bit key to
+use for symmetric AES encryption and then encrypt/decrypt that symmetric AES
+key with the asymmetric RSA keys. This is how encrypted connections usually
+work, by the way.
+
+Encrypt a file using a public SSH key
+
+Generate the symmetric key (32 bytes gives us the 256 bit key):
+
+$ openssl rand -out secret.key 32
+
+You should only use this key this one time, by the way. If you send something
+to the recipient at another time, don’t reuse it.
+
+Encrypt the file you’re sending, using the generated symmetric key:
+
+$ openssl aes-256-cbc -in secretfile.txt -out secretfile.txt.enc -pass file:secret.key
+
+In this example secretfile.txt is the unencrypted secret file, and
+secretfile.txt.enc is the encrypted file. The encrypted file can be named
+whatever you like.
+
+Encrypt the symmetric key, using the recipient’s public SSH key:
+
+$ openssl rsautl -encrypt -oaep -pubin -inkey <(ssh-keygen -e -f recipients-key.pub -m PKCS8) -in secret.key -out secret.key.enc
+
+Replace recipients-key.pub with the recipient’s public SSH key.
+
+Delete the unencrypted symmetric key, so you don’t leave it around:
+
+$ rm secret.key
+
+Now you can send the encrypted secret file (secretfile.txt.enc) and the
+encrypted symmetric key (secret.key.enc) to the recipient. It is even safe to
+upload the files to a public file sharing service and tell the recipient to
+download them from there.
+
+Decrypt a file encrypted with a public SSH key
+
+First decrypt the symmetric.key:
+
+$ openssl rsautl -decrypt -oaep -inkey ~/.ssh/id_rsa -in secret.key.enc -out secret.key
+
+The recipient should replace ~/.ssh/id_rsa with the path to their secret key if
+needed. But this is the path to where it usually is located.
+
+Now the secret file can be decrypted, using the symmetric key:
+
+$ openssl aes-256-cbc -d -in secretfile.txt.enc -out secretfile.txt -pass file:secret.key
+
+Again, here the encrypted file is secretfile.txt.enc and the unencrypted file
+will be named secretfile.txt
+
+Posted by[8]Bjørn Johansen[9]January 5, 2017November 18, 2022Posted in[10]
+SecurityTags:[11]encryption, [12]howto, [13]openssl, [14]security
+
+Published by Bjørn Johansen
+
+Bjørn has been a full-time web developer since 2001, and have during those
+years touched many areas including consulting, training, project management,
+client support, and DevOps. He has worked with WordPress for more than 16
+years, and he is a plugin author, core contributor, WordCamp speaker, WordCamp
+co-organizer and Translation Editor for Norwegian Bokmål. [15] View all posts
+by Bjørn Johansen
+
+Post navigation
+
+[16]Previous Post Previous post:
+Flexible Content Fields in Field Manager
+[17]Next Post Next post:
+Keep the internet healthy – Internet for people, not profit.
+
+20 Comments
+
+ 1. [84ea] bob says:
+    [18]May 10, 2017 at 23:39
+
+    * Why are you generating 192 bytes when only 32 are needed for the AES-256
+    symmetric key?
+
+    * Use OAEP (as PKCS#1 v1.5 is deterministic) when encrypting your symmetric
+    key, otherwise two identical keys will have the same ciphertext. (chosen
+    plaintext attack)
+
+     1. [21e2] Bjørn Johansen says:
+        [19]May 11, 2017 at 20:06
+
+        * I … I … have no other explanation that I must have had temporary
+        brain damage. I mixed up bits and bytes! :-o Well, at least generating
+        1536 bits for the “password” didn’t do any harm :-)
+
+        * You’re absolutely right. PKCS#1 v1.5 should only be used for signing,
+        not for encryption. I’ve updated the commands now.
+
+        Thank you so much for your comment, I really appreciate it!
+
+     2. [5226] [20]Rodrigo Siqueira says:
+        [21]September 2, 2022 at 16:04
+
+        I tried the suggested encryption command (openssl aes-256-cbc) but got
+        the warning result:
+        *** WARNING : deprecated key derivation used.
+        Using -iter or -pbkdf2 would be better.
+
+ 2. [1863] guest says:
+    [22]July 30, 2017 at 11:37
+
+    $ openssl rand 32 -out secret.key
+    rand: Use -help for summary.
+
+     1. [1863] guest says:
+        [23]July 30, 2017 at 11:37
+
+        command not working.
+
+ 3. [5e78] Stephen Fromm says:
+    [24]August 22, 2017 at 23:00
+
+    “-pass file:secret.key”
+
+    Reading around the web, plus looking at the docs, it seems to me that -pass
+    is not for inputting the key, but rather inputting a password, from which
+    both the key and the IV for CBC are derived. This isn’t good, insofar there
+    seems to be a consensus that OpenSSL’s key derivation isn’t all that good.
+
+     1. [21e2] Bjørn Johansen says:
+        [25]August 22, 2017 at 23:07
+
+        We are using the 256 bit symmetric “key” as the password. The key to
+        the file containing the password is the asymmetric SSH key.
+
+         1. [5e78] Stephen Fromm says:
+            [26]August 23, 2017 at 20:28
+
+            Right. I’m merely noting that the password is not the symmetric
+            key. Rather, OpenSSL uses the password to generate both the actual
+            symmetric key and the IV. (In that sense, the password does not
+            have to be 256 bits, except insofar as it’s probably a good idea
+            for it to have as much entropy as the actual key that will be
+            derived from it.)
+
+            This distinction isn’t entirely unimportant from a practical
+            standpoint, as apparently many people in the security community
+            don’t like OpenSSL’s method for deriving the key from the password.
+
+     2. [0808] Jarvis says:
+        [27]March 7, 2019 at 00:08
+
+        Exactly! That was my first thought when I saw it mentioned as the key
+        used for symmetric encryption. You are absolutely right Stephen. The
+        pass argument is not the symmetric encryption key. It is a password
+        from which key and IV are derived.
+
+ 4. [5e78] Stephen Fromm says:
+    [28]August 28, 2017 at 16:12
+
+    I do want to add—don’t take my comment the wrong way. This page was
+    extremely useful to me. There was stuff on StackOverflow, but much of it
+    wasn’t quite as concrete as the solution you posted here.
+
+     1. [21e2] Bjørn Johansen says:
+        [29]September 2, 2017 at 05:51
+
+        Thank you!
+
+ 5. [e853] Nidhi says:
+    [30]September 25, 2017 at 08:36
+
+    Here we are encrypting and decrypting a file. What if we need to encrypt
+    and decrypt a password saved in that file instead. Can we do it using the
+    same commands?
+
+ 6. [dfc6] [31]Robert R says:
+    [32]February 28, 2018 at 18:27
+
+    Using:
+    openssl rand 32 -out secret.key
+
+    I sometimes got these errors:
+    bad decrypt
+    140625532782232:error:06065064:digital envelope
+    routines:EVP_DecryptFinal_ex:bad decrypt:evp_enc.c:531:
+
+    I did not get those errors if i base64 encode the random string using:
+    openssl rand 32 | base64 -w 0 > secret.key
+
+    (replace -w with -b on BSD/OSX)
+
+ 7. [9ba4] Simon says:
+    [33]April 26, 2018 at 15:50
+
+    Thank you for this post!
+    I made a bash script to put this all together and easily encrypt/decrypt
+    files with ssh key: [34]https://github.com/S2-/sshencdec
+
+ 8. [2e9b] Andy Gayton says:
+    [35]April 30, 2018 at 19:51
+
+    This is likely a terribly naive question.
+
+    What is the benefit to generating a one-off symmetric password and
+    encrypting that with the target’s public key, vs encrypting the desired
+    payload directly with the target’s public key?
+
+    Thanks!
+
+     1. [21e2] Bjørn Johansen says:
+        [36]April 30, 2018 at 21:19
+
+        Hi Andy
+
+        I tried to explain that in the beginning:
+
+            There is a limit to the maximum length of a message – i.e. size of
+            a file – that can be encrypted using asymmetric RSA public key
+            encryption keys (which is what SSH keys are).
+
+        The problem is that anything we want to encrypt probably is too large
+        to encrypt using asymmetric RSA public key encryption keys.
+
+         1. [2e9b] Andy Gayton says:
+            [37]April 30, 2018 at 22:02
+
+            Thank you for the reply. That makes sense!
+
+ 9. [79e7] Olivier Cloirec says:
+    [38]June 12, 2018 at 07:07
+
+    Hi, thanks for the tip!
+
+    I got the following error message with 1.1.0h:
+    “`
+    openssl rand 32 -out secret.key
+    Extra arguments given.
+    rand: Use -help for summary.
+    “`
+
+    The command works when options are before the size:
+    “`
+    openssl rand -out secret.key 32
+    “`
+
+     1. [21e2] Bjørn Johansen says:
+        [39]June 12, 2018 at 11:28
+
+        Yeah, I’ve noticed that OpenSSL started being picky about that lately.
+        Updated the text now.
+
+        Thank you for leaving the comment, Olivier.
+
+10. [583a] pierre says:
+    [40]April 9, 2019 at 17:40
+
+    Hi Bjørn
+    thank’s for your post !
+    Realy simple and easy.
+    It can be used to start discover other features in openssl.
+
+Comments are closed.
+
+[41]{bjørn:johansen}, [42] Proudly powered by WordPress. [43]Privacy Policy
+
+References:
+
+[1] https://www.bjornjohansen.com/encrypt-file-using-ssh-key#content
+[2] https://www.bjornjohansen.com/
+[4] https://www.bjornjohansen.com/
+[5] https://www.bjornjohansen.com/about-me
+[6] https://www.bjornjohansen.com/privacy-policy
+[8] https://www.bjornjohansen.com/author/bjorn
+[9] https://www.bjornjohansen.com/encrypt-file-using-ssh-key
+[10] https://www.bjornjohansen.com/category/security
+[11] https://www.bjornjohansen.com/tag/encryption
+[12] https://www.bjornjohansen.com/tag/howto
+[13] https://www.bjornjohansen.com/tag/openssl
+[14] https://www.bjornjohansen.com/tag/security-2
+[15] https://www.bjornjohansen.com/author/bjorn
+[16] https://www.bjornjohansen.com/field-manager-flexible-content
+[17] https://www.bjornjohansen.com/support-mozilla
+[18] https://www.bjornjohansen.com/encrypt-file-using-ssh-key#comment-1256
+[19] https://www.bjornjohansen.com/encrypt-file-using-ssh-key#comment-1276
+[20] https://www.inbot.com.br/
+[21] https://www.bjornjohansen.com/encrypt-file-using-ssh-key#comment-60127
+[22] https://www.bjornjohansen.com/encrypt-file-using-ssh-key#comment-2516
+[23] https://www.bjornjohansen.com/encrypt-file-using-ssh-key#comment-2517
+[24] https://www.bjornjohansen.com/encrypt-file-using-ssh-key#comment-2882
+[25] https://www.bjornjohansen.com/encrypt-file-using-ssh-key#comment-2883
+[26] https://www.bjornjohansen.com/encrypt-file-using-ssh-key#comment-2894
+[27] https://www.bjornjohansen.com/encrypt-file-using-ssh-key#comment-24144
+[28] https://www.bjornjohansen.com/encrypt-file-using-ssh-key#comment-2948
+[29] https://www.bjornjohansen.com/encrypt-file-using-ssh-key#comment-2994
+[30] https://www.bjornjohansen.com/encrypt-file-using-ssh-key#comment-3212
+[31] http://nisosgroup.com/
+[32] https://www.bjornjohansen.com/encrypt-file-using-ssh-key#comment-5006
+[33] https://www.bjornjohansen.com/encrypt-file-using-ssh-key#comment-6928
+[34] https://github.com/S2-/sshencdec
+[35] https://www.bjornjohansen.com/encrypt-file-using-ssh-key#comment-7079
+[36] https://www.bjornjohansen.com/encrypt-file-using-ssh-key#comment-7081
+[37] https://www.bjornjohansen.com/encrypt-file-using-ssh-key#comment-7085
+[38] https://www.bjornjohansen.com/encrypt-file-using-ssh-key#comment-10189
+[39] https://www.bjornjohansen.com/encrypt-file-using-ssh-key#comment-10190
+[40] https://www.bjornjohansen.com/encrypt-file-using-ssh-key#comment-24648
+[41] https://www.bjornjohansen.com/
+[42] https://wordpress.org/
+[43] https://www.bjornjohansen.com/privacy-policy

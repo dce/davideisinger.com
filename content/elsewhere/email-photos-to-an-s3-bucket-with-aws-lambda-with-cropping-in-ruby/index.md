@@ -3,6 +3,11 @@ title: "Email Photos to an S3 Bucket with AWS Lambda (with Cropping, in Ruby)"
 date: 2021-04-07T00:00:00+00:00
 draft: false
 canonical_url: https://www.viget.com/articles/email-photos-to-an-s3-bucket-with-aws-lambda-with-cropping-in-ruby/
+references:
+- title: "Ditherpunk — The article I wish I had about monochrome image dithering — surma.dev"
+  url: https://surma.dev/things/ditherpunk/
+  date: 2024-02-05T14:50:25Z
+  file: surma-dev-e4sfuv.txt
 ---
 
 In my annual search for holiday gifts, I came across this [digital photo
