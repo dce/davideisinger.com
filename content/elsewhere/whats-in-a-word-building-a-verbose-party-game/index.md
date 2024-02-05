@@ -32,7 +32,7 @@ It's easier to play than explain, so mosey on over to
 to know more about how each of us fared going heads down on one project
 for 48 hours (and counting), read on.
 
-![image](662shots_so-1.png)
+{{<dither 662shots_so-1.png />}}
 
 ## [**Haley**](https://www.viget.com/about/team/hjohnson/) **\| Pointless Role: Design \| Day Job: PM**
 
@@ -141,8 +141,7 @@ automatically sets up HTTPS and proxies traffic to our Remix app:
 Our overall architecture (running with `docker compose`) looks like
 this:
 
-![image](verbose-arch.png)
-
+{{<dither verbose-arch.png />}}
 
 ------------------------------------------------------------------------
 

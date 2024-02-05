@@ -1,7 +1,7 @@
 ---
 title: "Encrypt and Dither Photos in Hugo"
 date: 2024-02-05T09:47:45-05:00
-draft: false
+draft: true
 references:
 - title: "Elliot Jay Stocks  | 2023 in review"
   url: https://elliotjaystocks.com/blog/2023-in-review
@@ -20,6 +20,10 @@ references:
   date: 2024-02-05T14:50:28Z
   file: solar-lowtechmagazine-com-vj7kk5.txt
 ---
+
+Intro text here ...
+
+<!--more-->
 
 * https://github.com/gohugoio/hugo/issues/8598
 

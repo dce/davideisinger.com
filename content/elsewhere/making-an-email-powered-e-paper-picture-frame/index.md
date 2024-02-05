@@ -13,7 +13,7 @@ e-paper picture frames for my family, and I thought it'd be cool to
 walk through the process in case someone out there wants to try
 something similar.
 
-![image](IMG_0120.jpeg)
+{{<dither IMG_0120.jpeg />}}
 
 In short, it's a Raspberry Pi Zero connected to a roughly 5-by-7-inch
 e-paper screen, running some software I wrote in Go and living inside a
@@ -51,7 +51,7 @@ extracts the attachments from the email, crops them a couple of ways
 (one for display on a webpage, the other for display on the screen), and
 uploads the results into an S3 bucket.
 
-![image](Screen_Shot_2021-05-09_at_1_26_39_PM.png)
+{{<dither Screen_Shot_2021-05-09_at_1_26_39_PM.png />}}
 
 ## The Software
 
@@ -147,7 +147,7 @@ And that should be it. The photo gallery should be accessible at a local
 IP and the photo should update hourly (though not ON the hour as that's
 not how `cron.hourly` works for some reason).
 
-![image](IMG_0122.jpeg)
+{{<dither IMG_0122.jpeg />}}
 
 ## Building the Frame
 

@@ -211,8 +211,8 @@ In closing, this project was a great way to get familiar with Lambda and
 the wider AWS ecosystem. It came together in just a few hours and is
 still going strong several months later. My typical bill is something on
 the order of $0.50 per month. If anything goes wrong, I can pop into
-CloudWatch to view the result of the function, but so far, [so
-smooth](smooth-yoda.jpg).
+CloudWatch to view the result of the function, but so far,
+[so smooth]({{<dither_url smooth-yoda.jpg>}}).
 
 I'll be back in a few weeks detailing the rest of the project. Stay
 tuned!
