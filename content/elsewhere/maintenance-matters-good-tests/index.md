@@ -46,7 +46,7 @@ internalize in order to build robust, long-lasting software.
 
 My first exposure to automated testing was with Ruby on Rails. Since
 then, I've written production software in many different languages, but
-nothing matches the Rails testing story. Tom Macwright said it well in
+nothing matches the Rails testing story. Tom MacWright said it well in
 ["A year of
 Rails"](https://macwright.com/2021/02/18/a-year-of-rails.html):
 
