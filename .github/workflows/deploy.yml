@@ -41,6 +41,7 @@ jobs:
         run: |
           source bin/get-last-commit.sh
           hugo
+          find public -name "*.enc" -type f -delete
 
       - name: Install SSH deploy key
         if: ${{ github.ref == 'refs/heads/main' }}
