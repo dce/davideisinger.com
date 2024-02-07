@@ -144,11 +144,12 @@ Finally, I made a pair of updates to the website:
 
 * I make plaintext backups of the things I link to on this site, at least the text-heavy stuff I might want to refer to later (you can see them down below in the "references" section). I'd been using [Lynx][22] to get the text, but I wasn't super happy with some of the results, so I switched over to [w3m][23] after finding the right command-line flag[^1] to include link URLs in the output. I've got some ideas around building a more robust archiving solution but I'm gonna let it marinate for a bit.
 
-* This site previously featured high-res photos of my family, but [this post][24] made me reconsider putting images of Nev online (I don't know what someone might do with them, and frankly, ignorance is bliss). After a late night of coding, all images are now encrypted on disk, and then decrypted, resized, and dithered as part of the deploy process. I really like the visual effect, as well as how it balances documenting our life and keeping our privacy safe. It's technically pretty neat how it all works -- definitely worth a follow-on post.
+* This site previously featured high-res photos of my family, but [this post][24] made me reconsider putting images of Nev online (I don't know what someone might do with them, and frankly, ignorance is bliss). After a late night of coding, all images are now encrypted on disk, and then decrypted, resized, and dithered as part of the deploy process. I really like the visual effect, as well as how it balances documenting our life and keeping our privacy safe. It's technically pretty neat how it all works -- definitely worth a follow-on post (update: [here's the post][25]).
 
 [22]: https://en.wikipedia.org/wiki/Lynx_(web_browser)
 [23]: https://en.wikipedia.org/wiki/W3m
 [24]: https://elliotjaystocks.com/blog/2023-in-review
+[25]: /journal/encrypt-and-dither-photos-in-hugo/
 
 This month:
 
@@ -158,48 +159,48 @@ This month:
 
 Reading:
 
-* Fiction: [_Story of Your Life and Others_][25], Ted Chiang
-* Non-fiction: [_Bird by Bird: Some Instructions on Writing and Life_][26], Anne Lamott (recommended [here][27] and [here][28])
+* Fiction: [_Story of Your Life and Others_][26], Ted Chiang
+* Non-fiction: [_Bird by Bird: Some Instructions on Writing and Life_][27], Anne Lamott (recommended [here][28] and [here][29])
 
-[25]: https://bookshop.org/p/books/stories-of-your-life-and-others-lib-e-ted-chiang/16687839
-[26]: https://bookshop.org/p/books/bird-by-bird-some-instructions-on-writing-and-life-anne-lamott/8649952?ean=9780385480017
-[27]: https://www.irunfar.com/stride-by-stride
-[28]: https://kimberlyhirsh.com/now/
+[26]: https://bookshop.org/p/books/stories-of-your-life-and-others-lib-e-ted-chiang/16687839
+[27]: https://bookshop.org/p/books/bird-by-bird-some-instructions-on-writing-and-life-anne-lamott/8649952?ean=9780385480017
+[28]: https://www.irunfar.com/stride-by-stride
+[29]: https://kimberlyhirsh.com/now/
 
 Links:
 
-* [I Made This][29]
+* [I Made This][30]
 
   > I’m not sure what the right answer is, but I think I’m getting closer to the right question. It’s a question I think we’re all going to encounter a lot more frequently in the future: Who made this?
 
-* [The Rise and Fall of Getting Things Done][30]
+* [The Rise and Fall of Getting Things Done][31]
 
   > To move forward, we must step away from Drucker’s commitment to total autonomy—allowing for freedom in how we execute tasks without also allowing for chaos in how these tasks are assigned. We must, in other words, acknowledge the futility of trying to tame our frenzied work lives all on our own, and instead ask, collectively, whether there’s a better way to get things done.
 
-* [Cold-blooded software][31] ([via][32])
+* [Cold-blooded software][32] ([via][33])
 
   > Some projects are different. You work alone, make some changes when you’re inspired, and then don’t touch it again for another year, or two, or three. You can’t run something like that as a warm-blooded project. There’s not enough activity to keep the temperature up.
 
-* [How I Pocket Notebook][33] ([via][34])
+* [How I Pocket Notebook][34] ([via][35])
 
   > Though we exist in an age where technology has wrested the “frictionless and ubiquitous” narrative away from analog tools, I maintain that the old ways can be the best ones in this case. Enter the pocket notebook.
 
-  This inspired me to start carrying a Field Notes in my sling bag; see also: [Tom MacWright][35], [Tim Hårek][36].
+  This inspired me to start carrying a Field Notes in my sling bag; see also: [Tom MacWright][36], [Tim Hårek][37].
 
-* [Work hard and take everything really seriously][37]
+* [Work hard and take everything really seriously][38]
 
   > You can burn out by going too fast, or your flame can dim because you don’t let yourself spend silly amounts of time on silly projects to satisfy your intellectual curiosity. Beware of both outcomes: cultivate your enthusiasm for the things you want to hang onto.
 
-[29]: https://hypercritical.co/2024/01/11/i-made-this
-[30]: https://www.newyorker.com/tech/annals-of-technology/the-rise-and-fall-of-getting-things-done
-[31]: https://dubroy.com/blog/cold-blooded-software/
-[32]: https://blog.jim-nielsen.com/2024/cold-blooded-software/
-[33]: https://www.cygnoir.net/2024/01/20/how-i-pocket.html
-[34]: https://www.thecramped.com/how-i-pocket-notebook-cygnoir-net/
-[35]: https://macwright.com/2019/01/02/paper-notes
-[36]: https://timharek.no/blog/paper-notes
-[37]: https://macwright.com/2024/01/28/work-hard-and-take-everything-seriously
+[30]: https://hypercritical.co/2024/01/11/i-made-this
+[31]: https://www.newyorker.com/tech/annals-of-technology/the-rise-and-fall-of-getting-things-done
+[32]: https://dubroy.com/blog/cold-blooded-software/
+[33]: https://blog.jim-nielsen.com/2024/cold-blooded-software/
+[34]: https://www.cygnoir.net/2024/01/20/how-i-pocket.html
+[35]: https://www.thecramped.com/how-i-pocket-notebook-cygnoir-net/
+[36]: https://macwright.com/2019/01/02/paper-notes
+[37]: https://timharek.no/blog/paper-notes
+[38]: https://macwright.com/2024/01/28/work-hard-and-take-everything-seriously
 
-[^1]: Running `w3m -dump -o display_link_number=1 <url>` gives a nice plaintext version of a webpage with numbered link references (via this [helpful StackOverflow link][38])
+[^1]: Running `w3m -dump -o display_link_number=1 <url>` gives a nice plaintext version of a webpage with numbered link references (via this [helpful StackOverflow link][39])
 
-[38]: https://askubuntu.com/questions/805014/getting-text-and-links-from-a-web-page/1493418#1493418
+[39]: https://askubuntu.com/questions/805014/getting-text-and-links-from-a-web-page/1493418#1493418
