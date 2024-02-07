@@ -76,7 +76,7 @@ Dir.glob("content/**/*.{jpg,jpeg,png}").each do |path|
       -out #{path}.enc \
       -pass file:secret.key \
       -iter 1000000
-    )
+  )
 end
 ```
 
