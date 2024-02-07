@@ -192,7 +192,7 @@ This site uses GitHub Actions to deploy on pushes to the `main` branch, and we n
 
 [Here's the deploy workflow for this site][18] for reference.
 
-[18]: https://github.com/dce/davideisinger.com/blob/7285c58add56e2ac6b5f7bf62914f0615ac23c9f/.github/workflows/deploy.yml
+[18]: https://github.com/dce/davideisinger.com/blob/901c8baad1f60a65910b387b20c8bcd0ea402c0b/.github/workflows/deploy.yml
 
 ***
 

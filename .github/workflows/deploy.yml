@@ -9,13 +9,13 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup Hugo
+      - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "0.122.0"
           extended: true
 
-      - name: Set up ruby 3.2.1
+      - name: Set up Ruby 3.2.1
         uses: ruby/setup-ruby@v1
         env:
           BUNDLE_GEMFILE: ${{ github.workspace }}/bin/dither/Gemfile
@@ -35,6 +35,13 @@ jobs:
           KEY: ${{ github.workspace }}/secret.key
         run: cd bin/dither && bundle exec ruby dither.rb >> dither.log 2>&1 &
 
+      - name: Generate static site
+        env:
+          DITHER_SERVER: http://localhost:4567
+        run: |
+          source bin/get-last-commit.sh
+          hugo
+
       - name: Install SSH deploy key
         if: ${{ github.ref == 'refs/heads/main' }}
         env:
@@ -51,5 +58,11 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
         env:
           SERVER_IP: ${{ secrets.SERVER_IP }}
-          DITHER_SERVER: http://localhost:4567
-        run: bin/deploy
+        run: |
+          rsync \
+            -v \
+            -r \
+            --delete \
+            -e "ssh -o PubkeyAcceptedKeyTypes=+ssh-rsa" \
+            public/* \
+            www-data@$SERVER_IP:/var/www/davideisinger.com
