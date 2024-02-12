@@ -27,7 +27,7 @@ I encrypted all the photos on this site and wrote a tiny image server that decry
 
 ***
 
-**Update 2024-02-12:** [Hugo will support native dithering in the next release.][1] If you're after the lo-fi look and don't need the encryption, that'll be a lot cleaner than the approach outlined below.
+**Update 2024-02-12:** [Hugo will support native dithering in the next release.][1] If you're after the lo-fi look and don't need encryption, that'll be a lot cleaner than the approach outlined below.
 
 [1]: https://github.com/gohugoio/hugo/pull/12016
 
