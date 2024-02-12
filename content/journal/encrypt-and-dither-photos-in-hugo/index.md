@@ -27,39 +27,43 @@ I encrypted all the photos on this site and wrote a tiny image server that decry
 
 ***
 
-When I was first setting up this site, I considered giving all the photos a monochrome [dithered][1] treatment à la [Low-tech Magazine][2]. Hugo has impressive [image manipulation functionality][3] but doesn't include dithering and [seems unlikely to add it][4]. I opted for full-color photos and went on with my life.
+**Update 2024-02-12:** [Hugo will support native dithering in the next release.][1] If you're after the lo-fi look and don't need the encryption, that'll be a lot cleaner than the approach outlined below.
 
-[1]: https://surma.dev/things/ditherpunk/
-[2]: https://solar.lowtechmagazine.com/about/the-solar-website/#dithered-images
-[3]: https://gohugo.io/content-management/image-processing/
-[4]: https://github.com/gohugoio/hugo/issues/8598
+[1]: https://github.com/gohugoio/hugo/pull/12016
 
-Most of what I post on this site are these monthly [dispatches][5] that start with what my family's been up to in the last month and include several high-resolution photos. Last week, I was reading Elliot Jay Stocks' "[2023 in review][6]," and he's adament about not posting photos of his kids. That inspired me to take another crack at getting dithered images working -- I take a lot of joy out of documenting our family life, and low-res, dithered images strike a good balance between giant full-color photos and not showing people in photos at all. And to add another wrinkle: this site is [open source][7], so I also needed to ensure that the source images wouldn't be available on GitHub.
+When I was first setting up this site, I considered giving all the photos a monochrome [dithered][2] treatment à la [Low-tech Magazine][3]. Hugo has impressive [image manipulation functionality][4] but doesn't include dithering and [seems unlikely to add it][5]. I opted for full-color photos and went on with my life.
 
-[5]: /tags/dispatch/
-[6]: https://elliotjaystocks.com/blog/2023-in-review
-[7]: https://github.com/dce/davideisinger.com
+[2]: https://surma.dev/things/ditherpunk/
+[3]: https://solar.lowtechmagazine.com/about/the-solar-website/#dithered-images
+[4]: https://gohugo.io/content-management/image-processing/
+[5]: https://github.com/gohugoio/hugo/issues/8598
+
+Most of what I post on this site are these monthly [dispatches][6] that start with what my family's been up to in the last month and include several high-resolution photos. Last week, I was reading Elliot Jay Stocks' "[2023 in review][7]," and he's adament about not posting photos of his kids. That inspired me to take another crack at getting dithered images working -- I take a lot of joy out of documenting our family life, and low-res, dithered images strike a good balance between giant full-color photos and not showing people in photos at all. And to add another wrinkle: this site is [open source][8], so I also needed to ensure that the source images wouldn't be available on GitHub.
+
+[6]: /tags/dispatch/
+[7]: https://elliotjaystocks.com/blog/2023-in-review
+[8]: https://github.com/dce/davideisinger.com
 
 I tried treating the full-size images with ImageMagick on the command line and then letting Hugo resize the result, but I wasn't happy with the output -- there's still way too much data in a dithered full-sized image, so when you scale it down, it just looks like a crappy black-and-white photo. Furthermore, the encoding wasn't properly optimizing for two-color images and so the files were larger than I wanted.
 
-I needed to find some way to scale the images to the appropriate size and _then_ apply the dither.  Fortunately, Hugo has the ability to [fetch remote images][8], which got me thinking about a separate image processing service. After a late night of coding, I've got a solution I'm quite pleased with. Read on for more details, and if you want to follow along, you'll need to have Ruby installed (I recommend [asdf][9] if you're on a Unix-y OS) as well as ImageMagick and OpenSSL.
+I needed to find some way to scale the images to the appropriate size and _then_ apply the dither.  Fortunately, Hugo has the ability to [fetch remote images][9], which got me thinking about a separate image processing service. After a late night of coding, I've got a solution I'm quite pleased with. Read on for more details, and if you want to follow along, you'll need to have Ruby installed (I recommend [asdf][10] if you're on a Unix-y OS) as well as ImageMagick and OpenSSL.
 
-[8]: https://gohugo.io/content-management/image-processing/#remote-resource
-[9]: https://asdf-vm.com/
+[9]: https://gohugo.io/content-management/image-processing/#remote-resource
+[10]: https://asdf-vm.com/
 
 ### 1. Encrypt all images
 
-We'll use OpenSSL to encrypt our images ([here's a guide][10]). First, we'll generate a secret key (the `-hex` option gives us something we can paste into a GitHub secret later):
+We'll use OpenSSL to encrypt our images ([here's a guide][11]). First, we'll generate a secret key (the `-hex` option gives us something we can paste into a GitHub secret later):
 
-[10]: https://www.bjornjohansen.com/encrypt-file-using-ssh-key
+[11]: https://www.bjornjohansen.com/encrypt-file-using-ssh-key
 
 ```sh
 openssl rand -hex -out secret.key 32
 ```
 
-[Make a backup][11] of the key and then `gitignore` it:
+[Make a backup][12] of the key and then `gitignore` it:
 
-[11]: https://bitwarden.com/
+[12]: https://bitwarden.com/
 
 ```sh
 echo secret.key >> .gitignore
@@ -82,15 +86,15 @@ end
 
 ### 2. Build a tiny image server
 
-I wrote a [very simple image server][12] using [Sinatra][13] and [MiniMagick][14] that takes a path to an image and an optional geometry string and returns a dithered image. I won't paste the entire file here but it's really pretty short and simple.
+I wrote a [very simple image server][13] using [Sinatra][14] and [MiniMagick][15] that takes a path to an image and an optional geometry string and returns a dithered image. I won't paste the entire file here but it's really pretty short and simple.
 
-[12]: https://github.com/dce/davideisinger.com/blob/bf5238dd56b6dfe9ee2f1d629d017b2075750663/bin/dither/dither.rb
-[13]: https://sinatrarb.com/
-[14]: https://github.com/minimagick/minimagick
+[13]: https://github.com/dce/davideisinger.com/blob/bf5238dd56b6dfe9ee2f1d629d017b2075750663/bin/dither/dither.rb
+[14]: https://sinatrarb.com/
+[15]: https://github.com/minimagick/minimagick
 
-If you want to run it yourself, copy down everything in the [`bin/dither`][15] folder and then run the following:
+If you want to run it yourself, copy down everything in the [`bin/dither`][16] folder and then run the following:
 
-[15]: https://github.com/dce/davideisinger.com/tree/bf5238dd56b6dfe9ee2f1d629d017b2075750663/bin/dither
+[16]: https://github.com/dce/davideisinger.com/tree/bf5238dd56b6dfe9ee2f1d629d017b2075750663/bin/dither
 
 
 ```sh
@@ -119,7 +123,7 @@ Then start Hugo like this:
 DITHER_SERVER=http://localhost:4567 hugo server
 ```
 
-Now we'll create the shortcode ([`layouts/shortcodes/dither.html`][16]):
+Now we'll create the shortcode ([`layouts/shortcodes/dither.html`][17]):
 
 ```html
 {{ $file := printf "%s%s" .Page.File.Dir (.Get 0) }}
@@ -147,7 +151,7 @@ Adjust for your needs, but the gist is:
 2. Use `resources.GetRemote` to fetch the image
 3. Display as appropriate
 
-[16]: https://github.com/dce/davideisinger.com/blob/2cda4b8f4e98bb9df84747da283d13075aac4d41/themes/v2/layouts/shortcodes/dither.html
+[17]: https://github.com/dce/davideisinger.com/blob/2cda4b8f4e98bb9df84747da283d13075aac4d41/themes/v2/layouts/shortcodes/dither.html
 
 Use it like this:
 
@@ -157,7 +161,7 @@ Use it like this:
 
 ### 4. Delete the unencrypted images from the repository
 
-Now that everything's working, let's remove all the uncrypted images from the repository. It's not enough to just `git rm` them, since they'd still be present in the history, so we'll use [`git filter-repo`][17] to rewrite the history as if they never existed.
+Now that everything's working, let's remove all the uncrypted images from the repository. It's not enough to just `git rm` them, since they'd still be present in the history, so we'll use [`git filter-repo`][18] to rewrite the history as if they never existed.
 
 ```ruby
 Dir.glob("content/**/*.{jpg,jpeg,png}") do |path|
@@ -165,7 +169,7 @@ Dir.glob("content/**/*.{jpg,jpeg,png}") do |path|
 end
 ```
 
-[17]: https://github.com/newren/git-filter-repo
+[18]: https://github.com/newren/git-filter-repo
 
 ### 5. Tweak site styles
 
@@ -190,12 +194,12 @@ This site uses GitHub Actions to deploy on pushes to the `main` branch, and we n
   * Start the dither server as a background task (i.e. with `&`)
 * Add the `DITHER_SERVER` environment variable to the build step so that Hugo knows where to find it
 
-[Here's the deploy workflow for this site][18] for reference.
+[Here's the deploy workflow for this site][19] for reference.
 
-[18]: https://github.com/dce/davideisinger.com/blob/901c8baad1f60a65910b387b20c8bcd0ea402c0b/.github/workflows/deploy.yml
+[19]: https://github.com/dce/davideisinger.com/blob/901c8baad1f60a65910b387b20c8bcd0ea402c0b/.github/workflows/deploy.yml
 
 ***
 
-This was super fun to build, and I'm really happy with [the result][19]. It makes the local authoring and deploy processes a bit more complicated since we have to run the separate image server, but I think the result is worth it. Hope you found this interesting, and please [reach out](mailto:hello@davideisinger.com) if you have any thoughts or questions.
+This was super fun to build, and I'm really happy with [the result][20]. It makes the local authoring and deploy processes a bit more complicated since we have to run the separate image server, but I think the result is worth it. Hope you found this interesting, and please [reach out](mailto:hello@davideisinger.com) if you have any thoughts or questions.
 
-[19]: /journal/dispatch-12-february-2024/
+[20]: /journal/dispatch-12-february-2024/
