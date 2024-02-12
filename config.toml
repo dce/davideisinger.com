@@ -6,22 +6,21 @@ enableGitInfo = true
 timeout = '120s'
 
 [params.author]
-  name = 'David Eisinger'
-  email = 'hello@davideisinger.com'
+name = 'David Eisinger'
+email = 'hello@davideisinger.com'
 
 [permalinks]
-  pages = '/:title'
+pages = '/:title'
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-  [markup.highlight]
-    style = 'nord'
-  [markup.goldmark.parser]
-    autoHeadingID = true
-    autoHeadingIDType = 'blackfriday'
+[markup.highlight]
+style = 'nord'
 
-[security]
-  [security.funcs]
-    getenv = ['DITHER_SERVER']
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.goldmark.parser]
+autoHeadingID = true
+autoHeadingIDType = 'blackfriday'
+
+[security.funcs]
+getenv = ['DITHER_SERVER']
