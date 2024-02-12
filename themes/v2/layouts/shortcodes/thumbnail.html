@@ -1,0 +1,17 @@
+{{ $orig := .Page.Resources.GetMatch (.Get 0) }}
+{{ $options := .Get 1 }}
+
+{{ $img := $orig.Resize $options }}
+
+{{ if findRE `\d+x\d+` $options }}
+  {{ $img = $orig.Fill (printf "%s center" $options) }}
+{{ end }}
+
+<a href="{{ $orig.RelPermalink }}">
+  <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}">
+  {{ with .Inner }}
+    <figcaption>
+      {{ . }}
+    </figcaption>
+  {{ end }}
+</a>

@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+file = ARGV.pop || raise("please supply a filename")
+
+raise("file '#{file}' does not exist") unless File.exist?(file)
+
+%x(
+  openssl \
+    aes-256-cbc \
+    -in #{file} \
+    -out #{file}.enc \
+    -pass file:secret.key \
+    -iter 1000000
+)

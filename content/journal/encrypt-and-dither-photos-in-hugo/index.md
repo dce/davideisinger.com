@@ -46,7 +46,14 @@ Most of what I post on this site are these monthly [dispatches][6] that start wi
 
 I tried treating the full-size images with ImageMagick on the command line and then letting Hugo resize the result, but I wasn't happy with the output -- there's still way too much data in a dithered full-sized image, so when you scale it down, it just looks like a crappy black-and-white photo. Furthermore, the encoding wasn't properly optimizing for two-color images and so the files were larger than I wanted.
 
-I needed to find some way to scale the images to the appropriate size and _then_ apply the dither.  Fortunately, Hugo has the ability to [fetch remote images][9], which got me thinking about a separate image processing service. After a late night of coding, I've got a solution I'm quite pleased with. Read on for more details, and if you want to follow along, you'll need to have Ruby installed (I recommend [asdf][10] if you're on a Unix-y OS) as well as ImageMagick and OpenSSL.
+I needed to find some way to scale the images to the appropriate size and _then_ apply the dither. Fortunately, Hugo has the ability to [fetch remote images][9], which got me thinking about a separate image processing service. After a late night of coding, I've got a solution I'm quite pleased with.
+
+Here's a picture of me, before and after dithering:
+
+{{<thumbnail race_121539.jpg "782x900" />}}
+{{<dither race_121539.jpg "782x900" />}}
+
+ Read on for more details, and if you want to follow along, you'll need to have Ruby installed (I recommend [asdf][10] if you're on a Unix-y OS) as well as ImageMagick and OpenSSL.
 
 [9]: https://gohugo.io/content-management/image-processing/#remote-resource
 [10]: https://asdf-vm.com/
@@ -86,7 +93,7 @@ end
 
 ### 2. Build a tiny image server
 
-I wrote a [very simple image server][13] using [Sinatra][14] and [MiniMagick][15] that takes a path to an image and an optional geometry string and returns a dithered image. I won't paste the entire file here but it's really pretty short and simple.
+I made a [standalone image server][13] using [Sinatra][14] and [MiniMagick][15] that takes a path to an encrypted image and an optional geometry string and returns a dithered image. I won't paste the entire file here but it's really pretty short and simple.
 
 [13]: https://github.com/dce/davideisinger.com/blob/bf5238dd56b6dfe9ee2f1d629d017b2075750663/bin/dither/dither.rb
 [14]: https://sinatrarb.com/
@@ -112,9 +119,8 @@ Then, assuming you have an encrypted image at `content/path/to/file.jpg.enc`, yo
 We need to tell Hugo where to find our image server, which we'll supply with an environment variable. First, we'll give Hugo access to `DITHER_SERVER` in `config.toml`:
 
 ```toml
-[security]
-  [security.funcs]
-    getenv = ['DITHER_SERVER']
+[security.funcs]
+getenv = ['DITHER_SERVER']
 ```
 
 Then start Hugo like this:
