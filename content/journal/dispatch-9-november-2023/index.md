@@ -60,7 +60,7 @@ I also made some updates to my [`golong`][8] tool to prep for a fantasy NBA draf
 
 I'm still having a blast with the Novation Circuit Tracks I got last month. I came up with a track I actually really like, which I'm calling "Radiatus" (which is a [type of cloud][9]):
 
-<audio controls src="Radiatus.mp3"></audio>
+<audio controls src="/journal/dispatch-9-november-2023/Radiatus.mp3"></audio>
 
 [9]: https://cloudatlas.wmo.int/en/clouds-varieties-radiatus.html
 

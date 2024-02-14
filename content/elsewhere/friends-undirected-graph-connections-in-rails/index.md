@@ -16,7 +16,7 @@ No, sorry, not THOSE friends. But if you're interested in how to do
 some graph stuff in a relational database, SMASH that play button and
 read on.
 
-<audio controls src="friends.mp3"></audio>
+<audio controls src="/elsewhere/friends-undirected-graph-connections-in-rails/friends.mp3"></audio>
 
 My current project is a social network of sorts, and includes the
 ability for users to connect with one another. I've built this

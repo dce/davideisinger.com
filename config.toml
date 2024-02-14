@@ -12,6 +12,9 @@ email = 'hello@davideisinger.com'
 [permalinks]
 pages = '/:title'
 
+[services.rss]
+limit = 10
+
 [markup.highlight]
 style = 'nord'
 
