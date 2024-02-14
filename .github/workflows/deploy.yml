@@ -47,7 +47,7 @@ jobs:
           DITHER_SERVER: http://localhost:4567
         run: |
           source bin/get-last-commit.sh
-          hugo
+          hugo --minify
           find public -name "*.enc" -type f -delete
 
       - name: Install SSH deploy key
