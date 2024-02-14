@@ -52,7 +52,7 @@ The following weekend, we headed up to Rehoboth Beach in Delaware to spend the w
 
 We also recorded this little jam featuring my 3.5-year-old niece on the melodica:
 
-<audio controls src="/journal/dispatch-7-september-2023Nomi.mp3"></audio>
+<audio controls src="/journal/dispatch-7-september-2023/Nomi.mp3"></audio>
 
 From there, we drove 400 miles to Greensboro, and then onto Lake Norman to spend Labor Day weekend with Claire's family, a relaxing way to cap off an eventful summer.
 
