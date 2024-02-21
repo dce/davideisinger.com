@@ -1,0 +1,445 @@
+  • [1]Consulting
+  • [2]Publications
+  • [3]Tools
+      □ [4]Why is my PowerPoint (.pptx) so large?
+
+[5]TechOverflowTechOverflowTechOverflow
+
+  • [6]Consulting
+  • [7]Publications
+  • [8]Tools
+      □ [9]Why is my PowerPoint (.pptx) so large?
+
+Create a systemd service for your docker-compose project in 10 seconds
+
+Run this in the directory where docker-compose.yml is located:
+
+curl -fsSL https://techoverflow.net/scripts/create-docker-compose-service.sh | sudo bash /dev/stdin
+
+This script will automatically create  a systemd service that
+starts docker-compose up and shuts down using docker-compose down. Our script
+will also systemctl enable the script (i.e. start automatically on boot)
+and systemctl start it (start it immediately).
+
+How it works
+
+The command above will download the script from TechOverflow and run it in
+bash:
+
+#!/bin/bash
+# Create a systemd service that autostarts & manages a docker-compose instance in the current directory
+# by Uli Köhler - https://techoverflow.net
+# Licensed as CC0 1.0 Universal
+SERVICENAME=$(basename $(pwd))
+
+echo "Creating systemd service... /etc/systemd/system/${SERVICENAME}.service"
+# Create systemd service file
+sudo cat >/etc/systemd/system/$SERVICENAME.service <<EOF
+[Unit]
+Description=$SERVICENAME
+Requires=docker.service
+After=docker.service
+
+[Service]
+Restart=always
+User=root
+Group=docker
+WorkingDirectory=$(pwd)
+# Shutdown container (if running) when unit is started
+ExecStartPre=$(which docker-compose) -f docker-compose.yml down
+# Start container when unit is started
+ExecStart=$(which docker-compose) -f docker-compose.yml up
+# Stop container when unit is stopped
+ExecStop=$(which docker-compose) -f docker-compose.yml down
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+echo "Enabling & starting $SERVICENAME"
+# Autostart systemd service
+sudo systemctl enable $SERVICENAME.service
+# Start systemd service now
+sudo systemctl start $SERVICENAME.service
+
+The service name is the directory name:
+
+SERVICENAME=$(basename $(pwd))
+
+Now we will create the service file in /etc/systemd/system/$
+{SERVICENAME}.service using the template embedded in the script
+
+The script will automatically determine the location of docker-composeusing $
+(which docker-compose) and finally enable and start the systemd service:
+
+# Autostart systemd service
+sudo systemctl enable $SERVICENAME.service
+# Start systemd service now
+sudo systemctl start $SERVICENAME.service
+
+ 
+
+*
+
+If this post helped you, please consider buying me a coffee or donating via
+PayPal to support research & publishing of new posts on TechOverflow
+
+
+Donate with PayPal button
+Search
+
+[12][                    ] [13][]
+Categories
+
+  • [15]3D printing (46)
+  • [16]Algorithms (6)
+  • [17]Allgemein (90)
+  • [18]Android (4)
+  • [19]APIs (1)
+  • [20]Arduino (7)
+  • [21]Audio (8)
+  • [22]Audio/Video (29)
+  • [23]Backup (3)
+  • [24]Bioinformatics (23)
+  • [25]CAD (1)
+  • [26]Calculators (28)
+  • [27]cloud-init (1)
+  • [28]Container (178)
+      □ [29]CoreOS (16)
+      □ [30]Docker (132)
+      □ [31]Kubernetes (11)
+      □ [32]LXC (16)
+      □ [33]Podman (2)
+      □ [34]Portainer (3)
+  • [35]Cryptography (11)
+  • [36]Data science (11)
+  • [37]Documentation (1)
+  • [38]E-Mail (3)
+  • [39]Economics (1)
+  • [40]Electronics (665)
+      □ [41]Analog (5)
+      □ [42]Compliance (8)
+      □ [43]Components (29)
+      □ [44]DALI (3)
+      □ [45]Embedded (426)
+          ☆ [46]Arduino (89)
+          ☆ [47]EFM8 (4)
+          ☆ [48]ESP8266/ESP32 (163)
+          ☆ [49]FreeRTOS (14)
+          ☆ [50]LVGL (6)
+          ☆ [51]mbed (16)
+          ☆ [52]MicroPython (15)
+          ☆ [53]NanoPB (2)
+          ☆ [54]PlatformIO (154)
+          ☆ [55]Raspberry Pi (60)
+          ☆ [56]STM32 (34)
+          ☆ [57]Teensy (10)
+      □ [58]EMI (3)
+      □ [59]FPGA (1)
+      □ [60]Home-Assistant (10)
+      □ [61]KiCAD (49)
+      □ [62]LinuxCNC (6)
+      □ [63]LumenPnP (3)
+      □ [64]Medical devices (6)
+      □ [65]Optoelectronics (1)
+      □ [66]SPICE (4)
+      □ [67]Teardown (1)
+  • [68]Frameworks (58)
+      □ [69]CadQuery (12)
+      □ [70]ImageMagick (2)
+      □ [71]InvenTree (11)
+      □ [72]Wordpress (33)
+  • [73]Fun (1)
+  • [74]Generators (4)
+  • [75]Geography (24)
+      □ [76]Leaflet (1)
+      □ [77]OpenStreetMap (4)
+  • [78]Geoinformatics (5)
+  • [79]Hardware (7)
+  • [80]Linux (347)
+      □ [81]Alpine Linux (30)
+      □ [82]systemd (16)
+  • [83]Machine learning (2)
+  • [84]Mathematics (10)
+  • [85]Networking (350)
+      □ [86]FreePBX (13)
+      □ [87]MikroTik (59)
+      □ [88]MQTT (28)
+          ☆ [89]EMQX (8)
+      □ [90]nginx (30)
+      □ [91]OpenWRT (14)
+      □ [92]PoE (8)
+      □ [93]SNMP (7)
+      □ [94]Synology (1)
+      □ [95]Tactical RMM (1)
+      □ [96]VPN (41)
+          ☆ [97]Headscale (15)
+          ☆ [98]OpenVPN (2)
+          ☆ [99]Wireguard (24)
+      □ [100]ZeroTier (9)
+  • [101]Nextcloud (11)
+  • [102]OpenCASCADE (33)
+  • [103]Patents (1)
+  • [104]PDF (5)
+  • [105]Performance (4)
+  • [106]Physics (7)
+  • [107]Programming languages (1,105)
+      □ [108]C/C++ (318)
+          ☆ [109]Boost (31)
+          ☆ [110]GCC errors (51)
+      □ [111]C# (4)
+      □ [112]CSS (1)
+      □ [113]Go (9)
+      □ [114]Haskell (8)
+      □ [115]Haxe (2)
+      □ [116]HTML (7)
+      □ [117]Java (7)
+      □ [118]Javascript (146)
+          ☆ [119]Angular (33)
+          ☆ [120]NodeJS (58)
+      □ [121]LaTeX (22)
+      □ [122]Octave (13)
+      □ [123]PHP (23)
+      □ [124]Python (516)
+          ☆ [125]Cartopy (15)
+          ☆ [126]OpenPyXL (7)
+          ☆ [127]pandas (52)
+          ☆ [128]Paramiko (4)
+          ☆ [129]skyfield (6)
+      □ [130]R (13)
+      □ [131]Ruby (3)
+      □ [132]Shell (19)
+      □ [133]Typescript (23)
+  • [134]Project management (78)
+      □ [135]Build systems (51)
+          ☆ [136]CMake (26)
+          ☆ [137]Conan (17)
+          ☆ [138]SCons (2)
+      □ [139]Version management (25)
+          ☆ [140]git (24)
+          ☆ [141]Subversion (2)
+  • [142]Security (5)
+  • [143]Statistics (8)
+  • [144]Technologies (224)
+      □ [145]bup (10)
+      □ [146]Cloud (34)
+      □ [147]Databases (72)
+          ☆ [148]ElasticSearch (34)
+          ☆ [149]MongoDB (9)
+          ☆ [150]SQLite (6)
+      □ [151]GitLab (7)
+      □ [152]GPU (1)
+      □ [153]Jupyter (5)
+      □ [154]LLVM (2)
+      □ [155]OpenCV (10)
+      □ [156]Puppeteer (29)
+          ☆ [157]Pyppeteer (13)
+      □ [158]S3 (21)
+      □ [159]Traefik (17)
+      □ [160]Virtualization (18)
+      □ [161]WASM (1)
+      □ [162]Zigbee (1)
+  • [163]TechOverflow (2)
+  • [164]veeam (2)
+  • [165]Video (7)
+  • [166]Windows (17)
+      □ [167]PowerShell (4)
+
+  • [168]Impressum & Datenschutz
+
+© 2024 TechOverflow. Bento theme by Satori
+This website uses cookies to improve your experience. We'll assume you're ok
+with this, but you can opt-out if you wish. Cookie settingsACCEPTPrivacy &amp;
+Cookies Policy
+Close
+
+Privacy Overview
+
+This website uses cookies to improve your experience while you navigate through
+the website. Out of these cookies, the cookies that are categorized as
+necessary are stored on your browser as they are essential for the working of
+basic functionalities of the website. We also use third-party cookies that help
+us analyze and understand how you use this website. These cookies will be
+stored in your browser only with your consent. You also have the option to
+opt-out of these cookies. But opting out of some of these cookies may have an
+effect on your browsing experience.
+Necessary
+[170][*] Necessary
+Always Enabled
+Necessary cookies are absolutely essential for the website to function
+properly. This category only includes cookies that ensures basic
+functionalities and security features of the website. These cookies do not
+store any personal information.
+Non-necessary
+[171][*] Non-necessary
+Any cookies that may not be particularly necessary for the website to function
+and is used specifically to collect user personal data via analytics, ads,
+other embedded contents are termed as non-necessary cookies. It is mandatory to
+procure user consent prior to running these cookies on your website.
+SAVE & ACCEPT
+
+References:
+
+[1] https://techoverflow.net/consulting/
+[2] https://techoverflow.net/publications/
+[3] https://techoverflow.net/2020/10/24/create-a-systemd-service-for-your-docker-compose-project-in-10-seconds/#
+[4] https://techoverflow.net/why-is-my-powerpoint-pptx-so-large/
+[5] https://techoverflow.net/
+[6] https://techoverflow.net/consulting/
+[7] https://techoverflow.net/publications/
+[8] https://techoverflow.net/2020/10/24/create-a-systemd-service-for-your-docker-compose-project-in-10-seconds/#
+[9] https://techoverflow.net/why-is-my-powerpoint-pptx-so-large/
+[15] https://techoverflow.net/category/3d-printing/
+[16] https://techoverflow.net/category/algorithms/
+[17] https://techoverflow.net/category/allgemein/
+[18] https://techoverflow.net/category/android/
+[19] https://techoverflow.net/category/apis/
+[20] https://techoverflow.net/category/arduino/
+[21] https://techoverflow.net/category/audio/
+[22] https://techoverflow.net/category/audio-video/
+[23] https://techoverflow.net/category/backup/
+[24] https://techoverflow.net/category/bioinformatics/
+[25] https://techoverflow.net/category/cad/
+[26] https://techoverflow.net/category/calculators/
+[27] https://techoverflow.net/category/cloud-init/
+[28] https://techoverflow.net/category/container/
+[29] https://techoverflow.net/category/container/coreos/
+[30] https://techoverflow.net/category/container/docker/
+[31] https://techoverflow.net/category/container/kubernetes/
+[32] https://techoverflow.net/category/container/lxc/
+[33] https://techoverflow.net/category/container/podman/
+[34] https://techoverflow.net/category/container/portainer/
+[35] https://techoverflow.net/category/cryptography/
+[36] https://techoverflow.net/category/data-science/
+[37] https://techoverflow.net/category/documentation/
+[38] https://techoverflow.net/category/e-mail/
+[39] https://techoverflow.net/category/economics/
+[40] https://techoverflow.net/category/electronics/
+[41] https://techoverflow.net/category/electronics/analog/
+[42] https://techoverflow.net/category/electronics/compliance/
+[43] https://techoverflow.net/category/electronics/components/
+[44] https://techoverflow.net/category/electronics/dali/
+[45] https://techoverflow.net/category/electronics/embedded/
+[46] https://techoverflow.net/category/electronics/embedded/arduino-embedded/
+[47] https://techoverflow.net/category/electronics/embedded/efm8/
+[48] https://techoverflow.net/category/electronics/embedded/esp8266-esp32/
+[49] https://techoverflow.net/category/electronics/embedded/freertos/
+[50] https://techoverflow.net/category/electronics/embedded/lvgl/
+[51] https://techoverflow.net/category/electronics/embedded/mbed/
+[52] https://techoverflow.net/category/electronics/embedded/micropython/
+[53] https://techoverflow.net/category/electronics/embedded/nanopb/
+[54] https://techoverflow.net/category/electronics/embedded/platformio/
+[55] https://techoverflow.net/category/electronics/embedded/raspberry-pi/
+[56] https://techoverflow.net/category/electronics/embedded/stm32/
+[57] https://techoverflow.net/category/electronics/embedded/teensy/
+[58] https://techoverflow.net/category/electronics/emi/
+[59] https://techoverflow.net/category/electronics/fpga/
+[60] https://techoverflow.net/category/electronics/home-assistant/
+[61] https://techoverflow.net/category/electronics/kicad/
+[62] https://techoverflow.net/category/electronics/linuxcnc/
+[63] https://techoverflow.net/category/electronics/lumenpnp/
+[64] https://techoverflow.net/category/electronics/medical-devices/
+[65] https://techoverflow.net/category/electronics/optoelectronics/
+[66] https://techoverflow.net/category/electronics/spice/
+[67] https://techoverflow.net/category/electronics/teardown/
+[68] https://techoverflow.net/category/frameworks/
+[69] https://techoverflow.net/category/frameworks/cadquery/
+[70] https://techoverflow.net/category/frameworks/imagemagick/
+[71] https://techoverflow.net/category/frameworks/inventree/
+[72] https://techoverflow.net/category/frameworks/wordpress/
+[73] https://techoverflow.net/category/fun/
+[74] https://techoverflow.net/category/generators/
+[75] https://techoverflow.net/category/geography/
+[76] https://techoverflow.net/category/geography/leaflet/
+[77] https://techoverflow.net/category/geography/openstreetmap/
+[78] https://techoverflow.net/category/geoinformatics/
+[79] https://techoverflow.net/category/hardware/
+[80] https://techoverflow.net/category/linux/
+[81] https://techoverflow.net/category/linux/alpine-linux/
+[82] https://techoverflow.net/category/linux/systemd/
+[83] https://techoverflow.net/category/machine-learning/
+[84] https://techoverflow.net/category/mathematics/
+[85] https://techoverflow.net/category/networking/
+[86] https://techoverflow.net/category/networking/freepbx/
+[87] https://techoverflow.net/category/networking/mikrotik/
+[88] https://techoverflow.net/category/networking/mqtt/
+[89] https://techoverflow.net/category/networking/mqtt/emqx/
+[90] https://techoverflow.net/category/networking/nginx/
+[91] https://techoverflow.net/category/networking/openwrt/
+[92] https://techoverflow.net/category/networking/poe/
+[93] https://techoverflow.net/category/networking/snmp/
+[94] https://techoverflow.net/category/networking/synology/
+[95] https://techoverflow.net/category/networking/tactical-rmm/
+[96] https://techoverflow.net/category/networking/vpn/
+[97] https://techoverflow.net/category/networking/vpn/headscale/
+[98] https://techoverflow.net/category/networking/vpn/openvpn/
+[99] https://techoverflow.net/category/networking/vpn/wireguard/
+[100] https://techoverflow.net/category/networking/zerotier/
+[101] https://techoverflow.net/category/nextcloud/
+[102] https://techoverflow.net/category/opencascade/
+[103] https://techoverflow.net/category/patents/
+[104] https://techoverflow.net/category/pdf/
+[105] https://techoverflow.net/category/performance/
+[106] https://techoverflow.net/category/physics/
+[107] https://techoverflow.net/category/programming-languages/
+[108] https://techoverflow.net/category/programming-languages/c-cpp/
+[109] https://techoverflow.net/category/programming-languages/c-cpp/boost/
+[110] https://techoverflow.net/category/programming-languages/c-cpp/gcc-errors/
+[111] https://techoverflow.net/category/programming-languages/c/
+[112] https://techoverflow.net/category/programming-languages/css/
+[113] https://techoverflow.net/category/programming-languages/go/
+[114] https://techoverflow.net/category/programming-languages/haskell/
+[115] https://techoverflow.net/category/programming-languages/haxe/
+[116] https://techoverflow.net/category/programming-languages/html/
+[117] https://techoverflow.net/category/programming-languages/java/
+[118] https://techoverflow.net/category/programming-languages/javascript/
+[119] https://techoverflow.net/category/programming-languages/javascript/angular/
+[120] https://techoverflow.net/category/programming-languages/javascript/nodejs/
+[121] https://techoverflow.net/category/programming-languages/latex/
+[122] https://techoverflow.net/category/programming-languages/octave/
+[123] https://techoverflow.net/category/programming-languages/php/
+[124] https://techoverflow.net/category/programming-languages/python/
+[125] https://techoverflow.net/category/programming-languages/python/cartopy/
+[126] https://techoverflow.net/category/programming-languages/python/openpyxl-python/
+[127] https://techoverflow.net/category/programming-languages/python/pandas/
+[128] https://techoverflow.net/category/programming-languages/python/paramiko/
+[129] https://techoverflow.net/category/programming-languages/python/skyfield/
+[130] https://techoverflow.net/category/programming-languages/r/
+[131] https://techoverflow.net/category/programming-languages/ruby/
+[132] https://techoverflow.net/category/programming-languages/shell/
+[133] https://techoverflow.net/category/programming-languages/typescript/
+[134] https://techoverflow.net/category/project-management/
+[135] https://techoverflow.net/category/project-management/build-systems/
+[136] https://techoverflow.net/category/project-management/build-systems/cmake/
+[137] https://techoverflow.net/category/project-management/build-systems/conan/
+[138] https://techoverflow.net/category/project-management/build-systems/scons/
+[139] https://techoverflow.net/category/project-management/version-management/
+[140] https://techoverflow.net/category/project-management/version-management/git/
+[141] https://techoverflow.net/category/project-management/version-management/subversion/
+[142] https://techoverflow.net/category/security/
+[143] https://techoverflow.net/category/statistics/
+[144] https://techoverflow.net/category/technologies/
+[145] https://techoverflow.net/category/technologies/bup/
+[146] https://techoverflow.net/category/technologies/cloud/
+[147] https://techoverflow.net/category/technologies/databases/
+[148] https://techoverflow.net/category/technologies/databases/elasticsearch/
+[149] https://techoverflow.net/category/technologies/databases/mongodb/
+[150] https://techoverflow.net/category/technologies/databases/sqlite/
+[151] https://techoverflow.net/category/technologies/gitlab/
+[152] https://techoverflow.net/category/technologies/gpu/
+[153] https://techoverflow.net/category/technologies/jupyter/
+[154] https://techoverflow.net/category/technologies/llvm/
+[155] https://techoverflow.net/category/technologies/opencv/
+[156] https://techoverflow.net/category/technologies/puppeteer/
+[157] https://techoverflow.net/category/technologies/puppeteer/pyppeteer/
+[158] https://techoverflow.net/category/technologies/s3/
+[159] https://techoverflow.net/category/technologies/traefik/
+[160] https://techoverflow.net/category/technologies/virtualization/
+[161] https://techoverflow.net/category/technologies/wasm/
+[162] https://techoverflow.net/category/technologies/zigbee/
+[163] https://techoverflow.net/category/techoverflow/
+[164] https://techoverflow.net/category/veeam/
+[165] https://techoverflow.net/category/video/
+[166] https://techoverflow.net/category/windows/
+[167] https://techoverflow.net/category/windows/powershell/
+[168] https://techoverflow.net/impressum-datenschutz/
