@@ -71,5 +71,6 @@ jobs:
             -v \
             -r \
             --delete \
+            -e "ssh -o PubkeyAcceptedKeyTypes=+ssh-rsa" \
             public/* \
             www-data@$SERVER_IP:/var/www/davideisinger.com
