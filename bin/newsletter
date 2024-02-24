@@ -1,0 +1,49 @@
+#!/usr/bin/env ruby
+
+require "httparty"
+require "nokogiri"
+require "open-uri"
+
+feed = Nokogiri::XML(
+  URI.open("https://davideisinger.com/index.xml")
+)
+
+post = feed.search("rss channel item").first
+title = post.search("title").text
+url = post.search("link").text
+
+body = %(<h1>#{title}</h1>
+<p>
+  By David Eisinger &middot;
+  <a href="#{url}">View original post</a>
+</p>
+#{post.search("description").text}
+)
+  .gsub("{", "&#123;")
+  .gsub("}", "&#125;")
+  .gsub(/width="(\d+)"/) do
+    %(width="#{$1.to_i/2}")
+  end
+  .gsub(/height="(\d+)"/) do
+    %(height="#{$1.to_i/2}")
+  end
+  .gsub(/<audio controls src="([^"]+)"><\/audio>/) do
+    filename = $1.split("/").last
+    %(<a href="#{$1}">#{filename}</a>)
+  end
+
+p HTTParty.post(
+  "https://dispatch.davideisinger.com/api/campaigns",
+  basic_auth: {
+    username: ENV["USERNAME"],
+    password: ENV["PASSWORD"]
+  },
+  headers: { 'Content-Type' => 'application/json' },
+  body: {
+    name: title,
+    subject: title,
+    body: body,      
+    lists: [1]
+  }.to_json,
+  debug_output: $stdout
+)
