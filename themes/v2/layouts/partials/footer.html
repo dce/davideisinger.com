@@ -1,12 +1,13 @@
 <footer>
   <hr>
 
+  <a href="https://dispatch.davideisinger.com/subscription/form">Monthly Dispatch Emails</a> •
+  <a href="/index.xml">Feed</a><br>
+
   Rendered {{ now | dateFormat "2006-01-02 15:04:05 MST" }}
   {{ with site.Params.git.last_commit }}
     • <a href="https://github.com/dce/davideisinger.com/commit/{{ .hash }}">{{ substr .hash 0 7}}</a>
-  {{ end }}
-  <br>
-  <a href="https://v1.davideisinger.com">Version 1</a> •
-  <a href="/index.xml">Feed</a> •
+  {{ end }}<br>
+
   Copyright &copy; {{ now.Format "2006" }} David Eisinger
 </footer>
