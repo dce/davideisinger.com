@@ -1,0 +1,71 @@
+  • [1]Home
+  • [2]About
+  • [3]Archives
+  • [4]Bookshelf
+  • [5]Projects
+  • [6]Stories
+  • [7]
+
+The time to unmaintainable is very low
+
+January 23, 2024
+
+It’s so easy nowadays to get up and going on a project. I can burp some npm
+commands into my terminal, burp some more to setup a deployment pipeline and
+blam! Website. The time to product demo is so low. You can get far on your own…
+very quickly… but then… you’re on your own. And it’s possible you’ve built
+something way past your ability to maintain.
+
+To fix that problem or to allow you to do more business’y work, you add people
+to the process. But people cost lots of money. Unless what you’re building
+makes lots of money already, you probably have to raise VC. With a squad of
+developers burping npm commands, now you’re moving super fast. Hopefully money
+starts coming in, but the whole point of investment was so you could price the
+application artificially cheap to grow a user base that you upsell later. As
+the investment coffers tick down, the pressure goes up to land a new feature or
+gimmick so you can get another round of investment.
+
+You can, of course, ride the hype cycles. This year that’s AI. Investors might
+throw money at that. But now you’ve bolted on a feature from a highly volatile,
+emergent, non-deterministic space into your overgrown application. You’ll
+either need to hire more expensive people who know the space or divert existing
+resources who were performing maintenance over to the new feature.
+
+Oops, AI costs more than you can charge for it. You burned through the
+investment even faster and must do a round of layoffs. Now your app maintained
+by 10 people has 8 people… then 5… then 2…
+
+Paying people to burp npm commands is expensive, could AI do that? Vercel’s [8]
+v0, for example, farts out entire UIs. Great. In a day I have twelve thousand
+screens built. I have more UI than some developers will code in a lifetime. But
+I’m getting the itch to update it and the machine isn’t doing what I want it
+to… perhaps I’ll take some VC to hire some people to clean up these robo-farts.
+
+And by the time you finish all that work, it’ll be right in time for a major
+version update on a core dependency. Good luck out there.
+
+I realize I’m complaining about moving too fast but that’s not my intent.
+Although, I could argue that while driving 200mph is fun and exciting, you’re
+one small fuckup away from a major fuckup. My point is that a key factor of
+sustainability is making sure maintainability stays on par with growth. At the
+risk of sounding like a Luddite – [9]which I am – the ability to fancy
+copy-paste your way into an unmaintainable situation is higher than ever and
+that’s a trade-off we should think about.
+
+© 2024 Dave Rupert • [10]Mastodon • [11]Twitter • [12]Github
+
+
+References:
+
+[1] https://daverupert.com/
+[2] https://daverupert.com/about/
+[3] https://daverupert.com/archive/
+[4] https://daverupert.com/bookshelf/
+[5] https://daverupert.com/projects/
+[6] https://daverupert.com/stories/
+[7] https://daverupert.com/atom.xml
+[8] https://v0.dev/
+[9] https://amzn.to/3NA62WE
+[10] https://mastodon.social/@davatron5000
+[11] http://twitter.com/davatron5000
+[12] http://github.com/davatron5000/

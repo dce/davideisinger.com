@@ -55,6 +55,10 @@ references:
   url: https://infrequently.org/2023/02/the-market-for-lemons/
   date: 2024-02-26T03:15:24Z
   file: infrequently-org-tvobg0.txt
+- title: "The time to unmaintainable is very low | daverupert.com"
+  url: https://daverupert.com/2024/01/time-to-unmaintainable/
+  date: 2024-02-26T05:14:52Z
+  file: daverupert-com-v58fx7.txt
 ---
 
 ### Thoughts on priorities in software development
@@ -81,6 +85,7 @@ references:
 * [Keep your stack short][11]
 * [Making Software Last Forever][12]
 * [The Market for Lemons][13]
+* [The time to unmaintainable is very low][14]
 
 [3]: https://grugbrain.dev/
 [4]: https://world.hey.com/dhh/even-amazon-can-t-make-sense-of-serverless-or-microservices-59625580
@@ -93,3 +98,4 @@ references:
 [11]: https://aaronmbushnell.com/keep-your-stack-short/
 [12]: https://www.danstroot.com/posts/2023-05-25-making_software_last_forever
 [13]: https://infrequently.org/2023/02/the-market-for-lemons/
+[14]: https://daverupert.com/2024/01/time-to-unmaintainable/
