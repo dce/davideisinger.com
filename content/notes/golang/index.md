@@ -52,6 +52,7 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 * [Restic][6]
 * [Gotenberg][7]
 * [Shiori][8]
+* [Listmonk][9]
 
 [2]: https://gohugo.io/
 [3]: https://caddyserver.com/
@@ -60,34 +61,35 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 [6]: https://restic.net/
 [7]: https://gotenberg.dev/
 [8]: https://github.com/go-shiori/shiori
+[9]: https://listmonk.app/
 
 ### Project Ideas
 
 * Bookmarking app (Pinboard replacement)
 * Note-taking / journaling app
-* [StevieBlocks][9]
+* [StevieBlocks][10]
 
 {{<dither project1.png "374x" />}}
 
-[9]: https://gist.github.com/dce/f975cb21b50a2cf998bf7230cbf89d85
+[10]: https://gist.github.com/dce/f975cb21b50a2cf998bf7230cbf89d85
 
 ### Resources
 
-* [Standard Go Project Layout][10]
-* [The files & folders of Go projects][11]
-* [Why David Yach Loves Go][12]
-* [One process programming notes (with Go and SQLite)][13]
-* [Go Project Layout][14]
-* [Gopher Wrangling. Effective error handling in Go][15]
-* [Effective Go][16]
+* [Standard Go Project Layout][11]
+* [The files & folders of Go projects][12]
+* [Why David Yach Loves Go][13]
+* [One process programming notes (with Go and SQLite)][14]
+* [Go Project Layout][15]
+* [Gopher Wrangling. Effective error handling in Go][16]
+* [Effective Go][17]
 
-[10]: https://github.com/golang-standards/project-layout
-[11]: https://changelog.com/gotime/278
-[12]: https://cloud.google.com/blog/products/application-modernization/why-david-yach-loves-go
-[13]: https://crawshaw.io/blog/one-process-programming-notes
-[14]: https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2
-[15]: https://stephenn.com/2023/06/gopher-wrangling.-effective-error-handling-in-go/
-[16]: https://go.dev/doc/effective_go
+[11]: https://github.com/golang-standards/project-layout
+[12]: https://changelog.com/gotime/278
+[13]: https://cloud.google.com/blog/products/application-modernization/why-david-yach-loves-go
+[14]: https://crawshaw.io/blog/one-process-programming-notes
+[15]: https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2
+[16]: https://stephenn.com/2023/06/gopher-wrangling.-effective-error-handling-in-go/
+[17]: https://go.dev/doc/effective_go
 
 ### Notes
 
@@ -95,7 +97,7 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
   * Compile with `regexp.MustCompile` (no need to check for error)
   * Strings denoted by backticks don't escape; use these for regular expressions
   * For case-insensitive matching, start the expression with `(?i)`
-* [Unnamed parameters][17]
+* [Unnamed parameters][18]
 
   > Unnamed parameters are perfectly valid. The [Parameter declaration](https://golang.org/ref/spec#ParameterDecl) from the spec:
   >
@@ -107,7 +109,7 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
   >
   > The reason for this is because the names are not really important for someone calling a method or a function. What matters is the types of the parameters and their order. This is detailed in this answer: [Getting method parameter names in Golang](https://stackoverflow.com/questions/31377433/getting-method-parameter-names-in-golang/31377793#31377793)
 
-* [Named result parameters][18]
+* [Named result parameters][19]
 
   > The return or result "parameters" of a Go function can be given names and used as regular variables, just like the incoming parameters. When named, they are initialized to the zero values for their types when the function begins; if the function executes a return statement with no arguments, the current values of the result parameters are used as the returned values.
 
@@ -115,11 +117,11 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
   * Built-in functions for conversion (`float64`, `strconv.Atoi`)
   * `if v, ok := fnb.(FancyNumber); ok {` (`v` is a `FancyNumber` if `ok` is true)
   * `switch v := i.(type) {` (case per type, `v` is `i` cast to that type)
-* [Custom error types][19]
+* [Custom error types][20]
 
   > Usually, a struct is used to create a custom error type. By convention, custom error type names should end with `Error`. Also, it is best to set up the `Error() string` method with a pointer receiver, see this [Stackoverflow comment](https://stackoverflow.com/a/50333850) to learn about the reasoning. Note that this means you need to return a pointer to your custom error otherwise it will not count as `error` because the non-pointer value does not provide the `Error() string` method.
 
-* [Maps][20]
+* [Maps][21]
 
   > A Go map type looks like this: `map[KeyType]ValueType`
 
@@ -129,11 +131,11 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 
   > A two-value assignment tests for the existence of a key: `i, ok := m["route"]`
 
-  * [Insertion order has no effect on the order keys/values are retrieved in a `range` query][21]
+  * [Insertion order has no effect on the order keys/values are retrieved in a `range` query][22]
 
     > The iteration order over maps is not specified and is not guaranteed to be the same from one iteration to the next.
 
-  * [`new` allocates zeroed storage for a new item or type whatever and then returns a pointer to it.][22]
+  * [`new` allocates zeroed storage for a new item or type whatever and then returns a pointer to it.][23]
 
 * First-class functions
   * Go supports first-class functions (functions as arguments and return values of other functions)
@@ -149,7 +151,7 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
   * Define a `String() string` method for types so that `fmt` knows how to stringify them
   * E.g. `fmt.Sprintf("%s", yourThing)` will call `yourThing`'s `String()` function
 * Structs
-  * [What Are Golang's Anonymous Structs?][23]
+  * [What Are Golang's Anonymous Structs?][24]
 
   > An anonymous struct is just like a normal struct, but it is defined without a name and therefore cannot be referenced elsewhere in the code.
   >
@@ -157,7 +159,7 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
   >
   > To create an anonymous struct, just instantiate the instance immediately using a second pair of brackets after declaring the type.
 
-* [Time][24]
+* [Time][25]
   * `time.Duration` -- `time.Second * 1e9` is a duration of one billion seconds
   * `1e9` is the same as `1.0*math.Pow(10, 9)`
 * Runes
@@ -169,21 +171,21 @@ I find [Go][1] really compelling, even though it's not super applicable to my jo
 * Generics
   * Use `[]` to define types
   * `func keep[T int | []int | string](in []T, filter func(T) bool) (out []T) {`
-  * [Use `~` to allow "inheriting" (?) types][25]
+  * [Use `~` to allow "inheriting" (?) types][26]
 
   > In Go generics, the ~ tilde token is used in the form ~T to denote the set of types whose underlying type is T.
 
-* [Type Aliases][26]
+* [Type Aliases][27]
 
   > An alias declaration doesn’t create a new distinct type different from the type it’s created from. It just introduces an alias name T1, an alternate spelling, for the type denoted by T2.
 
-[17]: https://stackoverflow.com/a/40951013
-[18]: https://go.dev/doc/effective_go#named-results
-[19]: https://exercism.org/tracks/go/concepts/errors
-[20]: https://go.dev/blog/maps
-[21]: https://go.dev/ref/spec#RangeClause
-[22]: https://stackoverflow.com/a/34543716
-[23]: https://blog.boot.dev/golang/anonymous-structs-golang/
-[24]: https://pkg.go.dev/time
-[25]: https://stackoverflow.com/a/70890514
-[26]: https://yourbasic.org/golang/type-alias/
+[18]: https://stackoverflow.com/a/40951013
+[19]: https://go.dev/doc/effective_go#named-results
+[20]: https://exercism.org/tracks/go/concepts/errors
+[21]: https://go.dev/blog/maps
+[22]: https://go.dev/ref/spec#RangeClause
+[23]: https://stackoverflow.com/a/34543716
+[24]: https://blog.boot.dev/golang/anonymous-structs-golang/
+[25]: https://pkg.go.dev/time
+[26]: https://stackoverflow.com/a/70890514
+[27]: https://yourbasic.org/golang/type-alias/

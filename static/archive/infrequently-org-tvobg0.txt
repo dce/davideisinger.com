@@ -1,0 +1,607 @@
+[1]Skip to main content
+
+[2]Infrequently Noted
+
+Alex Russell on browsers, standards, and the process of progress.
+
+
+  • [3]Home
+  • [4]About
+  • [5] RSS
+  • [6]Mastodon
+
+[7]Series
+
+  • [8]Browser Choice Must Matter
+  • [9]Effective Standards Work
+  • [10]The Performance Inequality Gap
+
+Recently
+
+  • [11]Home Screen Advantage
+  • [12]The Performance Inequality Gap, 2024
+  • [13]Why Are Tech Reporters Sleeping On The Biggest App Store Story?
+  • [14]Safari 16.4 Is An Admission
+  • [15]'22, [16]'21, [17]'20, [18]Earlier
+
+Popular
+
+  • [19]The Performance Inequality Gap, 2024
+  • [20]The Market for Lemons
+  • [21]The Performance Inequality Gap, 2023
+  • [22]Safari 16.4 Is An Admission
+
+[23]The Market for Lemons
+
+February 4, 2023
+
+For most of the past decade, I have spent a considerable fraction of my
+professional life consulting with teams building on the web.
+
+It is not going well.
+
+Not only are new services being built to a self-defeatingly low UX and
+performance standard, existing experiences are pervasively re-developed on
+unspeakably slow, JS-taxed stacks. At a business level, this is a disaster,
+raising the question: "why are new teams buying into stacks that have failed so
+often before?"
+
+In other words, "why is this market so inefficient?"
+
+  • [24]What Did They Know And When Did They Know It?
+  • [25]Sandy Foundations
+  • [26]Denouement
+  • [27]Shrinkage
+
+George Akerlof's most famous paper introduced economists to the idea that
+information asymmetries distort markets and reduce the quality of goods because
+sellers with more information can pass off low-quality products as more
+valuable than informed buyers appraise them to be. ([28]PDF, [29]summary)
+
+Customers that can't assess the quality of products pay the wrong amount for
+them, creating a disincentive for high-quality products to emerge and working
+against their success when they do. For many years, this effect has dominated
+the frontend technology market. Partisans for slow, complex frameworks have
+successfully marketed lemons as the hot new thing, despite the pervasive
+failures in their wake, crowding out higher-quality options in the process.^
+[30][1]
+
+These technologies were initially pitched on the back of "better user
+experiences", but have [31]utterly failed to deliver on that promise outside of
+the [32]high-management-maturity organisations in which they were born.^[33][2]
+Transplanted into the wider web, these new stacks have proven to be [34]
+expensive duds.
+
+The complexity merchants knew their environments weren't typical, but sold
+highly specialised to folks shopping for general purpose solutions anyway. They
+understood most sites lack latency budgeting, dedicated performance teams,
+hawkish management reviews, ship gates to prevent regressions, and end-to-end
+measurements of critical user journeys. They grasped that massive investment in
+controlling complexity is the only way to scale JS-driven frontends, but warned
+none of their customers.
+
+They also knew that their choices were hard to replicate. Few can afford to
+build and maintain 3+ versions of a site ("desktop", "mobile", and "lite"), and
+vanishingly few web experiences feature long sessions and login-gated content.^
+[35][3]
+
+Armed with this knowledge, they kept the caveats to themselves.
+
+What Did They Know And When Did They Know It? [36]#
+
+This information asymmetry persists; the worst actors still haven't levelled
+with their communities about what it takes to operate complex JS stacks at
+scale. They did not signpost the delicate balance of engineering constraints
+that allowed their products to adopt this new, slow, and complicated tech. Why?
+For the same reason used car dealers don't talk up average monthly repair
+costs.
+
+The market for lemons depends on customers having less information than those
+selling shoddy products. Some who hyped these stacks early on were earnestly
+ignorant, which is forgivable when recognition of error leads to changes in
+behaviour. But that's not what the most popular frameworks of the last decade
+did.
+
+As time passed, and the results continued to underwhelm, an initial lack of
+clarity was revealed to be intentional omission. These omissions have been
+material to both users and developers. Extensive evidence of these failures was
+provided directly to their marketeers, often by me. At some point (certainly by
+2017) the omissions veered into intentional prevarication.
+
+Faced with the dawning realisation that this tech mostly made things worse, not
+better, the JS-industrial-complex [37]pulled an Exxon.
+
+They could have copped to an honest error, admitted that these technologies
+require vast infrastructure to operate; that they are unscalable in the hands
+of all but the most sophisticated teams. They did the opposite, doubling down, 
+[38]breathlessly announcing vapourware year after [39]year to forestall
+critical thinking about fundamental design flaws. They also worked behind the
+scenes to marginalise those who pointed out the disturbing results and
+extraordinary costs.
+
+Credit where it's due, the complexity merchants have been incredibly effective
+in one regard: top-shelf marketing discipline.
+
+Over the last ten years, they have worked overtime to make frontend an
+evidence-free zone. The hucksters knew that discussions about performance
+tradeoffs would not end with teams investing more in their technology, so
+boosterism and misdirection were aggressively substituted for evidence and
+debate. Like a curtain of Halon descending to put out the fire of engineering
+dialogue, they blanketed the discourse with toxic positivity. Those who dared
+speak up were branded "negative" and "haters", no matter how much data they
+lugged in tow.
+
+Sandy Foundations [40]#
+
+[41]It was, of course, bullshit.
+
+Astonishingly, gobsmackingly effective bullshit, but nonsense nonetheless.
+There was a point to it, though. Playing for time allowed the bullshitters to
+punt introspection of the always-wrong assumptions they'd built their entire
+technical ediface on:
+
+  • CPUs get faster every year
+
+    [ narrator: [42]they do not  ]
+
+  • Organisations can manage these complex stacks
+
+    [ narrator: [43]they cannot  ]
+
+In time, these misapprehensions would become cursed articles of faith.
+
+All of this was [44]falsified by 2016, but nobody wanted to turn on the house
+lights while the JS party was in full swing. Not the developers being showered
+with shiny tools and boffo praise for replacing "legacy" HTML and CSS that
+performed fine. Not the scoundrels peddling foul JavaScript elixirs and
+potions. Not the managers that craved a check to write and a rewrite to take
+credit for in lieu of critical thinking about user needs and market research.
+
+Consider the narrative [45]Crazy Ivans that led to this point.
+
+[46] By 2013 the trashfuture was here, just not evenly distributed yet.
+Undeterred, the complexity merchants spent a decade selling <a href='/2022/12/
+performance-baseline-2023/'>inequality-exascerbating technology</a> as a
+cure-all tonic. By 2013 the trashfuture was here, just not evenly distributed
+yet. Undeterred, the complexity merchants spent a decade selling [47]
+inequality-exascerbating technology as a cure-all tonic.
+
+It's challenging to summarise a vast discourse over the span of a decade,
+particularly one as dense with jargon and acronyms as that which led to today's
+status quo of overpriced failure. These are not quotes, but vignettes of
+distinct epochs in our tortured journey:
+
+  • "Progressive Enhancement has failed! Multiple pages are slow and clunky!
+
+    SPAs are a better user experience, and managing state is a big problem on
+    the client side. You'll need a tool to help structure that complexity when
+    rendering on the client side, and our framework works at scale"
+
+    [  [48]illustrative example  ]
+
+  • "Instead of waiting on the JavaScript that will absolutely deliver a
+    superior SPA experience...someday...why not render on the server as well,
+    so that there's something for the user to look at while they wait for our
+    awesome and totally scalable JavaScript to collect its thoughts?"
+
+    [  [49]an intro to "isomorphic javascript", a.k.a. "Server-Side Rendering",
+    a.k.a. "SSR"  ]
+
+  • "SPAs are a better experience, but everyone knows you'll need to do all the
+    work twice because SSR makes that better experience minimally usable. But
+    even with SSR, you might be sending so much JS that things feel bad. So
+    give us credit for a promise of vapourware for delay-loading parts of your
+    JS."
+
+    [  [50]impressive stage management  ]
+
+  • "SPAs are a better experience. SSR is vital because SPAs take a long time
+    to start up, and you aren't using our vapourware to split your code
+    effectively. As a result, the main thread is often locked up, which could
+    be bad?
+
+    Anyway, this is totally your fault and not the predictable result of us
+    failing to advise you about the controls and budgets we found necessary to
+    scale JS in our environment. Regardless, we see that you lock up main
+    threads for seconds when using our slow system, so in a few years we'll
+    create a parallel scheduler that will break up the work transparently"
+
+    [  [51]2017's beautiful overview of a fated errand and [52]2018's
+    breathless re-brand  ]
+
+  • "The scheduler isn't ready, but thanks for your patience; here's a new way
+    to spell your component that introduces new timing issues but doesn't
+    address the fact that our system is incredibly slow, built for browsers you
+    no longer support, and that CPUs are not getting faster"
+
+    [  [53]representative pitch  ]
+
+  • "Now that you're 'SSR'ing your SPA and have re-spelt all of your
+    components, and given that the scheduler hasn't fixed things and CPUs
+    haven't gotten faster, why not skip SPAs and settle for progressive
+    enhancement of sections of a document?"
+
+    [  [54]"islands", [55]"server components", etc.  ]
+
+It's the [56]Steamed Hams of technology pitches.
+
+Like Chalmers, teams and managers often acquiesce to the contradictions
+embedded in the stacked rationalisations. Together, the community invented
+dozens of reasons to look the other way, from the theoretically plausible to
+the fully imaginary.
+
+But even as the complexity merchant's well-intentioned victims meekly recite
+the koans of trickle-down UX — it can work this time, if only we try it hard
+enough! — the evidence mounts that "modern" web development is, in the main, an
+expensive failure.
+
+The baroque and insular terminology of the in-group is a clue. It's functional
+purpose (outside of signaling) is to obscure furious plate spinning. The tech
+isn't working, but admitting as much would shrink the market for lemons.
+
+You'd be forgiven for thinking the verbiage was designed obfuscate. Little
+comfort, then, that folks selling new approaches must now [57]wade through
+waist-deep jargon excrement [58]to argue for the next increment of complexity.
+
+The most recent turn is as predictable as it is bilious. Today's most
+successful complexity merchants have never backed down, never apologised, and
+never come clean about what they knew about the level of expense involved in
+keeping SPA-oriented technologies in check. But they expect you'll follow them
+down the next dark alley anyway:
+
+[59] An admission against interest. An admission against interest.
+
+And why not? The industry has been down to clown for so long it's hard to get
+in the door if you aren't wearing a red nose.
+
+The substitution of heroic developer narratives for user success happened
+imperceptibly. Admitting it was a mistake would embarrass the good and the
+great alike. Once the lemon sellers embed the data-light idea that improved
+"Developer Experience" ("DX") leads to better user outcomes, improving "DX"
+became and end unto itself. Many who knew better felt forced to play along.
+
+The long lead time for falsifying trickle-down UX was a feature, not a bug;
+they don't need you to succeed, only to keep buying.
+
+As marketing goes, the "DX" [60]bait-and-switch is brilliant, but the tech
+isn't delivering for anyone but developers.^[61][4] The highest goal of the
+complexity merchants is to put brands on showcase microsites and to make
+acqui-hiring failing startups easier. Performance and success of the resulting
+products is merely a nice-to-have.
+
+Denouement [62]#
+
+You'd think there would be data, that we would be awash in case studies and
+blog posts attributing product success to adoption of SPAs and heavy frameworks
+in an incontrovertable way.
+
+And yet, after more than a decade of JS hot air, the framework-centric pitch is
+still phrased in speculative terms because there's no there there. The
+complexity merchants can't cop to the fact that [63]management competence and 
+lower complexity — not baroque technology — are determinative of product and
+end-user success.
+
+The simmering, widespread failure of SPA-premised approaches has belatedly
+forced the JS colporteurs to adapt their pitches. In each iteration, they must
+accept a smaller rhetorical lane to explain why this stack is still the future.
+
+The excuses are running out.
+
+At long last, the journey has culminated with the rollout of [64]Core Web
+Vitals. It finally provides an objective quality measurement that prospective
+customers can use to assess frontend architectures.
+
+It's no coincidence the final turn away from the SPA justification has happened
+just as buyers can see a linkage between the stacks they've bought and the
+monetary outcomes they already value; namely SEO. The objective buyer, circa
+2023, will understand heavy JS stacks as a regrettable legacy, one that teams
+who have hollowed out their HTML and CSS skill bases will pay for dearly in
+years to come.
+
+No doubt, many folks who know their JS-first stacks are slow will do as Akerlof
+predicts, and obfuscate for as long as possible. The market for lemons is,
+indeed, mostly a resale market, and the excesses of our lost decade will not be
+flushed from the ecosystem quickly. Beware tools pitching "100 on Lighthouse"
+without checking the real-world [65]Core Web Vitals results.
+
+Shrinkage [66]#
+
+A subtle aspect of Akerlof's theory is that markets in which lemons dominate
+eventually shrink. I've [67]warned for years that the mobile web is under
+threat from within, and [68]the depressing data I've cited about users moving
+to apps and away from terrible web experiences is in complete alignment with
+the theory.
+
+When websites feel like worse experiences to the folks who write the checks,
+why should anyone expect them to spend a lot on them? And when websites stop
+being where accurate information and useful services are, will anyone still
+believe there's a future in web development?
+
+The lost decade we've suffered at the hands of lemon purveyors isn't just a
+local product travesty; it's also an ecosystem-level risk. Forget AI putting
+web developers out of jobs; JS-heavy web stacks have been shrinking the future
+market for your services for years.
+
+As [69]Stigliz memorably quipped:
+
+    Adam Smith's invisible hand — the idea that free markets lead to efficiency
+    as if guided by unseen forces — is invisible, at least in part, because it
+    is not there.
+
+But dreams die hard.
+
+I'm already hearing laments from folks who have been responsible citizens of
+framework-landia lo these many years. Oppressed as they were by the lemon
+vendors, they worry about babies being throw out with the bathwater, and I
+empathise. But for the sake of users, and for the new opportunities for the web
+that will open up when experiences finally improve, I say "chuck those tubs".
+
+Chuck 'em hard, and post the photos of the unrepentant bastards that sold this
+nonsense behind the cash register.
+
+Anti JavaScript JavaScript Club
+
+We lost a decade to smooth talkers and hollow marketeering; folks who failed
+the most basic test of intellectual honesty: signposting known unknowns.
+Instead of engaging honestly with the emerging evidence, they sold lemons and
+shrunk the market for better solutions. Furiously playing catch-up to stay one
+step ahead of market rejection, frontend's anguished, belated return to quality
+has been hindered at every step by those who would stand to lose if their [70]
+false premises and hollow promises were to be fully re-evaluated.
+
+Toxic mimicry and recalcitrant ignorance must not be rewarded.
+
+Vendor's random walk through frontend choices may eventually lead them to be
+right twice a day, but that's not a reason to keep following their lead. No, we
+need to move our attention back to the folks that have been right all along.
+The people who never gave up on semantic markup, CSS, and progressive
+enhancement for most sites. The people who, when slinging JS, have treated it
+as special occasion food. The tools and communities whose culture puts the user
+ahead of the developer and hold evidence of doing better for users in the
+highest regard.^[71][1:1]
+
+It's not healing, and it won't be enough to nurse the web back to health, but
+tossing the Vercels and the Facebooks out of polite conversation is, at least,
+a start.
+
+Deepest thanks to [72]Bruce Lawson, [73]Heydon Pickering, [74]Frances Berriman,
+and [75]Taylor Hunt for their thoughtful feedback on drafts of this post.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Footnotes
+
+ 1. You wouldn't know it from today's frontend discourse, but the modern era
+    has never been without high-quality alternatives to React, Angular, Ember,
+    and other legacy desktop-era frameworks.
+
+    In a bazaar dominated by lemon vendors, many tools and communities have
+    been respectful of today's mostly-mobile users at the expense of their own
+    marketability. These are today's honest brokers and they deserve your
+    attention far more than whatever solution to a problem created by React
+    that the React community is on about this week.
+
+    This has included JS frameworks with an emphasis on speed and low overhead
+    vs. cadillac comfort of first-class IE8 support:
+
+      □ [76]Stencil
+      □ [77]Lit and [78]Polymer
+      □ [79]Svelte
+      □ [80]Preact
+      □ [81]Solid
+      □ [82]Marko
+      □ [83]Inferno
+      □ [84]Hyper
+      □ [85]FAST
+      □ [86]Vue
+      □ [87]Qwik
+
+    It's possible to make slow sites with any of these tools, but the ethos of
+    these communities is that what's good for users is essential, and what's
+    good for developers is nice-to-have — even as they compete furiously for
+    developer attention. This uncompromising focus on real quality is what has
+    been muffled by the blanket the complexity merchants have thrown over
+    today's frontend discourse.
+
+    Similarly, the SPA orthodoxy that precipitated the market for frontend
+    lemons has been challenged both by the continued success of "legacy" tools
+    like WordPress, as well as a new crop of HTML-first systems that provide
+    JS-friendly authoring but output that's largely HTML and CSS:
+
+      □ [88]Eleventy
+      □ [89]Astro
+      □ [90]Enhance
+      □ [91]SvelteKit
+      □ [92]Fresh
+      □ ...and many others.
+
+    The key thing about the tools that work more often than not is that they
+    start with simple output. The difficulty in managing what you've explicitly
+    added based on need, vs. what you've been bequeathed by an inscrutable Rube
+    Goldberg-esque framework, is an order of magnitude in difference. Teams
+    that adopt tools with simpler default output start with simpler problems
+    that tend to have better-understood solutions. [93]↩︎ [94]↩︎
+
+ 2. Organisations that manage their systems (not the other way around) can
+    succeed with any set of tools. They might pick some elegant ones and some
+    awkward ones, but the sine qua non of their success isn't what they pick
+    up, it's how they hold it.
+
+    Recall that Facebook became a multi-billion dollar, globe-striding colossus
+    using PHP and C++.
+
+    The differences between FB and your applications are likely legion. This is
+    why it's fundamentally lazy and wrong for TLs and PMs to accept any sort of
+    argument along the lines of "X scales, FB uses it".
+
+    Pigs can fly; it's only matter of how much force you apply — but if you
+    aren't willing to fund creation of a large enough trebuchet, it's unlikley
+    that porcine UI will take wing in your organisation. [95]↩︎
+
+ 3. I [96]hinted last year at and under-developed model for how we can evolve
+    our discussion around web performance to take account of the larger factors
+    that distinguish different kinds of sites.
+
+    While it doesn't account for many corner-cases, and is insufficient on its
+    own to describe multi-modal experiences like WordPress (a content-producing
+    editor for a small fraction of important users vs. shallow
+    content-consumption reader experience for most), I wind up thinking about
+    the total latency incurred in a user's session divided by the number of
+    interactions. This raises a follow-on question: what's an interaction?
+    Elsewhere, I've defined it as [97]"turns through the interaction loop", but
+    can be more easily described as "taps or clicks that involve your code
+    doing work". This helpfully excludes scrolling, but includes navigations.
+
+    ANYWAY, all of this nets out a session-depth weighted intuition about when
+    and where heavyweight frameworks make sense to load up-front:
+
+    Sites with shorter average sessions can afford less JS up-front. Sites with
+    shorter average sessions can afford less JS up-front.
+
+    Social media sites that gate content behind a login (and can use the login
+    process to pre-load bundles), and which have tons of data about session
+    depth — not to mention ML-based per-user bundling, staffed performance
+    teams, ship gates to prevent regressions, and the funding to build and
+    maintain at least 3 different versions of the site — can afford to make
+    fundamentally different choices about how much to load up-front and for
+    which users.
+
+    The rest of us, trying to serve all users from a single codebase, need to
+    prefer conservative choices that [98]align with our management capacity to
+    keep complexity in check. [99]↩︎
+
+ 4. The "DX" fixation hasn't even worked for developers, if we're being honest.
+    Teams I work with suffer eye-watering build times, shockingly poor code
+    velocity, mysterious performance cliffs, and some poor sod stuck in a broom
+    closet that nobody bothers, lest the webs stop packing.
+
+    And yet, these same teams are happy to tell me they couldn't live without
+    the new ball-and-chain.
+
+    One group, after weeks of debugging a particularly gnarly set of issues
+    brought on by their preposterously inefficient "CSS-in-JS" solution,
+    combined with React's penchant for terrible data flow management, actually
+    said to me that they were so glad they'd moved everything to hooks because
+    it was "so much cleaner" and that "CSS-in-JS" was great because "now they
+    could reason about it"; nevermind the weeks they'd just lost to the
+    combination of dirtier callstacks and harder to reason about runtime
+    implications of heisenbug styling.
+
+    Nothing about the lived experience of web development has meaningfully
+    improved, except perhaps for TypeScript adding structure to large
+    codebases. And yet, here we are. Celebrating failure as success while
+    parroting narratives about developer productivity that have no data to back
+    them up.
+
+    [100]Sunk-cost fallacy rules all we survey. [101]↩︎
+
+Next: [102]"Safari 16.4 Is An Admission"
+
+Previously: [103]"The Performance Inequality Gap, 2023"
+
+
+References:
+
+[1] https://infrequently.org/2023/02/the-market-for-lemons/#content
+[2] https://infrequently.org/
+[3] https://infrequently.org/
+[4] https://infrequently.org/about-me/
+[5] https://infrequently.org/feed/
+[6] https://toot.cafe/@slightlyoff
+[7] https://infrequently.org/series/
+[8] https://infrequently.org/series/browser-choice-must-matter/
+[9] https://infrequently.org/series/effective-standards-work/
+[10] https://infrequently.org/series/performance-inequality/
+[11] https://infrequently.org/2024/02/home-screen-advantage/
+[12] https://infrequently.org/2024/01/performance-inequality-gap-2024/
+[13] https://infrequently.org/2024/01/the-web-is-the-app-store/
+[14] https://infrequently.org/2023/02/safari-16-4-is-an-admission/
+[15] https://infrequently.org/2022/
+[16] https://infrequently.org/2021/
+[17] https://infrequently.org/2020/
+[18] https://infrequently.org/2018/
+[19] https://infrequently.org/2024/01/performance-inequality-gap-2024/
+[20] https://infrequently.org/2023/02/the-market-for-lemons/
+[21] https://infrequently.org/2022/12/performance-baseline-2023/
+[22] https://infrequently.org/2023/02/safari-16-4-is-an-admission/
+[23] https://infrequently.org/2023/02/the-market-for-lemons/
+[24] https://infrequently.org/2023/02/the-market-for-lemons/#what-did-they-know-and-when-did-they-know-it%3F
+[25] https://infrequently.org/2023/02/the-market-for-lemons/#sandy-foundations
+[26] https://infrequently.org/2023/02/the-market-for-lemons/#denouement
+[27] https://infrequently.org/2023/02/the-market-for-lemons/#shrinkage
+[28] https://www.sfu.ca/~wainwrig/Econ400/akerlof.pdf
+[29] https://en.wikipedia.org/wiki/The_Market_for_Lemons
+[30] https://infrequently.org/2023/02/the-market-for-lemons/#fn-alex-approved-1
+[31] https://dev.to/tigt/making-the-worlds-fastest-website-and-other-mistakes-56na
+[32] https://infrequently.org/2022/05/performance-management-maturity/
+[33] https://infrequently.org/2023/02/the-market-for-lemons/#fn-everything-in-moderation-2
+[34] https://infrequently.org/2022/12/performance-baseline-2023/
+[35] https://infrequently.org/2023/02/the-market-for-lemons/#fn-amortised-interaction-costs-3
+[36] https://infrequently.org/2023/02/the-market-for-lemons/#what-did-they-know-and-when-did-they-know-it%3F
+[37] https://www.scientificamerican.com/article/exxon-knew-about-climate-change-almost-40-years-ago/
+[38] https://techcrunch.com/2017/04/18/facebook-announces-react-fiber-a-rewrite-of-its-react-framework/
+[39] https://www.youtube.com/watch?v=NZoRlVi3MjQ
+[40] https://infrequently.org/2023/02/the-market-for-lemons/#sandy-foundations
+[41] https://ericwbailey.website/published/modern-health-frameworks-performance-and-harm/
+[42] https://infrequently.org/2022/12/performance-baseline-2023/
+[43] https://infrequently.org/2022/05/performance-management-maturity/
+[44] https://www.youtube.com/watch?v=4bZvq3nodf4
+[45] https://en.wikipedia.org/wiki/Baffles_(submarine)
+[46] https://youtu.be/Ar9R-CX217o?t=231
+[47] https://infrequently.org/2022/12/performance-baseline-2023/
+[48] https://reactjs.org/blog/2014/02/15/community-roundup-16.html
+[49] https://webbylab.com/blog/isomorphic-react/
+[50] https://reactjs.org/blog/2018/11/13/react-conf-recap.html
+[51] https://www.youtube.com/watch?v=ZCuYPiUIONs
+[52] https://www.youtube.com/watch?v=ByBPyMBTzM0
+[53] https://www.youtube.com/watch?v=wXLf18DsV-I
+[54] https://www.patterns.dev/posts/islands-architecture/
+[55] https://reactjs.org/blog/2020/12/21/data-fetching-with-react-server-components.html
+[56] https://simpsons.fandom.com/wiki/Steamed_Hams
+[57] https://dev.to/tigt/making-the-worlds-fastest-website-and-other-mistakes-56na
+[58] https://www.epicweb.dev/the-webs-next-transition
+[59] https://twitter.com/rauchg/status/1619492334961569792
+[60] https://infrequently.org/2018/09/the-developer-experience-bait-and-switch/
+[61] https://infrequently.org/2023/02/the-market-for-lemons/#fn-sunk-costs-4
+[62] https://infrequently.org/2023/02/the-market-for-lemons/#denouement
+[63] https://infrequently.org/2022/05/performance-management-maturity/
+[64] https://web.dev/vitals/
+[65] https://treo.sh/sitespeed
+[66] https://infrequently.org/2023/02/the-market-for-lemons/#shrinkage
+[67] https://infrequently.org/series/performance-inequality/
+[68] https://vimeo.com/364402896
+[69] https://www.theguardian.com/education/2002/dec/20/highereducation.uk1#:~:text=Adam%20Smith's%20invisible%20hand%20%2D%20the,because%20it%20is%20not%20there.
+[70] https://joshcollinsworth.com/blog/self-fulfilling-prophecy-of-react
+[71] https://infrequently.org/2023/02/the-market-for-lemons/#fn-alex-approved-1
+[72] https://brucelawson.co.uk/
+[73] https://heydonworks.com/
+[74] https://fberriman.com/
+[75] https://ti.gt/
+[76] https://stenciljs.com/
+[77] https://lit.dev/
+[78] https://polymer-library.polymer-project.org/3.0/docs/devguide/feature-overview
+[79] https://svelte.dev/
+[80] https://preactjs.com/
+[81] https://www.solidjs.com/
+[82] https://markojs.com/
+[83] https://www.infernojs.org/
+[84] https://github.com/WebReflection/hyperHTML
+[85] https://www.fast.design/
+[86] https://vuejs.org/
+[87] https://qwik.builder.io/
+[88] https://www.11ty.dev/
+[89] https://astro.build/
+[90] https://enhance.dev/docs/
+[91] https://kit.svelte.dev/
+[92] https://fresh.deno.dev/
+[93] https://infrequently.org/2023/02/the-market-for-lemons/#fnref-alex-approved-1
+[94] https://infrequently.org/2023/02/the-market-for-lemons/#fnref-alex-approved-1:1
+[95] https://infrequently.org/2023/02/the-market-for-lemons/#fnref-everything-in-moderation-2
+[96] https://infrequently.org/2022/03/a-unified-theory-of-web-performance/#a-battle-between-two-teams
+[97] https://infrequently.org/2022/03/a-unified-theory-of-web-performance/#a-battle-between-two-teams:~:text=These%20steps%20inform%20a%20general%20description%20of%20the%20interaction%20loop%3A
+[98] https://infrequently.org/2022/05/performance-management-maturity/
+[99] https://infrequently.org/2023/02/the-market-for-lemons/#fnref-amortised-interaction-costs-3
+[100] https://en.wikipedia.org/wiki/Sunk_cost
+[101] https://infrequently.org/2023/02/the-market-for-lemons/#fnref-sunk-costs-4
+[102] https://infrequently.org/2023/02/safari-16-4-is-an-admission/
+[103] https://infrequently.org/2022/12/performance-baseline-2023/
