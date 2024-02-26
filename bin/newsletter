@@ -31,6 +31,10 @@ body = %(<h1>#{title}</h1>
     filename = $1.split("/").last
     %(<a href="#{$1}">#{filename}</a>)
   end
+  .gsub(/<a href="#fn[^>]+>(\d+)<\/a>/) do
+    $1
+  end
+  .gsub(/&#160;<a href="#fnref:[^>]+>&#x21a9;&#xfe0e;<\/a>/, "")
 
 p HTTParty.post(
   "https://dispatch.davideisinger.com/api/campaigns",
