@@ -11,29 +11,34 @@ feed = Nokogiri::XML(
 post = feed.search("rss channel item").first
 title = post.search("title").text
 url = post.search("link").text
+body = post.search("description").text
 
 body = %(<h1>#{title}</h1>
 <p>
   By David Eisinger &middot;
   <a href="#{url}">View original post</a>
 </p>
-#{post.search("description").text}
-)
+#{body})
+
+# escape curly braces (they're important in listmonk)
+body = body
   .gsub("{", "&#123;")
   .gsub("}", "&#125;")
-  .gsub(/width="(\d+)"/) do
-    %(width="#{$1.to_i/2}")
-  end
-  .gsub(/height="(\d+)"/) do
-    %(height="#{$1.to_i/2}")
-  end
-  .gsub(/<audio controls src="([^"]+)"><\/audio>/) do
-    filename = $1.split("/").last
-    %(<a href="#{$1}">#{filename}</a>)
-  end
-  .gsub(/<a href="#fn[^>]+>(\d+)<\/a>/) do
-    $1
-  end
+
+# half-size images
+body = body
+  .gsub(/width="(\d+)"/) { %(width="#{$1.to_i/2}") }
+  .gsub(/height="(\d+)"/) { %(height="#{$1.to_i/2}") }
+
+# replace audio tags with links
+body = body.gsub(/<audio controls src="([^"]+)"><\/audio>/) do
+  filename = $1.split("/").last
+  %(<a href="#{$1}">#{filename}</a>)
+end
+
+# remove footnote jump links
+body = body
+  .gsub(/<a href="#fn[^>]+>(\d+)<\/a>/) { $1 }
   .gsub(/&#160;<a href="#fnref:[^>]+>&#x21a9;&#xfe0e;<\/a>/, "")
 
 p HTTParty.post(
