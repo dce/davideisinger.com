@@ -29,17 +29,17 @@ Some thoughts here...
 
 This month:
 
-* Adventure:
+* Adventure: Wilmington again; Vegas
 * Project:
 * Skill:
 
 Reading:
 
 * Fiction: [_Title_][1], Author
-* Non-fiction: [_Title_][2], Author
+* Non-fiction: [_The Disposessed_][2], Ursula K. LeGuin
 
 [1]: https://bookshop.org/
-[2]: https://bookshop.org/
+[2]: https://bookshop.org/p/books/the-dispossessed-ursula-k-le-guin/7899183
 
 Links:
 
