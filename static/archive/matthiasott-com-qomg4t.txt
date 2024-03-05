@@ -1,0 +1,206 @@
+[1]Skip to main content
+
+  • [2]Matthias Ott
+    User Experience Designer
+  • [3]About
+  • [4]Newsletter
+  • [5]Workshops
+  • [6]Notes
+  • [7]Articles
+  • [8]/uses
+
+The Year of the Personal Website
+
+Published by [9] [apple-touc] Matthias Ott
+
+[10]Friday, 6 January 2023
+
+  • #blogging
+  • #blogs
+  • #community
+  • #indieweb
+  • #personal websites
+  • #rss
+  • #websites
+
+We all know that it is going to happen. It’s not a question of if, but when
+Twitter will collapse. By the way: one day, Medium will follow. So will
+Instagram, YouTube, and TikTok. Or Mastodon.
+
+Many people are now desperately waiting for their Twitter archives, hoping that
+they’ll arrive before all their content is lost for good. For those who were
+using Twitter primarily for ephemeral chatter, all this isn’t that tragic. But
+for others, all their posts, conversations, and connections on the social
+network were a significant part of their online identity. They are about to
+lose a place on the Web into which they put a huge amount of time, attention,
+and energy.
+
+Especially if you are a designer, an artist, a photographer, a writer, a
+blogger, a creator of any kind, owning your work is as important as ever.
+Social media platforms might be great for distributing your content and
+creating a network of like-minded people around you. But they will always be
+ephemeral, transient, and impermanent – not the best place to preserve your
+thoughts, words, and brushstrokes.
+
+In the search for a permanent home on the web, more and more people are now
+rediscovering the personal website as a place to share and document their
+thoughts and publish their work. [11]I’ve written at length before about why
+this is such a good idea: Your personal website is a place that provides
+immense creative freedom and control. It’s a place to write, create, and share
+whatever you like, without the need to ask for anyone’s permission. It is also
+the perfect place to explore and try new things, like different types of posts,
+different styles, and new web technologies. It is [12]your playground, your
+platform, your personal corner on the Web.
+
+That’s why it warms my heart to read articles like [13]Bring back personal
+blogging by Monique Judge on a site like The Verge or to add my site to
+projects like [14]Bring Back Blogging by Ash Huang and Ryan Putnam, who
+encourage us all to get into the habit and publish at least three blog posts
+until the end of January. Oh, and if that’s important to you, as Chris Coyier
+notes, [15]There Can Be Money in Blogging, too.
+
+So how about we make 2023 the year of the personal website? The year in which
+we launch our first site or redesign our old one, publish a little more often,
+and add RSS and [16]Webmentions to our websites so that we can write posts back
+and forth. The year we make our sites [17]more fussy, more quirky, and [18]more
+personal. The year we document what we improved, share what we learned, and
+help each other getting started. The year we finally create a community of
+critical mass around [19]all our personal websites. The year we [20]take back
+our Web.
+
+I’ll start tonight.
+
+~
+
+Have you published a response to this? Send me a [21]webmention by letting me
+know the URL. [22][                    ] Ping!
+11 Webmentions
+
+[25] Photo of Jeremy Keith [26]Jeremy Keith[27] The Year of the Personal
+Website · Matthias Ott – User Experience Designer January 9th, 2023 Especially
+if you are a designer, an artist, a photographer, a writer, a blogger, a
+creator of any kind, owning your work is as important as ever. Social media
+platforms might be great for distributing your content and creating a network
+of like-minded people around you. But they will always be ephemeral, ... [28] 
+Photo of Jen Myers [29]Jen Myers[30] "So how about we make 2023 the year of the
+personal website? ... The year we make our sites more fussy, more quirky, and
+more personal. The year we document what we improved, share what we learned,
+and help each other getting started." matthiasott.com/notes/the-year… [31] 
+Photo of Chus ????; [32]Chus ????;[33] The Year of the Personal Website
+matthiasott.com/notes/the-year… [34] Photo of Olivier Guillard [35]Olivier
+Guillard[36] Social media platforms are fantastic for sharing your content and
+building a community of like-minded individuals, but they are sometimes
+ephemeral. matthiasott.com/notes/the-year… by @m_ott [37] Photo of Phillip
+Lovelace [38]Phillip Lovelace[39] "Your personal website is a place that
+provides immense creative freedom and control..." matthiasott.com/notes/
+the-year… [40] Photo of Daniël van der Winden [41]Daniël van der Winden[42] “So
+how about we make 2023 the year of the personal website? The year in which we
+launch our first site or redesign our old one, publish a little more often...”
+&#x1f91d;; @m_ott matthiasott.com/notes/the-year… [43] Photo of Wences
+Sanz-Alonso [44]Wences Sanz-Alonso[45] The Year of the Personal Website
+matthiasott.com/notes/the-year… [46] Photo of Eco Web Hosting [47]Eco Web
+Hosting[48] Make this year the year of your website. matthiasott.com/notes/
+the-year… [49] Photo of trovster [50]trovster[51] &#x1f517;; The Year of the
+Personal Website > So how about we make 2023 the year of the personal website?
+The year in which we launch our first site, publish a little more often & add
+RSS and Webmentions to our websites so that we can write posts back and forth.
+matthiasott.com/notes/the-year… [52] Photo of Moritz Gießmann [53]Moritz
+Gießmann[54] [55] Photo of Fundor 333 [56]Fundor 333[57] Bookmark of " The Year
+of the Personal Website · Matthias Ott – User Experience Designer" logoFundor
+333
+
+More Notes
+
+[58]We ❤️ RSS
+
+[59]Continue reading
+
+  • [60]About
+  • [61]Workshops
+  • [62]Notes
+  • [63]Articles
+  • [64]Links
+
+Search this site
+
+[66][                    ] [67][Go]
+Subscribe
+
+You can subscribe to the RSS feeds for [68]all posts or to individual feeds for
+[69]articles, [70]notes, and [71]links.
+
+Design and code © 2007–2024 Matthias Ott  •  Made with HTML, CSS, enhanced with
+JavaScript, powered by [72]Craft CMS. [73]Webmention endpoint   [74]Privacy
+Policy   [75]Site Notice / Impressum
+
+References:
+
+[1] https://matthiasott.com/notes/the-year-of-the-personal-website#main
+[2] https://matthiasott.com/
+[3] https://matthiasott.com/about
+[4] https://matthiasott.com/newsletter
+[5] https://matthiasott.com/workshops
+[6] https://matthiasott.com/notes
+[7] https://matthiasott.com/articles
+[8] https://matthiasott.com/uses
+[9] https://matthiasott.com/
+[10] https://matthiasott.com/notes/the-year-of-the-personal-website
+[11] https://matthiasott.com/articles/into-the-personal-website-verse
+[12] https://rachelandrew.co.uk/archives/2017/01/05/its-more-than-just-the-words/
+[13] https://www.theverge.com/23513418/bring-back-personal-blogging
+[14] https://bringback.blog/
+[15] https://chriscoyier.net/2023/01/03/there-can-be-money-in-blogging/
+[16] https://indieweb.org/webmention.io
+[17] https://css-tricks.com/in-defense-of-a-fussy-website/
+[18] https://css-tricks.com/make-it-personal/
+[19] https://personalsit.es/
+[20] https://youtu.be/qBLob0ObHMw
+[21] http://indiewebcamp.com/webmention
+[25] https://adactio.com/
+[26] https://adactio.com/
+[27] https://matthiasott.com/notes/the-year-of-the-personal-website
+[28] https://twitter.com/antiheroine
+[29] https://twitter.com/antiheroine
+[30] https://twitter.com/antiheroine/status/1612606888465649664
+[31] https://twitter.com/chusmargallo
+[32] https://twitter.com/chusmargallo
+[33] https://twitter.com/chusmargallo/status/1613150385367310337
+[34] https://twitter.com/olivier_twwli
+[35] https://twitter.com/olivier_twwli
+[36] https://twitter.com/olivier_twwli/status/1613465960702156800
+[37] https://twitter.com/pixelflips
+[38] https://twitter.com/pixelflips
+[39] https://twitter.com/pixelflips/status/1614021825725616130
+[40] https://twitter.com/dvdwinden
+[41] https://twitter.com/dvdwinden
+[42] https://twitter.com/dvdwinden/status/1614263968276545540
+[43] https://twitter.com/stereochromo
+[44] https://twitter.com/stereochromo
+[45] https://twitter.com/stereochromo/status/1615309394635542536
+[46] https://twitter.com/ecowebhostinguk
+[47] https://twitter.com/ecowebhostinguk
+[48] https://twitter.com/ecowebhostinguk/status/1615650327918743554
+[49] https://twitter.com/trovster
+[50] https://twitter.com/trovster
+[51] https://twitter.com/trovster/status/1622964565234401282
+[52] https://moritzgiessmann.de/
+[53] https://moritzgiessmann.de/
+[54] https://matthiasott.com/notes/0
+[55] https://fundor333.com/
+[56] https://fundor333.com/
+[57] https://matthiasott.com/notes/0
+[58] https://matthiasott.com/notes/we-love-rss
+[59] https://matthiasott.com/notes/we-love-rss
+[60] https://matthiasott.com/about
+[61] https://matthiasott.com/workshops
+[62] https://matthiasott.com/notes
+[63] https://matthiasott.com/articles
+[64] https://matthiasott.com/links
+[68] https://matthiasott.com/rss
+[69] https://matthiasott.com/articles/rss
+[70] https://matthiasott.com/notes/rss
+[71] https://matthiasott.com/links/rss
+[72] https://craftcms.com/
+[73] https://matthiasott.com/webmention
+[74] https://matthiasott.com/privacy-policy
+[75] https://matthiasott.com/site-notice

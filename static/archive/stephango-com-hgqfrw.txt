@@ -1,0 +1,126 @@
+[1]Steph Ango / [2]Writing [3]About [4]Now
+
+File over app
+
+July 1, 2023 · 1 minute read
+
+File over app is a philosophy: if you want to create digital artifacts that
+last, they must be files you can control, in formats that are easy to retrieve
+and read. Use tools that give you this freedom.
+
+File over app is an appeal to tool makers: accept that all software is
+ephemeral, and give people ownership over their data.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+In the fullness of time, the files you create are more important than the tools
+you use to create them. Apps are ephemeral, but your files have a chance to
+last.
+
+The ancient temples of Egypt contain hieroglyphs that were chiseled in stone
+thousands of years ago. The ideas hieroglyphs convey are more important than
+the type of chisel that was used to carve them.
+
+The world is filled with ideas from generations past, transmitted through many
+mediums, from clay tablets to manuscripts, paintings, sculptures, and
+tapestries. These artifacts are objects that you can touch, hold, own, store,
+preserve, and look at. To read something written on paper all you need is
+eyeballs.
+
+Today, we are creating innumerable digital artifacts, but most of these
+artifacts are out of our control. They are stored on servers, in databases,
+gated behind an internet connection, and login to a cloud service. Even the
+files on your hard drive use proprietary formats that make them incompatible
+with older systems and other tools.
+
+Paraphrasing something [5]I wrote recently
+
+    If you want your writing to still be readable on a computer from the 2060s
+    or 2160s, it’s important that your notes can be read on a computer from the
+    1960s.
+
+You should want the files you create to be durable, not only for posterity, but
+also for your future self. You never know when you might want to go back to
+something you created years or decades ago. Don’t lock your data into a format
+you can’t retrieve.
+
+These days I write using an app I help make called [6]Obsidian, but it’s a
+delusion to think it will last forever. The app will eventually become
+obsolete. It’s the plain text files I create that are designed to last. Who
+knows if anyone will want to read them besides me, but future me is enough of
+an audience to make it worthwhile.
+
+Linked mentions
+[7]
+Photoshop for text
+In the near future, transforming text over an entire document will become as
+commonplace as filtering images.
+[8]
+Style is consistent constraint
+Having a style collapses hundreds of future decisions into one, and gives you
+focus.
+[9]
+Quality software deserves your hard‑earned cash
+Quality software is like quality food from the farmer’s market. A jar of
+handmade organic jam is not the same as mass-produced...
+[10]
+100% user-supported
+If you want to build principled software, avoid becoming VCware. Stay
+user-supported. It is now possible for tiny teams to build principled...
+[11]
+Obsidian
+A private and flexible writing app that adapts to the way you think. I am
+currently CEO of the company.
+[12]
+Obsidian Vault Template
+My personal Obsidian vault template. A bottom-up approach to note-taking and
+organizing things I am interested in.
+
+You might also enjoy
+
+  • [13]Photoshop for text
+  • [14]Evergreen notes turn ideas into objects that you can manipulate
+  • [15]Concise explanations accelerate progress
+  • [16]In good hands
+  • [17]A bicycle for the senses
+  • [18]Design is compromise
+  • [19]40 questions to ask yourself every year
+  • [20]100% user-supported
+  • [21]Pain is information
+
+[22]Receive my updates
+
+Follow me via email, [23]RSS, [24]Twitter, and [25]other options
+
+[26][                    ] [29][Sign up]
+[30] [31]Mastodon
+
+References:
+
+[1] https://stephango.com/
+[2] https://stephango.com/
+[3] https://stephango.com/about
+[4] https://stephango.com/now
+[5] https://obsidian.md/blog/new-obsidian-icon/
+[6] https://stephango.com/obsidian
+[7] https://stephango.com/photoshop-for-text
+[8] https://stephango.com/style
+[9] https://stephango.com/quality-software
+[10] https://stephango.com/vcware
+[11] https://stephango.com/obsidian
+[12] https://stephango.com/vault
+[13] https://stephango.com/photoshop-for-text
+[14] https://stephango.com/evergreen-notes
+[15] https://stephango.com/concise
+[16] https://stephango.com/in-good-hands
+[17] https://stephango.com/bicycle-for-the-senses
+[18] https://stephango.com/design-is-compromise
+[19] https://stephango.com/40-questions
+[20] https://stephango.com/vcware
+[21] https://stephango.com/pain
+[22] https://stephango.com/subscribe
+[23] https://stephango.com/feed.xml
+[24] https://twitter.com/kepano
+[25] https://stephango.com/subscribe
+[30] https://twitter.com/kepano
+[31] https://mastodon.social/@kepano

@@ -1,0 +1,516 @@
+[1]Skip to main content
+[2]The Verge logo.[3]The Verge homepage
+
+  • [4]The Verge homepageThe Verge logo./
+  • [5]Tech/
+  • [6]Reviews/
+  • [7]Science/
+  • [8]Entertainment/
+  • MoreMenu
+
+[10]The Verge logo.
+Menu
+
+  • [12]Installer /
+  • [13]Gadgets/
+  • [14]Tech
+
+How to live your life in text files
+
+How to live your life in text files
+
+/
+
+Plus, in this week’s Installer: new Bose headphones, Mark Zuckerberg reviews
+the Vision Pro, Mario vs. Donkey Kong, and much more.
+
+By [15]David Pierce, editor-at-large and Vergecast co-host with over a decade
+of experience covering consumer tech. Previously, at Protocol, The Wall Street
+Journal, and Wired.
+
+Feb 18, 2024, 1:00 PM UTC
+
+Share this story
+
+  • 
+  • 
+  • 
+
+If you buy something from a Verge link, Vox Media may earn a commission. [20]
+See our ethics statement.
+
+An all-black version of the Installer logo.
+Illustration: William Joel / The Verge
+
+Hi, friends! Welcome to Installer No. 26, your guide to the best and Verge-iest
+stuff in the world. (If you’re new here, welcome. So psyched you found us, and
+also you can read all the old editions at the [21]Installer homepage.) 
+
+This week, I’ve been playing with the [22]redesigned You.com for AI research,
+trying out the [23]Phanpy Mastodon client, getting back into [24]Zombies, Run
+after reading Vee Song’s [25]great story about Fantasy Hike, and reading the
+new [26]“lost chapter” of The Martian before probably just rereading [27]The
+Martian again.
+
+I also have for you some non-earbud earbuds, a nerdy video about nerdy stuff, a
+new to-do list app, a new thing in ChatGPT, and much more. Let’s do it.
+
+(As always, the best part of Installer is your ideas and tips. What are you
+doing, reading, watching, playing, testing, cooking, lifting, soldering, or
+charging right now? What cool stuff are you into that everyone else should also
+be into? Tell me everything: [28]installer@theverge.com or +1 203-570-8663. And
+if you know someone else who might enjoy Installer, forward it to them and tell
+them to [29]subscribe here.)
+
+Installer
+
+/ A weekly newsletter by David Pierce designed to tell you everything you need
+to download, watch, read, listen to, and explore that fits in The Verge’s
+universe.
+
+Email (required)[30][                    ]Sign up
+By submitting your email, you agree to our [32]Terms and [33]Privacy Notice.
+This site is protected by reCAPTCHA and the Google [34]Privacy Policy and [35]
+Terms of Service apply.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The Drop
+
+  • [36]Bose’s Ultra Open Earbuds. For some reason, over the last year or so,
+    almost all in-ear headphones suddenly leave my ears sore and scratchy. So
+    I’m very curious to try these — even though at $299 they’re too expensive
+    for my tastes, [37]the clip-on style seems like it could work.
+  • [38]Bulletin. The Verge’s Parker Ortolani turned me onto this: a new
+    (Apple-only) [39]news- and RSS-reading app with a lot of AI features for
+    summarization and stuff, but also just a really lovely UI for reading news
+    feeds. You can add premade lists, dump in any site or feed, even save stuff
+    to read later.
+  • [40]The Space Race. A really cool documentary about early Black astronauts,
+    with tons of archival footage and a really wild Cold War subplot. As with
+    all good space docs, make sure you watch this one on the biggest screen you
+    can find.
+  • [41]Mark Zuckerberg’s Vision Pro review. The review itself is, like, fine
+    — I think Zuck is right about a lot of the things people actually want
+    headsets for, and about the price-to-quality balance being a tricky one.
+    But shooting a review of a competitor’s product, with your own product, in
+    such a casual way, is just fascinating to me.
+  • [42]The ONE thing keeping this iconic vintage laptop from working… 
+    Recently, for reasons I hope to someday be able to tell you about, I’ve
+    been deep down the rabbit hole of awesome old gadgets. And the This Does
+    Not Compute channel has become one of my favorite new resources — the host
+    is perpetually trying to restore or resurrect some old PC, and even this
+    random Toshiba laptop left me desperately wanting one. 
+  • [43]Superlist. This week’s “to-do list app that’s so close to being
+    everything I wanted and maybe I’ll just spend the whole weekend trying it
+    out.” It’s a teams-first product, which, meh, but this is the best-looking
+    productivity app I’ve seen in years.
+  • [44]Mario vs. Donkey Kong. More updated spins on old-school Mario games for
+    the Switch! How did we get so lucky! This one’s a platformer with [45]a
+    really fun puzzle-y twist, which is exactly the kind of game I like to
+    spend too many hours playing on the couch.
+  • [46]How AI Tech Can Give Dead People a Voice. This week’s winner of the “Is
+    this powerful and awesome, or is this horrifying” award is The Shotline,
+    which is using AI to recreate the voices of kids who were victims of gun
+    violence. Joanna Stern’s video is great, and [47]The Shotline’s voices will
+    make you feel… a lot of things.
+  • [48]DuckDuckGo. DDG just [49]rolled out a cool new tool that lets you [50]
+    sync passwords and bookmarks across platforms without needing an account;
+    you just scan a QR code to add a new device. At this point, I’m wary of
+    saying any company is actually a good privacy option, but DuckDuckGo is
+    certainly doing the work. 
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Spotlight
+
+A while back, I got really close to moving all my personal docs, email,
+calendar, and files into [51]Skiff, which was basically a privacy-focused
+Google Drive competitor. Stuff got busy, and moving all that stuff is a big
+project, but it’s been on my list for a while. Super glad I didn’t get to it,
+though, because Skiff was just acquired by Notion and is now shutting down.
+
+If I’ve learned one thing in my years of covering tech, it’s that nothing is
+guaranteed to stick around, no matter how much you love it or how popular it
+is. Things change, mistakes happen, stuff disappears. And every time it
+happens, I get a little more religious about something that Steph Ango, the CEO
+of Obsidian, [52]likes to say: file over app.
+
+The idea of “file over app” is to care a lot more about your data itself than
+the app or platform it’s in. Like, the app you’re using now? Probably not going
+to be around in 50 years. Text files and JPGs and PDFs? Way more likely to
+still be here! So invest in formats that last, not apps that don’t.
+
+What that means for me, personally, is that I try to turn my life into text
+files and their equivalents as often as possible.
+
+  • I use an iOS and Mac app called [53]NotePlan for daily notes and task
+    management — the app is built on top of a folder of Markdown files I can
+    easily use anywhere else. [54]Obsidian and [55]Logseq are both the same way
+    and are both excellent (if very different) apps.
+  • I use the bookmarking service [56]Raindrop to store all the links I care
+    about, for Installer and everything else, and once a week I export all my
+    links as a CSV file and again as a text file.
+  • [57]Day One is where I keep my actual journal, and every month or so I
+    export the whole thing to a PDF.
+  • Once a year or so, when I’m feeling both bored and ambitious, I’ll back up
+    my entire camera roll and Google Photos library to an external hard drive.
+    All the other stuff goes into Google Drive, and onto that same hard drive.
+
+I try to find apps that are made with text files in mind. When I can’t, I try
+to find apps with good, durable export systems, and make sure I’m backing
+things up often. I’m done getting stuck inside an app I can’t trust to be
+around for long.
+
+There’s a lot more for me to do here, and frankly still a lot of stuff in my
+life that will disappear if some big-name services delete my account or go
+offline altogether. (I’m still trying to figure out whether my email and
+calendar are things I should be archiving…) But I now have years of journal
+entries, daily tasks, project archives, and more in a format I’m confident I’ll
+be able to at least open and look at on my neural face-puter in 2096. And it
+makes me feel better, so I figured I’d share.
+
+Oh, and by the way, there are so many great text editors out there. [58]Typora 
+is probably the best writing app I’ve ever used. If you write code, you already
+know [59]BBEdit and [60]VS Code and [61]Sublime Text. [62]Nota, [63]Ulysses, 
+[64]iA Writer, and a bunch of others all do a good job of helping you both
+write and organize. Living in text files doesn’t mean living in Notepad or
+TextEdit; you really can have the best of both worlds. Text files forever!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Screen share
+
+[65]Zoë Schiffer, the managing editor at the excellent [66]Platformer
+newsletter (and a Verge alum!), just published one of the best tech books I’ve
+read in a while. It’s called [67]Extremely Hardcore: Inside Elon Musk’s Twitter
+, and trust me, however wild you think the last couple of years have been at X
+/ Twitter, the actual truth is much wilder. Zoë’s been reporting on this saga
+throughout, and the book’s a total winner.
+
+I asked Zoë to share her homescreen with us on the eve of her book launch,
+because one thing I’ve always liked about Zoë is that she is forever deeply
+conflicted about technology. She reports on it, understands it deeply, uses it
+constantly, but is also perpetually trying to get her Screen Time numbers down.
+Since I’m deeply embarrassed by my Screen Time report basically every week, I
+wanted to see how she does it.
+
+Here’s Zoë’s homescreen, plus some info on the apps she uses and why:
+
+[yH5BAEAAAA][Zoe_Schiff]
+[yH5BAEAAAA][Zoe_Schiff]
+
+The phone: This is an iPhone 14, I believe. The screen is cracked and I use it
+exclusively for work. I have an iPhone mini with no apps except Spotify and
+Google Maps that I use as my personal phone. The process of having a separate
+work phone (with apps) and a personal phone (with almost nothing interesting)
+has dropped my screentime to about 2.5 hours a day, not to brag.
+
+The wallpaper: My wallpaper is a photo of my hot a** husband, and my
+two-year-old daughter. 
+
+The apps: Apple Calendar, Google Maps, Apple Notes, Signal, Apple Mail,
+Threads, ChatGPT, Spotify, Phone, Messages.
+
+My main homescreen has Signal, which I use constantly to communicate with
+sources, and Threads, which is my primary Twitter replacement. I also have
+ChatGPT, which I love. I ask it about various health symptoms and also to
+create recipes for, like, a single chocolate chip cookie.
+
+One screen over I have TikTok, which is my guilty pleasure, and Bluesky, which
+I’m trying to use more but feels a little chaotic. I also have a pregnancy
+tracker because (duh) I’m pregnant. Right now the baby is the size of a lime,
+so that’s nice. 
+
+I also asked Zoë to share a few things she’s into right now. Here’s what she
+said:
+
+  • Right now, I’m rereading [68]Harry Potter and listening to a lot of [69]
+    Caroline Shaw.
+  • Oh you meant on the internet??? Huh. Huuuuuh. I like the fashion newsletter
+    [70]Blackbird Spyplane. I’m a big fan of the [71]Moderated Content podcast.
+  • I’ve seen the comedian [72]Jacqueline Novak twice IRL (the first time, I
+    dragged Casey Newton along, not realizing the entire set is about blow
+    jobs, and I seriously worried I was going to get fired), and she has [73]a
+    new comedy special on Netflix that really gets me. 
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Crowdsourced
+
+Here’s what the Installer community is into this week. I want to know what
+you’re into right now as well! Email [74]installer@theverge.com or message +1
+203-570-8663 with your recommendations for anything and everything, and we’ll
+feature some of our favorites here every week. 
+
+“I’ve been playing the new [75]Dominion card game app! Dominion is a
+deckbuilding game from back in the day, and it’s got several (I believe 15)
+expansions so far. Previous iterations of the game online and in app form never
+fully realized their potential. This is the best implementation of the game to
+date. There is offline play against AI, matchmaking, and you can also do
+private matches with friends via a Nintendo-esque friend code system.” — Matt
+
+“I’ve been listening to and immensely enjoying [76]Worlds Beyond Number, an
+actual play narrative podcast from the best folks to ever do it.” — Caleb
+
+“I received my [77]Retroid Pocket 4 Pro in the mail this week after about a
+month of waiting from China. It exceeded expectations, and I’m having a great
+time emulating N64, GameCube, and PlayStation 2 games. On Saturday I had a
+friend over, and we played couch co-op games just like the good old days using
+a USB-C hub and a couple controllers. Highly recommended for a huge nostalgia
+kick.” — Nicholas
+
+“Having fun playing old Nintendo titles on the [78]Miyoo Plus. Such a great
+device. Feels like a time machine.” — Jamie
+
+“I’m playing, and overwhelmingly impressed with, [79]Prince of Persia: The Lost
+Crown. It feels like a love letter to Castlevania and Metroid, and heavily
+inspired by Hollow Knight… but also innovates in some really clever ways. It
+also runs incredibly well on the Switch.” — Steve
+
+“Probably one of the most used apps on my phone is [80]Mela, by Silvio Rizzi.
+It’s a thoughtfully designed recipe app designed to share with your family. It
+has a shared family recipe library and integrations with Reminders and Calendar
+to ensure my fiancé and I are always on the same page. Oh, and it also has a
+built-in RSS reader for finding new recipes!” — Liam
+
+“It’s called [81]What Happened Last Week, and it’s a great way to keep up with
+news from countries that are not often reported on in places like Africa, Asia,
+and Latin America. It contains clear explanations and contexts on developments
+so it is easy to read even if you have never heard of the names in the story. I
+find it really useful and complementary to the big Western news sources.”
+— Richard
+
+“[82]Windows95Man is Finland’s entry to Eurovision this year, and it’s amazing
+on so many layers. Watching the video on YouTube is mandatory for full
+appreciation.” — Sighjinks
+
+“The new season of [83]Game Changer on Dropout started this week, and it’s a
+treat as always!” — Noah
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Signing off
+
+The biggest, weirdest tech story of this weekend is coming from a slightly
+surprising place: the floor of the NBA All-Star Game. Have you seen the videos
+of the [84]all-LED full-court screen? [85]Here’s an example of what this kind
+of thing looks like during a game, too. It looks like a total nightmare to play
+on, and I’d bet $10 we’ll never see this in a real game with any stakes. But
+boy is it going to be something to watch. This is my kind of augmented reality.
+
+See you next week!
+
+Most Popular
+Most Popular
+
+ 1. [87]
+
+    Nintendo Switch emulator Yuzu will utterly fold and pay $2.4M to settle its
+    lawsuit
+
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 2. [88]
+
+    The MacBook Air gets an M3 upgrade
+
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 3. [89]
+
+    Apple hit with first-ever EU fine following Spotify complaint
+
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 4. [90]
+
+    Google’s morale crisis is about to get worse
+
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 5. [91]
+
+    Eufy’s new 360-degree 4K camera doesn’t need Wi-Fi or power outlets
+
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Verge Deals
+
+/ Sign up for Verge Deals to get deals on products we've tested sent to your
+inbox daily.
+
+Email (required)[92][                    ]Sign up
+By submitting your email, you agree to our [94]Terms and [95]Privacy Notice.
+This site is protected by reCAPTCHA and the Google [96]Privacy Policy and [97]
+Terms of Service apply.
+From our sponsor
+
+[98]
+
+[99]
+Advertiser Content FromSponsor logo
+Sponsor thumbnail
+
+More from [100]Tech
+
+  • poynt apple paypoynt apple pay
+
+    [101]Apple Pay was down for Chase customers for quite a while
+
+  • A 10th-gen iPad in an Apple Smart Folio on a wood table.A 10th-gen iPad in
+    an Apple Smart Folio on a wood table.
+
+    [102]The best Presidents Day sales happening now
+
+  • An illustration of the Reddit logo.An illustration of the Reddit logo.
+
+    [103]Reddit has a new AI training deal to sell user content
+
+  • Screenshot from the 27th Annual D.I.C.E. Awards featuring the event’s two
+    hosts Greg Miller (left) and Stella Chung (right).Screenshot from the 27th
+    Annual D.I.C.E. Awards featuring the event’s two hosts Greg Miller (left)
+    and Stella Chung (right).
+
+    [104]The DICE Awards show is the celebration developers and fans deserve
+
+  • 
+    [105]
+    Advertiser Content FromSponsor logo
+
+    [106]
+
+[107]The Verge logo.
+
+  • [108]Terms of Use
+  • [109]Privacy Notice
+  • [110]Cookie Policy
+  • [111]Do Not Sell Or Share My Personal Info
+  • [112]Licensing FAQ
+  • [113]Accessibility
+  • [114]Platform Status
+  • [115]How We Rate and Review Products
+
+  • [116]Contact
+  • [117]Tip Us
+  • [118]Community Guidelines
+  • [119]About
+  • [120]Ethics Statement
+
+The Verge is a vox media network
+
+  • [121]Advertise with us
+  • [122]Jobs @ Vox Media
+
+© 2024 [123]Vox Media, LLC. All Rights Reserved
+
+
+References:
+
+[1] https://www.theverge.com/2024/2/18/24075077/bose-ultra-open-superlist-bulletin-text-files-note-apps-installer#content
+[2] https://www.theverge.com/
+[3] https://www.theverge.com/
+[4] https://www.theverge.com/
+[5] https://www.theverge.com/tech
+[6] https://www.theverge.com/reviews
+[7] https://www.theverge.com/science
+[8] https://www.theverge.com/entertainment
+[10] https://www.theverge.com/
+[12] https://www.theverge.com/installer-newsletter
+[13] https://www.theverge.com/gadgets
+[14] https://www.theverge.com/tech
+[15] https://www.theverge.com/authors/david-pierce
+[20] https://www.theverge.com/ethics-statement
+[21] https://www.theverge.com/installer-newsletter
+[22] https://you.com/
+[23] https://phanpy.social/
+[24] https://zrx.app/
+[25] https://www.theverge.com/24065451/fantasy-hike-app-fitness-tracker-walking-health
+[26] https://galactanet.com/lostsols.pdf
+[27] https://andyweirauthor.com/#the-martian
+[28] mailto:installer@theverge.com
+[29] https://www.theverge.com/pages/installer-newsletter-sign-up
+[32] https://www.voxmedia.com/legal/terms-of-use
+[33] https://www.voxmedia.com/legal/privacy-notice
+[34] https://policies.google.com/privacy
+[35] https://policies.google.com/terms
+[36] https://www.anrdoezrs.net/links/8836598/type/dlg/https://www.bose.com/p/earbuds/bose-ultra-open-earbuds/ULT-HEADPHONEOPN.html?cjdata=MXxOfDB8WXww&affiliateid=CJ8836598&Publisher=Vox+Media&cjevent=7e5a70cecc6111ee83834adc0a82b838
+[37] https://www.theverge.com/24073019/bose-ultra-open-earbuds-review
+[38] https://go.redirectingat.com/?xs=1&id=1025X1701640&url=https%3A%2F%2Fapps.apple.com%2Fus%2Fapp%2Fbulletin-ai-news%2Fid6476572500
+[39] https://twitter.com/JPEGuin/status/1758144223910441156
+[40] https://www.themoviedb.org/movie/1107136-the-space-race/watch
+[41] https://www.instagram.com/reel/C3TkhmivNzt
+[42] https://go.redirectingat.com/?xs=1&id=1025X1701640&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DoLNdFQ5gD_0
+[43] https://www.superlist.com/
+[44] https://go.redirectingat.com/?xs=1&id=1025X1701640&url=https%3A%2F%2Fwww.nintendo.com%2Fus%2Fstore%2Fproducts%2Fmario-vs-donkey-kong-switch%2F
+[45] https://www.polygon.com/reviews/24072246/mario-vs-donkey-kong-switch-review
+[46] https://go.redirectingat.com/?xs=1&id=1025X1701640&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dh3VZjuttZbQ
+[47] https://www.theshotline.org/
+[48] https://duckduckgo.com/
+[49] https://spreadprivacy.com/password-sync-backup/
+[50] https://www.theverge.com/2024/2/14/24071815/duckduckgo-browser-device-syncing-privacy-encryption
+[51] https://skiff.com/
+[52] https://twitter.com/kepano/status/1675626836821409792
+[53] https://noteplan.co/
+[54] https://obsidian.md/
+[55] https://logseq.com/
+[56] https://raindrop.io/
+[57] https://dayoneapp.com/
+[58] https://typora.io/
+[59] https://www.barebones.com/products/bbedit/index.html
+[60] https://code.visualstudio.com/
+[61] https://www.sublimetext.com/
+[62] https://nota.md/
+[63] https://ulysses.app/
+[64] https://ia.net/writer
+[65] https://www.threads.net/@reporterzoe?hl=en
+[66] https://www.platformer.news/
+[67] https://www.penguinrandomhouse.com/books/741192/extremely-hardcore-by-zoe-schiffer/
+[68] https://www.wizardingworld.com/discover/books
+[69] https://carolineshaw.com/
+[70] https://www.blackbirdspyplane.com/
+[71] https://law.stanford.edu/evelyn-douek/moderated-content/
+[72] https://www.jokesnovak.com/
+[73] https://www.themoviedb.org/movie/1214980-jacqueline-novak-get-on-your-knees
+[74] mailto:installer@theverge.com
+[75] https://templegatesgames.com/gamepages/dominion.html
+[76] https://worldsbeyondnumber.com/
+[77] https://www.goretroid.com/products/retroid-pocket-4-handheld
+[78] https://miyoominiv2.com/
+[79] https://ubisoft.pxf.io/c/482924/864200/12050?u=https%3A%2F%2Fwww.ubisoft.com%2Fen-us%2Fgame%2Fprince-of-persia%2Fthe-lost-crown
+[80] https://mela.recipes/
+[81] https://whathappenedlastweek.com/
+[82] https://go.redirectingat.com/?xs=1&id=1025X1701640&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DTf1NS1vEhSg
+[83] https://www.dropout.tv/videos/second-place
+[84] https://www.threads.net/@nba/post/C3Xy02uMBfZ
+[85] https://go.redirectingat.com/?xs=1&id=1025X1701640&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEclVSjR6JdQ
+[87] https://www.theverge.com/2024/3/4/24090357/nintendo-yuzu-emulator-lawsuit-settlement
+[88] https://www.theverge.com/2024/3/4/24089999/apple-macbook-air-m3-announced-13-15-inch
+[89] https://www.theverge.com/2024/3/4/24005938/european-commission-antitrust-apple-investigation-anti-steering-rules-app-developers
+[90] https://www.theverge.com/2024/3/3/24089843/google-morale-crisis-about-to-get-worse
+[91] https://www.theverge.com/2024/2/27/24085151/anker-eufy-4k-lte-cam-s330-features-price
+[94] https://www.voxmedia.com/legal/terms-of-use
+[95] https://www.voxmedia.com/legal/privacy-notice
+[96] https://policies.google.com/privacy
+[97] https://policies.google.com/terms
+[98] http://theverge.com/
+[99] http://theverge.com/
+[100] https://www.theverge.com/tech
+[101] https://www.theverge.com/2024/2/17/24075840/apple-pay-is-down-for-chase-customers-and-perhaps-others
+[102] https://www.theverge.com/24072881/best-presidents-day-sales-deals-2024-apple-tvs-gaming-headphones-smartwatches
+[103] https://www.theverge.com/2024/2/17/24075670/reddit-ai-training-license-deal-user-content
+[104] https://www.theverge.com/2024/2/17/24075044/dice-awards-video-game-developers-awards
+[105] http://theverge.com/
+[106] http://theverge.com/
+[107] https://www.theverge.com/
+[108] https://www.voxmedia.com/legal/terms-of-use
+[109] https://www.voxmedia.com/legal/privacy-notice
+[110] https://www.voxmedia.com/legal/cookie-policy
+[111] https://www.theverge.com/contact
+[112] https://www.voxmedia.com/pages/licensing
+[113] https://www.voxmedia.com/legal/accessibility
+[114] https://status.voxmedia.com/
+[115] https://www.theverge.com/pages/how-we-rate
+[116] https://www.theverge.com/contact-the-verge
+[117] https://www.theverge.com/a/tip-us-secure-contact-email
+[118] https://www.theverge.com/community-guidelines
+[119] https://www.theverge.com/about-the-verge
+[120] https://www.theverge.com/ethics-statement
+[121] https://www.voxmedia.com/vox-advertising
+[122] https://jobs.voxmedia.com/
+[123] https://www.voxmedia.com/

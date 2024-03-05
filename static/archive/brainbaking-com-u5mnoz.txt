@@ -1,0 +1,130 @@
+[test-img]
+[1]skip to main content
+[2]Brain Baking navigation toggle
+
+  • [4]  Brain Baking
+  • [5]  Archives
+  • [6]  Subscribe
+
+  • [7]  Works
+  • [8]  About
+  • [9]  Links
+
+[10]
+
+Publish Your Work
+
+[11] 31 January 2024  |  [12]braindump
+
+As an electrical and mechanical engineer, my late father-in-law was an expert
+in crafting home-grown black boxes that meticulously—and sometimes also
+miraculously—executed certain tasks in and around the house, such as
+automatically opening and closing the curtains based on the position of the sun
+(that included LEGO Technic radar work), routing audio and video from the
+doorbell to the TV or smartphone when someone pressed the button, or mediating
+the central heating based on too many factors. He also loved building things
+that weren’t really needed, just for fun: how about a full-size sixties jukebox
+emulated with a couple of Arduino boards, where each mechanical piece was
+hand-cut?
+
+When I asked him why he doesn’t take pictures of each project to document and
+publish them online, to inspire others, he was never interested. Most of these
+projects aren’t well-documented privately either, leaving us now with
+unsolvable puzzles when things break. But his ideas, as with all ideas, were
+gradually formed by studying ideas and projects of others, so why not come full
+circle to again share what you’ve made? I never really got an answer as to why
+not.
+
+When I talk to friends about blogging, or more generally “putting stuff out
+there”, the vast majority of them don’t care, and that comes across as very
+strange to me, since I do. Not everyone has the urge [13]to write in public.
+Yet publishing your work comes with so many advantages that I don’t even know
+where to begin to list them. I think many people underestimate the value of
+sharing what you’ve made.
+
+Austin Kleon wrote a whole book about this [14]called Show Your Work!, which,
+as Austin puts it, is a good starting point for people who hate the very idea
+of self-promotion. Perhaps I should have given a copy to my father-in-law,
+although I doubt that would have changed anything. He was content tinkering in
+his cellar without letting the world know what he made. Yet if he did, more
+people would have made something based on his work. And that feeling of
+contributing is amazing.
+
+It doesn’t take a genius or a huge project to make a bit of an impact. Just
+influencing your own “tribe”, as Seth Godin likes to call it, is more than
+enough to get a positive feedback loop going. As a silly example, I fooled
+around with hacking a [15]Phomemo M02 thermal printer a year ago, and I just
+found out that there’s a Node CLI module on GitHub that thanks my article for
+pointing them in the right direction. Conventional contributions to existing
+open-source projects is of course the obvious other example, but it’s not even
+needed to go that far. I sometimes just write about things I tried—and often
+failed—to do, and it always puts a smile on my face when I notice someone
+picked that up.
+
+I don’t create or publish in the hopes of influencing others. I create things
+because I have an urge to create. But it sure is great to help others along the
+way, however small my contribution might be. I don’t care about being found
+online and I am certainly not actively pushing my stuff down others’ throats
+(Kleon’s rule #7: Don’t turn into human spam). I love reading about the
+creation process of others. I love sharing my creation process. It’s almost
+second nature: it feels like a wasted opportunity to do something good in this
+world if I didn’t.
+
+If you made something, great! Why don’t you tell us about it? It’s simple, you
+just need to hire a VPS, configure iptables, download and customize a Hugo
+theme, write front matter and markdown, have a CI pipeline setup, and install
+Nginx. Ah, dang it!
+
+[16] You Might Also Like...
+
+  • [17]On Writing For Yourself In Public 06 Nov 2023
+  • [18]Phomemo Thermal Printing On MacOS 03 Feb 2023
+
+[19] Bio and Support
+
+[20] A photo of Me!
+
+I'm [21]Wouter Groeneveld, a Brain Baker, and I love the smell of freshly baked
+thoughts (and bread) in the morning. I sometimes convince others to bake their
+brain (and bread) too.
+
+If you found this article amusing and/or helpful, you can support me via [22]
+PayPal or [23]Ko-Fi. I also like to hear your feedback via [24]Mastodon or 
+email. Thanks!
+
+JavaScript is disabled. I use it to obfuscate my e-mail, keeping spambots at
+bay.
+Reach me using: [firstname] at [this domain].
+
+↑ [25]Top [26]Brain Baking bv | [27]Archives | [28]© CC BY 4.0 License.
+
+
+References:
+
+[1] https://brainbaking.com/post/2024/01/publish-your-work/#top
+[2] https://brainbaking.com/post/2024/01/publish-your-work/#
+[4] https://brainbaking.com/
+[5] https://brainbaking.com/archives
+[6] https://brainbaking.com/subscribe
+[7] https://brainbaking.com/works
+[8] https://brainbaking.com/about
+[9] https://brainbaking.com/links
+[10] https://brainbaking.com/
+[11] https://brainbaking.com/post/2024/01/publish-your-work/
+[12] https://brainbaking.com/categories/braindump
+[13] https://brainbaking.com/post/2023/11/on-writing-for-yourself-in-public/
+[14] https://austinkleon.com/show-your-work/
+[15] https://brainbaking.com/post/2023/02/phomemo-thermal-printing-on-macos/
+[16] https://brainbaking.com/post/2024/01/publish-your-work/#related
+[17] https://brainbaking.com/post/2023/11/on-writing-for-yourself-in-public/
+[18] https://brainbaking.com/post/2023/02/phomemo-thermal-printing-on-macos/
+[19] https://brainbaking.com/post/2024/01/publish-your-work/#bio
+[20] https://brainbaking.com/
+[21] https://brainbaking.com/about
+[22] https://www.paypal.com/donate/?hosted_button_id=R2WTKY7G9V2KQ
+[23] https://ko-fi.com/woutergroeneveld
+[24] https://dosgame.club/@jefklak
+[25] https://brainbaking.com/post/2024/01/publish-your-work/#header
+[26] https://brainbaking.com/bv
+[27] https://brainbaking.com/archives
+[28] https://brainbaking.com/copyright-and-tracking-policy

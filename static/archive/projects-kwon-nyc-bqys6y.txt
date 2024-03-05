@@ -1,0 +1,336 @@
+The internet used to be ✨fun✨
+
+I’ve been meaning to write some kind of Important Thinkpiece™ on the glory days
+of the early internet, but every time I sit down to do it, I find another,
+better piece that someone else has already written. So for now, here’s a
+collection of articles that to some degree answer the question “Why have a
+personal website?” with “Because it’s fun, and the internet used to be fun.”
+
+If you’ve written something that feels like it belongs here—especially if your
+voice is one that’s frequently underrepresented—I’d be interested to read it!
+Holler at me via email (kwon at fastmail.com), or on Mastodon ([1]
+mastodon.social/@rjkwon).
+
+               Article                       Author          Date    Date added
+                                                          published      ↓
+[2]Blogs Are Dead. Long Live Blogs!    [3]Gersande La     2023-03-26 2024-03-03
+                                       Flèche
+[4]Surfing the Old Web                 [5]Juan Villela    2023-01-11 2024-03-03
+[6]Why Personal Blogging Still Rules   [7]Mike Grindle    2023-04-12 2024-03-03
+[8]L'informatique, c'était mieux avant [9]Richard Dern    2022-01-21 2024-03-03
+(Computing was better before)
+[10]shite: static sites from shell     [11]Aditya Athalye 2022-03-08 2024-03-03
+[12]Desktops.zip - Some thoughts on    [13]Simone         2023-08-14 2024-03-03
+websites that look like desktops       Marzulli
+[14]Reviving Ye Olde Personal Home     [15]Dominik Rabiej 2019-06-30 2024-03-03
+Page
+[16]Digital Homes and Neighborhoods    [17]Jake Weber     2023-05-23 2024-03-03
+[18]Game of Content                    [19]Deep H. Dave   2021-03-09 2024-03-03
+[20]The Internet Changed My Life       [21]Maxime         2022-01-19 2024-03-03
+                                       Chevalier-Boisvert
+[22]Social Websites                    [23]Matt Stein     2024-02-06 2024-03-03
+[24]The Web is Fantastic               [25]Robb Knight    2023-12-28 2024-03-03
+[26]Into the Personal Website-Verse    [27]Matthias Ott   2019-05-12 2024-03-03
+[28]Splitting the Web                  [29]Ploum          2023-08-01 2024-03-03
+[30]Do You Remember the Internet       [31]dear talula    2022-02-19 2024-03-03
+Before Social Media?
+[32]Blog Bookmark Rot                  [33]Skelly         2024-02-17 2024-03-03
+[34]Let Us Build a New Web             [35]Brad Enslen    2018-09-13 2024-03-03
+[36]Where have all the websites gone?  [37]Jason          2024-01-08 2024-03-03
+                                       Velazquez
+[38]Ruminating on Walled Gardens       [39]Brandon        2024-02-16 2024-03-03
+[40]My website is a shifting house     [41]Laurel
+next to a river of knowledge. What     Schwulst           2018-05-21 2024-02-11
+could yours be?
+[42]Rediscovering the Old Internet     [43]Noisy          2023-09-07 2024-02-11
+Vibe                                   Deadlines
+[44]Click around, find out             [45]John Hoare     2024-01-21 2024-02-11
+[46]The Bullshit Web                   [47]Nick Heer      2018-11-30 2024-02-11
+[48]The old internet                   [49]Rebecca Toh    2020-01-16 2024-02-11
+[50]Computers: An Invocation for Soft  [51]Katherine Yang 2023-09-01 2024-02-11
+Tech
+[52]i really love the (hipster)        [53]Judah          2023-02-02 2024-02-11
+internet
+[54]Poor man's web                     [55]Serge Zaitsev  2021-04-27 2024-02-11
+[56]The web is yours                   [57]James G        2024-01-06 2024-02-11
+[58]Refuge in blogs and the IndieWeb   [59]Robert Kingett 2023-10-17 2024-02-11
+[60]I Love the Web                     [61]fLaMEd         2021-04-06 2024-02-11
+[62]a personal manifesto               [63]Simone         2023-04-20 2024-01-04
+                                       Silvestroni
+[64]Everyone Should Blog, And That     [65]Alexandra      2023-12-30 2024-01-04
+Includes You
+[66]My website as a home               [67]Nico Chilla    2023-11-13 2024-01-04
+[68]The Web Revival                    [69]Melon          2023-11-10 2024-01-04
+[70]Make your own independent website  [71]Victoria Drake 2021-01-16 2024-01-04
+[72]Why the Indie Web movement is so   [73]Dan Gillmor    2014-04-25 2024-01-04
+important
+[74]It’s Time to Get Personal          [75]Laura Kalbag   2019-12-09 2024-01-04
+[76]Please for the love of Blarg,      [77]Jay Springett  2019-12-14 2024-01-04
+Start a Blog
+                                       [79]Spencer Chang
+[78]Taking an Internet Walk            [80]Kristoffer     --         2023-11-12
+                                       Tjalve
+[81]tiny internets                     [82]Spencer Chang  --         2023-11-12
+[83]You Should Have a Website          [84]Mark Murphy    --         2023-11-12
+[85]Notes on the small web             [86]Felix          2022-09-10 2023-10-24
+                                       Pleşoianu
+[87]The Quiet Web                      [88]Brian          2021-02-12 2023-10-24
+                                       Koberlein
+[89]Rediscovering the Old Internet     [90]               2023-09-07 2023-10-24
+Vibe                                   noisydeadlines.net
+[91]Soft tech                          [92]Helena         --         2023-10-24
+                                       Jaramillo
+[93]How to fix the internet            [94]Katie          2023-10-17 2023-10-19
+                                       Notopoulos
+[95]Social Internet Is Dead. Get Over  [96]Om Malik       2023-10-15 2023-10-18
+It.
+[97]Build your own website!            [98]Devastatia del 2023-07-09 2023-10-16
+                                       Gato
+[99]The Importance of Personal         [100]Hayden White  2023-08-29 2023-10-16
+Websites
+[101]why the web?                      [102]Justin Hall   --         2023-09-30
+[103]Exploring the Personal Web        [104]              2023-05-06 2023-09-30
+                                       foreverliketh.is
+[105]Why you should have a blog (and   [106]Leticia       2020-06-21 2023-09-30
+write in it)                           Portella
+[107]My 20th anniversary of blogging!  [108]Tracy Durnell 2023-09-23 2023-09-30
+[109]Bix's story of his internet       [110]Bix Frankonis 2020-02-24 2023-09-18
+[111]About me (localghost)             [112]Sophie Koonin --         2023-09-12
+[113]At home on the internet           [114]Johnny        --         2023-09-12
+                                       Rodgers
+[115]How I experience web today        [116]Li Guangyi    --         2023-09-12
+[117]About this website                [118]Zinzy Waleson --         2023-09-12
+                                       Geene
+[119]How the Blog Broke the Web        [120]Amy Hoy       --         2023-09-12
+[121]I miss the internet.              [122]Joan          2023-07-07 2023-09-12
+                                       Westenberg
+[123]Every person on the planet should [124]Amin          2023-07-06 2023-09-12
+have their own website                 Eftegarie
+[125]Eight years of blogging           [126]Paweł Grzybek 2023-03-11 2023-09-12
+[127]Blogging is alive and well        [128]Colin Devroe  2023-01-11 2023-09-12
+[129]The Year of the Personal Website  [130]Matthias Ott  2023-01-06 2023-09-12
+[131]Bring back personal blogging      [132]Monique Judge 2022-12-31 2023-09-12
+[133]Passionless Web                   [134]Manuel        2022-08-16 2023-09-12
+                                       Moreale
+[135]Building a Digital Homestead, Bit [136]Tom Critchlow 2022-03-08 2023-09-12
+by Brick
+[137]Early Web Design Helped a         [138]Nika Simovich
+Generation Express Themselves Online.  Fisher             2022-03-08 2023-09-12
+How Do We Capture That Feeling Again?
+[139]The Joys and Sorrows of           [140]"Cheapskate"  2022-03-06 2023-09-12
+Maintaining a Personal Website
+[141]On building a home on the web     [142]Daniël van    2022-02-25 2023-09-12
+                                       der Winden
+[143]How Websites Die                  [144]Wesley        2022-02-21 2023-09-12
+                                       Aptekar-Cassels
+[145]“Tom had us all doing front-end   [146]Kate M.
+web development”: a nostalgic (re)     Miltner            2021-10-07 2023-09-12
+imagining of Myspace                   [147]Ysabel
+                                       Gerrard
+[148]Why Personal Websites are         [149]Chuck Carroll 2021-03-25 2023-09-12
+Important
+[150]The Value of a Personal Site      [151]Marc          2021-03-15 2023-09-12
+[152]The small web is beautiful        [153]Ben Hoyt      2021-03-01 2023-09-12
+[154]envisioning my homepage as an     [155]Winnie Lim    2020-11-22 2023-09-12
+online therapeutic space
+[156]Hunting the Nearly-Invisible      [157]"Cheapskate"  2020-08-27 2023-09-12
+Personal Website
+[158]What is the Small Web?            [159]Aral Balkan   2020-08-07 2023-09-12
+[160]Rediscovering the Small Web       [161]Parimal       2020-05-25 2023-09-12
+                                       Satyal
+[162]On attention management & owning  [163]Roel van der  2017-06-04 2023-09-12
+your content                           Ven
+[164]Stop Crowdsourcing Your           [165]Darius Foroux 2016-08-25 2023-09-12
+Confidence
+[166]Homesteading 2014                 [167]Frank Chimero 2013-12-21 2023-09-12
+[168]Death to Bullshit                 [169]Brad Frost    2013-04-08 2023-09-12
+[170]A Brief History & Ethos of the    [171]Maggie        --         2023-09-12
+Digital Garden                         Appleton
+[172]E/N (Everything/Nothing)          [173]JR (Sawv)     --         2023-09-12
+
+Line drawing of an old-school desktop computer with various whimsical items
+emanating from the screen including an ice cream cone, rainbow, puppy, happy
+sheep, and sparkles
+
+I still love the internet (it's still fun)
+Made with [174]Hugo and 💕 by [175]Rachel J. Kwon
+Updated 03 Mar 2024
+
+
+References:
+
+[1] https://mastodon.social/@rjkwon
+[2] https://gersande.com/blog/blogs-are-dead/
+[3] https://gersande.com/
+[4] https://cleverlaziness.xyz/posts/surfing-the-old-web/
+[5] https://juanvillela.dev/
+[6] https://mikegrindle.com/posts/personal-blogging
+[7] https://mikegrindle.com/
+[8] https://www.richard-dern.fr/blog/2022/01/21/l-informatique-c-etait-mieux-avant/
+[9] https://www.richard-dern.fr/
+[10] https://www.evalapply.org/posts/shite-the-static-sites-from-shell-part-1/index.html#main
+[11] https://www.evalapply.org/
+[12] https://system31.simone.computer/blog/desktops-zip
+[13] https://simone.computer/
+[14] https://dominik.net/reviving-ye-olde-personal-home-page.html
+[15] https://dominik.net/
+[16] https://polymathematics.blog/2023/05/25/digital-homes-and-neighborhoods/
+[17] https://jakeweber.net/
+[18] https://deephdave.com/2021/03/09/Game-of-Content.html
+[19] https://deephdave.com/
+[20] https://pointersgonewild.com/2022/01/19/the-internet-changed-my-life/
+[21] https://pointersgonewild.com/
+[22] https://garden.mattstein.com/notes/people-content-6-social-websites
+[23] https://mattstein.com/
+[24] https://rknight.me/blog/the-web-is-fantastic/
+[25] https://rknight.me/
+[26] https://matthiasott.com/articles/into-the-personal-website-verse
+[27] https://matthiasott.com/
+[28] https://ploum.net/2023-08-01-splitting-the-web.html
+[29] https://ploum.net/
+[30] https://deartalula.com/do-you-remember-the-internet-before-social-media/
+[31] https://deartalula.com/
+[32] https://yllekz.github.io/blog/blog-bookmarkrot.html
+[33] https://yllekz.github.io/
+[34] https://ramblinggit.com/2018/09/13/let-us-build.html
+[35] https://ramblinggit.com/
+[36] https://www.fromjason.xyz/p/notebook/where-have-all-the-websites-gone/
+[37] https://www.fromjason.xyz/
+[38] https://brandonsblog.bearblog.dev/ruminating-on-walled-gardens/
+[39] https://brandonsblog.bearblog.dev/ruminating-on-walled-gardens/
+[40] https://thecreativeindependent.com/essays/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/
+[41] https://laurelschwulst.com/
+[42] https://noisydeadlines.net/rediscovering-the-old-internet-vibe
+[43] https://noisydeadlines.net/
+[44] https://www.dirtyfeed.org/2024/01/click-around-find-out/
+[45] https://www.dirtyfeed.org/
+[46] https://pxlnv.com/blog/bullshit-web/
+[47] https://pxlnv.com/
+[48] https://rebeccatoh.co/the-old-internet/
+[49] https://rebeccatoh.co/
+[50] https://kayserifserif.place/work/manifesto/
+[51] https://kayserifserif.place/
+[52] https://bewrong.substack.com/p/the-hipster-internet
+[53] https://joodaloop.com/
+[54] https://zserge.com/posts/small-web/
+[55] https://zserge.com/
+[56] https://jamesg.blog/2024/01/06/the-web-is-yours/
+[57] https://jamesg.blog/
+[58] https://robertkingett.com/posts/6158/
+[59] https://robertkingett.com/
+[60] https://flamedfury.com/posts/i-love-the-web/
+[61] https://flamedfury.com/
+[62] https://minutestomidnight.co.uk/personal-manifesto/
+[63] https://minutestomidnight.co.uk/
+[64] https://library.xandra.cc/everyone-should-blog/
+[65] https://xandra.cc/
+[66] https://nicochilla.com/my-website-as-a-home/
+[67] https://nicochilla.com/
+[68] https://wiki.melonland.net/web_revival
+[69] https://melonland.net/
+[70] https://victoria.dev/blog/make-your-own-independent-website/
+[71] https://victoria.dev/
+[72] https://dangillmor.com/2014/04/25/indie-web-important/
+[73] https://dangillmor.com/
+[74] https://24ways.org/2019/its-time-to-get-personal/
+[75] https://laurakalbag.com/
+[76] https://www.thejaymo.net/2019/12/14/114-please-for-the-love-of-blarg-start-a-blog/
+[77] https://www.thejaymo.net/
+[78] https://syllabusproject.org/syllabus-for-taking-an-internet-walk/
+[79] https://www.spencerchang.me/
+[80] https://cloudlord.management/
+[81] https://tiny-inter.net/
+[82] https://www.spencerchang.me/
+[83] https://maerk.xyz/blog/you-should-have-a-website/
+[84] https://maerk.xyz/
+[85] https://felix.plesoianu.ro/web/in-the-small.html
+[86] https://felix.plesoianu.ro/
+[87] https://briankoberlein.com/tech/quiet-web/
+[88] https://briankoberlein.com/
+[89] https://noisydeadlines.net/rediscovering-the-old-internet-vibe
+[90] https://noisydeadlines.net/
+[91] https://helena.mmm.page/soft_tech
+[92] https://everywwwhere.net/
+[93] https://www.technologyreview.com/2023/10/17/1081194/how-to-fix-the-internet-online-discourse/
+[94] https://katienotopoulos.com/
+[95] https://om.co/2023/10/15/social-internet-is-dead-get-used-to-it/
+[96] https://om.co/
+[97] https://www.devastatia.com/thread-9.html
+[98] https://devastatia.com/
+[99] https://whitevhs.xyz/articles/2023/08/29/personal-websites
+[100] https://whitevhs.xyz/
+[101] https://www.links.net/dox/tech/whyweb.html
+[102] https://www.links.net/
+[103] https://foreverliketh.is/blog/exploring-the-personal-web/
+[104] https://foreverliketh.is/
+[105] https://leportella.com/why-have-a-blog.html/
+[106] https://leportella.com/
+[107] https://tracydurnell.com/2023/09/23/my-20th-anniversary-of-blogging/
+[108] https://tracydurnell.com/
+[109] https://bix.blog/2020/Feb/24/in-some-sense-its-interesting-that-i-had/
+[110] https://bix.blog/
+[111] https://localghost.dev/about/
+[112] https://localghost.dev/
+[113] https://johnnyrodgers.is/at-home-on-the-internet
+[114] https://johnnyrodgers.is/
+[115] https://how-i-experience-web-today.com/
+[116] https://projects.kwon.nyc/internet-is-fun/
+[117] https://www.zinzy.website/site
+[118] https://www.zinzy.website/
+[119] https://stackingthebricks.com/how-blogs-broke-the-web/
+[120] https://stackingthebricks.com/
+[121] https://joanwestenberg.medium.com/i-miss-the-internet-c7e41544a8b9
+[122] https://projects.kwon.nyc/internet-is-fun/
+[123] https://eftegarie.com/every-person-on-the-planet-should-have-their-own-website/
+[124] https://eftegarie.com/
+[125] https://pawelgrzybek.com/eight-years-of-blogging/
+[126] https://pawelgrzybek.com/
+[127] https://cdevroe.com/2023/01/11/blogging-is-alive
+[128] https://cdevroe.com/
+[129] https://matthiasott.com/notes/the-year-of-the-personal-website
+[130] https://matthiasott.com/
+[131] https://www.theverge.com/23513418/bring-back-personal-blogging
+[132] https://moniquejudge.com/
+[133] https://manuelmoreale.com/passionless-web
+[134] https://manuelmoreale.com/
+[135] https://tomcritchlow.com/2022/03/08/architecture-blogging/
+[136] https://tomcritchlow.com/
+[137] https://eyeondesign.aiga.org/early-web-design-helped-generation-express/
+[138] https://www.nikafisher.com/
+[139] https://cheapskatesguide.org/articles/joys-and-sorrows.html
+[140] https://cheapskatesguide.org/
+[141] https://www.daniel.pizza/writing/building-home-web
+[142] https://www.daniel.pizza/
+[143] https://notebook.wesleyac.com/how-websites-die/
+[144] https://wesleyac.com/
+[145] https://www.tandfonline.com/doi/full/10.1080/24701475.2021.1985836
+[146] https://katemiltner.com/
+[147] https://projects.kwon.nyc/internet-is-fun/
+[148] https://chuck.is/web-independent/
+[149] https://chuck.is/
+[150] https://atthis.link/blog/2021/personalsite.html
+[151] https://atthis.link/
+[152] https://benhoyt.com/writings/the-small-web-is-beautiful/
+[153] https://benhoyt.com/
+[154] https://winnielim.org/experiments/website/envisioning-my-homepage-as-an-online-therapeutic-space/
+[155] https://winnielim.org/
+[156] https://cheapskatesguide.org/articles/personal-website-hunting.html
+[157] https://cheapskatesguide.org/
+[158] https://ar.al/2020/08/07/what-is-the-small-web/
+[159] https://ar.al/
+[160] https://neustadt.fr/essays/the-small-web/
+[161] https://neustadt.fr/
+[162] https://roelvanderven.com/blog/attention-management-owning-content
+[163] https://roelvanderven.com/
+[164] https://dariusforoux.com/stop-crowdsourcing-confidence/
+[165] https://dariusforoux.com/
+[166] https://archive.ph/2013.12.27-041357/http://frankchimero.com/blog/2013/12/homesteading-2014/
+[167] https://frankchimero.com/
+[168] https://deathtobullshit.com/
+[169] https://bradfrost.com/
+[170] https://maggieappleton.com/garden-history
+[171] https://maggieappleton.com/
+[172] http://sawv.org/en.html
+[173] http://sawv.org/
+[174] https://gohugo.io/
+[175] https://kwon.nyc/

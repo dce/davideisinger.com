@@ -1,0 +1,116 @@
+[1]Jason Murray
+[2]About [3]Blog [4]Now [5]Resume [6]Contact
+[7][8][9][10][11]
+
+  • [13]About
+  • [14]Blog
+  • [15]Now
+  • [16]Resume
+  • [17]Contact
+
+Nov 1, 2021
+
+Enable Full Text RSS Feeds in Hugo
+
+By default, [18]Hugo summarizes each article when generating the RSS feed. Not
+ideal if your the type of person who prefers to read the full content directly
+in an RSS reader. This post will show you how to enable full text RSS feeds in
+Hugo.
+
+Here’s an example of a long article summarized in [19]Inoreader:
+
+[20]Image of Summarized article from RSS feed in Inoreader
+
+Here’s the same article after enabling full content RSS feeds:
+
+[21]Image of
+
+Configuration Details[22]
+
+Create the following directory structure in the root of your Hugo site:
+
+mkdir layouts/_default
+
+Output Example:
+
+jemurray@phalanges:~/Documents/www-personal/current/jasonmurray.org $ mkdir layouts/_default
+
+Then copy the following file into the layouts/_default directory. It’s is an
+updated version of the default [23]RSS template with the appropriate
+modifications to generate full text RSS feeds:
+
+wget https://raw.githubusercontent.com/0xJasonMurray/jasonmurray.org/main/layouts/_default/rss.xml -O layouts/_default/rss.xml
+
+Output Example:
+
+jemurray@phalanges:~/Documents/www-personal/current/jasonmurray.org $ wget https://raw.githubusercontent.com/0xJasonMurray/jasonmurray.org/main/layouts/_default/rss.xml -O layouts/_default/rss.xml
+--2021-11-01 19:23:12--  https://raw.githubusercontent.com/0xJasonMurray/jasonmurray.org/main/layouts/_default/rss.xml
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.108.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1959 (1.9K) [text/plain]
+Saving to: ‘layouts/_default/rss.xml’
+
+layouts/_default/rss.xml                                    100%[=========================================================================================================================================>]   1.91K  --.-KB/s    in 0s
+
+2021-11-01 19:23:12 (8.94 MB/s) - ‘layouts/_default/rss.xml’ saved [1959/1959]
+
+For those curious, here’s the diff between the original and the modified
+version of the rss.xml file:
+
+jemurray@phalanges:~ $ diff rss.xml Documents/www-personal/current/jasonmurray.org/layouts/_default/rss.xml
+35c35
+<       <description>{{ .Summary | html }}</description>
+---
+>       <description>{{ .Content | html }}</description>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[24]hugo[25]rss
+
+207 Words
+
+2021-11-01 19:21 -0500
+
+[26]  Newer
+Configure Client Wireguard VPN Server on Linux [27] Older 
+Preparing to ThreatHunt: Installing and Configuring Sysmon on Windows 10
+
+© 2024 [28]Jason Murray · [29]CC BY-NC 4.0
+
+Made with [30]Hugo · Theme [31]Hermit · [32]
+
+
+References:
+
+[1] https://jasonmurray.org/
+[2] https://jasonmurray.org/pages/about/
+[3] https://jasonmurray.org/posts/
+[4] https://jasonmurray.org/now/
+[5] https://jasonmurray.org/pages/resume
+[6] https://jasonmurray.org/pages/contact
+[7] mailto:jemurray@zweck.net
+[8] http://keys.gnupg.net/pks/lookup?search=0x6E8A4FCDF2F9138C&fingerprint=on&op=index
+[9] https://github.com/0xJasonMurray/
+[10] https://twitter.com/0xJasonMurray/
+[11] https://www.linkedin.com/in/jemurray/
+[13] https://jasonmurray.org/pages/about/
+[14] https://jasonmurray.org/posts/
+[15] https://jasonmurray.org/now/
+[16] https://jasonmurray.org/pages/resume
+[17] https://jasonmurray.org/pages/contact
+[18] https://gohugo.io/
+[19] https://www.inoreader.com/
+[20] https://jasonmurray.org/images/2021-11-01-19-39-24.png
+[21] https://jasonmurray.org/images/2021-11-01-20-21-17.png
+[22] https://jasonmurray.org/posts/2021/rssfulltexthugo/#configuration-details
+[23] https://raw.githubusercontent.com/gohugoio/hugo/master/tpl/tplimpl/embedded/templates/_default/rss.xml
+[24] https://jasonmurray.org/tags/hugo
+[25] https://jasonmurray.org/tags/rss
+[26] https://jasonmurray.org/posts/2021/wireguardlinux/
+[27] https://jasonmurray.org/posts/2021/sysmon-on-windows10/
+[28] https://jasonmurray.org/
+[29] https://creativecommons.org/licenses/by-nc/4.0/
+[30] https://gohugo.io/
+[31] https://github.com/Track3/hermit
+[32] https://jasonmurray.org/posts/index.xml

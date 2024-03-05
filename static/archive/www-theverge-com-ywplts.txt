@@ -1,0 +1,228 @@
+[1]Skip to main content
+[2]The Verge logo.[3]The Verge homepage
+
+  • [4]The Verge homepageThe Verge logo./
+  • [5]Tech/
+  • [6]Reviews/
+  • [7]Science/
+  • [8]Entertainment/
+  • MoreMenu
+
+[10]The Verge logo.
+Menu
+
+  • [12]Vergecast/
+  • [13]Podcasts/
+  • [14]Tech
+
+From the cloud to your computer: a new theory of how software works
+
+From the cloud to your computer: a new theory of how software works
+
+/
+
+From offline mode to multiplayer to heady questions about ownership, we’re
+rethinking the way software works. But what does better look like?
+
+By [15]David Pierce, editor-at-large and Vergecast co-host with over a decade
+of experience covering consumer tech. Previously, at Protocol, The Wall Street
+Journal, and Wired.
+
+Oct 30, 2023, 3:55 PM UTC
+
+Share this story
+
+  • 
+  • 
+  • 
+
+Illustration of the Vergecast logo
+Illustration by Samar Haddad / The Verge
+
+For a while, I really thought I could be a self-hoster. After months of talking
+to people about platforms and security and what it means that we really don’t
+own any of the data and apps we use every day, my big plan was to buy a mini PC
+and run my life off my own device.
+
+A lot of Docker experimentation later, I pretty much gave up. (As one person
+put it to me, if you ever find yourself typing in an IP address and port
+number, you’ve officially exited the realm of “things most people will ever
+do.”) And so this episode of [20]The Vergecast, the fourth and final in our
+series about connectivity, became about something else. Self-hosting is a nice
+idea and a totally impractical reality for most people; signing into cloud
+services and downloading apps is just so much easier to do!
+
+But there are plenty of people out there who think we don’t have to choose.
+They think it’s possible to build software that both belongs to us and works
+across all our devices, that is collaborative and user-friendly and has an
+offline mode. They even have a term for this — [21]local-first software — and
+point to apps like [22]Obsidian as proof that it can work.
+
+After that, we get to one more idea about software: that the solution isn’t to
+change the way we acquire and access software but rather to change the things
+we can do to that software. In his book [23]The Internet Con, activist and
+author Cory Doctorow argues that interoperability might be the solution to most
+of our tech woes. Interop could turn the internet from a series of walled
+gardens into a teeming forest of interconnected services that are only as
+successful as they are good. But that requires some legal changes and some big
+new ideas about how we build and use software.
+
+Software has connected us and connected everything. So how do we connect to our
+software? That’s the question of this episode. The answer doesn’t quite look
+like Plex servers and NAS systems, but it might be the next best thing.
+
+Most Popular
+Most Popular
+
+ 1. [25]
+
+    Nintendo Switch emulator Yuzu will utterly fold and pay $2.4M to settle its
+    lawsuit
+
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 2. [26]
+
+    The MacBook Air gets an M3 upgrade
+
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 3. [27]
+
+    Apple hit with first-ever EU fine following Spotify complaint
+
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 4. [28]
+
+    Google’s morale crisis is about to get worse
+
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 5. [29]
+
+    Eufy’s new 360-degree 4K camera doesn’t need Wi-Fi or power outlets
+
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Verge Deals
+
+/ Sign up for Verge Deals to get deals on products we've tested sent to your
+inbox daily.
+
+Email (required)[30][                    ]Sign up
+By submitting your email, you agree to our [32]Terms and [33]Privacy Notice.
+This site is protected by reCAPTCHA and the Google [34]Privacy Policy and [35]
+Terms of Service apply.
+From our sponsor
+
+[36]
+
+[37]
+Advertiser Content FromSponsor logo
+Sponsor thumbnail
+
+More from [38]Tech
+
+  • Stock image illustration featuring the Nintendo logo stamped in black on a
+    background of tan, blue, and black color blocking.Stock image illustration
+    featuring the Nintendo logo stamped in black on a background of tan, blue,
+    and black color blocking.
+
+    [39]The Nintendo Switch 2 will now reportedly arrive in 2025 instead of
+    2024
+
+  • Apple AirPods ProApple AirPods Pro
+
+    [40]The best Presidents Day deals you can already get
+
+  • Figma CEO Dylan Field.Figma CEO Dylan Field.
+
+    [41]Interview: Figma’s CEO on life after the company’s failed sale to Adobe
+
+  • An image announcing Vudu’s rebranding to Fandango at Home.An image
+    announcing Vudu’s rebranding to Fandango at Home.
+
+    [42]Vudu’s name is changing to ‘Fandango at Home’
+
+  • 
+    [43]
+    Advertiser Content FromSponsor logo
+
+    [44]
+
+[45]The Verge logo.
+
+  • [46]Terms of Use
+  • [47]Privacy Notice
+  • [48]Cookie Policy
+  • [49]Do Not Sell Or Share My Personal Info
+  • [50]Licensing FAQ
+  • [51]Accessibility
+  • [52]Platform Status
+  • [53]How We Rate and Review Products
+
+  • [54]Contact
+  • [55]Tip Us
+  • [56]Community Guidelines
+  • [57]About
+  • [58]Ethics Statement
+
+The Verge is a vox media network
+
+  • [59]Advertise with us
+  • [60]Jobs @ Vox Media
+
+© 2024 [61]Vox Media, LLC. All Rights Reserved
+
+
+References:
+
+[1] https://www.theverge.com/23938533/self-hosting-local-first-software-vergecast#content
+[2] https://www.theverge.com/
+[3] https://www.theverge.com/
+[4] https://www.theverge.com/
+[5] https://www.theverge.com/tech
+[6] https://www.theverge.com/reviews
+[7] https://www.theverge.com/science
+[8] https://www.theverge.com/entertainment
+[10] https://www.theverge.com/
+[12] https://www.theverge.com/the-vergecast
+[13] https://www.theverge.com/podcast
+[14] https://www.theverge.com/tech
+[15] https://www.theverge.com/authors/david-pierce
+[20] https://pod.link/vergecast
+[21] https://www.inkandswitch.com/local-first/
+[22] https://obsidian.md/
+[23] https://www.versobooks.com/products/3035-the-internet-con
+[25] https://www.theverge.com/2024/3/4/24090357/nintendo-yuzu-emulator-lawsuit-settlement
+[26] https://www.theverge.com/2024/3/4/24089999/apple-macbook-air-m3-announced-13-15-inch
+[27] https://www.theverge.com/2024/3/4/24005938/european-commission-antitrust-apple-investigation-anti-steering-rules-app-developers
+[28] https://www.theverge.com/2024/3/3/24089843/google-morale-crisis-about-to-get-worse
+[29] https://www.theverge.com/2024/2/27/24085151/anker-eufy-4k-lte-cam-s330-features-price
+[32] https://www.voxmedia.com/legal/terms-of-use
+[33] https://www.voxmedia.com/legal/privacy-notice
+[34] https://policies.google.com/privacy
+[35] https://policies.google.com/terms
+[36] http://theverge.com/
+[37] http://theverge.com/
+[38] https://www.theverge.com/tech
+[39] https://www.theverge.com/2024/2/16/24075174/switch-2-launch-date-rumor-q1-2025
+[40] https://www.theverge.com/24072881/best-presidents-day-sales-deals-2024-apple-tvs-gaming-headphones-smartwatches
+[41] https://www.theverge.com/2024/2/16/24075126/figma-ceo-dylan-field-interview-after-adobe
+[42] https://www.theverge.com/2024/2/16/24075041/vudu-fandango-at-home-rebranding-new-name
+[43] http://theverge.com/
+[44] http://theverge.com/
+[45] https://www.theverge.com/
+[46] https://www.voxmedia.com/legal/terms-of-use
+[47] https://www.voxmedia.com/legal/privacy-notice
+[48] https://www.voxmedia.com/legal/cookie-policy
+[49] https://www.theverge.com/contact
+[50] https://www.voxmedia.com/pages/licensing
+[51] https://www.voxmedia.com/legal/accessibility
+[52] https://status.voxmedia.com/
+[53] https://www.theverge.com/pages/how-we-rate
+[54] https://www.theverge.com/contact-the-verge
+[55] https://www.theverge.com/a/tip-us-secure-contact-email
+[56] https://www.theverge.com/community-guidelines
+[57] https://www.theverge.com/about-the-verge
+[58] https://www.theverge.com/ethics-statement
+[59] https://www.voxmedia.com/vox-advertising
+[60] https://jobs.voxmedia.com/
+[61] https://www.voxmedia.com/

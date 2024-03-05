@@ -1,0 +1,209 @@
+[1]The New Oil
+
+Skiff Should Be A Reminder To Us All
+
+February 18, 2024
+
+Last week, encrypted email, cloud, and calendar provider Skiff announced they
+will be shutting down in six months after being acquired by Notion. This has
+understandably caused a lot of frustration in the privacy community as many
+people were initially quite excited about Skiff. Several other privacy outlets
+– including [2]Michael Bazzell, [3]Privacy Guides, and even our own [4]
+Surveillance Report – have all discussed our own frustrations, lessons learned,
+and plans going forward. But really, this is nothing new. Two years ago (nearly
+to the month), [5]CTemplar also suddenly shut down, and we saw nearly the same
+scenario play out (with different reasons being given by the companies). So
+this week, let’s take a moment to reflect back on the second email shutdown The
+New Oil has survived and see what lessons we can take away for the next
+inevitable disruption.
+
+Reminder: Beware the Little Guys
+
+In the above-linked CTemplar blog post, I wrote that “in the privacy space, we
+are very skeptical of new services.” Since then, I’ve seen a shift away from
+that. I’m not a fan. On the one hand, I’ve [6]written in the past about how no
+service or tool is perfect and how we should always be striving for better
+services that improve upon those shortcomings. In the CTemplar post, I also
+mentioned the value of supporting the little guy and how every major
+organization was once a “little guy.” However, I think that the privacy
+community has taken this mentality too far. Not a week goes by that I don’t see
+some new forum post, email, or [7]Surveillance Report question about some new
+service I’ve never heard of before. It’s great that so many new people are
+recognizing the room for improvement and stepping up to the challenge, and that
+so many privacy enthusiasts stand ready to support these efforts. But in the
+CTemplar post, I also touched on the fact that starting a new service is really
+hard and riddled with uncertainty. It could be a Big Tech or government [8]
+honeypot. Even if it’s not and the creators are genuine, it’s incredibly easy
+to accidentally screw up implementation and allow for bugs and vulnerabilities
+(if it happens to the big, well-funded giants on a regular basis, why would the
+small, cash-strapped startups be any safer?). And of course, any new company in
+any industry must compete, and that’s never a sure thing no matter how much
+money you throw at something or else there’d be no such thing as “box-office
+bombs” and venture capitalists would have a far higher [9]success rate.
+
+I know that advice is contradictory, but life is complicated, contradictory,
+and messy. Still, two things can be real – like how new services should be both
+supported but also treated cautiously. It’s okay to donate to a new service you
+believe in that you think is doing interesting things, but you probably
+shouldn’t immediately move everything over to be your primary service.
+Relationships have some pretty consistent rules and characteristics across the
+board, whether it’s with a potential romantic partner or a corporation. One
+such rule is to go slow. You wouldn’t propose marriage on the first date, so
+why on earth would you move all your most sensitive data into a brand new
+service you just discovered that’s less than two years old and just launched
+their first stable release six months ago and you can’t find any expert reviews
+of it? Explore, support, but temper your excitement. Wait to see what the
+experts say and if the service really is here to stand the test of time.
+
+Reminder: Control Your Data
+
+This is a topic I clearly need to discuss more: the tech space in general – but
+especially the privacy space – is rife with ephemeral projects, whether because
+they get sold, abandoned, or forced out of business. The single best way to
+defend against this is to control your data, and the best way to do that – I
+think – is to think in “standards.” The internet was never Netscape, Explorer,
+Firefox, or Chrome (or apps, for that matter). It was always HTTP, TCP/IP, the
+OSI model, and other such standards. These have been improved upon over time
+(such as HTTPS and DoH/DoT), but the core standards have never changed. And
+they're open! Accessing [10]The New Oil today is no different than accessing
+Myspace in 2003 or the [11]CERN website in 1991, except it’s probably a lot
+faster, easier, and better-looking (no offense, Proton/CERN alumni).
+
+If you don’t know what any of that stuff means, don’t worry about it. Here’s
+the point: try to think about how to reduce your data to a standard –
+preferably an open one – and then preserve that. For the record, I don’t mean a
+literal web standard like the ones above, but I do mean the same ideas and
+principles. Bear with me and I’ll come back to that. Since this post was
+inspired by Skiff (and built off my CTemplar post), let’s take email for
+example. Like it or not, email isn’t going away any time soon. Nearly all
+websites require email to sign up for an account, for example, and lately
+there's been a big push for services to forgo a password logon entirely and
+instead email you a link every time you sign in. (Not a fan.) However, email is
+an interoperable standard. Whether you use Proton, Tuta, Mailbox, or Gmail,
+that login link is going to get sent to you. So regardless of whether you’re
+wanting to check out a new provider or simply improve your own data
+sovereignty, the question to ask here is “how can I think of email as a
+'standard' to ensure that I retain control of my email no matter what?” The
+most extreme option here is to self-host your own email server, but that’s
+generally not recommended unless you’re an expert – there’s too many
+opportunities for things to go wrong and suddenly your emails will be blocked
+(possibly both sending and receiving) and you may not have any idea for a long
+while. Instead, the next-best option is to control the email address, because
+then you always control where the emails go. You’re not bound to a specific
+provider, which means you can migrate for any reason – shutdown, censorship,
+better options, etc. The good news is that this is incredibly easy to
+accomplish. You simply buy your own domain name from any reputable registrar
+for a few bucks a year, and most email providers have instructions on how to
+set it up. Then, if you decide you want to use a different provider, you just
+look up their instructions instead.
+
+Now, of course, experienced readers will go “email isn’t a standard, Nate.” And
+you’re 100% right. As I said, I don’t mean to think in literal standards like
+HTTP or TCP/IP. What I do mean is think in terms of “universal” and
+“interoperable” – like a standard. As I said earlier, email is universal.
+Proton, Tuta, Gmail, Yahoo, every email provider is built on the exact same
+standards that make email function, such as SMTP, RFC 5322, and MX DNS records.
+Of course, Proton & Tuta offer different protections and technical features
+than Gmail and Yahoo (and even each other) but the core product is identical:
+an email is an email and will be delivered to or sent from anywhere (not
+including restrictions such as company or government censorship). As such, you
+can think of an email the same way you think of any standard: how can I ensure
+that I always receive my emails, send emails, and have my emails? As I said,
+the first two are easily accomplished via custom domains: if you ever have
+issues or find a better provider, simply migrate over with a few clicks and
+some help from the provider and you’re golden. The last one can be accomplished
+by exporting your emails, a feature that going forward I will consider a
+non-negotiable requirement to be listed on The New Oil because of situations
+exactly like this. Most providers also let you import emails, allowing you to
+transfer as if nothing ever happened. Backing up your emails via exporting on a
+regular basis and owning a custom domain essentially untethers you from any one
+given provider for email, making you independent, resilient, and in control of
+your own data.
+
+Practical Application
+
+This thought process can be applied to nearly anything. “How can I save this
+file in a format that’s compatible with other word processors or operating
+systems?” “How can I save my backups in a format that’s recoverable and usable?
+” “What would I do if this messenger shuts down tomorrow?” Not to victim blame,
+but perhaps the biggest failing with the Skiff fiasco – and CTemplar before it
+– was not asking these kinds of questions in advance and planning ahead. One
+should always have an exit strategy and backup plan in place, even with the
+most trusted and long-standing services, and one should always look for
+opportunities to reduce their dependence on these platforms as much as
+possible. (Note: I would like to recognize that some people are truly living
+paycheck to paycheck and cannot afford to pay for a custom domain or even a
+premium email aliasing service. This is valid, and I still encourage you to ask
+these questions and come up with solutions that are within your means, even if
+they’re less than ideal.)
+
+It is, of course, worth noting that there’s only so much you can do. You can’t
+literally own your own domain registrar, and even if you could you couldn’t own
+the organization who makes the kinds of decisions that affect your specific
+domain. Therefore you can never 100% be certain of your domain name. But even
+as an everyday individual, you can rest assured that it would take a lot to get
+your domain name revoked or taken away, and for most of us that’s simply not
+something to even worry about. Likewise, for a lot of apps, you can export your
+data but it may only be readable by that same app. It’s important to be aware
+of these limitations and ask if you’re comfortable with them. I am a [12]Qubes
+user, and I don’t expect that to change any time soon. My backups from Qubes
+can only be read by another Qubes device, and for me that’s okay. The purpose
+of these backups is to have them as literal backups – to be able to reload them
+on another Qubes device in the event of theft, loss, or damage of my Qubes
+laptop. On the other hand, I want my emails to be portable so that I can open
+them with another provider (or at very least, another program) so that I don’t
+lose all my past correspondence if I ever have to migrate services. These are
+two very different use cases that warrant consideration.
+
+Whatever services you’re using today, there’s a near 100% chance you won’t be
+using most of them in 10 years. Whether they shut down or whether you simply
+migrate to something that better suits your needs, the software you’re using
+will almost certainly change in the future. The question is if you’ll be ready
+when that happens. Everyone who was depending on Skiff directly must now
+scramble to migrate and pray that they didn’t overlook anything when the dust
+settles. Don’t be caught in that situation when the service you depend on sheds
+this mortal coil and joins the choir invisible. If you’re lucky, you’ll decide
+that the time is right to move on to another project and have all the time you
+want to make the switch. We can’t always be so lucky. The best time to plant a
+tree is 20 years ago. The second best time is today. I’ll end with what I said
+when CTemplar shut down:
+
+    Controlling your data is important and powerful. It makes you independent,
+    it makes you resilient, and it makes your life simpler by being prepared
+    for when things change – and in tech, things are always changing. Part of
+    threat modeling is planning for what could go wrong and then putting
+    systems in place to mitigate it if it happens. Maybe you weren’t affected
+    by this CTemplar situation. That doesn’t mean you won’t be affected by the
+    next one. Be sure to review the products and services you use and plan
+    ahead. There’s always room to improve. Take this time to learn some lessons
+    and apply the necessary changes to your own posture.
+
+You can find more recommended services and programs at [13]TheNewOil.org, and
+you can find our other content across the web [14]here or support our work in a
+variety of ways [15]here.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+published with [16]write.as
+
+[piwik]
+
+
+References:
+
+[1] https://blog.thenewoil.org/
+[2] https://inteltechniques.com/blog/2024/02/12/lessons-learned-from-skiffs-shutdown/
+[3] https://blog.privacyguides.org/2024/02/11/this-week-in-privacy-8/
+[4] https://apertatube.net/w/ftu35a7ZFgYguE6emeX9r5?start=10m3s
+[5] https://blog.thenewoil.org/ctemplar-is-dead-aka-lessons-about-email-sovereignty
+[6] https://blog.thenewoil.org/the-self-destructive-quest-for-perfection
+[7] https://surveillancereport.tech/
+[8] https://usa.kaspersky.com/resource-center/threats/what-is-a-honeypot
+[9] https://techcrunch.com/2017/06/01/the-meeting-that-showed-me-the-truth-about-vcs/
+[10] https://thenewoil.org/
+[11] https://www.history.com/news/the-worlds-first-web-site
+[12] https://www.qubes-os.org/
+[13] https://thenewoil.org/
+[14] https://thenewoil.org/en/links/
+[15] https://thenewoil.org/en/support/
+[16] https://write.as/

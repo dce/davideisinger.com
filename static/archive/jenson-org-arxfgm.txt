@@ -1,0 +1,294 @@
+[1]Skip to content
+
+[2] Scott Jenson
+
+Exploring the world beyond mobile
+
+Menu
+
+  • [4]Articles
+  • [5]Most Popular
+  • [6]Talks
+  • [7]About
+
+August 30, 2021
+
+  • [8]Article
+  • [9]Most Popular
+
+The future needs files
+
+For many mobile users, files are like dinosaurs, a holdover from the bygone
+desktop era. Sure, they “work” but, they’re mostly there because, you know,
+ancient history. I’ve discussed this issue for the last 2 years and I usually
+get some version of “get over it grandpa”. 
+
+I’m not here to tell you exactly what should happen, but more what you should
+want. For me, it’s a travesty that people don’t understand why files are so
+powerful and more importantly, how they need to evolve for mobile. I want all
+OSs, including mobile ones, to properly support real files as they are amazing,
+inspiring, and possibly the future of how we build our digital future.
+
+Note: I’m using iOS as an example throughout this post but Android (and others)
+are doing nearly the same thing. Please don’t mistake this as some type of
+attack on Apple, this applies to everyone.
+
+I’m not a luddite
+
+I can understand your skepticism. Am I the dinosaur, overly attached to the
+past? In my defense, I was on the Apple Newton team in the 90s (even working on
+an unreleased “Newton Phone” concept) and also managed Google’s Mobile UX team
+from 2005-2009, I was there when all hell broke loose and saw firsthand how
+mobile changed everything. Mobile is clearly a juggernaut far bigger than
+desktop. But too many assume a market win means a perfect product. It’s never
+that simple. Mobile won for a variety of reasons, but throwing away files
+wasn’t one of them.
+
+Misconception #1: Mobile already has files!
+
+Whenever I broach this topic on Twitter I always get some smart aleck posting a
+screenshot of the Apple Files app.  Sigh… Yes, there is a Files app, Bravo… But
+it’s so poorly integrated into the experience that it creates confusion and
+extra work. Let’s back up a bit.
+
+In 2007, the iPhone was a radical simplification over the desktop. There were
+no windows, no menu bar, and there weren’t even visible scroll bars! The iPhone
+was primarily a content consumption device. This was a brilliant insight. It
+didn’t rule out content creation, it just made it an edge case. The iPhone was
+first and foremost focused on browsing and scrolling. In fact, it’s maniacal
+focus on scrolling introduced “flicking”, which allowed a super fast scroll to
+the bottom of lists. (there’s a whole blog post I could write  just on the
+difference between the Newton and iPhone scrolling behaviors)
+
+But the iPhone didn’t stop there, it radically simplified other parts of the
+UI, the most notable was removing the file system entirely. Remember, this was
+a consumption device, so files weren’t strictly necessary. You had file-like
+things, but they were locked up inside the apps themselves. The Notes app is a
+good example. 
+
+  • [Notes1]
+  • [Notes2]
+
+And to be honest, if you have just a few notes, this isn’t bad. The problem is
+that if you have lots of notes, or want to do anything interesting with these
+notes (e.g. get comments on them, post to blog, or import previous work) you’re
+out of luck. My issue with that initial 2007 iPhone was that while it was well
+intentioned it took things too far. Instead of hiding files away, it killed
+them off entirely.
+
+But things have improved since then right? There is a Files app after all.
+Notes can import from Files!
+
+Well, not quite. Let’s just look at the most recent (2021) version of the iOS
+Notes app. It’s significantly different from the original 2007 version, with
+lots more functionality, but below is a screenshot of me trying to save a note
+to Dropbox.
+
+[Notes-2021-Export-700x527]Notes 2021
+
+Notice something? There is no “Save to Files” option! Even more confusing,
+Notes has its own parallel folders that don’t show up in the Files app. And if
+you feel like being a smarty-pants and say “Scott, look, those are iCloud
+folders!” Not so fast there buckeroo. Here’s my iCloud drive:
+
+[YI4kG_di0flii3q8LURZVnypQ2KggBwOQG_IPFqmrn3y22V0VlYfwSdKg]Web iCloud
+
+Those Notes folders are nowhere to be seen. They are ONLY visible in the Notes
+app or the iCloud Notes app! A tight little ecosystem you can’t escape from.
+
+To further confuse things, when I took a screenshot of the Notes app and tried
+to save this to the Files app, that actually was possible! The Mac prided
+itself on “learn once, use everywhere.” That’s clearly not the case for iOS
+apps.
+
+[Screenshot-savejpg-700x525]Screenshots support Files app
+
+Side Note: You actually can use Files from Notes but it’s hidden. Instead of
+“Save to Files” you have to chose “Send a copy” menu item that will export a
+version into Files. So while it’s Notes does indeed support the Files app, it’s
+unlike others and clearly only focuses in the Import/Export use case.
+
+This odd-man-out approach for Notes shows an underappreciated challenge for any
+paradigm shift. iOS started off without files so when Apple suddenly added a
+Files app a decade later, it’s not surprising that most apps didn’t immediately
+start to use it uniformly. 
+
+Of course, things may improve over time but it’s been years with little change.
+I worry things are intellectually calcifying, or in Notes case, bifurcating.
+Part of my motivation in writing this post is to get us fired up about the
+value of files so it we appreciate this is happening.
+
+Misconception #2: Sharing is all I need
+
+The power of files comes from them being powerful nouns. They are temporary
+holding blocks that are used as a form of exchange between applications. A
+range of apps can edit a single file in a single location. On mobile, the
+primary way to really use files is to “Share” between apps. This demotes files
+from a powerful abstract noun into a lackluster narrow verb. 
+
+ For example, I can import a text file into the Notes app but it’s really
+nothing more than a glorified copy/paste, not an editing of an object in place.
+This makes a cloud storage service like DropBox nearly useless as I’m not
+editing “the thing” but a copy of the thing. I need to save it back out to
+Dropbox if I want anyone else to see my changes. That’s vastly underutilizing
+the power of the abstraction that comes from files. 
+
+By sharing a file into an app you’re effectively making a copy. If I’d like to
+make a few changes to a photo before posting it, each app I use makes an
+internal copy of that photo. In order to pass the new photo to another app, I
+have to export it out, so I get not only a copy of the photo in each app I use,
+but it’s result needs to be copied out yet again to a service like Dropbox so
+that I can share it back into the next app.
+
+Of course, people don’t do this type of flow often but that’s because mobile is
+mostly about consumption not creation. If we want mobile to expand and grow it
+needs to handle the flows “knowledge workers” do routinely. Part of my
+frustration in talking about this issue is that people are so trapped within
+the present. Just because no one needs something today somehow justifies our
+pain forever. If we’re talking about the future, we need to talk about new
+tools and new workflows. The current model of files on mobile is drastically
+restricting this.
+
+Misconception #3: But I can share with iPhone users!
+
+Yes, you can “Share” notes with other iOS users but that’s a very [10]
+Procrustean Bed you’re making. You have to ask “at what cost”? Are you really
+willing to bet your creative productivity to a single app from a single
+company? Remember, this approach prevents your notes even from being used by
+other iOS apps as well!
+
+The most powerful aspect of files is that they liberate your data. Any app can
+see it and do something useful to it. DropBox (et. al.) were able to seamlessly
+merge with desktop usage as it required zero changes to your workflow. Files
+were just magically synced to the cloud, unlocking not only multiple computers
+working on the same file but multiple device types. 
+
+The current mobile model does indeed sync your data but through the wrapper of
+apps which forms a restrictive shield around your data. It’s so much more
+powerful to sync your data through files.
+
+Misconception #4: Files are just blobs of data
+
+Files are mistakenly conceived as only content, something holding your notes,
+spreadsheet data, or a photo. But files also have metadata, information about
+the information. The obvious examples are the file name, creation and
+modification date. The only one of these that is really used much on mobile is
+modification date as when you use the ‘file picker’ on mobile, it usually
+defaults to ‘most recent’ files. This actually does work well, if you’re trying
+to include something you’ve just created. Unfortunately, it just doesn’t scale
+much beyond that use case.
+
+A more subtle example of metadata is the folder a file is in. This allows you
+to group files from different apps, into a single place. If I’m planning a
+wedding, it’s very helpful to have all wedding things together. This is data
+first vs app first organization. This was extended when the Mac created the
+“Desktop”, a temporary holding place for files. People needed folders for
+longer term storage but it was also powerful to have a temporary ‘working area’
+for recent files. The original Mac even had a [11]“Put away” command that would
+return a file from the Desktop back into its original folder location (sadly
+removed in OS X). This small bit of history shows how adding a tiny amount of
+metadata can have a significant positive impact on a user’s workflow.
+
+[Put-Away-700x525]Mac OS9 Put away command
+
+The same applies to previews or content indexes (e.g. Spotlight on the Mac)
+This allows the Finder to display your files in more helpful ways and even
+allows you to quickly find things based on their content. This metadata is
+hugely powerful and not always available on mobile. 
+
+But it’s helpful to remember that this metadata only went so far. Using “just
+files” started to break down with apps like iPhoto and iTunes, which tried to
+have it both ways. Both used the file system to store the many large files
+needed but they also required an app to add additional metadata to group and
+sort the content. This created a schism, splitting the metadata between two
+different masters. This meant you couldn’t just ‘reach into’ your iTunes
+folders with the Finder to rearrange things (or convert the files from WAV to
+MP3) without causing serious app confusion. In some cases, if you did this the
+music would simply disappear from iTunes.
+
+2002 iTunes 2.0.4 CD on OS9 - Take 2 | AppleToTheCore.me
+
+There were attempts to fix this. BeOS allowed arbitrary data to be added to
+files and this was reflected it’s Tracker (file browser) app. This allowed
+iPhoto-like ‘apps’ to exist entirely within Tracker. [12]WinFS from Microsoft
+carried this even further with a more robust metadata mechanism. Both were
+valiant attempts but most people have no idea either existed and have ended up,
+like Dvorak keyboards, to be considered a mostly ignored branch of computer
+history. This is too bad as we’ve already seen that things like Mac Spotlight
+are incredibly helpful. I strongly feel that we should be looking harder at
+bringing back metadata systems like WinFS/BeOS. But not for me, for the AI.
+
+Our AI Future
+
+My goal isn’t to talk about “fixing mobile”. Mobile will, eventually, get
+there. Too many people think “Mobile is the Future” but we are so far past
+that. Mobile is the present. We need to actually be thinking about the future
+that is coming and what we are going to need.
+
+Mobile started off as a consumption device. That brilliant simplification
+unlocked an explosion of basic consumption tasks. But if we want to move
+everyone over to phones and tablets, we clearly have a long ways to go. Yes,
+there are small niches of people, like writers that are using their iPad for
+creation. But that isn’t a very high bar, [13]extremely simple devices have
+existed for this for a long time. Besides, how many companies have successfully
+migrated their entire company to tablets? I’m sure a few exist but it’s not
+exactly an avalanche is it?
+
+I’m talking about moving from consumption to creation and not just for today’s
+tasks, but for the tools we are just starting to use. I’m referring to Machine
+Learning systems. These are the type of agents that can run through the data on
+my phone making inferences, corrections, and suggestions that make my life
+easier and more productive. Things like:
+
+  • Cleaning up my contacts (and searching for additional info on them)
+  • Tagging my photos with text inside them
+  • Proofreading my writing
+  • Indexing and linking “statistically significant” words in audio/video files
+  • Creating semantic links between all of my work
+
+These are just baby, brainstorm-ish ideas. We know this will evolve to be so
+much more nuanced and impactful. Relegating these services to the OS is a safer
+option, certainly from the security point of view, but that creates an
+innovation chokepoint. If we’ve learned anything from our history, we need to
+have more open systems to create an opportunity to try out many many different
+services. Not just a few more but orders of magnitude more, which is far more
+than any OS can provide. If we’re happy with Dropbox, we should have no
+problems with 3rd party ML systems scouring our data, especially if we have
+folders as a mechanism to gate access.
+
+This isn’t some feeble political statement to liberate my data from a company. 
+I want files to liberate my data from my own apps and create an ML explosion of
+activity! Files are at some level a hack, I get that, there are limits but they
+are an extremely useful and flexible hack. Like the QWERTY keyboard, they are
+“good enough” for most tasks. Files encapsulate a ‘chunk’ of your work and
+allow that chunk to be seen, moved, acted on, and accessed by multiple people
+and more importantly external 3rd party processes. It is a fever dream to think
+mobile is adequate today. It isn’t adequate and we desperately need the power
+of files to unlock the future on mobile.
+
+Special thanks to Gordon Brander whose musings on his new app [14]Subconscious 
+revived this 2 year old idea into this blog post. If you’re not reading Gordon,
+you’re missing out.
+
+Retrieved March 4, 2024 at 4:09 pm (website time).
+
+Available at: jenson.org/?p=1011
+
+Scott Jenson (@scottjenson@social.coop)
+
+
+References:
+
+[1] https://jenson.org/files/#content
+[2] https://jenson.org/
+[4] https://jenson.org/category/article/
+[5] https://jenson.org/category/popular/
+[6] https://jenson.org/talks/
+[7] https://jenson.org/about-scott/
+[8] https://jenson.org/category/article/
+[9] https://jenson.org/category/popular/
+[10] https://en.wikipedia.org/wiki/Procrustes
+[11] https://www.google.com/books/edition/Mac_OS_9/wdtjgTMbi4kC?hl=en&gbpv=1&dq=mac+desktop+%22put+away%22&pg=PA35&printsec=frontcover
+[12] https://en.wikipedia.org/wiki/WinFS
+[13] https://getfreewrite.com/
+[14] https://subconscious.substack.com/

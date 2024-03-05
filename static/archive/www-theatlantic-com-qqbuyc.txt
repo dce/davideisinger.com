@@ -1,0 +1,365 @@
+[1]Skip to content
+
+Site Navigation
+
+  • [2]
+  • 
+    [5]Popular[6]Latest[7]Newsletters
+
+    Sections
+
+      □ [8]Politics
+      □ [9]Ideas
+      □ [10]Fiction
+      □ [11]Technology
+      □ [12]Science
+      □ [13]Photo
+      □ [14]Business
+      □ [15]Culture
+      □ [16]Planet
+      □ [17]Global
+      □ [18]Books
+      □ [19]Podcasts
+      □ [20]Health
+      □ [21]Education
+      □ [22]Projects
+      □ [23]Features
+      □ [24]Family
+      □ [25]Events
+      □ [26]Washington Week
+      □ [27]Progress
+      □ [28]Newsletters
+      □ [29][nav-arch]Explore The Atlantic Archive
+      □ [30][crosswor]Play The Atlantic crossword
+
+    The Print Edition
+
+    [31][current-issue]
+    [32]Latest Issue[33]Past Issues
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    [34]Give a Gift
+  • 
+    Search The Atlantic
+    [37][                    ]
+    Quick Links
+      □ [38]Dear Therapist
+        Dear Therapist
+      □ [39]Crossword Puzzle
+        Crossword Puzzle
+      □ [40]Magazine Archive
+        Magazine Archive
+      □ [41]Your Subscription
+        Your Subscription
+  • [43]Popular
+  • [44]Latest
+  • [45]Newsletters
+
+[46][47]
+
+  • [48]Sign In
+  • [49]Subscribe
+
+[50]More From Artificial Intelligence
+
+More From Artificial Intelligence
+
+[51]Explore This Series
+
+  • [52]GIF of a water cooler attached to the top of an old desktop computer
+
+    AI Is Taking Water From the Desert
+
+    [53]Karen Hao
+  • [54]Animation of a document being scanned and copied
+
+    Generative AI Is Challenging a 234-Year-Old Law
+
+    [55]Alex Reisner
+  • [56]An image of a Nazi soldier overlaid with a mosaic of brown tiles
+
+    The Deeper Problem With Google’s Racially Diverse Nazis
+
+    [57]Chris Gilliard
+  • [58]A diver descends toward the head of a sperm whale swimming
+    perpendicular to the surface.
+
+    How First Contact With Whale Civilization Could Unfold
+
+    [59]Ross Andersen
+
+[60]Technology
+
+Neal Stephenson’s Most Stunning Prediction
+
+The sci-fi legend coined the term metaverse. But he was most prescient about
+our AI age.
+
+
+By [61]Matteo Wong
+Sci-fi author Neal Stephenson in black and white next to an arm holding a book
+Illustration by The Atlantic. Sources: Heritage Images; Amy E. Price / Getty.
+February 6, 2024
+Share
+Save
+
+Science fiction, when revisited years later, sometimes doesn’t come across as
+all that fictional. Speculative novels have an impressive track record at
+prophesying what innovations are to come, and how they might upend the world:
+H. G. Wells wrote about an atomic bomb [64]decades before World War II, and Ray
+Bradbury’s 1953 novel, Fahrenheit 451, features devices we’d describe today as
+Bluetooth earbuds.
+
+Perhaps no writer has been more clairvoyant about our current technological age
+than Neal Stephenson. His novels coined the term [65]metaverse, laid the
+conceptual groundwork for cryptocurrency, and imagined a geoengineered planet.
+And nearly three decades before the release of ChatGPT, he presaged the current
+AI revolution. A core element of one of his early novels, [66]The Diamond Age:
+Or, a Young Lady’s Illustrated Primer, is a magical book that acts as a
+personal tutor and mentor for a young girl, adapting to her learning style—in
+essence, it is a personalized and ultra-advanced chatbot. The titular Primer
+speaks aloud in the voice of a live actor, known as a “ractor”—evoking how
+today’s generative AI, like many digital technologies, is highly dependent on
+humans’ creative labor.
+
+Stephenson’s book, published in 1995, explores a future of seamless, instant
+digital communication, in which tiny computers with immense capabilities are
+embedded in everyday life. Corporations are dominant, news and ads are
+targeted, and screens are omnipresent. It’s a world of stark class and cultural
+divisions (the novel follows a powerful aristocratic sect that styles itself as
+the “neo-Victorians”), but it’s nevertheless one in which the Primer is
+presented as the best of what technology can be.
+
+[67][original]
+[68]The Diamond Age - Or, A Young Lady's Illustrated Primer
+By Neal Stephenson
+Buy Book
+
+But Stephenson is far more pessimistic about today’s AI than he was about the
+Primer. “A chatbot is not an oracle,” he told me over Zoom last Friday. “It’s a
+statistics engine that creates sentences that sound accurate.” I spoke with
+Stephenson about his uncannily prescient book and the generative-AI revolution
+that has seemingly begun.
+
+This conversation has been edited for length and clarity.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Matteo Wong: The Young Lady’s Illustrated Primer is a book that adapts to and
+teaches a young girl, which seems to resonate with the vision of AI chatbots
+and assistants that many companies have for the near future. Did you set out to
+explore the idea of an intelligent machine in imagining the Primer?
+
+Neal Stephenson: The idea came to me after we had a kid and got this mobile
+that was designed to suspend over the crib. It had very primitive, simple
+shapes on it because, when they’re newborns, their visual systems can’t resolve
+fine details. So there would be a square and a triangle and a circle. And then,
+after a certain number of days or weeks had gone by, you were supposed to pop
+those cards off of the mobile and snap on a different set that had a more
+appropriate fit for what their brains were capable of at that age. That just
+got me to thinking: What if you extended that idea to every other form of
+intellectual growth?
+
+The technology that drives the book wasn’t really AI as we think of it now—I
+was talking to people who were working on some of the underlying technologies
+that would be needed to communicate on the internet in a secure, anonymous
+manner. I guess it’s implicit that there’s an AI in there that’s generating the
+story and increasing the degree of sophistication in response to the learning
+curve of the child, but I didn’t really go into that very much; I just kind of
+assumed it would be there.
+
+Wong: A lot of companies today—OpenAI, Google, Meta, to name a few—have said
+they want to build AI assistants that adapt to each user, somewhat like how the
+Primer acts as a teacher. Do you see anything in the generative-AI models of
+today that resembles or could one day become like the Primer?
+
+Stephenson: About a year ago, I worked with a start-up that makes AI characters
+in video games. I found it rewarding and fascinating because of the
+hallucinations: I could see how new patterns emerged from the soup of inputs
+being fed to it. The same thing that I consider to be a feature is a bug in
+most applications. We’ve already seen examples of lawyers who use ChatGPT to
+create legal documents, and the AI just fabricated past cases and precedents
+that seemed completely plausible. When you think about the idea of trying to
+make use of these models in education, this becomes a bug too. What they do is
+generate sentences that sound like correct sentences, but there’s no underlying
+brain that can actually discern whether those sentences are correct or not.
+
+[70]Read: The end of high-school English
+
+Think about any concept that we might want to teach somebody—for instance, the
+Pythagorean theorem. There must be thousands of old and new explanations of the
+Pythagorean theorem online. The real thing we need is to understand each
+child’s learning style so we can immediately connect them to the one out of
+those thousands that is the best fit for how they learn. That to me sounds like
+an AI kind of project, but it’s a different kind of AI application from DALL-E
+or large language models.
+
+Wong: And yet, today, those language models, which fundamentally predict words
+in a sequence, are being applied to many areas where they have no specialized
+abilities—GPT-4 for medical diagnosis, Google Bard as a tutor. That reminds me
+of a term used in the book instead of artificial intelligence,
+pseudo-intelligence, which many critics of the technology might appreciate
+today.
+
+Stephenson: I’d forgotten about that. The running gag of that book was applying
+Victorian diction and prejudices to high-tech things. What was probably going
+through my mind was that Victorians would look askance at the term artificial
+intelligence, because they would be offended by the idea that computers could
+replace human brains. So they would probably want to bracket the idea as a
+simulation, or a “pseudo” intelligence, as opposed to the real thing.
+
+Wong: About a year ago, in an [71]interview with the Financial Times, you
+called the outputs of generative AI “hollow and uninteresting.” Why was that,
+and has your assessment changed?
+
+Stephenson: I suspect that what I had in mind when I was making those remarks
+was the current state of image-generating technology. There were a few things
+about that rubbing me the wrong way, the biggest being that they are benefiting
+from the uncredited work of thousands of real human artists. I’m going to
+exaggerate slightly, but it seems like one of the first applications of any new
+technology is making things even shittier for artists. That’s certainly
+happened with music. These image-generation systems just seemed like that was
+mechanized and weaponized on an inconceivable scale.
+
+[72]Read: These 183,000 books are fueling the biggest fight in publishing and
+tech
+
+Another part of it was that a lot of people who got excited about this early on
+just generated huge volumes of material and put them out willy-nilly on the
+internet. If your only way of making a painting is to actually dab paint
+laboriously onto a canvas, then the result might be bad or good, but at least
+it’s the result of a whole lot of micro-decisions you made as an artist. You
+were exercising editorial judgment with every paint stroke. That is absent in
+the output of these programs.
+
+Wong: Even in The Diamond Age, the Primer seems to provide commentary on
+artists’ labor and tech, which is very relevant to generative AI today. The
+Primer teaches a girl, but a human actor digitally connected to the book has to
+voice the text aloud.
+
+Stephenson: If you’re a conventional actor onstage or in film, you stand in
+front of a camera, you perform once, and then lots of copies can be made. In
+the book, I thought it was a pretty positive vision of the future, where we
+have the technology that would enable voice actors to in effect give live
+performances on demand, all the time. Even with today’s voice clones, if you
+break it down to its simplest element, there’s still a human who sat in front
+of a microphone and provided this material. Although I guess a system like the
+Primer might not work live; you would probably have some lag—the AI is
+generating the text and sending it to the ractor, and then the ractor has to
+read it.
+
+Wong: And on the scale that some of today’s AI programs operate on, there just
+wouldn’t be enough people to do it.
+
+Stephenson: The scenario I was laying out in The Diamond Age is that the
+ractors are a scarce resource, and so the Primer is more of a luxury product.
+But eventually, the source code for the book falls into the hands of a man who
+wants to manufacture it on a massive scale, and there’s not enough money and
+not enough actors in the world to voice all those books, so at that point, he
+decides to use automatically generated voices.
+
+Wong: Another theme in the novel is how different socioeconomic classes have
+access to education. The Primer is designed for an aristocrat, but your novel
+also traces the stories of middle- and working-class girls who interact with
+versions of the book. Right now a lot of generative AI is free, but the
+technology is also very expensive to run. How do you think access to generative
+AI might play out?
+
+Stephenson: There was a bit of early internet utopianism in the book, which was
+written during that era in the mid-’90s when the internet was coming online.
+There was a tendency to assume that when all the world’s knowledge comes
+online, everyone will flock to it. It turns out that if you give everyone
+access to the Library of Congress, what they do is watch videos on TikTok. The
+Diamond Age reflects the same naivete that I shared with a lot of other people
+back in the day about how all of that knowledge was going to affect society.
+
+Wong: Do you think we’re seeing some of that naivete today in people looking at
+how generative AI can be used?
+
+Stephenson: For sure. It’s based on an understandable misconception as to what
+these things are doing. A chatbot is not an oracle; it’s a statistics engine
+that creates sentences that sound accurate. Right now my sense is that it’s
+like we’ve just invented transistors. We’ve got a couple of consumer products
+that people are starting to adopt, like the transistor radio, but we don’t yet
+know how the transistor will transform society. We’re in the transistor-radio
+stage of AI. I think a lot of the ferment that’s happening right now in the
+industry is venture capitalists putting money into business plans, and teams
+that are rapidly evaluating a whole lot of different things that could be done
+well. I’m sure that some things are going to emerge that I wouldn’t dare try to
+predict, because the results of the creative frenzy of millions of people are
+always more interesting than what a single person can think of.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+​When you buy a book using a link on this page, we receive a commission. Thank
+you for supporting The Atlantic.
+
+
+[73]Matteo Wong is an associate editor at The Atlantic.
+
+
+References:
+
+[1] https://www.theatlantic.com/technology/archive/2024/02/chatbots-ai-neal-stephenson-diamond-age/677364/#main-content
+[2] https://www.theatlantic.com/
+[5] https://www.theatlantic.com/most-popular/
+[6] https://www.theatlantic.com/latest/
+[7] https://www.theatlantic.com/newsletters/
+[8] https://www.theatlantic.com/politics/
+[9] https://www.theatlantic.com/ideas/
+[10] https://www.theatlantic.com/category/fiction/
+[11] https://www.theatlantic.com/technology/
+[12] https://www.theatlantic.com/science/
+[13] https://www.theatlantic.com/photo/
+[14] https://www.theatlantic.com/business/
+[15] https://www.theatlantic.com/culture/
+[16] https://www.theatlantic.com/projects/planet/
+[17] https://www.theatlantic.com/international/
+[18] https://www.theatlantic.com/books/
+[19] https://www.theatlantic.com/podcasts/
+[20] https://www.theatlantic.com/health/
+[21] https://www.theatlantic.com/education/
+[22] https://www.theatlantic.com/projects/
+[23] https://www.theatlantic.com/category/features/
+[24] https://www.theatlantic.com/family/
+[25] https://www.theatlantic.com/events/
+[26] https://www.theatlantic.com/category/washington-week-atlantic/
+[27] https://www.theatlantic.com/progress/
+[28] https://www.theatlantic.com/newsletters/
+[29] https://www.theatlantic.com/archive/
+[30] https://www.theatlantic.com/free-daily-crossword-puzzle/
+[31] https://www.theatlantic.com/magazine/
+[32] https://www.theatlantic.com/magazine/
+[33] https://www.theatlantic.com/magazine/backissues/
+[34] https://accounts.theatlantic.com/products/gift
+[38] https://www.theatlantic.com/projects/dear-therapist/
+[39] https://www.theatlantic.com/free-daily-crossword-puzzle/
+[40] https://www.theatlantic.com/archive/
+[41] https://accounts.theatlantic.com/accounts/subscription/
+[43] https://www.theatlantic.com/most-popular/
+[44] https://www.theatlantic.com/latest/
+[45] https://www.theatlantic.com/newsletters/
+[46] https://www.theatlantic.com/
+[47] https://www.theatlantic.com/
+[48] https://accounts.theatlantic.com/login/
+[49] https://www.theatlantic.com/subscribe/navbar/
+[50] https://www.theatlantic.com/projects/artificial-intelligence/
+[51] https://www.theatlantic.com/projects/artificial-intelligence/
+[52] https://www.theatlantic.com/technology/archive/2024/03/ai-water-climate-microsoft/677602/
+[53] https://www.theatlantic.com/author/karen-hao/
+[54] https://www.theatlantic.com/technology/archive/2024/02/generative-ai-lawsuits-copyright-fair-use/677595/
+[55] https://www.theatlantic.com/author/alex-reisner/
+[56] https://www.theatlantic.com/technology/archive/2024/02/google-gemini-diverse-nazis/677575/
+[57] https://www.theatlantic.com/author/chris-gilliard/
+[58] https://www.theatlantic.com/science/archive/2024/02/talking-whales-project-ceti/677549/
+[59] https://www.theatlantic.com/author/ross-andersen/
+[60] https://www.theatlantic.com/technology/
+[61] https://www.theatlantic.com/author/matteo-wong/
+[64] https://thebulletin.org/virtual-tour/h-g-wells-novel-the-world-set-free-predicts-atomic-warfare/
+[65] https://www.theatlantic.com/technology/archive/2021/10/facebook-metaverse-name-change/620449/
+[66] https://bookshop.org/p/books/the-diamond-age-or-a-young-lady-s-illustrated-primer-neal-stephenson/8466804?ean=9780553380965
+[67] https://bookshop.org/a/12476/9780553380965
+[68] https://bookshop.org/a/12476/9780553380965
+[70] https://www.theatlantic.com/technology/archive/2022/12/openai-chatgpt-writing-high-school-english-essay/672412/
+[71] https://www.ft.com/content/0ecab009-6543-4386-b936-0eecc9293d2e
+[72] https://www.theatlantic.com/technology/archive/2023/09/books3-database-generative-ai-training-copyright-infringement/675363/
+[73] https://www.theatlantic.com/author/matteo-wong/

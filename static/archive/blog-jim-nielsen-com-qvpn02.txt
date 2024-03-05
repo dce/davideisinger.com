@@ -1,0 +1,63 @@
+[1] Jim Nielsen’s Blog Verified ($10/year for the domain) [2]Archive [3]About 
+[4]RSS Preferences
+Theme: This feature requires JavaScript as well as the default site fidelity
+(see below).
+Fidelity:
+
+Controls the level of style and functionality of the site, a lower fidelity
+meaning less bandwidth, battery, and CPU usage. [5]Learn more.
+
+[6](*) Default [7]( ) Minimal [8]( ) Text-Only Update
+More Files Please
+
+2024-02-27
+
+Scott Jenson has a great article called [10]“The future needs files”.
+
+    The power of files comes from them being powerful nouns. They are temporary
+    holding blocks that are used as a form of exchange between applications. A
+    range of apps can edit a single file in a single location.
+
+Files as a medium of exchange between applications — I like that. It’s akin to
+the usefulness of currency.
+
+    The most powerful aspect of files is that they liberate your data. Any app
+    can see it and do something useful to it.
+
+Files represent a “data first vs app first organization”. If you’re planning a
+wedding, you put everything wedding related into a folder. All your data is now
+in one place vs. strewn across various apps.
+
+Documents — like a Notion doc — are today’s folders: they contain a list of
+links to “files” that will open in bespoke applications.
+
+But there are drawbacks, like interoperability. Do we want to trust our data to
+the success or failure of a single company?
+
+    Files encapsulate a ‘chunk’ of your work and allow that chunk to be seen,
+    moved, acted on, and accessed by multiple people and more importantly
+    external 3rd party processes.
+
+Can you imagine working on a codebase — which is a set of files — but the files
+were locked to a particular IDE? Craziness.
+
+Personally, I’m a file guy. I love files. And I wish more products worked in
+the currency of exchange of files.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Comment? Reply via: [11]Email, [12]Mastodon, or [13]Twitter.
+
+
+
+References:
+
+[1] https://blog.jim-nielsen.com/
+[2] https://blog.jim-nielsen.com/archive/
+[3] https://blog.jim-nielsen.com/about/
+[4] https://blog.jim-nielsen.com/feed
+[5] https://blog.jim-nielsen.com/2022/website-fidelity/
+[10] https://jenson.org/files/
+[11] mailto:jimniels%2Bblog@gmail.com?subject=Re:%20blog.jim-nielsen.com/2024/more-files-plz/
+[12] https://mastodon.social/@jimniels
+[13] https://twitter.com/jimniels

@@ -1,0 +1,527 @@
+[2] Ed Zitron's Where's Your Ed At
+
+  • [3]Home
+  • [4]About
+
+[6]Log In [7]Subscribe
+[8] Sign up [9] Sign in
+
+  • [12]Home
+  • [13]About
+
+  • [14]Sign up
+
+[15] Log in [16] Subscribe
+
+Subprime Intelligence
+
+[17]Edward Zitron Feb 19, 2024 15 min read
+
+Please scroll to the bottom for news on my next big project, Better Offline,
+coming this Wednesday!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Last week,[18] Sam Altman debuted OpenAI's "Sora," a text-to-video AI model
+that turns strings of text into full-blown videos, much like how[19] OpenAI's
+DALL-E turns text into images. These videos — which are usually no more than 60
+seconds long — can at times seem impressive, until you notice a little detail
+that breaks the entire facade, like[20] in this video where a cat wakes up its
+owner, but the owner's arm appears to be part of the cushion and the cat's paw
+explodes out of its arm like an amoeba. Reactions to Sora's AI generated videos
+— and, indeed, the existence of the model itself — have ranged from breathless
+hype to outright fear that this will be used to replace video producers, in
+that it can created reality-adjacent videos that for a few seconds seem
+remarkably real, especially in the case of[21] some of OpenAI's demo videos.
+
+However, even in OpenAI's own hand-picked Sora outputs you'll find weird little
+things that shatter the illusion, where[22] a woman's legs awkwardly shuffle
+then somehow switch sides as she walks (30 seconds) or[23] blobs of people
+merge into each other. These are, on some level, remarkable technological
+achievements, until you consider what they are for and what they might do — a
+problem that seems to run through the fabric of AI. 
+
+We're just over a year into the existence (and proliferation) of ChatGPT,
+DALL-E, and other image generators, and despite the obvious (and reasonable)
+fear that these products will continue to erode the foundations of the already
+unstable economies of the creative arts, we keep running into the problem that
+these things are interesting, surprising, but not particularly useful for
+anything.
+
+Sora's outputs can mimic real-life objects in a genuinely chilling way, but its
+outputs — like DALL-E, like ChatGPT — are marred by the fact that these models
+do not actually know anything.[24] They do not know how many arms a monkey has,
+as these models do not "know" anything. Sora generates responses based on the
+data that it has been trained upon, which results in content that is reality-
+adjacent, but not actually realistic. This is why, despite shoveling billions
+of dollars and likely petabytes of data into their models, generative AI models
+still fail to get the basic details of images right,[25] like fingers or eyes,
+or tools.
+
+These models are not saying "I shall now draw a monkey," they are saying "I
+have been asked for something called a monkey, I will now draw on my dataset to
+generate what is most likely a monkey." These things are not "learning," or
+"understanding," or even "intelligent" — they're giant math machines that,
+while impressive at first, can never assail the limits of a technology that
+doesn't actually know anything. 
+
+Despite what fantasists may tell you, these are not "kinks" to work out of
+artificial intelligence models — these are the hard limits, the restraints that
+come when you try to mimic knowledge with mathematics. You cannot "fix"
+hallucinations (the times when a model authoritatively tells you something that
+isn't true, or creates a picture of something that isn't right), because these
+models are predicting things based off of tags in a dataset, which it might be
+able to do well but can never do so flawlessly or reliably.
+
+This is a problem that dramatically limits how much one can rely on generative
+AI, and it's one that compounds severely with the complexity of what you're
+asking it to do. Words can be copy-pasted and edited, and citations can be
+checked. Images, however, are much tougher to edit, and videos are an entirely
+different beast, especially if you're generating lifelike humans or animals.
+While Sora is interesting and potentially quite scary to filmmakers, it's
+important to consider some practical questions, like "how can someone actually
+make something useful out of this?" and "how do I get this model to do the same
+thing every time without fail?" While an error in a 30-second-long clip might
+be something you might miss, once you see one of these strange visual
+hallucinations it's impossible to ignore them. The assumption is that audiences
+are stupid, and ignorant, and "just won't care," and I firmly disagree — I
+think regular people will find this stuff deeply offensive.
+
+I believe artificial intelligence companies deeply underestimate how perfect
+the things around us are, and how deeply we base our understanding and
+acceptance of the world on knowledge and context. People generally have four
+fingers and a thumb on each hand, hammers have a handle made of wood and a head
+made of metal, and monkeys have two legs and two arms. The text on the sign of
+a store generally has a name and a series of words that describe it, or perhaps
+its address and phone number.
+
+These are simple concepts that we learn from the people and places we see as we
+grow up, and what's very, very important to remember is that these are not
+concepts that artificial intelligence models are aware of. When they see 20,000
+pictures with signs in them, they understand that signs look a certain way, and
+have some stuff on them, and then generate what's on the sign based on a user's
+request and their dataset's tags that match that request. Even when a model is
+fed exactly how a sign should be spelled out, it doesn't actually understand
+what that information means or how it should be used, because the instructions
+you are giving are based on your knowledge of signs and their contents, and the
+model has no knowledge of any kind.
+
+[26]AI fanatics are currently fantasizing over a world where they can put a few
+sentences into a prompt and create an entire series of TV, unable to realize
+that we are rapidly approaching the top of generative AI's[27] S-curve, where
+after a period of rapid growth things begin to slow down dramatically. While
+Sora and[28] other video generators like Pika may seem like the future (and are
+capable of some impressive magic tricks), they are not particularly adept —
+much like a lot of generative AI — at performing a particular task. Once you
+get past the idea that you can now generate an almost-useful video that lasts
+roughly a minute, one must consider the practical applications of this kind of
+product. Even Microsoft struggled to find compelling use cases for their $7m AI
+Superbowl commercial, and these use cases are even narrower once you realize
+that generative video is so much more restrained by its hallucinations. Where
+will Sora be useful?
+
+Even if the costs weren't prohibitive, one cannot make a watchable movie, TV
+show, or even commercial out of outputs that aren't consistent from clip to
+clip, as even the smallest errors are outright repulsive to viewers. And as
+I've suggested above, while these models might "improve," the billions of
+dollars burned by OpenAI, Anthropic and Stability AI's models have found few
+ways to mitigate the restrictions of an artificial intelligence that doesn't
+have an intellect. I am also completely out of patience when it comes to being
+told what it "will do" in the future.
+
+Generative AI's greatest threat is that it is capable of creating a certain
+kind of bland, generic content very quickly and cheaply. As I discussed in my
+last newsletter, media entities are increasingly normalizing their content to
+please search engine algorithms, and the jobs that involve pooling affiliate
+links and answering where you can watch the Super Bowl are very much at risk.
+The normalization of journalism — the consistent point to which many outlets
+decide to write about the exact same thing — is a weak point that makes every
+outlet "[29]exploring AI" that bit more scary, but the inevitable outcome is
+that these models are not reliable enough to actually replace anyone, and those
+that have experimented with doing so[30] have found themselves deeply
+embarrassed.
+
+Despite the frothy tales and visions of how generative artificial intelligence
+will automate our entire existence, there's a distinct lack of practical
+outputs that suggest that it is even capable of doing so. ChatGPT can spin up
+piles of anodyne business copy, yet its outputs always require enough editing
+that it's questionable how much time you've actually saved. Generative image
+models are capable of creating cool-looking images that can replace generic
+images that you might use in a project, but no matter how many different
+prompts you use, they all kind of look the same, and that's even before you
+notice how the minute details look off. Is a product that can only
+sort-of-kind-of do something[31] really going to create trillions of dollars of
+economic value?
+
+I don't argue it will,  at least not in such a way that anybody's lives will be
+improved.
+
+Shell Games
+
+I believe we're reaching the upper limits about what generative AI can do[32] 
+and how accurate its outputs can be, and I believe that once reality catches up
+with artificial intelligence's marketing, there will be a dramatic knock-on
+effect that savages the entire tech industry.[33] A Wall Street Journal article
+from mid-February told a worrying tale of OpenAI and Anthropic — the two
+largest AI companies — racing to sell their generative AI systems despite the
+prevalence of hallucinations, and how few answers they had for applications
+that were highly regulated or dealt with highly sensitive data. When pressed on
+the issue at a conference, Anthropic's Chief Science Officer Jared Kaplan was
+only able to come up with one idea — that it would make a model capable of
+saying "I don't know" to an answer, which in turn would create a situation
+where the AI would err on the side of caution, restricting its willingness to
+answer prompts at all.
+
+The Journal seems unalarmed about multi-billion-dollar companies having very
+few answers about the critical problem with their core product, but I'd argue
+that a generative AI's inability to reliably generate stuff is an existential
+threat that should have smothered these companies early in their lives.
+
+And there are so many stories about how unreliable this technology is.[34] 
+British delivery firm DPD recently had to shut down their generative support
+chatbot after a customer convinced it to write an insulting poem about the
+company.[35] A Chevy dealership's ChatGPT-powered virtual assistant ended up
+offering to sell a user a car for a dollar, and wrote a python script for
+another.[36] Fortune reported a researcher's study into Large Language Models'
+ability to understand SEC filings and found that many of them were regularly
+either unable to answer or hallucinating incorrect information, with Meta's
+Llama2 model getting 70% of the study's questions wrong.[37] A deeply foolish
+lawyer relied on ChatGPT to cite cases in a motion, only to find that it cited
+several non-existent pieces of case law. That lawyer — Steven A. Schwartz — was
+fined $5,000 and ordered to i[38]nform each judge incorrectly cited as the
+author of a non-existent verdict in the motion. In June of last year, OpenAI
+was [39]sued for defamation in Georgia by a radio host who claimed that ChatGPT
+generated a false legal complaint that accused him of embezzling money.
+Microsoft destroyed MSN.com — a page that gets nearly two billion viewers a
+month — by replacing its human staff with an artificial intelligence that[40] 
+posts made up stories about bigfoot and[41] stealing other outlets' stories and
+still getting the details wrong.
+
+It's also fair to question how many organizations are actually using it.[42] A
+McKinsey report from August 2023 says that 55% of respondents' organizations
+have adopted AI, yet only 23% of said respondents said that more than 5% of
+their Earnings Before Interest (EBIT) was attributable to to their use of AI —
+a similar number to their 2022 report, one which was published before
+generative AI was widely available. In plain English, this means that while
+generative AI is being shoved into plenty of places, it doesn't seem to be
+generating organizations money.
+
+There are indications that consumers have also lost interest. As [43]pointed
+out by Alex Kantrowitz’ Big Technology newsletter, traffic to ChatGPT on both
+mobile and web has started to stagnate, if not decline. In January 2024,
+ChatGPT had 1.6 billion visits — 11% below the all-time peak of 1.8 billion.
+This makes it only modestly more popular than Bing, which had 1.3 billion
+unique visits during that period. On the mobile front, ChatGPT has an estimated
+6.3 million US users — or 1.7 times less than the total of new Snapchat users
+added during Q4 2023.  
+
+Tech's largest cash cow since the cloud computing boom of the 2000s is based on
+a technology that is impossibly unreliable, a technology with a potent inverted
+Midas touch that burns far more money than it makes.[44] According to The
+Information, OpenAI made around $1.6 billion in revenue in 2023, and[45] 
+competitor Anthropic made $100 million, with the expectation they'd make $850
+million in 2024. What these stories don't seem to discuss are whether these
+companies are making a profit, likely because generative AI is a deeply
+unprofitable product, demanding massive amounts of cloud computing power to the
+point that OpenAI CEO Sam Altman is trying to raise[46] seven trillion dollars 
+to build chips to bring the costs down — though reports suggest that "the
+figure represents the sum total of investments that participants in such a
+venture round would need to make," which is basically the same thing. It’s
+also, incidentally, a greater sum than the GDPs of France and the United
+Kingdom combined. 
+
+While it's hard to tell precisely how much it’s losing, The Information[47] 
+reported in mid-2023 that OpenAI's losses "doubled" in 2022 to $540 million as
+it developed ChatGPT, at a time when it wasn’t quite so demanding of cloud
+computing resources.[48] Reports suggest that artificial intelligence companies
+have worse margins than most software startups due to the vast cost of building
+and maintaining their models, with gross margins in the 50-55% range — meaning
+the money that it actually makes after incurring direct costs like power and
+cloud compute. This figure is way below the 75-90% that modern software
+companies have. In practical terms, this means that the raw infrastructure
+firms — the companies that allow startups to integrate AI in the first place —
+are not particularly healthy businesses, and they're taking home far less of
+their money as actual revenue.
+
+Luckily for them, Anthropic and OpenAI aren't really at risk, because they've
+taken on an important part of the tech ecosystem — they're the tail of a very
+hungry snake.
+
+Turning On The Screw
+
+During the imaginary panic of Sam Altman's ouster from OpenAI last year,[49] 
+Semafor reported that Microsoft's $10 billion investment was largely made up of
+credits for their Azure cloud computing platform. In essence, Microsoft
+"invested" $10 billion in money that OpenAI had to spend on Microsoft's
+services, meaning that OpenAI would have to use Microsoft's "Azure" cloud
+computing service to run ChatGPT.[50] When Google invested $2 billion in OpenAI
+competitor Anthropic, it did so in tranches — $500 million up front and an
+additional $1.5 billion over a non-specific period of time. Coincidentally,
+this funding round took place only a few months after[51] Anthropic signed a
+multi-year deal with Google Cloud worth $3 billion, locking them into Google's
+compute platform in the process.[52] Amazon also invested $4 billion in
+Anthropic, who agreed to a "long-term commitment" to provide Amazon Web
+Services (Amazon's competitor to Microsoft Azure and Google Cloud) with early
+access to their models — and Anthropic access to Amazon's AI-focused chips.
+
+While Microsoft, Amazon, and Google have technically "invested" in these
+companies, they've really created guaranteed revenue streams, investing money
+to create customers that are effectively obliged to spend their investment
+dollars on their own services. As the use of artificial intelligence grows, so
+do these revenue streams, forcing almost every single dollar spent on AI into
+the hands of a few trillion-dollar tech firms.
+
+It's a contrived process with a fairly simple revenue stream.
+
+In the case of an AI company (or a business that has jumped upon the AI
+bandwagon), their website or app is integrated with OpenAI's ChatGPT or
+Anthropic's Claude via their APIs. The company pays on a[53] per-token basis
+for each input (request they make through their software) and output (thing
+that the model does as a result). When these requests are made, ChatGPT,
+Claude, or whatever model has to compute the result, which it does using
+massive amounts of cloud computing — which is bought from the cloud provider
+(say, Microsoft Azure or Google Cloud). As a result, every interaction with
+ChatGPT or Claude is, on some level, guaranteed revenue for one of the big tech
+firms. These were investments in the sense that money changed hands, but while
+it did so, big tech put giant handcuffs on the wrists of the AI companies that
+every startup has to use.
+
+Admittedly, you could argue that the same situation is true for the
+conventional Internet. Most websites are hosted by a third-party cloud
+provider. If you visit a site that uses an external company to implement
+functionality that would otherwise be too complicated to build themselves (like
+auth, or payment processing, or banking integrations), it’s a sure bet those
+companies are using Amazon, Microsoft, or Google for hosting. And so, without
+even realizing it, our online activity benefits a handful of already-powerful
+companies. The key difference is that, for the most part, people aren’t
+locked-in and can walk, either to one of the other big players, or to a smaller
+vendor like Rackspace or Linode. Moreover, the scale is different, and serving
+a webpage will always cost less than processing a request sent to a generative
+AI model.   
+
+These golden handcuffs have already led to massive swells of revenue for
+Microsoft,[54] increasing by 30% in the last quarter alone thanks to the
+increased usage of graphics processing units (GPUs) which have become essential
+to the power-hungry demands of AI applications. Google's investment in
+Anthropic was made in the hopes that it’d see a similar revenue multiplier, and
+I'd argue Amazon's was made in the same vein — though it was too late to force
+Anthropic to use AWS as their preferred vendor.
+
+Big tech has turned the startup ecosystem into a giant goldmine, one that
+guarantees that almost every dollar spent on any AI product is eventually
+shared with one of a few multi-trillion dollar tech firms. And on some level,
+it's become the savior of an ecosystem that hasn't had a new revenue-driving
+industrial boondoggle this exciting since the Software-As-A-Service boom of the
+2010s. Some might argue this is a situation where everybody wins — startups get
+funded because they're able to do new things, venture capitalists make money
+because their startups can actually get acquired or go public, and big tech
+makes money because everybody is forced to pay them even more money by proxy.
+
+I, however, have grave concerns.
+
+As it stands, generative AI (and AI in general) may have some use. Yet even
+with thousands of headlines, billions of dollars of investment, and trillions
+of tokens run through various large language models, there are no essential 
+artificial intelligence use cases, and no killer apps outside of[55] 
+non-generative assistants like Alexa that are now having generative AI forced
+into them for no apparent reason. I consider myself relatively tuned into the
+tech ecosystem, and I read every single tech publication regularly, yet I'm
+struggling to point to anything that generative AI has done other than reignite
+the flames of venture capital. There are cool little app integrations,[56] 
+interesting things like live translation in Samsung devices, but these are
+features, not applications. And if there are true industry-changing
+possibilities waiting for us on the other side, I am yet to hear them outside
+of the fan fiction of Silicon Valley hucksters.
+
+This entire hype cycle feels specious, though not quite as specious as the
+metaverse or cryptocurrency boom. Public companies are pumping their valuations
+and executive salaries off the back of artificial intelligence hype, yet nobody
+is saying the blatantly obvious — that this industry is deeply unprofitable and
+yet to prove its worth.[57] Artificial intelligence is so demanding of
+computing power that it may need as much electricity as an entire country,[58] 
+Microsoft and[59] Amazon are both investing billions to build even more data
+centers to capture demand for an unproven product, and[60] Sam Altman of OpenAI
+has said that the future of AI relies on an "energy breakthrough."
+
+This industry is money-hungry, energy-hungry, and compute-hungry, yet it
+doesn't seem to be doing anything to sustain these otherworldly financial and
+infrastructural demands, other than the fact that people keep saying that
+"artificial intelligence is the future." And[61] while some claim that AI can
+help fight climate change, it's impossible to argue that "suddenly using more
+and more power for a negligible return" is good for the environment.
+
+And if this wasn't already worrying enough, one has to wonder what happens if
+we face another economic panic, or if the hype dies down before OpenAI or
+Anthropic discover a way to make a profit. As it stands, OpenAI and Anthropic
+are heavily dependent on companies believing that they have to integrate AI
+into their products, which will require these companies to be able to find ways
+to integrate AI that users actually care about. And even if they manage to do
+that, will they do so in a way that actually turns a profit?
+
+If AI startups — by which I mean those companies integrating these models into
+their apps — begin to falter, so will the only real revenue stream that these
+companies have, making them more dependent on big tech to keep them alive. This
+situation is only made more problematic by the fact that these models are
+unprofitable, and Altman's desperation for a new chip company or energy
+breakthrough suggests that they'll only become more unprofitable as they
+generate more revenue.
+
+I hope I am wrong. I hope that the bottom doesn't fall out of AI, and that the
+startup ecosystem grows, and that this all becomes profitable and that
+everything will be fine.
+
+As it stands, I am terrified by how unstable this situation is and astonished
+at how brazenly money and energy is being burned in pursuit of an unsustainable
+future where big tech exerts more power over fledgling companies, and how
+despite multiple industry collapses hinged upon unsustainable and unprofitable
+businesses, Silicon Valley seems incapable of learning a single lesson.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Thanks for reading the newsletter.
+
+This Wednesday - 2/21 - I'll be launching my iHeartRadio Podcast "Better
+Offline," a weekly show exploring the tech industry’s growing influence over
+society, and how startups, venture capitalists and big tech firms are looking
+to change the future - for better or for worse.
+
+I'd be so grateful if you'd subscribe. Here're the links:
+
+Apple Podcasts:[62] https://podcasts.apple.com/us/podcast/better-offline/
+id1730587238
+
+Spotify:[63] https://open.spotify.com/show/2dBPt1j2DoNij1kVdx8Ig6?si=
+LY06yZufT7-syqE2OyHTYg
+
+Pandora:[64] https://www.pandora.com/podcast/better-offline/PC:1001084695[65]
+https://music.amazon.com/podcasts/a27a4803-938a-4aae-ab45-c28801d4722b/
+better-offline
+
+Overcast:[66] https://overcast.fm/+BGz69vFSlo
+
+iHeartRadio:[67] https://www.iheart.com/podcast/139-better-offline-150284547?
+cmp=ios_share&sc=ios_social_share&pr=false&autoplay=true
+
+Share
+[68] [69] [70] [71]
+About the author
+[73] Edward Zitron
+
+[74]Edward Zitron
+
+[75]View all
+Comments
+
+Welcome to Where's Your Ed At!
+
+Subscribe today. It's free. Please.
+
+[76][                    ] Subscribe
+Great! Check your inbox and click the link.
+Sorry, something went wrong. Please try again.
+Ed Zitron's Where's Your Ed At
+[78] [79]
+
+  • [80]Home
+  • [81]About
+
+  • [82]Sign up
+
+©2024 [83]Ed Zitron's Where's Your Ed At. Published with [84]Ghost & [85]Tuuli.
+[86][Light   ]
+
+Great! You’ve successfully signed up.
+
+Welcome back! You've successfully signed in.
+
+You've successfully subscribed to Ed Zitron's Where's Your Ed At.
+
+Your link has expired.
+
+Success! Check your email for magic link to sign-in.
+
+Success! Your billing info has been updated.
+
+Your billing was not updated.
+
+
+References:
+
+[2] https://www.wheresyoured.at/
+[3] https://www.wheresyoured.at/
+[4] https://www.wheresyoured.at/about/
+[6] https://www.wheresyoured.at/signin/
+[7] https://www.wheresyoured.at/signup/
+[8] https://www.wheresyoured.at/signup/
+[9] https://www.wheresyoured.at/signin/
+[12] https://www.wheresyoured.at/
+[13] https://www.wheresyoured.at/about/
+[14] https://www.wheresyoured.at/sam-altman-fried/#/portal/
+[15] https://www.wheresyoured.at/signin/
+[16] https://www.wheresyoured.at/signup/
+[17] https://www.wheresyoured.at/author/edward/
+[18] https://www.nbcnews.com/tech/tech-news/openai-sora-video-artificial-intelligence-unveiled-rcna139065?ref=wheresyoured.at
+[19] https://openai.com/dall-e-2?ref=wheresyoured.at
+[20] https://twitter.com/tomwarren/status/1758203473881956689?ref=wheresyoured.at
+[21] https://twitter.com/OpenAI/status/1758192961496760376?ref=wheresyoured.at
+[22] https://x.com/OpenAI/status/1758192965703647443?s=20&ref=wheresyoured.at
+[23] https://x.com/OpenAI/status/1758192957386342435?s=20&ref=wheresyoured.at
+[24] https://x.com/edzitron/status/1758356234233840105?s=20&ref=wheresyoured.at
+[25] https://www.digitaltrends.com/computing/5-things-ai-image-generators-still-struggle-with/?ref=wheresyoured.at
+[26] https://twitter.com/mattturck/status/1758269761211777077?ref=wheresyoured.at
+[27] https://www.npr.org/2021/10/06/1043822817/technology-brought-to-you-by-the-s-curve?ref=wheresyoured.at
+[28] https://techcrunch.com/2023/11/28/pika-labs-which-is-building-ai-tools-to-generate-and-edit-videos-raises-55m/?ref=wheresyoured.at
+[29] https://www.theverge.com/2024/1/30/24055718/new-york-times-generative-ai-machine-learning?ref=wheresyoured.at
+[30] https://www.vox.com/technology/2023/7/18/23798164/gizmodo-ai-g-o-bot-stories-jalopnik-av-club-peter-kafka-media-column?ref=wheresyoured.at
+[31] https://www.pbs.org/newshour/science/chatbots-can-make-things-up-can-we-fix-ais-hallucination-problem?ref=wheresyoured.at#:~:text=A%20lot%20is,some%20language%20component.
+[32] https://www.scientificamerican.com/article/yes-ai-models-can-get-worse-over-time/?ref=wheresyoured.at
+[33] https://www.wsj.com/articles/google-and-anthropic-are-selling-generative-ai-to-businesses-even-as-they-address-its-shortcomings-ff90d83d?ref=wheresyoured.at
+[34] https://www.techradar.com/pro/a-customer-managed-to-get-the-dpd-ai-chatbot-to-swear-at-them-and-it-wasnt-even-that-hard?ref=wheresyoured.at
+[35] https://www.businessinsider.com/car-dealership-chevrolet-chatbot-chatgpt-pranks-chevy-2023-12?ref=wheresyoured.at
+[36] https://fortune.com/2023/12/21/chatgpt-understand-sec-filings-anthropic-meta-llama2-openai-finance-ai/?ref=wheresyoured.at
+[37] https://www.nytimes.com/2023/06/08/nyregion/lawyer-chatgpt-sanctions.html?ref=wheresyoured.at
+[38] https://www.cnbc.com/2023/06/22/judge-sanctions-lawyers-whose-ai-written-filing-contained-fake-citations.html?ref=wheresyoured.at
+[39] https://www.theverge.com/2023/6/9/23755057/openai-chatgpt-false-information-defamation-lawsuit?ref=wheresyoured.at
+[40] https://futurism.com/msn-is-publishing-more-fake-news?ref=wheresyoured.at
+[41] https://futurism.com/msn-deletes-plagiarized-incoherent-ai-generated-articles-but-continues-publishing-more?ref=wheresyoured.at
+[42] https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-in-2023-generative-ais-breakout-year?ref=wheresyoured.at
+[43] https://www.bigtechnology.com/p/chatgpts-growth-is-flatlining?ref=wheresyoured.at
+[44] https://www.reuters.com/technology/openai-annualized-revenue-tops-16-billion-information-2023-12-30/?ref=wheresyoured.at
+[45] https://www.pymnts.com/artificial-intelligence-2/2023/report-anthropic-2024-revenue-could-approach-1-billion/?ref=wheresyoured.at#:~:text=Artificial%20intelligence%20startup%20Anthropic%20has,(AI)%20company's%20financial%20outlook.
+[46] https://www.theinformation.com/articles/no-sam-altman-isnt-raising-trillions-of-dollars-for-chips?rc=kz8jh3&ref=wheresyoured.at
+[47] https://www.businessinsider.com/openai-2022-losses-hit-540-million-as-chatgpt-costs-soared-2023-5?ref=wheresyoured.at
+[48] https://techcrunch.com/2024/01/23/ai-startups-margins-low-valuations/?ref=wheresyoured.at
+[49] https://www.semafor.com/article/11/18/2023/openai-has-received-just-a-fraction-of-microsofts-10-billion-investment?ref=wheresyoured.at
+[50] https://www.cnbc.com/2023/10/27/google-commits-to-invest-2-billion-in-openai-competitor-anthropic.html?ref=wheresyoured.at
+[51] https://www.wsj.com/tech/ai/google-commits-2-billion-in-funding-to-ai-startup-anthropic-db4d4c50?ref=wheresyoured.at#:~:text=Anthropic%20has%20also%20signed%20a%20multiyear%20deal%20with%20Google%20Cloud%20worth%20more%20than%20%243%20billion%2C%20said%20one%20person%20familiar%20with%20the%20matter.%20The%20contract%20was%20signed%20a%20few%20months%20before%20the%20new%20investment%2C%20the%20person%20said.
+[52] https://techcrunch.com/2023/09/25/amazon-to-invest-up-to-4-billion-in-ai-startup-anthropic/?ref=wheresyoured.at
+[53] https://openai.com/pricing?ref=wheresyoured.at
+[54] https://www.cnbc.com/2024/02/12/microsoft-ai-growth-helping-azure-cloud-chip-away-at-amazons-lead.html?ref=wheresyoured.at
+[55] https://www.vox.com/2023/9/23/23886163/google-microsoft-amazon-generative-ai-assistants?ref=wheresyoured.at
+[56] https://www.zdnet.com/article/galaxy-ai-features-including-live-translation-are-headed-to-galaxy-buds/?ref=wheresyoured.at
+[57] https://www.nytimes.com/2023/10/10/climate/ai-could-soon-need-as-much-electricity-as-an-entire-country.html?ref=wheresyoured.at
+[58] https://datacentremagazine.com/technology-and-ai/microsoft-plans-to-invest-billions-into-ai-data-centres?ref=wheresyoured.at
+[59] https://www.sdxcentral.com/articles/feature/aws-google-cloud-invest-in-data-center-expansion-sustainability/2024/01/?ref=wheresyoured.at
+[60] https://www.reuters.com/technology/openai-ceo-altman-says-davos-future-ai-depends-energy-breakthrough-2024-01-16/?ref=wheresyoured.at
+[61] https://www.bloomberg.com/news/articles/2023-12-14/ai-is-a-double-edged-sword-for-climate-change?ref=wheresyoured.at
+[62] https://podcasts.apple.com/us/podcast/better-offline/id1730587238?ref=wheresyoured.at
+[63] https://open.spotify.com/show/2dBPt1j2DoNij1kVdx8Ig6?si=LY06yZufT7-syqE2OyHTYg&ref=wheresyoured.at
+[64] https://www.pandora.com/podcast/better-offline/PC:1001084695?ref=wheresyoured.at
+[65] https://music.amazon.com/podcasts/a27a4803-938a-4aae-ab45-c28801d4722b/better-offline?ref=wheresyoured.at
+[66] https://overcast.fm/+BGz69vFSlo?ref=wheresyoured.at
+[67] https://www.iheart.com/podcast/139-better-offline-150284547?cmp=ios_share&sc=ios_social_share&pr=false&autoplay=true&ref=wheresyoured.at
+[68] https://twitter.com/share?text=Subprime%20Intelligence&url=https://www.wheresyoured.at/sam-altman-fried/
+[69] https://www.facebook.com/sharer.php?u=https://www.wheresyoured.at/sam-altman-fried/
+[70] https://www.linkedin.com/shareArticle?mini=true&url=https://www.wheresyoured.at/sam-altman-fried/&title=Subprime%20Intelligence&summary=Subprime%20Intelligence
+[71] mailto:?subject=Subprime%20Intelligence&body=https://www.wheresyoured.at/sam-altman-fried/%20Subprime%20Intelligence
+[73] https://www.wheresyoured.at/author/edward/
+[74] https://www.wheresyoured.at/author/edward/
+[75] https://www.wheresyoured.at/author/edward/
+[78] https://twitter.com/edzitron
+[79] https://www.wheresyoured.at/rss
+[80] https://www.wheresyoured.at/
+[81] https://www.wheresyoured.at/about/
+[82] https://www.wheresyoured.at/sam-altman-fried/#/portal/
+[83] https://www.wheresyoured.at/
+[84] https://ghost.org/
+[85] https://brightthemes.com/themes/tuuli/

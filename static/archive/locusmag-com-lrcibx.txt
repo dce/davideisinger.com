@@ -1,0 +1,1616 @@
+[Topper-ali]
+[2]Locus Online
+
+[3]Locus Online
+
+The Magazine of the Science Fiction and Fantasy Field
+
+[4][Transparen]
+[5]Subscribe!
+[6]
+
+  • [7]All Posts
+  • [8]News
+      □ [9]Awards
+      □ [10]Announcements
+      □ [11]Publishing
+      □ [12]New Titles & Bestsellers
+      □ [13]Conventions
+      □ [14]Obituaries
+  • [15]Reviews
+      □ [16]Books
+      □ [17]Short Fiction
+      □ [18]Films
+      □ [19]Index to Reviews
+  • [20]Features
+      □ [21]Interviews
+          ☆ [22]Index to Interviews
+      □ [23]Spotlights
+      □ [24]Commentary
+          ☆ [25]Cory Doctorow
+          ☆ [26]Kameron Hurley
+          ☆ [27]Roundtable
+          ☆ [28]SF Crossing the Gulf
+  • [29]Subscribe
+  • [30]Advertise
+  • [31]Donate
+  • [32]About
+      □ [33]Submission Guidelines
+      □ [34]Contact Us
+      □ [35]Volunteer/Internships
+      □ [36]Staff
+      □ [37]History of Locus Magazine
+          ☆ [38]Charles N. Brown (1937-2009)
+          ☆ [39]Locus Online
+      □ [40]FAQ
+      □ [41]Code of Conduct
+  • [42]Resources
+      □ [43]Forthcoming Books
+      □ [44]Index to Interviews
+      □ [45]Index to Reviews
+      □ [46]Archived Posts by Month
+      □ [47]Directories
+      □ [48]Science Fiction Awards Database
+      □ [49]Conventions List
+      □ [50]Links by Category
+  • [51]Store
+  • [52]My Account
+
+[53][                    ]
+Cory Doctorow wearing "Ellsberg & Nikitin & Manning & Snowden" tshirt
+[55]Commentary [56]Cory Doctorow [57]Features [58]Slider 
+
+Cory Doctorow: What Kind of Bubble is AI?
+
+[59] December 18, 2023December 22, 2023 [60]locusmag [61] 46 Comments [62]Cory
+Doctorow
+[63][Issue11_Doctorow_200x30]Cory Doctorow (by Amelia Beamer)
+
+Of course AI is a bubble. It has all the hallmarks of a classic tech bubble.
+Pick up a rental car at SFO and drive in either direction on the 101 – north to
+San Francisco, south to Palo Alto – and every single billboard is advertising
+some kind of AI company. Every business plan has the word “AI” in it, even if
+the business itself has no AI in it. Even as two major, terrifying wars rage
+around the world, every newspaper has an above-the-fold AI headline and half
+the stories on Google News as I write this are about AI. I’ve had to make rule
+for my events: The first person to mention AI owes everyone else a drink.
+
+It’s a bubble.
+
+Tech bubbles come in two varieties: The ones that leave something behind, and
+the ones that leave nothing behind. Sometimes, it can be hard to guess what
+kind of bubble you’re living through until it pops and you find out the hard
+way.
+
+When the dotcom bubble burst, it left a lot behind. Walking through San
+Francisco’s Mission District one day in 2001, I happened upon a startup founder
+who was standing on the sidewalk, selling off a fleet of factory-wrapped
+Steelcase Leap chairs ($50 each!) and a dozen racks of servers with as much of
+his customers’ data as I wanted ($250 per server or $1000 for a rack).
+Companies that were locked into sky-high commercial leases scram­bled to sublet
+their spaces at bargain-basement prices. Craigslist was glutted with foosball
+tables and Razor scooters, and failed dotcom T-shirts were up for the taking,
+by the crateful.
+
+But the most important residue after the bubble popped was the mil­lions of
+young people who’d been lured into dropping out of university in order to take
+dotcom jobs where they got all-expenses paid crash courses in HTML, Perl, and
+Python. This army of technologists was unique in that they were drawn from all
+sorts of backgrounds – art-school dropouts, hu­manities dropouts, dropouts from
+earth science and bioscience programs and other disciplines that had
+historically been consumers of technology, not producers of it.
+
+This created a weird and often wonderful dynamic in the Bay Area, a brief
+respite between the go-go days of Bubble 1.0 and Bubble 2.0, a time when the
+cost of living plummeted in the Bay Area, as did the cost of office space, as
+did the cost of servers. People started making technology because it served a
+need, or because it delighted them, or both. Technologists briefly operated
+without the goad of VCs’ growth-at-all-costs spurs.
+
+The bubble was terrible. VCs and scammers scooped up billions from pension
+funds and other institutional investors and wasted it on obviously doomed
+startups. But after all that “irrational exuberance” burned away, the ashes
+proved a fertile ground for new growth.
+
+Contrast that bubble with, say, cryptocurrency/NFTs, or the complex financial
+derivatives that led up to the 2008 financial crisis. These crises left behind
+very little reusable residue. The expensively retrained physicists whom the
+finance sector taught to generate wildly defective risk-hedging algorithms were
+not able to apply that knowledge to create successor algo­rithms that were
+useful. The fraud of the cryptocurrency bubble was far more pervasive than the
+fraud in the dotcom bubble, so much so that without the fraud, there’s almost
+nothing left. A few programmers were trained in Rust, a very secure programming
+language that is broadly applicable elsewhere. But otherwise, the residue from
+crypto is a lot of bad digital art and worse Austrian economics.
+
+AI is a bubble, and it’s full of fraud, but that doesn’t automatically mean
+there’ll be nothing of value left behind when the bubble bursts. World­Com was
+a gigantic fraud and it kicked off a fiber-optic bubble, but when WorldCom
+cratered, it left behind a lot of fiber that’s either in use today or waiting
+to be lit up. On balance, the world would have been better off without the
+WorldCom fraud, but at least something could be salvaged from the wreckage.
+
+That’s unlike, say, the Enron scam or the Uber scam, both of which left the
+world worse off than they found it in every way. Uber burned $31 billion in
+investor cash, mostly from the Saudi royal family, to create the illusion of a
+viable business. Not only did that fraud end up screwing over the retail
+investors who made the Saudis and the other early investors a pile of money
+after the company’s IPO – but it also destroyed the legitimate taxi business
+and convinced cities all over the world to starve their transit systems of
+investment because Uber seemed so much cheaper. Uber continues to hemorrhage
+money, resorting to cheap accounting tricks to make it seem like they’re
+finally turning it around, even as they double the price of rides and halve
+driver pay (and still lose money on every ride). The market can remain
+irrational longer than any of us can stay solvent, but when Uber runs out of
+suckers, it will go the way of other pump-and-dumps like WeWork.
+
+What kind of bubble is AI?
+
+Like Uber, the massive investor subsidies for AI have produced a sugar high of
+temporarily satisfied users. Fooling around feeding prompts to an image
+genera­tor or a large language model can be fun, and playful communities have
+sprung up around these subsidized, free-to-use tools (less savory communities
+have also come together to produce nonconsensual pornography, fraud materials,
+and hoaxes).
+
+The largest of these models are incredibly expensive. They’re expensive to
+make, with billions spent acquir­ing training data, labelling it, and running
+it through massive computing arrays to turn it into models.
+
+Even more important, these models are expensive to run. Even if a bankrupt AI
+company’s model and servers could be acquired for pennies on the dollar, even
+if the new owners could be shorn of any overhanging legal liability from
+looming copyright cases, even if the eye-watering salaries commanded by AI
+engineers collapsed, the electricity bill for each query – to power the servers
+and their chillers – would still make running these giant models very 
+expensive.
+
+Do the potential paying customers for these large models add up to enough money
+to keep the servers on? That’s the 13 trillion dollar question, and the answer
+is the difference between WorldCom and Enron, or dotcoms and cryptocurrency.
+
+Though I don’t have a certain answer to this question, I am skeptical. AI
+decision support is potentially valuable to practitioners. Accountants might
+value an AI tool’s ability to draft a tax return. Radiologists might value the
+AI’s guess about whether an X-ray suggests a cancerous mass. But with AIs’
+tendency to “hallucinate” and confabulate, there’s an increasing recognition
+that these AI judgments require a “human in the loop” to carefully review their
+judgments.
+
+In other words, an AI-supported radiologist should spend exactly the same
+amount of time considering your X-ray, and then see if the AI agrees with their
+judgment, and, if not, they should take a closer look. AI should make radiology
+more expensive, in order to make it more accurate.
+
+But that’s not the AI business model. AI pitchmen are explicit on this score:
+The purpose of AI, the source of its value, is its capacity to increase
+productivity, which is to say, it should allow workers to do more, which will
+allow their bosses to fire some of them, or get each one to do more work in the
+same time, or both. The entire investor case for AI is “companies will buy our
+products so they can do more with less.” It’s not “business custom­ers will buy
+our products so their products will cost more to make, but will be of higher
+quality.”
+
+AI companies are implicitly betting that their customers will buy AI for highly
+consequential automation, fire workers, and cause physical, mental and economic
+harm to their own customers as a result, somehow escaping liability for these
+harms. Early indicators are that this bet won’t pay off. Cruise, the
+“self-driving car” startup that was just forced to pull its cars off the
+streets of San Francisco, pays 1.5 staffers to supervise every car on the road.
+In other words, their AI replaces a single low-waged driver with 1.5 more
+expensive remote supervisors – and their cars still kill people.
+
+If Cruise is a bellwether for the future of the AI regulatory environment, then
+the pool of AI applications shrinks to a puddle. There just aren’t that many
+customers for a product that makes their own high-stakes projects bet­ter, but
+more expensive. There are many low-stakes applications – say, selling kids
+access to a cheap subscription that generates pictures of their RPG characters
+in action – but they don’t pay much. The universe of low-stakes, high-dollar
+applications for AI is so small that I can’t think of anything that belongs in
+it.
+
+Add up all the money that users with low-stakes/fault-tolerant applications are
+willing to pay; combine it with all the money that risk-tolerant, high-stakes
+users are willing to spend; add in all the money that high-stakes users who are
+willing to make their products more expen­sive in order to keep them running
+are willing to spend. If that all sums up to less than it takes to keep the
+servers running, to acquire, clean and label new data, and to process it into
+new models, then that’s it for the commercial Big AI sector.
+
+Just take one step back and look at the hype through this lens. All the big,
+exciting uses for AI are either low-dollar (helping kids cheat on their
+homework, generating stock art for bottom-feeding publications) or high-stakes
+and fault-intolerant (self-driving cars, radiology, hiring, etc.).
+
+Every bubble pops eventually. When this one goes, what will be left behind?
+
+Well, there will be little models – Hugging Face, Llama, etc – that run on
+commodity hardware. The people who are learning to “prompt engineer” these “toy
+models” have gotten far more out of them than even their makers imagined
+possible. They will continue to eke out new marginal gains from these little
+models, possibly enough to satisfy most of those low-stakes, low-dollar
+ap­plications. But these little models were spun out of big models, and without
+stupid bubble money and/or a viable business case, those big models won’t
+survive the bubble and be available to make more capable little models.
+
+There are some promising avenues, like “feder­ated learning,” that
+hypothetically combine a lot of commodity consumer hardware to replicate some
+of the features of those big, capital-intensive models from the bubble’s
+beneficiaries. It may be that – as with the interregnum after the dotcom bust –
+AI practitioners will use their all-expenses-paid education in PyTorch and
+TensorFlow (AI’s answer to Perl and Python) to push the limits on federated
+learning and small-scale AI models to new places, driven by playfulness,
+scientific curiosity, and a desire to solve real problems.
+
+There will also be a lot more people who un­derstand statistical analysis at
+scale and how to wrangle large amounts of data. There will be a lot of people
+who know PyTorch and TensorFlow, too – both of these are “open source”
+projects, but are effectively controlled by Meta and Google, respectively.
+Perhaps they’ll be wrestled away from their corporate owners, forked and made
+more broadly applicable, after those corporate behemoths move on from their
+money-losing Big AI bets.
+
+Our policymakers are putting a lot of energy into thinking about what they’ll
+do if the AI bubble doesn’t pop – wrangling about “AI ethics” and “AI safety.”
+But – as with all the previous tech bubbles – very few people are talking about
+what we’ll be able to salvage when the bubble is over.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Cory Doctorow is the author of Walkaway, Little Brother, and Information
+Doesn’t Want to Be Free (among many others); he is the co-owner of Boing Boing,
+a special consultant to the Electronic Frontier Foundation, a visiting
+professor of Computer Science at the Open University and an MIT Media Lab
+Research Affiliate.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+All opinions expressed by commentators are solely their own and do not reflect
+the opinions of Locus.
+
+[INS::INS]
+
+This article and more like it in the [64]December and January 2023 issue of 
+Locus.
+
+[65]Locus Magazine, Science Fiction FantasyWhile you are here, please take a
+moment to support Locus with a one-time or recurring donation. We rely on
+reader donations to keep the magazine and site going, and would like to keep
+the site paywall free, but WE NEED YOUR FINANCIAL SUPPORT to continue quality
+coverage of the science fiction and fantasy field.
+
+©Locus Magazine. Copyrighted material may not be republished without permission
+of LSFF.
+
+  • [66]Click to share on Facebook (Opens in new window)
+  • [67]Click to share on Twitter (Opens in new window)
+  • [68]Click to share on Tumblr (Opens in new window)
+  • [69]Click to share on Pinterest (Opens in new window)
+  • 
+
+  • [powell][70]← Previous Bookstore News
+  • [71]Niall Harrison Reviews Nefando by Mónica Ojeda Next →[ojeda-]
+
+You May Also Like...
+
+[72] [Doctorow3_800x400-200x3]
+
+[73]Cory Doctorow: Let’s Get Better at Demanding Better from Tech
+
+[74] March 5, 2018 [75]locusmag [76]0
+[77] [may33a-200x300-16200782]
+
+[78]Seasonal Bias in Speculative Fiction Awards Nominations by Douglas F.
+Dluzen & Christopher Mark Rose
+
+[79] May 14, 2021 [80]locusmag [81]0
+[82] [scalzi-200x300-16968589]
+
+[83]John Scalzi: Real People, Ridiculous Situations
+
+[84] October 9, 2023 [85]locusmag [86]0
+
+46 thoughts on “Cory Doctorow: What Kind of Bubble is AI?”
+
+  • [ede5d74f]
+    [87]Vienna Mike
+    December 19, 2023 at 3:01 pm
+    [88]Permalink
+
+    Good article, but I’m not sure that I 100% agree. For radiology, the BEST
+    review would indeed be the more expensive mix of human plus AI (and some
+    places are now doing this and charging a surcharge for use of AI). However
+    there is at least some studies that suggest AI is not better at reading
+    mammograms than a human radiologist. So the best, most expensive option is
+    human + AI, the 2nd best and cheapest is AI, and the worst and 2nd most
+    expensive is human (only). If the business model for AI + human doesn’t
+    fly, I can see AI only working fine.
+
+    On automated vehicles, Cruise is a good example of what can go wrong, but
+    Waymo is having significantly better results. I think the jury is still out
+    on that one.
+
+    On LLM, I agree with you. I do ask two questions (and it’s an ask, I’m
+    ignorant in this area): 1) are the newly emerging small models fully
+    derivatives from the massive models, or might that continue even if the
+    massive models are a bubble? 2) There are a lot of applications where
+    training is done on massive data sets and hardware, but the resulting
+    trained models can then run at far lower cost, on MUCH smaller machines. Is
+    this also a possible continued path if LLM’s are a bubble that burst?
+
+    [89]Reply
+  • [c3c3135a]
+    Dymitr
+    December 19, 2023 at 3:33 pm
+    [90]Permalink
+
+    Curious that author does not dwell more on the fact, that use cases like
+    GitHub copilot will actually make any programming faster and easier, also
+    lower the entry threshold for new workforce which will be most likely very
+    positive.
+
+    [91]Reply
+      □ [1b19293b]
+        PiRX
+        December 28, 2023 at 12:49 am
+        [92]Permalink
+
+        As a programmer with some experience under my belt – copilot doesn’t
+        make “real” (outside demos) programming much faster, it gives maybe a
+        few percent gain. A lot of that could also be gained just by improving
+        libraries and frameworks used to reduce repetitive and/or boilerplate
+        code.
+
+        [93]Reply
+          ☆ [e222c1b0]
+            khlorghaal
+            December 31, 2023 at 3:51 am
+            [94]Permalink
+
+            Utility for biolerplate and glue is EXTREMELY useful, since those
+            are the demoralizing activities humans dont want to concern
+            ourselves with, that take significant time.
+            Its also a substitute for reading a full manual when you only want
+            to use a singular feature of something for a specific purpose.
+
+            [95]Reply
+              ○ [9eb71600]
+                Curt J. Sampson
+                January 16, 2024 at 7:53 pm
+                [96]Permalink
+
+                But we already have _much_ better techniques for getting rid of
+                boilerplate code: better languages, better libraries,
+                refactorings, and so on.
+
+                Keep in mind that a lot more time is spent _reading_ code than
+                writing it; you can’t modify existing code unless you can read
+                it and be sure what it does and what the effects of your
+                changes will be. So generating more boilerplate code might fix
+                a few problems in the very short term (over a few weeks, or
+                often even just days), but creates a larger problem (often
+                referred to as “technical debt”) over the long term.
+
+                I have tried using ChatGPT to give me hints on how to write
+                code, but I’ve inevitably found that, while it’s been useful
+                for giving me (almost invariably incorrect) rough draughts in
+                languages I’m less familiar with, it works only because I’m
+                already a good programmer in many other languages, and so I can
+                fairly easily edit that draught into useful and correct code.
+
+                [97]Reply
+      □ [2528bf2e]
+        Mike
+        December 30, 2023 at 12:22 pm
+        [98]Permalink
+
+        I’m not finding Copilot to be that useful. It makes lots of wrong
+        suggestions, too.
+
+        [99]Reply
+  • [e32f7298]
+    Tuna
+    December 19, 2023 at 3:42 pm
+    [100]Permalink
+
+    AI will probably prove to be a bad solution (at least for now) for a lot of
+    the domains where it’s being attempted, for the simple reason that a lot of
+    the output is bullshit.
+
+    But there is a lot of money in products and services where “it’s bullshit”
+    isn’t a show-stopper. Mostly entertainment, but there is a lot of money in
+    that. I recently participated in a D&D campaign where the DM made very
+    liberal use of AI, both for text/running encounters, and for image
+    generation. The AI clearly wasn’t yet good enough to do the whole thing on
+    it’s own, but it was much better and more useful than expected, and clearly
+    reduced the workload on the DM a lot, while also greatly improving
+    immersion.
+
+    What I’m saying is that in a couple of years the experience of videogaming
+    will change a lot, and this will probably produce enough revenue to keep
+    the bubble going, at least for a while.
+
+    [101]Reply
+      □ [d4cec217]
+        Vera
+        February 26, 2024 at 3:28 am
+        [102]Permalink
+
+        They want, so bad, for it to replace the GM too but that is such a
+        complicated job that I suspect they might find self driving cars
+        easier. Those GM emulators are fun for a bit but rapidly get repetitive
+        or just lose the thread and they are terrible at knitting together an
+        overarching narrative out of pieces and chaos like a good human GM can
+        do.
+
+        [103]Reply
+  • [d4d10da0]
+    Eli Langer
+    December 19, 2023 at 5:51 pm
+    [104]Permalink
+
+    Cory Doctorow’s piece on AI as a bubble provides a nuanced perspective on
+    the current AI landscape.
+
+    He argues convincingly that AI is in a bubble phase, akin to previous tech
+    bubbles, where hype and investment overshadow practical utility and
+    sustainable business models. Doctorow draws parallels with the dotcom
+    bubble, where despite the burst, valuable skills and infrastructure
+    remained.
+
+    He points out the distinct lack of tangible, beneficial remnants from other
+    bubbles, like cryptocurrency/NFTs and the 2008 financial crisis
+    derivatives.
+
+    Validating Doctorow’s Opinions:
+
+    1. AI Overhype: Doctorow’s assertion that AI is overhyped and likened to a
+    bubble seems valid. The ubiquity of AI in business plans, news headlines,
+    and advertising, regardless of their actual AI integration, mirrors the
+    classic signs of a technology bubble.
+
+    2. Historical Bubble Analysis: His analysis of different bubbles, like the
+    dotcom and cryptocurrency bubbles, and their aftermaths is insightful. The
+    contrast between bubbles that leave behind valuable assets, skills, or
+    infrastructure (dotcom) and those that don’t (cryptocurrency/NFTs) is a
+    valuable framework to assess the potential impact of the current AI bubble.
+
+    3. Skepticism About AI’s Business Model: Doctorow’s skepticism about the AI
+    business model’s sustainability and its potential to deliver value is
+    grounded. He highlights the mismatch between the promise of increased
+    productivity and the real need for human oversight in AI applications,
+    which raises questions about the long-term viability of these technologies.
+
+    Countering Doctorow’s Opinions:
+    1. Underestimating AI’s Potential: While Doctorow rightly points out the
+    overhype and potential for fraud in AI, he might underestimate the
+    technology’s transformative potential. AI’s capacity for data analysis,
+    pattern recognition, and decision support can revolutionize fields like
+    healthcare, finance, and more, beyond just being a productivity tool.
+
+    2. Broad Generalization of AI: Doctorow’s argument, at times, seems to
+    broadly generalize AI technologies, not fully acknowledging the diversity
+    within the field. Not all AI applications are equivalent; some, like
+    machine learning models in healthcare and environmental sciences, show
+    substantial promise and utility.
+
+    3. Overlooking Positive Use Cases: His focus on the negative aspects, while
+    crucial, might overshadow the positive, real-world applications of AI that
+    are already making an impact. For instance, AI’s role in medical
+    diagnostics, climate modeling, and even creative arts, though in their
+    nascent stages, demonstrate a constructive trajectory.
+
+    In conclusion, Doctorow’s opinions on the AI bubble are largely
+    well-founded, especially his critique of the overhyped nature of AI and the
+    parallels with historical tech bubbles. However, his perspective might
+    benefit from a more nuanced acknowledgment of the positive, transformative
+    potential of AI in various sectors.
+
+    [105]Reply
+      □ [e77ea68c]
+        Jonathan
+        December 22, 2023 at 8:17 am
+        [106]Permalink
+
+        Thanks, ChatGPT, that was a good summary of what I just read.
+
+        [107]Reply
+          ☆ [d4d10da0]
+            Eli Langer
+            December 22, 2023 at 8:39 am
+            [108]Permalink
+
+            Dang, you got me.
+
+            [109]Reply
+              ○ [8260abb9]
+                Sebastian
+                December 25, 2023 at 2:23 am
+                [110]Permalink
+
+                Even in the countering points it suggests no low stakes high
+                value use cases and only doubles down on the point of medical
+                use cases, which the author already covered. This barren
+                absence of use cases that are more than making a complete
+                amateur, 1 rudimentary subject in any knowledge area better, is
+                exactly the point of what is making this a bubble.
+
+                [111]Reply
+                  ■ [3431255b]
+                    Matt
+                    January 6, 2024 at 2:28 am
+                    [112]Permalink
+
+                    Exactly. It was a regurgitation of the same talking points
+                    we’ve all been hearing for months now… with the word
+                    “nuanced” thrown in. I guess ChatGPT interpreted that Cory
+                    was coming across a little too direct? lol
+
+              ○ [cc121394]
+                Ormond Otvos
+                January 7, 2024 at 7:28 pm
+                [113]Permalink
+
+                It was obvious, as are many comments.
+                AI requires editing to remove the bland exposition of all
+                points of view.
+                Be great for writing a paper on the morality of intersex
+                dysphoria treatment.
+
+                [114]Reply
+      □ [dfdaf90f]
+        Anatoly
+        December 22, 2023 at 9:51 am
+        [115]Permalink
+
+        Did you submit this to your English 101 class?
+
+        [116]Reply
+  • [4f9ace9e]
+    Alvin Starr
+    December 19, 2023 at 7:34 pm
+    [117]Permalink
+
+    I lived through the 2000 tech bubble burst.
+    I noticed that it started about 97-98.
+    At times it seemed that if you stuck “on the internet” with anything on a
+    napkin in a bar you could get financed.
+    I have a feeling that AI will go that way where lots of businesses go bust
+    and lots of investors lose their shirts but the world will be forever
+    changed but not the way people pre-bubble thought.
+
+    If you could not copyright anything generated by AI what would that do to
+    those who want to create and own content.
+    There would not be much point in using AI to create that blockbuster movie
+    script if you could not claim you own it.
+
+    [118]Reply
+  • [ede98f50]
+    Ian Holmes
+    December 20, 2023 at 8:15 am
+    [119]Permalink
+
+    This is a nice comparison to previous bubbles. However, it leaves out the
+    thing this bubble was driven by, other bubbles less so: a vast accumulating
+    body of academic research in neural network architectures, deep learning
+    theory, and domain-specific applications. There is a LOT that will be left
+    when the bubble pops. In some ways this can be compared to the development
+    of web based technology that accompanied the dotcom boom, but it is much
+    more substantial. Consider for example AlphaFold, the solution to a 50 year
+    fundamental problem in protein bioinformatics. That’s a whole lot more than
+    just some CSS and JavaScript frameworks and the Model-View-Controller
+    paradigm.
+
+    [120]Reply
+      □ [07d0ed93]
+        Amy
+        December 23, 2023 at 2:36 pm
+        [121]Permalink
+
+        Yes, and AlphaFold is not based on generative AI. AI was everywhere
+        before November 2022, and it’s not going anywhere. GenAI and LLMs are
+        the bubble.
+
+        [122]Reply
+  • [b41d7825]
+    Maub Nesor
+    December 22, 2023 at 3:34 pm
+    [123]Permalink
+
+    Interesting article, but very static analysis in a very dynamic field. The
+    hardware cost issues will most likely be address by some combination of
+    Moore’s Law and Application Specific Integrated Circuits (ASICs), so that
+    is a short term hardware issue.
+
+    The software also has a lot of room for optimization. Particularly with
+    zero weights. It may also turn out that the saying about Neural Nets, that
+    they are the technology of the future and always will be, is true. Who
+    creates a system that mucking large with no instrumentation? That’s eng101.
+
+    As for accuracy, they need to start training with a None Of The Above
+    (NOTA) category. We used to use it all the time in the days before NNs when
+    simple feature vectors and convolution filters were used. Once a calc falls
+    below a confidence level, it gets flagged. So with the radio example, the
+    AI picks off all the easy ones. The ones that are obviously clean or
+    cancerous. The hard ones get flagged for a second look. Using multiple AIs
+    and voting is also an effective approach. But what ever they do they must
+    instrument the mucking things. It has to be able to explain why it made
+    this choice. IDing every spot on the X-ray and labeling it, is a start.
+
+    The current products are absurdly bad. Ask it anything it doesn’t already
+    know, and it looses it’s mind. Even things it should know, are not immune.
+    Again, Eng101, before you do anything with it, ask it questions you already
+    know the answers to. Don’t even trust the fact check. I’ve seen cases where
+    the model was right and the fact check got it wrong. You just can’t make
+    this spit up.
+
+    As always, just my $0.02 worth. It may all just be an AI hallucination.
+
+    [124]Reply
+  • [013e47ac]
+    Justin
+    December 22, 2023 at 4:02 pm
+    [125]Permalink
+
+    Doctorow is being pretty reductive here – LLMs (specifically the
+    transformer algo) are being used for so many interesting things I can’t
+    imagine we’re going to run out of giant data sets ripe for mining for
+    meaningful discoveries any time soon. That’s the real application of
+    transformer AI – making sense of enormous amounts of data.
+
+    For instance – protein folding – Deepmind’s Alphafold basically
+    short-cutted the human race in that area by about 20 years. Same thing for
+    material science – they used the same technique to discover a couple of
+    hundred thousand different material compositions that we’re working with
+    now to find the useful ones.
+
+    Then of course there’s DNA interaction, all of the medical records in the
+    world, deep space scan research, etc…. there’s sooooo much data out there
+    just waiting to be devoured by an LLM there’s got to be a crapload of money
+    on the table.
+
+    [126]Reply
+  • [f2d06772]
+    Ephemerality
+    December 23, 2023 at 2:20 am
+    [127]Permalink
+
+    I’m not sure AI is a bubble, but mainly because I’m hopeful that by
+    learning from AI and machine learning we can learn about human
+    intelligence. New research of AI discovering a new class of antibiotics (
+    [128]https://www.scientificamerican.com/article/
+    new-class-of-antibiotics-discovered-using-ai/) or helping to control
+    nuclear fusion ([129]https://www.wired.com/story/deepmind-ai-nuclear-fusion
+    /) to the point where ignition has now been achieved multiple times makes
+    me think AI or at least some version of it is here to stay.
+
+    [130]Reply
+  • [de743c9c]
+    Davide
+    December 23, 2023 at 6:45 am
+    [131]Permalink
+
+    I don’t think the whole article is correctly set. There’s a lot of talk
+    about AI but it’s misleading since we should talk about Generative AI which
+    has gotten mainstream this year, while AI as a general technology has
+    already in use for decades. Talking about GenAI, there’s certainly a lot of
+    hype around it but it is a great assistive tool to enhance several fields
+    of human work, even if we are still in early stages. A lot of improvement
+    could and should be made but it is a promising direction and I don’t see
+    the reason to criticize too early, but I agree on reasoning and discuss
+    about it.
+
+    [132]Reply
+  • [37108fa8]
+    JB
+    December 23, 2023 at 7:13 am
+    [133]Permalink
+
+    Whoever says ‘bubble’ first after this comment buys the comment section
+    drinks.
+
+    [134]Reply
+  • [7311ebb8]
+    [135]Jeff Hecht
+    December 23, 2023 at 8:23 am
+    [136]Permalink
+
+    Good analysis. I was deeply immersed in the fiber-optic portion of the
+    dot.com bubble, and the fundamental problem there were that the technology
+    got a decade or more ahead of the demand for bandwidth. That, in turn, was
+    powered by Worldcom’s claim that internet traffic was doubling every three
+    months — which may have been true for one company for quarter around 1995,
+    but was not sustained. No carriers were willing to release data on actual
+    transmission growth because they all considered it proprietary, so the
+    hustlers made up numbers, and the market wanted to believe.
+
+    I remember worrying about the actually fiber capacity and demand back
+    around 1999, and thinking thinking this irrational exuberance could not
+    sustain itself, but the dot-com crash didn’t spread to fiber until late in
+    2000. What happened was that nobody looked down. It was like the laws of
+    cartoon physics; Wyle E Coyote’s legs kept churning after he ran beyond the
+    edge of the cliff and the law of gravity did not take hold until he looked
+    down. And when the market did look down and see how far they were above the
+    ground, the market dropped like a rock, and big tech stocks dropped to
+    pennies on the dollar.
+
+    [137]Reply
+  • [e10c8a21]
+    Bob
+    December 23, 2023 at 11:32 am
+    [138]Permalink
+
+    I think the large scale AI providers trying to corner the AI market is
+    definitely a bubble and the large scale AI can solve it fantasy is
+    currently a fantasy. However even they are making an immediate and
+    fundamental changes. All of our developers are absolutely dependent on AI
+    for bug checking and finding incremental solutions much faster as they
+    provided the creativity to what they are building.
+
+    As someone who specifically works adjacent to Radiologists working in AI
+    and Deep Learning they have been working on imaging specific AI since long
+    before the current bubble. It is about carefully training rigorous models
+    on controlled data sets to improve accuracy and efficiency. They presume
+    multiple layers of QA and project better overall outcomes. Dealing with PHI
+    absolutely limits how and what kind of third parties are involved. Having
+    dedicated experts working on refining specific closed AI systems is
+    required to avoid poisoning.
+
+    My point being that AI is more than just the current bubble and those more
+    focused incremental change areas will have long term impact. The current AI
+    hype and fraud you discuss will also have negative long term impacts but
+    that is no different than any other corporate fraud bubble.
+
+    [139]Reply
+  • [ed66d318]
+    Mark
+    December 24, 2023 at 12:40 pm
+    [140]Permalink
+
+    The answer I suspect is that there will be a limited capacity regardless of
+    cost effectiveness so only the most profitable will even be supportable.
+    National Security seems to be the most likely beneficiary with the NSA, FBI
+    and DoD using it for things like threat analysis, early warnings, missile
+    targeting, radar enhancement, etc. Places where the scope can be defined
+    sufficiently that accuracy and reliability are substantial. The other place
+    I would guess is agriculture as rising chemical costs drive farmers to need
+    tools to identify soil conditions, plant health, weed growth and water
+    needs in real time. Another set of data than can be relatively simply built
+    and operated.
+
+    Replacing US workers writ large is going to take AGI and that’s not even
+    conceptually related to these LLM programs.
+
+    [141]Reply
+  • [ff29b880]
+    ape
+    December 24, 2023 at 6:07 pm
+    [142]Permalink
+
+    Over 20 years ago, I was told that the AI embedded in speech recognition
+    software would replace human court stenographers and closed captioners “any
+    day now.”
+    I’m still waiting.
+
+    [143]Reply
+      □ [c2364a84]
+        dude
+        December 29, 2023 at 7:34 am
+        [144]Permalink
+
+        This one example proves technology improvement never happens.
+
+        [145]Reply
+          ☆ [ede5d74f]
+            [146]ViennaMike
+            December 29, 2023 at 2:23 pm
+            [147]Permalink
+
+            Sarcasm don’t? Because we may not have those particular
+            applications doesn’t mean that AI hasn’t improved voice recognition
+            by multiple orders of magnitude, leading to new applications,
+            including smart speakers, automated translation that is good enough
+            for many use cases, and more.
+
+            [148]Reply
+          ☆ [ff29b880]
+            ape
+            December 29, 2023 at 2:25 pm
+            [149]Permalink
+
+            That’s not quite the logical leap I would make, but you do you.
+            Court reporters being replaced by technology just happens to be my
+            personal litmus test for whether or not I start taking recent
+            claims about AI seriously.
+            Keep in mind that court reporters in many venues make 6-figure
+            salaries.
+
+            [150]Reply
+              ○ [ede5d74f]
+                [151]ViennaMike
+                December 29, 2023 at 2:35 pm
+                [152]Permalink
+
+                There’s a huge difference between “technology never improves”
+                and “AI is currently over hyped.” The first is demonstrably
+                false, including for AI. The latter is hard to disagree with,
+                and I certainly wouldn’t.
+
+                AI’s abilities has grown by multiple orders of magnitude and is
+                now routinely used in many new applications AND, at the same
+                time, it is greatly over hyped.
+
+                [153]Reply
+  • [1dc6eb0a]
+    terrymac
+    December 24, 2023 at 6:36 pm
+    [154]Permalink
+
+    Are we investing more in AI than its potential worth? I would agree that
+    many of today’s firms will go bust, especially those who think that an AI
+    version of Petsmart will dominate the world.
+
+    But I wonder: NVIDIA became a trillion-dollar firm, but it wasn’t entirely
+    hype-based. They have been “eating their own dogfood” by using stacks of
+    their hardware to speed up the design and validation of subsequent versions
+    of their chippery. A particularly notable example is the development of
+    CuLitho, which accelerated computational lithography forty-fold. I can cite
+    many other instances where AI has already led to vast improvements in
+    productivity.
+
+    Today’s chatty LLMs are rife with problems, but they’re not the Omega of
+    the process, but the leading edge. Many other approaches are designed to be
+    truthful and transparent and useful; from my survey of arxiv preprints, a
+    great deal of substantial improvements are in the wind.
+
+    [155]Reply
+  • [9cfe0d38]
+    Hadoom
+    December 25, 2023 at 9:23 am
+    [156]Permalink
+
+    The author conflates overinvestment bubbles with other types of crises /
+    bubbles such as accounting fraud (Enron), or debt crisis (2008 / 2009).
+    This apples and pears comparison makes that part of the analysis invalid.
+
+    Overinvestment bubbles usually leave behind the assets that were
+    overinvested in. The first / most famous case was the US railways in the
+    1800’s. The fiber optic overinvestment mentioned is another great example.
+    One could argue that all government infrastructure programs are in some
+    ways like that, not justified by economic calculations within the normal
+    time horizons but accretive over the long term nevertheless.
+
+    So in that way of course something will be left behind.
+
+    A useful part of the analysis is the 2×2 on monetizability (!) vs tolerance
+    to errors. I agree the venn diagram is narrow. The supporters of the AI
+    case usually point to the rate of improvement and to the fact that we
+    barely started exploring the use cases.
+
+    AI seems to work for well bounded problems and less well for open problems.
+
+    If AI drops the cost of coding software by an order of magnitude it will
+    have already paid for itself.
+
+    [157]Reply
+  • [3878c71d]
+    Adam
+    December 28, 2023 at 6:25 pm
+    [158]Permalink
+
+    You people imagining that LLMs will make “coding” easier or faster
+    (laughably “drop the cost of coding software by an order of magnitude”!)
+    probably don’t have much experience in software development. Writing the
+    code is a very small part. Putting it together, testing it, maintaining it,
+    enhancing it and above all finding and fixing bugs takes far longer. Right
+    now LLMs are best at creating bugs – what they write always looks plausible
+    but usually isn’t 100% right. LLMs don’t just take the best and most
+    expert-reviewed code as their learning, they take ALL the code. Garbage in,
+    garbage out. I hope my competitors rely on “AI” code, I really do.
+
+    [159]Reply
+      □ [ede5d74f]
+        [160]ViennaMike
+        December 29, 2023 at 2:30 pm
+        [161]Permalink
+
+        I’ve been playing around with ChatGPT to aid in writing and debugging
+        software and I agree 100% with your assessment of the current state of
+        the art.
+
+        The question is can and will this change? Personally I think it’s an
+        open question.
+
+        [162]Reply
+      □ [e222c1b0]
+        khlorghaal
+        December 31, 2023 at 4:00 am
+        [163]Permalink
+
+        6 months ago artists were mocking midjourney for not being able to draw
+        hands.
+        the state of the art ones draw hands quite well.
+
+        [164]Reply
+  • [ff66ca8c]
+    EPL
+    December 30, 2023 at 12:30 pm
+    [165]Permalink
+
+    Personally, I expect at least benefits in communicating to and from
+    automated systems.
+
+    But, setting everything else aside, let’s remember the energy cost of
+    generative AI. The next few years are critical for our energy transition
+    and the planet needs the help from all of us. I think we need to hold cloud
+    services accountable to transition to fully renewable energy, with an extra
+    emphasis in not negatively impacting other services and industries
+    transitions to renewables on our (shared in most cases) grid.
+
+    [166]Reply
+  • [4223749f]
+    [167]RM
+    January 8, 2024 at 4:55 pm
+    [168]Permalink
+
+    The way programmers are talking about this right now reminds me of various
+    earlier fads that ended up leaving massive amounts of cleanup and
+    administrative work for decades in their wake. I have absolutely no
+    programming skills myself so I can’t comment further on that.
+
+    I think both sides of this argument have clear, ulterior motives, but
+    basically only Doctorow, his comrades in arms, and maybe one or two of the
+    pro “AI” set are being honest about what they are. Doctorow’s is, while
+    technically no less ulterior, in the end really much better served by
+    honesty. if he gets this wrong, for example, it will be much more lucrative
+    for him to market his work, as having been improved by learning from the
+    failure than if he simply asserts to have always been right. That kind of
+    stuff might fly in certain political circles online, but they aren’t the
+    ones he has clear incentives to work. while other ulterior motives on
+    display in the comment thread, like desiring prolonged control of a budget,
+    actually would be quite threatened from having been demonstrated wrong. It
+    is hardly a coincidence that these are exactly the people claiming that the
+    bubble tech in question is actually intelligent in some meaningful way such
+    that calling it AI isn’t a lie.
+
+    Now we are talking political linguistics, which is more of my wheelhouse.
+    while the article does also use the buzzword AI, the truth of that name is
+    really outside the scope of the piece. This is less appreciably the case
+    for certain arguments in the comments, which speak of it as currently
+    measurable and significant intelligence we should not hasten to distrust.
+    That only raises more questions for me.
+
+    [169]Reply
+      □ [4223749f]
+        [170]RM
+        January 8, 2024 at 5:00 pm
+        [171]Permalink
+
+        Case in point: after a relatively painless transcription with apple
+        speech to text, the compulsory “AI” rewrite forced me to intervene in
+        every sentence multiple times to fix errors added after I had visually
+        checked the transcription and still missed several. While I don’t get
+        Perl, I have never made grammatical or stylistic errors like those in
+        my life. I am a disabled person currently being coerced to manually
+        enter text, at slight but real cost to my mental and physical health-
+        if it were literally any more difficult I wouldn’t have bothered- to
+        clean up after “AI” from this little upstart called APPLE COMPUTERS.
+
+        And this is supposed to get BETTER after the bubble pops?
+
+        [172]Reply
+  • [9588b9c1]
+    Nishan Stepak
+    January 12, 2024 at 2:43 pm
+    [173]Permalink
+
+    The point of AI in this article like most of what is being written misses
+    the boat completely. Where AI will make a difference is incredible fast,
+    automated scientific discovery. Google is already developing hundreds of
+    new materials using AI, accelerating protein folding, and advancing fusion.
+    Apparently Deepmind has an algorithm to stabilize fusion. Microsoft just
+    made a bet with Helion energy with a power purchasing agreement for fusion
+    energy eight years from now. There is a prediction, that in the next 10
+    years, there will be 50 to 100 years of scientific progress in automated
+    research done by AI. A lot of what is in the news misses the boat
+    completely. The bubble will pop and we will find ourselves with a whole lot
+    of new scientific breakthroughs in energy and materials.
+
+    [174]Reply
+  • [37a0695f]
+    Andrew Dabrowski
+    January 28, 2024 at 6:32 pm
+    [175]Permalink
+
+    This reminds me of Michael Kinsley’s confident prediction in the early
+    1980s that the AIDS kerfuffle would blow over when people got bored with
+    it. But diseases don’t go away due to boredom.
+
+    But with medical development and safe sex, AIDS did weaken as a menace over
+    the years. But AI won’t weaken, it will just get stronger.
+
+    [176]Reply
+  • [d3c8efce]
+    Glen
+    February 1, 2024 at 4:51 pm
+    [177]Permalink
+
+    Many people seem to be missing the point.
+    It’s not whether these algorithms work or not, or are even fit to purpose
+    in some cases. That’s not really what defines a bubble. Bubbles are built
+    on useful stuff, like the 2008 housing bubble. Houses are good, far better
+    than living in a tent. The bubble was on people throwing more money at the
+    houses and loans paying for those houses than those things would ever be
+    worth.
+    These kinds of algorithms have been used for many years already for all
+    kinds of useful stuff. Scanning handwritten text into usable text in a
+    computer. Or speech recognition. Good stuff that takes horrible drudge work
+    from humans.
+    A bubble is when the current investment fad is tossing money into something
+    where there’s no clear return on investment, and instead of backing off
+    when concerns are expressed, doubling down and throwing more money at it.
+    And when too much money is flying around the scammers and grifters start
+    showing up to skim a little (or a lot) of that money for themselves.
+    For many people, to admit the initial investment, or the obvious scam,
+    they’ve just thrown millions of dollars into might be an error is more
+    difficult than throwing more money at it and ignoring, or attacking, any
+    criticism of the thing.
+    What Cory is saying here, and what many other critics of so called AI are
+    saying, is the cost of running LLMs is far in excess of what anyone will
+    pay for them, and there’s a limit to their capabilities that means you
+    still need experienced professionals to do complex and difficult jobs. That
+    even if Waymo figured out how to get their self-driving cars to be
+    monitored by .75 humans and don’t kill anyone they’d still be losing money
+    and go out of business eventually; the investors will lose their shirts
+    while the VC’s and founders and scammers will come out of it all with bags
+    full of money.
+    I can’t tell if the article is saying there will be useful stuff left over
+    when the bubble pops or not. Personaly, I think the AI mania has already
+    caused too much destruction. The greenhouse gases barfed out to build and
+    power the server farms alone is too high a cost.
+
+    [178]Reply
+      □ [37a0695f]
+        Andrew Dabrowski
+        February 2, 2024 at 9:45 am
+        [179]Permalink
+
+        The technology will improve enormously and prices will come down
+        correspondingly. AI is guaranteed to make some people fortunes. Of
+        course you’re correct that it will also probably ruin many more.
+
+        [180]Reply
+      □ [9eb71600]
+        Curt J. Sampson
+        February 2, 2024 at 6:32 pm
+        [181]Permalink
+
+        Bubbles are not always built on useful stuff. Consider the 17th century
+        Dutch tulip mania. A tulip bulb, while not entirely useless, was not a
+        new invention, and was not adding any significant utility to society
+        that it had not already been adding for centuries before the bubble.
+
+        [182]Reply
+  • [0678c148]
+    Rick
+    February 10, 2024 at 9:47 am
+    [183]Permalink
+
+    Gen-AI has a strong tendency to hallucinate… traditional (non-gen) AI does
+    not.
+
+    [184]Reply
+  • [307ba98d]
+    Zac Sims
+    February 27, 2024 at 3:42 pm
+    [185]Permalink
+
+    “There will be a lot of people who know PyTorch and TensorFlow, too – both
+    of these are “open source” projects, but are effectively controlled by Meta
+    and Google, respectively.”
+
+    PyTorch is now governed by the PyTorch Foundation, an independent
+    organization within the Linux Foundation, so Meta does not control it
+    anymore.
+
+    [186]Reply
+
+Leave a Reply [187]Cancel reply
+
+Your email address will not be published. Required fields are marked *
+
+        [                                             ]
+        [                                             ]
+        [                                             ]
+        [                                             ]
+        [                                             ]
+        [                                             ]
+        [                                             ]
+Comment [                                             ]
+
+Name * [189][                              ]
+
+Email * [190][                              ]
+
+Website [191][                              ]
+
+[192][ ] Notify me of follow-up comments by email.
+
+[193][Post Comment] 
+
+ [                                             ] 
+ [                                             ] 
+ [                                             ] 
+ [                                             ] 
+ [                                             ] 
+ [                                             ] 
+ [                                             ] 
+Δ[                                             ] 
+
+[199]Issue 758 Table of Contents, March 2024
+[200]Issues 
+
+[201]Issue 758 Table of Contents, March 2024
+
+[202] March 1, 2024 [203]admin [204]0
+[205]See All Issues
+
+[207] newsletter sign up button
+
+Latest Posts
+
+[208]2024 Philip K. Dick Award Judges
+[209]Announcements [210]Awards [211]News 
+
+[212]2024 Philip K. Dick Award Judges
+
+[213] March 4, 2024 [214]locusmag [215]0
+[216]Weekly Bestsellers, 4 March 2024
+[217]Bestsellers [218]New Titles & Bestsellers 
+
+[219]Weekly Bestsellers, 4 March 2024
+
+[220] March 4, 2024 [221]LocEditor [222]0
+[223]Chandrasekera Wins Crawford
+[224]Awards [225]News 
+
+[226]Chandrasekera Wins Crawford
+
+[227] March 4, 2024 [228]locusmag [229]0
+[230]Cory Doctorow: Capitalists Hate Capitalism
+[231]Commentary [232]Cory Doctorow [233]Features [234]Slider 
+
+[235]Cory Doctorow: Capitalists Hate Capitalism
+
+[236] March 4, 2024 [237]locusmag [238]0
+[239]Adrienne Martini Reviews <b>Paladin’s Faith</b> by T. Kingfisher
+[240]Books [241]Reviews 
+
+[242]Adrienne Martini Reviews Paladin’s Faith by T. Kingfisher
+
+[243] March 4, 2024 [244]locusmag [245]0
+[246]Map of Earthsea
+[247]Black Lives Matter
+[248]Locus Merchandise
+
+Categories
+
+[249]Announcements [250]Archives [251]Around the Web [252]Awards [253]
+Bestsellers [254]Blinks [255]Blurb [256]Books [257]Bookstores [258]Classic
+Reprints [259]Commentary [260]Contests [261]Conventions [262]Cory Doctorow 
+[263]Features [264]Films [265]Forthcoming Books [266]International [267]
+Interviews [268]Issues [269]Kameron Hurley [270]Legal [271]Milestones [272]New
+& Notable [273]New Books [274]New in Paperback [275]News [276]New Titles &
+Bestsellers [277]Obituaries [278]Periodicals [279]Publishing [280]Reviewers 
+[281]Reviews [282]Roundtable [283]Short Fiction [284]Slider [285]Spotlight 
+[286]Staff [287]Staff Picks [288]Support What We Do [289]Uncategorized [290]
+Workshops
+
+
+
+[INS::INS]
+
+[291][legalthanks]
+
+What they say
+
+[292]Blurb 
+
+[293]Ellen Datlow on Locus
+
+[294] September 28, 2010 [295]locusmag [296]0
+
+“You need Locus. We all need Locus. It’s one of the most important sources of
+news about science fiction, fantasy, and horror.”
+
+  • [297]Click to share on Facebook (Opens in new window)
+  • [298]Click to share on Twitter (Opens in new window)
+  • [299]Click to share on Tumblr (Opens in new window)
+  • [300]Click to share on Pinterest (Opens in new window)
+  • 
+
+
+
+[INS::INS]
+
+[INS::INS]
+
+Archived Posts
+
+Archived Posts [301][Select Month         ]
+
+Categories
+
+Categories[302][Select Category                  ]
+All opinions expressed
+by commentators, guest bloggers, reviewers, and interviewees are solely their
+own and do not reflect the opinions of Locus magazine or its staff.
+
+Cookie Policy Third party vendors, including Google, use cookies to serve ads
+based on a user's prior visits to this website or other websites. Google's use
+of advertising cookies enables it and its partners to serve ads to our users
+based on their visit to our sites and/or other sites on the Internet. More
+details are available at our [303]Cookie Pollicy page. Users may opt out of
+personalized advertising by visiting [304]Ads Settings.
+
+Contact
+
+Locus SF Foundation
+dba Locus Publications
+655 13th St. #100
+Oakland CA 94612
+
+ph. +1-510-339-9196
+
+[305]locus@locusmag.com
+
+Weekdays: 9-5 Pacific Time
+[306][                    ]
+Suggestion, tips, typos?
+
+You can send news, tips, and suggestions to [308]locus@locusmag.com.
+
+If you see problems or bugs on the site, please let us know and include the URL
+and also which browser you are using.
+
+Follow us!
+
+              [309][birdi] [310][2000p] [311][Patre] [312][insta]
+
+Locus Magazine and Website cover science fiction, fantasy, young-adult, horror
+books, short fiction, anthologies, magazines, films, news, conventions, and
+international. Also interviews with SFF authors, editors, artists, and more.
+
+Copyright © 2024 Locus Publications. All rights reserved.
+[313]
+
+[314]
+[button-subscribe-2023-sma]YOU LOVE GENRE FICTION! WE DO, TOO! 
+
+If all of our online readers (that’s you!) supported Locus with [315]JUST $5
+THIS YEAR, it would fund all of our works: website, magazine, awards, writing
+workshops, and more.
+
+KEEP LOCUS ALIVE BY [316]SUBSCRIBING OR [317]DONATING TODAY!
+
+[318][button-donate-2023-small2]
+
+Locus is a 501(c)(3) non-profit and we rely on reader donations and
+subscriptions. If you enjoy what we do and want to see it continue, please take
+a moment and subscribe or [319]donate now!
+
+CLOSE
+
+We use essential cookies to make our site work. With your consent, we may also
+use non-essential cookies to improve user experience, analyze website traffic,
+and serve ads to our users based on their visit to our sites and to other sites
+on the internet. By clicking “Accept,“ you agree to our website’s cookie use as
+described in our [321]Cookie Policy. Users may opt out of personalized
+advertising by visiting [322]Ads Settings.
+
+Accept
+
+References:
+
+[2] https://locusmag.com/
+[3] https://locusmag.com/
+[4] http://locusmag.com/subscribe/
+[5] http://locusmag.com/subscribe/
+[6] https://locusmag.com/
+[7] https://locusmag.com/recent-posts/
+[8] https://locusmag.com/category/news/
+[9] https://locusmag.com/category/news/awards/
+[10] https://locusmag.com/category/news/announcements/
+[11] https://locusmag.com/category/news/publishing/
+[12] https://locusmag.com/category/newtitlesbestsellers/
+[13] https://locusmag.com/category/news/conventions/
+[14] https://locusmag.com/category/news/obituaries/
+[15] https://locusmag.com/category/reviews/
+[16] https://locusmag.com/category/reviews/books/
+[17] https://locusmag.com/category/reviews/short-fiction/
+[18] https://locusmag.com/category/films/
+[19] https://locusmag.com/reviews/
+[20] https://locusmag.com/category/features/
+[21] https://locusmag.com/category/features/interviews/
+[22] https://locusmag.com/interviews/
+[23] https://locusmag.com/category/features/spotlight/
+[24] https://locusmag.com/category/features/commentary/
+[25] https://locusmag.com/category/features/commentary/cory-doctorow/
+[26] https://locusmag.com/category/features/commentary/kameron-hurley/
+[27] https://locusmag.com/category/features/commentary/roundtable/
+[28] https://locusmag.com/sf-crossing-the-gulf/
+[29] https://locusmag.com/subscribe/
+[30] https://locusmag.com/advertise/
+[31] https://locusmag.com/donate/
+[32] https://locusmag.com/aboutlocusonline/
+[33] https://locusmag.com/aboutlocusonline/submission-guidelines/
+[34] https://locusmag.com/aboutlocusonline/contact/
+[35] https://locusmag.com/aboutlocusonline/volunteer/
+[36] https://locusmag.com/category/staff/
+[37] https://locusmag.com/our-history/
+[38] https://locusmag.com/aboutlocusonline/charles-n-brown-1937-2009/
+[39] https://locusmag.com/aboutlocusonline/locus-online/
+[40] https://locusmag.com/aboutlocusonline/faq/
+[41] https://locusmag.com/aboutlocusonline/code-of-conduct/
+[42] https://locusmag.com/resources/
+[43] https://locusmag.com/forthcomingbooks/
+[44] https://locusmag.com/interviews/
+[45] https://locusmag.com/reviews/
+[46] https://locusmag.com/#TOCArchive
+[47] http://locusmag.com/2019-directory/
+[48] http://www.sfadb.com/
+[49] https://locusmag.com/conventions/
+[50] https://locusmag.com/links/
+[51] https://subscribers.locusmag.com/store
+[52] https://subscribers.locusmag.com/
+[55] https://locusmag.com/category/features/commentary/
+[56] https://locusmag.com/category/features/commentary/cory-doctorow/
+[57] https://locusmag.com/category/features/
+[58] https://locusmag.com/category/slider/
+[59] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/
+[60] https://locusmag.com/author/locusmag/
+[61] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comments
+[62] https://locusmag.com/tag/cory-doctorow/
+[63] https://locusmag.com/wp-content/uploads/2017/09/Issue11_Doctorow_200x302.jpg
+[64] https://locusmag.com/2023/12/issue-755-6-table-of-contents-dec-2023-jan-2024/
+[65] https://locusmag.com/donate/
+[66] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?share=facebook
+[67] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?share=twitter
+[68] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?share=tumblr
+[69] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?share=pinterest
+[70] https://locusmag.com/2023/12/bookstore-news-6/
+[71] https://locusmag.com/2023/12/niall-harrison-reviews-nefando-by-monica-ojeda/
+[72] https://locusmag.com/2018/03/cory-doctorow-lets-get-better-at-demanding-better-from-tech/
+[73] https://locusmag.com/2018/03/cory-doctorow-lets-get-better-at-demanding-better-from-tech/
+[74] https://locusmag.com/2018/03/cory-doctorow-lets-get-better-at-demanding-better-from-tech/
+[75] https://locusmag.com/author/locusmag/
+[76] https://locusmag.com/2018/03/cory-doctorow-lets-get-better-at-demanding-better-from-tech/#respond
+[77] https://locusmag.com/2021/05/seasonal-bias-in-speculative-fiction-awards-nominations-by-douglas-f-dluzen-christopher-mark-rose/
+[78] https://locusmag.com/2021/05/seasonal-bias-in-speculative-fiction-awards-nominations-by-douglas-f-dluzen-christopher-mark-rose/
+[79] https://locusmag.com/2021/05/seasonal-bias-in-speculative-fiction-awards-nominations-by-douglas-f-dluzen-christopher-mark-rose/
+[80] https://locusmag.com/author/locusmag/
+[81] https://locusmag.com/2021/05/seasonal-bias-in-speculative-fiction-awards-nominations-by-douglas-f-dluzen-christopher-mark-rose/#respond
+[82] https://locusmag.com/2023/10/john-scalzi-real-people-ridiculous-situations/
+[83] https://locusmag.com/2023/10/john-scalzi-real-people-ridiculous-situations/
+[84] https://locusmag.com/2023/10/john-scalzi-real-people-ridiculous-situations/
+[85] https://locusmag.com/author/locusmag/
+[86] https://locusmag.com/2023/10/john-scalzi-real-people-ridiculous-situations/#respond
+[87] http://www.mcgurrin.info/robots
+[88] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283319
+[89] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283319#respond
+[90] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283321
+[91] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283321#respond
+[92] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283637
+[93] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283637#respond
+[94] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283781
+[95] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283781#respond
+[96] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-284615
+[97] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=284615#respond
+[98] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283757
+[99] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283757#respond
+[100] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283322
+[101] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283322#respond
+[102] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-286737
+[103] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=286737#respond
+[104] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283326
+[105] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283326#respond
+[106] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283420
+[107] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283420#respond
+[108] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283422
+[109] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283422#respond
+[110] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283505
+[111] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283505#respond
+[112] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-284077
+[113] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-284157
+[114] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=284157#respond
+[115] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283424
+[116] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283424#respond
+[117] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283331
+[118] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283331#respond
+[119] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283363
+[120] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283363#respond
+[121] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283466
+[122] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283466#respond
+[123] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283431
+[124] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283431#respond
+[125] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283432
+[126] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283432#respond
+[127] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283441
+[128] https://www.scientificamerican.com/article/new-class-of-antibiotics-discovered-using-ai/
+[129] https://www.wired.com/story/deepmind-ai-nuclear-fusion/
+[130] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283441#respond
+[131] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283447
+[132] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283447#respond
+[133] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283448
+[134] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283448#respond
+[135] http://www.jeffhecht.com/
+[136] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283453
+[137] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283453#respond
+[138] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283460
+[139] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283460#respond
+[140] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283489
+[141] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283489#respond
+[142] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283493
+[143] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283493#respond
+[144] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283700
+[145] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283700#respond
+[146] http://www.mcgurrin.info/robots
+[147] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283714
+[148] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283714#respond
+[149] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283715
+[150] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283715#respond
+[151] http://mcgurrin/
+[152] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283718
+[153] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283718#respond
+[154] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283494
+[155] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283494#respond
+[156] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283512
+[157] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283512#respond
+[158] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283679
+[159] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283679#respond
+[160] http://www.mcgurrin.info/robots
+[161] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283716
+[162] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283716#respond
+[163] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283783
+[164] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283783#respond
+[165] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-283758
+[166] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=283758#respond
+[167] http://@rifka.bsky.social/
+[168] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-284206
+[169] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=284206#respond
+[170] http://see_above/
+[171] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-284207
+[172] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=284207#respond
+[173] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-284397
+[174] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=284397#respond
+[175] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-285151
+[176] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=285151#respond
+[177] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-285309
+[178] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=285309#respond
+[179] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-285335
+[180] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=285335#respond
+[181] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-285344
+[182] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=285344#respond
+[183] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-285863
+[184] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=285863#respond
+[185] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#comment-286843
+[186] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/?replytocom=286843#respond
+[187] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#respond
+[199] https://locusmag.com/2024/03/issue-758-table-of-contents-march-2024/
+[200] https://locusmag.com/category/issues/
+[201] https://locusmag.com/2024/03/issue-758-table-of-contents-march-2024/
+[202] https://locusmag.com/2024/03/issue-758-table-of-contents-march-2024/
+[203] https://locusmag.com/author/admin/
+[204] https://locusmag.com/2024/03/issue-758-table-of-contents-march-2024/#respond
+[205] https://subscribers.locusmag.com/back-issues
+[207] https://locusmag.com/newsletter-sign-up
+[208] https://locusmag.com/2024/03/2024-philip-k-dick-award-judges/
+[209] https://locusmag.com/category/news/announcements/
+[210] https://locusmag.com/category/news/awards/
+[211] https://locusmag.com/category/news/
+[212] https://locusmag.com/2024/03/2024-philip-k-dick-award-judges/
+[213] https://locusmag.com/2024/03/2024-philip-k-dick-award-judges/
+[214] https://locusmag.com/author/locusmag/
+[215] https://locusmag.com/2024/03/2024-philip-k-dick-award-judges/#respond
+[216] https://locusmag.com/2024/03/weekly-bestsellers-4-march-2024/
+[217] https://locusmag.com/category/newtitlesbestsellers/bestsellers/
+[218] https://locusmag.com/category/newtitlesbestsellers/
+[219] https://locusmag.com/2024/03/weekly-bestsellers-4-march-2024/
+[220] https://locusmag.com/2024/03/weekly-bestsellers-4-march-2024/
+[221] https://locusmag.com/author/loceditor/
+[222] https://locusmag.com/2024/03/weekly-bestsellers-4-march-2024/#respond
+[223] https://locusmag.com/2024/03/chandrasekra-wins-crawford/
+[224] https://locusmag.com/category/news/awards/
+[225] https://locusmag.com/category/news/
+[226] https://locusmag.com/2024/03/chandrasekra-wins-crawford/
+[227] https://locusmag.com/2024/03/chandrasekra-wins-crawford/
+[228] https://locusmag.com/author/locusmag/
+[229] https://locusmag.com/2024/03/chandrasekra-wins-crawford/#respond
+[230] https://locusmag.com/2024/03/cory-doctorow-capitalists-hate-capitalism/
+[231] https://locusmag.com/category/features/commentary/
+[232] https://locusmag.com/category/features/commentary/cory-doctorow/
+[233] https://locusmag.com/category/features/
+[234] https://locusmag.com/category/slider/
+[235] https://locusmag.com/2024/03/cory-doctorow-capitalists-hate-capitalism/
+[236] https://locusmag.com/2024/03/cory-doctorow-capitalists-hate-capitalism/
+[237] https://locusmag.com/author/locusmag/
+[238] https://locusmag.com/2024/03/cory-doctorow-capitalists-hate-capitalism/#respond
+[239] https://locusmag.com/2024/03/adrienne-martini-reviews-paladins-faith-by-t-kingfisher/
+[240] https://locusmag.com/category/reviews/books/
+[241] https://locusmag.com/category/reviews/
+[242] https://locusmag.com/2024/03/adrienne-martini-reviews-paladins-faith-by-t-kingfisher/
+[243] https://locusmag.com/2024/03/adrienne-martini-reviews-paladins-faith-by-t-kingfisher/
+[244] https://locusmag.com/author/locusmag/
+[245] https://locusmag.com/2024/03/adrienne-martini-reviews-paladins-faith-by-t-kingfisher/#respond
+[246] https://pmpress.org/index.php?l=product_detail&p=1647
+[247] https://locusmag.com/black-lives-matter/
+[248] https://subscribers.locusmag.com/store
+[249] https://locusmag.com/category/news/announcements/
+[250] https://locusmag.com/category/archives/
+[251] https://locusmag.com/category/around-the-web/
+[252] https://locusmag.com/category/news/awards/
+[253] https://locusmag.com/category/newtitlesbestsellers/bestsellers/
+[254] https://locusmag.com/category/blinks/
+[255] https://locusmag.com/category/blurb/
+[256] https://locusmag.com/category/reviews/books/
+[257] https://locusmag.com/category/news/bookstores/
+[258] https://locusmag.com/category/newtitlesbestsellers/classic-reprints/
+[259] https://locusmag.com/category/features/commentary/
+[260] https://locusmag.com/category/news/contests/
+[261] https://locusmag.com/category/news/conventions/
+[262] https://locusmag.com/category/features/commentary/cory-doctorow/
+[263] https://locusmag.com/category/features/
+[264] https://locusmag.com/category/films/
+[265] https://locusmag.com/category/newtitlesbestsellers/forthcoming-books/
+[266] https://locusmag.com/category/news/international/
+[267] https://locusmag.com/category/features/interviews/
+[268] https://locusmag.com/category/issues/
+[269] https://locusmag.com/category/features/commentary/kameron-hurley/
+[270] https://locusmag.com/category/news/legal-2/
+[271] https://locusmag.com/category/news/milestones/
+[272] https://locusmag.com/category/newtitlesbestsellers/new-and-notable/
+[273] https://locusmag.com/category/newtitlesbestsellers/new-books/
+[274] https://locusmag.com/category/newtitlesbestsellers/new-in-paperback/
+[275] https://locusmag.com/category/news/
+[276] https://locusmag.com/category/newtitlesbestsellers/
+[277] https://locusmag.com/category/news/obituaries/
+[278] https://locusmag.com/category/newtitlesbestsellers/periodicals/
+[279] https://locusmag.com/category/news/publishing/
+[280] https://locusmag.com/category/staff/reviewers/
+[281] https://locusmag.com/category/reviews/
+[282] https://locusmag.com/category/features/commentary/roundtable/
+[283] https://locusmag.com/category/reviews/short-fiction/
+[284] https://locusmag.com/category/slider/
+[285] https://locusmag.com/category/features/spotlight/
+[286] https://locusmag.com/category/staff/
+[287] https://locusmag.com/category/staff-picks/
+[288] https://locusmag.com/category/support-what-we-do/
+[289] https://locusmag.com/category/uncategorized/
+[290] https://locusmag.com/category/news/workshops/
+[291] https://www.gsblaw.com/
+[292] https://locusmag.com/category/blurb/
+[293] https://locusmag.com/2010/09/ellen-datlow-on-locus/
+[294] https://locusmag.com/2010/09/ellen-datlow-on-locus/
+[295] https://locusmag.com/author/locusmag/
+[296] https://locusmag.com/2010/09/ellen-datlow-on-locus/#respond
+[297] https://locusmag.com/2010/09/ellen-datlow-on-locus/?share=facebook
+[298] https://locusmag.com/2010/09/ellen-datlow-on-locus/?share=twitter
+[299] https://locusmag.com/2010/09/ellen-datlow-on-locus/?share=tumblr
+[300] https://locusmag.com/2010/09/ellen-datlow-on-locus/?share=pinterest
+[303] https://locusmag.com/cookie-policy/
+[304] https://myadcenter.google.com/?sasb=true
+[305] mailto:locus@locusmag.com
+[308] mailto:locus@locusmag.com
+[309] http://twitter.com/locusmag
+[310] https://www.facebook.com/Locus-Magazine-547211638785273/
+[311] http://www.patreon.com/locus
+[312] https://www.instagram.com/locusmagazine/
+[313] https://locusmag.com/2023/12/commentary-cory-doctorow-what-kind-of-bubble-is-ai/#masthead
+[314] https://locusmag.com/subscribe
+[315] http://locusmag.com/donate
+[316] http://locusmag.com/subscribe
+[317] http://locusmag.com/donate
+[318] http://locusmag.com/donate
+[319] http://locusmag.com/donate
+[321] https://locusmag.com/cookie-policy/
+[322] https://myadcenter.google.com/?sasb=true
