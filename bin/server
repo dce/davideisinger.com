@@ -1,0 +1,8 @@
+cd bin/dither && \
+	ROOT=/Users/dce/code/davideisinger.com/content \
+	KEY=/Users/dce/code/davideisinger.com/secret.key \
+	bundle exec ruby dither.rb &
+
+sleep 1
+
+DITHER_SERVER=http://localhost:4567 hugo server
