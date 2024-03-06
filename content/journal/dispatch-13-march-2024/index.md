@@ -155,7 +155,7 @@ Reading:
 * Non-fiction: [_Dilla Time_][26], Dan Charnas
 
 [25]: https://bookshop.org/p/books/the-dispossessed-ursula-k-le-guin/7899183
-[26]: https://bookshop.org/p/books/dilla-time-the-life-and-afterlife-of-j-dilla-the-hip-hop-producer-who-reinvented-rhythm-dan-charnas/18480833
+[26]: https://bookshop.org/p/books/dilla-time-the-life-and-afterlife-of-j-dilla-the-hip-hop-producer-who-reinvented-rhythm-dan-charnas/18415833?ean=9781250862976
 
 Links:
 
