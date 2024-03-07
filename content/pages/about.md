@@ -37,17 +37,17 @@ It's deployed via GitHub Actions to a small Digital Ocean server running behind 
 
 Image dithering is handled via a small webservice I've detailed in [a dedicated post][10].
 
-The links on the homepage are pulled from my [Pinboard bookmarks][11].
+The links on the homepage are pulled from my [Pinboard bookmarks][11]. I create plaintext backups of pages I link to with [w3m][12].
 
-I manage my [monthly dispatch emails][12] with [Listmonk][13], also running as a container on the same server.
-
-Source code is available on [GitHub][14].
+I manage my [monthly dispatch emails][13] with [Listmonk][14], also running as a container on the same server.
+Source code is available on [GitHub][15].
 
 [7]: https://gohugo.io/
 [8]: https://pragprog.com/titles/bhhugo/build-websites-with-hugo/
 [9]: https://caddyserver.com/
 [10]: /journal/encrypt-and-dither-photos-in-hugo/
 [11]: https://pinboard.in/u:DCE/public/
-[12]: https://dispatch.davideisinger.com/archive
-[13]: https://listmonk.app/
-[14]: https://github.com/dce/davideisinger.com/
+[12]: https://w3m.sourceforge.net/
+[13]: https://dispatch.davideisinger.com/archive
+[14]: https://listmonk.app/
+[15]: https://github.com/dce/davideisinger.com/
