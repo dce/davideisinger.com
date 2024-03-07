@@ -39,7 +39,8 @@ Image dithering is handled via a small webservice I've detailed in [a dedicated 
 
 The links on the homepage are pulled from my [Pinboard bookmarks][11]. I create plaintext backups of pages I link to with [w3m][12].
 
-I manage my [monthly dispatch emails][13] with [Listmonk][14], also running as a container on the same server.
+I manage my [monthly dispatch emails][13] with [Listmonk][14], also running as a container behind a Caddy proxy.
+
 Source code is available on [GitHub][15].
 
 [7]: https://gohugo.io/
