@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require "date"
+
+ts = DateTime.now.iso8601
+
+IO.popen("pbcopy", "w") { |pb| pb.write(ts) }
+
+puts ts
