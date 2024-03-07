@@ -84,6 +84,20 @@ footer {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  footer {
+    text-align: left;
+
+    a {
+      display: block;
+    }
+
+    .mobile-hidden {
+      display: none;
+    }
+  }
+}
+
 sup {
   line-height: 0;
   font-size: 0.8em;

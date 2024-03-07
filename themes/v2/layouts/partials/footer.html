@@ -1,14 +1,20 @@
 <footer>
   <hr>
 
-  <a href="https://dispatch.davideisinger.com/subscription/form">Subscribe via email</a> •
-  <a href="/index.xml">Feed</a> •
-  <a href="/about/#contact">Contact</a><br>
+  <div>
+    <a href="https://dispatch.davideisinger.com/subscription/form">Subscribe via email</a> 
+    <span class="mobile-hidden">•</span>
+    <a href="/index.xml">Feed</a>
+    <span class="mobile-hidden">•</span>
+    <a href="/about/#contact">Contact</a>
+  </div>
 
-  Rendered {{ now | dateFormat "2006-01-02 15:04:05 MST" }}
-  {{ with site.Params.git.last_commit }}
-    • <a href="https://github.com/dce/davideisinger.com/commit/{{ .hash }}">{{ substr .hash 0 7}}</a>
-  {{ end }}<br>
+  <div class="mobile-hidden">
+    Rendered {{ now | dateFormat "2006-01-02 15:04:05 MST" }}
+    {{ with site.Params.git.last_commit }}
+      • <a href="https://github.com/dce/davideisinger.com/commit/{{ .hash }}">{{ substr .hash 0 7}}</a>
+    {{ end }}
+  </div>
 
-  Copyright &copy; {{ now.Format "2006" }} David Eisinger
+  <span class="mobile-hidden">Copyright</span> &copy; {{ now.Format "2006" }} David Eisinger
 </footer>
