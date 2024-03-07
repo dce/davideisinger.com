@@ -1,0 +1,217 @@
+data Blog = Blog { me :: Programmer, posts :: [Opinion] }
+[1]Posts [2]RSS
+
+How Blockchains Work
+
+Chances are, you know what Bitcoin is. After all, it’s valued at over $47,000
+per Bitcoin right now. This post isn’t about the business side of things,
+though, or the BTC speculative bubble. I want to explain how it works.^[3]1
+
+Foundations: Hashes and Ledgers
+
+First, a hash algorithm is a way to convert a given string into an
+unpredictable string of a fixed length, called a digest.
+
+A diagram illustrating that a hash algorithm produces a digest from a string.
+
+Here’s a small Python program to demonstrate:
+
+#!/usr/bin/env python3
+from argparse import ArgumentParser
+from hashlib import md5
+
+
+def hash_string(string):
+    hash = md5()
+    hash.update(string.encode("utf-8"))
+    return hash.hexdigest()
+
+
+if __name__ == "__main__":
+    parser = ArgumentParser()
+    parser.add_argument("STRING", help="The string to be hashed")
+    args = parser.parse_args()
+    print(hash_string(args.STRING))
+
+Running this with different string arguments will give you digests of the
+arguments:
+
+$ ./hash ninja
+3899dcbab79f92af727c2190bbd8abc5
+
+$ ./hash samurai
+99b1983cf3ee09bbaf6f43ac7b4c8748
+
+Hashes of this type are used to check passwords—you can check whether a
+password matches without storing the password itself.^[4]2
+
+Blockchains are a kind of ledger: they have entries added to them over time.
+Hashes can help with that by protecting the ordering and contents of messages.
+
+A diagram illustrating that blockchains capture the previous digest and the
+current message to produce a digest.
+
+Here’s a brief implementation:
+
+def hash_ledger_entry(string, previous_digest=None):
+    """Hashes a string with the hash of previous entries in the ledger, if any."""
+    hash = md5(string.encode("utf-8"))
+
+    if previous_digest:
+        hash.update(previous_digest.encode("utf-8"))
+
+    return hash.hexdigest()
+
+
+def generate_ledger(*strings):
+    """Generates the entries in a ledger consisting of a set of strings."""
+    digest = None
+
+    for string in strings:
+        digest = hash_ledger_entry(string, digest)
+        yield digest, string
+
+
+if __name__ == "__main__":
+    parser = ArgumentParser()
+    parser.add_argument("STRINGS", help="The ledger entries", nargs="+")
+    args = parser.parse_args()
+
+    for digest, string in generate_ledger(*args.STRINGS):
+        print(f"{digest}\t{string}")
+
+With this script, providing a set of strings will generate a unique and ordered
+ledger:
+
+$ ./hash ninja samurai
+3899dcbab79f92af727c2190bbd8abc5        ninja
+6bf8d2cadde40af53d7f0fef95d4ec2c        samurai
+
+These hash ledgers are tamper-resistant because the digests of later entries
+depend on the earlier entries. Modifying or adding entries will change the
+digest of later entries.
+
+$ ./hash ninja pirate samurai
+3899dcbab79f92af727c2190bbd8abc5        ninja
+7ec21dcf528e12036b04774754ecc4e0        pirate
+636730d86709d03fed9ba64f84fc9be6        samurai
+
+We can also add a known ending entry to the ledger to protect the last entry
+from tampering:
+
+$ ./hash ninja pirate samurai
+3899dcbab79f92af727c2190bbd8abc5        ninja
+7ec21dcf528e12036b04774754ecc4e0        pirate
+636730d86709d03fed9ba64f84fc9be6        samurai
+b233d566fe677d394aafb5eaf149e453        END
+
+Validation
+
+To validate a ledger, you can replay the transactions and make sure that you
+get the same hashes at each step:
+
+our_digest = None
+
+for line in fileinput.input():
+    file_digest, word = line.strip().split("\t")
+    our_digest = hash_ledger_entry(word, our_digest)
+
+    if our_digest != file_digest:
+        sys.exit(f"The digest for {word} does not match.")
+
+print("All entries match.")
+
+With a tamper-resistant ledger where each entry depends on the previous
+entries, we’ve effectively implemented a very simple blockchain. This is not
+the same as the blockchain, though; for that we need…
+
+Proofs without Authority
+
+The novelty of Bitcoin is that it is a distributed system with no owner. This
+is what enthusiasts mean when they say that the blockchain is trustless:
+instead of central authority, like a bank, many “miners” compete to
+successfully write a new message to the blockchain. They do this by means of a
+proof-of-work algorithm, which we can implement in our ledger as well.
+
+# Add this to your imports.
+from secrets import token_bytes
+
+
+def hash_ledger_entry_with_salt(salt, string, previous_digest=None):
+    """Hashes a string with the hash of previous entries in the ledger, if any."""
+    hash = md5(string.encode("utf-8"))
+    hash.update(salt)
+
+    if previous_digest:
+        hash.update(previous_digest.encode("utf-8"))
+
+    return hash.hexdigest()
+
+
+def generate_ledger(difficulty, *strings):
+    # Difficulty determines how many zeroes we require at the beginning of a digest.
+    prefix = "0" * difficulty
+
+    digest = None
+    previous_digest = None
+
+    for string in strings:
+        # We re-hash a string over and over, with random salts, until it matches the
+        # prefix determined by our difficulty.
+        while digest is None or not digest.startswith(prefix):
+            salt = token_bytes(16)
+            digest = hash_ledger_entry_with_salt(salt, string, previous_digest)
+
+        # We yield back the digest and entry, as before, but we need the salt, too.
+        # Without that, we can't replay the entries and verify them.
+        yield digest, salt.hex(), string
+        previous_digest = digest
+        digest = None
+
+    yield hash_ledger_entry_with_salt(salt, "END", previous_digest), salt, "END"
+
+
+if __name__ == "__main__":
+    parser = ArgumentParser()
+    parser.add_argument(
+        "DIFFICULTY", help="The difficulty of confirming a ledger entry.", type=int
+    )
+    parser.add_argument("STRINGS", help="The ledger entries", nargs="+")
+    args = parser.parse_args()
+
+    for digest, salt, string in generate_ledger(args.DIFFICULTY, *args.STRINGS):
+        print(f"{digest}\t{salt}\t{string}")
+
+The new utility accepts an additional argument, difficulty, and tries to
+generate a salt value that generates a hash which matches the expected number
+of zeroes:
+
+$ ./hash 5 ninja pirate samurai
+00000ad72553509e6c197e45ab7fa436        af0dce7ac4c87c2b9d9eafb6561c09f4        ninja
+000000f556426cfa894ba2ce57383b1d        b9d51e0e8ea977ba004e7c30be757144        pirate
+000006373b2b336d6dac403a5fa90a73        dd9c6ad89f5014a0901bcb142e04e28b        samurai
+fa35b5a39bc0318015620684d60a27f0        dd9c6ad89f5014a0901bcb142e04e28b        END
+
+The “mining” process can require a lot of calculations. The example required,
+on average, around 2.5 million attempts. That’s why Bitcoin mining consumes [5]
+more electricity than many countries: on the “real” blockchain, miners are
+calculating and recalculating quadrillions of hashes per bitcoin mined.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ 1. If you want to read about the bubble, I recommend [6]David Gerard. [7]↩︎
+
+ 2. Note that md5 should not be used for this purpose in real applications. I
+    chose it here for the brevity of its digests, but it isn’t secure. [8]↩︎
+
+
+References:
+
+[1] https://asthasr.github.io/
+[2] https://asthasr.github.io/index.xml
+[3] https://asthasr.github.io/posts/how-blockchains-work/#fn:1
+[4] https://asthasr.github.io/posts/how-blockchains-work/#fn:2
+[5] https://www.bbc.com/news/technology-56012952
+[6] https://davidgerard.co.uk/blockchain/
+[7] https://asthasr.github.io/posts/how-blockchains-work/#fnref:1
+[8] https://asthasr.github.io/posts/how-blockchains-work/#fnref:2

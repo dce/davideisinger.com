@@ -3,6 +3,11 @@ title: "Let’s Make a Hash Chain in SQLite"
 date: 2021-06-30T00:00:00+00:00
 draft: false
 canonical_url: https://www.viget.com/articles/lets-make-a-hash-chain-in-sqlite/
+references:
+- title: "How Blockchains Work | data Blog = Blog { me :: Programmer, posts :: [Opinion] }"
+  url: https://asthasr.github.io/posts/how-blockchains-work/
+  date: 2024-03-07T04:43:24Z
+  file: asthasr-github-io-s0ebht.txt
 ---
 
 I'm not much of a cryptocurrency enthusiast, but there are some neat
