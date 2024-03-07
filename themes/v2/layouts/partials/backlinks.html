@@ -5,7 +5,7 @@
 {{ range .Site.Pages }}
   {{ $found := findRE $link .Content 1 }}
 
-  {{ if and ($found) (ne $currlink .RelPermalink) }}
+  {{ if and $found .Title (ne $currlink .RelPermalink) }}
     {{ $backlinks = $backlinks | append . }}
   {{ end }}
 {{ end }}
