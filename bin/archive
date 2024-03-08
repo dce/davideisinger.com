@@ -6,6 +6,7 @@ require "digest"
 require "time"
 
 *urls = ARGV
+clipboard = ""
 
 unless urls.any?
   warn "Please supply one or more URLs"
@@ -41,10 +42,16 @@ urls.each do |url|
 
   File.write("static/archive/#{filename}", text_content)
 
-  puts <<~STR
+  yaml = <<~STR
     - title: "#{title}"
       url: #{url}
       date: #{Time.now.utc.iso8601}
       file: #{filename}
   STR
+
+  puts yaml
+
+  clipboard += yaml
 end
+
+IO.popen("pbcopy", "w") { |pb| pb.write(clipboard) }
