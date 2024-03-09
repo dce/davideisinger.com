@@ -19,7 +19,7 @@ references:
 
 I'm a technologist living in Durham, North Carolina, USA with my wife and daughter, plus a dog named Steve and a parrot named Tad.
 
-My parents met at IBM and I grew up around computers (my favorite was the [PS/2 Model P70][1]). We were online pretty early, first with [Prodigy][2] and AOL, then moving onto the web. I started making websites in middle school (a few I made as an underclassman in high school are [still][3] [online][4] as of March 2024). I interned at [webMethods][5] for two summers and saw both sides of the original web bubble. I studied Computer Science in college and have been making stuff for the web professionally ever since.
+My parents met at IBM and I grew up around computers (my favorite was the [PS/2 Model P70][1]). We were online pretty early, first with [Prodigy][2] and AOL, then moving onto the web. I started making websites in middle school (a few I made in high school are [still][3] [online][4] as of March 2024). I interned at [webMethods][5] for two summers and saw both sides of the original web bubble. I studied Computer Science in college and have been making stuff for the web professionally ever since.
 
 [1]: http://laptop.pics/ibm-ps-2-model-p70/
 [2]: https://en.wikipedia.org/wiki/Prodigy_(online_service)
