@@ -1,0 +1,439 @@
+[1][laptop-pics]
+
+  • [2]Apple
+  • [3]Atari
+  • [4]Canon
+  • [5]Dell
+  • [6]HP
+  • [7]IBM
+  • [8]Lenovo
+  • [9]Panasonic
+  • [10]SAGER
+  • [11]Toshiba
+
+
+[12]IBM PS/2 Model P70
+
+  • [13]May 16, 2018
+  • [14]Jack
+  • [15]5 Comments
+
+
+Introduction
+
+It’s 1989. Most people are using 286 or 386-based systems with 2-4 MB of
+memory, and an EGA monitor. Some people are still using the IBM 5150 PC or 5160
+XT, likely paired with an MDA card and green-screen monitor (both of which were
+still sold new within the last 3 years). A few people have Amigas, Ataris,
+Macintosh IIs, or new 486 machines. The new [16]Atari Portfolio is sometimes
+used on the road, as well as the older Epson HX-20 and TRS-80 Model 100. Quite
+a few people are using 2400 baud external modems to connect to Bulletin Board
+Systems and download utilities like PKZIP or PKARC. But there’s one portable
+computer coming out that has everything you could ask for on-the-go – a VGA
+Screen, a 386 running at up to 20 MHz, and a hard drive with a size of up to
+120 MB (!).
+
+[17][p70-2-1024x941][18][p70-1-1024x914]
+
+Meet the IBM PS/2 P70. Not related to the modern ThinkPad P70 (which came out
+in 2015), the PS/2 P70 was a “luggable” Microchannel Architecture (MCA)
+computer, with an amber gas-plasma display similar to the [19]Toshiba T5200. It
+came with a truly pleasant fold-down mechanical keyboard, gorgeous display,
+3.5″ Floppy Drive (when many people were still using 5.25″), and, of course, a
+PS/2 Port for a mouse (when serial mice, InPort mice, and no mice at all were
+still very common).
+
+The only problem would have been the prohibitive cost. My model, when it was
+new, cost $7,695 as of the product announcement on May 9, 1989. If we convert
+this to 2018 dollars, we’re looking at $15,486. There are still new cars being
+sold for less than that.
+
+This computer might seem cumbersome, too big to use on the road, and not truly
+portable (since it didn’t run off batteries). But at the time, there were no
+equivalent offerings from Data General, Tandy, Toshiba, Bondwell, Magnavox or
+any other company that manufactured portables of the day. (Especially regarding
+the VGA screen and PS/2 Port.) Also remember that the original Nintendo Game
+Boy was just coming out at this time.
+
+The PS/2 Model P70 is essentially a portable version of the PS/2 Model 70,
+which was a horizontally-oriented Microchannel Desktop system of the time. I do
+have one of these, equipped with two 3.5″ Floppy Drives, 5 MB of RAM, and a 60
+MB ESDI Hard Drive. This particular desktop configuration cost $7,995 in August
+of 1988. I can confirm that the desktop behaves quite similarly to the
+portable, both in design and “mannerisms”.
+
+Working with old computers, and saving them from a trip to the trash, can be
+easier than it seems. I got my PS/2 P70 for fairly cheap, because it had three
+main show-stopping problems: No video (picture), bad CMOS battery, and
+completely missing floppy drive. I installed one of my spare PS/2 L40SX floppy
+drives, popped a new CR-P2 battery into the socketed CMOS Battery Holder, and
+used some DeOxit on the plasma display connector. Good as new.
+
+Note that a working floppy drive is necessary to enter the Configuration
+Utility and set the machine’s parameters, such as Hard Drive Type (otherwise,
+the computer will not know how to boot from it.) If the CMOS battery (6V CR-P2)
+runs out, the machine will “forget” this configuration, and will not boot from
+the hard drive until you run the configuration utility again. This doesn’t
+sound terrible at first, but the P70’s integrated floppy drive is notoriously
+unreliable for a few reasons. First, the vertical design causes dust to
+accumulate in it. Second, it’s semi-proprietary (as it carries power and data
+on the same cable). It’s possible to retrofit a regular IDE floppy drive, but
+this process requires modifications to the cable. Third, the P70’s factory
+floppy drive is prone to capacitor failure, which causes the drive motor to
+spin at full speed, making floppy drive file operations fail!
+
+Pictures
+
+Here are some extreme close-up shots of the interior, taken in 2019:
+
+[20][p70-2021-2-185x300] [21][p70-2021-3-3-300x219]
+
+And here are some action shots:
+
+[22][p70-3-1024x678] [23][p70-4-1024x678] [24][p70-5-1024x712] [25]
+[p70-6-1024x800] [26][p70-7-1024x678]
+
+[27][p70-2021-6-300x251] [28][p70-2021-7-300x225] [29][p70-2021-8-268x300]
+
+Here are some miscellaneous case shots:
+
+[30][p70-2021-5-300x225][31][p70-2021-4-1-300x274][32][p70-2021-1-225x300]
+
+And finally, a picture of the finished product, including the original
+enclosure (which took a while to find) around the Floppy Drive. The entire
+floppy assembly tilts outward when you push on it, and clicks back into place
+for storage:
+
+[33][p70-2021-9-1-300x280]
+
+Revised on June 29, 2021
+
+
+Category: [34]IBM
+[d63005]
+
+About the Author
+
+
+5 Responses to IBM PS/2 Model P70
+
+ 1. [10] [35]John Edwrd Harris says:
+    [36]March 12, 2019 at 4:52 pm
+
+    I acquired a used PS/2 P70 in the late 1990’s that I used for a few years.
+    I used it primarily for word processing and email until I upgraded to used
+    Toshiba satellite laptop. It was heavy, but portable enough that I could
+    take it on the road when attending in-residence seminars. I have some fond
+    memories of that work horse. Thanks for the background information and a
+    trip down memory lane.
+
+    [37]Reply
+ 2. [7b] [38]FANGXIANG says:
+    [39]April 30, 2021 at 4:04 am
+
+    Hello, I’m glad to see your introduction to the P70 computer, some of which
+    I first learned about. I sent you a letter from China, P70 computer is very
+    rare here. I’m lucky to have one. Thank you again for your photos. As you
+    can see from the web page: [40]http://www.pcang.com/fang/
+    ibm_personal_system-2_P70.htm
+
+    [41]Reply
+ 3. [9f] Rita Graça says:
+    [42]June 29, 2021 at 8:42 am
+
+    How does one insert and remove disks in and from the floppy drive? Also, it
+    looks like some sort of plastic should cover it.
+
+    [43]Reply
+      □ [d6] Jack says:
+        [44]June 29, 2021 at 10:43 am
+
+        The entire floppy assembly tilts downward (pops out) when you push on
+        it. As mentioned in the article, I had to use a non-original floppy
+        drive, so it didn’t have any plastic enclosure. However, I found one
+        years later, and just uploaded a picture of the final assembly (at the
+        bottom of the article.)
+
+        [45]Reply
+ 4. [c7] PB says:
+    [46]December 13, 2023 at 8:14 am
+
+    I remember these laying around the IBM Rochester, MN AS/400 lab. They were
+    useful to run the AS/400 terminal software.
+
+    [47]Reply
+
+Leave a Reply [48]Cancel reply
+
+Your email address will not be published. Required fields are marked *
+
+          [                                             ] 
+          [                                             ] 
+          [                                             ] 
+          [                                             ] 
+          [                                             ] 
+          [                                             ] 
+          [                                             ] 
+Comment * [                                             ] 
+[                    ]
+
+Name * [51][                              ]
+
+Email * [52][                              ]
+
+Website [53][                              ]
+
+[54][ ] Save my name, email, and website in this browser for the next time I
+comment.
+
+[55][Post Comment] 
+
+« [58]Canon NoteJet
+[59]Atari Portfolio »
+
+Search for: [60][                    ] [61][Search]
+
+Recent Posts
+
+  • [62]Poqet PC
+  • [63]Mitsubishi Amity
+  • [64]NEC UltraLite
+  • [65]IBM ThinkPad 240
+  • [66]Lexmark Lexbook MB10
+  • [67]Toshiba T3400
+  • [68]Panasonic Toughbook CF-M34
+  • [69]IBM ThinkPad 235/Hitachi Flora/Chandra
+  • [70]AMS Sound Pro
+  • [71]IBM ThinkPad 860 (RS/6000)
+  • [72]SAGER 5200PT
+  • [73]Panasonic CF-41 (Toughbook)
+  • [74](CRT) Cathode Ray Tube Monitors – Overview
+  • [75]Atari Portfolio
+  • [76]IBM PS/2 Model P70
+  • [77]Canon NoteJet
+  • [78]IBM TransNote
+  • [79]Apple PowerBook 180
+  • [80]HP Jornada 547
+  • [81]IBM ThinkPad 500
+  • [82]Toshiba Libretto 70CT
+  • [83]Lenovo ThinkPad W700
+  • [84]IBM ThinkPad 770Z
+  • [85]IBM ThinkPad A31p
+  • [86]IBM ThinkPad 701c
+  • [87]IBM PS/2 L40 SX (L40SX)
+  • [88]IBM WorkPad Z50
+  • [89]Toshiba T5200/100
+  • [90]IBM PS/2 CL57SX
+  • [91]IBM PC110
+
+
+Recent Comments
+
+  • Jack on [92]Mitsubishi Amity
+  • sybergoosejr on [93]Mitsubishi Amity
+  • Jack on [94]Poqet PC
+  • Sybergoosejr on [95]Mitsubishi Amity
+  • [96]3lectr1c on [97]Poqet PC
+
+
+Archives
+
+  • [98]January 2024
+  • [99]March 2023
+  • [100]February 2023
+  • [101]August 2022
+  • [102]March 2022
+  • [103]November 2021
+  • [104]May 2021
+  • [105]November 2020
+  • [106]June 2020
+  • [107]March 2020
+  • [108]January 2020
+  • [109]November 2019
+  • [110]October 2019
+  • [111]May 2018
+  • [112]April 2018
+  • [113]February 2016
+  • [114]August 2015
+  • [115]December 2014
+  • [116]October 2014
+
+
+Categories
+
+  • [117]AMS
+  • [118]Apple
+  • [119]Atari
+  • [120]Canon
+  • [121]HP
+  • [122]IBM
+  • [123]Lenovo
+  • [124]Lexmark
+  • [125]Mitsubishi
+  • [126]NEC
+  • [127]News
+  • [128]Panasonic
+  • [129]Peripherals
+  • [130]Poqet
+  • [131]SAGER
+  • [132]Toshiba
+
+
+Meta
+
+  • [133]Log in
+  • [134]Entries feed
+  • [135]Comments feed
+  • [136]WordPress.org
+
+
+[137]Visitor Counter
+
+Today: 92
+
+Yesterday: 215
+
+This Week: 14665
+
+This Month: 65670
+
+Total: 744572
+
+Currently Online: 40
+
+
+© Copyright 2014-Present - [138]Laptop Pics
+Theme Chip Zero 1.2 by [139]TutorialChip - Powered by [140]WordPress 6.1.5
+
+
+References:
+
+[1] http://laptop.pics/
+[2] http://laptop.pics/apple/
+[3] http://laptop.pics/atari/
+[4] http://laptop.pics/canon/
+[5] http://laptop.pics/dell/
+[6] http://laptop.pics/hp/
+[7] http://laptop.pics/ibm/
+[8] http://laptop.pics/lenovo/
+[9] http://laptop.pics/panasonic/
+[10] http://laptop.pics/sager/
+[11] http://laptop.pics/toshiba/
+[12] http://laptop.pics/ibm-ps-2-model-p70/
+[13] http://laptop.pics/ibm-ps-2-model-p70/
+[14] http://laptop.pics/author/jack/
+[15] http://laptop.pics/ibm-ps-2-model-p70/#comments
+[16] http://laptop.pics/atari-portfolio/
+[17] http://laptop.pics/wp-content/uploads/2018/05/p70-2.jpg
+[18] http://laptop.pics/wp-content/uploads/2018/05/p70-1.jpg
+[19] http://laptop.pics/toshiba-t5200100/
+[20] http://laptop.pics/wp-content/uploads/2018/05/p70-2021-2.jpg
+[21] http://laptop.pics/wp-content/uploads/2018/05/p70-2021-3-3.jpg
+[22] http://laptop.pics/wp-content/uploads/2018/05/p70-3.jpg
+[23] http://laptop.pics/wp-content/uploads/2018/05/p70-4.jpg
+[24] http://laptop.pics/wp-content/uploads/2018/05/p70-5.jpg
+[25] http://laptop.pics/wp-content/uploads/2018/05/p70-6.jpg
+[26] http://laptop.pics/wp-content/uploads/2018/05/p70-7.jpg
+[27] http://laptop.pics/wp-content/uploads/2018/05/p70-2021-6.jpg
+[28] http://laptop.pics/wp-content/uploads/2018/05/p70-2021-7.jpg
+[29] http://laptop.pics/wp-content/uploads/2018/05/p70-2021-8.jpg
+[30] http://laptop.pics/wp-content/uploads/2018/05/p70-2021-5.jpg
+[31] http://laptop.pics/wp-content/uploads/2018/05/p70-2021-4-1.jpg
+[32] http://laptop.pics/wp-content/uploads/2018/05/p70-2021-1.jpg
+[33] http://laptop.pics/wp-content/uploads/2018/05/p70-2021-9-1.jpg
+[34] http://laptop.pics/category/ibm/
+[35] http://summitytoshore.blogspot.com/
+[36] http://laptop.pics/ibm-ps-2-model-p70/#comment-7083
+[37] http://laptop.pics/ibm-ps-2-model-p70/?replytocom=7083#respond
+[38] http://www.pcang.com/
+[39] http://laptop.pics/ibm-ps-2-model-p70/#comment-80270
+[40] http://www.pcang.com/fang/ibm_personal_system-2_P70.htm
+[41] http://laptop.pics/ibm-ps-2-model-p70/?replytocom=80270#respond
+[42] http://laptop.pics/ibm-ps-2-model-p70/#comment-80839
+[43] http://laptop.pics/ibm-ps-2-model-p70/?replytocom=80839#respond
+[44] http://laptop.pics/ibm-ps-2-model-p70/#comment-80840
+[45] http://laptop.pics/ibm-ps-2-model-p70/?replytocom=80840#respond
+[46] http://laptop.pics/ibm-ps-2-model-p70/#comment-97316
+[47] http://laptop.pics/ibm-ps-2-model-p70/?replytocom=97316#respond
+[48] http://laptop.pics/ibm-ps-2-model-p70/#respond
+[58] http://laptop.pics/canon-notejet/
+[59] http://laptop.pics/atari-portfolio/
+[62] http://laptop.pics/poqet-pc/
+[63] http://laptop.pics/mitsubishi-amity/
+[64] http://laptop.pics/nec-ultralite/
+[65] http://laptop.pics/ibm-thinkpad-240/
+[66] http://laptop.pics/lexmark-lexbook-mb10/
+[67] http://laptop.pics/toshiba-t3400/
+[68] http://laptop.pics/panasonic-toughbook-cf-m34/
+[69] http://laptop.pics/chandra/
+[70] http://laptop.pics/ams-sound-pro/
+[71] http://laptop.pics/ibm-thinkpad-860-rs-6000/
+[72] http://laptop.pics/sager-5200pt/
+[73] http://laptop.pics/panasonic-cf-41-toughbook/
+[74] http://laptop.pics/crt-cathode-ray-tube-monitors-overview/
+[75] http://laptop.pics/atari-portfolio/
+[76] http://laptop.pics/ibm-ps-2-model-p70/
+[77] http://laptop.pics/canon-notejet/
+[78] http://laptop.pics/ibm-transnote/
+[79] http://laptop.pics/apple-powerbook-180/
+[80] http://laptop.pics/hp-jornada-547/
+[81] http://laptop.pics/ibm-thinkpad-500/
+[82] http://laptop.pics/toshiba-libretto-70ct/
+[83] http://laptop.pics/lenovo-thinkpad-w700/
+[84] http://laptop.pics/ibm-thinkpad-770z/
+[85] http://laptop.pics/ibm-thinkpad-a31p/
+[86] http://laptop.pics/ibm-thinkpad-701c/
+[87] http://laptop.pics/ibm-ps2-l40-sx/
+[88] http://laptop.pics/ibm-workpad-z50/
+[89] http://laptop.pics/toshiba-t5200100/
+[90] http://laptop.pics/ibm-ps2-cl57sx/
+[91] http://laptop.pics/ibm-pc110/
+[92] http://laptop.pics/mitsubishi-amity/#comment-98870
+[93] http://laptop.pics/mitsubishi-amity/#comment-98869
+[94] http://laptop.pics/poqet-pc/#comment-98767
+[95] http://laptop.pics/mitsubishi-amity/#comment-98736
+[96] http://www.macdat.net/
+[97] http://laptop.pics/poqet-pc/#comment-98710
+[98] http://laptop.pics/2024/01/
+[99] http://laptop.pics/2023/03/
+[100] http://laptop.pics/2023/02/
+[101] http://laptop.pics/2022/08/
+[102] http://laptop.pics/2022/03/
+[103] http://laptop.pics/2021/11/
+[104] http://laptop.pics/2021/05/
+[105] http://laptop.pics/2020/11/
+[106] http://laptop.pics/2020/06/
+[107] http://laptop.pics/2020/03/
+[108] http://laptop.pics/2020/01/
+[109] http://laptop.pics/2019/11/
+[110] http://laptop.pics/2019/10/
+[111] http://laptop.pics/2018/05/
+[112] http://laptop.pics/2018/04/
+[113] http://laptop.pics/2016/02/
+[114] http://laptop.pics/2015/08/
+[115] http://laptop.pics/2014/12/
+[116] http://laptop.pics/2014/10/
+[117] http://laptop.pics/category/ams/
+[118] http://laptop.pics/category/apple/
+[119] http://laptop.pics/category/atari/
+[120] http://laptop.pics/category/canon/
+[121] http://laptop.pics/category/hp/
+[122] http://laptop.pics/category/ibm/
+[123] http://laptop.pics/category/lenovo/
+[124] http://laptop.pics/category/lexmark/
+[125] http://laptop.pics/category/mitsubishi/
+[126] http://laptop.pics/category/nec/
+[127] http://laptop.pics/category/news/
+[128] http://laptop.pics/category/panasonic/
+[129] http://laptop.pics/category/peripherals/
+[130] http://laptop.pics/category/poqet/
+[131] http://laptop.pics/category/sager/
+[132] http://laptop.pics/category/toshiba/
+[133] http://laptop.pics/wp-login.php
+[134] http://laptop.pics/feed/
+[135] http://laptop.pics/comments/feed/
+[136] https://wordpress.org/
+[137] http://visitorcounterplugin.com/
+[138] http://laptop.pics/
+[139] http://www.tutorialchip.com/
+[140] http://wordpress.org/
