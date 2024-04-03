@@ -43,7 +43,7 @@ ul {
   padding: 0 0 0 2ch;
   position: relative;
 
-  li {
+  >li {
     &::before {
       color: #aaa;
       content: '∗';
