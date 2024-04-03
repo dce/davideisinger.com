@@ -1,0 +1,200 @@
+[test-img]
+[1]skip to main content
+[2]Brain Baking navigation toggle
+
+  • [4]  Brain Baking
+  • [5]  Archives
+  • [6]  Subscribe
+
+  • [7]  Works
+  • [8]  About
+  • [9]  Links
+
+[10]
+
+Favorites of February 2024
+
+[11] 2 March 2024
+
+My first month back in the software engineering industry as an independent
+software architect is behind me. I’m still adjusting to the big change of pace.
+The paper work involved to set up a company (besloten venootschap or bv) in
+Belgium took longer than I anticipated and there’s still administration to do,
+but at least my first invoice left my hard drive, so that’s worth celebrating!
+
+I also finally managed to get my [12]Advice for Engineering Managers: Enabling
+Developers To Become (More) Creative article published on InfoQ to hopefully
+help drive sales of [13]The Creative Programmer. Yesterday’s talk at the [14]
+Creativity Expert Exchange conference was also part of that campaign—the video
+will be put out free of charge shortly (edit: [15]the concurrent session videos
+are online!). I’m not sure whether or not it’s worth the trouble, but it was a
+fun conference to attend with lots of talented academics researching the topic.
+
+Previous month: [16]January 2024.
+
+Books I’ve read
+
+I blame the change in work pace. Again, besides the continuation of the
+Mallorea series by [17]David Eddings, nothing much. I’m currently at Book Five;
+the last one in the series. On non-fiction front, I still have Schopenhauer’s
+work to finish that deserves more attention.
+
+Games I’ve played
+
+Same problem. I did finally slog through [18]Triangle Strategy, a pixelated
+turn-based strategy game reminiscent of the classic Final Fantasy Tactics with
+way too much cut-scenes for its own good. The game felt like an interactive
+novel instead of a proper game, and although the alternative pathways make for
+interesting replays, I never want to touch it again.
+
+I bought [19]Balatro, a poker-like roguelike (a who-what now?) made by a small
+team that came out of nowhere. It’s the perfect game to play in handheld mode
+on the Switch in short bursts—exactly the kind of gameplay time I have
+available. Considering I’m generally not a fan of roguelikes and taking the
+randomness inherent to poker into account, I’m sure I’ll lose interest soon,
+but it’s a lot of fun while it lasts. I’ll try to have a review up this month.
+
+As for the board games played this month, I’ve dutifully kept track:
+
+[20] [bggplays_f] My BGG Play Stats for Feburary 2024.
+
+18 plays of which quite a few new ones, not bad! Three Sisters quickly became
+one of our favorite “roll & write”-style games, and it includes dice drafting!
+I’m using the [21]BGG Catalog Android app to keep track of things and hope to
+continue to do so for the rest of the year.
+
+Selected (blog) posts
+
+  • Ruben Schade’s [22]retrocomputer page of retrocomputers is nothing short of
+    awesome!
+  • Lee Holmes invites us to think about the [23]security risks of Postman.
+    We’re not quite there to eliminate the tool, but it’s good to know.
+  • In case you want to upgrade your board game tokens to glass ones, [24]you
+    can Do It Yourself using a special resin coating. If you don’t want to
+    bother, there’s [25]Burger Tokens for you.
+  • More troubling AI news: Adobe AI scrapes your personal PDFs and info from
+    your documents? See [26]this Mastodon post at Infosec.
+  • As [27]already posted before, Natalia Waniczek talked at FFConf 2022 about 
+    [28]Working towards a greener world from behind the keyboard.
+  • Trevor Taubitz [29]offers three interesting pathways to embed your VueJS
+    frontend into your Go backend and compile it as one big binary.
+  • UCI summarized [30]new findings on CAPTCHAs that attract world-wide
+    attention, suggesting that these systems to separate bots from humans are
+    no longer effective. Who would have thought.
+  • Stijn played [31]a solo game of For Northwood! and urges us to go buy the
+    tiny trick-tacking game.
+  • Federico Viticci used [32]a Game Boy Camera for FaceTime video calls—and it
+    was glorious!
+  • Azura26 analyzed all the expansions for the BGG Top 1000 Board games and 
+    [33]provided an interesting summary on Reddit.
+  • Mandy Brown tells us [34]not to give a fuck about our work—after all, it’s
+    just work.
+  • Brian Bankler [35]visualized his Board Game Geek play log using a [36]
+    lovely online tool.
+  • Ruben Schade asks himself: [37]is it worth it collecting cassettes in 2024?
+    Spoiler: the answer is yes and no.
+
+Other random links
+
+  • The browser plugin [38]StreetPass allows you to discover people on Mastodon
+    based on the sites you visit; pretty neat.
+  • I should have installed [39]ZorinOS on my mother-in-law’s laptop. Yet
+    another friendly Linux flavor?
+  • [40]Slime Mori Mori Dragon Quest 3 received a full fan translation so I
+    went ahead and pressed the Buy Now button on eBay. Oops.
+  • I didn’t know about the [41]IndieWeb Carnival, and now that I do, I might
+    join in.
+  • For the small sum of $38.000, Wordpress will make sure your online legacy 
+    [42]lives on for a hundred years. You’re still paying $31 a month then…
+
+[43]metapost
+
+[44] You Might Also Like...
+
+  • [45]The Environmental Impact of Cloud Computing 25 Feb 2024
+  • [46]Favorites of January 2024 03 Feb 2024
+  • [47]Favorites of December 2023 01 Jan 2024
+  • [48]Favorites of November 2023 05 Dec 2023
+  • [49]Favorites of October 2023 02 Nov 2023
+  • [50]Favorites of September 2023 02 Oct 2023
+
+[51] Bio and Support
+
+[52] A photo of Me!
+
+I'm [53]Wouter Groeneveld, a Brain Baker, and I love the smell of freshly baked
+thoughts (and bread) in the morning. I sometimes convince others to bake their
+brain (and bread) too.
+
+If you found this article amusing and/or helpful, you can support me via [54]
+PayPal or [55]Ko-Fi. I also like to hear your feedback via [56]Mastodon or 
+email. Thanks!
+
+JavaScript is disabled. I use it to obfuscate my e-mail, keeping spambots at
+bay.
+Reach me using: [firstname] at [this domain].
+
+↑ [57]Top [58]Brain Baking bv | [59]Archives | [60]© CC BY 4.0 License.
+
+
+References:
+
+[1] https://brainbaking.com/post/2024/03/february-2024/#top
+[2] https://brainbaking.com/post/2024/03/february-2024/#
+[4] https://brainbaking.com/
+[5] https://brainbaking.com/archives
+[6] https://brainbaking.com/subscribe
+[7] https://brainbaking.com/works
+[8] https://brainbaking.com/about
+[9] https://brainbaking.com/links
+[10] https://brainbaking.com/
+[11] https://brainbaking.com/post/2024/03/february-2024/
+[12] https://www.infoq.com/articles/enabling-developer-creativity/
+[13] https://brainbaking.com/works/the-creative-programmer/
+[14] https://creativity.buffalostate.edu/creativity-expert-exchange
+[15] https://drive.google.com/drive/folders/1bl_BcFtzo3qAn5Y3d9K7F-wcgQ61MHuN
+[16] https://brainbaking.com/post/2024/02/january-2024
+[17] https://www.eddingschronicles.com/index.html
+[18] https://jefklakscodex.com/games/switch/triangle-strategy/
+[19] https://www.resetera.com/threads/balatro-ot-you-wanna-know-how-i-got-these-cards.819009/
+[20] https://brainbaking.com/post/2024/03/february-2024/../bggplays_feb.jpg
+[21] https://play.google.com/store/apps/details?id=com.gadestudios.boardgame
+[22] http://www.sasara.moe/retro/#dell-dimension-4100
+[23] https://www.leeholmes.com/security-risks-of-postman/
+[24] https://boardgamegeek.com/thread/2087285/diy-glass-tokens-quick-and-easy-way-upgrading-your
+[25] https://burgertokens.com/
+[26] https://infosec.exchange/@briankrebs/111965550971762920
+[27] https://brainbaking.com/post/2024/02/the-environmental-impact-of-cloud-computing
+[28] https://ffconf.org/talks/2022_lil_natw_talk/
+[29] https://hackandsla.sh/posts/2021-06-18-embed-vuejs-in-go/
+[30] https://ics.uci.edu/2023/09/14/new-findings-on-captchas-attract-worldwide-attention/
+[31] https://stidjenplayssolo.wordpress.com/2023/08/31/for-northwood-a-solo-review/
+[32] https://www.macstories.net/stories/i-used-a-game-boy-camera-for-facetime-video-calls-in-ipados-17-and-it-was-glorious/
+[33] https://www.reddit.com/r/boardgames/comments/11yvszb/i_analyzed_all_the_expansions_for_the_bgg_top/
+[34] https://aworkinglibrary.com/writing/unified-theory-of------
+[35] https://taogaming.wordpress.com/2024/02/03/a-visualization-of-my-2023-plays/
+[36] https://www.timjeanes.com/bggstats/
+[37] https://rubenerd.com/is-it-worth-collecting-cassettes-in-2024/
+[38] https://streetpass.social/
+[39] https://zorin.com/os/
+[40] https://en.wikipedia.org/wiki/Slime_Mori_Mori_Dragon_Quest_3
+[41] https://indieweb.org/indieweb-carnival
+[42] https://wordpress.com/blog/2023/08/25/introducing-the-100-year-plan/
+[43] https://brainbaking.com/tags/metapost
+[44] https://brainbaking.com/post/2024/03/february-2024/#related
+[45] https://brainbaking.com/post/2024/02/the-environmental-impact-of-cloud-computing/
+[46] https://brainbaking.com/post/2024/02/january-2024/
+[47] https://brainbaking.com/post/2024/01/december-2023/
+[48] https://brainbaking.com/post/2023/12/november-2023/
+[49] https://brainbaking.com/post/2023/11/october-2023/
+[50] https://brainbaking.com/post/2023/10/september-2023/
+[51] https://brainbaking.com/post/2024/03/february-2024/#bio
+[52] https://brainbaking.com/
+[53] https://brainbaking.com/about
+[54] https://www.paypal.com/donate/?hosted_button_id=R2WTKY7G9V2KQ
+[55] https://ko-fi.com/woutergroeneveld
+[56] https://dosgame.club/@jefklak
+[57] https://brainbaking.com/post/2024/03/february-2024/#header
+[58] https://brainbaking.com/bv
+[59] https://brainbaking.com/archives
+[60] https://brainbaking.com/copyright-and-tracking-policy
