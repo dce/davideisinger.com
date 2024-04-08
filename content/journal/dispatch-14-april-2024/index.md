@@ -67,7 +67,7 @@ I picked up a [Roland SP-404][5] sampler -- this thing's super neat. It gives me
 
 <audio controls src="/journal/dispatch-14-april-2024/Asperatus.mp3"></audio>
 
-I added some shelves to my existing workbench to hold all my music gear. Feeling pretty good about this setup assuming I don't buy anything else (😬 yeah right).
+I added some shelves to my existing workbench to hold all my music gear. Feeling good about this setup assuming I don't buy anything else (😬).
 
 {{<dither IMG_5742.jpeg "782x580" />}}
 {{<dither IMG_5741.jpeg "782x580" />}}
@@ -78,7 +78,7 @@ I read a bunch of great books this month. The standout was certainly [_Sea of Tr
 [7]: https://bookshop.org/p/books/the-glass-hotel-emily-st-john-mandel/15791463
 [8]: https://bookshop.org/p/books/winter-2023-tor-title-to-be-announced-announced/19018157?ean=9781250899651
 
-I had a couple things printed this month. I made this [e-ink photo frame][9] a couple years back, and for the second year in a row, I sent all the photos off to [Mixbook][10] for a run of full-color, hardcover books I sent to my family. The frame's lasted longer than I anticipated, but these'll last longer. Also, most of my musical equipment provides its documentation as digital PDFs instead of printed manuals. I sent the PDFs for the Circuit Tracks and the SP-404 off to [print-my-pdf.com][11] and got back nice, wire-bound printed copies. I've made it about half way through the Circuit manual and learned a bunch already, something I'd never do w/ a 100+ page PDF on my computer. As Manuel Moreale says in a [recent post][12]:
+I had a couple things printed this month. I made this [e-ink photo frame][9] a couple years back, and for the second year in a row, I sent all the photos off to [Mixbook][10] for a run of full-color, hardcover books I sent to my family. The frame's lasted longer than I anticipated, but these'll last longer. Also, most of my musical equipment provides its documentation as digital PDFs instead of printed manuals. I sent the PDFs for the Circuit Tracks and the SP-404 off to [print-my-pdf.com][11] and got back nice, wire-bound copies. I've made it about half way through the Circuit manual and learned a bunch already, something I'd never do w/ a 100+ page PDF on my computer. As Manuel Moreale says in a [recent post][12]:
 
 > The more we digitize the world the more analogue, physical objects become important.
 
