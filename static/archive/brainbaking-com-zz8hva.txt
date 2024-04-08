@@ -1,0 +1,127 @@
+[test-img]
+[1]skip to main content
+[2]Brain Baking navigation toggle
+
+  • [4]  Brain Baking
+  • [5]  Archives
+  • [6]  Subscribe
+
+  • [7]  Works
+  • [8]  About
+  • [9]  Links
+
+[10]
+
+Your Blog Should Have an About Page
+
+[11] 13 March 2024  |  [12]webdesign
+
+The [13]site stats tell me that my [14]about page at /about is consistently one
+of the most visited pages on this website. That confirms what everyone already
+knows: people are very curious, sometimes even nosy.
+
+I’ll be the first to admit that I’m just as nosy as my visitors: I love
+clicking on About Me buttons as soon as I see one, and I’m disappointed when
+there isn’t any—up to the point of me leaving the “personal” blog or not
+bookmarking it in my feed reader. I want to get to know the person who wrote
+that compelling article. What else keeps them busy in life? Bonus points for
+cat pics, obviously.
+
+The question then becomes: what to put on that /about page? Just your
+professional history, making it more like a boring résumé, hoping the blog will
+help you land a job? Your hobbies and coordinates? Your marital^[15]1 status? A
+complete summary of the technical tools wielded and endless prowess showcased
+when building your custom blog engine? A list of social media links where
+people can also find you? How many years you’ve been uploading words onto a
+server? A selection of the most popular articles you’ve written so far? A
+lovely photo of you in a suit presenting something at an important conference?
+
+I don’t really know and I’ve never been happy with what’s on my own about page.
+For some reason, I’m not creative enough to come up with anything else besides
+a dumb enumeration of things that keep me busy, mostly on a professional level.
+Not everything needs to be put online. What I do know, though, is that such a
+page should come equipped with contact information—preferably an email address.
+I like saying thanks through email.
+
+This [16]five steps to a perfect about page tells me I’ve been doing it wrong
+for years: “The About page is the place where you get to sell your brand.” Ooh,
+so that’s what it’s for! Perhaps I should go for some testimonials below a
+founder’s story about a personal struggle, that’ll certainly attract the right
+Brain Bakers. (In case that wasn’t clear: it won’t, and it’s a ridiculous way
+of thinking about your about page. It’s a personal blog, not a soulless company
+website that’s only there to further pollute the internet!)
+
+Anyway. This post may serve as a reminder to go check the contents of your
+about page. Is it still up to date? Does it convey an easy way to contact you
+without redirecting people to social media junk? Is the goofiness level up to
+snuff?
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ 1. Your martial status—at first an honest typo—might be more exciting. Deadly?
+    Ready? Tell us! [17]↩︎
+
+[18]blogging
+
+[19] You Might Also Like...
+
+  • [20]Displaying Series of Posts in Hugo 04 Jan 2024
+  • [21]On Writing For Yourself In Public 06 Nov 2023
+  • [22]Blogging Nets More Than Just Text 22 Oct 2023
+  • [23]Are You A Blog Post Glancer? 08 Aug 2023
+  • [24]Bloggers, Dump Your Twitter Card Tags 27 Nov 2022
+
+[25] Bio and Support
+
+[26] A photo of Me!
+
+I'm [27]Wouter Groeneveld, a Brain Baker, and I love the smell of freshly baked
+thoughts (and bread) in the morning. I sometimes convince others to bake their
+brain (and bread) too.
+
+If you found this article amusing and/or helpful, you can support me via [28]
+PayPal or [29]Ko-Fi. I also like to hear your feedback via [30]Mastodon or 
+email. Thanks!
+
+JavaScript is disabled. I use it to obfuscate my e-mail, keeping spambots at
+bay.
+Reach me using: [firstname] at [this domain].
+
+↑ [31]Top [32]Brain Baking bv | [33]Archives | [34]© CC BY 4.0 License.
+
+
+References:
+
+[1] https://brainbaking.com/post/2024/03/your-blog-should-have-an-about-page/#top
+[2] https://brainbaking.com/post/2024/03/your-blog-should-have-an-about-page/#
+[4] https://brainbaking.com/
+[5] https://brainbaking.com/archives
+[6] https://brainbaking.com/subscribe
+[7] https://brainbaking.com/works
+[8] https://brainbaking.com/about
+[9] https://brainbaking.com/links
+[10] https://brainbaking.com/
+[11] https://brainbaking.com/post/2024/03/your-blog-should-have-an-about-page/
+[12] https://brainbaking.com/categories/webdesign
+[13] https://stats.brainbaking.com/
+[14] https://brainbaking.com/about
+[15] https://brainbaking.com/post/2024/03/your-blog-should-have-an-about-page/#fn:1
+[16] https://www.tooltester.com/en/blog/5-steps-to-a-perfect-about-page/
+[17] https://brainbaking.com/post/2024/03/your-blog-should-have-an-about-page/#fnref:1
+[18] https://brainbaking.com/tags/blogging
+[19] https://brainbaking.com/post/2024/03/your-blog-should-have-an-about-page/#related
+[20] https://brainbaking.com/post/2024/01/displaying-series-of-posts-in-hugo/
+[21] https://brainbaking.com/post/2023/11/on-writing-for-yourself-in-public/
+[22] https://brainbaking.com/post/2023/10/blogging-nets-more-than-just-text/
+[23] https://brainbaking.com/post/2023/08/are-you-a-blog-post-glancer/
+[24] https://brainbaking.com/post/2022/11/bloggers-dump-your-twitter-card-tags/
+[25] https://brainbaking.com/post/2024/03/your-blog-should-have-an-about-page/#bio
+[26] https://brainbaking.com/
+[27] https://brainbaking.com/about
+[28] https://www.paypal.com/donate/?hosted_button_id=R2WTKY7G9V2KQ
+[29] https://ko-fi.com/woutergroeneveld
+[30] https://dosgame.club/@jefklak
+[31] https://brainbaking.com/post/2024/03/your-blog-should-have-an-about-page/#header
+[32] https://brainbaking.com/bv
+[33] https://brainbaking.com/archives
+[34] https://brainbaking.com/copyright-and-tracking-policy

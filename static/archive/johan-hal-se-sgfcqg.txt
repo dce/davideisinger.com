@@ -1,0 +1,149 @@
+  • [1]Johan Halse
+  • [2]Blog
+  • [3]Mastodon
+  • [4]GitHub
+  • [5]LinkedIn
+
+[avatar]
+Johan wrote this
+@ 2024-03-05
+
+Churn
+
+I’ve been using Web Components lately. I quite like them.
+
+I wouldn’t call myself a heavy user, or power user, or whatever. It seems like
+every other article I read has things to say about the Shadow DOM, declarative
+or otherwise, or maybe about slots. These things seem divisive, but I don’t
+have an opinion because I’m not using any of them. My experience is limited to
+my patience and coping strategies finally having failed with regard to [6]
+Hotwire being absolutely mahoosive (132kB minified! WHAT!!) which lead to me
+writing my own Stimulus replacement called [7]Musculus. It uses the Web
+Component lifecycle hooks, and basically nothing else. Those are an absolute
+godsend, though! Before they came along, we had to build our own awkward
+lifecycle handler (probably via MutationObserver) and that came with a lot of
+plumbing and performance gotchas, whereas WC lifecycles are crazy simple: you
+register the component with customElements.define and it’s off to the races.
+Just write a class and the browser will take care of elements appearing and
+disappearing for you, regardless of whether they came from a full reload, a
+fetch request, or—god forbid—a document.write. The syntax looks great in
+markup, too: no more having to decorate with js-something classes or data
+attributes, you just wrap your shit in a custom element called
+something-controller and everyone can see what you’re up to. Since I’m firmly
+in camp “progressively enhance or go home” this fits me like a glove, and I
+also have great hopes for Web Components improving the poor state of pulling in
+epic dependencies like date pickers or text editors.
+
+Felling the beasts
+
+I won’t pretend to have an answer to how they would replace React and its
+intellectual brethren, though. I stand by my belief that [8]ninety-five percent
+or so of us will be absolutely fine without ever having to pull reactivity or
+two-way binding into our sites. That doesn’t stop others from trying to tear
+down the current world order, of course! I’ve seen a bunch of speculation and
+heated discussion as to what Web Components would need in order to oust the
+current breed of component libraries, mostly in service of reducing your
+dependence on the tiresome and ever-churning world of JavaScript frameworks.
+Build your site with Web Components, it’s said, and you’ll have offloaded the
+Sisyphean task of staying on top of updates and version bumps to evergreen
+browsers! Since this is the web, where we’re VERY SERIOUS about backwards
+compatibility (you can still use document.all if you like—it’s a bad idea, but
+you be the boss) you can let the Chrome team shoulder some of your burden and
+you’ll never again be stuck in the purgatory of having to rewrite your code to
+use Hooks or Signals or Runes or whatever we’re doing this year.
+
+I don’t really buy it, though!
+
+Anyone who wants to has been able to go it alone and build library-less for
+many years. It’s what everyone started out doing, after all. And that usually
+leads to what’s colloquially known as [9]Big Ball of Mud architecture. The
+browser APIs are cool and all, but they’re a motley collection of weird
+imperative operations: a few decades’ worth of functions and properties that
+people figured would be useful, and then some paved-cowpath convenience stuff
+layered on top. The APIs work, it’s hard to argue otherwise, but they’ve never
+been fun or even ergonomic to use. So we’ve had libraries papering over the
+various cross-browser cracks and improving DX since… well, basically forever.
+Staying close to the metal sounds like a good idea in theory but just doesn’t
+shake out very well in practice. It comes with a whole lot of ceremony and
+drudgery, something I touched on [10]a while back (how was that five years ago
+already oh dang oh nuts my life slipping through my fingers like grains of sand
+impossible to catch oh no whyyy) and any abstractions or DSLs you write are
+likely going to be sub-par reimplementations of other peoples’ libraries. So
+it’s usually a good idea to find a battle-tested library or framework that gels
+with your style.
+
+Money and fame
+
+The main reason Web Components aren’t going to save you from the JS treadmill,
+however, is that the JS treadmill is first and foremost a cultural product.
+
+It’s easy to forget since the webdev world moves so quickly nowadays, but the
+preferred mode of distribution for frontend JavaScript was “go download this
+.js file from, like, SourceForge” well into the latter half of the 2010s. NPM
+and Big Tech stewardship of open source changed all that. Suddenly you could
+get a well-paid job and a form of rockstardom from releasing a popular library.
+Gone were the days of “hey I’m Johan and I made a [11]tiny search engine,
+download my file if you want” and instead we found ourselves in the days of
+smarmy overpromising brochure sites and Twitter catfights about data mutability
+or codes of conduct. That milieu rewards high-profile Architectural Thinking
+and popularity contests, and so we’re stuck in a constant churn of new ideas
+and one-upmanship. Look, library X implemented Y, we have to come up with an
+answer!!
+
+If you want a good example of what we could have had, look at jQuery. They’re
+still out there, quietly releasing stuff that really doesn’t break anyone’s
+builds. It’s a solid and unassuming library that does what it says it does.
+What would’ve happened if React had just stayed with their class components? If
+they didn’t keep uprooting their community with things like Hooks or Effects or
+Reducers? They could’ve stayed on a steady beat of polishing a more-or-less
+finished product, and let other libraries explore those other ideas. That would
+probably have saved everyone a massive amount of rewriting, reskilling, and 
+[12]bugs. But the social context demanded otherwise, and that has infected
+basically the entire ecosystem now. I would love it if Web Components could
+change those dynamics, but I’m not holding my breath (although the current
+epidemic of Big Tech layoffs is probably doing more to shake things up than any
+browser standard could!)
+
+I still hope the APIs can open up a new frontier of library-agnostic and easily
+distributable components, maybe using some kind of middleware spec (similar to
+Ruby’s [13]Rack) that doesn’t change very much over time? I really hope that
+works out. But for now, I’m going to keep using the parts I enjoy using, and be
+cautiously optimistic about the future.
+
+I'm Johan Halse: web developer, feared duelist, renowned lover, compulsive
+liar. I made this fat footer because that's how footers are supposed to look
+these days!
+
+While you're here, consider following me on [14]Mastodon. Am I always correct
+on Mastodon? No. But am I always hilarious? Also no. But I'm angling for enough
+followers to credibly call myself a "thought leader" and retire to a quiet life
+of picking shameful public fights with JavaScript celebrities.
+
+If Mastodon's not your jam, maybe star one of my [15]GitHub repos. It's really
+the least you can do.
+
+Also: if you found my technical writing interesting, you should know that I
+founded a company called [16]Varvet many years ago and they're still going, so
+give them a buzz if you want help with web stuff.
+
+Copyright © Johan Halse 2024
+
+
+References:
+
+[1] https://johan.hal.se/
+[2] https://johan.hal.se/wrote
+[3] https://ruby.social/@hejsna
+[4] https://github.com/johanhalse
+[5] https://www.linkedin.com/in/johan-halse
+[6] https://hotwired.dev/
+[7] https://github.com/johanhalse/musculus
+[8] https://johan.hal.se/wrote/2024/01/24/concatenating-text
+[9] https://en.wikipedia.org/wiki/Anti-pattern#Software_engineering_anti-patterns
+[10] https://web.archive.org/web/20230327144118/https://www.varvet.com/blog/the-importance-of-elegance/
+[11] https://github.com/johanhalse/pucko-search
+[12] https://johan.hal.se/wrote/2024/02/28/care/
+[13] https://github.com/rack/rack/blob/main/SPEC.rdoc
+[14] https://ruby.social/@hejsna
+[15] https://github.com/johanhalse
+[16] https://www.varvet.com/

@@ -1,0 +1,238 @@
+March 26, 2024, 2:27 a.m.
+
+Own Your Web – Issue 12: Finding Your Rhythm
+
+[1] [fcc8dc79-0]
+
+Own Your Web
+
+Hi All! 🤗
+
+It is one of the most common reasons why we abandon our personal sites and
+blogs: at some point, we stop publishing.
+
+But why? Weren’t we so enthusiastic when we started (or restarted) our sites?
+Didn’t we tell ourselves that this time, we would really post more regularly?
+And didn’t it also work well for a few posts? But then, everyday life
+interfered. Other things needed our attention. And before we knew it, two
+months had passed since our last post. Then four, then eight… And, just like
+with other habits, once you let the series break and more and more time has
+passed since your last post, it is getting even harder to publish again.
+
+You would be right in pointing out that that’s part of the beauty of having a
+personal site. You are free to decide how regularly you post and there is no
+obligation to post anything. You don’t owe the world or the people out there
+any posts, after all.
+
+But then again, what is the point of having a personal site if we don’t [2]put
+stuff out there from time to time, if we don’t document and share random
+thoughts, things we learned, and nuggets we found? And even though you
+definitely don’t have to publish daily to enjoy having a blog, it is only when
+you post more regularly that many of [3]the advantages of having a personal
+site really start to emerge.
+
+One key to posting regularly lies in finding your very own cadence of writing,
+a habitual practice that works well for you personally and that fits your
+lifestyle and comfort. For some of us, this means finding set hours for
+writing. Maybe it becomes your morning ritual, a quiet moment to collect your
+thoughts and transpose them before the day’s demands grab your attention. Or
+perhaps you're more of a night writer, documenting your day’s thoughts and
+ideas when the world around you has slowed down. Or maybe, you just need to
+give yourself permission to jot down a quick first draft of a post whenever you
+have an idea throughout the day, taking advantage of the momentum when it is
+still fresh. Still others like to batch-write a few articles in advance in
+longer, uninterrupted sessions on certain days of the week or when they are
+traveling, for example. Whatever works for you, in the end it all comes down to
+making writing or working on your site something that you do consistently and
+repeatedly, maybe even daily.
+
+If you establish this consistent rhythm, you will find that over time, it will
+become much more frictionless to publish new posts and you’ll leave the
+resistance behind. Now, the rhythm of your writing habit is the beat that
+carries you. You’ll also have more ideas on what to write about, because your
+brain is constantly watching for opportunities for future posts. And you’ll
+learn to not wait for inspiration to strike but to sit down and get past the
+inertia of those first few words, because you can trust in your ability to work
+your way through even [4]the shittiest first drafts.
+
+At the same time, it is equally important to not overthink the process of
+writing and publishing in the first place. It is your site, so you are allowed
+to post regardless of what others think of it or how polished it is. It is
+still a blog, not an academic journal and nobody expects a blog post to have
+Pulitzer-winning quality. Perfect is an illusion. So just put stuff out there
+and experiment. And if it is only for yourself.
+
+And then, there’s a third secret to publishing more regularly, and that’s
+enjoying the process of creating something and making it really convenient and
+frictionless to publish. Above all, working and posting on your website should
+be fun. Your CMS, SSG, or other tools you are using are an import factor in how
+enjoyable and easy it is to post new things. If every new post takes a huge
+amount of work besides the pure writing, it adds unnecessary friction and makes
+the whole process more cumbersome. If, on the other hand, drafting and
+publishing a post is almost as smooth as writing a post on social media, there
+is not much between your thoughts and the next published post. This will allow
+you to enjoy the act of creating itself even more and you will much more likely
+find that rhythm that works for you – and keep publishing on your site.
+
+What writing habit or publishing cadence have you found to work best for you?
+Or are you still struggling? Hit reply and let me know.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Links
+
+Here’s another mixed bag of links. Please let me know how you like them! And if
+you can think of someone who would enjoy reading this newsletter today, feel
+free to forward along.
+
+Shoptalk Show Episode 606: Web Sustainability with Michelle Barker
+
+[5]Michelle Barker visited the ShopTalk Show and talked with Chris and Dave
+about a topic that is, given the urgency of the climate emergency, easily one
+of the most important challenges on the Web today: digital sustainability and
+the environmental impact of our websites and digital life.
+
+👉 [6]https://shoptalkshow.com/606/
+
+Kottke.org Redesigns With 2024 Vibes
+
+I already shared another post about the recent redesign of kottke.org in the
+last issue, but I didn’t want to withhold this interesting post by [7]Jason
+himself, in which he explains a lot of the decisions that influenced the new
+design with all it’s 2024 “social media energy”.
+
+[8]
+[kottke-202]
+
+
+Kottke.org Redesigns With 2024 Vibes
+
+Well. Finally. I’m unbelievably pleased, relieved, and exhausted to launch the
+long-awaited (by me) redesign of kottke.org
+
+CSS :has() Interactive Guide
+
+The CSS :has selector is now supported [9]in all major browsers (yes, also in
+Firefox) and [10]Ahmad took the opportunity to create another one of his
+amazing interactive explainer posts. This time, he explains :has() and also
+provides a ton of useful examples of how to use it in clever ways, not only as
+a parent selector.
+
+[11]
+[twitter-ca]
+
+
+CSS :has() Interactive Guide
+
+Everything you need to know about CSS :has() selector.
+
+Talker’s block
+
+An all time classic by [12]Seth Godin about why no one ever gets talker’s block
+and why precisely therein lies the cure for writer’s block:
+
+    “Just write poorly. Continue to write poorly, in public, until you can
+    write better.”
+
+[13]
+[sethgodin_]
+
+
+Talker’s block | Seth's Blog
+
+No one ever gets talker’s block. No one wakes up in the morning, discovers he
+has nothing to say and sits quietly, for days or weeks, until the muse hits,
+until the moment is right, until all…
+
+What the world needs
+
+A beautiful piece by [14]Jeremy about writing, why sharing your experience is
+always valuable, and the right response to the assertion that “the world
+doesn’t need another opinion.”
+
+[15]
+[photo-300]
+
+
+Adactio: Journal—What the world needs
+
+Write for yourself.
+
+🎧 Personal Site of the Week ⌨️ [16]Cassidy Williams == https://cassidoo.co
+
+Cassidy Williams is a software engineer, CTO at Contenda, a startup advisor and
+investor, and developer experience expert. She loves to make memes and dreams
+and software. Her personal site not only changes colors from time to time, but
+also includes a “blog AKA digital garden AKA mind dump land” where Cassidy
+regularly shares all kinds of things she explores and learns, like her [17]
+publishing workflow, [18]the productivity apps she uses, or, famously, that 
+[19]she misses human curation. Also, sign up for [20]Cassidy’s newsletter if
+you like newsletters (you do, right?).
+
+👉 [21]https://cassidoo.co/
+
+Cassidy's home page with a few social media profile links, links to her
+newsletter and blog, and a bio. The home page in light mode The blog with each
+post's heading underlined with a different color A blog post with the title "I
+miss human curation"
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+And that’s it for today. How did you like this issue? Which one of the links
+was your favorite? What do you want more or less of? Do you have any other
+suggestions on how to improve this newsletter? Hit reply now and let me know.
+
+Cheers! ☀️
+
+– Matthias
+
+You just read issue #12 of Own Your Web. You can also browse the [22]full
+archives of this newsletter.
+
+[23][                    ] Subscribe
+[25] Share on Facebook [26] Share on Twitter [27] Share on LinkedIn [28] Share
+on Hacker News [29] Share on Reddit [30] Share via email [31] Share via
+Mastodon
+Find Own Your Web elsewhere:
+[32] [33]CodePen [34] [35] [36] [37] [38]
+Brought to you by [39]Buttondown, the easiest way to start and grow your
+newsletter.
+
+References:
+
+[1] https://buttondown.email/ownyourweb
+[2] https://matthiasott.com/notes/just-put-stuff-out-there?utm_source=ownyourweb&utm_medium=email&utm_campaign=issue-12
+[3] https://buttondown.email/ownyourweb/archive/issue-03/
+[4] https://matthiasott.com/notes/ideas-on-writing-shitty-first-drafts?utm_source=ownyourweb&utm_medium=email&utm_campaign=issue-12
+[5] https://michellebarker.co.uk/?utm_source=ownyourweb&utm_medium=email&utm_campaign=issue-12
+[6] https://shoptalkshow.com/606/?utm_source=ownyourweb&utm_medium=email&utm_campaign=issue-12
+[7] https://kottke.org/?utm_source=ownyourweb&utm_medium=email&utm_campaign=issue-12
+[8] https://kottke.org/24/03/kottkeorg-redesigns-with-2024-vibes?utm_source=ownyourweb&utm_medium=email&utm_campaign=issue-12
+[9] https://caniuse.com/css-has?utm_source=ownyourweb&utm_medium=email&utm_campaign=issue-12
+[10] https://ishadeed.com/?utm_source=ownyourweb&utm_medium=email&utm_campaign=issue-12
+[11] https://ishadeed.com/article/css-has-guide?utm_source=ownyourweb&utm_medium=email&utm_campaign=issue-12
+[12] https://seths.blog/?utm_source=ownyourweb&utm_medium=email&utm_campaign=issue-12
+[13] https://seths.blog/2011/09/talkers-block/?utm_source=ownyourweb&utm_medium=email&utm_campaign=issue-12
+[14] https://adactio.com/?utm_source=ownyourweb&utm_medium=email&utm_campaign=issue-12
+[15] https://adactio.com/journal/20996?utm_source=ownyourweb&utm_medium=email&utm_campaign=issue-12
+[16] https://cassidoo.co/?utm_source=ownyourweb&utm_medium=email&utm_campaign=issue-12
+[17] https://blog.cassidoo.co/post/publishing-from-obsidian/?utm_source=ownyourweb&utm_medium=email&utm_campaign=issue-12
+[18] https://blog.cassidoo.co/post/producivity-apps-2023/?utm_source=ownyourweb&utm_medium=email&utm_campaign=issue-12
+[19] https://blog.cassidoo.co/post/human-curation/?utm_source=ownyourweb&utm_medium=email&utm_campaign=issue-12
+[20] https://cassidoo.co/newsletter/?utm_source=ownyourweb&utm_medium=email&utm_campaign=issue-12
+[21] https://cassidoo.co/?utm_source=ownyourweb&utm_medium=email&utm_campaign=issue-12
+[22] https://buttondown.email/ownyourweb/archive/
+[25] https://www.facebook.com/sharer/sharer.php?u=https://buttondown.email/ownyourweb/archive/issue-12/&title=Own%20Your%20Web%20%E2%80%93%20Issue%2012%3A%20Finding%20Your%20Rhythm
+[26] https://twitter.com/intent/tweet?text=Own%20Your%20Web%20%E2%80%93%20Issue%2012%3A%20Finding%20Your%20Rhythm&url=https://buttondown.email/ownyourweb/archive/issue-12/
+[27] https://www.linkedin.com/shareArticle?mini=true&url=https://buttondown.email/ownyourweb/archive/issue-12/
+[28] https://share.bingo/hn?url=https://buttondown.email/ownyourweb/archive/issue-12/
+[29] https://share.bingo/reddit?url=https://buttondown.email/ownyourweb/archive/issue-12/
+[30] mailto:
+[31] https://toot.kytta.dev/?text=Own%20Your%20Web%20%E2%80%93%20Issue%2012%3A%20Finding%20Your%20Rhythm%0A%0Ahttps://buttondown.email/ownyourweb/archive/issue-12/
+[32] https://github.com/matthiasott
+[33] https://www.codepen.io/matthiasott
+[34] https://bsky.app/profile/matthiasott
+[35] https://mastodon.social/@matthiasott
+[36] https://linkedin.com/in/matthiasott
+[37] https://instagram.com/matthiasott
+[38] https://pinterest.com/matthiasott
+[39] https://buttondown.email/

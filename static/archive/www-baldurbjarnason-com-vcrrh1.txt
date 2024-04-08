@@ -1,0 +1,140 @@
+  • [1]Archive
+  • [2]Newsletter
+  • [3]Work
+  • [4]Contact
+
+[5]Baldur Bjarnason
+
+Web dev at the end of the world, from Hveragerði, Iceland
+
+28 March 2024
+
+‘I’m not a cynic, I’m disappointed’ – the Software Crisis Easter Sale
+
+Most people don’t realise just how few of the “critics” in tech are genuine
+cynics.
+
+You don’t spend a good part of your life shouting about bad websites or broken
+software and how they could be fixed if you’re a cynic.
+
+Cynics don’t believe things can be fixed and they don’t believe that fixing
+things would help in the first place.
+
+Somebody who is constantly pointing out various instances of software
+inaccessibility isn’t doing so because they’re a cynic. They believe this can
+be done better; they were optimistic enough to expect more; and now they’re
+disappointed.
+
+And anybody who thinks that pointing out common flaws in the tech industry is
+good for your career is hilariously wrong. Dramatically pulls out his wallet
+using only his index finger and thumb. Carefully opens it. A cartoonish moth
+flies out of the empty wallet.
+
+People who point out what needs to be improved are generally disappointed
+optimists. Only an optimist would believe that pointing out what has gone wrong
+could ever result in said issue being fixed. Only somebody who believes that
+software could be universally useful to everybody in society is going to spend
+time discovering and highlighting accessibility issues.
+
+You don’t spend years of your life figuring out how the flaws of the web can be
+fixed unless you think the web has massive unfulfilled potential.
+
+We’re not cynics. If we were, we wouldn’t waste so much energy being hopeful.
+
+But, people in tech frequently seem to believe that people like me are haters –
+that we’re out to prevent the industry from doing amazing things.
+
+That, the seeming slow progress, and the frequent setbacks get tiring after a
+while. We’re only a quarter of the way through the year and I’m already
+exhausted.
+
+I’m not a religious person, but Easter is coming around right at a time when I
+need a bit of a break, so a break it is.
+
+However, being the eternal optimist that I am, I figure I might as well run an
+Easter sale while I’m off on the couch watching movies.
+
+So, until the end of day 1 April, the discount code EASTER24 will give you a
+$10 USD off any of my ebooks. That means that you can get Out of the Software
+Crisis and The Intelligence Illusion for $25 USD each.
+
+And, yes, it means that, since their normal price starts at $10 USD you can get
+the ebook version of Yellow or my essay collection Bad Writing And Other Essays
+for $0 USD.
+
+(Though, in the case of Bad Writing you have the option of paying more if you
+want to support this blog.)
+
+The discount code again:
+
+EASTER24
+
+The ebooks:
+
+[6]Out of the Software Crisis
+
+[DEL:$35 USD:DEL]… $25 USD for PDF and EPUB.
+
+[7]Direct checkout with discount applied
+
+[8]The Intelligence Illusion
+
+[DEL:$35 USD:DEL]… $25 USD for PDF and EPUB.
+
+[9]Direct checkout with discount applied
+
+[10]Bad Writing
+
+[DEL:$10+ USD:DEL]… $0+ USD for PDF and EPUB.
+
+[11]Direct checkout with discount applied
+
+[12]Yellow: principles (or useless aphorisms) for software dev (ebook edition)
+
+[DEL:$10 USD:DEL]… $0 USD for PDF and EPUB.
+
+[13]Direct checkout with discount applied
+
+In the meantime, try to be kind to yourselves and forgiving of your own flaws.
+Not because of some religious thing.
+
+Do it because it makes sense.
+
+[14] Links, Notes, and Photos (28 March 2024) 
+
+Join the Newsletter
+
+Subscribe to the [15]Out of the Software Crisis newsletter to get my weekly (at
+least) essays on how to avoid or get out of software development crises.
+
+Join now and get a free PDF of three bonus essays from Out of the Software
+Crisis.
+
+[16][                    ]
+Subscribe
+
+We respect your privacy.
+
+Unsubscribe at any time.
+
+You can also find me on [18]Mastodon and [19]Twitter
+
+References:
+
+[1] https://www.baldurbjarnason.com/archive
+[2] https://softwarecrisis.dev/
+[3] https://www.baldurbjarnason.com/work/2021/
+[4] mailto:baldur.bjarnason@gmail.com
+[5] https://www.baldurbjarnason.com/
+[6] https://softwarecrisis.baldurbjarnason.com/
+[7] https://store.baldurbjarnason.com/buy/02e0f69a-aef4-41f7-8a6c-cd3739da6c73?checkout%5Bdiscount_code%5D=EASTER24
+[8] https://illusion.baldurbjarnason.com/
+[9] https://store.baldurbjarnason.com/buy/cd2b8ac5-4409-4567-b90d-ed83998c5c74?checkout%5Bdiscount_code%5D=EASTER24
+[10] https://www.baldurbjarnason.com/books/bad-writing/
+[11] https://store.baldurbjarnason.com/buy/ec7bf9dd-91cc-4ccd-a000-6f7703a91892?checkout%5Bdiscount_code%5D=EASTER24
+[12] https://www.baldurbjarnason.com/courses/yellow/
+[13] https://store.baldurbjarnason.com/buy/bf8b317a-e8e1-48aa-8ef3-289a7be6c6f7?enabled=318423&checkout%5Bdiscount_code%5D=EASTER24
+[14] https://www.baldurbjarnason.com/2024/links-10/
+[15] https://softwarecrisis.dev/
+[18] https://toot.cafe/@baldur
+[19] https://twitter.com/fakebaldur
