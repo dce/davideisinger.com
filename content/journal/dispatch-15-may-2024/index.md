@@ -5,6 +5,10 @@ draft: false
 tags:
 - dispatch
 references:
+- title: "StackStash: Taking Bookish Musings to the Next Level | Viget"
+  url: https://www.viget.com/articles/stackstash-taking-bookish-musings-to-the-next-level/
+  date: 2024-04-17T20:44:52Z
+  file: www-viget-com-szerfi.txt
 - title: "The One Big Thing You Can Do for Your Kids - The Atlantic"
   url: https://www.theatlantic.com/ideas/archive/2024/04/parenting-anxiety-happiness-children/677960/
   date: 2024-04-17T20:38:00Z

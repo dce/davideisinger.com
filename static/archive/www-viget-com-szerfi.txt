@@ -1,0 +1,596 @@
+[1] Skip to Main Content
+[2] Viget
+
+  • [3] Work
+  • [4] Services
+  • [5] Articles
+  • [6] Careers
+  • [7] Contact
+  • Open Menu
+
+Navigation
+
+[9] Viget Close
+
+  • Practice
+  • [11] Work
+  • [12] Services
+  • [13] Articles
+
+We’re a full-service digital agency that’s been helping clients make lasting
+change since 1999.
+
+[14] Contact Us
+
+People
+
+  • [15]Company
+  • [16]Careers
+  • [17]Code of Ethics
+  • [18]Diversity & Inclusion
+
+More
+
+  • [19]Pointless Corp.
+  • [20]Explorations
+  • [21]Code at Viget
+
+Featured
+
+[22]
+Read the Article: State of the (Labor) Union
+
+Newsletter
+
+State of the (Labor) Union
+
+[23]
+Read the Article: StackStash: Taking Bookish Musings to the Next Level
+
+Article
+
+StackStash: Taking Bookish Musings to the Next Level
+
+StackStash: Taking Bookish Musings to the Next Level
+
+[stackstash-icon-2]
+
+[24]Laura Sweltz, Director of UX Research and Strategic Initiatives,
+
+[25]Chris Manning, Development Director,
+
+[26]Claire Atwell Eisinger, Product Management Director,
+
+[27]Danny Brown, Senior Developer,
+
+[28]David Eisinger, Development Director,
+
+[29]Emily McDonald, Product Manager,
+
+[30]Jackson Fox, VP of UX & Design,
+
+[31]Max Myers, Platform Developer,
+
+[32]Nathan Schmidt, UI Developer, and
+
+[33]Nick Telsan, Developer
+
+Article Categories: [34] #News & Culture, [35] #Front-end Engineering, [36] #
+Back-end Engineering
+
+Posted on April 9, 2024
+
+  • [37]
+    Share
+  • [38]
+    Share
+  • [39]
+    Post
+
+Book musings from Viget's #books Slack channel, but make them more useful. That
+concept inspired our latest Pointless adventure.
+
+B o o k m u s i n g s f r o m V i g e t ' s # b o o k s S l a c k c h a n n e l
+, b u t m a k e t h e m m o r e u s e f u l . T h a t c o n c e p t i n s p i r
+e d o u r l a t e s t P o i n t l e s s a d v e n t u r e .
+
+We have many book lovers at Viget. Our #books Slack channel has a wealth of
+information about what books people have read and how they felt about them.
+While it’s great to have access to that data, Slack doesn’t provide the type of
+exploratory, visual browsing experience that would be most useful when trying
+to make decisions about what we might want to read next.
+
+We might wonder:
+
+  • Has anyone read Tana French’s The Likeness? How did they feel about it? 
+  • Liz has shared books that I’ve enjoyed in the past. What other titles have
+    they enjoyed?
+  • What has everyone been reading lately?
+
+During our latest Pointless Palooza, a team of 10 folks at Viget built an app
+that would help us answer those types of questions in a more engaging way.
+Rather than digging through a bunch of disparate threads in Slack, we can now
+use the StackStash app to browse consolidated information. It’s easy to look at
+a book and see all of the people who have mentioned it (and how they felt about
+it) or look at a person and see all of the books they’ve mentioned (and how
+they felt about them).
+
+[Group-9_2024-04-08-184917_kfjg]
+
+Behind the Scenes
+
+When we build software for clients, their business needs typically drive
+decisions around technical architecture, which then informs who works on the
+project and their role. Pointless Palooza gives us an opportunity to try out
+new technologies the team is excited about, and flex outside our traditional
+roles. With a team of six (!) engineers slated to build StackStash together, we
+needed to decide how to build the application before we got started. This
+decision was guided by a few high-level goals: 
+
+  • Get a working end-to-end version of StackStash live on the Internet on Day
+    1 
+  • Ensure everyone on the technical team could work on something that was
+    interesting to them
+  • Distribute the workload so that we wouldn’t step on each other’s toes 
+
+Much like everything that happens in the software development lifecycle,
+arriving at our final tech plan was an iterative process. In the days leading
+up to kickoff, we worked collaboratively to settle on a fun mix of technologies
+that play to our strengths while also giving us the chance to try some new
+things: 
+
+  • [40]Laravel for back-end data management, integrations with third-party
+    sources ([41]Open Library and [42]OpenAI) and the API layer  
+  • [43]OpenAPI and [44]TypeSpec to define our API schema  
+  • [45]Remix + [46]React as the view layer 
+  • [47]PandaCSS to style the React components and views 
+  • [48]Docker for local development and deployment
+
+[CleanShot-2024-04-08-at-14]
+
+What We Learned
+
+Bringing this concept to life was not only a fun experience but also provided
+the team with the chance to learn new skills and technologies. Here are some of
+the highlights that stood out to us:
+
+[49]Chris
+
+My favorite part of creating StackStash was getting a chance to work with
+Laravel, which was new to me on this project. I was surprised how easy it was
+to find most information I was looking for right in the main [50]Laravel
+documentation. Overall, it was a pleasant experience coming from other popular
+web frameworks like Rails and Django.
+
+Something I learned was a lot more about Slack API data. There were a lot of
+little lessons I learned along the way—how message data is generally
+structured, that [51]`ts` timestamps are kind of IDs, etc.—but the biggest
+surprise was that [52]the conversation history API we were using [53]didn’t
+include message replies. You can retrieve [54]replies via a similar endpoint,
+but as you might imagine, there are a lot more API requests to account for.
+
+[55]Claire
+
+My favorite part of creating StackStash was working with a big team of
+engineers to divide technical roles and responsibilities. Based on experience
+from past client projects, we leveraged the “pods” concept, assigning devs in
+teams of two to larger focus areas. I also enjoyed queuing up work for everyone
+in a shared gist of our data spec vs. breaking everything out into individual
+tickets. This was a huge time-saver on the PM side and helped everyone
+collaborate more easily. 
+
+Something I learned was how to write Migrations, Factories, and Database
+Seeders in Laravel! 
+
+[56]Danny
+
+My favorite part of creating StackStash was seeing similarities between Laravel
+and other web frameworks. Even though the syntax was pretty different, the
+general ideas for doing things was familiar enough that it was easy to pick up
+and understand.
+
+Something I learned was the interplay between Typespec, OpenAPI, and
+TypeScript. I enjoyed learning with those three tools and how they work
+together in such an enjoyable way. 
+
+[57]David
+
+My favorite part of creating StackStash was getting to do some modern PHP. It
+was the first language I used for web development (in the late 90s 😯) but I
+haven’t done a great job keeping up on its progress over the last decade. The
+language, frameworks, and tooling have come a long way. Laravel’s slick, and
+having a language server to remind me the argument order to `implode` was
+pretty clutch.  
+
+Something I learned was how to write defensive PHP code. I was working on a lot
+of the API integrations, and I took inspiration from Go to be careful and
+explicit around failure. Also, a LOT about [58]ISBNs.
+
+[59]Emily
+
+My favorite part of creating StackStash was designing new screens based on the
+visual language and feature definition that were already established. 
+
+Something I learned was how to create animations in Figma! 
+
+[60]Jackson
+
+My favorite part of creating StackStash was getting more comfortable using AI
+platforms like Google’s Gemini and Anthropic’s Claude for data processing. I
+finally had a good reason to explore tools like Google’s AI Studio to help
+prototype prompts that became important components in our data pipeline.
+
+Something I learned was that AI tools can do some amazing things — we pulled
+JSON data out of Slack and had Gemini (and later GPT-4) doing some very
+impressive data extraction and summarization — but they’re also infuriatingly
+mysterious at times. Gemini and GPT both excel at fuzzy tasks like
+summarization and sentiment analysis, but completely fell down on lookup tasks,
+like gathering ISBNs for books. We eventually switched to GPT-4 because we
+couldn’t get consistently valid JSON out of Gemini.
+
+[61]Laura
+
+My favorite part of creating StackStash was the opportunity to take bookish joy
+at Viget to the next level. I hope that StackStash will help my fellow book
+lovers find a great read the next time they’re on the hunt for a new book.
+
+Something I learned was how to feel more comfortable and confident when using
+Figma to create high-fidelity designs. As a researcher, I primarily leverage
+Figma when conducting testing with prototypes. Things like components,
+variants, and autolayout can feel intimidating to someone who doesn’t typically
+do in-the-weeds design work. This project gave me an excuse to spend dedicated
+time learning how to use Figma effectively for design production. 
+
+[62]Max
+
+My favorite part of creating StackStash was seeing all the different pieces
+come together to create something meaningful. Everyone was working on their
+specific area and seeing it all intersect was really cool.
+
+Something I learned was OpenAPI and TypeSpec. It was a new experience for me to
+work with OpenAPI to develop a spec for our API and use that to test our API
+endpoints against. It really helped to make sure everyone was able to be on the
+same page with the data we expected in both the backend and frontend. I also
+got to dabble with TypeSpec to generate the OpenAPI spec which was also a
+learning experience for me. I enjoyed stepping out of PHP and into some new
+concepts.
+
+[63]Nathan
+
+My favorite part of creating StackStash was exploring all the different AI
+models that are out there and testing which one would work best for our
+project. 
+
+Something I learned was… Laravel, AI, Remix, and Panda CSS. Worked with Laravel
+when it first came out (8+ years ago) so there was a lot of brushing up and
+relearning. Overall really like it and would love to use Laravel again in
+another project. We went with Gemini AI to start with as it had a really good
+free tier and it seemed to return what we needed in a JSON format pretty
+consistently. But as we got more into integrating it into our app data we
+noticed that Gemini did not return perfect JSON every time. So we decided to
+change over to OpenAI as we can set it to format the response into valid JSON.
+Also learned a lot about Remix and Panda CSS as it was my first time working in
+both. There was a learning curve but having worked with React it was pretty
+easy to pick up. 
+
+[64]Nick
+
+My favorite part of creating StackStash was rapidly building a bunch of UI in a
+familiar, but not too familiar, framework.
+
+Something I learned was…. Laravel, Remix, more Docker magic, TypeSpec, and
+more. I spent some time working with animations, which is always both a treat
+and a slog. Getting everything set up and it mostly just working for everyone
+was also a nice learning experience.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+We learned quite a bit during Pointless Palooza — and had fun while doing so.
+In a short amount of time, our team successfully brought the concept of
+StackStash to life. We’re excited to see how the book lovers at Viget make use
+of the tool and to potentially evolve it over time.
+
+[65] Laura Sweltz
+
+[66]Laura is Viget's Director of UX Research and Strategic Initiatives. She
+works from our Durham, NC office, where she helps clients like Rotary
+International, AARP, and Time Life understand the needs and behaviors of their
+users.
+
+[67]More articles by Laura
+[68] Chris Manning
+
+[69]Chris is a developer who's passionate about web performance. He works in
+our Durham, NC, office for clients such as ESPN, Dick's Sporting Goods, and the
+Wildlife Conservation Society.
+
+[70]More articles by Chris
+[71] Claire Atwell Eisinger
+
+[72]Claire combines her natural people and planning proclivities to manage
+client projects in our Durham, NC, office. She works with clients including
+iContact, Research Affiliates, AECOM and The Atlantic Philanthropies.
+
+[73]More articles by Claire
+[74] Danny Brown
+
+[75]Danny is a senior developer in the Falls Church, VA, office. He loves
+learning new technology and finding the right tool for each job.
+
+[76]More articles by Danny
+[77] David Eisinger
+
+[78]David is Viget's managing development director. From our Durham, NC,
+office, he builds high-quality, forward-thinking software for PUMA, the World
+Wildlife Fund, NFLPA, and many others.
+
+[79]More articles by David
+[80] Emily McDonald
+
+[81]Emily is a Product Manager working out of the Falls Church, VA office.
+Drawing on her background in English literature, psychology, and consulting,
+Emily brings creativity and excruciating organization to her work at Viget.
+
+[82]More articles by Emily
+[83] Jackson Fox
+
+[84]Jackson is VP of UX & Design at Viget. He works from our Boulder, CO,
+office, where he helps startups and organizations turn ideas into usable,
+effective products.
+
+[85]More articles by Jackson
+[86] Max Myers
+
+[87]Max is a Platform Developer based in Michigan with extensive experience
+building robust e-commerce platforms and rebuilding vintage Kawasaki
+motorcycles.
+
+[88]More articles by Max
+[89] Nathan Schmidt
+
+[90]Nathan is an UI Developer in Colorado. He loves applying creative thinking
+to web development and bringing interactive components to life.
+
+[91]More articles by Nathan
+[92] Nick Telsan
+
+[93]Nick is a Developer, working in our Chattanooga, TN office. He has a
+passion for building things and is never one to shy away from learning new
+things.
+
+[94]More articles by Nick
+
+Related Articles
+
+  • [95]
+    Viget's Favorite Books of 2023
+
+    Article
+
+    Viget's Favorite Books of 2023
+
+    Laura Sweltz
+
+  • [96]
+    Bonding Over Books
+
+    Article
+
+    Bonding Over Books
+
+    Laura Sweltz
+
+  • [97]
+    Why and How to Start an Office Book Club
+
+    Article
+
+    Why and How to Start an Office Book Club
+
+    Laura Sweltz
+
+The Viget Newsletter
+
+Nobody likes popups, so we waited until now to recommend our newsletter,
+featuring thoughts, opinions, and tools for building a better digital world. 
+[98]Read the current issue.
+
+[99]Subscribe Here (opens in new window)
+
+Site Footer
+
+Have an unsolvable problem or audacious idea?
+
+Let’s get to work
+
+[100] Contact Us [101] hello@viget.com [102] 703.891.0670
+
+  • Practice
+  • [103]Work
+  • [104]Services
+  • [105]Articles
+
+  • People
+  • [106]Company
+  • [107]Careers
+  • [108]Code of Ethics
+  • [109]Diversity & Inclusion
+
+  • More
+  • [110]Pointless Corp.
+  • [111]Explorations
+  • [112]Code at Viget
+
+Sign Up For Our Newsletter
+
+A curated periodical featuring thoughts, opinions, and tools for building a
+better digital world.
+
+[113] Check it out
+
+Social Links
+
+[114] Viget
+
+  • [115]
+  • [116]
+  • [117]
+  • [118]
+  • [119]
+  • [120]
+
+Office Locations
+
+  • [121]Washington DC Metro
+  • [122]Durham, NC
+  • [123]Boulder, CO
+  • [124]Chattanooga, TN
+
+© 1999 – 2024 Viget Labs, LLC. [125]Terms [126]Privacy [127]MRF
+
+  • [128]Home
+  • [129]Articles
+  • [130]StackStash: Taking Bookish Musings to the Next Level
+
+[131] Subscribe (opens in a new window)
+Share
+
+  • [133] Share this page
+  • [134] Share this page
+  • [135] Post this page
+
+
+References:
+
+[1] https://www.viget.com/articles/stackstash-taking-bookish-musings-to-the-next-level/#content
+[2] https://www.viget.com/
+[3] https://www.viget.com/work/
+[4] https://www.viget.com/services/
+[5] https://www.viget.com/articles/
+[6] https://www.viget.com/careers/
+[7] https://www.viget.com/contact/
+[9] https://www.viget.com/
+[11] https://www.viget.com/work/
+[12] https://www.viget.com/services/
+[13] https://www.viget.com/articles/
+[14] https://www.viget.com/contact/
+[15] https://www.viget.com/about/
+[16] https://www.viget.com/careers/
+[17] https://www.viget.com/code-of-ethics/
+[18] https://www.viget.com/diversity-equity-and-inclusion/
+[19] https://pointlesscorp.com/
+[20] https://explorations.viget.com/
+[21] https://code.viget.com/
+[22] https://www.viget.com/newsletter/state-of-the-labor-union/
+[23] https://www.viget.com/articles/stackstash-taking-bookish-musings-to-the-next-level/
+[24] https://www.viget.com/about/team/lsweltz/
+[25] https://www.viget.com/about/team/cmanning/
+[26] https://www.viget.com/about/team/catwell/
+[27] https://www.viget.com/about/team/dbrown/
+[28] https://www.viget.com/about/team/deisinger/
+[29] https://www.viget.com/about/team/emcdonald/
+[30] https://www.viget.com/about/team/jfox/
+[31] https://www.viget.com/about/team/mmyers/
+[32] https://www.viget.com/about/team/nschmidt/
+[33] https://www.viget.com/about/team/ntelsan/
+[34] https://www.viget.com/articles/category/news-culture/
+[35] https://www.viget.com/articles/category/front-end-engineering/
+[36] https://www.viget.com/articles/category/back-end-engineering/
+[37] https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.viget.com%2Farticles%2Fstackstash-taking-bookish-musings-to-the-next-level%2F
+[38] http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.viget.com%2Farticles%2Fstackstash-taking-bookish-musings-to-the-next-level%2F
+[39] https://x.com/intent/tweet?text=Book%20musings%20from%20Viget%27s%20%23books%20Slack%20channel%2C%20but%20make%20them%20more%20useful.%20That%20concept%20inspired%20our%20latest%20Pointless%20adventure.%20https%3A%2F%2Fwww.viget.com%2Farticles%2Fstackstash-taking-bookish-musings-to-the-next-level%2F
+[40] https://laravel.com/
+[41] https://openlibrary.org/developers/api
+[42] https://openai.com/
+[43] https://www.openapis.org/
+[44] https://typespec.io/docs/getting-started/getting-started-http
+[45] https://remix.run/
+[46] https://react.dev/
+[47] https://panda-css.com/
+[48] https://www.docker.com/
+[49] https://www.viget.com/about/team/cmanning/
+[50] https://laravel.com/docs/11.x
+[51] https://api.slack.com/messaging/retrieving#:~:text=field.-,The,value%20is%20essentially%20the%20ID%20of%20the%20message,-%2C%20guaranteed%20unique%20within
+[52] https://api.slack.com/methods/conversations.history
+[53] https://www.bakejam.com/slacks-conversationshistory-api-ignores-replies/
+[54] https://api.slack.com/methods/conversations.replies
+[55] https://www.viget.com/about/team/catwell/
+[56] https://www.viget.com/about/team/dbrown/
+[57] https://www.viget.com/about/team/deisinger/
+[58] https://en.wikipedia.org/wiki/ISBN
+[59] https://www.viget.com/about/team/emcdonald/
+[60] https://www.viget.com/about/team/jfox/
+[61] https://www.viget.com/about/team/lsweltz/
+[62] https://www.viget.com/about/team/mmyers/
+[63] https://www.viget.com/about/team/nschmidt/
+[64] https://www.viget.com/about/team/ntelsan/
+[65] https://www.viget.com/about/team/lsweltz/
+[66] https://www.viget.com/about/team/lsweltz/
+[67] https://www.viget.com/about/team/lsweltz/
+[68] https://www.viget.com/about/team/cmanning/
+[69] https://www.viget.com/about/team/cmanning/
+[70] https://www.viget.com/about/team/cmanning/
+[71] https://www.viget.com/about/team/catwell/
+[72] https://www.viget.com/about/team/catwell/
+[73] https://www.viget.com/about/team/catwell/
+[74] https://www.viget.com/about/team/dbrown/
+[75] https://www.viget.com/about/team/dbrown/
+[76] https://www.viget.com/about/team/dbrown/
+[77] https://www.viget.com/about/team/deisinger/
+[78] https://www.viget.com/about/team/deisinger/
+[79] https://www.viget.com/about/team/deisinger/
+[80] https://www.viget.com/about/team/emcdonald/
+[81] https://www.viget.com/about/team/emcdonald/
+[82] https://www.viget.com/about/team/emcdonald/
+[83] https://www.viget.com/about/team/jfox/
+[84] https://www.viget.com/about/team/jfox/
+[85] https://www.viget.com/about/team/jfox/
+[86] https://www.viget.com/about/team/mmyers/
+[87] https://www.viget.com/about/team/mmyers/
+[88] https://www.viget.com/about/team/mmyers/
+[89] https://www.viget.com/about/team/nschmidt/
+[90] https://www.viget.com/about/team/nschmidt/
+[91] https://www.viget.com/about/team/nschmidt/
+[92] https://www.viget.com/about/team/ntelsan/
+[93] https://www.viget.com/about/team/ntelsan/
+[94] https://www.viget.com/about/team/ntelsan/
+[95] https://www.viget.com/articles/vigets-favorite-books-of-2023/
+[96] https://www.viget.com/articles/bonding-over-books/
+[97] https://www.viget.com/articles/why-and-how-to-start-an-office-book-club/
+[98] https://www.viget.com/newsletter
+[99] http://eepurl.com/gtHqsj
+[100] https://www.viget.com/contact/
+[101] mailto:hello@viget.com?subject=Hello%2C%20Viget%21
+[102] tel:7038910670
+[103] https://www.viget.com/work/
+[104] https://www.viget.com/services/
+[105] https://www.viget.com/articles/
+[106] https://www.viget.com/about/
+[107] https://www.viget.com/careers/
+[108] https://www.viget.com/code-of-ethics/
+[109] https://www.viget.com/diversity-equity-and-inclusion/
+[110] https://pointlesscorp.com/
+[111] https://explorations.viget.com/
+[112] https://code.viget.com/
+[113] https://www.viget.com/newsletter/
+[114] https://www.viget.com/
+[115] http://x.com/viget
+[116] https://github.com/vigetlabs
+[117] https://dribbble.com/viget
+[118] https://www.instagram.com/viget/
+[119] https://www.linkedin.com/company/viget-labs
+[120] https://vimeo.com/viget/collections
+[121] https://www.viget.com/dc-metro-hq/
+[122] https://www.viget.com/durham/
+[123] https://www.viget.com/boulder/
+[124] https://www.viget.com/chattanooga/
+[125] https://www.viget.com/terms-conditions/
+[126] https://www.viget.com/privacy-policy/
+[127] https://individual.carefirst.com/individuals-families/mandates-policies/machine-readable-file.page
+[128] https://www.viget.com/
+[129] https://www.viget.com/articles
+[130] https://www.viget.com/articles/stackstash-taking-bookish-musings-to-the-next-level/#hero
+[131] http://eepurl.com/gtHqsj
+[133] https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.viget.com%2Farticles%2Fstackstash-taking-bookish-musings-to-the-next-level%2F
+[134] http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.viget.com%2Farticles%2Fstackstash-taking-bookish-musings-to-the-next-level%2F
+[135] https://x.com/intent/tweet?text=Book%20musings%20from%20Viget%27s%20%23books%20Slack%20channel%2C%20but%20make%20them%20more%20useful.%20That%20concept%20inspired%20our%20latest%20Pointless%20adventure.%20https%3A%2F%2Fwww.viget.com%2Farticles%2Fstackstash-taking-bookish-musings-to-the-next-level%2F
