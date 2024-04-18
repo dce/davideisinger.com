@@ -31,6 +31,23 @@ Some thoughts here...
 
 <!--more-->
 
+1. P64 By My Side - John Carroll Kirby
+2. Need Your Body - Stimulator Jones
+3. Temptations - Jitwam
+4. Sunny - Bobby Hebb
+5. Mais Que Nada - Paulo Sergio
+6. Feet Keep Moving - Natural Self
+7. Make My Day - Waldeck
+8. Te Faço um Cafuné - Mariana Aydar
+9. Primavera - Ocote Soul Sounds
+10. When You're Gone - Jon and Roy
+11. I Will Survive (lalala) - Hermes House Band
+12. Off to the Side - L'Impératrice
+13. I Believe in You - more*
+14. Love Story (Retromigration Remix) - Malik Hendricks
+15. Tout va bien - Voyou
+16. Aquela Bossa Axé - Affonsinho
+
 This month:
 
 * Adventure:
