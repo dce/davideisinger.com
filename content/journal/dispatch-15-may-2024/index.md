@@ -17,6 +17,10 @@ references:
   url: https://www.nytimes.com/2024/04/16/opinion/parenting-mistakes-joy.html
   date: 2024-04-17T20:41:40Z
   file: www-nytimes-com-kh2ijc.txt
+- title: "Review: The Boox Palma is the best purchase I've made in a long time - cliophate.wtf"
+  url: https://cliophate.wtf/posts/boox-palma-review
+  date: 2024-04-18T14:01:57Z
+  file: cliophate-wtf-quluwp.txt
 ---
 
 Some thoughts here...

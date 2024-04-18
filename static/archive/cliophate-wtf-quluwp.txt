@@ -1,0 +1,528 @@
+[1]cliophate.wtf [2]Reading [3]About [4]Now
+
+[5]Review: The Boox Palma is the best purchase I've made in a long time
+
+[palma-head]
+
+[6]The Boox Palma might be the best purchase of the year so far. Maybe even of
+last year. (And I bought a motorcycle last year!)
+
+When I first saw this [7]device from Craig Mod, I didn't think I'd end up
+loving it so much. It is, after all, just a phone-sized Kindle with access to
+an Android store that costs $299. What I didn't expect is that this is
+precisely what makes it such a fantastic device. A few weeks in, it has become
+the device I use the most day by day—yes, even more than my phone.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The Boox Palma is an Android-based E-Reader with a 6.13" e-ink screen. It has
+128 GB of integrated memory and a microSD slot (for comparison, my Kindle has
+8GB), a 16-megapixel camera I have and never will use, a two-speaker array, a
+microphone, volume buttons you can configure as page-turn buttons, USB-C
+connectivity, fantastic battery life (I use it heavily and charge it once a
+week), and a water-repellent design. However, I couldn't find its IP rating.
+
+The screen is significantly smaller than my Kindle Paperwhite but has much
+smaller bezels. It is also narrower but taller than the Kindle. It is clearly a
+phone-shaped and phone-sized device. This is both its curse and its blessing.
+Depending on your font settings, it fits much less text on one screen than a
+larger E-Reader. But on the other hand, you can easily fit it into the back
+pockets of jeans, and it won't feel comically large.
+
+[palma-kind]
+Comparing the devices side-by-side showcases the differences in size.
+
+The screen on the Palma has warmer backlighting than that of a Kindle
+Paperwhite. When the lights are off, it isn't as "white" as the Kindle. (The
+Kindle is called Paperwhite for a reason.) It has a slight greyish undertone
+that reminds me more of books made out of recycled paper than high-quality art
+books. I prefer the Kindle's more astonishing screen and backlighting in
+general, but it isn't a dealbreaker and only really obvious if you put both
+devices side-by-side.
+
+[palma-kind]
+The Kindle Paperwhite's backlighting looks "cleaner".
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The Palma runs Android 11 and has access to all your typical Android apps
+available through the Play Store or that you sideload. While it isn't the
+newest version of Android (we're currently on Android 14), I have yet to run
+into any compatibility issues. Most apps you want to start on this device don't
+need any newer versions of the OS.
+
+Here is what apps I use, and they've all been great:
+
+  • [8]KOReader is my book reader of choice. It's heavily customizable and
+    powerful but doesn't get in your way. I find it much easier to use than
+    Moon+, for example. It's also miles better than any of the major apps like
+    Kindle or Kobo. More below.
+  • [9]Readwise Reader is my reading-later app of choice. I've customized the
+    experience, deactivating animation and changing how the app works to better
+    suit e-ink screens. (Ping me if you want to know more.)
+  • [10]Anki is how I currently learn Japanese. If you know Anki, you know how
+    great this app is, and I can tell you it works perfectly on an e-ink
+    screen.
+  • [11]Shueisha Manga Plus is where I find nearly all of the manga I am
+    currently interested in. I must admit that the screen might be a tad small,
+    and a coloured LCD might be a better experience, thanks to better
+    contrasts, even though most manga are in black and white.
+
+Boox also heavily customized the OS. You won't find any of the typical Google
+apps like Gmail or YouTube on this thing. Of course, you can download them from
+the Play Store, but there's not one situation where I can imagine this to be
+even remotely a good experience. The only one I downloaded is the Google's
+alarm app and the Files app, as I didn't like Boox's version.
+
+[palma-enha]
+
+Boox also added dedicated settings to configure any app to your liking. This is
+especially useful for apps that were not made for e-ink screens. Here, you can
+customize refresh modes, change colour enhancements, hard-overwrite font
+settings, and more. The Boox also has a dedicated button to refresh the screen
+and get rid of ghosting typical of e-ink displays.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KOReader is the killer app
+
+If you've ever tried [12]jailbreaking your Kindle, you might be familiar with
+KOReader. It's the app hacked Kindles run to read books. Thankfully, on
+Android, you don't need to jailbreak anything; you can simply download the app
+from your browser and install it that way.
+
+KOReader is a beast. It does everything and then some. Just to make it obvious,
+you can write your own custom CSS so that books look exactly how you want them.
+
+[palma-font]
+These are the best settings I could find for the typography.
+
+I did not do that, though I customized books to my liking. First, I installed
+my reading font of choice: [13]Literata. (I'd like to try [14]Untitled Serif,
+but that's a tad expensive, not knowing how it fares on e-ink displays.)
+
+Then, I changed the font size, line heights, kernings, and margins to my
+liking, installed [15]dictionaries, and customized the overall UI around books.
+(Side note: the Boox Palma has an app called BooxDrop that allows you to
+connect your Palma to your computer via a web link. Here, you can drag and drop
+files wherever you want. This app is excellent, and I wish every other device
+I've ever interacted with would have a version of this.)
+
+[palma-dict]
+You can install whatever dictionary you want.
+
+I've also set up a [16]direct link to Calibre, where I manage all of my books.
+So, whenever I get a new book and add it to Calibre, I can open KOReader on the
+Palma, connect it to my library and "download" books directly from Calibre to
+the device. I did the same with Readwise for my highlights since there is a
+setting just for that. So whenever I highlight something in a book and trigger
+the sync, KOReader sends it to Readwise via an API key.
+
+What I have now is an incredibly powerful reading experience that is set up
+exactly how I want. It is much more work than setting up a Kindle at first, but
+by investing 30 minutes of my time, I created the perfect reading environment
+that is miles better than anything the Kindle ever offers. I'm sorry, Jeff, but
+I'm not coming back.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Some unexpected experiences
+
+The Palma, running on Android, allowed me to do a few things I didn't think of
+when I first ordered it. For one, it banned the iPhone from my bedroom.
+
+I am lucky to have enough self-control never to use my phone in the bedroom. I
+don't scroll TikTok or any timelines or chat with people when I'm in bed. I've
+only ever used it as an alarm clock.
+
+So, banning the iPhone from my bedroom doesn't change anything for me, except
+that it's not the first thing I grab when I wake up. While I don't use the
+phone when I'm trying to sleep, I open my notifications to see if anyone has
+tried to reach me. And from there, it's too easy to fall into the trap of
+checking website statistics, work emails, or what's going on on Discord.
+
+So I downloaded the Google Clock app (the default one; if you have other
+suggestions, please get in touch), added my alarms, and now use the Palma as an
+e-ink-powered bedside alarm.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[palma-anki]
+Well, I do like sports.
+
+Another use case I mentioned above is my Japanese studies. I'm working my way
+through an Anki vocabulary deck, and so far, I have been doing so on the
+iPhone. But since I use the Palma more than my smartphone nowadays, I moved my
+studies to the Palma.
+
+And it's a good experience: all my decks have integrated audio clips (to nail
+the pronunciation), and the Palma plays them perfectly. There is not much to
+say besides it just works.
+
+Make it a phone, please
+
+I'm still dependent on my phone for most parts. But I've only been using the
+Palma for a few weeks, and it has replaced my phone for a few critical tasks.
+
+[palma-slot]
+What looks like a SIM-card slot is a microSD slot.
+
+This made me realize that if the Palma had cellphone connectivity and maybe a
+newer version of Android, it might turn into my day phone.
+
+If I boil down what I do on my iPhone on a daily basis — except checking
+timelines and multimedia content — there's not much the Palma can't do: stay in
+touch with my loved ones through chat apps, look up stuff on a browser or an AI
+tool (mostly Perplexity), listen to music and podcasts, and track my gym and my
+food. All of this works on the Palma right now, as long as I'm connected to
+wi-fi.
+
+Sure, I do much more on my iPhone, like run a business, consume content, do
+banking stuff, take notes, take pictures, take videos, play games, and much
+more. But I don't do that daily.
+
+So, while the Palma could never fully replace the phone, it could complement it
+in ways that might give me my sanity back. I fully understand Gen Z for
+(apparently, the data is a bit meh) [17]embracing dumb phones. While I wouldn't
+go as far — and a connected Palma is anything but dumb — I could see myself
+fully adopting this two-device lifestyle.
+
+Alas, for now, there is no such device. But I still wholeheartedly recommend 
+[18]the Boox Palma. At $299, it might be twice as expensive as your typical
+Kindle, but it does more than twice as much, and I love mine!
+
+Though one (unfortunate?) consequence of owning the Palma: I'm wondering [19]if
+a Note Air 3C could replace my iPad.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NB: If you buy any of the Boox devices, I might receive a small commission
+thanks to an affiliate link.
+
+[20]Technology
+
+What's next?
+
+Subscribe to the [21]RSS feed or via [22]email. Follow me on [23]weird social
+media 1 or [24]weird social media 2. Something you want to tell or show me? 
+[25]Get in touch. And if you are into video games, check out [26]my other
+project.
+
+2024 April
+
+[27]
+
+Review: The Boox Palma is the best purchase I've made in a long time
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+16th
+
+[28]
+
+The first book on the Boox Palma
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+14th
+
+[29]
+
+I made a knife
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+3rd
+
+March
+
+[30]
+
+Fixing Mastodon
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+17th
+
+February
+
+[31]
+
+Some thoughts on online monetization
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+13th
+
+[32]
+
+Some changes on cliophate.wtf
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+12th
+
+[33]
+
+More Magic: The Gathering adventures
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+9th
+
+[34]
+
+On Arc Search
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+7th
+
+[35]
+
+Show me your RSS feeds, and I will tell you who you are
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+5th
+
+[36]
+
+My first Magic: The Gathering event
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+4th
+
+January
+
+[37]
+
+My latest fascination
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+31st
+
+[38]
+
+I bought fancy perfume
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+10th
+
+[39]
+
+Read: Novelist as a Vocation by Haruki Murakami
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+10th
+
+[40]
+
+Read: Things Become Other Things by Craig Mod
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2nd
+
+2023 December
+
+[41]
+
+The 10 best things I bought this year
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+18th
+
+[42]
+
+I started playing Magic: The Gathering
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+13th
+
+[43]
+
+A perfect day
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+12th
+
+[44]
+
+Twelve (mostly) truths on money
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+11th
+
+[45]
+
+How to meditate
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+8th
+
+[46]
+
+Make good art
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+7th
+
+[47]
+
+How to be a better writer (part 2)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+6th
+
+[48]
+
+I automated my money
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+5th
+
+[49]
+
+When life gets tough
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+4th
+
+[50]
+
+How to read more
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1st
+
+November
+
+[51]
+
+How to be a better writer
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+30th
+
+[52]
+
+The Shaman with the bank account
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+29th
+
+[53]
+
+14 writing prompts for your daily journaling
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+27th
+
+[54]
+
+32 things I learned this past year
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+27th
+
+[55]
+
+A few blog recommendations
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+26th
+
+[56]
+
+My Exercise Program
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+24th
+
+[57]
+
+Default Apps
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+23rd
+
+
+References:
+
+[1] https://cliophate.wtf/
+[2] https://cliophate.wtf/reading
+[3] https://cliophate.wtf/about
+[4] https://cliophate.wtf/now
+[5] https://cliophate.wtf/
+[6] https://shop.boox.com/products/palma?ref=overkillwtf
+[7] https://www.threads.net/@craigmod/post/C36xcJCSK8U
+[8] https://github.com/koreader/koreader
+[9] https://readwise.io/read
+[10] https://apps.ankiweb.net/
+[11] https://mangaplus.shueisha.co.jp/updates
+[12] https://github.com/notmarek/LanguageBreak
+[13] https://en.wikipedia.org/wiki/Literata
+[14] https://klim.co.nz/retail-fonts/untitled-serif/
+[15] https://github.com/ahacop/websters-dict-1913-stardict
+[16] https://koreader.rocks/user_guide/#transferring
+[17] https://www.newyorker.com/culture/infinite-scroll/the-dumbphone-boom-is-real
+[18] https://shop.boox.com/products/palma?ref=overkillwtf
+[19] https://shop.boox.com/collections/all/products/noteair3
+[20] https://cliophate.wtf/topic:Technology
+[21] https://cliophate.wtf/feed
+[22] https://buttondown.email/cliophate
+[23] https://overkill.social/@cliophate
+[24] https://www.threads.net/@cliophate
+[25] mailto:desk@kvn.li
+[26] https://overkill.wtf/
+[27] https://cliophate.wtf/boox-palma-review
+[28] https://cliophate.wtf/palma-book
+[29] https://cliophate.wtf/knife-workshop
+[30] https://cliophate.wtf/fixing-mastodon
+[31] https://cliophate.wtf/online-monetization
+[32] https://cliophate.wtf/some-changes
+[33] https://cliophate.wtf/mtg-decks
+[34] https://cliophate.wtf/arc-search
+[35] https://cliophate.wtf/rss-horoscope
+[36] https://cliophate.wtf/mtg-draft
+[37] https://cliophate.wtf/keebs
+[38] https://cliophate.wtf/noir-de-noir
+[39] https://cliophate.wtf/read-naav
+[40] https://cliophate.wtf/read-tbot
+[41] https://cliophate.wtf/best-things-2023
+[42] https://cliophate.wtf/mtg-start
+[43] https://cliophate.wtf/perfect-day
+[44] https://cliophate.wtf/money-truths
+[45] https://cliophate.wtf/on-meditation
+[46] https://cliophate.wtf/good-art
+[47] https://cliophate.wtf/on-writing-part-2
+[48] https://cliophate.wtf/automated-money
+[49] https://cliophate.wtf/life-tough
+[50] https://cliophate.wtf/read-more
+[51] https://cliophate.wtf/on-writing
+[52] https://cliophate.wtf/shaman
+[53] https://cliophate.wtf/journaling-prompts
+[54] https://cliophate.wtf/lessons-learned
+[55] https://cliophate.wtf/blog-recommendations
+[56] https://cliophate.wtf/exercise
+[57] https://cliophate.wtf/default-apps
