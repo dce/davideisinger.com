@@ -21,6 +21,10 @@ references:
   url: https://cliophate.wtf/posts/boox-palma-review
   date: 2024-04-18T14:01:57Z
   file: cliophate-wtf-quluwp.txt
+- title: "AI isn't useless. But is it worth it?"
+  url: https://www.citationneeded.news/ai-isnt-useless/
+  date: 2024-04-18T16:30:46Z
+  file: www-citationneeded-news-loassa.txt
 ---
 
 Some thoughts here...
