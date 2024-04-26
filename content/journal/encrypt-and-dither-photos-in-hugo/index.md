@@ -38,7 +38,7 @@ When I was first setting up this site, I considered giving all the photos a mono
 [4]: https://gohugo.io/content-management/image-processing/
 [5]: https://github.com/gohugoio/hugo/issues/8598
 
-Most of what I post on this site are these monthly [dispatches][6] that start with what my family's been up to in the last month and include several high-resolution photos. Last week, I was reading Elliot Jay Stocks' "[2023 in review][7]," and he's adament about not posting photos of his kids. That inspired me to take another crack at getting dithered images working -- I take a lot of joy out of documenting our family life, and low-res, dithered images strike a good balance between giant full-color photos and not showing people in photos at all. And to add another wrinkle: this site is [open source][8], so I also needed to ensure that the source images wouldn't be available on GitHub.
+Most of what I post on this site are these monthly [dispatches][6] that start with what my family's been up to in the last month and include several high-resolution photos. Last week, I was reading Elliot Jay Stocks' "[2023 in review][7]," and he's adamant about not posting photos of his kids. That inspired me to take another crack at getting dithered images working -- I take a lot of joy out of documenting our family life, and low-res, dithered images strike a good balance between giant full-color photos and not showing people in photos at all. And to add another wrinkle: this site is [open source][8], so I also needed to ensure that the source images wouldn't be available on GitHub.
 
 [6]: /tags/dispatch/
 [7]: https://elliotjaystocks.com/blog/2023-in-review
@@ -167,7 +167,7 @@ Use it like this:
 
 ### 4. Delete the unencrypted images from the repository
 
-Now that everything's working, let's remove all the uncrypted images from the repository. It's not enough to just `git rm` them, since they'd still be present in the history, so we'll use [`git filter-repo`][18] to rewrite the history as if they never existed.
+Now that everything's working, let's remove all the unencrypted images from the repository. It's not enough to just `git rm` them, since they'd still be present in the history, so we'll use [`git filter-repo`][18] to rewrite the history as if they never existed.
 
 ```ruby
 Dir.glob("content/**/*.{jpg,jpeg,png}") do |path|

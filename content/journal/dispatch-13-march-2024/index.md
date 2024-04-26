@@ -101,7 +101,7 @@ I'm really pleased with [my result][1] in the in the [Wrightsville Beach Valenti
 [1]: /journal/dispatch-13-march-2024/wbvr-result.pdf
 [2]: https://runsignup.com/Race/NC/WrightsvilleBeach/WrightsvilleBeachValentineRun
 
-At the beginning of February, I updated the site to store encrypted photos and display them as black-and-white dithered images. I [documented the process in some detail][3], and then put a link to it on the [Hugo discussion forum][4]. Imagine my suprise when, a few days later, one of the core contributers posted that the next version of Hugo would ship with [native dithering functionality][5]. I guess my post [inspired him to add it][6], which echoed a post I'd read a few days earler, ["Publishing Your Work"][7]:
+At the beginning of February, I updated the site to store encrypted photos and display them as black-and-white dithered images. I [documented the process in some detail][3], and then put a link to it on the [Hugo discussion forum][4]. Imagine my surprise when, a few days later, one of the core contributors posted that the next version of Hugo would ship with [native dithering functionality][5]. I guess my post [inspired him to add it][6], which echoed a post I'd read a few days earler, ["Publishing Your Work"][7]:
 
 > I don’t create or publish in the hopes of influencing others. I create things because I have an urge to create. But it sure is great to help others along the way, however small my contribution might be.
 

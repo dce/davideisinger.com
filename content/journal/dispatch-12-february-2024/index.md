@@ -75,7 +75,7 @@ references:
   file: macwright-com-ovx2h6.txt
 ---
 
-We spent MLK weekend with my folks in the Shennandoah Valley, and visited [Luray Caverns][1], something I'd done as a kid and still rips 30 years later. Neat place, highly recommended if you're ever in that area. We also got some snow at our cabin, which was pretty fun for Nev.
+We spent MLK weekend with my folks in the Shenandoah Valley, and visited [Luray Caverns][1], something I'd done as a kid and still rips 30 years later. Neat place, highly recommended if you're ever in that area. We also got some snow at our cabin, which was pretty fun for Nev.
 
 [1]: https://luraycaverns.com/
 
