@@ -33,11 +33,11 @@ So with that architecture in mind, here are the best practices we've
 tried to standardize on:
 
 1.  [Don't put code or app-level dependencies into the
-    image](#1-dont-put-code-or-app-level-dependencies-into-the-image)
+    image](#1-don-t-put-code-or-app-level-dependencies-into-the-image)
 2.  [Don't use a Dockerfile if you don't have
-    to](#2-dont-use-a-dockerfile-if-you-dont-have-to)
+    to](#2-don-t-use-a-dockerfile-if-you-don-t-have-to)
 3.  [Only reference a Dockerfile once in
-    `docker-compose.yml`](#3-only-reference-a-dockerfile-once-in-docker-composeyml)
+    `docker-compose.yml`](#3-only-reference-a-dockerfile-once-in-docker-compose-yml)
 4.  [Cache dependencies in named
     volumes](#4-cache-dependencies-in-named-volumes)
 5.  [Put ephemeral stuff in named
@@ -47,7 +47,7 @@ tried to standardize on:
 8.  [Coordinate services with
     `wait-for-it`](#8-coordinate-services-with-wait-for-it)
 9.  [Start entrypoint scripts with `set -e` and end with
-    `exec "$@"`](#9-start-entrypoint-scripts-with-set--e-and-end-with-exec-)
+    `exec "$@"`](#9-start-entrypoint-scripts-with-set-e-and-end-with-exec)
 10. [Target different CPU architectures with
     `BUILDARCH`](#10-target-different-cpu-architectures-with-buildarch)
 11. [Prefer `docker compose` to
