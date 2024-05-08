@@ -1,0 +1,384 @@
+[1][https]
+
+[2]The Future, Now and Then
+
+SubscribeSign in
+Share this post
+[https]
+
+On giant piles of cash, and their origins
+
+davekarpf.substack.com
+Copy link
+Facebook
+Email
+Note
+Other
+
+On giant piles of cash, and their origins
+
+The trouble with venture capital is that it has gotten too big.
+
+[12][https]
+[13]Dave Karpf
+Apr 19, 2024
+66
+Share this post
+[https]
+
+On giant piles of cash, and their origins
+
+davekarpf.substack.com
+Copy link
+Facebook
+Email
+Note
+Other
+[20]
+13
+[21]
+Share
+[22]
+[https]
+source: Unsplash https://unsplash.com/photos/100-us-dollar-bill-BRl69uNXr7g
+
+Technological innovation requires capital. A lot of capital. A giant pile of
+cash.
+
+There are, to a first approximation, only three places you can find of a giant
+pile of cash. There’s government money. There’s venture capital. And there’s
+big corporate R&D.
+
+Thanks for reading The Future, Now and Then! Subscribe for free to receive new
+posts and support my work.
+
+[31][                    ]
+Subscribe
+Of the three, I would argue that government is clearly the best. The reason is
+simple: government funding doesn’t come attached to some rich asshole who
+inevitably screws things up later.
+
+Venture capital, for this same reason, is quite clearly the worst. Andy Baio’s,
+“[33]The Quiet Death of Ello’s Big Dream” is worth reading on this point. VC
+funding comes attached to VC revenue expectations. It makes unreasonable
+demands. Sometimes they work out for the investors. They very rarely work out
+for everyone else.
+
+Big corporate money is somewhere in the middle. I’d classify it as eh, fine I
+guess, so long as the marketplace is otherwise well-regulated and those large
+corporations are constrained. (Which, heh, ofcoursewedon’thaverightnow.)
+
+The examples of big corporate money that spring immediately to mind are [34]
+Bell Labs and [35]Xerox PARC. There was indeed a time when big companies
+invested a ton in basic science and R&D, with no immediate plans to turn the
+results into products. And, as [36]Ian Betteridge pointed out last month, this
+was because the big companies were rightly concerned about the antitrust cops. 
+[37]A nervous monopolist is a (relatively) well-behaved monopolist.
+
+Still, there’s a bit of elegance to the big-pile-of-government-money approach.
+I first took notice of this with the passage of the Inflation Reduction Act
+(IRA). Fifteen years ago, everyone kind of thought that the only way to
+jumpstart the clean energy transition was to institute a carbon tax or
+cap-and-trade/cap-and-dividend system. (Basically, do some fancy tricks that
+the economists suggested, then let the market work its magic.) Cap-and-Trade
+failed for a whole lot of reasons, but one of the biggest was that the proposal
+was complex and boring in a way that appealed to the economists but were
+impossible to message. Most people were left thinking “this is probably gonna
+turn into weird corporate bullshit, right?”
+
+The IRA, by contrast, was just a big pile of money attached to industrial
+policy — directional instructions for how to spend the pile. That’s effectively
+all it could be, because of some vagaries in the Senate rules that let you
+avoid the filibuster and pass budget bills with a 51-vote majority. And while
+that big pile of money isn’t perfect, it is funding a lot of good things.
+
+And of course we can scan back in history for plenty of other examples. [38]The
+semiconductor industry and the internet were both built out of government
+grants and defense contracts. We have sputnik and the space race to thank for
+the computer age. The Human Genome Project was government funding. So was the
+National Nanotechnology Initiative. Some of these were big hits, some were
+glancing misses. But the general model of promising avenue —> government sets
+up a big pile of money —> research and development flourishes in that area is
+pretty well established. It works.
+
+The are, as far as I can tell, only three downsides to the
+government-pile-of-money approach:
+
+ 1. You’ll need to make the money back through taxes on the industries that
+    develop as a result. And they won’t want to pay those taxes. And these
+    industries will be popular, with a lot of capital to spend on pressuring
+    government to give them special deals and tax breaks. So maintaining the
+    equilibrium of establish big pile of government money —> industries
+    flourish —> they pay taxes, which lets you set up the next big pile of
+    government money is going to take constant effort to maintain. (This is an
+    abbreviated version of Marianna Mazzucato’s [39]The Entrepreneurial State.
+    Her book is excellent, btw.)
+
+ 2. The big pile of government money is tied up in bureaucracy, which means it
+    isn’t especially nimble or responsive. This can be fixed through
+    public-private partnerships and other administrative design choices. But
+    it’s bound to be frustrating and sometimes wasteful. (Imagine if, circa
+    2022, the Biden administration had set up a $30 billion fund for, like,
+    metaverse research.) And that waste and frustration will be fodder for
+    ideological opponents to the whole endeavor.
+
+ 3. The big pile of government money doesn’t glorify entrepreneurs and
+    innovators as the very-special-boys who are heroically building the future.
+    And that doesn’t feel very gratifying. They would much prefer an
+    equilibrium where government provides the big pile of money, but then no
+    one talks about it. Or gives the government any credit. Or taxes the
+    windfall profits. It is not, in other words, a story that plays well at
+    Davos. If those entrepreneurs get rich enough, [40]they’ll develop
+    elaborate philosophical justifications for why the most important cause in
+    the world is that everyone clap louder for them.
+
+But those three downsides just mean that the system will require political
+maintenance. It works quite well, but it isn’t self-sustaining. And this
+observation extends beyond science and technology. The
+big-pile-of-government-money is a return to how we approached public problems
+through much of the 20th century, before it was rejected as “tax-and-spend”
+liberalism and replaced by neoliberalism’s faith-based market fundamentalism.
+
+The basic proposition is as follows: we should provide public funding for
+public goods. Those public goods will make us a better, more productive
+society. And then we refill the public coffers through a system of taxation.
+The same approach can be applied to other public goods:
+
+  • [41]There is no magic-unicorn funding model that will save journalism. It’s
+    going to require public subsidy.
+
+  • The crises facing the U.S. education system can mostly be reduced to the
+    simple fact that we no longer fund public education like we used to. The
+    idea that we are going to somehow innovate our way into a system that is
+    both higher-quality and cheaper is as fantastical as it is flawed.
+
+  • Ditto for higher education. If you think higher education is a public good,
+    then you should demand public subsidy of higher ed. (Including, but not
+    limited to, student debt cancellation.) If you do not think higher eduction
+    is a public good, then that’s fine too. But you ought to go ahead and say
+    as much.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The VC approach is the prevailing model today. And I have become increasingly
+convinced that many of the problems with the current state of Silicon Valley
+are rooted in the venture capital-class simply acquiring too much capital. VC
+is fine (good, even!) when it is relatively small. But when VC is the primary
+source of funding new science and technology breakthroughs, the whole system
+gets skewed.
+
+As it stands today, the primary direction-setter for new advances in science
+and technology is “what do folks like Marc Andreessen and Peter Thiel and Gary
+Tan and Sam Altman find exciting?”
+
+The problem isn’t just that these guys are ideological fellow-travelers, hell
+bent on a shared political project that socializes all risk while privatizing
+all gain. (though, I mean… that would kinda be enough of a problem on its own.)
+
+It’s also that their eye for science, technology, and even consumer products
+just kinda sucks. Building toward their vision of the future means we’re going
+to end up with a lot of [42]silly investments in pretend-cities and [43]
+eugenics vaporware. It means we’ll have abundant funding for hail-mary attempts
+at developing cold fusion and geo-engineering, and practically nothing for
+helping cities remain habitable under extreme weather conditions.
+
+(Read Karen Hao, I’m begging you!: We’re [44]sapping all the remaining water
+from the desert to cool AI data centers. It’s good for Microsoft’s stock
+performance. It is counterproductive to the climate emergency.)
+
+This kind of VC-thinking works fine under limited conditions, and pretty
+terribly everywhere else.
+
+Take Sam Altman. Altman is not an engineer. He is not a scientist. He has no
+real training in either. He is an entrepreneur, with a flair for optimistic
+tech futurism. He places bets on where technology is headed, and then attempts
+to bend society in a direction that makes those bets pay off.
+
+The previous generation of venture capitalists were, for the most part, actual
+engineers and scientists. They had spent time in the lab. They had experience
+being “close to the metal.” They made some real money early, then started to
+point that money in the direction of funding audacious high-risk/high-reward
+projects that didn’t fit anywhere else. The sector was small, compared to
+government money and corporate R&D money.
+
+Folks like Altman approach the future much like bad sci-fi. They begin from a
+prediction of where they’d like to end up, and then work backwards. Altman has
+faith that we’re going to end up at world-changing Artificial General
+Intelligence. That means we’ll need transformative breakthroughs in chip
+production and energy production. Ergo, he invests in cold fusion companies and
+sets out to raise $7 trillion to build his own manufacturing empire.
+
+That’s actually a fine approach, as private investment strategies go. (Hey,
+you’ve got a prediction for where the world is heading, and you want to make a
+bunch of correlated bets that support the prediction? Go ahead and spend your
+own money that way. God bless.) But when it becomes the primary source of
+funding for basic science and/or applied technologies, then the whole system
+gets warped in the direction of a few billionaires’ speculative fantasies.
+
+Venture Capital is not inherently better than government funding. That’s a myth
+that was popularized during the neoliberal era. It has now become impossible to
+sustain. (Just look at all the [45]stupid bullshit they fund and all the nice
+things that they ruin!)
+
+Big Tech only got so big because we stopped enforcing antitrust 20+ years ago.
+If the current reemergence of antitrust enforcement has staying power, that
+will be good for society and also good for Big tech funding of basic research.
+
+But, most of all, we should get back to enthusiastically celebrating large
+piles of government money, paired with substantial taxes on the companies that
+flourish as a result. Government money isn’t perfect. It can be slow and
+inefficient. But nothing is perfect. And of all the potential big-pile-of-money
+sources, it is the one that does the most good, while putting power in the
+hands of people who are at least supposed to have the best interests of the
+public in mind.
+
+Thanks for reading The Future, Now and Then! Subscribe for free to receive new
+posts and support my work.
+
+[54][                    ]
+Subscribe
+66
+Share this post
+[https]
+
+On giant piles of cash, and their origins
+
+davekarpf.substack.com
+Copy link
+Facebook
+Email
+Note
+Other
+[62]
+13
+[63]
+Share
+13 Comments
+[https]
+[                    ]
+        [66]
+        Kaleberg
+        [67]Kaleberg’s Substack
+        [68]Apr 19Liked by Dave Karpf
+
+        There's an old saying, "The customer is always right about what they
+        wish to purchase." That is, people know their own needs. Being a
+[65]    customer requires money. When the US had a growing middle class, they
+[https] were the customers individually and collectively. We were able to buy
+        all kinds of nice things. Now, the wealthy have all the money, and
+        they're the customers for symbolic stuff, not physical stuff. So, we
+        have a crappy consumer market and a wasteful efflourescence of venture
+        capital backed crazes.
+
+        Expand full comment
+        Reply
+        Share
+
+        [71]
+        Ralph Haygood
+        [72]Apr 20·edited Apr 20Liked by Dave Karpf
+
+        "The basic proposition is as follows: we should provide public funding
+        for public goods." However, public funding tends to involve taxation,
+        and the rotten core of "conservatism" is myopic selfishness, so denying
+        public goods even exist is typical of "conservatives". Moreover, the
+        USA is so collectively brainwashed in this regard that even ostensible
+        liberals often fall into thinking of public goods as if they weren't.
+        For example, it's common to say things like "higher education is the
+        single best investment that you can make in yourselves and your
+        future"*, which may be correct as far as it goes, but it leaves out
+        that education is foremost a public good, something we the people fund
+        because it benefits all of us to live in a society where most people
+        are well educated, to whatever level suits their talents and interests.
+        So as a matter of realpolitik in the USA, good luck getting much
+        traction with the eminently reasonable arguments you've presented here.
+
+        "It's also that their eye for science, technology, and even consumer
+[70]    products just kinda sucks." I'll be blunter: the guys you've mentioned
+[https] are just kinda dumb. For example, Peter Thiel famously cheered for
+        Candidate Trump but was disappointed with President Trump, declaring
+        the latter and his shambolic administration "incompetent"**. Um, yeah,
+        no shit, Sherlock. But the way Cheetolini governed, if you call it
+        that, was perfectly consistent with his public conduct for decades
+        prior. Only dullards were surprised. Evidently, Thiel is one of them.
+
+        "The big pile of government money is tied up in bureaucracy, which
+        means it isn't especially nimble or responsive.": Often but not always.
+        In my experience, DARPA and NSF have been fairly nimble and responsive.
+        It can be done!
+
+        *[73]https://obamawhitehouse.archives.gov/the-press-office/2014/06/09/
+        remarks-president-opportunity-all-making-college-more-affordable
+
+        **[74]https://www.buzzfeednews.com/article/ryanmac/
+        peter-thiel-and-donald-trump
+
+        Expand full comment
+        Reply
+        Share
+
+[76]11 more comments...
+Top
+Latest
+Discussions
+
+No posts
+
+Ready for more?
+
+[89][                    ]
+Subscribe
+© 2024 Dave Karpf
+[91]Privacy ∙ [92]Terms ∙ [93]Collection notice
+[94] Start Writing[95]Get the app
+[96]Substack is the home for great culture
+Share
+Copy link
+Facebook
+Email
+Note
+Other
+This site requires JavaScript to run correctly. Please [103]turn on JavaScript
+or unblock scripts
+
+References:
+
+[1] https://davekarpf.substack.com/
+[2] https://davekarpf.substack.com/
+[12] https://substack.com/profile/672568-dave-karpf
+[13] https://substack.com/@davekarpf
+[20] https://davekarpf.substack.com/p/on-giant-piles-of-cash-and-their/comments
+[21] javascript:void(0)
+[22] https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff0a27821-16b9-4428-9fbd-2b827c0b4a04_5274x3516.jpeg
+[33] https://waxy.org/2024/01/the-quiet-death-of-ellos-big-dreams/
+[34] https://www.amazon.com/Idea-Factory-Great-American-Innovation/dp/0143122797
+[35] https://www.amazon.com/Dealers-Lightning-Xerox-PARC-Computer/dp/0887309895/ref=pd_lpo_sccl_1/130-4281032-0312943?pd_rd_w=bQShS&content-id=amzn1.sym.1ad2066f-97d2-4731-9356-36b3edf1ae04&pf_rd_p=1ad2066f-97d2-4731-9356-36b3edf1ae04&pf_rd_r=QQW6HS3GCGN3TEE8NT7X&pd_rd_wg=wlvhQ&pd_rd_r=82c1a85f-ab39-40d4-b2bf-189e1644f181&pd_rd_i=0887309895&psc=1
+[36] https://ianbetteridge.com/2024/03/22/a-few-thoughts-on-the-apple-doj-antitrust-case-from-someone-who-isnt-riding-his-first-rodeo/
+[37] https://medium.com/@davekarpf/the-infowars-purge-and-life-among-responsible-information-monopolies-ddaa14f6cf0
+[38] https://www.penguinrandomhouse.com/books/534709/the-code-by-margaret-omara/
+[39] https://marianamazzucato.com/books/the-entrepreneurial-state/
+[40] https://davekarpf.substack.com/p/why-cant-our-tech-billionaires-learn
+[41] https://mattdpearce.substack.com/p/we-cant-save-journalism-by-just-begging
+[42] https://www.theatlantic.com/magazine/archive/2024/03/silicon-valley-billionaires-building-cities/677173/
+[43] https://www.wired.com/story/this-woman-will-decide-which-babies-are-born-noor-siddiqui-orchid/
+[44] https://www.theatlantic.com/technology/archive/2024/03/ai-water-climate-microsoft/677602/?utm_campaign=weekly-planet&utm_source=newsletter&utm_medium=email&utm_content=20240301&utm_term=The+Weekly+Planet
+[45] https://davekarpf.substack.com/p/the-money-has-to-come-from-somewhere
+[62] https://davekarpf.substack.com/p/on-giant-piles-of-cash-and-their/comments
+[63] javascript:void(0)
+[65] https://substack.com/profile/9557634-kaleberg
+[66] https://substack.com/profile/9557634-kaleberg
+[67] https://writtenstuff.substack.com/?utm_source=substack&utm_medium=web&utm_content=comment_metadata
+[68] https://davekarpf.substack.com/p/on-giant-piles-of-cash-and-their/comment/54340792
+[70] https://substack.com/profile/58303485-ralph-haygood
+[71] https://substack.com/profile/58303485-ralph-haygood
+[72] https://davekarpf.substack.com/p/on-giant-piles-of-cash-and-their/comment/54384920
+[73] https://obamawhitehouse.archives.gov/the-press-office/2014/06/09/remarks-president-opportunity-all-making-college-more-affordable
+[74] https://www.buzzfeednews.com/article/ryanmac/peter-thiel-and-donald-trump
+[76] https://davekarpf.substack.com/p/on-giant-piles-of-cash-and-their/comments
+[91] https://substack.com/privacy
+[92] https://substack.com/tos
+[93] https://substack.com/ccpa#personal-data-collected
+[94] https://substack.com/signup?utm_source=substack&utm_medium=web&utm_content=footer
+[95] https://substack.com/app/app-store-redirect?utm_campaign=app-marketing&utm_content=web-footer-button
+[96] https://substack.com/
+[103] https://enable-javascript.com/
