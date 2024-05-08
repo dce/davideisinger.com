@@ -58,7 +58,7 @@ While we were over there, I was pretty diligent about using [Shazam][4] whenever
 
 [4]: https://www.shazam.com/
 
-I took part in Viget's annual Pointless Week hackathon, building a [tool to surface book recommendations][5] based on messages in our `#books` Slack channel. We used [Laravel][6] to build the backend, something I'd heard good things about but have never used -- it was easy to pick up and fun to work with. We also used an <abbr title="large language model">LLM</abbr> to analyze the messages and pull title / author / sentiment. Some of the results were very impressive, some were hot nonsense (it frequently matched generic messages to _The Great Gatsby_ or _Gone with the Wind_).
+I took part in Viget's annual Pointless Palooza hackathon, building a [tool to surface book recommendations][5] based on messages in our `#books` Slack channel. We used [Laravel][6] to build the backend, something I'd heard good things about but have never used -- it was easy to pick up and fun to work with. We also used an <abbr title="large language model">LLM</abbr> to analyze the messages and pull title / author / sentiment. Some of the results were very impressive, some were hot nonsense (it frequently matched generic messages to _The Great Gatsby_ or _Gone with the Wind_).
 
 [5]: https://www.viget.com/articles/stackstash-taking-bookish-musings-to-the-next-level/
 [6]: https://laravel.com/
