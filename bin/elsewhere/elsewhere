@@ -1,0 +1,73 @@
+#!/usr/bin/env ruby
+
+require "date"
+require "net/http"
+require "nokogiri"
+require "pandoc-ruby"
+require "pry"
+require "uri"
+
+BASEDIR = "content/elsewhere"
+
+def download(uri, filename)
+  if File.exist?(filename)
+    puts "#{filename} already exists"
+  else
+    puts "Downloading #{uri}..."
+    `curl -s "#{uri}" > #{filename}`
+  end
+end
+
+*urls = ARGV
+
+unless urls.any?
+  warn "Please supply one or more URLs"
+  exit 1
+end
+
+FileUtils.mkdir_p "tmp"
+
+urls.each do |url|
+  uri = URI.parse(url)
+  name = File.basename(uri.path)
+  filename = "tmp/#{name}.html"
+
+  download(uri, filename)
+
+  article = Nokogiri::HTML(File.open(filename))
+  content = article.css("div.page-blocks").first
+
+  FileUtils.mkdir_p "#{BASEDIR}/#{name}"
+
+  md = PandocRuby.convert(content.to_html, from: :html, to: :markdown)
+
+  # strip weird ::: directives
+  md.gsub!(/^:{3}.*\n/, "")
+
+  # strip trailing "\"
+  md.gsub!(/\\$/, "")
+
+  md.gsub!(/^!\[image\]\((.*?)\)\{.*?\}/m) do
+    img_uri = URI.parse($1)
+    img_filename = File.basename(img_uri.path)
+
+    download(img_uri, "#{BASEDIR}/#{name}/#{img_filename}")
+
+    "![image](#{img_filename})"
+  end
+
+  title = article.css("title").text.gsub(" | Viget", "").gsub('"', '\"')
+  date = Date.parse(article.css("time").attr("datetime").value).to_datetime.to_s
+
+  File.open("#{BASEDIR}/#{name}/index.md", "w") do |f|
+    f.write "---\n"
+    f.write "title: \"#{title}\"\n"
+    f.write "date: #{date}\n"
+    f.write "draft: false\n"
+    f.write "needs_review: true\n"
+    f.write "canonical_url: #{uri}\n"
+    f.write "---\n"
+    f.write "\n"
+    f.write md
+  end
+end
