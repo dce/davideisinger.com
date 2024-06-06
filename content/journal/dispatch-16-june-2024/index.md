@@ -10,6 +10,12 @@ Some thoughts here...
 
 <!--more-->
 
+{{<dither IMG_0804.jpeg "782x782" />}}
+{{<dither IMG_5088.jpeg "782x782" />}}
+
+{{<dither IMG_1161.jpeg "782x782" />}}
+{{<dither IMG_1109.jpeg "782x782" />}}
+
 <audio controls src="/journal/dispatch-16-june-2024/Asperitas.mp3"></audio>
 
 This month:
