@@ -1,0 +1,200 @@
+[1]Skip to content[2]
+Tim Hårek
+
+  • [3]Blog
+  • [4]About
+  • [5]More…
+
+ 1. [6]Index
+ 2. [7]Blog
+ 3. [8]May 2024
+
+[9][10](Photo)[11]tim@harek.no[12]PGP key
+
+May 2024
+
+Published May 31, 2024
+5 minutes read
+
+Another month, another update!
+
+Blogposts this month:
+
+  • [13]All my Deno modules are now available on JSR
+  • [14]Playdate review (just like I promised in [15]February)
+  • [16]Kaizen #2
+
+🍀 Life
+
+I visited to my hometown for a family confirmation, and I traveled alone
+because my SO was going to a wedding elsewhere. It was my first time driving
+alone for 3 hours with our daughter, and it was my SO's first time being away
+from our daughter for more than a workday. It was fine, we all survived!
+
+We celebrated our daughter's first National Day on the 17th of May with family
+and a trip to a school. I wonder how next year is going to be when she's in
+kindergarten.
+
+And to talk about something super interesting: The weather this past month has
+been superb! We have gone on long walks every day (almost). Somedays was so
+warm that we couldn't be outside for too long because of the heat ☀️
+
+💪 Health
+
+No race this month, and I have still managed to run an average of 15 km per
+week this month. It's been a blast (and warm)!
+
+I have also got a lot of use of the baby-carrier we bought last month, it's
+really fun to hear our daughter "talking" and laughing when we see animals,
+cars, plants etc. Great purchase!
+
+🧑‍💻 Development
+
+Other than doing some [17]migrations of my Deno modules, I have been working
+slow and steady on my logging tool. It's getting there, hopefully it will be
+ready this summer. I'm not sure how "general" I should make it, if it's
+interesting for anyone other than me. But we'll see, it might be easier to see
+that once I write a standalone blogpost about it.
+
+Like I mentioned in the intro, there is a new edition of [18]Kaizen out: [19]
+Kaizen #2
+
+🎬 Entertainment
+
+This month we mananged to watch a bunch of movies, shows and I even managed to
+play some video games.
+
+Games
+
+This month, after my co-worker still went on and on about how good Hades was, I
+caved and got it on Steam. And I have been enjoying it very much on the Steam
+Deck. Haven't beaten the last boss, yet, but it's fun! And I get nostaglic
+about remembering all the Gods from Greek Mythology from my memory of the
+animated Hercules movie.
+
+I also posted my [20]Playdate review where I go in-depth on the whole thing.
+
+Movies
+
+  • Late Night with the Devil (2023) – Really cool, and different horror movie.
+    It was more like a thriller to me, but enjoyed it!
+  • Dream Scenario (2023) – This was so weird and thought-provoking that it was
+    really funny and scary at the same time. Bonus, Norwegian director and
+    writer
+  • Secrets of the Neanderthals (2024) – Boring Netflix documentary.
+  • Turbo Kid (2015) – Gave it a watch just because of the soundtrack and I do
+    not regret it, recommended!
+  • Kingdom of the Planet of the Apes (2024) – I didn't miss Andy Serkis that
+    much, and it was fun to see where all the apes were 300 years after the
+    last movie.
+  • The Fall Guy (2024) – I had high hopes for this one after Bullet Train, it
+    was bland. The fight-scenes were cool, but there weren't enough of it to
+    make it a good movie.
+  • The Ministry of Ungentlemanly Warfare (2024) – A cool war-movie about real
+    events, recommended!
+
+TV shows
+
+  • Baby Reindeer S1 – Everyone was talking about it, and we also started to
+    talk about it. Eerie and amazing at the same time.
+  • X-Men '97 S1 – Wow. They made a heartfelt cartoon, I mean, revived cartoon
+    about mutants and a dab of time-travel. It was awesome!
+  • Hvite gutter S7 – Norwegian show about some rich/spolied white dudes that
+    only parties, it has its moments.
+
+🌐 Links
+
+  • [21]sdushantha/tmpmail – This worked on my first try. I'm very impressed on
+    how simple this is and how it just works!
+  • [22]Don't Microservice, Do Module – I didn't need any convincing, but the
+    author goes into depth on why you should use modules instead of
+    microservices.
+  • [23]Must know key bindings for developers on Mac OSX – Shortcuts I didn't
+    know about, awesome!
+  • [24]tmux is worse is better – tmux is bad, but it's actually better for a
+    lot of stuff.
+  • [25]Developers aren't Nerds – Not every developer is as into it as you
+    might think.
+  • [26]Our Blogging Workflow – Cool concept with writing a post about your
+    current blogging workflow.
+  • [27]Thinking Big and Small – You have to start somewhere, you cannot change
+    the world overnight.
+  • [28]Get Yourself a /dev/lunch – Grab lunch with someone for a different
+    company, use it as a place to talk about stuff, rant even.
+  • [29]Behind the Scenes of Building the Three Word Stories App – The Three
+    Word Stories app was built quickly, in about 48 hours, as part of the
+    Viget's annual hackathon tradition. David Eisinger emailed me and let me
+    know that a blogpost where I mentioned PocketBase gave his team inspiration
+    to make this game – that's awesome!
+  • [30]Three Word Stories – Cool little game made with Svelte and PocketBase.
+  • [31]Ignite Rails: Matt Parker - README Driven Development – A way to
+    motivate people to write the README, with some awesome stats!
+  • [32]A brief history of web development. And why your framework doesn't
+    matter. – Quick overview of the history of the web and why you shouldn't
+    stress about choosing technology because someone tells you to. Chose what
+    works for you.
+  • [33]Use Your Potions and Scrolls – I can really relate to this. I always
+    hoard potions and scrolls, and other nicnaks to never use them. I will try
+    to not to "spare" them as much as I do, both in-game and IRL.
+  • [34]I'm a programmer and I'm stupid – Stupid is the new smart, you should
+    try it ;)
+  • [35]DuckDB as the New jq – DuckDB really knows JSON, who would've thought?
+
+Tagged with
+
+  • [36]#recently
+
+1168 words
+
+[37]Reply via email
+Last deploy: 2024-06-09
+
+  • [38]Stats
+  • [39]Privacy
+  • [40]Connect
+  • [41]Subscribe
+
+
+References:
+
+[1] https://timharek.no/blog/2024-may-recently#main
+[2] https://timharek.no/
+[3] https://timharek.no/blog
+[4] https://timharek.no/about
+[5] https://timharek.no/more
+[6] https://timharek.no/
+[7] https://timharek.no/blog
+[8] https://timharek.no/blog/2024-may-recently
+[9] https://timharek.no/
+[10] https://timharek.no/.well-known/avatar?size=250&quality=90
+[11] mailto:tim@harek.no
+[12] https://timharek.no/public-key.asc
+[13] https://timharek.no/blog/all-my-deno-modules-are-now-available-on-jsr
+[14] https://timharek.no/blog/playdate-review
+[15] https://timharek.no/blog/2024-february-recently
+[16] https://timharek.no/blog/kaizen-2
+[17] https://timharek.no/blog/all-my-deno-modules-are-now-available-on-jsr
+[18] https://timharek.no/tags/kaizen
+[19] https://timharek.no/blog/kaizen-2
+[20] https://timharek.no/blog/playdate-review
+[21] https://github.com/sdushantha/tmpmail
+[22] https://yekta.dev/posts/dont-microservice-do-module/
+[23] https://uptownhr.com/blog/must-know-key-bindings-for-developers-on-mac-osx/
+[24] https://hiandrewquinn.github.io/til-site/posts/tmux-is-worse-is-better/
+[25] https://0xff.nu/dev-and-nerd
+[26] https://birming.com/posts/our-blogging-workflow
+[27] https://blog.jim-nielsen.com/2024/thinking-big-and-small/
+[28] https://anderegg.ca/2024/05/17/get-yourself-a-devlunch
+[29] https://www.viget.com/articles/behind-the-scenes-of-building-the-three-word-stories-app/
+[30] https://3wordstories.com/instructions
+[31] https://www.youtube.com/watch?v=23xzRCoDZf4
+[32] https://gebna.gg/blog/brief-history-of-web-development
+[33] https://jerry.wtf/posts/use-your-potions/
+[34] https://antonz.org/stupid/
+[35] https://www.pgrs.net/2024/03/21/duckdb-as-the-new-jq/
+[36] https://timharek.no/tags/recently
+[37] mailto:tim@harek.no?subject=RE:%20May%202024
+[38] https://timharek.no/stats
+[39] https://timharek.no/privacy
+[40] https://timharek.no/connect
+[41] https://timharek.no/subscribe
