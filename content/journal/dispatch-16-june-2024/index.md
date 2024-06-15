@@ -52,7 +52,8 @@ Reading:
 
 Links:
 
-I don't have anything great this month but I recommend [Baldur Bjarnason][5] and [Tim Hårek][6] for interesting links -- they always seem to find good stuff.
+I don't have anything great this month but I recommend [Baldur Bjarnason][5], [Tim Hårek][6] and [Installer][7] on the Verge for interesting links -- they always seem to find good stuff.
 
 [5]: https://softwarecrisis.dev/
 [6]: https://timharek.no/blog/2024-may-recently
+[7]: https://www.theverge.com/installer-newsletter
