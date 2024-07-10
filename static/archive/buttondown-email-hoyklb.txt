@@ -1,0 +1,106 @@
+Net Noodlings with Nathan logo
+[1] Net Noodlings with Nathan [2]
+Subscribe
+[3]
+RSS
+[4]
+Archive
+July 1, 2024
+
+Just Dü It and The Legend of Link
+
+Hey friends,
+
+How many ears does Captain Kirk have?
+
+Three. The left ear, the right ear, and the final front-ear. 🌌
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Thinking Too Hard
+
+This week, I've been thinking about specialist vs generalist skillsets.
+
+I started my career in the web industry as a hybrid designer-developer. I built
+what I designed and covered everything from UX to Visual Design to Front-End
+Development and even some server-side logic. I was able to stay on for the
+complete lifecycle of a project. Yet because of how WIDE the responsibilities
+were, it was hard to be GREAT at all parts. There was too much to cover!
+
+When I became a manager, it became clear that hiring generalists was even
+harder. We decided to specialize and slice the design work from our team's
+responsibilities. We had more work than we could handle and we needed ALL the
+hands we could get. Specializing let us focus on being great at something and
+more easily hire for the skills we needed.
+
+Fast-forward to now and we're slowly climbing out of a tech recession. Business
+is slow. RIGHT NOW it's valuable to have a wide skillset because the shape of
+the work is changing — a flexible skill set makes it easy to fit into different
+resource-shaped roles on a project.
+
+So where does that leave us?
+
+David Eisinger, Development Director at Viget, gave us some timeless advice
+recently. He shared this quote from Neal Stevenson in The Confusion:
+
+    "Pay attention, that's all ... Notice things. Connect what you've noticed.
+    Connect it into a picture. Think of how the picture might be changed; and
+    act to change it. Some of your acts may turn our to have been foolish, but
+    others will reward you in surprising ways; and in the meantime, simply by
+    being active instead of passive, you have a kind of immunity that's hard to
+    explain."
+
+David's point was that:
+
+  • The most capable, most interesting, and smartest people: they want to know
+    EVERYTHING, and find ways to connect them... So keep your interests super
+    wide.
+  • But be active. Even if it turns out not to be the right thing, doing
+    something is better than nothing.
+
+So cast wide, be active! [5]JUST DÜ IT! Even if the shape of the work changes,
+if we're actively changing as well we'll be able to exist in those interesting
+gaps!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Interesting Web Bits
+
+  • A coworker of mine surfaced [6]Motion One, (which has apparently been
+    around for awhile) but aims to be "the jQuery of WAAPI" (Web Animations
+    API). I found WAAPI to be promising, but a bit brittle still, so it'd be
+    interesting to peel this apart and find how they attempted to smooth over
+    the rough parts of the API.
+  • After yeeeeeeears, [7]Zelda is finally getting her own game. (Although it
+    should be called the Legend of Link for consistency reasons! 😂)
+  • Hugo Landau talks about the [8]demise of of the mildly dynamic website.
+  • If you're looking to pick up a hobby, you could try [9]typographic knitting
+    ... or you could just admire what Rüdiger Schlömer creates...
+  • A really neat liquid physics demo [10]but with LAYERS!
+  • If you didn't see it, Figma is releasing [11]a slides builder... but it's
+    not base functionality. Gotta pay, yo.
+  • Remember Hypercards? No? (They were before my time too...) [12]But someone
+    built a hypercard simulator.
+  • [13]Fun drawing physics simulator/game/thing.
+
+Don't miss what's next. Subscribe to Net Noodlings with Nathan:
+[14][                    ] Subscribe
+Brought to you by [16]Buttondown, the easiest way to start and grow your
+newsletter.
+
+References:
+
+[1] https://buttondown.email/nathanlong
+[2] https://buttondown.email/nathanlong#subscribe-form
+[3] https://buttondown.email/nathanlong/rss
+[4] https://buttondown.email/nathanlong/archive/
+[5] https://www.youtube.com/watch?v=pmO_fnFM49k&utm_source=nathanlong&utm_medium=email&utm_campaign=just-du-it-and-the-legend-of-link
+[6] https://motion.dev/?utm_source=nathanlong&utm_medium=email&utm_campaign=just-du-it-and-the-legend-of-link
+[7] https://www.theverge.com/24180615/legend-of-zelda-echoes-of-wisdom-trailer-nintendo-direct?utm_source=nathanlong&utm_medium=email&utm_campaign=just-du-it-and-the-legend-of-link
+[8] https://www.devever.net/~hl/mildlydynamic?utm_source=nathanlong&utm_medium=email&utm_campaign=just-du-it-and-the-legend-of-link
+[9] https://www.thisiscolossal.com/2024/05/type-knitting-rudiger-schlomer/?utm_source=nathanlong&utm_medium=email&utm_campaign=just-du-it-and-the-legend-of-link
+[10] https://grantkot.com/ll/?utm_source=nathanlong&utm_medium=email&utm_campaign=just-du-it-and-the-legend-of-link
+[11] https://www.figma.com/slides/?utm_source=nathanlong&utm_medium=email&utm_campaign=just-du-it-and-the-legend-of-link
+[12] https://hcsimulator.com/?utm_source=nathanlong&utm_medium=email&utm_campaign=just-du-it-and-the-legend-of-link
+[13] https://midzer.de/wasm/numptyphysics?utm_source=nathanlong&utm_medium=email&utm_campaign=just-du-it-and-the-legend-of-link
+[16] https://buttondown.email/
