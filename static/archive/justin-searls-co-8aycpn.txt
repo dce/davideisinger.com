@@ -1,0 +1,130 @@
+[1]
+justin․searls․co
+
+  • [2]Home
+  • [3]About
+  • [4]Search
+  • [5]Subscribe
+
+  • [6]Posts
+  • [7]Links
+  • [8]Shots
+  • [9]Takes
+  • [10]Tubes
+  • [11]Casts
+  • [12]Spots
+  • [13]Mails
+
+  • [14]About Site
+  • [15]Search It!
+  • [16]Newsletter
+  • [17]RSS / Atom
+
+  • [18]Work
+  • [19]GitHub
+  • [20]YouTube
+  • [21]LinkedIn
+  • [22]Instagram
+  • [23]Mastodon
+  • [24]Twitter
+
+×
+Want [25]more of me in your life?
+[26][                    ] [27][Sign up]
+Sunday, Jun 30, 2024
+Breaking Change artwork
+
+v15 - An E Ink iPod Touch
+
+Breaking Change
+
+Your browser does not support the audio element. The file is [28]here to
+download.
+Subscribe:
+[29] [30] [31] [32] [33]
+
+I bought a new gadget! And it runs Android! And I don't hate it!
+
+Tell me about things you hate and don't hate and I might just read your
+feelings on air, for others to have opinions about! The e-mail, as always, is 
+[34]podcast@searls.co.
+
+Sources below:
+
+  • [35]Ubiquiti UniFi
+  • [36]Loopback with SSL2+
+  • [37]This annoying Safari bug
+  • [38]My first video clip from Breaking Change
+  • A podcast I will appear on shortly: [39]Vision Pros
+  • [40]Aaron's punboard
+  • [41]The EU won't get these new Apple features
+      □ [42]Gruber's take on this matches my own
+  • The [43]BOOX Palma
+  • [44]Digital Foundry tells us not to play games on our Windows + Copilot PCs
+  • [45]Dark Matter
+  • [46]Godzilla Minus One
+  • [47]samus.link
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Got a taste for hot, fresh takes?
+
+Then you're in luck, because you can subscribe to this site via [48]RSS or [49]
+Mastodon! And if that ain't enough, then sign up for my [50]newsletter and I'll
+send you a usually-pretty-good essay once a month. I also have a solo [51]
+podcast, because of course I do.
+
+© 2024 Justin Searls. All rights reserved.
+
+
+References:
+
+[1] https://justin.searls.co/
+[2] https://justin.searls.co/
+[3] https://justin.searls.co/about
+[4] https://justin.searls.co/search
+[5] https://justin.searls.co/rss
+[6] https://justin.searls.co/posts
+[7] https://justin.searls.co/links
+[8] https://justin.searls.co/shots
+[9] https://justin.searls.co/takes
+[10] https://justin.searls.co/tubes
+[11] https://justin.searls.co/casts
+[12] https://justin.searls.co/spots
+[13] https://justin.searls.co/mails
+[14] https://justin.searls.co/about
+[15] https://justin.searls.co/search
+[16] https://justin.searls.co/newsletter
+[17] https://justin.searls.co/rss
+[18] https://testdouble.com/
+[19] https://github.com/searls
+[20] https://youtube.com/@JustinSearls
+[21] https://linkedin.com/in/searls
+[22] https://instagram.com/searls
+[23] https://mastodon.social/@searls
+[24] https://twitter.com/searls
+[25] https://justin.searls.co/newsletter
+[28] https://podcast-cdn.searls.co/breaking-change/v15.mp3
+[29] https://podcasts.apple.com/us/podcast/breaking-change/id1725165751
+[30] https://open.spotify.com/show/6udYBrGATjngartPpfwyPn
+[31] https://www.youtube.com/playlist?list=PLIuJbrOVyGjmxw7lCZVzgcSGTRABhY6A2
+[32] https://overcast.fm/itunes1725165751/breaking-change
+[33] https://justin.searls.co/podcasts/breaking-change.xml
+[34] mailto:podcast@searls.co
+[35] https://www.ui.com/introduction
+[36] https://justin.searls.co/posts/how-to-loopback-computer-audio-with-ssl2-and-logic-pro/
+[37] https://justin.searls.co/posts/hey-check-out-this-infuriating-safari-bug/
+[38] https://www.youtube.com/watch?v=3eR5SWmv6OE
+[39] https://podcasts.apple.com/us/podcast/vision-pros/id1691900104
+[40] https://justin.searls.co/puns/
+[41] https://daringfireball.net/linked/2024/06/21/apple-intelligence-dma-financial-times
+[42] https://daringfireball.net/2024/06/eu_reaping_what_it_sows
+[43] https://www.theverge.com/24184777/boox-palma-e-ink-smartphone-reader
+[44] https://www.youtube.com/watch?v=QzCkpTE0bM0
+[45] https://tv.apple.com/us/show/dark-matter/umc.cmc.4luj45vtqpmjsvb6sc2675oeg
+[46] https://www.netflix.com/title/81767635
+[47] https://samus.link/
+[48] https://justin.searls.co/rss
+[49] https://mastodon.social/@searls
+[50] https://justin.searls.co/newsletter
+[51] https://justin.searls.co/casts

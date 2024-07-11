@@ -1,0 +1,465 @@
+[1]
+justin․searls․co
+
+  • [2]Home
+  • [3]About
+  • [4]Search
+  • [5]Subscribe
+
+  • [6]Posts
+  • [7]Links
+  • [8]Shots
+  • [9]Takes
+  • [10]Tubes
+  • [11]Casts
+  • [12]Spots
+  • [13]Mails
+
+  • [14]About Site
+  • [15]Search It!
+  • [16]Newsletter
+  • [17]RSS / Atom
+
+  • [18]Work
+  • [19]GitHub
+  • [20]YouTube
+  • [21]LinkedIn
+  • [22]Instagram
+  • [23]Mastodon
+  • [24]Twitter
+
+×
+Want [25]more of me in your life?
+[26][                    ] [27][Sign up]
+Friday, Jun 14, 2024 [28]
+
+Dear AI companies, please scrape this website
+
+Last night, I read a flurry of angry feedback following WWDC. It appears some
+people are mad about Apple's AI announcements. Just like they were mad about
+Apple's [29]hydraulic press ad last month.
+
+I woke up this morning with a single question:
+
+"Am I the only person on earth who actually wants AI companies to scrape my
+website?"
+
+Publications that depend on ad revenue don't. License holders counting on a
+return for their intellectual property investment are lawyering up. Quite a few
+Mastodon users appear not to be on board, either.
+
+Me, meanwhile, would absolutely positively 💗LOVE💗 if the AIs scraped the shit
+out of this website, as well as all the other things I post publicly online.
+
+Really, take my work! Go nuts! Make your AI think more like me. Make your AI
+sound more like me. Make your AI agree with my view of the world more often.
+
+The entire reason I create shit is so that others will take it! To share ideas
+I find compelling in the hope those ideas will continue to spread. Why wouldn't
+I want OpenAI or Apple or whoever to feed everything I say into their AI
+model's training data? Hell, scrape me twice if it'll double the potency. On
+more than one occasion, I've felt that my [30]solo podcast project is in part
+"worth it", because—relative to the number of words I'm capable of writing and
+editing—those audio files represent a gob-smacking amount of Searls-flavored
+data that will contribute to a massive, spooky corpus of ideas that will later
+be regurgitated into a chat window and pasted into some future kid's homework
+assignment.
+
+I'm not going to have children. I don't believe in God. I know that as soon as
+I'm dead, it's game over. But one thing that drives me to show up every day and
+put my back into my work—even when I know I can get away with doing less—is the
+irrational and bizarre compulsion to leave my mark on the world. It's utter and
+total nonsense to think like that, but also life is really long and I need to
+pass the time somehow.
+
+So I make stuff! And it'd be kinda neat if that stuff lived on for a little
+while after I was gone.
+
+And I know I'm not alone. Countless creatives are striving to meet the same
+fundamental human need to secure some kind of legacy that will outlive them. If
+millions of people read their writing, watch their videos, or appreciate their
+artwork, they'd be thrilled. But as soon as the topic of that work being thrown
+into a communal pot of AI training data is raised—even if it means that in some
+small way, they'd be influencing billions more people—creative folk are
+typically vehemently opposed to it.
+
+Is it that AI will mangle and degrade the purity of their work? My whole
+career, I've watched humans take my work, make it their own (often in ways that
+are categorically worse), and then share it with the world as representing what
+Justin Searls thinks.
+
+Is it the lack of attribution? Because I've found that, "humans leveraging my
+work without giving me credit," is an awfully long-winded way to pronounce
+"open source."
+
+Is it a manifestation of a broader fear that their creative medium will be
+devalued as a commodity in this new era of [31]AI slop? Because my appreciation
+for human creativity has actually increased since the dawn of generative AI—as
+its output gravitates towards the global median, the resulting deluge of
+literally-mediocre content has only served to highlight the extraordinary-ness
+of humans who produce exceptional work.
+
+For once, I'm not trying to be needlessly provocative. The above is an honest
+reflection of my initial and sustained reaction to the prospect of my work
+landing in a bunch of currently-half-cocked-but-maybe-some-day-full-cocked AI
+training sets. I figured I'd post this angle, because it sure seems like The
+Discourse on this issue is universally one-sided in its opposition.
+
+Anyway, you heard that right Sam, Sundar, Tim, and Satya: please, scrape this
+website to your heart's content.
+
+[32]Backing up a step
+
+A lot of people whose income depends on creating content, making decisions, or
+performing administrative tasks are quite rightly worried about generative AI
+and to what extent it poses a threat to that income. Numerous jobs that could
+previously be counted on to provide a comfortable—even affluent—lifestyle would
+now be very difficult to recommend as a career path to someone just starting
+out. Even if the AI boosters claiming we're a hair's breadth away from [33]AGI
+turn out to be dead wrong, these tools can perform numerous valuable tasks
+already, so the spectre of AI can't simply be hand-waved away. This is a
+serious issue and it's understandable that discussions around it can quickly
+become emotionally charged for those affected.
+
+But it also feels like on an individual basis, it's hard to make out what AI
+skeptics (for lack of a better term) actually propose we do about any of this,
+especially if you narrow it down to solutions that have even a remote chance of
+materializing.
+
+People's negative reactions to Apple's keynote seemed to fall into three
+buckets:
+
+  • Hope that industry regulation meaningfully halts the development and
+    proliferation of AI tools, effectively requiring worldwide coordination
+    among world leaders in an era marked by global conflict and strained
+    alliances
+  • Hope that social policies guaranteeing the well-being of people whose
+    income might be displaced by AI (e.g. subsidized job retraining, universal
+    basic income) are adopted, requiring a flurry of progressive, pro-social
+    policies to pass amid a seemingly global rightward lurch politically
+  • Hope that companies like Apple take the high road and reject the adoption
+    of AI, even though this would inevitably result in their stock price (and
+    therefore, executive compensation and employee retention) dropping off a
+    cliff. It could also invite an existential threat if competitors were to
+    introduce game-changing AI-powered capabilities (requiring further hope
+    that consumers, in turn, take the high road and reject those competitors in
+    solidarity with the interests of labor)
+
+Real talk: each of the above scenarios are so laughably unlikely that I
+struggled to get through typing all that.
+
+As a former colleague of mine once quipped after joining an overly optimistic
+software team that thought they were crushing and/or killing it but who in fact
+didn't have a prayer of meeting any of their deadlines before running out of
+funding, "there's a lot of hope in this room… and I don't like it!"
+
+If you're clinging to hopes like those above and you like your odds, then
+that's great. I wish I shared your optimism. But it's always seemed to me that
+pinning my future on widespread collective action to solve problems that affect
+me personally—and in a timely-enough manner for it to make a difference—is a
+risky strategy. Especially if it comes at the expense of taking control of my
+own destiny by planning for the change so as to protect my interests.
+
+[34]This isn't the career I wanted
+
+Let's talk about AI and jobs. I [35]wrote about this topic years and years ago,
+back in March of 2023. I think the post holds up. I wonder how long it will.
+
+More relevant to today's discussion, I suspect many people expressing outrage
+about AI features showing up on the iPhone feel a deep-seated fear that their
+livelihood might be under threat by AI. For anyone that feels that fear, the
+best advice I can offer is to figure out how to protect your own interests in a
+rapidly changing world. As soon as possible. Today, if you have time.
+
+All I can offer is my story and what worked for me, but I'll admit I had the
+benefit of a 20-year jump on most people in thinking about how my white collar
+dream jobs would be at risk of being rendered obsolete by software before I
+turned 40.
+
+Contrary to the impression I left on everyone I've put to sleep at cocktail
+parties in response to being asked, "So what do you do?", I actually never
+intended to build my career on quixotic attempts to remediate the
+hopelessly-broken integration test suites of massive banks and insurance
+companies.
+
+At first, I wanted to write about the video game industry.
+
+Then, I wanted to work as a translator in Japan.
+
+Then, I wanted to go into intellectual property law.
+
+But as soon as I took even a few steps in any of these directions, the risk of
+my own replaceability became apparent. Palpable, even. It felt obvious to me,
+at least as far back as the first half of the 2000s, that each of these jobs
+depended on structural inefficiencies that "the market" would seek to correct
+over a short enough time horizon that it would threaten my ability to
+successfully pursue a financially secure, decades-long career.
+
+My greatest career-planning asset has always been that I'm allergic to the
+sensation that what I'm doing is replaceable. If the work is repetitive, then
+it can be automated. If the work doesn't require any skills that I uniquely
+bring to the table, then someone else could do it. If the work isn't creating
+monetary value for someone, then it's only a matter of time until that someone
+figures out how to stop paying me for it.
+
+If you don't have that allergic reaction yet, I recommend developing it. If my
+recently-manifested hay fever is any indication, it's never too late to pick up
+a new allergy.
+
+I wound up as a software consultant by process of elimination of a dozen things
+I'd rather have been doing. I'll go further: I'm not sure I've ever enjoyed a
+single day of work in my life. I'll stay up as late as my body allows if it
+means staving off work the next day a little longer. Every weekend, I'd feel
+miserable by 3pm on Saturday because I'd realize the next day was Sunday and
+that's the day I spend dreading that work starts again on Monday. Maybe if I
+had scored one of my dream jobs, I'd have felt differently. At the end of the
+day, I'm grateful that my overriding fear of financial ruin was so strong that
+it compelled me to get my ass out of bed in order to go do things that I
+generally hated doing.
+
+Then why do it? I'll never forget what I told my advisor in college who asked
+me the same thing: "because software developers will be the ones to turn off
+the lights behind them as the door closes on the American middle class."
+
+Fucking yikes.
+
+[36]Why I didn't write about video games
+
+Despite contributing to websites with hundreds of thousands of monthly page
+views while I was still in middle school, I realized almost immediately how
+frustrating and fragile advertising income was and how challenging it would be
+to get customers to pay for my content when free alternatives were effectively
+infinite. I absolutely loved writing about games and found the palace intrigue
+of what was going on inside publishers and development studios to be oddly
+titillating. I could imagine breaking out on my own and developing a compelling
+editorial voice to demystify the game industry for other fans, and it seemed
+like it would be a ton of fun.
+
+But making content itself my core work product always felt self-defeating. Free
+content garners far more attention than content hidden behind a paywall, but
+the only way anyone would discover that paid content (or that it's worth paying
+for in the first place) is, ironically, free content. As a result, it's no
+surprise that the people who are most successful at selling paid content
+actually give their best content away for free.
+
+And I don't want to pay for someone's half-assed scraps when they give away
+their best work for free. Telling people to pay for a subscription to anything
+less than my best work would create the risk that subscribers would think it's
+a bait-and-switch. And they'd be right. Because that's exactly what it would
+be.
+
+The Internet is too big and life is too short to settle for anything less than
+someone's best work. As a result, I resolved at the ripe old age of 17 that I'd
+never allow myself to depend on income generated by asking people to pay me for
+my ideas. The reason I was interested in creating things at all was to reach as
+many people as possible, and the prospect of denying people access to that work
+in order to make a living was wholly misaligned with what drove me.
+
+No matter how fun it might have been, the fact that my livelihood would depend
+on the scarcity of information in a world where the availability of information
+was spreading like wildfire presented a risk I couldn't fathom staking my
+financial future on.
+
+[37]Why I'm not living in Japan as a translator
+
+It's hard to imagine now, but the spirit of international exchange was
+overwhelming when I first stepped foot in Japan in 2005. The small city I lived
+in had opened an "international lounge" for foreign guests to get information
+from multilingual civil servants, replete with refreshments and
+Internet-connected computers. The town had a miniscule population of English
+and Brazillian Portugese speaking residents, but nevertheless employed a team
+at city hall who translated every single document, instruction manual, and
+newsletter into both languages (I remember being asked to help them translate a
+guide on how to procure and register a [38]hanko stamp from Portugese into
+English). On one occasion, I was tapped to accompany an American jazz group as
+an English-speaking guide and not-very-good interpreter who was visiting the
+city to play a concert at a cross-cultural fair at the local public university.
+
+These were all incredible experiences and they left an idealistic imprint on
+me. If I really dedicated myself to learning Japanese, I could make a
+meaningful difference by fostering connections across cultural boundaries. I
+could put some good into the world.
+
+But as soon as I put my "career planning" hat on, I realized this was folly.
+Already, people were walking around with [39]electronic dictionaries, and it
+was clear that Internet-connected smartphones were just around the corner. How
+long until phones had microphones that could interpret speech better than I
+could? Or a camera that could decode the Chinese characters that would take
+years for me to learn? Who would pay to have their website translated if a
+browser could eventually do it automatically?
+
+My interest in work as a translator and interpreter was driven by a desire to
+promote cross-cultural understanding, but I wasn't an idiot: I knew the thing
+people would be paying for is to transform a series of words in one language
+into a series of words in another language. As soon as a technology could do a
+"good enough" job at that, I'd be unemployed and stranded halfway across the
+world with no other marketable skills to offer.
+
+[40]Why I didn't become a lawyer
+
+There was a brief time in college after I found out how much money intellectual
+property lawyers made that I seriously thought about it. I was telling a friend
+about this when he said that his dad was an I.P. lawyer… and how much he hated
+his life. That it was painfully monotonous. That every day was spent reviewing
+the same documents, negotiating the same conversations with clients and
+opposing counsel, and making the same basic decisions.
+
+While I have several friends who are lawyers, the profession has long
+represented a twisted form of rent-seeking. By gatekeeping sacred knowledge and
+arcane ways of contorting the English language, it always felt to me that the
+market value of many lawyers was derived from the time and money they had
+invested up front to become a lawyer, as opposed to being rooted in the
+ingenuity of their work actually lawyering.
+
+Almost as soon as I started thinking about going into law, endless worries
+followed. If a bunch of people graduate law school after me, wouldn't that
+undercut my negotiating power with my firm? Wouldn't new tools like [41]OCR and
+"eDiscovery" (that is, using computer search indices to pore through tens of
+thousands of documents instead of dozens of lawyers and paralegals doing it by
+hand) drastically reduce the number of humans that law firms would need to
+employ? And legal expenses are almost always a cost center for clients, so
+wouldn't they drop their lawyers the minute a tool came along that allowed them
+to navigate the dark art of contract language on their own?
+
+Staking so much of my income on a status that I'd attained as opposed to the
+value of my work itself always felt incredibly tenuous to me. So I didn't do
+it.
+
+[42]Why I became a software consultant.
+
+Because software was the thing I was imagining would undermine all these other
+professions, I found myself resigned to a, "if you can't beat'em, join 'em,"
+mindset. I became a software consultant on a mission to immerse myself in the
+most complicated systems and asinine bureaucracies as a form of exposure
+therapy. To learn how to better navigate a world that was beginning to buckle
+under the weight of bad software.
+
+My very first client wanted to automate a bunch of corporate IT provisioning
+tasks (adding, freezing, suspending accounts; assigning access controls; etc.)
+into workflows that would drastically reduce the amount of manpower those tasks
+currently took. They were willing to pay my employer's extremely high
+consulting rates because they wagered one egregiously expensive year
+implementing all this would pay for itself by saving themselves many more years
+of salary and benefits for a team of employees to do it all by hand. It was
+technically fascinating stuff, full of hard problems, yadda yadda, but we all
+knew the score. The more successful my work was, the sooner people would lose
+their jobs.
+
+My second client received tens of thousands of pieces of mail each day, and was
+currently paying dozens of people to staff an off-site scanning facility to
+open, prep, categorize, scan, and forward the mail manually. I was tasked with
+developing an OCR system to eliminate data entry of standardized forms and an 
+[43]OMR solution to automatically forward each piece of mail to the right
+department. I worked side-by-side with the employees of that off-site scanning
+facility. Even though reducing headcount was an expressly stated goal of the
+project, I never got the sense that anybody thought the new system might
+eliminate their job—only someone else's. Witnessing that cognitive dissonance
+was bizarre, and only made flying cross-country each week even more depressing.
+(Of course, it was only a few more years until customers stopped sending mail
+at all, so the project only really served to accelerate the inevitable.)
+
+I have more stories.
+
+The reason software consulting made sense to me as a career choice was
+threefold:
+
+ 1. Every company was coming to rely on software and that dependence was
+    clearly self-reinforcing (the more software they implemented, the more
+    software they would need), which meant a client's need for software would
+    never be sated
+ 2. Software created under typical market conditions (prioritizing cost, speed,
+    and capability over maintainability) meant that it would be a
+    rapidly-depreciating asset at best and an outright liability at worst,
+    which meant no such piece of software would ever be "done"
+ 3. If something like AI were to come along that could generate working code,
+    the upper bound on that code's quality would probably mirror the garbage
+    that most human programmers produced, which means it would only exacerbate
+    the prior two conditions
+
+It seemed to me like learning how to navigate messy, hard-to-maintain, high
+entropy codebases that generated business value but also required ongoing
+changes would provide enough work to occupy several lifetimes. I was betting
+that software would always be shitty and that there'd always be demand for more
+of it. Pessimistic as it was, I feel comfortable declaring that I won that bet.
+If you got into this racket around the same time and for the same reasons,
+you've got a job for life.
+
+[44]What did I just read?
+
+Does this mean I joined the dark side? That's a valid interpretation. I prefer
+to think major technological revolutions are unlikely to be stopped, so the
+only reasonable course of action is to figure out how to adapt to whatever
+changes those revolutions bring.
+
+Rather than try to force the ocean to be still, it's always seemed to make more
+sense to learn to ride the waves instead. And if my public-facing work has done
+anyone else any good at learning how to ride those waves, then I'm happy to
+call that my penance. To that ends, if you've read this far and want some
+personalized advice for navigating the current moment, [45]drop me a line and I
+promise that I will read it and reply.
+
+So scrape away, tech giants. If your AI successfully manages to clone my
+writing, speaking, video, and coding abilities then I'll thank you for saving
+me the effort and go ride the next wave to come along. 🏄‍♂️
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Got a taste for hot, fresh takes?
+
+Then you're in luck, because you can subscribe to this site via [46]RSS or [47]
+Mastodon! And if that ain't enough, then sign up for my [48]newsletter and I'll
+send you a usually-pretty-good essay once a month. I also have a solo [49]
+podcast, because of course I do.
+
+© 2024 Justin Searls. All rights reserved.
+
+
+References:
+
+[1] https://justin.searls.co/
+[2] https://justin.searls.co/
+[3] https://justin.searls.co/about
+[4] https://justin.searls.co/search
+[5] https://justin.searls.co/rss
+[6] https://justin.searls.co/posts
+[7] https://justin.searls.co/links
+[8] https://justin.searls.co/shots
+[9] https://justin.searls.co/takes
+[10] https://justin.searls.co/tubes
+[11] https://justin.searls.co/casts
+[12] https://justin.searls.co/spots
+[13] https://justin.searls.co/mails
+[14] https://justin.searls.co/about
+[15] https://justin.searls.co/search
+[16] https://justin.searls.co/newsletter
+[17] https://justin.searls.co/rss
+[18] https://testdouble.com/
+[19] https://github.com/searls
+[20] https://youtube.com/@JustinSearls
+[21] https://linkedin.com/in/searls
+[22] https://instagram.com/searls
+[23] https://mastodon.social/@searls
+[24] https://twitter.com/searls
+[25] https://justin.searls.co/newsletter
+[28] https://justin.searls.co/posts/dear-ai-companies-please-scrape-this-website/
+[29] https://apnews.com/article/apple-ipad-ad-social-media-reaction-12e7fbd335feb4875d94c31b87379359
+[30] https://justin.searls.co/casts
+[31] https://simonwillison.net/2024/May/8/slop/
+[32] https://justin.searls.co/posts/dear-ai-companies-please-scrape-this-website/#backing-up-a-step
+[33] https://en.wikipedia.org/wiki/Artificial_general_intelligence
+[34] https://justin.searls.co/posts/dear-ai-companies-please-scrape-this-website/#this-isnt-the-career-i-wanted
+[35] https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/
+[36] https://justin.searls.co/posts/dear-ai-companies-please-scrape-this-website/#why-i-didnt-write-about-video-games
+[37] https://justin.searls.co/posts/dear-ai-companies-please-scrape-this-website/#why-im-not-living-in-japan-as-a-translator
+[38] https://en.wikipedia.org/wiki/Seal_(East_Asia)#Japanese_usage
+[39] https://ja.wikipedia.org/wiki/%E9%9B%BB%E5%AD%90%E8%BE%9E%E6%9B%B8
+[40] https://justin.searls.co/posts/dear-ai-companies-please-scrape-this-website/#why-i-didnt-become-a-lawyer
+[41] https://en.wikipedia.org/wiki/Optical_character_recognition
+[42] https://justin.searls.co/posts/dear-ai-companies-please-scrape-this-website/#why-i-became-a-software-consultant
+[43] https://en.wikipedia.org/wiki/Optical_mark_recognition
+[44] https://justin.searls.co/posts/dear-ai-companies-please-scrape-this-website/#what-did-i-just-read
+[45] mailto:website@searls.co
+[46] https://justin.searls.co/rss
+[47] https://mastodon.social/@searls
+[48] https://justin.searls.co/newsletter
+[49] https://justin.searls.co/casts
