@@ -82,7 +82,7 @@ A coworker at Viget, [Nathan Long][1], publishes a weekly [newsletter][2], and h
 [4]: https://carillon58.bandcamp.com/album/venus
 [5]: https://www.youtube.com/watch?v=SySKeQDWtqA
 
-We've had a mouse in our house for the last few months. It didn't really bother me, seemed pretty cute and harmless, and I've got ZERO appetite for mouse murder. But eventually he did make his way into our HVAC system and start causing problems, so I did a little bit of research and ordered a few of these [humane traps][6]. Turns out our mouse was actually six mice and counting. Solid product, highly recommended.
+We've had a mouse in our house for the last few months. It didn't really bother me, seemed pretty cute and harmless, and I've got ZERO appetite for mouse murder. But eventually he did make his way into our HVAC system and start causing problems, so I did a little bit of research and ordered a few of these [humane traps][6]. Turns out our mouse was actually six mice and counting.
 
 [6]: https://gerossi.com/product/humane-catch-and-release-indoor-outdoor-mouse-traps-pack-of-2/
 
