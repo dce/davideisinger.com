@@ -1,0 +1,150 @@
+[1]Tom MacWright
+
+tom@macwright.com
+
+[2]Tom MacWright
+
+  • [3]Writing
+  • [4]Reading⇠
+  • [5]Photos
+  • [6]Projects
+  • [7]Drawings
+  • [8]Micro
+  • [9]About
+
+I read The World Beyond Your Head by Matthew B. Crawford on July 7, 2024
+
+Review
+
+This book sat on my digital bookshelf for months. I had forgotten what prompted
+me to buy it, and the title made me think that it would be a
+pop-psych-economics book that repeats the title in every paragraph, like [10]
+many [11]others I had [12]come across.
+
+Crawford is definitely floating around the topic of distraction: that’s the
+hook that makes this book relevant and marketable.
+
+I just read a few reviews on Goodreads before writing this, breaking my rule of
+never reading book reviews before reading and reviewing books. People seem to
+be annoyed at how he doesn’t stick to the topic, and they’re divided on whether
+the “hard philosophy” in this book is too hard or too soft. I wish I hadn’t
+read the reviews.
+
+The summary: I loved this book. Its little discussions of things like the
+importance of real-world difficulty in teaching us that we are physical,
+limited creatures who do not have all-powerful wills. The take on
+individuality: Crawford writes about the modern impulse to always prove
+ourselves as competent, competitive, and entrepreneurial, and how this differs
+from the older ideas of simply having a job, a role in society, and being
+judged mainly on whether you’re a morally good person, not whether you’re a
+genius or a hero.
+
+I thought that the interludes into philosophy were perfect: they included
+enough depth to get a handle on what the great thinkers were saying, but didn’t
+presume that the reader had a grasp on Kant or Kierkegaard already. I
+occasionally read philosophy now and read some of the classics in college
+(especially loved Kant and Spinoza), but I’m not prepared to judge whether
+Crawford is right or wrong in his points.
+
+    Quite apart from the business appeal of MOOCs for universities (payroll is
+    a lamentable thing), mechanizing instruction is appealing also because it
+    fits with our ideal of epistemic self-responsibility.
+
+The discussion of education and “epistemic responsibility” was fantastic. It
+connects so much to the idea of “unschooling” which is really popular with one
+of my social circles. (for the new-to-it, [13]unschooling is an informal
+learning style in which students are expected to learn from natural life
+including play, and there are often teachers present but there is no set
+curriculum. Unschooling has a foothold in technology because of books like [14]
+Mindstorms and the idea that kids can self-educate with computers. It also has
+a strong relationship with libertarianism in the sense that freedom is a common
+value, and schools are described as coercive, and also that an education system
+based on unschooling would require fewer institutions, especially those of the
+government-run variety. I am emphatically not a libertarian and view those
+overlaps as a major reason to be skeptical.)
+
+Crawford argues that enlightenment-era thinking as well as the particularly
+American Emerson/Thoreau-era philosophers think that only self-attained
+knowledge really counts, and they undervalue culture and social bonds in
+general, but especially those between teachers and pupils.
+
+    That is what computer games seem to do for our quasi-autistic cohort of
+    young men; it is what machine gambling does for those who have gone down
+    that particular path. Perhaps such pursuits help us manage the anxiety and
+    depression that come when experiences of genuine agency are scarce, and at
+    the same time we live under a cultural imperative of being autonomous.
+
+There’s also a really solid discussion of gambling and its role in society.
+I’ve been thinking about gambling a lot recently. I don’t gamble, and have no
+intent or inclination to ever gamble. But I’ve seen gambling dynamics appear in
+a lot of unexpected places.
+
+For example - there’s a fintech called [15]Yotta that recently failed and has
+potentially lost its customers money. It was a [16]“lottery-based savings
+account”, which is a series of words I’d never expect together. This is a whole
+category called [17]prize-linked savings accounts. It’s crazy.
+
+The power of gambling is scary to understand, but I think that this book makes
+a very strong argument that all of the psychic energy that flows into gambling
+comes from the lack of genuine agency, opportunity, and certainty in the rest
+of society.
+
+Sidenote: this book uses autism as a metaphor or descriptor for behaviors and
+thoughts, quite a lot. I didn’t find this very inappropriate or incorrect, but
+if you don’t want to read a book that talks about that, proceed with caution.
+
+    The question that hovers over your character is no longer that of how good
+    you are, but of how capable you are, where capacity is measured in
+    something like kilowatt hours—the raw capacity to make things happen. With
+    this shift comes a new pathology. The affliction of guilt has given way to
+    weariness—weariness with the vague and unending project of having to become
+    one’s fullest self. We call this depression.
+
+This idea of the cause of depression - the weariness of having to prove oneself
+capable - resonated hard with me. Maybe there’s something true and vital here,
+or maybe he and I have the same kind of sad, who is to say!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+This is a book about a bunch of different topics that float around the modern
+condition, capitalism, attention, and individuality. The whole thing was really
+engaging for me, and extremely thought provoking. I found myself reconsidering
+my conception of myself, work, friends, and values. It might do the same for
+you!
+
+Or it might not! I was in the right head space for this read, and was happy to
+follow the sometimes-meandering trails. At times, this book can read like an
+Adam Curtis documentary - tying together big ideas and statements about modern
+times that seem a little too cute to be true.
+
+But it’s on a short list of books that I finished and immediately thought about
+re-reading in a few months.
+
+Details
+
+  • The World Beyond Your Head by Matthew B. Crawford
+  • ISBN13: [18]9780374535919
+  • Published: 2015
+  • Publisher: Farrar, Straus and Giroux
+
+
+References:
+
+[1] https://macwright.com/
+[2] https://macwright.com/
+[3] https://macwright.com/writing/
+[4] https://macwright.com/reading/
+[5] https://macwright.com/photos/
+[6] https://macwright.com/projects/
+[7] https://macwright.com/drawings/
+[8] https://macwright.com/micro/
+[9] https://macwright.com/about/
+[10] https://macwright.com/2018/10/02/against-charity
+[11] https://macwright.com/2022/02/09/laziness-does-not-exist
+[12] https://macwright.com/2022/08/01/against-creativity
+[13] https://en.wikipedia.org/wiki/Unschooling
+[14] https://en.wikipedia.org/wiki/Mindstorms_(book)
+[15] https://www.cnbc.com/2024/06/21/synapse-collapse-nearly-109m-in-yotta-customer-deposits-vanish.html
+[16] https://moneywise.com/banking/banking-reviews/yotta-review
+[17] https://www.nerdwallet.com/article/banking/prize-linked-sweepstakes-savings-accounts
+[18] https://en.wikipedia.org/wiki/Special:BookSources?isbn=9780374535919

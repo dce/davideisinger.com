@@ -1,0 +1,247 @@
+[1]Tom MacWright
+
+tom@macwright.com
+
+[2]Tom MacWright
+
+  • [3]Writing⇠
+  • [4]Reading
+  • [5]Photos
+  • [6]Projects
+  • [7]Drawings
+  • [8]Micro
+  • [9]About
+
+Recently
+
+I skipped Recently last month. This one’s even more of a grab-bag than usual!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The <video> element and browser abstractions
+
+I was reading [10]Iván Sánchez Ortega’s thoughts on maps4html (at the time of
+writing, his website is down, so that’s an archive.org link). The post is about
+a theoretical HTML element that embeds a map on a webpage - something that Iván
+is skeptical of and [11]I am as well. But this section really got me thinking:
+
+    The user experience for video back in the day, both for the user (“I have
+    to download what and install it where?”) and the web developer (user agent
+    sniffing plus an <object> inside an <embed> with a MJPG fallback in the
+    form of a <img>) was quite abismal (sic). A <video> element back then made
+    sense.
+
+    So let’s fast-forward ten years, and see what <video> has really brought
+    us. For me, three things spring to mind:
+
+ 1. Chunked video
+ 2. DRM (in the form of EME).
+ 3. Consistent UI, then inconsistent UI back again.
+
+This is clear in hindsight but I had never really connected the pieces – the
+rise of standardized streaming video has also enabled DRM to be so commonplace.
+I can no longer take screenshots of Netflix, which was something that I used to
+[12]love to do. There are good tools for [13]downloading YouTube videos, but
+the same won’t exist for Hulu or HBO Max, and once a TV show declines to renew
+its streaming license, it’ll be inaccessible.
+
+I think this is a really interesting point: the standardization of the element
+meant that video decoding and UI would be part of the browser rather than the
+application, which allowed for strong copy-protection to be standard, and
+shifted power away from users. It makes me think twice about standardizing more
+elements of the web.
+
+Maps are what the [14]maps4html project wants to standardize, but argument is
+basically the same for cryptocurrency boosters (those who remain). They argue
+that the web was missing a “payments primitive” and it should be implemented at
+a protocol level. I don’t even agree with their goals (this current level of
+capitalist dystopia is enough, thank you very much, we don’t need to
+financialize any more stuff, please), but I also don’t feel great about the
+means of accomplishing those goals - embedding an opinionated currency and
+transaction system into standard technology.
+
+Part of the same thought bubble: is the web as a low-level abstraction of basic
+HTML elements and raw JavaScript on which the developer brings their own
+higher-level abstractions (web frameworks, or previously, Flash?), more
+egalitarian or free than a web with higher-level abstractions that are dictated
+by browsers and operating systems?
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Leverage
+
+    Historically, a key way to turn mediocre investments into good investments
+    has been to apply leverage. That’s not a recommendation; that’s a
+    historical analysis, and it comes with survivorship bias.
+
+This [15]blog post from Lyn Alden is a compelling and risqué unified theory of
+investing. She claims that real estate, stock, and bond investments are all
+pretty bad in the long run, and that taking leverage is actually a historically
+winning strategy because it shorts your fiat currency and amplifies your
+exposure to the other thing.
+
+    Within the context of the fiat currency system, it has been both
+    quantifiably workable and socially acceptable to own real estate with
+    5-to-1 or even 10-to-1 leverage. People who are not professional investors
+    will routinely put 20% down and borrow 80% of the value of a home, with
+    various options to increase that to 10/90 in some cases, because we set up
+    our financial system around this being a normal thing to do.
+
+This is a good point that I never stop mentioning – mortgages are complicated
+and risky investments. Sometimes not as risky for the borrower but [16]always
+risky).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BeOS & Haiku
+
+I love the BeOS and Haiku icons and designs? They really are something. I’ve
+always had a love for the [17]Mac OS 8 look, but [18]BeOS is just beautiful: it
+has some of the strong colors of Windows, but used in a different way. And the
+icons…
+
+BeOS icons
+
+From [19]guidebookgallery.org. By the way: did you know about the [20]
+image-rendering: pixelated CSS option?
+
+And then look at [21]the icons from Haiku, the successor to BeOS:
+
+HaikuOS icons
+
+I’m not going to go as far as actually running these operating systems, but
+man, it all reminds me of a day when computers felt so much more focused and
+personal.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Bikes are electric now
+
+I’ve been biking more recently, and getting ready for a small Labor Day bike
+trip through Long Island. Eventually, when I have time (ha!) I want to do some
+much longer trips. I’ve been spending a bit more time getting reacquainted with
+the state of bicycles. In my lifetime, there have been a bunch of big changes
+for high-end bikes:
+
+  • Disc brakes replaced V-brakes, even for some road bikes
+  • Tubeless tires replaced tires with tubes for most bikes
+  • Wheels got bigger and most mountain bikes are 29ers or above
+
+I’ve mostly been on board with these things - the bigger wheels were obviously
+an upgrade from day one, especially.
+
+The weird new thing is electronic shifting, which is apparently becoming the
+norm. It’s a pretty odd turn, if you ask me: your bike as a little wireless
+electronic network in which the shifter on the handlebars connects to a motor
+in the derailleur.
+
+It’s nice to see though, from some ‘bike influencers’, a [22]pushback and some
+people even going back to [23]non-indexed shifters so they can use any kind of
+mech drivetrain.
+
+I think that when I get a midlife-crisis bike, there’s a decent chance it’ll be
+electric, partly because it allows for fewer cables to route, which would make
+mounting [24]bikepacking bags a little easier. But ‘running out of power’ in
+the middle of the woods, or just having ‘firmware’ installed on my bicycle
+creeps me out.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Running
+
+The 5k season continues. So far this summer: 21:00, 21:01, 20:27, 21:26. My
+goal is sub-20, which should be achievable (I’ve run it before in previous
+seasons), but mostly the weather hasn’t been cooperating. Last night’s race
+(21:26) was in 83°F, 68% humidity. Shoutout to singlets for helping me survive
+the heat. I picked up a [25]Bakline one and have been impressed. I see [26]
+Tracksmith gear constantly, and it’s good too, but I fear that some of these
+running brands are getting a ‘fashion brand’ markup.
+
+It’s hard to compete with DC and San Francisco as running cities. The DC region
+is [27]the ‘fittest’ in the country there are great trails in Rock Creek Park
+and super wide sidewalks in some neighborhoods. San Francisco has [28]
+spectacular hills and trails that can convince you that you’re really in the
+wild. New York’s sidewalks have far fewer cars parked on them than San
+Francisco’s, but you always need to look where you’re going. The sights are
+better, in my opinion: while SF’s hills look cool in the distance, there’s
+nothing like seeing the skyscrapers of Manhattan or running across the Brooklyn
+Bridge.
+
+New York’s running culture is great. There are tons of running clubs, and there
+are so many races to pick from. San Francisco had a [29]free weekly 5k called
+Park Run (part of a global network of events), but it was cancelled in 2020.
+Brooklyn doesn’t have a Park Run, but it has the [30]Al Goldstein race series,
+which is about $15, competitive, and well-run.
+
+CityStrides
+
+I’ve competed 10.24% of Brooklyn so far on [31]CityStrides: progress has
+stalled because I’ve been just running Prospect Park loops over and over again
+to get in shape for 5ks.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Listening
+
+[32]Jessie Mae Hemphill by Jessie Mae Hemphill
+
+I started listening to brat but was disappointed. The biggest find of the last
+few months has been [33]Jessie Mae Hemphill, who I embarrassingly discovered
+because her song ‘Tell Me You Love Me’ came on the rotation in a Chipotle.
+
+Reading
+
+Oh man, [34]The World Beyond Your Head was such a read. It’s hard to summarize.
+In hindsight, I’m not even sure what it was about the book that hooked me -
+there were a few loosely-connected topics, each of which was really compelling.
+It made me think a lot. Hell of a book.
+
+Watching
+
+[35]Kinds of Kindness was great: I’ve now watched [36]29% of Yorgos Lanthimos
+films and love his style.
+
+August 1, 2024  [37]Tom MacWright ([38]@tmcw, [39]@tmcw@mastodon.social)
+
+
+References:
+
+[1] https://macwright.com/
+[2] https://macwright.com/
+[3] https://macwright.com/writing/
+[4] https://macwright.com/reading/
+[5] https://macwright.com/photos/
+[6] https://macwright.com/projects/
+[7] https://macwright.com/drawings/
+[8] https://macwright.com/micro/
+[9] https://macwright.com/about/
+[10] https://web.archive.org/web/20230205201150/https://ivan.sanchezortega.es/politics/2020/09/01/mapml-essay-part4-thumbs-up-for-document-accesibility.html
+[11] https://gist.github.com/tmcw/c17eec41deaec8f8f7b3d8bd38420a27
+[12] https://www.are.na/tom-macwright/subtitles-1528478762
+[13] https://github.com/ytdl-org/youtube-dl
+[14] https://github.com/Maps4HTML
+[15] https://www.lynalden.com/most-investments-are-bad/
+[16] https://byrnehobart.medium.com/the-30-year-mortgage-is-an-intrinsically-toxic-product-200c901746a
+[17] https://guidebookgallery.org/screenshots/macos80
+[18] https://guidebookgallery.org/screenshots/beos5
+[19] https://guidebookgallery.org/guis/beos
+[20] https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering
+[21] https://discuss.haiku-os.org/t/post-your-haiku-screenshot/3064?page=4
+[22] https://www.youtube.com/watch?v=CAV9XvzB0eQ
+[23] https://www.youtube.com/watch?v=CqMyvObJqnk
+[24] https://bikepacking.com/
+[25] https://www.bakline.nyc/
+[26] https://www.tracksmith.com/
+[27] https://www.washingtonpost.com/dc-md-va/2024/07/25/arlington-dc-fittest-cities/
+[28] https://macwright.com/hills/
+[29] https://www.parkrun.us/crissyfield/
+[30] https://runsignup.com/Race/NY/Brooklyn/AlGoldsteinSummerSpeedSeries
+[31] https://citystrides.com/
+[32] https://mississippirecords.bandcamp.com/album/jessie-mae-hemphill
+[33] https://en.wikipedia.org/wiki/Jessie_Mae_Hemphill
+[34] https://macwright.com/2024/07/07/world-beyond-your-head
+[35] https://en.wikipedia.org/wiki/Kinds_of_Kindness
+[36] https://letterboxd.com/director/yorgos-lanthimos/
+[37] https://macwright.com/about/
+[38] https://twitter.com/intent/follow?screen_name=tmcw&user_id=1458271
+[39] https://mastodon.social/@tmcw
