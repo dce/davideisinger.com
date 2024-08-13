@@ -57,7 +57,7 @@ We did a newborn photo shoot with [G. Lin Photography][1], though no one told Ne
 
 [1]: https://www.glinphotography.com/
 
-We took the kids to a few Bulls games. Snacks consumed: many. Baseball consumed: none.
+We took the kids to a few Bulls games. Snacks consumed: many. Baseball consumed: very little.
 
 {{<dither IMG_3323.jpeg "782x600" />}}
 {{<dither IMG_6441.jpeg "782x600" />}}
@@ -74,7 +74,7 @@ I signed up for [Bull City Race Fest][2] half-marathon for what'll be the third 
 
 Randomly:
 
-* I needed to replace the roof on my house, and for the first time in my life, I needed to collect bids and select a vendor. I'm used to being in the opposite role as a consultant trying to win work, and so it was weird being the one getting pitched instead of pitching, and in a domain I know next-to-nothing about. It definitely gave me more empathy for what our clients go through in selecting a technical partner. I ended up with a company that was price competitive and just gave me a good gut feeling, and I'm happy with the result.
+* I needed to replace the roof on my house, and so had to research roofing companies, collect bids, and select a winner. I'm used to being in the opposite role as a consultant trying to win work, and it was weird being the one getting pitched instead of pitching, and in a domain I know next-to-nothing about. It definitely gave me more empathy for what our clients go through in selecting a technical partner. I ended up with a company that was price-competitive and just gave me a good gut feeling, and I'm happy with the result.
 
 * I've been thinking about the authors whose worldviews really speak to me, like [David Roth][4], [Ed Zitron][5], and [Molly White][6]. I was initially drawn to these folks because they were able to eloquently express thoughts and feelings I was already having about topics like blockchain, AI, and capitalism more broadly. But over time, I've consumed more and more of this content in an increasingly unquestioning way. I find my views getting increasingly extreme, and I've sort of lost the ability to relate to people who feel more positively about these things.
 
