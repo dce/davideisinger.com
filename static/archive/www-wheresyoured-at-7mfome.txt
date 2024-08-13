@@ -1,0 +1,526 @@
+[2] Ed Zitron's Where's Your Ed At
+
+  • [3]Home
+  • [4]About
+  • [5]Better Offline
+
+[7]Log In [8]Subscribe
+[9] Sign up [10] Sign in
+
+  • [13]Home
+  • [14]About
+  • [15]Better Offline
+
+  • [16]Sign up
+
+[17] Log in [18] Subscribe
+[19]Newsletter
+
+The Rot Economy
+
+[20]Ed Zitron Feb 9, 2023 13 min read
+
+At the center of everything I’ve written for the last few months (if not the
+last few years), sits a cancerous problem with the fabric of how capital is
+deployed in modern business. Public and private investors, along with the
+markets themselves, have become entirely decoupled from the concept of what
+“good” business truly is, focusing on one metric — one truly noxious metric —
+over all else: growth.
+
+“Growth” in this case is not necessarily about being “bigger” or “better,” it
+is simply “more.” It means that the company is generating more revenue, higher
+valuations, gaining more market share, and then finding more ways to generate
+these things. Businesses are expected to be - and rewarded for being - eternal
+burning engines of capital that create more and more shareholder value while,
+hopefully, providing a service to a customer in the process. In the public
+markets, that means that[21] companies like Google, Meta, and Microsoft were
+rewarded for [22]having unfocused, capital-intensive businesses that required
+mass layoffs when times got tough, because the market loved the idea that
+they’d found a way to save money. They weren’t punished for their poor
+planning,[23] their stagnating products, their mismanagement of human capital,
+or their general lack of any real innovation because the numbers kept going up.
+
+[24]Subscribe
+
+[25]When I wrote in October that Mark Zuckerberg was going to kill his company,
+the street responded in kind, savaging Meta’s stock for burning cash building a
+metaverse that was never going to exist. Yet once Zuckerberg fired 11,000
+people and claimed that 2023 would be the “[26]year of efficiency,” the market
+responded with double-digit increases in the price of Meta’s shares, despite
+the fact that Facebook’s active user growth declined and they[27] lost $13.7
+billion on the same metaverse department that caused the stock to drop the last
+time.
+
+The markets[28] seemed to ignore the $410 million fine that Meta received for
+GDPR violations, along with the fact that European users will now have to
+deliberately opt-in to sharing their data - which is bad, considering only
+about[29] 25% of iOS users choose to opt-in to app tracking, and their business
+model is intrinsically linked to the repurposing of customer data into ad
+targeting telemetry.
+
+Let’s be abundantly clear: Meta’s core advertising models depend heavily on
+things that likely become impossible to do legally (or even technically, given
+Apple’s App Tracking Transparency, Alphabet’s retirement of the third-party
+tracking cookie, and the Chromium Project’s planned blocking of non-cookie
+fingerprinting technologies) in the next decade. Their other products simply do
+not make that much money. Their CEO’s big idea to make more money has lost them
+billions of dollars, and likely won’t make them any for quite some time. Yet
+Meta remains beloved, because the numbers are going up.
+
+Killing Innovation
+
+Google has a similar yet slightly different story, where their core product -
+search - has gone from a place where you find information to an
+increasingly-manipulated labyrinth of SEO-optimized garbage shipped straight
+from the content factories.[30] As Charlie Warzel put it last year: “Google
+Search, what many consider an indispensable tool of modern life, is dead or
+dying.”  Users have to effectively find cheat codes - adding things like “
+[whatever you’re searching]+Reddit” to get reliable answers. Despite its
+decades-long efforts to improve the quality of organic results, Google remains
+easily-gamed by anyone who knows how to craft an algorithm-friendly headline.
+
+Without finding a way to negotiate with Google Search, you’re offered a
+fragmented buffet of content provided by Google’s algorithm, either based on
+how much they’ve been paid to prioritize said content or by how companies have
+engineered content to rank higher on search. Google no longer provides the
+“best” result or answer to your query - it provides the answer that it believes
+is most beneficial or profitable to Google. Google Search provides a “free”
+service, but the cost is a source of information corrupted by a profit-seeking
+entity looking to manipulate you into giving money to the profit-seeking
+entities that pay them.
+
+The net result is a product that completely sucks. “Googling” something is now
+an exercise in pain, regularly leading you to generic Search Engine Optimized
+content that doesn’t actually answer your question. Google’s push to
+hyper-optimization has also led it to serve results based on what it *thinks*
+people mean, rather than what they actually said. It’s frustrating, upsetting
+and annoying. A problem that likely hits hundreds of millions of people a day,
+yet Google doesn’t have to change a thing, because the street likes that they
+have found more innovative ways to get blood from a stone. These moves are
+unquestionably hurting Google, to the point that Microsoft’s Bing (paired with
+OpenAI’s ChatGPT), has gained major[31] headlines for providing the service
+that everybody wished Google would.
+
+That’s because Google has, like every major tech company, focused entirely on
+what will make revenues increase, even if the cost of doing so is destroying
+its entire legacy.[32] Google has announced their own “Bard AI” to compete with
+Bing’s ChatGPT integration, and I’ll be honest - I feel a little crazy that
+nobody is saying the truth, which is that Google broke the product that made
+them famous and is now productizing fixing their own problem as innovation.
+
+That’s because the markets do not prioritize innovation, or sustainable growth,
+or stable, profitable enterprises. As a result, companies regularly do not
+function with the intent of making “good” businesses - they want businesses
+that semiotically align with what investors - private and public - believe to
+be “good.”
+
+Despite its ubiquity, companies like Uber should not exist. Uber has not made a
+profit from its businesses. They had a net loss of 1.21 billion last quarter,
+yet the street fell over itself to praise the company because “[33]gross
+bookings grew 19% year-over-year” for their unprofitable businesses that
+largely hinge upon the government failing to impose sensible labor laws,[34] a
+con that will eventually come to an end, and indeed, has ended in some
+territories like the UK, where Uber drivers are now recognized as employees,
+and are therefore entitled to pensions, paid vacation time, and a minimum wage.
+London, I note, is one of Uber’s most important markets.
+
+Yet as of writing, Uber’s stock is up 5%.
+
+The media itself somewhat fuels this economy of growth-mongering. CNBC reports
+earnings like many other media entities, but their[35] reports on, say, Uber
+fail to acknowledge the fact that Uber has spent nearly 15 years burning money.
+It has never turned a profit. Even with its push into freight and food
+delivery, it  may never turn a profit,[36] no matter how much it contorts its
+financials to pretend otherwise. Yet acknowledging the truth is that much worse
+because Uber will not be killed, because people keep buying the stock, because
+it is a “valuable company” in the eyes of markets that have fucking cataracts.
+
+This is why we see such vast oscillations of hiring and firing - because these
+companies are never, ever punished for failing to operate their businesses in a
+sustainable way, or even with a view for the future, particularly when it comes
+to macroeconomic trends that literally everyone else saw coming.
+
+Their business models were predicated on an endless supply of cheap money, even
+though the Fed steadily ratcheted interest rates in the years leading up to the
+Covid pandemic, only slashing them to mitigate the pain of Covid and (to a
+lesser extent) the US-China trade war.. The specter of inflation reared its
+ugly head as early as 2020, first driven by the lockdown-induced chaos on
+supply chains, and then exacerbated further by the war in Ukraine, the
+collateral damage of China’s Zero Covid policy, and a chronic labor shortage in
+most industrialized countries.
+
+The markets do not react when they are mass-hiring people to capture consumer
+demand. They do not react to the fact that Microsoft, for example,[37] seems to
+be[38] laying[39] off[40] people[41] almost every year. In 2020, CEO Satya
+Nadella called for a “[42]referendum on capitalism,” telling businesses to
+start to grade themselves on the “wider economic benefits they bring to
+society, rather than profits.” To be clear,[43] this was four months after
+Microsoft laid off 1000 people,[44] one year before they hired 23,000 people,
+and a few months after which they laid off 10,000 people to “[45]deliver
+results on an ongoing basis, while investing in [their] long-term opportunity.”
+
+Where’s Your Ed At is a free newsletter, but if you like my work and want to
+kick me a few dollars, [46]you can do so here. I really appreciate your
+support.
+
+Everything Ventured, Nothing Gained
+
+Before these companies reach the public markets, they are fueled by an even
+more violently reckless form of funding - venture capital. Venture capitalists
+are regularly incentivized to create businesses that look valuable but aren’t
+necessarily of value.[47] When I wrote about the Liches of Silicon Valley last
+year, I remarked upon how many valley companies experience volatile, erosive
+cycles of growth with the goal of being acquired or going public, burning as
+much venture capital as it takes to find an outcome:
+
+    They repeat a very specific cycle - company is[48] the next big thing,
+    company is[49] now worth over a billion dollars,[50] company is
+    experiencing “unheard of growth” (with no question as to whether they are
+    sustainable or profitable),[51] company is now challenging ‘the big dogs’
+    of industry,[52] a little M&A,[53] an absolutely insane valuation, and then
+    a sudden realization that actually,[54] perhaps this wasn’t a good business
+    at all? I am hammering on TechCrunch links here because I am being lazy -
+    they are far from the only outlet to assume that a company like Brex would
+    not simply run itself into the ground through virtue of existing - but the
+    path is always the same - growth, growth, growth, legitimization, growth,
+    growth, acquisition, and then an eventual reckoning with real life.
+
+Venture pumps millions or billions of dollars into ideas that might sell a
+product or a service, but ultimately resemble things that can be sold to other
+companies or put on the public market for a profit higher than what was paid on
+a per-share basis. I once suggested that Silicon Valley conflated “making great
+ideas work” with “making ideas I like work,” but on consideration, many of
+these companies aren’t even things venture capitalists like - they are things
+that resemble things that they can sell. Do I genuinely believe that everyone
+who invested into the Web3 grift was a strident believer in the brave new
+decentralized economy? Hell no. They just went where the winds blew — or where
+they seemed to be blowing.
+
+Andreessen Horowitz was the lead participant in arguably the biggest con in
+venture capital, pumping billions into Web3 companies that didn’t have any real
+product, but[55] stapled together enough buzzwords and websites to resemble
+actual entities. A16Z found a way to vastly accelerate the
+idea-to-business-to-profit cycle of venture. Despite claiming it was “[56]Time
+To Build” in 2020, Andreessen Horowitz realized that there wasn’t ever really
+much of a need to build at all - you could create things that semiotically
+aligned with what “valuable” looked like and profit off of that. While the
+public markets may (at least, before the rise of the SPAC) have required some
+sort of business - even if said business wasn’t graded on being a “good” one -
+the cryptocurrency markets allowed the vaguest of ideas to get even vaguer
+valuations.
+
+This same insipid thought process applies to the rest of their portfolio too.
+Adam Neumann,[57] a guy who is most famous for running WeWork into the ground,
+got a second at-bat with his new startup “Flow,” a company that Neumann is
+still not able to fully describe, but that may involve you renting to own an
+apartment that Flow owns somewhere at some point. Just like Silicon Valley
+can’t help itself from reinventing the bus, Neuman is seemingly attempting to
+reinvent the rental market — a diseased, exploitative industry in its own right
+— in his own image. He’s replacing one cancer with another, only even more
+aggressive and metastatic.
+
+Neumann was, is, and will always be full of shit. Appropriately, in[58] a video
+A16Z released yesterday, Neumann used the following analogy to describe Flow:
+
+    The founder turned to a toilet metaphor to explain one aspect of his idea
+    of ownership. “If you’re in an apartment building, and you’re a renter, and
+    your toilet gets clogged, you call the super,” he said. In contrast, “if
+    you’re in your own apartment, and you bought it and you own it and your
+    toilet gets clogged, you take the plunger.” For Neumann, fixing up your own
+    apartment means shifting from “being transactional to actually being part
+    of a community” and “feeling like you own something.”
+
+In a functioning society, Adam Neumann would not be given a single dollar. This
+quote proves that he has never unclogged a toilet, because in the event that
+you could unclog your toilet in an apartment you rented, you’d probably do it.
+If the clog was so severe it required the super, you would probably still call
+a plumber if you owned the place, because your nasty business has created a
+problem you cannot solve.
+
+What I am suggesting is that Adam Neumann doesn’t know anything about home
+ownership, or unclogging toilets, or toilets, or the regular experience of
+being a human. Yet he is given unfathomable amounts of capital to address
+problems related to these things, because he has the resemblance of the kind of
+messianic white guy that is able to take a product and sell it,[59] even if he
+is quite literally the guy who failed to do this before.
+
+Neumann turned a (nominally) $47bn company into a $2.9bn company. In a sane and
+just world, he wouldn’t see a dollar of funding for the rest of his life.
+
+There are tons of other examples of colossally stupid assholes and stupid ideas
+getting money.[60] As I wrote about on Monday, the largest investment rounds of
+the last few years have gone to companies that got obscene valuations based on
+nothing other than a vague sense of them “looking like a winner.” There is no
+reason[61] a weight loss app should need $540 million to operate - that is not
+a sustainable enterprise considering[62] the entire weight loss industry is
+worth about $3.8 billion. Clubhouse was never worth the billions of dollars
+pumped into it,[63] considering the [64]entire radio industry only makes about
+$12 billion a year combined. While capital is required to get a company off the
+ground, the only way to justify these massive surges of capital is that venture
+capitalists are putting companies on life support in the hopes that they can
+flog them for a profit.
+
+And this corrosive capital system gets continually rewarded. Companies like
+Uber are taken public,[65] making massive windfalls for venture capitalists
+without[66] ever having to run a profitable business.[67] Venture capitalists
+crammed $41 billion into crypto in the space of 18 months, despite there being
+no real use cases for crypto.[68] Metaverse companies raised $120 billion in
+2022 for a concept that has yet to really exist, and perhaps never will. Yet
+these concepts get vast amounts of money because venture capitalists are
+incentivized to pump cash into “good companies to invest in” over “good
+companies.”
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+As my friend [69]Kasey put it in a recent conversation, growth is a fire. If
+you build a nice, sustainable fire, it’ll keep you warm, cook food and sustain
+life. And if the only thing you care about is how big your fire is, then it’ll
+set fire to everything around it, and the more you throw into it, the more
+it’ll burn. Eventually, you’ll have nothing left, but if you desperately desire
+that fire, you will constantly have to find new things to burn at any cost.
+
+And we, societally, have turned our markets and businesses - private and public
+- over to arsonists. We have created conditions where we celebrate people for
+making “big” companies but not “good” companies.
+
+Venture capital and the public markets don’t actually reward or respect “good”
+businesses or “good” CEOs - they reward people that can steer the kind of
+growth that raises the value of an asset. Elon Musk’s success with Tesla didn’t
+come from the inarguable point that he ended the monopoly of the internal
+combustion engine - it came from his[70] canny manipulation of the symbolic
+value of a stock through lies and half-truths, meaning that there was always a
+perpetual reason that Tesla was a “growth” company and a “good stock to buy.”
+[71] Sundar Pichai isn’t paid $280 million a year because he’s a “good CEO.”
+ After all, Google has all but destroyed its search product. He’s paid because
+he finds ways to increase the overall growth of the company [72](even while
+their cloud division still loses money), and thus the stock goes up.
+
+The consequences are that these companies will continue to invest in things
+that grow the overall revenue of the company over all else. They will mass-hire
+and mass-fire, because there are no consequences when the markets don’t really
+care as long as the company itself stays valuable. Venture capitalists
+certainly don’t mind - after all, it’s “less burn” to “get you through” tough
+climates that were arguably created by the poor hiring decisions of a company
+that was never incentivized to hire sustainably or operate profitably.
+
+Until we see a seismic shift in how major investors treat the companies they
+invest in, this cycle will continue. I guarantee that we will see each and
+every one of the companies doing mass layoffs do mass-hirings in the next few
+years, and then do another mass layoff not long after, because they are simply
+treating human capital as assets to be manipulated to increase the value of a
+stock. They are not structured to evaluate whether the business is
+“sustainable,” because their only interest is seeing their current profits grow
+by multiples that please Wall Street.
+
+“Good companies” should not have to repeatedly lay people off. They should not
+be mass-hiring for fear that the demand they are capturing is temporary, and
+those new employees will soon find themselves at the receiving end of a pink
+slip.
+
+The lens through which we evaluate businesses is cracked, and until we fix it,
+we will continue to experience these punishing cycles of binging and purging on
+human capital.
+
+This is the problem at the center of almost everything I’ve written. Why are
+bosses mad they can’t bring people back to the office? Because their alignment
+of business success isn’t really tied to profit or “success,” but rather the
+sense that they are “big” and “successful,” which requires a bustling workplace
+and “ideas.”
+
+Why did billions of dollars get pumped into crypto’s countless non-companies?
+Because “success” as defined by capital has been reframed to mean “number go
+up.” As a notion, it is divorced from any long-term thinking, fiscal probity,
+or even what you and I would call “morality.”
+
+Why did these companies never seem to get blamed for hiring and then quickly
+firing tens of thousands of people? Because at the heart of the business media
+and the markets, workers were necessary casualties of the eternal struggle for
+growth. Layoffs are inevitably reported as a large number (“10,000 employees at
+Microsoft”), which makes it all too easy to remove the human element. When
+confronted with numbers of this scale, it’s easy to ignore the individual human
+agony that comes with losing a job. The uncertainty and shame that follows a
+firing.
+
+The truth is that nothing lasts forever. Companies can (and should) die — or,
+at the very least, understand that there is an inevitable limit to growth, and
+eventually they must reconcile with being a stable, albeit plateaued, business.
+
+A product may be profitable for a while, but there is a line at which
+profitability comes at the cost of functionality, and your company may simply
+not be able to grow more. A business that cannot generate profit is not a good
+business, and a business that can never generate a profit deserves to die.
+
+And the net result of all of this is that it kills innovation. If capital is
+not invested in providing a good service via a profitable business, it will
+never sustain things that are societally useful. Companies are not incentivized
+to provide better services or improve lives outside of ways in which they can
+drain more blood from consumers. And the street doesn’t care either - just look
+at Facebook and Instagram, two products that have grown endlessly profitable
+and utterly useless in the process.
+
+If capital wishes to call labor entitled, capital must acknowledge that it is
+the most entitled creature in society, craving eternal growth at the cost of
+the true value of any given service or entity.
+
+[73]Subscribe
+Share
+[74] [75] [76] [77]
+About the author
+
+[79]Ed Zitron
+
+[80]View all
+Comments
+More from Ed Zitron's Where's Your Ed At
+[81]Newsletter
+
+[82]Empty Laughter
+
+Amongst the sludge of AI-powered everything at last week’s Consumer Electronics
+Show, a robbery took place. “Dudesy —” allegedly a
+[83]Ed Zitron Jan 16, 2024 15 min read
+[84]Newsletter
+
+[85]A Continual Christmas
+
+Editor’s note: Platformer has announced it will leave Substack and be moving to
+Ghost next week. Casey did the
+[86]Ed Zitron Jan 10, 2024 9 min read
+[87]Newsletter
+
+[88]Software Is Beating The World
+
+Editor’s Note: Due to the length of this piece, you may need to click a button
+to read the
+[89]Ed Zitron Dec 18, 2023 14 min read
+
+Welcome to Where's Your Ed At!
+
+Subscribe today. It's free. Please.
+
+[90][                    ] Subscribe
+Great! Check your inbox and click the link.
+Sorry, something went wrong. Please try again.
+Ed Zitron's Where's Your Ed At
+[92] [93]
+
+  • [94]Home
+  • [95]About
+  • [96]Better Offline
+
+  • [97]Sign up
+
+©2024 [98]Ed Zitron's Where's Your Ed At. Published with [99]Ghost & [100]Tuuli
+.
+[101][Light   ]
+
+Great! You’ve successfully signed up.
+
+Welcome back! You've successfully signed in.
+
+You've successfully subscribed to Ed Zitron's Where's Your Ed At.
+
+Your link has expired.
+
+Success! Check your email for magic link to sign-in.
+
+Success! Your billing info has been updated.
+
+Your billing was not updated.
+
+
+References:
+
+[2] https://www.wheresyoured.at/
+[3] https://www.wheresyoured.at/
+[4] https://www.wheresyoured.at/about/
+[5] http://linktr.ee/betteroffline
+[7] https://www.wheresyoured.at/signin/
+[8] https://www.wheresyoured.at/signup/
+[9] https://www.wheresyoured.at/signup/
+[10] https://www.wheresyoured.at/signin/
+[13] https://www.wheresyoured.at/
+[14] https://www.wheresyoured.at/about/
+[15] http://linktr.ee/betteroffline
+[16] https://www.wheresyoured.at/the-rot-economy/#/portal/
+[17] https://www.wheresyoured.at/signin/
+[18] https://www.wheresyoured.at/signup/
+[19] https://www.wheresyoured.at/tag/newsletter/
+[20] https://www.wheresyoured.at/author/ed-zitron/
+[21] https://ez.substack.com/p/techs-elite-hates-labor?ref=wheresyoured.at
+[22] https://www.ft.com/content/9daf27f6-dde7-40d8-b01d-33b70844aa69?ref=wheresyoured.at
+[23] https://www.inc.com/thomas-koulopoulos/why-this-13-year-google-employee-says-google-can-no-longer-innovate.html?ref=wheresyoured.at
+[24] https://www.wheresyoured.at/the-rot-economy/#/portal/signup
+[25] https://ez.substack.com/p/mark-zuckerberg-is-going-to-kill?ref=wheresyoured.at
+[26] https://www.cnbc.com/2023/02/01/metas-year-of-efficiency-everything-wall-street-needed-to-hear.html?ref=wheresyoured.at
+[27] https://www.cnbc.com/2023/02/01/meta-lost-13point7-billion-on-reality-labs-in-2022-after-metaverse-pivot.html?ref=wheresyoured.at
+[28] https://www.jdsupra.com/legalnews/meta-fined-410m-for-gdpr-violations-1135397/?ref=wheresyoured.at
+[29] https://9to5mac.com/2022/04/14/number-of-users-opting-in-to-app-tracking-on-ios-grows-significantly-since-last-year/?ref=wheresyoured.at
+[30] https://www.theatlantic.com/ideas/archive/2022/06/google-search-algorithm-internet/661325/?ref=wheresyoured.at
+[31] https://www.nytimes.com/2023/02/08/technology/microsoft-bing-openai-artificial-intelligence.html?ref=wheresyoured.at
+[32] https://www.cnbc.com/2023/02/08/alphabet-shares-slip-following-googles-ai-event-.html?ref=wheresyoured.at
+[33] https://investor.uber.com/news-events/news/press-release-details/2023/Uber-Announces-Results-for-Fourth-Quarter-and-Full-Year-2022/default.aspx?ref=wheresyoured.at
+[34] https://fortune.com/2022/10/11/biden-gig-worker-policy-crushing-news-uber-lyft-analysts-say/?ref=wheresyoured.at
+[35] https://www.cnbc.com/2023/02/08/uber-earnings-q4-2022.html?ref=wheresyoured.at
+[36] https://www.reuters.com/technology/uber-posts-first-small-adjusted-profit-ridership-rises-delivery-gets-more-2021-11-04/?ref=wheresyoured.at
+[37] https://www.geekwire.com/2014/breaking-microsoft-cutting-18000-jobs-next-year-14-workforce/?ref=wheresyoured.at
+[38] https://fortune.com/2015/07/08/microsoft-layoffs/?ref=wheresyoured.at
+[39] https://www.theverge.com/2016/5/25/11766344/microsoft-nokia-impairment-layoffs-may-2016?ref=wheresyoured.at
+[40] https://techcrunch.com/2017/07/06/microsoft-confirms-layoff-reports-reorganization-expected-to-impact-thousands/?ref=wheresyoured.at
+[41] https://www.bizjournals.com/seattle/news/2018/01/24/microsoft-layoffs-new-round-of-cuts-2018.html?ref=wheresyoured.at
+[42] https://www.businessinsider.com/satya-nadella-microsoft-ceo-referendum-on-capitalism-2020-10?ref=wheresyoured.at#:~:text=Microsoft%20CEO%20Satya%20Nadella%20said,just%20their%20profits%2C%20he%20said.
+[43] https://www.reuters.com/article/us-microsoft-layoffs-idUSKCN24I03A?ref=wheresyoured.at
+[44] https://www.geekwire.com/2021/microsoft-adds-23k-employees-one-year-growing-14-despite-pandemic-tight-labor-market/?ref=wheresyoured.at
+[45] https://blogs.microsoft.com/blog/2023/01/18/subject-focusing-on-our-short-and-long-term-opportunity/?ref=wheresyoured.at
+[46] https://ko-fi.com/edzitron?ref=wheresyoured.at
+[47] https://ez.substack.com/p/the-liches-of-silicon-valley?ref=wheresyoured.at
+[48] https://techcrunch.com/2018/06/19/brex-picks-up-57m-to-build-an-easy-credit-card-for-startups/?ref=wheresyoured.at
+[49] https://techcrunch.com/2018/10/05/how-the-22-year-old-founders-of-brex-built-a-billion-dollar-business-in-less-than-2-years/?ref=wheresyoured.at
+[50] https://techcrunch.com/2019/05/29/less-than-1-year-after-launching-its-corporate-card-for-startups-brex-eyes-2b-valuation/?ref=wheresyoured.at
+[51] https://techcrunch.com/2021/02/19/brex-applies-for-bank-charter-taps-former-silicon-valley-bank-exec-as-ceo-of-brex-bank/?ref=wheresyoured.at
+[52] https://techcrunch.com/2021/08/17/brex-buys-weav-a-universal-api-for-commerce-platforms-for-50m/?ref=wheresyoured.at
+[53] https://techcrunch.com/2021/10/21/brex-raises-300m-at-a-12-3b-valuation/?ref=wheresyoured.at
+[54] https://techcrunch.com/2022/06/17/as-brex-exits-the-smb-space-its-ceo-says-that-doesnt-include-startups-at-least-the-funded-ones/?ref=wheresyoured.at
+[55] https://ez.substack.com/p/crypto-web3-and-the-big-nothing?ref=wheresyoured.at
+[56] https://a16z.com/2020/04/18/its-time-to-build/?ref=wheresyoured.at
+[57] https://edzitron.medium.com/the-scorpion-and-the-frog-b242ee25844c?ref=wheresyoured.at
+[58] https://fortune.com/2023/02/08/adam-neumann-flow-real-estate-andreesen-horowitz-startup/?ref=wheresyoured.at
+[59] https://www.theguardian.com/business/2019/dec/20/why-wework-went-wrong?ref=wheresyoured.at#:~:text=The%20failed%20IPO%20and%20the,optimistic%20(it%20counted%20anyone%20who
+[60] https://ez.substack.com/p/techs-elite-hates-labor?ref=wheresyoured.at
+[61] https://techcrunch.com/2021/05/25/weight-loss-platform-noom-bulks-up-on-540-million-in-new-funding/?ref=wheresyoured.at
+[62] https://www.ibisworld.com/industry-statistics/market-size/weight-loss-services-united-states/?ref=wheresyoured.at#:~:text=The%20market%20size%2C%20measured%20by,to%20increase%200.5%25%20in%202023.
+[63] https://www.insideradio.com/free/kagan-forecasts-5-revenue-growth-for-radio-in-2022/article_0a0190fa-2901-11ed-8b2c-c30b0f3e8b79.html?ref=wheresyoured.at
+[64] https://www.insideradio.com/free/kagan-forecasts-5-revenue-growth-for-radio-in-2022/article_0a0190fa-2901-11ed-8b2c-c30b0f3e8b79.html?ref=wheresyoured.at
+[65] https://observer.com/2019/05/uber-ipo-nyse-7-investor-winners/?ref=wheresyoured.at
+[66] http://cnbc.com/2019/05/09/how-uber-is-losing-money-as-it-goes-public.html?ref=wheresyoured.at
+[67] https://www.institutionalinvestor.com/article/b20qb0dsfp3m4l/VCs-Poured-41-Billion-Into-Crypto-in-the-Past-18-Months-Is-There-Any-Hope-for-a-Profit?ref=wheresyoured.at
+[68] https://mpost.io/metaverse-industry-has-raised-120-billion-in-2022-cryptomeria-capital-reports/?ref=wheresyoured.at
+[69] http://www.twitter.com/punkey0?ref=wheresyoured.at
+[70] https://elonmusk.today/?ref=wheresyoured.at
+[71] https://www.businessinsider.com/fire-blame-ceo-tech-employee-layoffs-google-facebook-salesforce-amazon-2023-2?ref=wheresyoured.at
+[72] https://www.lightreading.com/service-provider-cloud/google-still-losing-money-on-cloud-and-talent-war-wont-help/d/d-id/779292?ref=wheresyoured.at
+[73] https://www.wheresyoured.at/the-rot-economy/#/portal/signup
+[74] https://twitter.com/share?text=The%20Rot%20Economy&url=https://www.wheresyoured.at/the-rot-economy/
+[75] https://www.facebook.com/sharer.php?u=https://www.wheresyoured.at/the-rot-economy/
+[76] https://www.linkedin.com/shareArticle?mini=true&url=https://www.wheresyoured.at/the-rot-economy/&title=The%20Rot%20Economy&summary=The%20Rot%20Economy
+[77] mailto:?subject=The%20Rot%20Economy&body=https://www.wheresyoured.at/the-rot-economy/%20The%20Rot%20Economy
+[79] https://www.wheresyoured.at/author/ed-zitron/
+[80] https://www.wheresyoured.at/author/ed-zitron/
+[81] https://www.wheresyoured.at/tag/newsletter/
+[82] https://www.wheresyoured.at/empty-laughter/
+[83] https://www.wheresyoured.at/author/ed-zitron/
+[84] https://www.wheresyoured.at/tag/newsletter/
+[85] https://www.wheresyoured.at/a-continual-christmas/
+[86] https://www.wheresyoured.at/author/ed-zitron/
+[87] https://www.wheresyoured.at/tag/newsletter/
+[88] https://www.wheresyoured.at/software-has-beaten-the-world/
+[89] https://www.wheresyoured.at/author/ed-zitron/
+[92] https://twitter.com/edzitron
+[93] https://www.wheresyoured.at/rss
+[94] https://www.wheresyoured.at/
+[95] https://www.wheresyoured.at/about/
+[96] http://linktr.ee/betteroffline
+[97] https://www.wheresyoured.at/the-rot-economy/#/portal/
+[98] https://www.wheresyoured.at/
+[99] https://ghost.org/
+[100] https://brightthemes.com/themes/tuuli/

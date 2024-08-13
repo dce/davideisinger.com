@@ -1,0 +1,577 @@
+[1]Skip to main content
+[2]The Verge logo.[3]The Verge homepage
+
+  • [4]The Verge homepageThe Verge logo./
+  • [5]Tech/
+  • [6]Reviews/
+  • [7]Science/
+  • [8]Entertainment/
+  • [9]AI/
+  • MoreMenu
+
+[11]The Verge logo.
+Menu
+
+  • [13]Business
+
+The moral bankruptcy of Marc Andreessen and Ben Horowitz
+
+Two of Silicon Valley’s famous venture capitalists make the case for backing
+Trump: that their ability to make money is the only value that matters.
+
+By [14]Elizabeth Lopatto, a reporter who writes about tech, money, and human
+behavior. She joined The Verge in 2014 as science editor. Previously, she was a
+reporter at Bloomberg.
+
+Jul 24, 2024, 12:00 PM UTC
+
+Share this story
+
+  • 
+  • 
+  • 
+
+If you buy something from a Verge link, Vox Media may earn a commission. [19]
+See our ethics statement.
+
+3D illustration of a red elephant surrounded by wireframe dollar signs.
+In venture capital, you are what you fund. Image: Cath Virginia / The Verge
+3D illustration of a red elephant surrounded by wireframe dollar signs.
+In venture capital, you are what you fund. Image: Cath Virginia / The Verge
+
+Last week, the founders of venture capital firm Andreessen Horowitz declared
+their allegiance to Donald Trump in their customary fashion: talking about
+money on a podcast.
+
+“Sorry, Mom,” Ben Horowitz says in an episode of The Ben & Marc Show. “I know
+you’re going to be mad at me for this. But, like, we have to do it.”
+
+Marc Andreessen and Horowitz insist they voted for Democrats until now. They
+are friends with liberals. They claim to be nervous about the social blowback
+they will receive for this, especially because of the historically progressive
+nature of the tech industry and the Bay Area.
+
+“It doesn’t have anything to do with the big issues that people care about.”
+
+But given the general movement among their class toward Trump, I think those
+claims about being nervous are overblown, if not performative. There is, for
+instance, Elon Musk’s [20]pro-Trump super PAC, which has support from Sequoia
+Capital’s Shaun Maguire and 8VC’s Joe Lonsdale, among other notables. (The Wall
+Street Journal reported Musk is planning to [21]donate $45 million a month,
+which Musk has denied.) There’s the [22]$160 million the crypto movement has
+put forward in support of crypto-friendly candidates. We can’t forget their VC
+pal [23]David Sacks speaking at the Republican National Convention. And last
+but not least, there’s Trump’s running mate choice of JD Vance, [24]a former
+venture capitalist whose firm’s investors included Peter Thiel, Eric Schmidt,
+and Andreessen himself.
+
+This isn’t a movement. It’s a clique.
+
+The podcast itself is an extraordinary performance. At one point, Andreessen
+concedes that their major problems with President Joe Biden — the ones that led
+them to support Trump — are what most voters would consider “subsidiary”
+issues. “It doesn’t have anything to do with the big issues that people care
+about,” he says. If we take this podcast at face value, we are to believe that
+these subsidiary issues are the only reason they’ve chosen to endorse and
+donate to Trump.
+
+These subsidiary issues take precedence for Andreessen and Horowitz over, say,
+mass deportations and [25]Project 2025’s attempt to end no-fault divorce. We
+are looking at a simple trade against personal liberty — abortion, the rights
+of gay and trans people, and [26]possibly democracy itself — in favor of
+crypto, AI, and a tax policy they like better. 
+
+For Horowitz, “probably the most emotional topic” is crypto — [27]a16z started
+a $4.5 billion crypto fund in 2022, and the pair believe that the Biden
+administration has been deeply unfair to crypto. In Horowitz’s view, the Biden
+administration “basically subverted the rule of law to attack the crypto
+industry.” 
+
+“We’re the largest crypto investors or largest blockchain investors in the
+world.”
+
+[28]Certainly much of the crypto industry prefers Trump. But it seems obvious
+that there has been a lot of [29]intra-agency squabbling as Congress dithered
+on passing any laws. To place the blame squarely on Biden is bizarre,
+particularly when we have Trump’s chaotic previous term as guidance. Sure,
+Trump is no longer saying Bitcoin is “[30]a scam against the dollar,” as he did
+in 2021; he is scheduled to speak at the Bitcoin conference this year. But his
+record in office is not exactly pro-crypto. During the Trump administration,
+financial regulator FinCEN initially asked the public to provide comments on a
+crypto rule change [31]over a 15-day period that included Christmas Eve,
+Christmas Day, New Year’s Eve, and New Year’s Day, which effectively shortened
+the comment window by four working days. There is also the Ripple Labs
+enforcement case, [32]in which the SEC is seeking a $1.95 billion fine; it,
+too, dates to the Trump administration. 
+
+The pair’s complaints about Gary Gensler, the current head of the Securities
+and Exchange Commission, are striking. They are particularly annoyed that he
+won’t pay attention to them. “We’re the largest crypto investors or largest
+blockchain investors in the world, and we’ve requested meetings with him at
+least a half a dozen times,” Horowitz says. Gensler has not met with them.
+Neither, they say, has Senator Elizabeth Warren or Biden himself.
+
+In fact, Andreessen makes it clear that he expects presidential attention,
+something he’s been getting since he was 23. Given the number of times
+Andreessen and Horowitz make references to various meetings with various
+politicians, it’s easy to get the impression that they are mostly insulted that
+they are being treated like ordinary constituents.
+
+From crypto, we move to AI, which Andreessen and Horowitz don’t think is being
+regulated correctly either. According to Horowitz, AI is as powerful as, or
+more powerful than, the internet and the global computer industry from the
+1950s on. “This may be the biggest technological boom of all time,” Andreessen
+says. 
+
+These regulations have little to do with technology and a lot to do with
+old-fashioned lying
+
+Andreessen says in his newsletter-cum-manifesto, “[33]The Little Tech Agenda
+,” that he is worried that AI will face similar scrutiny to crypto. The FTC has
+[34]issued guidance to the AI industry that indicated it will pursue companies
+that exaggerate what their AI can do, say they are using AI when they are not,
+and recklessly put products on the market without properly analyzing the risks.
+Meanwhile, [35]the Consumer Financial Protection Bureau has told lenders that
+they must supply a reason for a credit denial that’s better than just “[36]
+computer says no” when using AI models. These regulations have little to do
+with technology and a lot to do with old-fashioned lying.
+
+In the podcast, Andreessen and Horowitz single out [37]Biden’s executive order
+about artificial intelligence. The order requires companies to disclose the
+presence of very large models, as well as to provide the government information
+about what the plans are for the model, what cybersecurity measures are taken
+to protect those models, and the results of red-team testing for sensitive
+subjects, among other things. This is in keeping with Horowitz’s assertion
+about the seriousness of the technology. 
+
+So what’s the problem? The two focus on computing power. The disclosure
+requirements apply to “any model that was trained using a quantity of computing
+power greater than 10^26 integer or floating-point operations, or using
+primarily biological sequence data and using a quantity of computing power
+greater than 10^23 integer or floating-point operations.” Andreessen and
+Horowitz think specifying such a limit is ridiculous. Little tech “will be
+snuffed out by this kind of regulation,” Horowitz says.
+
+It is perhaps worth noting that nothing above the size specified in the
+executive order — the size Andreessen and Horowitz object to — [38]even exists
+yet, according to Arati Prabhakar, Biden’s top tech advisor.
+
+The irony is so obvious it’s almost embarrassing to point it out
+
+The fundamental complaint here is that these two believe that the Biden
+administration’s approach to AI “enshrine[s] the two or three companies that
+they believe are the only companies that matter as sort of permanent
+monopolies,” Andreessen says. “And they’re going to just basically destroy the
+startup ecosystem underneath that.” [39]Andreessen Horowitz is, of course,
+invested in that ecosystem, having earmarked $2.25 billion for AI applications
+and infrastructure.
+
+The anti-monopoly rhetoric is in keeping with a16z’s latest marketing push.
+According to Andreessen’s newsletter, startups are threatened by the
+government, which is “now far more hostile to new startups than it used to be.”
+Besides his objections to the way the SEC has increased its oversight of
+crypto, he is also upset that a stepped-up interest in antitrust has made it
+more difficult for him to exit investments. “Regulatory agencies are punitively
+blocking startups from being acquired by the same big companies the government
+is preferencing in so many other ways,” Andreessen writes. After all, the
+Federal Trade Commission [40]has launched an inquiry into Big Tech’s
+partnerships and investments with startups — with the goal of seeing if those
+partnerships squash competition. 
+
+The irony is so obvious it’s almost embarrassing to point it out. Andreessen
+says he is upset that Big Tech is too powerful, but he opposes antitrust action
+because that blocks a route for VCs to exit. Either you’re comfortable with Big
+Tech getting bigger, in which case acquisitions are fine, or you want little
+tech to be competitive, which means blocking industry consolidation. Mainly, it
+seems that Andreessen believes in cashing out.
+
+In the podcast, Andreessen and Horowitz pointedly name Google as a threat to
+startups. “Google, I think we would all agree, is more powerful than probably
+95 percent of countries in the world,” Horowitz says at one point. Google,
+specifically, is a sore spot with the right wing. Vice presidential nominee 
+[41]Vance has already said it should be broken up. Vance believes Google is
+controlling information and [42]skewing too far left. Of course, Google’s
+moderation policies don’t just apply to Google News — they also affect YouTube,
+which hosts a great many right-wing podcasts without issue.
+
+Tax reform was “the final straw for me, the thing that tipped me hard.”
+
+It’s unclear how seriously to take Andreessen and Horowitz’s complaints about
+Big Tech because the complaints don’t quite square with their behavior. For
+instance, Facebook is similarly powerful and influential, especially in AI. 
+[43]Andreessen sits on its board. A16z is invested in OpenAI, which has a
+partnership with Microsoft — and both have lobbied strenuously for more
+regulation around AI. It sure seems like if a16z wants to change things at
+those big companies, someone could simply pick up the phone.
+
+At this point in the podcast, you could squint and say maybe the concern about
+AI and crypto is really about technology and progress. But from those two
+topics, we move on to classic rich guy shit of the most tedious kind: [44]tax
+reform. Andreessen says it was “the final straw for me. This is the thing that
+tipped me hard.” They are upset about a proposal to alter capital gains taxes. 
+
+Capital gains are paid on investment assets, and they are typically paid when
+the investment is sold and the gains are, in industry terms, “realized.” The 
+[45]new Biden treasury proposal means that for people whose wealth is worth
+more than $100 million, any unrealized capital gains will be taxed, too. This
+is what has Andreessen and Horowitz in a tizzy. It means that if they own a
+clutch of highly valued startup shares, they will have to pay taxes on them
+before they cash out. This is a “very scary proposal,” Horowitz says.
+
+Startups are illiquid assets, Andreessen points out. “Startups never go up and
+down.  They’re never overvalued,” says Horowtiz, dryly. “There’s no bubbles.”
+Andreessen notes that the way the value of a startup is calculated for the
+purposes of this proposed tax has to do with the latest round’s valuation.
+
+“Presto chango, we’re Argentina!”
+
+Historically, one of the ways that [46]Andreessen Horowitz has approached
+startup investing is to inflate a company’s valuation; it is “[47]the OG when
+it comes to doling out speculative startup valuations.” The new proposed tax
+punishes this kind of behavior — a high valuation means a high tax. “This makes
+startups completely implausible,” says Andreessen. “Venture capital just ends.
+Firms like ours don’t exist.”
+
+This is followed by [48]an anxiety spiral that is sort of difficult to convey
+in text; I suggest you listen for yourself. “California is done,” says
+Andreessen. “It’s total destruction.” The taxes won’t just target the wealthy;
+they’ll come for everyone. “Once the structure gets established, the
+politicians do what they do: they’ll walk the numbers up,” Andreessen says.
+“Presto chango, we’re Argentina!” says Horowitz.
+
+Finally, Horowitz gets [49]ahold of himself. “By the way, this one probably
+won’t get all the way through the system,” he says. “But it might!”
+
+There is another issue that might cause wreckage throughout Silicon Valley. It
+is immigration. An awful lot of immigrants comprise Silicon Valley’s talent
+pool — a huge swath of engineers in the US [50]are on H-1B visas. The Trump /
+Vance ticket is virulently anti-immigrant.
+
+“The crypto industry is uniquely international, and so immigration law is
+crypto law.”
+
+The current CEOs of Google, Microsoft, Adobe, and IBM are all immigrants. So
+are Peter Thiel and Elon Musk. Mark Zuckerberg and Bill Gates are involved in
+Fwd.us, a lobbying group dedicated to immigration reform that Musk and Sacks
+both left. If there were an issue that would rally the people who care most
+about progress, innovation, and talent, you’d think protecting the immigrants
+who’ve built lives and careers in tech would be it.
+
+Stopping immigration is a core issue of the Trump campaign. During the
+Republican National Convention, delegates held up signs saying “[51]Mass
+Deportation Now.” Trump [52]has called the H-1B, the visa many tech workers use
+to come to Silicon Valley, “very bad” and “unfair” to US workers. In his
+previous term, he targeted H-1B visa applications specifically; in the fiscal
+year 2018, almost 25 percent of applications were denied, up from about 13
+percent the year before. In fiscal year 2019, 20 percent of H-1B applications
+were denied. The denials plummeted after several Trump administration rules
+were thrown out by courts; the denial rate in 2022 was just 2 percent.
+
+Immigration plainly matters for crypto — as [53]Ethereum founder Vitalik
+Buterin says, “The crypto industry is uniquely international, and so
+immigration law is crypto law.” Buterin is one of the most influential voices
+in crypto, and Ethereum is the foundation for a swath of Andreessen Horowitz’s
+investment portfolio. Among the investments that rely on it are MakerDAO,
+VeeFriends, Dapper Labs, and EigenLayer. It is remarkable that the founder of
+Ethereum is saying that voting for Trump is against the crypto ethos, and the
+big crypto investors are doing it anyway. 
+
+The word “immigration” is only mentioned by Andreessen and Horowitz in the
+podcast when they discuss the rally in which someone attempted an
+assassination: Trump had turned his head to look at a chart that [54]purported
+to show illegal immigration into the US as the bullet whizzed by. I wondered
+why such an important issue for tech wasn’t addressed, so I emailed Margit
+Wennmachers, a16z’s PR guru, to ask. She didn’t reply.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+After I finished listening to the podcast, a few things kept nagging at me.
+Take the very beginning of the podcast. Once upon a time, Andreessen says, you
+could get very rich and then give the money away in philanthropy, “and you get
+enormous credit for that. And, you know, it absolves you of whatever.”
+
+At some point in the last 10 years, some people suggested that maybe rich
+people should pay more taxes instead of giving their money away — that perhaps
+the whims of some random rich person are not the best way to support the most
+vulnerable in our society. Andreessen and Horowitz suggest that this critique
+of philanthropy is simply jealousy. It also unbalanced “the deal.”
+
+“The deal,” as described on the podcast, is vague. To my ear, it sounds like
+this: Tech companies could basically do whatever they wanted, as long as people
+who worked there paid high taxes and donated enough money to charitable causes.
+The money — taxes, donations — made them the good guys. 
+
+The one thing all these hype cycles had in common was VCs talking their books,
+as publicly as possible
+
+Andreessen and Horowitz point to the mid-2010s — that is, the era of low
+interest rates — as the time of “the deal” unraveling. Notably, this is around
+the time that the tech hype cycle became obvious even to people who weren’t
+paying attention. This year, it’s scooters! Now it’s [55]viral media companies!
+Now it’s metaverse! Now it’s crypto! Now it’s AI! 
+
+These ideas were more or less rejected by the market, except possibly AI. The
+one thing all these hype cycles had in common was VCs talking their books, as
+publicly as possible. That charge was led by Andreessen Horowitz.
+
+So now, instead of investing in things the market wants, Andreessen and
+Horowitz appear to be gambling on legislation instead. Their timing is
+remarkable; not even a week after their Trump endorsement, Biden dropped out of
+the race, rallying the Democrats behind Vice President Kamala Harris. In the
+hours immediately following the announcement, [56]small-money donors raised
+$46.7 million for her campaign. By endorsing Trump, Andreessen and Horowitz
+have effectively lost whatever leverage they might have had with the Harris
+campaign.
+
+But maybe that doesn’t matter. Near the end of the podcast, Horowitz says that
+he was shaken by the assassination attempt on Donald Trump because he’s friends
+with Ivanka, his daughter, and Jared Kushner, his son-in-law. “Ivanka and the
+kids were just at my house,” Horowitz says, of learning Trump was shot. “We
+went to see David Copperfield and all that. So my brain was almost frozen
+because I had this feeling about, ‘Oh my god, Grandpa just got shot.’”
+
+“Ivanka and the kids were just at my house.”
+
+[57]As for Andreessen, he has been inveighing against [58]“woke” capital,
+engaging in [59]Twitter culture wars, and complaining about [60]what he views
+as the media’s hostility to free speech for [61]a while now. In Andreessen’s
+2023 “[62]Techno-Optimist Manifesto,” he lists what he terms “patron saints” of
+the movement. They include Filippo Tommaso Marinetti, an Italian futurist who
+was [63]also the co-author of The Fascist Manifesto; Nick Land, [64]whose
+writing is a foundational text for the so-called alt-right; Neven Sesardic, a
+philosopher who [65]argues that race is biologically real and not socially
+constructed; and [66]Vilfredo Pareto, who [67]argued that [68]democracy is an
+illusion. 
+
+And this talk about democracy brings me to Curtis Yarvin, [69]personal friend
+of vice presidential candidate Vance. Yarvin, a software developer, [70]is
+openly anti-democracy. (Yarvin’s [71]recent newsletter, in response to Biden
+dropping out, enthusiastically advocates for a return to monarchy. Freak shit.)
+One of Yarvin’s ideas, called “retire all government employees” or RAGE, is
+part of [72]Project 2025, a Heritage Foundation proposal for what Trump should
+do if he wins. This rhetoric [73]was echoed by Vance in 2021, who called out
+Yarvin by name. 
+
+So this VC cabal is trading against the basic principles of America — not
+merely against personal freedom, but democracy itself — in the hopes of profit.
+It’s not the first time tech has made the trade against freedom; [74]IBM made
+it during the Holocaust.
+
+In venture capital, you are what you fund. Andreessen and Horowitz understand
+this, even embody it. But they aren’t just funding the issues they discuss on
+their podcast; they are funding Trump and Vance. That means those donations are
+anti-abortion, anti-immigration, and possibly even anti-democracy because that
+is what the Trump / Vance ticket stands for. These are not subsidiary issues:
+these are now what two of Silicon Valley’s most prominent figures now stand
+for, too. Is that a good investment?
+
+Correction July 24: An earlier version of this article misstated the donation
+strategy of a crypto super PAC. The group also spends money on Democratic
+candidates, not just right-wing ones.
+
+Most Popular
+Most Popular
+
+ 1. [76]
+
+    The Elon / Trump interview on X started with an immediate tech disaster
+
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 2. [77]
+
+    Good luck with the PlayStation VR2 PC Adapter — you’ll need it
+
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 3. [78]
+
+    A nightly Waymo robotaxi parking lot honkfest is waking San Francisco
+    neighbors
+
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 4. [79]
+
+    Signal has been blocked by Venezuela and Russia
+
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 5. [80]
+
+    Is the US finally getting ‘all aboard’ with electric trains?
+
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Verge Deals
+
+/ Sign up for Verge Deals to get deals on products we've tested sent to your
+inbox weekly.
+
+Email (required)[81][                    ]Sign up
+By submitting your email, you agree to our [83]Terms and [84]Privacy Notice.
+This site is protected by reCAPTCHA and the Google [85]Privacy Policy and [86]
+Terms of Service apply.
+From our sponsor
+
+[87]
+
+[88]
+Advertiser Content FromSponsor logo
+Sponsor thumbnail
+
+More from [89]Business
+
+  • A Cruise Origin, viewed from the side. It’s a bread loaf-shaped van. glossy
+    white and black on the side and with an orange roof.A Cruise Origin, viewed
+    from the side. It’s a bread loaf-shaped van. glossy white and black on the
+    side and with an orange roof.
+
+    [90]GM ditches Cruise’s custom-designed driverless car
+
+  • An illustration of the Google logo.An illustration of the Google logo.
+
+    [91]Wiz rejects Google’s $23 billion takeover in favor of IPO
+
+  • Artwork of apparent workers wearing hardhats around a solar panel and in
+    front of a sunset.Artwork of apparent workers wearing hardhats around a
+    solar panel and in front of a sunset.
+
+    [92]Tech billionaires can’t build their ‘California Forever’ city yet
+
+  • The Google Chrome logo surrounded by blue ringsThe Google Chrome logo
+    surrounded by blue rings
+
+    [93]Google’s plan to turn off third-party cookies in Chrome is dying
+
+  • 
+    [94]
+    Advertiser Content FromSponsor logo
+
+    [95]
+
+[96]The Verge logo.
+
+  • Cookie Settings
+  • [98]Terms of Use
+  • [99]Privacy Notice
+  • [100]Cookie Policy
+  • [101]Licensing FAQ
+  • [102]Accessibility
+  • [103]Platform Status
+  • [104]How We Rate and Review Products
+
+  • [105]Contact
+  • [106]Tip Us
+  • [107]Community Guidelines
+  • [108]About
+  • [109]Ethics Statement
+
+The Verge is a vox media network
+
+  • [110]Advertise with us
+  • [111]Jobs @ Vox Media
+
+© 2024 [112]Vox Media, LLC. All Rights Reserved
+
+
+References:
+
+[1] https://www.theverge.com/2024/7/24/24204706/marc-andreessen-ben-horowitz-a16z-trump-donations#content
+[2] https://www.theverge.com/
+[3] https://www.theverge.com/
+[4] https://www.theverge.com/
+[5] https://www.theverge.com/tech
+[6] https://www.theverge.com/reviews
+[7] https://www.theverge.com/science
+[8] https://www.theverge.com/entertainment
+[9] https://www.theverge.com/ai-artificial-intelligence
+[11] https://www.theverge.com/
+[13] https://www.theverge.com/business
+[14] https://www.theverge.com/authors/elizabeth-lopatto
+[19] https://www.theverge.com/ethics-statement
+[20] https://fortune.com/2024/07/23/elon-musk-backs-down-from-45-million-a-month-pledge-to-trump-says-he-doesnt-subscribe-to-cult-of-personality/
+[21] https://www.wsj.com/politics/elections/elon-musk-has-said-he-is-committing-around-45-million-a-month-to-a-new-pro-trump-super-pac-dda53823
+[22] https://www.bloomberg.com/news/articles/2024-06-14/crypto-titans-160-million-war-chest-threatens-senate-democrats?sref=M8H6LjUF
+[23] https://x.com/DavidSacks/status/1813280502327222511
+[24] https://www.nytimes.com/2024/07/17/technology/jd-vance-tech-silicon-valley.html
+[25] https://time.com/7000900/project-2025-divorce-law/
+[26] https://www.latimes.com/world-nation/story/2024-05-06/donald-trump-is-putting-america-on-notice-again-he-wont-accept-a-loss
+[27] https://www.ft.com/content/47b05080-67ac-4468-b530-76325d6aba35
+[28] https://time.com/6999569/crypto-trump-vance-project-2025/
+[29] https://www.theverge.com/2023/6/15/23761117/crypto-regulation-binance-coinbase-sec
+[30] https://www.wsj.com/politics/elections/trump-2024-campaign-bitcoin-crypto-donations-b0638147
+[31] https://www.theverge.com/2020/12/22/22195834/cryptocurrency-fincen-regulations-private-wallets
+[32] https://www.coindesk.com/policy/2024/04/23/ripple-says-10m-penalty-enough-rejects-secs-ask-of-195b-fine-in-final-judgment/
+[33] https://pmarca.substack.com/p/the-little-tech-agenda
+[34] https://www.ftc.gov/business-guidance/blog/2023/02/keep-your-ai-claims-check
+[35] https://www.consumerfinance.gov/about-us/newsroom/cfpb-issues-guidance-on-credit-denials-by-lenders-using-artificial-intelligence/
+[36] https://go.skimresources.com/?id=1025X1701640&xs=1&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dx0YGZPycMEU
+[37] https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/
+[38] https://www.theverge.com/24197237/arati-prabhakar-ostp-director-tech-policy-science-ai-regulation-decoder-podcast
+[39] https://www.ft.com/content/fdef2f53-f8f7-4553-866b-1c9bfdbeea42
+[40] https://www.ftc.gov/news-events/news/press-releases/2024/01/ftc-launches-inquiry-generative-ai-investments-partnerships
+[41] https://x.com/JDVance1/status/1761041871617278246
+[42] https://x.com/JDVance1/status/1761042197061763247
+[43] https://investor.fb.com/leadership-and-governance/
+[44] https://www.vox.com/money/23634085/biden-2024-budget-billionaire-tax-capital-gains
+[45] https://www.whitehouse.gov/omb/briefing-room/2024/03/11/fact-sheet-the-presidents-budget-cuts-the-deficit-by-3-trillion-over-10-years/
+[46] https://www.theverge.com/23697708/andreessen-horowitz-a16z-investing-tech
+[47] https://www.newcomer.co/p/good-times-in-the-great-revaluation
+[48] https://youtu.be/n_sNclEgQZQ?si=fFz-aRB2PD1DnfvT&t=4270
+[49] https://youtu.be/n_sNclEgQZQ?si=PuhkNBfQQP3m3Rw7&t=4612
+[50] https://www.epi.org/blog/tech-and-outsourcing-companies-continue-to-exploit-the-h-1b-visa-program-at-a-time-of-mass-layoffs-the-top-30-h-1b-employers-hired-34000-new-h-1b-workers-in-2022-and-laid-off-at-least-85000-workers/
+[51] https://www.scientificamerican.com/article/trumps-massive-deportation-plan-echoes-concentration-camp-history/
+[52] https://apnews.com/article/trump-truth-social-business-visa-h1b-51c5a41faff696709a2d2cc6ec4e2695
+[53] https://vitalik.eth.limo/general/2024/07/17/procrypto.html
+[54] https://www.nytimes.com/2024/07/14/us/politics/trump-chart-rally.html
+[55] https://www.theverge.com/23697708/andreessen-horowitz-a16z-investing-tech
+[56] https://www.wsj.com/livecoverage/biden-drops-out-election-2024/card/small-dollar-donors-give-46-7-million-to-back-kamala-harris-actblue-says-N4CH0Bhk0uMpNzgQkfUO
+[57] https://x.com/pmarca/status/1605740889581592576
+[58] https://go.skimresources.com/?id=1025X1701640&xs=1&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dd0EPKbsKPI0
+[59] https://x.com/pmarca/status/1605740889581592576
+[60] https://x.com/pmarca/status/1518440650705805313
+[61] https://www.theverge.com/2020/7/16/21325678/venture-capitalists-vc-media-silicon-valley-clubhouse-tech-journalists
+[62] https://a16z.com/the-techno-optimist-manifesto/
+[63] https://www.wired.com/story/italy-futurist-movement-techno-utopians/
+[64] https://www.theatlantic.com/politics/archive/2017/02/behind-the-internets-dark-anti-democracy-movement/516243/
+[65] https://philpapers.org/archive/SESRAS.pdf
+[66] https://www.hetwebsite.net/het/profiles/pareto.htm
+[67] https://www.realclearhistory.com/articles/2021/01/12/skeptics_of_democracy_and_defenders_of_freedom_656142.html
+[68] https://oll.libertyfund.org/publications/liberty-matters/2018-11-13-democracy-s-decline-pareto-and-fascism
+[69] https://www.vanityfair.com/news/2022/04/inside-the-new-right-where-peter-thiel-is-placing-his-biggest-bets
+[70] https://newrepublic.com/article/183971/jd-vance-weird-terrifying-techno-authoritarian-ideas
+[71] https://graymirror.substack.com/p/more-reflections-on-the-kamala-koup
+[72] https://www.vox.com/politics/360318/project-2025-trump-policies-abortion-divorce
+[73] https://go.skimresources.com/?id=1025X1701640&xs=1&url=https%3A%2F%2Fwww.youtube.com%2Flive%2FPMq1ZEcyztY%3Fsi%3DhP2BnIyELNvQRZnr%26t%3D1522
+[74] https://www.amazon.com/IBM-Holocaust-Strategic-Alliance-Corporation/dp/0609607995?tag=theverge02-20
+[76] https://www.theverge.com/2024/8/12/24219121/donald-trump-elon-musk-interview-x-twitter-crashes
+[77] https://www.theverge.com/games/24216389/psvr2-pc-adapter-review
+[78] https://www.theverge.com/2024/8/11/24218134/waymo-parking-lot-livestream-honking-4am-san-francisco
+[79] https://www.theverge.com/2024/8/9/24217008/signal-blocked-venezuela-russia
+[80] https://www.theverge.com/2024/8/12/24218547/caltrain-electric-train-us-lags-behind-india-china-eu
+[83] https://www.voxmedia.com/legal/terms-of-use
+[84] https://www.voxmedia.com/legal/privacy-notice
+[85] https://policies.google.com/privacy
+[86] https://policies.google.com/terms
+[87] http://theverge.com/
+[88] http://theverge.com/
+[89] https://www.theverge.com/business
+[90] https://www.theverge.com/2024/7/23/24204251/gm-cruise-suspends-origin-robotaxi-production-chevy-bolt-ev-self-driving
+[91] https://www.theverge.com/2024/7/23/24204198/google-wiz-acquisition-called-off-23-billion-cloud-cybersecurity
+[92] https://www.theverge.com/2024/7/22/24203960/california-forever-billionaire-city-environmental-impact-study
+[93] https://www.theverge.com/2024/7/22/24203893/google-cookie-tracking-prompt-ad-targeting-privacy-sandbox
+[94] http://theverge.com/
+[95] http://theverge.com/
+[96] https://www.theverge.com/
+[98] https://www.voxmedia.com/legal/terms-of-use
+[99] https://www.voxmedia.com/legal/privacy-notice
+[100] https://www.voxmedia.com/legal/cookie-policy
+[101] https://www.voxmedia.com/pages/licensing
+[102] https://www.voxmedia.com/legal/accessibility
+[103] https://status.voxmedia.com/
+[104] https://www.theverge.com/pages/how-we-rate
+[105] https://www.theverge.com/contact-the-verge
+[106] https://www.theverge.com/c/tech/22579076/how-to-tip-the-verge-email-signal-and-more
+[107] https://www.theverge.com/community-guidelines
+[108] https://www.theverge.com/about-the-verge
+[109] https://www.theverge.com/ethics-statement
+[110] https://www.voxmedia.com/vox-advertising
+[111] https://jobs.voxmedia.com/
+[112] https://www.voxmedia.com/
