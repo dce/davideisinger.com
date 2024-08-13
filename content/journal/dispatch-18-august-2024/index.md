@@ -15,8 +15,8 @@ references:
   file: www-wheresyoured-at-7mfome.txt
 - title: "AI isn't useless. But is it worth it?"
   url: https://www.citationneeded.news/ai-isnt-useless/
-  date: 2024-08-13T03:39:45Z
-  file: www-citationneeded-news-4myqvd.txt
+  date: 2024-04-18T16:30:46Z
+  file: www-citationneeded-news-loassa.txt
 - title: "Recently - macwright.com"
   url: https://macwright.com/2024/08/01/recently
   date: 2024-08-09T03:43:36Z
