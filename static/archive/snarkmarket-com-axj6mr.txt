@@ -1,0 +1,918 @@
+The murmur of the snarkmatrix…
+
+Jennifer § [1]Two songs from The Muppet Movie / 2021-02-12 15:53:34
+A few notes on daily blogging § [2]Stock and flow / 2017-11-20 19:52:47
+El Stock y Flujo de nuestro negocio. – redmasiva § [3]Stock and flow / 
+2017-03-27 17:35:13
+Meet the Attendees – edcampoc § [4]The generative web event / 2017-02-27
+10:18:17
+Does Your Digital Business Support a Lifestyle You Love? § [5]Stock and flow / 
+2017-02-09 18:15:22
+Daniel § [6]Stock and flow / 2017-02-06 23:47:51
+Kanye West, media cyborg – MacDara Conroy § [7]Kanye West, media cyborg / 
+2017-01-18 10:53:08
+Inventing a game – MacDara Conroy § [8]Inventing a game / 2017-01-18 10:52:33
+Losing my religion | Mathew Lowry § [9]Stock and flow / 2016-07-11 08:26:59
+Facebook is wrong, text is deathless – Sitegreek !nfotech § [10]Towards A
+Theory of Secondary Literacy / 2016-06-20 16:42:52
+[11]Snarkmarket
+/ [12]whatmarket?
+
+[13]Stock and flow
+ / [14]Robin
+
+I was an economics major in college, and I’ve been grateful ever since for a
+few key concepts those courses drilled into me: things like opportunity cost,
+sunk cost, and marginal cost. I think about this stuff all the time in my
+everyday life. I think about the sunk cost of waiting for a slow elevator; I
+think about the marginal cost of making myself another sandwich.
+
+I think most of all about the concept of stock and flow.
+
+Do you know about this? It couldn’t be simpler. There are two kinds of
+quantities in the world. Stock is a static value: money in the bank or trees in
+the forest. Flow is a rate of change: fifteen dollars an hour or three thousand
+toothpicks a day. Easy. Too easy.
+
+But I actually think stock and flow is a useful metaphor for media in the 21st
+century. Here’s what I mean:
+
+  • Flow is the feed. It’s the posts and the tweets. It’s the stream of daily
+    and sub-daily updates that reminds people you exist.
+  • Stock is the durable stuff. It’s the content you produce that’s as
+    interesting in two months (or two years) as it is today. It’s what people
+    discover via search. It’s what spreads slowly but surely, building fans
+    over time.
+
+Flow is ascendant these days, for obvious reasons—but I think we neglect stock
+at our peril. I mean that both in terms of the health of an audience and, like,
+the health of a soul. Flow is a treadmill, and you can’t spend all of your time
+running on the treadmill. Well, you can. But then one day you’ll get off and
+look around and go: oh man. I’ve got nothing here.
+
+I’m not saying you should ignore flow! This is no time to hole up and work in
+isolation, emerging after years with your work in hand. Everybody will go: huh?
+Who are you? And even if they don’t—even if your exquisite opus is the talk of
+the tumblrs for two whole days—if you don’t have flow to plug your new fans
+into, you’re suffering a huge (get ready for it!) opportunity cost. You’ll have
+to find those fans all over again next time you emerge from your cave.
+
+Here’s a case study. My pal Alexis Madrigal has got the stock/flow balance
+down. On one end of the spectrum, he’s [15]a Twitter natural and [16]a
+fast-paced writer. Madrigal’s got mad flow; you plug in, and you get a steady
+stream of interesting stuff. But on the other end of the spectrum—and man, this
+is just so important—he’s written a deep, nuanced [17]history of green tech in
+America. This is a book intended to stand the test of time.
+
+You can tell that I want you to stop and think about stock here. I feel like we
+all got really good at flow, really fast. But flow is ephemeral, while stock
+sticks around. Stock is capital. Stock is protein.
+
+And the real magic trick is to put them both together. To keep the ball
+bouncing with your flow—to maintain that open channel of communication—while
+you work on some kick-ass stock in the background. Sacrifice neither. The
+hybrid strategy.
+
+So, I was thinking about stock and flow just now while I was standing in my
+kitchen doing the dishes, and I thought, wait, there are all these
+super-successful artists and media people today who don’t think about flow at
+all. Like, Wes Anderson? Come on. He’s all stock. And he seems to be
+doing okay.
+
+But I think the secret is that somebody else does his flow for him. I mean,
+what are PR and advertising but flow, bought and paid for? Rewind history and
+put Wes Anderson on his own—proprietor of an extremely symmetrical YouTube
+channel—and I don’t think you get the same result, not if it’s one video every
+three years.
+
+So, if you’re in the position to have somebody else handle your flow while you
+tend to your stock: great. But that’s true for almost no one, and will I think
+be true for even fewer over time, so you need to have your own plan for
+this stuff.
+
+Anyway, this is not a huge insight, I know. Mostly I just wanted to share the
+terminology, because it’s been echoing in my head since my first microeconomics
+course. Today, whenever I put my hands on the keyboard, I’m asking myself: Is
+this stock? Is this flow? How’s my mix? Do I have enough of both?
+
+[18]January 18, 2010 / [19]Greatest hits
+
+[20]73 comments
+
+[21]Joshua Dance [22]says…
+
+Great ideas. I feel like most of the “Social Media Guru” people are all flow
+and no stock. They don’t every produce anything that stands the test of time.
+And for that matter a lot of bloggers are just flow as well. 33 Ways to Make
+Money posts get outdated pretty quick. I feel that I also have neglected stock
+with my own stuff and have trying to get back to more stock producing. Thanks
+for the great ideas.
+
+/ [23]Reply
+[24]Saheli [25]says…
+
+This is a good mental model, with a nice Anglo-Saxon poetic ring to it, for
+balancing one’s daily management. Nice.
+
+/ [26]Reply
+[27]Robin Sloan [28]says…
+
+I’m glad you picked up on the linguistics of it. It’s just nice to say: stock
+and flow.
+
+[29]PoN [30]says…
+
+I prefer hustle and flow.
+
+[31]http://www.pp2g.tv/vZ3pwZnM_.aspx
+
+/ [32]Reply
+[33]typofi [34]says…
+
+Thanks for the lingo!
+
+I’ve been thinking lately how the flow (I just didn’t have a good word for it
+before) can be seen as noise (from communication theories) in situations where
+you are trying to get to the stock.
+
+I mean moments where you know that the information you seek is out there, but
+you can’t find what you want because all you get is, as said by Joshua, “33
+ways of doing x” and tag clouds bursting with #ashtonkutchner, #lol, and #
+retweetthis. Even if you’re not looking for something in particular, the
+problem often arises when you are trying to find deeper articles in general.
+
+I’m not against the social media, far from it. I’m just acknowledging that we
+need better search algorithms and other tools to balance or even battle the
+pure attention-seeking flow conventions. (e.g. celebrity gossip, or people
+blogging top lists and how-to articles just because they know those will
+attract traffic)
+
+/ [35]Reply
+[36]Carlos [37]says…
+
+Awesome. I think people should think more about the legacy they will leave to
+the future generations. Could be a small business or some nice paintings,
+everyone wants to be remembered, and that’s the stock you are talking about
+here. The flow is the thing that comes in the meantime you are building your
+stock.
+
+/ [38]Reply
+[39]milann [40]says…
+
+ahahah
+you took the words out of my mouth.
+thank you for giving the phantoms in my head some form,
+me and my business associates have been going about this for months now and it
+still felt like we were trying to give words to some silent moments in a Godard
+film or something.
+
+/ [41]Reply
+[42]J. Smith [43]says…
+
+great stuff. couldn’t agree more. file this under “read or die.”
+
+/ [44]Reply
+[45]Frank Chimero [46]says…
+
+This is fantastic, Robin. Really.
+I get a lot of questions from creatives just beginning (or about to begin) in
+their respective fields about how to get started promoting themselves.
+
+I had been using a similar idea, but a poor analogy: you breadcrumb your
+audience along like Hansel and Gretel did, leading your fans along a trail of
+small bits of information and tiny delicious morsels of output. It’s important
+that these tasty morsels have a clear point of view and a consistent flavor.
+Then, every once in a while, deliver a house of candy. But don’t eat your
+audience. That’d be bad.
+
+In retrospect, stock and flow is a way better way to say this.
+
+/ [47]Reply
+[48]Robin Sloan [49]says…
+
+Ha hahahahahaha. I love this. It’s the sinister version of stock. Now I want to
+come up w/ more analogies. Like,
+
+flow : stock :: stormtroopers : DEATH STAR
+
+[50]Basti Hirsch ッ [51]says…
+
+“Social Media Guru” people are all flow and no stock. It really is fun to say,
+but I also still love the “all hat and no cattle” idiom.
+
+Perhaps we need search engines that give us the explicit choice of asking
+“What’s in stock”? I mean we already do that a bit when deciding to search
+amazon, delicious, twitter, or Google scholar. Only show me results that have
+stood the test of time. Words that last.
+
+/ [52]Reply
+[53]Robin Sloan [54]says…
+
+That’s interesting! Some sense of measuring what’s held up… if nothing else, a
+graph in Google Analytics that shows which content has had a durable audience.
+Durability is a key word.
+
+[55]IQpierce [56]says…
+
+I think that Google already works this way… which might be why it’s so
+successful.
+
+In college a professor told me that fundamentally, Google’s algorithm works
+around the concept of “hubs” and “content.” This is actually a very old idea:
+because socially, people themselves have always been about “hubs” and
+“content.” If you’re the socially-awkward brilliant programmer, you’re the
+content: you can make stuff. If you’re the incredibly outgoing HR lady who
+seems to know every other person in her industry, you’re a hub.
+
+Google’s job is to help people get to content; but they do it by using hubs.
+Kottke.org, twitter posts, blogs – these are hubs/flow that people use to point
+their friends towards the content/stock – pages of useful information. Google
+rates a hub higher when it links to high-quality content; and they link content
+higher when it’s linked-to by a highly-rated hub (in a nice chicken-and-egg
+paradox).
+
+JTS [57]says…
+
+To be honest, there’s a lot of runners who train on treadmills all the time (or
+a lot of the time), and it can be a fairly effective way of building up miles.
+So that metaphor is a little confusing.
+
+Other than that, I think this is a fairly effective way of explaining the
+relationship that many creatives should have/need to have to the web. I work in
+publishing, and many of the editors/writers that I interact with on a regular
+basis are great stock people — it’s what they’ve been doing for decades. They
+are just not very good at flow. On the other hand, I look at what a lot of
+other media companies/bloggers/creatives/etc are doing and it looks like a
+whole lot of flow which feels like a whole lot of spinning of the proverbial
+wheels. The ideal mix is something like Frank’s relationship as described
+above.
+
+/ [58]Reply
+[59]Robin Sloan [60]says…
+
+Good point re: treadmills. If I wanted to torture the analogy I could say:
+“Aha, precisely! Sometimes flow helps you cross-train on your way to making
+great stock!”—but mostly, I think I just used too many (different/conflicting)
+analogies 🙂
+
+[61]Alexis Madrigal [62]says…
+
+Thanks for the shout out! We need to convene another meeting of the mutual
+admiration society soon…
+
+Now that you mention it, here’s how I think about stock and flow. Flow is how I
+see the world. Stock is what happens when I apply my worldview to something
+that matters for long enough that I fundamentally transform how I see the
+world. Recording that process is what creates the thing of lasting value. (I
+hope.)
+
+And now, here’s a thought that is related but sort of tangentially. I’ve become
+obsessed with Tumblr as a medium for historical investigation recently. It’s
+just so good at defamiliarization in that Bakhtin sense… One minute you’re
+looking at pony made out of vegan donuts, the next you’re staring at a
+little-known stunt from 1955. People who would not read David McCullough in a
+million years suddenly find history fascinating. The strangeness and pastness
+of the past come to dominate the backcasted ideas that we have about what those
+times were like.
+
+But… Tumblr records only the flow of our histories without ever taking stock of
+why and how we ended up where we are. There is no record of decisions made or
+the world’s forces brought to bear. Tumblr’s version of history has no
+explanatory power. It does not synthesize what the images from the past with
+where we are in the present or with the other things we know of the past. So,
+to me, the meaning that the flow of photos has is fundamentally limited, even
+if it’s beautiful and fascinating.
+
+/ [63]Reply
+[64]Saheli [65]says…
+
+
+    Flow is how I see the world. Stock is what hap pens when I apply my world
+    view to some thing that mat ters for long enough that I fun da men­tally
+    trans form how I see the world. Record ing that process is what cre ates
+    the thing of last ing value.
+
+D’accord!, she cried, in the most emphatic voice. You describe what I want out
+of good writing. This is what makes it so magically, and it hits all the points
+of why I value such stock to begin with.
+
+Though what the hell, Snarkmarket? What is up with the kerning in “trans form”
+“fun da mentally” “Record ing” “cre ates” and “last ing” when I just copy and
+paste? Are you secretly trying to trick me into thinking like some sort of
+crazed poet? That is a weird way to generate stock.
+
+[66]Robin Sloan [67]says…
+
+(They are wee microspaces that allow the words to break gracefully across the
+page. They only become evident when ungainly humans rip these words from their
+perfect habitat.)
+
+[68]Basti Hirsch ッ [69]says…
+
+“Tumblr’s version of history has no explanatory power.”
+
+This is a great sentence, and of course also applies to twitter or your daily
+news segment.
+
+Ryan McAdam [70]says…
+
+I understand and agree with stock & flow as it pertains to social media, et al.
+However, I think you may want to take another look at the premise you use to
+describe stock. In practice, money is made from thin air in ever increasing
+amounts. Trees are a natural resource and as such are finite – whether based
+upon available land, growth cycles, or environmental influences. I’m suspect
+your friend who is writing about green technology would agree.
+
+/ [71]Reply
+[72]TRMW [73]says…
+
+Thanks for this. Well said.
+
+/ [74]Reply
+[75]Nathan Bowers [76]says…
+
+Speaking of flow, where’s your Twitter feed Robin? Looked around, can’t find
+it.
+
+That’s another strength of things like Tumblr and Twitter, it just takes one
+click to form a lightweight “I want to know more about you” relationship.
+“Flow” is stickier than “Stock”.
+
+/ [77]Reply
+[78]Robin Sloan [79]says…
+
+I’m [80]@robinsloan! And somewhat discouraged it was hard to find. Hmm.
+
+You’re totally right about the interplay; when everything’s working together,
+stock leads to flow leads to stock.
+
+[81]Tim Maly [82]says…
+
+I think you’re right on about how we tend to feel like we got good at flow
+really fast. I’ve also been coming around to thinking that this might often be
+an illusion. It’s really, really easy to reblog, retweet, reshare without
+thinking and to clog the flow with stuff that other people have seen or that
+aren’t on topic (for whatever value of “on topic” you feel like your feed
+should have).
+
+This is one of the things that recommends the ‘official’ retweet feature. If
+dozens of your friends retweet the same thing, you don’t have to see it dozens
+of times. Think about the nature of the problem that this is solving.
+
+My watchphrase for the latter quarter of 2009 and all of 2010 is “Less often,
+higher quality”. I hope that as many of my Quiet Babylon posts as I can manage
+will be of stock caliber and I’d like to put out at least one project that’s
+even better. But I think that this needs to apply to the flow work as well. The
+best feeds are the ones where I am delighted every time there is an update. I
+aspire to be one of those.
+
+One of the best things that I ever did for my feelings about my work was to
+more carefully distinguish between my stock and my flow and to distinguish
+between even types of flow (I didn’t know that was what they were called at the
+time). Do I link up my Tumblr with my Twitter with my gReader share with
+Facebook with my blog? I find that the more I answer “no” to this question, the
+happier I feel with the output of my work in any given arena, and the more that
+people who might be interested in what I’m up to can pick and choose how much
+of the firehose they have to consume.
+
+This has been an episode of “Tim responds to a comment and ends up
+pontificating at length about his plans for the year” starring Tim as Tim.
+
+/ [83]Reply
+[84]Robin Sloan [85]says…
+
+My current stock/flow hero (besides A. Madrigal) is [86]Jonathan Harris. Just
+one photo every day. And each one is great.
+
+And importantly, as he wanders around & shares this flow of photos, he’s
+working on generative art projects that end up being totally genre-defining and
+museum-worthy. Serious stock.
+
+[87]Alexis Madrigal [88]says…
+
+And it was you, in fact, who convinced me to unlink my Twitter and Tumblr,
+which was a fantastic idea. It freed me up to think about my Tumblr as its own
+thing, not an adjunct to my Twitter flow.
+
+[89]Adam Rice [90]says…
+
+This sounds like the stuff that Ben Hammersley has been writing about lately.
+
+/ [91]Reply
+Sarah [92]says…
+
+I was thinking about the same thing yesterday, though not in economic terms,
+since I was the opposite of an economics major in college. I was feeling a bit
+worried about the constancy with which we’re all now butting up against the
+real-time state of our immediate (if virtual) surroundings, and wondering what
+impact this has on our ability to be truly reflective and to produce writing
+that represents moments spent *out* of contact with that perpetual flow. We not
+only need the time to have the realizations that come with distance and
+reflection, we also need time to examine and articulate them in terms that go
+beyond the staccato of twitter and tumblr. I don’t generally fall in the camp
+of people who express an urgent, woeful need to “unplug,” since I don’t like
+thinking that the majority of my time (during which I’m “plugged in”) is
+somehow doing me a terrible long-term disservice. However I do think we do
+ourselves a disservice when we forget to alter our levels of immersion in the
+real-time networked conversations. It doesn’t have to happen in a cabin in the
+woods but it’d be awfully sad if it stopped happening altogether.
+
+/ [93]Reply
+[94]TheChad [95]says…
+
+Great post. Your words are invaluable. Finding the right balance between stock
+and flow is key to being a success and relevant.
+
+/ [96]Reply
+[97]JtFaber [98]says…
+
+Great, pressure is off. I can delegate my tweets to the intern and work on
+building my… umm… thing, that I do…
+
+/ [99]Reply
+[100]Jason Robinson [101]says…
+
+Really nice post. Extremely relevant when it comes to individuals and small
+orgs. Although time-consuming (is it in fact cost-beneficial?), balancing stock
+and flow is clearly a necessary evil in today’s business world.
+
+What’s also interesting is looking at organizations who facilitate and/or
+manage stock and flow. The first successful dotcoms created businesses out of
+“stock” – think Amazon. Twitter and Facebook made huge businesses out of
+“flow”. Now that I think about it, didn’t Google do this twice – once with
+indexing a growing number of webpages, the second with YouTube?
+
+As we look forward, I wonder how many new businesses will make stock out of
+flow – magazines from blog posts, Google/Bing indexing Twitter feeds. I know
+this was just a metaphor but I wonder what’s next? The answer could make
+someone rich.
+
+/ [102]Reply
+[103]Dan Conover [104]says…
+
+I have nothing eloquent to add. I am your geek fanboy. That’s all.
+
+/ [105]Reply
+[106]Betty Ann [107]says…
+
+I would add that in the world of flow and stock a hook (tweetable, quotable,
+crisp headline, or ? ) embedded in each stock entry gets it into flow.
+
+/ [108]Reply
+[109]Robin Sloan [110]says…
+
+Yes, totally! Designing for flow. Building bridges between stock and flow.
+
+[111]Tim Maly [112]says…
+
+I’ve often thought that I’d like Matthew Battles of HILOBROW to write the
+tweets promoting all my posts. When he does see one worth passing on, his
+summaries are generally better than mine.
+
+[113]Saheli [114]says…
+
+BettyAnn, are you an editor? Because that succinctly summarizes the secret of
+producing a great magazine that’s also a popular magazine.
+
+[115]JMO [116]says…
+
+Thanks for this Robin. It really gets me thinking about what I make and intake.
+
+I often find myself in the space smack in the middle: I create Flock. I write
+things. I don’t have the time or discipline to focus and make things that are
+very durable. Nor do I have the time or discipline to just publish and make a
+constant Flow. I feel stuck with something that is not good on any front. I
+write about 1,000 words once a week and nothing seems to stick after hitting
+publish.
+
+On top of my day job, I do quite a bit of consuming other people’s Flow and
+Stock. I value learning and I truly enjoy by daily sit-down with Google Reader.
+How do you create the balance necessary to have light but constant Flow and
+solid Stock while still keeping up with everything?
+
+/ [117]Reply
+[118]Elizabeth Madrigal [119]says…
+
+Great piece and I agree, Alexis has got it all.
+His mom.
+
+/ [120]Reply
+[121]Kate [122]says…
+
+Absolutely brilliant Robin. Thank you, genius person.
+
+/ [123]Reply
+[124]Jay [125]says…
+
+When launching my web design shop’s blog, we divided it along these exact
+lines. Literally, divided it in half; short, ephemeral posts—i.e. flow—on [126]
+one side, considered, polished, long-form posts—i.e. stock—on the [127]other
+side.
+
+/ [128]Reply
+[129]Matthew Battles [130]says…
+
+Coming late to this, feasting on the flow of commentary and its glimmers of
+great stock beyond. (And thanks for the h/t, Tim—I love tweeting your posts.
+But my Twitter stream may be even harder to find than Robin’s ;-])
+
+But I wonder about the analogy a little bit. Because the stock we’re talking
+about here isn’t exactly like the economist’s stock, is it? I mean, in
+economics, flow can deplete stock (or add to it, if you’re really lucky). But
+it seems like our stock kind of feeds on flow—out- as well as in-. Without flow
+it dies, or fails to thrive, goes dark. If you’ve got your flow on, your stock
+only grows. And flow’s not a matter of simple exchange, but current, of
+circuitry. Currency! Flow’s about moving it on down the line.
+
+You probably know where I’m going with this: “Increase comes to a gift when it
+moves from second to third party,” writes Lewis Hyde, “not in the simpler
+passage from first to second. The increase begins when the gift has passed
+through someone…. Capital earns profit… but gifts that remain gifts do not earn
+profit, they give increase.”
+
+It’s like particle and wave, maybe. Increase follows the gift—wavelike, it
+rides the flow, lighting up everyone’s stock as it goes.
+
+/ [131]Reply
+[132]jrome [133]says…
+
+Stow is flow that’s been stocked.
+
+/ [134]Reply
+Kirstin Butler [135]says…
+
+Hi Robin,
+
+In just one blog post you defined the heuristic (yup, I wrote that) I’ve been
+trying to figure out for the last few months. This is proving to be such a
+difficult balance for me to strike creatively–mostly because the respective
+returns on stock and flow–dog years vs. immediate–are so different. I find the
+connection, and dialogue, and real-time feedback around flow to be really
+addictive.
+
+I wonder whether there’s a lifelog application that could capture which state
+you’re in at various points, so that you could review a receipt at the end of
+the day and then make adjustments.
+
+Thanks so much for this-
+Kirstin
+
+p.s. I thought the blog [136]http://weloveyouso.com/ was a great flow
+compliment to the stock that is Where the Wild Things Are.
+
+/ [137]Reply
+[138]Debbie [139]says…
+
+Very powerful concepts. You blended economics, about which I know little, with
+writing, which I’ve been practicing for 36+ years. By doing so, not only did
+you make economic concepts understandable to me, but palpable. Thank you.
+
+/ [140]Reply
+[141]tara - scoutie girl [142]says…
+
+Spot on. I just adapted the editorial style of my blog to improve my “stock.”
+Instead of just constantly using a flow of cool stuff to attract page views,
+I’m concentrating more on stories and people. I think these types of posts
+automatically have a longer tail.
+
+I’m also packaging each weeks posts as “issues” so that even the smaller pieces
+fit into a type of stock.
+
+Thank you so much for giving me language to explore this idea further!
+
+/ [143]Reply
+[144]jane stevens [145]says…
+
+This is a great way to look at categorizing info, Robin. I think that the best
+stock is presented in context, in a format where the visual structure adds to
+the context in the stock. e.g. [146]http://vis.stanford.edu/protovis/ex/
+jobs.html and many of the other examples on protovis.
+There’s one more aspect to this that we’ve been working on at LJWorld.com — how
+to develop a structure for flow & stock so that a local community can use both
+in an integrated manner to take action to solve local problems.
+We’re launching a local health site called HealthCommons next month in which
+we’re integrating social media with journalism in a way that I hope will give
+the local community the tools to improve community health.
+
+/ [147]Reply
+[148]Jen Bekman [149]says…
+
+Perfect.
+I think I love you. For your mind, of course.
+
+/ [150]Reply
+[151]ToastyKen [152]says…
+
+I was just thinking that even more fundamental than your stock:flow ratio is
+your creation:consumption ratio. I spend so much time consuming information and
+art these days, but not enough time giving back.
+
+/ [153]Reply
+[154]Aaron Marshall [155]says…
+
+If you had a donate button on this post, I would give 20 bucks right now.
+
+I only heard a verbal summary of it from my friend David ([156]http://
+designintellection.com) and I was already using “stock and flow” in client
+meetings.
+
+BIG thank you.
+
+/ [157]Reply
+[158]Alek Tarkowski [159]says…
+
+hi Robin, I really like the concept of a stock/flow balance. I have two
+comments on that: 1) it applies not only to production, but also to consumption
+of content: you need both an intake of flow, and some serious stock; 2) flow
+can sometimes become stock. have you ever found a new blog and read it from
+“now” until its beginning, treating it like a one big book? with a good blog,
+the experience is one of dealing with some serious stock content. Having said
+that, there’s a limit, I think, to how granular flow can be and still be able
+to transform into stock – a years worth of twitter stream won’t become stock no
+matter what (unless you’re a haiku poet). Thanks for this inspiration!
+
+/ [160]Reply
+[161]Liz Dorland [162]says…
+
+Hate to be a nitpicker, but…
+While I agree that the relationship between the two things is as you describe,
+one of the words (actually the concept behind the word) doesn’t work.
+
+The output on twitter and facebook to me much more like a “stream”. The
+definition that began the piece: “Flow is a rate of change” doesn’t fit. A
+twitter stream as a whole has no denominator, if you will.
+
+Using the stream analogy, twitter output is like the water in the stream. There
+is a quantity of water that passes by, and the total quantity depends on the
+rate of flow. But the “rate” is not the stream! The scientist in me made me
+write this post I think. And the late hour. 😉
+
+Try an electrical analogy. Is the twitter and facebook “stream” measured in
+amperes, or in coulombs? Ask your favorite physicist. I’m not sure, but I think
+I vote for coulombs.
+
+/ [163]Reply
+[164]Christie Nicholson [165]says…
+
+Hi Robin, Thought you might be interested in this Globe&Mail article,
+“Information Rich and Attention Poor” published last fall, that also describes
+the metaphor of stock and flow.
+
+[166]http://bit.ly/3oJXjn
+
+Here’s the relevant p’graph:
+Knowledge is evolving from a “stock” to a “flow.” Stock and flow – for example,
+wealth and income – are concepts familiar to accountants and economists. A
+stock of knowledge may be thought of as a quasi-permanent repository – such as
+a book or an entire library – whereas the flow is the process of developing the
+knowledge. The old Encyclopedia Britannica was quintessentially a stock;
+Wikipedia is the paradigmatic example of flow. Obviously, a stock of knowledge
+is rarely permanent; it depreciates like any other form of capital. But
+electronic information technology is profoundly changing the rate of
+depreciation. By analogy with the 24-hour news cycle (which was an early
+consequence of the growing abundance of video bandwidth as cable television
+replaced scarce over-the-air frequencies), there is now the equivalent of a
+24-hour knowledge cycle – “late-breaking knowledge,” as it were. Knowledge is
+becoming more like a river than a lake, more and more dominated by the flow
+than by the stock. What is driving this?
+
+Then Nicholson goes on to describe the possible (and awesome) drivers behind
+WHY knowledge has evolved from stock to flow. You say it’s for obvious reasons,
+but I think the reasons are still quite fascinating and worthwhile.
+
+(It is an excerpt from a much longer speech he gave at the Fiesole Retreat in
+Glasgow, Scotland, July ‘09.)
+
+Interesting stuff!
+lemme know your thoughts,
+– christie
+
+/ [167]Reply
+Jay [168]says…
+
+nice post!! i would like to add that it takes time and patience to develop the
+‘stock’ whereas to develop the ‘flow’ you can start anytime. So one should
+start working on ‘stock’ asap.
+I am no economist,so am not sure you’ll agree, but this is what my conclusion
+is.
+
+/ [169]Reply
+[170]Susan Friedmann [171]says…
+
+Just learned about flow and stock from Dennis Callahan at PodCamp 5. After
+doing a search I found this post which I absolutely love. It makes so much
+sense and certainly helps put much of the social media revolution into
+perspective for me. Thanks!
+
+/ [172]Reply
+[173]Arsene Hodali [174]says…
+
+Hey, just wanted to comment about how much this post inspired me to reflect on
+my own inner conflicts with media and life.
+
+I actually wrote about it on my blog in details (1700+ words) and I added my
+own views to it. Check it out below, see whether or not I’m onto something or
+just full of crap. And btw, yes this does sound like a shameless self-promotion
+but…
+
+–> Stock & Flow: The Hard Part’s The Switch [175]http://ow.ly/34d8q
+
+/ [176]Reply
+Jessica [177]says…
+
+I love this so much. You should know that this idea is still making the
+conference circuit. I heard about it at the recent Confab content strategy
+conference. A really helpful analogy – thanks for writing it up so
+thoughtfully!
+
+/ [178]Reply
+Daniel [179]says…
+
+Briliant, thanks. I like the cornerstone content concept that Copyblogger put
+together. So it’s the stock, and then the flow is essential. Value content over
+time.
+
+/ [180]Reply
+
+References:
+
+[1] https://snarkmarket.com/2021/8283#comment-593203
+[2] https://snarkmarket.com/2010/4890#comment-577756
+[3] https://snarkmarket.com/2010/4890#comment-571194
+[4] https://snarkmarket.com/2010/5979#comment-570664
+[5] https://snarkmarket.com/2010/4890#comment-569688
+[6] https://snarkmarket.com/2010/4890#comment-569555
+[7] https://snarkmarket.com/2010/6262#comment-568744
+[8] https://snarkmarket.com/2011/6811#comment-568743
+[9] https://snarkmarket.com/2010/4890#comment-552719
+[10] https://snarkmarket.com/2009/3115#comment-551896
+[11] https://snarkmarket.com/
+[12] https://snarkmarket.com/2010/4890/#what
+[13] https://snarkmarket.com/2010/4890
+[14] https://snarkmarket.com/author/robin
+[15] http://twitter.com/alexismadrigal
+[16] https://www.theatlantic.com/author/alexis-madrigal/
+[17] http://www.greentechhistory.com/
+[18] https://snarkmarket.com/2010/4890
+[19] https://snarkmarket.com/category/greatest-hits
+[20] https://snarkmarket.com/2010/4890/#comments
+[21] http://www.joshuadance.com/
+[22] https://snarkmarket.com/2010/4890#comment-7243
+[23] https://snarkmarket.com/2010/4890?replytocom=7243#respond
+[24] http://www.sahelidatta.com/
+[25] https://snarkmarket.com/2010/4890#comment-7244
+[26] https://snarkmarket.com/2010/4890?replytocom=7244#respond
+[27] http://robinsloan.com/
+[28] https://snarkmarket.com/2010/4890#comment-7245
+[29] http://pointsofnote.com/
+[30] https://snarkmarket.com/2010/4890#comment-7246
+[31] http://www.pp2g.tv/vZ3pwZnM_.aspx
+[32] https://snarkmarket.com/2010/4890?replytocom=7246#respond
+[33] http://www.parafovea.com/
+[34] https://snarkmarket.com/2010/4890#comment-7247
+[35] https://snarkmarket.com/2010/4890?replytocom=7247#respond
+[36] http://desparchando.com/
+[37] https://snarkmarket.com/2010/4890#comment-7248
+[38] https://snarkmarket.com/2010/4890?replytocom=7248#respond
+[39] http://stompingintheyard.blogspot.com,milann.blogspot.com/
+[40] https://snarkmarket.com/2010/4890#comment-7249
+[41] https://snarkmarket.com/2010/4890?replytocom=7249#respond
+[42] http://twitter.com/jdotsmith
+[43] https://snarkmarket.com/2010/4890#comment-7250
+[44] https://snarkmarket.com/2010/4890?replytocom=7250#respond
+[45] http://www.frankchimero.com/
+[46] https://snarkmarket.com/2010/4890#comment-7251
+[47] https://snarkmarket.com/2010/4890?replytocom=7251#respond
+[48] http://robinsloan.com/
+[49] https://snarkmarket.com/2010/4890#comment-7252
+[50] http://twitter.com/cervus
+[51] https://snarkmarket.com/2010/4890#comment-7253
+[52] https://snarkmarket.com/2010/4890?replytocom=7253#respond
+[53] http://robinsloan.com/
+[54] https://snarkmarket.com/2010/4890#comment-7262
+[55] http://deepplaid.com/
+[56] https://snarkmarket.com/2010/4890#comment-7270
+[57] https://snarkmarket.com/2010/4890#comment-7254
+[58] https://snarkmarket.com/2010/4890?replytocom=7254#respond
+[59] http://robinsloan.com/
+[60] https://snarkmarket.com/2010/4890#comment-7263
+[61] http://www.greentechhistory.com/
+[62] https://snarkmarket.com/2010/4890#comment-7255
+[63] https://snarkmarket.com/2010/4890?replytocom=7255#respond
+[64] http://www.sahelidatta.com/
+[65] https://snarkmarket.com/2010/4890#comment-7276
+[66] http://robinsloan.com/
+[67] https://snarkmarket.com/2010/4890#comment-7277
+[68] http://twitter.com/cervus
+[69] https://snarkmarket.com/2010/4890#comment-7283
+[70] https://snarkmarket.com/2010/4890#comment-7256
+[71] https://snarkmarket.com/2010/4890?replytocom=7256#respond
+[72] http://trmw.org/
+[73] https://snarkmarket.com/2010/4890#comment-7257
+[74] https://snarkmarket.com/2010/4890?replytocom=7257#respond
+[75] http://uxhero.com/
+[76] https://snarkmarket.com/2010/4890#comment-7258
+[77] https://snarkmarket.com/2010/4890?replytocom=7258#respond
+[78] http://robinsloan.com/
+[79] https://snarkmarket.com/2010/4890#comment-7261
+[80] http://twitter.com/robinsloan
+[81] http://quietbabylon.com/
+[82] https://snarkmarket.com/2010/4890#comment-7260
+[83] https://snarkmarket.com/2010/4890?replytocom=7260#respond
+[84] http://robinsloan.com/
+[85] https://snarkmarket.com/2010/4890#comment-7264
+[86] http://www.number27.org/today.php
+[87] http://www.greentechhistory.com/
+[88] https://snarkmarket.com/2010/4890#comment-7265
+[89] http://8stars.org/
+[90] https://snarkmarket.com/2010/4890#comment-7266
+[91] https://snarkmarket.com/2010/4890?replytocom=7266#respond
+[92] https://snarkmarket.com/2010/4890#comment-7267
+[93] https://snarkmarket.com/2010/4890?replytocom=7267#respond
+[94] http://thechadblog.com/
+[95] https://snarkmarket.com/2010/4890#comment-7268
+[96] https://snarkmarket.com/2010/4890?replytocom=7268#respond
+[97] http://twitter.com/JtFaber
+[98] https://snarkmarket.com/2010/4890#comment-7269
+[99] https://snarkmarket.com/2010/4890?replytocom=7269#respond
+[100] http://www.planetyou.net/
+[101] https://snarkmarket.com/2010/4890#comment-7271
+[102] https://snarkmarket.com/2010/4890?replytocom=7271#respond
+[103] http://danconover.com/
+[104] https://snarkmarket.com/2010/4890#comment-7272
+[105] https://snarkmarket.com/2010/4890?replytocom=7272#respond
+[106] http://bettyann.tumblr.com/
+[107] https://snarkmarket.com/2010/4890#comment-7273
+[108] https://snarkmarket.com/2010/4890?replytocom=7273#respond
+[109] http://robinsloan.com/
+[110] https://snarkmarket.com/2010/4890#comment-7275
+[111] http://quietbabylon.com/
+[112] https://snarkmarket.com/2010/4890#comment-7278
+[113] http://www.sahelidatta.com/
+[114] https://snarkmarket.com/2010/4890#comment-7280
+[115] http://jmoswalt.com/
+[116] https://snarkmarket.com/2010/4890#comment-7274
+[117] https://snarkmarket.com/2010/4890?replytocom=7274#respond
+[118] http://greenlandlady.com/
+[119] https://snarkmarket.com/2010/4890#comment-7279
+[120] https://snarkmarket.com/2010/4890?replytocom=7279#respond
+[121] http://mccaffery.ca/kate2.0/
+[122] https://snarkmarket.com/2010/4890#comment-7281
+[123] https://snarkmarket.com/2010/4890?replytocom=7281#respond
+[124] http://www.fullstopinteractive.com/
+[125] https://snarkmarket.com/2010/4890#comment-7282
+[126] http://www.fullstopinteractive.com/blog/#/full-exposure
+[127] http://www.fullstopinteractive.com/blog/#/full-disclosure
+[128] https://snarkmarket.com/2010/4890?replytocom=7282#respond
+[129] http://hilobrow.com/
+[130] https://snarkmarket.com/2010/4890#comment-7284
+[131] https://snarkmarket.com/2010/4890?replytocom=7284#respond
+[132] http://lessonsinordinary.blogspot.com/
+[133] https://snarkmarket.com/2010/4890#comment-7285
+[134] https://snarkmarket.com/2010/4890?replytocom=7285#respond
+[135] https://snarkmarket.com/2010/4890#comment-7286
+[136] http://weloveyouso.com/
+[137] https://snarkmarket.com/2010/4890?replytocom=7286#respond
+[138] http://breathingcolorintoteal.com/
+[139] https://snarkmarket.com/2010/4890#comment-7287
+[140] https://snarkmarket.com/2010/4890?replytocom=7287#respond
+[141] http://www.scoutiegirl.com/
+[142] https://snarkmarket.com/2010/4890#comment-7288
+[143] https://snarkmarket.com/2010/4890?replytocom=7288#respond
+[144] http://www.rejurno.com/
+[145] https://snarkmarket.com/2010/4890#comment-7289
+[146] http://vis.stanford.edu/protovis/ex/jobs.html
+[147] https://snarkmarket.com/2010/4890?replytocom=7289#respond
+[148] http://www.personism.com/
+[149] https://snarkmarket.com/2010/4890#comment-7290
+[150] https://snarkmarket.com/2010/4890?replytocom=7290#respond
+[151] http://subjunctive.net/
+[152] https://snarkmarket.com/2010/4890#comment-7291
+[153] https://snarkmarket.com/2010/4890?replytocom=7291#respond
+[154] http://aaronmarshall.co.za/
+[155] https://snarkmarket.com/2010/4890#comment-7292
+[156] http://designintellection.com/
+[157] https://snarkmarket.com/2010/4890?replytocom=7292#respond
+[158] http://creativecommons.pl/
+[159] https://snarkmarket.com/2010/4890#comment-7293
+[160] https://snarkmarket.com/2010/4890?replytocom=7293#respond
+[161] http://visualization.ning.com/
+[162] https://snarkmarket.com/2010/4890#comment-7295
+[163] https://snarkmarket.com/2010/4890?replytocom=7295#respond
+[164] http://www.christienicholson.com/
+[165] https://snarkmarket.com/2010/4890#comment-7297
+[166] http://bit.ly/3oJXjn
+[167] https://snarkmarket.com/2010/4890?replytocom=7297#respond
+[168] https://snarkmarket.com/2010/4890#comment-7299
+[169] https://snarkmarket.com/2010/4890?replytocom=7299#respond
+[170] http://www.richesinniches.com/
+[171] https://snarkmarket.com/2010/4890#comment-7300
+[172] https://snarkmarket.com/2010/4890?replytocom=7300#respond
+[173] http://www.danceproof.com/
+[174] https://snarkmarket.com/2010/4890#comment-7301
+[175] http://ow.ly/34d8q
+[176] https://snarkmarket.com/2010/4890?replytocom=7301#respond
+[177] https://snarkmarket.com/2010/4890#comment-7308
+[178] https://snarkmarket.com/2010/4890?replytocom=7308#respond
+[179] https://snarkmarket.com/2010/4890#comment-569555
+[180] https://snarkmarket.com/2010/4890?replytocom=569555#respond
