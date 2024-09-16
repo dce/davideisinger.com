@@ -1,6 +1,6 @@
 ---
 title: "Dispatch #19 (September 2024)"
-date: 2024-09-04T15:33:21-04:00
+date: 2024-09-15T22:25:59-04:00
 draft: false
 tags:
 - dispatch
@@ -28,7 +28,7 @@ references:
 
 ---
 
-Some thoughts here...
+Highlights this month were our annual trips to Rehoboth Beach and Beaufort. There's something I really like about travel traditions, especially with kids. You get the benefits of breaking the normal routine, but you're able to build familiarity and not feel the need to see and do everything. It's different than visiting some place you probably won't see again.
 
 <!--more-->
 
@@ -38,13 +38,9 @@ Some thoughts here...
 {{<dither IMG_6790.jpeg "782x600" />}}
 {{<dither IMG_3614.jpeg "782x600" />}}
 
-* Travel
-	* Rehoboth
-	* Beaufort
-* Running
-  * Running in Rehoboth was great
+Half-marathon training is going well. The timing of the Rehoboth trip couldn't have been better, hitting at 4 weeks into my 12 week training program. I love running up there -- the weather's better, the terrain's flatter, and the gravel trail at Cape Henlopen is just perfection. Felt like I could run forever.
 
-We got Nev's art table set up in the living room. It has been a delight to see her take to it, defaulting to creative pursuits during downtime. I added some [LED lighting][1] and [coat hooks][2]. That's the nice thing about making your own stuff: the freedom to modify and adapt.
+We got Nev's art table set up in the living room. It's been a delight to see her take to it, defaulting to creative pursuits during downtime. I added some [LED lighting][1] and [coat hooks][2]. That's the nice thing about making your own stuff: the freedom to modify and adapt.
 
 {{<dither IMG_6732.jpeg "782x900" />}}
 {{<dither IMG_6818.jpeg "782x900" />}}
@@ -67,7 +63,7 @@ I finished [_Moonbound_][5] -- I liked it, though it didn't knock me over. It wa
 This month:
 
 * Adventure: [Pigeon Forge, TN][7] for my birthday
-* Project:
+* Project: start thinking about the next iteration of my home studio + some ideas for Nev's room
 * Skill: drum programming; I'd like to get a good set of samples (hi-hats in all positions, multiple toms, etc.) and actually program in all of the patterns the [drum programming book][4] I mentioned earlier
 
 [7]: https://www.pigeonforge.com/
