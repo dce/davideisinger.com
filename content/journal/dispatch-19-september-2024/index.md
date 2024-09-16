@@ -48,7 +48,7 @@ We got Nev's art table set up in the living room. It's been a delight to see her
 [1]: https://www.amazon.com/dp/B08R66Z71S
 [2]: https://www.amazon.com/dp/B09M3Q6QHN
 
-Musically, I found a good deal on a pretty nice [polyphonic analog synthesizer][3] which I think will be helpful in properly learning how subtractive synthesis works (though this thing has a _lot_ going on). So far just enjoying poking around w/ all the various settings. I'm also slowly working through a [book on drum programming][4].
+Musically, I found a good deal on a pretty nice [polyphonic analog synthesizer][3] which I think will be helpful in properly learning subtractive synthesis (though this thing has a _lot_ going on). So far just enjoying poking around w/ all the various settings. I'm also slowly working through a [book on drum programming][4].
 
 [3]: https://sequential.com/product/prophetrev2/
 [4]: https://www.goodreads.com/en/book/show/6399596-drum-programming
