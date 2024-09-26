@@ -71,7 +71,6 @@ jobs:
         env:
           SERVER_IP: ${{ secrets.SERVER_IP }}
         run: |
-          rsync --version
           rsync \
             -v \
             -r \
