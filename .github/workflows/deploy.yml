@@ -47,30 +47,36 @@ jobs:
           DITHER_SERVER: http://localhost:4567
         run: |
           source bin/get-last-commit.sh
-          hugo --minify
+          timeout 30 hugo --minify || echo "timeout!"
           find public -name "*.enc" -type f -delete
 
-      - name: Install SSH deploy key
-        if: ${{ github.ref == 'refs/heads/main' }}
-        env:
-          DEPLOY_KEY: ${{ secrets.CI_DEPLOY_KEY }}
-          SERVER_IP: ${{ secrets.SERVER_IP }}
-        run: |
-          mkdir -p ~/.ssh
-          chmod 700 ~/.ssh
-          echo "$DEPLOY_KEY" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan $SERVER_IP > ~/.ssh/known_hosts
+      # - name: Install SSH deploy key
+      #   if: ${{ github.ref == 'refs/heads/main' }}
+      #   env:
+      #     DEPLOY_KEY: ${{ secrets.CI_DEPLOY_KEY }}
+      #     SERVER_IP: ${{ secrets.SERVER_IP }}
+      #   run: |
+      #     mkdir -p ~/.ssh
+      #     chmod 700 ~/.ssh
+      #     echo "$DEPLOY_KEY" > ~/.ssh/id_rsa
+      #     chmod 600 ~/.ssh/id_rsa
+      #     ssh-keyscan $SERVER_IP > ~/.ssh/known_hosts
 
-      - name: Deploy
-        if: ${{ github.ref == 'refs/heads/main' }}
-        env:
-          SERVER_IP: ${{ secrets.SERVER_IP }}
-        run: |
-          rsync --version
-          rsync \
-            -v \
-            -r \
-            --delete \
-            public/* \
-            www-data@$SERVER_IP:/var/www/davideisinger.com
+      # - name: Deploy
+      #   if: ${{ github.ref == 'refs/heads/main' }}
+      #   env:
+      #     SERVER_IP: ${{ secrets.SERVER_IP }}
+      #   run: |
+      #     rsync --version
+      #     rsync \
+      #       -v \
+      #       -r \
+      #       --delete \
+      #       public/* \
+      #       www-data@$SERVER_IP:/var/www/davideisinger.com
+
+      - name: Upload dither.log
+        uses: actions/upload-artifact@v3
+        with:
+          name: dither.log
+          path: bin/dither/dither.log
