@@ -56,7 +56,7 @@ Final thought: when I was younger, I'd engage in a lot of "what if" thinking, im
 [9]: https://maggieappleton.com/garden-history
 [10]: /notes/golang/
 
-This month:
+### This Month
 
 * Adventure: this month is pretty adventure-packed between [Running of the Bulls][11], canoe camping, a long weekend in Beaufort, a cruise with Claire's family, and heading up to DC to meet our new niece
 * Project: build a simple towel rack for the bathroom and publish an article on [testing][12] on my company's website
@@ -65,7 +65,7 @@ This month:
 [11]: https://bullcityrunning.com/our-races/running-of-the-bulls-8k/
 [12]: /notes/good-tests
 
-Reading:
+### Reading
 
 * Fiction: [_Rapt_][13], Winifred Gallagher
 * Non-fiction: [_The Last Graduate_][14], Naomi Novik
@@ -73,7 +73,7 @@ Reading:
 [13]: https://bookshop.org/p/books/rapt-attention-and-the-focused-life-winifred-gallagher/7485226?ean=9780143116905
 [14]: https://bookshop.org/p/books/the-last-graduate-naomi-novik/15537202?ean=9780593128886
 
-Links:
+### Links
 
 * [What’s in a Word? Building a Verbose Party Game | Viget][15] -- write-up of the [Pointless Weekend][16] game I helped build in March
 * [Why Have a Values Plan? – Anna Havron][17]

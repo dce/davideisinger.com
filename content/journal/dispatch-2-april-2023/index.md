@@ -35,7 +35,7 @@ I didn't make much progress on the closet project this month (took some measurem
 {{<dither rocket.png "782x1200" />}}
 
 
-This month:
+### This Month
 
 * Adventure: Catawba River kayaking ([route][4])
 * Project: closet shelves (again)
@@ -44,7 +44,7 @@ This month:
 [4]: catawba.pdf
 [5]: https://go.dev/
 
-Reading:
+### Reading
 
 * Fiction: [_No Plan B_][6], Lee Child & Andrew Child
 * Non-fiction: [_Make Time_][7], Jake Knapp & John Zeratsky
@@ -52,7 +52,7 @@ Reading:
 [6]: https://bookshop.org/p/books/no-plan-b-a-jack-reacher-novel-lee-child/18543325?ean=9781984818546
 [7]: https://bookshop.org/p/books/make-time-how-to-focus-on-what-matters-every-day-jake-knapp/12094196?ean=9780525572428
 
-Links:
+### Links
 
 * [verbose.club][8] -- I got to work on this as part of Pointless Week. Super fun to build, and the game's actually pretty good!
 * [Caddy - The Ultimate Server with Automatic HTTPS][9] -- used this to serve 👆 in a docker compose setup.

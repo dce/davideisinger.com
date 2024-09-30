@@ -72,7 +72,7 @@ Finally, I'll leave you with this passage from [_4000 Weeks_][10] that I reflect
 
 [10]: https://bookshop.org/p/books/four-thousand-weeks-time-management-for-mortals-oliver-burkeman/18140090
 
-This month:
+### This Month
 
 * Adventure: spending MLK weekend with my folks in a cabin the Shenandoah Valley, take Nev to [Luray Caverns][11]
 * Project: music/hobby table -- **no new gear** until I have a place I can actually use the stuff I have (then probably a [Roland Juno][12] as a reward)
@@ -81,7 +81,7 @@ This month:
 [11]: https://luraycaverns.com/
 [12]: https://www.roland.com/us/products/ju-06a/
 
-Reading:
+### Reading
 
 * Fiction: [_Revenge: Eleven Dark Tales_][13], Yogo Ogawa -- I'm trying to read better books this year, and this caught my attention when I saw it mentioned on [Hacker Stations][14]
 * Non-fiction: [_Essentialism_][15], Greg McKeown
@@ -90,7 +90,7 @@ Reading:
 [14]: https://hackerstations.com/setups/kasia/
 [15]: https://bookshop.org/p/books/essentialism-the-disciplined-pursuit-of-less-greg-mckeown/9404336
 
-Links:
+### Links
 
 * [Tech Independence][16] ([via][17])
 

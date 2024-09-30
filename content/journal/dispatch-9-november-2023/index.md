@@ -87,7 +87,7 @@ I made a few updates to the website this month:
 
 I'm really happy with Hugo -- it's simple but flexible enough to handle every challenge I've thrown at it. Building and maintaining this site has brought me a lot of joy this year.
 
-This month:
+### This Month
 
 * Adventure: head to upstate New York for Thanksgiving, run [Troy Turkey Trot][17]
 * Project: make another track as good as that one 👆 and finally build that music workstation
@@ -96,7 +96,7 @@ This month:
 [17]: https://troyturkeytrot.com/
 [18]: https://edmtips.com/edm-song-structure/
 
-Reading:
+### Reading
 
 * Fiction: 
   * [_The Secret_][19], Lee Child & Andrew Child
@@ -108,7 +108,7 @@ Reading:
 [21]: https://bookshop.org/p/books/step-by-step-mixing-how-to-create-great-mixes-using-only-5-plug-ins-bjorgvin-benediktsson/9946155?ean=9781733688802
 [22]: https://www.stepbystepmixing.com/
 
-Links:
+### Links
 
 * [The Tascam Portastudio 414 Let Me Fall In Love With Music Again][23]
 

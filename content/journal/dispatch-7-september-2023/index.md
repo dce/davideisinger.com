@@ -97,7 +97,7 @@ Working with a typed language, a good language server (`gopls`), and an editor t
 
 Final thought: someone (my father-in-law, I think) asked if we thought Nev would remember all these adventures we're having with her, and I said, no, but that's OK and not really the point. Even if she's not yet capable of forming lasting memories, these experiences are forming who she is. We want the first international flight she remembers into adulthood to feel like a familiar thing in the moment. Plus she's such a delight that experiencing new things with her and sharing her with the world is a source of deep joy for us.
 
-This month:
+### This Month
 
 * Adventure: Italy! Claire and I [did a bike tour through Tuscany][15] in 2017 that was supposed to end at Elba Island, though for various reasons, it did not. Claire has continued to follow the resort on social media, and we decided earlier this summer to finally check it out, Nev in tow. We've been so busy that it's just now coming into focus, but we are getting excited -- [just look at this place][16].
 * Project: hanging out with my buddy Ken (pictured up top), who records music as [Carillon][17], is always inspiring. I'd like to get a basic audio recording station set up in my basement and start playing with some acoustic and digital instruments. I'll probably repurpose the door I removed as part of the [closet project][18].
@@ -108,7 +108,7 @@ This month:
 [17]:	https://carillon58.bandcamp.com/album/the-whole-earth
 [18]: /journal/dispatch-4-june-2023/
 
-Reading:
+### Reading
 
 * Fiction: [_Forever and a Day_][19], Anthony Horowitz
 * Non-fiction: [_The Creative Programmer_][20], [Wouter Groeneveld][21]
@@ -117,7 +117,7 @@ Reading:
 [20]: https://www.manning.com/books/the-creative-programmer
 [21]: https://brainbaking.com/
 
-Links:
+### Links
 
 * [On Tools and the Aesthetics of Work][22]
 

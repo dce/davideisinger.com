@@ -90,13 +90,13 @@ I ordered a copy of [Pouch magazine][7], "a new indie magazine for stationery lo
 
 [7]: https://pouchmagazine.com/
 
-This month:
+### This Month
 
 * Adventure: nothing major planned for the rest of July, but every day's an adventure with a newborn and a toddler
 * Project: finish Nevie's art table -- I'm a focused 90 minutes away
 * Skill: I want to keep up the music stuff, but I'm not sure what to focus on; I've got a few good books about drum programming and theory I'll dig into, and then just try to jam w/o any specific goals
 
-Reading:
+### Reading
 
 * Fiction: [_Mr. Penumbra's 24-Hour Bookstore_][8], [Robin Sloan][9] -- big fan of this guy's website and just overall vibe
 * Non-fiction: [_Music Theory for Electronic Music Producers_][10], J. Anthony Allen
@@ -105,9 +105,9 @@ Reading:
 [9]: https://www.robinsloan.com/
 [10]: https://bookshop.org/p/books/music-theory-for-electronic-music-producers-the-producer-s-guide-to-harmony-chord-progressions-and-song-structure-in-the-midi-grid-j-anthony-allen/11905226?ean=9781727863024
 
-Links:
+### Links
 
-### Creativity
+Creativity:
 
 * [Midyear in a mid year][11]
     
@@ -124,7 +124,7 @@ Links:
 
 [13]: https://kylekukshtel.com/francis-bacon-creative-meditation-studio-space
 
-### Parenting
+Parenting:
 
 * [Give yourself what you needed and your kids what they need][14]
     
@@ -138,7 +138,7 @@ Links:
 
 [15]: https://waitbutwhy.com/2023/05/baby.html
 
-### Gadgets
+Gadgets:
 
 * [My Month Without a Smartphone][16]
 
@@ -156,7 +156,7 @@ Links:
 
 [17]: https://www.theverge.com/24184777/boox-palma-e-ink-smartphone-reader
     
-### AI
+AI:
     
 * [I Will Fucking Piledrive You If You Mention AI Again][18]
     

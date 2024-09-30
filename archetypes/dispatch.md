@@ -10,13 +10,13 @@ Some thoughts here...
 
 <!--more-->
 
-This month:
+### This Month
 
 * Adventure:
 * Project:
 * Skill:
 
-Reading:
+### Reading
 
 * Fiction: [_Title_][1], Author
 * Non-fiction: [_Title_][2], Author
@@ -24,7 +24,7 @@ Reading:
 [1]: https://bookshop.org/
 [2]: https://bookshop.org/
 
-Links:
+### Links
 
 * [Title][3]
 * [Title][4]

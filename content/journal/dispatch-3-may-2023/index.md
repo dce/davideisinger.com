@@ -39,13 +39,13 @@ I ordered Claire an [e-bike][1] thinking it might arrive before her birthday mid
 [2]: 10_miler_results.pdf
 [3]: 10_miler_certificate.png
 
-This month:
+### This Month
 
 * Adventure: do some non-electric biking ("acoustic biking" as it were), ideally after getting a rack installed on the car
 * Project: finish this closet off
 * Skill: gonna say learning Golang again, though the fact that I'm struggling to pick a project makes me think my interest is more theoretical than practical
 
-Reading:
+### Reading
 
 * Fiction: [_Long Shadows_][4], David Baldacci
 * Non-fiction: [_Building a Second Brain_][5], Tiago Forte
@@ -55,7 +55,7 @@ Reading:
 [5]: https://bookshop.org/p/books/building-a-second-brain-a-proven-method-to-organize-your-digital-life-and-unlock-your-creative-potential-tiago-forte/18265370?ean=9781982167387
 [6]: https://www.artofmanliness.com/character/advice/podcast-816-building-a-second-brain/
 
-Links:
+### Links
 
 * [_This Is How You Lose The Time War_][7] -- just _fantastic_ little book I read this month. Hard to describe, but highly recommended. [Originally recommended here.][8]
 * [Simple Commit Linting for Issue Number in GitHub Actions][9] -- short post on my company blog about two topics dear to me: continuous integration and information retrieval.

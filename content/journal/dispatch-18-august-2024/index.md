@@ -82,7 +82,7 @@ Randomly:
 [5]: https://www.wheresyoured.at/the-rot-economy/
 [6]: https://www.citationneeded.news/ai-isnt-useless/
 
-This month:
+### This Month
 
 * Adventure: Rehoboth Beach with my family. We've done this trip for the last four years, and every year the number of children in attendance has increased by one, a trend that simply cannot continue.
 * Project: [This is one of my favorite albums][7], and here's how they describe the creation process: "write and record a collection of drum-free samples, then flip them into an albums' worth of beats." I'd like to produce a track in this style this month.
@@ -90,7 +90,7 @@ This month:
 
 [7]: https://birocratic.bandcamp.com/album/ninety-nine
 
-Reading:
+### Reading
 
 * Fiction: [_Moonbound_][8], Robin Sloan -- quite a departure from _Mr. Penumbra's 24-Hour Bookstore_ but I'm digging it so far; I like an absurd story told in a straightforward way
 * Non-fiction: [_The World Beyond Your Head_][9], Matthew B. Crawford -- I've read another book by this author, _Shop Class as Soulcraft_, and Tom MacWright spoke highly of this one in his [recent update][10] and [review][11]
@@ -100,7 +100,7 @@ Reading:
 [10]: https://macwright.com/2024/08/01/recently
 [11]: https://macwright.com/2024/07/07/world-beyond-your-head
 
-Links:
+### Links
 
 * [Time travelling for parents][12]
 

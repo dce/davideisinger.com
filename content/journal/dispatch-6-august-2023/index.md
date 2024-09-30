@@ -41,13 +41,13 @@ I've signed up for the [Bull City Race Fest][6] half-marathon in October. Traini
 [5]: https://github.com/charmbracelet/bubbletea
 [6]: https://capstoneraces.com/bull-city-race-fest/
 
-This month:
+### This Month
 
 * Adventure: spending a weekend at Virginia's Eastern Shore with some childhood friends and a week at the beach with my family
 * Project: build a fantasy draft <abbr title="text-based user interface">TUI</abbr> app in Go using [Bubble Tea][5]
 * Skill: learn how to organize a larger Go codebase as part of 👆
 
-Reading:
+### Reading
 
 * Fiction: [_Tress of the Emerald Sea_][7], Brandon Sanderson
 * Non-fiction: [_The Creative Programmer_][8], [Wouter Groeneveld][9]
@@ -56,7 +56,7 @@ Reading:
 [8]: https://www.manning.com/books/the-creative-programmer
 [9]: https://brainbaking.com/
 
-Links:
+### Links
 
 * [Why I don't use Copilot][10]
 

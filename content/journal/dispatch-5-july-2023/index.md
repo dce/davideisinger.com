@@ -56,7 +56,7 @@ I also read some good articles about [Helix][5] and [Procreate][6], and I'm hopi
 [5]: https://timharek.no/blog/my-thoughts-on-helix-after-6-months
 [6]: https://maggieappleton.com/apps
 
-This month:
+### This Month
 
 * Adventure: dust off the road bike, fill the tires, grease the chain, throw it on the rack, and get out for a long ride
 * Project: publish an article on [testing][7] on my company's website
@@ -65,7 +65,7 @@ This month:
 [7]: /notes/good-tests
 [8]: https://helix-editor.com/
 
-Reading:
+### Reading
 
 * Fiction: [_The Golden Enclaves_][9], Naomi Novik
 * Non-fiction:
@@ -78,7 +78,7 @@ Reading:
 [11]: https://bookshop.org/p/books/visual-thinking-empowering-people-and-organisations-through-visual-collaboration-williemien-brand/12408256?ean=9789063694531
 [12]: https://bookshop.org/p/books/the-manual-a-philosopher-s-guide-to-life-epictetus/15150488?ean=9781545461112
 
-Links:
+### Links
 
 * [Modern software quality, or why I think using language models for programming is a bad idea][13] -- I refer people to this article a lot in discussions around <abbr title="large language models">LLMs</abbr> and software development
 * [The small web is beautiful][14]

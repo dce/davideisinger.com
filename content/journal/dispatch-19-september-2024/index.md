@@ -58,9 +58,7 @@ I finished [_Moonbound_][5] -- I liked it, though it didn't knock me over. It wa
 [5]: https://www.robinsloan.com/moonbound/
 [6]: https://www.goodreads.com/series/60498-mortalis
 
-### Links
-
-This month:
+### This Month
 
 * Adventure: [Pigeon Forge, TN][7] for my birthday
 * Project: start thinking about the next iteration of my home studio + some ideas for Nev's room
@@ -68,7 +66,7 @@ This month:
 
 [7]: https://www.pigeonforge.com/
 
-Reading:
+### Reading
 
 * Fiction: [_Son of the Black Sword_][8], Larry Correia (recommended by [Kev Quirk][9])
 * Non-fiction: [_The World Beyond Your Head_][10], Matthew B. Crawford (still)
@@ -77,7 +75,7 @@ Reading:
 [9]: https://kevquirk.com/blog/son-of-the-black-sword
 [10]: https://bookshop.org/p/books/the-world-beyond-your-head-on-becoming-an-individual-in-an-age-of-distraction-matthew-b-crawford/8484056?ean=9780374535919
 
-Links:
+### Links
 
 * [It's okay to lower the bar][11]
 

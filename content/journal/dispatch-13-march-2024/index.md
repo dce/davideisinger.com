@@ -138,7 +138,7 @@ I made several website updates this month:
 [19]: https://listmonk.app/
 [20]: https://dispatch.davideisinger.com/subscription/form
 
-This month:
+### This Month
 
 * Adventure: we're headed back to Wilmington again, this time to run the [Steve Haydu St. Patrick's Lo Tide Run][21]; I've also got my annual Vegas trip and we'll head to Lake Norman at the end of the month
 * Project: Nev has this little [fidget toy][22] that I'm obsessed with; I want to learn [three.js][23] and create a digital version of it
@@ -149,7 +149,7 @@ This month:
 [23]: https://threejs.org/
 [24]: https://www.roland.com/global/products/sp-404mk2/
 
-Reading:
+### Reading
 
 * Fiction: [_The Disposessed_][25], Ursula K. LeGuin
 * Non-fiction: [_Dilla Time_][26], Dan Charnas
@@ -157,7 +157,7 @@ Reading:
 [25]: https://bookshop.org/p/books/the-dispossessed-ursula-k-le-guin/7899183
 [26]: https://bookshop.org/p/books/dilla-time-the-life-and-afterlife-of-j-dilla-the-hip-hop-producer-who-reinvented-rhythm-dan-charnas/18415833?ean=9781250862976
 
-Links:
+### Links
 
 * [What Kind of Bubble is AI?][27]
 

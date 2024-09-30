@@ -36,13 +36,13 @@ Here's some new music:
 
 This was fun to make -- a couple iPad synths connected to my Circuit Tracks, running into the SP-404 for effects, with my MIDI keyboard to add some wobble to the main synth line. I recorded this all in one take, which is not how most people make music like this, but it has a fun, performative aspect to it. I've also spent time trying to learn the SP-404 in earnest -- it is a neat, complex machine.
 
-This month:
+### This Month
 
 * Adventure: BABY BRO
 * Project: building stuff for our house during paternity leave (art table, indoor treehouse)
 * Skill: SP-404, baby swaddling
 
-Reading:
+### Reading
 
 * Fiction: [_Enchanter's End Game_][3], David Eddings
 * Non-fiction: [_The 12 Week Year_][4], Brian P. Moran & Michael Lennington (I like the concept but it's pretty fluffy)
@@ -50,7 +50,7 @@ Reading:
 [3]: https://www.goodreads.com/book/show/44687.Enchanters_End_Game
 [4]: https://www.goodreads.com/book/show/10009377-the-12-week-year
 
-Links:
+### Links
 
 I don't have anything great this month but I recommend [Baldur Bjarnason][5], [Tim Hårek][6] and [Installer][7] on the Verge for interesting links -- they always seem to find good stuff.
 

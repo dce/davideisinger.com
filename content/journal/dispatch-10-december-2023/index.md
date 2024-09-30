@@ -58,7 +58,7 @@ I published a few other things this month: ["Maintenance Matters: Good Tests"][9
 [10]: /elsewhere/maintenance-matters-good-tests
 [11]: /notes/2023-holiday-gift-guide
 
-This month:
+### This Month
 
 * Adventure: mountain biking on the trails near my in-laws' during the break
 * Project: make Nev an art table inspired by [this one from Ikea][12]; maybe finally build that music workstation
@@ -68,7 +68,7 @@ This month:
 [13]: https://www.ableton.com/en/live/
 
 
-Reading:
+### Reading
 
 * Fiction: [_Remote Control_][14], Andy McNab
 * Non-fiction: [_Step by Step Mixing_][15], [Bjorgvin Benediktsson][16]
@@ -77,7 +77,7 @@ Reading:
 [15]: https://bookshop.org/p/books/step-by-step-mixing-how-to-create-great-mixes-using-only-5-plug-ins-bjorgvin-benediktsson/9946155?ean=9781733688802
 [16]: https://www.stepbystepmixing.com/
 
-Links:
+### Links
 
 * [36 Hours in Durham, North Carolina: Things to Do and See][17] -- this is a pretty good guide to my city (though don't sleep on [Viceroy][18]) but I'm mostly including this because you can see a couple tables I made in the upper left corner of the main image.
 

@@ -151,13 +151,13 @@ Finally, I made a pair of updates to the website:
 [24]: https://elliotjaystocks.com/blog/2023-in-review
 [25]: /journal/encrypt-and-dither-photos-in-hugo/
 
-This month:
+### This Month
 
 * Adventure: head down to Wilmington for the aforementioned 10K, otherwise laying pretty low -- big stuff coming in the next few months
 * Project: gonna keep this music/hobby table on here until I actually get it done (gear acquisition pause still in effect); I'm also delinquent on an art table for Nev
 * Skill: practice scales on my Arturia (15 minutes × 15 times)
 
-Reading:
+### Reading
 
 * Fiction: [_Story of Your Life and Others_][26], Ted Chiang
 * Non-fiction: [_Bird by Bird: Some Instructions on Writing and Life_][27], Anne Lamott (recommended [here][28] and [here][29])
@@ -167,7 +167,7 @@ Reading:
 [28]: https://www.irunfar.com/stride-by-stride
 [29]: https://kimberlyhirsh.com/now/
 
-Links:
+### Links
 
 * [I Made This][30]
 

@@ -24,18 +24,18 @@ With the warm winter we've been having in NC, I've gotten to take Nev to and fro
 
 <!--more-->
 
-This month:
+### This Month
 
 * Adventure: glamping with Claire, Nev, and Steve
 * Project: rebuild shelves in bedroom closet
 * Skill: [Affinity Designer](https://affinity.serif.com/en-us/designer/)
 
-Reading:
+### Reading
 
 * Fiction: [_Burner_](https://bookshop.org/p/books/burner-mark-greaney/18519742), Mark Greaney
 * Non-fiction: [_The Power of Habit_](https://bookshop.org/p/books/the-power-of-habit-why-we-do-what-we-do-in-life-and-business-charles-duhigg/7843601), Charles Duhigg
 
-Links:
+### Links
 
 * [Electric Bike, Stupid Love of My Life][1]
 * [Programming is a Pop Culture][2]

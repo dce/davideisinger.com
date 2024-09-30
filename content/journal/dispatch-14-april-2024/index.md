@@ -87,7 +87,7 @@ I had a couple things printed this month. I made this [e-ink photo frame][9] a c
 [11]: https://www.print-my-pdf.com/
 [12]: https://manuelmoreale.com/from-ink-to-pixel-to-ink
 
-This month:
+### This Month
 
 * Adventure: Claire and I are headed to Lisbon, Portugal for a long weekend; hoping to catch a [Benfica][13] match while we're there
 * Project: declutter and organize -- gotta clear out some space for some big stuff coming this summer
@@ -95,7 +95,7 @@ This month:
 
 [13]: https://www.slbenfica.pt/en-us/
 
-Reading:
+### Reading
 
 * Fiction: [_Pawn of Prophecy_][14], David Eddings (recommended by [Wouter Groeneveld][15])
 * Non-fiction: aforementioned Circuit and SP-404 manuals
@@ -103,7 +103,7 @@ Reading:
 [14]: https://en.wikipedia.org/wiki/The_Belgariad
 [15]: https://brainbaking.com/post/2024/03/february-2024/#books-ive-read
 
-Links:
+### Links
 
 * [Why keep writing?][16]
     

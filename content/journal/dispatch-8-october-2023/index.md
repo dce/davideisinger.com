@@ -67,7 +67,7 @@ I was anticipating a longer learning curve with the Circuit, and was kind of sur
 
 [8]: https://bonobomusic.com/
 
-This month:
+### This Month
 
 * Adventure: [Bull City Race Fest][9] half-marathon next weekend, then, if I'm feeling frisky, keep my training up and register for [City of Oaks][10]. The other night, I was running after dark and managed to tweak my ankle in the last 20 feet -- the perils of trying to balance work, parenting, and training, I guess.
 * Project:
@@ -80,7 +80,7 @@ This month:
 [10]: https://cityofoaksmarathon.com/
 [11]: https://github.com/famendola1/yfquery
 
-Reading:
+### Reading
 
 * Fiction:
 	* [_Double or Nothing_][12], Kim Sherwood
@@ -92,7 +92,7 @@ Reading:
 [14]: https://bookshop.org/p/books/step-by-step-mixing-how-to-create-great-mixes-using-only-5-plug-ins-bjorgvin-benediktsson/9946155?ean=9781733688802
 [15]: https://www.stepbystepmixing.com/
 
-Links:
+### Links
 
 * [gokrazy is really cool][16]
 

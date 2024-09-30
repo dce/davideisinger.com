@@ -79,13 +79,13 @@ A [comment on Reddit][8] sent me down a little bit of an iPad music rabbit hole,
 
 Claire and I are both big fans of Death Cab for Cutie and The Postal Service. They're on a tour for the 20th anniversaries of _Transatlaticism_ and _Give Up_ (man what a year 2003 must have been for Ben Gibbard) and we got tickets for the Raleigh show. They played both albums straight through. It was awesome, though when they finished _Give Up_ and we were waiting for the encore, it sure made me wish Postal Service had ever made another record -- we just heard their entire catalogue.
 
-This month:
+### This Month
 
 * Adventure: lake for Memorial Day; enjoy these last few weeks of only-child Nev
 * Project: make a song with my iPad, maybe in a novel location; get the house ready for this BABY
 * Skill: get back into running (fell off in April)
 
-Reading:
+### Reading
 
 * Fiction: [_Magician's Gambit_][11], David Eddings (enjoying this series)
 * Non-fiction: [_The Creative Act_][12], Rick Rubin
@@ -93,7 +93,7 @@ Reading:
 [11]: https://en.wikipedia.org/wiki/The_Belgariad
 [12]: https://bookshop.org/p/books/the-creative-act-a-way-of-being-rick-rubin/18543579
 
-Links:
+### Links
 
 * [The One Big Thing You Can Do for Your Kids][13]
 
