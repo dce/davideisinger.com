@@ -72,7 +72,7 @@ Finished a couple small house projects: a hanging system for Nev's art table and
 {{<dither IMG_6914.jpeg "782x600" />}}
 {{<dither IMG_6919.jpeg "782x600" />}}
 
-One of my favorite things about running is this: it doesn't matter what else happens throughout the day -- if I run, it was a good day. I feel the same way about these little home improvement efforts: any day I use a drill or power saw is a good day.
+One of my favorite things about running is this: it doesn't matter what else happens throughout the day -- if I run, it was a good day. I feel the same way about these little home improvement efforts: any day I use my tools, skills, and agency to improve our living space is a good day.
 
 ### This month
 
