@@ -74,7 +74,7 @@ Finished a couple small house projects: a hanging system for Nev's art table and
 
 One of my favorite things about running is this: it doesn't matter what else happens throughout the day -- if I run, it was a good day. I feel the same way about these little home improvement efforts: any day I use my tools, skills, and agency to improve our living space is a good day.
 
-### This month
+### This Month
 
 * Adventure: Wilmington to meet my new nephew, [Bull City Race Fest][3] half-marathon, camping at [Fairy Stone State Park][4]
 * Project: make a new music track!
