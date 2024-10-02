@@ -1,0 +1,461 @@
+[1]Skip to main content
+Open Navigation Menu
+
+To revisit this article, visit My Profile, then [3]View saved stories.
+
+Close Alert
+[5]WIRED
+Attention, Spoiled Software Engineers: Take a Lesson from Google’s Programming
+Language
+
+  • [6]Security
+  • [7]Politics
+  • [8]Gear
+  • [9]The Big Story
+  • [10]Business
+  • [11]Science
+  • [12]Culture
+  • [13]Ideas
+  • [14]Merch
+
+More
+[16]Search
+
+  • [17]Security
+  • [18]Politics
+  • [19]Gear
+  • [20]The Big Story
+  • [21]Business
+  • [22]Science
+  • [23]Culture
+  • [24]Ideas
+  • [25]Merch
+
+  • [26]Podcasts
+  • [27]Video
+  • [28]Newsletters
+  • [29]Magazine
+  • [30]Travel
+  • [31]Steven Levy's Plaintext Column
+  • [32]WIRED Classics from the Archive
+  • [33]Events
+  • [34]WIRED Insider
+  • [35]WIRED Consulting
+  • [36]Jobs
+  • [37]Coupons
+
+[38]Sheon Han
+[39]Business
+Sep 23, 2024 6:30 AM
+
+Attention, Spoiled Software Engineers: Take a Lesson from Google’s Programming
+Language
+
+The language Go hails from an era when programmers had smaller egos and fewer
+commercial ambitions. My generation of strivers has a lot to learn.
+A marbel squirrel sculpture in a garden
+ILLUSTRATION: SAMUEL TOMSON
+Save
+Save
+
+Many of today’s programmers—excuse me, software engineers—consider themselves
+“creatives.” Artists of a sort. They are given to ostentatious personal
+websites with cleverly hidden Easter eggs and parallax scrolling; they confer
+upon themselves multihyphenate job titles
+(“ex-Amazon-engineer-investor-author”) and crowd their laptops with
+identity-signaling vinyl stickers. Some regard themselves as literary
+sophisticates. Consider the references smashed into certain product names:
+Apache Kafka, ScyllaDB, Claude 3.5 Sonnet.
+
+[42]Machine Readable
+An 8 bit lips character looking suspicious with its hand on its chin.
+A regular column about programming. Because if/when the machines take over, we
+should at least speak their language.
+
+Much of that, I admit, applies to me. The difference is I’m a tad short on
+talents to hyphenate, and my toy projects—with names like “Nabokov” (I know, I
+know)—are better off staying on my laptop. I entered this world pretty much the
+moment [43]software engineering overtook banking as the most reviled
+profession. There’s a lot of hatred, and self-hatred, to contend with.
+
+Perhaps this is why I see the ethos behind the programming language Go as both
+a rebuke and a potential corrective to my generation of strivers. Its creators
+hail from an era when programmers had smaller egos and fewer commercial
+ambitions, and it is, for my money, the premier general-purpose language of the
+new millennium—not the best at any one thing, but nearly the best at nearly
+everything. A model for our flashy times.
+
+If I were to categorize programming languages like art movements, there would
+be mid-century utilitarianism (Fortran, COBOL), high-theory formalism (Haskell,
+Agda), Americorporate pragmatism (C#, Java), grassroots communitarianism
+(Python, Ruby), and esoteric hedonism (Befunge, Brainfuck). And I’d say Go,
+often described as “C for the 21st century,” represents neoclassicism: not so
+much a revolution as a throwback.
+
+Back in 2007, three programmers at Google came together around the shared sense
+that standard languages like C++ and Java had become hard to use and poorly
+adapted to the current, more cloud-oriented computing environment. One was Ken
+Thompson, formerly of Bell Labs and a recipient of the Turing Award for his
+work on Unix, the mitochondrial Eve of operating systems. (These days, OS
+people don’t mess with programming languages—doing both is akin to an Olympic
+high jumper also qualifying for the marathon.) Joining him was Rob Pike,
+another Bell Labs alum who, along with Thompson, created the Unicode encoding
+standard UTF-8. You can thank them for your emoji.
+
+Watching these doyens of programming create Go was like seeing Scorsese, De
+Niro, and Pesci reunite for The Irishman. Even its flippantly SEO-unfriendly
+name could be forgiven. I mean, the sheer chutzpah of it. A move only the
+reigning search engine king would dare.
+
+The language quickly gained traction. The prestige of Google must’ve helped,
+but I assume there was an unmet hunger for novelty. By 2009, the year of Go’s
+debut, the youngest of mainstream languages were mostly still from 1995—a true
+annus mirabilis, when Ruby, PHP, Java, and JavaScript all came out.
+
+It wasn’t that advancements in programming language design had stalled.
+Language designers are a magnificently brainy bunch, many with a reformist zeal
+for dislodging the status quo. But what they end up building can sometimes
+resemble a starchitect’s high-design marvel that turns out to have drainage
+problems. Most new languages never overcome basic performance issues.
+
+But from the get-go, Go was (sorry) ready to go. I once wrote a small search
+engine in Python for sifting through my notes and documents, but it was
+unusably sluggish. Rewritten in Go, my pitiful serpent grew wings and took off,
+running 30 times faster. As some astute readers might have guessed, this
+program was my “Nabokov.”
+
+Most Popular
+
+  • [44]
+    The Top New Features Coming to Apple’s iOS 18 and iPadOS 18
+    Gear
+    [45]
+    The Top New Features Coming to Apple’s iOS 18 and iPadOS 18
+    By Julian Chokkattu
+  • [46]
+    How a 15-Year-Old Gamer Became the Patron Saint of the Internet
+    Culture
+    [47]
+    How a 15-Year-Old Gamer Became the Patron Saint of the Internet
+    By Kyle MacNeill
+  • [48]
+    Give Your Back a Break With Our Favorite Office Chairs
+    Gear
+    [49]
+    Give Your Back a Break With Our Favorite Office Chairs
+    By Julian Chokkattu
+  • [50]
+    The Best Espresso Machines for the Home Barista
+    Gear
+    [51]
+    The Best Espresso Machines for the Home Barista
+    By Jaina Grey
+  • 
+
+This is not to say that Go is a perfect language. It’s more workhorse than show
+horse. And it came out 15 years ago, enough time for a stream of breakup
+stories and critiques to cycle through the industry’s paper of record, Hacker
+News.
+
+To wit: Many find Go code ugly. There’s a procrustean uniformity to it, and it
+lacks the tidy shorthands of, say, Ruby or Python, so even common patterns can
+become messy and cluttered. (Ask a Go programmer about “error handling.”) Also,
+you can’t run the code, even with correct syntax, unless certain styles are
+strictly followed. Imagine a word processor that does not allow you to save
+unless your essay is free of grammatical errors.
+
+I’m happy to admit that Go lacks the ergonomics of newer languages. But I
+struggle to dispel the suspicion that these are the complaints of a spoiled
+era. If the chief engineer of the first-generation Ford Mustang were tasked
+with designing a new line of cars, and did so remarkably—models of practicality
+and workmanship—would you complain about them having no touchscreens?
+
+It’s odd to think how young the field of computer science is. Alan Turing’s
+paper that launched the field is less than a century old, and we live in a
+small window of time where pioneers are alive and professionally active, even
+into their eighties. Go is a language created by people who had nothing left to
+prove.
+
+I hope it isn’t too contrived to speak of a “late style” in programming. The
+idea is usually attributed to the German philosopher Theodor Adorno, who
+observed a growing contradiction and alienation in Beethoven’s later work. The
+literary critic Edward Said expanded on the notion in his posthumous book On
+Late Style, discussing how some artists, when facing impending mortality,
+reject traditional artistic closure and instead embrace fragmentation and
+unresolved tension.
+
+What I find more intriguing—and rarer than we might have thought—are the cases
+where masters in their later years do accept a certain closure and, as Said put
+it, maintain a “spirit of reconciliation and serenity.” Social media has
+provided us with the disappointing yet sobering spectacle wherein supposedly
+accomplished individuals—since we’re talking technology here, certain computer
+scientists in AI who shall remain nameless come to mind—regularly engage in
+unseemly reckonings with their residual baggage.
+
+But when I think about Go, I feel a sense of serenity. Instead of involving
+themselves in spats with young kvetchers, the Go team directs you to their FAQ
+page—the gold standard of FAQ pages—written in a gentle, statesmanlike tone.
+And with that, they rest their case. I suppose that’s where some people do end
+up: completely, even plainly, at ease with their work. To know it’s possible,
+someday, perhaps, is a balm. Maybe my generation will learn to tame our egos
+and find our footing. We still have a few decades to make it so.
+
+You Might Also Like …
+
+  • In your inbox: Our [52]biggest stories, handpicked for you each day
+
+  • Inside [53]Google’s 7-year mission to give AI a robot body
+
+  • The Big Interview: [54]Mark Cuban wants to fight pharma’s middlemen
+
+  • [55]The world’s biggest bitcoin mine is rattling this Texas oil town
+
+  • Event: Join us for [56]WIRED Health on March 18 in London
+
+[57]Sheon Han is a writer and programmer based in Palo Alto, California. His
+work has appeared in The New Yorker, The Atlantic, Quanta Magazine, and
+elsewhere.
+
+Topics[58]Machine Readable[59]coding[60]programming[61]Computers[62]computer
+science[63]software[64]Google
+Read More
+[65]
+OpenAI Announces a New AI Model, Code-Named Strawberry, That Solves Difficult
+Problems Step by Step
+[66]
+OpenAI Announces a New AI Model, Code-Named Strawberry, That Solves Difficult
+Problems Step by Step
+The ChatGPT maker reveals details of what’s officially known as OpenAI o1,
+which shows that AI needs more than scale to advance.
+Will Knight
+[67]
+The Godmother of AI Wants Everyone to Be a World Builder
+[68]
+The Godmother of AI Wants Everyone to Be a World Builder
+Stanford computer scientist Fei-Fei Li is unveiling a startup that aims to
+teach AI systems deep knowledge of physical reality. Investors are throwing
+money at it.
+Steven Levy
+[69]
+Inside Google’s 7-Year Mission to Give AI a Robot Body
+[70]
+Inside Google’s 7-Year Mission to Give AI a Robot Body
+As the head of Alphabet’s AI-powered robotics moonshot, I came to believe many
+things. For one, robots can’t come soon enough. For another, they shouldn’t
+look like us.
+Hans Peter Brondmo
+[71]
+This New Tech Puts AI In Touch With Its Emotions&-and Yours
+[72]
+This New Tech Puts AI In Touch With Its Emotions—and Yours
+Hume AI, a startup founded by a psychologist who specializes in measuring
+emotion, gives some top large language models a realistic human voice.
+Will Knight
+[73]
+Crispr-Enhanced Viruses Are Being Deployed Against UTIs
+[74]
+Crispr-Enhanced Viruses Are Being Deployed Against UTIs
+With antibiotics losing their effectiveness, one company is turning to gene
+editing and bacteriophages—viruses that infect bacteria—to combat infections.
+Emily Mullin
+[75]
+This iPhone ‘Supercycle’ May Not Be So Super
+[76]
+This iPhone ‘Supercycle’ May Not Be So Super
+Some Apple analysts believe AI will spur a boom in iPhone sales. But not
+everyone’s buying the hype.
+Lauren Goode
+[77]
+Apple Vision Pro’s Eye Tracking Exposed What People Type
+[78]
+Apple Vision Pro’s Eye Tracking Exposed What People Type
+The Vision Pro uses 3D avatars on calls and for streaming. These researchers
+used eye tracking to work out the passwords and PINs people typed with their
+avatars.
+Matt Burgess
+[79]
+An ER Doctor’s Cure for America’s Gun Epidemic
+[80]
+An ER Doctor’s Cure for America’s Gun Epidemic
+Cedric Dark is a gun-owning emergency physician, a father, and the cousin of a
+man who was shot to death. This is what he—and the science—say needs to change.
+Cedric Dark
+[81]WIRED
+WIRED is where tomorrow is realized. It is the essential source of information
+and ideas that make sense of a world in constant transformation. The WIRED
+conversation illuminates how technology is changing every aspect of our
+lives—from culture to business, science to design. The breakthroughs and
+innovations that we uncover lead to new ways of thinking, new connections, and
+new industries.
+
+More From WIRED
+
+  • [83]Subscribe
+  • [84]Newsletters
+  • [85]FAQ
+  • [86]WIRED Staff
+  • [87]Editorial Standards
+  • [88]Archive
+  • [89]RSS
+  • [90]Accessibility Help
+
+Reviews and Guides
+
+  • [92]Reviews
+  • [93]Buying Guides
+  • [94]Mattresses
+  • [95]Electric Bikes
+  • [96]Soundbars
+  • [97]Streaming Guides
+  • [98]Wearables
+  • [99]TVs
+  • [100]Coupons
+  • [101]Code Guarantee
+
+  • [102]Advertise
+  • [103]Contact Us
+  • [104]Customer Care
+  • [105]Jobs
+  • [106]Press Center
+  • [107]Condé Nast Store
+  • [108]User Agreement
+  • [109]Privacy Policy
+  • [110]Your California Privacy Rights
+
+© 2024 Condé Nast. All rights reserved. WIRED may earn a portion of sales from
+products that are purchased through our site as part of our Affiliate
+Partnerships with retailers. The material on this site may not be reproduced,
+distributed, transmitted, cached or otherwise used, except with the prior
+written permission of Condé Nast. [111]Ad Choices
+
+Select international site
+
+United States
+
+  • [113]Italia
+  • [114]Japón
+  • [115]Czech Republic & Slovakia
+
+  • [116]
+  • [117]
+  • [118]
+  • [119]
+  • [120]
+  • [121]
+
+
+References:
+
+[1] https://www.wired.com/story/attention-spoiled-software-engineers-take-a-lesson-from-googles-programming-language/#main-content
+[3] https://www.wired.com/account/saved
+[5] https://www.wired.com/
+[6] https://www.wired.com/category/security/
+[7] https://www.wired.com/category/politics/
+[8] https://www.wired.com/category/gear/
+[9] https://www.wired.com/category/big-story/
+[10] https://www.wired.com/category/business/
+[11] https://www.wired.com/category/science/
+[12] https://www.wired.com/category/culture/
+[13] https://www.wired.com/category/ideas/
+[14] https://shop.wired.com/
+[16] https://www.wired.com/search/
+[17] https://www.wired.com/category/security/
+[18] https://www.wired.com/category/politics/
+[19] https://www.wired.com/category/gear/
+[20] https://www.wired.com/category/big-story/
+[21] https://www.wired.com/category/business/
+[22] https://www.wired.com/category/science/
+[23] https://www.wired.com/category/culture/
+[24] https://www.wired.com/category/ideas/
+[25] https://shop.wired.com/
+[26] https://www.wired.com/podcasts/
+[27] https://www.wired.com/video/
+[28] https://www.wired.com/newsletter?sourceCode=navbar
+[29] https://www.wired.com/magazine
+[30] http://wired.com/travel
+[31] https://www.wired.com/tag/plaintext/
+[32] https://www.wired.com/tag/wired-classic/
+[33] https://www.wired.com/tag/wired-events/
+[34] https://www.wired.com/category/wiredinsider/
+[35] https://www.wired.com/tag/wired-consulting/
+[36] https://jobs.wired.com/?source=navbar
+[37] https://www.wired.com/coupons
+[38] https://www.wired.com/author/sheon-han/
+[39] https://www.wired.com/category/business
+[42] https://www.wired.com/tag/machine-readable/
+[43] https://www.wired.com/tag/programming/
+[44] https://www.wired.com/story/apple-iphone-ios-18-ipados-18-new-features/#intcid=_wired-right-rail_8c1d84b3-dd85-4f7f-bece-ebc200c4adfb_popular4-1-reranked-by-vidi
+[45] https://www.wired.com/story/apple-iphone-ios-18-ipados-18-new-features/#intcid=_wired-right-rail_8c1d84b3-dd85-4f7f-bece-ebc200c4adfb_popular4-1-reranked-by-vidi
+[46] https://www.wired.com/story/carlo-acutis-millennial-patron-saint-internet/#intcid=_wired-right-rail_8c1d84b3-dd85-4f7f-bece-ebc200c4adfb_popular4-1-reranked-by-vidi
+[47] https://www.wired.com/story/carlo-acutis-millennial-patron-saint-internet/#intcid=_wired-right-rail_8c1d84b3-dd85-4f7f-bece-ebc200c4adfb_popular4-1-reranked-by-vidi
+[48] https://www.wired.com/gallery/best-office-chairs/#intcid=_wired-right-rail_8c1d84b3-dd85-4f7f-bece-ebc200c4adfb_popular4-1-reranked-by-vidi
+[49] https://www.wired.com/gallery/best-office-chairs/#intcid=_wired-right-rail_8c1d84b3-dd85-4f7f-bece-ebc200c4adfb_popular4-1-reranked-by-vidi
+[50] https://www.wired.com/gallery/best-espresso-machines/#intcid=_wired-right-rail_8c1d84b3-dd85-4f7f-bece-ebc200c4adfb_popular4-1-reranked-by-vidi
+[51] https://www.wired.com/gallery/best-espresso-machines/#intcid=_wired-right-rail_8c1d84b3-dd85-4f7f-bece-ebc200c4adfb_popular4-1-reranked-by-vidi
+[52] https://www.wired.com/newsletter/daily?sourceCode=BottomStories
+[53] https://www.wired.com/story/inside-google-mission-to-give-ai-robot-body/
+[54] https://www.wired.com/story/big-interview-after-shark-tank-mark-cuban-just-wants-to-break-shit-especially-the-prescription-drug-industry/
+[55] https://www.wired.com/story/the-worlds-biggest-bitcoin-mine-is-rattling-this-texas-oil-town/
+[56] https://health.wired.com/?sourceCode=BottomStories
+[57] https://www.wired.com/author/sheon-han/
+[58] https://www.wired.com/tag/machine-readable/
+[59] https://www.wired.com/tag/coding/
+[60] https://www.wired.com/tag/programming/
+[61] https://www.wired.com/tag/computers/
+[62] https://www.wired.com/tag/computer-science/
+[63] https://www.wired.com/tag/software/
+[64] https://www.wired.com/tag/google/
+[65] https://www.wired.com/story/openai-o1-strawberry-problem-reasoning/#intcid=recommendations_wired-bottom-recirc-v4_c28d288f-1ad3-47fd-be7b-f9ca05c22f9f_roberta-similarity1
+[66] https://www.wired.com/story/openai-o1-strawberry-problem-reasoning/#intcid=recommendations_wired-bottom-recirc-v4_c28d288f-1ad3-47fd-be7b-f9ca05c22f9f_roberta-similarity1
+[67] https://www.wired.com/story/plaintext-the-godmother-of-ai-wants-everyone-to-be-a-world-builder/#intcid=recommendations_wired-bottom-recirc-v4_c28d288f-1ad3-47fd-be7b-f9ca05c22f9f_roberta-similarity1
+[68] https://www.wired.com/story/plaintext-the-godmother-of-ai-wants-everyone-to-be-a-world-builder/#intcid=recommendations_wired-bottom-recirc-v4_c28d288f-1ad3-47fd-be7b-f9ca05c22f9f_roberta-similarity1
+[69] https://www.wired.com/story/inside-google-mission-to-give-ai-robot-body/#intcid=recommendations_wired-bottom-recirc-v4_c28d288f-1ad3-47fd-be7b-f9ca05c22f9f_roberta-similarity1
+[70] https://www.wired.com/story/inside-google-mission-to-give-ai-robot-body/#intcid=recommendations_wired-bottom-recirc-v4_c28d288f-1ad3-47fd-be7b-f9ca05c22f9f_roberta-similarity1
+[71] https://www.wired.com/story/hume-ai-emotional-intelligence/#intcid=recommendations_wired-bottom-recirc-v4_c28d288f-1ad3-47fd-be7b-f9ca05c22f9f_roberta-similarity1
+[72] https://www.wired.com/story/hume-ai-emotional-intelligence/#intcid=recommendations_wired-bottom-recirc-v4_c28d288f-1ad3-47fd-be7b-f9ca05c22f9f_roberta-similarity1
+[73] https://www.wired.com/story/crispr-enhanced-viruses-are-being-deployed-against-utis/#intcid=recommendations_wired-bottom-recirc-v4_c28d288f-1ad3-47fd-be7b-f9ca05c22f9f_roberta-similarity1
+[74] https://www.wired.com/story/crispr-enhanced-viruses-are-being-deployed-against-utis/#intcid=recommendations_wired-bottom-recirc-v4_c28d288f-1ad3-47fd-be7b-f9ca05c22f9f_roberta-similarity1
+[75] https://www.wired.com/story/iphone-16-supercycle/#intcid=recommendations_wired-bottom-recirc-v4_c28d288f-1ad3-47fd-be7b-f9ca05c22f9f_roberta-similarity1
+[76] https://www.wired.com/story/iphone-16-supercycle/#intcid=recommendations_wired-bottom-recirc-v4_c28d288f-1ad3-47fd-be7b-f9ca05c22f9f_roberta-similarity1
+[77] https://www.wired.com/story/apple-vision-pro-persona-eye-tracking-spy-typing/#intcid=recommendations_wired-bottom-recirc-v4_c28d288f-1ad3-47fd-be7b-f9ca05c22f9f_roberta-similarity1
+[78] https://www.wired.com/story/apple-vision-pro-persona-eye-tracking-spy-typing/#intcid=recommendations_wired-bottom-recirc-v4_c28d288f-1ad3-47fd-be7b-f9ca05c22f9f_roberta-similarity1
+[79] https://www.wired.com/story/an-er-doctors-cure-for-americas-gun-epidemic/#intcid=recommendations_wired-bottom-recirc-v4_c28d288f-1ad3-47fd-be7b-f9ca05c22f9f_roberta-similarity1
+[80] https://www.wired.com/story/an-er-doctors-cure-for-americas-gun-epidemic/#intcid=recommendations_wired-bottom-recirc-v4_c28d288f-1ad3-47fd-be7b-f9ca05c22f9f_roberta-similarity1
+[81] https://www.wired.com/
+[83] https://www.wired.com/subscribe/
+[84] https://www.wired.com/newsletter?sourceCode=HeaderAndFooter
+[85] https://www.wired.com/about/faq/
+[86] https://www.wired.com/about/wired-staff/
+[87] https://www.wired.com/about/wired-on-background-policy/
+[88] https://archive.wired.com/t/storefront/storefront
+[89] https://www.wired.com/about/rss-feeds/
+[90] https://www.wired.com/about/accessibility-help/
+[92] https://www.wired.com/category/gear/reviews/
+[93] https://www.wired.com/category/gear/buying-guides/
+[94] https://www.wired.com/gallery/best-mattresses/
+[95] https://www.wired.com/gallery/best-electric-bikes/
+[96] https://www.wired.com/gallery/best-soundbars/
+[97] https://www.wired.com/tag/culture-guides/
+[98] https://www.wired.com/tag/wearables/
+[99] https://www.wired.com/gallery/best-tvs/
+[100] https://www.wired.com/tag/coupons/
+[101] https://www.wired.com/coupons/info/code-guarantee.html
+[102] https://www.condenast.com/brands/wired
+[103] https://www.wired.com/about/feedback/
+[104] https://subscriptions.wired.com/pubs/N3/WIR/Register.jsp?cds_page_id=175371&cds_mag_code=WIR&id=1423757547774&lsid=50431012277019467&vid=1
+[105] https://www.wired.com/about/wired-jobs/
+[106] https://www.wired.com/about/press/
+[107] https://www.condenaststore.com/
+[108] https://www.condenast.com/user-agreement/
+[109] http://www.condenast.com/privacy-policy#privacypolicy
+[110] http://www.condenast.com/privacy-policy#privacypolicy-california
+[111] http://www.aboutads.info/
+[113] https://www.wired.it/
+[114] https://wired.jp/
+[115] https://www.wired.cz/
+[116] https://www.facebook.com/wired/
+[117] https://twitter.com/wired/
+[118] https://pinterest.com/wired/
+[119] https://www.youtube.com/user/wired/
+[120] https://instagram.com/wired/
+[121] https://www.tiktok.com/@wired?lang=en

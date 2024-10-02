@@ -1,0 +1,67 @@
+[1]Tom MacWright
+
+tom@macwright.com
+
+[2]Tom MacWright
+
+  • [3]Writing
+  • [4]Reading
+  • [5]Photos
+  • [6]Projects
+  • [7]Drawings
+  • [8]Micro⇠
+  • [9]About
+
+Crypto's missing plateau of productivity
+
+2024-09-15
+
+I think that even the most overhyped technology usually delivers some benefit
+to the world. And often succeeds quietly, long after the hype has died. Recent
+examples include 3D printing, which has found massive success in prototyping,
+medical applications - a friend had a filling 3D-printed right in his doctor’s
+office - and niche consumer items. Etsy is awash with 3D printed lamps, some 
+[10]even that I own. Or drones, which are now used all the time in news
+coverage, on job sites, and by people filming themselves hiking.
+
+I suspect that even if Augmented Reality doesn’t take off, it’ll leave in its
+wake big advances in miniaturized projectors, improved optics, and scene
+understanding algorithms in computer vision and ML. The internet of things
+didn’t really work and most people’s Alexa speakers are only used for setting
+alarms, but the hype-wave did justify the deployment of much-needed
+technologies like IPv6, Zigbee, and BLE.
+
+So, the thought is: none of this applies to crypto. It didn’t work, and it also
+didn’t fund the development of any lasting technological advance. There’s no
+legacy. The crypto industry’s research didn’t create new foundations for
+building decentralized databases. Next-generation cryptography kept rolling on,
+and, as far as I know, none of it owes much to the cryptocurrency industry.
+Nothing new has been discovered about economics: as Matt Levine says, [11]“One
+thing that I say frequently around here is that crypto keeps learning the
+lessons of traditional finance at high speed.” It’s hard to name anything of
+value that came out of this hype wave. We incinerated all that investment, and
+randomly redistributed some wealth, and… what else?
+
+The best I can come up with is the popularization of [12]zero-knowledge proofs,
+which play some role in Zerocash and Ethereum but are a fundamental advance in
+security and have other applications.
+
+Maybe there’s something I’m missing? But it reminds me of [13]the end of Burn
+After Reading: “What did we learn? We learned not to do it again.”
+
+
+References:
+
+[1] https://macwright.com/
+[2] https://macwright.com/
+[3] https://macwright.com/writing/
+[4] https://macwright.com/reading/
+[5] https://macwright.com/photos/
+[6] https://macwright.com/projects/
+[7] https://macwright.com/drawings/
+[8] https://macwright.com/micro/
+[9] https://macwright.com/about/
+[10] https://www.etsy.com/listing/1001875399/aspen-table-lamp-mushroom-lamp-modern?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=3d+printed+lamp&ref=sr_gallery-1-7&bes=1&sts=1&ret=1&content_source=34ccc20e2da3df5906473c82c6fb7ae0e3bcf572%253A1001875399&organic_search_click=1
+[11] https://www.bloomberg.com/opinion/articles/2024-08-15/stablecoins-can-have-bank-runs
+[12] https://en.wikipedia.org/wiki/Non-interactive_zero-knowledge_proof
+[13] https://www.youtube.com/watch?v=SlA9hmrC8DU

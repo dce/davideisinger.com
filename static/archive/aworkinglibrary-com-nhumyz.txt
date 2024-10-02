@@ -1,0 +1,302 @@
+[1]Practice the future →
+
+  • [2]Reading
+  • [3]Writing
+  • [4]Thinking
+  • [5]About
+  • [6]Subscribe
+
+[7]
+
+A working library is a blog about work, reading & technology by Mandy Brown
+
+2024-09-19
+
+[8]Coming home
+
+    What do they do,
+    the singers, tale-writers, dancers, painters, shapers, makers?
+    They go there with empty hands,
+    into the gap between.
+    They come back with things in their hands.
+
+    [9]Le Guin, Always Coming Home, page 74
+
+I’ve [10]written before about the restlessness inherent to screens, the
+inability to ever linger or pause or catch your breath. It’s a strangely
+disembodied experience, a sense of ceaseless, rustling motion when nothing is
+moving at all: electrical pulses flash and gasp beneath the oceans, your mind
+strains to catch up, your body remains still save for a few twitching digits,
+the shell that’s left behind when your spirit evacuates for the mirage of
+higher ground. We become as smooth and reflective as the screen itself, all
+glassy surfaces and metallic edges obscuring the hollowness within. No need to
+fantasize about what it might be like to upload your consciousness to the
+machine—most of us are already there.
+
+It’s curious, the way we refer to media that comes at us as a stream, whether
+of moving pictures or sentence fragments, as if it were the mere flow of cool,
+fresh water running smoothly and gently at our feet. But all it takes is one
+big storm, and your friendly little stream becomes a gushing torrent of mud and
+debris, strong enough to fling cars and houses out of its path, to smash your
+own fragile body—itself mostly water and so perhaps sympathetic to the display
+of power—against the rocks.
+
+One meaning of the verb “distract” is to separate, to draw apart. To separate
+the body from the spirit. To draw apart, or perhaps to draw out, as of a small
+animal lured from its den by the smell of fresh grass, only to be met by dust
+and talons. Another meaning is madness.
+
+To step into the stream of any social network, to become immersed in the news,
+reactions, rage and hopes, the marketing and psyops, the funny jokes and clever
+memes, the earnest requests for mutual aid, for sign ups, for jobs, the clap
+backs and the call outs, the warnings and invitations—it can feel like a kind
+of madness. It’s unsettling, in the way that sediment is unsettled by water,
+lifted up and tossed around, scattered about. A pebble goes wherever the river
+sends it, worn down and smoothed day after day until all that’s left is sand.
+
+At some point I became acutely aware of a sense of scattering or separation
+whenever I glanced at the socials. As if some part of me, or some pattern or
+vision that I cupped tenderly in my hands, was washed away, wrenched from my
+grasp before I quite realized what it was. I think of the orb spiders I often
+glimpse in my tiny city backyard, delicate webs balanced on two leaves of the
+rhododendron and the stem of a laurel. In my own work, I’m weaving ideas,
+stories, prophesies, metaphors, dreams by the shore of this great, inconstant
+stream, and every so often a wave rises up and swallows the whole affair. I
+can’t predict when a wave will come; I can, at this point, count on it coming.
+
+A wise spider would move a little ways away. But not too far, because this is
+where the life is. And so I find myself thinking about how I might get some
+distance, what it means to move uphill a ways, to weave my web safe from the
+spray. To get out of the flood zone. To come home.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Some weeks ago, I quietly shipped a new content type on A Working Library, such
+that I am now writing [11]short, [12]social-[13]shaped posts on my site and
+then sending them off to the various platforms. This is not a novel mode of
+publishing, but rather one borrowed and adapted from the [14]POSSE model
+(“publish on your site, syndicate elsewhere”) developed by the IndieWeb
+community. While one of the reasons oft declared for using POSSE is the ability
+to own your content, I’m less interested in ownership than I am in context.
+Writing on my own site has very different affordances: I’m not typing into a
+little box, but writing in a text file. I’m not surrounded by other people’s
+thinking, but located within my own body of work. As I played with setting this
+up, I could immediately feel how that would change the kinds of things I would
+say, and it felt good. Really good. Like putting on a favorite t-shirt, or
+coming home to my solid, quiet house after a long time away.
+
+A website is, among other things, a container. The shape of that container both
+constrains and makes possible what goes within it. This is, I think, one of the
+primary justifications for having your own website. Not just so you can own
+your stuff (for some meaning of “ownership,” in a culture in which any
+billionaire can scrape your work without permission and copyright only protects
+the rich). Not just so you have a home base among the shifting winds of the
+various platforms, which rise and fall like brush before the fire. Not just so
+you can avoid setting up camp in a Nazi bar. But also so that you can shape the
+work—so that you can give shape to it, and in that shaping make possible work
+that couldn’t arise elsewhere.
+
+I made a decision many years ago to shape my work around the books I read. If
+I’m being completely honest, I don’t recall spending a lot of time thinking
+about that decision or contemplating the consequences of it. It seemed right
+and so I ran with it. But it has since given rise to a kind of scholarship and
+writing that I’m not sure I would have landed on were I writing on some
+all-purpose platform, or fitting my work into someone else’s box. It’s allowed
+me to cultivate the soil to suit my purposes—rather than having to adapt my
+garden to the soil I was given. Not every seed I’ve planted has thrived, of
+course. But after all these years, some are quite hardy, while others have made
+some very rich compost. And I find myself often amazed by what emerges: not
+only the seeds I planted but a great many I never anticipated, connections and
+stories I didn’t see until I was right on top of them, until they were tangled
+at my feet. Dark velvety leaves amid glossy blooms, thorns and small sour
+fruits, vines that weave and climb and show me the way.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+This is, objectively, a difficult way to publish. There’s a great deal of
+friction between an idea or phrase coming to mind and the words making it out
+into the world. And I don’t mean the writing itself (which, as every writer
+will tell you, is dreadful), but the actual mechanics of sharing that writing.
+I mean, I am the fool who opens their damn terminal every time they want to
+publish; in recent weeks, I have spent a not insignificant number of hours
+writing some absolutely criminal CSS. I cannot, in good conscience, advise this
+path for anyone with sense. But the choice to do so suits my own proclivities:
+a desire to tinker not only with the words but with the strata underneath them,
+and a long-running interest in the material reality of publishing. And more
+often than not, I find that what I need is some friction, some labor, the
+effort to work things out. Efficiency is an anti-goal; it is at odds with the
+work, which requires resistance and tension in order to come into being.
+
+This is one of the many reasons why I find the current conversation about [15]
+so-called generative AI so immensely frustrating: there’s all this hype about
+making everything easier and faster, about how we can eliminate all the work
+involved in the making of words and images. But no one arguing for this seems
+to have asked what’s left when the work is gone. What is the experience of
+asking for something to appear and then instantly receiving it? What changes
+between the thought and the manifestation? I fear that nothing changes, that
+nothing is changed in such a making, least of all ourselves. But then, what
+does it mean to be unchanged, for your feet to pass so lightly over the ground
+they don’t so much as disturb the sand? Even the dead make change in the world,
+as their bodies decay and and are transformed into food for beasts and bugs and
+trees. But in eliminating the effort, in refusing the temporality of making,
+the outcome of an “AI”-driven creative process is a phantasm, an
+unsubstantiality, something that passes through the world without leaving any
+trace. A root that twists back upon itself and tries to suck the water from its
+own desiccated veins.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+There was a time when I felt some resonance between spending time in the social
+stream and doing my own work. As if the movement of the water imparted some
+energy or power I could make use of, and then return. But it’s been a long time
+since I’ve felt that way. I grieve that loss: a great number of my closest
+friends are people I met in the halcyon days of Twitter, and I find I still
+often long for that kind of connection, the ambient awareness of people in
+whose company I felt at home. But I know that longing to be a kind of [16]
+nostalgia, an unrealizable wish to return to a past that never was quite as I
+remember it. I do not want those memories to be a burden, like stones weighing
+down my pockets. I want, instead, to carry them lightly and tenderly, to have
+the fortitude to accept the grief that comes with leaving the past where it
+belongs.
+
+A word about the Fediverse is warranted here. I believe that we desperately
+need to be experimenting and developing methods of communication that aren’t
+beholden to either the advertising industry or the brittle egos of
+billionaires. Hitching our means of finding each other and forging
+relationships to those insatiable appetites is to invite scarcity and fear into
+our most intimate alliances. We need room to talk and to take up space, to
+listen and to be heard, to organize ourselves, absent that exponential scale of
+manipulation. And I think that something like the Fediverse, which seeks to
+locate power in small communities, and functions at the level of a protocol
+rather than a company, moves us in the right direction.
+
+And yet: as much as the Fediverse is different (the governing structures, the
+incentives, the moderation, the absence of ads and engagement tricks), so much
+of it is also unsettlingly familiar—the same small boxes, the same few buttons,
+the same mechanics of following and being followed. The same babbling,
+tumbling, rushing stream of thoughts. I can’t tell if we’re stuck with this
+design because it’s familiar, or if it’s familiar because we’re stuck. Very
+likely it’s me that’s stuck, fixed in place while everything rushes around me,
+hoping for a gap, a break, a warm rock to rest awhile on. Longing for a mode of
+communication that lifts me up instead of wiping me out.
+
+And so I remain at an unresolvable juncture: the intersection of the very
+strong belief that we must experiment with new modes and systems of
+communication, and the certain knowledge that every time I so much as glance at
+anything shaped like a social feed, my brain smoothes out, the web of
+connections and ideas I’m weaving is washed away, and I tumble downstream, only
+to have to pick myself up and trudge heavily through the mud back to where I
+belong.
+
+It’s exhausting. It is, at this point in my life, unsustainable. I cannot dip
+into the stream, even briefly, and also maintain the awareness and focus needed
+to do my own work, the work that is uniquely mine. I cannot wade through the
+water and still protect this fragile thing in my hands. And perhaps I owe to my
+continued senescence the knowledge that I do not have time for this anymore.
+Perhaps it’s age that grants the wisdom to know where my attention belongs and
+the discipline to be able to direct it. The great power of a middle-aged woman
+is that she knows where to [17]give her fucks.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Will it be weird, to write this way? Probably. I’m tossing the same words into
+(currently) three totally different networks, each with their own affect and
+moods and characters of the day. I’m keeping my distance, such that I likely
+won’t hear the replies (at least, not with any timeliness) or see the ripples
+my words make, should they make any at all. But maybe we need more weird—not in
+the very recent sense of the word, but in the sense of prophesy or potential, a
+spell or charm, the magic, the wild, the wyrd—that which is becoming, rather
+than that which has already passed us by.
+
+In Madeline Miller’s beautiful retelling, the Greek witch-goddess Circe comes
+to understand the difference between her own magic and the greater gods’
+divinity:
+
+    Let me say what sorcery is not: it is not divining power, which comes with
+    a thought and a blink. It must be made and worked, planned and searched
+    out, dug up, dried, chipped and ground, cooked, spoken over, and sung.
+
+    [18]Miller, Circe, page 83
+
+Circe is surprised to learn that she loves the work of magic, loves it even
+when it’s infuriating and frustrating, when it’s filthy and exhausting. (The
+reader is not, I think, surprised.) But she doesn’t learn that love until she
+is exiled, left alone on an island, her only companions the birds and lions and
+wild boars. There she comes to see what her sorcery really is. There she goes
+into the gap, and discovers that magic is dirt and muscle, work and will,
+effort and choice.
+
+Later, she returns to the world. Not to the world of the gods—which she comes
+to realize is a lifeless place—but to the mortal world, carrying her small
+herbs and potions, her wisdom. But as far as she travels, the island remains
+her home, the place she always comes back to.
+
+My own magic is a small one: to write in order to uncover what I think; to
+prefigure a future of work that serves the living; to listen intently as people
+speak aloud a story of themselves that is, in the speaking, being rewritten.
+But it is mine. For too long I have tried to make space for it along the banks,
+to keep one foot in the water, to speak my incantations into the wind while the
+river slips the sediment out from under me and pulls me ever deeper.
+
+No longer.*
+
+Related books
+
+[19]Always Coming Home
+
+Ursula K. Le Guin
+
+[20][le-guin-al]
+
+An archeology of the future.
+
+[21]Circe
+
+Madeline Miller
+
+[22][miller-cir]
+
+This is a subversive and triumphant retelling of the story of Circe, daughter
+of the sun-god Helios.
+
+Newsletter
+
+Occasional reading notes delivered to your inbox
+
+Email address [23][                    ] [25][subscribe]
+  • [26]RSS
+  • [27]Colophon
+  • [28]Copyright © 2008-2024 Mandy Brown
+  • [29]mandy@aworkinglibrary.com
+  • [30]@aworkinglibrary
+
+
+References:
+
+[1] https://everythingchanges.us/
+[2] https://aworkinglibrary.com/reading
+[3] https://aworkinglibrary.com/writing
+[4] https://aworkinglibrary.com/thinking
+[5] https://aworkinglibrary.com/about
+[6] https://aworkinglibrary.com/subscribe
+[7] https://aworkinglibrary.com/
+[8] https://aworkinglibrary.com/writing/coming-home
+[9] https://aworkinglibrary.com/reading/always-coming-home
+[10] https://aworkinglibrary.com/writing/out-of-time
+[11] https://aworkinglibrary.com/thinking/202408071000
+[12] https://aworkinglibrary.com/thinking/202408301732
+[13] https://aworkinglibrary.com/thinking/202409090848
+[14] https://indieweb.org/POSSE
+[15] https://aworkinglibrary.com/writing/smoke-screen
+[16] https://aworkinglibrary.com/writing/who-we-wish-to-become
+[17] https://aworkinglibrary.com/writing/unified-theory-of------
+[18] https://aworkinglibrary.com/reading/circe
+[19] https://aworkinglibrary.com/reading/always-coming-home
+[20] https://aworkinglibrary.com/reading/always-coming-home
+[21] https://aworkinglibrary.com/reading/circe
+[22] https://aworkinglibrary.com/reading/circe
+[26] https://aworkinglibrary.com/feed/index.xml
+[27] https://aworkinglibrary.com/colophon/
+[28] https://aworkinglibrary.com/copyright/
+[29] mailto:mandy@aworkinglibrary.com
+[30] https://mstdn.social/@aworkinglibrary
