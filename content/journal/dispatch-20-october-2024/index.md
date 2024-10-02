@@ -65,7 +65,7 @@ To celebrate, we headed to Pigeon Forge, Tennessee, which was a **scene**. Nevie
 
 Nico started daycare last week, which is bittersweet; it's been wonderful having him around all day. But we love our daycare and it's fun to have him and Nev in the same place.
 
-Just a few more weeks until my half-marathon. I'm feeling relatively good, hitting my mileage goals, I'though I'm discouraged with my pace and energy level on the longer runs. I'm trying to make time to run while it's light out -- I don't think running in the dark after a long day is doing me any favors.
+Just a few more weeks until my half-marathon. I'm feeling relatively good, hitting my mileage goals, though I'm discouraged with my pace and energy level on the longer runs. I'm trying to make time to run while it's light out -- I don't think running in the dark after a long day is doing me any favors.
 
 Finished a couple small house projects: a hanging system for Nev's art table and some storage for our reusable grocery bags. 
 
