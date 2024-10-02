@@ -1,0 +1,1532 @@
+[1]
+[2]Hire Martians
+[3]
+Services
+[4]
+Clients
+[5]
+Products
+[6]
+Open Source
+[7]
+Blog
+[8]
+Events
+[9]
+Podcast
+[10]
+[11]
+[12]
+[13]
+[14]
+[15]Hire Martians
+[16]
+Services
+[17]
+Clients
+[18]
+Products
+[19]
+Open Source
+[20]
+Blog
+[21]
+Events
+[22]
+Podcast
+[23]
+[24]
+[25]
+[26]
+[27]
+7-
+Oct
+8
+Meet us at Rocky Mountain Ruby in Boulder, Colorado!
+[28]Hire Martians
+[29]
+[30]
+[31]
+[32]
+
+Ruby on Whales: Dockerizing Ruby and Rails development
+
+March 15, 2022
+[svg]
+Cover for Ruby on Whales: Dockerizing Ruby and Rails developmentCover for Ruby
+on Whales: Dockerizing Ruby and Rails development
+
+Topics
+
+  • [33]Backend
+  • [34]Full Cycle Software Development
+  • [35]Performance Optimization
+  • [36]Ruby on Rails
+  • [37]Ruby
+  • [38]Docker
+  • [39]PostgreSQL
+  • [40]Node.js
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  • [svg]
+    Vladimir Dementyev
+
+    Vladimir Dementyev
+
+    Principal Backend Engineer
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Translations
+
+  • Japanese[41]クジラに乗ったRuby: Evil Martians流Docker+Ruby/Rails開発環境構
+    築
+  • Chinese[42]骑鲸之路——Docker模式下的Rails开发环境构筑
+
+This post introduces the Docker configuration I use for developing my Ruby on
+Rails projects. This configuration came out of—and then further evolved—during
+[DEL:production:DEL] development at Evil Martians. Read on to learn all the
+details, and feel free to use it, share it, and enjoy!
+
+Notice: This article is regularly updated with the best and latest
+recommendations; for details, take a look at the [43]Changelog.
+
+So, where to start? This has been a pretty long journey: back in the day, I
+used to develop using Vagrant, but its VMs were a bit too heavy for my 4GB RAM
+laptop. In 2017, I decided to make the switch to containers, and this was how I
+first began using Docker. But don’t get the impression that this was an instant
+fix! I was in search of a configuration that was perfect for myself, my team,
+and well, everyone else. And something which was just good enough would not cut
+it. It took quite some time to develop a standard approach (as more formerly
+enshrined with the first release of this article in 2019). Since that first
+iteration of this post revealed my secret to the world, many Rails teams and
+devs have adopted my technique, and actually, they’ve helped to contribute and
+improve it!
+
+With that out of the way, let me just go ahead and present the config itself.
+Along the way, I’ll explain almost every line (because we’ve all had enough of
+those cryptic tutorials that just assume you know stuff).
+
+This post was originally adapted from my talk at RailsConf 2019: [44]
+“Terraforming legacy Rails applications”.
+
+    The source code can be found in the [45]evilmartians/ruby-on-whales
+    repository on GitHub.
+
+Before we get on with it, let’s note that we’ll be using up-to-date software
+versions for this example: Docker Desktop 20.10+ and Docker Compose v2,
+Ruby 3.1.0, PostgreSQL 14, etc.
+
+The bulk of the post consists mostly of annotated code and configuration
+examples, structured as follows:
+
+  • [46]The basics: Dockerfile and docker-compose.yml
+  • [47]Introducing Dip
+  • [48](Micro-)services vs Docker for development
+  • [49]From development to production
+  • [50]Introducing the Ruby on Whales interactive generator
+
+Basic Docker configuration
+
+[51]Dockerfile
+
+The Dockerfile defines our Ruby application’s environment. This environment is
+where we’ll run servers, access the console (rails c), perform tests, do Rake
+tasks, and otherwise interact with our code in any way as developers:
+
+# syntax=docker/dockerfile:1
+
+ARG RUBY_VERSION
+ARG DISTRO_NAME=bullseye
+
+FROM ruby:$RUBY_VERSION-slim-$DISTRO_NAME
+
+ARG DISTRO_NAME
+
+# Common dependencies
+RUN --mount=type=cache,target=/var/cache/apt,sharing=locked \
+  --mount=type=cache,target=/var/lib/apt,sharing=locked \
+  --mount=type=tmpfs,target=/var/log \
+  rm -f /etc/apt/apt.conf.d/docker-clean; \
+  echo 'Binary::apt::APT::Keep-Downloaded-Packages "true";' > /etc/apt/apt.conf.d/keep-cache; \
+  apt-get update -qq \
+  && DEBIAN_FRONTEND=noninteractive apt-get install -yq --no-install-recommends \
+    build-essential \
+    gnupg2 \
+    curl \
+    less \
+    git
+
+# Install PostgreSQL dependencies
+ARG PG_MAJOR
+RUN curl -sSL https://www.postgresql.org/media/keys/ACCC4CF8.asc | \
+    gpg --dearmor -o /usr/share/keyrings/postgres-archive-keyring.gpg \
+    && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/postgres-archive-keyring.gpg] https://apt.postgresql.org/pub/repos/apt/" \
+    $DISTRO_NAME-pgdg main $PG_MAJOR | tee /etc/apt/sources.list.d/postgres.list > /dev/null
+RUN --mount=type=cache,target=/var/cache/apt,sharing=locked \
+  --mount=type=cache,target=/var/lib/apt,sharing=locked \
+  --mount=type=tmpfs,target=/var/log \
+  apt-get update -qq && DEBIAN_FRONTEND=noninteractive apt-get -yq dist-upgrade && \
+  DEBIAN_FRONTEND=noninteractive apt-get install -yq --no-install-recommends \
+    libpq-dev \
+    postgresql-client-$PG_MAJOR
+
+# Install NodeJS and Yarn
+ARG NODE_MAJOR
+ARG YARN_VERSION=latest
+RUN --mount=type=cache,target=/var/cache/apt,sharing=locked \
+    --mount=type=cache,target=/var/lib/apt,sharing=locked \
+    --mount=type=tmpfs,target=/var/log \
+    apt-get update && \
+    apt-get install -y curl software-properties-common && \
+    curl -fsSL https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add - && \
+    echo "deb https://deb.nodesource.com/node_${NODE_MAJOR}.x $(lsb_release -cs) main" | tee /etc/apt/sources.list.d/nodesource.list && \
+    apt-get update && \
+    DEBIAN_FRONTEND=noninteractive apt-get install -yq --no-install-recommends nodejs
+RUN npm install -g yarn@$YARN_VERSION
+
+# Application dependencies
+# We use an external Aptfile for this, stay tuned
+COPY Aptfile /tmp/Aptfile
+RUN --mount=type=cache,target=/var/cache/apt,sharing=locked \
+  --mount=type=cache,target=/var/lib/apt,sharing=locked \
+  --mount=type=tmpfs,target=/var/log \
+  apt-get update -qq && DEBIAN_FRONTEND=noninteractive apt-get -yq dist-upgrade && \
+  DEBIAN_FRONTEND=noninteractive apt-get install -yq --no-install-recommends \
+    $(grep -Ev '^\s*#' /tmp/Aptfile | xargs)
+
+# Configure bundler
+ENV LANG=C.UTF-8 \
+  BUNDLE_JOBS=4 \
+  BUNDLE_RETRY=3
+
+# Store Bundler settings in the project's root
+ENV BUNDLE_APP_CONFIG=.bundle
+
+# Uncomment this line if you want to run binstubs without prefixing with `bin/` or `bundle exec`
+# ENV PATH /app/bin:$PATH
+
+# Upgrade RubyGems and install the latest Bundler version
+RUN gem update --system && \
+    gem install bundler
+
+# Create a directory for the app code
+RUN mkdir -p /app
+WORKDIR /app
+
+# Document that we're going to expose port 3000
+EXPOSE 3000
+# Use Bash as the default command
+CMD ["/bin/bash"]
+
+This configuration only contains the essentials, and so it can be used as a
+starting point. Let me illustrate what we’re are doing here a bit further. The
+first three lines might look a bit strange:
+
+ARG RUBY_VERSION
+ARG DISTRO_NAME=bullseye
+FROM ruby:$RUBY_VERSION-slim-$DISTRO_NAME
+
+Why not just use FROM ruby:3.1.0, or whatever is the stable Ruby version du
+jour? Well, we’re going this route because we want to make our environment
+configurable from the outside using Dockerfile as a sort of a template:
+
+  • The exact versions of the runtime dependencies are specified in the 
+    docker-compose.yml (see below 👇).
+  • The list of apt-installable dependencies is stored in a separate file
+    (also, see below 👇👇).
+
+Additionally, we parameterize the Debian release (bullseye by default) to make
+sure we’re adding the correct sources for our other dependencies (such as
+PostgreSQL).
+
+Alright, now, note that we declare the argument once again after the FROM
+statement:
+
+FROM ruby:$RUBY_VERSION-slim-$DISTRO_NAME
+ARG DISTRO_NAME
+
+That’s the tricky part of how Dockerfiles work: the args are reset after the 
+FROM statement. For more details, check out [52]this issue.
+
+Moving on, the rest of the file contains the actual build steps. First, we’ll
+need to manually install some common system dependencies (Git, cURL, etc.), as
+we’re using the slim base Docker image to reduce the size:
+
+# Common dependencies
+RUN --mount=type=cache,target=/var/cache/apt,sharing=locked \
+  --mount=type=cache,target=/var/lib/apt,sharing=locked \
+  --mount=type=tmpfs,target=/var/log \
+  apt-get update -qq \
+  && DEBIAN_FRONTEND=noninteractive apt-get install -yq --no-install-recommends \
+    build-essential \
+    gnupg2 \
+    curl \
+    less \
+    git
+
+We’ll explain all the details of installing system dependencies below,
+alongside the application-specific dependencies.
+
+Installing PostgreSQL and NodeJS via apt requires adding their deb package
+repos to the sources list.
+
+Here’s PostgreSQL (based on the [53]official documentation):
+
+ARG PG_MAJOR
+RUN curl -sSL https://www.postgresql.org/media/keys/ACCC4CF8.asc | \
+    gpg --dearmor -o /usr/share/keyrings/postgres-archive-keyring.gpg \
+    && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/postgres-archive-keyring.gpg] https://apt.postgresql.org/pub/repos/apt/" \
+    $DISTRO_NAME-pgdg main $PG_MAJOR | tee /etc/apt/sources.list.d/postgres.list > /dev/null
+RUN --mount=type=cache,target=/var/cache/apt,sharing=locked \
+  --mount=type=cache,target=/var/lib/apt,sharing=locked \
+  --mount=type=tmpfs,target=/var/log \
+  apt-get update -qq && DEBIAN_FRONTEND=noninteractive apt-get -yq dist-upgrade && \
+  DEBIAN_FRONTEND=noninteractive apt-get install -yq --no-install-recommends \
+    libpq-dev \
+    postgresql-client-$PG_MAJOR
+
+Since we aren’t expecting anyone to use this Dockerfile without [54]
+Docker Compose, we don’t provide a default value for the PG_MAJOR argument (the
+same applies to NODE_MAJOR below, and YARN_VERSION further below).
+
+Also, notice that in the code above that the DISTRO_NAME argument which we
+defined at the very beginning of the file comes back into play.
+
+And, we repeat our apt-get ... apt-get clean spell again: we want to make sure
+all the major pieces of our environment are built in an isolated way (this will
+help us to better utilize Docker cache layers when performing upgrades).
+
+For NodeJS (from the [55]NodeSource repo):
+
+ARG NODE_MAJOR
+RUN --mount=type=cache,target=/var/cache/apt,sharing=locked \
+    --mount=type=cache,target=/var/lib/apt,sharing=locked \
+    --mount=type=tmpfs,target=/var/log \
+    apt-get update && \
+    apt-get install -y curl software-properties-common && \
+    curl -fsSL https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add - && \
+    echo "deb https://deb.nodesource.com/node_${NODE_MAJOR}.x $(lsb_release -cs) main" | tee /etc/apt/sources.list.d/nodesource.list && \
+    apt-get update && \
+    DEBIAN_FRONTEND=noninteractive apt-get install -yq --no-install-recommends nodejs
+
+Then, we install Yarn via NPM:
+
+ARG YARN_VERSION=latest
+RUN npm install -g yarn@$YARN_VERSION
+
+So, why are we adding NodeJS and Yarn in the first place? Although Rails 7
+allows you to [56]go Node-less via [57]import maps or precompiled binaries
+(like [58]tailwindcss-rails), these additions increase the chances of
+supporting legacy pipelines or adding modern Webpacker alternatives.
+
+Now it’s time to install the application-specific dependencies:
+
+COPY Aptfile /tmp/Aptfile
+RUN --mount=type=cache,target=/var/cache/apt,sharing=locked \
+  --mount=type=cache,target=/var/lib/apt,sharing=locked \
+  --mount=type=tmpfs,target=/var/log \
+  apt-get update -qq && DEBIAN_FRONTEND=noninteractive apt-get -yq dist-upgrade && \
+  DEBIAN_FRONTEND=noninteractive apt-get install -yq --no-install-recommends \
+    $(grep -Ev '^\s*#' /tmp/Aptfile | xargs)
+
+Let’s talk about that Aptfile trick a bit:
+
+COPY Aptfile /tmp/Aptfile
+RUN apt-get install \
+    $(grep -Ev '^\s*#' /tmp/Aptfile | xargs) \
+
+I borrowed this idea from [59]heroku-buildpack-apt, which allows for installing
+additional packages on Heroku. If you’re using this buildpack, you can even
+re-use the same Aptfile for both the local and the production environment.
+
+Our [60]default Aptfile contains only a single package (we’ll use Vim to edit
+the Rails Credentials):
+
+vim
+
+In one of the previous projects I worked on, we generated PDFs using LaTeX and 
+[61]TexLive. In a case like that, our Aptfile might look like this:
+
+vim
+# TeX packages
+texlive
+texlive-latex-recommended
+texlive-fonts-recommended
+texlive-lang-cyrillic
+
+By doing this we can keep task-specific dependencies in a separate file, thus
+making our Dockerfile more universal.
+
+With regards to DEBIAN_FRONTEND=noninteractive, I kindly ask you to take a look
+at this [62]answer on Ask Ubuntu.
+
+The --no-install-recommends option helps save some space (and makes our image
+smaller) by disabling the installation of recommended packages. You can see
+more [63]about saving disk space here.
+
+That first (fairly cryptic) part of every RUN statement that installs packages
+also serves the same purpose: it moves out the local repository of retrieved
+package files into a cache that will be preserved between builds. We need this
+magic to be in every RUN statement that installs packages to make sure this
+particular [64]Docker layer doesn’t contain any garbage. It also greatly speeds
+up image build!
+
+[65]RUN --mount is relatively new feature of Docker. Traditionally, every
+package installation step would be appended with a dark spell full of rm and 
+truncate commands to clean up temporary files.
+
+The final part of the Dockerfile is mostly devoted to Bundler:
+
+# Configure bundler
+ENV LANG=C.UTF-8 \
+  BUNDLE_JOBS=4 \
+  BUNDLE_RETRY=3 \
+
+# Store Bundler settings in the project's root
+ENV BUNDLE_APP_CONFIG=.bundle
+
+# Uncomment this line if you want to run binstubs without prefixing with `bin/` or `bundle exec`
+# ENV PATH /app/bin:$PATH
+
+# Upgrade RubyGems and install the latest Bundler version
+RUN gem update --system && \
+    gem install bundler
+
+Using LANG=C.UTF-8 sets the default locale to UTF-8. This is an emotional
+setting, as otherwise, Ruby would use US-ASCII for strings—and that’d mean
+waving goodbye to those sweet, sweet emojis! 👋
+
+Setting BUNDLE_APP_CONFIG is required if you’ll use the <root>/.bundle folder
+to store project-specicic Bundler settings (like credentials for private gems).
+The default Ruby image [66]defines this variable so Bundler doesn’t fall back
+to the local config.
+
+Optionally, you can add your <root>/bin folder to the PATH in order to run
+commands without bundle exec. We don’t do this by default, because it could
+break in a multi-project environment (for instance, when you have local gems or
+engines in your Rails app).
+
+Previously, we also had to specify the Bundler version (taking advantage of 
+[67]some hacks to make sure it’s picked up by the system). Luckily, since
+Bundler 2.3.0, we no longer need to manually install the version defined in the
+Gemfile.lock (BUNDLED_WITH). Instead, to avoid conflicts, Bundler [68]does this
+for us.
+
+[69]compose.yml
+
+[70]Docker Compose is a tool we can use to orchestrate our containerized
+environment. It allows us to link containers to each other, and to define
+persistent volumes and services.
+
+Below is the compose file for developing a typical Rails application with
+PostgreSQL as the database, and with Sidekiq as the background job processor:
+
+x-app: &app
+  build:
+    context: .
+    args:
+      RUBY_VERSION: '3.2.2'
+      PG_MAJOR: '15'
+      NODE_MAJOR: '18'
+  image: example-dev:1.0.0
+  environment: &env
+    NODE_ENV: ${NODE_ENV:-development}
+    RAILS_ENV: ${RAILS_ENV:-development}
+  tmpfs:
+    - /tmp
+    - /app/tmp/pids
+
+x-backend: &backend
+  <<: *app
+  stdin_open: true
+  tty: true
+  volumes:
+    - ..:/app:cached
+    - bundle:/usr/local/bundle
+    - rails_cache:/app/tmp/cache
+    - node_modules:/app/node_modules
+    - packs:/app/public/packs
+    - packs-test:/app/public/packs-test
+    - history:/usr/local/hist
+    - ./.psqlrc:/root/.psqlrc:ro
+    - ./.bashrc:/root/.bashrc:ro
+  environment: &backend_environment
+    <<: *env
+    REDIS_URL: redis://redis:6379/
+    DATABASE_URL: postgres://postgres:postgres@postgres:5432
+    WEBPACKER_DEV_SERVER_HOST: webpacker
+    MALLOC_ARENA_MAX: 2
+    WEB_CONCURRENCY: ${WEB_CONCURRENCY:-1}
+    BOOTSNAP_CACHE_DIR: /usr/local/bundle/_bootsnap
+    XDG_DATA_HOME: /app/tmp/caches
+    YARN_CACHE_FOLDER: /app/node_modules/.yarn-cache
+    HISTFILE: /usr/local/hist/.bash_history
+    PSQL_HISTFILE: /usr/local/hist/.psql_history
+    IRB_HISTFILE: /usr/local/hist/.irb_history
+    EDITOR: vi
+  depends_on: &backend_depends_on
+    postgres:
+      condition: service_healthy
+    redis:
+      condition: service_healthy
+
+services:
+  rails:
+    <<: *backend
+    command: bundle exec rails
+
+  web:
+    <<: *backend
+    command: bundle exec rails server -b 0.0.0.0
+    ports:
+      - '3000:3000'
+    depends_on:
+      webpacker:
+        condition: service_started
+      sidekiq:
+        condition: service_started
+
+  sidekiq:
+    <<: *backend
+    command: bundle exec sidekiq -C config/sidekiq.yml
+
+  postgres:
+    image: postgres:14
+    volumes:
+      - .psqlrc:/root/.psqlrc:ro
+      - postgres:/var/lib/postgresql/data
+      - history:/user/local/hist
+    environment:
+      PSQL_HISTFILE: /user/local/hist/.psql_history
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - 5432
+    healthcheck:
+      test: pg_isready -U postgres -h 127.0.0.1
+      interval: 5s
+
+  redis:
+    image: redis:6.2-alpine
+    volumes:
+      - redis:/data
+    ports:
+      - 6379
+    healthcheck:
+      test: redis-cli ping
+      interval: 1s
+      timeout: 3s
+      retries: 30
+
+  webpacker:
+    <<: *app
+    command: bundle exec ./bin/webpack-dev-server
+    ports:
+      - '3035:3035'
+    volumes:
+      - ..:/app:cached
+      - bundle:/usr/local/bundle
+      - node_modules:/app/node_modules
+      - packs:/app/public/packs
+      - packs-test:/app/public/packs-test
+    environment:
+      <<: *env
+      WEBPACKER_DEV_SERVER_HOST: 0.0.0.0
+      YARN_CACHE_FOLDER: /app/node_modules/.yarn-cache
+
+volumes:
+  bundle:
+  node_modules:
+  history:
+  rails_cache:
+  postgres:
+  redis:
+  packs:
+  packs-test:
+
+We define six services and two extension fields (x-app and x-backend). [71]
+Extension fields allow us to define common parts of the configuration. We can
+attach YAML anchors to them, and later, embed anywhere in the file.
+
+NOTE: In the end, we don’t use Docker Compose or execute the docker compose up
+command in order to run our application. Instead, we use Dip (see [72]below),
+and thus, the compose.yml file only acts as a services registry. Another
+important thing to note is that we put the compose.yml file into the .dockerdev
+/ folder. This is why we mount the source code as ..:/app and not .:/app.
+Please, keep this in mind if you’re considering using this configuration
+without Dip (which is not recommended).
+
+On that note, let’s go ahead and take a thorough look at each service.
+
+x-app
+
+The main purpose of this extension is to provide all the required information
+to build our application container (as defined in the Dockerfile above):
+
+x-app: &app
+  build:
+    context: .
+    args:
+      RUBY_VERSION: '3.2.2'
+      PG_MAJOR: '15'
+      NODE_MAJOR: '18'
+
+What is the context? The context directory defines the [73]build context for
+Docker. This is something like a working directory for the build process—for
+example, when we execute the COPY command. As this directory is packaged and
+sent to the Docker daemon every time an image is built, it’s better to keep it
+as small as possible. We’re good here, since our context is just the .dockerdev
+folder.
+
+And, as we mentioned earlier, we’ll specify the exact version of our
+dependencies using the args as declared in the Dockerfile.
+
+It’s also a good idea to pay attention to the way we tag images:
+
+image: example-dev:1.0.0
+
+One of the benefits of using Docker for development is the ability to
+automatically synchronize configuration changes across the team. This means the
+only time you need to upgrade the local image version is when you make changes
+to it (or to the arguments or files it relies on). Using example-dev:latest is
+like shooting yourself in the foot.
+
+Keeping an image version also helps work with two different environments
+without any additional hassle. For example, when working on a long-standing
+“chore/upgrade-to-ruby-3” branch, you can easily switch to master and use the
+older image with the older version of Ruby: no need to rebuild anything.
+
+    Rule of thumb: Increase the version number in the image tag every time you
+    change Dockerfile or its arguments (upgrading dependencies, etc.)
+
+Next, we add some common environment variables (those shared by multiple
+services, e.g., Rails and Webpacker):
+
+environment: &env
+  NODE_ENV: ${NODE_ENV:-development}
+  RAILS_ENV: ${RAILS_ENV:-development}
+
+There are several things going on here, but I’d like to focus on just one: the 
+X=${X:-smth} syntax. This could be translated as “For X variable within the
+container, if present, use the host machine’s X env variable, otherwise, use
+another value”. Thus, we make it possible to run a service in a different
+environment specified along with a command, e.g., RAILS_ENV=test docker-compose
+up rails.
+
+Note that we’re using a dictionary value (NODE_ENV: xxx) and not a list value (
+- NODE_ENV=xxx) for the environment field. This allows us to re-use the common
+settings (see below).
+
+We also tell Docker to [74]use tmpfs for the /tmp folder within a container—and
+also for the tmp/pids folder of our application. This way, we ensure that no 
+server.pid survives a container exit (say goodbye to any “A server is already
+running” errors):
+
+tmpfs:
+  - /tmp
+  - /app/tmp/pids
+
+x-backend
+
+Alright, so now, we’ve finally reached the most interesting part of this post.
+
+This service defines the shared behavior of all Ruby services.
+
+Let’s talk about the volumes first:
+
+x-backend: &backend
+  <<: *app
+  stdin_open: true
+  tty: true
+  volumes:
+    - ..:/app:cached
+    - rails_cache:/app/tmp/cache
+    - bundle:/usr/local/bundle
+    - history:/usr/local/hist
+    - node_modules:/app/node_modules
+    - packs:/app/public/packs
+    - packs-test:/app/public/packs-test
+    - ./.psqlrc:/root/.psqlrc:ro
+    - ./.bashrc:/root/.bashrc:ro
+    - ./.pryrc:/root/.pryrc:ro
+  environment: &backend_environment
+    <<: *env
+    REDIS_URL: redis://redis:6379/
+    DATABASE_URL: postgres://postgres:postgres@postgres:5432
+    WEBPACKER_DEV_SERVER_HOST: webpacker
+    MALLOC_ARENA_MAX: 2
+    WEB_CONCURRENCY: ${WEB_CONCURRENCY:-1}
+    BOOTSNAP_CACHE_DIR: /usr/local/bundle/_bootsnap
+    XDG_DATA_HOME: /app/tmp/caches
+    YARN_CACHE_FOLDER: /app/node_modules/.yarn-cache
+    HISTFILE: /usr/local/hist/.bash_history
+    PSQL_HISTFILE: /usr/local/hist/.psql_history
+    IRB_HISTFILE: /usr/local/hist/.irb_history
+    EDITOR: vi
+  depends_on: &backend_depends_on
+    postgres:
+      condition: service_healthy
+    redis:
+      condition: service_healthy
+volumes:
+  - ..:/app:cached
+  - bundle:/usr/local/bundle
+  - rails_cache:/app/tmp/cache
+  - node_modules:/app/node_modules
+  - packs:/app/public/packs
+  - packs-test:/app/public/packs-test
+  - history:/usr/local/hist
+  - ./.psqlrc:/root/.psqlrc:ro
+  - ./.bashrc:/root/.bashrc:ro
+
+The Docker team is striving to make Docker work faster on MacOS. The latest
+releases (since [75]4.6.0) come with VirtioFS accelerated directory sharing and
+virtualization.framework support. Go check the “Experimental Features” tab in
+the Docker Desktop Preferences. You might find the resulting performance
+improvement to be pretty amazing: ([76]regular actions become ~2x faster)!
+
+The first item in the volumes list mounts the project directory to the /app
+folder within a container using the cached strategy. This cached modifier was
+the key to efficient Docker development on macOS.
+
+Wait, was?
+
+Yeah. Was. That’s because since the release of gRPC FUSE synchronization, it’s 
+[77]no longer needed. Still, I decided to keep it for a while, for two reasons:
+first, some of your teammates may still be using older Docker desktop versions,
+and second, I ran some benchmarks and found that using older osxfs file sharing
+could have better performance (but only when using :cached). So, even on modern
+versions of Docker, it could make sense to uncheck the “Use gRPC FUSE for file
+sharing” option inside the preferences menu.
+
+The next line tells our container to use a volume named bundle to store the
+contents of /usr/local/bundle (this is where gems are stored [78]by default).
+By doing this, we persist our gem data across runs: all the volumes defined in 
+compose.yml will stay put until we run compose down --volumes.
+
+The following lines have also been dutifully placed in order to nullify the
+“Docker is slow on Mac” curse. We put all the generated files into Docker
+volumes to avoid any heavy disk operations on the host machine:
+
+- rails_cache:/app/tmp/cache
+- node_modules:/app/node_modules
+- packs:/app/public/packs
+- packs-test:/app/public/packs-test
+
+    To give Docker a suitably fast speed on macOS, follow these two rules: use 
+    :cached to mount source files (if not using gRPC FUSE), and use volumes for
+    generated content (assets, bundle, etc.).
+
+NOTE: If you’re using Sprockets (or Propshaft), don’t forget to add a dedicated
+volume to store the assets (assets:/app/public/assets). For tailwindcss-rails,
+add something like assets_builds:/app/assets/builds.
+
+We’ll then mount different command line tools configuration files and a volume
+to persist their history:
+
+- history:/usr/local/hist
+- ./.psqlrc:/root/.psqlrc:ro
+- ./.bashrc:/root/.bashrc:ro
+
+Oh, and why is psql in the Ruby container? That’s because it’s used internally
+when you run rails dbconsole.
+
+Pressing onward, our [79].psqlrc file contains the following trick which makes
+it possible to specify the path to the history file via the env variable—thus
+allowing us to specify the path to the history file via the PSQL_HISTFILE env
+variable, or otherwise, fall back to the default $HOME/.psql_history:
+
+\set HISTFILE `[[ -z $PSQL_HISTFILE ]] && echo $HOME/.psql_history || echo $PSQL_HISTFILE`
+
+The .bashrc file allows us to add terminal customizations within a container:
+
+alias be="bundle exec"
+
+Alright, let’s talk about the environment variables:
+
+environment: &backend_environment
+  <<: *env
+  # ----
+  # Service discovery
+  # ----
+  REDIS_URL: redis://redis:6379/
+  DATABASE_URL: postgres://postgres:postgres@postgres:5432
+  WEBPACKER_DEV_SERVER_HOST: webpacker
+  # ----
+  # Application configuration
+  # ----
+  MALLOC_ARENA_MAX: 2
+  WEB_CONCURRENCY: ${WEB_CONCURRENCY:-1}
+  # -----
+  # Caches
+  # -----
+  BOOTSNAP_CACHE_DIR: /usr/local/bundle/_bootsnap
+  # This env variable is used by some tools (e.g., RuboCop) to store caches
+  XDG_DATA_HOME: /app/tmp/cache
+  # Puts the Yarn cache into a mounted volume for speed
+  YARN_CACHE_FOLDER: /app/node_modules/.yarn-cache
+  # ----
+  # Dev tools
+  # ----
+  HISTFILE: /usr/local/hist/.bash_history
+  PSQL_HISTFILE: /usr/local/hist/.psql_history
+  IRB_HISTFILE: /usr/local/hist/.irb_history
+  EDITOR: vi
+
+First of all, we “inherit” variables from the common environment variables (<<:
+*env).
+
+The first group of variables (DATABASE_URL, REDIS_URL, and 
+WEBPACKER_DEV_SERVER_HOST) connect our Ruby application to other services.
+
+The DATABASE_URL and WEBPACKER_DEV_SERVER_HOST variables are supported by Rails
+(ActiveRecord and Webpacker respectively) out of the box. Some libraries
+(Sidekiq) also support REDIS_URL, but not all of them: for instance, Action
+Cable must be explicitly configured.
+
+The second group contains some application-wide settings. For example, we
+define MALLOC_ARENA_MAX and WEB_CONCURRENCY to help us keep Ruby memory
+handling in check.
+
+Read more about Ruby memory spells and techniques:
+
+[80]Cables vs. malloc_trim, or yet another Ruby memory usage benchmark
+
+Cables vs. malloc_trim, or yet another Ruby memory usage benchmark
+
+March 19, 2019
+Read also
+
+Also, we have the variables responsible for storing caches in Docker volumes (
+BOOTSNAP_CACHE_DIR, XDG_DATA_HOME, YARN_CACHE_FOLDER).
+
+We use [81]bootsnap to speed up application load time. We store its cache in
+the same volume as the Bundler data. This is because this cache mostly contains
+the gem data, and we want to make sure the cache is reset every time we drop
+the Bundler volume (for instance, during a Ruby version upgrade).
+
+The final group of variables aim to improve the developer experience. HISTFILE:
+/usr/local/hist/.bash_history is the most significant here: it tells Bash to
+store its history in the specified location, thus making it persistent. The
+same goes for PSQL_HISTFILE and IRB_HISTFILE.
+
+NOTE: You need to configure IRB to store history in the specified location. To
+do that, drop these lines into your .irbrc file:
+
+IRB.conf[:HISTORY_FILE] = ENV["IRB_HISTFILE"] if ENV["IRB_HISTFILE"]
+
+Finally, EDITOR: vi is used, for example, by the rails credentials:edit command
+to manage credentials files.
+
+And with that, the only lines in this service we’ve yet to cover are:
+
+stdin_open: true
+tty: true
+
+These lines make this service interactive, that is, they provide a TTY. We need
+this, for example, to run the Rails console or Bash within a container.
+
+This is the same as running a Docker container with the -it option.
+
+rails
+
+The rails server is our default backend service. The only thing it overrides is
+the command to execute:
+
+rails:
+  <<: *backend
+  command: bundle exec rails
+
+This service is meant for executing all the commands needed in development (
+rails db:migrate, rspec, etc.).
+
+web
+
+The web service is meant for launching a web server. It defines the exposed
+ports and the required dependencies to run the app itself.
+
+webpacker
+
+The only thing I want to mention here is the WEBPACKER_DEV_SERVER_HOST: 0.0.0.0
+setting: it makes the Webpack dev server accessible from the outside (it runs
+on localhost by default).
+
+Health checks
+
+When running common Rails commands such as db:migrate, we want to ensure that
+the DB is up and ready to accept connections. How can we tell Docker Compose to
+wait until a dependent service is ready? We can use [82]health checks!
+
+You’ve probably noticed that our depends_on definition isn’t just a list of
+services:
+
+backend:
+  # ...
+  depends_on:
+    postgres:
+      condition: service_healthy
+    redis:
+      condition: service_healthy
+
+postgres:
+  # ...
+  healthcheck:
+    test: pg_isready -U postgres -h 127.0.0.1
+    interval: 5s
+
+redis:
+  # ...
+  healthcheck:
+    test: redis-cli ping
+    interval: 1s
+    timeout: 3s
+    retries: 30
+
+Introducing Dip
+
+If you still think that Docker Compose way is too complicated, there’s a tool
+called [83]Dip (developed by one of my colleages at Evil Martians) which aims
+to make the developer experience even smoother.
+
+[84]Reusable development containers with Docker Compose and Dip
+
+Reusable development containers with Docker Compose and Dip
+
+November 17, 2020
+Read also
+
+[85]Dip is a thin wrapper over docker compose, which provides a switch from
+infrastructure-oriented flow to development-oriented one. The key benefits of
+using Dip are as follows:
+
+  • The ability to define application-specific interactive commands and
+    sub-commands.
+  • The dip provision flow to quickly set up a development environment from
+    scratch.
+  • Support for multiple compose.yml files (including OS-specific
+    configurations).
+
+With Dip in place, to start working on the app locally, you just need to
+execute a few commands:
+
+# Builds a Docker image if none, runs additional commands
+$ dip provision
+# Runs a Rails server with the defined dependencies
+$ dip rails s
+=> Booting Puma
+=> Rails 7.0.2.2 application starting in development
+=> Run `bin/rails server --help` for more startup options
+[1] Puma starting in cluster mode...
+...
+[1] - Worker 0 (PID: 9) booted in 0.0s, phase: 0
+
+Here is our typical [86]dip.yml file:
+
+version: '7.1'
+
+# Define default environment variables to pass
+# to Docker Compose
+environment:
+  RAILS_ENV: development
+
+compose:
+  files:
+    - .dockerdev/compose.yml
+  project_name: example_demo
+
+interaction:
+  # This command spins up a Rails container with the required dependencies (such as databases),
+  # and opens a terminal within it.
+  runner:
+    description: Open a Bash shell within a Rails container (with dependencies up)
+    service: rails
+    command: /bin/bash
+
+  # Run a Rails container without any dependent services (useful for non-Rails scripts)
+  bash:
+    description: Run an arbitrary script within a container (or open a shell without deps)
+    service: rails
+    command: /bin/bash
+    compose_run_options: [ no-deps ]
+
+  # A shortcut to run Bundler commands
+  bundle:
+    description: Run Bundler commands
+    service: rails
+    command: bundle
+    compose_run_options: [ no-deps ]
+
+  # A shortcut to run RSpec (which overrides the RAILS_ENV)
+  rspec:
+    description: Run RSpec commands
+    service: rails
+    environment:
+      RAILS_ENV: test
+    command: bundle exec rspec
+
+  rails:
+    description: Run Rails commands
+    service: rails
+    command: bundle exec rails
+    subcommands:
+      s:
+        description: Run Rails server at http://localhost:3000
+        service: web
+        compose:
+          run_options: [service-ports, use-aliases]
+
+  yarn:
+    description: Run Yarn commands
+    service: rails
+    command: yarn
+    compose_run_options: [ no-deps ]
+
+  psql:
+    description: Run Postgres psql console
+    service: postgres
+    default_args: anycasts_dev
+    command: psql -h postgres -U postgres
+
+  'redis-cli':
+    description: Run Redis console
+    service: redis
+    command: redis-cli -h redis
+
+provision:
+  - dip compose down --volumes
+  - dip compose up -d postgres redis
+  - dip bash -c bin/setup
+
+Let me explain some bits of this in further detail.
+
+First, the compose section:
+
+compose:
+  files:
+    - .dockerdev/compose.yml
+  project_name: example_demo
+
+Here we should specify the path to our Compose configuration (.dockerdev/
+compose.yml). Accordingly, we can run dip from the project root, and the
+correct configuration will be picked up.
+
+The project_name is important: if we don’t specify it, the folder containing
+the compose.yml file would be used (“dockerdev”), which could lead to
+collisions between different projects.
+
+The rails command is also worth some additional attention:
+
+rails:
+  description: Run Rails commands
+  service: rails
+  command: bundle exec rails
+  subcommands:
+    s:
+      description: Run Rails server at http://localhost:3000
+      service: web
+      compose:
+        run_options: [service-ports, use-aliases]
+
+By default, the dip rails command would call bundle exec rails within a Rails
+container. However, we use the subcommand feature of Dip here to treat dip
+rails s differently:
+
+  • We use the web service, not rails (so, the deps are up).
+  • We expose the service ports (3000 in our case).
+  • We also enable network aliases, so other services can access this container
+    via the web hostname.
+
+Under the hood, this will result in the following Docker Compose command:
+
+docker compose run --rm --service-ports --use-aliases web
+
+Note that it uses run, and not up. This difference makes our server
+terminal-accessible. For example, this means that we can attach a debugger and
+use it without any problems (with the up command the terminal is
+non-interactive).
+
+Interactive provisioning
+
+To learn how to keep configuration under control, check out this “Terraforming
+Rails” series:
+
+[87]Anyway Config: Keep your Ruby configuration sane
+
+Anyway Config: Keep your Ruby configuration sane
+
+April 14, 2020
+[svg]
+Cover for Anyway Config: Keep your Ruby configuration sane
+Read also
+
+For most applications, building an image and setting up a database is not
+enough to start developing: beyond this, some kind of secrets, or credentials,
+or .env files are required. Here, we’ve managed to use Dip to help new
+engineers quickly assemble all these wayfallen parts by providing an
+interactive provision experience.
+
+Let’s consider, for example, that we need to put a .env.development.local file
+with some secret info and also configure RubyGems to download packages from a
+private registry (say, Sidekiq Pro). For this, I’ll write the following
+provision script:
+
+# The command is extracted, so we can use it alone
+configure_bundler:
+  command: |
+    (test -f .bundle/config && cat .bundle/config | \
+      grep BUNDLE_ENTERPRISE__CONTRIBSYS__COM > /dev/null) ||
+    \
+      (echo "Sidekiq ent credentials: "; read -r creds; dip bundle config --local enterprise.contribsys.com $creds)
+
+provision:
+  - (test -f .env.development.local) || (echo "\n\n ⚠️  .env.development.local file is missing\n\n"; exit 1)
+  - dip compose down --volumes
+  - dip configure_bundler
+  - (test -f config/database.yml) || (cp .dockerdev/database.yml.example config/database.yml)
+  - dip compose up -d postgres redis
+  - dip bash -c bin/setup
+
+Below you can see a demonstration of this command running in action:
+
+An interactive Dip provisioning example
+
+Services vs Docker for development
+
+You can use a good ‘ol [88]Makefile to do the same, for sure. However, we’ve
+found that using a dedicated tool (like Dip) to define everything in a
+declarative manner is more efficient.
+
+One more use case for standardizing the development setup is to make it
+possible to run multiple independent services locally. Let me quickly
+demonstrate how we do this with Dip. First, you need to dockerize each
+application (following this post). After that, we need to connect the apps to
+each other. How can we do this? With the help of Docker Compose [89]external
+networks.
+
+We add the following line to the dip.yml for each app:
+
+# ...
+provision:
+  # Make sure the named network exists
+  - docker network inspect my_project > /dev/null 2>&1 || \
+    docker network create my_project
+# ...
+
+Finally, we attach services to this network via aliases in the compose.yml
+files:
+
+# service A: compose.yml
+service:
+  ruby:
+    # ...
+    networks:
+      default:
+      project:
+        aliases:
+          - project-a
+
+networks:
+  project:
+    external:
+      name: my_project
+
+# service B: compose.yml
+service:
+  web:
+    # ...
+    environment:
+      # We can access the service A via its alias defined for the external network
+      SERVICE_URL: http://project-a:3000
+
+networks:
+  project:
+    external:
+      name: my_project
+
+From development to production
+
+So, here’s one of the most popular questions we’ve been asked since launching
+the first version of this article: how to go live with Docker? To answer this,
+we’d need to write a entirely new article… and we will 😉.
+
+For now, let me give a sneak preview of how can we extend the current
+development setup to cover the production environment as well.
+
+First of all, we’re not going to talk about a Docker Compose-based deployment,
+so compose.yml is out. All we need is to update our Docker image to reflect the
+difference between development and production:
+
+ 1. For security reasons, we should execute the code on behalf of the regular,
+    non-root user.
+ 2. We should keep all the required dependencies and artifacts within the image
+    itself; we cannot use volumes (the image should be self-contained).
+ 3. We should keep and copy the source code into a container.
+ 4. The resulting image should be as slim as possible.
+
+To achieve this, we’ll refactor our existing Dockerfile to define multiple
+stages (and to support [90]multi-stage builds). Below is the annotated example:
+
+# syntax=docker/dockerfile:1
+
+ARG RUBY_VERSION
+ARG DISTRO_NAME=bullseye
+
+# Here we add the the name of the stage ("base")
+FROM ruby:$RUBY_VERSION-slim-$DISTRO_NAME AS base
+
+ARG PG_MAJOR
+ARG NODE_MAJOR
+ARG YARN_VERSION
+
+# Common dependencies
+# ...
+# The following lines are exactly the same as before
+# ...
+# ...
+WORKDIR /app
+
+EXPOSE 3000
+CMD ["/bin/bash"]
+
+# Then, we define the "development" stage from the base one
+FROM base AS development
+
+ENV RAILS_ENV=development
+
+# The major difference from the base image is that we may have development-only system
+# dependencies (like Vim or graphviz).
+# We extract them into the Aptfile.dev file.
+COPY Aptfile.dev /tmp/Aptfile.dev
+RUN --mount=type=cache,target=/var/cache/apt,sharing=locked \
+  --mount=type=cache,target=/var/lib/apt,sharing=locked \
+  --mount=type=tmpfs,target=/var/log \
+  apt-get update -qq && DEBIAN_FRONTEND=noninteractive apt-get -yq dist-upgrade && \
+  DEBIAN_FRONTEND=noninteractive apt-get install -yq --no-install-recommends \
+    $(grep -Ev '^\s*#' /tmp/Aptfile.dev | xargs)
+
+# The production-builder image is responsible for installing dependencies and compiling assets
+FROM base as production-builder
+
+# First, we create and configure a dedicated user to run our application
+RUN groupadd --gid 1005 my_user \
+  && useradd --uid 1005 --gid my_user --shell /bin/bash --create-home my_user
+USER my_user
+RUN mkdir /home/my_user/app
+WORKDIR /home/my_user/app
+
+# Then, we re-configure Bundler
+ENV RAILS_ENV=production \
+  LANG=C.UTF-8 \
+  BUNDLE_JOBS=4 \
+  BUNDLE_RETRY=3 \
+  BUNDLE_APP_CONFIG=/home/my_user/bundle \
+  BUNDLE_PATH=/home/my_user/bundle \
+  GEM_HOME=/home/my_user/bundle
+
+# Install Ruby gems
+COPY --chown=my_user:my_user Gemfile Gemfile.lock ./
+RUN mkdir $BUNDLE_PATH \
+  && bundle config --local deployment 'true' \
+  && bundle config --local path "${BUNDLE_PATH}" \
+  && bundle config --local without 'development test' \
+  && bundle config --local clean 'true' \
+  && bundle config --local no-cache 'true' \
+  && bundle install --jobs=${BUNDLE_JOBS} \
+  && rm -rf $BUNDLE_PATH/ruby/${RUBY_VERSION}/cache/* \
+  && rm -rf /home/my_user/.bundle/cache/*
+
+# Install JS packages
+COPY --chown=my_user:my_user package.json yarn.lock ./
+RUN yarn install --check-files
+
+# Copy code
+COPY --chown=my_user:my_user . .
+
+# Precompile assets
+# NOTE: The command may require adding some environment variables (e.g., SECRET_KEY_BASE) if you're not using
+# credentials.
+RUN bundle exec rails assets:precompile
+
+# Finally, our production image definition
+# NOTE: It's not extending the base image, it's a new one
+FROM ruby:$RUBY_VERSION-slim-$DISTRO_NAME AS production
+
+# Production-only dependencies
+RUN --mount=type=cache,target=/var/cache/apt,sharing=locked \
+  --mount=type=cache,target=/var/lib/apt,sharing=locked \
+  --mount=type=tmpfs,target=/var/log \
+  apt-get update -qq \
+  && apt-get dist-upgrade -y \
+  && DEBIAN_FRONTEND=noninteractive apt-get install -yq --no-install-recommends \
+    curl \
+    gnupg2 \
+    less \
+    tzdata \
+    time \
+    locales \
+  && update-locale LANG=C.UTF-8 LC_ALL=C.UTF-8
+
+# Upgrade RubyGems and install the latest Bundler version
+RUN gem update --system && \
+    gem install bundler
+
+# Create and configure a dedicated user (use the same name as for the production-builder image)
+RUN groupadd --gid 1005 my_user \
+  && useradd --uid 1005 --gid my_user --shell /bin/bash --create-home my_user
+RUN mkdir /home/my_user/app
+WORKDIR /home/my_user/app
+USER my_user
+
+# Ruby/Rails env configuration
+ENV RAILS_ENV=production \
+  BUNDLE_APP_CONFIG=/home/my_user/bundle \
+  BUNDLE_PATH=/home/my_user/bundle \
+  GEM_HOME=/home/my_user/bundle \
+  PATH="/home/my_user/app/bin:${PATH}" \
+  LANG=C.UTF-8 \
+  LC_ALL=C.UTF-8
+
+EXPOSE 3000
+
+# Copy code
+COPY --chown=my_user:my_user . .
+
+# Copy artifacts
+# 1) Installed gems
+COPY --from=production-builder $BUNDLE_PATH $BUNDLE_PATH
+# 2) Compiled assets (by Webpacker in this case)
+COPY --from=production-builder /home/my_user/app/public/packs /home/my_user/app/public/packs
+# 3) We can even copy the Bootsnap cache to speed up our Rails server load!
+COPY --chown=my_user:my_user --from=production-builder /home/my_user/app/tmp/cache/bootsnap* /home/my_user/app/tmp/cache/
+
+CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0"]
+
+Introducing the Ruby on Whales interactive generator
+
+As a bonus, our Ruby on Whales [91]repository ships with a Rails template
+(published on [92]Rails Bytes), which can help you quickly adopt Docker for
+development by running a single command (and answering a few questions).
+
+Without further ado, check out the demonstartion below:
+
+An interactive Ruby on Whales installer
+
+You can give it a try by running a single command:
+
+rails app:template LOCATION='https://railsbytes.com/script/z5OsoB'
+
+Radio wave representing wind sounds on Mars
+
+Acknoledgements
+
+I would like to thank:
+
+  • [93]Sergey Ponomarev for sharing performance tips and helping battle-test
+    the initial dockerization attempts.
+  • [94]Mikhail Merkushin for his work on Dip.
+  • [95]Dmitriy Nemykin for helping with the major (v2) upgrade.
+  • [96]Oliver Klee ([97]Brain Gourmets) for continuous PRs with the
+    configuration improvements and actualization.
+
+Radio wave representing wind sounds on Mars
+
+Changelog
+
+2.0.3 (2023-09-21)
+
+  • Upgrade Node.js installation script.
+
+2.0.2 (2022-11-30)
+
+  • Use RUN --mount for caching packages between builds instead of manual
+    cleanup.
+
+2.0.1 (2022-03-22)
+
+  • Replace deprecated apt-key with gpg.
+
+2.0.0 (2022-03-02)
+
+  • Major upgrade and new chapters.
+
+1.1.4 (2021-10-12)
+
+  • Added tmp/pids to tmpfs (to deal with “A server is already running”
+    errors).
+
+1.1.3 (2021-03-30)
+
+  • Updated Dockerfile to mitigate MiniMagic licensing issues. See [98]
+    terraforming-rails#35
+  • Use dictionary to organize environment variables. See [99]
+    terraforming-rails#6
+
+1.1.2 (2021-02-26)
+
+  • Update dependencies versions. See [100]terraforming-rails#28
+  • Allow to use comments in Aptfile. See [101]terraforming-rails#31
+  • Fix path to Aptfile inside Dockerfile. See [102]terraforming-rails#33
+
+1.1.1 (2020-09-15)
+
+  • Use .dockerdev directory as build context instead of project directory. See
+    [103]terraforming-rails#26 for details.
+
+1.1.0 (2019-12-10)
+
+  • Change base Ruby image to slim.
+  • Specify Debian release for Ruby version explicitly and upgrade to buster.
+  • Use standard Bundler path (/usr/local/bundle) instead of /bundle.
+  • Use Docker Compose file format v2.4.
+  • Add health checking to postgres and redis services.
+
+Join our email newsletter
+
+Get all the new posts delivered directly to your inbox. Unsubscribe anytime.
+
+[104][                    ]Your email[105][                    ]
+Subscribe
+Or [107]subscribe to a feed
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[108]chronicles@evilmartians.com
+
+United States
+
+[109]+1 888 400 5485
+
+Portugal
+
+[110]+351 308 808 570
+
+Japan
+
+[111]+81 6 6225 1242
+
+  • [112]Contact us
+  • [113]Careers
+  • [114]日本語版
+
+[115]Privacy policy
+[116]Cookie & privacy preferences
+[117]Notice at collection
+
+Designed and developed by Evil Martians
+
+
+References:
+
+[1] https://evilmartians.com/
+[2] https://cal.com/team/evilmartians/exploration
+[3] https://evilmartians.com/services
+[4] https://evilmartians.com/clients
+[5] https://evilmartians.com/products
+[6] https://evilmartians.com/opensource
+[7] https://evilmartians.com/chronicles
+[8] https://evilmartians.com/events
+[9] https://evilmartians.com/devpropulsionlabs
+[10] https://x.com/evilmartians
+[11] https://www.linkedin.com/company/evil-martians
+[12] https://github.com/evilmartians
+[13] https://www.youtube.com/@evil.martians
+[14] https://evilmartians.com/
+[15] https://cal.com/team/evilmartians/exploration
+[16] https://evilmartians.com/services
+[17] https://evilmartians.com/clients
+[18] https://evilmartians.com/products
+[19] https://evilmartians.com/opensource
+[20] https://evilmartians.com/chronicles
+[21] https://evilmartians.com/events
+[22] https://evilmartians.com/devpropulsionlabs
+[23] https://x.com/evilmartians
+[24] https://www.linkedin.com/company/evil-martians
+[25] https://github.com/evilmartians
+[26] https://www.youtube.com/@evil.martians
+[27] https://evilmartians.com/events/evolution-of-real-time-and-anycable-rocky-mountain
+[28] https://cal.com/team/evilmartians/exploration
+[29] https://x.com/evilmartians
+[30] https://www.linkedin.com/company/evil-martians
+[31] https://github.com/evilmartians
+[32] https://www.youtube.com/@evil.martians
+[33] https://evilmartians.com/chronicles?categories=backend
+[34] https://evilmartians.com/chronicles?services=software-development
+[35] https://evilmartians.com/chronicles?services=audit-and-optimization
+[36] https://evilmartians.com/chronicles?skills=rubyonrails
+[37] https://evilmartians.com/chronicles?skills=ruby
+[38] https://evilmartians.com/chronicles?skills=docker
+[39] https://evilmartians.com/chronicles?skills=postgresql
+[40] https://evilmartians.com/chronicles?skills=nodejs
+[41] https://techracho.bpsinc.jp/hachi8833/2022_04_07/116843
+[42] https://xfyuan.github.io/2020/07/dockeerizing-rails-development/
+[43] https://evilmartians.com/chronicles/ruby-on-whales-docker-for-ruby-rails-development#changelog
+[44] https://noti.st/palkan/vhsbxO/terraforming-legacy-rails-applications
+[45] https://github.com/evilmartians/ruby-on-whales
+[46] https://evilmartians.com/chronicles/ruby-on-whales-docker-for-ruby-rails-development#basic-docker-configuration
+[47] https://evilmartians.com/chronicles/ruby-on-whales-docker-for-ruby-rails-development#introducing-dip
+[48] https://evilmartians.com/chronicles/ruby-on-whales-docker-for-ruby-rails-development#services-vs-docker-for-development
+[49] https://evilmartians.com/chronicles/ruby-on-whales-docker-for-ruby-rails-development#from-development-to-production
+[50] https://evilmartians.com/chronicles/ruby-on-whales-docker-for-ruby-rails-development#introducing-the-ruby-on-whales-interactive-generator
+[51] https://github.com/evilmartians/ruby-on-whales/blob/main/example/.dockerdev/Dockerfile
+[52] https://github.com/moby/moby/issues/34129
+[53] https://www.postgresql.org/download/linux/debian/
+[54] https://docs.docker.com/compose/
+[55] https://github.com/nodesource/distributions/blob/master/README.md#debinstall
+[56] https://world.hey.com/dhh/modern-web-apps-without-javascript-bundling-or-transpiling-a20f2755
+[57] https://github.com/WICG/import-maps
+[58] https://github.com/rails/tailwindcss-rails
+[59] https://github.com/heroku/heroku-buildpack-apt
+[60] https://github.com/evilmartians/terraforming-rails/blob/master/examples/dockerdev/.dockerdev/Aptfile
+[61] https://www.tug.org/texlive/
+[62] https://askubuntu.com/a/972528
+[63] http://xubuntugeek.blogspot.com/2012/06/save-disk-space-with-apt-get-option-no.html
+[64] https://docs.docker.com/storage/storagedriver/#images-and-layers
+[65] https://github.com/moby/buildkit/blob/master/frontend/dockerfile/docs/reference.md#run---mount
+[66] https://github.com/docker-library/ruby/issues/129#issue-229195231
+[67] https://github.com/evilmartians/terraforming-rails/pull/24
+[68] https://github.com/rubygems/rubygems/pull/4076
+[69] https://github.com/evilmartians/ruby-on-whales/blob/main/example/.dockerdev/compose.yml
+[70] https://docs.docker.com/compose/
+[71] https://github.com/compose-spec/compose-spec/blob/master/spec.md#extension
+[72] https://evilmartians.com/chronicles/ruby-on-whales-docker-for-ruby-rails-development#introducing-dip
+[73] https://docs.docker.com/compose/compose-file/#context
+[74] https://docs.docker.com/v17.09/engine/admin/volumes/tmpfs/#choosing-the-tmpfs-or-mount-flag
+[75] https://www.docker.com/blog/speed-boost-achievement-unlocked-on-docker-desktop-4-6-for-mac/
+[76] https://twitter.com/palkan_tula/status/1504499523216945167
+[77] https://github.com/docker/for-mac/issues/5402
+[78] https://github.com/infosiftr/ruby/blob/9b1f77c11d663930f4175c683b1c5f268d4d8191/Dockerfile.template#L47
+[79] https://github.com/evilmartians/ruby-on-whales/blob/main/example/.dockerdev/.psqlrc
+[80] https://evilmartians.com/chronicles/cables-vs-malloc_trim-or-yet-another-ruby-memory-usage-benchmark
+[81] https://www.github.com/Shopify/bootsnap
+[82] https://docs.docker.com/compose/compose-file/compose-file-v3/#healthcheck
+[83] https://evilmartians.com/opensource/dip
+[84] https://evilmartians.com/chronicles/reusable-development-containers-with-docker-compose-and-dip
+[85] https://evilmartians.com/opensource/dip
+[86] https://github.com/evilmartians/ruby-on-whales/blob/main/example/dip.yml
+[87] https://evilmartians.com/chronicles/anyway-config-keep-your-ruby-configuration-sane
+[88] https://makefile.site/
+[89] https://docs.docker.com/compose/networking/#use-a-pre-existing-network
+[90] https://docs.docker.com/develop/develop-images/multistage-build/
+[91] https://github.com/evilmartians/ruby-on-whales
+[92] https://railsbytes.com/public/templates/z5OsoB
+[93] https://github.com/sponomarev
+[94] https://github.com/bibendi
+[95] https://github.com/fargelus/
+[96] https://github.com/oliverklee
+[97] https://www.braingourmets.com/
+[98] https://github.com/evilmartians/terraforming-rails/pull/35
+[99] https://github.com/evilmartians/terraforming-rails/pull/6
+[100] https://github.com/evilmartians/terraforming-rails/pull/28
+[101] https://github.com/evilmartians/terraforming-rails/pull/31
+[102] https://github.com/evilmartians/terraforming-rails/issues/33
+[103] https://github.com/evilmartians/terraforming-rails/issues/26
+[107] https://evilmartians.com/chronicles.atom
+[108] mailto:chronicles@evilmartians.com
+[109] tel:+18884005485
+[110] tel:+351308808570
+[111] tel:+81662251242
+[112] https://evilmartians.com/contact-us
+[113] https://wellfound.com/company/evilmartians
+[114] https://evilmartians.jp/
+[115] https://evilmartians.com/privacy
+[116] https://evilmartians.com/cookies
+[117] https://evilmartians.com/privacy#notice_at_collection

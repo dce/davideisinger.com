@@ -4,6 +4,19 @@ date: 2022-05-05T00:00:00+00:00
 draft: false
 canonical_url: https://www.viget.com/articles/local-docker-best-practices/
 featured: true
+references:
+- title: "Ruby on Whales: Dockerizing Ruby and Rails development—Martian Chronicles, Evil Martians’ team blog"
+  url: https://evilmartians.com/chronicles/ruby-on-whales-docker-for-ruby-rails-development
+  date: 2024-10-02T13:37:32Z
+  file: evilmartians-com-6ehmrb.txt
+- title: "Docker: Right for Us. Right for You? | Viget"
+  url: https://www.viget.com/articles/docker-right-for-us-right-for-you-1/
+  date: 2024-10-02T13:37:33Z
+  file: www-viget-com-h4onv6.txt
+- title: "Docker + Rails: Solutions to Common Hurdles | Viget"
+  url: https://www.viget.com/articles/docker-rails-solutions-to-common-hurdles/
+  date: 2024-10-02T13:37:33Z
+  file: www-viget-com-1hyo6b.txt
 ---
 
 Here at Viget, Docker has become an indispensable tool for local

@@ -1,0 +1,318 @@
+[1] Skip to Main Content
+[2] Viget
+
+  • [3] Work
+  • [4] Services
+  • [5] Articles
+  • [6] Careers
+  • [7] Contact
+  • Open Menu
+
+Navigation
+
+[9] Viget Close
+
+  • Practice
+  • [11] Work
+  • [12] Services
+  • [13] Articles
+
+We’re a full-service digital agency that’s been helping clients make lasting
+change since 1999.
+
+[14] Contact Us
+
+People
+
+  • [15]Company
+  • [16]Careers
+  • [17]Code of Ethics
+  • [18]Diversity & Inclusion
+
+More
+
+  • [19]Pointless Corp.
+  • [20]Explorations
+  • [21]Code at Viget
+
+Featured
+
+[22]
+Read the Article: Building the Future, One Intern at a Time
+
+Newsletter
+
+Building the Future, One Intern at a Time
+
+[23]
+Read the Article: Some Thoughts after a Major Ruby on Rails Upgrade
+
+Article
+
+Some Thoughts after a Major Ruby on Rails Upgrade
+
+Docker: Right for Us. Right for You?
+
+[eyJidWNrZXQiOiJ2Z3QtdmlnZXRjb20tYW]
+
+  • [24]Home
+  • [25]Articles
+  • [26]Docker: Right for Us. Right for You?
+
+[27] Subscribe (opens in a new window)
+Share
+
+  • [29] Share this page
+  • [30] Share this page
+  • [31] Post this page
+
+Eli Fatsi, Former Development Director
+
+Article Categories: [32] #Code, [33] #Back-end Engineering, [34] #Tooling
+
+Posted on March 29, 2021
+
+  • [35]
+    Share
+  • [36]
+    Share
+  • [37]
+    Post
+
+Some reflections from our adventures in Docker
+
+S o m e r e f l e c t i o n s f r o m o u r a d v e n t u r e s i n D o c k e r
+
+Over the last two years, we've been using Docker more and more here at Viget.
+We're a consulting agency so our developers are cycling on and off a wide
+variety of projects, often times building and maintaining multiple distinct
+platforms simultaneously. Docker has provided a handful of specific wins with
+this setup, and brought with it a handful of it's own drawbacks:
+
+Where Docker is Good [38]#
+
+Running multiple versions of dependencies (eg: postgres)
+
+This used to be a large pain every now and then, now it's not. What more can I
+say except thank you, Docker.
+
+New developers onboarding to a project
+
+Now when people onboard to a project with a sprawling tech stack, they don't
+have to become a local devops expert in order to configure their machine to run
+the app locally. We can usually abstract the build and setup to a handful of
+docker-compose calls and they're up and running.
+
+Running non-standard dependencies uniformly on everyone's machine (eg: redis,
+elasticsearch, background worker queues)
+
+Similar to the problem of onboarding new people, onboarding new tech to a
+running team can involve a lot of work if everyone has to update their stack to
+accomodate the new tooling. Docker encapsulates a lot of the initial setup
+complexity.
+
+Where Docker is Frustrating [39]#
+
+While Docker can make it quicker and easier to get complicated architectures
+running on a number of developer (and non-developer) machines, it does so at a
+cost. Docker adds an additional layer of infrastructure between you (the human)
+and an application's runtime, which acts as a hurdle for a lot of standard
+development tools and strategies.
+
+For example, one of the first issues I ran into was seeing that my breakpoints
+were suddenly unusable. When developing in a pure local environment, something
+like binding.pry (Ruby) or breakpoint() (Python) will halt the code
+mid-execution, and expose an interactive REPL for inspection. If you have a
+Rails application running via a docker-compose.yml file, those breakpoints
+hang, but there's shell to interact or continue with.
+
+There is, of course, a solution to this issue (check out the follow on post to
+this: [40]Docker + Rails), but it involves learning a bit about Docker and
+using more than just the basic docker-compose build/up/down commands. Which
+really seems to be the story for most problems we've hit: the solution is out
+there, and the more you know about Docker / Docker Compose, the easier it is to
+find it.
+
+Summary [41]#
+
+For the type of work we do at Viget, working on multiple projects across wildly
+varying tech stacks, leaning on dependencies that range from cutting edge to
+practically abandoned, Docker has brought our team way more upsides than it has
+drawbacks.
+
+I will mention that we haven't experimented with Docker in any of our
+deployment / devops processes. I know this is another selling point for people
+(bringing production / development environments closer together in behavior),
+but we haven't found a use case for that that seems more appealing than our
+current setup (primarily built on Terraform & Ansible).
+
+Whether or not leaning on Docker is right for you is entirely dependent on the
+kinds of projects you're running and what team you have working on them.
+Something I can say with some certainty though is that Docker has the power to
+hide a lot of local devops pain points, so if you and your team are drowning in
+those, maybe give Docker a whirl.
+
+Related Articles
+
+  • [42]
+    Some Thoughts after a Major Ruby on Rails Upgrade
+
+    Article
+
+    Some Thoughts after a Major Ruby on Rails Upgrade
+
+    Noah Over
+
+  • [43]
+    Setting up a Python Project Using asdf, PDM, and Ruff
+
+    Article
+
+    Setting up a Python Project Using asdf, PDM, and Ruff
+
+    Danny Brown
+
+  • [44]
+    Craft 5: What It Means For Super Table Page Builders
+
+    Article
+
+    Craft 5: What It Means For Super Table Page Builders
+
+    Max Myers
+
+The Viget Newsletter
+
+Nobody likes popups, so we waited until now to recommend our newsletter,
+featuring thoughts, opinions, and tools for building a better digital world. 
+[45]Read the current issue.
+
+[46]Subscribe Here (opens in new window)
+
+Site Footer
+
+Have an unsolvable problem or audacious idea?
+
+Let’s get to work
+
+[47] Contact Us [48] hello@viget.com [49] 703.891.0670
+
+  • Practice
+  • [50]Work
+  • [51]Services
+  • [52]Articles
+
+  • People
+  • [53]Company
+  • [54]Careers
+  • [55]Code of Ethics
+  • [56]Diversity & Inclusion
+
+  • More
+  • [57]Pointless Corp.
+  • [58]Explorations
+  • [59]Code at Viget
+
+Sign Up For Our Newsletter
+
+A curated periodical featuring thoughts, opinions, and tools for building a
+better digital world.
+
+[60] Check it out
+
+Social Links
+
+[61] Viget
+
+  • [62]
+  • [63]
+  • [64]
+  • [65]
+  • [66]
+  • [67]
+
+Viget rhymes with 'dig it'. Click here to hear how we say it.
+
+Office Locations
+
+  • [69]Washington, DC Metro
+  • [70]Durham, NC
+  • [71]Boulder, CO
+  • [72]Chattanooga, TN
+
+© 1999 – 2024 Viget Labs, LLC. [73]Terms [74]Privacy [75]MRF
+
+
+References:
+
+[1] https://www.viget.com/articles/docker-right-for-us-right-for-you-1/#content
+[2] https://www.viget.com/
+[3] https://www.viget.com/work/
+[4] https://www.viget.com/services/
+[5] https://www.viget.com/articles/
+[6] https://www.viget.com/careers/
+[7] https://www.viget.com/contact/
+[9] https://www.viget.com/
+[11] https://www.viget.com/work/
+[12] https://www.viget.com/services/
+[13] https://www.viget.com/articles/
+[14] https://www.viget.com/contact/
+[15] https://www.viget.com/about/
+[16] https://www.viget.com/careers/
+[17] https://www.viget.com/code-of-ethics/
+[18] https://www.viget.com/diversity-equity-and-inclusion/
+[19] https://pointlesscorp.com/
+[20] https://explorations.viget.com/
+[21] https://code.viget.com/
+[22] https://www.viget.com/newsletter/building-the-future-one-intern-at-a-time/
+[23] https://www.viget.com/articles/some-thoughts-after-a-major-ruby-on-rails-upgrade/
+[24] https://www.viget.com/
+[25] https://www.viget.com/articles
+[26] https://www.viget.com/articles/docker-right-for-us-right-for-you-1/#hero
+[27] http://eepurl.com/gtHqsj
+[29] https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.viget.com%2Farticles%2Fdocker-right-for-us-right-for-you-1%2F
+[30] http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.viget.com%2Farticles%2Fdocker-right-for-us-right-for-you-1%2F
+[31] https://x.com/intent/tweet?text=Some%20reflections%20from%20our%20adventures%20in%20Docker%20https%3A%2F%2Fwww.viget.com%2Farticles%2Fdocker-right-for-us-right-for-you-1%2F
+[32] https://www.viget.com/articles/?category=code#results
+[33] https://www.viget.com/articles/?category=back-end-engineering#results
+[34] https://www.viget.com/articles/?category=tooling#results
+[35] https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.viget.com%2Farticles%2Fdocker-right-for-us-right-for-you-1%2F
+[36] http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.viget.com%2Farticles%2Fdocker-right-for-us-right-for-you-1%2F
+[37] https://x.com/intent/tweet?text=Some%20reflections%20from%20our%20adventures%20in%20Docker%20https%3A%2F%2Fwww.viget.com%2Farticles%2Fdocker-right-for-us-right-for-you-1%2F
+[38] https://www.viget.com/articles/docker-right-for-us-right-for-you-1/#where-docker-is-good
+[39] https://www.viget.com/articles/docker-right-for-us-right-for-you-1/#where-docker-is-frustrating
+[40] https://gist.github.com/efatsi/23b42c707ba39a6ae0926c1d1fc71749
+[41] https://www.viget.com/articles/docker-right-for-us-right-for-you-1/#summary
+[42] https://www.viget.com/articles/some-thoughts-after-a-major-ruby-on-rails-upgrade/
+[43] https://www.viget.com/articles/setting-up-a-python-project-using-asdf-pdm-and-ruff/
+[44] https://www.viget.com/articles/craft-5-what-it-means-for-super-table-page-builders/
+[45] https://www.viget.com/newsletter
+[46] http://eepurl.com/gtHqsj
+[47] https://www.viget.com/contact/
+[48] mailto:hello@viget.com?subject=Hello%2C%20Viget%21
+[49] tel:7038910670
+[50] https://www.viget.com/work/
+[51] https://www.viget.com/services/
+[52] https://www.viget.com/articles/
+[53] https://www.viget.com/about/
+[54] https://www.viget.com/careers/
+[55] https://www.viget.com/code-of-ethics/
+[56] https://www.viget.com/diversity-equity-and-inclusion/
+[57] https://pointlesscorp.com/
+[58] https://explorations.viget.com/
+[59] https://code.viget.com/
+[60] https://www.viget.com/newsletter/
+[61] https://www.viget.com/
+[62] http://x.com/viget
+[63] https://github.com/vigetlabs
+[64] https://dribbble.com/viget
+[65] https://www.instagram.com/viget/
+[66] https://www.linkedin.com/company/viget-labs
+[67] https://vimeo.com/viget/collections
+[69] https://www.viget.com/dc-metro-hq/
+[70] https://www.viget.com/durham/
+[71] https://www.viget.com/boulder/
+[72] https://www.viget.com/chattanooga/
+[73] https://www.viget.com/terms-conditions/
+[74] https://www.viget.com/privacy-policy/
+[75] https://individual.carefirst.com/individuals-families/mandates-policies/machine-readable-file.page
