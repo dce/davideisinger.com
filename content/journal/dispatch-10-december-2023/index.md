@@ -38,10 +38,10 @@ In what's now I guess an annual tradition, I ran a 10K the morning of Thanksgivi
 [3]: /journal/dispatch-10-december-2023/ttt-result.pdf
 [4]: /journal/dispatch-10-december-2023/ttt-cert.pdf
 
-I spent few evenings building a tool to keep Markdown links in order, which I've called `mdrenum`. I documented the process thoroughly in a [separate post][5]. Super fun to make and quite useful for writing these posts. It's up on [GitHub][6] if you're interested.
+I spent few evenings building a tool to keep Markdown links in order, which I've called `mdrenum`. I documented the process thoroughly in a [separate post][5]. Super fun to make and quite useful for writing these posts. It's up on [sourcehut][6] if you're interested.
 
 [5]: /journal/keep-markdown-links-in-order-with-mdrenum/
-[6]: https://github.com/dce/mdrenum
+[6]: https://git.sr.ht/~dce/mdrenum
 
 I bought a [201 Pocket Piano][7] after seeing it on [Bonobo's gear list][8] so that I could make some music while we were traveling. This thing is cool! Great sounds and patterns, MIDI in/out, battery powered and a built-in speaker. The company that makes it releases new synths pretty regularly, and it's super straightforward to swap them out -- just plug it into your computer, hit a couple keys, and it shows up as a drive.
 

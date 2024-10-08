@@ -54,12 +54,12 @@ On a whim, I decided to check out [Deno][12], a newer alternative to Node.js for
 [14]: https://bun.sh/
 [15]: https://bun.sh/docs/bundler/executables
 
-Once I had a working proof-of-concept and a toolchain I was happy with, the rest was all fun; writing recursive functions that work with tree structures to do useful work is extremely my shit ([here's an old post I wrote about _The Little Schemer_][16] along these same lines). I added [Jest][17] and pulled in all my Go tests, as well as [Prettier][18] to stand in for `gofmt`. I wrapped things up earlier this week and published the result, which I've imaginatively called `mdrenum`, to [GitHub][19].
+Once I had a working proof-of-concept and a toolchain I was happy with, the rest was all fun; writing recursive functions that work with tree structures to do useful work is extremely my shit ([here's an old post I wrote about _The Little Schemer_][16] along these same lines). I added [Jest][17] and pulled in all my Go tests, as well as [Prettier][18] to stand in for `gofmt`. I wrapped things up earlier this week and published the result, which I've imaginatively called `mdrenum`, to [sourcehut][19].
 
 [16]: /elsewhere/the-little-schemer-will-expand-blow-your-mind/
 [17]: https://jestjs.io/
 [18]: https://prettier.io/
-[19]: https://github.com/dce/mdrenum
+[19]: https://git.sr.ht/~dce/mdrenum
 
 Bun (compiler) + TypeScript (type checking) + Prettier (code formatting) gets me most of what I like about working with Go, and I'm excited to use this tech in the future. The resulting executable is big (~45MB, as compared with ~2MB for my Go solution), but, hey, disk space is cheap and this actually works.
 
@@ -81,10 +81,10 @@ auto-format = true
 formatter = { command = "mdrenum" , args = ["--stdin"] }
 ```
 
-[22]: https://github.com/dce/mdrenum/blob/42c28c1e4b964ebc348a2fef54daa3be51824a90/src/cli.ts#L6-L15
+[22]: https://git.sr.ht/~dce/mdrenum/tree/42c28c1e4b964ebc348a2fef54daa3be51824a90/item/src/cli.ts#L6-15
 
 This totally works, and I'll say that it's uniquely satisfying to save a document and see the link numbers get instantly reordered properly. I've done it probably 100 times in the course of writing this post.
 
 ---
 
-Thanks for coming on this journey with me, and if this seems like a tool that might be useful to you, grab it from [GitHub][19] and open an issue if you have any questions.
+Thanks for coming on this journey with me, and if this seems like a tool that might be useful to you, grab it from [sourcehut][19] and open an issue if you have any questions.
