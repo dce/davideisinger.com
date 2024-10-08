@@ -1,0 +1,47 @@
+image: ubuntu/24.04
+packages:
+  - imagemagick
+  - rsync
+  - ruby
+sources:
+  - https://git.sr.ht/~dce/davideisinger.com
+secrets:
+  - 9b440bf5-2785-4ab9-9584-124b9ecd04c4 # decryption key
+  - bea2ece1-a780-44cc-b74b-e96c484f0daf # server IP
+  - a1f811ce-156d-4083-9d6e-110da705a286 # deploy key
+triggers:
+  - action: email
+    condition: failure
+    to: david@davideisinger.com
+tasks:
+  - setup: |
+      wget --quiet https://github.com/gohugoio/hugo/releases/download/v0.122.0/hugo_extended_0.122.0_linux-amd64.deb
+      sudo apt install -y ./hugo_extended_0.122.0_linux-amd64.deb
+      sudo gem install bundler
+      echo 'cd davideisinger.com' >> ~/.buildenv
+  - dither: |
+      cd bin/dither
+      sudo bundle install
+      ROOT=~/davideisinger.com/content \
+        KEY=~/secret.key \
+        bundle exec rackup -p 4567 -D
+  - hugo: |
+      source bin/get-last-commit.sh
+      DITHER_SERVER=http://localhost:4567 hugo --minify
+      find public -name "*.enc" -type f -delete
+  - check-branch: |
+      if [ "$(git rev-parse main)" != "$(git rev-parse HEAD)" ]; then \
+        complete-build; \
+      fi
+  - deploy: |
+      set +x
+      export SERVER_IP=$(cat ~/server_ip.txt)
+      rsync \
+        --rsh="ssh -o StrictHostKeyChecking=no" \
+        -v \
+        -r \
+        --delete \
+        public/* \
+        www-data@$SERVER_IP:/var/www/davideisinger.com \
+        2>/dev/null
+      set -x
