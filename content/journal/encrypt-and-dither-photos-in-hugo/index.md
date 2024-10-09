@@ -60,7 +60,8 @@ Here's a picture of me, before and after dithering:
 
 ### 1. Encrypt all images
 
-We'll use OpenSSL to encrypt our images ([here's a guide][11]). First, we'll generate a secret key (the `-hex` option gives us something we can paste into a GitHub secret later):
+
+We'll use OpenSSL to encrypt our images ([here's a guide][11]). First, we'll generate a secret key (the `-hex` option gives us something we can easily copy/paste):
 
 [11]: https://www.bjornjohansen.com/encrypt-file-using-ssh-key
 
