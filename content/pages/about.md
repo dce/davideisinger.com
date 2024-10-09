@@ -62,7 +62,7 @@ The links on the homepage are pulled from my [Pinboard bookmarks][16]. I create 
 
 I manage my [monthly dispatch emails][18] with [Listmonk][19], also running as a container behind a Caddy proxy.
 
-Source code is available on [GitHub][20].
+Source code is available on [sourcehut][20].
 
 [12]: https://gohugo.io/
 [13]: https://pragprog.com/titles/bhhugo/build-websites-with-hugo/
@@ -72,4 +72,4 @@ Source code is available on [GitHub][20].
 [17]: https://w3m.sourceforge.net/
 [18]: https://dispatch.davideisinger.com/archive
 [19]: https://listmonk.app/
-[20]: https://github.com/dce/davideisinger.com/
+[20]: https://git.sr.ht/~dce/davideisinger.com
