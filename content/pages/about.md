@@ -54,22 +54,23 @@ You can [receive my monthly dispatches via email][9] or [add my RSS feed to your
 
 This site is built with [Hugo][12]. I recommend Brian P. Hogan's [_Build Websites with Hugo_][13] if you'd like to set up your own Hugo site from first principles.
 
-It's deployed via GitHub Actions to a small Digital Ocean server running behind Cloudflare. I use [Caddy][14] in a Docker container to serve the site.
+It's deployed via [sourcehut builds][14] to a small Digital Ocean server running behind Cloudflare. I use [Caddy][15] in a Docker container to serve the site.
 
-Image dithering is handled via a small webservice I've detailed in [a dedicated post][15].
+Image dithering is handled via a small webservice I've detailed in [a dedicated post][16].
 
-The links on the homepage are pulled from my [Pinboard bookmarks][16]. I create plaintext backups of pages I link to with [w3m][17].
+The links on the homepage are pulled from my [Pinboard bookmarks][17]. I create plaintext backups of pages I link to with [w3m][18].
 
-I manage my [monthly dispatch emails][18] with [Listmonk][19], also running as a container behind a Caddy proxy.
+I manage my [monthly dispatch emails][19] with [Listmonk][20], also running as a container behind a Caddy proxy.
 
-Source code is available on [sourcehut][20].
+Source code is available on [sourcehut][21].
 
 [12]: https://gohugo.io/
 [13]: https://pragprog.com/titles/bhhugo/build-websites-with-hugo/
-[14]: https://caddyserver.com/
-[15]: /journal/encrypt-and-dither-photos-in-hugo/
-[16]: https://pinboard.in/u:DCE/public/
-[17]: https://w3m.sourceforge.net/
-[18]: https://dispatch.davideisinger.com/archive
-[19]: https://listmonk.app/
-[20]: https://git.sr.ht/~dce/davideisinger.com
+[14]: https://man.sr.ht/builds.sr.ht/
+[15]: https://caddyserver.com/
+[16]: /journal/encrypt-and-dither-photos-in-hugo/
+[17]: https://pinboard.in/u:DCE/public/
+[18]: https://w3m.sourceforge.net/
+[19]: https://dispatch.davideisinger.com/archive
+[20]: https://listmonk.app/
+[21]: https://git.sr.ht/~dce/davideisinger.com
