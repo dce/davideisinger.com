@@ -12,8 +12,8 @@ references:
 I write all these posts in Markdown, and I tend to include a lot of links. I use numbered [reference-style links][1] and I like the numbers to be in sequential order. ([Here's the source of this post][2] to see what I mean.) I wrote a [Ruby script][3] to automate the process of renumbering links when I add a new one, and as mentioned in [last month's dispatch][4], I spent some time iterating on it to work with some new posts containing code blocks that I'd imported into my [Elsewhere][5] section.
 
 [1]: https://www.markdownguide.org/basic-syntax/#reference-style-links
-[2]: https://github.com/dce/davideisinger.com/blob/main/content/journal/keep-markdown-links-in-order-with-mdrenum/index.md?plain=1
-[3]: https://github.com/dce/davideisinger.com/blob/e1d0590025fd8636c378748491fe11a0ba00b1ff/bin/renumber
+[2]: https://git.sr.ht/~dce/davideisinger.com/tree/main/content/journal/keep-markdown-links-in-order-with-mdrenum/index.md?view-source
+[3]: https://git.sr.ht/~dce/davideisinger.com/tree/cc3cebb27c7d0340747a9ba0a406da2ad475a634/bin/renumber
 [4]: /journal/dispatch-9-november-2023/
 [5]: /elsewhere
 
@@ -81,7 +81,7 @@ auto-format = true
 formatter = { command = "mdrenum" , args = ["--stdin"] }
 ```
 
-[22]: https://git.sr.ht/~dce/mdrenum/tree/42c28c1e4b964ebc348a2fef54daa3be51824a90/item/src/cli.ts#L6-15
+[22]: https://git.sr.ht/~dce/mdrenum/tree/42c28c1e4b964ebc348a2fef54daa3be51824a90/src/cli.ts#L6-15
 
 This totally works, and I'll say that it's uniquely satisfying to save a document and see the link numbers get instantly reordered properly. I've done it probably 100 times in the course of writing this post.
 

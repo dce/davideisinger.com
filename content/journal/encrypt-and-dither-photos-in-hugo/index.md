@@ -42,7 +42,7 @@ Most of what I post on this site are these monthly [dispatches][6] that start wi
 
 [6]: /tags/dispatch/
 [7]: https://elliotjaystocks.com/blog/2023-in-review
-[8]: https://github.com/dce/davideisinger.com
+[8]: https://git.sr.ht/~dce/davideisinger.com
 
 I tried treating the full-size images with ImageMagick on the command line and then letting Hugo resize the result, but I wasn't happy with the output -- there's still way too much data in a dithered full-sized image, so when you scale it down, it just looks like a crappy black-and-white photo. Furthermore, the encoding wasn't properly optimizing for two-color images and so the files were larger than I wanted.
 
@@ -95,13 +95,13 @@ end
 
 I made a [standalone image server][13] using [Sinatra][14] and [MiniMagick][15] that takes a path to an encrypted image and an optional geometry string and returns a dithered image. I won't paste the entire file here but it's really pretty short and simple.
 
-[13]: https://github.com/dce/davideisinger.com/blob/bf5238dd56b6dfe9ee2f1d629d017b2075750663/bin/dither/dither.rb
+[13]: https://git.sr.ht/~dce/davideisinger.com/tree/bf5238dd56b6dfe9ee2f1d629d017b2075750663/bin/dither/dither.rb
 [14]: https://sinatrarb.com/
 [15]: https://github.com/minimagick/minimagick
 
 If you want to run it yourself, copy down everything in the [`bin/dither`][16] folder and then run the following:
 
-[16]: https://github.com/dce/davideisinger.com/tree/bf5238dd56b6dfe9ee2f1d629d017b2075750663/bin/dither
+[16]: https://git.sr.ht/~dce/davideisinger.com/tree/bf5238dd56b6dfe9ee2f1d629d017b2075750663/bin/dither
 
 
 ```sh
@@ -157,7 +157,7 @@ Adjust for your needs, but the gist is:
 2. Use `resources.GetRemote` to fetch the image
 3. Display as appropriate
 
-[17]: https://github.com/dce/davideisinger.com/blob/2cda4b8f4e98bb9df84747da283d13075aac4d41/themes/v2/layouts/shortcodes/dither.html
+[17]: https://git.sr.ht/~dce/davideisinger.com/tree/2cda4b8f4e98bb9df84747da283d13075aac4d41/themes/v2/layouts/shortcodes/dither.html
 
 Use it like this:
 
@@ -191,21 +191,21 @@ The blacks will still show as black, but the whites will now be the background c
 
 ### 6. Update the deploy workflow
 
-This site uses GitHub Actions to deploy on pushes to the `main` branch, and we need to make a few updates to our workflow to generate the static site with dithered images:
+This site uses [sourcehut][19] builds to deploy on pushes to the `main` branch, and we need to make a few updates to our workflow to generate the static site with dithered images:
 
-* Add the secret key as an Actions Secret
+* Add the decryption key as a secret
 * Add workflow steps to
   * Install Ruby and the required Gem dependencies
-  * Write the secret key to a file
-  * Start the dither server as a background task (i.e. with `&`)
+  * Start the dither server as a background task (using `rackup` with the `-D` option)
 * Add the `DITHER_SERVER` environment variable to the build step so that Hugo knows where to find it
 
-[Here's the deploy workflow for this site][19] for reference.
+[Here's the deploy workflow for this site][20] for reference.
 
-[19]: https://github.com/dce/davideisinger.com/blob/901c8baad1f60a65910b387b20c8bcd0ea402c0b/.github/workflows/deploy.yml
+[19]: https://sourcehut.org/
+[20]: https://git.sr.ht/~dce/davideisinger.com/tree/main/.build.yml
 
 ***
 
-This was super fun to build, and I'm really happy with [the result][20]. It makes the local authoring and deploy processes a bit more complicated since we have to run the separate image server, but I think the result is worth it. Hope you found this interesting, and please [reach out](mailto:hello@davideisinger.com) if you have any thoughts or questions.
+This was super fun to build, and I'm really happy with [the result][21]. It makes the local authoring and deploy processes a bit more complicated since we have to run the separate image server, but I think the result is worth it. Hope you found this interesting, and please [reach out](mailto:hello@davideisinger.com) if you have any thoughts or questions.
 
-[20]: /journal/dispatch-12-february-2024/
+[21]: /journal/dispatch-12-february-2024/

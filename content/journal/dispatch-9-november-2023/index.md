@@ -83,7 +83,7 @@ I made a few updates to the website this month:
 [13]: /elsewhere
 [14]: https://nokogiri.org/
 [15]: /elsewhere/pandoc-a-tool-i-use-and-like/
-[16]: https://github.com/dce/davideisinger.com/blob/e1d0590025fd8636c378748491fe11a0ba00b1ff/bin/renumber
+[16]: https://git.sr.ht/~dce/davideisinger.com/tree/cc3cebb27c7d0340747a9ba0a406da2ad475a634/bin/renumber
 
 I'm really happy with Hugo -- it's simple but flexible enough to handle every challenge I've thrown at it. Building and maintaining this site has brought me a lot of joy this year.
 
